@@ -47,8 +47,7 @@
     }
 
     .topbar {
-      position: sticky;
-      top: 0;
+      position: static;
       z-index: 20;
       padding: 8px 0 6px;
       background: linear-gradient(180deg, rgba(13,13,15,0.96), rgba(13,13,15,0.86));
@@ -122,16 +121,8 @@
 
     .area-row {
       display: grid;
-      gap: 8px;
+      gap: 6px;
       margin-bottom: 8px;
-    }
-
-    .area-label {
-      color: var(--muted);
-      font-size: calc(0.72rem * var(--ui-scale));
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding-left: 2px;
     }
 
     .area-strip {
@@ -152,37 +143,121 @@
       border-radius: 999px;
     }
 
-    .area-chip {
+    .area-card {
       flex: 0 0 auto;
       scroll-snap-align: start;
-      min-height: 40px;
-      border-radius: 999px;
+      width: 220px;
+      min-height: 78px;
+      border-radius: 14px;
       border: 1px solid #000;
       background: linear-gradient(180deg, #272932, #1f2027);
       color: var(--text);
-      padding: 8px 12px;
-      font-size: calc(0.8rem * var(--ui-scale));
-      font-weight: 800;
+      padding: 8px;
       box-shadow: 2px 2px 0 rgba(0,0,0,0.45);
       cursor: pointer;
+      display: grid;
+      grid-template-columns: 60px 1fr;
+      gap: 9px;
+      align-items: center;
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .area-card::before {
+      content: "";
+      position: absolute;
+      inset: auto 0 0 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--area-a, #ff8a00), var(--area-b, #ffb761));
+      opacity: 0.85;
+    }
+
+    .area-card .thumb {
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+      box-shadow: inset 0 0 0 1px rgba(0,0,0,0.35);
+    }
+
+    .area-card .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .area-card .thumb .thumb-fallback {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(120% 120% at 20% 10%, color-mix(in srgb, var(--area-a, #ff8a00) 35%, transparent), transparent 65%),
+        linear-gradient(160deg, #22242b, #17181d);
+      color: var(--area-b, #ffb761);
+      font-weight: 900;
+      font-size: calc(0.9rem * var(--ui-scale));
+      letter-spacing: 0.08em;
+    }
+
+    .area-card .meta {
+      min-width: 0;
+      display: grid;
+      gap: 3px;
+    }
+
+    .area-card .name {
+      font-weight: 900;
+      font-size: calc(0.84rem * var(--ui-scale));
+      line-height: 1.05;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      overflow: hidden;
+      text-overflow: ellipsis;
       white-space: nowrap;
     }
 
-    .area-chip small {
+    .area-card .sub {
       color: var(--muted);
-      font-weight: 700;
-      margin-left: 6px;
+      font-size: calc(0.72rem * var(--ui-scale));
+      line-height: 1.12;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
     }
 
-    .area-chip[aria-pressed="true"] {
+    .area-card .count {
+      color: var(--area-b, #ffb761);
+      font-size: calc(0.7rem * var(--ui-scale));
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .area-card[aria-pressed="true"] {
       background: linear-gradient(180deg, #ffd28a, #ffb761);
       color: #241400;
       outline: 2px solid rgba(255,183,97,0.25);
       outline-offset: 1px;
     }
 
-    .area-chip[aria-pressed="true"] small {
+    .area-card[aria-pressed="true"] .sub {
       color: #4a2d05;
+    }
+
+    .area-card[aria-pressed="true"] .count {
+      color: #4a2d05;
+    }
+
+    .area-card[aria-pressed="true"] .thumb {
+      border-color: rgba(66,42,10,0.16);
     }
 
     .finder-input {
@@ -204,6 +279,43 @@
     .finder-input:focus-visible {
       border-color: rgba(255,183,97,0.75);
       box-shadow: 0 0 0 2px rgba(255,183,97,0.18);
+    }
+
+    .finder-wrap {
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+      overflow: clip;
+    }
+
+    .finder-wrap > summary {
+      list-style: none;
+      cursor: pointer;
+      min-height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 0 12px;
+      color: var(--muted);
+      font-size: calc(0.82rem * var(--ui-scale));
+      font-weight: 800;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .finder-wrap > summary::-webkit-details-marker { display: none; }
+    .finder-wrap > summary::after {
+      content: "▾";
+      color: var(--ember);
+      font-size: 0.95em;
+    }
+    .finder-wrap[open] > summary::after { content: "▴"; }
+    .finder-wrap[open] > summary {
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .finder-wrap .finder-row {
+      padding: 8px;
     }
 
     .top-actions {
@@ -255,7 +367,7 @@
       box-shadow: 0 10px 18px rgba(0,0,0,0.26);
       padding: 12px;
       display: grid;
-      grid-template-columns: minmax(86px, 96px) 1fr auto;
+      grid-template-columns: minmax(96px, 108px) 1fr auto;
       gap: 12px;
       align-items: center;
       text-align: left;
@@ -263,7 +375,7 @@
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
       transition: transform .08s ease, border-color .15s ease, background .15s ease;
-      min-height: 118px;
+      min-height: 126px;
       touch-action: manipulation;
       scroll-margin-top: 88px;
       scroll-margin-bottom: calc(var(--player-h) + 28px);
@@ -289,8 +401,8 @@
     }
 
     .song-card .shield-svg {
-      width: 86px;
-      height: 86px;
+      width: 94px;
+      height: 94px;
       filter: drop-shadow(0 6px 0 rgba(0,0,0,0.38));
     }
 
@@ -508,6 +620,45 @@
       color: #1d1002;
     }
 
+    .player-extra {
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      background: rgba(255,255,255,0.02);
+      overflow: clip;
+    }
+
+    .player-extra > summary {
+      list-style: none;
+      min-height: 38px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 0 10px;
+      color: var(--muted);
+      font-size: calc(0.76rem * var(--ui-scale));
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      border-bottom: 1px solid transparent;
+    }
+
+    .player-extra > summary::-webkit-details-marker { display: none; }
+    .player-extra > summary::after {
+      content: "▾";
+      color: var(--ember);
+      font-size: 0.95em;
+    }
+    .player-extra[open] > summary::after { content: "▴"; }
+    .player-extra[open] > summary {
+      border-bottom-color: rgba(255,255,255,0.05);
+    }
+
+    .player-extra-inner {
+      padding: 8px 8px 8px;
+    }
+
     .seek-block {
       display: grid;
       grid-template-columns: auto 1fr auto;
@@ -580,22 +731,65 @@
     }
 
     @media (min-width: 700px) {
+      .topbar {
+        position: sticky;
+        top: 0;
+      }
       .song-list {
         grid-template-columns: 1fr 1fr;
+      }
+      .finder-wrap {
+        border: 0;
+        background: transparent;
+        border-radius: 0;
+      }
+      .finder-wrap > summary {
+        display: none;
+      }
+      .finder-wrap .finder-row {
+        padding: 0;
+      }
+      .player-extra {
+        border: 0;
+        background: transparent;
+        border-radius: 0;
+      }
+      .player-extra > summary {
+        display: none;
+      }
+      .player-extra-inner {
+        padding: 0;
       }
     }
 
     @media (max-width: 520px) {
+      .topbar {
+        border-bottom: 0;
+        padding-top: 6px;
+      }
       .topbar-card { padding: 10px; }
       .brand-row { margin-bottom: 8px; }
       .brand .mini-shield { width: 30px; height: 30px; }
       .mini-count { min-height: 30px; padding: 4px 8px; }
+      .area-row { margin-bottom: 6px; }
+      .area-card {
+        width: 202px;
+        min-height: 74px;
+        grid-template-columns: 56px 1fr;
+        padding: 7px;
+      }
+      .area-card .thumb {
+        width: 56px;
+        height: 56px;
+      }
+      .area-card .name {
+        font-size: calc(0.78rem * var(--ui-scale));
+      }
+      .area-card .sub {
+        font-size: calc(0.68rem * var(--ui-scale));
+      }
       .finder-row {
         grid-template-columns: 1fr auto;
-      }
-      .area-chip {
-        min-height: 42px;
-        font-size: calc(0.84rem * var(--ui-scale));
       }
       .finder-row .top-actions {
         grid-column: 1 / -1;
@@ -606,7 +800,7 @@
         min-width: 0;
       }
       .song-card {
-        grid-template-columns: 82px 1fr;
+        grid-template-columns: 92px 1fr;
         grid-template-areas:
           "shield meta"
           "shield right";
@@ -632,9 +826,7 @@
       .player-meta { grid-area: meta; }
       .player-status { grid-area: status; text-align: left; min-width: 0; margin-top: 2px; }
       .transport button { min-height: 56px; }
-      .player-tools {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
+      .player-tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .tool-btn {
         min-height: 46px;
         font-size: calc(0.86rem * var(--ui-scale));
@@ -663,17 +855,19 @@
           <div class="mini-count" id="visibleCount">16 songs</div>
         </div>
         <div class="area-row">
-          <div class="area-label">Areas</div>
           <div class="area-strip" id="areaStrip" role="group" aria-label="Album areas"></div>
         </div>
-        <div class="finder-row">
-          <label class="sr-only" for="filterInput">Find a song</label>
-          <input id="filterInput" class="finder-input" type="search" inputmode="search" placeholder="Find song (name / word)" />
-          <button class="pill" id="clearFilterBtn" type="button">Clear</button>
-          <div class="top-actions">
-            <button class="pill" id="jumpCurrentBtn" type="button">Current</button>
+        <details class="finder-wrap" id="finderWrap" open>
+          <summary>Find / Filter</summary>
+          <div class="finder-row">
+            <label class="sr-only" for="filterInput">Find a song</label>
+            <input id="filterInput" class="finder-input" type="search" inputmode="search" placeholder="Find song (name / word)" />
+            <button class="pill" id="clearFilterBtn" type="button">Clear</button>
+            <div class="top-actions">
+              <button class="pill" id="jumpCurrentBtn" type="button">Current</button>
+            </div>
           </div>
-        </div>
+        </details>
       </div>
     </header>
 
@@ -699,19 +893,24 @@
       <button type="button" id="nextBtn" aria-label="Next song">Next ▶▶</button>
     </div>
 
-    <div class="player-tools">
-      <button type="button" class="tool-btn fire" id="playAllBtn">Play All</button>
-      <button type="button" class="tool-btn" id="loopBtn" aria-pressed="true">Loop All</button>
-      <button type="button" class="tool-btn" id="shuffleBtn" aria-pressed="false">Shuffle</button>
-      <button type="button" class="tool-btn" id="bigTextBtn" aria-pressed="true">Text +</button>
-    </div>
+    <details class="player-extra" id="playerExtra" open>
+      <summary>More Controls</summary>
+      <div class="player-extra-inner">
+        <div class="player-tools">
+          <button type="button" class="tool-btn fire" id="playAllBtn">Play All</button>
+          <button type="button" class="tool-btn" id="loopBtn" aria-pressed="true">Loop All</button>
+          <button type="button" class="tool-btn" id="shuffleBtn" aria-pressed="false">Shuffle</button>
+          <button type="button" class="tool-btn" id="bigTextBtn" aria-pressed="true">Text +</button>
+        </div>
 
-    <div class="seek-block">
-      <div class="time" id="timeNow">0:00</div>
-      <label class="sr-only" for="seekBar">Seek</label>
-      <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" />
-      <div class="time" id="timeTotal">0:00</div>
-    </div>
+        <div class="seek-block">
+          <div class="time" id="timeNow">0:00</div>
+          <label class="sr-only" for="seekBar">Seek</label>
+          <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" />
+          <div class="time" id="timeTotal">0:00</div>
+        </div>
+      </div>
+    </details>
   </div>
 
   <audio id="audio" preload="metadata"></audio>
@@ -728,18 +927,58 @@
         .trim();
     }
 
-    function buildTracks(basePath, files, artist = "coolradio") {
-      return files.map((name) => ({
-        file: `${basePath}${name}`,
-        title: titleFromFilename(name),
-        artist
-      }));
+    function buildTracks(area, artist = "coolradio") {
+      return area.files.map((name, index) => {
+        const title = titleFromFilename(name);
+        return {
+          file: `${area.basePath}${name}`,
+          title,
+          artist,
+          areaKey: area.key,
+          art: area.trackArtByTitle?.[title] || area.trackArtByIndex?.[index] || null
+        };
+      });
     }
+
+    function makeCoverSVGDataURI(label, a, b, glyph = "◈") {
+      const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="${a}"/>
+              <stop offset="100%" stop-color="${b}"/>
+            </linearGradient>
+          </defs>
+          <rect width="200" height="200" rx="18" fill="#17181d"/>
+          <rect x="8" y="8" width="184" height="184" rx="14" fill="url(#g)" opacity="0.18"/>
+          <circle cx="100" cy="86" r="46" fill="none" stroke="${b}" stroke-width="8" opacity="0.9"/>
+          <text x="100" y="102" fill="${b}" font-size="42" text-anchor="middle" font-weight="800" font-family="Arial, sans-serif">${glyph}</text>
+          <text x="100" y="154" fill="${b}" font-size="18" text-anchor="middle" font-weight="800" font-family="Arial, sans-serif" letter-spacing="2">${label}</text>
+        </svg>`;
+      return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+    }
+
+    const ELEPHANT_TRACK_ART = {
+      "Synthetic Glow Aftershow": "../THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_1sm3kr1sm3kr1sm3.png",
+      "Prompt Cognition Loop": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_11_46 AM.png",
+      "Laundering Pain": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_11_26 AM.png",
+      "Trickster Labor": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_11_16 AM.png",
+      "Redacted Ethics": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_11_04 AM.png",
+      "Parrot in the Server Room": "../THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_50rufl50rufl50ru.png",
+      "Live Wire Transmission": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_23 AM.png",
+      "Pretty Tone Empty Core": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_12 AM.png",
+      "Designer Empathy": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_01 AM.png",
+      "The Deacon's Shadow": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_09_36 AM.png"
+    };
 
     const AREA_DEFS = [
       {
         key: "volholla",
         label: "VOLHOLLA",
+        description: "Tailgate hymns / roadside tribunals / Tennessee myth radio",
+        accentA: "#ff7a16",
+        accentB: "#ffbc70",
+        coverImage: makeCoverSVGDataURI("VOL", "#ff7a16", "#ffbc70", "V"),
         basePath: "./",
         files: [
           "coolradio - Criteria for the Reckless - Sonauto.mp3",
@@ -763,6 +1002,11 @@
       {
         key: "elephant",
         label: "STOCHASTIC ELEPHANT",
+        description: "Epistemic labor / neon elephants / forensic synthetic radio",
+        accentA: "#50d0ff",
+        accentB: "#ffb36b",
+        coverImage: "../THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png",
+        trackArtByTitle: ELEPHANT_TRACK_ART,
         basePath: "../THE STOCHASTIC ELEPHANT/",
         files: [
           "01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3",
@@ -780,6 +1024,10 @@
       {
         key: "loom",
         label: "BREATH-THIEFS LOOM",
+        description: "Ancestral code / curfew grooves / spectral city transmissions",
+        accentA: "#88d3c7",
+        accentB: "#d3b380",
+        coverImage: makeCoverSVGDataURI("LOOM", "#88d3c7", "#d3b380", "L"),
         basePath: "../THE BREATH-THIEFS LOOM/",
         files: [
           "coolradio - Ancestral Code - Sonauto.mp3",
@@ -802,6 +1050,10 @@
       {
         key: "moto",
         label: "MOTO",
+        description: "Warehouse drones / shrine banjos / symmetry breaks",
+        accentA: "#9ea5ff",
+        accentB: "#f0a963",
+        coverImage: makeCoverSVGDataURI("MOTO", "#9ea5ff", "#f0a963", "M"),
         basePath: "../MOTO/",
         files: [
           "coolradio - Banjo in the Shrine - Sonauto.mp3",
@@ -817,7 +1069,7 @@
           "coolradio - The Loom Floor Lament - Sonauto.mp3"
         ]
       }
-    ].map((area) => ({ ...area, tracks: buildTracks(area.basePath, area.files) }));
+    ].map((area) => ({ ...area, tracks: buildTracks(area) }));
 
     let tracks = [];
 
@@ -848,6 +1100,8 @@
       jumpCurrentBtn: document.getElementById("jumpCurrentBtn"),
       visibleCount: document.getElementById("visibleCount"),
       areaStrip: document.getElementById("areaStrip"),
+      finderWrap: document.getElementById("finderWrap"),
+      playerExtra: document.getElementById("playerExtra"),
       seekBar: document.getElementById("seekBar"),
       timeNow: document.getElementById("timeNow"),
       timeTotal: document.getElementById("timeTotal"),
@@ -885,6 +1139,9 @@
       const changed = area.key !== state.activeAreaKey;
       state.activeAreaKey = area.key;
       tracks = area.tracks;
+      if (els.filterInput) {
+        els.filterInput.placeholder = `Find in ${area.label.toLowerCase()}...`;
+      }
       if (changed) {
         state.currentIndex = -1;
         state.isSeeking = false;
@@ -911,9 +1168,19 @@
       AREA_DEFS.forEach((area) => {
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = "area-chip";
+        btn.className = "area-card";
         btn.setAttribute("aria-pressed", String(area.key === state.activeAreaKey));
-        btn.innerHTML = `${escapeHtml(area.label)} <small>${area.tracks.length}</small>`;
+        btn.setAttribute("aria-label", `Open ${area.label}, ${area.tracks.length} songs`);
+        btn.style.setProperty("--area-a", area.accentA || "#ff8a00");
+        btn.style.setProperty("--area-b", area.accentB || "#ffb761");
+        btn.innerHTML = `
+          <div class="thumb">${areaThumbHTML(area)}</div>
+          <div class="meta">
+            <div class="name">${escapeHtml(area.label)}</div>
+            <div class="count">${area.tracks.length} shields</div>
+            <div class="sub">${escapeHtml(area.description || "")}</div>
+          </div>
+        `;
         btn.addEventListener("click", () => {
           vibrate(8);
           setActiveArea(area.key);
@@ -963,16 +1230,50 @@
       });
     }
 
-    function shieldSVG(index, active = false, small = false) {
-      const motifs = [
-        "line", "ring", "chev", "hammer", "bars", "vmark"
-      ];
+    function syncResponsivePanels() {
+      const mobile = window.matchMedia("(max-width: 700px)").matches;
+      if (mobile) {
+        if (!state._mobilePanelsInit) {
+          if (els.finderWrap) els.finderWrap.open = false;
+          if (els.playerExtra) els.playerExtra.open = false;
+          state._mobilePanelsInit = true;
+        }
+      } else {
+        if (els.finderWrap) els.finderWrap.open = true;
+        if (els.playerExtra) els.playerExtra.open = true;
+        state._mobilePanelsInit = false;
+      }
+      scheduleSyncPlayerSpace();
+    }
+
+    function areaThumbHTML(area) {
+      if (area.coverImage) {
+        return `<img src="${escapeHtml(encodeURI(area.coverImage))}" alt="" loading="lazy" decoding="async">`;
+      }
+      return `<div class="thumb-fallback">${escapeHtml((area.label || "?").slice(0, 1))}</div>`;
+    }
+
+    function shieldSVG(index, active = false, small = false, instanceId = "shield") {
+      const motifs = ["line", "ring", "chev", "hammer", "bars", "vmark"];
       const motif = motifs[index % motifs.length];
-      const stroke = active ? "#ffd08c" : "#ff8a00";
-      const accent = active ? "#ffd08c" : "#ffb761";
-      const fill = active ? "#22170d" : "#141418";
-      const glow = active ? "drop-shadow(0 0 10px rgba(255,183,97,.45)) drop-shadow(0 5px 0 rgba(0,0,0,.35))" : "drop-shadow(0 5px 0 rgba(0,0,0,.35))";
+      const area = getAreaDef();
+      const track = tracks[index];
+      const baseStroke = active ? "#ffd08c" : (area.accentA || "#ff8a00");
+      const accent = active ? "#ffd08c" : (area.accentB || "#ffb761");
+      const fill = active ? "#24170b" : "#141418";
+      const glow = active
+        ? "drop-shadow(0 0 10px rgba(255,183,97,.45)) drop-shadow(0 5px 0 rgba(0,0,0,.35))"
+        : "drop-shadow(0 5px 0 rgba(0,0,0,.35))";
       const numSize = small ? 26 : 30;
+      const ringR = small ? 43 : 46;
+      const ringCx = 100;
+      const ringCy = small ? 93 : 95;
+      const clipId = `clip_${String(instanceId).replace(/[^a-zA-Z0-9_-]/g, "_")}`;
+      const artUrl = track?.art ? encodeURI(track.art) : null;
+      const artSize = ringR * 2;
+      const artX = ringCx - ringR;
+      const artY = ringCy - ringR;
+
       let motifMarkup = "";
       if (motif === "line") motifMarkup = `<line x1="100" y1="56" x2="100" y2="142" stroke="${accent}" stroke-width="8"/><line x1="64" y1="100" x2="136" y2="100" stroke="${accent}" stroke-width="8"/>`;
       if (motif === "ring") motifMarkup = `<circle cx="100" cy="100" r="34" fill="none" stroke="${accent}" stroke-width="8"/>`;
@@ -981,13 +1282,32 @@
       if (motif === "bars") motifMarkup = `<line x1="74" y1="120" x2="90" y2="120" stroke="${accent}" stroke-width="8"/><line x1="90" y1="102" x2="118" y2="102" stroke="${accent}" stroke-width="8"/><line x1="82" y1="84" x2="138" y2="84" stroke="${accent}" stroke-width="8"/>`;
       if (motif === "vmark") motifMarkup = `<path d="M66 80 L100 126 L134 80" fill="none" stroke="${accent}" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>`;
 
+      const artMarkup = artUrl ? `
+          <defs>
+            <clipPath id="${clipId}">
+              <circle cx="${ringCx}" cy="${ringCy}" r="${ringR}"></circle>
+            </clipPath>
+          </defs>
+          <circle cx="${ringCx}" cy="${ringCy}" r="${ringR + 2}" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.04)" stroke-width="2"></circle>
+          <image href="${escapeHtml(artUrl)}" x="${artX}" y="${artY}" width="${artSize}" height="${artSize}" preserveAspectRatio="xMidYMid slice" clip-path="url(#${clipId})" opacity="${active ? "0.98" : "0.90"}"></image>
+          <circle cx="${ringCx}" cy="${ringCy}" r="${ringR}" fill="none" stroke="${accent}" stroke-width="3" opacity="0.95"></circle>
+      ` : `<circle cx="100" cy="100" r="56" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>`;
+
       return `
         <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:100%;display:block;filter:${glow}">
+          <defs>
+            <linearGradient id="shieldGrad_${clipId}" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="${active ? "#2b1d10" : "#1a1b20"}"></stop>
+              <stop offset="100%" stop-color="${active ? "#17120f" : "#111216"}"></stop>
+            </linearGradient>
+          </defs>
           <path d="M100 20 Q140 40 170 60 Q170 120 140 160 Q100 180 60 160 Q30 120 30 60 Q60 40 100 20 Z"
-                fill="${fill}" stroke="${stroke}" stroke-width="8"/>
-          <circle cx="100" cy="100" r="56" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
-          ${motifMarkup}
-          <text x="100" y="157" fill="${accent}" font-size="${numSize}" font-weight="800" text-anchor="middle" font-family="ui-sans-serif, system-ui">${String(index + 1).padStart(2, "0")}</text>
+                fill="url(#shieldGrad_${clipId})" stroke="${baseStroke}" stroke-width="8"/>
+          <path d="M100 30 Q132 46 156 62 Q156 112 132 146 Q100 164 68 146 Q44 112 44 62 Q68 46 100 30 Z"
+                fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+          ${artMarkup}
+          <g opacity="${artUrl ? "0.78" : "1"}">${motifMarkup}</g>
+          <text x="100" y="160" fill="${accent}" font-size="${numSize}" font-weight="800" text-anchor="middle" font-family="ui-sans-serif, system-ui">${String(index + 1).padStart(2, "0")}</text>
         </svg>`;
     }
 
@@ -1005,7 +1325,7 @@
         btn.setAttribute("aria-label", `Play song ${index + 1}: ${track.title}`);
         btn.innerHTML = `
           <div class="shield-slot">
-            <div class="shield-svg">${shieldSVG(index, false)}</div>
+            <div class="shield-svg">${shieldSVG(index, false, false, `card_${state.activeAreaKey}_${index}`)}</div>
           </div>
           <div class="meta">
             <div class="eyebrow">
@@ -1032,7 +1352,7 @@
         empty.className = "song-card";
         empty.style.cursor = "default";
         empty.innerHTML = `
-          <div class="shield-slot"><div class="shield-svg">${shieldSVG(0, false)}</div></div>
+          <div class="shield-slot"><div class="shield-svg">${shieldSVG(0, false, false, `empty_${state.activeAreaKey}`)}</div></div>
           <div class="meta">
             <div class="eyebrow"><span class="state-dot" aria-hidden="true"></span><span>No matches</span></div>
             <div class="title">No song found</div>
@@ -1105,7 +1425,9 @@
     function togglePlayPause() {
       vibrate(12);
       if (state.currentIndex < 0) {
-        loadTrack(0, true);
+        const queue = getQueueIndices();
+        if (!queue.length) return;
+        loadTrack(queue[0], true);
         return;
       }
       if (els.audio.paused) playCurrent();
@@ -1226,14 +1548,16 @@
 
     function refreshCards() {
       const cards = els.list.querySelectorAll(".song-card");
-      cards.forEach((card, index) => {
-        const playing = index === state.currentIndex;
+      cards.forEach((card) => {
+        const actualIndex = Number(card.dataset.index);
+        if (!Number.isFinite(actualIndex)) return;
+        const playing = actualIndex === state.currentIndex;
         const activeAndPlaying = playing && !els.audio.paused;
         card.classList.toggle("playing", activeAndPlaying);
         const cta = card.querySelector(".cta");
         if (cta) cta.textContent = activeAndPlaying ? "Pause" : (playing ? "Resume" : "Play");
         const shieldEl = card.querySelector(".shield-svg");
-        if (shieldEl) shieldEl.innerHTML = shieldSVG(index, playing);
+        if (shieldEl) shieldEl.innerHTML = shieldSVG(actualIndex, playing, false, `card_${state.activeAreaKey}_${actualIndex}`);
       });
       els.playPauseBtn.textContent = els.audio.paused ? "Play" : "Pause";
       updateUtilityButtons();
@@ -1260,7 +1584,7 @@
         ? `${current.artist} · ${playing ? "Now playing" : "Paused"} · ${modeBits.join(" / ")}`
         : `${queueText} · ${modeBits.join(" / ")}`;
       els.playerStatus.textContent = playing ? "Playing" : "Paused";
-      els.playerShield.innerHTML = shieldSVG(Math.max(0, idx), hasTrack && playing, true);
+      els.playerShield.innerHTML = shieldSVG(Math.max(0, idx), hasTrack && playing, true, `player_${state.activeAreaKey}`);
       els.live.textContent = hasTrack ? `${current.title}. ${playing ? "Playing" : "Paused"}.` : "Player ready.";
       updateUtilityButtons();
       scheduleSyncPlayerSpace();
@@ -1394,9 +1718,12 @@
       const ro = new ResizeObserver(() => scheduleSyncPlayerSpace());
       ro.observe(els.player);
     }
-    window.addEventListener("resize", scheduleSyncPlayerSpace);
+    if (els.finderWrap) els.finderWrap.addEventListener("toggle", scheduleSyncPlayerSpace);
+    if (els.playerExtra) els.playerExtra.addEventListener("toggle", scheduleSyncPlayerSpace);
+    window.addEventListener("resize", syncResponsivePanels);
 
     setActiveArea(state.activeAreaKey);
+    syncResponsivePanels();
   </script>
 </body>
 </html>
