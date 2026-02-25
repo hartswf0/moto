@@ -368,6 +368,26 @@
             <h1 class="text-3xl font-black mb-2 tracking-tighter">SPECTRAL CRATE</h1>
             <p class="mono text-[9px] opacity-60">KEPLERIAN-ORGANIC SYNC REQUIRED</p>
         </div>
+        <div class="mb-8 w-full max-w-xl bg-zinc-900/60 border border-zinc-800 rounded-sm p-4">
+            <div class="mono text-[8px] opacity-60 mb-3 uppercase tracking-[0.25em]">Dual Album Pair</div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                <label class="flex flex-col gap-1 text-left">
+                    <span class="mono text-[8px] opacity-50 uppercase">Album A</span>
+                    <select id="album-select-a" class="bg-zinc-950 border border-zinc-700 rounded px-2 py-2 text-[11px] font-bold uppercase">
+                    </select>
+                </label>
+                <label class="flex flex-col gap-1 text-left">
+                    <span class="mono text-[8px] opacity-50 uppercase">Album B</span>
+                    <select id="album-select-b" class="bg-zinc-950 border border-zinc-700 rounded px-2 py-2 text-[11px] font-bold uppercase">
+                    </select>
+                </label>
+            </div>
+            <div class="mt-3 flex flex-wrap items-center gap-2">
+                <button type="button" onclick="setDefaultAlbumPair()" class="te-btn px-3 h-8 text-[10px]">DEFAULT MOTO+LOOM</button>
+                <span id="selected-pair-label" class="mono text-[8px] opacity-50 uppercase">MOTO + LOOM</span>
+            </div>
+            <div class="mt-2 mono text-[8px] opacity-30 uppercase">Tip: URL query supports <span class="text-zinc-500">?a=moto&b=loom</span></div>
+        </div>
         <button onclick="powerOn()" class="te-btn orange px-16 py-8 text-lg flex flex-col items-center">
             <span>ENGAGE POWER</span>
             <span class="text-[8px] opacity-70 mt-2 font-normal">ENABLE AUDIO RELAY</span>
@@ -576,36 +596,153 @@
     </div>
 
     <script>
-        // LOCAL MP3 CRATE - Connected to ./MOTO and ./THE BREATH-THIEFS LOOM
-        // Fill in bpm/key later for better harmonic radio selection.
-        const tracks = [
-            { file: "MOTO/coolradio - Banjo in the Shrine - Sonauto.mp3", title: "Banjo in the Shrine", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Bati Warehouse Drone - Sonauto.mp3", title: "Bati Warehouse Drone", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Cumbia Addis - Sonauto.mp3", title: "Cumbia Addis", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Future Nostalgia Slowburn - Sonauto.mp3", title: "Future Nostalgia Slowburn", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Linear Living (Keep It Calm) - Sonauto.mp3", title: "Linear Living (Keep It Calm)", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Sacred Nostalgia - Sonauto.mp3", title: "Sacred Nostalgia", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Smile for the Camera - Sonauto.mp3", title: "Smile for the Camera", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Soft Focus Shift - Sonauto.mp3", title: "Soft Focus Shift", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Sub Gravity Pulse - Sonauto.mp3", title: "Sub Gravity Pulse", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - Symmetry Break - Sonauto.mp3", title: "Symmetry Break", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "MOTO/coolradio - The Loom Floor Lament - Sonauto.mp3", title: "The Loom Floor Lament", artist: "Sonauto", bpm: 0, key: "?", logic: "MOTO Relay" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto.mp3", title: "Ancestral Code", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Atomic Lounge Extraction - Sonauto.mp3", title: "Atomic Lounge Extraction", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Curfew Lifted - Sonauto.mp3", title: "Curfew Lifted", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Curfew at the Grand Hotel - Sonauto.mp3", title: "Curfew at the Grand Hotel", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Currency of Breath - Sonauto.mp3", title: "Currency of Breath", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Mid-week Epiphany - Sonauto.mp3", title: "Mid-week Epiphany", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Mutated Grid Ancestry - Sonauto.mp3", title: "Mutated Grid Ancestry", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Radical Joy - Sonauto.mp3", title: "Radical Joy", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Ritual Groove Transmission - Sonauto.mp3", title: "Ritual Groove Transmission", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Smile Through the Static - Sonauto.mp3", title: "Smile Through the Static", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Subterranean Shadow - Sonauto.mp3", title: "Subterranean Shadow", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - Tezeta Cathedral - Sonauto.mp3", title: "Tezeta Cathedral", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - The Breath-Thief's Loom - Sonauto.mp3", title: "The Breath-Thief's Loom", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - The Deacon's Shadow - Sonauto.mp3", title: "The Deacon's Shadow", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" },
-            { file: "THE BREATH-THIEFS LOOM/coolradio - The Horizon Stares Back - Sonauto.mp3", title: "The Horizon Stares Back", artist: "Sonauto", bpm: 0, key: "?", logic: "Loom Transmission" }
-        ];
+        const DEFAULT_ALBUM_PAIR = { a: 'moto', b: 'loom' };
+
+        const OP2_ALBUM_LIBRARY = {
+            moto: {
+                key: 'moto',
+                label: 'MOTO',
+                short: 'MOTO',
+                basePath: 'MOTO/',
+                logic: 'MOTO Relay',
+                files: [
+                    "coolradio - Banjo in the Shrine - Sonauto.mp3",
+                    "coolradio - Bati Warehouse Drone - Sonauto.mp3",
+                    "coolradio - Cumbia Addis - Sonauto.mp3",
+                    "coolradio - Future Nostalgia Slowburn - Sonauto.mp3",
+                    "coolradio - Linear Living (Keep It Calm) - Sonauto.mp3",
+                    "coolradio - Sacred Nostalgia - Sonauto.mp3",
+                    "coolradio - Smile for the Camera - Sonauto.mp3",
+                    "coolradio - Soft Focus Shift - Sonauto.mp3",
+                    "coolradio - Sub Gravity Pulse - Sonauto.mp3",
+                    "coolradio - Symmetry Break - Sonauto.mp3",
+                    "coolradio - The Loom Floor Lament - Sonauto.mp3"
+                ]
+            },
+            loom: {
+                key: 'loom',
+                label: 'THE BREATH-THIEFS LOOM',
+                short: 'LOOM',
+                basePath: 'THE BREATH-THIEFS LOOM/',
+                logic: 'Loom Transmission',
+                files: [
+                    "coolradio - Ancestral Code - Sonauto.mp3",
+                    "coolradio - Atomic Lounge Extraction - Sonauto.mp3",
+                    "coolradio - Currency of Breath - Sonauto.mp3",
+                    "coolradio - Curfew Lifted - Sonauto.mp3",
+                    "coolradio - Curfew at the Grand Hotel - Sonauto.mp3",
+                    "coolradio - Mid-week Epiphany - Sonauto.mp3",
+                    "coolradio - Mutated Grid Ancestry - Sonauto.mp3",
+                    "coolradio - Radical Joy - Sonauto.mp3",
+                    "coolradio - Ritual Groove Transmission - Sonauto.mp3",
+                    "coolradio - Smile Through the Static - Sonauto.mp3",
+                    "coolradio - Subterranean Shadow - Sonauto.mp3",
+                    "coolradio - Tezeta Cathedral - Sonauto.mp3",
+                    "coolradio - The Breath-Thief's Loom - Sonauto.mp3",
+                    "coolradio - The Deacon's Shadow - Sonauto.mp3",
+                    "coolradio - The Horizon Stares Back - Sonauto.mp3"
+                ]
+            },
+            elephant: {
+                key: 'elephant',
+                label: 'THE STOCHASTIC ELEPHANT',
+                short: 'ELEPHANT',
+                basePath: 'THE STOCHASTIC ELEPHANT/',
+                logic: 'Elephant Signal',
+                files: [
+                    "01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3",
+                    "02_coolradio - Prompt Cognition Loop - Sonauto.mp3",
+                    "03_coolradio - Laundering Pain - Sonauto.mp3",
+                    "04_coolradio - Trickster Labor - Sonauto.mp3",
+                    "05_coolradio - Redacted Ethics - Sonauto.mp3",
+                    "06_coolradio - Parrot in the Server Room - Sonauto.mp3",
+                    "07_coolradio - Live Wire Transmission - Sonauto.mp3",
+                    "08_coolradio - Pretty Tone Empty Core - Sonauto.mp3",
+                    "09_coolradio - Designer Empathy - Sonauto.mp3",
+                    "10_coolradio - The Deacon's Shadow - Sonauto.mp3"
+                ]
+            },
+            volholla: {
+                key: 'volholla',
+                label: 'VOLHOLLA',
+                short: 'VOLHOLLA',
+                basePath: 'VOLHOLLA/',
+                logic: 'Volholla Relay',
+                files: [
+                    "coolradio - Criteria for the Reckless - Sonauto.mp3",
+                    "coolradio - Firelight Horizon - Sonauto.mp3",
+                    "coolradio - Glorious Mud - Sonauto.mp3",
+                    "coolradio - Mead and Sweet Tea - Sonauto.mp3",
+                    "coolradio - Ribbon of Pavement - Sonauto.mp3",
+                    "coolradio - Tennessee Timber - Sonauto.mp3",
+                    "coolradio - The 14th Hole Sinking - Sonauto.mp3",
+                    "coolradio - The Cooler Tribunal - Sonauto.mp3",
+                    "coolradio - The Long Way Back - Sonauto.mp3",
+                    "coolradio - The Sky Consumed Him - Sonauto.mp3",
+                    "coolradio - The Slim Jim Incident - Sonauto.mp3",
+                    "coolradio - Volholla Arrival - Sonauto.mp3",
+                    "coolradio - Volholla Circuit Hymn - Sonauto.mp3",
+                    "coolradio - Volholla Fairway Submarine - Sonauto.mp3",
+                    "coolradio - Volholla Halftone Fallout - Sonauto.mp3",
+                    "coolradio - Volholla Tailgate - Sonauto.mp3"
+                ]
+            }
+        };
+
+        function op2TitleFromFilename(file) {
+            return file
+                .replace(/^.*\//, '')
+                .replace(/\.mp3$/i, '')
+                .replace(/^\d+_/, '')
+                .replace(/^coolradio\s*-\s*/i, '')
+                .replace(/\s*-\s*Sonauto$/i, '')
+                .trim();
+        }
+
+        function buildAlbumTracksForOp2(albumKey) {
+            const album = OP2_ALBUM_LIBRARY[albumKey];
+            if (!album) return [];
+            return album.files.map((name) => ({
+                file: album.basePath + name,
+                title: op2TitleFromFilename(name),
+                artist: 'Sonauto',
+                bpm: 0,
+                key: '?',
+                logic: album.logic,
+                albumKey: album.key,
+                albumShort: album.short
+            }));
+        }
+
+        let activeAlbumPair = { ...DEFAULT_ALBUM_PAIR };
+
+        function clampDistinctPair(pair) {
+            const keys = Object.keys(OP2_ALBUM_LIBRARY);
+            const a = OP2_ALBUM_LIBRARY[pair.a] ? pair.a : DEFAULT_ALBUM_PAIR.a;
+            let b = OP2_ALBUM_LIBRARY[pair.b] ? pair.b : DEFAULT_ALBUM_PAIR.b;
+            if (a === b) {
+                b = keys.find((k) => k !== a) || a;
+            }
+            return { a, b };
+        }
+
+        function parseAlbumPairFromUrl() {
+            const params = new URLSearchParams(window.location.search);
+            return clampDistinctPair({
+                a: (params.get('a') || DEFAULT_ALBUM_PAIR.a).toLowerCase(),
+                b: (params.get('b') || DEFAULT_ALBUM_PAIR.b).toLowerCase()
+            });
+        }
+
+        function buildPairTracks(pair) {
+            const p = clampDistinctPair(pair);
+            return [
+                ...buildAlbumTracksForOp2(p.a),
+                ...buildAlbumTracksForOp2(p.b)
+            ];
+        }
+
+        let tracks = buildPairTracks(parseAlbumPairFromUrl());
 
         // ═══════════════════════════════════════════════════════════════════
         // AUDIO SYSTEM - With Full Observability (Bret Victor: Surface the Invisible)
@@ -717,7 +854,7 @@
         // AUTOPLAY STATE
         let autoplayActive = false;
         let autoplayIndex = 0;
-        const trackDurations = new Array(tracks.length).fill(0); // Will be populated
+        let trackDurations = new Array(tracks.length).fill(0); // Rebuilt when album pair changes
         let totalPlaylistDuration = 0;
 
         // SMART MIX STATE
@@ -753,6 +890,89 @@
 
             // Convert to Circle of Fifths position: (chrom * 7) % 12
             return (chromIdx * 7) % 12;
+        }
+
+        function getSelectedAlbumPairFromControls() {
+            const selA = document.getElementById('album-select-a');
+            const selB = document.getElementById('album-select-b');
+            const fallback = clampDistinctPair(activeAlbumPair || DEFAULT_ALBUM_PAIR);
+            return clampDistinctPair({
+                a: (selA && selA.value) ? selA.value : fallback.a,
+                b: (selB && selB.value) ? selB.value : fallback.b
+            });
+        }
+
+        function updateAlbumPairLabel() {
+            const el = document.getElementById('selected-pair-label');
+            if (!el) return;
+            const a = OP2_ALBUM_LIBRARY[activeAlbumPair.a];
+            const b = OP2_ALBUM_LIBRARY[activeAlbumPair.b];
+            el.innerText = `${a?.short || activeAlbumPair.a} + ${b?.short || activeAlbumPair.b}`;
+        }
+
+        function syncAlbumSelectControls(pair = activeAlbumPair) {
+            const selA = document.getElementById('album-select-a');
+            const selB = document.getElementById('album-select-b');
+            if (selA) selA.value = pair.a;
+            if (selB) selB.value = pair.b;
+            updateAlbumPairLabel();
+        }
+
+        function populateAlbumPairControls() {
+            const selA = document.getElementById('album-select-a');
+            const selB = document.getElementById('album-select-b');
+            if (!selA || !selB) return;
+            const options = Object.values(OP2_ALBUM_LIBRARY)
+                .map(album => `<option value="${album.key}">${album.label}</option>`)
+                .join('');
+            selA.innerHTML = options;
+            selB.innerHTML = options;
+            selA.addEventListener('change', () => {
+                const pair = clampDistinctPair({ a: selA.value, b: selB.value });
+                syncAlbumSelectControls(pair);
+            });
+            selB.addEventListener('change', () => {
+                const pair = clampDistinctPair({ a: selA.value, b: selB.value });
+                syncAlbumSelectControls(pair);
+            });
+            const initialPair = parseAlbumPairFromUrl();
+            activeAlbumPair = initialPair;
+            syncAlbumSelectControls(initialPair);
+        }
+
+        function setDefaultAlbumPair() {
+            activeAlbumPair = { ...DEFAULT_ALBUM_PAIR };
+            syncAlbumSelectControls(activeAlbumPair);
+        }
+
+        function applyAlbumPairSelection() {
+            activeAlbumPair = getSelectedAlbumPairFromControls();
+            tracks = buildPairTracks(activeAlbumPair);
+            currentTrackA = 0;
+            currentTrackB = Math.min(1, Math.max(0, tracks.length - 1));
+            autoplayIndex = 0;
+            mixPosition = 0;
+            playHistory = [];
+            trackDurations = new Array(tracks.length).fill(0);
+            totalPlaylistDuration = 0;
+            updateAlbumPairLabel();
+            if (document.getElementById('track-count')) {
+                document.getElementById('track-count').innerText = tracks.length;
+            }
+            if (document.getElementById('autoplay-total')) {
+                document.getElementById('autoplay-total').innerText = tracks.length;
+            }
+            try {
+                const params = new URLSearchParams(window.location.search);
+                params.set('a', activeAlbumPair.a);
+                params.set('b', activeAlbumPair.b);
+                const nextUrl = `${window.location.pathname}?${params.toString()}`;
+                window.history.replaceState({}, '', nextUrl);
+            } catch (e) {
+                console.warn('Could not update URL pair params', e);
+            }
+            if (typeof renderCrate === 'function') renderCrate();
+            if (typeof updateTotalRuntime === 'function') updateTotalRuntime();
         }
 
         function toggleInfinite() {
@@ -844,6 +1064,8 @@
             log('🔌 POWER ON - Initializing system');
             document.getElementById('init-overlay').style.display = 'none';
 
+            applyAlbumPairSelection();
+
             initAudioEngine();
             ctx.resume(); // Ensure context is running
 
@@ -864,6 +1086,9 @@
 
         // Load durations for all tracks (for total runtime display)
         function loadAllDurations() {
+            trackDurations = new Array(tracks.length).fill(0);
+            totalPlaylistDuration = 0;
+            updateTotalRuntime();
             tracks.forEach((t, i) => {
                 const tempAudio = new Audio();
                 tempAudio.src = t.file;
@@ -1343,10 +1568,19 @@
 
         function renderCrate() {
             const list = document.getElementById('crate-list');
-            const motoCount = tracks.filter(t => t.file.startsWith('MOTO/')).length;
-            const loomCount = tracks.length - motoCount;
+            const counts = {};
+            tracks.forEach((t) => {
+                counts[t.albumKey] = (counts[t.albumKey] || 0) + 1;
+            });
+            const pairOrder = [activeAlbumPair.a, activeAlbumPair.b].filter((v, idx, arr) => arr.indexOf(v) === idx);
+            const pairLabel = pairOrder
+                .map((key) => {
+                    const album = OP2_ALBUM_LIBRARY[key];
+                    return `${album ? album.short : key.toUpperCase()} ${counts[key] || 0}`;
+                })
+                .join(' • ');
             document.getElementById('track-count').innerText = tracks.length;
-            document.getElementById('crate-info').innerText = `MOTO ${motoCount} • LOOM ${loomCount} • ${tracks.length} FILES`;
+            document.getElementById('crate-info').innerText = `${pairLabel} • ${tracks.length} FILES`;
 
             list.innerHTML = tracks.map((t, i) => {
                 const duration = trackDurations[i] || 0;
@@ -1749,6 +1983,7 @@
         audioB.addEventListener('suspend', () => { log('💤 B: suspend'); });
 
         // Initial system info
+        populateAlbumPairControls();
         console.log('%c🎛️ LATENT RADIO OP-10 SPECTRAL', 'font-size: 20px; font-weight: bold; color: #ff4d00');
         console.log('%c📦 ' + tracks.length + ' tracks in crate', 'color: #888');
         console.log('%c▶️ Click ENGAGE POWER, then load a track and press PLAY', 'color: #0f0');
