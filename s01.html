@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CAD Xanadu: Radial Topography</title>
+    <style>
+        :root {
+            --cad-bg: #e8e6e1;         
+            --cad-highlight: #d32f2f;  
+            --cad-accent: #1976d2;     
+            --cad-text: #222222;       
+            --ui-bg: rgba(245, 243, 238, 0.9); 
+            --ui-border: rgba(100, 100, 100, 0.4);
+            --terminal-bg: rgba(235, 233, 228, 0.95);
+        }
+
+        body, html {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            overflow: hidden; background-color: var(--cad-bg);
+            font-family: 'Courier New', Courier, monospace;
+            color: var(--cad-text); touch-action: none;
+        }
+
+        #canvas-container {
+            position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1;
+        }
+
+        /* Top Bar: CAD Camera Controls */
+        #toolbar {
+            position: absolute; top: 10px; right: 10px; z-index: 10;
+            display: flex; gap: 5px;
+        }
+        .cam-btn {
+            background: var(--ui-bg); border: 1px solid var(--ui-border);
+            color: var(--cad-text); padding: 8px 12px; font-size: 0.7rem;
+            cursor: pointer; text-transform: uppercase; font-weight: bold;
+            backdrop-filter: blur(4px); box-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+        }
+        .cam-btn:active { background: var(--cad-accent); color: #fff; }
+
+        /* =========================================================
+           TOPOGRAPHIC TETHER & RADIAL UI
+           ========================================================= */
+        #tracked-ui-layer {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 5; overflow: hidden;
+        }
+
+        #topo-tether {
+            position: absolute; display: none;
+            /* Center pivot for absolute positioning */
+            transform: translate(-50%, -100%);
+            pointer-events: none;
+            transition: opacity 0.2s ease;
+        }
+
+        /* The vertical line connecting the node to the card */
+        .tether-line {
+            position: absolute; bottom: -50px; left: 50%;
+            width: 2px; height: 50px; background: var(--cad-highlight);
+            transform: translateX(-50%);
+        }
+
+        .tether-dot {
+            position: absolute; bottom: -50px; left: 50%;
+            width: 8px; height: 8px; background: #fff;
+            border: 2px solid var(--cad-highlight); border-radius: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        /* The Hovering Card */
+        .tether-card {
+            background: var(--ui-bg); border: 2px solid var(--cad-highlight);
+            padding: 10px; width: 180px; box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+            pointer-events: auto; /* Allow clicking inside card */
+            position: relative;
+        }
+
+        .tether-title { color: var(--cad-highlight); font-weight: bold; font-size: 0.8rem; border-bottom: 2px solid var(--cad-highlight); padding-bottom: 3px; margin-bottom: 5px; text-align: center;}
+        .tether-line-item { font-size: 0.65rem; margin: 3px 0; display: flex; justify-content: space-between; font-weight: bold;}
+        .tether-val { color: var(--cad-accent); }
+        .tether-payload { margin-top: 5px; border-top: 1px dashed #aaa; padding-top: 5px; font-size: 0.65rem; line-height: 1.2; text-align: center; color: #444;}
+
+        /* Radial Menu Buttons around the card */
+        .radial-btn {
+            position: absolute; width: 40px; height: 40px;
+            background: #fff; border: 2px solid var(--cad-accent); border-radius: 50%;
+            color: var(--cad-accent); font-size: 0.55rem; font-weight: bold;
+            display: flex; justify-content: center; align-items: center;
+            cursor: pointer; pointer-events: auto; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.2s; text-align: center; line-height: 1;
+        }
+        .radial-btn:hover { background: var(--cad-accent); color: #fff; transform: scale(1.1); }
+        
+        /* Positioning the radial nodes */
+        .rad-n { top: -20px; left: 50%; transform: translateX(-50%); }
+        .rad-s { bottom: -20px; left: 50%; transform: translateX(-50%); }
+        .rad-e { top: 50%; right: -20px; transform: translateY(-50%); }
+        .rad-w { top: 50%; left: -20px; transform: translateY(-50%); }
+
+        .radial-btn:hover.rad-n { transform: translateX(-50%) scale(1.1); }
+        .radial-btn:hover.rad-s { transform: translateX(-50%) scale(1.1); }
+        .radial-btn:hover.rad-e { transform: translateY(-50%) scale(1.1); }
+        .radial-btn:hover.rad-w { transform: translateY(-50%) scale(1.1); }
+
+        /* =========================================================
+           TERMINAL
+           ========================================================= */
+        #terminal {
+            position: absolute; bottom: 0; left: 0; width: 100%; height: 30vh;
+            background: var(--terminal-bg); border-top: 2px solid var(--cad-accent);
+            z-index: 10; display: flex; flex-direction: column;
+            box-shadow: 0 -5px 15px rgba(0,0,0,0.05);
+        }
+
+        #chat-log {
+            flex-grow: 1; padding: 10px; overflow-y: auto;
+            font-size: 0.75rem; line-height: 1.4; scroll-behavior: smooth;
+            display: flex; flex-direction: column; gap: 5px; font-weight: bold;
+        }
+
+        .msg { padding: 4px 8px; border-left: 3px solid transparent; background: rgba(0,0,0,0.02); }
+        .msg-sys { color: #555; border-color: #555; }
+        .msg-user { color: var(--cad-accent); border-color: var(--cad-accent); background: rgba(25, 118, 210, 0.05); }
+        .msg-ai { color: var(--cad-highlight); border-color: var(--cad-highlight); background: rgba(211, 47, 47, 0.05); }
+
+        #input-area {
+            display: flex; border-top: 1px solid var(--ui-border); padding: 5px; background: #fff;
+        }
+        #cmd-input {
+            flex-grow: 1; background: transparent; border: none;
+            color: var(--cad-text); font-family: inherit; font-size: 0.9rem; padding: 5px; outline: none; font-weight: bold;
+        }
+        #cmd-submit {
+            background: var(--cad-accent); color: #fff; border: none; font-weight: bold; padding: 0 15px; cursor: pointer; text-transform: uppercase;
+        }
+
+        #loading {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            font-size: 1.2rem; color: var(--cad-highlight); z-index: 20; letter-spacing: 2px; font-weight: bold;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+    <div id="loading">GENERATING TOPOGRAPHY...</div>
+    
+    <div id="toolbar">
+        <button class="cam-btn" onclick="setCamera('TOP')">TOP</button>
+        <button class="cam-btn" onclick="setCamera('ISO')">ISO</button>
+        <button class="cam-btn" onclick="setCamera('FRONT')">ELEV</button>
+    </div>
+
+    <div id="canvas-container"></div>
+    
+    <!-- THE 3D TRACKED HUD LAYER -->
+    <div id="tracked-ui-layer">
+        <div id="topo-tether">
+            <!-- Radial Controls -->
+            <div class="radial-btn rad-n" onclick="execRadial('PRODUCE')">PRO<br>DUC</div>
+            <div class="radial-btn rad-e" onclick="execRadial('MAINTAIN')">MNT<br>AIN</div>
+            <div class="radial-btn rad-s" onclick="execRadial('REPAIR')">REP<br>AIR</div>
+            <div class="radial-btn rad-w" onclick="execRadial('TRANSFORM')">TRN<br>SFM</div>
+            
+            <!-- Core Card -->
+            <div class="tether-card">
+                <div class="tether-title">NODE <span id="hud-coord">NULL</span></div>
+                <div class="tether-line-item"><span>ZONE</span> <span class="tether-val" id="hud-zone" style="color:var(--cad-text)">-</span></div>
+                <div class="tether-line-item"><span>OP</span> <span class="tether-val" id="hud-op" style="color:var(--cad-highlight)">-</span></div>
+                <div class="tether-line-item"><span>ACT</span> <span class="tether-val" id="hud-act">-</span></div>
+                <div class="tether-payload" id="hud-payload">No data.</div>
+            </div>
+
+            <!-- Visual connecting elements -->
+            <div class="tether-line"></div>
+            <div class="tether-dot"></div>
+        </div>
+    </div>
+
+    <div id="terminal">
+        <div id="chat-log">
+            <div class="msg msg-sys">>>> TOPOGRAPHY ENGINE ONLINE.</div>
+            <div class="msg msg-sys">>>> Select a structural column. Use the Radial UI or converse with the AI below.</div>
+        </div>
+        <div id="input-area">
+            <span style="color:var(--cad-accent); padding: 5px; font-weight:bold;">$</span>
+            <input type="text" id="cmd-input" placeholder="Query Xanadu Architect..." autocomplete="off">
+            <button id="cmd-submit">SEND</button>
+        </div>
+    </div>
+
+    <script>
+        // =========================================================
+        // SYSTEM CONFIG & AI SETUP
+        // =========================================================
+        const apiKey = ""; 
+        let isAITyping = false;
+
+        const ENUMS = {
+            WorldOp: ['PRODUCE', 'MAINTAIN', 'REPAIR', 'TRANSFORM'],
+            RitualAct: ['INVOCATION', 'CHANT', 'WITNESS', 'QUESTION', 'SEAL'],
+            GlyphFlow: ['LINEAR', 'SPIRAL', 'COLUMN', 'FRACTURE', 'RADIATE', 'CLUSTER', 'SCATTER', 'WAVE']
+        };
+
+        const ATLAS_CHARS = [
+            'O', '@', '8', 'Θ', // PRODUCE
+            '=', '-', '+', '#', // MAINTAIN
+            ':', '.', ';', ',', // REPAIR
+            'x', 'X', '/', '\\' // TRANSFORM
+        ];
+
+        // =========================================================
+        // PHASE 1: Typographic Atlas Generation (Alpha Mask)
+        // =========================================================
+        function createTypographicAtlas() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 1024; canvas.height = 64;
+            const ctx = canvas.getContext('2d');
+            
+            ctx.fillStyle = '#000000'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#FFFFFF'; ctx.font = 'bold 50px monospace';
+            ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+            ATLAS_CHARS.forEach((char, i) => ctx.fillText(char, (i * 64) + 32, 34));
+            
+            const texture = new THREE.CanvasTexture(canvas);
+            texture.magFilter = THREE.NearestFilter; texture.minFilter = THREE.NearestFilter;
+            texture.generateMipmaps = false; 
+            return texture;
+        }
+
+        // =========================================================
+        // PHASE 2: Core Three.js CAD Engine Setup 
+        // =========================================================
+        const container = document.getElementById('canvas-container');
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0xe8e6e1);
+        scene.fog = new THREE.FogExp2(0xe8e6e1, 0.006);
+
+        // CAD Grid Helpers
+        const polarGrid = new THREE.PolarGridHelper(35, 24, 8, 64, 0xa0a0a0, 0xc0c0c0);
+        polarGrid.position.y = 0.01; // Rest exactly on floor
+        scene.add(polarGrid);
+
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / (window.innerHeight * 0.7), 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer({ antialias: true, powerPreference: "high-performance" });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        
+        let renderHeight = window.innerHeight * 0.7; // 70% viewport
+        renderer.setSize(window.innerWidth, renderHeight);
+        container.appendChild(renderer.domElement);
+
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true; controls.dampingFactor = 0.05;
+        controls.maxDistance = 150; controls.minDistance = 10;
+        // Limit polar angle so we don't go under the floor
+        controls.maxPolarAngle = Math.PI / 2 - 0.05; 
+
+        // Camera Interp
+        let camTargetPos = new THREE.Vector3(40, 60, 60); 
+        camera.position.copy(camTargetPos);
+        
+        function setCamera(view) {
+            switch(view) {
+                case 'TOP': camTargetPos.set(0, 80, 0.1); break; // 0.1 offset prevents gimbal lock
+                case 'ISO': camTargetPos.set(40, 60, 60); break;
+                case 'FRONT': camTargetPos.set(0, 10, 80); break;
+            }
+        }
+
+        // =========================================================
+        // PHASE 3: Mathematical Topography Generation
+        // =========================================================
+        const GRID_SIZE = 24;
+        const RADIUS_MAX = 12;
+        const SPACING = 2.2;
+        const cellRegistry = [];
+
+        function initGrid() {
+            let index = 0;
+            const center = GRID_SIZE / 2;
+
+            for (let x = 0; x < GRID_SIZE; x++) {
+                for (let y = 0; y < GRID_SIZE; y++) {
+                    const dx = x - center + 0.5;
+                    const dy = y - center + 0.5;
+                    const r = Math.sqrt(dx*dx + dy*dy);
+
+                    if (r <= RADIUS_MAX) {
+                        let zoneId, worldOp, ritualAct, color, glyphFlow;
+                        
+                        if (r < 3) {
+                            zoneId = 'CENTER_CORE'; worldOp = 'PRODUCE'; ritualAct = 'INVOCATION'; 
+                            color = new THREE.Color(0xd32f2f); glyphFlow = 'RADIATE';
+                        } else if (r < 6) {
+                            zoneId = 'INNER_RING'; worldOp = 'MAINTAIN'; ritualAct = 'CHANT'; 
+                            color = new THREE.Color(0x1976d2); glyphFlow = 'COLUMN'; 
+                        } else if (r < 9) {
+                            zoneId = 'MIDDLE_RING'; worldOp = 'REPAIR'; ritualAct = 'WITNESS'; 
+                            color = new THREE.Color(0x388e3c); glyphFlow = 'LINEAR'; 
+                        } else {
+                            zoneId = 'OUTER_RING'; worldOp = 'TRANSFORM'; ritualAct = 'QUESTION'; 
+                            color = new THREE.Color(0x111111); glyphFlow = 'FRACTURE'; 
+                        }
+
+                        // Mathematical Topography Height
+                        let height = Math.cos((r / RADIUS_MAX) * (Math.PI / 2)) * 12.0;
+                        height = Math.max(0.5, height); // Minimum height
+
+                        cellRegistry.push({
+                            id: index, x: x, y: y, coord: `(${x},${y})`,
+                            worldX: dx * SPACING, 
+                            worldHeight: height, // Store exact height
+                            worldZ: dy * SPACING,
+                            zone_id: zoneId, world_operation: worldOp, ritual_act: ritualAct,
+                            glyph_flow: glyphFlow, text_fragment: '[AWAITING AI]',
+                            baseColor: color
+                        });
+                        index++;
+                    }
+                }
+            }
+        }
+        initGrid();
+
+        // =========================================================
+        // PHASE 4: Box Instancing & Face-Aware Shader
+        // =========================================================
+        // Base Box geometry (1x1x1) - we will scale it per instance
+        const geometry = new THREE.BoxGeometry(1.8, 1.0, 1.8); 
+        const atlasTexture = createTypographicAtlas();
+
+        const logicArray = new Float32Array(cellRegistry.length * 3);
+        const colorArray = new Float32Array(cellRegistry.length * 3);
+
+        function updateCellVisuals(cell) {
+            const i = cell.id;
+            let baseIndex = ENUMS.WorldOp.indexOf(cell.world_operation) * 4;
+            if (baseIndex < 0) baseIndex = 0;
+            
+            let charOffset = (cell.x + cell.y) % 4; 
+            
+            logicArray[i * 3 + 0] = baseIndex + charOffset; 
+            
+            colorArray[i * 3 + 0] = cell.baseColor.r;
+            colorArray[i * 3 + 1] = cell.baseColor.g;
+            colorArray[i * 3 + 2] = cell.baseColor.b;
+        }
+
+        cellRegistry.forEach(cell => updateCellVisuals(cell));
+        geometry.setAttribute('instanceLogic', new THREE.InstancedBufferAttribute(logicArray, 3));
+        geometry.setAttribute('instanceColor', new THREE.InstancedBufferAttribute(colorArray, 3));
+
+        const material = new THREE.ShaderMaterial({
+            uniforms: { uAtlas: { value: atlasTexture }, uTime: { value: 0 } },
+            vertexShader: `
+                attribute vec3 instanceLogic;
+                attribute vec3 instanceColor;
+                varying vec2 vUv; 
+                varying vec3 vColor; 
+                varying float vCharIndex; 
+                varying float vHighlight; 
+                varying vec3 vWorldPos;
+                varying vec3 vNormal;
+                uniform float uTime;
+
+                void main() {
+                    vUv = uv; vColor = instanceColor; vCharIndex = instanceLogic.x; vHighlight = instanceLogic.y;
+                    
+                    // Normal extracted safely
+                    vNormal = normalize((instanceMatrix * vec4(normal, 0.0)).xyz);
+                    
+                    vec3 pos = position;
+                    vec4 worldPos = instanceMatrix * vec4(pos, 1.0);
+                    
+                    // Small pop up when highlighted
+                    if(vHighlight > 0.5) worldPos.y += 1.0; 
+
+                    vWorldPos = worldPos.xyz;
+                    gl_Position = projectionMatrix * viewMatrix * worldPos;
+                }
+            `,
+            fragmentShader: `
+                uniform sampler2D uAtlas; uniform float uTime;
+                varying vec2 vUv; varying vec3 vColor; varying float vCharIndex; varying float vHighlight; varying vec3 vWorldPos;
+                varying vec3 vNormal;
+                
+                void main() {
+                    vec3 paperColor = vec3(0.93, 0.92, 0.90);
+                    
+                    // Is this the top face? (Normal points straight UP)
+                    float isTop = step(0.9, vNormal.y);
+                    
+                    // Lighting: darken sides based on normal and depth
+                    float sideLight = 0.85;
+                    if(abs(vNormal.x) > 0.5) sideLight = 0.75; // Fake directional light
+                    
+                    // Depth gradient for the sides
+                    float depthMod = clamp(vWorldPos.y / 15.0, 0.2, 1.0);
+                    
+                    vec3 sideColor = paperColor * sideLight * (depthMod + 0.3);
+                    
+                    // Top Face Texture Masking
+                    vec2 atlasUV = vec2((vUv.x / 16.0) + (vCharIndex / 16.0), vUv.y);
+                    float textMask = texture2D(uAtlas, atlasUV).r;
+                    
+                    // Outline the top face slightly
+                    vec2 border = step(vec2(0.05), vUv) * step(vUv, vec2(0.95));
+                    float isInside = border.x * border.y;
+                    vec3 topBase = mix(paperColor * 0.9, paperColor, isInside);
+                    
+                    // Apply Ink
+                    vec3 topColor = mix(topBase, vColor, textMask);
+
+                    // Combine Top and Sides
+                    vec3 finalColor = mix(sideColor, topColor, isTop);
+
+                    // Highlight Pulse
+                    if (vHighlight > 0.5) {
+                        float pulse = (sin(uTime * 8.0) + 1.0) * 0.5;
+                        vec3 highlightTint = mix(vColor, vec3(1.0,0.0,0.0), 0.5);
+                        finalColor = mix(finalColor, highlightTint, pulse * 0.4 + 0.2);
+                    }
+
+                    gl_FragColor = vec4(finalColor, 1.0);
+                }
+            `,
+            side: THREE.FrontSide, transparent: false
+        });
+
+        const instancedMesh = new THREE.InstancedMesh(geometry, material, cellRegistry.length);
+        const dummy = new THREE.Object3D();
+
+        cellRegistry.forEach((cell, i) => {
+            // Anchor box to the floor. Box is 1 unit high, so position Y is height/2
+            dummy.position.set(cell.worldX, cell.worldHeight / 2, cell.worldZ);
+            dummy.scale.set(1, cell.worldHeight, 1); // Extrude Y
+            dummy.rotation.set(0, 0, 0); 
+            dummy.updateMatrix();
+            instancedMesh.setMatrixAt(i, dummy.matrix);
+        });
+
+        scene.add(instancedMesh);
+        document.getElementById('loading').style.display = 'none';
+
+        // =========================================================
+        // PHASE 5: Interaction & 3D Topo-Tether
+        // =========================================================
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let selectedCellId = -1;
+
+        const tetherEl = document.getElementById('topo-tether');
+
+        function onInteract(clientX, clientY) {
+            mouse.x = (clientX / window.innerWidth) * 2 - 1;
+            mouse.y = -(clientY / renderHeight) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            const intersects = raycaster.intersectObject(instancedMesh);
+
+            if (intersects.length > 0) {
+                selectCell(intersects[0].instanceId);
+            } else {
+                // Deselect
+                if (selectedCellId !== -1) {
+                    logicArray[selectedCellId * 3 + 1] = 0;
+                    geometry.attributes.instanceLogic.needsUpdate = true;
+                    selectedCellId = -1;
+                    tetherEl.style.opacity = '0';
+                    setTimeout(() => { if(selectedCellId === -1) tetherEl.style.display = 'none'; }, 200);
+                }
+            }
+        }
+
+        window.addEventListener('click', (e) => { 
+            // Only fire if clicking canvas, not UI
+            if (e.target.tagName === 'CANVAS') onInteract(e.clientX, e.clientY); 
+        });
+        window.addEventListener('touchstart', (e) => { 
+            if (e.target.tagName === 'CANVAS') onInteract(e.touches[0].clientX, e.touches[0].clientY); 
+        }, {passive: false});
+
+        function selectCell(id) {
+            if (selectedCellId !== -1) logicArray[selectedCellId * 3 + 1] = 0;
+            selectedCellId = id;
+            logicArray[selectedCellId * 3 + 1] = 1;
+            geometry.attributes.instanceLogic.needsUpdate = true;
+
+            const cell = cellRegistry[id];
+            
+            document.getElementById('hud-coord').innerText = cell.coord;
+            document.getElementById('hud-zone').innerText = cell.zone_id;
+            document.getElementById('hud-op').innerText = cell.world_operation;
+            document.getElementById('hud-act').innerText = cell.ritual_act;
+            document.getElementById('hud-payload').innerText = `"${cell.text_fragment}"`;
+
+            tetherEl.style.display = 'block';
+            tetherEl.style.opacity = '1';
+            updateTetherPosition();
+        }
+
+        function updateTetherPosition() {
+            if(selectedCellId === -1) return;
+            const cell = cellRegistry[selectedCellId];
+            
+            // Calculate Top-Center of the specific bar instance
+            // We add 1.0 for the pop-up effect height offset
+            const vec = new THREE.Vector3(cell.worldX, cell.worldHeight + 1.0, cell.worldZ);
+            vec.project(camera);
+
+            // Convert to screen CSS coordinates
+            const x = (vec.x * 0.5 + 0.5) * window.innerWidth;
+            const y = (-(vec.y * 0.5) + 0.5) * renderHeight;
+
+            // Update Tether Div
+            // Note: We use fixed translateY(-70px) to give space for the line
+            tetherEl.style.left = `${x}px`;
+            tetherEl.style.top = `${y - 70}px`;
+        }
+
+        // Radial Menu Executor
+        window.execRadial = function(op) {
+            if(selectedCellId !== -1) {
+                processCommand(`SET world_operation ${op}`);
+            }
+        };
+
+        // =========================================================
+        // PHASE 6: Terminal & AI Integration
+        // =========================================================
+        const chatLog = document.getElementById('chat-log');
+        const cmdInput = document.getElementById('cmd-input');
+        const cmdSubmit = document.getElementById('cmd-submit');
+
+        function appendLog(text, type='sys') {
+            const div = document.createElement('div');
+            div.className = `msg msg-${type}`;
+            div.innerText = (type==='user'?'> ':'') + text;
+            chatLog.appendChild(div);
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+
+        async function fetchGeminiWithBackoff(promptText) {
+            const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
+            const payload = {
+                contents: [{ parts: [{ text: promptText }] }],
+                systemInstruction: { parts: [{ text: "You are the Xanadu Architect AI embedded in a 24x24 semantic topography. Provide concise, poetic responses. If asked to generate content for a node, provide a short fragment of text (max 10 words) inside brackets like [NEW_TEXT]." }]}
+            };
+
+            const delays = [1000, 2000, 4000, 8000];
+            for (let i = 0; i < delays.length; i++) {
+                try {
+                    const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload) });
+                    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                    const data = await response.json();
+                    return data.candidates?.[0]?.content?.parts?.[0]?.text || "No signal.";
+                } catch (error) {
+                    if (i === delays.length - 1) throw error;
+                    await new Promise(r => setTimeout(r, delays[i]));
+                }
+            }
+        }
+
+        async function processCommand(cmd) {
+            appendLog(cmd, 'user');
+            const tokens = cmd.trim().split(' ');
+            const action = tokens[0].toUpperCase();
+
+            // Hardware Overrides
+            if (action === 'SET' && tokens.length >= 3) {
+                if(selectedCellId === -1) return appendLog("ERROR: NO TARGET NODE.", 'err');
+                const key = tokens[1].toLowerCase();
+                const val = tokens.slice(2).join(' ').toUpperCase();
+                const cell = cellRegistry[selectedCellId];
+                
+                if (key === 'world_operation' && ENUMS.WorldOp.includes(val)) cell.world_operation = val;
+                else if (key === 'glyph_flow' && ENUMS.GlyphFlow.includes(val)) cell.glyph_flow = val;
+                else if (key === 'ritual_act' && ENUMS.RitualAct.includes(val)) cell.ritual_act = val;
+                else return appendLog("ERROR: INVALID ENUM VALUE.", 'err');
+                
+                updateCellVisuals(cell);
+                geometry.attributes.instanceLogic.needsUpdate = true;
+                geometry.attributes.instanceColor.needsUpdate = true;
+                selectCell(selectedCellId); // Refresh Tether UI
+                return appendLog(`STRUCTURAL OVERRIDE: ${key} -> ${val}`, 'sys');
+            }
+
+            // AI Routing
+            if(selectedCellId === -1) return appendLog("ARCHITECT: Please lock onto a node first.", 'ai');
+
+            const cell = cellRegistry[selectedCellId];
+            isAITyping = true;
+            appendLog("ARCHITECT COMPUTING...", 'sys');
+
+            try {
+                let reply = await fetchGeminiWithBackoff(`Target Node: ${cell.coord}, Zone: ${cell.zone_id}, Op: ${cell.world_operation}. Request: "${cmd}"`);
+                
+                const match = reply.match(/\[(.*?)\]/);
+                if (match && match[1] && !reply.includes("NEW_TEXT")) {
+                    cell.text_fragment = match[1];
+                    selectCell(selectedCellId); 
+                    reply = reply.replace(/\[.*?\]/, '').trim();
+                    if(!reply) reply = `Payload mapped to Node ${cell.coord}.`;
+                }
+                appendLog(reply, 'ai');
+            } catch (err) {
+                appendLog(`COMM ERROR: ${err.message}`, 'err');
+            } finally {
+                isAITyping = false;
+            }
+        }
+
+        cmdSubmit.addEventListener('click', () => { if(cmdInput.value && !isAITyping) { processCommand(cmdInput.value); cmdInput.value = ''; }});
+        cmdInput.addEventListener('keypress', (e) => { if(e.key === 'Enter' && cmdInput.value && !isAITyping) { processCommand(cmdInput.value); cmdInput.value = ''; }});
+
+        // =========================================================
+        // PHASE 7: Render Loop
+        // =========================================================
+        const clock = new THREE.Clock();
+
+        window.addEventListener('resize', () => {
+            renderHeight = window.innerHeight * 0.7;
+            camera.aspect = window.innerWidth / renderHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, renderHeight);
+            updateTetherPosition(); // Correct UI position on resize
+        });
+
+        function animate() {
+            requestAnimationFrame(animate);
+            material.uniforms.uTime.value = clock.getElapsedTime();
+            
+            camera.position.lerp(camTargetPos, 0.08);
+            controls.update();
+            renderer.render(scene, camera);
+            
+            // Constantly track the UI to the 3D target
+            updateTetherPosition();
+        }
+        animate();
+
+    </script>
+</body>
+</html>

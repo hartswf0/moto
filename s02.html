@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ORCA // RADIAL_TRANSCLUSION_v1</title>
+    <style>
+        :root {
+            --bg-color: #050508;
+            --ring-color: #1a2035;
+            --accent-cyan: #00e5ff;
+            --accent-orange: #ff6a00;
+            --text-dim: #5a7090;
+            --text-bright: #e0f0ff;
+        }
+
+        body, html {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            background-color: var(--bg-color);
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden; display: flex; justify-content: center; align-items: center;
+            touch-action: none; user-select: none;
+        }
+
+        /* --- THE RADIAL CHASSIS --- */
+        #radial-container {
+            position: relative;
+            width: 95vmin; height: 95vmin;
+            max-width: 800px; max-height: 800px;
+            border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+        }
+
+        /* The 3D Viewport Lens */
+        #lens-frame {
+            position: absolute;
+            width: 70%; height: 70%;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: inset 0 0 40px rgba(0, 229, 255, 0.2), 0 0 30px rgba(0,0,0,0.8);
+            border: 2px solid var(--ring-color);
+            z-index: 10;
+            background: #000;
+        }
+
+        #canvas-container {
+            width: 100%; height: 100%;
+            cursor: crosshair;
+        }
+
+        /* Decorative UI Rings */
+        .ui-ring {
+            position: absolute; top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 50%; border: 1px dashed var(--text-dim);
+            pointer-events: none; z-index: 1;
+        }
+        #ring-1 { width: 75%; height: 75%; border-style: solid; border-color: var(--accent-cyan); opacity: 0.3;}
+        #ring-2 { width: 85%; height: 85%; animation: spin-slow 60s linear infinite; }
+        #ring-3 { width: 95%; height: 95%; animation: spin-slow-rev 90s linear infinite; opacity: 0.5;}
+
+        @keyframes spin-slow { 100% { transform: translate(-50%, -50%) rotate(360deg); } }
+        @keyframes spin-slow-rev { 100% { transform: translate(-50%, -50%) rotate(-360deg); } }
+
+        /* --- TRANSCLUSION DATA ARC --- */
+        #data-arc {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 20;
+        }
+
+        .data-node {
+            position: absolute;
+            width: 200px;
+            background: rgba(5, 5, 8, 0.85);
+            border-left: 2px solid var(--accent-orange);
+            padding: 10px;
+            color: var(--text-bright);
+            font-size: 0.75rem; line-height: 1.4;
+            backdrop-filter: blur(5px);
+            opacity: 0; transform: translateY(10px);
+            transition: all 0.4s cubic-bezier(0.1, 0.8, 0.2, 1);
+            pointer-events: auto;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .data-node.active { opacity: 1; transform: translateY(0); }
+        .node-header { font-weight: bold; color: var(--accent-orange); margin-bottom: 5px; border-bottom: 1px solid rgba(255, 106, 0, 0.3); padding-bottom: 2px; font-size: 0.65rem; text-transform: uppercase;}
+        .node-layer-id { color: var(--accent-cyan); font-size: 0.6rem; float: right; }
+
+        /* Status Text */
+        #status-text {
+            position: absolute;
+            bottom: 2%; left: 50%; transform: translateX(-50%);
+            color: var(--accent-cyan); font-size: 0.75rem; letter-spacing: 3px;
+            text-shadow: 0 0 10px var(--accent-cyan);
+            z-index: 30; pointer-events: none; text-align: center;
+        }
+
+        /* Radial Buttons */
+        .radial-btn {
+            position: absolute;
+            width: 50px; height: 50px;
+            background: var(--bg-color);
+            border: 1px solid var(--accent-cyan);
+            border-radius: 50%;
+            color: var(--accent-cyan);
+            display: flex; justify-content: center; align-items: center;
+            font-size: 0.6rem; font-weight: bold; cursor: pointer;
+            z-index: 30; pointer-events: auto;
+            transition: all 0.2s; box-shadow: 0 0 10px rgba(0, 229, 255, 0.1);
+        }
+        .radial-btn:hover { background: var(--accent-cyan); color: #000; transform: scale(1.1); box-shadow: 0 0 20px rgba(0, 229, 255, 0.5); }
+        .radial-btn:active { transform: scale(0.9); }
+
+        #btn-scan { top: 5%; left: 50%; transform: translate(-50%, -50%); }
+        #btn-scan:hover { transform: translate(-50%, -50%) scale(1.1); }
+        
+        #btn-close { bottom: 5%; left: 50%; transform: translate(-50%, 50%); border-color: var(--accent-orange); color: var(--accent-orange); opacity: 0; pointer-events: none;}
+        #btn-close:hover { background: var(--accent-orange); color: #000; transform: translate(-50%, 50%) scale(1.1); }
+
+    </style>
+    <!-- Import Three.js and OrbitControls -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+
+    <div id="radial-container">
+        <!-- UI Rings -->
+        <div class="ui-ring" id="ring-1"></div>
+        <div class="ui-ring" id="ring-2"></div>
+        <div class="ui-ring" id="ring-3"></div>
+
+        <!-- Radial Buttons -->
+        <div class="radial-btn" id="btn-scan" onclick="resetView()">RST</div>
+        <div class="radial-btn" id="btn-close" onclick="collapseStack()">X</div>
+
+        <!-- The Lens -->
+        <div id="lens-frame">
+            <div id="canvas-container"></div>
+        </div>
+
+        <!-- Transclusion Display Area -->
+        <div id="data-arc">
+            <!-- Data nodes will be injected here via JS -->
+        </div>
+
+        <div id="status-text">AWAITING STACK SELECTION</div>
+    </div>
+
+    <script>
+        // =========================================================
+        // DATA MODEL: THE TRANSCLUSION MESSAGES
+        // =========================================================
+        const STACK_MESSAGES = [
+            "Signal received. Vector unstable.",
+            "Refraction detected in sector 7.",
+            "The text degrades as it approaches the perimeter.",
+            "Operator logs indicate temporal shear.",
+            "Memory buffer overflowing with void data.",
+            "Line 14: Null pointer exception in reality matrix.",
+            "Do not trust the echo.",
+            "Architectural failure at coordinates [0,0].",
+            "This column was built over an anomaly.",
+            "Transclusion link severed. Rebuilding..."
+        ];
+
+        const ATLAS_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?@#%&*+-=";
+
+        // =========================================================
+        // PHASE 1: Generate High-Res Text Atlas
+        // =========================================================
+        function createTypographicAtlas() {
+            const canvas = document.createElement('canvas');
+            // 64 chars max. 8x8 grid. Each char 64x64. = 512x512 atlas.
+            canvas.width = 512; canvas.height = 512;
+            const ctx = canvas.getContext('2d');
+            
+            ctx.fillStyle = '#000000'; ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#FFFFFF'; 
+            ctx.font = 'bold 48px monospace';
+            ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+            
+            for(let i = 0; i < 64; i++) {
+                let char = i < ATLAS_CHARS.length ? ATLAS_CHARS[i] : '.';
+                let x = (i % 8) * 64 + 32;
+                let y = Math.floor(i / 8) * 64 + 32;
+                ctx.fillText(char, x, y);
+            }
+            
+            const texture = new THREE.CanvasTexture(canvas);
+            // Linear filtering for softer holographic look
+            texture.magFilter = THREE.LinearFilter; 
+            texture.minFilter = THREE.LinearMipmapLinearFilter;
+            return texture;
+        }
+
+        // =========================================================
+        // PHASE 2: Core Three.js Engine & Controls
+        // =========================================================
+        const container = document.getElementById('canvas-container');
+        const scene = new THREE.Scene();
+        scene.fog = new THREE.FogExp2(0x050508, 0.02);
+
+        const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 1000); // aspect ratio 1 because it's a circle
+        camera.position.set(0, 25, 35);
+
+        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" });
+        renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+        
+        // We make the canvas square to fit perfectly in the circular lens
+        function resize() {
+            const size = document.getElementById('lens-frame').clientWidth;
+            renderer.setSize(size, size);
+            camera.aspect = 1;
+            camera.updateProjectionMatrix();
+        }
+        window.addEventListener('resize', resize);
+
+        container.appendChild(renderer.domElement);
+
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true; controls.dampingFactor = 0.05;
+        // Strict mouse control rules for smooth experience
+        controls.enablePan = false; 
+        controls.maxDistance = 60; controls.minDistance = 10;
+        controls.maxPolarAngle = Math.PI / 2 - 0.1; // Don't go below ground
+        controls.autoRotate = true; controls.autoRotateSpeed = 0.5;
+
+        function resetView() {
+            controls.reset();
+            camera.position.set(0, 25, 35);
+            controls.target.set(0,0,0);
+            collapseStack();
+        }
+
+        // =========================================================
+        // PHASE 3: Polar Topography Instancing (The Stacks)
+        // =========================================================
+        
+        // Base Geometry: A single flat plane, facing up
+        const geometry = new THREE.PlaneGeometry(1, 1);
+        geometry.rotateX(-Math.PI / 2);
+
+        const atlasTexture = createTypographicAtlas();
+
+        // Data structures
+        const colRegistry = []; // Tracks columns
+        let totalInstances = 0;
+
+        // Polar generation logic
+        const rings = 12;
+        const spacing = 1.4;
+        const layerHeight = 0.3; // Distance between text layers in a stack
+
+        // Pre-calculate to find total instances
+        for (let r = 1; r <= rings; r++) {
+            const colsInRing = r * 6; // Concentric expansion
+            for (let c = 0; c < colsInRing; c++) {
+                const angle = (c / colsInRing) * Math.PI * 2;
+                const dist = r * spacing;
+                const x = Math.cos(angle) * dist;
+                const z = Math.sin(angle) * dist;
+                
+                // Height generation (Wave/Dome logic)
+                const heightPhase = Math.sin(x*0.5) + Math.cos(z*0.5);
+                const stackLayers = Math.max(3, Math.floor(8 + heightPhase * 4 - (r * 0.4)));
+
+                colRegistry.push({
+                    id: colRegistry.length,
+                    x: x, z: z, ring: r,
+                    layers: stackLayers,
+                    instanceStart: totalInstances,
+                    messages: []
+                });
+                totalInstances += stackLayers;
+            }
+        }
+
+        // Add Center Core
+        colRegistry.push({
+            id: colRegistry.length, x: 0, z: 0, ring: 0, layers: 15,
+            instanceStart: totalInstances, messages: []
+        });
+        totalInstances += 15;
+
+        // Populate Messages and Attributes
+        const logicArray = new Float32Array(totalInstances * 4); // x: charIdx, y: columnId, z: layerIdx, w: state (0=compact, 1=expanded)
+        const colorArray = new Float32Array(totalInstances * 3);
+
+        const material = new THREE.ShaderMaterial({
+            uniforms: { uAtlas: { value: atlasTexture }, uTime: { value: 0 } },
+            vertexShader: `
+                attribute vec4 instanceLogic; // x: char, y: colId, z: layerIdx, w: state
+                attribute vec3 instanceColor;
+                varying vec2 vUv; varying vec3 vColor; varying float vCharIndex; varying float vState; varying float vLayer;
+                
+                uniform float uTime;
+
+                void main() {
+                    vUv = uv; vColor = instanceColor; 
+                    vCharIndex = instanceLogic.x; 
+                    vState = instanceLogic.w;
+                    vLayer = instanceLogic.z;
+                    
+                    vec3 pos = position;
+                    vec4 worldPos = instanceMatrix * vec4(pos, 1.0);
+                    
+                    // TRANSCLUSION EXPANSION LOGIC
+                    // If state is active (vState > 0.5), expand the Y spacing dramatically
+                    float spacing = mix(0.3, 3.0, vState);
+                    
+                    // Dynamic Bobbing
+                    float bob = sin(uTime * 2.0 + instanceLogic.y) * 0.1;
+                    
+                    worldPos.y = (vLayer * spacing) + bob;
+                    
+                    // If expanded, lift the whole column slightly to center it
+                    worldPos.y -= mix(0.0, 5.0, vState); 
+
+                    gl_Position = projectionMatrix * viewMatrix * worldPos;
+                }
+            `,
+            fragmentShader: `
+                uniform sampler2D uAtlas; uniform float uTime;
+                varying vec2 vUv; varying vec3 vColor; varying float vCharIndex; varying float vState; varying float vLayer;
+
+                void main() {
+                    // Extract text mask from 8x8 atlas
+                    float col = mod(vCharIndex, 8.0);
+                    float row = floor(vCharIndex / 8.0);
+                    vec2 atlasUV = vec2((col + vUv.x) / 8.0, (row + vUv.y) / 8.0);
+                    
+                    vec4 texSample = texture2D(uAtlas, atlasUV);
+                    
+                    // We only want the text, discard background
+                    if (texSample.r < 0.1) discard;
+
+                    // Holographic glow
+                    vec3 finalColor = vColor;
+                    
+                    // Top layers glow brighter
+                    finalColor *= (1.0 + (vLayer * 0.05));
+
+                    // If Expanded (Transcluding), pulse bright Cyan/Orange
+                    if (vState > 0.5) {
+                        float pulse = (sin(uTime * 5.0 - vLayer) + 1.0) * 0.5;
+                        finalColor = mix(vec3(0.0, 0.9, 1.0), vec3(1.0, 0.4, 0.0), pulse);
+                    }
+
+                    gl_FragColor = vec4(finalColor * texSample.r, 0.8); // Slight transparency
+                }
+            `,
+            side: THREE.DoubleSide,
+            transparent: true,
+            depthWrite: false, // Prevents z-fighting between transparent planes
+            blending: THREE.AdditiveBlending // Holographic stacking
+        });
+
+        const instancedMesh = new THREE.InstancedMesh(geometry, material, totalInstances);
+        const dummy = new THREE.Object3D();
+
+        let currentInst = 0;
+        colRegistry.forEach((col) => {
+            // Assign random messages to this column
+            for(let l=0; l<col.layers; l++) {
+                col.messages.push(STACK_MESSAGES[Math.floor(Math.random() * STACK_MESSAGES.length)]);
+            }
+
+            // Determine Base Color based on ring
+            let c;
+            if (col.ring === 0) c = new THREE.Color(0xff6a00); // Core = Orange
+            else if (col.ring < 5) c = new THREE.Color(0x00e5ff); // Inner = Cyan
+            else if (col.ring < 9) c = new THREE.Color(0x5a7090); // Mid = Blue/Grey
+            else c = new THREE.Color(0x223344); // Outer = Dark
+
+            for (let l = 0; l < col.layers; l++) {
+                // Set Position (Y is handled entirely in vertex shader!)
+                dummy.position.set(col.x, 0, col.z);
+                
+                // Scale planes slightly smaller as they go up to make a pyramid/shard shape
+                const s = 1.0 - (l * 0.02);
+                dummy.scale.set(s, s, s);
+                dummy.updateMatrix();
+                instancedMesh.setMatrixAt(currentInst, dummy.matrix);
+
+                // Logic Array: [charIndex, colId, layerIdx, state]
+                logicArray[currentInst * 4 + 0] = Math.floor(Math.random() * 64); // Random char
+                logicArray[currentInst * 4 + 1] = col.id;
+                logicArray[currentInst * 4 + 2] = l;
+                logicArray[currentInst * 4 + 3] = 0.0; // Compact state
+
+                colorArray[currentInst * 3 + 0] = c.r;
+                colorArray[currentInst * 3 + 1] = c.g;
+                colorArray[currentInst * 3 + 2] = c.b;
+
+                currentInst++;
+            }
+        });
+
+        // FIX: Use geometry.setAttribute instead of instancedMesh.setAttribute
+        instancedMesh.geometry.setAttribute('instanceLogic', new THREE.InstancedBufferAttribute(logicArray, 4));
+        instancedMesh.geometry.setAttribute('instanceColor', new THREE.InstancedBufferAttribute(colorArray, 3));
+        scene.add(instancedMesh);
+
+        // Resize initially
+        resize();
+        // Hide a loading element if it exists in the DOM
+        const loader = document.getElementById('loading');
+        if (loader) loader.style.display = 'none';
+
+        // =========================================================
+        // PHASE 4: Transclusion Engine & Raycasting
+        // =========================================================
+        const raycaster = new THREE.Raycaster();
+        const mouse = new THREE.Vector2();
+        let selectedColId = -1;
+        let expansionLerp = 0; // Animates the expansion in the shader
+
+        function onInteract(clientX, clientY) {
+            const frame = document.getElementById('lens-frame');
+            const rect = frame.getBoundingClientRect();
+            
+            // Map coordinates relative to the circular frame
+            const x = clientX - rect.left;
+            const y = clientY - rect.top;
+
+            // Check if click is actually inside the circle mathematically
+            const rX = x - rect.width/2;
+            const rY = y - rect.height/2;
+            if (Math.sqrt(rX*rX + rY*rY) > rect.width/2) return; // Clicked outside the masked circle
+
+            mouse.x = (x / rect.width) * 2 - 1;
+            mouse.y = -(y / rect.height) * 2 + 1;
+
+            raycaster.setFromCamera(mouse, camera);
+            // We use raycaster.params.Points.threshold if it was points, but for planes:
+            const intersects = raycaster.intersectObject(instancedMesh);
+
+            if (intersects.length > 0) {
+                // Find which column this instance belongs to
+                const instId = intersects[0].instanceId;
+                const colId = logicArray[instId * 4 + 1];
+                expandStack(colId);
+            } else {
+                collapseStack();
+            }
+        }
+
+        window.addEventListener('pointerdown', (e) => { 
+            if(e.target.id === 'canvas-container' || e.target.tagName === 'CANVAS') {
+                onInteract(e.clientX, e.clientY);
+            }
+        });
+
+        function expandStack(colId) {
+            if (selectedColId === colId) return; // Already selected
+            
+            // Reset previous
+            setColumnState(selectedColId, 0.0);
+            
+            selectedColId = colId;
+            setColumnState(selectedColId, 1.0);
+            
+            instancedMesh.geometry.attributes.instanceLogic.needsUpdate = true;
+            controls.autoRotate = false; // Stop rotating so user can read
+            
+            // Move Camera to focus on the expanded stack
+            const col = colRegistry[colId];
+            const targetCam = new THREE.Vector3(col.x + 10, 15, col.z + 10);
+            controls.target.set(col.x, 5, col.z);
+            
+            // Render Transclusion UI
+            renderTransclusionNodes(col);
+
+            const statusTxt = document.getElementById('status-text');
+            if (statusTxt) statusTxt.innerText = `DATA LINK ESTABLISHED: STACK_ID [${colId}]`;
+            const btnClose = document.getElementById('btn-close');
+            if (btnClose) {
+                btnClose.style.opacity = '1';
+                btnClose.style.pointerEvents = 'auto';
+            }
+        }
+
+        function collapseStack() {
+            if (selectedColId === -1) return;
+            setColumnState(selectedColId, 0.0);
+            instancedMesh.geometry.attributes.instanceLogic.needsUpdate = true;
+            selectedColId = -1;
+            controls.autoRotate = true; // Resume idle rotation
+            controls.target.set(0,0,0);
+            
+            // Clear UI
+            const dataArc = document.getElementById('data-arc');
+            if (dataArc) dataArc.innerHTML = '';
+            const statusTxt = document.getElementById('status-text');
+            if (statusTxt) statusTxt.innerText = 'AWAITING STACK SELECTION';
+            const btnClose = document.getElementById('btn-close');
+            if (btnClose) {
+                btnClose.style.opacity = '0';
+                btnClose.style.pointerEvents = 'none';
+            }
+        }
+
+        function setColumnState(id, stateValue) {
+            if (id === -1) return;
+            const col = colRegistry[id];
+            for (let i = col.instanceStart; i < col.instanceStart + col.layers; i++) {
+                logicArray[i * 4 + 3] = stateValue; // Set the state w component
+            }
+        }
+
+        // --- Transclusion UI Arc Rendering ---
+        function renderTransclusionNodes(col) {
+            const container = document.getElementById('data-arc');
+            if (!container) return;
+            container.innerHTML = ''; // Clear old
+
+            // Max messages to show to prevent clutter
+            const displayLayers = Math.min(col.layers, 6); 
+            const angleStep = Math.PI / (displayLayers + 1);
+
+            for(let i=0; i<displayLayers; i++) {
+                const node = document.createElement('div');
+                node.className = 'data-node';
+                
+                const charCode = Math.floor(logicArray[(col.instanceStart + i) * 4 + 0]);
+                const charStr = charCode < ATLAS_CHARS.length ? ATLAS_CHARS[charCode] : '?';
+
+                node.innerHTML = `
+                    <div class="node-header">LAYER_${i} <span class="node-layer-id">SIG:[${charStr}]</span></div>
+                    <div>${col.messages[i]}</div>
+                `;
+
+                // Calculate radial position orbiting the central lens
+                // We map them in a semi-circle on the left/right depending on camera pos, 
+                // but for simplicity, we map them in an arc across the top/sides
+                const arcAngle = Math.PI + (angleStep * (i + 1)); // 180 to 360 deg arc (top half)
+                const radialContainer = document.getElementById('radial-container');
+                const radius = radialContainer ? radialContainer.clientWidth * 0.45 : 300; // Just outside the lens
+                
+                const cx = radialContainer ? radialContainer.clientWidth / 2 : window.innerWidth / 2;
+                const cy = radialContainer ? radialContainer.clientHeight / 2 : window.innerHeight / 2;
+                
+                const x = cx + Math.cos(arcAngle) * radius;
+                const y = cy + Math.sin(arcAngle) * radius;
+
+                node.style.left = `${x - 100}px`; // Center width
+                node.style.top = `${y - 30}px`;  // Center height
+                
+                container.appendChild(node);
+
+                // Cascade animation
+                setTimeout(() => { node.classList.add('active'); }, 50 + (i * 100));
+            }
+        }
+
+
+        // =========================================================
+        // PHASE 5: Render Loop
+        // =========================================================
+        const clock = new THREE.Clock();
+
+        function animate() {
+            requestAnimationFrame(animate);
+            material.uniforms.uTime.value = clock.getElapsedTime();
+            
+            // Smoothly move camera if transcluding
+            if(selectedColId !== -1) {
+                const col = colRegistry[selectedColId];
+                // Gently orbit around the selected column
+                camera.position.x = THREE.MathUtils.lerp(camera.position.x, col.x + Math.sin(clock.getElapsedTime()*0.5)*15, 0.05);
+                camera.position.z = THREE.MathUtils.lerp(camera.position.z, col.z + Math.cos(clock.getElapsedTime()*0.5)*15, 0.05);
+                camera.position.y = THREE.MathUtils.lerp(camera.position.y, 20, 0.05);
+            }
+
+            controls.update();
+            renderer.render(scene, camera);
+        }
+        animate();
+
+    </script>
+</body>
+</html>

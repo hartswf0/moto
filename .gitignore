@@ -1,0 +1,15 @@
+.DS_Store
+.vscode/
+*.tmp
+*.log
+__pycache__/
+
+# Large local render/build artifacts (do not publish to Pages)
+**/_work/
+**/track_chunks*/
+**/track_segments*/
+**/frames_*/
+**/assets_*/
+**/*.concat.txt
+**/output/
+
