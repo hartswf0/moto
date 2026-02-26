@@ -194,6 +194,83 @@
       line-height: 1;
     }
 
+    .mini-menu {
+      position: relative;
+    }
+
+    .mini-menu > summary {
+      list-style: none;
+    }
+
+    .mini-menu > summary::-webkit-details-marker { display: none; }
+
+    .mini-menu[open] > summary {
+      background: linear-gradient(180deg, #ffd28a, #ffb761);
+      color: #241400;
+      border-color: rgba(0,0,0,0.5);
+    }
+
+    .mini-menu-panel {
+      position: absolute;
+      right: 0;
+      top: calc(100% + 6px);
+      width: min(78vw, 260px);
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.09);
+      background: linear-gradient(180deg, rgba(33,34,40,0.98), rgba(19,19,24,0.98));
+      box-shadow: 0 14px 28px rgba(0,0,0,0.42);
+      padding: 8px;
+      display: grid;
+      gap: 8px;
+      z-index: 50;
+    }
+
+    .mini-menu-label {
+      min-height: 26px;
+      border-radius: 9px;
+      border: 1px solid rgba(255,255,255,0.05);
+      background: rgba(255,255,255,0.02);
+      padding: 5px 8px;
+      color: var(--muted);
+      font-size: calc(0.68rem * var(--ui-scale));
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      line-height: 1.2;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .mini-menu-actions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+    }
+
+    .mini-menu-btn {
+      appearance: none;
+      min-height: 34px;
+      border-radius: 10px;
+      border: 1px solid #000;
+      background: linear-gradient(180deg, #2a2c33, #1f2027);
+      color: var(--text);
+      box-shadow: 1px 1px 0 rgba(0,0,0,0.45);
+      font-weight: 800;
+      font-size: calc(0.72rem * var(--ui-scale));
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 0 8px;
+      touch-action: manipulation;
+    }
+
+    .mini-menu-btn:active { transform: translateY(1px); }
+
+    .mini-menu-btn:disabled {
+      opacity: 0.45;
+      cursor: default;
+    }
+
     .finder-row {
       display: grid;
       grid-template-columns: 1fr auto auto;
@@ -1203,7 +1280,19 @@
           <div class="brand-right">
             <div class="mini-count" id="visibleCount">16 songs</div>
             <button type="button" class="mini-link icon-only" id="shareAlbumBtn" aria-label="Share current album page" title="Share current album page">↗</button>
-            <a class="mini-link" href="../op2.html" aria-label="Open OP2 mixer">OP2</a>
+            <details class="mini-menu" id="songLinkMenu">
+              <summary class="mini-link icon-only" aria-label="Song link tools" title="Song link tools">⋯</summary>
+              <div class="mini-menu-panel" role="group" aria-label="Current song links">
+                <div class="mini-menu-label" id="songLinkMenuLabel">Select a song</div>
+                <div class="mini-menu-actions">
+                  <button type="button" class="mini-menu-btn" id="songPageBtn" disabled>Page</button>
+                  <button type="button" class="mini-menu-btn" id="shareSongBtn" disabled>Send</button>
+                  <button type="button" class="mini-menu-btn" id="copySongBtn" disabled>Copy</button>
+                  <button type="button" class="mini-menu-btn" id="copySongEmbedBtn" disabled>Embed</button>
+                </div>
+              </div>
+            </details>
+            <a class="mini-link" href="../op2.html" aria-label="Open OP2 mixer" title="Open OP2 mixer">Mix</a>
           </div>
         </div>
         <div class="area-row">
@@ -1478,6 +1567,12 @@
       jumpCurrentBtn: document.getElementById("jumpCurrentBtn"),
       visibleCount: document.getElementById("visibleCount"),
       shareAlbumBtn: document.getElementById("shareAlbumBtn"),
+      songLinkMenu: document.getElementById("songLinkMenu"),
+      songLinkMenuLabel: document.getElementById("songLinkMenuLabel"),
+      songPageBtn: document.getElementById("songPageBtn"),
+      shareSongBtn: document.getElementById("shareSongBtn"),
+      copySongBtn: document.getElementById("copySongBtn"),
+      copySongEmbedBtn: document.getElementById("copySongEmbedBtn"),
       areaStrip: document.getElementById("areaStrip"),
       finderWrap: document.getElementById("finderWrap"),
       playerExtra: document.getElementById("playerExtra"),
@@ -1640,6 +1735,131 @@
       }
     }
 
+    function getSongPagePath(index = state.currentIndex, areaKey = state.activeAreaKey, opts = {}) {
+      if (!Number.isFinite(index) || index < 0) return "";
+      const params = new URLSearchParams();
+      params.set("album", areaKey);
+      params.set("track", String(index + 1));
+      if (opts.embed) params.set("embed", "1");
+      if (opts.autoplay) params.set("autoplay", "1");
+      return `./song.html?${params.toString()}`;
+    }
+
+    function getSongPageAbsoluteUrl(index = state.currentIndex, areaKey = state.activeAreaKey, opts = {}) {
+      const path = getSongPagePath(index, areaKey, opts);
+      if (!path) return "";
+      try {
+        return new URL(path, window.location.href).toString();
+      } catch {
+        return path;
+      }
+    }
+
+    function getSongEmbedSnippet(index = state.currentIndex, areaKey = state.activeAreaKey) {
+      const url = getSongPageAbsoluteUrl(index, areaKey, { embed: true });
+      if (!url) return "";
+      return `<iframe src="${url}" title="VOLHOLLA song player" loading="lazy" allow="autoplay" style="width:100%;max-width:420px;height:640px;border:0;border-radius:16px;"></iframe>`;
+    }
+
+    async function copyTextSmart(text, promptLabel = "Copy text") {
+      if (!text) return "noop";
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        return "copied";
+      }
+      window.prompt(promptLabel, text);
+      return "prompt";
+    }
+
+    function closeSongLinkMenu() {
+      if (els.songLinkMenu?.open) els.songLinkMenu.open = false;
+    }
+
+    function updateSongLinkMenu() {
+      const idx = state.currentIndex;
+      const track = idx >= 0 ? tracks[idx] : null;
+      const area = getAreaDef();
+      const enabled = Boolean(track);
+      if (els.songLinkMenuLabel) {
+        els.songLinkMenuLabel.textContent = enabled
+          ? `${String(idx + 1).padStart(2, "0")} · ${track.title}`
+          : `Select a song in ${area.label}`;
+      }
+      [els.songPageBtn, els.shareSongBtn, els.copySongBtn, els.copySongEmbedBtn].forEach((btn) => {
+        if (btn) btn.disabled = !enabled;
+      });
+      if (els.songPageBtn) els.songPageBtn.title = enabled ? "Open song page" : "Select a song first";
+      if (els.shareSongBtn) els.shareSongBtn.title = enabled ? "Send current song page" : "Select a song first";
+      if (els.copySongBtn) els.copySongBtn.title = enabled ? "Copy song URL" : "Select a song first";
+      if (els.copySongEmbedBtn) els.copySongEmbedBtn.title = enabled ? "Copy iframe embed code" : "Select a song first";
+    }
+
+    function currentSongShareData() {
+      const idx = state.currentIndex;
+      if (!Number.isFinite(idx) || idx < 0 || !tracks[idx]) return null;
+      const track = tracks[idx];
+      const area = getAreaDef(track.areaKey);
+      const url = getSongPageAbsoluteUrl(idx, track.areaKey);
+      if (!url) return null;
+      return {
+        idx,
+        track,
+        area,
+        url,
+        shareData: {
+          title: `${track.title} · ${area.label}`,
+          text: `${track.title} (${area.label})`,
+          url
+        }
+      };
+    }
+
+    async function shareCurrentSongPage() {
+      const data = currentSongShareData();
+      if (!data) return;
+      try {
+        if (navigator.share) {
+          await navigator.share(data.shareData);
+        } else {
+          await copyTextSmart(data.url, "Copy song URL");
+        }
+        if (els.live) els.live.textContent = `${data.track.title} page ready to send.`;
+        vibrate(8);
+      } catch (err) {
+        if (err?.name === "AbortError") return;
+        try {
+          await copyTextSmart(data.url, "Copy song URL");
+          if (els.live) els.live.textContent = `${data.track.title} page URL copied.`;
+          vibrate(8);
+        } catch {
+          window.prompt("Copy song URL", data.url);
+        }
+      }
+    }
+
+    function openCurrentSongPage() {
+      const data = currentSongShareData();
+      if (!data) return;
+      window.location.href = getSongPagePath(data.idx, data.track.areaKey);
+    }
+
+    async function copyCurrentSongUrl() {
+      const data = currentSongShareData();
+      if (!data) return;
+      await copyTextSmart(data.url, "Copy song URL");
+      if (els.live) els.live.textContent = `${data.track.title} page URL copied.`;
+      vibrate(6);
+    }
+
+    async function copyCurrentSongEmbed() {
+      const data = currentSongShareData();
+      if (!data) return;
+      const snippet = getSongEmbedSnippet(data.idx, data.track.areaKey);
+      await copyTextSmart(snippet, "Copy iframe embed code");
+      if (els.live) els.live.textContent = `Embed code copied for ${data.track.title}.`;
+      vibrate(6);
+    }
+
     function updateAlbumPageShareButton() {
       if (!els.shareAlbumBtn) return;
       const area = getAreaDef();
@@ -1691,6 +1911,7 @@
       const changed = area.key !== state.activeAreaKey;
       state.activeAreaKey = area.key;
       tracks = area.tracks;
+      closeSongLinkMenu();
       if (els.filterInput) {
         els.filterInput.placeholder = `Find in ${area.label.toLowerCase()}...`;
       }
@@ -1811,6 +2032,7 @@
       if (els.playerMiniState) {
         els.playerMiniState.textContent = playing ? "Playing" : "Paused";
       }
+      updateSongLinkMenu();
     }
 
     function syncPlayerSpace() {
@@ -2383,6 +2605,22 @@
     els.nextBtn.addEventListener("click", nextTrack);
     els.playAllBtn.addEventListener("click", playAllFromStart);
     if (els.shareAlbumBtn) els.shareAlbumBtn.addEventListener("click", shareCurrentAlbumPage);
+    if (els.songPageBtn) els.songPageBtn.addEventListener("click", () => {
+      openCurrentSongPage();
+      closeSongLinkMenu();
+    });
+    if (els.shareSongBtn) els.shareSongBtn.addEventListener("click", async () => {
+      await shareCurrentSongPage();
+      closeSongLinkMenu();
+    });
+    if (els.copySongBtn) els.copySongBtn.addEventListener("click", async () => {
+      await copyCurrentSongUrl();
+      closeSongLinkMenu();
+    });
+    if (els.copySongEmbedBtn) els.copySongEmbedBtn.addEventListener("click", async () => {
+      await copyCurrentSongEmbed();
+      closeSongLinkMenu();
+    });
     if (els.bigTextBtn) els.bigTextBtn.addEventListener("click", toggleBigText);
     els.loopBtn.addEventListener("click", toggleLoopAll);
     els.shuffleBtn.addEventListener("click", toggleShuffle);
@@ -2448,9 +2686,16 @@
         if (e.target === els.imageModalBackdrop) closeImageModal();
       });
     }
+    document.addEventListener("click", (e) => {
+      if (!els.songLinkMenu?.open) return;
+      if (!els.songLinkMenu.contains(e.target)) closeSongLinkMenu();
+    });
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && els.imageModal?.classList.contains("show")) {
         closeImageModal();
+      }
+      if (e.key === "Escape" && els.songLinkMenu?.open) {
+        closeSongLinkMenu();
       }
     });
 

@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>SMITH • Minimal Decks (Alt)</title>
+  <style>
+    :root{
+      --bg:#0b0c0f; --panel:#0f1115; --ink:#e6e6e6; --muted:#9aa4ad; --ring:#1f2937;
+      --btn:#0c0e13;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%; margin:0; background:var(--bg); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; overscroll-behavior: none;}
+    body{ touch-action: manipulation; }
+    #wrap{position:fixed; inset:0; display:grid; grid-template-columns: 1fr 1fr; grid-auto-rows: auto; gap:0; height:100svh; min-height:100dvh;}
+    .pad{position:relative; aspect-ratio: 1 / 1; border:0;}
+    iframe{position:absolute; inset:0; width:100%; height:100%; border:0; background:#000}
+
+    /* Floating setup button: bottom-center, safe-area aware */
+    #setupBtn{position:fixed; left:50%; transform:translateX(-50%); bottom:calc(env(safe-area-inset-bottom, 0px) + 12px); z-index:30; background:#0e1117; color:#e6e6e6; border:1px solid #263241; border-radius:999px; padding:10px 14px; cursor:pointer; box-shadow:0 8px 24px rgba(0,0,0,.45); font-weight:600}
+    #backdrop{position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:19; display:none}
+    #backdrop.show{display:block}
+    #panel{position:fixed; right:10px; top:60px; z-index:20; background:linear-gradient(180deg, #0f1115, #0c0e13); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:12px; width:min(520px, calc(100vw - 20px)); display:none; box-shadow:0 16px 40px rgba(0,0,0,.6)}
+    #panel.show{display:block}
+    #panel h3{margin:0 0 10px 0; font-size:13px; color:#9aa4ad; letter-spacing:.18em; text-transform:uppercase}
+    .row{display:flex; gap:8px; align-items:center; margin-bottom:8px}
+    .row input{flex:1; min-width:0; padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring)}
+    .row button{padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring); cursor:pointer}
+    .presets{display:flex; flex-wrap:wrap; gap:6px; margin-top:6px}
+    .preset{padding:6px 10px; border-radius:999px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring); cursor:pointer}
+    .tiny{font-size:12px; color:#9aa4ad}
+
+    /* Minimal mobile: two squares, no chrome */
+    @media(max-width: 879px){
+      #panel, #backdrop{ display:none !important; }
+      .sd-dot{ display:none !important; }
+      .corner-btn{ display:flex !important; }
+      #wrap{ grid-template-columns: 1fr 1fr; height:100svh; min-height:100dvh; padding-top:0; }
+      .pad{ aspect-ratio: 1 / 1; }
+    }
+
+    /* Orientation-aware layout: stack in portrait for larger squares */
+    @media (orientation: portrait){
+      #wrap{ grid-template-columns: 1fr; grid-auto-rows: auto; }
+    }
+    @media (orientation: landscape){
+      #wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+    }
+
+    /* SD dot: larger, tappable, acts as fullscreen button */
+    .sd-dot{ position:fixed; top:12px; left:12px; width:44px; height:44px; border-radius:50%; background:#6ee7ff; box-shadow:0 0 12px rgba(110,231,255,.9); z-index:9999; cursor:pointer; border:1px solid #233443; }
+    .sd-dot:active{ transform: scale(0.98); }
+
+    /* Corner icon buttons */
+    .corner-btn{ position:fixed; top:10px; width:40px; height:40px; border-radius:12px; background:#0b0d12; border:1px solid #243444; display:none; align-items:center; justify-content:center; color:#9ee7ff; font-weight:800; letter-spacing:.06em; cursor:pointer; user-select:none; z-index:5001; box-shadow:0 4px 14px rgba(0,0,0,.35) inset, 0 0 10px rgba(110,231,255,.12) }
+    .corner-btn.left{ left:10px; }
+    .corner-btn.right{ right:10px; }
+    .corner-btn:active{ transform:scale(0.98); }
+
+    /* Popup menu for mobile controls */
+    .mini-menu{ position:fixed; top:56px; right:10px; width:min(90vw, 320px); background:linear-gradient(180deg, #0f1115, #0c0e13); color:var(--ink); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:10px; z-index:5002; display:none; box-shadow:0 16px 40px rgba(0,0,0,.6) }
+    .mini-menu.show{ display:block; }
+    .mini-menu .row{ display:flex; gap:8px; align-items:center; margin-bottom:8px }
+    .mini-menu select{ flex:1; min-width:0; padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid #263241; font-size:13px }
+    .mini-menu .btn{ padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid #263241; cursor:pointer; font-size:14px; width:100% }
+    .mini-scrim{ position:fixed; inset:0; background:transparent; z-index:5000; display:none }
+    .mini-scrim.show{ display:block }
+  </style>
+</head>
+<body>
+  <div class="sd-dot" role="button" aria-label="Fullscreen" title="Fullscreen" tabindex="0"></div>
+  <div class="corner-btn left" id="btnLogo" title="SMITH">SD</div>
+  <div class="corner-btn right" id="btnMenu" title="Fullscreen / Menu" aria-label="Fullscreen / Menu">⛶</div>
+  <div class="mini-scrim" id="miniScrim"></div>
+  <div class="mini-menu" id="miniMenu" role="menu" aria-label="Deck Controls">
+    <div class="row" style="justify-content:space-between">
+      <div class="tiny">Decks</div>
+      <div>
+        <span id="deckAStatus" title="Deck A stream" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#0a2830;border:1px solid #243244;margin-right:6px"></span>
+        <span id="deckBStatus" title="Deck B stream" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#0a2830;border:1px solid #243244"></span>
+      </div>
+    </div>
+    <div class="row"><label class="tiny" for="srcA_m" style="min-width:42px">A</label><select id="srcA_m"></select></div>
+    <div class="row"><label class="tiny" for="srcB_m" style="min-width:42px">B</label><select id="srcB_m"></select></div>
+    <div class="row" style="justify-content:space-between">
+      <button id="btnStartBoth" class="btn" title="Start both" style="flex:1">▶︎ Start</button>
+      <button id="btnPauseBoth" class="btn" title="Pause/Resume both" style="flex:1">⏯</button>
+    </div>
+    <div class="row" style="align-items:center">
+      <button id="cutA" class="btn" style="min-width:44px">A</button>
+      <input id="crossfader" type="range" min="0" max="1" step="0.01" value="0.5" style="flex:1" />
+      <button id="cutB" class="btn" style="min-width:44px">B</button>
+    </div>
+    <div class="row" style="justify-content:space-between">
+      <button id="openA" class="btn" title="Open Deck A" style="flex:1">↗︎ Open A</button>
+      <button id="openB" class="btn" title="Open Deck B" style="flex:1">↗︎ Open B</button>
+    </div>
+    <div class="row" style="justify-content:space-between">
+      <button id="fullA" class="btn" title="Fullscreen Deck A" style="flex:1">⛶ Deck A</button>
+      <button id="fullB" class="btn" title="Fullscreen Deck B" style="flex:1">⛶ Deck B</button>
+    </div>
+    <button id="btnRecordBoth" class="btn" title="Record mix">● Record</button>
+    <button id="miniFullscreen" class="btn" title="Fullscreen" style="margin-top:6px">⛶ Fullscreen</button>
+  </div>
+  <button id="setupBtn" title="Set deck URLs">URLs</button>
+  <div id="backdrop"></div>
+  <div id="panel" role="dialog" aria-modal="false">
+    <h3>Deck URLs</h3>
+    <div class="row">
+      <label class="tiny" for="urlA" style="min-width:42px">Deck A</label>
+      <input id="urlA" placeholder="https://… or local.html" />
+      <select id="urlASelect" title="Choose preset for Deck A" style="max-width:44%"></select>
+      <button id="applyA">Load A</button>
+    </div>
+    <div class="row">
+      <label class="tiny" for="urlB" style="min-width:42px">Deck B</label>
+      <input id="urlB" placeholder="https://… or local.html" />
+      <select id="urlBSelect" title="Choose preset for Deck B" style="max-width:44%"></select>
+      <button id="applyB">Load B</button>
+    </div>
+    <div class="presets">
+      <button class="preset" data-a="smith-968.html" data-b="smith-137.html">A:968 • B:137</button>
+      <button class="preset" data-a="smith-255.html" data-b="smith-968.html">A:255 • B:968</button>
+      <button class="preset" data-a="smith-968.html" data-b="smith-968.html">A:968 • B:968</button>
+    </div>
+    <div class="tiny" style="margin-top:8px">Tip: you can enter any webpage URL (same-origin loads best). Query params also work: <code>?a=smith-968.html&b=smith-255.html</code></div>
+  </div>
+
+  <div id="wrap">
+    <div class="pad"><iframe id="deckA" src="smith-968.html" allow="autoplay; microphone" allowfullscreen></iframe></div>
+    <div class="pad"><iframe id="deckB" src="smith-137.html" allow="autoplay; microphone" allowfullscreen></iframe></div>
+  </div>
+
+<script>
+(function(){
+  const $ = sel => document.querySelector(sel);
+  const deckA = $('#deckA');
+  const deckB = $('#deckB');
+  const srcA_m = document.getElementById('srcA_m');
+  const srcB_m = document.getElementById('srcB_m');
+  const btnMenu = document.getElementById('btnMenu');
+  const miniMenu = document.getElementById('miniMenu');
+  const miniScrim = document.getElementById('miniScrim');
+  const setupBtn = $('#setupBtn');
+  const panel = $('#panel');
+  const urlA = $('#urlA');
+  const urlB = $('#urlB');
+  const urlASelect = document.getElementById('urlASelect');
+  const urlBSelect = document.getElementById('urlBSelect');
+  const applyA = $('#applyA');
+  const applyB = $('#applyB');
+  const backdrop = $('#backdrop');
+
+  function setSrc(which, url){
+    try{
+      if (!/^https?:\/\//i.test(url) && !url.startsWith('smith-') && !url.endsWith('.html')){
+        // help relative URLs: if user typed just a word, append .html
+        url = url + '.html';
+      }
+      if (which==='A'){ deckA.src = url; urlA.value = url; }
+      else { deckB.src = url; urlB.value = url; }
+    }catch(e){ console.warn('setSrc failed', e); }
+  }
+
+  function parseParams(){
+    const u = new URL(location.href);
+    const a = u.searchParams.get('a');
+    const b = u.searchParams.get('b');
+    if (a) setSrc('A', a);
+    if (b) setSrc('B', b);
+  }
+
+  function togglePanel(force){
+    const show = (typeof force==='boolean') ? force : !panel.classList.contains('show');
+    panel.classList.toggle('show', show);
+    backdrop.classList.toggle('show', show);
+  }
+  setupBtn.addEventListener('click', ()=> togglePanel());
+  backdrop.addEventListener('click', ()=> togglePanel(false));
+  applyA.addEventListener('click', ()=> setSrc('A', urlA.value.trim()));
+  applyB.addEventListener('click', ()=> setSrc('B', urlB.value.trim()));
+
+  panel.addEventListener('click', (e)=>{
+    const p = e.target.closest('.preset'); if (!p) return;
+    const a = p.getAttribute('data-a'); const b = p.getAttribute('data-b');
+    setSrc('A', a); setSrc('B', b);
+  });
+
+  // Keyboard shortcut: "e" to toggle panel
+  document.addEventListener('keydown', (e)=>{ if(e.key.toLowerCase()==='e'){ panel.classList.toggle('show'); }});
+
+  // Initialize form values
+  urlA.value = deckA.src; urlB.value = deckB.src;
+  parseParams();
+
+  // Fullscreen helper for mobile: request fullscreen on first tap
+  function requestFullscreen(el){
+    try{
+      if (document.fullscreenElement || document.webkitFullscreenElement) return;
+      const t = el || document.documentElement;
+      if (t.requestFullscreen) t.requestFullscreen();
+      else if (t.webkitRequestFullscreen) t.webkitRequestFullscreen();
+    }catch(e){}
+  }
+  function tryLockOrientation(){
+    try{
+      if (screen.orientation && screen.orientation.lock){
+        const mode = (window.matchMedia('(orientation: landscape)').matches) ? 'landscape' : 'portrait';
+        screen.orientation.lock(mode).catch(()=>{});
+      }
+    }catch(e){}
+  }
+  function firstTap(){
+    requestFullscreen(document.documentElement);
+    tryLockOrientation();
+    document.removeEventListener('touchend', firstTap);
+    document.removeEventListener('click', firstTap);
+  }
+  if (window.matchMedia('(max-width: 879px)').matches){
+    document.addEventListener('touchend', firstTap, { once:false, passive:true });
+    document.addEventListener('click', firstTap, { once:false });
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+
+  // SD dot toggles fullscreen on demand
+  const sdDot = document.querySelector('.sd-dot');
+  if (sdDot){
+    const toggleFS = ()=> requestFullscreen(document.documentElement);
+    sdDot.addEventListener('click', toggleFS);
+    sdDot.addEventListener('keydown', (e)=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); toggleFS(); }});
+  }
+
+  // Right icon: tap = fullscreen, long-press = menu
+  function closeMenu(){
+    miniMenu?.classList.remove('show');
+    miniScrim?.classList.remove('show');
+    if (setupBtn) setupBtn.style.display = '';
+  }
+  function toggleMenu(){
+    const s = miniMenu?.classList.toggle('show');
+    if(s){ miniScrim?.classList.add('show'); if (setupBtn) setupBtn.style.display = 'none'; }
+    else { miniScrim?.classList.remove('show'); if (setupBtn) setupBtn.style.display = ''; }
+  }
+  miniScrim?.addEventListener('click', closeMenu);
+  if (btnMenu){
+    let pressTimer;
+    const FS = ()=> requestFullscreen(document.documentElement);
+    const start = ()=>{ pressTimer = setTimeout(()=>{ toggleMenu(); }, 550); };
+    const clear = (doTap)=>{ if (pressTimer){ clearTimeout(pressTimer); pressTimer = null; if (doTap){ FS(); } } };
+    btnMenu.addEventListener('touchstart', start, {passive:true});
+    btnMenu.addEventListener('touchend', ()=> clear(true));
+    btnMenu.addEventListener('mousedown', start);
+    btnMenu.addEventListener('mouseup', ()=> clear(true));
+    btnMenu.addEventListener('mouseleave', ()=> clear(false));
+    btnMenu.addEventListener('dblclick', (e)=>{ e.preventDefault(); toggleMenu(); });
+  }
+
+  // Populate mobile selects with known options + current URLs
+  const OPTIONS = [
+    'smith-968.html','smith-137.html','smith-255.html','smith-radio.html',
+    'smith-puppet.html','smith-puppet-01.html','smith-puppet-02.html','smith-puppet-complex.html','smith-deco-puppet-00.html',
+    'deco-mood-00.html','deco-mood-02.html','deco-mood-03.html',
+    'double-smith.html','dub-base.html','sg-00.html','sg-01.html'
+  ];
+  function buildOptions(sel, current){
+    if (!sel) return;
+    const set = new Set([current, ...OPTIONS].filter(Boolean));
+    sel.innerHTML = Array.from(set).map(v=>`<option value="${v}">${v.replace('.html','')}</option>`).join('');
+    if (current) sel.value = current;
+  }
+  buildOptions(srcA_m, deckA?.src ? new URL(deckA.src).pathname.split('/').pop() : 'smith-968.html');
+  buildOptions(srcB_m, deckB?.src ? new URL(deckB.src).pathname.split('/').pop() : 'smith-137.html');
+
+  function setSrc2(which, url){
+    try{
+      if (!/^https?:\/\//i.test(url) && !url.startsWith('smith-') && !url.endsWith('.html')){ url = url + '.html'; }
+      if (which==='A'){ deckA.src = url; if (srcA_m) srcA_m.value = url; }
+      else { deckB.src = url; if (srcB_m) srcB_m.value = url; }
+    }catch(e){}
+  }
+  if (srcA_m){ srcA_m.addEventListener('change', ()=> setSrc2('A', srcA_m.value)); }
+  if (srcB_m){ srcB_m.addEventListener('change', ()=> setSrc2('B', srcB_m.value)); }
+
+  // Populate setup panel selects with OPTIONS and sync inputs
+  function populateSetupSelects(){
+    const opts = OPTIONS.map(v=>`<option value="${v}">${v.replace('.html','')}</option>`).join('');
+    if (urlASelect){ urlASelect.innerHTML = `<option value="">Presets…</option>` + opts; }
+    if (urlBSelect){ urlBSelect.innerHTML = `<option value="">Presets…</option>` + opts; }
+    try{
+      const curA = deckA?.src ? new URL(deckA.src).pathname.split('/').pop() : '';
+      const curB = deckB?.src ? new URL(deckB.src).pathname.split('/').pop() : '';
+      if (urlA){ urlA.value = curA; }
+      if (urlB){ urlB.value = curB; }
+      if (urlASelect && curA) urlASelect.value = curA;
+      if (urlBSelect && curB) urlBSelect.value = curB;
+    }catch{}
+  }
+  populateSetupSelects();
+
+  urlASelect?.addEventListener('change', ()=>{ if (urlASelect.value){ urlA.value = urlASelect.value; } });
+  urlBSelect?.addEventListener('change', ()=>{ if (urlBSelect.value){ urlB.value = urlBSelect.value; } });
+
+  function normalizeUrlInput(v){
+    let url = (v||'').trim();
+    if (!url) return '';
+    if (!/^https?:\/\//i.test(url) && !url.endsWith('.html')) url = url + '.html';
+    return url;
+  }
+  function apply(which){
+    const v = which==='A' ? normalizeUrlInput(urlA.value) : normalizeUrlInput(urlB.value);
+    if (!v) return;
+    setSrc(which, v);
+  }
+  applyA?.addEventListener('click', ()=> apply('A'));
+  applyB?.addEventListener('click', ()=> apply('B'));
+  urlA?.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); apply('A'); }});
+  urlB?.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); apply('B'); }});
+
+  // ===== Parent audio mixer & recorder =====
+  let audioCtx; let deckAGain; let deckBGain; let mixGain; let dest; let mediaRecorder; let chunks=[]; let recOn=false;
+  const sources = new Map();
+
+  function ensureAudio(){
+    if (!audioCtx){
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      deckAGain = audioCtx.createGain(); deckAGain.gain.value = 0.5;
+      deckBGain = audioCtx.createGain(); deckBGain.gain.value = 0.5;
+      mixGain = audioCtx.createGain(); mixGain.gain.value = 1;
+      deckAGain.connect(mixGain); deckBGain.connect(mixGain);
+      dest = audioCtx.createMediaStreamDestination();
+      mixGain.connect(audioCtx.destination);
+      mixGain.connect(dest);
+    }
+  }
+  function requestStreamForFrame(frame){ try{ frame?.contentWindow?.postMessage({ type:'request-audio-stream', id: frame.id }, '*'); }catch(e){} }
+  function setMonitor(frame, on){ try{ frame?.contentWindow?.postMessage({ type:'set-monitor', on: !!on }, '*'); }catch(e){} }
+
+  window.addEventListener('load', ()=>{ setTimeout(()=>{ requestStreamForFrame(deckA); requestStreamForFrame(deckB); }, 600); });
+
+  window.addEventListener('message', (e)=>{
+    const msg = e.data || {};
+    if (msg && msg.type==='audio-stream'){
+      ensureAudio();
+      let which = msg.id;
+      if (!which){ if (e.source === deckA.contentWindow) which = 'deckA'; else if (e.source === deckB.contentWindow) which = 'deckB'; }
+      if (!which) return;
+      const prev = sources.get(which); try{ if(prev?.node) prev.node.disconnect(); }catch{}
+      const node = audioCtx.createMediaStreamSource(msg.stream);
+      if (which === 'deckA' || which === 'frameA'){ node.connect(deckAGain); document.getElementById('deckAStatus')?.classList.add('on'); setMonitor(deckA, false); }
+      else { node.connect(deckBGain); document.getElementById('deckBStatus')?.classList.add('on'); setMonitor(deckB, false); }
+      sources.set(which, { stream: msg.stream, node });
+      audioCtx.resume?.().catch(()=>{});
+    }
+  });
+
+  const btnStartBoth = document.getElementById('btnStartBoth');
+  const btnPauseBoth = document.getElementById('btnPauseBoth');
+  const btnRecordBoth = document.getElementById('btnRecordBoth');
+  const crossfader = document.getElementById('crossfader');
+  const cutA = document.getElementById('cutA');
+  const cutB = document.getElementById('cutB');
+
+  function startBoth(){
+    ensureAudio();
+    deckA.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+    deckB.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+    setMonitor(deckA, false); setMonitor(deckB, false);
+    requestStreamForFrame(deckA); requestStreamForFrame(deckB);
+    audioCtx.resume?.();
+  }
+  btnStartBoth?.addEventListener('click', startBoth);
+
+  let paused=false;
+  function togglePauseBoth(){
+    paused = !paused;
+    if (paused){
+      deckA.contentWindow?.postMessage({ type:'suspend-audio' }, '*');
+      deckB.contentWindow?.postMessage({ type:'suspend-audio' }, '*');
+      btnPauseBoth.textContent = '▶︎'; btnPauseBoth.title = 'Resume both';
+    } else {
+      deckA.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+      deckB.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+      btnPauseBoth.textContent = '⏯'; btnPauseBoth.title = 'Pause both';
+    }
+  }
+  btnPauseBoth?.addEventListener('click', togglePauseBoth);
+
+  function setCrossfade(t){
+    ensureAudio();
+    t = Math.min(1, Math.max(0, parseFloat(t)||0));
+    if (deckAGain && deckBGain){
+      const a = Math.cos(t * Math.PI/2);
+      const b = Math.sin(t * Math.PI/2);
+      deckAGain.gain.setTargetAtTime(a, audioCtx.currentTime, 0.02);
+      deckBGain.gain.setTargetAtTime(b, audioCtx.currentTime, 0.02);
+    }
+  }
+  crossfader?.addEventListener('input', ()=>{ const v = parseFloat(crossfader.value)||0; ensureAudio(); audioCtx.resume?.(); setCrossfade(v); requestStreamForFrame(deckA); requestStreamForFrame(deckB); });
+  cutA?.addEventListener('click', ()=>{ if(crossfader){ crossfader.value = 0; } setCrossfade(0); });
+  cutB?.addEventListener('click', ()=>{ if(crossfader){ crossfader.value = 1; } setCrossfade(1); });
+  setCrossfade(0.5);
+
+  function toggleRecord(){
+    ensureAudio();
+    if (!recOn){
+      chunks = [];
+      const mtCandidates = ['audio/webm;codecs=opus','audio/webm; codecs=opus','audio/webm','audio/mp4','audio/aac'];
+      let opts=undefined; for(const mt of mtCandidates){ if(MediaRecorder.isTypeSupported?.(mt)){ opts={mimeType:mt}; break; } }
+      try{ mediaRecorder = new MediaRecorder(dest.stream, opts); }catch(e){ alert('Recording not supported in this browser'); return; }
+      mediaRecorder.ondataavailable = (ev)=>{ if (ev.data?.size>0) chunks.push(ev.data); };
+      mediaRecorder.onstop = ()=>{
+        const type = mediaRecorder.mimeType || 'audio/webm';
+        const blob = new Blob(chunks, { type });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a'); a.style.display='none'; a.href=url; a.download = `smith_decks_${new Date().toISOString()}.webm`;
+        document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 0);
+      };
+      deckA.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+      deckB.contentWindow?.postMessage({ type:'resume-audio' }, '*');
+      setMonitor(deckA, false); setMonitor(deckB, false);
+      requestStreamForFrame(deckA); requestStreamForFrame(deckB);
+      audioCtx.resume?.();
+      mediaRecorder.start(); recOn = true; btnRecordBoth?.classList.add('on'); btnRecordBoth.textContent = '■ Stop';
+      if (sources.size===0){ setTimeout(()=>{ requestStreamForFrame(deckA); requestStreamForFrame(deckB); }, 500); }
+    } else {
+      try{ mediaRecorder?.stop(); }catch{}
+      recOn = false; btnRecordBoth?.classList.remove('on'); btnRecordBoth.textContent = '● Record';
+    }
+  }
+  btnRecordBoth?.addEventListener('click', toggleRecord);
+
+  // Per-deck open/fullscreen
+  const fullA = document.getElementById('fullA');
+  const fullB = document.getElementById('fullB');
+  const openA = document.getElementById('openA');
+  const openB = document.getElementById('openB');
+  function fullscreenElement(el){
+    if (!document.fullscreenElement && !document.webkitFullscreenElement){ if (el.requestFullscreen) el.requestFullscreen(); else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen(); }
+    else { if (document.exitFullscreen) document.exitFullscreen(); else if (document.webkitExitFullscreen) document.webkitExitFullscreen(); }
+  }
+  fullA?.addEventListener('click', ()=> fullscreenElement(deckA));
+  fullB?.addEventListener('click', ()=> fullscreenElement(deckB));
+  openA?.addEventListener('click', ()=>{ try{ const url = deckA?.src; if (url) window.open(url, '_blank', 'noopener'); }catch{} });
+  openB?.addEventListener('click', ()=>{ try{ const url = deckB?.src; if (url) window.open(url, '_blank', 'noopener'); }catch{} });
+})();
+</script>
+</body>
+</html>

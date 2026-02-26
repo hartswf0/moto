@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>MANDALLA • Dual Deck Harness</title>
+  <link rel="icon" type="image/svg+xml" href='data:image/svg+xml;utf8,
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+      <defs>
+        <linearGradient id="gA" x1="0" x2="1">
+          <stop offset="0%" stop-color="%236ee7ff"/>
+          <stop offset="100%" stop-color="%2300bcd4"/>
+        </linearGradient>
+        <linearGradient id="gB" x1="0" x2="1">
+          <stop offset="0%" stop-color="%23ffcf8a"/>
+          <stop offset="100%" stop-color="%23ff8a3d"/>
+        </linearGradient>
+      </defs>
+      <rect width="64" height="64" rx="12" fill="%230b0c0f"/>
+      <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="%23253547" stroke-width="2"/>
+      <circle cx="19" cy="32" r="12" fill="none" stroke="url(%23gA)" stroke-width="4"/>
+      <circle cx="45" cy="32" r="12" fill="none" stroke="url(%23gB)" stroke-width="4"/>
+      <circle cx="19" cy="32" r="2.4" fill="%236ee7ff"/>
+      <circle cx="45" cy="32" r="2.4" fill="%23ffb56b"/>
+      <path d="M27 32 H37" stroke="%23c9d4df" stroke-width="2.4" stroke-linecap="round"/>
+      <circle cx="32" cy="32" r="3.3" fill="%2311161d" stroke="%23e6edf5" stroke-width="1.4"/>
+      <path d="M32 14 v7 M32 43 v7" stroke="%23303b4a" stroke-width="1.4" stroke-linecap="round"/>
+    </svg>' />
+  <meta name="theme-color" content="#0b0c0f" />
+  <style>
+    :root{
+      --bg:#0b0c0f; --panel:#0f1115; --ink:#e6e6e6; --muted:#9aa4ad; --ring:#1f2937;
+      --btn:#0c0e13; --dockH:108px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%; margin:0; background:var(--bg); color:var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; overscroll-behavior: none;}
+    body{ touch-action: manipulation; }
+    #wrap{position:fixed; inset:0 0 var(--dockH) 0; display:grid; grid-template-columns: 1fr 1fr; grid-auto-rows: auto; gap:0; height:auto; min-height:0;}
+    .pad{position:relative; aspect-ratio: 1 / 1; border:0;}
+    iframe{position:absolute; inset:0; width:100%; height:100%; border:0; background:#000}
+
+    /* Floating setup button: bottom-center, safe-area aware */
+    #setupBtn{position:fixed; left:50%; transform:translateX(-50%); bottom:calc(env(safe-area-inset-bottom, 0px) + var(--dockH) + 10px); z-index:30; background:#0e1117; color:#e6e6e6; border:1px solid #263241; border-radius:10px; padding:8px 12px; cursor:pointer; box-shadow:0 8px 24px rgba(0,0,0,.45); font-weight:700; letter-spacing:.08em}
+    #backdrop{position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:19; display:none}
+    #backdrop.show{display:block}
+    #panel{position:fixed; right:10px; top:60px; z-index:20; background:linear-gradient(180deg, #0f1115, #0c0e13); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:12px; width:min(520px, calc(100vw - 20px)); display:none; box-shadow:0 16px 40px rgba(0,0,0,.6)}
+    #panel.show{display:block}
+    #panel h3{margin:0 0 10px 0; font-size:13px; color:#9aa4ad; letter-spacing:.18em; text-transform:uppercase}
+    .row{display:flex; gap:8px; align-items:center; margin-bottom:8px}
+    .row input{flex:1; min-width:0; padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring)}
+    .row button{padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring); cursor:pointer}
+    .presets{display:flex; flex-wrap:wrap; gap:6px; margin-top:6px}
+    .preset{padding:6px 10px; border-radius:999px; background:#0b0d12; color:var(--ink); border:1px solid var(--ring); cursor:pointer}
+    .tiny{font-size:12px; color:#9aa4ad}
+
+    /* Minimal mobile: two squares, no chrome */
+    @media(max-width: 879px){
+      #panel, #backdrop{ display:none !important; }
+      .sd-dot{ display:none !important; }
+      .corner-btn{ display:flex !important; }
+      #wrap{ grid-template-columns: 1fr 1fr; height:100svh; min-height:100dvh; padding-top:0; }
+      .pad{ aspect-ratio: 1 / 1; }
+    }
+
+    /* Orientation-aware layout: stack in portrait for larger squares */
+    @media (orientation: portrait){
+      #wrap{ grid-template-columns: 1fr; grid-auto-rows: auto; }
+    }
+    @media (orientation: landscape){
+      #wrap{ grid-template-columns: 1fr 1fr; grid-auto-rows: auto; }
+    }
+
+    /* SD dot: larger, tappable, acts as fullscreen button */
+    .sd-dot{ position:fixed; top:12px; left:12px; width:44px; height:44px; border-radius:50%; background:#6ee7ff; box-shadow:0 0 12px rgba(110,231,255,.9); z-index:9999; cursor:pointer; border:1px solid #233443; }
+    .sd-dot:active{ transform: scale(0.98); }
+
+    /* Corner icon buttons */
+    .corner-btn{ position:fixed; top:10px; width:40px; height:40px; border-radius:12px; background:#0b0d12; border:1px solid #243444; display:none; align-items:center; justify-content:center; color:#9ee7ff; font-weight:800; letter-spacing:.06em; cursor:pointer; user-select:none; z-index:5001; box-shadow:0 4px 14px rgba(0,0,0,.35) inset, 0 0 10px rgba(110,231,255,.12) }
+    .corner-btn.left{ left:10px; }
+    .corner-btn.right{ right:10px; }
+    .corner-btn:active{ transform:scale(0.98); }
+
+    /* Popup menu for mobile controls */
+    .mini-menu{ position:fixed; top:56px; right:10px; width:min(90vw, 320px); background:linear-gradient(180deg, #0f1115, #0c0e13); color:var(--ink); border:1px solid rgba(255,255,255,.12); border-radius:12px; padding:10px; z-index:5002; display:none; box-shadow:0 16px 40px rgba(0,0,0,.6) }
+    .mini-menu.show{ display:block; }
+    .mini-menu .row{ display:flex; gap:8px; align-items:center; margin-bottom:8px }
+    .mini-menu select{ flex:1; min-width:0; padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid #263241; font-size:13px }
+    .mini-menu .btn{ padding:8px 10px; border-radius:10px; background:#0b0d12; color:var(--ink); border:1px solid #263241; cursor:pointer; font-size:14px; width:100% }
+    .mini-scrim{ position:fixed; inset:0; background:transparent; z-index:5000; display:none }
+    .mini-scrim.show{ display:block }
+
+    /* Workhorse dock: always-visible control surface */
+    .workhorse-dock{
+      position:fixed;
+      left:8px; right:8px;
+      bottom:calc(env(safe-area-inset-bottom, 0px) + 8px);
+      z-index:40;
+      background:linear-gradient(180deg, rgba(15,17,21,.94), rgba(10,12,16,.96));
+      border:1px solid rgba(255,255,255,.12);
+      box-shadow:0 16px 40px rgba(0,0,0,.55);
+      backdrop-filter: blur(8px);
+      border-radius:14px;
+      padding:8px;
+      display:grid;
+      gap:6px;
+    }
+    .workhorse-dock.compact{
+      gap:5px;
+    }
+    .dock-top{
+      display:flex; align-items:center; gap:8px; min-width:0;
+      font-size:11px; letter-spacing:.12em; text-transform:uppercase;
+      color:var(--muted);
+    }
+    .dock-top .dot{width:8px; height:8px; border-radius:50%; background:#6ee7ff; box-shadow:0 0 10px rgba(110,231,255,.65)}
+    #dockStatus{margin-left:auto; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; letter-spacing:.06em; text-transform:none; font-size:12px; color:#d7dee6}
+    .dock-grid{
+      display:grid;
+      grid-template-columns: auto auto auto auto auto 1fr;
+      gap:6px;
+      align-items:center;
+    }
+    .dock-slider-line{
+      display:flex;
+      align-items:center;
+      gap:6px;
+    }
+    .dock-extra-row{
+      display:none;
+      gap:6px;
+    }
+    .workhorse-dock.show-mix .dock-extra-row{
+      display:flex;
+    }
+    .dock-extra-row .dock-btn{
+      flex:1 1 0;
+    }
+    .dock-status-inline{
+      min-width:0;
+      text-align:right;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      color:#cdd7e0;
+      font-size:11px;
+      letter-spacing:.04em;
+      padding-right:2px;
+    }
+    .dock-btn{
+      min-height:40px; min-width:40px;
+      border:1px solid #263241;
+      background:linear-gradient(180deg,#141821,#0d1016);
+      color:#e7edf4;
+      border-radius:10px;
+      cursor:pointer;
+      font-weight:700;
+      letter-spacing:.06em;
+      padding:0 10px;
+    }
+    .dock-btn:hover{ border-color:#6ee7ff; color:#bff4ff; }
+    .dock-btn.primary{ background:linear-gradient(180deg,#17242b,#102229); border-color:#3b6674; color:#bff7ff; }
+    .dock-btn.accent{ background:linear-gradient(180deg,#2a1f14,#20170f); border-color:#6f5332; color:#ffd1a2; }
+    .dock-btn.tight{ min-width:34px; padding:0 8px; }
+    .dock-slider-wrap{
+      min-width:0; display:flex; align-items:center; gap:8px;
+      padding:0 8px;
+      min-height:40px;
+      border:1px solid #222a35;
+      border-radius:10px;
+      background:rgba(9,11,15,.9);
+    }
+    .dock-label{font-size:10px; color:#94a0ae; letter-spacing:.12em; text-transform:uppercase}
+    .dock-slider-wrap input[type=range]{ width:100%; margin:0; }
+    .dock-presets{
+      display:flex; gap:6px; overflow:auto; padding-bottom:1px;
+      scrollbar-width:none;
+    }
+    .dock-presets::-webkit-scrollbar{ display:none; }
+    .workhorse-dock.compact .dock-presets{
+      display:none;
+    }
+    .workhorse-dock.show-pairs .dock-presets{
+      display:flex;
+    }
+    .dock-chip{
+      flex:0 0 auto;
+      border:1px solid #283342;
+      background:rgba(10,12,17,.95);
+      color:#d1dae3;
+      border-radius:10px;
+      padding:7px 10px;
+      font-size:11px;
+      letter-spacing:.07em;
+      cursor:pointer;
+      text-transform:uppercase;
+    }
+    .dock-chip:hover{ border-color:#6ee7ff; color:#c6f8ff; }
+    .dock-chip.active{ border-color:#ffb56b; color:#ffd4aa; }
+
+    .workhorse-dock.compact .dock-presets,
+    .workhorse-dock.compact .dock-extra-row,
+    .workhorse-dock.compact .dock-log{
+      display:none;
+    }
+    .workhorse-dock.compact.show-pairs .dock-presets{
+      display:flex;
+    }
+    .workhorse-dock.compact.show-mix .dock-extra-row{
+      display:flex;
+    }
+    .workhorse-dock.compact.show-log .dock-log{
+      display:block;
+    }
+    .workhorse-dock.collapsed-mobile .dock-slider-line,
+    .workhorse-dock.collapsed-mobile .dock-presets,
+    .workhorse-dock.collapsed-mobile .dock-extra-row,
+    .workhorse-dock.collapsed-mobile .dock-log{
+      display:none !important;
+    }
+    .dock-log{
+      display:none;
+      border:1px solid #202a36;
+      background:rgba(8,10,14,.9);
+      border-radius:10px;
+      padding:6px 8px;
+      font: 11px/1.3 ui-monospace, SFMono-Regular, Menlo, monospace;
+      color:#aab6c3;
+      max-height:72px;
+      overflow:auto;
+      white-space:pre-wrap;
+    }
+    .workhorse-dock.show-log .dock-log{ display:block; }
+
+    @media (max-width: 879px){
+      :root{ --dockH: 96px; }
+      .workhorse-dock{ left:6px; right:6px; bottom:calc(env(safe-area-inset-bottom, 0px) + 6px); padding:6px; border-radius:12px; }
+      .workhorse-dock.compact{ padding:5px 6px; }
+      .workhorse-dock.show-pairs,
+      .workhorse-dock.show-mix,
+      .workhorse-dock.show-log{
+        padding-bottom:6px;
+      }
+      .workhorse-dock.show-pairs{ --dockH: 132px; }
+      #setupBtn{ bottom:calc(env(safe-area-inset-bottom, 0px) + var(--dockH) + 6px); }
+      #setupBtn{ display:none; }
+      .dock-top{ display:none; }
+      #dockStatus{ font-size:11px; }
+      .dock-grid{
+        grid-template-columns: auto auto auto auto auto;
+      }
+      .dock-grid .dock-hide-mobile{ display:none !important; }
+      .dock-status-inline{ display:none; }
+      .dock-btn{ min-height:36px; min-width:36px; border-radius:9px; padding:0 8px; font-size:13px; }
+      .dock-slider-wrap{ min-height:36px; padding:0 6px; gap:6px; }
+      .dock-presets{ gap:5px; }
+      .dock-chip{ padding:6px 8px; font-size:10px; border-radius:9px; }
+      .dock-log{ max-height:56px; }
+      .dock-extra-row{ grid-template-columns: repeat(4,minmax(0,1fr)); }
+      .dock-mobile-only{ display:inline-flex !important; }
+    }
+    .dock-mobile-only{ display:none; }
+  </style>
+</head>
+<body>
+  <div class="sd-dot" role="button" aria-label="Fullscreen" title="Fullscreen" tabindex="0"></div>
+  <div class="corner-btn left" id="btnLogo" title="MANDALLA">MD</div>
+  <div class="corner-btn right" id="btnMenu" title="Fullscreen / Menu" aria-label="Fullscreen / Menu">⛶</div>
+  <div class="mini-scrim" id="miniScrim"></div>
+  <div class="mini-menu" id="miniMenu" role="menu" aria-label="Deck Controls">
+    <div class="row" style="justify-content:space-between">
+      <div class="tiny">Decks</div>
+      <div>
+        <span id="deckAStatus" title="Deck A stream" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#0a2830;border:1px solid #243244;margin-right:6px"></span>
+        <span id="deckBStatus" title="Deck B stream" style="display:inline-block;width:8px;height:8px;border-radius:50%;background:#0a2830;border:1px solid #243244"></span>
+      </div>
+    </div>
+    <div class="row"><label class="tiny" for="srcA_m" style="min-width:42px">A</label><select id="srcA_m"></select></div>
+    <div class="row"><label class="tiny" for="srcB_m" style="min-width:42px">B</label><select id="srcB_m"></select></div>
+    <div class="row" style="justify-content:space-between">
+      <button id="btnStartBoth" class="btn" title="Start both" style="flex:1">▶︎ Start</button>
+      <button id="btnPauseBoth" class="btn" title="Pause/Resume both" style="flex:1">⏯</button>
+    </div>
+    <div class="row" style="align-items:center">
+      <button id="cutA" class="btn" style="min-width:44px">A</button>
+      <input id="crossfader" type="range" min="0" max="1" step="0.01" value="0.5" style="flex:1" />
+      <button id="cutB" class="btn" style="min-width:44px">B</button>
+    </div>
+    <div class="row" style="justify-content:space-between">
+      <button id="openA" class="btn" title="Open Deck A" style="flex:1">↗︎ Open A</button>
+      <button id="openB" class="btn" title="Open Deck B" style="flex:1">↗︎ Open B</button>
+    </div>
+    <div class="row" style="justify-content:space-between">
+      <button id="fullA" class="btn" title="Fullscreen Deck A" style="flex:1">⛶ Deck A</button>
+      <button id="fullB" class="btn" title="Fullscreen Deck B" style="flex:1">⛶ Deck B</button>
+    </div>
+    <button id="btnRecordBoth" class="btn" title="Record mix">● Record</button>
+    <button id="miniFullscreen" class="btn" title="Fullscreen" style="margin-top:6px">⛶ Fullscreen</button>
+  </div>
+  <button id="setupBtn" title="Set deck URLs">PAIR</button>
+  <div id="backdrop"></div>
+  <div id="panel" role="dialog" aria-modal="false">
+    <h3>Mandalla Deck URLs</h3>
+    <div class="row">
+      <label class="tiny" for="urlA" style="min-width:42px">Deck A</label>
+      <input id="urlA" placeholder="https://… or local.html" />
+      <select id="urlASelect" title="Choose preset for Deck A" style="max-width:44%"></select>
+      <button id="applyA">Load A</button>
+    </div>
+    <div class="row">
+      <label class="tiny" for="urlB" style="min-width:42px">Deck B</label>
+      <input id="urlB" placeholder="https://… or local.html" />
+      <select id="urlBSelect" title="Choose preset for Deck B" style="max-width:44%"></select>
+      <button id="applyB">Load B</button>
+    </div>
+    <div class="presets">
+      <button class="preset" data-a="mandalla.html?embed=1&album=elephant" data-b="mandalla.html?embed=1&album=loom">A: ELE • B: LOOM</button>
+      <button class="preset" data-a="mandalla.html?embed=1&album=loom" data-b="mandalla.html?embed=1&album=moto">A: LOOM • B: MOTO</button>
+      <button class="preset" data-a="mandalla.html?embed=1&album=volholla" data-b="mandalla.html?embed=1&album=moto">A: VOL • B: MOTO</button>
+    </div>
+    <div class="tiny" style="margin-top:8px">Tip: use <code>mandalla.html?embed=1&album=...</code>. Query params on this harness also work: <code>?a=mandalla.html%3Fembed%3D1%26album%3Delephant&b=mandalla.html%3Fembed%3D1%26album%3Dloom</code></div>
+  </div>
+
+  <div id="wrap">
+    <div class="pad"><iframe id="deckA" src="mandalla.html?embed=1&album=elephant" allow="autoplay; microphone" allowfullscreen></iframe></div>
+    <div class="pad"><iframe id="deckB" src="mandalla.html?embed=1&album=loom" allow="autoplay; microphone" allowfullscreen></iframe></div>
+  </div>
+
+  <div class="workhorse-dock compact" id="dock" aria-label="Deck control surface">
+    <div class="dock-top">
+      <span class="dot" aria-hidden="true"></span>
+      <strong>WORKHORSE DECK</strong>
+      <button id="dockPanelBtn" class="dock-btn tight dock-hide-mobile" type="button" title="Pair setup">PAIR</button>
+      <div id="dockStatus">A elephant • B loom</div>
+    </div>
+    <div class="dock-grid">
+      <button id="dockStart" class="dock-btn primary" type="button" title="Start both">▶</button>
+      <button id="dockPause" class="dock-btn" type="button" title="Pause / Resume both">⏯</button>
+      <button id="dockPairs" class="dock-btn tight dock-mobile-only" type="button" title="Show pair presets">PAIR</button>
+      <button id="dockMix" class="dock-btn tight" type="button" title="Show mix controls">MIX</button>
+      <button id="dockMenu" class="dock-btn tight" type="button" title="Collapse / expand controls">☰</button>
+      <div class="dock-status-inline" id="dockStatusInline">A elephant • B loom</div>
+    </div>
+    <div class="dock-slider-line">
+      <div class="dock-slider-wrap" style="flex:1 1 auto;">
+        <span class="dock-label">A</span>
+        <input id="dockCrossfader" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Crossfader" />
+        <span class="dock-label">B</span>
+      </div>
+    </div>
+    <div class="dock-extra-row">
+      <button id="dockCutA" class="dock-btn tight" type="button" title="Cut to deck A">A</button>
+      <button id="dockCutB" class="dock-btn tight" type="button" title="Cut to deck B">B</button>
+      <button id="dockSwap" class="dock-btn tight" type="button" title="Swap decks">⇄</button>
+      <button id="dockRec" class="dock-btn accent" type="button" title="Record mix">●</button>
+    </div>
+    <div class="dock-presets" id="dockPresets" aria-label="Pair presets"></div>
+    <div class="dock-log" id="dockLog" aria-live="polite"></div>
+  </div>
+
+<script>
+(function(){
+  const $ = sel => document.querySelector(sel);
+  const deckA = $('#deckA');
+  const deckB = $('#deckB');
+  const srcA_m = document.getElementById('srcA_m');
+  const srcB_m = document.getElementById('srcB_m');
+  const btnMenu = document.getElementById('btnMenu');
+  const miniMenu = document.getElementById('miniMenu');
+  const miniScrim = document.getElementById('miniScrim');
+  const setupBtn = $('#setupBtn');
+  const panel = $('#panel');
+  const urlA = $('#urlA');
+  const urlB = $('#urlB');
+  const urlASelect = document.getElementById('urlASelect');
+  const urlBSelect = document.getElementById('urlBSelect');
+  const applyA = $('#applyA');
+  const applyB = $('#applyB');
+  const backdrop = $('#backdrop');
+  const dock = document.getElementById('dock');
+  const dockPanelBtn = document.getElementById('dockPanelBtn');
+  const dockStatus = document.getElementById('dockStatus');
+  const dockStatusInline = document.getElementById('dockStatusInline');
+  const dockPresets = document.getElementById('dockPresets');
+  const dockMenu = document.getElementById('dockMenu');
+  const dockMix = document.getElementById('dockMix');
+  const dockPairs = document.getElementById('dockPairs');
+  const dockStart = document.getElementById('dockStart');
+  const dockPause = document.getElementById('dockPause');
+  const dockRec = document.getElementById('dockRec');
+  const dockCutA = document.getElementById('dockCutA');
+  const dockCutB = document.getElementById('dockCutB');
+  const dockSwap = document.getElementById('dockSwap');
+  const dockCrossfader = document.getElementById('dockCrossfader');
+  const dockLogEl = document.getElementById('dockLog');
+
+  const DECK_LIBRARY = [
+    { key:'elephant', label:'Elephant' },
+    { key:'loom', label:'Loom' },
+    { key:'moto', label:'Moto' },
+    { key:'volholla', label:'Volholla' }
+  ];
+
+  const PAIR_PRESETS = [
+    { id:'ele-lo', label:'Elephant × Loom', a:'elephant', b:'loom' },
+    { id:'lo-mo', label:'Loom × Moto', a:'loom', b:'moto' },
+    { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
+    { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
+  ];
+
+  function mandallaUrl(albumKey, { embed=true } = {}){
+    const p = new URLSearchParams();
+    if (embed) p.set('embed', '1');
+    p.set('album', albumKey);
+    return `mandalla.html?${p.toString()}`;
+  }
+
+  const DEBUG = true;
+  const LOG_RING = [];
+  function deckLog(event, data){
+    const stamp = new Date().toLocaleTimeString();
+    const msg = data === undefined ? `[DECK ${stamp}] ${event}` : `[DECK ${stamp}] ${event} ${typeof data==='string' ? data : JSON.stringify(data)}`;
+    if (DEBUG) console.log(msg);
+    LOG_RING.push(msg);
+    if (LOG_RING.length > 10) LOG_RING.shift();
+    if (dockLogEl) dockLogEl.textContent = LOG_RING.slice(-5).join('\n');
+  }
+  function deckWarn(event, data){
+    const stamp = new Date().toLocaleTimeString();
+    const msg = data === undefined ? `[DECK WARN ${stamp}] ${event}` : `[DECK WARN ${stamp}] ${event} ${typeof data==='string' ? data : JSON.stringify(data)}`;
+    console.warn(msg);
+    LOG_RING.push(msg);
+    if (LOG_RING.length > 10) LOG_RING.shift();
+    if (dockLogEl) dockLogEl.textContent = LOG_RING.slice(-5).join('\n');
+  }
+
+  function parseDeckAlbumKey(url){
+    try{
+      const u = new URL(url, window.location.href);
+      const album = (u.searchParams.get('album') || '').toLowerCase();
+      return album || null;
+    }catch{
+      return null;
+    }
+  }
+
+  function deckShortLabel(url){
+    const key = parseDeckAlbumKey(url);
+    if (key){
+      const hit = DECK_LIBRARY.find(d => d.key === key);
+      return hit ? hit.label : key;
+    }
+    try{
+      const u = new URL(url, window.location.href);
+      return (u.pathname.split('/').pop() || 'deck').replace('.html','');
+    }catch{
+      return String(url || 'deck');
+    }
+  }
+
+  function setSrc(which, url){
+    try{
+      if (!/^https?:\/\//i.test(url) && !/\.html($|[?#])/i.test(url)){
+        // help relative URLs: if user typed just a word, append .html
+        url = url + '.html';
+      }
+      if (which==='A'){ deckA.src = url; urlA.value = url; }
+      else { deckB.src = url; urlB.value = url; }
+      deckLog('setSrc', { which, url });
+      setTimeout(updateHarnessState, 20);
+    }catch(e){ console.warn('setSrc failed', e); }
+  }
+
+  function parseParams(){
+    const u = new URL(location.href);
+    const a = u.searchParams.get('a');
+    const b = u.searchParams.get('b');
+    if (a || b) deckLog('parseParams', { a, b });
+    if (a) setSrc('A', a);
+    if (b) setSrc('B', b);
+  }
+
+  function syncHarnessUrl(){
+    try{
+      const u = new URL(window.location.href);
+      u.searchParams.set('a', currentRelative(deckA, deckA?.src || ''));
+      u.searchParams.set('b', currentRelative(deckB, deckB?.src || ''));
+      history.replaceState({}, '', u.toString());
+    }catch{}
+  }
+
+  function pairPresetMatch(){
+    const aKey = parseDeckAlbumKey(deckA?.src || '');
+    const bKey = parseDeckAlbumKey(deckB?.src || '');
+    return PAIR_PRESETS.find(p => p.a === aKey && p.b === bKey) || null;
+  }
+
+  function updateHarnessState(){
+    const statusText = `A ${deckShortLabel(deckA?.src || '')} • B ${deckShortLabel(deckB?.src || '')}`;
+    if (dockStatus){
+      dockStatus.textContent = statusText;
+    }
+    if (dockStatusInline) dockStatusInline.textContent = statusText;
+    const active = pairPresetMatch();
+    dockPresets?.querySelectorAll('.dock-chip').forEach(ch => ch.classList.toggle('active', ch.dataset.presetId === (active?.id || '')));
+    panel?.querySelectorAll('.preset').forEach(ch => ch.classList.toggle('active', ch.dataset.presetId === (active?.id || '')));
+    syncHarnessUrl();
+    populateSetupSelects();
+  }
+
+  function togglePanel(force){
+    const show = (typeof force==='boolean') ? force : !panel.classList.contains('show');
+    panel.classList.toggle('show', show);
+    backdrop.classList.toggle('show', show);
+  }
+  setupBtn.addEventListener('click', ()=> togglePanel());
+  dockPanelBtn?.addEventListener('click', ()=> togglePanel());
+  backdrop.addEventListener('click', ()=> togglePanel(false));
+  applyA.addEventListener('click', ()=> setSrc('A', urlA.value.trim()));
+  applyB.addEventListener('click', ()=> setSrc('B', urlB.value.trim()));
+
+  function handlePairPresetClick(e){
+    const p = e.target.closest('[data-a][data-b]'); if (!p) return;
+    const a = p.getAttribute('data-a'); const b = p.getAttribute('data-b');
+    setSrc('A', a); setSrc('B', b);
+  }
+  panel.addEventListener('click', handlePairPresetClick);
+  dockPresets?.addEventListener('click', handlePairPresetClick);
+
+  // Keyboard shortcut: "e" to toggle panel
+  document.addEventListener('keydown', (e)=>{ if(e.key.toLowerCase()==='e'){ panel.classList.toggle('show'); }});
+
+  // Initialize form values
+  urlA.value = deckA.src; urlB.value = deckB.src;
+  parseParams();
+
+  // Fullscreen helper for mobile: request fullscreen on first tap
+  function requestFullscreen(el){
+    try{
+      if (document.fullscreenElement || document.webkitFullscreenElement) return;
+      const t = el || document.documentElement;
+      if (t.requestFullscreen) {
+        const p = t.requestFullscreen();
+        if (p && p.catch) p.catch((err)=> deckWarn('requestFullscreen rejected', String(err?.message || err)));
+      }
+      else if (t.webkitRequestFullscreen) t.webkitRequestFullscreen();
+    }catch(e){}
+  }
+  function tryLockOrientation(){
+    try{
+      if (screen.orientation && screen.orientation.lock){
+        const mode = (window.matchMedia('(orientation: landscape)').matches) ? 'landscape' : 'portrait';
+        screen.orientation.lock(mode).catch(()=>{});
+      }
+    }catch(e){}
+  }
+  function firstTap(){
+    requestFullscreen(document.documentElement);
+    tryLockOrientation();
+    document.removeEventListener('touchend', firstTap);
+    document.removeEventListener('click', firstTap);
+  }
+  if (window.matchMedia('(max-width: 879px)').matches){
+    document.addEventListener('touchend', firstTap, { once:false, passive:true });
+    document.addEventListener('click', firstTap, { once:false });
+    document.documentElement.style.overflow = 'hidden';
+    document.body.style.overflow = 'hidden';
+  }
+
+  // SD dot toggles fullscreen on demand
+  const sdDot = document.querySelector('.sd-dot');
+  if (sdDot){
+    const toggleFS = ()=> requestFullscreen(document.documentElement);
+    sdDot.addEventListener('click', toggleFS);
+    sdDot.addEventListener('keydown', (e)=>{ if(e.key==='Enter' || e.key===' '){ e.preventDefault(); toggleFS(); }});
+  }
+
+  // Right icon: tap = fullscreen, long-press = menu
+  function closeMenu(){
+    miniMenu?.classList.remove('show');
+    miniScrim?.classList.remove('show');
+    if (setupBtn) setupBtn.style.display = '';
+  }
+  function toggleMenu(){
+    const s = miniMenu?.classList.toggle('show');
+    if(s){ miniScrim?.classList.add('show'); if (setupBtn) setupBtn.style.display = 'none'; }
+    else { miniScrim?.classList.remove('show'); if (setupBtn) setupBtn.style.display = ''; }
+  }
+  miniScrim?.addEventListener('click', closeMenu);
+  if (btnMenu){
+    let pressTimer;
+    const FS = ()=> requestFullscreen(document.documentElement);
+    const start = ()=>{ pressTimer = setTimeout(()=>{ toggleMenu(); }, 550); };
+    const clear = (doTap)=>{ if (pressTimer){ clearTimeout(pressTimer); pressTimer = null; if (doTap){ FS(); } } };
+    btnMenu.addEventListener('touchstart', start, {passive:true});
+    btnMenu.addEventListener('touchend', ()=> clear(true));
+    btnMenu.addEventListener('mousedown', start);
+    btnMenu.addEventListener('mouseup', ()=> clear(true));
+    btnMenu.addEventListener('mouseleave', ()=> clear(false));
+    btnMenu.addEventListener('dblclick', (e)=>{ e.preventDefault(); toggleMenu(); });
+  }
+
+  // Populate mobile selects with known options + current URLs
+  const OPTIONS = [
+    ...DECK_LIBRARY.flatMap(d => [mandallaUrl(d.key, { embed:true }), mandallaUrl(d.key, { embed:false })]),
+    ...PAIR_PRESETS.map(p => `mandalla-deck.html?a=${encodeURIComponent(mandallaUrl(p.a, { embed:true }))}&b=${encodeURIComponent(mandallaUrl(p.b, { embed:true }))}`),
+    'op2.html?a=elephant&b=loom',
+    'VOLHOLLA/index.html?album=elephant'
+  ];
+  function buildOptions(sel, current){
+    if (!sel) return;
+    const set = new Set([current, ...OPTIONS].filter(Boolean));
+    sel.innerHTML = Array.from(set).map(v=>`<option value="${v}">${v.replace(/^\.?\//,'').replace('.html','')}</option>`).join('');
+    if (current) sel.value = current;
+  }
+  function renderPairPresets(){
+    const panelHost = panel?.querySelector('.presets');
+    const panelHtml = PAIR_PRESETS.map(p =>
+      `<button class="preset" data-preset-id="${p.id}" data-a="${mandallaUrl(p.a, { embed:true })}" data-b="${mandallaUrl(p.b, { embed:true })}">${p.label}</button>`
+    ).join('');
+    if (panelHost) panelHost.innerHTML = panelHtml;
+    if (dockPresets){
+      dockPresets.innerHTML = PAIR_PRESETS.map(p =>
+        `<button class="dock-chip" type="button" data-preset-id="${p.id}" data-a="${mandallaUrl(p.a, { embed:true })}" data-b="${mandallaUrl(p.b, { embed:true })}" title="${p.label}">${p.label}</button>`
+      ).join('');
+    }
+  }
+  renderPairPresets();
+  function currentRelative(frame, fallback){
+    try{
+      const u = new URL(frame?.src || '', window.location.href);
+      return (u.pathname.split('/').pop() || fallback) + (u.search || '');
+    }catch{ return fallback; }
+  }
+  buildOptions(srcA_m, currentRelative(deckA, 'mandalla.html?embed=1&album=elephant'));
+  buildOptions(srcB_m, currentRelative(deckB, 'mandalla.html?embed=1&album=loom'));
+
+  function setSrc2(which, url){
+    try{
+      if (!/^https?:\/\//i.test(url) && !/\.html($|[?#])/i.test(url)){ url = url + '.html'; }
+      if (which==='A'){ deckA.src = url; if (srcA_m) srcA_m.value = url; }
+      else { deckB.src = url; if (srcB_m) srcB_m.value = url; }
+      setTimeout(updateHarnessState, 20);
+    }catch(e){}
+  }
+  if (srcA_m){ srcA_m.addEventListener('change', ()=> setSrc2('A', srcA_m.value)); }
+  if (srcB_m){ srcB_m.addEventListener('change', ()=> setSrc2('B', srcB_m.value)); }
+
+  // Populate setup panel selects with OPTIONS and sync inputs
+  function populateSetupSelects(){
+    const opts = OPTIONS.map(v=>`<option value="${v}">${v.replace('.html','')}</option>`).join('');
+    if (urlASelect){ urlASelect.innerHTML = `<option value="">Presets…</option>` + opts; }
+    if (urlBSelect){ urlBSelect.innerHTML = `<option value="">Presets…</option>` + opts; }
+    try{
+      const curA = currentRelative(deckA, '');
+      const curB = currentRelative(deckB, '');
+      if (urlA){ urlA.value = curA; }
+      if (urlB){ urlB.value = curB; }
+      if (urlASelect && curA) urlASelect.value = curA;
+      if (urlBSelect && curB) urlBSelect.value = curB;
+    }catch{}
+  }
+  populateSetupSelects();
+  deckA?.addEventListener('load', ()=> { deckLog('iframe load', { deck:'A', src: currentRelative(deckA, '') }); setTimeout(updateHarnessState, 50); });
+  deckB?.addEventListener('load', ()=> { deckLog('iframe load', { deck:'B', src: currentRelative(deckB, '') }); setTimeout(updateHarnessState, 50); });
+
+  urlASelect?.addEventListener('change', ()=>{ if (urlASelect.value){ urlA.value = urlASelect.value; } });
+  urlBSelect?.addEventListener('change', ()=>{ if (urlBSelect.value){ urlB.value = urlBSelect.value; } });
+
+  function normalizeUrlInput(v){
+    let url = (v||'').trim();
+    if (!url) return '';
+    if (!/^https?:\/\//i.test(url) && !/\.html($|[?#])/i.test(url)) url = url + '.html';
+    return url;
+  }
+  function apply(which){
+    const v = which==='A' ? normalizeUrlInput(urlA.value) : normalizeUrlInput(urlB.value);
+    if (!v) return;
+    setSrc(which, v);
+  }
+  applyA?.addEventListener('click', ()=> apply('A'));
+  applyB?.addEventListener('click', ()=> apply('B'));
+  urlA?.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); apply('A'); }});
+  urlB?.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); apply('B'); }});
+  updateHarnessState();
+
+  // ===== Parent audio mixer & recorder =====
+  let audioCtx; let deckAGain; let deckBGain; let mixGain; let dest; let mediaRecorder; let chunks=[]; let recOn=false;
+  const sources = new Map();
+
+  function ensureAudio(){
+    if (!audioCtx){
+      audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      deckAGain = audioCtx.createGain(); deckAGain.gain.value = 0.5;
+      deckBGain = audioCtx.createGain(); deckBGain.gain.value = 0.5;
+      mixGain = audioCtx.createGain(); mixGain.gain.value = 1;
+      deckAGain.connect(mixGain); deckBGain.connect(mixGain);
+      dest = audioCtx.createMediaStreamDestination();
+      mixGain.connect(audioCtx.destination);
+      mixGain.connect(dest);
+      deckLog('audioCtx created', { state: audioCtx.state });
+    }
+  }
+  function frameId(frame){ return frame?.id || '?'; }
+  function frameFromSource(src){
+    if (src === deckA?.contentWindow) return deckA;
+    if (src === deckB?.contentWindow) return deckB;
+    return null;
+  }
+  function connectDeckStream(which, stream, meta={}){
+    if (!stream) { deckWarn('connectDeckStream missing stream', { which, ...meta }); return false; }
+    ensureAudio();
+    const prev = sources.get(which); try{ if(prev?.node) prev.node.disconnect(); }catch{}
+    const node = audioCtx.createMediaStreamSource(stream);
+    if (which === 'deckA' || which === 'frameA'){
+      node.connect(deckAGain);
+      document.getElementById('deckAStatus')?.classList.add('on');
+      setMonitor(deckA, false);
+    } else {
+      node.connect(deckBGain);
+      document.getElementById('deckBStatus')?.classList.add('on');
+      setMonitor(deckB, false);
+    }
+    sources.set(which, { stream, node });
+    deckLog('audio-stream connected', { which, via: meta.via || 'unknown', sources: Array.from(sources.keys()), audioCtx: audioCtx.state });
+    audioCtx.resume?.()
+      .then(()=> deckLog('audioCtx resume ok', { state: audioCtx.state }))
+      .catch((err)=> deckWarn('audioCtx resume failed', String(err?.message || err)));
+    return true;
+  }
+  function tryDirectStream(frame, reason=''){
+    try{
+      const w = frame?.contentWindow;
+      if (!w || typeof w.__mandallaGetAudioStream !== 'function'){
+        return false;
+      }
+      const stream = w.__mandallaGetAudioStream();
+      const state = (typeof w.__mandallaGetAudioState === 'function') ? w.__mandallaGetAudioState() : null;
+      if (!stream){
+        deckLog('directStream unavailable', { id: frameId(frame), reason, state });
+        return false;
+      }
+      return connectDeckStream(frame.id, stream, { via:'direct', reason, state });
+    } catch (e){
+      deckWarn('directStream failed', { id: frameId(frame), reason, err: String(e?.message || e) });
+      return false;
+    }
+  }
+  async function resumeDeck(frame){
+    try{
+      const w = frame?.contentWindow;
+      if (w && typeof w.__mandallaResumeAudio === 'function'){
+        const state = await w.__mandallaResumeAudio();
+        deckLog('resumeDeck direct', { id: frameId(frame), state });
+        return true;
+      }
+    } catch (e){
+      deckWarn('resumeDeck direct failed', { id: frameId(frame), err: String(e?.message || e) });
+    }
+    try{ frame?.contentWindow?.postMessage({ type:'resume-audio' }, '*'); deckLog('resumeDeck postMessage', { id: frameId(frame) }); }catch(e){}
+    return false;
+  }
+  async function suspendDeck(frame){
+    try{
+      const w = frame?.contentWindow;
+      if (w && typeof w.__mandallaSuspendAudio === 'function'){
+        const state = await w.__mandallaSuspendAudio();
+        deckLog('suspendDeck direct', { id: frameId(frame), state });
+        return true;
+      }
+    } catch (e){
+      deckWarn('suspendDeck direct failed', { id: frameId(frame), err: String(e?.message || e) });
+    }
+    try{ frame?.contentWindow?.postMessage({ type:'suspend-audio' }, '*'); deckLog('suspendDeck postMessage', { id: frameId(frame) }); }catch(e){}
+    return false;
+  }
+  function requestStreamForFrame(frame){
+    try{
+      if (!frame?.contentWindow) {
+        deckWarn('requestStream no frame contentWindow', frame?.id || '?');
+        return;
+      }
+      if (tryDirectStream(frame, 'requestStreamForFrame')) return;
+      frame.contentWindow.postMessage({ type:'request-audio-stream', id: frame.id }, '*');
+      deckLog('requestStream', { id: frame.id, src: currentRelative(frame, '') });
+    } catch (e) {
+      deckWarn('requestStream failed', { id: frame?.id || '?', err: String(e?.message || e) });
+    }
+  }
+  function setMonitor(frame, on){
+    try{
+      const w = frame?.contentWindow;
+      if (w && typeof w.__mandallaSetMonitor === 'function'){
+        w.__mandallaSetMonitor(!!on);
+        return;
+      }
+      w?.postMessage({ type:'set-monitor', on: !!on }, '*');
+    }catch(e){}
+  }
+  function requestStreamsBurst(delays=[0,180,520,1100]){
+    deckLog('requestStreamsBurst', delays);
+    delays.forEach((ms)=>{
+      setTimeout(()=>{
+        requestStreamForFrame(deckA);
+        requestStreamForFrame(deckB);
+      }, ms);
+    });
+  }
+
+  window.addEventListener('load', ()=>{ deckLog('shell load'); requestStreamsBurst([600,1200]); });
+
+  window.addEventListener('message', (e)=>{
+    const msg = e.data || {};
+    if (msg && msg.type==='audio-stream'){
+      let which = msg.id;
+      if (!which){ if (e.source === deckA.contentWindow) which = 'deckA'; else if (e.source === deckB.contentWindow) which = 'deckB'; }
+      if (!which) return;
+      connectDeckStream(which, msg.stream, { via:'postMessage' });
+    }
+  });
+
+  window.addEventListener('message', (e)=>{
+    const msg = e.data || {};
+    if (msg && msg.type === 'mandalla-debug') {
+      deckLog(`child:${msg.stage || 'debug'}`, msg.detail || {});
+      const frame = frameFromSource(e.source);
+      if (frame && (msg.stage === 'stream-post-fail' || msg.stage === 'booted' || msg.stage === 'resume-audio' || msg.stage === 'resume-direct')) {
+        setTimeout(()=> { tryDirectStream(frame, `child:${msg.stage}`); }, 30);
+      }
+    }
+  });
+
+  window.addEventListener('unhandledrejection', (e)=>{
+    const reason = e.reason?.message || String(e.reason || '');
+    if (/Permissions check failed/i.test(reason)) {
+      deckWarn('fullscreen permission rejected (safe to ignore)', reason);
+      e.preventDefault?.();
+      return;
+    }
+    if (/content\.js/i.test((e.reason?.stack) || '')) {
+      deckWarn('extension content.js error (not deck code)', reason);
+      return;
+    }
+    deckWarn('unhandledrejection', reason);
+  });
+
+  const btnStartBoth = document.getElementById('btnStartBoth');
+  const btnPauseBoth = document.getElementById('btnPauseBoth');
+  const btnRecordBoth = document.getElementById('btnRecordBoth');
+  const crossfader = document.getElementById('crossfader');
+  const cutA = document.getElementById('cutA');
+  const cutB = document.getElementById('cutB');
+
+  function setPauseUi(isPaused){
+    if (btnPauseBoth){
+      btnPauseBoth.textContent = isPaused ? '▶︎' : '⏯';
+      btnPauseBoth.title = isPaused ? 'Resume both' : 'Pause both';
+    }
+    if (dockPause){
+      dockPause.textContent = isPaused ? '▶' : '⏯';
+      dockPause.title = isPaused ? 'Resume both' : 'Pause both';
+    }
+  }
+
+  function setRecordUi(isRec){
+    if (btnRecordBoth){
+      btnRecordBoth.classList.toggle('on', isRec);
+      btnRecordBoth.textContent = isRec ? '■ Stop' : '● Record';
+    }
+    if (dockRec){
+      dockRec.classList.toggle('on', isRec);
+      dockRec.textContent = isRec ? '■' : '●';
+      dockRec.title = isRec ? 'Stop recording' : 'Record mix';
+    }
+  }
+
+  function setCrossfadeUi(v){
+    if (crossfader && String(crossfader.value) !== String(v)) crossfader.value = v;
+    if (dockCrossfader && String(dockCrossfader.value) !== String(v)) dockCrossfader.value = v;
+  }
+
+  function startBoth(){
+    ensureAudio();
+    deckLog('startBoth', { a: currentRelative(deckA, ''), b: currentRelative(deckB, '') });
+    resumeDeck(deckA);
+    resumeDeck(deckB);
+    requestStreamsBurst();
+    audioCtx.resume?.()
+      .then(()=> deckLog('audioCtx after start', { state: audioCtx.state }))
+      .catch((err)=> deckWarn('start resume failed', String(err?.message || err)));
+  }
+  btnStartBoth?.addEventListener('click', startBoth);
+
+  let paused=false;
+  function togglePauseBoth(){
+    paused = !paused;
+    deckLog('togglePauseBoth', { paused });
+    if (paused){
+      suspendDeck(deckA);
+      suspendDeck(deckB);
+    } else {
+      resumeDeck(deckA);
+      resumeDeck(deckB);
+    }
+    setPauseUi(paused);
+  }
+  btnPauseBoth?.addEventListener('click', togglePauseBoth);
+  dockPause?.addEventListener('click', togglePauseBoth);
+  dockStart?.addEventListener('click', startBoth);
+  dockMenu?.addEventListener('click', ()=> {
+    if (window.matchMedia('(max-width: 879px)').matches) {
+      const next = !dock.classList.contains('collapsed-mobile');
+      dock.classList.toggle('collapsed-mobile', next);
+      dockMenu.textContent = next ? '☰' : '✕';
+      deckLog('dockCollapse', { collapsed: next });
+    } else {
+      dock.classList.toggle('show-log');
+    }
+  });
+  dockMix?.addEventListener('click', ()=> {
+    const next = !dock.classList.contains('show-mix');
+    dock.classList.toggle('show-mix', next);
+    dockMix.textContent = next ? 'LESS' : 'MIX';
+    deckLog('mixControls', { open: next });
+  });
+  dockPairs?.addEventListener('click', ()=> {
+    const next = !dock.classList.contains('show-pairs');
+    dock.classList.toggle('show-pairs', next);
+    dockPairs.textContent = next ? 'HIDE' : 'PAIR';
+    deckLog('pairPresets', { open: next });
+  });
+
+  function setCrossfade(t){
+    ensureAudio();
+    t = Math.min(1, Math.max(0, parseFloat(t)||0));
+    setCrossfadeUi(t);
+    if (deckAGain && deckBGain){
+      const a = Math.cos(t * Math.PI/2);
+      const b = Math.sin(t * Math.PI/2);
+      deckAGain.gain.setTargetAtTime(a, audioCtx.currentTime, 0.02);
+      deckBGain.gain.setTargetAtTime(b, audioCtx.currentTime, 0.02);
+    }
+    deckLog('crossfade', { t: Number(t).toFixed(2), state: audioCtx?.state });
+  }
+  function onCrossfadeInput(v){
+    ensureAudio();
+    audioCtx.resume?.();
+    setCrossfade(v);
+    requestStreamsBurst([0,180]);
+  }
+  crossfader?.addEventListener('input', ()=>{ const v = parseFloat(crossfader.value)||0; onCrossfadeInput(v); });
+  dockCrossfader?.addEventListener('input', ()=>{ const v = parseFloat(dockCrossfader.value)||0; onCrossfadeInput(v); });
+  cutA?.addEventListener('click', ()=>{ if(crossfader){ crossfader.value = 0; } setCrossfade(0); });
+  cutB?.addEventListener('click', ()=>{ if(crossfader){ crossfader.value = 1; } setCrossfade(1); });
+  dockCutA?.addEventListener('click', ()=> setCrossfade(0));
+  dockCutB?.addEventListener('click', ()=> setCrossfade(1));
+  dockSwap?.addEventListener('click', ()=>{
+    const a = currentRelative(deckA, deckA?.src || '');
+    const b = currentRelative(deckB, deckB?.src || '');
+    setSrc('A', b);
+    setSrc('B', a);
+  });
+  setCrossfade(0.5);
+
+  function toggleRecord(){
+    ensureAudio();
+    if (!recOn){
+      chunks = [];
+      const mtCandidates = ['audio/webm;codecs=opus','audio/webm; codecs=opus','audio/webm','audio/mp4','audio/aac'];
+      let opts=undefined; for(const mt of mtCandidates){ if(MediaRecorder.isTypeSupported?.(mt)){ opts={mimeType:mt}; break; } }
+      try{ mediaRecorder = new MediaRecorder(dest.stream, opts); }catch(e){ alert('Recording not supported in this browser'); return; }
+      mediaRecorder.ondataavailable = (ev)=>{ if (ev.data?.size>0) chunks.push(ev.data); };
+      mediaRecorder.onstop = ()=>{
+        const type = mediaRecorder.mimeType || 'audio/webm';
+        const blob = new Blob(chunks, { type });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a'); a.style.display='none'; a.href=url; a.download = `mandalla_decks_${new Date().toISOString()}.webm`;
+        document.body.appendChild(a); a.click(); setTimeout(()=>{ URL.revokeObjectURL(url); a.remove(); }, 0);
+      };
+      resumeDeck(deckA);
+      resumeDeck(deckB);
+      requestStreamsBurst([0,180,500]);
+      audioCtx.resume?.();
+      mediaRecorder.start(); recOn = true; setRecordUi(true);
+      if (sources.size===0){ requestStreamsBurst([700,1300]); }
+    } else {
+      try{ mediaRecorder?.stop(); }catch{}
+      recOn = false; setRecordUi(false);
+    }
+  }
+  btnRecordBoth?.addEventListener('click', toggleRecord);
+  dockRec?.addEventListener('click', toggleRecord);
+  // Per-deck open/fullscreen
+  const fullA = document.getElementById('fullA');
+  const fullB = document.getElementById('fullB');
+  const openA = document.getElementById('openA');
+  const openB = document.getElementById('openB');
+  function fullscreenElement(el){
+    if (!document.fullscreenElement && !document.webkitFullscreenElement){ if (el.requestFullscreen) el.requestFullscreen(); else if (el.webkitRequestFullscreen) el.webkitRequestFullscreen(); }
+    else { if (document.exitFullscreen) document.exitFullscreen(); else if (document.webkitExitFullscreen) document.webkitExitFullscreen(); }
+  }
+  fullA?.addEventListener('click', ()=> fullscreenElement(deckA));
+  fullB?.addEventListener('click', ()=> fullscreenElement(deckB));
+  openA?.addEventListener('click', ()=>{ try{ const url = deckA?.src; if (url) window.open(url, '_blank', 'noopener'); }catch{} });
+  openB?.addEventListener('click', ()=>{ try{ const url = deckB?.src; if (url) window.open(url, '_blank', 'noopener'); }catch{} });
+  setPauseUi(false);
+  setRecordUi(false);
+  dockMenu.textContent = '☰';
+})();
+</script>
+</body>
+</html>

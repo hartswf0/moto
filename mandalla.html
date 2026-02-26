@@ -1,0 +1,2513 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ORBITAL LOOM</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300ffff' stroke-width='2'/><circle cx='50' cy='50' r='30' fill='none' stroke='%23ff00ff' stroke-width='2'/><circle cx='50' cy='50' r='15' fill='none' stroke='%23ffff00' stroke-width='2'/><circle cx='50' cy='50' r='5' fill='%2300ffff'/></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overscroll-behavior: none;
+            touch-action: none;
+            user-select: none;
+            -webkit-user-select: none;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background-color: #020202;
+            color: #e0e0e0;
+            font-family: 'Share Tech Mono', monospace;
+        }
+
+        #canvas-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 10;
+        }
+
+        /* --- ICONS (CSS Shapes) --- */
+        .icon {
+            display: inline-block;
+            vertical-align: middle;
+            position: relative;
+        }
+
+        .icon-diamond {
+            width: 12px;
+            height: 12px;
+            background: transparent;
+            border: 2px solid #00ffff;
+            transform: rotate(45deg);
+            margin-right: 8px;
+        }
+
+        .icon-circle {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid #00ffff;
+            margin-right: 8px;
+        }
+
+        .icon-square {
+            width: 12px;
+            height: 12px;
+            background: #00ffff;
+            margin-right: 8px;
+        }
+
+        .icon-ring {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            border: 2px dashed #00ffff;
+            margin-right: 8px;
+        }
+
+        /* --- UI OVERLAYS --- */
+        #overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            transition: opacity 0.8s ease-out;
+        }
+
+        .scanline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.1) 50%);
+            background-size: 100% 4px;
+            pointer-events: none;
+            z-index: 90;
+        }
+
+        .btn-init {
+            position: relative;
+            padding: 20px 60px;
+            border: 1px solid #00ffff;
+            color: #00ffff;
+            background: rgba(0, 255, 255, 0.05);
+            font-family: 'Share Tech Mono', monospace;
+            font-size: 1.2rem;
+            letter-spacing: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-transform: uppercase;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+            overflow: hidden;
+        }
+
+        .btn-init::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.4), transparent);
+            transition: 0.5s;
+        }
+
+        .btn-init:hover::before {
+            left: 100%;
+        }
+
+        .btn-init:hover {
+            background: #00ffff;
+            color: #000;
+            box-shadow: 0 0 50px rgba(0, 255, 255, 0.6);
+        }
+
+        /* --- HUD --- */
+        #status-bar {
+            position: absolute;
+            top: max(15px, env(safe-area-inset-top));
+            left: 20px;
+            z-index: 20;
+            pointer-events: none;
+        }
+
+        #status-bar.visible {
+            /* Already visible */
+            opacity: 1;
+        }
+
+        .status-row {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 5px;
+            font-size: 10px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            background: #333;
+            border-radius: 50%;
+        }
+
+        .status-dot.active {
+            background: #00ff00;
+            box-shadow: 0 0 8px #00ff00;
+        }
+
+        /* --- TOAST NOTIFICATIONS --- */
+        #toast-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 50;
+            pointer-events: none;
+            text-align: center;
+        }
+
+        .toast {
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+            background: rgba(0, 0, 0, 0.8);
+            padding: 15px 30px;
+            border: 1px solid #00ffff;
+            opacity: 0;
+            transition: opacity 0.2s;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .toast.show {
+            opacity: 1;
+        }
+
+        /* --- CONTROLS --- */
+        .controls-container {
+            position: absolute;
+            bottom: max(20px, env(safe-area-inset-bottom) + 10px);
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 20;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            /* Mobile Fixes */
+            width: 95%;
+            max-width: 500px;
+        }
+
+        .controls-container.visible {
+            /* Keeps pointer events active */
+            pointer-events: auto;
+        }
+
+        /* --- TOP STRIP / CRATE INFRA (OP2-adjacent) --- */
+        .loom-strip {
+            position: fixed !important;
+            top: max(0px, env(safe-area-inset-top));
+            left: 0;
+            right: 0;
+            z-index: 25;
+            display: flex;
+            align-items: stretch;
+            flex-wrap: wrap;
+            background: rgba(0, 0, 0, 0.95);
+            border-bottom: 1px solid #333;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+        }
+
+        .strip-sec {
+            display: flex;
+            align-items: center;
+            min-height: 44px;
+            border-right: 1px solid #333;
+            min-width: 0;
+        }
+
+        .strip-sec:last-child {
+            border-right: none;
+        }
+
+        .strip-bpm {
+            padding: 0 8px;
+            gap: 6px;
+            flex: 0 0 auto;
+        }
+
+        .strip-mode {
+            flex: 0 0 auto;
+        }
+
+        .strip-mode button,
+        .strip-load button {
+            min-width: 42px;
+            min-height: 44px;
+        }
+
+        .strip-album {
+            flex: 1 1 180px;
+            gap: 4px;
+            padding: 0 4px;
+        }
+
+        .strip-album select {
+            flex: 1 1 auto;
+            min-width: 88px;
+            min-height: 34px;
+            background: rgba(20, 20, 20, 0.95);
+            color: #ddd;
+            border: 1px solid #333;
+            border-radius: 6px;
+            font-size: 10px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0 6px;
+            outline: none;
+        }
+
+        .strip-album select:focus-visible {
+            border-color: #00ffff;
+            box-shadow: 0 0 0 2px rgba(0, 255, 255, 0.12);
+        }
+
+        .strip-mini-btn {
+            min-width: 34px;
+            min-height: 34px;
+            border: 1px solid #333;
+            border-radius: 6px;
+            background: linear-gradient(180deg, #151515, #0b0b0b);
+            color: #aaa;
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            cursor: pointer;
+            padding: 0 6px;
+            flex: 0 0 auto;
+        }
+
+        .strip-mini-btn:hover {
+            border-color: #00ffff;
+            color: #00ffff;
+        }
+
+        .strip-mini-btn.cyan {
+            color: #00ffff;
+            border-color: rgba(0, 255, 255, 0.35);
+        }
+
+        .strip-mini-btn.orange {
+            color: #ffb761;
+            border-color: rgba(255, 183, 97, 0.35);
+        }
+
+        .strip-links {
+            display: flex;
+            gap: 4px;
+            padding-right: 4px;
+            flex: 0 0 auto;
+        }
+
+        .strip-inline-compact {
+            display: none;
+            align-items: center;
+            gap: 2px;
+            margin-left: 2px;
+            flex: 0 0 auto;
+        }
+
+        .strip-inline-compact .strip-mini-btn {
+            min-width: 24px;
+            min-height: 28px;
+            padding: 0 4px;
+            font-size: 8px;
+            border-radius: 4px;
+        }
+
+        #embed-strip-toggle {
+            display: none;
+        }
+
+        .strip-links .strip-mini-btn {
+            min-width: 40px;
+        }
+
+        .strip-row-two {
+            width: 100%;
+            display: flex;
+            align-items: stretch;
+            border-top: 1px solid rgba(255, 255, 255, 0.04);
+            background: rgba(6, 6, 6, 0.82);
+        }
+
+        .strip-crate {
+            flex: 1 1 auto;
+            display: flex;
+            align-items: center;
+            min-width: 0;
+            padding: 0 4px;
+            border-right: 1px solid #333;
+        }
+
+        .strip-crate-nav {
+            background: none;
+            border: none;
+            color: #888;
+            font-size: 18px;
+            min-width: 40px;
+            min-height: 44px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 0 0 auto;
+        }
+
+        .strip-crate-nav:hover {
+            color: #fff;
+        }
+
+        .crate-track-stack {
+            flex: 1 1 auto;
+            min-width: 0;
+            display: grid;
+            gap: 1px;
+            justify-items: center;
+            padding: 0 4px;
+        }
+
+        #crate-track {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 11px;
+            font-weight: bold;
+            color: #0f0;
+            line-height: 1.15;
+        }
+
+        #crate-meta {
+            width: 100%;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            font-size: 9px;
+            color: #777;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            line-height: 1.1;
+        }
+
+        .strip-load {
+            flex: 0 0 auto;
+            display: flex;
+            border-left: 1px solid #333;
+            background: rgba(10, 10, 10, 0.94);
+        }
+
+        .strip-load-compact {
+            display: none;
+            flex: 0 0 auto;
+            align-items: stretch;
+            border-left: 1px solid #333;
+            background: rgba(10, 10, 10, 0.94);
+        }
+
+        .strip-load-compact .strip-mini-btn {
+            min-height: 44px;
+            min-width: 40px;
+            border-radius: 0;
+            border: none;
+            border-left: 1px solid #333;
+            background: rgba(12, 12, 12, 0.96);
+            padding: 0 8px;
+            font-size: 9px;
+        }
+
+        .strip-load-compact .strip-mini-btn:first-child {
+            border-left: none;
+        }
+
+        #compact-load-high {
+            color: #ffde66;
+        }
+
+        #compact-load-mid {
+            color: #8ff7ff;
+        }
+
+        #compact-load-low {
+            color: #ff86ff;
+        }
+
+        #compact-mode-cycle {
+            color: #85ff8f;
+        }
+
+        .strip-load button {
+            font-size: 10px;
+            font-weight: bold;
+            letter-spacing: 0.06em;
+        }
+
+        #load-high {
+            background: rgba(255, 255, 0, 0.15) !important;
+            color: #FF0 !important;
+        }
+
+        #load-mid {
+            background: rgba(0, 255, 255, 0.15) !important;
+            color: #0FF !important;
+        }
+
+        #load-low {
+            background: rgba(255, 0, 255, 0.15) !important;
+            color: #F0F !important;
+        }
+
+        @media (max-width: 700px) {
+            .loom-strip {
+                border-bottom-color: rgba(255, 255, 255, 0.12);
+            }
+
+            .strip-bpm {
+                flex: 1 1 auto;
+            }
+
+            .strip-bpm input[type="range"] {
+                width: 56px !important;
+            }
+
+            .strip-mode {
+                border-right: none;
+            }
+
+            .strip-album {
+                width: 100%;
+                flex: 1 1 100%;
+                border-top: 1px solid rgba(255, 255, 255, 0.04);
+                border-right: none;
+                min-height: 40px;
+                padding: 4px 6px;
+            }
+
+            .strip-links {
+                margin-left: auto;
+            }
+
+            .strip-album select {
+                min-height: 32px;
+            }
+
+            .strip-row-two {
+                position: sticky;
+                top: calc(max(0px, env(safe-area-inset-top)) + 84px);
+                z-index: 26;
+            }
+
+            .strip-crate {
+                padding: 0 2px;
+            }
+
+            .strip-crate-nav {
+                min-width: 34px;
+                font-size: 16px;
+            }
+
+            #crate-track {
+                font-size: 10px;
+            }
+
+            #crate-meta {
+                font-size: 8px;
+            }
+
+            .strip-load button,
+            .strip-mode button {
+                min-width: 38px;
+            }
+
+            .controls-container {
+                bottom: max(10px, env(safe-area-inset-bottom) + 4px);
+            }
+        }
+
+        body.embed-mode #overlay,
+        body.embed-mode #tutorial-overlay,
+        body.embed-mode #controls-bar {
+            display: none !important;
+        }
+
+        body.embed-mode .loom-strip {
+            box-shadow: none;
+            border-bottom-color: rgba(255, 255, 255, 0.18);
+        }
+
+        body.embed-mode .strip-links {
+            display: none;
+        }
+
+        body.embed-mode #embed-strip-toggle {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 28px;
+            min-height: 28px;
+            font-size: 12px;
+            color: #aeefff;
+            border-color: rgba(0, 255, 255, 0.25);
+        }
+
+        body.embed-mode .strip-sec {
+            min-height: 38px;
+        }
+
+        body.embed-mode .strip-mode button,
+        body.embed-mode .strip-load button {
+            min-height: 38px;
+            min-width: 34px;
+            font-size: 9px;
+        }
+
+        body.embed-mode .strip-crate-nav {
+            min-height: 38px;
+            min-width: 34px;
+            font-size: 15px;
+        }
+
+        body.embed-mode #crate-track {
+            font-size: 10px;
+        }
+
+        body.embed-mode #crate-meta {
+            font-size: 8px;
+        }
+
+        body.embed-mode #top-strip .strip-row-two {
+            position: sticky;
+            top: max(0px, env(safe-area-inset-top));
+            z-index: 26;
+        }
+
+        @media (max-width: 700px) {
+            body.embed-mode .strip-bpm {
+                display: none;
+            }
+
+            body.embed-mode .strip-mode {
+                display: none;
+            }
+
+            body.embed-mode .strip-load {
+                display: none;
+            }
+
+            body.embed-mode .strip-album {
+                gap: 2px;
+                padding: 3px 4px;
+                min-height: 36px;
+                width: 100%;
+                flex: 1 1 auto;
+            }
+
+            body.embed-mode .strip-album .strip-mini-btn {
+                min-width: 28px;
+                min-height: 28px;
+                font-size: 9px;
+                padding: 0 4px;
+            }
+
+            body.embed-mode .strip-album select {
+                min-height: 28px;
+                font-size: 9px;
+                letter-spacing: 0.06em;
+                padding: 0 4px;
+                flex: 0 1 76px;
+                max-width: 76px;
+            }
+
+            body.embed-mode #album-prev,
+            body.embed-mode #album-next {
+                display: none;
+            }
+
+            body.embed-mode .strip-inline-compact {
+                display: inline-flex;
+            }
+
+            body.embed-mode .strip-inline-compact .strip-mini-btn {
+                min-width: 24px;
+                min-height: 28px;
+                font-size: 8px;
+                padding: 0 3px;
+            }
+
+            body.embed-mode .strip-row-two {
+                display: none;
+                top: calc(max(0px, env(safe-area-inset-top)) + 36px);
+            }
+
+            body.embed-mode:not(.embed-strip-collapsed) #top-strip .strip-row-two {
+                display: flex;
+            }
+
+            body.embed-mode .crate-track-stack {
+                gap: 0;
+            }
+
+            body.embed-mode #crate-meta {
+                display: none;
+            }
+
+            body.embed-mode .crate-track-stack {
+                justify-items: start;
+                padding-left: 2px;
+                padding-right: 2px;
+            }
+
+            body.embed-mode #crate-track {
+                text-align: left;
+            }
+
+            body.embed-mode .strip-load-compact .strip-mini-btn {
+                min-height: 36px;
+                min-width: 28px;
+                font-size: 8px;
+                padding: 0 4px;
+            }
+
+            body.embed-mode #top-strip .strip-row-two .strip-load,
+            body.embed-mode #top-strip .strip-row-two .strip-load-compact {
+                display: none !important;
+            }
+        }
+
+        .control-panel {
+            pointer-events: auto;
+            background: rgba(5, 5, 5, 0.9);
+            border: 1px solid #333;
+            padding: 10px 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            backdrop-filter: blur(4px);
+            /* Mobile Sizing */
+            flex: 1 1 120px;
+        }
+
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100px;
+            height: 2px;
+            background: #333;
+            outline: none;
+            margin: 10px 0;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 10px;
+            height: 10px;
+            background: #00ffff;
+            cursor: pointer;
+            transform: rotate(45deg);
+            box-shadow: 0 0 5px #00ffff;
+        }
+
+        .btn-ctrl {
+            border: 1px solid #333;
+            color: #888;
+            font-size: 9px;
+            padding: 8px 12px;
+            cursor: pointer;
+            transition: 0.2s;
+            background: transparent;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-ctrl:hover {
+            border-color: #00ffff;
+            color: #00ffff;
+            box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+        }
+
+        .label-sm {
+            font-size: 8px;
+            letter-spacing: 2px;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        .val-lg {
+            font-size: 11px;
+            color: #fff;
+            font-weight: bold;
+            margin-top: 2px;
+        }
+
+        /* --- RECORDER BUTTON --- */
+        #rec-btn-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 30;
+            display: none;
+        }
+
+        .rec-btn {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: rgba(255, 0, 0, 0.1);
+            border: 1px solid #ff0000;
+            color: #fff;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);
+            cursor: pointer;
+            font-size: 10px;
+            backdrop-filter: blur(4px);
+            animation: pulse-red 2s infinite;
+        }
+
+        @keyframes pulse-red {
+            0% {
+                box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            }
+
+            50% {
+                box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+            }
+
+            100% {
+                box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="scanline"></div>
+
+    <div id="overlay">
+        <div class="mb-8 text-center opacity-50">
+            <div class="text-[10px] tracking-[0.5em] mb-2">SYSTEM READY</div>
+            <div class="w-24 h-[1px] bg-white mx-auto"></div>
+        </div>
+        <button id="init-btn" class="btn-init">INITIALIZE</button>
+        <div id="loading-status" class="mt-6 text-[10px] text-[#00ffff] animate-pulse hidden">BOOT SEQUENCE
+            INITIATED...
+        </div>
+    </div>
+
+    <!-- TOP CONTROL STRIP - Fitts' Law compliant (44px min touch targets) -->
+    <div id="top-strip" class="loom-strip">
+        <div class="strip-sec strip-bpm">
+            <div id="dot-beat" class="status-dot" style="width:10px; height:10px;"></div>
+            <input type="range" id="bpm-slider" min="60" max="180" value="120" style="width:50px; height:24px;">
+            <div id="bpm-val" style="font-size:12px; color:#0f0; font-weight:bold; min-width:28px;">120</div>
+        </div>
+
+        <div class="strip-sec strip-mode">
+            <button id="mode-mp3"
+                style="background:rgba(0,255,0,0.2); border:none; color:#0f0; font-size:9px; font-weight:bold; cursor:pointer;">MP3</button>
+            <button id="mode-radio"
+                style="background:none; border:none; border-left:1px solid #333; color:#888; font-size:9px; font-weight:bold; cursor:pointer;">RAD</button>
+            <button id="mode-drone"
+                style="background:none; border:none; border-left:1px solid #333; color:#888; font-size:9px; font-weight:bold; cursor:pointer;">DRN</button>
+        </div>
+
+        <div class="strip-sec strip-album">
+            <button id="album-prev" class="strip-mini-btn" type="button" title="Previous album">◀</button>
+            <select id="crate-album-select" aria-label="Choose album crate"></select>
+            <button id="album-next" class="strip-mini-btn" type="button" title="Next album">▶</button>
+            <button id="embed-strip-toggle" class="strip-mini-btn cyan" type="button" title="Collapse / expand strip">☰</button>
+            <div class="strip-inline-compact" aria-label="Inline load and mode controls">
+                <button id="inline-load-high" class="strip-mini-btn" type="button" title="Load to High">HI</button>
+                <button id="inline-load-mid" class="strip-mini-btn" type="button" title="Load to Mid">MD</button>
+                <button id="inline-load-low" class="strip-mini-btn" type="button" title="Load to Low">LO</button>
+                <button id="inline-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">MP3</button>
+            </div>
+            <div class="strip-links">
+                <button id="open-library-btn" class="strip-mini-btn cyan" type="button" title="Open Library">LIB</button>
+                <button id="open-mix-btn" class="strip-mini-btn orange" type="button" title="Open OP2 Mix">MIX</button>
+            </div>
+        </div>
+
+        <div class="strip-row-two">
+            <div class="strip-crate">
+                <button id="crate-prev" class="strip-crate-nav" type="button" aria-label="Previous song">◀</button>
+                <div class="crate-track-stack">
+                    <div id="crate-track">--</div>
+                    <div id="crate-meta">ALBUM / 0 TRACKS</div>
+                </div>
+                <button id="crate-next" class="strip-crate-nav" type="button" aria-label="Next song">▶</button>
+            </div>
+            <div class="strip-load">
+                <button id="load-high" type="button" title="Load to High">HI</button>
+                <button id="load-mid" type="button" title="Load to Mid">MD</button>
+                <button id="load-low" type="button" title="Load to Low">LO</button>
+            </div>
+            <div class="strip-load-compact" aria-label="Compact load and mode controls">
+                <button id="compact-load-high" class="strip-mini-btn" type="button" title="Load to High">HI</button>
+                <button id="compact-load-mid" class="strip-mini-btn" type="button" title="Load to Mid">MD</button>
+                <button id="compact-load-low" class="strip-mini-btn" type="button" title="Load to Low">LO</button>
+                <button id="compact-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">MP3</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- NOTIFICATIONS -->
+    <div id="toast-container">
+        <div id="toast-msg" class="toast"></div>
+    </div>
+
+    <!-- RECORDER -->
+    <div id="rec-btn-container">
+        <button id="rec-trigger" class="rec-btn">HOLD<br>REC</button>
+    </div>
+
+    <!-- BOTTOM CONTROLS -->
+    <div id="controls-bar" class="controls-container">
+        <div style="display:flex; width:100%; gap:8px;">
+            <button id="help-btn" class="control-panel btn-ctrl"
+                style="flex:1; padding:10px; text-align:center; border-color:#00ffff; color:#00ffff;">?</button>
+            <button id="clear-btn" class="control-panel btn-ctrl"
+                style="flex:1; padding:10px; text-align:center;">CLEAR</button>
+            <button id="io-btn" class="control-panel btn-ctrl"
+                style="flex:1; padding:10px; text-align:center;">DATA</button>
+            <button onclick="window.location.href='index.html'" class="control-panel btn-ctrl"
+                style="flex:1; padding:10px; text-align:center; border-color:#666; color:#888;">HOME</button>
+        </div>
+    </div>
+
+    <!-- TUTORIAL OVERLAY -->
+    <div id="tutorial-overlay">
+        <!-- Step 1: Tune -->
+        <div id="tut-step-1" class="tut-card">
+            <div class="tut-title">STEP 1: TUNING</div>
+            <div class="tut-body">
+                <div class="mb-4"><span class="icon-diamond"></span></div>
+                Drag the <strong>DIAMOND HANDLE</strong> around the ring to tune frequencies (Radio Stations or
+                Synth
+                Pitch).<br><br>
+                <strong>Double-Tap</strong> it to switch sources (Radio/Drone/Sampler/MP3).
+            </div>
+            <button class="btn-ctrl" onclick="nextTutorial(2)">NEXT >></button>
+        </div>
+
+        <!-- Step 2: Mix -->
+        <div id="tut-step-2" class="tut-card hidden">
+            <div class="tut-title">STEP 2: MIXING</div>
+            <div class="tut-body">
+                <div class="mb-4"><span class="icon-circle"></span></div>
+                Drag the <strong>CIRCLE HANDLE</strong> (at the bottom) IN or OUT to adjust the ring size and
+                volume.
+            </div>
+            <button class="btn-ctrl" onclick="nextTutorial(3)">NEXT >></button>
+        </div>
+
+        <!-- Step 3: Shape -->
+        <div id="tut-step-3" class="tut-card hidden">
+            <div class="tut-title">STEP 3: SHAPING</div>
+            <div class="tut-body">
+                <div class="mb-4"><span class="icon-square"></span></div>
+                Drag the <strong>SQUARE HANDLE</strong> (at the left) UP or DOWN to set note duration (Staccato
+                vs
+                Drone).
+            </div>
+            <button class="btn-ctrl" onclick="nextTutorial(4)">NEXT >></button>
+        </div>
+
+        <!-- Step 4: Sequence -->
+        <div id="tut-step-4" class="tut-card hidden">
+            <div class="tut-title">STEP 4: SEQUENCING</div>
+            <div class="tut-body">
+                <div class="mb-4"><span class="icon-ring"></span></div>
+                <strong>Swipe or Tap</strong> the ring segments to activate beats.
+            </div>
+            <button class="btn-ctrl" onclick="endTutorial()">ENGAGE SYSTEM</button>
+        </div>
+    </div>
+
+    <!-- I/O MODAL -->
+    <div id="io-modal">
+        <div class="text-xs tracking-widest mb-2 text-[#00ffff]">PATTERN DATA</div>
+        <textarea id="io-text"></textarea>
+        <div class="flex gap-2">
+            <button id="import-btn"
+                class="flex-1 bg-[#00ffff] text-black py-2 text-xs font-bold hover:bg-white">LOAD</button>
+            <button id="close-io-btn"
+                class="flex-1 border border-gray-600 text-gray-300 py-2 text-xs hover:bg-gray-800">CLOSE</button>
+        </div>
+    </div>
+
+    <div id="canvas-container">
+        <canvas id="main-canvas"></canvas>
+    </div>
+
+    <script>
+        // --- DATA & CONFIG ---
+        // === DATA & CONFIG ===
+        // Note: Gold Stations may return 403 due to CORS. Using local MP3s by default.
+        const orbitalLink = new BroadcastChannel('orbital_link');
+        console.log('[LOOM] Orbital Link channel initialized.');
+
+        const GOLD_STATIONS = [
+            { name: "GROOVE SALAD", url: "https://ice6.somafm.com/groovesalad-256-mp3" },
+            { name: "DRONE ZONE", url: "https://ice6.somafm.com/dronezone-256-mp3" },
+            { name: "DEF CON", url: "https://ice6.somafm.com/defcon-256-mp3" },
+            { name: "SPACE STATION", url: "https://ice6.somafm.com/spacestation-128-mp3" },
+            { name: "SECRET AGENT", url: "https://ice6.somafm.com/secretagent-128-mp3" },
+            { name: "SUBURBS OF GOA", url: "https://ice6.somafm.com/suburbsofgoa-128-mp3" },
+            { name: "MISSION CONTROL", url: "https://ice6.somafm.com/missioncontrol-128-mp3" },
+            { name: "DEEP SPACE ONE", url: "https://ice6.somafm.com/deepspaceone-128-mp3" },
+            { name: "BEAT BLENDER", url: "https://ice6.somafm.com/beatblender-128-mp3" },
+            { name: "CLIQHOP", url: "https://ice6.somafm.com/cliqhop-128-mp3" },
+            { name: "FLUID", url: "https://ice6.somafm.com/fluid-128-mp3" }
+        ];
+
+        // === SHARED ALBUM CRATES (VOLHOLLA / ELEPHANT / LOOM / MOTO) ===
+        const URL_STATE = new URLSearchParams(window.location.search);
+        const EMBED_MODE = ['1', 'true', 'yes'].includes((URL_STATE.get('embed') || '').toLowerCase());
+
+        const ALBUM_CRATE_DEFS = {
+            volholla: {
+                key: 'volholla',
+                label: 'VOLHOLLA',
+                shortLabel: 'VOL',
+                libraryParam: 'volholla',
+                op2Pair: 'moto',
+                basePath: 'VOLHOLLA/',
+                files: [
+                    "coolradio - Criteria for the Reckless - Sonauto.mp3",
+                    "coolradio - Firelight Horizon - Sonauto.mp3",
+                    "coolradio - Glorious Mud - Sonauto.mp3",
+                    "coolradio - Mead and Sweet Tea - Sonauto.mp3",
+                    "coolradio - Ribbon of Pavement - Sonauto.mp3",
+                    "coolradio - Tennessee Timber - Sonauto.mp3",
+                    "coolradio - The 14th Hole Sinking - Sonauto.mp3",
+                    "coolradio - The Cooler Tribunal - Sonauto.mp3",
+                    "coolradio - The Long Way Back - Sonauto.mp3",
+                    "coolradio - The Sky Consumed Him - Sonauto.mp3",
+                    "coolradio - The Slim Jim Incident - Sonauto.mp3",
+                    "coolradio - Volholla Arrival - Sonauto.mp3",
+                    "coolradio - Volholla Circuit Hymn - Sonauto.mp3",
+                    "coolradio - Volholla Fairway Submarine - Sonauto.mp3",
+                    "coolradio - Volholla Halftone Fallout - Sonauto.mp3",
+                    "coolradio - Volholla Tailgate - Sonauto.mp3"
+                ]
+            },
+            elephant: {
+                key: 'elephant',
+                label: 'STOCHASTIC ELEPHANT',
+                shortLabel: 'ELE',
+                libraryParam: 'elephant',
+                op2Pair: 'loom',
+                basePath: 'THE STOCHASTIC ELEPHANT/',
+                files: [
+                    "01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3",
+                    "02_coolradio - Prompt Cognition Loop - Sonauto.mp3",
+                    "03_coolradio - Laundering Pain - Sonauto.mp3",
+                    "04_coolradio - Trickster Labor - Sonauto.mp3",
+                    "05_coolradio - Redacted Ethics - Sonauto.mp3",
+                    "06_coolradio - Parrot in the Server Room - Sonauto.mp3",
+                    "07_coolradio - Live Wire Transmission - Sonauto.mp3",
+                    "08_coolradio - Pretty Tone Empty Core - Sonauto.mp3",
+                    "09_coolradio - Designer Empathy - Sonauto.mp3",
+                    "10_coolradio - The Deacon's Shadow - Sonauto.mp3"
+                ]
+            },
+            loom: {
+                key: 'loom',
+                label: 'BREATH-THIEFS LOOM',
+                shortLabel: 'LOOM',
+                libraryParam: 'loom',
+                op2Pair: 'moto',
+                basePath: 'THE BREATH-THIEFS LOOM/',
+                files: [
+                    "coolradio - Ancestral Code - Sonauto.mp3",
+                    "coolradio - Atomic Lounge Extraction - Sonauto.mp3",
+                    "coolradio - Currency of Breath - Sonauto.mp3",
+                    "coolradio - Curfew Lifted - Sonauto.mp3",
+                    "coolradio - Curfew at the Grand Hotel - Sonauto.mp3",
+                    "coolradio - Mid-week Epiphany - Sonauto.mp3",
+                    "coolradio - Mutated Grid Ancestry - Sonauto.mp3",
+                    "coolradio - Radical Joy - Sonauto.mp3",
+                    "coolradio - Ritual Groove Transmission - Sonauto.mp3",
+                    "coolradio - Smile Through the Static - Sonauto.mp3",
+                    "coolradio - Subterranean Shadow - Sonauto.mp3",
+                    "coolradio - Tezeta Cathedral - Sonauto.mp3",
+                    "coolradio - The Breath-Thief's Loom - Sonauto.mp3",
+                    "coolradio - The Deacon's Shadow - Sonauto.mp3",
+                    "coolradio - The Horizon Stares Back - Sonauto.mp3"
+                ]
+            },
+            moto: {
+                key: 'moto',
+                label: 'MOTO',
+                shortLabel: 'MOTO',
+                libraryParam: 'moto',
+                op2Pair: 'loom',
+                basePath: 'MOTO/',
+                files: [
+                    "coolradio - Banjo in the Shrine - Sonauto.mp3",
+                    "coolradio - Bati Warehouse Drone - Sonauto.mp3",
+                    "coolradio - Cumbia Addis - Sonauto.mp3",
+                    "coolradio - Future Nostalgia Slowburn - Sonauto.mp3",
+                    "coolradio - Linear Living (Keep It Calm) - Sonauto.mp3",
+                    "coolradio - Sacred Nostalgia - Sonauto.mp3",
+                    "coolradio - Smile for the Camera - Sonauto.mp3",
+                    "coolradio - Soft Focus Shift - Sonauto.mp3",
+                    "coolradio - Sub Gravity Pulse - Sonauto.mp3",
+                    "coolradio - Symmetry Break - Sonauto.mp3",
+                    "coolradio - The Loom Floor Lament - Sonauto.mp3"
+                ]
+            }
+        };
+
+        function crateTitleFromFile(file) {
+            return String(file || '')
+                .replace(/^.*\//, '')
+                .replace(/\.mp3$/i, '')
+                .replace(/^\d+_/, '')
+                .replace(/^coolradio\s*-\s*/i, '')
+                .replace(/\s*-\s*Sonauto$/i, '')
+                .trim()
+                .toUpperCase();
+        }
+
+        function normalizeAlbumKey(raw) {
+            const v = String(raw || '').toLowerCase();
+            if (v === 'stochastic-elephant' || v === 'stochastic_elephant') return 'elephant';
+            if (v === 'breath-thiefs-loom' || v === 'breath_thiefs_loom') return 'loom';
+            if (ALBUM_CRATE_DEFS[v]) return v;
+            return 'loom';
+        }
+
+        function buildCrateForAlbum(albumKey) {
+            const album = ALBUM_CRATE_DEFS[normalizeAlbumKey(albumKey)] || ALBUM_CRATE_DEFS.loom;
+            return album.files.map((file) => ({
+                name: crateTitleFromFile(file),
+                file: `${album.basePath}${file}`,
+                bpm: 0,
+                key: '?'
+            }));
+        }
+
+        let ACTIVE_CRATE_ALBUM_KEY = normalizeAlbumKey(URL_STATE.get('album') || 'loom');
+        let LOCAL_MP3_CRATE = buildCrateForAlbum(ACTIVE_CRATE_ALBUM_KEY);
+
+        // Beat matching utility
+        function calcBeatMatchRate(sourceBpm, targetBpm) {
+            if (sourceBpm === 0 || targetBpm === 0) return 1.0; // drones don't beat match
+            return targetBpm / sourceBpm;
+        }
+
+        let STATION_LIST = [...GOLD_STATIONS];
+        const SCALE = [1.0, 1.125, 1.25, 1.5, 1.66, 2.0];
+
+        // --- TUTORIAL LOGIC ---
+        function startTutorial() {
+            document.getElementById('tutorial-overlay').style.display = 'block';
+            document.getElementById('tut-step-1').classList.remove('hidden');
+        }
+        window.nextTutorial = (step) => {
+            document.querySelectorAll('.tut-card').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`tut-step-${step}`).classList.remove('hidden');
+        };
+        window.endTutorial = () => {
+            document.getElementById('tutorial-overlay').style.display = 'none';
+            // Trigger visual boot animation for rings
+            if (window.uiInstance) window.uiInstance.bootAnimation();
+        };
+
+        // --- TOAST SYSTEM ---
+        let toastTimer = null;
+        function showToast(msg) {
+            const t = document.getElementById('toast-msg');
+            t.innerText = msg;
+            t.classList.add('show');
+            if (toastTimer) clearTimeout(toastTimer);
+            toastTimer = setTimeout(() => t.classList.remove('show'), 2000);
+        }
+
+        function emitParentDebug(stage, detail = {}) {
+            if (window.parent === window) return;
+            try {
+                window.parent.postMessage({ type: 'mandalla-debug', stage, detail }, '*');
+            } catch (_) { }
+        }
+
+        // --- AUDIO ENGINE ---
+        class LoomAudio {
+            constructor() {
+                this.ctx = null;
+                this.master = null;
+                this.compressor = null;
+                this.analyser = null;
+                this.monitorGain = null;
+                this.parentStreamDest = null;
+                this.monitorEnabled = true;
+
+                // Colors: High=Yellow, Mid=Cyan, Low=Magenta
+                this.configs = [
+                    { id: 0, name: 'HIGH', type: 'highpass', freq: 3000, baseNote: 880, color: '#FFFF00' },
+                    { id: 1, name: 'MID', type: 'bandpass', freq: 1000, baseNote: 440, color: '#00FFFF' },
+                    { id: 2, name: 'LOW', type: 'lowpass', freq: 200, baseNote: 110, color: '#FF00FF' }
+                ];
+
+                this.tracks = [];
+                this.micStream = null;
+            }
+
+            async init() {
+                console.log('[LOOM] Initializing Audio Engine...');
+                const AC = window.AudioContext || window.webkitAudioContext;
+                this.ctx = new AC();
+
+                // --- AUDIO CHAIN: Tracks -> CrispFilter -> Compressor -> Master -> Dest ---
+
+                // 1. Crisp Filter (High Shelf Boost for clarity)
+                this.crispFilter = this.ctx.createBiquadFilter();
+                this.crispFilter.type = "highshelf";
+                this.crispFilter.frequency.value = 3000;
+                this.crispFilter.gain.value = 4.0; // +4dB boost for "crispness"
+
+                // 2. Multiband-ish Compressor (Tighter settings)
+                this.compressor = this.ctx.createDynamicsCompressor();
+                this.compressor.threshold.value = -18;
+                this.compressor.knee.value = 12;
+                this.compressor.ratio.value = 12;
+                this.compressor.attack.value = 0.003;
+                this.compressor.release.value = 0.25;
+
+                this.master = this.ctx.createGain();
+                this.master.gain.value = 1.2; // Slight gain bump
+
+                this.analyser = this.ctx.createAnalyser();
+                this.analyser.smoothingTimeConstant = 0.7;
+                this.monitorGain = this.ctx.createGain();
+                this.monitorGain.gain.value = this.monitorEnabled ? 1 : 0;
+                this.parentStreamDest = this.ctx.createMediaStreamDestination();
+
+                // Connect Chain
+                this.crispFilter.connect(this.compressor);
+                this.compressor.connect(this.master);
+                this.master.connect(this.analyser);
+                this.master.connect(this.parentStreamDest);
+                this.analyser.connect(this.monitorGain);
+                this.monitorGain.connect(this.ctx.destination);
+
+                this.configs.forEach((cfg, idx) => {
+                    const t = {
+                        id: idx,
+                        cfg: cfg,
+                        mode: 'RADIO',
+                        filter: this.ctx.createBiquadFilter(),
+                        gate: this.ctx.createGain(),
+                        volume: this.ctx.createGain(),
+                        audio: new Audio(),
+                        radioSource: null,
+                        stationIdx: idx * 3,
+                        isPaused: true,
+                        overlap: 0.5,
+
+                        osc: null,
+                        oscGain: null,
+                        pitchIdx: 0,
+
+                        buffer: null,
+                        recorder: null,
+                        chunks: [],
+                        sampleRate: 1.0,
+                        sampleSource: null,
+                        isLooping: false
+                    };
+
+                    t.filter.type = cfg.type;
+                    t.filter.frequency.value = cfg.freq;
+                    if (cfg.type === 'bandpass') t.filter.Q.value = 1.0;
+
+                    t.gate.gain.value = 0;
+                    t.volume.gain.value = 0.8;
+
+                    t.filter.connect(t.gate);
+                    t.gate.connect(t.volume);
+                    t.volume.connect(this.crispFilter);
+
+                    t.audio.crossOrigin = "anonymous";
+                    t.audio.loop = true;
+                    // Only create source if not already created to avoid errors? 
+                    // Actually, createMediaElementSource can generally be called once.
+                    t.radioSource = this.ctx.createMediaElementSource(t.audio);
+
+                    this.tracks.push(t);
+                    this.setMode(idx, 'MP3'); // Default to local MP3s instead of blocked radio streams
+                });
+
+                console.log('[LOOM] Audio Engine Ready. Tracks:', this.tracks.length);
+                await this.fetchStations();
+                await this.ctx.resume();
+            }
+
+            setMonitor(on) {
+                this.monitorEnabled = !!on;
+                if (this.monitorGain && this.ctx) {
+                    this.monitorGain.gain.setTargetAtTime(this.monitorEnabled ? 1 : 0, this.ctx.currentTime, 0.02);
+                }
+            }
+
+            postAudioStreamToParent(id) {
+                if (!this.parentStreamDest?.stream || window.parent === window) return;
+                try {
+                    emitParentDebug('stream-post', { id: id || null, audioCtx: this.ctx?.state || 'none' });
+                    window.parent.postMessage({ type: 'audio-stream', id, stream: this.parentStreamDest.stream }, '*');
+                } catch (e) {
+                    console.warn('[LOOM] postAudioStreamToParent failed', e);
+                    emitParentDebug('stream-post-fail', { message: String(e?.message || e) });
+                }
+            }
+
+            async fetchStations() {
+                console.log('[LOOM] Fetching radio stations from API...');
+                try {
+                    const res = await fetch('https://de1.api.radio-browser.info/json/stations/search?limit=60&order=votes&hidebroken=true&is_https=true');
+                    const data = await res.json();
+                    if (data && data.length > 0) {
+                        const newStations = data.map(s => ({
+                            name: s.name.substring(0, 20).toUpperCase(),
+                            url: s.url_resolved
+                        }));
+                        STATION_LIST = [...GOLD_STATIONS, ...newStations];
+                        console.log(`[LOOM] Loaded ${STATION_LIST.length} radio stations.`);
+                    }
+                } catch (e) {
+                    console.warn('[LOOM] Radio API fetch failed, using gold stations only.');
+                }
+            }
+
+            setMode(idx, mode) {
+                const t = this.tracks[idx];
+                const prevMode = t.mode;
+                t.mode = mode;
+
+                if (prevMode === 'RADIO') {
+                    t.radioSource.disconnect();
+                    t.audio.pause();
+                } else if (prevMode === 'DRONE') {
+                    if (t.osc) { t.osc.stop(); t.osc.disconnect(); t.osc = null; }
+                    if (t.oscGain) { t.oscGain.disconnect(); t.oscGain = null; }
+                } else if (prevMode === 'SAMPLER') {
+                    this.stopSampleLoop(idx);
+                } else if (prevMode === 'MP3') {
+                    if (t.mp3Source) t.mp3Source.disconnect();
+                    if (t.mp3Audio) t.mp3Audio.pause();
+                }
+
+                if (mode === 'RADIO') {
+                    t.radioSource.connect(t.filter);
+                    this.tuneRadio(idx, t.stationIdx);
+                }
+                else if (mode === 'DRONE') {
+                    t.osc = this.ctx.createOscillator();
+                    t.osc.type = idx === 2 ? 'sawtooth' : (idx === 1 ? 'triangle' : 'sine');
+                    t.oscGain = this.ctx.createGain();
+                    t.oscGain.gain.value = 0.3;
+                    t.osc.connect(t.oscGain);
+                    t.oscGain.connect(t.filter);
+                    t.osc.start();
+                    this.tuneDrone(idx, t.pitchIdx);
+                }
+                else if (mode === 'SAMPLER') {
+                    if (t.buffer) {
+                        this.startSampleLoop(idx);
+                    } else {
+                        console.log(`[LOOM] ${t.cfg.name}: SAMPLER mode - no sample recorded yet`);
+                        showToast(`${t.cfg.name}: USE REC BUTTON`);
+                    }
+                }
+                else if (mode === 'MP3') {
+                    // Create separate MP3 audio element if not exists
+                    if (!t.mp3Audio) {
+                        t.mp3Audio = new Audio();
+                        t.mp3Audio.loop = true;
+                        t.mp3Source = this.ctx.createMediaElementSource(t.mp3Audio);
+                        t.mp3Idx = idx % LOCAL_MP3_CRATE.length;
+                    }
+                    t.mp3Source.connect(t.filter);
+                    this.tuneMP3(idx, t.mp3Idx);
+                }
+
+                console.log(`[LOOM] ${t.cfg.name} mode changed: ${prevMode} -> ${mode}`);
+                showToast(`${t.cfg.name} MODE: ${mode}`);
+            }
+
+            togglePlay(idx) {
+                const t = this.tracks[idx];
+                if (t.mode === 'RADIO') {
+                    if (t.isPaused) {
+                        t.audio.play().then(() => {
+                            t.isPaused = false;
+                            showToast(`${t.cfg.name}: PLAY`);
+                        }).catch(e => { });
+                    } else {
+                        t.audio.pause();
+                        t.isPaused = true;
+                        showToast(`${t.cfg.name}: PAUSE`);
+                    }
+                }
+                else if (t.mode === 'MP3') {
+                    if (t.mp3Audio.paused) {
+                        t.mp3Audio.play().then(() => {
+                            showToast(`${t.cfg.name}: PLAYING MP3`);
+                        }).catch(e => showToast(`MP3 ERROR: ${e.message}`));
+                    } else {
+                        t.mp3Audio.pause();
+                        showToast(`${t.cfg.name}: PAUSED`);
+                    }
+                }
+            }
+
+            // === MP3 CRATE FUNCTIONS ===
+            tuneMP3(idx, mp3Idx) {
+                const t = this.tracks[idx];
+                if (mp3Idx >= LOCAL_MP3_CRATE.length) mp3Idx = 0;
+                if (mp3Idx < 0) mp3Idx = LOCAL_MP3_CRATE.length - 1;
+                t.mp3Idx = mp3Idx;
+
+                if (t.mode === 'MP3' && t.mp3Audio) {
+                    const mp3 = LOCAL_MP3_CRATE[mp3Idx];
+                    const currentSrc = t.mp3Audio.src;
+                    const newSrc = encodeURI(mp3.file);
+
+                    // Only change if different file
+                    if (!currentSrc.endsWith(newSrc)) {
+                        console.log(`[LOOM] ${t.cfg.name}: Loading "${mp3.name}" (${mp3.bpm}bpm)`);
+
+                        // Error handler for load failures
+                        const handleError = (e) => {
+                            console.error(`[LOOM] ${t.cfg.name}: FAILED to load "${mp3.name}" - ${e.type || e.message}`);
+                            showToast(`ERROR: ${mp3.name} NOT FOUND`);
+                            t.mp3Audio.removeEventListener('error', handleError);
+                        };
+                        t.mp3Audio.addEventListener('error', handleError, { once: true });
+
+                        // Set src
+                        t.mp3Audio.src = newSrc;
+
+                        // Auto beat-match
+                        if (mp3.bpm > 0 && window.seqInstance) {
+                            const rate = calcBeatMatchRate(mp3.bpm, window.seqInstance.bpm);
+                            const clampedRate = Math.max(0.75, Math.min(1.5, rate));
+                            t.mp3Audio.playbackRate = clampedRate;
+                            console.log(`[LOOM] ${t.cfg.name}: Beatmatch ${mp3.bpm}→${window.seqInstance.bpm}bpm = ${(clampedRate * 100).toFixed(0)}%`);
+                        } else {
+                            t.mp3Audio.playbackRate = 1.0;
+                        }
+
+                        // Auto-play after load
+                        t.mp3Audio.play().catch(e => {
+                            if (e.name !== 'AbortError') {
+                                console.warn(`[LOOM] ${t.cfg.name}: Play failed - ${e.message}`);
+                            }
+                        });
+
+                        showToast(`${t.cfg.name}: ${mp3.name}`);
+                    }
+                }
+            }
+
+            // Beat match all MP3 tracks to current BPM
+            beatMatchAll(targetBpm) {
+                this.tracks.forEach((t, idx) => {
+                    if (t.mode === 'MP3' && t.mp3Audio) {
+                        const mp3 = LOCAL_MP3_CRATE[t.mp3Idx];
+                        if (mp3.bpm > 0) {
+                            const rate = calcBeatMatchRate(mp3.bpm, targetBpm);
+                            const clampedRate = Math.max(0.75, Math.min(1.5, rate));
+                            t.mp3Audio.playbackRate = clampedRate;
+                        }
+                    }
+                });
+            }
+
+            tuneRadio(idx, stIdx) {
+                const t = this.tracks[idx];
+                if (stIdx >= STATION_LIST.length) stIdx = 0;
+                if (stIdx < 0) stIdx = STATION_LIST.length - 1;
+                t.stationIdx = stIdx;
+                if (t.mode === 'RADIO') {
+                    const station = STATION_LIST[stIdx];
+                    console.log(`[LOOM] Tuning RADIO: ${station.name}`);
+                    t.audio.src = station.url;
+                    t.audio.play()
+                        .then(() => {
+                            t.isPaused = false;
+                            console.log(`[LOOM] RADIO playing: ${station.name}`);
+                        })
+                        .catch(e => {
+                            console.warn(`[LOOM] RADIO blocked (CORS): ${station.name} - ${e.message}`);
+                            showToast(`RADIO BLOCKED - try MP3`);
+                        });
+                    showToast(`${t.cfg.name}: ${station.name}`);
+                }
+            }
+
+            tuneDrone(idx, pitchIdx) {
+                const t = this.tracks[idx];
+                if (pitchIdx > 11) pitchIdx = 0;
+                if (pitchIdx < 0) pitchIdx = 11;
+                t.pitchIdx = pitchIdx;
+                if (t.mode === 'DRONE' && t.osc) {
+                    const octave = Math.floor(pitchIdx / 5);
+                    const degree = pitchIdx % 5;
+                    const freq = t.cfg.baseNote * SCALE[degree] * Math.pow(2, octave);
+                    t.osc.frequency.setTargetAtTime(freq, this.ctx.currentTime, 0.1);
+                    showToast(`${t.cfg.name} PITCH: ${pitchIdx}`);
+                }
+            }
+
+            async startRecording(idx) {
+                if (!this.micStream) {
+                    try {
+                        this.micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    } catch (e) { showToast("MIC ERROR"); return; }
+                }
+                const t = this.tracks[idx];
+                this.stopSampleLoop(idx);
+                t.chunks = [];
+                t.recorder = new MediaRecorder(this.micStream);
+                t.recorder.ondataavailable = e => t.chunks.push(e.data);
+                t.recorder.onstop = async () => {
+                    const blob = new Blob(t.chunks, { 'type': 'audio/ogg; codecs=opus' });
+                    const buf = await blob.arrayBuffer();
+                    t.buffer = await this.ctx.decodeAudioData(buf);
+                    this.startSampleLoop(idx);
+                    showToast(`${t.cfg.name}: SAMPLE CAPTURED`);
+                };
+                t.recorder.start();
+                showToast("RECORDING...");
+            }
+
+            stopRecording(idx) {
+                const t = this.tracks[idx];
+                if (t.recorder && t.recorder.state === 'recording') t.recorder.stop();
+            }
+
+            startSampleLoop(idx) {
+                const t = this.tracks[idx];
+                if (!t.buffer) return;
+                this.stopSampleLoop(idx);
+                t.sampleSource = this.ctx.createBufferSource();
+                t.sampleSource.buffer = t.buffer;
+                t.sampleSource.loop = true;
+                t.sampleSource.playbackRate.value = t.sampleRate;
+                t.sampleSource.connect(t.filter);
+                t.sampleSource.start();
+                t.isLooping = true;
+            }
+
+            stopSampleLoop(idx) {
+                const t = this.tracks[idx];
+                if (t.sampleSource) {
+                    t.sampleSource.stop();
+                    t.sampleSource.disconnect();
+                    t.sampleSource = null;
+                }
+                t.isLooping = false;
+            }
+
+            setSampleRate(idx, rate) {
+                const t = this.tracks[idx];
+                if (!t) return;
+                t.sampleRate = rate;
+                if (t.sampleSource && this.ctx) t.sampleSource.playbackRate.setTargetAtTime(rate, this.ctx.currentTime, 0.1);
+                showToast(`${t.cfg.name} RATE: ${rate.toFixed(1)}x`);
+            }
+
+            setOverlap(idx, val) {
+                const t = this.tracks[idx];
+                if (!t) return;
+                t.overlap = val;
+            }
+
+            trigger(idx, stepDuration) {
+                const t = this.tracks[idx];
+                if (!t || !this.ctx) return;
+                const now = this.ctx.currentTime;
+                const releaseTime = stepDuration * t.overlap;
+                t.gate.gain.cancelScheduledValues(now);
+                t.gate.gain.setValueAtTime(t.gate.gain.value, now);
+                t.gate.gain.linearRampToValueAtTime(1.0, now + 0.01);
+                t.gate.gain.setTargetAtTime(0, now + 0.01, releaseTime / 3);
+            }
+
+            setVolume(idx, val) {
+                const t = this.tracks[idx];
+                if (!t || !t.volume || !this.ctx) return;
+                t.volume.gain.setTargetAtTime(val, this.ctx.currentTime, 0.1);
+            }
+        }
+
+        // --- SEQUENCER ---
+        class Sequencer {
+            constructor(audio) {
+                this.audio = audio;
+                this.bpm = 120;
+                this.stepCount = 16;
+                this.currentStep = 0;
+                this.nextNoteTime = 0;
+                this.grid = [
+                    new Array(16).fill(false),
+                    new Array(16).fill(false),
+                    new Array(16).fill(false)
+                ];
+                this.grid[2][0] = true; this.grid[2][8] = true;
+            }
+
+            start() {
+                if (this.audio.ctx.state === 'suspended') this.audio.ctx.resume();
+                this.nextNoteTime = this.audio.ctx.currentTime;
+                this.schedule();
+            }
+
+            schedule() {
+                const secondsPerBeat = 60.0 / this.bpm;
+                const stepDuration = secondsPerBeat / 4;
+                while (this.nextNoteTime < this.audio.ctx.currentTime + 0.1) {
+                    this.playStep(this.currentStep, this.nextNoteTime, stepDuration);
+                    this.nextNoteTime += stepDuration;
+                    this.currentStep = (this.currentStep + 1) % this.stepCount;
+                }
+                requestAnimationFrame(this.schedule.bind(this));
+            }
+
+            playStep(step, time, duration) {
+                if (step % 4 === 0) {
+                    document.getElementById('dot-beat').classList.add('active');
+                    setTimeout(() => document.getElementById('dot-beat').classList.remove('active'), 50);
+                }
+                for (let i = 0; i < 3; i++) {
+                    if (this.grid[i][step]) {
+                        this.audio.trigger(i, duration);
+                    }
+                }
+            }
+
+            setStep(trackIdx, stepIdx, state) {
+                this.grid[trackIdx][stepIdx] = state;
+            }
+
+            serialize() {
+                return JSON.stringify({
+                    bpm: this.bpm,
+                    grid: this.grid,
+                    tracks: this.audio.tracks.map(t => ({
+                        mode: t.mode,
+                        stationIdx: t.stationIdx,
+                        pitchIdx: t.pitchIdx,
+                        sampleRate: t.sampleRate,
+                        vol: t.volume.gain.value,
+                        overlap: t.overlap
+                    }))
+                });
+            }
+
+            deserialize(json) {
+                try {
+                    const data = JSON.parse(json);
+                    this.bpm = data.bpm || 120;
+                    if (data.grid) this.grid = data.grid;
+                    if (data.tracks) {
+                        data.tracks.forEach((td, i) => {
+                            this.audio.setMode(i, td.mode);
+                            if (td.mode === 'RADIO') this.audio.tuneRadio(i, td.stationIdx);
+                            if (td.mode === 'DRONE') this.audio.tuneDrone(i, td.pitchIdx);
+                            if (td.mode === 'SAMPLER') this.audio.setSampleRate(i, td.sampleRate);
+                            if (td.overlap) this.audio.setOverlap(i, td.overlap);
+                        });
+                    }
+                    showToast("PATTERN LOADED");
+                    return true;
+                } catch (e) { showToast("LOAD ERROR"); return false; }
+            }
+        }
+
+        // --- VISUAL INTERFACE ---
+        class Interface {
+            constructor(canvasId, audio, seq) {
+                this.canvas = document.getElementById(canvasId);
+                this.ctx = this.canvas.getContext('2d');
+                this.audio = audio;
+                this.seq = seq;
+
+                this.width = 0; this.height = 0; this.cx = 0; this.cy = 0;
+
+                // Physics state for boot animation
+                this.rings = [
+                    { name: 'HIGH', r: 0, targetR: 100, angle: 0, hover: false },
+                    { name: 'MID', r: 0, targetR: 180, angle: 0, hover: false },
+                    { name: 'LOW', r: 0, targetR: 260, angle: 0, hover: false }
+                ];
+
+                this.dragTarget = null;
+                this.lastTap = { time: 0, trackIdx: -1 };
+                this.lastPaintedStep = -1;
+                this.booting = false;
+
+                this.resize();
+                window.addEventListener('resize', () => this.resize());
+            }
+
+            resize() {
+                this.width = window.innerWidth;
+                this.height = window.innerHeight;
+                this.canvas.width = this.width;
+                this.canvas.height = this.height;
+                this.cx = this.width / 2;
+                this.cy = this.height / 2;
+
+                const s = Math.min(this.width, this.height) / 800;
+                this.rings[0].targetR = 100 * s + 50;
+                this.rings[1].targetR = 180 * s + 50;
+                this.rings[2].targetR = 260 * s + 50;
+
+                if (!this.booting) {
+                    this.rings[0].r = this.rings[0].targetR;
+                    this.rings[1].r = this.rings[1].targetR;
+                    this.rings[2].r = this.rings[2].targetR;
+                }
+            }
+
+            bootAnimation() {
+                this.booting = true;
+                this.rings.forEach(r => r.r = 0); // Reset to 0
+                // Show HUD
+                document.getElementById('status-bar').classList.add('visible');
+                document.getElementById('controls-bar').classList.add('visible');
+            }
+
+            render() {
+                this.ctx.fillStyle = '#050505';
+                this.ctx.fillRect(0, 0, this.width, this.height);
+                this.ctx.translate(this.cx, this.cy);
+
+                // Animation physics
+                if (this.booting) {
+                    let settled = true;
+                    this.rings.forEach(r => {
+                        r.r += (r.targetR - r.r) * 0.1; // Ease out
+                        if (Math.abs(r.r - r.targetR) > 1) settled = false;
+                    });
+                    if (settled) this.booting = false;
+                }
+
+                if (this.dragTarget && this.dragTarget.type === 'tune') {
+                    this.drawGuidelines(this.rings[this.dragTarget.trackIdx].r);
+                }
+
+                this.drawRadar();
+                for (let i = 2; i >= 0; i--) this.drawTrack(i);
+
+                this.ctx.translate(-this.cx, -this.cy);
+                requestAnimationFrame(() => this.render());
+            }
+
+            drawGuidelines(r) {
+                this.ctx.strokeStyle = 'rgba(255,255,255,0.05)';
+                this.ctx.lineWidth = 1;
+                for (let i = 0; i < 12; i++) {
+                    const a = (i / 12) * Math.PI * 2 - Math.PI / 2;
+                    this.ctx.beginPath();
+                    this.ctx.moveTo(0, 0);
+                    this.ctx.lineTo(Math.cos(a) * (r + 150), Math.sin(a) * (r + 150));
+                    this.ctx.stroke();
+                }
+            }
+
+            drawRadar() {
+                const sweepAng = (this.seq.currentStep / 16) * Math.PI * 2 - Math.PI / 2;
+                this.ctx.beginPath();
+                this.ctx.moveTo(0, 0);
+                const maxR = this.rings[2].r + 60;
+                this.ctx.lineTo(Math.cos(sweepAng) * maxR, Math.sin(sweepAng) * maxR);
+                this.ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+                this.ctx.lineWidth = 2;
+                this.ctx.stroke();
+            }
+
+            drawTrack(idx) {
+                const r = this.rings[idx];
+                // Hide if radius too small (booting)
+                if (r.r < 10) return;
+
+                const t = this.audio.tracks[idx];
+                const trackData = this.seq.grid[idx];
+                const color = t.cfg.color;
+
+                // Ring
+                this.ctx.beginPath();
+                this.ctx.arc(0, 0, r.r, 0, Math.PI * 2);
+                this.ctx.strokeStyle = (t.mode === 'RADIO' && t.isPaused) ? '#333' : '#555';
+                this.ctx.lineWidth = r.hover ? 2 : 1;
+                if (r.hover) { this.ctx.shadowColor = color; this.ctx.shadowBlur = 5; } else { this.ctx.shadowBlur = 0; }
+                this.ctx.stroke();
+                this.ctx.shadowBlur = 0;
+
+                // Segments
+                const stepSize = (Math.PI * 2) / 16;
+                const gap = 0.05;
+                for (let i = 0; i < 16; i++) {
+                    const active = trackData[i];
+                    const start = i * stepSize - Math.PI / 2 + gap;
+
+                    if (active) {
+                        const arcLength = (stepSize * t.overlap) - gap;
+                        const end = start + arcLength;
+                        this.ctx.beginPath();
+                        this.ctx.arc(0, 0, r.r, start, end);
+                        this.ctx.lineWidth = 8;
+                        this.ctx.strokeStyle = color;
+                        this.ctx.shadowBlur = (this.seq.currentStep === i) ? 20 : 5;
+                        this.ctx.shadowColor = color;
+                        this.ctx.stroke();
+                        this.ctx.shadowBlur = 0;
+                    } else {
+                        const end = start + stepSize - gap * 2;
+                        this.ctx.beginPath();
+                        this.ctx.arc(0, 0, r.r, start, end);
+                        this.ctx.lineWidth = 4;
+                        this.ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+                        this.ctx.stroke();
+                    }
+                }
+
+                // --- OVERLAP HANDLE (Left Square) ---
+                const ovAng = Math.PI;
+                const ox = Math.cos(ovAng) * r.r;
+                const oy = Math.sin(ovAng) * r.r;
+
+                this.ctx.save();
+                this.ctx.translate(ox, oy);
+                this.ctx.fillStyle = color;
+                const isDragO = (this.dragTarget && this.dragTarget.type === 'overlap' && this.dragTarget.trackIdx === idx);
+                const oSize = isDragO ? 16 : 12;
+                this.ctx.fillRect(-oSize / 2, -oSize / 2, oSize, oSize);
+                this.ctx.restore();
+
+                // --- TUNE HANDLE (Diamond) ---
+                let ang = r.angle;
+                const tx = Math.cos(ang) * (r.r + 25);
+                const ty = Math.sin(ang) * (r.r + 25);
+
+                this.ctx.save();
+                this.ctx.translate(tx, ty);
+                this.ctx.rotate(ang + Math.PI / 4);
+
+                const isDragT = (this.dragTarget && this.dragTarget.type === 'tune' && this.dragTarget.trackIdx === idx);
+                const tSize = isDragT ? 16 : 12;
+
+                if (t.mode === 'RADIO' && t.isPaused) {
+                    this.ctx.strokeStyle = color;
+                    this.ctx.lineWidth = 2;
+                    this.ctx.strokeRect(-tSize / 2, -tSize / 2, tSize, tSize);
+                } else {
+                    this.ctx.fillStyle = color;
+                    this.ctx.fillRect(-tSize / 2, -tSize / 2, tSize, tSize);
+                }
+                this.ctx.restore();
+
+                // Label
+                this.ctx.fillStyle = color;
+                this.ctx.font = '10px monospace';
+                this.ctx.textAlign = 'center';
+                let label = "";
+                if (t.mode === 'RADIO') label = STATION_LIST[t.stationIdx].name;
+                if (t.mode === 'DRONE') label = "PITCH " + t.pitchIdx;
+                if (t.mode === 'SAMPLER') label = "RATE " + t.sampleRate.toFixed(2);
+
+                const lx = Math.cos(ang) * (r.r + 50);
+                const ly = Math.sin(ang) * (r.r + 50);
+                this.ctx.fillText(label, lx, ly);
+                this.ctx.fillStyle = '#666';
+                this.ctx.fillText(`[${t.mode}]`, lx, ly + 10);
+
+                // --- VOL HANDLE (Bottom Circle) ---
+                const vy = r.r;
+                this.ctx.beginPath();
+                const isDragV = (this.dragTarget && this.dragTarget.type === 'vol' && this.dragTarget.trackIdx === idx);
+                const vSize = isDragV ? 10 : 8;
+                this.ctx.arc(0, vy, vSize, 0, Math.PI * 2);
+                this.ctx.fillStyle = '#fff';
+                this.ctx.fill();
+
+                const volH = t.volume.gain.value * (vSize - 2);
+                this.ctx.beginPath();
+                this.ctx.arc(0, vy, volH, 0, Math.PI * 2);
+                this.ctx.fillStyle = color;
+                this.ctx.fill();
+            }
+
+            getHit(x, y) {
+                const dx = x - this.cx;
+                const dy = y - this.cy;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                const inputAng = Math.atan2(dy, dx);
+
+                const HIT_SIZE = 45; // Generous hit area
+
+                for (let i = 0; i < 3; i++) {
+                    const r = this.rings[i];
+                    if (r.r < 10) continue; // Skip if collapsed
+
+                    // Tune
+                    const hx = Math.cos(r.angle) * (r.r + 25);
+                    const hy = Math.sin(r.angle) * (r.r + 25);
+                    if (Math.sqrt((dx - hx) ** 2 + (dy - hy) ** 2) < HIT_SIZE) return { type: 'tune', trackIdx: i };
+
+                    // Vol
+                    const vx = 0; const vy = r.r;
+                    if (Math.sqrt((dx - vx) ** 2 + (dy - vy) ** 2) < HIT_SIZE) return { type: 'vol', trackIdx: i };
+
+                    // Overlap
+                    const ox = -r.r; const oy = 0;
+                    if (Math.sqrt((dx - ox) ** 2 + (dy - oy) ** 2) < HIT_SIZE) return { type: 'overlap', trackIdx: i };
+
+                    // Segments
+                    if (Math.abs(dist - r.r) < 30) {
+                        let relAng = inputAng + Math.PI / 2;
+                        if (relAng < 0) relAng += Math.PI * 2;
+                        const step = Math.floor((relAng / (Math.PI * 2)) * 16);
+                        return { type: 'step', trackIdx: i, stepIdx: step };
+                    }
+                }
+                return null;
+            }
+        }
+
+        // --- MAIN ---
+        const audio = new LoomAudio();
+        const seq = new Sequencer(audio);
+        window.uiInstance = new Interface('main-canvas', audio, seq);
+        const ui = window.uiInstance;
+        if (EMBED_MODE) document.body.classList.add('embed-mode');
+
+        const recBtnContainer = document.getElementById('rec-btn-container');
+        const recTrigger = document.getElementById('rec-trigger');
+        let activeRecTrack = -1;
+        let bootPromise = null;
+        const EMBED_STRIP_STORAGE_KEY = 'mandalla_embed_strip_collapsed_v2';
+
+        function setEmbedStripCollapsed(collapsed) {
+            if (!EMBED_MODE) return;
+            document.body.classList.toggle('embed-strip-collapsed', !!collapsed);
+            const btn = document.getElementById('embed-strip-toggle');
+            if (btn) {
+                btn.textContent = collapsed ? '⋯' : '▴';
+                btn.title = collapsed ? 'Show song row' : 'Hide song row';
+            }
+            try { localStorage.setItem(EMBED_STRIP_STORAGE_KEY, collapsed ? '1' : '0'); } catch (_) { }
+        }
+
+        if (EMBED_MODE) {
+            let collapsed = true;
+            try {
+                const stored = localStorage.getItem(EMBED_STRIP_STORAGE_KEY);
+                if (stored !== null) collapsed = stored === '1';
+            } catch (_) { }
+            setEmbedStripCollapsed(collapsed);
+            document.getElementById('embed-strip-toggle')?.addEventListener('click', () => {
+                haptic();
+                setEmbedStripCollapsed(!document.body.classList.contains('embed-strip-collapsed'));
+            });
+        }
+
+        async function bootSystem(opts = {}) {
+            if (bootPromise) return bootPromise;
+            const { skipTutorial = EMBED_MODE } = opts;
+            bootPromise = (async () => {
+                const loadingStatus = document.getElementById('loading-status');
+                if (loadingStatus) loadingStatus.classList.remove('hidden');
+                await audio.init();
+                emitParentDebug('booted', { audioCtx: audio.ctx?.state || 'none', embed: EMBED_MODE });
+                seq.start();
+                if (EMBED_MODE) audio.setMonitor(false);
+                const overlay = document.getElementById('overlay');
+                if (overlay) {
+                    overlay.style.opacity = 0;
+                    setTimeout(() => {
+                        overlay.style.display = 'none';
+                        if (!skipTutorial && !EMBED_MODE) startTutorial();
+                    }, 800);
+                }
+                ui.render();
+                updateActiveStatus();
+                if (EMBED_MODE && window.parent !== window) {
+                    setTimeout(() => {
+                        try { audio.postAudioStreamToParent(); } catch (e) { console.warn('[LOOM] auto-post stream failed', e); }
+                    }, 60);
+                }
+            })().catch(err => {
+                bootPromise = null;
+                emitParentDebug('boot-fail', { message: String(err?.message || err) });
+                throw err;
+            });
+            return bootPromise;
+        }
+
+        // Same-origin bridge for parent deck harnesses (avoids MediaStream postMessage clone issues)
+        window.__mandallaGetAudioStream = () => audio?.parentStreamDest?.stream || null;
+        window.__mandallaGetAudioState = () => ({
+            booted: !!audio?.ctx,
+            audioCtx: audio?.ctx?.state || 'none',
+            hasStream: !!audio?.parentStreamDest?.stream
+        });
+        window.__mandallaResumeAudio = async () => {
+            await bootSystem({ skipTutorial: true });
+            if (audio.ctx?.state === 'suspended') await audio.ctx.resume();
+            emitParentDebug('resume-direct', { audioCtx: audio.ctx?.state || 'none' });
+            return window.__mandallaGetAudioState();
+        };
+        window.__mandallaSuspendAudio = async () => {
+            if (!audio.ctx) return window.__mandallaGetAudioState();
+            audio.tracks.forEach((t) => {
+                try { t.audio?.pause?.(); } catch (_) { }
+                try { t.mp3Audio?.pause?.(); } catch (_) { }
+            });
+            if (audio.ctx.state !== 'suspended') await audio.ctx.suspend();
+            emitParentDebug('suspend-direct', { audioCtx: audio.ctx?.state || 'none' });
+            return window.__mandallaGetAudioState();
+        };
+        window.__mandallaSetMonitor = (on) => {
+            audio.monitorEnabled = !!on;
+            if (audio.ctx) audio.setMonitor(!!on);
+            emitParentDebug('set-monitor-direct', { on: !!on, audioCtx: audio.ctx?.state || 'none' });
+            return true;
+        };
+
+        document.getElementById('init-btn').addEventListener('click', () => {
+            bootSystem().catch(err => {
+                console.error('[LOOM] Boot failed', err);
+                showToast('BOOT FAILED');
+            });
+        });
+
+        document.getElementById('bpm-slider').addEventListener('input', e => {
+            seq.bpm = parseInt(e.target.value);
+            document.getElementById('bpm-val').innerText = seq.bpm;
+            // Beat match all MP3 tracks to new BPM
+            if (audio) audio.beatMatchAll(seq.bpm);
+            console.log(`[LOOM] BPM: ${seq.bpm}`);
+        });
+
+        // --- CRATE BROWSER LOGIC ---
+        let currentCrateIdx = 0;
+        const ALBUM_KEYS = Object.keys(ALBUM_CRATE_DEFS);
+
+        const syncMandallaUrl = () => {
+            const next = new URL(window.location.href);
+            next.searchParams.set('album', ACTIVE_CRATE_ALBUM_KEY);
+            if (EMBED_MODE) next.searchParams.set('embed', '1');
+            window.history.replaceState({}, '', next.toString());
+        };
+
+        const getActiveAlbumDef = () => ALBUM_CRATE_DEFS[ACTIVE_CRATE_ALBUM_KEY] || ALBUM_CRATE_DEFS.loom;
+
+        const updateExternalLinks = () => {
+            const album = getActiveAlbumDef();
+            const libBtn = document.getElementById('open-library-btn');
+            const mixBtn = document.getElementById('open-mix-btn');
+            if (libBtn) libBtn.dataset.href = `VOLHOLLA/index.html?album=${encodeURIComponent(album.libraryParam || album.key)}`;
+            if (mixBtn) mixBtn.dataset.href = `op2.html?a=${encodeURIComponent(album.key)}&b=${encodeURIComponent(album.op2Pair || 'moto')}`;
+        };
+
+        const retuneTracksToCurrentCrate = () => {
+            if (!audio?.tracks?.length || !LOCAL_MP3_CRATE.length) return;
+            audio.tracks.forEach((t, idx) => {
+                if (typeof t.mp3Idx === 'number') {
+                    t.mp3Idx = ((t.mp3Idx % LOCAL_MP3_CRATE.length) + LOCAL_MP3_CRATE.length) % LOCAL_MP3_CRATE.length;
+                }
+                if (t.mode === 'MP3' && t.mp3Audio) {
+                    audio.tuneMP3(idx, typeof t.mp3Idx === 'number' ? t.mp3Idx : idx % LOCAL_MP3_CRATE.length);
+                }
+            });
+        };
+
+        const setActiveCrateAlbum = (albumKey, opts = {}) => {
+            const { syncUrl = true, keepTrackIndex = false, toast = true } = opts;
+            const nextKey = normalizeAlbumKey(albumKey);
+            if (!ALBUM_CRATE_DEFS[nextKey]) return;
+            ACTIVE_CRATE_ALBUM_KEY = nextKey;
+            const prevIdx = currentCrateIdx;
+            LOCAL_MP3_CRATE = buildCrateForAlbum(nextKey);
+            currentCrateIdx = LOCAL_MP3_CRATE.length ? (keepTrackIndex ? Math.min(prevIdx, LOCAL_MP3_CRATE.length - 1) : 0) : 0;
+            const sel = document.getElementById('crate-album-select');
+            if (sel) sel.value = nextKey;
+            updateExternalLinks();
+            updateCrateDisplay();
+            retuneTracksToCurrentCrate();
+            if (syncUrl) syncMandallaUrl();
+            if (toast) showToast(`CRATE: ${getActiveAlbumDef().label}`);
+        };
+
+        const cycleCrateAlbum = (dir = 1) => {
+            const idx = ALBUM_KEYS.indexOf(ACTIVE_CRATE_ALBUM_KEY);
+            const next = ALBUM_KEYS[(idx + dir + ALBUM_KEYS.length) % ALBUM_KEYS.length];
+            setActiveCrateAlbum(next);
+        };
+
+        const albumSelectLabel = (a) => {
+            const short = a.shortLabel || a.label;
+            const useShort = EMBED_MODE || window.matchMedia('(max-width: 700px)').matches;
+            return useShort ? short : a.label;
+        };
+
+        const renderAlbumSelectorOptions = () => {
+            const sel = document.getElementById('crate-album-select');
+            if (!sel) return;
+            const current = sel.value || ACTIVE_CRATE_ALBUM_KEY;
+            sel.innerHTML = ALBUM_KEYS.map((key) => {
+                const a = ALBUM_CRATE_DEFS[key];
+                return `<option value="${a.key}">${albumSelectLabel(a)}</option>`;
+            }).join('');
+            sel.value = current;
+        };
+
+        const initAlbumSelector = () => {
+            const sel = document.getElementById('crate-album-select');
+            if (!sel) return;
+            renderAlbumSelectorOptions();
+            sel.value = ACTIVE_CRATE_ALBUM_KEY;
+            sel.addEventListener('change', (e) => {
+                haptic();
+                setActiveCrateAlbum(e.target.value);
+            });
+            document.getElementById('album-prev')?.addEventListener('click', () => { haptic(); cycleCrateAlbum(-1); });
+            document.getElementById('album-next')?.addEventListener('click', () => { haptic(); cycleCrateAlbum(1); });
+            window.addEventListener('resize', renderAlbumSelectorOptions);
+        };
+
+        const updateCrateDisplay = () => {
+            const track = LOCAL_MP3_CRATE[currentCrateIdx];
+            const album = getActiveAlbumDef();
+            const trackEl = document.getElementById('crate-track');
+            const metaEl = document.getElementById('crate-meta');
+            if (!track) {
+                if (trackEl) trackEl.innerText = '--';
+                if (metaEl) metaEl.innerText = `${album.label} / 0 TRACKS`;
+                return;
+            }
+            if (trackEl) {
+                trackEl.innerText = `${currentCrateIdx + 1}. ${track.name}`;
+                trackEl.style.color = track.bpm > 0 ? '#10b981' : '#ccc';
+            }
+            if (metaEl) {
+                metaEl.innerText = `${album.label} / ${LOCAL_MP3_CRATE.length} TRACKS`;
+            }
+            console.log(`[LOOM] Crate[${album.key}]: ${currentCrateIdx + 1}/${LOCAL_MP3_CRATE.length} - "${track.name}" (${track.bpm}bpm)`);
+        };
+
+        // Haptic helper
+        const haptic = (pattern = 10) => { if (navigator.vibrate) navigator.vibrate(pattern); };
+
+        const updateCompactStripControls = () => {
+            const modeBtn = document.getElementById('compact-mode-cycle');
+            const inlineModeBtn = document.getElementById('inline-mode-cycle');
+            const label = currentMode === 'RADIO' ? 'RAD' : (currentMode === 'DRONE' ? 'DRN' : 'MP3');
+            const tint = currentMode === 'RADIO' ? '#0ff' : (currentMode === 'DRONE' ? '#f0f' : '#0f0');
+            if (modeBtn) {
+                modeBtn.textContent = label;
+                modeBtn.style.color = tint;
+            }
+            if (inlineModeBtn) {
+                inlineModeBtn.textContent = label;
+                inlineModeBtn.style.color = tint;
+            }
+        };
+
+        const ensureBootForControl = async () => {
+            if (audio.ctx) return true;
+            if (EMBED_MODE) {
+                try {
+                    await bootSystem({ skipTutorial: true });
+                    return true;
+                } catch (e) {
+                    console.warn('[LOOM] control boot failed', e);
+                    showToast('BOOT FIRST');
+                    return false;
+                }
+            }
+            showToast('INITIALIZE');
+            return false;
+        };
+
+        document.getElementById('crate-prev').addEventListener('click', () => {
+            haptic();
+            currentCrateIdx = (currentCrateIdx - 1 + LOCAL_MP3_CRATE.length) % LOCAL_MP3_CRATE.length;
+            updateCrateDisplay();
+        });
+
+        document.getElementById('crate-next').addEventListener('click', () => {
+            haptic();
+            currentCrateIdx = (currentCrateIdx + 1) % LOCAL_MP3_CRATE.length;
+            updateCrateDisplay();
+        });
+
+        const loadToTrack = async (trackIdx) => {
+            if (!(await ensureBootForControl())) return;
+            haptic([15, 30, 15]); // Double tap feel
+            console.log(`[LOOM] Loading track ${currentCrateIdx + 1} to ${['HIGH', 'MID', 'LOW'][trackIdx]}`);
+            audio.setMode(trackIdx, 'MP3');
+            audio.tuneMP3(trackIdx, currentCrateIdx);
+        };
+
+        document.getElementById('load-high').addEventListener('click', () => loadToTrack(0));
+        document.getElementById('load-mid').addEventListener('click', () => loadToTrack(1));
+        document.getElementById('load-low').addEventListener('click', () => loadToTrack(2));
+        document.getElementById('compact-load-high')?.addEventListener('click', () => loadToTrack(0));
+        document.getElementById('compact-load-mid')?.addEventListener('click', () => loadToTrack(1));
+        document.getElementById('compact-load-low')?.addEventListener('click', () => loadToTrack(2));
+        document.getElementById('inline-load-high')?.addEventListener('click', () => loadToTrack(0));
+        document.getElementById('inline-load-mid')?.addEventListener('click', () => loadToTrack(1));
+        document.getElementById('inline-load-low')?.addEventListener('click', () => loadToTrack(2));
+
+        // --- MODE SELECTOR ---
+        let currentMode = 'MP3';
+        const updateModeButtons = (mode) => {
+            currentMode = mode;
+            const mp3Btn = document.getElementById('mode-mp3');
+            const radBtn = document.getElementById('mode-radio');
+            const drnBtn = document.getElementById('mode-drone');
+            mp3Btn.style.background = mode === 'MP3' ? 'rgba(0,255,0,0.2)' : 'none';
+            mp3Btn.style.color = mode === 'MP3' ? '#0f0' : '#888';
+            radBtn.style.background = mode === 'RADIO' ? 'rgba(0,255,255,0.2)' : 'none';
+            radBtn.style.color = mode === 'RADIO' ? '#0ff' : '#888';
+            drnBtn.style.background = mode === 'DRONE' ? 'rgba(255,0,255,0.2)' : 'none';
+            drnBtn.style.color = mode === 'DRONE' ? '#f0f' : '#888';
+            updateCompactStripControls();
+        };
+
+        const setAllTracksMode = async (mode) => {
+            if (!(await ensureBootForControl())) return;
+            for (let i = 0; i < 3; i++) audio.setMode(i, mode);
+            updateModeButtons(mode);
+            updateActiveStatus();
+            console.log(`[LOOM] All tracks set to ${mode} mode`);
+        };
+
+        document.getElementById('mode-mp3').addEventListener('click', () => {
+            haptic();
+            setAllTracksMode('MP3');
+        });
+
+        document.getElementById('mode-radio').addEventListener('click', () => {
+            haptic();
+            setAllTracksMode('RADIO');
+        });
+
+        document.getElementById('mode-drone').addEventListener('click', () => {
+            haptic();
+            setAllTracksMode('DRONE');
+        });
+        document.getElementById('compact-mode-cycle')?.addEventListener('click', async () => {
+            haptic();
+            const modes = ['MP3', 'RADIO', 'DRONE'];
+            const next = modes[(modes.indexOf(currentMode) + 1) % modes.length];
+            await setAllTracksMode(next);
+        });
+        document.getElementById('inline-mode-cycle')?.addEventListener('click', async () => {
+            haptic();
+            const modes = ['MP3', 'RADIO', 'DRONE'];
+            const next = modes[(modes.indexOf(currentMode) + 1) % modes.length];
+            await setAllTracksMode(next);
+        });
+
+        document.getElementById('open-library-btn')?.addEventListener('click', () => {
+            haptic();
+            const href = document.getElementById('open-library-btn').dataset.href || 'VOLHOLLA/index.html';
+            window.location.href = href;
+        });
+        document.getElementById('open-mix-btn')?.addEventListener('click', () => {
+            haptic();
+            const href = document.getElementById('open-mix-btn').dataset.href || 'op2.html';
+            window.location.href = href;
+        });
+
+        initAlbumSelector();
+        setActiveCrateAlbum(ACTIVE_CRATE_ALBUM_KEY, { syncUrl: false, toast: false });
+        updateCompactStripControls();
+        setTimeout(updateCrateDisplay, 500);
+
+        window.addEventListener('message', async (event) => {
+            const msg = event.data || {};
+            if (!msg || typeof msg !== 'object') return;
+
+            if (msg.type === 'set-monitor') {
+                audio.monitorEnabled = !!msg.on;
+                if (audio.ctx) audio.setMonitor(!!msg.on);
+                emitParentDebug('set-monitor', { on: !!msg.on, audioCtx: audio.ctx?.state || 'none' });
+                return;
+            }
+
+            if (msg.type === 'resume-audio') {
+                try {
+                    await bootSystem({ skipTutorial: true });
+                    if (audio.ctx?.state === 'suspended') await audio.ctx.resume();
+                    emitParentDebug('resume-audio', { audioCtx: audio.ctx?.state || 'none' });
+                } catch (e) {
+                    console.warn('[LOOM] resume-audio failed', e);
+                    emitParentDebug('resume-fail', { message: String(e?.message || e) });
+                }
+                return;
+            }
+
+            if (msg.type === 'suspend-audio') {
+                try {
+                    audio.tracks.forEach((t) => {
+                        try { t.audio?.pause?.(); } catch (_) { }
+                        try { t.mp3Audio?.pause?.(); } catch (_) { }
+                    });
+                    if (audio.ctx && audio.ctx.state !== 'suspended') await audio.ctx.suspend();
+                    emitParentDebug('suspend-audio', { audioCtx: audio.ctx?.state || 'none' });
+                } catch (e) {
+                    console.warn('[LOOM] suspend-audio failed', e);
+                    emitParentDebug('suspend-fail', { message: String(e?.message || e) });
+                }
+                return;
+            }
+
+            if (msg.type === 'request-audio-stream') {
+                try {
+                    if (!audio.ctx || !audio.parentStreamDest) {
+                        emitParentDebug('request-stream-skipped', { reason: 'not-booted' });
+                        return;
+                    }
+                    emitParentDebug('request-stream', { id: msg.id || 'mandalla', audioCtx: audio.ctx?.state || 'none' });
+                    audio.postAudioStreamToParent(msg.id || 'mandalla');
+                } catch (e) {
+                    console.warn('[LOOM] request-audio-stream failed', e);
+                    emitParentDebug('request-stream-fail', { message: String(e?.message || e) });
+                }
+            }
+        });
+
+        document.getElementById('clear-btn').addEventListener('click', () => {
+            haptic([20, 20, 20]);
+            for (let i = 0; i < 3; i++) seq.grid[i].fill(false);
+            console.log('[LOOM] Pattern cleared');
+            showToast("PATTERN CLEARED");
+        });
+
+        // Help
+        document.getElementById('help-btn').addEventListener('click', () => {
+            haptic();
+            console.log('[LOOM] Opening tutorial');
+            startTutorial();
+        });
+
+        // IO
+        const ioModal = document.getElementById('io-modal');
+        const ioText = document.getElementById('io-text');
+        document.getElementById('io-btn').addEventListener('click', () => {
+            haptic();
+            ioText.value = seq.serialize();
+            ioModal.style.display = 'block';
+            console.log('[LOOM] Data modal opened');
+        });
+        document.getElementById('close-io-btn').addEventListener('click', () => {
+            haptic();
+            ioModal.style.display = 'none';
+        });
+        document.getElementById('import-btn').addEventListener('click', () => {
+            haptic([20, 50, 20]);
+            if (seq.deserialize(ioText.value)) {
+                ioModal.style.display = 'none';
+                updateActiveStatus();
+                console.log('[LOOM] Pattern imported successfully');
+            }
+        });
+
+        recTrigger.addEventListener('mousedown', () => { if (activeRecTrack >= 0) audio.startRecording(activeRecTrack); });
+        recTrigger.addEventListener('mouseup', () => { if (activeRecTrack >= 0) audio.stopRecording(activeRecTrack); });
+        recTrigger.addEventListener('touchstart', (e) => { e.preventDefault(); if (activeRecTrack >= 0) audio.startRecording(activeRecTrack); });
+        recTrigger.addEventListener('touchend', (e) => { e.preventDefault(); if (activeRecTrack >= 0) audio.stopRecording(activeRecTrack); });
+
+        function updateActiveStatus() {
+            const types = audio.tracks.map(t => t.mode[0]).join('/');
+            const el = document.getElementById('active-status');
+            if (el) el.innerText = types;
+            console.log(`[LOOM] Active modes: ${types}`);
+        }
+
+        const canvas = document.getElementById('main-canvas');
+
+        const getCanvasCoords = (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const clientX = e.touches && e.touches.length > 0 ? e.touches[0].clientX : e.clientX;
+            const clientY = e.touches && e.touches.length > 0 ? e.touches[0].clientY : e.clientY;
+            return { x: clientX - rect.left, y: clientY - rect.top };
+        };
+
+        const handleStart = (x, y) => {
+            if (!audio.ctx) {
+                if (EMBED_MODE) {
+                    bootSystem({ skipTutorial: true }).catch((e) => console.warn('[LOOM] embed boot on touch failed', e));
+                }
+                return;
+            }
+            if (audio.ctx && audio.ctx.state === 'suspended') audio.ctx.resume();
+
+            const hit = ui.getHit(x, y);
+            if (hit) {
+                if (hit.type === 'step') {
+                    ui.dragTarget = { type: 'paint', trackIdx: hit.trackIdx, state: !seq.grid[hit.trackIdx][hit.stepIdx] };
+                    seq.setStep(hit.trackIdx, hit.stepIdx, ui.dragTarget.state);
+                    ui.lastPaintedStep = hit.stepIdx;
+                    if (navigator.vibrate) navigator.vibrate(5);
+                } else if (hit.type === 'tune') {
+                    ui.dragTarget = { ...hit, lastAng: Math.atan2(y - ui.cy, x - ui.cx) };
+                    const now = Date.now();
+                    if (ui.lastTap.trackIdx === hit.trackIdx && (now - ui.lastTap.time) < 300) {
+                        const modes = ['RADIO', 'DRONE', 'SAMPLER', 'MP3'];
+                        const t = audio.tracks[hit.trackIdx];
+                        const next = modes[(modes.indexOf(t.mode) + 1) % modes.length];
+                        audio.setMode(hit.trackIdx, next);
+                        if (next === 'SAMPLER') {
+                            activeRecTrack = hit.trackIdx;
+                            recBtnContainer.style.display = 'block';
+                        } else if (activeRecTrack === hit.trackIdx) {
+                            recBtnContainer.style.display = 'none';
+                            activeRecTrack = -1;
+                        }
+                        updateActiveStatus();
+                        if (navigator.vibrate) navigator.vibrate([10, 10]);
+                        ui.dragTarget = null;
+                    } else {
+                        ui.lastTap = { time: now, trackIdx: hit.trackIdx, isTap: true };
+                    }
+                } else if (hit.type === 'vol' || hit.type === 'overlap') {
+                    ui.dragTarget = { ...hit };
+                }
+            }
+        };
+
+        const handleMove = (x, y) => {
+            // Hover logic
+            const hit = ui.getHit(x, y);
+            canvas.style.cursor = hit ? 'pointer' : 'default';
+            ui.rings.forEach(r => r.hover = false);
+            if (hit) ui.rings[hit.trackIdx].hover = true;
+
+            if (ui.dragTarget) {
+                const t = ui.dragTarget;
+                const r = ui.rings[t.trackIdx];
+                const dx = x - ui.cx;
+                const dy = y - ui.cy;
+
+                if (t.type === 'paint') {
+                    const ang = Math.atan2(dy, dx);
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    if (Math.abs(dist - r.r) < 40) {
+                        let relAng = ang + Math.PI / 2;
+                        if (relAng < 0) relAng += Math.PI * 2;
+                        const step = Math.floor((relAng / (Math.PI * 2)) * 16);
+                        if (step !== ui.lastPaintedStep) {
+                            seq.setStep(t.trackIdx, step, t.state);
+                            ui.lastPaintedStep = step;
+                            if (navigator.vibrate) navigator.vibrate(5);
+                        }
+                    }
+                    return;
+                }
+
+                if (t.type === 'vol') {
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    const newR = Math.max(50, Math.min(350, dist));
+                    r.targetR = newR; // Animate to this
+                    r.r = newR; // Snap for responsivness
+                    const vol = (newR - 50) / 300;
+                    audio.setVolume(t.trackIdx, vol);
+                }
+                else if (t.type === 'overlap') {
+                    const val = Math.max(0.1, Math.min(4.0, 2.0 - (dy / 100)));
+                    audio.setOverlap(t.trackIdx, val);
+                }
+                else if (t.type === 'tune') {
+                    const trk = audio.tracks[t.trackIdx];
+                    if (!trk) return;
+                    const curAng = Math.atan2(dy, dx);
+                    let delta = curAng - t.lastAng;
+                    if (delta > Math.PI) delta -= Math.PI * 2;
+                    if (delta < -Math.PI) delta += Math.PI * 2;
+
+                    r.angle += delta;
+                    t.lastAng = curAng;
+                    if (Math.abs(delta) > 0.01) ui.lastTap.isTap = false;
+
+                    if (!r.accum) r.accum = 0;
+                    r.accum += delta;
+
+                    const stepSize = 0.5;
+                    if (Math.abs(r.accum) > stepSize) {
+                        const steps = Math.floor(Math.abs(r.accum) / stepSize);
+                        const dir = r.accum > 0 ? 1 : -1;
+
+                        if (trk.mode === 'RADIO') audio.tuneRadio(t.trackIdx, trk.stationIdx + (steps * dir));
+                        else if (trk.mode === 'DRONE') audio.tuneDrone(t.trackIdx, trk.pitchIdx + (steps * dir));
+                        else if (trk.mode === 'SAMPLER') audio.setSampleRate(t.trackIdx, Math.max(0.2, trk.sampleRate + (steps * dir * 0.1)));
+
+                        r.accum = r.accum % stepSize;
+                        if (navigator.vibrate) navigator.vibrate(10);
+                    }
+                }
+            }
+        };
+
+        const handleEnd = () => {
+            if (ui.dragTarget && ui.dragTarget.type === 'tune' && ui.lastTap.isTap && audio.tracks[ui.dragTarget.trackIdx]) {
+                audio.togglePlay(ui.dragTarget.trackIdx);
+            }
+            ui.dragTarget = null;
+            ui.lastPaintedStep = -1;
+        };
+
+        canvas.addEventListener('mousedown', e => { const p = getCanvasCoords(e); handleStart(p.x, p.y); });
+        window.addEventListener('mousemove', e => { const p = getCanvasCoords(e); handleMove(p.x, p.y); });
+        window.addEventListener('mouseup', handleEnd);
+
+        canvas.addEventListener('touchstart', e => { e.preventDefault(); const p = getCanvasCoords(e); handleStart(p.x, p.y); }, { passive: false });
+        window.addEventListener('touchmove', e => { if (ui.dragTarget) { const p = getCanvasCoords(e); handleMove(p.x, p.y); } }, { passive: false });
+        window.addEventListener('touchend', handleEnd);
+
+    </script>
+</body>
+
+</html>

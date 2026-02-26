@@ -188,24 +188,36 @@
         ? `<img src="${escapeHtml(encodeURI(art))}" alt="${escapeHtml(track.title)} artwork" loading="lazy" decoding="async">`
         : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, fallbackGlyph)}</div>`;
       return `
-        <div class="gallery-item">
+        <a class="gallery-item" href="${escapeHtml(songPageHref(album, track.index))}" aria-label="Open song page for ${escapeHtml(track.title)}">
           ${media}
           <span class="badge">${String(track.index + 1).padStart(2, "0")}</span>
           <div class="caption">${escapeHtml(track.title)}</div>
-        </div>
+        </a>
       `;
     });
     return items.join("");
   }
 
+  function songPageHref(album, index, extra = {}) {
+    const params = new URLSearchParams();
+    params.set("album", album.key);
+    params.set("track", String(index + 1));
+    Object.entries(extra).forEach(([k, v]) => {
+      if (v === undefined || v === null || v === false) return;
+      params.set(k, String(v));
+    });
+    return `./song.html?${params.toString()}`;
+  }
+
   function renderTrackList(album) {
     return album.files.map((file, i) => `
-      <li>
+      <li class="track-row">
         <button class="track" type="button" data-track-index="${i}" aria-label="Play ${escapeHtml(titleFromFilename(file))}">
           <div class="track-no">${String(i + 1).padStart(2, "0")}</div>
           <div class="track-title">${escapeHtml(titleFromFilename(file))}</div>
           <div class="track-cta" aria-hidden="true">▶</div>
         </button>
+        <a class="track-link" href="${escapeHtml(songPageHref(album, i))}" aria-label="Open song page for ${escapeHtml(titleFromFilename(file))}">↗</a>
       </li>
     `).join("");
   }
@@ -229,10 +241,11 @@
 
   function renderVisualPanel(album) {
     return `
-      <details class="panel extras-panel">
+      <details class="panel extras-panel" id="albumVisualsPanel">
         <summary class="extras-summary">
           <span>Visuals</span>
           <span class="mono">${album.trackArtByTitle ? "track art" : "shield fallback"}</span>
+          <span class="caret" aria-hidden="true">▾</span>
         </summary>
         <div class="section">
           <div class="gallery-grid">
@@ -250,9 +263,16 @@
     let currentIndex = -1;
 
     const els = {
+      playerShell: root.querySelector("#albumPlayerShell"),
       topShare: root.querySelector("#sharePageBtn"),
+      topCopyBtn: root.querySelector("#copyTopUrlBtn"),
+      headMenu: root.querySelector(".head-menu"),
       sendBtn: root.querySelector("#sendAlbumBtn"),
       copyBtn: root.querySelector("#copyUrlBtn"),
+      jumpTracksBtn: root.querySelector("#jumpTracksBtn"),
+      jumpVisualsBtn: root.querySelector("#jumpVisualsBtn"),
+      tracksPanel: root.querySelector("#albumTracksPanel"),
+      visualsPanel: root.querySelector("#albumVisualsPanel"),
       playBtn: root.querySelector("#playAlbumBtn"),
       prevBtn: root.querySelector("#prevTrackBtn"),
       nextBtn: root.querySelector("#nextTrackBtn"),
@@ -262,6 +282,10 @@
       timeNow: root.querySelector("#albumTimeNow"),
       timeTotal: root.querySelector("#albumTimeTotal"),
       progressFill: root.querySelector("#albumProgressFill"),
+      discTrackNo: root.querySelector("#discTrackNo"),
+      discMark: root.querySelector("#discTrackMark"),
+      discLine: root.querySelector("#discLine"),
+      discSubline: root.querySelector("#discSubline"),
       trackBtns: Array.from(root.querySelectorAll("[data-track-index]"))
     };
 
@@ -289,20 +313,30 @@
         : 0;
 
       if (!track) {
+        if (els.playerShell) els.playerShell.classList.remove("is-playing");
         if (els.nowKicker) els.nowKicker.textContent = "Ready";
         if (els.nowTitle) els.nowTitle.textContent = album.label;
         if (els.nowSub) els.nowSub.textContent = "Tap Play Album or any track";
         if (els.timeNow) els.timeNow.textContent = "0:00";
         if (els.timeTotal) els.timeTotal.textContent = "0:00";
         if (els.progressFill) els.progressFill.style.width = "0%";
+        if (els.discTrackNo) els.discTrackNo.textContent = "--";
+        if (els.discMark) els.discMark.textContent = "◎";
+        if (els.discLine) els.discLine.textContent = "Album ready";
+        if (els.discSubline) els.discSubline.textContent = "Tap Play Album";
         if (els.playBtn) els.playBtn.innerHTML = `<span aria-hidden="true">▶</span><span>Play Album</span>`;
       } else {
+        if (els.playerShell) els.playerShell.classList.toggle("is-playing", playing);
         if (els.nowKicker) els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
         if (els.nowTitle) els.nowTitle.textContent = track.title;
         if (els.nowSub) els.nowSub.textContent = album.subtitle;
         if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
         if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
         if (els.progressFill) els.progressFill.style.width = `${pct}%`;
+        if (els.discTrackNo) els.discTrackNo.textContent = String(currentIndex + 1).padStart(2, "0");
+        if (els.discMark) els.discMark.textContent = playing ? "◉" : "◎";
+        if (els.discLine) els.discLine.textContent = track.title;
+        if (els.discSubline) els.discSubline.textContent = playing ? "spinning" : "paused";
         if (els.playBtn) els.playBtn.innerHTML = `<span aria-hidden="true">${playing ? "⏸" : "▶"}</span><span>${playing ? "Pause" : "Resume"}</span>`;
       }
       updateTrackButtons();
@@ -377,7 +411,7 @@
       }
       setTimeout(() => {
         if (els.sendBtn) els.sendBtn.textContent = "↗ Send";
-        if (els.topShare) els.topShare.textContent = "↗ Share";
+        if (els.topShare) els.topShare.textContent = "↗ Send";
       }, 1200);
     }
 
@@ -386,6 +420,23 @@
     if (els.nextBtn) els.nextBtn.addEventListener("click", nextTrack);
     if (els.sendBtn) els.sendBtn.addEventListener("click", sharePage);
     if (els.topShare) els.topShare.addEventListener("click", sharePage);
+    if (els.topCopyBtn) {
+      els.topCopyBtn.addEventListener("click", async () => {
+        try {
+          if (navigator.clipboard?.writeText) {
+            await navigator.clipboard.writeText(pageUrl);
+            els.topCopyBtn.textContent = "✓ Copied";
+            setTimeout(() => { els.topCopyBtn.textContent = "Copy URL"; }, 1200);
+          } else {
+            window.prompt("Copy album URL", pageUrl);
+          }
+        } catch {
+          window.prompt("Copy album URL", pageUrl);
+        } finally {
+          if (els.headMenu) els.headMenu.open = false;
+        }
+      });
+    }
     if (els.copyBtn) {
       els.copyBtn.addEventListener("click", async () => {
         try {
@@ -399,6 +450,18 @@
         } catch {
           sharePage();
         }
+      });
+    }
+    if (els.jumpTracksBtn) {
+      els.jumpTracksBtn.addEventListener("click", () => {
+        if (els.tracksPanel) els.tracksPanel.open = true;
+        (els.tracksPanel || root.querySelector(".tracks-panel"))?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    if (els.jumpVisualsBtn) {
+      els.jumpVisualsBtn.addEventListener("click", () => {
+        if (els.visualsPanel) els.visualsPanel.open = true;
+        els.visualsPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
     }
 
@@ -474,14 +537,19 @@
               <div class="shield">${shieldSvg(album.accentA, album.accentB, "ring")}</div>
               <div class="title-wrap">
                 <h1>${escapeHtml(album.label)}</h1>
-                <div class="sub">${escapeHtml(album.subtitle)}</div>
               </div>
             </div>
             <div class="pills">
-              <a class="btn primary" href="${escapeHtml(hallHref)}" aria-label="Open shield hall for this album">Hall</a>
-              <a class="btn ghost" href="${escapeHtml(op2Href)}" aria-label="Open OP2 for this album pair">OP2</a>
-              <a class="btn" href="./index.html" aria-label="All album pages">All</a>
-              <button class="btn" type="button" id="sharePageBtn" aria-label="Share this album page">↗ Share</button>
+              <button class="btn primary" type="button" id="sharePageBtn" aria-label="Share this album page">↗ Send</button>
+              <details class="head-menu">
+                <summary class="btn ghost" aria-label="More album actions">⋯</summary>
+                <div class="head-menu-panel">
+                  <a class="btn" href="${escapeHtml(hallHref)}" aria-label="Open library view for this album">Library</a>
+                  <a class="btn" href="${escapeHtml(op2Href)}" aria-label="Open mix view for this album pair">Mix</a>
+                  <a class="btn" href="./index.html" aria-label="All album pages">↑ Albums</a>
+                  <button class="btn" type="button" id="copyTopUrlBtn" aria-label="Copy album page URL">Copy URL</button>
+                </div>
+              </details>
             </div>
           </div>
         </div>
@@ -506,7 +574,7 @@
               </div>
             </div>
             <div class="hero-text">
-              <div class="album-player">
+              <div class="album-player" id="albumPlayerShell">
                 <div class="album-player-head">
                   <div class="album-now">
                     <div class="album-now-kicker" id="albumNowKicker">Ready</div>
@@ -522,34 +590,53 @@
                 <div class="album-progress" aria-hidden="true">
                   <div class="album-progress-fill" id="albumProgressFill"></div>
                 </div>
+                <div class="disc-stage" aria-hidden="true">
+                  <div class="disc-wrap">
+                    <div class="disc-shadow"></div>
+                    <div class="disc">
+                      <div class="disc-label">
+                        <div class="disc-label-inner">
+                          <div class="disc-track-no" id="discTrackNo">--</div>
+                          <div class="disc-track-mark" id="discTrackMark">◎</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="disc-readout">
+                    <div class="mono">Disc Viz</div>
+                    <div class="line" id="discLine">${escapeHtml(album.label)}</div>
+                    <div class="subline" id="discSubline">Tap Play Album</div>
+                  </div>
+                </div>
                 <div class="album-controls">
                   <button class="btn icon-btn" type="button" id="prevTrackBtn" aria-label="Previous track">⏮</button>
                   <button class="btn primary play-btn" type="button" id="playAlbumBtn" aria-label="Play or pause album"><span aria-hidden="true">▶</span><span>Play Album</span></button>
                   <button class="btn icon-btn" type="button" id="nextTrackBtn" aria-label="Next track">⏭</button>
                 </div>
               </div>
-              <div class="action-grid compact">
-                <button class="btn primary" type="button" id="sendAlbumBtn">↗ Send</button>
-                <a class="btn" href="${escapeHtml(hallHref)}">Hall</a>
-                <a class="btn" href="${escapeHtml(op2Href)}">OP2</a>
-                <button class="btn" type="button" id="copyUrlBtn">Copy URL</button>
+              <div class="nav-rail" aria-label="Information architecture navigation">
+                <a class="nav-pill" href="./index.html" title="Go up to all albums">↑ Albums</a>
+                <button class="nav-pill" type="button" id="jumpTracksBtn" title="Open tracks drawer">↓ Tracks</button>
+                ${album.trackArtByTitle ? `<button class="nav-pill" type="button" id="jumpVisualsBtn" title="Open visuals drawer">↓ Visuals</button>` : ``}
               </div>
-              <p class="desc compact-desc">${escapeHtml(album.subtitle)}</p>
             </div>
           </div>
         </section>
 
-        <section class="panel">
+        <details class="panel tracks-panel" id="albumTracksPanel">
+          <summary class="tracks-summary">
+            <span class="left">
+              <span class="title">Tracks</span>
+              <span class="mono">${String(album.files.length)} / tap to play</span>
+            </span>
+            <span class="caret" aria-hidden="true">▾</span>
+          </summary>
           <div class="section">
-            <div class="section-head">
-              <h2>Tracks</h2>
-              <div class="mono">tap to play</div>
-            </div>
             <ol class="track-list" id="albumTrackList">
               ${renderTrackList(album)}
             </ol>
           </div>
-        </section>
+        </details>
 
         <div style="grid-column: 1 / -1;">
           ${album.trackArtByTitle ? renderVisualPanel(album) : ""}
