@@ -1676,6 +1676,7 @@
                 this.stepCount = 16;
                 this.currentStep = 0;
                 this.nextNoteTime = 0;
+                this.scratchHold = false;
                 this.grid = [
                     new Array(16).fill(false),
                     new Array(16).fill(false),
@@ -1691,6 +1692,11 @@
             }
 
             schedule() {
+                if (this.scratchHold) {
+                    this.nextNoteTime = this.audio.ctx.currentTime;
+                    requestAnimationFrame(this.schedule.bind(this));
+                    return;
+                }
                 const secondsPerBeat = 60.0 / this.bpm;
                 const stepDuration = secondsPerBeat / 4;
                 while (this.nextNoteTime < this.audio.ctx.currentTime + 0.1) {
@@ -1773,6 +1779,12 @@
                 this.lastTap = { time: 0, trackIdx: -1 };
                 this.lastPaintedStep = -1;
                 this.booting = false;
+                this.scratchSweepAng = null;
+                this.lastBpmScratchBucket = -1;
+                this.sweepHover = false;
+                this.scratchCueAccumulator = 0;
+                this.lastScratchCueMs = 0;
+                this.lastScratchDir = 1;
 
                 this.resize();
                 window.addEventListener('resize', () => this.resize());
@@ -1845,13 +1857,32 @@
             }
 
             drawRadar() {
-                const sweepAng = (this.seq.currentStep / 16) * Math.PI * 2 - Math.PI / 2;
+                const sweepAng = (this.scratchSweepAng ?? ((this.seq.currentStep / 16) * Math.PI * 2 - Math.PI / 2));
+                const isSweepDrag = this.dragTarget && this.dragTarget.type === 'sweep';
                 this.ctx.beginPath();
                 this.ctx.moveTo(0, 0);
                 const maxR = this.rings[2].r + 60;
                 this.ctx.lineTo(Math.cos(sweepAng) * maxR, Math.sin(sweepAng) * maxR);
-                this.ctx.strokeStyle = 'rgba(255,255,255,0.15)';
-                this.ctx.lineWidth = 2;
+                this.ctx.strokeStyle = (this.sweepHover || isSweepDrag) ? 'rgba(190,240,255,0.32)' : 'rgba(255,255,255,0.15)';
+                this.ctx.lineWidth = (this.sweepHover || isSweepDrag) ? 3 : 2;
+                if (this.sweepHover || isSweepDrag) {
+                    this.ctx.shadowColor = 'rgba(19,194,255,0.35)';
+                    this.ctx.shadowBlur = 10;
+                }
+                this.ctx.stroke();
+                this.ctx.shadowBlur = 0;
+
+                // Scan head handle at the sweep tip so it is visually obvious and easier to catch.
+                const hx = Math.cos(sweepAng) * (maxR - 10);
+                const hy = Math.sin(sweepAng) * (maxR - 10);
+                this.ctx.beginPath();
+                this.ctx.arc(hx, hy, (this.sweepHover || isSweepDrag) ? 8 : 6, 0, Math.PI * 2);
+                this.ctx.fillStyle = 'rgba(235,250,255,0.96)';
+                this.ctx.fill();
+                this.ctx.beginPath();
+                this.ctx.arc(hx, hy, (this.sweepHover || isSweepDrag) ? 12 : 9, 0, Math.PI * 2);
+                this.ctx.strokeStyle = 'rgba(80,220,255,0.55)';
+                this.ctx.lineWidth = 1.5;
                 this.ctx.stroke();
             }
 
@@ -1974,6 +2005,32 @@
                 const inputAng = Math.atan2(dy, dx);
 
                 const HIT_SIZE = 45; // Generous hit area
+
+                // Fitts-law sweep-arm grab in embed mode: catch the radar arm itself for scratch/BPM.
+                if (EMBED_MODE) {
+                    const sweepAng = (this.scratchSweepAng ?? ((this.seq.currentStep / 16) * Math.PI * 2 - Math.PI / 2));
+                    const maxR = this.rings[2].r + 60;
+                    const ux = Math.cos(sweepAng);
+                    const uy = Math.sin(sweepAng);
+                    const proj = (dx * ux) + (dy * uy);
+                    const closestX = ux * Math.max(0, Math.min(maxR, proj));
+                    const closestY = uy * Math.max(0, Math.min(maxR, proj));
+                    const lineDist = Math.sqrt((dx - closestX) ** 2 + (dy - closestY) ** 2);
+                    const inArmSpan = proj > -10 && proj < (maxR + 18);
+                    // Avoid stealing taps on the segment rings/handles too aggressively.
+                    const centerPriority = dist < (this.rings[0].r - 10);
+                    const headX = ux * (maxR - 10);
+                    const headY = uy * (maxR - 10);
+                    const headDist = Math.sqrt((dx - headX) ** 2 + (dy - headY) ** 2);
+                    const angDiff = Math.atan2(Math.sin(inputAng - sweepAng), Math.cos(inputAng - sweepAng));
+                    const wedgeCatch = dist > 22 && dist < (maxR + 14) && Math.abs(angDiff) < (centerPriority ? 0.24 : 0.16);
+                    const lineCatch = centerPriority ? 58 : 34;
+                    const headCatch = centerPriority ? 40 : 30;
+                    const centerCatch = dist < 28;
+                    if ((inArmSpan && lineDist < lineCatch) || headDist < headCatch || wedgeCatch || centerCatch) {
+                        return { type: 'sweep' };
+                    }
+                }
 
                 for (let i = 0; i < 3; i++) {
                     const r = this.rings[i];
@@ -2484,6 +2541,66 @@
             return { x: clientX - rect.left, y: clientY - rect.top };
         };
 
+        const wrapStep16 = (n) => ((n % 16) + 16) % 16;
+        const playScratchCue = (dir = 1, strength = 1) => {
+            if (!audio?.ctx) return;
+            try {
+                const now = audio.ctx.currentTime;
+                const osc = audio.ctx.createOscillator();
+                const gain = audio.ctx.createGain();
+                const safeStrength = Math.max(0.08, Math.min(1.8, strength));
+                osc.type = dir < 0 ? 'sawtooth' : 'triangle';
+                const f0 = dir < 0 ? 700 : 1050;
+                const f1 = dir < 0 ? 360 : 1480;
+                osc.frequency.setValueAtTime(f0, now);
+                osc.frequency.exponentialRampToValueAtTime(f1, now + 0.03);
+                gain.gain.setValueAtTime(0.0001, now);
+                gain.gain.exponentialRampToValueAtTime(0.034 * safeStrength, now + 0.003);
+                gain.gain.exponentialRampToValueAtTime(0.0001, now + (dir < 0 ? 0.045 : 0.036));
+                osc.connect(gain);
+                gain.connect(audio.master || audio.ctx.destination);
+                osc.start(now);
+                osc.stop(now + 0.05);
+            } catch (_) { }
+        };
+
+        const triggerScratchStep = (stepIdx, dir = 1) => {
+            const step = wrapStep16(stepIdx);
+            let hasActive = false;
+            for (let i = 0; i < 3; i++) {
+                if (seq.grid[i][step]) { hasActive = true; break; }
+            }
+            const scratchDur = Math.max(0.012, Math.min(0.07, (60 / Math.max(40, seq.bpm)) / 10));
+            if (hasActive) seq.playStep(step, audio.ctx?.currentTime || 0, scratchDur);
+            playScratchCue(dir, hasActive ? 0.42 : 0.95);
+        };
+
+        const scratchCuePulse = (dir = 1, strength = 0.4, minGapMs = 14) => {
+            const nowMs = performance.now();
+            if (nowMs - (ui.lastScratchCueMs || 0) < minGapMs) return false;
+            ui.lastScratchCueMs = nowMs;
+            playScratchCue(dir, strength);
+            return true;
+        };
+
+        const scratchTraverseSteps = (fromStep, toStep, dir = 1) => {
+            let from = wrapStep16(fromStep);
+            let to = wrapStep16(toStep);
+            if (from === to) return;
+
+            const fwd = (to - from + 16) % 16;
+            const bwd = (from - to + 16) % 16;
+            let signedDir = dir >= 0 ? 1 : -1;
+            if ((signedDir > 0 && fwd > 8) || (signedDir < 0 && bwd > 8)) signedDir *= -1;
+
+            let s = from;
+            let guard = 0;
+            while (s !== to && guard++ < 16) {
+                s = wrapStep16(s + (signedDir > 0 ? 1 : -1));
+                triggerScratchStep(s, signedDir);
+            }
+        };
+
         const handleStart = (x, y) => {
             if (!audio.ctx) {
                 if (EMBED_MODE) {
@@ -2523,6 +2640,17 @@
                     }
                 } else if (hit.type === 'vol' || hit.type === 'overlap') {
                     ui.dragTarget = { ...hit };
+                } else if (hit.type === 'sweep') {
+                    const dx = x - ui.cx;
+                    const dy = y - ui.cy;
+                    ui.dragTarget = { type: 'sweep', lastAng: Math.atan2(dy, dx), lastDir: 1, moved: false };
+                    ui.scratchSweepAng = Math.atan2(dy, dx);
+                    ui.scratchCueAccumulator = 0;
+                    ui.lastScratchDir = 1;
+                    seq.scratchHold = true;
+                    seq.nextNoteTime = audio.ctx.currentTime;
+                    scratchCuePulse(1, 0.32, 0);
+                    if (navigator.vibrate) navigator.vibrate([4, 10, 4]);
                 }
             }
         };
@@ -2530,15 +2658,16 @@
         const handleMove = (x, y) => {
             // Hover logic
             const hit = ui.getHit(x, y);
-            canvas.style.cursor = hit ? 'pointer' : 'default';
+            canvas.style.cursor = ui.dragTarget?.type === 'sweep' ? 'grabbing' : (hit ? (hit.type === 'sweep' ? 'grab' : 'pointer') : 'default');
             ui.rings.forEach(r => r.hover = false);
-            if (hit) ui.rings[hit.trackIdx].hover = true;
+            ui.sweepHover = !!(hit && hit.type === 'sweep');
+            if (hit && typeof hit.trackIdx === 'number') ui.rings[hit.trackIdx].hover = true;
 
             if (ui.dragTarget) {
                 const t = ui.dragTarget;
-                const r = ui.rings[t.trackIdx];
                 const dx = x - ui.cx;
                 const dy = y - ui.cy;
+                const r = (typeof t.trackIdx === 'number') ? ui.rings[t.trackIdx] : null;
 
                 if (t.type === 'paint') {
                     const ang = Math.atan2(dy, dx);
@@ -2551,6 +2680,65 @@
                             seq.setStep(t.trackIdx, step, t.state);
                             ui.lastPaintedStep = step;
                             if (navigator.vibrate) navigator.vibrate(5);
+                        }
+                    }
+                    return;
+                }
+
+                if (t.type === 'sweep') {
+                    const curAng = Math.atan2(dy, dx);
+                    const dist = Math.sqrt(dx * dx + dy * dy);
+                    let deltaAng = curAng - t.lastAng;
+                    if (deltaAng > Math.PI) deltaAng -= Math.PI * 2;
+                    if (deltaAng < -Math.PI) deltaAng += Math.PI * 2;
+                    if (Math.abs(deltaAng) > 0.003) {
+                        const nextDir = deltaAng >= 0 ? 1 : -1;
+                        if (nextDir !== (t.lastDir || 1)) {
+                            scratchCuePulse(nextDir, 0.7, 0);
+                            if (navigator.vibrate) navigator.vibrate(4);
+                        }
+                        t.lastDir = nextDir;
+                        ui.lastScratchDir = nextDir;
+                    }
+                    t.lastAng = curAng;
+                    ui.scratchSweepAng = curAng;
+                    t.moved = true;
+
+                    // Scratch transport position by angle.
+                    let relAng = curAng + Math.PI / 2;
+                    if (relAng < 0) relAng += Math.PI * 2;
+                    const step = Math.max(0, Math.min(15, Math.floor((relAng / (Math.PI * 2)) * 16)));
+                    if (step !== seq.currentStep) {
+                        scratchTraverseSteps(seq.currentStep, step, t.lastDir || 1);
+                        seq.currentStep = step;
+                        seq.nextNoteTime = audio.ctx.currentTime;
+                        ui.scratchCueAccumulator = 0;
+                        if (navigator.vibrate) navigator.vibrate(3);
+                    } else if (Math.abs(deltaAng) > 0.004) {
+                        // Make scratch motion audible even before crossing into a new step.
+                        ui.scratchCueAccumulator += Math.abs(deltaAng);
+                        const cueStep = 0.12; // ~7 degrees
+                        if (ui.scratchCueAccumulator >= cueStep) {
+                            const pulses = Math.min(2, Math.floor(ui.scratchCueAccumulator / cueStep));
+                            ui.scratchCueAccumulator = ui.scratchCueAccumulator % cueStep;
+                            for (let i = 0; i < pulses; i++) scratchCuePulse(t.lastDir || ui.lastScratchDir || 1, 0.22, 12);
+                        }
+                    }
+
+                    // BPM from distance along the sweep arm (center -> outer = slow -> fast).
+                    const maxR = ui.rings[2].r + 60;
+                    const clampedDist = Math.max(36, Math.min(maxR, dist));
+                    const bpm = Math.round(60 + ((clampedDist - 36) / (maxR - 36)) * 120);
+                    if (bpm !== seq.bpm) {
+                        seq.bpm = bpm;
+                        const slider = document.getElementById('bpm-slider');
+                        if (slider) slider.value = String(bpm);
+                        updateBpmIndicator(seq.bpm);
+                        if (audio) audio.beatMatchAll(seq.bpm);
+                        const bucket = Math.round((bpm - 60) / 5);
+                        if (bucket !== ui.lastBpmScratchBucket && navigator.vibrate) {
+                            ui.lastBpmScratchBucket = bucket;
+                            navigator.vibrate(bucket === 12 ? [4, 16, 6] : 4);
                         }
                     }
                     return;
@@ -2600,6 +2788,14 @@
         };
 
         const handleEnd = () => {
+            if (ui.dragTarget && ui.dragTarget.type === 'sweep') {
+                seq.scratchHold = false;
+                ui.scratchSweepAng = null;
+                seq.nextNoteTime = audio.ctx ? audio.ctx.currentTime : seq.nextNoteTime;
+                ui.lastBpmScratchBucket = -1;
+                ui.scratchCueAccumulator = 0;
+            }
+            ui.sweepHover = false;
             if (ui.dragTarget && ui.dragTarget.type === 'tune' && ui.lastTap.isTap && audio.tracks[ui.dragTarget.trackIdx]) {
                 audio.togglePlay(ui.dragTarget.trackIdx);
             }
