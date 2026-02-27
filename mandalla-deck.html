@@ -82,7 +82,7 @@
 
     /* Top-edge crossfader: primary mix gesture without eating deck space */
     .edge-xfader{
-      display:none;
+      display:none !important;
       position:fixed;
       left:0; right:0;
       top:calc(env(safe-area-inset-top, 0px) + 0px);
@@ -98,35 +98,39 @@
     .edge-xfader .edge-track{
       flex:1 1 auto;
       min-width:0;
-      height:8px;
+      height:18px;
       border-radius:0;
-      border-top:1px solid rgba(255,255,255,.06);
-      border-bottom:1px solid rgba(0,0,0,.35);
-      background:rgba(6,8,12,.42);
+      border-top:1px solid rgba(255,255,255,.03);
+      border-bottom:1px solid rgba(0,0,0,.25);
+      background:rgba(6,8,12,.22);
       box-shadow:none;
-      padding:0 2px;
+      padding:0 4px;
       display:flex;
       align-items:center;
       pointer-events:auto;
       backdrop-filter: blur(3px);
+      touch-action:none;
+      user-select:none;
+      -webkit-user-select:none;
     }
     #edgeCrossfader{
       -webkit-appearance:none;
       appearance:none;
       width:100%;
-      height:2px;
+      height:18px;
       margin:0;
-      border-radius:999px;
-      background:linear-gradient(90deg, #13c2ff 0%, #16a5ff var(--xf, 50%), rgba(255,255,255,.85) var(--xf, 50%), rgba(255,255,255,.85) 100%);
+      border-radius:0;
+      background:linear-gradient(90deg, #13c2ff 0%, #16a5ff var(--xf, 50%), rgba(255,255,255,.88) var(--xf, 50%), rgba(255,255,255,.88) 100%) center/100% 2px no-repeat;
       outline:none;
+      touch-action:none;
     }
     #edgeCrossfader::-webkit-slider-thumb{
       -webkit-appearance:none;
       appearance:none;
-      width:10px; height:10px; border-radius:50%;
+      width:16px; height:16px; border-radius:50%;
       background: radial-gradient(circle at 35% 35%, #ffffff 0 25%, #3bb7ff 28% 62%, #0a1830 70% 100%);
       border:1px solid rgba(255,255,255,.45);
-      box-shadow:0 0 0 1px rgba(0,0,0,.45), 0 0 6px rgba(19,194,255,.30);
+      box-shadow:0 0 0 1px rgba(0,0,0,.45), 0 0 8px rgba(19,194,255,.34);
       cursor:pointer;
     }
     #edgeCrossfader::-moz-range-thumb{
@@ -229,6 +233,7 @@
     .dock-btn.primary{ background:linear-gradient(180deg,#17242b,#102229); border-color:#3b6674; color:#bff7ff; }
     .dock-btn.accent{ background:linear-gradient(180deg,#2a1f14,#20170f); border-color:#6f5332; color:#ffd1a2; }
     .dock-btn.tight{ min-width:28px; padding:0 6px; }
+    .dock-btn.deck-toggle{ min-width:44px; letter-spacing:.01em; font-variant-numeric:tabular-nums; }
     .dock-slider-wrap{
       min-width:0; display:flex; align-items:center; gap:8px;
       padding:0 8px;
@@ -238,7 +243,7 @@
       background:rgba(9,11,15,.9);
     }
     .dock-label{font-size:10px; color:#94a0ae; letter-spacing:.12em; text-transform:uppercase}
-    .dock-slider-wrap input[type=range]{ width:100%; margin:0; }
+    .dock-slider-wrap input[type=range]{ width:100%; margin:0; accent-color:#23d2ff; }
     .dock-presets{
       display:flex; gap:6px; overflow:auto; padding-bottom:1px;
       scrollbar-width:none;
@@ -268,11 +273,35 @@
     .workhorse-dock.compact .dock-top{
       display:none;
     }
-    .workhorse-dock.compact .dock-grid{ grid-column:1; grid-row:1; grid-template-columns: repeat(5, minmax(0, auto)); gap:4px; }
+    .workhorse-dock.compact .dock-grid{
+      grid-column:1;
+      grid-row:1;
+      grid-template-columns: auto auto auto auto minmax(126px,1fr);
+      gap:4px;
+      align-items:center;
+    }
     .workhorse-dock.compact .dock-status-inline{
       display:none;
     }
-    .workhorse-dock.compact .dock-slider-line{ display:none !important; }
+    .workhorse-dock.compact #dockPause{ display:none !important; }
+    .workhorse-dock.compact .dock-slider-line{
+      display:flex !important;
+      grid-column:5;
+      grid-row:1;
+      margin:0;
+      min-width:126px;
+    }
+    .workhorse-dock.compact .dock-slider-wrap{
+      min-height:26px;
+      border-radius:6px;
+      padding:0 6px;
+      gap:6px;
+    }
+    .workhorse-dock.compact .dock-label{
+      font-size:9px;
+      letter-spacing:.08em;
+      white-space:nowrap;
+    }
     .workhorse-dock.compact .dock-presets,
     .workhorse-dock.compact .dock-extra-row,
     .workhorse-dock.compact .dock-log{
@@ -325,7 +354,7 @@
       #setupBtn{ display:none; }
       .dock-top{ display:none; }
       #dockStatus{ font-size:11px; }
-      .dock-grid{ grid-template-columns: repeat(5, minmax(0, auto)); }
+      .dock-grid{ grid-template-columns: auto auto auto auto minmax(100px,1fr); }
       .dock-grid .dock-hide-mobile{ display:none !important; }
       .dock-status-inline{ display:none; }
       .dock-btn{ min-height:26px; min-width:26px; border-radius:6px; padding:0 5px; font-size:10px; }
@@ -338,10 +367,6 @@
       .dock-mobile-only{ display:inline-flex !important; }
       .dock-slider-line{ gap:4px; }
       .workhorse-dock.compact .dock-grid{ gap:3px; }
-      .edge-xfader{ left:0; right:0; top:calc(env(safe-area-inset-top, 0px) + 0px); gap:0; }
-      .edge-xfader .edge-track{ height:6px; padding:0 2px; }
-      #edgeCrossfader{ height:2px; }
-      #edgeCrossfader::-webkit-slider-thumb{ width:10px; height:10px; }
     }
     .dock-mobile-only{ display:none; }
   </style>
@@ -428,16 +453,15 @@
     <div class="dock-grid">
       <button id="dockStart" class="dock-btn primary" type="button" title="Start both">▶</button>
       <button id="dockPause" class="dock-btn" type="button" title="Pause / Resume both">⏯</button>
-      <button id="dockPauseA" class="dock-btn tight" type="button" title="Pause / resume deck A">A</button>
-      <button id="dockPauseB" class="dock-btn tight" type="button" title="Pause / resume deck B">B</button>
+      <button id="dockPauseA" class="dock-btn tight deck-toggle" type="button" title="Pause / resume deck A">A⏸</button>
+      <button id="dockPauseB" class="dock-btn tight deck-toggle" type="button" title="Pause / resume deck B">B⏸</button>
       <button id="dockMenu" class="dock-btn tight" type="button" title="More controls">⋯</button>
-      <div class="dock-status-inline" id="dockStatusInline">A elephant • B loom</div>
-    </div>
-    <div class="dock-slider-line">
-      <div class="dock-slider-wrap" style="flex:1 1 auto;">
-        <span class="dock-label">A</span>
-        <input id="dockCrossfader" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Crossfader" />
-        <span class="dock-label">B</span>
+      <div class="dock-slider-line">
+        <div class="dock-slider-wrap" style="flex:1 1 auto;">
+          <span class="dock-label">BPM</span>
+          <input id="dockBpm" type="range" min="60" max="180" step="1" value="120" aria-label="Global BPM" />
+          <span class="dock-label" id="dockBpmVal">120</span>
+        </div>
       </div>
     </div>
     <div class="dock-extra-row">
@@ -483,8 +507,10 @@
   const dockCutA = document.getElementById('dockCutA');
   const dockCutB = document.getElementById('dockCutB');
   const dockSwap = document.getElementById('dockSwap');
-  const dockCrossfader = document.getElementById('dockCrossfader');
+  const dockBpm = document.getElementById('dockBpm');
+  const dockBpmVal = document.getElementById('dockBpmVal');
   const edgeCrossfader = document.getElementById('edgeCrossfader');
+  const edgeTrack = document.querySelector('.edge-xfader .edge-track');
   const dockLogEl = document.getElementById('dockLog');
 
   const DECK_LIBRARY = [
@@ -771,8 +797,16 @@
     }catch{}
   }
   populateSetupSelects();
-  deckA?.addEventListener('load', ()=> { deckLog('iframe load', { deck:'A', src: currentRelative(deckA, '') }); setTimeout(updateHarnessState, 50); });
-  deckB?.addEventListener('load', ()=> { deckLog('iframe load', { deck:'B', src: currentRelative(deckB, '') }); setTimeout(updateHarnessState, 50); });
+  deckA?.addEventListener('load', ()=> {
+    deckLog('iframe load', { deck:'A', src: currentRelative(deckA, '') });
+    setTimeout(updateHarnessState, 50);
+    setTimeout(syncBpmFromDecks, 220);
+  });
+  deckB?.addEventListener('load', ()=> {
+    deckLog('iframe load', { deck:'B', src: currentRelative(deckB, '') });
+    setTimeout(updateHarnessState, 50);
+    setTimeout(syncBpmFromDecks, 220);
+  });
 
   urlASelect?.addEventListener('change', ()=>{ if (urlASelect.value){ urlA.value = urlASelect.value; } });
   urlBSelect?.addEventListener('change', ()=>{ if (urlBSelect.value){ urlB.value = urlBSelect.value; } });
@@ -934,6 +968,9 @@
     if (msg && msg.type === 'mandalla-debug') {
       deckLog(`child:${msg.stage || 'debug'}`, msg.detail || {});
       const frame = frameFromSource(e.source);
+      if (msg.stage === 'set-bpm' || msg.stage === 'set-bpm-direct' || msg.stage === 'bpm-change') {
+        setTimeout(syncBpmFromDecks, 40);
+      }
       if (frame && (msg.stage === 'stream-post-fail' || msg.stage === 'booted' || msg.stage === 'resume-audio' || msg.stage === 'resume-direct')) {
         setTimeout(()=> { tryDirectStream(frame, `child:${msg.stage}`); }, 30);
       }
@@ -977,7 +1014,8 @@
     if (!btn) return;
     btn.classList.toggle('active', !!isPaused);
     btn.title = `${isPaused ? 'Resume' : 'Pause'} deck ${which}`;
-    btn.textContent = which;
+    btn.setAttribute('aria-label', btn.title);
+    btn.textContent = isPaused ? `${which} Play` : `${which} Pause`;
   }
 
   function setRecordUi(isRec){
@@ -994,7 +1032,6 @@
 
   function setCrossfadeUi(v){
     if (crossfader && String(crossfader.value) !== String(v)) crossfader.value = v;
-    if (dockCrossfader && String(dockCrossfader.value) !== String(v)) dockCrossfader.value = v;
     if (edgeCrossfader && String(edgeCrossfader.value) !== String(v)) edgeCrossfader.value = v;
     const pct = `${Math.round((Math.min(1, Math.max(0, Number(v)||0))) * 100)}%`;
     document.documentElement.style.setProperty('--xf', pct);
@@ -1006,9 +1043,12 @@
     deckLog('startBoth', { a: currentRelative(deckA, ''), b: currentRelative(deckB, '') });
     resumeDeck(deckA);
     resumeDeck(deckB);
+    paused = false;
+    setPauseUi(false);
     deckMuted.A = false; deckMuted.B = false;
     setDeckPauseUi('A', false); setDeckPauseUi('B', false);
     requestStreamsBurst();
+    setTimeout(syncBpmFromDecks, 180);
     audioCtx.resume?.()
       .then(()=> deckLog('audioCtx after start', { state: audioCtx.state }))
       .catch((err)=> deckWarn('start resume failed', String(err?.message || err)));
@@ -1023,9 +1063,14 @@
     if (paused){
       suspendDeck(deckA);
       suspendDeck(deckB);
+      deckMuted.A = true; deckMuted.B = true;
+      setDeckPauseUi('A', true); setDeckPauseUi('B', true);
     } else {
       resumeDeck(deckA);
       resumeDeck(deckB);
+      setTimeout(syncBpmFromDecks, 180);
+      deckMuted.A = false; deckMuted.B = false;
+      setDeckPauseUi('A', false); setDeckPauseUi('B', false);
     }
     setPauseUi(paused);
   }
@@ -1036,7 +1081,11 @@
     const frame = which === 'A' ? deckA : deckB;
     deckMuted[which] = !deckMuted[which];
     if (deckMuted[which]) await suspendDeck(frame); else await resumeDeck(frame);
+    if (!deckMuted[which]) setTimeout(syncBpmFromDecks, 160);
     setDeckPauseUi(which, deckMuted[which]);
+    const bothPaused = !!(deckMuted.A && deckMuted.B);
+    if (paused !== bothPaused) paused = bothPaused;
+    setPauseUi(paused);
     softHaptic(deckMuted[which] ? 10 : 6);
     deckLog('toggleDeckPause', { which, paused: deckMuted[which] });
   }
@@ -1076,9 +1125,90 @@
     setCrossfade(v);
     requestStreamsBurst([0,180]);
   }
+  function setDockBpmUi(bpm){
+    const n = Math.max(60, Math.min(180, Math.round(Number(bpm) || 120)));
+    if (dockBpm && Number(dockBpm.value) !== n) dockBpm.value = String(n);
+    if (dockBpmVal) dockBpmVal.textContent = String(n);
+  }
+  function setDeckBpm(frame, bpm){
+    const n = Math.max(60, Math.min(180, Math.round(Number(bpm) || 120)));
+    try{
+      const w = frame?.contentWindow;
+      if (w && typeof w.__mandallaSetBpm === 'function'){
+        const result = w.__mandallaSetBpm(n);
+        const resolved = Number(result?.bpm || result || n);
+        return Number.isFinite(resolved) ? resolved : n;
+      }
+    }catch(e){
+      deckWarn('setDeckBpm direct failed', { id: frameId(frame), err: String(e?.message || e) });
+    }
+    try{ frame?.contentWindow?.postMessage({ type:'set-bpm', bpm:n }, '*'); }catch{}
+    return n;
+  }
+  function getDeckBpm(frame){
+    try{
+      const w = frame?.contentWindow;
+      if (w && typeof w.__mandallaGetBpm === 'function'){
+        const bpm = Number(w.__mandallaGetBpm());
+        if (Number.isFinite(bpm)) return bpm;
+      }
+    }catch{}
+    return null;
+  }
+  function setGlobalBpm(nextBpm){
+    const n = Math.max(60, Math.min(180, Math.round(Number(nextBpm) || 120)));
+    const a = setDeckBpm(deckA, n);
+    const b = setDeckBpm(deckB, n);
+    const merged = Math.round(((Number(a) || n) + (Number(b) || n)) / 2);
+    setDockBpmUi(merged);
+    deckLog('setGlobalBpm', { bpm: merged, a: Number(a)||n, b: Number(b)||n });
+  }
+  function syncBpmFromDecks(){
+    const a = getDeckBpm(deckA);
+    const b = getDeckBpm(deckB);
+    const options = [a, b].filter((v)=> Number.isFinite(v));
+    if (!options.length) return;
+    const merged = Math.round(options.reduce((sum, v)=> sum + v, 0) / options.length);
+    setDockBpmUi(merged);
+  }
+  function setCrossfadeFromClientX(clientX){
+    if (!edgeTrack) return;
+    const rect = edgeTrack.getBoundingClientRect();
+    if (!rect.width) return;
+    const t = Math.min(1, Math.max(0, (clientX - rect.left) / rect.width));
+    if (edgeCrossfader) edgeCrossfader.value = t.toFixed(3);
+    onCrossfadeInput(t);
+  }
   crossfader?.addEventListener('input', ()=>{ const v = parseFloat(crossfader.value)||0; onCrossfadeInput(v); });
-  dockCrossfader?.addEventListener('input', ()=>{ const v = parseFloat(dockCrossfader.value)||0; onCrossfadeInput(v); });
   edgeCrossfader?.addEventListener('input', ()=>{ const v = parseFloat(edgeCrossfader.value)||0; onCrossfadeInput(v); });
+  dockBpm?.addEventListener('input', ()=>{
+    const bpm = Math.max(60, Math.min(180, parseInt(dockBpm.value, 10) || 120));
+    setDockBpmUi(bpm);
+    softHaptic(3);
+    setGlobalBpm(bpm);
+  });
+  if (edgeTrack){
+    let edgeDragging = false;
+    edgeTrack.addEventListener('pointerdown', (e)=>{
+      edgeDragging = true;
+      try { edgeTrack.setPointerCapture(e.pointerId); } catch(_) {}
+      softHaptic(4);
+      setCrossfadeFromClientX(e.clientX);
+      e.preventDefault();
+    });
+    edgeTrack.addEventListener('pointermove', (e)=>{
+      if (!edgeDragging) return;
+      setCrossfadeFromClientX(e.clientX);
+      e.preventDefault();
+    });
+    const endEdgeDrag = (e)=>{
+      if (!edgeDragging) return;
+      edgeDragging = false;
+      try { edgeTrack.releasePointerCapture(e.pointerId); } catch(_) {}
+    };
+    edgeTrack.addEventListener('pointerup', endEdgeDrag);
+    edgeTrack.addEventListener('pointercancel', endEdgeDrag);
+  }
   cutA?.addEventListener('click', ()=>{ softHaptic(6); if(crossfader){ crossfader.value = 0; } setCrossfade(0); });
   cutB?.addEventListener('click', ()=>{ softHaptic(6); if(crossfader){ crossfader.value = 1; } setCrossfade(1); });
   dockCutA?.addEventListener('click', ()=>{ softHaptic(6); setCrossfade(0); });
@@ -1091,6 +1221,11 @@
     setSrc('B', a);
   });
   setCrossfade(0.5);
+  setDockBpmUi(120);
+  setTimeout(syncBpmFromDecks, 240);
+  setDeckPauseUi('A', false);
+  setDeckPauseUi('B', false);
+  setPauseUi(false);
 
   function toggleRecord(){
     softHaptic(recOn ? [8, 20, 8] : [8, 30, 8]);

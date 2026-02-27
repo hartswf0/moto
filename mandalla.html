@@ -2080,7 +2080,7 @@
             const btn = document.getElementById('embed-strip-toggle');
             if (btn) {
                 btn.textContent = collapsed ? '⋯' : '▴';
-                btn.title = collapsed ? 'Show song row' : 'Hide song row';
+                btn.title = collapsed ? 'Drag left/right for BPM • tap to show song row' : 'Drag left/right for BPM • tap to hide song row';
             }
             try { localStorage.setItem(EMBED_STRIP_STORAGE_KEY, collapsed ? '1' : '0'); } catch (_) { }
         }
@@ -2092,10 +2092,66 @@
                 if (stored !== null) collapsed = stored === '1';
             } catch (_) { }
             setEmbedStripCollapsed(collapsed);
-            document.getElementById('embed-strip-toggle')?.addEventListener('click', () => {
-                haptic();
-                setEmbedStripCollapsed(!document.body.classList.contains('embed-strip-collapsed'));
-            });
+            const stripToggle = document.getElementById('embed-strip-toggle');
+            if (stripToggle) {
+                const drag = { active: false, pointerId: null, startX: 0, startY: 0, startBpm: seq.bpm, moved: false, lastBucket: -1 };
+                const applyScrubBpm = (nextBpm) => {
+                    const prev = seq.bpm;
+                    const bpm = setSequencerBpm(nextBpm, { beatMatch: true, toast: false });
+                    if (bpm === prev) return;
+                    const bucket = Math.round((bpm - 60) / 4);
+                    if (bucket !== drag.lastBucket && navigator.vibrate) {
+                        drag.lastBucket = bucket;
+                        navigator.vibrate(4);
+                    }
+                };
+
+                stripToggle.addEventListener('pointerdown', (e) => {
+                    drag.active = true;
+                    drag.pointerId = e.pointerId;
+                    drag.startX = e.clientX;
+                    drag.startY = e.clientY;
+                    drag.startBpm = seq.bpm;
+                    drag.moved = false;
+                    drag.lastBucket = Math.round((seq.bpm - 60) / 4);
+                    try { stripToggle.setPointerCapture(e.pointerId); } catch (_) { }
+                    if (!audio.ctx && EMBED_MODE) bootSystem({ skipTutorial: true }).catch(() => { });
+                    e.preventDefault();
+                });
+
+                stripToggle.addEventListener('pointermove', (e) => {
+                    if (!drag.active || drag.pointerId !== e.pointerId) return;
+                    const dx = e.clientX - drag.startX;
+                    const dy = e.clientY - drag.startY;
+                    if (!drag.moved && (Math.abs(dx) > 6 || Math.abs(dy) > 6)) drag.moved = true;
+                    if (!drag.moved) return;
+                    const scaled = drag.startBpm + (dx * 0.7);
+                    applyScrubBpm(scaled);
+                    e.preventDefault();
+                });
+
+                const endDrag = (e) => {
+                    if (!drag.active || drag.pointerId !== e.pointerId) return;
+                    drag.active = false;
+                    try { stripToggle.releasePointerCapture(e.pointerId); } catch (_) { }
+                    if (!drag.moved) {
+                        haptic();
+                        setEmbedStripCollapsed(!document.body.classList.contains('embed-strip-collapsed'));
+                    } else {
+                        showToast(`BPM ${seq.bpm}`);
+                    }
+                    e.preventDefault();
+                };
+                stripToggle.addEventListener('pointerup', endDrag);
+                stripToggle.addEventListener('pointercancel', endDrag);
+                stripToggle.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        haptic();
+                        setEmbedStripCollapsed(!document.body.classList.contains('embed-strip-collapsed'));
+                    }
+                });
+            }
         }
 
         async function bootSystem(opts = {}) {
@@ -2160,6 +2216,12 @@
             emitParentDebug('set-monitor-direct', { on: !!on, audioCtx: audio.ctx?.state || 'none' });
             return true;
         };
+        window.__mandallaSetBpm = (nextBpm) => {
+            const bpm = setSequencerBpm(nextBpm, { beatMatch: true, toast: false });
+            emitParentDebug('set-bpm-direct', { bpm, audioCtx: audio.ctx?.state || 'none' });
+            return { bpm };
+        };
+        window.__mandallaGetBpm = () => Number(seq?.bpm || 120);
 
         document.getElementById('init-btn').addEventListener('click', () => {
             bootSystem().catch(err => {
@@ -2184,12 +2246,25 @@
             el.setAttribute('aria-label', `BPM ${nextBpm}`);
         };
 
-        document.getElementById('bpm-slider').addEventListener('input', e => {
-            seq.bpm = parseInt(e.target.value);
+        const setSequencerBpm = (nextBpm, opts = {}) => {
+            const { beatMatch = true, toast = false } = opts;
+            const parsed = Math.round(Number(nextBpm));
+            if (!Number.isFinite(parsed)) return seq.bpm;
+            const bpm = Math.max(60, Math.min(180, parsed));
+            const prev = seq.bpm;
+            seq.bpm = bpm;
+            const slider = document.getElementById('bpm-slider');
+            if (slider) slider.value = String(bpm);
             updateBpmIndicator(seq.bpm);
-            // Beat match all MP3 tracks to new BPM
-            if (audio) audio.beatMatchAll(seq.bpm);
-            console.log(`[LOOM] BPM: ${seq.bpm}`);
+            if (beatMatch && audio) audio.beatMatchAll(seq.bpm);
+            if (toast) showToast(`BPM ${seq.bpm}`);
+            if (bpm !== prev) emitParentDebug('bpm-change', { bpm, audioCtx: audio.ctx?.state || 'none' });
+            return seq.bpm;
+        };
+
+        document.getElementById('bpm-slider').addEventListener('input', e => {
+            const bpm = setSequencerBpm(parseInt(e.target.value, 10), { beatMatch: true, toast: false });
+            console.log(`[LOOM] BPM: ${bpm}`);
         });
         updateBpmIndicator(seq.bpm);
 
@@ -2481,6 +2556,13 @@
                     console.warn('[LOOM] request-audio-stream failed', e);
                     emitParentDebug('request-stream-fail', { message: String(e?.message || e) });
                 }
+                return;
+            }
+
+            if (msg.type === 'set-bpm') {
+                const bpm = setSequencerBpm(msg.bpm, { beatMatch: true, toast: false });
+                emitParentDebug('set-bpm', { bpm, audioCtx: audio.ctx?.state || 'none' });
+                return;
             }
         });
 
@@ -2588,15 +2670,12 @@
             let to = wrapStep16(toStep);
             if (from === to) return;
 
-            const fwd = (to - from + 16) % 16;
-            const bwd = (from - to + 16) % 16;
-            let signedDir = dir >= 0 ? 1 : -1;
-            if ((signedDir > 0 && fwd > 8) || (signedDir < 0 && bwd > 8)) signedDir *= -1;
+            const signedDir = dir >= 0 ? 1 : -1;
 
             let s = from;
             let guard = 0;
             while (s !== to && guard++ < 16) {
-                s = wrapStep16(s + (signedDir > 0 ? 1 : -1));
+                s = wrapStep16(s + signedDir);
                 triggerScratchStep(s, signedDir);
             }
         };
@@ -2707,7 +2786,8 @@
                     // Scratch transport position by angle.
                     let relAng = curAng + Math.PI / 2;
                     if (relAng < 0) relAng += Math.PI * 2;
-                    const step = Math.max(0, Math.min(15, Math.floor((relAng / (Math.PI * 2)) * 16)));
+                    const stepFloat = (relAng / (Math.PI * 2)) * 16;
+                    const step = wrapStep16(Math.round(stepFloat));
                     if (step !== seq.currentStep) {
                         scratchTraverseSteps(seq.currentStep, step, t.lastDir || 1);
                         seq.currentStep = step;
@@ -2730,11 +2810,7 @@
                     const clampedDist = Math.max(36, Math.min(maxR, dist));
                     const bpm = Math.round(60 + ((clampedDist - 36) / (maxR - 36)) * 120);
                     if (bpm !== seq.bpm) {
-                        seq.bpm = bpm;
-                        const slider = document.getElementById('bpm-slider');
-                        if (slider) slider.value = String(bpm);
-                        updateBpmIndicator(seq.bpm);
-                        if (audio) audio.beatMatchAll(seq.bpm);
+                        setSequencerBpm(bpm, { beatMatch: true, toast: false });
                         const bucket = Math.round((bpm - 60) / 5);
                         if (bucket !== ui.lastBpmScratchBucket && navigator.vibrate) {
                             ui.lastBpmScratchBucket = bucket;
@@ -2808,7 +2884,7 @@
         window.addEventListener('mouseup', handleEnd);
 
         canvas.addEventListener('touchstart', e => { e.preventDefault(); const p = getCanvasCoords(e); handleStart(p.x, p.y); }, { passive: false });
-        window.addEventListener('touchmove', e => { if (ui.dragTarget) { const p = getCanvasCoords(e); handleMove(p.x, p.y); } }, { passive: false });
+        window.addEventListener('touchmove', e => { if (ui.dragTarget) { e.preventDefault(); const p = getCanvasCoords(e); handleMove(p.x, p.y); } }, { passive: false });
         window.addEventListener('touchend', handleEnd);
 
     </script>
