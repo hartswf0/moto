@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>MANDALLA: THE MESMERIC ENGINE</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Share+Tech+Mono&family=Montserrat:wght@200;300;400;700&display=swap');
+
+    :root {
+      --bg: #010204;
+      --panel: #080a0f;
+      --ink: #e0e6ed;
+      --amber: #f5b041;
+      --teal: #14b8a6;
+      --lavender: #a855f7;
+      --dockH: 76px;
+      --stripH: 48px;
+    }
+
+    * {
+      box-sizing: border-box;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body, html {
+      margin: 0; padding: 0;
+      width: 100%; height: 100%;
+      background-color: var(--bg);
+      color: var(--ink);
+      font-family: 'Montserrat', sans-serif;
+      overflow: hidden;
+      touch-action: none;
+      overscroll-behavior: none;
+    }
+
+    /* --- BOOT SCREEN --- */
+    #boot-screen {
+      position: absolute; inset: 0;
+      background: radial-gradient(circle at center, #0f131a 0%, #000 100%);
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      z-index: 9999;
+      transition: opacity 1.8s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .title-serif {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 1.8rem;
+      color: #8892b0;
+      letter-spacing: 5px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    .btn-init {
+      padding: 18px 60px;
+      border: 1px solid rgba(245, 176, 65, 0.4);
+      color: var(--amber);
+      background: rgba(245, 176, 65, 0.05);
+      font-weight: 300;
+      font-size: 1.1rem; letter-spacing: 10px;
+      cursor: pointer; transition: all 0.6s ease;
+      text-transform: uppercase;
+      border-radius: 100px;
+      box-shadow: 0 0 20px rgba(245, 176, 65, 0.1);
+    }
+    .btn-init:hover {
+      background: rgba(245, 176, 65, 0.2);
+      box-shadow: 0 0 60px rgba(245, 176, 65, 0.4);
+      border-color: var(--amber);
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    /* --- TOP STRIP --- */
+    .loom-strip {
+      position: fixed; top: max(0px, env(safe-area-inset-top)); left: 0; right: 0;
+      height: var(--stripH); z-index: 100;
+      display: flex; align-items: stretch;
+      background: linear-gradient(180deg, rgba(2,3,5,0.95), rgba(5,7,10,0.9));
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      backdrop-filter: blur(20px);
+    }
+    .strip-sec {
+      display: flex; align-items: center;
+      border-right: 1px solid rgba(255,255,255,0.05);
+      padding: 0 12px; gap: 10px;
+    }
+    .strip-sec:last-child { border-right: none; flex: 1; }
+
+    .mode-toggle {
+      background: transparent; border: 1px solid #333; color: #888;
+      font-size: 10px; padding: 5px 10px; border-radius: 6px; cursor: pointer;
+      transition: 0.2s; font-weight: 700; letter-spacing: 1px;
+    }
+    .mode-toggle.active { border-color: var(--amber); color: var(--amber); }
+
+    .crate-select {
+      background: rgba(0,0,0,0.6); color: #fff; border: 1px solid #444;
+      font-size: 11px; padding: 4px 8px; border-radius: 6px; outline: none;
+      font-family: inherit; letter-spacing: 1px;
+    }
+
+    .track-nav {
+      background: none; border: none; color: var(--teal); font-size: 22px;
+      cursor: pointer; padding: 0 8px; transition: transform 0.2s, color 0.2s;
+    }
+    .track-nav:active { transform: scale(0.7); color: #fff; }
+
+    .track-info {
+      display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+      min-width: 140px; flex: 1; overflow: hidden;
+    }
+    .track-title { font-size: 11px; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; font-weight: 700; letter-spacing: 1px;}
+    .track-meta { font-size: 9px; color: #666; letter-spacing: 2px; }
+
+    .load-btn {
+      background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1);
+      font-size: 10px; font-weight: 800; padding: 6px 14px; cursor: pointer;
+      border-radius: 6px; transition: all 0.2s;
+    }
+    .load-btn:active { transform: scale(0.9); }
+    .load-btn.hi { color: var(--amber); border-color: rgba(245, 176, 65, 0.4); }
+    .load-btn.mid { color: var(--teal); border-color: rgba(20, 184, 166, 0.4); }
+    .load-btn.lo { color: var(--lavender); border-color: rgba(168, 85, 247, 0.4); }
+
+    /* --- MAIN --- */
+    #app-container {
+      width: 100vw; height: 100vh;
+      position: relative; display: flex; justify-content: center; align-items: center;
+      background: radial-gradient(circle at 50% 50%, #0a0d14 0%, var(--bg) 100%);
+      padding-top: var(--stripH); padding-bottom: var(--dockH);
+    }
+    #unified-canvas { width: 100%; height: 100%; display: block; cursor: crosshair; }
+
+    /* --- DOCK --- */
+    .workhorse-dock {
+      position: fixed; bottom: 0; left: 0; right: 0; height: var(--dockH);
+      background: linear-gradient(180deg, rgba(8,10,15,0.92), rgba(2,3,5,0.98));
+      border-top: 1px solid rgba(255,255,255,0.08);
+      backdrop-filter: blur(25px);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px; z-index: 100; padding-bottom: env(safe-area-inset-bottom);
+    }
+    .dock-group { display: flex; align-items: center; gap: 12px; }
+    .dock-btn {
+      background: transparent; border: 1px solid rgba(255,255,255,0.15); color: #cbd5e1;
+      border-radius: 10px; padding: 0 20px; height: 44px;
+      font-size: 11px; font-weight: 700; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); letter-spacing: 2px; text-transform: uppercase;
+    }
+    .dock-btn:active { transform: scale(0.9); }
+    .dock-btn.active { border-color: var(--teal); color: var(--teal); background: rgba(20, 184, 166, 0.1); box-shadow: 0 0 20px rgba(20, 184, 166, 0.15); }
+    .dock-btn.evo-btn { border-color: rgba(168, 85, 247, 0.4); color: #d8b4fe; }
+
+    .slider-wrap {
+      display: flex; align-items: center; gap: 10px;
+      padding: 0 15px; height: 44px;
+      border-radius: 10px; border: 1px solid rgba(255,255,255,0.1);
+      background: rgba(0,0,0,0.5);
+    }
+    .slider-wrap span { font-size: 10px; color: #94a3b8; letter-spacing: 2px; font-weight: 800;}
+    .slider-wrap input[type=range] { width: 100px; accent-color: var(--teal); cursor: ew-resize; }
+
+    .toast {
+      position: fixed; top: 18%; left: 50%; transform: translate(-50%, -50%);
+      background: rgba(10, 15, 25, 0.95); border: 1px solid var(--teal);
+      backdrop-filter: blur(15px); border-radius: 10px;
+      color: #fff; padding: 14px 28px; font-size: 11px; letter-spacing: 5px;
+      z-index: 1000; opacity: 0; pointer-events: none; transition: all 0.5s ease;
+      text-transform: uppercase; font-weight: 800; box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    }
+    .toast.show { opacity: 1; transform: translate(-50%, -60%); }
+
+    @media (max-width: 800px) {
+      .loom-strip { flex-wrap: wrap; height: auto; padding-top: 5px; }
+      .strip-sec { width: 100%; border-right: none; border-bottom: 1px solid #222; padding: 10px 15px; }
+      #app-container { padding-top: 140px; }
+      .workhorse-dock { padding: 0 12px; gap: 5px; }
+      .dock-btn { padding: 0 12px; font-size: 9px; letter-spacing: 1px; }
+      .slider-wrap input[type=range] { width: 50px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="boot-screen">
+    <div style="text-align:center; margin-bottom: 40px;">
+      <div class="title-serif">"Music is a garden, not a building."</div>
+      <div style="font-size:12px; letter-spacing:8px; color:rgba(255,255,255,0.6); font-weight: 300;">MESMERIC FLUX ENGINE</div>
+    </div>
+    <button class="btn-init" id="btn-boot">AWAKEN SYSTEM</button>
+  </div>
+
+  <div class="toast" id="toast">GARDEN AWAKE</div>
+
+  <div class="loom-strip" id="top-strip">
+    <div class="strip-sec">
+      <button class="mode-toggle" id="btn-mode-cycle">SOURCE: SYNTH</button>
+      <select class="crate-select" id="crate-select">
+        <option value="loom">BREATH-THIEFS LOOM</option>
+        <option value="elephant">STOCHASTIC ELEPHANT</option>
+        <option value="moto">MOTO</option>
+        <option value="volholla">VOLHOLLA</option>
+      </select>
+    </div>
+    <div class="strip-sec" style="flex:1;">
+      <button class="track-nav" id="btn-prev">◀</button>
+      <div class="track-info">
+        <div class="track-title" id="track-title">SELECT A CRATE</div>
+        <div class="track-meta" id="track-meta">ALBUM READY</div>
+      </div>
+      <button class="track-nav" id="btn-next">▶</button>
+    </div>
+    <div class="strip-sec" style="justify-content: flex-end;">
+      <button class="load-btn hi" onclick="loadToRing(0)">HI</button>
+      <button class="load-btn mid" onclick="loadToRing(1)">MID</button>
+      <button class="load-btn lo" onclick="loadToRing(2)">LO</button>
+    </div>
+  </div>
+
+  <div id="app-container">
+    <canvas id="unified-canvas"></canvas>
+  </div>
+
+  <div class="workhorse-dock">
+    <div class="dock-group">
+      <button class="dock-btn" id="btn-play">▶ LISTEN</button>
+      <div class="slider-wrap">
+        <span>TEMPO</span>
+        <input type="range" id="bpm-slider" min="30" max="150" value="60">
+        <span id="bpm-val" style="color:var(--teal); min-width: 20px; font-family: monospace; font-size: 16px;">60</span>
+      </div>
+    </div>
+    <div class="dock-group">
+      <button class="dock-btn evo-btn" id="btn-evo">CLIMATE: CULTIVATE</button>
+      <button class="dock-btn" id="btn-clear">↺ UPROOT</button>
+    </div>
+  </div>
+
+<script>
+/**
+ * MANDALLA: MESMERIC FLUX ENGINE — HARNESS EDITION
+ * Adds:
+ *  - Audio capture stream (MediaStreamDestination)
+ *  - Parent harness bridge: request-audio-stream, set-bpm, resume-audio, suspend-audio, set-monitor
+ *  - Direct hooks for same-origin parent:
+ *      __mandallaGetAudioStream / __deckGetAudioStream
+ *      __mandallaResumeAudio   / __deckResumeAudio
+ *      __mandallaSuspendAudio  / __deckSuspendAudio
+ *      __mandallaSetBpm        / __deckSetBpm
+ *      __mandallaGetBpm        / __deckGetBpm
+ *      __mandallaSetMonitor    / __deckSetMonitor
+ *      __mandallaGetAudioState / __deckGetAudioState
+ */
+
+const haptics = {
+  vibrate: (pattern) => { try { if (navigator.vibrate) navigator.vibrate(pattern); } catch(e) {} },
+  tap: () => haptics.vibrate(12),
+  drag: () => haptics.vibrate(4),
+  heavy: () => haptics.vibrate([15, 20, 15]),
+  click: () => haptics.vibrate(15)
+};
+
+const ALBUM_CRATE_DEFS = {
+  volholla: { label: 'VOLHOLLA', basePath: 'VOLHOLLA/', files: ["coolradio - Volholla Arrival - Sonauto.mp3", "coolradio - The Long Way Back - Sonauto.mp3", "coolradio - Firelight Horizon - Sonauto.mp3"] },
+  elephant: { label: 'STOCHASTIC ELEPHANT', basePath: 'THE STOCHASTIC ELEPHANT/', files: ["01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3", "02_coolradio - Prompt Cognition Loop - Sonauto.mp3", "03_coolradio - Laundering Pain - Sonauto.mp3"] },
+  loom: { label: 'BREATH-THIEFS LOOM', basePath: 'THE BREATH-THIEFS LOOM/', files: ["coolradio - Ancestral Code - Sonauto.mp3", "coolradio - Currency of Breath - Sonauto.mp3", "coolradio - Mutated Grid Ancestry - Sonauto.mp3"] },
+  moto: { label: 'MOTO', basePath: 'MOTO/', files: ["coolradio - Bati Warehouse Drone - Sonauto.mp3", "coolradio - Sub Gravity Pulse - Sonauto.mp3", "coolradio - Symmetry Break - Sonauto.mp3"] }
+};
+
+// ---- URL params for harness friendliness ----
+const QP = new URLSearchParams(location.search);
+const EMBED = QP.get('embed') === '1';
+const INITIAL_CRATE = (() => {
+  const a = (QP.get('album') || QP.get('crate') || '').toLowerCase();
+  return ALBUM_CRATE_DEFS[a] ? a : 'loom';
+})();
+
+// ---- State ----
+let isPlaying = false;
+let globalBpm = 60;
+let currentCrateKey = INITIAL_CRATE;
+let currentFileIdx = 0;
+let currentCrateFiles = ALBUM_CRATE_DEFS[currentCrateKey].files.slice();
+let currentSourceMode = 'SYNTH';
+
+const STEPS = 128, NODES = 32, STEP_PER_NODE = STEPS / NODES;
+const AMBIENT_SCALE = ['Db', 'Eb', 'F', 'Ab', 'C'];
+const EVO_MODES = ['CULTIVATE', 'ENTANGLE', 'DRIFT', 'FOSSILIZE'];
+let currentEvoModeIdx = 0;
+
+// ---- Harness capture + monitor control ----
+let __audioInited = false;
+let __uiInited = false;
+let __booted = false;
+
+let __captureDest = null;      // MediaStreamDestination (raw)
+let __monitorGain = null;      // Tone.Gain -> Destination
+let __captureGain = null;      // Tone.Gain -> captureDest
+let __postFxTap = null;        // Tone.Gain node we tap for both monitor/capture
+
+function postDebug(stage, detail){
+  try{
+    if (window.parent && window.parent !== window){
+      window.parent.postMessage({ type:'mandalla-debug', stage, detail }, '*');
+    }
+  }catch{}
+}
+function safeCall(fn, fallback){
+  try { return fn(); } catch(e){ return fallback; }
+}
+
+const engineData = {
+  currentStep: 0,
+  beatPulse: 0,
+  tracks: [
+    { id: 0, color: '#f5b041', mode: 'SYNTH', octaves: [4, 5] },
+    { id: 1, color: '#14b8a6', mode: 'SYNTH', octaves: [3, 4] },
+    { id: 2, color: '#a855f7', mode: 'SYNTH', octaves: [1, 2] }
+  ],
+  grid: [new Array(STEPS).fill(0), new Array(STEPS).fill(0), new Array(STEPS).fill(0)],
+  forceField: [new Array(NODES).fill(0.3), new Array(NODES).fill(0.3), new Array(NODES).fill(0.3)],
+  audio: { synths: [], players: [], gates: [], filters: [] },
+  synthState: { isNoteOn: [false, false, false], lastPlayedNote: [null, null, null] }
+};
+
+let toastTimeout;
+function showToast(msg) {
+  const toast = document.getElementById('toast');
+  if (!toast) return;
+  toast.innerText = msg;
+  toast.classList.remove('show');
+  void toast.offsetWidth;
+  toast.classList.add('show');
+  clearTimeout(toastTimeout);
+  toastTimeout = setTimeout(() => toast.classList.remove('show'), 2000);
+}
+
+function hexToRgba(hex, alpha) {
+  const r = parseInt(hex.slice(1, 3), 16);
+  const g = parseInt(hex.slice(3, 5), 16);
+  const b = parseInt(hex.slice(5, 7), 16);
+  return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+// ---- Audio init (with capture) ----
+function initAudioEngine() {
+  if (__audioInited) return;
+  __audioInited = true;
+
+  // Capture destination (raw WebAudio)
+  const raw = Tone.getContext().rawContext;
+  __captureDest = raw.createMediaStreamDestination();
+
+  // Separate monitor/capture gains so harness can mute local speakers but still capture stream
+  __monitorGain = new Tone.Gain(1).toDestination();
+  __captureGain = new Tone.Gain(1);
+  __captureGain.connect(__captureDest);
+
+  // FX chain (fixed: actually routes through reverb)
+  const delay = new Tone.FeedbackDelay("4n.", 0.6);
+  const reverb = new Tone.Reverb({ decay: 12, wet: 0.5 });
+
+  // Tap node after FX (so both monitor+capture hear the same thing)
+  __postFxTap = new Tone.Gain(1);
+
+  const masterBus = new Tone.Volume(-5);
+  masterBus.chain(delay, reverb, __postFxTap);
+
+  // Tap to monitor + capture
+  __postFxTap.connect(__monitorGain);
+  __postFxTap.connect(__captureGain);
+
+  for(let i=0; i<3; i++) {
+    let synth = new Tone.PolySynth(i===1 ? Tone.FMSynth : Tone.Synth, {
+      envelope: { attack: 0.1, decay: 1, sustain: 0.8, release: 5 }
+    }).connect(masterBus);
+    engineData.audio.synths.push(synth);
+
+    const audioEl = new Audio();
+    audioEl.crossOrigin = "anonymous";
+    audioEl.loop = true;
+
+    // MediaElement -> filter -> gate -> masterBus
+    const source = raw.createMediaElementSource(audioEl);
+    const filter = new Tone.Filter(1000, i===2 ? "lowpass" : "highpass");
+    const gate = new Tone.Gain(0);
+
+    Tone.connect(source, filter);
+    filter.connect(gate);
+    gate.connect(masterBus);
+
+    engineData.audio.players.push(audioEl);
+    engineData.audio.filters.push(filter);
+    engineData.audio.gates.push(gate);
+  }
+
+  // Transport loop
+  Tone.Transport.scheduleRepeat((time) => {
+    const s = engineData.currentStep % STEPS;
+    const prevS = (s - 1 + STEPS) % STEPS;
+    const nodeIdx = Math.floor(s / STEP_PER_NODE);
+
+    if (s % (STEPS/4) === 0) Tone.Draw.schedule(() => { engineData.beatPulse = 1.0; }, time);
+
+    for(let i=0; i<3; i++) {
+      const life = engineData.grid[i][s];
+      const wasLife = engineData.grid[i][prevS];
+      const force = engineData.forceField[i][nodeIdx];
+
+      const active = life > 0.35;
+      const wasActive = wasLife > 0.35;
+
+      if (engineData.tracks[i].mode === 'SYNTH') {
+        if (active && !wasActive) {
+          const note = `${AMBIENT_SCALE[Math.floor(force * 5)]}${engineData.tracks[i].octaves[0]}`;
+          engineData.audio.synths[i].triggerAttack(note, time, 0.1 + force * 0.4 + life * 0.3);
+          engineData.synthState.isNoteOn[i] = true;
+          engineData.synthState.lastPlayedNote[i] = note;
+          Tone.Draw.schedule(() => { addRipple(i, s, engineData.tracks[i].color, true); }, time);
+        } else if (!active && wasActive && engineData.synthState.isNoteOn[i]) {
+          engineData.audio.synths[i].triggerRelease(engineData.synthState.lastPlayedNote[i], time);
+          engineData.synthState.isNoteOn[i] = false;
+        }
+      } else {
+        const targetRate = 0.5 + (force * 1.5);
+        if (Math.abs(engineData.audio.players[i].playbackRate - targetRate) > 0.01) {
+          engineData.audio.players[i].playbackRate = targetRate;
+        }
+        engineData.audio.filters[i].frequency.setTargetAtTime(150 + force * 5000, time, 0.1);
+        engineData.audio.gates[i].gain.setTargetAtTime(active ? life : 0, time, 0.05);
+      }
+    }
+
+    if (s % STEP_PER_NODE === 0) runEvolutionHeuristics();
+    engineData.currentStep++;
+  }, "128n");
+
+  postDebug('booted', {
+    audioInited: __audioInited,
+    hasStream: !!__captureDest?.stream,
+    ctx: Tone.getContext().state
+  });
+}
+
+function runEvolutionHeuristics() {
+  const mode = EVO_MODES[currentEvoModeIdx];
+  for(let i=0; i<3; i++) {
+    for(let n=0; n<NODES; n++) {
+      let newVal = engineData.forceField[i][n];
+      const prev = engineData.forceField[i][(n-1+NODES)%NODES], next = engineData.forceField[i][(n+1)%NODES];
+
+      if (mode === 'CULTIVATE') newVal += (prev + next - 2 * newVal) * 0.15 + Math.sin(Tone.now()*0.1 + n)*0.01;
+      else if (mode === 'DRIFT') newVal += (Math.random()-0.5)*0.06;
+      else if (mode === 'ENTANGLE') {
+        const avgLife = engineData.grid[i].slice(n*STEP_PER_NODE, (n+1)*STEP_PER_NODE).reduce((a,b)=>a+b,0) / STEP_PER_NODE;
+        newVal += (avgLife - newVal) * 0.2;
+      } else if (mode === 'FOSSILIZE') newVal += (Math.round(newVal*2)/2 - newVal) * 0.05;
+
+      engineData.forceField[i][n] = Math.max(0.01, Math.min(0.99, newVal));
+
+      const startStep = n * STEP_PER_NODE;
+      for(let j=0; j<STEP_PER_NODE; j++) {
+        const sIdx = startStep + j;
+        const force = engineData.forceField[i][n];
+        let life = engineData.grid[i][sIdx];
+
+        life -= 0.0035;
+        if (force > 0.82) life += 0.035;
+        if (force < 0.18) life -= 0.07;
+        if (force > 0.96 && life <= 0 && Math.random() < 0.008) life = 0.55;
+
+        engineData.grid[i][sIdx] = Math.max(0, Math.min(1, life));
+      }
+    }
+  }
+}
+
+// ---- Canvas visuals ----
+let cx, cy, S, R_RADAR_MIN, R_RADAR_MAX, R_RINGS = [], cw, ch;
+const ripples = [];
+
+function addRipple(trackIdx, stepIdx, color, isBeat = false) {
+  const r = R_RINGS[trackIdx];
+  const ang = (stepIdx / STEPS) * Math.PI * 2 - Math.PI / 2;
+  ripples.push({
+    x: Math.cos(ang) * r, y: Math.sin(ang) * r,
+    r: isBeat ? 8 : 2,
+    maxR: isBeat ? 70*S : 40*S,
+    a: 1, color: color, speed: isBeat ? 3.5*S : 2.5*S
+  });
+}
+
+function addSpark(x, y, color) {
+  ripples.push({
+    x, y, r: 0, maxR: 12*S, a: 0.8, color, speed: 1.5*S,
+    isSpark: true, vx: (Math.random()-0.5)*3, vy: (Math.random()-0.5)*3
+  });
+}
+
+function initCanvasUI() {
+  if (__uiInited) return;
+  __uiInited = true;
+
+  const canvas = document.getElementById('unified-canvas');
+  const ctx = canvas.getContext('2d');
+
+  function resize() {
+    const rect = canvas.parentElement.getBoundingClientRect();
+    cw = canvas.width = rect.width;
+    ch = canvas.height = rect.height;
+    cx = cw/2;
+    cy = ch/2;
+    S = Math.min(cw, ch)/800;
+    R_RADAR_MIN = 35*S;
+    R_RADAR_MAX = 150*S;
+    R_RINGS = [R_RADAR_MAX+60*S, R_RADAR_MAX+115*S, R_RADAR_MAX+170*S];
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  function draw() {
+    ctx.fillStyle = 'rgba(1, 2, 4, 0.4)';
+    ctx.fillRect(0,0,cw,ch);
+    ctx.save();
+    ctx.translate(cx, cy);
+
+    const rot = Tone.now()*0.015;
+    ctx.rotate(rot);
+    const sIdx = engineData.currentStep % STEPS;
+
+    if (engineData.beatPulse > 0) engineData.beatPulse -= 0.04;
+    ctx.beginPath();
+    ctx.arc(0,0, R_RADAR_MIN*0.8, 0, Math.PI*2);
+    ctx.fillStyle = `rgba(20, 184, 166, ${engineData.beatPulse * 0.15})`;
+    ctx.fill();
+
+    ctx.globalCompositeOperation = 'screen';
+    for(let i=0; i<3; i++) {
+      const color = engineData.tracks[i].color;
+      ctx.beginPath();
+      for(let n=0; n<NODES; n++) {
+        const ang = (n/NODES)*Math.PI*2 - Math.PI/2;
+        const r = R_RADAR_MIN + engineData.forceField[i][n]*(R_RADAR_MAX-R_RADAR_MIN);
+        const px = Math.cos(ang)*r, py = Math.sin(ang)*r;
+        if(n===0) ctx.moveTo(px,py); else ctx.lineTo(px,py);
+      }
+      ctx.closePath();
+      ctx.strokeStyle = color + '55';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+      ctx.fillStyle = color + '08';
+      ctx.fill();
+    }
+
+    ctx.globalCompositeOperation = 'source-over';
+    for(let i=0; i<3; i++) {
+      const color = engineData.tracks[i].color, r = R_RINGS[i];
+      const stepArc = (Math.PI * 2) / STEPS, gap = 0.02;
+
+      ctx.beginPath();
+      ctx.arc(0,0,r,0,Math.PI*2);
+      ctx.strokeStyle = 'rgba(255,255,255,0.02)';
+      ctx.stroke();
+
+      for(let s=0; s<STEPS; s++) {
+        const life = engineData.grid[i][s];
+        const isPlayhead = s === sIdx;
+        if (life > 0.05 || isPlayhead) {
+          const angStart = s * stepArc - Math.PI/2 + gap;
+          const angEnd = (s + 1) * stepArc - Math.PI/2 - gap;
+          ctx.beginPath();
+          ctx.arc(0, 0, r, angStart, angEnd);
+          if (life > 0.1) {
+            ctx.strokeStyle = isPlayhead ? '#fff' : hexToRgba(color, 0.2 + life * 0.8);
+            ctx.lineWidth = (isPlayhead ? 10 : 5) * S * (0.4 + life * 0.6);
+            if (isPlayhead && isPlaying) { ctx.shadowBlur = 15; ctx.shadowColor = color; }
+          } else {
+            ctx.strokeStyle = `rgba(255,255,255,0.04)`;
+            ctx.lineWidth = 1.5 * S;
+          }
+          ctx.lineCap = 'round';
+          ctx.stroke();
+          ctx.shadowBlur = 0;
+        }
+      }
+    }
+
+    for(let i=ripples.length-1; i>=0; i--) {
+      let rip = ripples[i];
+      ctx.beginPath();
+      if (rip.isSpark) {
+        rip.x += rip.vx; rip.y += rip.vy;
+        ctx.arc(rip.x, rip.y, 2*S*rip.a, 0, Math.PI*2);
+        ctx.fillStyle = hexToRgba(rip.color, rip.a);
+        ctx.fill();
+      } else {
+        ctx.arc(rip.x, rip.y, rip.r, 0, Math.PI*2);
+        ctx.strokeStyle = hexToRgba(rip.color, rip.a);
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        rip.r += rip.speed;
+      }
+      rip.a -= 0.025;
+      if(rip.a<=0) ripples.splice(i,1);
+    }
+
+    const playA = (sIdx/STEPS)*Math.PI*2 - Math.PI/2;
+    ctx.beginPath();
+    ctx.moveTo(0,0);
+    ctx.lineTo(Math.cos(playA)*(R_RINGS[2]+25*S), Math.sin(playA)*(R_RINGS[2]+25*S));
+    ctx.strokeStyle = 'rgba(255,255,255,0.2)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    ctx.restore();
+    requestAnimationFrame(draw);
+  }
+  requestAnimationFrame(draw);
+
+  let isDragging = false, dragType = null, dragTrack = -1, lastStep = -1;
+
+  function handleInput(e) {
+    const rect = canvas.getBoundingClientRect();
+    const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+    const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+    const dx = clientX - rect.left - cx;
+    const dy = clientY - rect.top - cy;
+    const dist = Math.sqrt(dx*dx + dy*dy);
+    const rot = Tone.now()*0.015;
+    let ang = Math.atan2(dy,dx)-rot+Math.PI/2;
+    if(ang<0) ang+=Math.PI*2;
+    ang%=Math.PI*2;
+    const s = Math.floor((ang/(Math.PI*2))*STEPS);
+
+    if (e.type === 'mousedown' || e.type === 'touchstart') {
+      isDragging = true;
+      ripples.push({x: dx, y: dy, r: 0, a: 1, speed: 3*S, color: '#14b8a6'});
+      haptics.tap();
+      dragType = null;
+
+      for(let i=0; i<3; i++) {
+        if(Math.abs(dist-R_RINGS[i]) < 45*S) {
+          dragType = 'grid'; dragTrack = i; lastStep = s;
+          engineData.grid[i][s] = engineData.grid[i][s] > 0.5 ? 0 : 1.0;
+        }
+      }
+      if(!dragType && dist < R_RADAR_MAX + 30*S) dragType = 'force';
+    } else if (isDragging) {
+      if (dragType === 'grid' && s !== lastStep) {
+        engineData.grid[dragTrack][s] = engineData.grid[dragTrack][lastStep];
+        lastStep = s;
+        haptics.drag();
+      } else if (dragType === 'force') {
+        const nIdx = Math.floor((ang/(Math.PI*2))*NODES);
+        let newVal = (dist - R_RADAR_MIN) / (R_RADAR_MAX - R_RADAR_MIN);
+        for(let i=0; i<3; i++) engineData.forceField[i][nIdx] = Math.max(0, Math.min(1, newVal));
+        if(Math.random()<0.2) { haptics.drag(); addSpark(dx, dy, engineData.tracks[0].color); }
+      }
+    }
+  }
+
+  canvas.addEventListener('mousedown', handleInput);
+  window.addEventListener('mousemove', handleInput);
+  window.addEventListener('mouseup', () => { isDragging = false; dragType = null; });
+
+  canvas.addEventListener('touchstart', e => { e.preventDefault(); handleInput(e); }, {passive:false});
+  window.addEventListener('touchmove', e => { e.preventDefault(); handleInput(e); }, {passive:false});
+  window.addEventListener('touchend', () => { isDragging = false; dragType = null; });
+}
+
+// ---- Crate / UI ----
+function loadCrate(key) {
+  if (!ALBUM_CRATE_DEFS[key]) return;
+  currentCrateKey = key;
+  currentCrateFiles = ALBUM_CRATE_DEFS[key].files.slice();
+  currentFileIdx = 0;
+  updateTrackDisplay();
+  // keep select in sync
+  const sel = document.getElementById('crate-select');
+  if (sel && sel.value !== key) sel.value = key;
+}
+
+function updateTrackDisplay() {
+  const f = currentCrateFiles[currentFileIdx];
+  document.getElementById('track-title').innerText = (f.split(' - ')[1] || f).toUpperCase();
+  document.getElementById('track-meta').innerText = ALBUM_CRATE_DEFS[currentCrateKey].label;
+}
+
+window.loadToRing = function(idx) {
+  haptics.heavy();
+  if (!__audioInited) initAudioEngine();
+
+  if (currentSourceMode === 'MP3') {
+    const player = engineData.audio.players[idx];
+    player.src = ALBUM_CRATE_DEFS[currentCrateKey].basePath + currentCrateFiles[currentFileIdx];
+    player.play().catch(()=>{});
+    engineData.tracks[idx].mode = 'MP3';
+    engineData.grid[idx].fill(1.0);
+  } else {
+    engineData.tracks[idx].mode = 'SYNTH';
+    engineData.audio.players[idx].pause();
+    engineData.grid[idx].fill(0);
+  }
+  showToast(`${engineData.tracks[idx].mode} MODE ENGAGED`);
+  postDebug('mode', { ring: idx, mode: engineData.tracks[idx].mode, crate: currentCrateKey });
+};
+
+function setPlayUi(on){
+  const btn = document.getElementById('btn-play');
+  if (!btn) return;
+  btn.innerText = on ? "⏸ BREATHE" : "▶ LISTEN";
+  btn.classList.toggle('active', !!on);
+}
+function setBpmUi(bpm){
+  const n = Math.max(30, Math.min(150, Math.round(Number(bpm) || 60)));
+  globalBpm = n;
+  const s = document.getElementById('bpm-slider');
+  const v = document.getElementById('bpm-val');
+  if (s) s.value = String(n);
+  if (v) v.innerText = String(n);
+  safeCall(()=>{ Tone.Transport.bpm.value = n; }, null);
+}
+
+// ---- Boot / init ----
+async function awakenSystem({ auto=false } = {}){
+  // initialize visuals + audio graph (creating nodes is fine pre-start)
+  initCanvasUI();
+  initAudioEngine();
+  loadCrate(currentCrateKey);
+  setBpmUi(globalBpm);
+
+  // Tone.start() must happen under user-activation. In harness: call resume from parent click.
+  try{
+    await Tone.start();
+    postDebug('resume-direct', { ctx: Tone.getContext().state, auto });
+  }catch(e){
+    postDebug('resume-direct-fail', { err: String(e?.message || e), auto });
+  }
+
+  __booted = true;
+
+  // If we are in EMBED mode: hide boot screen immediately; otherwise fade it.
+  const boot = document.getElementById('boot-screen');
+  if (boot && boot.style.display !== 'none'){
+    boot.style.opacity = 0;
+    setTimeout(() => { boot.style.display = 'none'; }, 800);
+  }
+  showToast("GARDEN AWAKENED");
+}
+
+// ---- UI events (standalone or embed) ----
+document.getElementById('crate-select').addEventListener('change', e => { loadCrate(e.target.value); haptics.click(); });
+document.getElementById('btn-prev').addEventListener('click', () => { currentFileIdx = (currentFileIdx-1+currentCrateFiles.length)%currentCrateFiles.length; updateTrackDisplay(); haptics.click(); });
+document.getElementById('btn-next').addEventListener('click', () => { currentFileIdx = (currentFileIdx+1)%currentCrateFiles.length; updateTrackDisplay(); haptics.click(); });
+
+document.getElementById('btn-mode-cycle').addEventListener('click', e => {
+  currentSourceMode = currentSourceMode==='SYNTH'?'MP3':'SYNTH';
+  e.target.innerText = "SOURCE: " + currentSourceMode;
+  haptics.click();
+  e.target.classList.toggle('active', currentSourceMode === 'MP3');
+});
+
+document.getElementById('btn-boot').addEventListener('click', async () => {
+  haptics.heavy();
+  await awakenSystem({ auto:false });
+});
+
+document.getElementById('btn-play').addEventListener('click', async (e) => {
+  haptics.click();
+  if (!__booted) await awakenSystem({ auto:false });
+
+  isPlaying = !isPlaying;
+  if (isPlaying) Tone.Transport.start();
+  else Tone.Transport.pause();
+
+  setPlayUi(isPlaying);
+  postDebug('play', { isPlaying });
+});
+
+document.getElementById('btn-evo').addEventListener('click', e => {
+  haptics.click();
+  currentEvoModeIdx = (currentEvoModeIdx + 1) % EVO_MODES.length;
+  e.target.innerText = "CLIMATE: " + EVO_MODES[currentEvoModeIdx];
+});
+
+document.getElementById('btn-clear').addEventListener('click', () => {
+  haptics.heavy();
+  engineData.grid.forEach(r => r.fill(0));
+});
+
+document.getElementById('bpm-slider').addEventListener('input', e => {
+  setBpmUi(e.target.value);
+});
+
+// ---- Harness bridge: expose functions + message protocol ----
+function __getStream(){
+  if (!__audioInited) initAudioEngine();
+  return __captureDest?.stream || null;
+}
+function __setMonitor(on){
+  if (!__audioInited) initAudioEngine();
+  try{
+    const v = on ? 1 : 0;
+    __monitorGain.gain.rampTo(v, 0.03);
+    postDebug('set-monitor', { on: !!on });
+  }catch(e){}
+}
+async function __resumeAudio(){
+  if (!__booted) await awakenSystem({ auto:true });
+
+  try{
+    await Tone.start();
+    await Tone.getContext().resume();
+  }catch(e){
+    postDebug('resume-audio-fail', { err: String(e?.message || e) });
+  }
+
+  // Resume means: ensure transport is running (parent expects sound)
+  if (!isPlaying){
+    isPlaying = true;
+    try{ Tone.Transport.start(); }catch{}
+    setPlayUi(true);
+  }
+
+  // If any rings are in MP3 mode and have a src, keep them playing
+  try{
+    engineData.audio.players.forEach((p,i)=>{
+      if (engineData.tracks[i].mode === 'MP3' && p?.src) p.play().catch(()=>{});
+    });
+  }catch{}
+
+  postDebug('resume-audio', { isPlaying, ctx: Tone.getContext().state });
+  return __getAudioState();
+}
+async function __suspendAudio(){
+  try{
+    Tone.Transport.pause();
+  }catch{}
+  isPlaying = false;
+  setPlayUi(false);
+
+  try{ engineData.audio.players.forEach(p=> p.pause()); }catch{}
+  postDebug('suspend-audio', { isPlaying:false });
+  return __getAudioState();
+}
+function __setBpm(bpm){
+  const n = Math.max(30, Math.min(150, Math.round(Number(bpm) || 60)));
+  setBpmUi(n);
+  postDebug('set-bpm-direct', { bpm: n });
+  return { bpm: n };
+}
+function __getBpm(){
+  return Number(globalBpm) || 60;
+}
+function __getAudioState(){
+  return {
+    booted: __booted,
+    embed: EMBED,
+    isPlaying,
+    bpm: __getBpm(),
+    ctxState: safeCall(()=>Tone.getContext().state, 'unknown'),
+    hasStream: !!(__captureDest && __captureDest.stream),
+    monitor: safeCall(()=>__monitorGain?.gain?.value, 1)
+  };
+}
+function __postStreamToParent(id){
+  const stream = __getStream();
+  if (!stream) {
+    postDebug('stream-post-fail', { id, reason:'no-stream' });
+    return false;
+  }
+  try{
+    if (window.parent && window.parent !== window){
+      window.parent.postMessage({ type:'audio-stream', id, stream }, '*');
+      postDebug('stream-post', { id, tracks: stream.getTracks().map(t=>t.kind) });
+      return true;
+    }
+  }catch(e){
+    postDebug('stream-post-fail', { id, err: String(e?.message || e) });
+  }
+  return false;
+}
+
+// Direct-hook API (Mandalla + generic)
+window.__mandallaGetAudioStream = __getStream;
+window.__deckGetAudioStream    = __getStream;
+
+window.__mandallaSetMonitor = __setMonitor;
+window.__deckSetMonitor    = __setMonitor;
+
+window.__mandallaResumeAudio = __resumeAudio;
+window.__deckResumeAudio     = __resumeAudio;
+
+window.__mandallaSuspendAudio = __suspendAudio;
+window.__deckSuspendAudio     = __suspendAudio;
+
+window.__mandallaSetBpm = __setBpm;
+window.__deckSetBpm     = __setBpm;
+
+window.__mandallaGetBpm = __getBpm;
+window.__deckGetBpm     = __getBpm;
+
+window.__mandallaGetAudioState = __getAudioState;
+window.__deckGetAudioState     = __getAudioState;
+
+// Message protocol for parent harness
+window.addEventListener('message', async (e)=>{
+  const msg = e.data || {};
+  if (!msg || typeof msg !== 'object') return;
+
+  if (msg.type === 'request-audio-stream'){
+    // parent passes iframe.id as msg.id
+    const ok = __postStreamToParent(msg.id || null);
+    if (!ok) postDebug('stream-post-fail', { id: msg.id || null, reason:'post failed' });
+  }
+
+  if (msg.type === 'set-monitor'){
+    __setMonitor(!!msg.on);
+  }
+
+  if (msg.type === 'set-bpm'){
+    __setBpm(msg.bpm);
+    // optional: notify parent so it can sync UI
+    postDebug('set-bpm', { bpm: __getBpm() });
+  }
+
+  if (msg.type === 'resume-audio'){
+    await __resumeAudio();
+  }
+
+  if (msg.type === 'suspend-audio'){
+    await __suspendAudio();
+  }
+});
+
+// ---- Embed-mode boot behavior ----
+// In embed=1 we skip the big boot gate visually, but still require user activation.
+// The parent harness (same-origin) can call __mandallaResumeAudio() on a click.
+(function embedBoot(){
+  if (!EMBED) return;
+
+  // Hide boot screen immediately (no extra tap inside iframe)
+  const boot = document.getElementById('boot-screen');
+  if (boot) { boot.style.display = 'none'; boot.style.opacity = 0; }
+
+  // Pre-init visuals + graph (silent until resume)
+  initCanvasUI();
+  initAudioEngine();
+  loadCrate(currentCrateKey);
+
+  // set UI values
+  document.getElementById('crate-select').value = currentCrateKey;
+  setBpmUi(Number(QP.get('bpm') || globalBpm));
+
+  // If parent wants the stream before resume, it can still request it.
+  postDebug('embed-ready', { crate: currentCrateKey, bpm: __getBpm(), hasStream: !!__captureDest?.stream });
+})();
+</script>
+</body>
+</html>
