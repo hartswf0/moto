@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>MANDALLA: ULTIMATE ENGINE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Share+Tech+Mono&family=Montserrat:wght@200;300;400&display=swap');
+
+        :root {
+            --bg: #030406;
+            --panel: #080a0f;
+            --ink: #e0e6ed;
+            --amber: #f5b041;
+            --teal: #14b8a6;
+            --lavender: #a855f7;
+            --dockH: 64px;
+            --stripH: 48px;
+        }
+
+        * {
+            box-sizing: border-box;
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            width: 100%; height: 100%;
+            background-color: var(--bg);
+            color: var(--ink);
+            font-family: 'Share Tech Mono', monospace;
+            overflow: hidden;
+            touch-action: none;
+        }
+
+        /* --- BOOT SCREEN --- */
+        #boot-screen {
+            position: absolute; inset: 0;
+            background: radial-gradient(circle at center, #0f131a 0%, #000 100%);
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            z-index: 9999;
+            transition: opacity 1.5s ease-out;
+        }
+        .title-serif {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 1.4rem;
+            color: #8892b0;
+            letter-spacing: 4px;
+            margin-bottom: 15px;
+        }
+        .btn-init {
+            padding: 15px 50px;
+            border: 1px solid rgba(20, 184, 166, 0.4);
+            color: var(--teal);
+            background: rgba(20, 184, 166, 0.05);
+            font-family: 'Montserrat', sans-serif; 
+            font-weight: 300;
+            font-size: 1rem; letter-spacing: 6px;
+            cursor: pointer; transition: all 0.5s ease;
+            text-transform: uppercase;
+            border-radius: 100px;
+            box-shadow: 0 0 20px rgba(20, 184, 166, 0.1);
+        }
+        .btn-init:hover { 
+            background: rgba(20, 184, 166, 0.15); 
+            box-shadow: 0 0 40px rgba(20, 184, 166, 0.3); 
+            border-color: var(--teal);
+            color: #fff;
+        }
+
+        /* --- TOP STRIP (CRATE SYSTEM) --- */
+        .loom-strip {
+            position: fixed; top: max(0px, env(safe-area-inset-top)); left: 0; right: 0;
+            height: var(--stripH); z-index: 100;
+            display: flex; align-items: stretch;
+            background: linear-gradient(180deg, rgba(5,6,8,0.95), rgba(8,10,15,0.9));
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+        }
+        .strip-sec {
+            display: flex; align-items: center;
+            border-right: 1px solid rgba(255,255,255,0.05);
+            padding: 0 10px; gap: 8px;
+        }
+        .strip-sec:last-child { border-right: none; flex: 1; }
+        
+        .mode-toggle {
+            background: transparent; border: 1px solid #333; color: #888;
+            font-size: 10px; padding: 4px 8px; border-radius: 4px; cursor: pointer;
+            transition: 0.2s; font-family: 'Montserrat', sans-serif; font-weight: 400;
+        }
+        .mode-toggle:hover { border-color: var(--teal); color: var(--teal); }
+        
+        .crate-select {
+            background: rgba(0,0,0,0.5); color: #fff; border: 1px solid #333;
+            font-size: 11px; padding: 4px 8px; border-radius: 4px; outline: none;
+            font-family: inherit; letter-spacing: 1px; text-transform: uppercase;
+        }
+        
+        .track-nav {
+            background: none; border: none; color: var(--teal); font-size: 16px;
+            cursor: pointer; padding: 0 5px;
+        }
+        
+        .track-info {
+            display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+            min-width: 150px; flex: 1; overflow: hidden;
+        }
+        .track-title { font-size: 11px; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; font-weight: bold;}
+        .track-meta { font-size: 9px; color: #888; letter-spacing: 1px; }
+
+        .load-btn {
+            background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1);
+            font-size: 10px; font-weight: bold; padding: 6px 12px; cursor: pointer;
+            border-radius: 4px; transition: 0.2s;
+        }
+        .load-btn.hi { color: var(--amber); border-color: rgba(245, 176, 65, 0.3); }
+        .load-btn.hi:hover { background: rgba(245, 176, 65, 0.1); }
+        .load-btn.mid { color: var(--teal); border-color: rgba(20, 184, 166, 0.3); }
+        .load-btn.mid:hover { background: rgba(20, 184, 166, 0.1); }
+        .load-btn.lo { color: var(--lavender); border-color: rgba(168, 85, 247, 0.3); }
+        .load-btn.lo:hover { background: rgba(168, 85, 247, 0.1); }
+
+        /* --- MAIN LAYOUT --- */
+        #app-container {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at 50% 50%, #0a0d14 0%, var(--bg) 80%);
+            padding-top: var(--stripH);
+            padding-bottom: var(--dockH);
+        }
+
+        #unified-canvas {
+            width: 100%; height: 100%; display: block;
+            filter: drop-shadow(0 0 15px rgba(20, 184, 166, 0.05));
+        }
+
+        /* --- BOTTOM DOCK --- */
+        .workhorse-dock {
+            position: fixed; bottom: 0; left: 0; right: 0; height: var(--dockH);
+            background: linear-gradient(180deg, rgba(8,10,15,0.9), rgba(3,4,6,0.95));
+            border-top: 1px solid rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 20px; z-index: 100;
+        }
+
+        .dock-group { display: flex; align-items: center; gap: 10px; }
+        
+        .dock-btn {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.1); color: #a0aec0;
+            border-radius: 4px; padding: 0 16px; height: 36px;
+            font-family: 'Montserrat', sans-serif; font-size: 11px; font-weight: 400; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: all 0.3s ease; letter-spacing: 2px;
+        }
+        .dock-btn:hover { border-color: rgba(255,255,255,0.3); color: #fff; background: rgba(255,255,255,0.05); }
+        .dock-btn.active { border-color: var(--teal); color: var(--teal); background: rgba(20, 184, 166, 0.1); }
+        
+        .dock-btn.evo-btn { border-color: rgba(168, 85, 247, 0.3); color: #d8b4fe; }
+        .dock-btn.evo-btn:hover { border-color: var(--lavender); background: rgba(168, 85, 247, 0.1); }
+
+        .slider-wrap {
+            display: flex; align-items: center; gap: 8px;
+            padding: 0 10px; height: 36px;
+            border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);
+        }
+        .slider-wrap span { font-size: 10px; color: #64748b; letter-spacing: 1px; }
+        .slider-wrap input[type=range] { width: 80px; accent-color: var(--teal); }
+
+        /* Scanlines */
+        .scanline {
+            position: absolute; inset: 0; pointer-events: none; z-index: 90;
+            background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+            background-size: 100% 4px;
+        }
+        
+        .toast {
+            position: fixed; top: 15%; left: 50%; transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.8); border: 1px solid var(--teal);
+            backdrop-filter: blur(8px); border-radius: 4px;
+            color: #fff; padding: 10px 20px; font-size: 11px; letter-spacing: 4px;
+            z-index: 1000; opacity: 0; pointer-events: none; transition: opacity 0.4s ease;
+            text-transform: uppercase; font-weight: bold;
+        }
+        .toast.show { opacity: 1; }
+
+        @media (max-width: 800px) {
+            .loom-strip { flex-wrap: wrap; height: auto; }
+            .strip-sec { width: 100%; border-right: none; border-bottom: 1px solid #222; padding: 5px 10px; }
+            .track-info { min-width: 0; }
+            #app-container { padding-top: 80px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Boot Screen -->
+    <div id="boot-screen">
+        <div style="text-align:center; margin-bottom: 40px;">
+            <div class="title-serif">"Geometry dictates sound."</div>
+            <div style="font-size:12px; letter-spacing:8px; color:rgba(255,255,255,0.6); font-weight: 300;">ULTIMATE GENERATIVE DECK</div>
+        </div>
+        <button class="btn-init" id="btn-boot">ENGAGE AUDIO ENGINE</button>
+    </div>
+
+    <div class="toast" id="toast">SYSTEM READY</div>
+
+    <!-- TOP CRATE STRIP -->
+    <div class="loom-strip" id="top-strip">
+        <div class="strip-sec">
+            <button class="mode-toggle" id="btn-mode-cycle">MODE: SYNTH</button>
+            <select class="crate-select" id="crate-select">
+                <option value="loom">BREATH-THIEFS LOOM</option>
+                <option value="elephant">STOCHASTIC ELEPHANT</option>
+                <option value="moto">MOTO</option>
+                <option value="volholla">VOLHOLLA</option>
+            </select>
+        </div>
+        <div class="strip-sec" style="flex:1;">
+            <button class="track-nav" id="btn-prev">◀</button>
+            <div class="track-info">
+                <div class="track-title" id="track-title">SELECT A CRATE</div>
+                <div class="track-meta" id="track-meta">0 BPM • READY</div>
+            </div>
+            <button class="track-nav" id="btn-next">▶</button>
+        </div>
+        <div class="strip-sec" style="justify-content: flex-end;">
+            <span style="font-size: 9px; color:#666; margin-right: 4px;">LOAD TO:</span>
+            <button class="load-btn hi" onclick="loadToRing(0)">HI</button>
+            <button class="load-btn mid" onclick="loadToRing(1)">MID</button>
+            <button class="load-btn lo" onclick="loadToRing(2)">LO</button>
+        </div>
+    </div>
+
+    <div class="scanline"></div>
+
+    <!-- Main Container -->
+    <div id="app-container">
+        <canvas id="unified-canvas"></canvas>
+    </div>
+
+    <!-- Bottom Dock -->
+    <div class="workhorse-dock">
+        <div class="dock-group">
+            <button class="dock-btn" id="btn-play">▶ PLAY</button>
+            <div class="slider-wrap">
+                <span>BPM</span>
+                <input type="range" id="bpm-slider" min="30" max="150" value="60">
+                <span id="bpm-val" style="color:var(--teal); min-width: 20px;">60</span>
+            </div>
+        </div>
+
+        <div class="dock-group">
+            <button class="dock-btn evo-btn" id="btn-evo">EVO: CULTIVATE</button>
+            <button class="dock-btn" id="btn-clear">↺ CLEAR ARCS</button>
+        </div>
+    </div>
+
+<script>
+/**
+ * ULTIMATE GENERATIVE DECK
+ * - MP3s & Synths coexist.
+ * - Draw arcs on rings to Gate MP3 volume OR Trigger Synths.
+ * - Inner Force Field organically evolves to modulate MP3 Filters or Synth Timbres.
+ */
+
+// --- DATA ---
+const ALBUM_CRATE_DEFS = {
+    volholla: {
+        label: 'VOLHOLLA', basePath: 'VOLHOLLA/',
+        files: ["coolradio - Volholla Arrival - Sonauto.mp3", "coolradio - The Long Way Back - Sonauto.mp3", "coolradio - Firelight Horizon - Sonauto.mp3"]
+    },
+    elephant: {
+        label: 'STOCHASTIC ELEPHANT', basePath: 'THE STOCHASTIC ELEPHANT/',
+        files: ["01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3", "02_coolradio - Prompt Cognition Loop - Sonauto.mp3", "03_coolradio - Laundering Pain - Sonauto.mp3"]
+    },
+    loom: {
+        label: 'BREATH-THIEFS LOOM', basePath: 'THE BREATH-THIEFS LOOM/',
+        files: ["coolradio - Ancestral Code - Sonauto.mp3", "coolradio - Currency of Breath - Sonauto.mp3", "coolradio - Mutated Grid Ancestry - Sonauto.mp3"]
+    },
+    moto: {
+        label: 'MOTO', basePath: 'MOTO/',
+        files: ["coolradio - Bati Warehouse Drone - Sonauto.mp3", "coolradio - Sub Gravity Pulse - Sonauto.mp3", "coolradio - Symmetry Break - Sonauto.mp3"]
+    }
+};
+
+let currentCrateKey = 'loom';
+let currentCrateFiles = [];
+let currentFileIdx = 0;
+let currentSourceMode = 'SYNTH'; // 'SYNTH' or 'MP3'
+
+let isPlaying = false;
+let globalBpm = 60; 
+
+const STEPS = 128; // High-res orbital rings
+const NODES = 32;  // Weather force field nodes
+const STEP_PER_NODE = STEPS / NODES; 
+const PENTATONIC_SCALE = ['Db', 'Eb', 'F', 'Ab', 'C'];
+const EVO_MODES = ['CULTIVATE', 'ENTANGLE', 'DRIFT', 'FOSSILIZE'];
+let currentEvoModeIdx = 0;
+
+function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.innerText = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2000);
+}
+
+function hexToRgba(hex, alpha) {
+    const r = parseInt(hex.slice(1, 3), 16);
+    const g = parseInt(hex.slice(3, 5), 16);
+    const b = parseInt(hex.slice(5, 7), 16);
+    return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+}
+
+// --- ENGINE STATE ---
+const engineData = {
+    currentStep: 0,
+    tracks: [
+        { id: 0, color: '#f5b041', name: 'HIGH', mode: 'SYNTH', octaves: [4, 5] },
+        { id: 1, color: '#14b8a6', name: 'MID', mode: 'SYNTH', octaves: [3, 4] },
+        { id: 2, color: '#a855f7', name: 'LOW', mode: 'SYNTH', octaves: [1, 2] }
+    ],
+    grid: [
+        new Array(STEPS).fill(false),
+        new Array(STEPS).fill(false),
+        new Array(STEPS).fill(false)
+    ],
+    forceField: [
+        new Array(NODES).fill(0.3),
+        new Array(NODES).fill(0.3),
+        new Array(NODES).fill(0.3)
+    ],
+    audio: {
+        synths: [],
+        players: [],     // HTML Audio Elements
+        playerNodes: [], // MediaElementAudioSourceNodes
+        gates: [],       // Tone.Gain (for gating MP3s via the rings)
+        filters: []      // Tone.Filter (modulated by force field)
+    },
+    synthState: {
+        isNoteOn: [false, false, false],
+        lastPlayedNote: [null, null, null]
+    }
+};
+
+function getNoteFromForce(trackIdx, value) {
+    const track = engineData.tracks[trackIdx];
+    const totalNotes = PENTATONIC_SCALE.length * track.octaves.length;
+    const noteIndex = Math.min(totalNotes - 1, Math.floor(value * totalNotes));
+    const scaleNote = PENTATONIC_SCALE[noteIndex % PENTATONIC_SCALE.length];
+    const octave = track.octaves[Math.floor(noteIndex / PENTATONIC_SCALE.length)];
+    return `${scaleNote}${octave}`;
+}
+
+// --- AUDIO INITIALIZATION ---
+function initAudioEngine() {
+    const reverb = new Tone.Reverb({ decay: 6, wet: 0.4 });
+    const delay = new Tone.PingPongDelay("8n.", 0.2);
+    const masterCompressor = new Tone.Compressor(-16, 4);
+    
+    const masterBus = new Tone.Volume(-2);
+    masterBus.chain(delay, reverb, masterCompressor, Tone.Destination);
+
+    // Setup Audio Chains for all 3 Rings
+    for(let i=0; i<3; i++) {
+        // 1. Synthesizers (Fast attack, lush release for immediate feedback)
+        let synth;
+        if(i===0) synth = new Tone.PolySynth(Tone.Synth, { oscillator: {type: 'triangle'}, envelope: {attack: 0.05, decay: 0.5, sustain: 0.8, release: 2.0} });
+        if(i===1) synth = new Tone.PolySynth(Tone.FMSynth, { harmonicity: 2, modulationIndex: 5, envelope: {attack: 0.1, decay: 0.8, sustain: 0.8, release: 3.0} });
+        if(i===2) synth = new Tone.PolySynth(Tone.AMSynth, { harmonicity: 0.5, envelope: {attack: 0.1, decay: 1.0, sustain: 0.8, release: 4.0} });
+        
+        synth.connect(masterBus);
+        engineData.audio.synths.push(synth);
+
+        // 2. MP3 Player Pipeline
+        const audioEl = new Audio();
+        audioEl.crossOrigin = "anonymous";
+        audioEl.loop = true;
+        const sourceNode = Tone.getContext().rawContext.createMediaElementSource(audioEl);
+        
+        // Force Field Filter
+        const filter = new Tone.Filter({ type: i===2 ? "lowpass" : (i===1 ? "bandpass" : "highpass"), Q: 1.5 });
+        
+        // Arc Gate
+        const gate = new Tone.Gain(0); // Starts muted
+
+        Tone.connect(sourceNode, filter);
+        filter.connect(gate);
+        gate.connect(masterBus);
+
+        engineData.audio.players.push(audioEl);
+        engineData.audio.playerNodes.push(sourceNode);
+        engineData.audio.filters.push(filter);
+        engineData.audio.gates.push(gate);
+
+        // Seed geometry
+        for(let n=0; n<NODES; n++) engineData.forceField[i][n] = 0.3 + (Math.sin(n * 0.5) * 0.2);
+    }
+
+    // Default Arcs
+    for(let s=0; s<32; s++) engineData.grid[1][s] = true;
+
+    // Transport Loop
+    Tone.Transport.scheduleRepeat((time) => {
+        const s = engineData.currentStep % STEPS;
+        const prevS = (s - 1 + STEPS) % STEPS;
+        const nodeIdx = Math.floor(s / STEP_PER_NODE); 
+        
+        for(let i=0; i<3; i++) {
+            const isArcActive = engineData.grid[i][s];
+            const wasArcActive = engineData.grid[i][prevS];
+            const force = engineData.forceField[i][nodeIdx];
+            const mode = engineData.tracks[i].mode;
+
+            if (mode === 'SYNTH') {
+                // Timbre shift
+                if(i===0) engineData.audio.synths[i].set({ oscillator: { type: force > 0.5 ? 'sawtooth' : 'triangle' }});
+                if(i===1) engineData.audio.synths[i].set({ modulationIndex: force * 15 });
+                if(i===2) engineData.audio.synths[i].set({ harmonicity: force * 2 });
+
+                if (isArcActive && !wasArcActive) {
+                    const note = getNoteFromForce(i, force);
+                    const velocity = 0.3 + (force * 0.5);
+                    engineData.audio.synths[i].triggerAttack(note, time, velocity);
+                    engineData.synthState.isNoteOn[i] = true;
+                    engineData.synthState.lastPlayedNote[i] = note;
+                } else if (!isArcActive && wasArcActive) {
+                    if (engineData.synthState.isNoteOn[i]) {
+                        engineData.audio.synths[i].triggerRelease(engineData.synthState.lastPlayedNote[i], time);
+                        engineData.synthState.isNoteOn[i] = false;
+                    }
+                }
+            } 
+            else if (mode === 'MP3') {
+                // Force Field dictates Filter Cutoff
+                const minF = i===2 ? 50 : 200;
+                const maxF = i===2 ? 800 : 5000;
+                engineData.audio.filters[i].frequency.setTargetAtTime(minF + (force * maxF), time, 0.1);
+
+                // Arc dictates Gating (Volume)
+                if (isArcActive && !wasArcActive) {
+                    engineData.audio.gates[i].gain.setTargetAtTime(1, time, 0.05); // Smooth un-mute
+                } else if (!isArcActive && wasArcActive) {
+                    engineData.audio.gates[i].gain.setTargetAtTime(0, time, 0.05); // Smooth mute
+                }
+            }
+        }
+
+        if (s % STEP_PER_NODE === 0) runEvolutionHeuristics();
+
+        engineData.currentStep++;
+    }, "128n");
+}
+
+function runEvolutionHeuristics() {
+    const mode = EVO_MODES[currentEvoModeIdx];
+    
+    for(let i=0; i<3; i++) {
+        const nextField = [...engineData.forceField[i]];
+        
+        for(let n=0; n<NODES; n++) {
+            const current = engineData.forceField[i][n];
+            const prev = engineData.forceField[i][(n - 1 + NODES) % NODES];
+            const next = engineData.forceField[i][(n + 1) % NODES];
+            
+            let newVal = current;
+
+            if (mode === 'CULTIVATE') {
+                newVal += (prev + next - 2 * current) * 0.1;
+                newVal += Math.sin(Tone.now() * 0.1 + n) * 0.01;
+            } 
+            else if (mode === 'ENTANGLE') {
+                let density = 0;
+                for(let step = n * STEP_PER_NODE; step < (n+1) * STEP_PER_NODE; step++) {
+                    if (engineData.grid[i][step]) density++;
+                }
+                const ratio = density / STEP_PER_NODE;
+                if (ratio > 0.5) newVal += 0.01;
+                else if (ratio < 0.2) newVal -= 0.005;
+                newVal += (prev + next - 2 * current) * 0.05;
+            }
+            else if (mode === 'DRIFT') {
+                newVal += (Math.random() - 0.5) * 0.08;
+                if (Math.random() < 0.01) newVal = Math.random(); 
+            }
+            else if (mode === 'FOSSILIZE') {
+                const target = Math.round(current * 3) / 3;
+                newVal += (target - current) * 0.02;
+            }
+
+            nextField[n] = Math.max(0.05, Math.min(0.95, newVal));
+
+            // System acting back on the user's sequences very subtly
+            if (nextField[n] > 0.95 && Math.random() < 0.01) {
+                const rStep = n * STEP_PER_NODE + Math.floor(Math.random() * STEP_PER_NODE);
+                engineData.grid[i][rStep] = true;
+            } else if (nextField[n] < 0.05 && Math.random() < 0.02) {
+                const rStep = n * STEP_PER_NODE + Math.floor(Math.random() * STEP_PER_NODE);
+                engineData.grid[i][rStep] = false;
+            }
+        }
+        engineData.forceField[i] = nextField;
+    }
+}
+
+// --- CRATE & LOAD SYSTEM ---
+function loadCrate(key) {
+    currentCrateKey = key;
+    currentCrateFiles = ALBUM_CRATE_DEFS[key].files;
+    currentFileIdx = 0;
+    updateTrackDisplay();
+}
+
+function updateTrackDisplay() {
+    const file = currentCrateFiles[currentFileIdx];
+    let title = file.replace(/^.*\//, '').replace(/\.mp3$/i, '').replace(/^\d+_/, '').replace(/^coolradio\s*-\s*/i, '').replace(/\s*-\s*Sonauto$/i, '').trim();
+    document.getElementById('track-title').innerText = title;
+    document.getElementById('track-meta').innerText = `${ALBUM_CRATE_DEFS[currentCrateKey].label} | [${currentFileIdx+1}/${currentCrateFiles.length}]`;
+}
+
+function cycleTrack(dir) {
+    currentFileIdx = (currentFileIdx + dir + currentCrateFiles.length) % currentCrateFiles.length;
+    updateTrackDisplay();
+}
+
+window.loadToRing = function(ringIdx) {
+    if(!engineData.audio.players[ringIdx]) {
+        showToast("BOOT ENGINE FIRST");
+        return;
+    }
+    
+    if (currentSourceMode === 'MP3') {
+        const fileObj = currentCrateFiles[currentFileIdx];
+        const fullUrl = ALBUM_CRATE_DEFS[currentCrateKey].basePath + fileObj;
+        
+        const player = engineData.audio.players[ringIdx];
+        player.src = fullUrl;
+        player.play().catch(e => showToast("AUDIO LOAD ERROR"));
+        
+        engineData.tracks[ringIdx].mode = 'MP3';
+        
+        // Auto-fill the ring so the user immediately hears the track
+        engineData.grid[ringIdx].fill(true);
+        
+        // Silence any lingering synth notes
+        if(engineData.synthState.isNoteOn[ringIdx]){
+            engineData.audio.synths[ringIdx].releaseAll();
+            engineData.synthState.isNoteOn[ringIdx] = false;
+        }
+
+        showToast(`${engineData.tracks[ringIdx].name} RING: LOADED MP3`);
+    } else {
+        engineData.tracks[ringIdx].mode = 'SYNTH';
+        engineData.audio.players[ringIdx].pause();
+        
+        // Clear ring to let user paint synth notes
+        engineData.grid[ringIdx].fill(false);
+        engineData.audio.gates[ringIdx].gain.value = 0;
+
+        showToast(`${engineData.tracks[ringIdx].name} RING: SYNTH MODE`);
+    }
+}
+
+document.getElementById('crate-select').addEventListener('change', e => loadCrate(e.target.value));
+document.getElementById('btn-prev').addEventListener('click', () => cycleTrack(-1));
+document.getElementById('btn-next').addEventListener('click', () => cycleTrack(1));
+
+document.getElementById('btn-mode-cycle').addEventListener('click', (e) => {
+    currentSourceMode = currentSourceMode === 'SYNTH' ? 'MP3' : 'SYNTH';
+    e.target.innerText = `SOURCE: ${currentSourceMode}`;
+    e.target.style.color = currentSourceMode === 'MP3' ? 'var(--amber)' : '#888';
+    e.target.style.borderColor = currentSourceMode === 'MP3' ? 'var(--amber)' : '#333';
+});
+
+// --- CANVAS VISUAL ENGINE ---
+function initCanvasUI() {
+    const canvas = document.getElementById('unified-canvas');
+    const ctx = canvas.getContext('2d');
+    let cw, ch, cx, cy, S;
+    let R_RADAR_MIN, R_RADAR_MAX, R_RINGS = [];
+
+    function resize() {
+        const rect = canvas.parentElement.getBoundingClientRect();
+        cw = canvas.width = rect.width; ch = canvas.height = rect.height;
+        cx = cw / 2; cy = ch / 2;
+        S = Math.min(cw, ch) / 800;
+        
+        R_RADAR_MIN = 30 * S; R_RADAR_MAX = 150 * S;
+        R_RINGS = [ R_RADAR_MAX + 60 * S, R_RADAR_MAX + 110 * S, R_RADAR_MAX + 160 * S ];
+    }
+    window.addEventListener('resize', resize); resize();
+
+    let dragState = { active: false, type: null, track: -1, paintVal: true, lastStep: -1 };
+
+    function draw() {
+        ctx.fillStyle = 'rgba(3, 4, 6, 0.4)'; // Motion blur trail
+        ctx.fillRect(0, 0, cw, ch);
+        
+        ctx.save(); ctx.translate(cx, cy);
+
+        const globalRotation = (Tone.now() * 0.05) % (Math.PI * 2);
+        ctx.rotate(globalRotation);
+
+        const sIdx = engineData.currentStep % STEPS;
+        const playheadAng = ((sIdx / STEPS) * Math.PI * 2 - Math.PI / 2);
+        
+        // 1. Inner Force Field (Weather)
+        ctx.globalCompositeOperation = 'screen';
+        for (let i = 0; i < 3; i++) {
+            const colorHex = engineData.tracks[i].color;
+            ctx.beginPath();
+            for(let n=0; n<NODES; n++) {
+                const ang = (n / NODES) * Math.PI * 2 - Math.PI / 2;
+                const fVal = engineData.forceField[i][n];
+                const rad = R_RADAR_MIN + (fVal * (R_RADAR_MAX - R_RADAR_MIN));
+                const wiggle = Math.sin(Tone.now() * 2 + n) * 3 * S;
+                const px = Math.cos(ang) * (rad + wiggle);
+                const py = Math.sin(ang) * (rad + wiggle);
+                if (n === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
+            }
+            ctx.closePath();
+            ctx.fillStyle = hexToRgba(colorHex, 0.05); ctx.fill();
+            ctx.lineWidth = 1; ctx.strokeStyle = hexToRgba(colorHex, 0.4); ctx.stroke();
+        }
+        ctx.globalCompositeOperation = 'source-over';
+
+        // 2. Energy Tethers
+        const activeSector = Math.floor(sIdx / STEP_PER_NODE);
+        for (let i = 0; i < 3; i++) {
+            const colorHex = engineData.tracks[i].color;
+            let sectorActive = false;
+            for(let j=0; j<STEP_PER_NODE; j++) if (engineData.grid[i][activeSector * STEP_PER_NODE + j]) sectorActive = true;
+
+            if (sectorActive) {
+                const ang = (activeSector / NODES) * Math.PI * 2 - Math.PI / 2;
+                const fVal = engineData.forceField[i][activeSector];
+                const sx = Math.cos(ang) * (R_RADAR_MIN + (fVal * (R_RADAR_MAX - R_RADAR_MIN)));
+                const sy = Math.sin(ang) * (R_RADAR_MIN + (fVal * (R_RADAR_MAX - R_RADAR_MIN)));
+                const rx = Math.cos(ang) * R_RINGS[i];
+                const ry = Math.sin(ang) * R_RINGS[i];
+
+                ctx.beginPath(); ctx.moveTo(sx, sy); ctx.quadraticCurveTo(0, 0, rx, ry); 
+                ctx.strokeStyle = hexToRgba(colorHex, 0.2); ctx.lineWidth = 1; ctx.stroke();
+            }
+        }
+
+        // 3. Sequencer Arcs (Outer Rings)
+        const stepArc = (Math.PI * 2) / STEPS;
+        for (let i = 0; i < 3; i++) {
+            const color = engineData.tracks[i].color;
+            const r = R_RINGS[i];
+            const mode = engineData.tracks[i].mode;
+
+            ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2);
+            ctx.strokeStyle = 'rgba(255,255,255,0.03)'; ctx.lineWidth = 1; ctx.stroke();
+
+            let inBlock = false; let blockStart = 0;
+
+            for (let s = 0; s <= STEPS; s++) {
+                const isActive = s < STEPS ? engineData.grid[i][s] : false;
+                if (isActive && !inBlock) { inBlock = true; blockStart = s; } 
+                else if (!isActive && inBlock) {
+                    inBlock = false; const blockEnd = s; 
+                    const startAng = blockStart * stepArc - Math.PI / 2;
+                    const endAng = blockEnd * stepArc - Math.PI / 2;
+                    const isPlayheadInside = sIdx >= blockStart && sIdx < blockEnd;
+
+                    ctx.beginPath(); ctx.arc(0, 0, r, startAng, endAng);
+                    
+                    // Visual distinction: Synths are solid, MP3s are dashed/textured slightly
+                    ctx.lineWidth = isPlayheadInside ? 8 * S : 4 * S;
+                    ctx.strokeStyle = color;
+                    
+                    if(mode === 'MP3' && !isPlayheadInside) ctx.setLineDash([2, 4]); // Texture for audio tracks
+                    else ctx.setLineDash([]);
+
+                    if (isPlayheadInside && isPlaying) {
+                        ctx.shadowBlur = 15; ctx.shadowColor = color;
+                        ctx.lineWidth = 12 * S;
+                    }
+                    
+                    ctx.lineCap = 'round'; ctx.stroke(); 
+                    ctx.shadowBlur = 0; ctx.lineCap = 'butt'; ctx.setLineDash([]);
+                }
+            }
+        }
+
+        // 4. Playhead Sweep
+        ctx.beginPath();
+        const phGrad = ctx.createLinearGradient(0, 0, Math.cos(playheadAng) * R_RINGS[2], Math.sin(playheadAng) * R_RINGS[2]);
+        phGrad.addColorStop(0, 'rgba(255,255,255,0)'); phGrad.addColorStop(1, 'rgba(255,255,255,0.4)');
+        ctx.moveTo(0,0); ctx.lineTo(Math.cos(playheadAng) * (R_RINGS[2] + 20*S), Math.sin(playheadAng) * (R_RINGS[2] + 20*S));
+        ctx.strokeStyle = phGrad; ctx.lineWidth = 2; ctx.stroke();
+
+        ctx.restore(); requestAnimationFrame(draw);
+    }
+    requestAnimationFrame(draw);
+
+    // --- INTERACTION ---
+    function getHitInfo(e) {
+        const rect = canvas.getBoundingClientRect();
+        const dx = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left - cx;
+        const dy = (e.touches ? e.touches[0].clientY : e.clientY) - rect.top - cy;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+        
+        let ang = Math.atan2(dy, dx) - ((Tone.now() * 0.05) % (Math.PI * 2)) + Math.PI/2;
+        if (ang < 0) ang += Math.PI*2; ang = ang % (Math.PI*2);
+        
+        const stepIdx = Math.floor((ang / (Math.PI*2)) * STEPS);
+        for (let i = 0; i < 3; i++) if (Math.abs(dist - R_RINGS[i]) < 25 * S) return { type: 'grid', track: i, step: stepIdx };
+
+        const nodeIdx = Math.floor((ang / (Math.PI*2)) * NODES);
+        if (dist >= R_RADAR_MIN - 20*S && dist <= R_RADAR_MAX + 20*S) {
+            let closest = -1, minD = Infinity;
+            for (let i = 0; i < 3; i++) {
+                const nodeR = R_RADAR_MIN + (engineData.forceField[i][nodeIdx] * (R_RADAR_MAX - R_RADAR_MIN));
+                const d = Math.abs(dist - nodeR);
+                if (d < 30 * S && d < minD) { minD = d; closest = i; }
+            }
+            if (closest !== -1) return { type: 'force', track: closest, node: nodeIdx };
+        }
+        return null;
+    }
+
+    function fillSteps(track, stepA, stepB, val) {
+        let start = stepA, end = stepB;
+        if (Math.abs(end - start) > STEPS / 2) { if (start < end) start += STEPS; else end += STEPS; }
+        const min = Math.min(start, end), max = Math.max(start, end);
+        for(let s = min; s <= max; s++) engineData.grid[track][s % STEPS] = val;
+    }
+
+    function handleStart(e) {
+        const hit = getHitInfo(e);
+        if (hit) {
+            dragState.active = true; dragState.type = hit.type; dragState.track = hit.track;
+            if (hit.type === 'grid') {
+                dragState.paintVal = !engineData.grid[hit.track][hit.step];
+                engineData.grid[hit.track][hit.step] = dragState.paintVal;
+                dragState.lastStep = hit.step;
+            }
+        }
+    }
+
+    function handleMove(e) {
+        if (!dragState.active) return;
+        const rect = canvas.getBoundingClientRect();
+        const dx = (e.touches ? e.touches[0].clientX : e.clientX) - rect.left - cx;
+        const dy = (e.touches ? e.touches[0].clientY : e.clientY) - rect.top - cy;
+        const dist = Math.sqrt(dx*dx + dy*dy);
+
+        if (dragState.type === 'force') {
+            let ang = Math.atan2(dy, dx) - ((Tone.now() * 0.05) % (Math.PI * 2)) + Math.PI/2;
+            if (ang < 0) ang += Math.PI*2; ang = ang % (Math.PI*2);
+            const nodeIdx = Math.floor((ang / (Math.PI*2)) * NODES);
+            let newVal = Math.max(0.01, Math.min(0.99, (dist - R_RADAR_MIN) / (R_RADAR_MAX - R_RADAR_MIN)));
+            engineData.forceField[dragState.track][nodeIdx] = newVal;
+        } else if (dragState.type === 'grid') {
+            const hit = getHitInfo(e);
+            if (hit && hit.type === 'grid' && hit.track === dragState.track) {
+                if (dragState.lastStep !== -1) fillSteps(dragState.track, dragState.lastStep, hit.step, dragState.paintVal);
+                dragState.lastStep = hit.step;
+            }
+        }
+    }
+
+    function handleEnd() { dragState.active = false; dragState.type = null; dragState.lastStep = -1; }
+
+    canvas.addEventListener('mousedown', handleStart); window.addEventListener('mousemove', handleMove); window.addEventListener('mouseup', handleEnd);
+    canvas.addEventListener('touchstart', e => { e.preventDefault(); handleStart(e); }, {passive:false});
+    window.addEventListener('touchmove', e => { if(dragState.active) { e.preventDefault(); handleMove(e); } }, {passive:false});
+    window.addEventListener('touchend', handleEnd);
+}
+
+// --- CONTROLS ---
+document.getElementById('bpm-slider').addEventListener('input', e => {
+    globalBpm = parseInt(e.target.value); document.getElementById('bpm-val').innerText = globalBpm;
+    if (Tone.Transport) Tone.Transport.bpm.value = globalBpm;
+});
+
+document.getElementById('btn-play').addEventListener('click', () => {
+    if (isPlaying) {
+        Tone.Transport.pause();
+        engineData.audio.synths.forEach(s => s.releaseAll());
+        engineData.audio.players.forEach(p => p.pause());
+        engineData.synthState.isNoteOn.fill(false);
+        document.getElementById('btn-play').innerText = "▶ PLAY";
+        document.getElementById('btn-play').classList.remove('active');
+    } else {
+        Tone.Transport.start();
+        // Resume MP3s if their tracks are in MP3 mode
+        for(let i=0; i<3; i++) {
+            if(engineData.tracks[i].mode === 'MP3' && engineData.audio.players[i].src) {
+                engineData.audio.players[i].play().catch(e=>{});
+            }
+        }
+        document.getElementById('btn-play').innerText = "⏸ PAUSE";
+        document.getElementById('btn-play').classList.add('active');
+    }
+    isPlaying = !isPlaying;
+});
+
+document.getElementById('btn-clear').addEventListener('click', () => {
+    for(let i=0; i<3; i++){
+        engineData.grid[i].fill(false);
+        engineData.audio.synths[i].releaseAll();
+        engineData.audio.gates[i].gain.value = 0;
+        engineData.synthState.isNoteOn[i] = false;
+    }
+    showToast("ARCS CLEARED");
+});
+
+document.getElementById('btn-evo').addEventListener('click', (e) => {
+    currentEvoModeIdx = (currentEvoModeIdx + 1) % EVO_MODES.length;
+    e.target.innerText = `EVO: ${EVO_MODES[currentEvoModeIdx]}`;
+    showToast(`${EVO_MODES[currentEvoModeIdx]} WEATHER INITIATED`);
+});
+
+// --- BOOTSTRAP ---
+document.getElementById('btn-boot').addEventListener('click', async () => {
+    document.getElementById('btn-boot').innerText = "INITIALIZING...";
+    await Tone.start();
+    initAudioEngine();
+    initCanvasUI();
+    loadCrate('loom'); // Init state
+    
+    Tone.Transport.bpm.value = globalBpm;
+    
+    // Auto-start transport so it's ready
+    Tone.Transport.start();
+    isPlaying = true;
+    document.getElementById('btn-play').innerText = "⏸ PAUSE";
+    document.getElementById('btn-play').classList.add('active');
+
+    const bootScreen = document.getElementById('boot-screen');
+    bootScreen.style.opacity = 0;
+    setTimeout(() => {
+        bootScreen.style.display = 'none';
+        showToast("ENGINE ENGAGED. DRAW ARCS TO BEGIN.");
+    }, 1500);
+});
+
+</script>
+</body>
+</html>
