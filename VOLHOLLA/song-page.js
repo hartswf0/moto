@@ -11,6 +11,18 @@
     "Designer Empathy": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_01 AM.png",
     "The Deacon's Shadow": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_09_36 AM.png"
   };
+  const MITTE_ART_POOL = [
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_o1z5s8o1z5s8o1z5.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_2i9h1o2i9h1o2i9h.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_kmiov3kmiov3kmio.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_53_05 AM.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_51_25 AM.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_48_34 AM.png"
+  ];
+  const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
+  );
 
   const ALBUMS = {
     volholla: {
@@ -134,8 +146,9 @@
       subtitle: "Frog radio / geometric noir / U-Bahn ghost transmissions",
       accentA: "#7ee3c3",
       accentB: "#f7b96e",
-      coverImage: "../ChatGPT Image Mar 10, 2026, 03_29_50 AM.png",
-      defaultTrackArt: "../ChatGPT Image Mar 10, 2026, 03_29_50 AM.png",
+      coverImage: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+      trackArtByIndex: MITTE_TRACK_ART_BY_INDEX,
+      defaultTrackArt: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
       hallKey: "mitte",
       op2Key: "mitte",
       op2Pair: "elephant",
