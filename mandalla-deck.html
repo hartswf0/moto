@@ -426,8 +426,9 @@
       <button class="preset" data-a="mandalla.html?embed=1&album=elephant" data-b="mandalla.html?embed=1&album=loom">A: ELE • B: LOOM</button>
       <button class="preset" data-a="mandalla.html?embed=1&album=loom" data-b="mandalla.html?embed=1&album=moto">A: LOOM • B: MOTO</button>
       <button class="preset" data-a="mandalla.html?embed=1&album=volholla" data-b="mandalla.html?embed=1&album=moto">A: VOL • B: MOTO</button>
+      <button class="preset" data-a="mandalla.html?embed=1&album=mitte" data-b="mandalla.html?embed=1&album=elephant">A: MITTE • B: ELE</button>
     </div>
-    <div class="tiny" style="margin-top:8px">Tip: use <code>mandalla.html?embed=1&album=...</code>. Query params on this harness also work: <code>?a=mandalla.html%3Fembed%3D1%26album%3Delephant&b=mandalla.html%3Fembed%3D1%26album%3Dloom</code></div>
+    <div class="tiny" style="margin-top:8px">Tip: use <code>mandalla.html?embed=1&album=...</code>. Query params also accept raw keys, e.g. <code>?a=mitte&b=elephant</code>.</div>
   </div>
 
   <div id="wrap">
@@ -516,12 +517,15 @@
   const DECK_LIBRARY = [
     { key:'elephant', label:'Elephant' },
     { key:'loom', label:'Loom' },
+    { key:'mitte', label:'Mitte' },
     { key:'moto', label:'Moto' },
     { key:'volholla', label:'Volholla' }
   ];
 
   const PAIR_PRESETS = [
     { id:'ele-lo', label:'Elephant × Loom', a:'elephant', b:'loom' },
+    { id:'mi-el', label:'Mitte × Elephant', a:'mitte', b:'elephant' },
+    { id:'mi-lo', label:'Mitte × Loom', a:'mitte', b:'loom' },
     { id:'lo-mo', label:'Loom × Moto', a:'loom', b:'moto' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -593,6 +597,11 @@
 
   function setSrc(which, url){
     try{
+      const raw = String(url || '').trim();
+      const keyHit = DECK_LIBRARY.find(d => d.key === raw.toLowerCase());
+      if (keyHit) {
+        url = mandallaUrl(keyHit.key, { embed:true });
+      }
       if (!/^https?:\/\//i.test(url) && !/\.html($|[?#])/i.test(url)){
         // help relative URLs: if user typed just a word, append .html
         url = url + '.html';

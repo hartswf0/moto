@@ -643,6 +643,35 @@
                     "coolradio - The Horizon Stares Back - Sonauto.mp3"
                 ]
             },
+            mitte: {
+                key: 'mitte',
+                label: 'GEOMETRIC GHOSTS OF MITTE',
+                short: 'MITTE',
+                basePath: 'GEOMETRIC GHOSTS OF MITTE/',
+                logic: 'Ghost Geometry Relay',
+                artist: 'coolfrog',
+                files: [
+                    "Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Assembly Line Ritual - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Berlin Static - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Circuit Board Melancholy - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Dorian Decay - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Furin Kazan (The Stratagem) - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Glitch-Hop Geometry - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Market Differentiation - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Market Sacrifice - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Network of Nodes - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Operating Tracks (2001-2003 Archive) - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Orpheus in the U-Bahn - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Pizzicato Flux - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - Submerged Frequencies - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - The Break-Even Point - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - The Deepest Case - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - The U-Bahn Archive - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - U-Bahn Bokeh - Sonauto.mp3",
+                    "Geometric Ghosts of Mitte - U-Bahn Geometry - Sonauto.mp3"
+                ]
+            },
             elephant: {
                 key: 'elephant',
                 label: 'THE STOCHASTIC ELEPHANT',
@@ -695,6 +724,7 @@
                 .replace(/\.mp3$/i, '')
                 .replace(/^\d+_/, '')
                 .replace(/^coolradio\s*-\s*/i, '')
+                .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto$/i, '')
                 .trim();
         }
@@ -705,7 +735,7 @@
             return album.files.map((name) => ({
                 file: album.basePath + name,
                 title: op2TitleFromFilename(name),
-                artist: 'Sonauto',
+                artist: album.artist || 'Sonauto',
                 bpm: 0,
                 key: '?',
                 logic: album.logic,
@@ -715,6 +745,12 @@
         }
 
         let activeAlbumPair = { ...DEFAULT_ALBUM_PAIR };
+
+        function normalizeOp2AlbumKey(raw) {
+            const v = String(raw || '').toLowerCase();
+            if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
+            return v;
+        }
 
         function clampDistinctPair(pair) {
             const keys = Object.keys(OP2_ALBUM_LIBRARY);
@@ -729,8 +765,8 @@
         function parseAlbumPairFromUrl() {
             const params = new URLSearchParams(window.location.search);
             return clampDistinctPair({
-                a: (params.get('a') || DEFAULT_ALBUM_PAIR.a).toLowerCase(),
-                b: (params.get('b') || DEFAULT_ALBUM_PAIR.b).toLowerCase()
+                a: normalizeOp2AlbumKey(params.get('a') || DEFAULT_ALBUM_PAIR.a),
+                b: normalizeOp2AlbumKey(params.get('b') || DEFAULT_ALBUM_PAIR.b)
             });
         }
 

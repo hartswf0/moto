@@ -1380,19 +1380,21 @@
         .replace(/\.mp3$/i, "")
         .replace(/^\d+_/, "")
         .replace(/^coolradio\s*-\s*/i, "")
+        .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
         .replace(/\s*-\s*Sonauto$/i, "")
         .trim();
     }
 
     function buildTracks(area, artist = "coolradio") {
+      const artistName = area.artist || artist;
       return area.files.map((name, index) => {
         const title = titleFromFilename(name);
         return {
           file: `${area.basePath}${name}`,
           title,
-          artist,
+          artist: artistName,
           areaKey: area.key,
-          art: area.trackArtByTitle?.[title] || area.trackArtByIndex?.[index] || null
+          art: area.trackArtByTitle?.[title] || area.trackArtByIndex?.[index] || area.defaultTrackArt || null
         };
       });
     }
@@ -1427,6 +1429,19 @@
       "Designer Empathy": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_01 AM.png",
       "The Deacon's Shadow": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_09_36 AM.png"
     };
+
+    const MITTE_ART_POOL = [
+      "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+      "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_o1z5s8o1z5s8o1z5.png",
+      "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_2i9h1o2i9h1o2i9h.png",
+      "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_kmiov3kmiov3kmio.png",
+      "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_53_05 AM.png",
+      "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_51_25 AM.png",
+      "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_48_34 AM.png"
+    ];
+    const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
+      Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
+    );
 
     const AREA_DEFS = [
       {
@@ -1528,6 +1543,40 @@
           "coolradio - Sub Gravity Pulse - Sonauto.mp3",
           "coolradio - Symmetry Break - Sonauto.mp3",
           "coolradio - The Loom Floor Lament - Sonauto.mp3"
+        ]
+      },
+      {
+        key: "mitte",
+        label: "GEOMETRIC GHOSTS OF MITTE",
+        pageSlug: "geometric-ghosts-of-mitte",
+        description: "Frog radio / geometric noir / U-Bahn ghost transmissions",
+        accentA: "#7ee3c3",
+        accentB: "#f7b96e",
+        coverImage: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+        trackArtByIndex: MITTE_TRACK_ART_BY_INDEX,
+        defaultTrackArt: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+        artist: "coolfrog",
+        basePath: "../GEOMETRIC GHOSTS OF MITTE/",
+        files: [
+          "Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Assembly Line Ritual - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Berlin Static - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Circuit Board Melancholy - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Dorian Decay - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Furin Kazan (The Stratagem) - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Glitch-Hop Geometry - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Market Differentiation - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Market Sacrifice - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Network of Nodes - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Operating Tracks (2001-2003 Archive) - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Orpheus in the U-Bahn - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Pizzicato Flux - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - Submerged Frequencies - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - The Break-Even Point - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - The Deepest Case - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - The U-Bahn Archive - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - U-Bahn Bokeh - Sonauto.mp3",
+          "Geometric Ghosts of Mitte - U-Bahn Geometry - Sonauto.mp3"
         ]
       }
     ].map((area) => ({ ...area, tracks: buildTracks(area) }));

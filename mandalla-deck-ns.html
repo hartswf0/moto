@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Mandalla Deck NS</title>
+  <style>
+    :root{
+      --bg:#06090d;
+      --rail:#0a1017;
+      --line:#1d2732;
+      --ink:#e6edf5;
+      --muted:#91a0af;
+      --acc:#25d3ff;
+      --topH:30px;
+      --botH:30px;
+    }
+    *{ box-sizing:border-box; }
+    html,body{
+      margin:0;
+      width:100%;
+      height:100%;
+      overflow:hidden;
+      background:var(--bg);
+      color:var(--ink);
+      font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    }
+    .rail{
+      position:fixed;
+      left:0;
+      right:0;
+      display:grid;
+      align-items:center;
+      gap:4px;
+      padding:2px 4px;
+      background:rgba(8,12,18,.92);
+      border-bottom:1px solid var(--line);
+      z-index:40;
+      backdrop-filter:blur(2px);
+      transition:opacity .16s ease, transform .16s ease;
+    }
+    .rail.top{
+      top:0;
+      height:var(--topH);
+      grid-template-columns:auto minmax(52px,1fr) auto minmax(52px,1fr) auto auto;
+      transform:translateY(0);
+    }
+    .rail.bottom{
+      top:auto;
+      bottom:0;
+      height:var(--botH);
+      border-bottom:0;
+      border-top:1px solid var(--line);
+      padding-bottom:calc(4px + env(safe-area-inset-bottom, 0px));
+      grid-template-columns:auto minmax(140px,1fr) auto;
+      transform:translateY(0);
+    }
+    body.fs-mode{ --topH:0px; --botH:0px; }
+    body.fs-mode .rail{
+      opacity:0;
+      pointer-events:none;
+      border-color:transparent;
+      backdrop-filter:none;
+      background:transparent;
+    }
+    body.fs-mode .rail.top{ transform:translateY(-105%); }
+    body.fs-mode .rail.bottom{ transform:translateY(105%); }
+    body.fs-mode.controls-visible .rail{
+      opacity:1;
+      pointer-events:auto;
+      border-color:var(--line);
+      background:rgba(8,12,18,.82);
+      backdrop-filter:blur(2px);
+    }
+    body.fs-mode.controls-visible .rail.top{ transform:translateY(0); }
+    body.fs-mode.controls-visible .rail.bottom{ transform:translateY(0); }
+    #stage{
+      position:fixed;
+      inset:var(--topH) 0 var(--botH) 0;
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      background:#000;
+    }
+    iframe{
+      width:100%;
+      height:100%;
+      border:0;
+      display:block;
+      background:#000;
+    }
+    select,button,input[type="range"]{
+      height:26px;
+      min-height:26px;
+      border:1px solid var(--line);
+      background:#0a1017;
+      color:var(--ink);
+      border-radius:5px;
+      font-size:11px;
+      letter-spacing:.03em;
+      line-height:1;
+    }
+    select{ width:100%; min-width:0; padding:0 5px; }
+    button{ padding:0 7px; font-weight:700; cursor:pointer; white-space:nowrap; }
+    .nav-home{
+      width:24px;
+      min-width:24px;
+      text-decoration:none;
+      display:inline-grid;
+      place-items:center;
+      color:var(--muted);
+      border:1px solid var(--line);
+      border-radius:5px;
+      background:#0a1017;
+      font-size:12px;
+      line-height:1;
+    }
+    .nav-fs{
+      width:24px;
+      min-width:24px;
+      padding:0;
+      display:grid;
+      place-items:center;
+    }
+    button.active{ border-color:#2a687d; color:#c9f7ff; background:#102029; }
+    .muted{ color:var(--muted); font-size:11px; }
+    .bpm-wrap{
+      position:relative;
+      display:flex;
+      align-items:center;
+      min-width:0;
+      width:100%;
+      height:22px;
+      border:1px solid var(--line);
+      border-radius:6px;
+      background:rgba(10,16,24,.8);
+      touch-action:none;
+      user-select:none;
+      --bpm-pct:50%;
+    }
+    .bpm-wrap::before{
+      content:"";
+      position:absolute;
+      inset:0;
+      border-radius:6px;
+      background:repeating-linear-gradient(90deg, rgba(145,160,175,.3) 0 1px, transparent 1px 12.5%);
+      opacity:.6;
+      pointer-events:none;
+    }
+    .bpm-wrap::after{
+      content:"";
+      position:absolute;
+      left:0;
+      top:0;
+      bottom:0;
+      width:var(--bpm-pct);
+      border-radius:6px 0 0 6px;
+      background:linear-gradient(90deg, rgba(37,211,255,.25), rgba(37,211,255,.45));
+      pointer-events:none;
+    }
+    #bpm{
+      width:100%;
+      height:100%;
+      margin:0;
+      accent-color:var(--acc);
+      background:transparent;
+      -webkit-appearance:none;
+      appearance:none;
+      position:relative;
+      z-index:2;
+      touch-action:none;
+    }
+    #bpm::-webkit-slider-runnable-track{ height:100%; background:transparent; }
+    #bpm::-webkit-slider-thumb{
+      -webkit-appearance:none;
+      appearance:none;
+      width:18px;
+      height:18px;
+      margin-top:3px;
+      border-radius:50%;
+      background:radial-gradient(circle at 35% 35%, #fff 0 25%, #4ad8ff 30% 60%, #113044 68% 100%);
+      border:1px solid rgba(255,255,255,.55);
+      box-shadow:0 0 0 1px rgba(0,0,0,.45), 0 0 10px rgba(37,211,255,.35);
+      cursor:grab;
+    }
+    #bpm::-moz-range-track{ height:100%; background:transparent; border:0; }
+    #bpm::-moz-range-thumb{
+      width:18px; height:18px; border-radius:50%;
+      border:1px solid rgba(255,255,255,.55);
+      background:#4ad8ff;
+      box-shadow:0 0 0 1px rgba(0,0,0,.45), 0 0 10px rgba(37,211,255,.35);
+    }
+    .bpm-btn{
+      width:24px;
+      min-width:24px;
+      padding:0;
+      font-size:14px;
+      font-weight:800;
+      border-color:#2a3948;
+    }
+    .bpm-btn:active{ transform:translateY(1px); }
+    @media (orientation:portrait){
+      #stage{ grid-template-columns:1fr; grid-template-rows:1fr 1fr; }
+    }
+    @media (max-width:740px){
+      :root{ --topH:24px; --botH:24px; }
+      .rail{ gap:2px; padding:2px; }
+      .rail.bottom{ grid-template-columns:auto minmax(84px,1fr) auto; }
+      select,button,input[type="range"]{
+        height:19px;
+        min-height:19px;
+        font-size:9px;
+        border-radius:4px;
+      }
+      button{ padding:0 5px; }
+      .bpm-wrap{ height:19px; border-radius:4px; }
+      #bpm::-webkit-slider-thumb{ width:14px; height:14px; margin-top:2px; }
+      .bpm-btn{ width:19px; min-width:19px; font-size:10px; }
+      .nav-home{ width:19px; min-width:19px; font-size:10px; }
+      .nav-fs{ width:19px; min-width:19px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="rail top">
+    <a class="nav-home" href="./index.html" aria-label="Open hub">⌂</a>
+    <select id="albumA" aria-label="Deck A album"></select>
+    <button id="toggleA" type="button" aria-label="Deck A play pause" title="Deck A play pause">A▶</button>
+    <select id="albumB" aria-label="Deck B album"></select>
+    <button id="toggleB" type="button" aria-label="Deck B play pause" title="Deck B play pause">B▶</button>
+    <button id="fullscreen" class="nav-fs" type="button" aria-label="Enter fullscreen" title="Fullscreen">⛶</button>
+  </header>
+
+  <main id="stage">
+    <iframe id="deckA" src="mandalla.html?embed=1&album=elephant" allow="autoplay; microphone" allowfullscreen></iframe>
+    <iframe id="deckB" src="mandalla.html?embed=1&album=loom" allow="autoplay; microphone" allowfullscreen></iframe>
+  </main>
+
+  <footer class="rail bottom">
+    <button id="bpmDown" class="bpm-btn" type="button" aria-label="Lower BPM">−</button>
+    <div class="bpm-wrap"><input id="bpm" type="range" min="60" max="180" step="1" value="120" /></div>
+    <button id="bpmUp" class="bpm-btn" type="button" aria-label="Raise BPM">+</button>
+  </footer>
+
+  <script>
+    (function () {
+      const ALBUMS = [
+        { key: 'elephant', label: 'ELE' },
+        { key: 'loom', label: 'LOOM' },
+        { key: 'mitte', label: 'MITTE' },
+        { key: 'moto', label: 'MOTO' },
+        { key: 'volholla', label: 'VOL' }
+      ];
+
+      const deckA = document.getElementById('deckA');
+      const deckB = document.getElementById('deckB');
+      const albumA = document.getElementById('albumA');
+      const albumB = document.getElementById('albumB');
+      const toggleA = document.getElementById('toggleA');
+      const toggleB = document.getElementById('toggleB');
+      const bpm = document.getElementById('bpm');
+      const bpmSurface = document.querySelector('.bpm-wrap');
+      const bpmDown = document.getElementById('bpmDown');
+      const bpmUp = document.getElementById('bpmUp');
+      const fsBtn = document.getElementById('fullscreen');
+
+      const state = { A: true, B: true };
+      let fsHideTimer = null;
+
+      function srcFor(key) {
+        return `mandalla.html?embed=1&album=${encodeURIComponent(key)}`;
+      }
+
+      function normalizeAlbum(key) {
+        const raw = (key || '').toLowerCase();
+        const alias = raw === 'geometric-ghosts-of-mitte' || raw === 'geometric_ghosts_of_mitte' || raw === 'ghosts'
+          ? 'mitte'
+          : raw;
+        const hit = ALBUMS.find((a) => a.key === alias);
+        return hit ? hit.key : 'elephant';
+      }
+
+      function setBpmUi(v) {
+        const n = Math.max(60, Math.min(180, Math.round(Number(v) || 120)));
+        bpm.value = String(n);
+        bpmSurface?.setAttribute('title', `${n} BPM`);
+        const pct = ((n - 60) / 120) * 100;
+        bpmSurface?.style.setProperty('--bpm-pct', `${Math.max(0, Math.min(100, pct))}%`);
+      }
+      function inFullscreen() {
+        return !!document.fullscreenElement;
+      }
+      function showFsControls(ms = 1600) {
+        if (!inFullscreen()) return;
+        document.body.classList.add('controls-visible');
+        if (fsHideTimer) clearTimeout(fsHideTimer);
+        fsHideTimer = setTimeout(() => {
+          document.body.classList.remove('controls-visible');
+          fsHideTimer = null;
+        }, ms);
+      }
+      function syncFullscreenUi() {
+        const on = inFullscreen();
+        fsBtn.textContent = on ? '⤢' : '⛶';
+        fsBtn.setAttribute('aria-label', on ? 'Exit fullscreen' : 'Enter fullscreen');
+        if (on) {
+          document.body.classList.add('fs-mode');
+          showFsControls(1800);
+        } else {
+          document.body.classList.remove('fs-mode', 'controls-visible');
+          if (fsHideTimer) clearTimeout(fsHideTimer);
+          fsHideTimer = null;
+        }
+      }
+      async function toggleFullscreen() {
+        try {
+          if (inFullscreen()) await document.exitFullscreen();
+          else await document.documentElement.requestFullscreen();
+        } catch (_) {}
+      }
+
+      function syncBtn(which) {
+        const btn = which === 'A' ? toggleA : toggleB;
+        const paused = state[which];
+        btn.textContent = paused ? `${which}▶` : `${which}❚❚`;
+        btn.setAttribute('aria-label', paused ? `Deck ${which} play` : `Deck ${which} pause`);
+        btn.classList.toggle('active', !paused);
+      }
+
+      function frame(which) {
+        return which === 'A' ? deckA : deckB;
+      }
+
+      async function callFrame(which, method, ...args) {
+        try {
+          const w = frame(which).contentWindow;
+          if (!w || typeof w[method] !== 'function') return null;
+          return await w[method](...args);
+        } catch (_) {
+          return null;
+        }
+      }
+
+      async function resume(which) {
+        await callFrame(which, '__mandallaResumeAudio');
+        await callFrame(which, '__mandallaSetMonitor', true);
+        state[which] = false;
+        syncBtn(which);
+      }
+
+      async function suspend(which) {
+        await callFrame(which, '__mandallaSuspendAudio');
+        state[which] = true;
+        syncBtn(which);
+      }
+
+      async function toggle(which) {
+        if (state[which]) await resume(which);
+        else await suspend(which);
+      }
+
+      async function setDeckBpm(which, next) {
+        const n = Math.max(60, Math.min(180, Math.round(Number(next) || 120)));
+        const direct = await callFrame(which, '__mandallaSetBpm', n);
+        if (!direct) {
+          try { frame(which).contentWindow?.postMessage({ type: 'set-bpm', bpm: n }, '*'); } catch (_) {}
+        }
+        return n;
+      }
+
+      async function getDeckBpm(which) {
+        const value = await callFrame(which, '__mandallaGetBpm');
+        const n = Number(value);
+        return Number.isFinite(n) ? n : null;
+      }
+
+      async function setGlobalBpm(next) {
+        const n = Math.max(60, Math.min(180, Math.round(Number(next) || 120)));
+        await Promise.all([setDeckBpm('A', n), setDeckBpm('B', n)]);
+        setBpmUi(n);
+      }
+
+      async function syncBpmFromDecks() {
+        const a = await getDeckBpm('A');
+        const b = await getDeckBpm('B');
+        const nums = [a, b].filter((n) => Number.isFinite(n));
+        if (!nums.length) return;
+        const avg = Math.round(nums.reduce((sum, n) => sum + n, 0) / nums.length);
+        setBpmUi(avg);
+      }
+
+      function syncUrl() {
+        const u = new URL(window.location.href);
+        u.searchParams.set('a', albumA.value);
+        u.searchParams.set('b', albumB.value);
+        window.history.replaceState({}, '', u.toString());
+      }
+
+      function setAlbum(which, key) {
+        const k = normalizeAlbum(key);
+        if (which === 'A') {
+          albumA.value = k;
+          deckA.src = srcFor(k);
+        } else {
+          albumB.value = k;
+          deckB.src = srcFor(k);
+        }
+        state[which] = true;
+        syncBtn(which);
+        syncUrl();
+      }
+
+      albumA.innerHTML = ALBUMS.map((a) => `<option value="${a.key}">${a.label}</option>`).join('');
+      albumB.innerHTML = albumA.innerHTML;
+
+      const params = new URL(window.location.href).searchParams;
+      const initialA = normalizeAlbum(params.get('a'));
+      const initialB = normalizeAlbum(params.get('b') || 'loom');
+      setAlbum('A', initialA);
+      setAlbum('B', initialB);
+      setBpmUi(120);
+
+      toggleA.addEventListener('click', () => toggle('A'));
+      toggleB.addEventListener('click', () => toggle('B'));
+
+      albumA.addEventListener('change', () => setAlbum('A', albumA.value));
+      albumB.addEventListener('change', () => setAlbum('B', albumB.value));
+
+      bpm.addEventListener('input', () => {
+        const n = Math.max(60, Math.min(180, parseInt(bpm.value, 10) || 120));
+        setBpmUi(n);
+        setGlobalBpm(n);
+      });
+
+      const nudge = (delta) => {
+        const n = Math.max(60, Math.min(180, (parseInt(bpm.value, 10) || 120) + delta));
+        setBpmUi(n);
+        setGlobalBpm(n);
+      };
+      bpmDown?.addEventListener('click', () => nudge(-1));
+      bpmUp?.addEventListener('click', () => nudge(1));
+
+      let surfaceDrag = false;
+      const applyBpmFromX = (clientX) => {
+        const rect = bpmSurface.getBoundingClientRect();
+        if (!rect.width) return;
+        const t = Math.min(1, Math.max(0, (clientX - rect.left) / rect.width));
+        const next = Math.round(60 + t * 120);
+        setBpmUi(next);
+        setGlobalBpm(next);
+      };
+      bpmSurface?.addEventListener('pointerdown', (e) => {
+        surfaceDrag = true;
+        try { bpmSurface.setPointerCapture(e.pointerId); } catch (_) {}
+        applyBpmFromX(e.clientX);
+        e.preventDefault();
+      });
+      bpmSurface?.addEventListener('pointermove', (e) => {
+        if (!surfaceDrag) return;
+        applyBpmFromX(e.clientX);
+        e.preventDefault();
+      });
+      const endSurfaceDrag = (e) => {
+        if (!surfaceDrag) return;
+        surfaceDrag = false;
+        try { bpmSurface.releasePointerCapture(e.pointerId); } catch (_) {}
+      };
+      bpmSurface?.addEventListener('pointerup', endSurfaceDrag);
+      bpmSurface?.addEventListener('pointercancel', endSurfaceDrag);
+      fsBtn?.addEventListener('click', toggleFullscreen);
+      document.addEventListener('fullscreenchange', syncFullscreenUi);
+      window.addEventListener('pointermove', () => showFsControls(), { passive: true });
+      window.addEventListener('touchstart', () => showFsControls(2000), { passive: true });
+      window.addEventListener('keydown', () => showFsControls(2200));
+
+      deckA.addEventListener('load', () => setTimeout(syncBpmFromDecks, 250));
+      deckB.addEventListener('load', () => setTimeout(syncBpmFromDecks, 250));
+      syncFullscreenUi();
+    })();
+  </script>
+</body>
+</html>

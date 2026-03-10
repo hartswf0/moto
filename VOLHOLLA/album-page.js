@@ -11,10 +11,23 @@
     "Designer Empathy": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_10_01 AM.png",
     "The Deacon's Shadow": "../THE STOCHASTIC ELEPHANT/ChatGPT Image Feb 25, 2026, 04_09_36 AM.png"
   };
+  const MITTE_ART_POOL = [
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_o1z5s8o1z5s8o1z5.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_2i9h1o2i9h1o2i9h.png",
+    "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_kmiov3kmiov3kmio.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_53_05 AM.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_51_25 AM.png",
+    "../GEOMETRIC GHOSTS OF MITTE/ChatGPT Image Mar 10, 2026, 03_48_34 AM.png"
+  ];
+  const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
+  );
 
   const ALBUMS = {
     volholla: {
       key: "volholla",
+      pageSlug: "volholla",
       basePath: "./",
       label: "VOLHOLLA",
       subtitle: "Tailgate hymns / roadside tribunals / Tennessee myth radio",
@@ -50,6 +63,7 @@
     },
     elephant: {
       key: "elephant",
+      pageSlug: "stochastic-elephant",
       basePath: "../THE STOCHASTIC ELEPHANT/",
       label: "Stochastic Elephant",
       subtitle: "Epistemic labor / neon elephants / forensic synthetic radio",
@@ -80,6 +94,7 @@
     },
     loom: {
       key: "loom",
+      pageSlug: "breath-thiefs-loom",
       basePath: "../THE BREATH-THIEFS LOOM/",
       label: "Breath-Thiefs Loom",
       subtitle: "Ancestral code / curfew grooves / spectral city transmissions",
@@ -114,6 +129,7 @@
     },
     moto: {
       key: "moto",
+      pageSlug: "moto",
       basePath: "../MOTO/",
       label: "MOTO",
       subtitle: "Warehouse drones / shrine banjos / symmetry breaks",
@@ -141,6 +157,47 @@
         ["Use", "Works as a standalone sendable page and as a launchpad into the Hall + OP2."],
         ["OP2 Pair", "Launch with BREATH-THIEFS LOOM for the current default spectral pairing."]
       ]
+    },
+    mitte: {
+      key: "mitte",
+      pageSlug: "geometric-ghosts-of-mitte",
+      basePath: "../GEOMETRIC GHOSTS OF MITTE/",
+      label: "GEOMETRIC GHOSTS OF MITTE",
+      subtitle: "Frog radio / geometric noir / U-Bahn ghost transmissions",
+      accentA: "#7ee3c3",
+      accentB: "#f7b96e",
+      coverImage: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+      trackArtByIndex: MITTE_TRACK_ART_BY_INDEX,
+      defaultTrackArt: "../GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+      hallKey: "mitte",
+      op2Key: "mitte",
+      op2Pair: "elephant",
+      files: [
+        "Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Assembly Line Ritual - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Berlin Static - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Circuit Board Melancholy - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Dorian Decay - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Furin Kazan (The Stratagem) - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Glitch-Hop Geometry - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Market Differentiation - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Market Sacrifice - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Network of Nodes - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Operating Tracks (2001-2003 Archive) - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Orpheus in the U-Bahn - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Pizzicato Flux - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Submerged Frequencies - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The Break-Even Point - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The Deepest Case - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The U-Bahn Archive - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - U-Bahn Bokeh - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - U-Bahn Geometry - Sonauto.mp3"
+      ],
+      notes: [
+        ["Mode", "Geometric ghostline / frog signal / Berlin transit noir"],
+        ["Use", "Send as album object; each track has a direct song URL for debate and share loops."],
+        ["OP2 Pair", "Launch with STOCHASTIC ELEPHANT for bright forensic contrast."]
+      ]
     }
   };
 
@@ -150,6 +207,7 @@
       .replace(/\.mp3$/i, "")
       .replace(/^\d+_/, "")
       .replace(/^coolradio\s*-\s*/i, "")
+      .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto$/i, "")
       .trim();
   }
@@ -179,10 +237,14 @@
     `;
   }
 
+  function trackArtFor(album, title, index) {
+    return album.trackArtByTitle?.[title] || album.trackArtByIndex?.[index] || album.defaultTrackArt || null;
+  }
+
   function buildGallery(album) {
     const tracks = album.files.map((file, i) => ({ index: i, title: titleFromFilename(file) }));
     const items = tracks.map((track, i) => {
-      const art = album.trackArtByTitle ? album.trackArtByTitle[track.title] : null;
+      const art = trackArtFor(album, track.title, track.index);
       const fallbackGlyph = ["ring", "chev", "line", "tri"][i % 4];
       const media = art
         ? `<img src="${escapeHtml(encodeURI(art))}" alt="${escapeHtml(track.title)} artwork" loading="lazy" decoding="async">`
@@ -235,7 +297,8 @@
       index,
       file,
       title: titleFromFilename(file),
-      src: encodeURI(`${album.basePath || ""}${file}`)
+      src: encodeURI(`${album.basePath || ""}${file}`),
+      art: trackArtFor(album, titleFromFilename(file), index)
     }));
   }
 

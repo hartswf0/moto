@@ -15,6 +15,7 @@
   const ALBUMS = {
     volholla: {
       key: "volholla",
+      pageSlug: "volholla",
       basePath: "./",
       label: "VOLHOLLA",
       subtitle: "Tailgate hymns / roadside tribunals / Tennessee myth radio",
@@ -45,6 +46,7 @@
     },
     elephant: {
       key: "elephant",
+      pageSlug: "stochastic-elephant",
       basePath: "../THE STOCHASTIC ELEPHANT/",
       label: "Stochastic Elephant",
       subtitle: "Epistemic labor / neon elephants / forensic synthetic radio",
@@ -70,6 +72,7 @@
     },
     loom: {
       key: "loom",
+      pageSlug: "breath-thiefs-loom",
       basePath: "../THE BREATH-THIEFS LOOM/",
       label: "Breath-Thiefs Loom",
       subtitle: "Ancestral code / curfew grooves / spectral city transmissions",
@@ -99,6 +102,7 @@
     },
     moto: {
       key: "moto",
+      pageSlug: "moto",
       basePath: "../MOTO/",
       label: "MOTO",
       subtitle: "Warehouse drones / shrine banjos / symmetry breaks",
@@ -121,6 +125,41 @@
         "coolradio - Symmetry Break - Sonauto.mp3",
         "coolradio - The Loom Floor Lament - Sonauto.mp3"
       ]
+    },
+    mitte: {
+      key: "mitte",
+      pageSlug: "geometric-ghosts-of-mitte",
+      basePath: "../GEOMETRIC GHOSTS OF MITTE/",
+      label: "GEOMETRIC GHOSTS OF MITTE",
+      subtitle: "Frog radio / geometric noir / U-Bahn ghost transmissions",
+      accentA: "#7ee3c3",
+      accentB: "#f7b96e",
+      coverImage: "../ChatGPT Image Mar 10, 2026, 03_29_50 AM.png",
+      defaultTrackArt: "../ChatGPT Image Mar 10, 2026, 03_29_50 AM.png",
+      hallKey: "mitte",
+      op2Key: "mitte",
+      op2Pair: "elephant",
+      files: [
+        "Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Assembly Line Ritual - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Berlin Static - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Circuit Board Melancholy - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Dorian Decay - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Furin Kazan (The Stratagem) - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Glitch-Hop Geometry - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Market Differentiation - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Market Sacrifice - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Network of Nodes - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Operating Tracks (2001-2003 Archive) - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Orpheus in the U-Bahn - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Pizzicato Flux - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - Submerged Frequencies - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The Break-Even Point - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The Deepest Case - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - The U-Bahn Archive - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - U-Bahn Bokeh - Sonauto.mp3",
+        "Geometric Ghosts of Mitte - U-Bahn Geometry - Sonauto.mp3"
+      ]
     }
   };
 
@@ -130,6 +169,7 @@
       .replace(/\.mp3$/i, "")
       .replace(/^\d+_/, "")
       .replace(/^coolradio\s*-\s*/i, "")
+      .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto$/i, "")
       .trim();
   }
@@ -173,13 +213,17 @@
     return ALBUMS[key] || ALBUMS.volholla;
   }
 
+  function trackArtFor(album, title, index) {
+    return album.trackArtByTitle?.[title] || album.trackArtByIndex?.[index] || album.defaultTrackArt || null;
+  }
+
   function buildTracks(album) {
     return album.files.map((file, index) => ({
       index,
       file,
       title: titleFromFilename(file),
       src: encodeURI(`${album.basePath || ""}${file}`),
-      art: album.trackArtByTitle?.[titleFromFilename(file)] || null
+      art: trackArtFor(album, titleFromFilename(file), index)
     }));
   }
 
@@ -262,7 +306,7 @@
 
     const hallHrefFor = () => `./index.html?album=${encodeURIComponent(album.hallKey)}`;
     const op2HrefFor = () => `../op2.html?a=${encodeURIComponent(album.op2Key)}&b=${encodeURIComponent(album.op2Pair)}`;
-    const albumPageHref = () => `./${album.key === "elephant" ? "stochastic-elephant" : album.key === "loom" ? "breath-thiefs-loom" : album.key}.html`;
+    const albumPageHref = () => `./${album.pageSlug || album.key}.html`;
     const currentTrack = () => tracks[currentIndex];
     const currentSongUrl = (opts = {}) => {
       const href = songUrl(album.key, currentIndex, opts);
