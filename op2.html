@@ -715,16 +715,45 @@
                     "coolradio - Volholla Halftone Fallout - Sonauto.mp3",
                     "coolradio - Volholla Tailgate - Sonauto.mp3"
                 ]
+            },
+            river: {
+                key: 'river',
+                label: 'RIVER BANK WAITING',
+                short: 'RIVER',
+                basePath: 'RIVER BANK WAITING/',
+                logic: 'Riverbank Relay',
+                files: [
+                    "River Bank Waiting - Best in the World - Sonauto.ogg",
+                    "River Bank Waiting - Dunes and Dogs - Sonauto.ogg",
+                    "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
+                    "River Bank Waiting - Gold on the Groove - Sonauto.ogg",
+                    "River Bank Waiting - Golden Mesh - Sonauto.ogg",
+                    "River Bank Waiting - Marsh Light Inversions - Sonauto.ogg",
+                    "River Bank Waiting - Pages and Strings - Sonauto.ogg",
+                    "River Bank Waiting - Pawleys Island Breakout - Sonauto.ogg",
+                    "River Bank Waiting - Pawleys Morning - Sonauto.ogg",
+                    "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+                    "River Bank Waiting - Resin Crown - Sonauto.ogg",
+                    "River Bank Waiting - Spartina Sway - Sonauto.ogg",
+                    "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
+                    "River Bank Waiting - The Dogs Are Sleeping Now - Sonauto.ogg",
+                    "River Bank Waiting - The Highlife Glitch - Sonauto.ogg",
+                    "River Bank Waiting - The Morning Bark - Sonauto.ogg",
+                    "River Bank Waiting - The Mutt on the Marsh - Sonauto.ogg",
+                    "River Bank Waiting - The Pastiche of Super Dad - Sonauto.ogg",
+                    "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
+                ]
             }
         };
 
         function op2TitleFromFilename(file) {
             return file
                 .replace(/^.*\//, '')
-                .replace(/\.mp3$/i, '')
+                .replace(/\.(?:mp3|ogg)$/i, '')
                 .replace(/^\d+_/, '')
                 .replace(/^coolradio\s*-\s*/i, '')
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
+                .replace(/^river bank waiting\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto$/i, '')
                 .trim();
         }
@@ -749,6 +778,7 @@
         function normalizeOp2AlbumKey(raw) {
             const v = String(raw || '').toLowerCase();
             if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
+            if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             return v;
         }
 

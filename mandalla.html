@@ -928,7 +928,7 @@
 
         <div class="strip-sec strip-mode">
             <button id="mode-mp3"
-                style="background:rgba(0,255,0,0.2); border:none; color:#0f0; font-size:9px; font-weight:bold; cursor:pointer;">MP3</button>
+                style="background:rgba(0,255,0,0.2); border:none; color:#0f0; font-size:9px; font-weight:bold; cursor:pointer;">FILE</button>
             <button id="mode-radio"
                 style="background:none; border:none; border-left:1px solid #333; color:#888; font-size:9px; font-weight:bold; cursor:pointer;">RAD</button>
             <button id="mode-drone"
@@ -944,7 +944,7 @@
                 <button id="inline-load-high" class="strip-mini-btn" type="button" title="Load to High">HI</button>
                 <button id="inline-load-mid" class="strip-mini-btn" type="button" title="Load to Mid">MD</button>
                 <button id="inline-load-low" class="strip-mini-btn" type="button" title="Load to Low">LO</button>
-                <button id="inline-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">MP3</button>
+                <button id="inline-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">FILE</button>
             </div>
             <div class="strip-links">
                 <button id="open-library-btn" class="strip-mini-btn cyan" type="button" title="Open Library">LIB</button>
@@ -970,7 +970,7 @@
                 <button id="compact-load-high" class="strip-mini-btn" type="button" title="Load to High">HI</button>
                 <button id="compact-load-mid" class="strip-mini-btn" type="button" title="Load to Mid">MD</button>
                 <button id="compact-load-low" class="strip-mini-btn" type="button" title="Load to Low">LO</button>
-                <button id="compact-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">MP3</button>
+                <button id="compact-mode-cycle" class="strip-mini-btn" type="button" title="Cycle mode">FILE</button>
             </div>
         </div>
     </div>
@@ -1009,7 +1009,7 @@
                 Drag the <strong>DIAMOND HANDLE</strong> around the ring to tune frequencies (Radio Stations or
                 Synth
                 Pitch).<br><br>
-                <strong>Double-Tap</strong> it to switch sources (Radio/Drone/Sampler/MP3).
+                <strong>Double-Tap</strong> it to switch sources (Radio/Drone/Sampler/File).
             </div>
             <button class="btn-ctrl" onclick="nextTutorial(2)">NEXT >></button>
         </div>
@@ -1210,16 +1210,46 @@
                     "coolradio - Symmetry Break - Sonauto.mp3",
                     "coolradio - The Loom Floor Lament - Sonauto.mp3"
                 ]
+            },
+            river: {
+                key: 'river',
+                label: 'RIVER BANK WAITING',
+                shortLabel: 'RIVER',
+                libraryParam: 'river',
+                op2Pair: 'loom',
+                basePath: 'RIVER BANK WAITING/',
+                files: [
+                    "River Bank Waiting - Best in the World - Sonauto.ogg",
+                    "River Bank Waiting - Dunes and Dogs - Sonauto.ogg",
+                    "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
+                    "River Bank Waiting - Gold on the Groove - Sonauto.ogg",
+                    "River Bank Waiting - Golden Mesh - Sonauto.ogg",
+                    "River Bank Waiting - Marsh Light Inversions - Sonauto.ogg",
+                    "River Bank Waiting - Pages and Strings - Sonauto.ogg",
+                    "River Bank Waiting - Pawleys Island Breakout - Sonauto.ogg",
+                    "River Bank Waiting - Pawleys Morning - Sonauto.ogg",
+                    "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+                    "River Bank Waiting - Resin Crown - Sonauto.ogg",
+                    "River Bank Waiting - Spartina Sway - Sonauto.ogg",
+                    "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
+                    "River Bank Waiting - The Dogs Are Sleeping Now - Sonauto.ogg",
+                    "River Bank Waiting - The Highlife Glitch - Sonauto.ogg",
+                    "River Bank Waiting - The Morning Bark - Sonauto.ogg",
+                    "River Bank Waiting - The Mutt on the Marsh - Sonauto.ogg",
+                    "River Bank Waiting - The Pastiche of Super Dad - Sonauto.ogg",
+                    "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
+                ]
             }
         };
 
         function crateTitleFromFile(file) {
             return String(file || '')
                 .replace(/^.*\//, '')
-                .replace(/\.mp3$/i, '')
+                .replace(/\.(?:mp3|ogg)$/i, '')
                 .replace(/^\d+_/, '')
                 .replace(/^coolradio\s*-\s*/i, '')
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
+                .replace(/^river bank waiting\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto$/i, '')
                 .trim()
                 .toUpperCase();
@@ -1230,6 +1260,7 @@
             if (v === 'stochastic-elephant' || v === 'stochastic_elephant') return 'elephant';
             if (v === 'breath-thiefs-loom' || v === 'breath_thiefs_loom') return 'loom';
             if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
+            if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (ALBUM_CRATE_DEFS[v]) return v;
             return 'loom';
         }
@@ -1243,6 +1274,8 @@
                 key: '?'
             }));
         }
+
+        const modeLabel = (mode) => mode === 'MP3' ? 'FILE' : mode;
 
         let ACTIVE_CRATE_ALBUM_KEY = normalizeAlbumKey(URL_STATE.get('album') || 'loom');
         let LOCAL_MP3_CRATE = buildCrateForAlbum(ACTIVE_CRATE_ALBUM_KEY);
@@ -1489,7 +1522,7 @@
                 }
 
                 console.log(`[LOOM] ${t.cfg.name} mode changed: ${prevMode} -> ${mode}`);
-                showToast(`${t.cfg.name} MODE: ${mode}`);
+                showToast(`${t.cfg.name} MODE: ${modeLabel(mode)}`);
             }
 
             togglePlay(idx) {
@@ -1509,8 +1542,8 @@
                 else if (t.mode === 'MP3') {
                     if (t.mp3Audio.paused) {
                         t.mp3Audio.play().then(() => {
-                            showToast(`${t.cfg.name}: PLAYING MP3`);
-                        }).catch(e => showToast(`MP3 ERROR: ${e.message}`));
+                            showToast(`${t.cfg.name}: PLAYING FILE`);
+                        }).catch(e => showToast(`FILE ERROR: ${e.message}`));
                     } else {
                         t.mp3Audio.pause();
                         showToast(`${t.cfg.name}: PAUSED`);
@@ -1597,7 +1630,7 @@
                         })
                         .catch(e => {
                             console.warn(`[LOOM] RADIO blocked (CORS): ${station.name} - ${e.message}`);
-                            showToast(`RADIO BLOCKED - try MP3`);
+                            showToast(`RADIO BLOCKED - try FILE`);
                         });
                     showToast(`${t.cfg.name}: ${station.name}`);
                 }
@@ -2316,8 +2349,21 @@
             const album = getActiveAlbumDef();
             const libBtn = document.getElementById('open-library-btn');
             const mixBtn = document.getElementById('open-mix-btn');
-            if (libBtn) libBtn.dataset.href = `VOLHOLLA/index.html?album=${encodeURIComponent(album.libraryParam || album.key)}`;
-            if (mixBtn) mixBtn.dataset.href = `op2.html?a=${encodeURIComponent(album.key)}&b=${encodeURIComponent(album.op2Pair || 'moto')}`;
+            if (libBtn) {
+                const href = album.libraryParam ? `VOLHOLLA/index.html?album=${encodeURIComponent(album.libraryParam)}` : '';
+                libBtn.dataset.href = href;
+                libBtn.disabled = !href;
+                libBtn.style.opacity = href ? '1' : '0.45';
+                libBtn.style.cursor = href ? 'pointer' : 'default';
+                libBtn.title = href ? 'Open Library' : 'Library route unavailable for this album';
+            }
+            if (mixBtn) {
+                mixBtn.dataset.href = `op2.html?a=${encodeURIComponent(album.key)}&b=${encodeURIComponent(album.op2Pair || 'moto')}`;
+                mixBtn.disabled = false;
+                mixBtn.style.opacity = '1';
+                mixBtn.style.cursor = 'pointer';
+                mixBtn.title = 'Open OP2 Mix';
+            }
         };
 
         const retuneTracksToCurrentCrate = () => {
@@ -2412,7 +2458,7 @@
         const updateCompactStripControls = () => {
             const modeBtn = document.getElementById('compact-mode-cycle');
             const inlineModeBtn = document.getElementById('inline-mode-cycle');
-            const label = currentMode === 'RADIO' ? 'RAD' : (currentMode === 'DRONE' ? 'DRN' : 'MP3');
+            const label = currentMode === 'RADIO' ? 'RAD' : (currentMode === 'DRONE' ? 'DRN' : 'FILE');
             const tint = currentMode === 'RADIO' ? '#0ff' : (currentMode === 'DRONE' ? '#f0f' : '#0f0');
             if (modeBtn) {
                 modeBtn.textContent = label;
@@ -2523,7 +2569,11 @@
 
         document.getElementById('open-library-btn')?.addEventListener('click', () => {
             haptic();
-            const href = document.getElementById('open-library-btn').dataset.href || 'VOLHOLLA/index.html';
+            const href = document.getElementById('open-library-btn').dataset.href || '';
+            if (!href) {
+                showToast('LIBRARY ROUTE NOT SET');
+                return;
+            }
             window.location.href = href;
         });
         document.getElementById('open-mix-btn')?.addEventListener('click', () => {

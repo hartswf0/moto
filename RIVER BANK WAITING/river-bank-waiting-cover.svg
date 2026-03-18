@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="title desc">
+  <title id="title">River Bank Waiting cover art</title>
+  <desc id="desc">Abstract cover with marsh-green gradients, river rings, and warm porch-light accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#102820"/>
+      <stop offset="52%" stop-color="#184238"/>
+      <stop offset="100%" stop-color="#2d6a54"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="48%">
+      <stop offset="0%" stop-color="#f8d18a" stop-opacity="0.95"/>
+      <stop offset="38%" stop-color="#f2b86a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f2b86a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6ed0af"/>
+      <stop offset="50%" stop-color="#c7f0d9"/>
+      <stop offset="100%" stop-color="#79d9bc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <rect width="1200" height="1200" fill="url(#glow)"/>
+  <g fill="none" opacity="0.9">
+    <path d="M125 785 C290 690 450 700 595 758 C725 810 890 822 1078 706" stroke="url(#river)" stroke-width="54" stroke-linecap="round"/>
+    <path d="M162 872 C352 778 522 791 646 840 C784 894 916 900 1040 846" stroke="#d0fff0" stroke-opacity="0.28" stroke-width="14" stroke-linecap="round"/>
+    <path d="M170 958 C330 908 500 916 650 962 C810 1010 930 1010 1046 980" stroke="#f2c98f" stroke-opacity="0.2" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g fill="none" transform="translate(600 470)">
+    <circle r="248" stroke="#7ae2bd" stroke-opacity="0.18" stroke-width="18"/>
+    <circle r="178" stroke="#efffd8" stroke-opacity="0.4" stroke-width="10"/>
+    <circle r="102" stroke="#f4c47c" stroke-opacity="0.85" stroke-width="14"/>
+    <circle r="18" fill="#f7d48d" stroke="none"/>
+  </g>
+  <g fill="none" stroke-linecap="round">
+    <path d="M216 252 C318 214 420 220 516 274" stroke="#d8fff1" stroke-opacity="0.25" stroke-width="10"/>
+    <path d="M684 274 C802 212 920 204 1014 244" stroke="#d8fff1" stroke-opacity="0.18" stroke-width="8"/>
+    <path d="M232 340 C360 304 458 308 562 352" stroke="#f4cc89" stroke-opacity="0.2" stroke-width="8"/>
+  </g>
+  <g fill="#f6e9cc" font-family="Georgia, 'Times New Roman', serif" text-anchor="middle">
+    <text x="600" y="150" font-size="62" letter-spacing="14">RIVER BANK WAITING</text>
+    <text x="600" y="1064" font-size="32" letter-spacing="8" fill="#d9f5e8">PORCH LIGHT DRIFT / MARSH DOG CIRCUITS</text>
+  </g>
+</svg>

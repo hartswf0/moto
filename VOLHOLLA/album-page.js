@@ -198,16 +198,57 @@
         ["Use", "Send as album object; each track has a direct song URL for debate and share loops."],
         ["OP2 Pair", "Launch with STOCHASTIC ELEPHANT for bright forensic contrast."]
       ]
+    },
+    river: {
+      key: "river",
+      pageSlug: "river-bank-waiting",
+      basePath: "../RIVER BANK WAITING/",
+      label: "RIVER BANK WAITING",
+      subtitle: "Marsh dogs / porch light drift / riverbank summer circuitry",
+      accentA: "#7bd6b2",
+      accentB: "#f0bf72",
+      coverImage: "../RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t.png",
+      defaultTrackArt: "../RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd.png",
+      hallKey: "river",
+      op2Key: "river",
+      op2Pair: "loom",
+      files: [
+        "River Bank Waiting - Best in the World - Sonauto.ogg",
+        "River Bank Waiting - Dunes and Dogs - Sonauto.ogg",
+        "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
+        "River Bank Waiting - Gold on the Groove - Sonauto.ogg",
+        "River Bank Waiting - Golden Mesh - Sonauto.ogg",
+        "River Bank Waiting - Marsh Light Inversions - Sonauto.ogg",
+        "River Bank Waiting - Pages and Strings - Sonauto.ogg",
+        "River Bank Waiting - Pawleys Island Breakout - Sonauto.ogg",
+        "River Bank Waiting - Pawleys Morning - Sonauto.ogg",
+        "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+        "River Bank Waiting - Resin Crown - Sonauto.ogg",
+        "River Bank Waiting - Spartina Sway - Sonauto.ogg",
+        "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
+        "River Bank Waiting - The Dogs Are Sleeping Now - Sonauto.ogg",
+        "River Bank Waiting - The Highlife Glitch - Sonauto.ogg",
+        "River Bank Waiting - The Morning Bark - Sonauto.ogg",
+        "River Bank Waiting - The Mutt on the Marsh - Sonauto.ogg",
+        "River Bank Waiting - The Pastiche of Super Dad - Sonauto.ogg",
+        "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Marsh shimmer / porch-light rhythm / dog-bark ghost pop"],
+        ["Use", "Standalone album page for direct sharing, with Hall + song-page routes intact."],
+        ["OP2 Pair", "Launch with BREATH-THIEFS LOOM for warm nocturne contrast."]
+      ]
     }
   };
 
   function titleFromFilename(file) {
     return String(file || "")
       .replace(/^.*\//, "")
-      .replace(/\.mp3$/i, "")
+      .replace(/\.(?:mp3|ogg)$/i, "")
       .replace(/^\d+_/, "")
       .replace(/^coolradio\s*-\s*/i, "")
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
+      .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto$/i, "")
       .trim();
   }

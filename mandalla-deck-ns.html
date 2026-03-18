@@ -248,6 +248,7 @@
         { key: 'loom', label: 'LOOM' },
         { key: 'mitte', label: 'MITTE' },
         { key: 'moto', label: 'MOTO' },
+        { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
 
@@ -274,6 +275,8 @@
         const raw = (key || '').toLowerCase();
         const alias = raw === 'geometric-ghosts-of-mitte' || raw === 'geometric_ghosts_of_mitte' || raw === 'ghosts'
           ? 'mitte'
+          : raw === 'river-bank-waiting' || raw === 'river_bank_waiting' || raw === 'rbw'
+            ? 'river'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

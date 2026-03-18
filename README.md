@@ -20,7 +20,9 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `volholla`
 - `elephant`
 - `loom`
+- `mitte`
 - `moto`
+- `river`
 
 ### Single Mandalla
 
@@ -55,4 +57,4 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local MP3 files used directly by the pages.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river` currently uses `.ogg`.
