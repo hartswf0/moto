@@ -723,25 +723,56 @@
                 basePath: 'RIVER BANK WAITING/',
                 logic: 'Riverbank Relay',
                 files: [
+                    "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+                    "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
+                    "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
                     "River Bank Waiting - Best in the World - Sonauto.ogg",
                     "River Bank Waiting - Dunes and Dogs - Sonauto.ogg",
-                    "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
                     "River Bank Waiting - Gold on the Groove - Sonauto.ogg",
                     "River Bank Waiting - Golden Mesh - Sonauto.ogg",
                     "River Bank Waiting - Marsh Light Inversions - Sonauto.ogg",
                     "River Bank Waiting - Pages and Strings - Sonauto.ogg",
                     "River Bank Waiting - Pawleys Island Breakout - Sonauto.ogg",
                     "River Bank Waiting - Pawleys Morning - Sonauto.ogg",
-                    "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
                     "River Bank Waiting - Resin Crown - Sonauto.ogg",
                     "River Bank Waiting - Spartina Sway - Sonauto.ogg",
-                    "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
                     "River Bank Waiting - The Dogs Are Sleeping Now - Sonauto.ogg",
                     "River Bank Waiting - The Highlife Glitch - Sonauto.ogg",
                     "River Bank Waiting - The Morning Bark - Sonauto.ogg",
                     "River Bank Waiting - The Mutt on the Marsh - Sonauto.ogg",
                     "River Bank Waiting - The Pastiche of Super Dad - Sonauto.ogg",
                     "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
+                ]
+            },
+            crossroads: {
+                key: 'crossroads',
+                label: 'CROSSROADS AND CROWN',
+                short: 'CROSS',
+                basePath: 'CROSSROADS AND CROWN/',
+                logic: 'Crossroads Crown Relay',
+                files: [
+                    "Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto.ogg",
+                    "Chiptune Crossroads - Brooklyn Trinity Soul - Sonauto.ogg",
+                    "Chiptune Crossroads - Flatbush Breeze - Sonauto.ogg",
+                    "Chiptune Crossroads - Fourteenth Street Loop - Sonauto.ogg",
+                    "Chiptune Crossroads - Manifest Thermal Flow - Sonauto.ogg",
+                    "Chiptune Crossroads - Shaolin Shadowboxin' - Sonauto.ogg",
+                    "Chiptune Crossroads - Sidewalk Testimony - Sonauto.ogg",
+                    "Chiptune Crossroads - Spiral Parallel Soul - Sonauto.ogg",
+                    "Chiptune Crossroads - Vinyl Static Alchemy - Sonauto.ogg",
+                    "Crown On - Crown of Gold - Sonauto.ogg",
+                    "Crown On - Mogoya Spirit - Sonauto.ogg",
+                    "Crown On - Pews to the Plains - Sonauto.ogg",
+                    "Crown On - The Baltic Chill - Sonauto.ogg",
+                    "Crown On - Third Ward Dub - Sonauto.ogg",
+                    "Crown On - Wassoulou Crown - Sonauto.ogg",
+                    "Piassa State of Mind - Butter on the Wire - Sonauto.ogg",
+                    "Piassa State of Mind - Decolonial Stained Glass - Sonauto.ogg",
+                    "Piassa State of Mind - Midnight in Piassa - Sonauto.ogg",
+                    "Piassa State of Mind - Red Dirt Reel - Sonauto.ogg",
+                    "Remix of The Burn of Being - The Burn of Being - Sonauto.ogg",
+                    "The Sad God - Divine Melancholy - Sonauto.ogg",
+                    "The Sad God - Marble Run - Sonauto.ogg"
                 ]
             }
         };
@@ -754,6 +785,7 @@
                 .replace(/^coolradio\s*-\s*/i, '')
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
                 .replace(/^river bank waiting\s*-\s*/i, '')
+                .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto$/i, '')
                 .trim();
         }
@@ -779,6 +811,7 @@
             const v = String(raw || '').toLowerCase();
             if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
+            if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             return v;
         }
 

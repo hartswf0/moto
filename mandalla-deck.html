@@ -519,6 +519,7 @@
     { key:'loom', label:'Loom' },
     { key:'mitte', label:'Mitte' },
     { key:'moto', label:'Moto' },
+    { key:'crossroads', label:'Crossroads' },
     { key:'river', label:'River' },
     { key:'volholla', label:'Volholla' }
   ];
@@ -528,10 +529,19 @@
     { id:'mi-el', label:'Mitte × Elephant', a:'mitte', b:'elephant' },
     { id:'mi-lo', label:'Mitte × Loom', a:'mitte', b:'loom' },
     { id:'lo-mo', label:'Loom × Moto', a:'loom', b:'moto' },
+    { id:'cr-ri', label:'Crossroads × River', a:'crossroads', b:'river' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
   ];
+
+  function normalizeDeckInputKey(raw){
+    const v = String(raw || '').toLowerCase();
+    if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
+    if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
+    if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
+    return v;
+  }
 
   function mandallaUrl(albumKey, { embed=true } = {}){
     const p = new URLSearchParams();
@@ -600,7 +610,7 @@
   function setSrc(which, url){
     try{
       const raw = String(url || '').trim();
-      const keyHit = DECK_LIBRARY.find(d => d.key === raw.toLowerCase());
+      const keyHit = DECK_LIBRARY.find(d => d.key === normalizeDeckInputKey(raw));
       if (keyHit) {
         url = mandallaUrl(keyHit.key, { embed:true });
       }

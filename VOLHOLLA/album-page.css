@@ -241,7 +241,7 @@ body::before {
 
 @media (min-width: 860px) {
   .layout {
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1.12fr) minmax(360px, 1fr);
     align-items: start;
   }
 }
@@ -254,7 +254,7 @@ body::before {
 }
 
 .hero-panel {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .hero-grid {
@@ -263,7 +263,7 @@ body::before {
   padding: 12px;
 }
 
-@media (min-width: 680px) {
+@media (min-width: 1200px) {
   .hero-grid {
     grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
     align-items: start;
@@ -278,27 +278,48 @@ body::before {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.65), 0 6px 14px rgba(0,0,0,0.22);
 }
 
-.cover-head {
-  background: #141418;
-  color: #f3f3f3;
-  border-radius: 8px;
-  border: 1px solid rgba(0,0,0,0.4);
-  min-height: 26px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 0 8px;
-  margin-bottom: 8px;
-  box-shadow: inset 0 -2px 0 rgba(255,122,22,0.55);
+@media (min-width: 860px) {
+  .cover-frame {
+    position: sticky;
+    top: 98px;
+    z-index: 4;
+  }
 }
 
-.cover-head .mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.62rem;
+.cover-head {
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.52);
+  background: linear-gradient(180deg, rgba(20,20,24,0.98), rgba(15,16,20,0.98));
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+  gap: 6px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.05), 0 2px 0 rgba(0,0,0,0.26);
+}
+
+.cover-mini-btn {
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 999px;
+  min-height: 40px;
+  padding: 0 10px;
+  background: linear-gradient(180deg, rgba(42,44,52,0.98), rgba(25,26,31,0.98));
+  color: var(--text);
+  font-size: 0.74rem;
+  font-weight: 900;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #b8bcc6;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+
+.cover-mini-btn:active { transform: translateY(1px); }
+
+.cover-mini-btn.is-primary {
+  color: #1a0f03;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent-b, var(--ember)) 82%, white), var(--accent-a, var(--orange)));
 }
 
 .cover-square {
@@ -335,11 +356,23 @@ body::before {
 
 .cover-foot {
   margin-top: 8px;
+  display: block;
+}
+
+.track-shelf-open {
+  appearance: none;
+  width: 100%;
+  border: 1px solid rgba(30,38,28,0.28);
+  border-radius: 8px;
+  min-height: 42px;
+  padding: 0 12px;
   background: var(--lcd);
   color: var(--lcd-ink);
-  border-radius: 8px;
-  border: 2px solid #4a5446;
-  padding: 6px 8px;
+  font-size: 0.75rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -347,23 +380,13 @@ body::before {
   box-shadow: inset 0 4px 10px rgba(0,0,0,0.16);
 }
 
-.cover-foot .lcd-main {
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.72rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.track-shelf-open .count {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.68rem;
 }
 
-.cover-foot .lcd-meta {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.64rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  opacity: 0.85;
-  white-space: nowrap;
+.track-shelf-open .label {
+  opacity: 1;
 }
 
 .hero-text {
@@ -372,10 +395,7 @@ body::before {
 }
 
 .nav-rail {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  align-items: center;
+  display: none;
 }
 
 .nav-pill {
@@ -438,7 +458,7 @@ body::before {
 }
 
 .album-now-title {
-  font-size: 1rem;
+  font-size: 1.06rem;
   font-weight: 900;
   line-height: 1.12;
   white-space: nowrap;
@@ -451,6 +471,10 @@ body::before {
   font-size: 0.78rem;
   line-height: 1.25;
   margin-top: 3px;
+}
+
+.album-now-sub:empty {
+  display: none;
 }
 
 .album-time {
@@ -531,6 +555,27 @@ body::before {
     linear-gradient(180deg, #23262e, #13151a);
   box-shadow: 0 8px 18px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.07);
   animation: discSpin 2.7s linear infinite paused;
+  cursor: pointer;
+  transition: transform 140ms ease, box-shadow 140ms ease, border-color 140ms ease;
+}
+
+.disc:hover {
+  border-color: color-mix(in srgb, var(--accent-b, var(--ember)) 45%, rgba(0,0,0,0.65));
+  box-shadow: 0 10px 22px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.disc:active {
+  transform: scale(0.985);
+}
+
+.disc:focus-visible,
+.cover-mini-btn:focus-visible,
+.track-shelf-open:focus-visible,
+.track:focus-visible,
+.track-link:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent-b, var(--ember)) 82%, white);
+  outline-offset: 2px;
 }
 
 .disc::before {
@@ -605,14 +650,14 @@ body::before {
 
 .disc-readout .mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  color: var(--muted);
+  color: var(--accent-b, var(--ember));
   font-size: 0.62rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.11em;
   text-transform: uppercase;
 }
 
 .disc-readout .line {
-  font-size: 0.78rem;
+  font-size: 0.84rem;
   font-weight: 800;
   line-height: 1.15;
   white-space: nowrap;
@@ -635,15 +680,15 @@ body::before {
 
 .album-controls {
   display: grid;
-  grid-template-columns: 44px 1fr 44px;
+  grid-template-columns: 72px 1fr 72px;
   gap: 6px;
   margin-top: 8px;
 }
 
 .icon-btn {
-  padding: 0;
+  padding: 0 8px;
   min-width: 0;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
 }
 
 .play-btn {
@@ -777,8 +822,9 @@ body::before {
 
 .tracks-summary .title {
   margin: 0;
-  font-size: 0.92rem;
-  letter-spacing: 0.1em;
+  font-size: 0.94rem;
+  font-weight: 900;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
@@ -812,10 +858,10 @@ body::before {
   align-items: center;
   width: 100%;
   text-align: left;
-  min-height: 38px;
+  min-height: 40px;
   border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.04);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.06);
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.012));
   padding: 0 10px;
   color: inherit;
   cursor: pointer;
@@ -827,19 +873,21 @@ button.track {
 }
 
 .track-link {
-  width: 34px;
-  min-width: 34px;
-  height: 34px;
+  min-width: 58px;
+  height: 36px;
+  padding: 0 8px;
   border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.06);
-  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-  color: var(--muted);
+  border: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.012));
+  color: #d9d1c3;
   text-decoration: none;
   display: grid;
   place-items: center;
   box-shadow: 1px 1px 0 rgba(0,0,0,0.22);
   font-weight: 900;
-  font-size: 0.88rem;
+  font-size: 0.64rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .track-link:active { transform: translateY(1px); }
@@ -869,7 +917,8 @@ button.track {
 }
 
 .track-title {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  font-weight: 800;
   line-height: 1.2;
   white-space: nowrap;
   overflow: hidden;
@@ -1038,6 +1087,9 @@ button.track {
 
 @media (max-width: 560px) {
   .wrap { padding: 10px 10px 20px; }
+  .hero-grid { gap: 8px; }
+  .cover-frame { order: 2; }
+  .hero-text { order: 1; }
   .head { padding: 10px 10px 8px; }
   .title-wrap h1 { font-size: 0.9rem; }
   .title-wrap .sub { font-size: 0.72rem; }
@@ -1063,8 +1115,8 @@ button.track {
   .disc-readout .subline { font-size: 0.68rem; }
   .album-now-title { font-size: 0.92rem; }
   .album-now-sub { font-size: 0.74rem; }
-  .album-controls { grid-template-columns: 40px 1fr 40px; }
-  .nav-rail { gap: 5px; }
+  .album-controls { display: none; }
+  .cover-mini-btn { min-height: 40px; font-size: 0.68rem; }
   .nav-pill {
     min-height: 26px;
     font-size: 0.66rem;

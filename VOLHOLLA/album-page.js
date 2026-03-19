@@ -213,19 +213,19 @@
       op2Key: "river",
       op2Pair: "loom",
       files: [
+        "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+        "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
+        "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
         "River Bank Waiting - Best in the World - Sonauto.ogg",
         "River Bank Waiting - Dunes and Dogs - Sonauto.ogg",
-        "River Bank Waiting - F.D.T. (Frog Dragonfly Turtle) - Sonauto.ogg",
         "River Bank Waiting - Gold on the Groove - Sonauto.ogg",
         "River Bank Waiting - Golden Mesh - Sonauto.ogg",
         "River Bank Waiting - Marsh Light Inversions - Sonauto.ogg",
         "River Bank Waiting - Pages and Strings - Sonauto.ogg",
         "River Bank Waiting - Pawleys Island Breakout - Sonauto.ogg",
         "River Bank Waiting - Pawleys Morning - Sonauto.ogg",
-        "River Bank Waiting - Porch Light Pups - Sonauto.ogg",
         "River Bank Waiting - Resin Crown - Sonauto.ogg",
         "River Bank Waiting - Spartina Sway - Sonauto.ogg",
-        "River Bank Waiting - Streetlight Spiritual - Sonauto.ogg",
         "River Bank Waiting - The Dogs Are Sleeping Now - Sonauto.ogg",
         "River Bank Waiting - The Highlife Glitch - Sonauto.ogg",
         "River Bank Waiting - The Morning Bark - Sonauto.ogg",
@@ -238,6 +238,49 @@
         ["Use", "Standalone album page for direct sharing, with Hall + song-page routes intact."],
         ["OP2 Pair", "Launch with BREATH-THIEFS LOOM for warm nocturne contrast."]
       ]
+    },
+    crossroads: {
+      key: "crossroads",
+      pageSlug: "crossroads-and-crown",
+      basePath: "../CROSSROADS AND CROWN/",
+      label: "CROSSROADS AND CROWN",
+      subtitle: "Cross-city circuit hymns / crown dust / late-hour testimony",
+      accentA: "#d78b44",
+      accentB: "#d8d1a9",
+      coverImage: "../CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno.png",
+      defaultTrackArt: "../CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq.png",
+      hallKey: "crossroads",
+      op2Key: "crossroads",
+      op2Pair: "river",
+      files: [
+        "Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto.ogg",
+        "Chiptune Crossroads - Brooklyn Trinity Soul - Sonauto.ogg",
+        "Chiptune Crossroads - Flatbush Breeze - Sonauto.ogg",
+        "Chiptune Crossroads - Fourteenth Street Loop - Sonauto.ogg",
+        "Chiptune Crossroads - Manifest Thermal Flow - Sonauto.ogg",
+        "Chiptune Crossroads - Shaolin Shadowboxin' - Sonauto.ogg",
+        "Chiptune Crossroads - Sidewalk Testimony - Sonauto.ogg",
+        "Chiptune Crossroads - Spiral Parallel Soul - Sonauto.ogg",
+        "Chiptune Crossroads - Vinyl Static Alchemy - Sonauto.ogg",
+        "Crown On - Crown of Gold - Sonauto.ogg",
+        "Crown On - Mogoya Spirit - Sonauto.ogg",
+        "Crown On - Pews to the Plains - Sonauto.ogg",
+        "Crown On - The Baltic Chill - Sonauto.ogg",
+        "Crown On - Third Ward Dub - Sonauto.ogg",
+        "Crown On - Wassoulou Crown - Sonauto.ogg",
+        "Piassa State of Mind - Butter on the Wire - Sonauto.ogg",
+        "Piassa State of Mind - Decolonial Stained Glass - Sonauto.ogg",
+        "Piassa State of Mind - Midnight in Piassa - Sonauto.ogg",
+        "Piassa State of Mind - Red Dirt Reel - Sonauto.ogg",
+        "Remix of The Burn of Being - The Burn of Being - Sonauto.ogg",
+        "The Sad God - Divine Melancholy - Sonauto.ogg",
+        "The Sad God - Marble Run - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Cross-city relay / crown dust / Addis-Brooklyn after-hours circuitry"],
+        ["Use", "Standalone album page, shield hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with RIVER BANK WAITING for the current contrast deck."]
+      ]
     }
   };
 
@@ -249,6 +292,7 @@
       .replace(/^coolradio\s*-\s*/i, "")
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/^river bank waiting\s*-\s*/i, "")
+      .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto$/i, "")
       .trim();
   }
@@ -318,9 +362,9 @@
         <button class="track" type="button" data-track-index="${i}" aria-label="Play ${escapeHtml(titleFromFilename(file))}">
           <div class="track-no">${String(i + 1).padStart(2, "0")}</div>
           <div class="track-title">${escapeHtml(titleFromFilename(file))}</div>
-          <div class="track-cta" aria-hidden="true">▶</div>
+          <div class="track-cta" aria-hidden="true">Play</div>
         </button>
-        <a class="track-link" href="${escapeHtml(songPageHref(album, i))}" aria-label="Open song page for ${escapeHtml(titleFromFilename(file))}">↗</a>
+        <a class="track-link" href="${escapeHtml(songPageHref(album, i))}" aria-label="Open song page for ${escapeHtml(titleFromFilename(file))}">Open</a>
       </li>
     `).join("");
   }
@@ -375,11 +419,15 @@
       copyBtn: root.querySelector("#copyUrlBtn"),
       jumpTracksBtn: root.querySelector("#jumpTracksBtn"),
       jumpVisualsBtn: root.querySelector("#jumpVisualsBtn"),
+      unitOpenTracksBtn: root.querySelector("#unitOpenTracksBtn"),
       tracksPanel: root.querySelector("#albumTracksPanel"),
       visualsPanel: root.querySelector("#albumVisualsPanel"),
       playBtn: root.querySelector("#playAlbumBtn"),
       prevBtn: root.querySelector("#prevTrackBtn"),
       nextBtn: root.querySelector("#nextTrackBtn"),
+      unitPlayBtn: root.querySelector("#unitPlayAlbumBtn"),
+      unitPrevBtn: root.querySelector("#unitPrevTrackBtn"),
+      unitNextBtn: root.querySelector("#unitNextTrackBtn"),
       nowKicker: root.querySelector("#albumNowKicker"),
       nowTitle: root.querySelector("#albumNowTitle"),
       nowSub: root.querySelector("#albumNowSub"),
@@ -390,6 +438,7 @@
       discMark: root.querySelector("#discTrackMark"),
       discLine: root.querySelector("#discLine"),
       discSubline: root.querySelector("#discSubline"),
+      discTapTarget: root.querySelector(".disc"),
       trackBtns: Array.from(root.querySelectorAll("[data-track-index]"))
     };
 
@@ -405,7 +454,7 @@
         btn.classList.toggle("is-current", isCurrent);
         btn.classList.toggle("is-playing", isPlaying);
         const cta = btn.querySelector(".track-cta");
-        if (cta) cta.textContent = isPlaying ? "⏸" : "▶";
+        if (cta) cta.textContent = isPlaying ? "Pause" : "Play";
       });
     }
 
@@ -418,22 +467,23 @@
 
       if (!track) {
         if (els.playerShell) els.playerShell.classList.remove("is-playing");
-        if (els.nowKicker) els.nowKicker.textContent = "Ready";
+        if (els.nowKicker) els.nowKicker.textContent = `${String(tracks.length).padStart(2, "0")} tracks`;
         if (els.nowTitle) els.nowTitle.textContent = album.label;
-        if (els.nowSub) els.nowSub.textContent = "Tap Play Album or any track";
+        if (els.nowSub) els.nowSub.textContent = "";
         if (els.timeNow) els.timeNow.textContent = "0:00";
         if (els.timeTotal) els.timeTotal.textContent = "0:00";
         if (els.progressFill) els.progressFill.style.width = "0%";
         if (els.discTrackNo) els.discTrackNo.textContent = "--";
         if (els.discMark) els.discMark.textContent = "◎";
         if (els.discLine) els.discLine.textContent = "Album ready";
-        if (els.discSubline) els.discSubline.textContent = "Tap Play Album";
-        if (els.playBtn) els.playBtn.innerHTML = `<span aria-hidden="true">▶</span><span>Play Album</span>`;
+        if (els.discSubline) els.discSubline.textContent = "idle";
+        if (els.playBtn) els.playBtn.textContent = "Play Album";
+        if (els.unitPlayBtn) els.unitPlayBtn.textContent = "Play";
       } else {
         if (els.playerShell) els.playerShell.classList.toggle("is-playing", playing);
         if (els.nowKicker) els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
         if (els.nowTitle) els.nowTitle.textContent = track.title;
-        if (els.nowSub) els.nowSub.textContent = album.subtitle;
+        if (els.nowSub) els.nowSub.textContent = "";
         if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
         if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
         if (els.progressFill) els.progressFill.style.width = `${pct}%`;
@@ -441,7 +491,8 @@
         if (els.discMark) els.discMark.textContent = playing ? "◉" : "◎";
         if (els.discLine) els.discLine.textContent = track.title;
         if (els.discSubline) els.discSubline.textContent = playing ? "spinning" : "paused";
-        if (els.playBtn) els.playBtn.innerHTML = `<span aria-hidden="true">${playing ? "⏸" : "▶"}</span><span>${playing ? "Pause" : "Resume"}</span>`;
+        if (els.playBtn) els.playBtn.textContent = playing ? "Pause" : "Resume";
+        if (els.unitPlayBtn) els.unitPlayBtn.textContent = playing ? "Pause" : "Resume";
       }
       updateTrackButtons();
     }
@@ -514,14 +565,28 @@
         }
       }
       setTimeout(() => {
-        if (els.sendBtn) els.sendBtn.textContent = "↗ Send";
-        if (els.topShare) els.topShare.textContent = "↗ Send";
+        if (els.sendBtn) els.sendBtn.textContent = "Send";
+        if (els.topShare) els.topShare.textContent = "Send";
       }, 1200);
     }
 
     if (els.playBtn) els.playBtn.addEventListener("click", togglePlay);
     if (els.prevBtn) els.prevBtn.addEventListener("click", prevTrack);
     if (els.nextBtn) els.nextBtn.addEventListener("click", nextTrack);
+    if (els.unitPlayBtn) els.unitPlayBtn.addEventListener("click", togglePlay);
+    if (els.unitPrevBtn) els.unitPrevBtn.addEventListener("click", prevTrack);
+    if (els.unitNextBtn) els.unitNextBtn.addEventListener("click", nextTrack);
+    if (els.discTapTarget) {
+      els.discTapTarget.addEventListener("click", togglePlay);
+      els.discTapTarget.setAttribute("role", "button");
+      els.discTapTarget.setAttribute("tabindex", "0");
+      els.discTapTarget.setAttribute("aria-label", "Play or pause album");
+      els.discTapTarget.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        togglePlay();
+      });
+    }
     if (els.sendBtn) els.sendBtn.addEventListener("click", sharePage);
     if (els.topShare) els.topShare.addEventListener("click", sharePage);
     if (els.topCopyBtn) {
@@ -558,6 +623,12 @@
     }
     if (els.jumpTracksBtn) {
       els.jumpTracksBtn.addEventListener("click", () => {
+        if (els.tracksPanel) els.tracksPanel.open = true;
+        (els.tracksPanel || root.querySelector(".tracks-panel"))?.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    }
+    if (els.unitOpenTracksBtn) {
+      els.unitOpenTracksBtn.addEventListener("click", () => {
         if (els.tracksPanel) els.tracksPanel.open = true;
         (els.tracksPanel || root.querySelector(".tracks-panel"))?.scrollIntoView({ behavior: "smooth", block: "start" });
       });
@@ -644,13 +715,13 @@
               </div>
             </div>
             <div class="pills">
-              <button class="btn primary" type="button" id="sharePageBtn" aria-label="Share this album page">↗ Send</button>
+              <button class="btn primary" type="button" id="sharePageBtn" aria-label="Share this album page">Send</button>
               <details class="head-menu">
                 <summary class="btn ghost" aria-label="More album actions">⋯</summary>
                 <div class="head-menu-panel">
                   <a class="btn" href="${escapeHtml(hallHref)}" aria-label="Open library view for this album">Library</a>
                   <a class="btn" href="${escapeHtml(op2Href)}" aria-label="Open mix view for this album pair">Mix</a>
-                  <a class="btn" href="./index.html" aria-label="All album pages">↑ Albums</a>
+                  <a class="btn" href="./index.html" aria-label="All album pages">Albums</a>
                   <button class="btn" type="button" id="copyTopUrlBtn" aria-label="Copy album page URL">Copy URL</button>
                 </div>
               </details>
@@ -663,9 +734,10 @@
         <section class="panel hero-panel">
           <div class="hero-grid">
             <div class="cover-frame">
-              <div class="cover-head">
-                <span class="mono">Portable Album Unit</span>
-                <span class="mono">Side A / Archive</span>
+              <div class="cover-head" aria-label="Primary playback controls">
+                <button class="cover-mini-btn" type="button" id="unitPrevTrackBtn">Prev</button>
+                <button class="cover-mini-btn is-primary" type="button" id="unitPlayAlbumBtn">Play</button>
+                <button class="cover-mini-btn" type="button" id="unitNextTrackBtn">Next</button>
               </div>
               <div class="cover-square">
                 ${album.coverImage
@@ -673,17 +745,19 @@
                   : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, "tri")}</div>`}
               </div>
               <div class="cover-foot">
-                <div class="lcd-main">${escapeHtml(album.label)}</div>
-                <div class="lcd-meta">${String(album.files.length)} shields</div>
+                <button class="track-shelf-open" type="button" id="unitOpenTracksBtn">
+                  <span class="count">${String(album.files.length).padStart(2, "0")} tracks</span>
+                  <span class="label">Track List</span>
+                </button>
               </div>
             </div>
             <div class="hero-text">
               <div class="album-player" id="albumPlayerShell">
                 <div class="album-player-head">
                   <div class="album-now">
-                    <div class="album-now-kicker" id="albumNowKicker">Ready</div>
+                    <div class="album-now-kicker" id="albumNowKicker">${String(album.files.length).padStart(2, "0")} tracks</div>
                     <div class="album-now-title" id="albumNowTitle">${escapeHtml(album.label)}</div>
-                    <div class="album-now-sub" id="albumNowSub">Tap Play Album or any track</div>
+                    <div class="album-now-sub" id="albumNowSub"></div>
                   </div>
                   <div class="album-time">
                     <span id="albumTimeNow">0:00</span>
@@ -694,7 +768,7 @@
                 <div class="album-progress" aria-hidden="true">
                   <div class="album-progress-fill" id="albumProgressFill"></div>
                 </div>
-                <div class="disc-stage" aria-hidden="true">
+                <div class="disc-stage">
                   <div class="disc-wrap">
                     <div class="disc-shadow"></div>
                     <div class="disc">
@@ -709,29 +783,24 @@
                   <div class="disc-readout">
                     <div class="mono">Disc Viz</div>
                     <div class="line" id="discLine">${escapeHtml(album.label)}</div>
-                    <div class="subline" id="discSubline">Tap Play Album</div>
+                    <div class="subline" id="discSubline">idle</div>
                   </div>
                 </div>
                 <div class="album-controls">
-                  <button class="btn icon-btn" type="button" id="prevTrackBtn" aria-label="Previous track">⏮</button>
-                  <button class="btn primary play-btn" type="button" id="playAlbumBtn" aria-label="Play or pause album"><span aria-hidden="true">▶</span><span>Play Album</span></button>
-                  <button class="btn icon-btn" type="button" id="nextTrackBtn" aria-label="Next track">⏭</button>
+                  <button class="btn icon-btn" type="button" id="prevTrackBtn" aria-label="Previous track">Prev</button>
+                  <button class="btn primary play-btn" type="button" id="playAlbumBtn" aria-label="Play or pause album">Play Album</button>
+                  <button class="btn icon-btn" type="button" id="nextTrackBtn" aria-label="Next track">Next</button>
                 </div>
-              </div>
-              <div class="nav-rail" aria-label="Information architecture navigation">
-                <a class="nav-pill" href="./index.html" title="Go up to all albums">↑ Albums</a>
-                <button class="nav-pill" type="button" id="jumpTracksBtn" title="Open tracks drawer">↓ Tracks</button>
-                ${album.trackArtByTitle ? `<button class="nav-pill" type="button" id="jumpVisualsBtn" title="Open visuals drawer">↓ Visuals</button>` : ``}
               </div>
             </div>
           </div>
         </section>
 
-        <details class="panel tracks-panel" id="albumTracksPanel">
+        <details class="panel tracks-panel" id="albumTracksPanel" open>
           <summary class="tracks-summary">
             <span class="left">
               <span class="title">Tracks</span>
-              <span class="mono">${String(album.files.length)} / tap to play</span>
+              <span class="mono">${String(album.files.length)} items</span>
             </span>
             <span class="caret" aria-hidden="true">▾</span>
           </summary>
