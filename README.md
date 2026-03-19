@@ -26,6 +26,7 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `crossroads`
 - `solar`
 - `jukebox`
+- `cyber`
 
 ### Single Mandalla
 
@@ -50,8 +51,8 @@ The NS pages keep only core controls (album, play/pause, BPM) and remove setup p
 ### VOLHOLLA share routes
 
 - Album page: `VOLHOLLA/stochastic-elephant.html`
-- Song page: `VOLHOLLA/song.html?album=elephant&track=1`
-- Song embed: `VOLHOLLA/song.html?album=elephant&track=1&embed=1`
+- Song page: `VOLHOLLA/song-elephant-01.html`
+- Song embed: `VOLHOLLA/song-elephant-01.html?embed=1`
 
 ## GitHub Pages
 
@@ -60,4 +61,4 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, and `jukebox` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, and `cyber` currently use `.ogg`.

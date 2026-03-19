@@ -522,6 +522,7 @@
     { key:'crossroads', label:'Crossroads' },
     { key:'solar', label:'Solar' },
     { key:'jukebox', label:'Jukebox' },
+    { key:'cyber', label:'Cyber' },
     { key:'river', label:'River' },
     { key:'volholla', label:'Volholla' }
   ];
@@ -534,6 +535,7 @@
     { id:'cr-ri', label:'Crossroads × River', a:'crossroads', b:'river' },
     { id:'so-cr', label:'Solar × Crossroads', a:'solar', b:'crossroads' },
     { id:'ju-so', label:'Jukebox × Solar', a:'jukebox', b:'solar' },
+    { id:'cy-ju', label:'Cyber × Jukebox', a:'cyber', b:'jukebox' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -546,6 +548,7 @@
     if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
     if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
     if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
+    if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
     return v;
   }
 

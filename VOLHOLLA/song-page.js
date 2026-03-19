@@ -308,6 +308,49 @@
         "Jukebox Time Collapse - The Pines Are Hungry - Sonauto.ogg",
         "Jukebox Time Collapse - The Vampire Jig - Sonauto.ogg"
       ]
+    },
+    cyber: {
+      key: "cyber",
+      pageSlug: "cybernetic-winter",
+      basePath: "../CYBERNETIC WINTER/",
+      label: "CYBERNETIC WINTER",
+      subtitle: "Cold machine hymns / hearth logic / weather-coded drift",
+      accentA: "#7bb9dd",
+      accentB: "#d9edf6",
+      coverImage: "../CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
+      defaultTrackArt: "../CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
+      hallKey: "cyber",
+      op2Key: "cyber",
+      op2Pair: "jukebox",
+      files: [
+        "The Cybernetic Winter - Auditable Drift - Sonauto.ogg",
+        "The Cybernetic Winter - Blue Heat Clicking - Sonauto.ogg",
+        "The Cybernetic Winter - Breath Shelter Signal - Sonauto.ogg",
+        "The Cybernetic Winter - Copper Ticking Slow - Sonauto.ogg",
+        "The Cybernetic Winter - Crystal Syntax - Sonauto.ogg",
+        "The Cybernetic Winter - Felt and Frost - Sonauto.ogg",
+        "The Cybernetic Winter - Fire Built in Winter - Sonauto.ogg",
+        "The Cybernetic Winter - Humble Intelligence - Sonauto.ogg",
+        "The Cybernetic Winter - Interstellar Signal - Sonauto.ogg",
+        "The Cybernetic Winter - Iron Glass Reflecting - Sonauto.ogg",
+        "The Cybernetic Winter - Leash Made of Wishes - Sonauto.ogg",
+        "The Cybernetic Winter - Logic Feedback - Sonauto.ogg",
+        "The Cybernetic Winter - Paper Roof - Sonauto.ogg",
+        "The Cybernetic Winter - Probability Rain - Sonauto.ogg",
+        "The Cybernetic Winter - Survival Fire - Sonauto.ogg",
+        "The Cybernetic Winter - The Animal Fire - Sonauto.ogg",
+        "The Cybernetic Winter - The Beast in the Bolt - Sonauto.ogg",
+        "The Cybernetic Winter - The Burn of Being - Sonauto.ogg",
+        "The Cybernetic Winter - The Cold Reality - Sonauto.ogg",
+        "The Cybernetic Winter - The Cybernetic Hearth - Sonauto.ogg",
+        "The Cybernetic Winter - The Hard Truth of Winter - Sonauto.ogg",
+        "The Cybernetic Winter - The Hybrid Fence - Sonauto.ogg",
+        "The Cybernetic Winter - The Leash and Weather - Sonauto.ogg",
+        "The Cybernetic Winter - The Shelter of Words - Sonauto.ogg",
+        "The Cybernetic Winter - The Shivering Machine - Sonauto.ogg",
+        "The Cybernetic Winter - The Tool We Built - Sonauto.ogg",
+        "The Cybernetic Winter - Wood and Ash Logic - Sonauto.ogg"
+      ]
     }
   };
 
@@ -321,6 +364,7 @@
       .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/^solar reveries\s*-\s*/i, "")
       .replace(/^jukebox time collapse\s*-\s*/i, "")
+      .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -361,9 +405,8 @@
     `;
   }
 
-  function getAlbumFromParams() {
-    const params = new URLSearchParams(window.location.search);
-    const raw = (params.get("album") || "volholla").toLowerCase();
+  function normalizeAlbumInput(rawValue) {
+    const raw = String(rawValue || "volholla").toLowerCase();
     const key = raw === "river-bank-waiting" || raw === "river_bank_waiting" || raw === "rbw"
       ? "river"
       : raw === "crossroads-and-crown" || raw === "crossroads_and_crown" || raw === "cac"
@@ -372,8 +415,68 @@
           ? "solar"
           : raw === "jukebox-time-collapse" || raw === "jukebox_time_collapse" || raw === "jtc"
             ? "jukebox"
-          : raw;
-    return ALBUMS[key] || ALBUMS.volholla;
+            : raw === "cybernetic-winter" || raw === "cybernetic_winter" || raw === "cyber"
+              ? "cyber"
+            : raw;
+    return ALBUMS[key] ? key : "volholla";
+  }
+
+  function getAlbumFromContext(root) {
+    const dataAlbum = root?.getAttribute("data-album") || "";
+    if (dataAlbum) return ALBUMS[normalizeAlbumInput(dataAlbum)] || ALBUMS.volholla;
+    const params = new URLSearchParams(window.location.search);
+    return ALBUMS[normalizeAlbumInput(params.get("album"))] || ALBUMS.volholla;
+  }
+
+  function getTrackIndexFromContext(root, album, tracks) {
+    const dataTrack = root?.getAttribute("data-track");
+    if (dataTrack !== null && dataTrack !== "") {
+      const n = Number(dataTrack);
+      if (Number.isFinite(n)) {
+        if (n >= 1 && n <= tracks.length) return n - 1;
+        if (n >= 0 && n < tracks.length) return n;
+      }
+    }
+    return findTrackIndex(album, tracks);
+  }
+
+  function getSongPagePath(albumKey, trackIndex, opts = {}) {
+    const num = String(trackIndex + 1).padStart(2, "0");
+    const params = new URLSearchParams();
+    Object.entries(opts).forEach(([k, v]) => {
+      if (v === undefined || v === null || v === false) return;
+      params.set(k, String(v));
+    });
+    const query = params.toString();
+    return `./song-${albumKey}-${num}.html${query ? `?${query}` : ""}`;
+  }
+
+  function getAlbumFromParams() {
+    const params = new URLSearchParams(window.location.search);
+    return ALBUMS[normalizeAlbumInput(params.get("album"))] || ALBUMS.volholla;
+  }
+
+  function getLegacySongPagePath(albumKey, trackIndex, opts = {}) {
+    const params = new URLSearchParams();
+    params.set("album", albumKey);
+    params.set("track", String(trackIndex + 1));
+    Object.entries(opts).forEach(([k, v]) => {
+      if (v === undefined || v === null || v === false) return;
+      params.set(k, String(v));
+    });
+    return `./song.html?${params.toString()}`;
+  }
+
+  function getAbsoluteSongPagePath(albumKey, trackIndex, opts = {}) {
+    return getSongPagePath(albumKey, trackIndex, opts);
+  }
+
+  function songUrl(albumKey, trackIndex, opts = {}) {
+    return getAbsoluteSongPagePath(albumKey, trackIndex, opts);
+  }
+
+  function legacySongUrl(albumKey, trackIndex, opts = {}) {
+    return getLegacySongPagePath(albumKey, trackIndex, opts);
   }
 
   function trackArtFor(album, title, index) {
@@ -412,17 +515,6 @@
     return 0;
   }
 
-  function songUrl(albumKey, trackIndex, opts = {}) {
-    const params = new URLSearchParams();
-    params.set("album", albumKey);
-    params.set("track", String(trackIndex + 1));
-    Object.entries(opts).forEach(([k, v]) => {
-      if (v === undefined || v === null || v === false) return;
-      params.set(k, String(v));
-    });
-    return `./song.html?${params.toString()}`;
-  }
-
   function copyOrShare(url, title, text) {
     const data = { title, text, url };
     return (async () => {
@@ -454,9 +546,9 @@
   function mount() {
     const root = document.getElementById("songPageRoot");
     if (!root) return;
-    const album = getAlbumFromParams();
+    const album = getAlbumFromContext(root);
     const tracks = buildTracks(album);
-    let currentIndex = Math.max(0, Math.min(tracks.length - 1, findTrackIndex(album, tracks)));
+    let currentIndex = Math.max(0, Math.min(tracks.length - 1, getTrackIndexFromContext(root, album, tracks)));
     const embed = isEmbedMode();
     if (embed) document.body.classList.add("embed");
 

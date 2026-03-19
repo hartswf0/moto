@@ -353,6 +353,54 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with SOLAR REVERIES for a hot/cold contrast deck."]
       ]
+    },
+    cyber: {
+      key: "cyber",
+      pageSlug: "cybernetic-winter",
+      basePath: "../CYBERNETIC WINTER/",
+      label: "CYBERNETIC WINTER",
+      subtitle: "Cold machine hymns / hearth logic / weather-coded drift",
+      accentA: "#7bb9dd",
+      accentB: "#d9edf6",
+      coverImage: "../CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
+      defaultTrackArt: "../CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
+      hallKey: "cyber",
+      op2Key: "cyber",
+      op2Pair: "jukebox",
+      files: [
+        "The Cybernetic Winter - Auditable Drift - Sonauto.ogg",
+        "The Cybernetic Winter - Blue Heat Clicking - Sonauto.ogg",
+        "The Cybernetic Winter - Breath Shelter Signal - Sonauto.ogg",
+        "The Cybernetic Winter - Copper Ticking Slow - Sonauto.ogg",
+        "The Cybernetic Winter - Crystal Syntax - Sonauto.ogg",
+        "The Cybernetic Winter - Felt and Frost - Sonauto.ogg",
+        "The Cybernetic Winter - Fire Built in Winter - Sonauto.ogg",
+        "The Cybernetic Winter - Humble Intelligence - Sonauto.ogg",
+        "The Cybernetic Winter - Interstellar Signal - Sonauto.ogg",
+        "The Cybernetic Winter - Iron Glass Reflecting - Sonauto.ogg",
+        "The Cybernetic Winter - Leash Made of Wishes - Sonauto.ogg",
+        "The Cybernetic Winter - Logic Feedback - Sonauto.ogg",
+        "The Cybernetic Winter - Paper Roof - Sonauto.ogg",
+        "The Cybernetic Winter - Probability Rain - Sonauto.ogg",
+        "The Cybernetic Winter - Survival Fire - Sonauto.ogg",
+        "The Cybernetic Winter - The Animal Fire - Sonauto.ogg",
+        "The Cybernetic Winter - The Beast in the Bolt - Sonauto.ogg",
+        "The Cybernetic Winter - The Burn of Being - Sonauto.ogg",
+        "The Cybernetic Winter - The Cold Reality - Sonauto.ogg",
+        "The Cybernetic Winter - The Cybernetic Hearth - Sonauto.ogg",
+        "The Cybernetic Winter - The Hard Truth of Winter - Sonauto.ogg",
+        "The Cybernetic Winter - The Hybrid Fence - Sonauto.ogg",
+        "The Cybernetic Winter - The Leash and Weather - Sonauto.ogg",
+        "The Cybernetic Winter - The Shelter of Words - Sonauto.ogg",
+        "The Cybernetic Winter - The Shivering Machine - Sonauto.ogg",
+        "The Cybernetic Winter - The Tool We Built - Sonauto.ogg",
+        "The Cybernetic Winter - Wood and Ash Logic - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Winter engine relay / synthetic hearth glow / shelter-code testimony"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with JUKEBOX TIME COLLAPSE for a cold/ember contrast deck."]
+      ]
     }
   };
 
@@ -366,6 +414,7 @@
       .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/^solar reveries\s*-\s*/i, "")
       .replace(/^jukebox time collapse\s*-\s*/i, "")
+      .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -422,14 +471,14 @@
   }
 
   function songPageHref(album, index, extra = {}) {
+    const num = String(index + 1).padStart(2, "0");
     const params = new URLSearchParams();
-    params.set("album", album.key);
-    params.set("track", String(index + 1));
     Object.entries(extra).forEach(([k, v]) => {
       if (v === undefined || v === null || v === false) return;
       params.set(k, String(v));
     });
-    return `./song.html?${params.toString()}`;
+    const query = params.toString();
+    return `./song-${album.key}-${num}.html${query ? `?${query}` : ""}`;
   }
 
   function renderTrackList(album) {
