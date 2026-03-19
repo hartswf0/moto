@@ -1,0 +1,563 @@
+{
+  "generatedAt": "2026-03-19T06:51:06.684Z",
+  "outputRoot": "MEDIA_DERIVATIVES/images",
+  "profiles": {
+    "thumb": {
+      "maxEdge": 640,
+      "webpTargetBytes": 81920,
+      "jpegTargetBytes": 122880,
+      "startWebpQuality": 78,
+      "minWebpQuality": 48,
+      "startJpegQScale": 4,
+      "maxJpegQScale": 14,
+      "dimensionAttempts": 4
+    },
+    "cover": {
+      "maxEdge": 1600,
+      "webpTargetBytes": 389120,
+      "jpegTargetBytes": 532480,
+      "startWebpQuality": 80,
+      "minWebpQuality": 50,
+      "startJpegQScale": 4,
+      "maxJpegQScale": 12,
+      "dimensionAttempts": 4
+    },
+    "share": {
+      "fixedCanvas": true,
+      "width": 1200,
+      "height": 630,
+      "background": "0x111114",
+      "webpTargetBytes": 266240,
+      "jpegTargetBytes": 348160,
+      "startWebpQuality": 76,
+      "minWebpQuality": 46,
+      "startJpegQScale": 5,
+      "maxJpegQScale": 14,
+      "dimensionAttempts": 1
+    }
+  },
+  "items": {
+    "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png": {
+      "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.jpg",
+          "webpBytes": 81274,
+          "jpegBytes": 119904,
+          "webpQuality": 58,
+          "jpegQScale": 8
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.jpg",
+          "webpBytes": 373998,
+          "jpegBytes": 418046,
+          "webpQuality": 80,
+          "jpegQScale": 4
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.jpg",
+          "webpBytes": 122412,
+          "jpegBytes": 163772,
+          "webpQuality": 76,
+          "jpegQScale": 5
+        }
+      }
+    },
+    "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png": {
+      "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.jpg",
+          "webpBytes": 76816,
+          "jpegBytes": 121835,
+          "webpQuality": 78,
+          "jpegQScale": 4
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.jpg",
+          "webpBytes": 166742,
+          "jpegBytes": 259599,
+          "webpQuality": 80,
+          "jpegQScale": 4
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.jpg",
+          "webpBytes": 69166,
+          "jpegBytes": 115807,
+          "webpQuality": 76,
+          "jpegQScale": 5
+        }
+      }
+    },
+    "CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq.png": {
+      "source": "CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--thumb.jpg",
+          "webpBytes": 75340,
+          "jpegBytes": 112448,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--cover.jpg",
+          "webpBytes": 322338,
+          "jpegBytes": 460383,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--share.jpg",
+          "webpBytes": 66090,
+          "jpegBytes": 106056,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno.png": {
+      "source": "CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--thumb.jpg",
+          "webpBytes": 62702,
+          "jpegBytes": 95009,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--cover.jpg",
+          "webpBytes": 253640,
+          "jpegBytes": 378812,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--share.jpg",
+          "webpBytes": 54806,
+          "jpegBytes": 90574,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png": {
+      "source": "CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.jpg",
+          "webpBytes": 54328,
+          "jpegBytes": 87664,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.jpg",
+          "webpBytes": 231444,
+          "jpegBytes": 375347,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.jpg",
+          "webpBytes": 47730,
+          "jpegBytes": 84414,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "Gemini_Generated_Image_3gd4ys3gd4ys3gd4.png": {
+      "source": "Gemini_Generated_Image_3gd4ys3gd4ys3gd4.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.jpg",
+          "webpBytes": 9598,
+          "jpegBytes": 22015,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.jpg",
+          "webpBytes": 21076,
+          "jpegBytes": 46958,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.jpg",
+          "webpBytes": 9582,
+          "jpegBytes": 25484,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png": {
+      "source": "GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.jpg",
+          "webpBytes": 76604,
+          "jpegBytes": 105124,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.jpg",
+          "webpBytes": 325466,
+          "jpegBytes": 526957,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.jpg",
+          "webpBytes": 75156,
+          "jpegBytes": 119439,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png": {
+      "source": "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--thumb.jpg",
+          "webpBytes": 70436,
+          "jpegBytes": 106568,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--cover.jpg",
+          "webpBytes": 211162,
+          "jpegBytes": 311828,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--share.jpg",
+          "webpBytes": 67946,
+          "jpegBytes": 130656,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM.png": {
+      "source": "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--thumb.jpg",
+          "webpBytes": 58372,
+          "jpegBytes": 109645,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--cover.jpg",
+          "webpBytes": 114962,
+          "jpegBytes": 207780,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--share.jpg",
+          "webpBytes": 52976,
+          "jpegBytes": 103808,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "MOTO.png": {
+      "source": "MOTO.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/MOTO--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/MOTO--thumb.jpg",
+          "webpBytes": 61814,
+          "jpegBytes": 95168,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/MOTO--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/MOTO--cover.jpg",
+          "webpBytes": 66618,
+          "jpegBytes": 95168,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/MOTO--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/MOTO--share.jpg",
+          "webpBytes": 52974,
+          "jpegBytes": 96826,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM.png": {
+      "source": "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--thumb.jpg",
+          "webpBytes": 80522,
+          "jpegBytes": 104535,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--cover.jpg",
+          "webpBytes": 210492,
+          "jpegBytes": 287145,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--share.jpg",
+          "webpBytes": 78062,
+          "jpegBytes": 125197,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM.png": {
+      "source": "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--thumb.jpg",
+          "webpBytes": 68432,
+          "jpegBytes": 112525,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--cover.jpg",
+          "webpBytes": 139962,
+          "jpegBytes": 216245,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--share.jpg",
+          "webpBytes": 59970,
+          "jpegBytes": 106490,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png": {
+      "source": "NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.jpg",
+          "webpBytes": 52084,
+          "jpegBytes": 90194,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.jpg",
+          "webpBytes": 243368,
+          "jpegBytes": 381160,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.jpg",
+          "webpBytes": 45634,
+          "jpegBytes": 85598,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd.png": {
+      "source": "RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--thumb.jpg",
+          "webpBytes": 45040,
+          "jpegBytes": 73012,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--cover.jpg",
+          "webpBytes": 186754,
+          "jpegBytes": 289741,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--share.jpg",
+          "webpBytes": 39984,
+          "jpegBytes": 70292,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t.png": {
+      "source": "RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--thumb.jpg",
+          "webpBytes": 81736,
+          "jpegBytes": 107896,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--cover.jpg",
+          "webpBytes": 369894,
+          "jpegBytes": 432746,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--share.jpg",
+          "webpBytes": 82862,
+          "jpegBytes": 157533,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png": {
+      "source": "SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.jpg",
+          "webpBytes": 55016,
+          "jpegBytes": 91122,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.jpg",
+          "webpBytes": 258174,
+          "jpegBytes": 375251,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.jpg",
+          "webpBytes": 48348,
+          "jpegBytes": 87833,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png": {
+      "source": "THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.jpg",
+          "webpBytes": 25844,
+          "jpegBytes": 44249,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.jpg",
+          "webpBytes": 110894,
+          "jpegBytes": 181058,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.jpg",
+          "webpBytes": 59520,
+          "jpegBytes": 99740,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    },
+    "Volholla_ Glory Served Daily.png": {
+      "source": "Volholla_ Glory Served Daily.png",
+      "derivatives": {
+        "thumb": {
+          "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.jpg",
+          "webpBytes": 23382,
+          "jpegBytes": 68386,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "cover": {
+          "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.jpg",
+          "webpBytes": 45646,
+          "jpegBytes": 122006,
+          "webpQuality": null,
+          "jpegQScale": null
+        },
+        "share": {
+          "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.webp",
+          "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.jpg",
+          "webpBytes": 22390,
+          "jpegBytes": 69160,
+          "webpQuality": null,
+          "jpegQScale": null
+        }
+      }
+    }
+  }
+}

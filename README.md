@@ -29,6 +29,8 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `cyber`
 - `noservice`
 - `clinical`
+- `concreto`
+- `cypher`
 
 ### Single Mandalla
 
@@ -63,4 +65,23 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, and `noservice` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `noservice`, `concreto`, and `cypher` currently use `.ogg`.
+
+## Media Derivatives
+
+The repo now includes a simple local compression pipeline for backup delivery assets and future CDN migration.
+
+- Images: `node scripts/build-image-derivatives.mjs`
+- Audio: `node scripts/build-audio-derivatives.mjs`
+- Priority entry-point pass: `node scripts/build-priority-derivatives.mjs`
+- Combined album/media manifest: `node scripts/build-media-manifest.mjs`
+
+Useful flags:
+
+- `--match river` to limit work to matching files
+- `--limit 10` to cap the current run
+- `--dry-run` to plan outputs without writing files
+- `--force` to rebuild existing derivatives
+- `--out MEDIA_DERIVATIVES/images` or `--out MEDIA_DERIVATIVES/audio` to change output roots
+
+Generated outputs are mirrored under `MEDIA_DERIVATIVES/` and originals stay untouched.

@@ -23,6 +23,7 @@
   const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
     Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
   );
+  let mediaManifestPromise = null;
 
   const ALBUMS = {
     volholla: {
@@ -466,6 +467,81 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with NO SERVICE for the full split-catalog deck."]
       ]
+    },
+    concreto: {
+      key: "concreto",
+      pageSlug: "concreto",
+      basePath: "../CONCRETO y CYPHER/",
+      label: "CONCRETO",
+      subtitle: "Barrio blueprint rap / resistance architecture / asphalt testimony",
+      accentA: "#d98b57",
+      accentB: "#d7d0c0",
+      coverImage: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
+      defaultTrackArt: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
+      hallKey: "concreto",
+      op2Key: "concreto",
+      op2Pair: "cypher",
+      files: [
+        "Concreto y Cyphers - Warriors del Norte - Sonauto.ogg",
+        "Concreto y Cyphers - Unidad en el Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - Zapatillas en el Cemento - Sonauto.ogg",
+        "Concreto y Cyphers - Sangre y Zinc - Sonauto.ogg",
+        "Concreto y Cyphers - Sueño Hondureño - Sonauto.ogg",
+        "Concreto y Cyphers - The Knowledge Engine - Sonauto.ogg",
+        "Concreto y Cyphers - Grito de Barrio - Sonauto.ogg",
+        "Concreto y Cyphers - El Muro Gris (Resistencia) - Sonauto.ogg",
+        "Concreto y Cyphers - De la Calle al Aula - Sonauto.ogg",
+        "Concreto y Cyphers - B-Girl en Chamelecón - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura del Síntoma - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura del Poder - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura Anti-Gris - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Barrio blueprint rap / resistance masonry / street-knowledge relay"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CYPHER MIXTAPE for the split lyric/instrumental deck."]
+      ]
+    },
+    cypher: {
+      key: "cypher",
+      pageSlug: "cypher-mixtape",
+      basePath: "../CONCRETO y CYPHER/",
+      label: "CYPHER MIXTAPE",
+      subtitle: "Instrumental concrete breaks / ancestral machine drift / cypher-floor pressure",
+      accentA: "#78d7d2",
+      accentB: "#f0c56f",
+      coverImage: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
+      defaultTrackArt: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
+      hallKey: "cypher",
+      op2Key: "cypher",
+      op2Pair: "concreto",
+      files: [
+        "Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
+        "Concreto y Cyphers - Andean Cypher Break - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura Invisible_ El Override del Muro - Sonauto.ogg",
+        "Concreto y Cyphers - Atributos de Poder - Sonauto.ogg",
+        "Concreto y Cyphers - Clay and Iron Ritual - Sonauto.ogg",
+        "Concreto y Cyphers - El Quinto Elemento (Guerrero de Barro) - Sonauto.ogg",
+        "Concreto y Cyphers - Juicio en el Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - La Máquina de Cypher Ancestral - Sonauto.ogg",
+        "Concreto y Cyphers - La Máquina de Dios (Chamelecón) - Sonauto.ogg",
+        "Concreto y Cyphers - Mayan Bronx Altar - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Dios (God Sort 'Em Out) - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Guerra (Ritual Mix) - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Guerra_ Himno de Asfalto - Sonauto.ogg",
+        "Concreto y Cyphers - Monolito del Guerrero Vidente - Sonauto.ogg",
+        "Concreto y Cyphers - Resiliencia Rítmica (Del Altiplano al Bronx) - Sonauto.ogg",
+        "Concreto y Cyphers - Resistencia Ancestral (92 BPM) - Sonauto.ogg",
+        "Concreto y Cyphers - Stone and Concrete Spirit - Sonauto.ogg",
+        "Concreto y Cyphers - The Cypher of the Andes - Sonauto.ogg",
+        "Concreto y Cyphers - Trote de Cipher - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Instrumental cypher relay / concrete percussion / ancestral machine breakwork"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CONCRETO for the full split-catalog deck."]
+      ]
     }
   };
 
@@ -481,6 +557,7 @@
       .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
+      .replace(/^concreto y cyphers\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -497,6 +574,37 @@
       "\"": "&quot;",
       "'": "&#39;"
     }[m]));
+  }
+
+  function pageAssetPath(rootRelativePath) {
+    const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+    if (!raw) return "";
+    return raw.startsWith("VOLHOLLA/") ? `./${raw.slice("VOLHOLLA/".length)}` : `../${raw}`;
+  }
+
+  function isLowBandwidthConnection(connection) {
+    return Boolean(connection && (connection.saveData || ["slow-2g", "2g"].includes(String(connection.effectiveType || "").toLowerCase())));
+  }
+
+  function pickImageVariant(entry, kind) {
+    const variant = entry?.derivatives?.[kind] || entry?.derivatives?.cover || entry?.derivatives?.thumb || null;
+    return pageAssetPath(variant?.webp || variant?.jpeg || entry?.source || "");
+  }
+
+  function pickAudioVariant(entry, connection) {
+    if (!entry) return "";
+    const preferred = isLowBandwidthConnection(connection)
+      ? entry.derivatives?.fallback?.mp3 || entry.derivatives?.stream?.mp3 || entry.source
+      : entry.derivatives?.stream?.mp3 || entry.derivatives?.fallback?.mp3 || entry.source;
+    return pageAssetPath(preferred || "");
+  }
+
+  function loadMediaManifest() {
+    if (mediaManifestPromise) return mediaManifestPromise;
+    mediaManifestPromise = fetch("./media-manifest.json", { cache: "force-cache" })
+      .then((response) => response.ok ? response.json() : null)
+      .catch(() => null);
+    return mediaManifestPromise;
   }
 
   function shieldSvg(accentA, accentB, glyphMode) {
@@ -598,11 +706,18 @@
 
   function mountAlbumPlayer(root, album, pageUrl) {
     const tracks = buildTrackObjects(album);
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
+    const canWarmTrack = !connection || (!connection.saveData && !["slow-2g", "2g"].includes(String(connection.effectiveType || "").toLowerCase()));
     const audio = new Audio();
-    audio.preload = "metadata";
+    audio.preload = canWarmTrack ? "metadata" : "none";
     let currentIndex = -1;
+    let primedIndex = -1;
+    let hasPlaybackIntent = false;
+    let transportState = "idle";
+    let warmupTimer = 0;
 
     const els = {
+      coverImg: root.querySelector(".cover-square img"),
       playerShell: root.querySelector("#albumPlayerShell"),
       topShare: root.querySelector("#sharePageBtn"),
       topCopyBtn: root.querySelector("#copyTopUrlBtn"),
@@ -638,6 +753,84 @@
       return currentIndex >= 0 ? tracks[currentIndex] : null;
     }
 
+    function syncPlayerState() {
+      if (!els.playerShell) return;
+      const interactive = hasPlaybackIntent || currentIndex >= 0;
+      els.playerShell.classList.toggle("is-loading", interactive && transportState === "loading");
+      els.playerShell.classList.toggle("is-buffering", interactive && transportState === "buffering");
+      els.playerShell.classList.toggle("is-ready", interactive && (transportState === "ready" || transportState === "playing"));
+      els.playerShell.classList.toggle("is-error", transportState === "error");
+    }
+
+    function setTransportState(next) {
+      if (transportState === next) {
+        syncPlayerState();
+        return;
+      }
+      transportState = next;
+      syncPlayerState();
+      updateNowUI();
+    }
+
+    function setAudioSource(index) {
+      if (index < 0 || index >= tracks.length) return false;
+      if (audio.dataset.trackIndex === String(index) && audio.src) {
+        primedIndex = index;
+        return false;
+      }
+      primedIndex = index;
+      audio.dataset.trackIndex = String(index);
+      audio.src = tracks[index].src;
+      audio.load();
+      return true;
+    }
+
+    function scheduleWarmup(index) {
+      if (!canWarmTrack || index < 0 || index >= tracks.length) return;
+      const warm = () => {
+        if (hasPlaybackIntent || currentIndex >= 0 || audio.dataset.trackIndex) return;
+        setAudioSource(index);
+      };
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(warm, { timeout: 1400 });
+      } else {
+        warmupTimer = window.setTimeout(warm, 450);
+      }
+    }
+
+    function applyMediaManifest(manifestAlbum) {
+      if (!manifestAlbum) return;
+
+      const coverImage = pickImageVariant(manifestAlbum.cover, "cover");
+      const defaultTrackArt = pickImageVariant(manifestAlbum.defaultTrackArt, "cover") || coverImage;
+
+      if (coverImage) {
+        album.coverImage = coverImage;
+        if (els.coverImg) els.coverImg.src = encodeURI(coverImage);
+      }
+      if (defaultTrackArt) album.defaultTrackArt = defaultTrackArt;
+
+      if (Array.isArray(manifestAlbum.tracks)) {
+        manifestAlbum.tracks.forEach((manifestTrack, index) => {
+          const track = tracks[index];
+          if (!track) return;
+          const nextSrc = pickAudioVariant(manifestTrack.audio, connection);
+          if (nextSrc) track.src = encodeURI(nextSrc);
+          track.art = trackArtFor(album, track.title, index);
+        });
+      }
+
+      if (!hasPlaybackIntent) {
+        audio.removeAttribute("src");
+        audio.load();
+        delete audio.dataset.trackIndex;
+        primedIndex = -1;
+        scheduleWarmup(currentIndex >= 0 ? currentIndex : 0);
+      }
+
+      updateNowUI();
+    }
+
     function updateTrackButtons() {
       els.trackBtns.forEach((btn) => {
         const idx = Number(btn.getAttribute("data-track-index"));
@@ -652,7 +845,10 @@
 
     function updateNowUI() {
       const track = currentTrack();
-      const playing = Boolean(track) && !audio.paused;
+      const loading = hasPlaybackIntent && transportState === "loading";
+      const buffering = hasPlaybackIntent && transportState === "buffering";
+      const errored = transportState === "error";
+      const playing = Boolean(track) && transportState === "playing" && !audio.paused;
       const pct = Number.isFinite(audio.duration) && audio.duration > 0
         ? Math.max(0, Math.min(100, (audio.currentTime / audio.duration) * 100))
         : 0;
@@ -673,20 +869,40 @@
         if (els.unitPlayBtn) els.unitPlayBtn.textContent = "Play";
       } else {
         if (els.playerShell) els.playerShell.classList.toggle("is-playing", playing);
-        if (els.nowKicker) els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+        if (els.nowKicker) {
+          if (errored) els.nowKicker.textContent = "Load error";
+          else if (buffering) els.nowKicker.textContent = `Buffering ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+          else if (loading) els.nowKicker.textContent = `Loading ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+          else els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+        }
         if (els.nowTitle) els.nowTitle.textContent = track.title;
-        if (els.nowSub) els.nowSub.textContent = "";
+        if (els.nowSub) {
+          if (errored) els.nowSub.textContent = "Could not load track";
+          else if (buffering) els.nowSub.textContent = "Holding the stream steady";
+          else if (loading) els.nowSub.textContent = "Pulling audio into the player";
+          else els.nowSub.textContent = "";
+        }
         if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
         if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
         if (els.progressFill) els.progressFill.style.width = `${pct}%`;
         if (els.discTrackNo) els.discTrackNo.textContent = String(currentIndex + 1).padStart(2, "0");
-        if (els.discMark) els.discMark.textContent = playing ? "◉" : "◎";
+        if (els.discMark) {
+          if (errored) els.discMark.textContent = "!";
+          else if (loading || buffering) els.discMark.textContent = "...";
+          else els.discMark.textContent = playing ? "◉" : "◎";
+        }
         if (els.discLine) els.discLine.textContent = track.title;
-        if (els.discSubline) els.discSubline.textContent = playing ? "spinning" : "paused";
-        if (els.playBtn) els.playBtn.textContent = playing ? "Pause" : "Resume";
-        if (els.unitPlayBtn) els.unitPlayBtn.textContent = playing ? "Pause" : "Resume";
+        if (els.discSubline) {
+          if (errored) els.discSubline.textContent = "load failed";
+          else if (buffering) els.discSubline.textContent = "buffering";
+          else if (loading) els.discSubline.textContent = "loading audio";
+          else els.discSubline.textContent = playing ? "spinning" : "paused";
+        }
+        if (els.playBtn) els.playBtn.textContent = loading || buffering ? "Loading..." : playing ? "Pause" : "Resume";
+        if (els.unitPlayBtn) els.unitPlayBtn.textContent = loading || buffering ? "Loading..." : playing ? "Pause" : "Resume";
       }
       updateTrackButtons();
+      syncPlayerState();
     }
 
     async function playCurrent() {
@@ -694,10 +910,14 @@
         await loadTrack(0, true);
         return;
       }
+      hasPlaybackIntent = true;
+      if (!audio.src && currentIndex >= 0) setAudioSource(currentIndex);
+      setTransportState("loading");
       try {
         await audio.play();
       } catch (err) {
         console.warn("Album page playback blocked", err);
+        setTransportState("ready");
       }
       updateNowUI();
     }
@@ -705,8 +925,9 @@
     async function loadTrack(index, autoplay = false) {
       if (index < 0 || index >= tracks.length) return;
       currentIndex = index;
-      audio.src = tracks[index].src;
-      audio.load();
+      hasPlaybackIntent = true;
+      setAudioSource(index);
+      setTransportState("loading");
       updateNowUI();
       if (autoplay) await playCurrent();
     }
@@ -842,17 +1063,45 @@
     });
 
     audio.addEventListener("play", updateNowUI);
-    audio.addEventListener("pause", updateNowUI);
+    audio.addEventListener("pause", () => {
+      if (transportState !== "error") setTransportState("ready");
+      updateNowUI();
+    });
     audio.addEventListener("timeupdate", updateNowUI);
-    audio.addEventListener("loadedmetadata", updateNowUI);
+    audio.addEventListener("loadstart", () => {
+      if (hasPlaybackIntent) setTransportState("loading");
+    });
+    audio.addEventListener("loadedmetadata", () => {
+      if (hasPlaybackIntent && audio.paused) setTransportState("ready");
+      updateNowUI();
+    });
+    audio.addEventListener("canplay", () => {
+      if (hasPlaybackIntent && audio.paused) setTransportState("ready");
+    });
+    audio.addEventListener("waiting", () => {
+      if (hasPlaybackIntent) setTransportState("buffering");
+    });
+    audio.addEventListener("seeking", () => {
+      if (hasPlaybackIntent) setTransportState("buffering");
+    });
+    audio.addEventListener("seeked", () => {
+      if (!hasPlaybackIntent) return;
+      setTransportState(audio.paused ? "ready" : "playing");
+    });
+    audio.addEventListener("playing", () => {
+      setTransportState("playing");
+      updateNowUI();
+    });
     audio.addEventListener("ended", () => nextTrack(true));
     audio.addEventListener("error", () => {
+      setTransportState("error");
       if (els.nowKicker) els.nowKicker.textContent = "Error";
       if (els.nowSub) els.nowSub.textContent = "Could not load track";
     });
 
     updateNowUI();
-    root.__albumPage = { album, tracks, audio, loadTrack, togglePlay, nextTrack, prevTrack };
+    scheduleWarmup(0);
+    root.__albumPage = { album, tracks, audio, loadTrack, togglePlay, nextTrack, prevTrack, applyMediaManifest };
   }
 
   function copyOrShare(url, label) {
@@ -1009,6 +1258,9 @@
       </div>
     `;
     mountAlbumPlayer(root, album, pageUrl);
+    loadMediaManifest().then((manifest) => {
+      root.__albumPage?.applyMediaManifest?.(manifest?.albums?.[album.key] || null);
+    });
   }
 
   init();

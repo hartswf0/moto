@@ -1,0 +1,374 @@
+{
+  "generatedAt": "2026-03-19T06:51:10.091Z",
+  "outputRoot": "MEDIA_DERIVATIVES/audio",
+  "profiles": {
+    "stream": {
+      "suffix": "stream",
+      "codec": "libmp3lame",
+      "bitrate": "128k"
+    },
+    "fallback": {
+      "suffix": "fallback",
+      "codec": "libmp3lame",
+      "bitrate": "64k"
+    },
+    "preview": {
+      "suffix": "preview",
+      "codec": "libmp3lame",
+      "bitrate": "48k",
+      "previewSeconds": 30
+    }
+  },
+  "items": {
+    "CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg": {
+      "source": "CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
+      "durationSeconds": 69.109104,
+      "sourceBitRate": 97684,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--stream.mp3",
+          "bytes": 1106799,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--fallback.mp3",
+          "bytes": 553421,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto.ogg": {
+      "source": "CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto.ogg",
+      "durationSeconds": 148.614229,
+      "sourceBitRate": 96124,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--stream.mp3",
+          "bytes": 2378649,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--fallback.mp3",
+          "bytes": 1189346,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto.ogg": {
+      "source": "CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto.ogg",
+      "durationSeconds": 217.716813,
+      "sourceBitRate": 102576,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--stream.mp3",
+          "bytes": 3484569,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--fallback.mp3",
+          "bytes": 1742306,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto.ogg": {
+      "source": "CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto.ogg",
+      "durationSeconds": 189.574229,
+      "sourceBitRate": 100390,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--stream.mp3",
+          "bytes": 3034009,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--fallback.mp3",
+          "bytes": 1517026,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3": {
+      "source": "GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
+      "durationSeconds": 117.472653,
+      "sourceBitRate": 320074,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--stream.mp3",
+          "bytes": 1880024,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--fallback.mp3",
+          "bytes": 940034,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg": {
+      "source": "JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg",
+      "durationSeconds": 143.505833,
+      "sourceBitRate": 101247,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--stream.mp3",
+          "bytes": 2297147,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--fallback.mp3",
+          "bytes": 1148595,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "MOTO/coolradio - Banjo in the Shrine - Sonauto.mp3": {
+      "source": "MOTO/coolradio - Banjo in the Shrine - Sonauto.mp3",
+      "durationSeconds": 146.886531,
+      "sourceBitRate": 320059,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--stream.mp3",
+          "bytes": 2350646,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--fallback.mp3",
+          "bytes": 1175345,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto.ogg": {
+      "source": "NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto.ogg",
+      "durationSeconds": 132.963979,
+      "sourceBitRate": 99140,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--stream.mp3",
+          "bytes": 2128292,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--fallback.mp3",
+          "bytes": 1064168,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "NO SERVICE/Lyca_Stress_Me.mp3": {
+      "source": "NO SERVICE/Lyca_Stress_Me.mp3",
+      "durationSeconds": 30.772167,
+      "sourceBitRate": 193579,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--stream.mp3",
+          "bytes": 493235,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--fallback.mp3",
+          "bytes": 246639,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto.ogg": {
+      "source": "RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto.ogg",
+      "durationSeconds": 140.440792,
+      "sourceBitRate": 98015,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--stream.mp3",
+          "bytes": 2248246,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--fallback.mp3",
+          "bytes": 1124145,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto.ogg": {
+      "source": "SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto.ogg",
+      "durationSeconds": 134.728688,
+      "sourceBitRate": 73284,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--stream.mp3",
+          "bytes": 2156713,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--fallback.mp3",
+          "bytes": 1078378,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto.mp3": {
+      "source": "THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto.mp3",
+      "durationSeconds": 110.889796,
+      "sourceBitRate": 320078,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--stream.mp3",
+          "bytes": 1774698,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--fallback.mp3",
+          "bytes": 887371,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3": {
+      "source": "THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3",
+      "durationSeconds": 167.836735,
+      "sourceBitRate": 320051,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--stream.mp3",
+          "bytes": 2685849,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--fallback.mp3",
+          "bytes": 1342946,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    },
+    "VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto.mp3": {
+      "source": "VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto.mp3",
+      "durationSeconds": 177.449796,
+      "sourceBitRate": 320049,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--stream.mp3",
+          "bytes": 2839658,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--fallback.mp3",
+          "bytes": 1419851,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": null
+        }
+      }
+    }
+  }
+}

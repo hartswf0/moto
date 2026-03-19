@@ -1401,6 +1401,59 @@
                     "System_Error_Call_Failed.mp3",
                     "Virtual_Network_Operator.mp3"
                 ]
+            },
+            concreto: {
+                key: 'concreto',
+                label: 'CONCRETO',
+                shortLabel: 'CONCR',
+                libraryParam: 'concreto',
+                op2Pair: 'cypher',
+                basePath: 'CONCRETO y CYPHER/',
+                files: [
+                    "Concreto y Cyphers - Warriors del Norte - Sonauto.ogg",
+                    "Concreto y Cyphers - Unidad en el Cypher - Sonauto.ogg",
+                    "Concreto y Cyphers - Zapatillas en el Cemento - Sonauto.ogg",
+                    "Concreto y Cyphers - Sangre y Zinc - Sonauto.ogg",
+                    "Concreto y Cyphers - Sueño Hondureño - Sonauto.ogg",
+                    "Concreto y Cyphers - The Knowledge Engine - Sonauto.ogg",
+                    "Concreto y Cyphers - Grito de Barrio - Sonauto.ogg",
+                    "Concreto y Cyphers - El Muro Gris (Resistencia) - Sonauto.ogg",
+                    "Concreto y Cyphers - De la Calle al Aula - Sonauto.ogg",
+                    "Concreto y Cyphers - B-Girl en Chamelecón - Sonauto.ogg",
+                    "Concreto y Cyphers - Arquitectura del Síntoma - Sonauto.ogg",
+                    "Concreto y Cyphers - Arquitectura del Poder - Sonauto.ogg",
+                    "Concreto y Cyphers - Arquitectura Anti-Gris - Sonauto.ogg"
+                ]
+            },
+            cypher: {
+                key: 'cypher',
+                label: 'CYPHER MIXTAPE',
+                shortLabel: 'CYPHR',
+                libraryParam: 'cypher',
+                op2Pair: 'concreto',
+                basePath: 'CONCRETO y CYPHER/',
+                files: [
+                    "Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
+                    "Concreto y Cyphers - Andean Cypher Break - Sonauto.ogg",
+                    "Concreto y Cyphers - Arquitectura Invisible_ El Override del Muro - Sonauto.ogg",
+                    "Concreto y Cyphers - Atributos de Poder - Sonauto.ogg",
+                    "Concreto y Cyphers - Clay and Iron Ritual - Sonauto.ogg",
+                    "Concreto y Cyphers - El Quinto Elemento (Guerrero de Barro) - Sonauto.ogg",
+                    "Concreto y Cyphers - Juicio en el Cypher - Sonauto.ogg",
+                    "Concreto y Cyphers - La Máquina de Cypher Ancestral - Sonauto.ogg",
+                    "Concreto y Cyphers - La Máquina de Dios (Chamelecón) - Sonauto.ogg",
+                    "Concreto y Cyphers - Mayan Bronx Altar - Sonauto.ogg",
+                    "Concreto y Cyphers - Máquina de Cypher - Sonauto.ogg",
+                    "Concreto y Cyphers - Máquina de Dios (God Sort 'Em Out) - Sonauto.ogg",
+                    "Concreto y Cyphers - Máquina de Guerra (Ritual Mix) - Sonauto.ogg",
+                    "Concreto y Cyphers - Máquina de Guerra_ Himno de Asfalto - Sonauto.ogg",
+                    "Concreto y Cyphers - Monolito del Guerrero Vidente - Sonauto.ogg",
+                    "Concreto y Cyphers - Resiliencia Rítmica (Del Altiplano al Bronx) - Sonauto.ogg",
+                    "Concreto y Cyphers - Resistencia Ancestral (92 BPM) - Sonauto.ogg",
+                    "Concreto y Cyphers - Stone and Concrete Spirit - Sonauto.ogg",
+                    "Concreto y Cyphers - The Cypher of the Andes - Sonauto.ogg",
+                    "Concreto y Cyphers - Trote de Cipher - Sonauto.ogg"
+                ]
             }
         };
 
@@ -1416,6 +1469,7 @@
                 .replace(/^jukebox time collapse\s*-\s*/i, '')
                 .replace(/^the cybernetic winter\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
+                .replace(/^concreto y cyphers\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
@@ -1437,6 +1491,8 @@
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
             if (v === 'no-service' || v === 'no_service' || v === 'noservice') return 'noservice';
             if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
+            if (v === 'concreto') return 'concreto';
+            if (v === 'cypher-mixtape' || v === 'cypher_mixtape' || v === 'cypher') return 'cypher';
             if (ALBUM_CRATE_DEFS[v]) return v;
             return 'loom';
         }

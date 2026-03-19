@@ -23,6 +23,7 @@
   const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
     Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
   );
+  let mediaManifestPromise = null;
 
   const ALBUMS = {
     volholla: {
@@ -406,6 +407,71 @@
         "System_Error_Call_Failed.mp3",
         "Virtual_Network_Operator.mp3"
       ]
+    },
+    concreto: {
+      key: "concreto",
+      pageSlug: "concreto",
+      basePath: "../CONCRETO y CYPHER/",
+      label: "CONCRETO",
+      subtitle: "Barrio blueprint rap / resistance architecture / asphalt testimony",
+      accentA: "#d98b57",
+      accentB: "#d7d0c0",
+      coverImage: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
+      defaultTrackArt: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
+      hallKey: "concreto",
+      op2Key: "concreto",
+      op2Pair: "cypher",
+      files: [
+        "Concreto y Cyphers - Warriors del Norte - Sonauto.ogg",
+        "Concreto y Cyphers - Unidad en el Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - Zapatillas en el Cemento - Sonauto.ogg",
+        "Concreto y Cyphers - Sangre y Zinc - Sonauto.ogg",
+        "Concreto y Cyphers - Sueño Hondureño - Sonauto.ogg",
+        "Concreto y Cyphers - The Knowledge Engine - Sonauto.ogg",
+        "Concreto y Cyphers - Grito de Barrio - Sonauto.ogg",
+        "Concreto y Cyphers - El Muro Gris (Resistencia) - Sonauto.ogg",
+        "Concreto y Cyphers - De la Calle al Aula - Sonauto.ogg",
+        "Concreto y Cyphers - B-Girl en Chamelecón - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura del Síntoma - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura del Poder - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura Anti-Gris - Sonauto.ogg"
+      ]
+    },
+    cypher: {
+      key: "cypher",
+      pageSlug: "cypher-mixtape",
+      basePath: "../CONCRETO y CYPHER/",
+      label: "CYPHER MIXTAPE",
+      subtitle: "Instrumental concrete breaks / ancestral machine drift / cypher-floor pressure",
+      accentA: "#78d7d2",
+      accentB: "#f0c56f",
+      coverImage: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
+      defaultTrackArt: "../CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
+      hallKey: "cypher",
+      op2Key: "cypher",
+      op2Pair: "concreto",
+      files: [
+        "Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
+        "Concreto y Cyphers - Andean Cypher Break - Sonauto.ogg",
+        "Concreto y Cyphers - Arquitectura Invisible_ El Override del Muro - Sonauto.ogg",
+        "Concreto y Cyphers - Atributos de Poder - Sonauto.ogg",
+        "Concreto y Cyphers - Clay and Iron Ritual - Sonauto.ogg",
+        "Concreto y Cyphers - El Quinto Elemento (Guerrero de Barro) - Sonauto.ogg",
+        "Concreto y Cyphers - Juicio en el Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - La Máquina de Cypher Ancestral - Sonauto.ogg",
+        "Concreto y Cyphers - La Máquina de Dios (Chamelecón) - Sonauto.ogg",
+        "Concreto y Cyphers - Mayan Bronx Altar - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Cypher - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Dios (God Sort 'Em Out) - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Guerra (Ritual Mix) - Sonauto.ogg",
+        "Concreto y Cyphers - Máquina de Guerra_ Himno de Asfalto - Sonauto.ogg",
+        "Concreto y Cyphers - Monolito del Guerrero Vidente - Sonauto.ogg",
+        "Concreto y Cyphers - Resiliencia Rítmica (Del Altiplano al Bronx) - Sonauto.ogg",
+        "Concreto y Cyphers - Resistencia Ancestral (92 BPM) - Sonauto.ogg",
+        "Concreto y Cyphers - Stone and Concrete Spirit - Sonauto.ogg",
+        "Concreto y Cyphers - The Cypher of the Andes - Sonauto.ogg",
+        "Concreto y Cyphers - Trote de Cipher - Sonauto.ogg"
+      ]
     }
   };
 
@@ -421,6 +487,7 @@
       .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
+      .replace(/^concreto y cyphers\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -437,6 +504,37 @@
       "\"": "&quot;",
       "'": "&#39;"
     }[m]));
+  }
+
+  function pageAssetPath(rootRelativePath) {
+    const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+    if (!raw) return "";
+    return raw.startsWith("VOLHOLLA/") ? `./${raw.slice("VOLHOLLA/".length)}` : `../${raw}`;
+  }
+
+  function isLowBandwidthConnection(connection) {
+    return Boolean(connection && (connection.saveData || ["slow-2g", "2g"].includes(String(connection.effectiveType || "").toLowerCase())));
+  }
+
+  function pickImageVariant(entry, kind) {
+    const variant = entry?.derivatives?.[kind] || entry?.derivatives?.cover || entry?.derivatives?.thumb || null;
+    return pageAssetPath(variant?.webp || variant?.jpeg || entry?.source || "");
+  }
+
+  function pickAudioVariant(entry, connection) {
+    if (!entry) return "";
+    const preferred = isLowBandwidthConnection(connection)
+      ? entry.derivatives?.fallback?.mp3 || entry.derivatives?.stream?.mp3 || entry.source
+      : entry.derivatives?.stream?.mp3 || entry.derivatives?.fallback?.mp3 || entry.source;
+    return pageAssetPath(preferred || "");
+  }
+
+  function loadMediaManifest() {
+    if (mediaManifestPromise) return mediaManifestPromise;
+    mediaManifestPromise = fetch("./media-manifest.json", { cache: "force-cache" })
+      .then((response) => response.ok ? response.json() : null)
+      .catch(() => null);
+    return mediaManifestPromise;
   }
 
   function fmtTime(sec) {
@@ -478,6 +576,10 @@
                 ? "noservice"
                 : raw === "clinical-heat" || raw === "clinical_heat" || raw === "clinical"
                   ? "clinical"
+                  : raw === "concreto"
+                    ? "concreto"
+                    : raw === "cypher-mixtape" || raw === "cypher_mixtape" || raw === "cypher"
+                      ? "cypher"
             : raw;
     return ALBUMS[key] ? key : "volholla";
   }
@@ -616,9 +718,14 @@
     document.body.style.setProperty("--accent-a", album.accentA);
     document.body.style.setProperty("--accent-b", album.accentB);
 
+    const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
+    const canWarmTrack = !connection || (!connection.saveData && !["slow-2g", "2g"].includes(String(connection.effectiveType || "").toLowerCase()));
     const audio = new Audio();
-    audio.preload = "metadata";
+    audio.preload = canWarmTrack ? "metadata" : "none";
     let isSeeking = false;
+    let hasPlaybackIntent = false;
+    let transportState = "idle";
+    let warmupTimer = 0;
 
     const hallHrefFor = () => `./index.html?album=${encodeURIComponent(album.hallKey)}`;
     const op2HrefFor = () => `../op2.html?a=${encodeURIComponent(album.op2Key)}&b=${encodeURIComponent(album.op2Pair)}`;
@@ -813,6 +920,7 @@
       discTrackMark: document.getElementById("discTrackMark"),
       discLine: document.getElementById("discLine"),
       discSubline: document.getElementById("discSubline"),
+      discTapTarget: root.querySelector(".disc"),
       trackBtns: Array.from(root.querySelectorAll(".track-btn"))
     };
     let trackPulseTimer = 0;
@@ -831,6 +939,77 @@
         nodes.forEach((node) => node.classList.remove("surface-pulse"));
         trackPulseTimer = 0;
       }, 260);
+    }
+
+    function syncTransportState() {
+      const interactive = hasPlaybackIntent || wantsAutoplay();
+      if (els.panel) {
+        els.panel.classList.toggle("is-loading", interactive && transportState === "loading");
+        els.panel.classList.toggle("is-buffering", interactive && transportState === "buffering");
+        els.panel.classList.toggle("is-ready", interactive && (transportState === "ready" || transportState === "playing"));
+        els.panel.classList.toggle("is-error", transportState === "error");
+      }
+    }
+
+    function setTransportState(next) {
+      if (transportState === next) {
+        syncTransportState();
+        return;
+      }
+      transportState = next;
+      syncTransportState();
+      updateNowUI();
+    }
+
+    function setAudioSource(index) {
+      if (index < 0 || index >= tracks.length) return false;
+      if (audio.dataset.trackIndex === String(index) && audio.src) return false;
+      audio.dataset.trackIndex = String(index);
+      audio.src = currentTrack().src;
+      audio.load();
+      return true;
+    }
+
+    function scheduleWarmup(index) {
+      if (!canWarmTrack || index < 0 || index >= tracks.length) return;
+      const warm = () => {
+        if (hasPlaybackIntent || audio.dataset.trackIndex) return;
+        setAudioSource(index);
+      };
+      if ("requestIdleCallback" in window) {
+        window.requestIdleCallback(warm, { timeout: 1200 });
+      } else {
+        warmupTimer = window.setTimeout(warm, 350);
+      }
+    }
+
+    function applyMediaManifest(manifestAlbum) {
+      if (!manifestAlbum) return;
+
+      const coverImage = pickImageVariant(manifestAlbum.cover, "cover");
+      const defaultTrackArt = pickImageVariant(manifestAlbum.defaultTrackArt, "cover") || coverImage;
+
+      if (coverImage) album.coverImage = coverImage;
+      if (defaultTrackArt) album.defaultTrackArt = defaultTrackArt;
+
+      if (Array.isArray(manifestAlbum.tracks)) {
+        manifestAlbum.tracks.forEach((manifestTrack, index) => {
+          const track = tracks[index];
+          if (!track) return;
+          const nextSrc = pickAudioVariant(manifestTrack.audio, connection);
+          if (nextSrc) track.src = encodeURI(nextSrc);
+          track.art = trackArtFor(album, track.title, index);
+        });
+      }
+
+      if (!hasPlaybackIntent) {
+        audio.removeAttribute("src");
+        audio.load();
+        delete audio.dataset.trackIndex;
+        scheduleWarmup(currentIndex);
+      }
+
+      updateNowUI();
     }
 
     function setSeekPct(rawPct) {
@@ -925,6 +1104,12 @@
 
     function updateArt(track) {
       const artSrc = getTrackArt(track);
+      if (els.artSquare) {
+        els.artSquare.classList.remove("is-art-swapping");
+        void els.artSquare.offsetWidth;
+        els.artSquare.classList.add("is-art-swapping");
+        window.setTimeout(() => els.artSquare?.classList.remove("is-art-swapping"), 260);
+      }
       if (els.songArtImg && artSrc) {
         els.songArtImg.src = encodeURI(artSrc);
         els.songArtImg.alt = `${track.title} artwork`;
@@ -940,12 +1125,17 @@
 
     function setPlayButton(playing) {
       if (!els.playBtn) return;
-      els.playBtn.innerHTML = `<span aria-hidden="true">${playing ? "⏸" : "▶"}</span><span>${playing ? "Pause" : "Play"}</span>`;
+      const loading = hasPlaybackIntent && (transportState === "loading" || transportState === "buffering");
+      els.playBtn.innerHTML = `<span aria-hidden="true">${loading ? "..." : playing ? "⏸" : "▶"}</span><span>${loading ? "Loading..." : playing ? "Pause" : "Play"}</span>`;
     }
 
     function updateNowUI() {
       const track = currentTrack();
-      const playing = !audio.paused && !!audio.src;
+      const interactive = hasPlaybackIntent || wantsAutoplay();
+      const loading = interactive && transportState === "loading";
+      const buffering = interactive && transportState === "buffering";
+      const errored = transportState === "error";
+      const playing = !audio.paused && !!audio.src && transportState === "playing";
       const pct = Number.isFinite(audio.duration) && audio.duration > 0
         ? Math.max(0, Math.min(100, (audio.currentTime / audio.duration) * 100))
         : 0;
@@ -954,9 +1144,19 @@
       if (els.panel) els.panel.classList.toggle("is-playing", playing);
       if (els.headSongTitle) els.headSongTitle.textContent = track.title;
       if (els.lcdTrackTitle) els.lcdTrackTitle.textContent = track.title;
-      if (els.nowKicker) els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+      if (els.nowKicker) {
+        if (errored) els.nowKicker.textContent = "Load error";
+        else if (buffering) els.nowKicker.textContent = `Buffering ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+        else if (loading) els.nowKicker.textContent = `Loading ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+        else els.nowKicker.textContent = `${playing ? "Playing" : "Paused"} ${String(currentIndex + 1).padStart(2, "0")} / ${tracks.length}`;
+      }
       if (els.nowLine) els.nowLine.textContent = track.title;
-      if (els.nowSubline) els.nowSubline.textContent = playing ? album.subtitle : "Tap Play";
+      if (els.nowSubline) {
+        if (errored) els.nowSubline.textContent = "Could not load track";
+        else if (buffering) els.nowSubline.textContent = "Holding the buffer steady";
+        else if (loading) els.nowSubline.textContent = "Pulling audio into the player";
+        else els.nowSubline.textContent = playing ? album.subtitle : "Tap Play";
+      }
       if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
       if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
       if (els.seekNow) els.seekNow.textContent = fmtTime(audio.currentTime);
@@ -969,13 +1169,23 @@
           : "0";
       }
       if (els.discTrackNo) els.discTrackNo.textContent = String(currentIndex + 1).padStart(2, "0");
-      if (els.discTrackMark) els.discTrackMark.textContent = playing ? "◉" : "◎";
+      if (els.discTrackMark) {
+        if (errored) els.discTrackMark.textContent = "!";
+        else if (loading || buffering) els.discTrackMark.textContent = "...";
+        else els.discTrackMark.textContent = playing ? "◉" : "◎";
+      }
       if (els.discLine) els.discLine.textContent = track.title;
-      if (els.discSubline) els.discSubline.textContent = playing ? "spinning" : "paused";
+      if (els.discSubline) {
+        if (errored) els.discSubline.textContent = "load failed";
+        else if (buffering) els.discSubline.textContent = "buffering";
+        else if (loading) els.discSubline.textContent = "loading audio";
+        else els.discSubline.textContent = playing ? "spinning" : "paused";
+      }
       if (els.embedCodeBox) els.embedCodeBox.textContent = currentEmbedCode();
       setPlayButton(playing);
       updateTrackListUI();
       updateArt(track);
+      syncTransportState();
       try {
         const nextUrl = songUrl(album.key, currentIndex, embed ? { embed: 1 } : {});
         window.history.replaceState({}, "", nextUrl);
@@ -987,18 +1197,23 @@
     async function loadTrack(index, autoplay = false) {
       if (index < 0 || index >= tracks.length) return;
       currentIndex = index;
-      audio.src = currentTrack().src;
-      audio.load();
+      hasPlaybackIntent = true;
+      setAudioSource(index);
+      setTransportState("loading");
       pulseControlSurface();
       updateNowUI();
       if (autoplay) await playCurrent();
     }
 
     async function playCurrent() {
+      hasPlaybackIntent = true;
+      if (!audio.src) setAudioSource(currentIndex);
+      setTransportState("loading");
       try {
         await audio.play();
       } catch (err) {
         console.warn("Song page playback blocked", err);
+        setTransportState("ready");
       }
       updateNowUI();
     }
@@ -1064,6 +1279,18 @@
     if (els.playBtn) els.playBtn.addEventListener("click", () => { vibrate(10); togglePlay(); });
     if (els.prevBtn) els.prevBtn.addEventListener("click", () => { vibrate(8); prevTrack(); });
     if (els.nextBtn) els.nextBtn.addEventListener("click", () => { vibrate(8); nextTrack(false); });
+    if (els.discTapTarget) {
+      els.discTapTarget.addEventListener("click", () => { vibrate(8); togglePlay(); });
+      els.discTapTarget.setAttribute("role", "button");
+      els.discTapTarget.setAttribute("tabindex", "0");
+      els.discTapTarget.setAttribute("aria-label", "Play or pause track");
+      els.discTapTarget.addEventListener("keydown", (event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        vibrate(8);
+        togglePlay();
+      });
+    }
 
     els.trackBtns.forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -1103,16 +1330,49 @@
     }
 
     audio.addEventListener("play", updateNowUI);
-    audio.addEventListener("pause", updateNowUI);
+    audio.addEventListener("pause", () => {
+      if (transportState !== "error") setTransportState("ready");
+      updateNowUI();
+    });
     audio.addEventListener("timeupdate", updateNowUI);
-    audio.addEventListener("loadedmetadata", updateNowUI);
+    audio.addEventListener("loadstart", () => {
+      if (hasPlaybackIntent || wantsAutoplay()) setTransportState("loading");
+    });
+    audio.addEventListener("loadedmetadata", () => {
+      if (hasPlaybackIntent || wantsAutoplay()) {
+        if (audio.paused) setTransportState("ready");
+      }
+      updateNowUI();
+    });
+    audio.addEventListener("canplay", () => {
+      if ((hasPlaybackIntent || wantsAutoplay()) && audio.paused) setTransportState("ready");
+    });
+    audio.addEventListener("waiting", () => {
+      if (hasPlaybackIntent || wantsAutoplay()) setTransportState("buffering");
+    });
+    audio.addEventListener("seeking", () => {
+      if (hasPlaybackIntent || wantsAutoplay()) setTransportState("buffering");
+    });
+    audio.addEventListener("seeked", () => {
+      if (!(hasPlaybackIntent || wantsAutoplay())) return;
+      setTransportState(audio.paused ? "ready" : "playing");
+    });
+    audio.addEventListener("playing", () => {
+      setTransportState("playing");
+      updateNowUI();
+    });
     audio.addEventListener("ended", () => nextTrack(true));
     audio.addEventListener("error", () => {
+      setTransportState("error");
       if (els.nowKicker) els.nowKicker.textContent = "Error";
       if (els.nowSubline) els.nowSubline.textContent = "Could not load track";
     });
 
     updateNowUI();
+    scheduleWarmup(currentIndex);
+    loadMediaManifest().then((manifest) => {
+      applyMediaManifest(manifest?.albums?.[album.key] || null);
+    });
     if (wantsAutoplay()) {
       loadTrack(currentIndex, true);
     }

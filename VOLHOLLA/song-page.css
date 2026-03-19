@@ -344,6 +344,10 @@ body.embed::before { display: none; }
   display: block;
 }
 
+.art-square.is-art-swapping img {
+  animation: artSwap .26s ease;
+}
+
 .art-square .fallback {
   position: absolute;
   inset: 0;
@@ -390,10 +394,28 @@ body.embed::before { display: none; }
 }
 
 .player-panel {
+  position: relative;
+  overflow: hidden;
   padding: 10px;
   display: grid;
   gap: 10px;
   min-width: 0;
+}
+
+.player-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(100deg, transparent 10%, rgba(255,255,255,0.03) 45%, rgba(255,255,255,0.09) 50%, rgba(255,255,255,0.03) 55%, transparent 90%);
+  transform: translateX(-130%);
+}
+
+.player-panel.is-loading::after,
+.player-panel.is-buffering::after {
+  opacity: 1;
+  animation: surfaceSweep 1.2s linear infinite;
 }
 
 .now-card {
@@ -448,12 +470,24 @@ body.embed::before { display: none; }
 .time-box .sep { opacity: 0.6; }
 
 .progress {
+  position: relative;
   margin-top: 8px;
   height: 6px;
   border-radius: 999px;
   background: linear-gradient(180deg, #2a2c33, #1d1f25);
   border: 1px solid rgba(0,0,0,0.5);
   overflow: hidden;
+}
+
+.player-panel.is-loading .progress::after,
+.player-panel.is-buffering .progress::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 -36%;
+  width: 36%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--accent-b, var(--ember)) 85%, white), transparent);
+  animation: progressSweep 1.1s linear infinite;
 }
 
 .progress-fill {
@@ -556,6 +590,24 @@ input[type="range"]:active::-webkit-slider-thumb {
   margin-inline: auto;
 }
 
+.disc-wrap::after {
+  content: "";
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  opacity: 0;
+  transform: scale(0.92);
+  pointer-events: none;
+}
+
+.player-panel.is-loading .disc-wrap::after,
+.player-panel.is-buffering .disc-wrap::after {
+  border-color: color-mix(in srgb, var(--accent-a, var(--orange)) 46%, rgba(255,255,255,0.14));
+  opacity: 0.72;
+  animation: discPing 1.2s ease-out infinite;
+}
+
 .disc-shadow {
   position: absolute;
   width: 88px;
@@ -579,9 +631,28 @@ input[type="range"]:active::-webkit-slider-thumb {
     linear-gradient(180deg, #23262e, #13151a);
   box-shadow: 0 8px 18px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.07);
   animation: discSpin 2.7s linear infinite paused;
+  cursor: pointer;
+  transition: transform .14s ease, box-shadow .14s ease, border-color .14s ease;
 }
 
 .player-panel.is-playing .disc { animation-play-state: running; }
+
+.disc:hover {
+  border-color: color-mix(in srgb, var(--accent-b, var(--ember)) 45%, rgba(0,0,0,0.65));
+  box-shadow: 0 10px 22px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.08);
+}
+
+.disc:active {
+  transform: scale(0.985);
+}
+
+.disc:focus-visible,
+.track-btn:focus-visible,
+.track-link:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--accent-b, var(--ember)) 82%, white);
+  outline-offset: 2px;
+}
 
 .disc::before {
   content: "";
@@ -818,6 +889,24 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 .track-btn:active { transform: translateY(1px); }
+
+@keyframes surfaceSweep {
+  to { transform: translateX(130%); }
+}
+
+@keyframes progressSweep {
+  to { transform: translateX(380%); }
+}
+
+@keyframes discPing {
+  0% { transform: scale(0.92); opacity: 0.72; }
+  100% { transform: scale(1.1); opacity: 0; }
+}
+
+@keyframes artSwap {
+  0% { opacity: 0.2; transform: scale(1.02); }
+  100% { opacity: 1; transform: scale(1); }
+}
 
 .track-btn.is-current {
   border-color: rgba(255,255,255,0.10);
