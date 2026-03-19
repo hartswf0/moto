@@ -37,10 +37,39 @@ function titleFromFilename(file) {
 }
 
 function extractAlbums(source) {
-  const blockRegex = /^ {4}([a-z0-9_]+): \{\n([\s\S]*?)(?=^ {4}[a-z0-9_]+: \{|^  \};)/gm;
+  const lines = source.split("\n");
   const albums = [];
-  for (const match of source.matchAll(blockRegex)) {
-    const [, key, block] = match;
+  let inAlbums = false;
+  let currentKey = "";
+  let currentLines = [];
+  let depth = 0;
+
+  for (const line of lines) {
+    if (!inAlbums) {
+      if (line.includes("const ALBUMS = {")) inAlbums = true;
+      continue;
+    }
+
+    if (!currentKey) {
+      if (/^  };$/.test(line)) break;
+      const start = line.match(/^    ([a-z0-9_]+): \{$/);
+      if (!start) continue;
+      currentKey = start[1];
+      currentLines = [line];
+      depth = 1;
+      continue;
+    }
+
+    currentLines.push(line);
+    depth += (line.match(/\{/g) || []).length;
+    depth -= (line.match(/\}/g) || []).length;
+
+    if (depth === 0) {
+      const block = currentLines.join("\n");
+      const key = currentKey;
+      currentKey = "";
+      currentLines = [];
+
     const pageSlug = block.match(/pageSlug:\s*"([^"]+)"/)?.[1];
     const label = block.match(/label:\s*"([^"]+)"/)?.[1];
     const subtitle = block.match(/subtitle:\s*"([^"]+)"/)?.[1] || `${label} song page`;
@@ -52,6 +81,7 @@ function extractAlbums(source) {
     const files = Array.from(filesBlock.matchAll(/"([^"]+)"/g), (fileMatch) => fileMatch[1]);
     if (!pageSlug || !label || files.length === 0) continue;
     albums.push({ key, pageSlug, label, subtitle, coverImage, files });
+    }
   }
   return albums;
 }
