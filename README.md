@@ -24,6 +24,7 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `moto`
 - `river`
 - `crossroads`
+- `solar`
 
 ### Single Mandalla
 
@@ -58,4 +59,4 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river` and `crossroads` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, and `solar` currently use `.ogg`.

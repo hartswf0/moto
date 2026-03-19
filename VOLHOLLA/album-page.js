@@ -281,6 +281,46 @@
         ["Use", "Standalone album page, shield hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with RIVER BANK WAITING for the current contrast deck."]
       ]
+    },
+    solar: {
+      key: "solar",
+      pageSlug: "solar-reveries",
+      basePath: "../SOLAR REVERIES/",
+      label: "SOLAR REVERIES",
+      subtitle: "Afro-funk brass / solar circuit glow / pocket-orchestra testimony",
+      accentA: "#f29f38",
+      accentB: "#f0d98a",
+      coverImage: "../SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png",
+      defaultTrackArt: "../SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png",
+      hallKey: "solar",
+      op2Key: "solar",
+      op2Pair: "crossroads",
+      files: [
+        "The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Concrete Jungle Highlife - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Funky Butt Stomp - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Golden Coast Anthem - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Grief is a Loop - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Heavy Heavy Heavy - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Heavy on the One - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Lomé to the District - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Palomar Pulse - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Plunger Mute Wail - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Sophiatown Sunset - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - Thames Side Shadow - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The Afro-Cubist's Dream - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The Big Noise of Storyville - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The Coal Train Cry - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The King of Storyville - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The King of Storyville - Sonauto (1).ogg",
+        "The D.C. Pocket & Afro-Funk - The Lomé Connection - Sonauto.ogg",
+        "The D.C. Pocket & Afro-Funk - The Talking Drum Protocol - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Sun-baked brass relay / pocket-funk locomotion / transatlantic groove signal"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CROSSROADS AND CROWN for bright late-hour contrast."]
+      ]
     }
   };
 
@@ -292,7 +332,10 @@
       .replace(/^coolradio\s*-\s*/i, "")
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/^river bank waiting\s*-\s*/i, "")
+      .replace(/^solar reveries\s*-\s*/i, "")
+      .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
+      .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
       .trim();
   }

@@ -249,6 +249,7 @@
         { key: 'mitte', label: 'MITTE' },
         { key: 'moto', label: 'MOTO' },
         { key: 'crossroads', label: 'CROSS' },
+        { key: 'solar', label: 'SOLAR' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -280,6 +281,8 @@
             ? 'river'
           : raw === 'crossroads-and-crown' || raw === 'crossroads_and_crown' || raw === 'cac'
             ? 'crossroads'
+          : raw === 'solar-reveries' || raw === 'solar_reveries' || raw === 'solar'
+            ? 'solar'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

@@ -520,6 +520,7 @@
     { key:'mitte', label:'Mitte' },
     { key:'moto', label:'Moto' },
     { key:'crossroads', label:'Crossroads' },
+    { key:'solar', label:'Solar' },
     { key:'river', label:'River' },
     { key:'volholla', label:'Volholla' }
   ];
@@ -530,6 +531,7 @@
     { id:'mi-lo', label:'Mitte × Loom', a:'mitte', b:'loom' },
     { id:'lo-mo', label:'Loom × Moto', a:'loom', b:'moto' },
     { id:'cr-ri', label:'Crossroads × River', a:'crossroads', b:'river' },
+    { id:'so-cr', label:'Solar × Crossroads', a:'solar', b:'crossroads' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -540,6 +542,7 @@
     if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
     if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
     if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
+    if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
     return v;
   }
 
