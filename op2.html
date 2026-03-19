@@ -971,7 +971,8 @@
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
                 .replace(/\s*-\s*Sonauto$/i, '')
                 .replace(/_/g, ' ')
-                .trim();
+                .trim()
+                .normalize('NFC');
         }
 
         function buildAlbumTracksForOp2(albumKey) {

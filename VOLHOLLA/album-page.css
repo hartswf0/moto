@@ -495,6 +495,97 @@ body::before {
   display: none;
 }
 
+.transport-strip {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 24px;
+}
+
+.transport-copy {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.transport-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.4);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.05);
+  flex: 0 0 auto;
+}
+
+.transport-text {
+  min-width: 0;
+  color: var(--muted);
+  font-size: 0.69rem;
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.transport-badges {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.transport-chip {
+  appearance: none;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.03);
+  color: #d8d0c2;
+  border-radius: 999px;
+  min-height: 22px;
+  padding: 0 7px;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.22);
+}
+
+.transport-retry {
+  cursor: pointer;
+  color: var(--text);
+}
+
+.transport-rail {
+  margin-top: 6px;
+  height: 4px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: linear-gradient(180deg, #23252d, #181a20);
+  border: 1px solid rgba(0,0,0,0.55);
+}
+
+.transport-rail-fill {
+  position: relative;
+  width: 18%;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent-b, var(--ember)), var(--accent-a, var(--orange)));
+  transition: width .24s ease, opacity .24s ease;
+  animation: transportBreathe 3.2s ease-in-out infinite;
+}
+
+.transport-rail-fill::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 -40%;
+  width: 40%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.55), transparent);
+  opacity: 0;
+}
+
 .album-time {
   flex: 0 0 auto;
   color: var(--muted);
@@ -528,6 +619,40 @@ body::before {
   border-radius: inherit;
   background: linear-gradient(90deg, transparent, color-mix(in srgb, var(--accent-b, var(--ember)) 85%, white), transparent);
   animation: progressSweep 1.1s linear infinite;
+}
+
+.album-player.is-loading .transport-dot,
+.album-player.is-buffering .transport-dot {
+  background: var(--accent-b, var(--ember));
+  box-shadow: 0 0 12px color-mix(in srgb, var(--accent-b, var(--ember)) 60%, transparent);
+  animation: transportBlink 0.9s ease-in-out infinite;
+}
+
+.album-player.is-ready .transport-dot,
+.album-player.is-playing .transport-dot {
+  background: var(--accent-a, var(--orange));
+  box-shadow: 0 0 10px color-mix(in srgb, var(--accent-a, var(--orange)) 55%, transparent);
+}
+
+.album-player.is-error .transport-dot {
+  background: #ff7a6a;
+  box-shadow: 0 0 10px rgba(255,122,106,0.35);
+}
+
+.album-player.is-loading .transport-rail-fill::after,
+.album-player.is-buffering .transport-rail-fill::after {
+  opacity: 1;
+  animation: transportSweep 1.2s linear infinite;
+}
+
+.album-player.is-ready .transport-rail-fill,
+.album-player.is-playing .transport-rail-fill {
+  animation: transportBreathe 2.6s ease-in-out infinite;
+}
+
+.album-player.is-error .transport-rail-fill {
+  background: linear-gradient(90deg, #ff7a6a, #ffb66e);
+  animation: none;
 }
 
 .album-progress-fill {
@@ -732,6 +857,20 @@ body::before {
 
 @keyframes progressSweep {
   to { transform: translateX(380%); }
+}
+
+@keyframes transportSweep {
+  to { transform: translateX(350%); }
+}
+
+@keyframes transportBlink {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@keyframes transportBreathe {
+  0%, 100% { opacity: 0.78; }
+  50% { opacity: 1; }
 }
 
 @keyframes discPing {
@@ -1162,6 +1301,13 @@ button.track {
   .pills { gap: 5px; }
   .head-menu-panel { width: min(86vw, 250px); }
   .album-player { padding: 8px; }
+  .transport-strip {
+    display: grid;
+    gap: 6px;
+  }
+  .transport-badges {
+    justify-content: flex-start;
+  }
   .disc-stage {
     grid-template-columns: 92px 1fr;
     min-height: 102px;
@@ -1187,4 +1333,12 @@ button.track {
   .section { padding: 10px; }
   .track { min-height: 34px; padding: 0 8px; }
   .track-title { font-size: 0.84rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .transport-rail-fill,
+  .transport-rail-fill::after,
+  .transport-dot {
+    animation: none;
+  }
 }

@@ -1392,7 +1392,8 @@
         .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
         .replace(/\s*-\s*Sonauto$/i, "")
         .replace(/_/g, " ")
-        .trim();
+        .trim()
+        .normalize("NFC");
     }
 
     function buildTracks(area, artist = "coolradio") {
@@ -1400,13 +1401,17 @@
       return area.files.map((name, index) => {
         const title = titleFromFilename(name);
         return {
-          file: `${area.basePath}${name}`,
+          file: normalizeAssetPath(`${area.basePath}${name}`),
           title,
           artist: artistName,
           areaKey: area.key,
           art: area.trackArtByTitle?.[title] || area.trackArtByIndex?.[index] || area.defaultTrackArt || null
         };
       });
+    }
+
+    function normalizeAssetPath(value) {
+      return String(value || "").normalize("NFC");
     }
 
     function makeCoverSVGDataURI(label, a, b, glyph = "◈") {
@@ -1991,14 +1996,14 @@
 
     function songCardMediaHTML(index, track, active = false) {
       if (hasTrackArtwork(track)) {
-        return `<div class="art-square is-image"><img src="${escapeHtml(encodeURI(track.art))}" alt="" loading="lazy" decoding="async"></div>`;
+        return `<div class="art-square is-image"><img src="${escapeHtml(encodeURI(normalizeAssetPath(track.art)))}" alt="" loading="lazy" decoding="async"></div>`;
       }
       return `<div class="art-square is-fallback"><div class="fallback-shield">${shieldSVG(index, active, false, `card_fallback_${state.activeAreaKey}_${index}`, { useTrackArt: false })}</div></div>`;
     }
 
     function openImageModal(track) {
       if (!track?.art || !els.imageModal || !els.imageModalImg) return;
-      els.imageModalImg.src = encodeURI(track.art);
+      els.imageModalImg.src = encodeURI(normalizeAssetPath(track.art));
       if (els.imageModalTitle) els.imageModalTitle.textContent = `${track.title} · ${getAreaDef(track.areaKey).label}`;
       els.imageModal.classList.add("show");
       els.imageModal.setAttribute("aria-hidden", "false");
@@ -2396,7 +2401,7 @@
 
     function areaThumbHTML(area) {
       if (area.coverImage) {
-        return `<img src="${escapeHtml(encodeURI(area.coverImage))}" alt="" loading="lazy" decoding="async">`;
+        return `<img src="${escapeHtml(encodeURI(normalizeAssetPath(area.coverImage)))}" alt="" loading="lazy" decoding="async">`;
       }
       return `<div class="thumb-fallback">${escapeHtml((area.label || "?").slice(0, 1))}</div>`;
     }
@@ -2418,7 +2423,7 @@
       const ringCx = 100;
       const ringCy = small ? 93 : 95;
       const clipId = `clip_${String(instanceId).replace(/[^a-zA-Z0-9_-]/g, "_")}`;
-      const artUrl = useTrackArt && track?.art ? encodeURI(track.art) : null;
+      const artUrl = useTrackArt && track?.art ? encodeURI(normalizeAssetPath(track.art)) : null;
       const artSize = ringR * 2;
       const artX = ringCx - ringR;
       const artY = ringCy - ringR;
@@ -2574,7 +2579,7 @@
       if (index < 0 || index >= tracks.length) return;
       state.currentIndex = index;
       const track = tracks[index];
-      els.audio.src = encodeURI(track.file);
+      els.audio.src = encodeURI(normalizeAssetPath(track.file));
       els.audio.load();
       updatePlayerHeader();
       refreshCards();

@@ -20,14 +20,18 @@ function escapeHtml(value) {
   }[m]));
 }
 
+function normalizeAssetPath(value) {
+  return String(value || "").normalize("NFC");
+}
+
 function pageAssetPath(rootRelativePath) {
-  const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+  const raw = normalizeAssetPath(rootRelativePath).replace(/^\.\/+/, "");
   if (!raw) return "";
   return raw.startsWith("VOLHOLLA/") ? `./${raw.slice("VOLHOLLA/".length)}` : `../${raw}`;
 }
 
 function siteAssetUrl(rootRelativePath) {
-  const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+  const raw = normalizeAssetPath(rootRelativePath).replace(/^\.\/+/, "");
   if (!raw) return "";
   return new URL(encodeURI(raw), SITE_ROOT).toString();
 }

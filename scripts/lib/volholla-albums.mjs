@@ -20,7 +20,8 @@ export function titleFromFilename(file) {
     .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
     .replace(/\s*-\s*Sonauto$/i, "")
     .replace(/_/g, " ")
-    .trim();
+    .trim()
+    .normalize("NFC");
 }
 
 function blockValue(block, key) {
@@ -30,7 +31,7 @@ function blockValue(block, key) {
 function resolveFromVolholla(rootDir, assetPath) {
   if (!assetPath) return "";
   const absolute = path.resolve(rootDir, "VOLHOLLA", assetPath);
-  return stripLeadingDotSlash(toPosixPath(path.relative(rootDir, absolute)));
+  return stripLeadingDotSlash(toPosixPath(path.relative(rootDir, absolute))).normalize("NFC");
 }
 
 export function extractAlbumsFromSource(source, rootDir = process.cwd()) {

@@ -493,7 +493,8 @@
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
       .replace(/_/g, " ")
-      .trim();
+      .trim()
+      .normalize("NFC");
   }
 
   function escapeHtml(s) {
@@ -506,8 +507,12 @@
     }[m]));
   }
 
+  function normalizeAssetPath(value) {
+    return String(value || "").normalize("NFC");
+  }
+
   function pageAssetPath(rootRelativePath) {
-    const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+    const raw = normalizeAssetPath(rootRelativePath).replace(/^\.\/+/, "");
     if (!raw) return "";
     return raw.startsWith("VOLHOLLA/") ? `./${raw.slice("VOLHOLLA/".length)}` : `../${raw}`;
   }
@@ -651,7 +656,7 @@
       index,
       file,
       title: titleFromFilename(file),
-      src: encodeURI(`${album.basePath || ""}${file}`),
+      src: encodeURI(normalizeAssetPath(`${album.basePath || ""}${file}`)),
       art: trackArtFor(album, titleFromFilename(file), index)
     }));
   }
@@ -805,7 +810,7 @@
                 <span class="mono">${escapeHtml(album.key)} / ${String(currentIndex + 1).padStart(2, "0")}</span>
               </div>
               <div class="art-square" id="artSquare">
-                ${art ? `<img id="songArtImg" src="${escapeHtml(encodeURI(art))}" alt="${escapeHtml(firstTrack.title)} artwork">` : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, "tri")}</div>`}
+                ${art ? `<img id="songArtImg" src="${escapeHtml(encodeURI(normalizeAssetPath(art)))}" alt="${escapeHtml(firstTrack.title)} artwork">` : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, "tri")}</div>`}
               </div>
               <div class="cover-foot">
                 <div class="main" id="lcdTrackTitle">${escapeHtml(firstTrack.title)}</div>
@@ -828,6 +833,18 @@
                   <span id="timeTotal">0:00</span>
                 </div>
               </div>
+              <div class="transport-strip" aria-live="polite">
+                <div class="transport-copy">
+                  <span class="transport-dot" aria-hidden="true"></span>
+                  <span class="transport-text" id="transportText">Page ready. Tap Play when you want audio.</span>
+                </div>
+                <div class="transport-badges">
+                  <span class="transport-chip" id="transportModeChip" hidden>Lite</span>
+                  <span class="transport-chip" id="transportSignalChip" hidden></span>
+                  <button type="button" class="transport-chip transport-retry" id="retryBtn" hidden>Retry</button>
+                </div>
+              </div>
+              <div class="transport-rail" aria-hidden="true"><div class="transport-rail-fill" id="transportRailFill"></div></div>
               <div class="progress" aria-hidden="true"><div class="progress-fill" id="progressFill"></div></div>
               <div class="seek-row">
                 <div class="seek-time" id="seekNow">0:00</div>
@@ -910,6 +927,11 @@
       nowKicker: document.getElementById("nowKicker"),
       nowLine: document.getElementById("nowLine"),
       nowSubline: document.getElementById("nowSubline"),
+      transportText: document.getElementById("transportText"),
+      transportModeChip: document.getElementById("transportModeChip"),
+      transportSignalChip: document.getElementById("transportSignalChip"),
+      transportRailFill: document.getElementById("transportRailFill"),
+      retryBtn: document.getElementById("retryBtn"),
       timeNow: document.getElementById("timeNow"),
       timeTotal: document.getElementById("timeTotal"),
       seekNow: document.getElementById("seekNow"),
@@ -927,7 +949,7 @@
     let trackPulseTimer = 0;
     let lastSeekBuzzAt = 0;
     let artSwapTimer = 0;
-    let displayedArtSrc = art ? encodeURI(art) : "";
+    let displayedArtSrc = art ? encodeURI(normalizeAssetPath(art)) : "";
     let beatFrame = 0;
     let beatLevel = 0;
     let beatAnalyser = null;
@@ -1126,6 +1148,53 @@
       }
     }
 
+    function signalLabel() {
+      if (!connection) return "";
+      const effective = String(connection.effectiveType || "").toLowerCase();
+      if (connection.saveData) return effective ? `${effective} lite` : "lite";
+      if (!effective) return "";
+      return effective === "slow-2g" ? "2g" : effective;
+    }
+
+    function updateTransportStrip(track, playing, loading, buffering, errored) {
+      const lite = isLowBandwidthConnection(connection);
+      const signal = signalLabel();
+      let text = "Page ready. Tap Play when you want audio.";
+      let rail = 18;
+
+      if (errored) {
+        text = "Track load failed. Retry or wait for stronger signal.";
+        rail = 100;
+      } else if (loading) {
+        text = lite ? "Preparing lighter stream for this connection." : "Preparing stream.";
+        rail = 38;
+      } else if (buffering) {
+        text = lite ? "Buffering on low signal. Keep this page open." : "Buffering. Holding your place in the track.";
+        rail = 56;
+      } else if (playing && track) {
+        text = lite ? "Playing lightweight stream." : "Playing clean stream.";
+        rail = 72;
+      } else if (track && hasPlaybackIntent) {
+        text = lite ? "Ready to resume in lite mode." : "Ready to resume.";
+        rail = 30;
+      } else if (lite) {
+        text = "Lite mode active. Audio loads on demand to save data.";
+        rail = 22;
+      }
+
+      if (els.transportText) els.transportText.textContent = text;
+      if (els.transportModeChip) {
+        els.transportModeChip.hidden = !lite;
+        els.transportModeChip.textContent = "Lite";
+      }
+      if (els.transportSignalChip) {
+        els.transportSignalChip.hidden = !signal;
+        els.transportSignalChip.textContent = signal.toUpperCase();
+      }
+      if (els.retryBtn) els.retryBtn.hidden = !errored;
+      if (els.transportRailFill) els.transportRailFill.style.width = `${rail}%`;
+    }
+
     function ensureMeta(selector, attr, value) {
       if (!value) return;
       let el = document.head.querySelector(selector);
@@ -1152,8 +1221,8 @@
     function updateDocumentMeta(track) {
       const artSrc = getTrackArt(track);
       const absArt = artSrc ? (() => {
-        try { return new URL(encodeURI(artSrc), window.location.href).toString(); }
-        catch { return encodeURI(artSrc); }
+        try { return new URL(encodeURI(normalizeAssetPath(artSrc)), window.location.href).toString(); }
+        catch { return encodeURI(normalizeAssetPath(artSrc)); }
       })() : "";
       const pageUrl = absoluteSongUrl();
       const title = `${track.title} · ${album.label}`;
@@ -1169,7 +1238,7 @@
         ensureMeta('meta[property="og:image"]', "property", absArt);
         ensureMeta('meta[name="twitter:image"]', "name", absArt);
       }
-      ensureFavicon(artSrc ? encodeURI(artSrc) : "");
+      ensureFavicon(artSrc ? encodeURI(normalizeAssetPath(artSrc)) : "");
     }
 
     function currentEmbedCode() {
@@ -1200,7 +1269,7 @@
 
     function updateArt(track) {
       const artSrc = getTrackArt(track);
-      const nextSrc = artSrc ? encodeURI(artSrc) : "";
+      const nextSrc = artSrc ? encodeURI(normalizeAssetPath(artSrc)) : "";
       const nextAlt = `${track.title} artwork`;
 
       if (els.songArtImg && nextSrc && displayedArtSrc === nextSrc) {
@@ -1288,6 +1357,7 @@
       setPlayButton(playing);
       updateTrackListUI();
       updateArt(track);
+      updateTransportStrip(track, playing, loading, buffering, errored);
       syncTransportState();
       try {
         const nextUrl = songUrl(album.key, currentIndex, embed ? { embed: 1 } : {});
@@ -1380,6 +1450,11 @@
     if (els.sendBtn) els.sendBtn.addEventListener("click", sendSong);
     if (els.copyUrlBtn) els.copyUrlBtn.addEventListener("click", () => { vibrate(8); copyText(absoluteSongUrl(), els.copyUrlBtn, "Copy URL"); });
     if (els.copyEmbedBtn) els.copyEmbedBtn.addEventListener("click", () => { vibrate(8); copyText(currentEmbedCode(), els.copyEmbedBtn, "Embed"); });
+    if (els.retryBtn) els.retryBtn.addEventListener("click", () => {
+      vibrate(8);
+      if (currentIndex >= 0) loadTrack(currentIndex, true);
+      else loadTrack(0, true);
+    });
     if (els.playBtn) els.playBtn.addEventListener("click", () => { vibrate(10); togglePlay(); });
     if (els.prevBtn) els.prevBtn.addEventListener("click", () => { vibrate(8); prevTrack(); });
     if (els.nextBtn) els.nextBtn.addEventListener("click", () => { vibrate(8); nextTrack(false); });
@@ -1482,6 +1557,7 @@
 
     updateNowUI();
     scheduleWarmup(currentIndex);
+    if (connection?.addEventListener) connection.addEventListener("change", updateNowUI);
     window.addEventListener("pagehide", stopBeatLoop, { once: true });
     loadMediaManifest().then((manifest) => {
       applyMediaManifest(manifest?.albums?.[album.key] || null);

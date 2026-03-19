@@ -563,7 +563,8 @@
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
       .replace(/_/g, " ")
-      .trim();
+      .trim()
+      .normalize("NFC");
   }
 
   function escapeHtml(s) {
@@ -576,8 +577,12 @@
     }[m]));
   }
 
+  function normalizeAssetPath(value) {
+    return String(value || "").normalize("NFC");
+  }
+
   function pageAssetPath(rootRelativePath) {
-    const raw = String(rootRelativePath || "").replace(/^\.\/+/, "");
+    const raw = normalizeAssetPath(rootRelativePath).replace(/^\.\/+/, "");
     if (!raw) return "";
     return raw.startsWith("VOLHOLLA/") ? `./${raw.slice("VOLHOLLA/".length)}` : `../${raw}`;
   }
@@ -632,7 +637,7 @@
       const art = trackArtFor(album, track.title, track.index);
       const fallbackGlyph = ["ring", "chev", "line", "tri"][i % 4];
       const media = art
-        ? `<img src="${escapeHtml(encodeURI(art))}" alt="${escapeHtml(track.title)} artwork" loading="lazy" decoding="async">`
+        ? `<img src="${escapeHtml(encodeURI(normalizeAssetPath(art)))}" alt="${escapeHtml(track.title)} artwork" loading="lazy" decoding="async">`
         : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, fallbackGlyph)}</div>`;
       return `
         <a class="gallery-item" href="${escapeHtml(songPageHref(album, track.index))}" aria-label="Open song page for ${escapeHtml(track.title)}">
@@ -682,7 +687,7 @@
       index,
       file,
       title: titleFromFilename(file),
-      src: encodeURI(`${album.basePath || ""}${file}`),
+      src: encodeURI(normalizeAssetPath(`${album.basePath || ""}${file}`)),
       art: trackArtFor(album, titleFromFilename(file), index)
     }));
   }
@@ -738,6 +743,11 @@
       nowKicker: root.querySelector("#albumNowKicker"),
       nowTitle: root.querySelector("#albumNowTitle"),
       nowSub: root.querySelector("#albumNowSub"),
+      transportText: root.querySelector("#albumTransportText"),
+      transportModeChip: root.querySelector("#albumTransportModeChip"),
+      transportSignalChip: root.querySelector("#albumTransportSignalChip"),
+      transportRailFill: root.querySelector("#albumTransportRailFill"),
+      retryBtn: root.querySelector("#albumRetryBtn"),
       timeNow: root.querySelector("#albumTimeNow"),
       timeTotal: root.querySelector("#albumTimeTotal"),
       progressFill: root.querySelector("#albumProgressFill"),
@@ -746,8 +756,55 @@
       discLine: root.querySelector("#discLine"),
       discSubline: root.querySelector("#discSubline"),
       discTapTarget: root.querySelector(".disc"),
+      discWrap: root.querySelector(".disc-wrap"),
       trackBtns: Array.from(root.querySelectorAll("[data-track-index]"))
     };
+
+    function signalLabel() {
+      if (!connection) return "";
+      const effective = String(connection.effectiveType || "").toLowerCase();
+      if (connection.saveData) return effective ? `${effective} lite` : "lite";
+      if (!effective) return "";
+      return effective === "slow-2g" ? "2g" : effective;
+    }
+
+    function updateTransportStrip(track, playing, loading, buffering, errored) {
+      const lite = isLowBandwidthConnection(connection);
+      const signal = signalLabel();
+      let text = lite
+        ? "Lite mode active. Tracks load on demand to save data."
+        : "Album ready. Choose a track or press Play.";
+      let rail = 20;
+
+      if (errored) {
+        text = "Track load failed. Retry when the signal steadies.";
+        rail = 100;
+      } else if (loading) {
+        text = lite ? "Preparing lighter album stream." : "Preparing album stream.";
+        rail = 38;
+      } else if (buffering) {
+        text = lite ? "Buffering on low signal. Keep this page open." : "Buffering current track.";
+        rail = 56;
+      } else if (playing && track) {
+        text = lite ? "Playing lightweight stream." : "Playing album stream.";
+        rail = 72;
+      } else if (track && hasPlaybackIntent) {
+        text = lite ? "Ready to resume in lite mode." : "Ready to resume.";
+        rail = 30;
+      }
+
+      if (els.transportText) els.transportText.textContent = text;
+      if (els.transportModeChip) {
+        els.transportModeChip.hidden = !lite;
+        els.transportModeChip.textContent = "Lite";
+      }
+      if (els.transportSignalChip) {
+        els.transportSignalChip.hidden = !signal;
+        els.transportSignalChip.textContent = signal.toUpperCase();
+      }
+      if (els.retryBtn) els.retryBtn.hidden = !errored;
+      if (els.transportRailFill) els.transportRailFill.style.width = `${rail}%`;
+    }
 
     function currentTrack() {
       return currentIndex >= 0 ? tracks[currentIndex] : null;
@@ -806,7 +863,7 @@
 
       if (coverImage) {
         album.coverImage = coverImage;
-        if (els.coverImg) els.coverImg.src = encodeURI(coverImage);
+        if (els.coverImg) els.coverImg.src = encodeURI(normalizeAssetPath(coverImage));
       }
       if (defaultTrackArt) album.defaultTrackArt = defaultTrackArt;
 
@@ -815,7 +872,7 @@
           const track = tracks[index];
           if (!track) return;
           const nextSrc = pickAudioVariant(manifestTrack.audio, connection);
-          if (nextSrc) track.src = encodeURI(nextSrc);
+          if (nextSrc) track.src = encodeURI(normalizeAssetPath(nextSrc));
           track.art = trackArtFor(album, track.title, index);
         });
       }
@@ -902,6 +959,7 @@
         if (els.unitPlayBtn) els.unitPlayBtn.textContent = loading || buffering ? "Loading..." : playing ? "Pause" : "Resume";
       }
       updateTrackButtons();
+      updateTransportStrip(track, playing, loading, buffering, errored);
       syncPlayerState();
     }
 
@@ -1034,6 +1092,12 @@
         }
       });
     }
+    if (els.retryBtn) {
+      els.retryBtn.addEventListener("click", () => {
+        if (currentIndex >= 0) loadTrack(currentIndex, true);
+        else loadTrack(0, true);
+      });
+    }
     if (els.jumpTracksBtn) {
       els.jumpTracksBtn.addEventListener("click", () => {
         if (els.tracksPanel) els.tracksPanel.open = true;
@@ -1101,6 +1165,7 @@
 
     updateNowUI();
     scheduleWarmup(0);
+    if (connection?.addEventListener) connection.addEventListener("change", updateNowUI);
     root.__albumPage = { album, tracks, audio, loadTrack, togglePlay, nextTrack, prevTrack, applyMediaManifest };
   }
 
@@ -1182,7 +1247,7 @@
               </div>
               <div class="cover-square">
                 ${album.coverImage
-                  ? `<img src="${escapeHtml(encodeURI(album.coverImage))}" alt="${escapeHtml(album.label)} cover artwork">`
+                  ? `<img src="${escapeHtml(encodeURI(normalizeAssetPath(album.coverImage)))}" alt="${escapeHtml(album.label)} cover artwork">`
                   : `<div class="fallback">${shieldSvg(album.accentA, album.accentB, "tri")}</div>`}
               </div>
               <div class="cover-foot">
@@ -1206,6 +1271,18 @@
                     <span id="albumTimeTotal">0:00</span>
                   </div>
                 </div>
+                <div class="transport-strip" aria-live="polite">
+                  <div class="transport-copy">
+                    <span class="transport-dot" aria-hidden="true"></span>
+                    <span class="transport-text" id="albumTransportText">Album ready. Choose a track or press Play.</span>
+                  </div>
+                  <div class="transport-badges">
+                    <span class="transport-chip" id="albumTransportModeChip" hidden>Lite</span>
+                    <span class="transport-chip" id="albumTransportSignalChip" hidden></span>
+                    <button type="button" class="transport-chip transport-retry" id="albumRetryBtn" hidden>Retry</button>
+                  </div>
+                </div>
+                <div class="transport-rail" aria-hidden="true"><div class="transport-rail-fill" id="albumTransportRailFill"></div></div>
                 <div class="album-progress" aria-hidden="true">
                   <div class="album-progress-fill" id="albumProgressFill"></div>
                 </div>
