@@ -255,6 +255,7 @@
         { key: 'moto', label: 'MOTO' },
         { key: 'crossroads', label: 'CROSS' },
         { key: 'solar', label: 'SOLAR' },
+        { key: 'jukebox', label: 'JUKE' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -285,6 +286,8 @@
             ? 'crossroads'
           : raw === 'solar-reveries' || raw === 'solar_reveries' || raw === 'solar'
             ? 'solar'
+          : raw === 'jukebox-time-collapse' || raw === 'jukebox_time_collapse' || raw === 'jtc'
+            ? 'jukebox'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

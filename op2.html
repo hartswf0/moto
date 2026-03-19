@@ -802,6 +802,26 @@
                     "The D.C. Pocket & Afro-Funk - The Lomé Connection - Sonauto.ogg",
                     "The D.C. Pocket & Afro-Funk - The Talking Drum Protocol - Sonauto.ogg"
                 ]
+            },
+            jukebox: {
+                key: 'jukebox',
+                label: 'JUKEBOX TIME COLLAPSE',
+                short: 'JUKE',
+                basePath: 'JUKEBOX TIME COLLAPSE/',
+                logic: 'Jukebox Collapse Relay',
+                files: [
+                    "Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg",
+                    "Jukebox Time Collapse - Iron and Clay - Sonauto.ogg",
+                    "Jukebox Time Collapse - Moonlit Feral Blues - Sonauto.ogg",
+                    "Jukebox Time Collapse - Pay the Man - Sonauto.ogg",
+                    "Jukebox Time Collapse - Pearline's Warning - Sonauto.ogg",
+                    "Jukebox Time Collapse - Sunbaked Field Chant - Sonauto.ogg",
+                    "Jukebox Time Collapse - The Long Walk Out - Sonauto.ogg",
+                    "Jukebox Time Collapse - The Pale Moon is Hungry - Sonauto.ogg",
+                    "Jukebox Time Collapse - The Pastor's Slide - Sonauto.ogg",
+                    "Jukebox Time Collapse - The Pines Are Hungry - Sonauto.ogg",
+                    "Jukebox Time Collapse - The Vampire Jig - Sonauto.ogg"
+                ]
             }
         };
 
@@ -814,6 +834,7 @@
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
                 .replace(/^river bank waiting\s*-\s*/i, '')
                 .replace(/^solar reveries\s*-\s*/i, '')
+                .replace(/^jukebox time collapse\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
@@ -844,6 +865,7 @@
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
+            if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
             return v;
         }
 

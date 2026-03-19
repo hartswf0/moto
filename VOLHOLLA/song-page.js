@@ -281,6 +281,33 @@
         "The D.C. Pocket & Afro-Funk - The Lomé Connection - Sonauto.ogg",
         "The D.C. Pocket & Afro-Funk - The Talking Drum Protocol - Sonauto.ogg"
       ]
+    },
+    jukebox: {
+      key: "jukebox",
+      pageSlug: "jukebox-time-collapse",
+      basePath: "../JUKEBOX TIME COLLAPSE/",
+      label: "JUKEBOX TIME COLLAPSE",
+      subtitle: "Dust-road shuffle / feral sermon blues / jukebox ruin glow",
+      accentA: "#d57a39",
+      accentB: "#f0c58a",
+      coverImage: "../JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png",
+      defaultTrackArt: "../JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM.png",
+      hallKey: "jukebox",
+      op2Key: "jukebox",
+      op2Pair: "solar",
+      files: [
+        "Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg",
+        "Jukebox Time Collapse - Iron and Clay - Sonauto.ogg",
+        "Jukebox Time Collapse - Moonlit Feral Blues - Sonauto.ogg",
+        "Jukebox Time Collapse - Pay the Man - Sonauto.ogg",
+        "Jukebox Time Collapse - Pearline's Warning - Sonauto.ogg",
+        "Jukebox Time Collapse - Sunbaked Field Chant - Sonauto.ogg",
+        "Jukebox Time Collapse - The Long Walk Out - Sonauto.ogg",
+        "Jukebox Time Collapse - The Pale Moon is Hungry - Sonauto.ogg",
+        "Jukebox Time Collapse - The Pastor's Slide - Sonauto.ogg",
+        "Jukebox Time Collapse - The Pines Are Hungry - Sonauto.ogg",
+        "Jukebox Time Collapse - The Vampire Jig - Sonauto.ogg"
+      ]
     }
   };
 
@@ -293,6 +320,7 @@
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/^solar reveries\s*-\s*/i, "")
+      .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -342,7 +370,9 @@
         ? "crossroads"
         : raw === "solar-reveries" || raw === "solar_reveries" || raw === "solar"
           ? "solar"
-        : raw;
+          : raw === "jukebox-time-collapse" || raw === "jukebox_time_collapse" || raw === "jtc"
+            ? "jukebox"
+          : raw;
     return ALBUMS[key] || ALBUMS.volholla;
   }
 

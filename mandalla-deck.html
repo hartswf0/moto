@@ -521,6 +521,7 @@
     { key:'moto', label:'Moto' },
     { key:'crossroads', label:'Crossroads' },
     { key:'solar', label:'Solar' },
+    { key:'jukebox', label:'Jukebox' },
     { key:'river', label:'River' },
     { key:'volholla', label:'Volholla' }
   ];
@@ -532,6 +533,7 @@
     { id:'lo-mo', label:'Loom × Moto', a:'loom', b:'moto' },
     { id:'cr-ri', label:'Crossroads × River', a:'crossroads', b:'river' },
     { id:'so-cr', label:'Solar × Crossroads', a:'solar', b:'crossroads' },
+    { id:'ju-so', label:'Jukebox × Solar', a:'jukebox', b:'solar' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -543,6 +545,7 @@
     if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
     if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
     if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
+    if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
     return v;
   }
 

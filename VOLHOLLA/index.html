@@ -1383,6 +1383,7 @@
         .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
         .replace(/^river bank waiting\s*-\s*/i, "")
         .replace(/^solar reveries\s*-\s*/i, "")
+        .replace(/^jukebox time collapse\s*-\s*/i, "")
         .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
         .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
         .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -1681,6 +1682,30 @@
           "The D.C. Pocket & Afro-Funk - The King of Storyville - Sonauto (1).ogg",
           "The D.C. Pocket & Afro-Funk - The Lomé Connection - Sonauto.ogg",
           "The D.C. Pocket & Afro-Funk - The Talking Drum Protocol - Sonauto.ogg"
+        ]
+      },
+      {
+        key: "jukebox",
+        label: "JUKEBOX TIME COLLAPSE",
+        pageSlug: "jukebox-time-collapse",
+        description: "Dust-road shuffle / feral sermon blues / jukebox ruin glow",
+        accentA: "#d57a39",
+        accentB: "#f0c58a",
+        coverImage: "../JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png",
+        defaultTrackArt: "../JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM.png",
+        basePath: "../JUKEBOX TIME COLLAPSE/",
+        files: [
+          "Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg",
+          "Jukebox Time Collapse - Iron and Clay - Sonauto.ogg",
+          "Jukebox Time Collapse - Moonlit Feral Blues - Sonauto.ogg",
+          "Jukebox Time Collapse - Pay the Man - Sonauto.ogg",
+          "Jukebox Time Collapse - Pearline's Warning - Sonauto.ogg",
+          "Jukebox Time Collapse - Sunbaked Field Chant - Sonauto.ogg",
+          "Jukebox Time Collapse - The Long Walk Out - Sonauto.ogg",
+          "Jukebox Time Collapse - The Pale Moon is Hungry - Sonauto.ogg",
+          "Jukebox Time Collapse - The Pastor's Slide - Sonauto.ogg",
+          "Jukebox Time Collapse - The Pines Are Hungry - Sonauto.ogg",
+          "Jukebox Time Collapse - The Vampire Jig - Sonauto.ogg"
         ]
       }
     ].map((area) => ({ ...area, tracks: buildTracks(area) }));
