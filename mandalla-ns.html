@@ -257,6 +257,8 @@
         { key: 'solar', label: 'SOLAR' },
         { key: 'jukebox', label: 'JUKE' },
         { key: 'cyber', label: 'CYBER' },
+        { key: 'noservice', label: 'NOSVC' },
+        { key: 'clinical', label: 'CLIN' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -291,6 +293,10 @@
             ? 'jukebox'
           : raw === 'cybernetic-winter' || raw === 'cybernetic_winter' || raw === 'cyber'
             ? 'cyber'
+          : raw === 'no-service' || raw === 'no_service' || raw === 'noservice'
+            ? 'noservice'
+          : raw === 'clinical-heat' || raw === 'clinical_heat' || raw === 'clinical'
+            ? 'clinical'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

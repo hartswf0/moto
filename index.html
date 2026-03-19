@@ -26,7 +26,7 @@
         linear-gradient(180deg, #13141a, #0b0c10);
     }
     .wrap {
-      max-width: 980px;
+      max-width: 1120px;
       margin: 0 auto;
       padding: 20px 14px 40px;
     }
@@ -60,6 +60,200 @@
       color: var(--muted);
       line-height: 1.35;
       font-size: 0.92rem;
+    }
+    .shield-board {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 14px;
+      padding: 16px;
+      border-radius: 22px;
+      border: 1px solid rgba(122, 211, 255, 0.18);
+      background:
+        radial-gradient(920px 420px at 50% -10%, rgba(88, 196, 255, 0.14), transparent 62%),
+        radial-gradient(620px 320px at 110% 20%, rgba(255, 122, 22, 0.12), transparent 64%),
+        linear-gradient(180deg, rgba(15, 18, 25, 0.98), rgba(10, 12, 18, 0.98));
+      box-shadow: 0 20px 40px rgba(0,0,0,0.36), inset 0 0 0 1px rgba(255,255,255,0.03);
+    }
+    .shield-board::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.16;
+      background-image:
+        linear-gradient(rgba(123, 185, 221, 0.22) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(123, 185, 221, 0.16) 1px, transparent 1px);
+      background-size: 24px 24px;
+      mask-image: linear-gradient(180deg, rgba(0,0,0,0.9), transparent 92%);
+    }
+    .board-head {
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .board-head h2 {
+      margin: 0;
+      font-size: 1.04rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .board-head p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+    .board-tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 30px;
+      padding: 0 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255,255,255,0.05);
+      color: #e8eef8;
+      font-size: 0.72rem;
+      font-weight: 900;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .shield-grid {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    @media (min-width: 680px) {
+      .shield-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+    @media (min-width: 920px) {
+      .shield-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    }
+    .shield-tile {
+      position: relative;
+      padding: 10px;
+      border-radius: 18px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background:
+        linear-gradient(180deg, rgba(36,40,50,0.96), rgba(18,20,27,0.96));
+      box-shadow: 0 14px 22px rgba(0,0,0,0.28), inset 0 0 0 1px rgba(255,255,255,0.03);
+      min-height: 244px;
+    }
+    .shield-tile::before {
+      content: "";
+      position: absolute;
+      inset: 8px;
+      border-radius: 14px;
+      border: 1px solid color-mix(in srgb, var(--accent, #7bb9dd) 45%, transparent);
+      opacity: 0.5;
+      pointer-events: none;
+    }
+    .shield-link {
+      display: grid;
+      gap: 10px;
+      color: inherit;
+      text-decoration: none;
+    }
+    .shield-art-frame {
+      position: relative;
+      min-height: 156px;
+      display: grid;
+      place-items: center;
+      padding: 10px 12px 0;
+    }
+    .shield-aura {
+      position: absolute;
+      inset: 16px 24px 28px;
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--accent, #7bb9dd) 54%, transparent), transparent 68%);
+      filter: blur(14px);
+      opacity: 0.7;
+      pointer-events: none;
+    }
+    .shield-shell {
+      position: relative;
+      width: 100%;
+      max-width: 128px;
+      aspect-ratio: 0.84;
+      padding: 9px;
+      clip-path: polygon(50% 0%, 89% 13%, 89% 52%, 50% 100%, 11% 52%, 11% 13%);
+      background:
+        linear-gradient(180deg, color-mix(in srgb, var(--accent, #7bb9dd) 62%, white), color-mix(in srgb, var(--accent, #7bb9dd) 76%, black));
+      box-shadow:
+        0 0 18px color-mix(in srgb, var(--accent, #7bb9dd) 35%, transparent),
+        inset 0 0 0 1px rgba(255,255,255,0.18);
+    }
+    .shield-shell::before {
+      content: "";
+      position: absolute;
+      inset: 2px;
+      clip-path: inherit;
+      background: linear-gradient(180deg, #0e1118, #171b24);
+      z-index: 0;
+    }
+    .shield-shell img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+      clip-path: polygon(50% 0%, 86% 14%, 86% 52%, 50% 100%, 14% 52%, 14% 14%);
+      filter: saturate(1.08) contrast(1.03);
+    }
+    .shield-info {
+      display: grid;
+      gap: 3px;
+      text-align: center;
+    }
+    .shield-name {
+      font-size: 0.92rem;
+      font-weight: 900;
+      letter-spacing: 0.08em;
+      text-transform: lowercase;
+    }
+    .shield-kicker {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: var(--muted);
+      font-size: 0.66rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+    .shield-actions {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 6px;
+      margin-top: 10px;
+    }
+    .shield-actions a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 34px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.66rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #f0ecdf;
+      background: linear-gradient(180deg, rgba(42,44,52,0.98), rgba(24,26,32,0.98));
+      border: 1px solid rgba(255,255,255,0.08);
+      box-shadow: 1px 1px 0 rgba(0,0,0,0.32);
+    }
+    .shield-actions a:hover,
+    .shield-link:hover .shield-name {
+      filter: brightness(1.06);
+    }
+    .shield-actions a:focus-visible,
+    .shield-link:focus-visible {
+      outline: 2px solid color-mix(in srgb, var(--accent, #7bb9dd) 78%, white);
+      outline-offset: 3px;
     }
     .grid {
       display: grid;
@@ -134,10 +328,238 @@
       </div>
     </section>
 
+    <section class="shield-board" aria-labelledby="shield-board-title">
+      <div class="board-head">
+        <div>
+          <h2 id="shield-board-title">Shield Rack</h2>
+          <p>One shield per album. Tap the shield to open the album page, or use the lower controls for first-track play and direct Mandalla load.</p>
+        </div>
+        <div class="board-tag">12 Album Shields</div>
+      </div>
+
+      <div class="shield-grid">
+        <article class="shield-tile" style="--accent:#ff8a4f">
+          <a class="shield-link" href="./VOLHOLLA/volholla.html" aria-label="Open Volholla album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./Volholla_ Glory Served Daily.png" alt="Volholla artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">volholla</div>
+              <div class="shield-kicker">tailgate hymn relay</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-volholla-01.html">Play</a>
+            <a href="./mandalla.html?album=volholla">Load</a>
+            <a href="./VOLHOLLA/volholla.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#ff6f61">
+          <a class="shield-link" href="./VOLHOLLA/stochastic-elephant.html" aria-label="Open Stochastic Elephant album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png" alt="Stochastic Elephant artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">elephant</div>
+              <div class="shield-kicker">forensic neon labor</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-elephant-01.html">Play</a>
+            <a href="./mandalla.html?album=elephant">Load</a>
+            <a href="./VOLHOLLA/stochastic-elephant.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#b56dff">
+          <a class="shield-link" href="./VOLHOLLA/breath-thiefs-loom.html" aria-label="Open Breath-Thiefs Loom album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./Gemini_Generated_Image_3gd4ys3gd4ys3gd4.png" alt="Breath-Thiefs Loom artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">loom</div>
+              <div class="shield-kicker">ancestral code current</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-loom-01.html">Play</a>
+            <a href="./mandalla.html?album=loom">Load</a>
+            <a href="./VOLHOLLA/breath-thiefs-loom.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#7cd2ff">
+          <a class="shield-link" href="./VOLHOLLA/geometric-ghosts-of-mitte.html" aria-label="Open Geometric Ghosts of Mitte album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png" alt="Geometric Ghosts of Mitte artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">mitte</div>
+              <div class="shield-kicker">ghostline transit noir</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-mitte-01.html">Play</a>
+            <a href="./mandalla.html?album=mitte">Load</a>
+            <a href="./VOLHOLLA/geometric-ghosts-of-mitte.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#ff4fe0">
+          <a class="shield-link" href="./VOLHOLLA/moto.html" aria-label="Open MOTO album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./MOTO.png" alt="MOTO artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">moto</div>
+              <div class="shield-kicker">warehouse shrine pulse</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-moto-01.html">Play</a>
+            <a href="./mandalla.html?album=moto">Load</a>
+            <a href="./VOLHOLLA/moto.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#71e6ca">
+          <a class="shield-link" href="./VOLHOLLA/river-bank-waiting.html" aria-label="Open River Bank Waiting album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t.png" alt="River Bank Waiting artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">river</div>
+              <div class="shield-kicker">marsh drift circuitry</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-river-01.html">Play</a>
+            <a href="./mandalla.html?album=river">Load</a>
+            <a href="./VOLHOLLA/river-bank-waiting.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#e6b15c">
+          <a class="shield-link" href="./VOLHOLLA/crossroads-and-crown.html" aria-label="Open Crossroads and Crown album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno.png" alt="Crossroads and Crown artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">crossroads</div>
+              <div class="shield-kicker">crown dust relay</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-crossroads-01.html">Play</a>
+            <a href="./mandalla.html?album=crossroads">Load</a>
+            <a href="./VOLHOLLA/crossroads-and-crown.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#f4ca68">
+          <a class="shield-link" href="./VOLHOLLA/solar-reveries.html" aria-label="Open Solar Reveries album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png" alt="Solar Reveries artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">solar</div>
+              <div class="shield-kicker">brass orbit testimony</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-solar-01.html">Play</a>
+            <a href="./mandalla.html?album=solar">Load</a>
+            <a href="./VOLHOLLA/solar-reveries.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#d88452">
+          <a class="shield-link" href="./VOLHOLLA/jukebox-time-collapse.html" aria-label="Open Jukebox Time Collapse album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png" alt="Jukebox Time Collapse artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">jukebox</div>
+              <div class="shield-kicker">dust-road shuffle</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-jukebox-01.html">Play</a>
+            <a href="./mandalla.html?album=jukebox">Load</a>
+            <a href="./VOLHOLLA/jukebox-time-collapse.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#8fd2ef">
+          <a class="shield-link" href="./VOLHOLLA/cybernetic-winter.html" aria-label="Open Cybernetic Winter album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png" alt="Cybernetic Winter artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">cyber</div>
+              <div class="shield-kicker">winter hearth logic</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-cyber-01.html">Play</a>
+            <a href="./mandalla.html?album=cyber">Load</a>
+            <a href="./VOLHOLLA/cybernetic-winter.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#f1684b">
+          <a class="shield-link" href="./VOLHOLLA/no-service.html" aria-label="Open No Service album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png" alt="No Service artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">no service</div>
+              <div class="shield-kicker">zero-bar pressure</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-noservice-01.html">Play</a>
+            <a href="./mandalla.html?album=noservice">Load</a>
+            <a href="./VOLHOLLA/no-service.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#f5a45e">
+          <a class="shield-link" href="./VOLHOLLA/clinical-heat.html" aria-label="Open Clinical Heat album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="./NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png" alt="Clinical Heat artwork" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">clinical</div>
+              <div class="shield-kicker">carrier scam hooks</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-clinical-01.html">Play</a>
+            <a href="./mandalla.html?album=clinical">Load</a>
+            <a href="./VOLHOLLA/clinical-heat.html">Share</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="grid">
       <article class="card">
         <h2>VOLHOLLA Shield Hall</h2>
-        <div class="meta">Multi-album shield browser for VOLHOLLA, STOCHASTIC ELEPHANT, BREATH-THIEFS LOOM, GEOMETRIC GHOSTS OF MITTE, MOTO, RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, and CYBERNETIC WINTER.</div>
+        <div class="meta">Multi-album shield browser for VOLHOLLA, STOCHASTIC ELEPHANT, BREATH-THIEFS LOOM, GEOMETRIC GHOSTS OF MITTE, MOTO, RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NO SERVICE, and CLINICAL HEAT.</div>
         <div class="row">
           <a class="btn primary" href="./VOLHOLLA/">Open Shield Hall</a>
           <a class="btn" href="./VOLHOLLA/river-bank-waiting.html">River Album</a>
@@ -145,6 +567,8 @@
           <a class="btn" href="./VOLHOLLA/solar-reveries.html">Solar Album</a>
           <a class="btn" href="./VOLHOLLA/jukebox-time-collapse.html">Jukebox Album</a>
           <a class="btn" href="./VOLHOLLA/cybernetic-winter.html">Cyber Album</a>
+          <a class="btn" href="./VOLHOLLA/no-service.html">No Service Album</a>
+          <a class="btn" href="./VOLHOLLA/clinical-heat.html">Clinical Album</a>
         </div>
       </article>
 
@@ -158,7 +582,7 @@
 
       <article class="card">
         <h2>Mandalla (Single Ring Mixer)</h2>
-        <div class="meta">Album-loadable radial sequencer/mixer. Supports `?album=` and `?embed=1` for iframe use, including the RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, and CYBERNETIC WINTER crates.</div>
+        <div class="meta">Album-loadable radial sequencer/mixer. Supports `?album=` and `?embed=1` for iframe use, including the RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NO SERVICE, and CLINICAL HEAT crates.</div>
         <div class="row">
           <a class="btn primary" href="./mandalla.html?album=elephant">Open Mandalla</a>
           <a class="btn" href="./mandalla-ns.html?album=elephant">Open NS Single</a>
@@ -170,6 +594,8 @@
           <a class="btn" href="./mandalla.html?album=solar">Solar</a>
           <a class="btn" href="./mandalla.html?album=jukebox">Jukebox</a>
           <a class="btn" href="./mandalla.html?album=cyber">Cyber</a>
+          <a class="btn" href="./mandalla.html?album=noservice">No Service</a>
+          <a class="btn" href="./mandalla.html?album=clinical">Clinical</a>
         </div>
       </article>
 
@@ -187,6 +613,8 @@
           <a class="btn" href="./mandalla-deck.html?a=solar&b=crossroads">Solar × Cross</a>
           <a class="btn" href="./mandalla-deck.html?a=jukebox&b=solar">Jukebox × Solar</a>
           <a class="btn" href="./mandalla-deck.html?a=cyber&b=jukebox">Cyber × Jukebox</a>
+          <a class="btn" href="./mandalla-deck.html?a=noservice&b=cyber">No Service × Cyber</a>
+          <a class="btn" href="./mandalla-deck.html?a=clinical&b=noservice">Clinical × No Service</a>
         </div>
       </article>
 
@@ -210,6 +638,8 @@
           <a class="btn" href="./VOLHOLLA/solar-reveries.html">Solar Album</a>
           <a class="btn" href="./VOLHOLLA/jukebox-time-collapse.html">Jukebox Album</a>
           <a class="btn" href="./VOLHOLLA/cybernetic-winter.html">Cyber Album</a>
+          <a class="btn" href="./VOLHOLLA/no-service.html">No Service Album</a>
+          <a class="btn" href="./VOLHOLLA/clinical-heat.html">Clinical Album</a>
           <a class="btn" href="./VOLHOLLA/song-elephant-01.html">Song Page</a>
           <a class="btn" href="./VOLHOLLA/song-mitte-01.html">Mitte Song</a>
           <a class="btn" href="./VOLHOLLA/song-river-01.html">River Song</a>
@@ -217,12 +647,16 @@
           <a class="btn" href="./VOLHOLLA/song-solar-01.html">Solar Song</a>
           <a class="btn" href="./VOLHOLLA/song-jukebox-01.html">Jukebox Song</a>
           <a class="btn" href="./VOLHOLLA/song-cyber-01.html">Cyber Song</a>
+          <a class="btn" href="./VOLHOLLA/song-noservice-01.html">No Service Song</a>
+          <a class="btn" href="./VOLHOLLA/song-clinical-01.html">Clinical Song</a>
           <a class="btn" href="./VOLHOLLA/song-elephant-01.html?embed=1">Song Embed</a>
           <a class="btn" href="./op2.html?a=river&b=loom">OP2 River × Loom</a>
           <a class="btn" href="./op2.html?a=crossroads&b=river">OP2 Cross × River</a>
           <a class="btn" href="./op2.html?a=solar&b=crossroads">OP2 Solar × Cross</a>
           <a class="btn" href="./op2.html?a=jukebox&b=solar">OP2 Jukebox × Solar</a>
           <a class="btn" href="./op2.html?a=cyber&b=jukebox">OP2 Cyber × Jukebox</a>
+          <a class="btn" href="./op2.html?a=noservice&b=cyber">OP2 No Service × Cyber</a>
+          <a class="btn" href="./op2.html?a=clinical&b=noservice">OP2 Clinical × No Service</a>
         </div>
       </article>
     </section>

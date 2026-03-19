@@ -401,6 +401,72 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with JUKEBOX TIME COLLAPSE for a cold/ember contrast deck."]
       ]
+    },
+    noservice: {
+      key: "noservice",
+      pageSlug: "no-service",
+      basePath: "../NO SERVICE/",
+      label: "NO SERVICE",
+      subtitle: "Port-out panic / zero-bar testimony / regulatory heat",
+      accentA: "#f1684b",
+      accentB: "#f0d37f",
+      coverImage: "../NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
+      defaultTrackArt: "../NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
+      hallKey: "noservice",
+      op2Key: "noservice",
+      op2Pair: "cyber",
+      files: [
+        "Clinical Heat - Port-Out Purgatory - Sonauto.ogg",
+        "Clinical Heat - 84 Point 8 (Rudeboy Prompt) - Sonauto.ogg",
+        "Clinical Heat - Chatbot Wahala - Sonauto.ogg",
+        "Clinical Heat - Crowned at C5 - Sonauto.ogg",
+        "Clinical Heat - Dead Dial Tone (The Hostage) - Sonauto.ogg",
+        "Clinical Heat - Honey on the Tongue - Sonauto.ogg",
+        "Clinical Heat - Ibadan To Island - Sonauto.ogg",
+        "Clinical Heat - Ibadan To Island - Sonauto (1).ogg",
+        "Clinical Heat - Nuclear Option (The Paper Trail) - Sonauto.ogg",
+        "Clinical Heat - Port-Out Prisoner - Sonauto.ogg",
+        "Clinical Heat - Port-Out Ransom - Sonauto.ogg",
+        "Clinical Heat - Porting Out Horror - Sonauto.ogg",
+        "Clinical Heat - Regulatory Hammer - Sonauto.ogg",
+        "Clinical Heat - The Digital Purgatory - Sonauto.ogg",
+        "Clinical Heat - The Healer's Highlife - Sonauto.ogg",
+        "Clinical Heat - The Port-Out Hostage - Sonauto.ogg",
+        "Clinical Heat - Weaponized Incompetence - Sonauto.ogg",
+        "Clinical Heat - Zero Bars - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Network-failure relay / port-out hostage pressure / scorched service noir"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CYBERNETIC WINTER for a dead-signal contrast deck."]
+      ]
+    },
+    clinical: {
+      key: "clinical",
+      pageSlug: "clinical-heat",
+      basePath: "../NO SERVICE/",
+      label: "CLINICAL HEAT",
+      subtitle: "Carrier scam pop / hotline rupture / service-failure hooks",
+      accentA: "#f59754",
+      accentB: "#f0d37f",
+      coverImage: "../NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
+      defaultTrackArt: "../NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
+      hallKey: "clinical",
+      op2Key: "clinical",
+      op2Pair: "noservice",
+      files: [
+        "Lyca_Stress_Me.mp3",
+        "Lyca_Wahala.mp3",
+        "Port_Out_Trap.mp3",
+        "Service_No_Be_Scam.mp3",
+        "System_Error_Call_Failed.mp3",
+        "Virtual_Network_Operator.mp3"
+      ],
+      notes: [
+        ["Mode", "Service-collapse pop / hotline panic / telecom pressure hooks"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with NO SERVICE for the full split-catalog deck."]
+      ]
     }
   };
 
@@ -415,10 +481,12 @@
       .replace(/^solar reveries\s*-\s*/i, "")
       .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
+      .replace(/^clinical heat\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
+      .replace(/_/g, " ")
       .trim();
   }
 

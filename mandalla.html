@@ -1358,6 +1358,50 @@
                     "The Cybernetic Winter - The Tool We Built - Sonauto.ogg",
                     "The Cybernetic Winter - Wood and Ash Logic - Sonauto.ogg"
                 ]
+            },
+            noservice: {
+                key: 'noservice',
+                label: 'NO SERVICE',
+                shortLabel: 'NOSVC',
+                libraryParam: 'noservice',
+                op2Pair: 'cyber',
+                basePath: 'NO SERVICE/',
+                files: [
+                    "Clinical Heat - Port-Out Purgatory - Sonauto.ogg",
+                    "Clinical Heat - 84 Point 8 (Rudeboy Prompt) - Sonauto.ogg",
+                    "Clinical Heat - Chatbot Wahala - Sonauto.ogg",
+                    "Clinical Heat - Crowned at C5 - Sonauto.ogg",
+                    "Clinical Heat - Dead Dial Tone (The Hostage) - Sonauto.ogg",
+                    "Clinical Heat - Honey on the Tongue - Sonauto.ogg",
+                    "Clinical Heat - Ibadan To Island - Sonauto.ogg",
+                    "Clinical Heat - Ibadan To Island - Sonauto (1).ogg",
+                    "Clinical Heat - Nuclear Option (The Paper Trail) - Sonauto.ogg",
+                    "Clinical Heat - Port-Out Prisoner - Sonauto.ogg",
+                    "Clinical Heat - Port-Out Ransom - Sonauto.ogg",
+                    "Clinical Heat - Porting Out Horror - Sonauto.ogg",
+                    "Clinical Heat - Regulatory Hammer - Sonauto.ogg",
+                    "Clinical Heat - The Digital Purgatory - Sonauto.ogg",
+                    "Clinical Heat - The Healer's Highlife - Sonauto.ogg",
+                    "Clinical Heat - The Port-Out Hostage - Sonauto.ogg",
+                    "Clinical Heat - Weaponized Incompetence - Sonauto.ogg",
+                    "Clinical Heat - Zero Bars - Sonauto.ogg"
+                ]
+            },
+            clinical: {
+                key: 'clinical',
+                label: 'CLINICAL HEAT',
+                shortLabel: 'CLIN',
+                libraryParam: 'clinical',
+                op2Pair: 'noservice',
+                basePath: 'NO SERVICE/',
+                files: [
+                    "Lyca_Stress_Me.mp3",
+                    "Lyca_Wahala.mp3",
+                    "Port_Out_Trap.mp3",
+                    "Service_No_Be_Scam.mp3",
+                    "System_Error_Call_Failed.mp3",
+                    "Virtual_Network_Operator.mp3"
+                ]
             }
         };
 
@@ -1372,10 +1416,12 @@
                 .replace(/^solar reveries\s*-\s*/i, '')
                 .replace(/^jukebox time collapse\s*-\s*/i, '')
                 .replace(/^the cybernetic winter\s*-\s*/i, '')
+                .replace(/^clinical heat\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
                 .replace(/\s*-\s*Sonauto$/i, '')
+                .replace(/_/g, ' ')
                 .trim()
                 .toUpperCase();
         }
@@ -1390,6 +1436,8 @@
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
             if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
+            if (v === 'no-service' || v === 'no_service' || v === 'noservice') return 'noservice';
+            if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
             if (ALBUM_CRATE_DEFS[v]) return v;
             return 'loom';
         }

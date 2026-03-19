@@ -27,6 +27,8 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `solar`
 - `jukebox`
 - `cyber`
+- `noservice`
+- `clinical`
 
 ### Single Mandalla
 
@@ -61,4 +63,4 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, and `cyber` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, and `noservice` currently use `.ogg`.
