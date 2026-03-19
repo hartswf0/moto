@@ -326,6 +326,8 @@ body.embed::before { display: none; }
 .cover-head .mono { font-size: 0.58rem; }
 
 .art-square {
+  --beat-scale: 1;
+  --beat-glow: 0;
   aspect-ratio: 1 / 1;
   border-radius: 10px;
   overflow: hidden;
@@ -335,6 +337,17 @@ body.embed::before { display: none; }
     linear-gradient(160deg, #22242b, #17181d);
   box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06);
   position: relative;
+  transition: box-shadow .14s ease;
+}
+
+.art-square::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--accent-b, var(--ember)) 34%, white), transparent 62%);
+  opacity: calc(var(--beat-glow, 0) * 0.18);
+  transition: opacity .12s linear;
 }
 
 .art-square img {
@@ -342,10 +355,14 @@ body.embed::before { display: none; }
   height: 100%;
   object-fit: cover;
   display: block;
+  transform: scale(var(--beat-scale, 1));
+  transform-origin: center;
+  filter: saturate(calc(1 + var(--beat-glow, 0) * 0.16)) contrast(calc(1 + var(--beat-glow, 0) * 0.05));
+  transition: transform .12s linear, filter .12s linear, opacity .18s ease;
 }
 
 .art-square.is-art-swapping img {
-  animation: artSwap .26s ease;
+  animation: artSwap .22s ease;
 }
 
 .art-square .fallback {
@@ -353,6 +370,8 @@ body.embed::before { display: none; }
   inset: 0;
   display: grid;
   place-items: center;
+  transform: scale(var(--beat-scale, 1));
+  transition: transform .12s linear, opacity .18s ease;
 }
 
 .art-square .fallback svg {
@@ -582,12 +601,17 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 .disc-wrap {
+  --beat-scale: 1;
+  --beat-glow: 0;
   position: relative;
   width: 104px;
   height: 104px;
   display: grid;
   place-items: center;
   margin-inline: auto;
+  transform: scale(var(--beat-scale, 1));
+  transition: transform .12s linear, filter .12s linear;
+  filter: drop-shadow(0 0 calc(var(--beat-glow, 0) * 16px) color-mix(in srgb, var(--accent-b, var(--ember)) 18%, transparent));
 }
 
 .disc-wrap::after {
@@ -904,7 +928,7 @@ input[type="range"]:active::-webkit-slider-thumb {
 }
 
 @keyframes artSwap {
-  0% { opacity: 0.2; transform: scale(1.02); }
+  0% { opacity: 0.88; transform: scale(1.008); }
   100% { opacity: 1; transform: scale(1); }
 }
 
@@ -1054,4 +1078,17 @@ body.embed .grid {
   .code-box { font-size: 0.64rem; }
   .track-btn { min-height: 34px; padding: 0 8px; }
   .track-title { font-size: 0.82rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .art-square,
+  .art-square img,
+  .art-square .fallback,
+  .disc-wrap {
+    transition: none;
+  }
+
+  .art-square.is-art-swapping img {
+    animation: none;
+  }
 }
