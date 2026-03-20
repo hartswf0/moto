@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T07:40:52.819Z",
+  "generatedAt": "2026-03-20T22:30:06.195Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -15,61 +15,11 @@
       "accentB": "#ffbc70",
       "cover": {
         "source": "Volholla_ Glory Served Daily.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.jpg",
-            "webpBytes": 23382,
-            "jpegBytes": 68386,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.jpg",
-            "webpBytes": 45646,
-            "jpegBytes": 122006,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.jpg",
-            "webpBytes": 22390,
-            "jpegBytes": 69160,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "Volholla_ Glory Served Daily.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--thumb.jpg",
-            "webpBytes": 23382,
-            "jpegBytes": 68386,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--cover.jpg",
-            "webpBytes": 45646,
-            "jpegBytes": 122006,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Volholla_ Glory Served Daily--share.jpg",
-            "webpBytes": 22390,
-            "jpegBytes": 69160,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -80,28 +30,7 @@
           "songPage": "VOLHOLLA/song-volholla-01.html",
           "audio": {
             "source": "VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto.mp3",
-            "durationSeconds": 177.449796,
-            "sourceBitRate": 320049,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--stream.mp3",
-                "bytes": 2839658,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--fallback.mp3",
-                "bytes": 1419851,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/VOLHOLLA/coolradio - Criteria for the Reckless - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -283,61 +212,11 @@
       "accentB": "#ffb36b",
       "cover": {
         "source": "THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.jpg",
-            "webpBytes": 25844,
-            "jpegBytes": 44249,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.jpg",
-            "webpBytes": 110894,
-            "jpegBytes": 181058,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.jpg",
-            "webpBytes": 59520,
-            "jpegBytes": 99740,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--thumb.jpg",
-            "webpBytes": 25844,
-            "jpegBytes": 44249,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--cover.jpg",
-            "webpBytes": 110894,
-            "jpegBytes": 181058,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/THE STOCHASTIC ELEPHANT/Gemini_Generated_Image_xf646cxf646cxf64--share.jpg",
-            "webpBytes": 59520,
-            "jpegBytes": 99740,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -348,28 +227,7 @@
           "songPage": "VOLHOLLA/song-elephant-01.html",
           "audio": {
             "source": "THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto.mp3",
-            "durationSeconds": 167.836735,
-            "sourceBitRate": 320051,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--stream.mp3",
-                "bytes": 2685849,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--fallback.mp3",
-                "bytes": 1342946,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE STOCHASTIC ELEPHANT/01_coolradio - Synthetic Glow Aftershow - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -485,61 +343,11 @@
       "accentB": "#d3b380",
       "cover": {
         "source": "Gemini_Generated_Image_3gd4ys3gd4ys3gd4.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.jpg",
-            "webpBytes": 9598,
-            "jpegBytes": 22015,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.jpg",
-            "webpBytes": 21076,
-            "jpegBytes": 46958,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.jpg",
-            "webpBytes": 9582,
-            "jpegBytes": 25484,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "Gemini_Generated_Image_3gd4ys3gd4ys3gd4.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--thumb.jpg",
-            "webpBytes": 9598,
-            "jpegBytes": 22015,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--cover.jpg",
-            "webpBytes": 21076,
-            "jpegBytes": 46958,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/Gemini_Generated_Image_3gd4ys3gd4ys3gd4--share.jpg",
-            "webpBytes": 9582,
-            "jpegBytes": 25484,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -550,28 +358,7 @@
           "songPage": "VOLHOLLA/song-loom-01.html",
           "audio": {
             "source": "THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto.mp3",
-            "durationSeconds": 110.889796,
-            "sourceBitRate": 320078,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--stream.mp3",
-                "bytes": 1774698,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--fallback.mp3",
-                "bytes": 887371,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/THE BREATH-THIEFS LOOM/coolradio - Ancestral Code - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -742,61 +529,11 @@
       "accentB": "#f0a963",
       "cover": {
         "source": "MOTO.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--thumb.jpg",
-            "webpBytes": 61814,
-            "jpegBytes": 95168,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--cover.jpg",
-            "webpBytes": 66618,
-            "jpegBytes": 95168,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--share.jpg",
-            "webpBytes": 52974,
-            "jpegBytes": 96826,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "MOTO.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--thumb.jpg",
-            "webpBytes": 61814,
-            "jpegBytes": 95168,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--cover.jpg",
-            "webpBytes": 66618,
-            "jpegBytes": 95168,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/MOTO--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/MOTO--share.jpg",
-            "webpBytes": 52974,
-            "jpegBytes": 96826,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -807,28 +544,7 @@
           "songPage": "VOLHOLLA/song-moto-01.html",
           "audio": {
             "source": "MOTO/coolradio - Banjo in the Shrine - Sonauto.mp3",
-            "durationSeconds": 146.886531,
-            "sourceBitRate": 320059,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--stream.mp3",
-                "bytes": 2350646,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--fallback.mp3",
-                "bytes": 1175345,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/MOTO/coolradio - Banjo in the Shrine - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -955,61 +671,11 @@
       "accentB": "#f7b96e",
       "cover": {
         "source": "GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.jpg",
-            "webpBytes": 76604,
-            "jpegBytes": 105124,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.jpg",
-            "webpBytes": 325466,
-            "jpegBytes": 526957,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.jpg",
-            "webpBytes": 75156,
-            "jpegBytes": 119439,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--thumb.jpg",
-            "webpBytes": 76604,
-            "jpegBytes": 105124,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--cover.jpg",
-            "webpBytes": 325466,
-            "jpegBytes": 526957,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/GEOMETRIC GHOSTS OF MITTE/Gemini_Generated_Image_ypb49dypb49dypb4--share.jpg",
-            "webpBytes": 75156,
-            "jpegBytes": 119439,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -1020,28 +686,7 @@
           "songPage": "VOLHOLLA/song-mitte-01.html",
           "audio": {
             "source": "GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
-            "durationSeconds": 117.472653,
-            "sourceBitRate": 320074,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--stream.mp3",
-                "bytes": 1880024,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--fallback.mp3",
-                "bytes": 940034,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -1256,61 +901,11 @@
       "accentB": "#f0bf72",
       "cover": {
         "source": "RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--thumb.jpg",
-            "webpBytes": 81736,
-            "jpegBytes": 107896,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--cover.jpg",
-            "webpBytes": 369894,
-            "jpegBytes": 432746,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_yd7tn1yd7tn1yd7t--share.jpg",
-            "webpBytes": 82862,
-            "jpegBytes": 157533,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--thumb.jpg",
-            "webpBytes": 45040,
-            "jpegBytes": 73012,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--cover.jpg",
-            "webpBytes": 186754,
-            "jpegBytes": 289741,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/RIVER BANK WAITING/Gemini_Generated_Image_ngrdxdngrdxdngrd--share.jpg",
-            "webpBytes": 39984,
-            "jpegBytes": 70292,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -1321,28 +916,7 @@
           "songPage": "VOLHOLLA/song-river-01.html",
           "audio": {
             "source": "RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto.ogg",
-            "durationSeconds": 140.440792,
-            "sourceBitRate": 98015,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--stream.mp3",
-                "bytes": 2248246,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--fallback.mp3",
-                "bytes": 1124145,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/RIVER BANK WAITING/River Bank Waiting - Porch Light Pups - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -1557,61 +1131,11 @@
       "accentB": "#d8d1a9",
       "cover": {
         "source": "CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--thumb.jpg",
-            "webpBytes": 62702,
-            "jpegBytes": 95009,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--cover.jpg",
-            "webpBytes": 253640,
-            "jpegBytes": 378812,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_yfnouuyfnouuyfno--share.jpg",
-            "webpBytes": 54806,
-            "jpegBytes": 90574,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--thumb.jpg",
-            "webpBytes": 75340,
-            "jpegBytes": 112448,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--cover.jpg",
-            "webpBytes": 322338,
-            "jpegBytes": 460383,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CROSSROADS AND CROWN/Gemini_Generated_Image_k4pq3ak4pq3ak4pq--share.jpg",
-            "webpBytes": 66090,
-            "jpegBytes": 106056,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -1622,28 +1146,7 @@
           "songPage": "VOLHOLLA/song-crossroads-01.html",
           "audio": {
             "source": "CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto.ogg",
-            "durationSeconds": 217.716813,
-            "sourceBitRate": 102576,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--stream.mp3",
-                "bytes": 3484569,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--fallback.mp3",
-                "bytes": 1742306,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CROSSROADS AND CROWN/Canyon Fog and Silver Strings - The High Lonesome Circuit - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -1891,61 +1394,11 @@
       "accentB": "#f0d98a",
       "cover": {
         "source": "SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.jpg",
-            "webpBytes": 55016,
-            "jpegBytes": 91122,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.jpg",
-            "webpBytes": 258174,
-            "jpegBytes": 375251,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.jpg",
-            "webpBytes": 48348,
-            "jpegBytes": 87833,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--thumb.jpg",
-            "webpBytes": 55016,
-            "jpegBytes": 91122,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--cover.jpg",
-            "webpBytes": 258174,
-            "jpegBytes": 375251,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/SOLAR REVERIES/Gemini_Generated_Image_vou0d0vou0d0vou0--share.jpg",
-            "webpBytes": 48348,
-            "jpegBytes": 87833,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -1956,28 +1409,7 @@
           "songPage": "VOLHOLLA/song-solar-01.html",
           "audio": {
             "source": "SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto.ogg",
-            "durationSeconds": 134.728688,
-            "sourceBitRate": 73284,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--stream.mp3",
-                "bytes": 2156713,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--fallback.mp3",
-                "bytes": 1078378,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/SOLAR REVERIES/The D.C. Pocket & Afro-Funk - Africa Speaks, America Answers - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -2192,61 +1624,11 @@
       "accentB": "#f0c58a",
       "cover": {
         "source": "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--thumb.jpg",
-            "webpBytes": 70436,
-            "jpegBytes": 106568,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--cover.jpg",
-            "webpBytes": 211162,
-            "jpegBytes": 311828,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_40_37 PM--share.jpg",
-            "webpBytes": 67946,
-            "jpegBytes": 130656,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--thumb.jpg",
-            "webpBytes": 58372,
-            "jpegBytes": 109645,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--cover.jpg",
-            "webpBytes": 114962,
-            "jpegBytes": 207780,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/JUKEBOX TIME COLLAPSE/ChatGPT Image Mar 18, 2026, 08_45_05 PM--share.jpg",
-            "webpBytes": 52976,
-            "jpegBytes": 103808,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -2257,28 +1639,7 @@
           "songPage": "VOLHOLLA/song-jukebox-01.html",
           "audio": {
             "source": "JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto.ogg",
-            "durationSeconds": 143.505833,
-            "sourceBitRate": 101247,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--stream.mp3",
-                "bytes": 2297147,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--fallback.mp3",
-                "bytes": 1148595,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/JUKEBOX TIME COLLAPSE/Jukebox Time Collapse - Baptism of Fire Shuffle - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -2405,61 +1766,11 @@
       "accentB": "#d9edf6",
       "cover": {
         "source": "CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.jpg",
-            "webpBytes": 54328,
-            "jpegBytes": 87664,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.jpg",
-            "webpBytes": 231444,
-            "jpegBytes": 375347,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.jpg",
-            "webpBytes": 47730,
-            "jpegBytes": 84414,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--thumb.jpg",
-            "webpBytes": 54328,
-            "jpegBytes": 87664,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--cover.jpg",
-            "webpBytes": 231444,
-            "jpegBytes": 375347,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CYBERNETIC WINTER/Gemini_Generated_Image_hds679hds679hds6--share.jpg",
-            "webpBytes": 47730,
-            "jpegBytes": 84414,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -2470,28 +1781,7 @@
           "songPage": "VOLHOLLA/song-cyber-01.html",
           "audio": {
             "source": "CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto.ogg",
-            "durationSeconds": 189.574229,
-            "sourceBitRate": 100390,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--stream.mp3",
-                "bytes": 3034009,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--fallback.mp3",
-                "bytes": 1517026,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CYBERNETIC WINTER/The Cybernetic Winter - Auditable Drift - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -2794,61 +2084,11 @@
       "accentB": "#f0d37f",
       "cover": {
         "source": "NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.jpg",
-            "webpBytes": 52084,
-            "jpegBytes": 90194,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.jpg",
-            "webpBytes": 243368,
-            "jpegBytes": 381160,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.jpg",
-            "webpBytes": 45634,
-            "jpegBytes": 85598,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--thumb.jpg",
-            "webpBytes": 52084,
-            "jpegBytes": 90194,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--cover.jpg",
-            "webpBytes": 243368,
-            "jpegBytes": 381160,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/Gemini_Generated_Image_g7u7pzg7u7pzg7u7--share.jpg",
-            "webpBytes": 45634,
-            "jpegBytes": 85598,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -2859,28 +2099,7 @@
           "songPage": "VOLHOLLA/song-noservice-01.html",
           "audio": {
             "source": "NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto.ogg",
-            "durationSeconds": 132.963979,
-            "sourceBitRate": 99140,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--stream.mp3",
-                "bytes": 2128292,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--fallback.mp3",
-                "bytes": 1064168,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Clinical Heat - Port-Out Purgatory - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -3073,61 +2292,11 @@
       "accentB": "#f0d37f",
       "cover": {
         "source": "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--thumb.jpg",
-            "webpBytes": 80522,
-            "jpegBytes": 104535,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--cover.jpg",
-            "webpBytes": 210492,
-            "jpegBytes": 287145,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_33_04 PM--share.jpg",
-            "webpBytes": 78062,
-            "jpegBytes": 125197,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--thumb.jpg",
-            "webpBytes": 68432,
-            "jpegBytes": 112525,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--cover.jpg",
-            "webpBytes": 139962,
-            "jpegBytes": 216245,
-            "webpQuality": null,
-            "jpegQScale": null
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/NO SERVICE/ChatGPT Image Mar 18, 2026, 11_36_47 PM--share.jpg",
-            "webpBytes": 59970,
-            "jpegBytes": 106490,
-            "webpQuality": null,
-            "jpegQScale": null
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -3138,28 +2307,7 @@
           "songPage": "VOLHOLLA/song-clinical-01.html",
           "audio": {
             "source": "NO SERVICE/Lyca_Stress_Me.mp3",
-            "durationSeconds": 30.772167,
-            "sourceBitRate": 193579,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--stream.mp3",
-                "bytes": 493235,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--fallback.mp3",
-                "bytes": 246639,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/NO SERVICE/Lyca_Stress_Me--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": null
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -3219,6 +2367,1012 @@
         }
       ]
     },
+    "cathedral": {
+      "key": "cathedral",
+      "label": "CATHEDRAL OF IV DRIPS",
+      "subtitle": "IV-lit basilicas / stained data ritual / ledger-crack sanctimony",
+      "pageSlug": "cathedral-of-iv-drips",
+      "hallKey": "cathedral",
+      "op2Key": "cathedral",
+      "op2Pair": "clinical",
+      "accentA": "#78c4e1",
+      "accentB": "#e5c26f",
+      "cover": {
+        "source": "CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--thumb.jpg",
+            "webpBytes": 56286,
+            "jpegBytes": 96044,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--cover.jpg",
+            "webpBytes": 209746,
+            "jpegBytes": 351989,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew--share.jpg",
+            "webpBytes": 46774,
+            "jpegBytes": 90305,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--thumb.jpg",
+            "webpBytes": 81830,
+            "jpegBytes": 120064,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--cover.jpg",
+            "webpBytes": 356836,
+            "jpegBytes": 490451,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf--share.jpg",
+            "webpBytes": 72266,
+            "jpegBytes": 113282,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Amortized Greatness",
+          "file": "The Cathedral of IV Drips - Amortized Greatness - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Amortized Greatness - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-01.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Amortized Greatness - Sonauto.ogg",
+            "durationSeconds": 37.437083,
+            "sourceBitRate": 92521,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Amortized Greatness - Sonauto--stream.mp3",
+                "bytes": 599815,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Amortized Greatness - Sonauto--fallback.mp3",
+                "bytes": 299929,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Amortized Greatness - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Chains & Whips (ft. Kendrick Lamar)",
+          "file": "The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-02.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto.ogg",
+            "durationSeconds": 66.926417,
+            "sourceBitRate": 107579,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto--stream.mp3",
+                "bytes": 1071691,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto--fallback.mp3",
+                "bytes": 535867,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Chrome Skeleton",
+          "file": "The Cathedral of IV Drips - Chrome Skeleton - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chrome Skeleton - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-03.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chrome Skeleton - Sonauto.ogg",
+            "durationSeconds": 66.601333,
+            "sourceBitRate": 129598,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chrome Skeleton - Sonauto--stream.mp3",
+                "bytes": 1066675,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chrome Skeleton - Sonauto--fallback.mp3",
+                "bytes": 533359,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Chrome Skeleton - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Data Purge",
+          "file": "The Cathedral of IV Drips - Data Purge - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Data Purge - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-04.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Data Purge - Sonauto.ogg",
+            "durationSeconds": 126.044417,
+            "sourceBitRate": 98749,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Data Purge - Sonauto--stream.mp3",
+                "bytes": 2017533,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Data Purge - Sonauto--fallback.mp3",
+                "bytes": 1008788,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Data Purge - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Inglorious Bastards",
+          "file": "The Cathedral of IV Drips - Inglorious Bastards - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Inglorious Bastards - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-05.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Inglorious Bastards - Sonauto.ogg",
+            "durationSeconds": 145.967146,
+            "sourceBitRate": 107689,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Inglorious Bastards - Sonauto--stream.mp3",
+                "bytes": 2336435,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Inglorious Bastards - Sonauto--fallback.mp3",
+                "bytes": 1168239,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Inglorious Bastards - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Iron Peak",
+          "file": "The Cathedral of IV Drips - Iron Peak - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Iron Peak - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-06.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Iron Peak - Sonauto.ogg",
+            "durationSeconds": 182.097396,
+            "sourceBitRate": 98777,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Iron Peak - Sonauto--stream.mp3",
+                "bytes": 2914473,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Iron Peak - Sonauto--fallback.mp3",
+                "bytes": 1457258,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Iron Peak - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Let God Sort Em Out",
+          "file": "The Cathedral of IV Drips - Let God Sort Em Out - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Let God Sort Em Out - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-07.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Let God Sort Em Out - Sonauto.ogg",
+            "durationSeconds": 125.719354,
+            "sourceBitRate": 105858,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Let God Sort Em Out - Sonauto--stream.mp3",
+                "bytes": 2012517,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Let God Sort Em Out - Sonauto--fallback.mp3",
+                "bytes": 1006280,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Let God Sort Em Out - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "M.T.B.T.T.F. (Mike Tyson Blow To The Face)",
+          "file": "The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-08.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto.ogg",
+            "durationSeconds": 192.035542,
+            "sourceBitRate": 108221,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto--stream.mp3",
+                "bytes": 3073715,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto--fallback.mp3",
+                "bytes": 1536879,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Parisian Pavements",
+          "file": "The Cathedral of IV Drips - Parisian Pavements - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Parisian Pavements - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-09.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Parisian Pavements - Sonauto.ogg",
+            "durationSeconds": 130.549104,
+            "sourceBitRate": 94581,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Parisian Pavements - Sonauto--stream.mp3",
+                "bytes": 2089839,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Parisian Pavements - Sonauto--fallback.mp3",
+                "bytes": 1044941,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Parisian Pavements - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Sanctified Ledger",
+          "file": "The Cathedral of IV Drips - Sanctified Ledger - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Sanctified Ledger - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-10.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Sanctified Ledger - Sonauto.ogg",
+            "durationSeconds": 50.533125,
+            "sourceBitRate": 95626,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Sanctified Ledger - Sonauto--stream.mp3",
+                "bytes": 809631,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Sanctified Ledger - Sonauto--fallback.mp3",
+                "bytes": 404837,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Sanctified Ledger - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Stained Glass Rims",
+          "file": "The Cathedral of IV Drips - Stained Glass Rims - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Stained Glass Rims - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-11.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Stained Glass Rims - Sonauto.ogg",
+            "durationSeconds": 101.709917,
+            "sourceBitRate": 101166,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Stained Glass Rims - Sonauto--stream.mp3",
+                "bytes": 1628413,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Stained Glass Rims - Sonauto--fallback.mp3",
+                "bytes": 814228,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Stained Glass Rims - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Structural Revolt",
+          "file": "The Cathedral of IV Drips - Structural Revolt - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Structural Revolt - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-12.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Structural Revolt - Sonauto.ogg",
+            "durationSeconds": 125.162063,
+            "sourceBitRate": 91404,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Structural Revolt - Sonauto--stream.mp3",
+                "bytes": 2003740,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Structural Revolt - Sonauto--fallback.mp3",
+                "bytes": 1001892,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Structural Revolt - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Final Sort",
+          "file": "The Cathedral of IV Drips - The Final Sort - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - The Final Sort - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-13.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - The Final Sort - Sonauto.ogg",
+            "durationSeconds": 160.038438,
+            "sourceBitRate": 85101,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - The Final Sort - Sonauto--stream.mp3",
+                "bytes": 2561715,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - The Final Sort - Sonauto--fallback.mp3",
+                "bytes": 1280879,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - The Final Sort - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Vatican Vigil",
+          "file": "The Cathedral of IV Drips - Vatican Vigil - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Vatican Vigil - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-14.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Vatican Vigil - Sonauto.ogg",
+            "durationSeconds": 32.978854,
+            "sourceBitRate": 123088,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Vatican Vigil - Sonauto--stream.mp3",
+                "bytes": 528762,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Vatican Vigil - Sonauto--fallback.mp3",
+                "bytes": 264403,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Vatican Vigil - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Version Control",
+          "file": "The Cathedral of IV Drips - Version Control - Sonauto.ogg",
+          "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Version Control - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-cathedral-15.html",
+          "audio": {
+            "source": "CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Version Control - Sonauto.ogg",
+            "durationSeconds": 134.960896,
+            "sourceBitRate": 83662,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Version Control - Sonauto--stream.mp3",
+                "bytes": 2160475,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Version Control - Sonauto--fallback.mp3",
+                "bytes": 1080259,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CATHEDRAL OF IV DRIPS/The Cathedral of IV Drips - Version Control - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    "silence": {
+      "key": "silence",
+      "label": "SILENCE IN THE 757",
+      "subtitle": "757 confessions / backseat debt noir / funeral finance drift",
+      "pageSlug": "silence-in-the-757",
+      "hallKey": "silence",
+      "op2Key": "silence",
+      "op2Pair": "cathedral",
+      "accentA": "#c98f75",
+      "accentB": "#e1c87a",
+      "cover": {
+        "source": "SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--thumb.jpg",
+            "webpBytes": 72926,
+            "jpegBytes": 110566,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--cover.jpg",
+            "webpBytes": 374418,
+            "jpegBytes": 420806,
+            "webpQuality": 65,
+            "jpegQScale": 6
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3--share.jpg",
+            "webpBytes": 61484,
+            "jpegBytes": 104211,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2).png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--thumb.jpg",
+            "webpBytes": 57728,
+            "jpegBytes": 91777,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--cover.jpg",
+            "webpBytes": 330808,
+            "jpegBytes": 427128,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2)--share.jpg",
+            "webpBytes": 48000,
+            "jpegBytes": 85950,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Distance and Devotion",
+          "file": "Silence in the 757 - Distance and Devotion - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Distance and Devotion - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-01.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Distance and Devotion - Sonauto.ogg",
+            "durationSeconds": 128.784375,
+            "sourceBitRate": 96024,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Distance and Devotion - Sonauto--stream.mp3",
+                "bytes": 2061418,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Distance and Devotion - Sonauto--fallback.mp3",
+                "bytes": 1030731,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Distance and Devotion - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "E.B.I.T.D.A. (ft. Pharrell)",
+          "file": "Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-02.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto.ogg",
+            "durationSeconds": 144.481063,
+            "sourceBitRate": 88291,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto--stream.mp3",
+                "bytes": 2312612,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto--fallback.mp3",
+                "bytes": 1156328,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "E.B.I.T.D.A.",
+          "file": "Silence in the 757 - E.B.I.T.D.A. - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-03.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. - Sonauto.ogg",
+            "durationSeconds": 135.146646,
+            "sourceBitRate": 101713,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. - Sonauto--stream.mp3",
+                "bytes": 2163400,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. - Sonauto--fallback.mp3",
+                "bytes": 1081722,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - E.B.I.T.D.A. - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Funeral Procession Through The Sanctuary",
+          "file": "Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-04.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto.ogg",
+            "durationSeconds": 176.942563,
+            "sourceBitRate": 94030,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto--stream.mp3",
+                "bytes": 2832135,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto--fallback.mp3",
+                "bytes": 1416089,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Iron Mike Blow",
+          "file": "Silence in the 757 - Iron Mike Blow - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Iron Mike Blow - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-05.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Iron Mike Blow - Sonauto.ogg",
+            "durationSeconds": 155.533771,
+            "sourceBitRate": 95460,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Iron Mike Blow - Sonauto--stream.mp3",
+                "bytes": 2489408,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Iron Mike Blow - Sonauto--fallback.mp3",
+                "bytes": 1244726,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Iron Mike Blow - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Mess as a Message",
+          "file": "Silence in the 757 - Mess as a Message - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Mess as a Message - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-06.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Mess as a Message - Sonauto.ogg",
+            "durationSeconds": 181.540125,
+            "sourceBitRate": 92504,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Mess as a Message - Sonauto--stream.mp3",
+                "bytes": 2905696,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Mess as a Message - Sonauto--fallback.mp3",
+                "bytes": 1452870,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Mess as a Message - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Re-Up Rollback",
+          "file": "Silence in the 757 - Re-Up Rollback - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Re-Up Rollback - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-07.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Re-Up Rollback - Sonauto.ogg",
+            "durationSeconds": 160.874354,
+            "sourceBitRate": 101400,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Re-Up Rollback - Sonauto--stream.mp3",
+                "bytes": 2575090,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Re-Up Rollback - Sonauto--fallback.mp3",
+                "bytes": 1287567,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Re-Up Rollback - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "System Halt",
+          "file": "Silence in the 757 - System Halt - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - System Halt - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-08.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - System Halt - Sonauto.ogg",
+            "durationSeconds": 157.995083,
+            "sourceBitRate": 94214,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - System Halt - Sonauto--stream.mp3",
+                "bytes": 2529115,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - System Halt - Sonauto--fallback.mp3",
+                "bytes": 1264579,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - System Halt - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "The Abu Dhabi Debt",
+          "file": "Silence in the 757 - The Abu Dhabi Debt - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - The Abu Dhabi Debt - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-09.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - The Abu Dhabi Debt - Sonauto.ogg",
+            "durationSeconds": 125.487146,
+            "sourceBitRate": 99587,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Abu Dhabi Debt - Sonauto--stream.mp3",
+                "bytes": 2008755,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Abu Dhabi Debt - Sonauto--fallback.mp3",
+                "bytes": 1004399,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Abu Dhabi Debt - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "The Prime Rate Preacher",
+          "file": "Silence in the 757 - The Prime Rate Preacher - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - The Prime Rate Preacher - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-10.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - The Prime Rate Preacher - Sonauto.ogg",
+            "durationSeconds": 181.540125,
+            "sourceBitRate": 82118,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Prime Rate Preacher - Sonauto--stream.mp3",
+                "bytes": 2905696,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Prime Rate Preacher - Sonauto--fallback.mp3",
+                "bytes": 1452870,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Prime Rate Preacher - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "The Transactional Truth",
+          "file": "Silence in the 757 - The Transactional Truth - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - The Transactional Truth - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-11.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - The Transactional Truth - Sonauto.ogg",
+            "durationSeconds": 137.097125,
+            "sourceBitRate": 98228,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Transactional Truth - Sonauto--stream.mp3",
+                "bytes": 2194747,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Transactional Truth - Sonauto--fallback.mp3",
+                "bytes": 1097395,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - The Transactional Truth - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Virginia Confessions",
+          "file": "Silence in the 757 - Virginia Confessions - Sonauto.ogg",
+          "source": "SILENCE IN THE 757/Silence in the 757 - Virginia Confessions - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-silence-12.html",
+          "audio": {
+            "source": "SILENCE IN THE 757/Silence in the 757 - Virginia Confessions - Sonauto.ogg",
+            "durationSeconds": 148.382021,
+            "sourceBitRate": 100889,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Virginia Confessions - Sonauto--stream.mp3",
+                "bytes": 2375306,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Virginia Confessions - Sonauto--fallback.mp3",
+                "bytes": 1187675,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SILENCE IN THE 757/Silence in the 757 - Virginia Confessions - Sonauto--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          }
+        }
+      ]
+    },
     "concreto": {
       "key": "concreto",
       "label": "CONCRETO",
@@ -3231,61 +3385,11 @@
       "accentB": "#d7d0c0",
       "cover": {
         "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.jpg",
-            "webpBytes": 76816,
-            "jpegBytes": 121835,
-            "webpQuality": 78,
-            "jpegQScale": 4
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.jpg",
-            "webpBytes": 166742,
-            "jpegBytes": 259599,
-            "webpQuality": 80,
-            "jpegQScale": 4
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.jpg",
-            "webpBytes": 69166,
-            "jpegBytes": 115807,
-            "webpQuality": 76,
-            "jpegQScale": 5
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--thumb.jpg",
-            "webpBytes": 76816,
-            "jpegBytes": 121835,
-            "webpQuality": 78,
-            "jpegQScale": 4
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--cover.jpg",
-            "webpBytes": 166742,
-            "jpegBytes": 259599,
-            "webpQuality": 80,
-            "jpegQScale": 4
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_35_09 AM--share.jpg",
-            "webpBytes": 69166,
-            "jpegBytes": 115807,
-            "webpQuality": 76,
-            "jpegQScale": 5
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -3296,28 +3400,7 @@
           "songPage": "VOLHOLLA/song-concreto-01.html",
           "audio": {
             "source": "CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto.ogg",
-            "durationSeconds": 148.614229,
-            "sourceBitRate": 96124,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--stream.mp3",
-                "bytes": 2378649,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--fallback.mp3",
-                "bytes": 1189346,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - Warriors del Norte - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": 30
-              }
-            }
+            "derivatives": {}
           }
         },
         {
@@ -3466,61 +3549,11 @@
       "accentB": "#f0c56f",
       "cover": {
         "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.jpg",
-            "webpBytes": 81274,
-            "jpegBytes": 119904,
-            "webpQuality": 58,
-            "jpegQScale": 8
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.jpg",
-            "webpBytes": 373998,
-            "jpegBytes": 418046,
-            "webpQuality": 80,
-            "jpegQScale": 4
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.jpg",
-            "webpBytes": 122412,
-            "jpegBytes": 163772,
-            "webpQuality": 76,
-            "jpegQScale": 5
-          }
-        }
+        "derivatives": {}
       },
       "defaultTrackArt": {
         "source": "CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM.png",
-        "derivatives": {
-          "thumb": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--thumb.jpg",
-            "webpBytes": 81274,
-            "jpegBytes": 119904,
-            "webpQuality": 58,
-            "jpegQScale": 8
-          },
-          "cover": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--cover.jpg",
-            "webpBytes": 373998,
-            "jpegBytes": 418046,
-            "webpQuality": 80,
-            "jpegQScale": 4
-          },
-          "share": {
-            "webp": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.webp",
-            "jpeg": "MEDIA_DERIVATIVES/images/CONCRETO y CYPHER/ChatGPT Image Mar 19, 2026, 02_21_19 AM--share.jpg",
-            "webpBytes": 122412,
-            "jpegBytes": 163772,
-            "webpQuality": 76,
-            "jpegQScale": 5
-          }
-        }
+        "derivatives": {}
       },
       "tracks": [
         {
@@ -3531,28 +3564,7 @@
           "songPage": "VOLHOLLA/song-cypher-01.html",
           "audio": {
             "source": "CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
-            "durationSeconds": 69.109104,
-            "sourceBitRate": 97684,
-            "derivatives": {
-              "stream": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--stream.mp3",
-                "bytes": 1106799,
-                "bitrate": "128k",
-                "previewSeconds": null
-              },
-              "fallback": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--fallback.mp3",
-                "bytes": 553421,
-                "bitrate": "64k",
-                "previewSeconds": null
-              },
-              "preview": {
-                "mp3": "MEDIA_DERIVATIVES/audio/CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto--preview.mp3",
-                "bytes": 180498,
-                "bitrate": "48k",
-                "previewSeconds": 30
-              }
-            }
+            "derivatives": {}
           }
         },
         {

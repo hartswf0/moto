@@ -13,6 +13,8 @@ export function titleFromFilename(file) {
     .replace(/^solar reveries\s*-\s*/i, "")
     .replace(/^jukebox time collapse\s*-\s*/i, "")
     .replace(/^the cybernetic winter\s*-\s*/i, "")
+    .replace(/^the cathedral of iv drips\s*-\s*/i, "")
+    .replace(/^silence in the 757\s*-\s*/i, "")
     .replace(/^clinical heat\s*-\s*/i, "")
     .replace(/^concreto y cyphers\s*-\s*/i, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")

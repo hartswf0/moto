@@ -1359,6 +1359,53 @@
                     "The Cybernetic Winter - Wood and Ash Logic - Sonauto.ogg"
                 ]
             },
+            cathedral: {
+                key: 'cathedral',
+                label: 'CATHEDRAL OF IV DRIPS',
+                shortLabel: 'CATHDR',
+                libraryParam: 'cathedral',
+                op2Pair: 'clinical',
+                basePath: 'CATHEDRAL OF IV DRIPS/',
+                files: [
+                    "The Cathedral of IV Drips - Amortized Greatness - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Chrome Skeleton - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Data Purge - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Inglorious Bastards - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Iron Peak - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Let God Sort Em Out - Sonauto.ogg",
+                    "The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Parisian Pavements - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Sanctified Ledger - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Stained Glass Rims - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Structural Revolt - Sonauto.ogg",
+                    "The Cathedral of IV Drips - The Final Sort - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Vatican Vigil - Sonauto.ogg",
+                    "The Cathedral of IV Drips - Version Control - Sonauto.ogg"
+                ]
+            },
+            silence: {
+                key: 'silence',
+                label: 'SILENCE IN THE 757',
+                shortLabel: '757',
+                libraryParam: 'silence',
+                op2Pair: 'cathedral',
+                basePath: 'SILENCE IN THE 757/',
+                files: [
+                    "Silence in the 757 - Distance and Devotion - Sonauto.ogg",
+                    "Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto.ogg",
+                    "Silence in the 757 - E.B.I.T.D.A. - Sonauto.ogg",
+                    "Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto.ogg",
+                    "Silence in the 757 - Iron Mike Blow - Sonauto.ogg",
+                    "Silence in the 757 - Mess as a Message - Sonauto.ogg",
+                    "Silence in the 757 - Re-Up Rollback - Sonauto.ogg",
+                    "Silence in the 757 - System Halt - Sonauto.ogg",
+                    "Silence in the 757 - The Abu Dhabi Debt - Sonauto.ogg",
+                    "Silence in the 757 - The Prime Rate Preacher - Sonauto.ogg",
+                    "Silence in the 757 - The Transactional Truth - Sonauto.ogg",
+                    "Silence in the 757 - Virginia Confessions - Sonauto.ogg"
+                ]
+            },
             noservice: {
                 key: 'noservice',
                 label: 'NO SERVICE',
@@ -1468,6 +1515,8 @@
                 .replace(/^solar reveries\s*-\s*/i, '')
                 .replace(/^jukebox time collapse\s*-\s*/i, '')
                 .replace(/^the cybernetic winter\s*-\s*/i, '')
+                .replace(/^the cathedral of iv drips\s*-\s*/i, '')
+                .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
                 .replace(/^concreto y cyphers\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
@@ -1490,6 +1539,8 @@
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
             if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
+            if (v === 'cathedral-of-iv-drips' || v === 'cathedral_of_iv_drips' || v === 'cathedral' || v === 'ivdrips') return 'cathedral';
+            if (v === 'silence-in-the-757' || v === 'silence_in_the_757' || v === 'silence' || v === '757') return 'silence';
             if (v === 'no-service' || v === 'no_service' || v === 'noservice') return 'noservice';
             if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
             if (v === 'concreto') return 'concreto';

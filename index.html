@@ -15,6 +15,9 @@
       --muted: #b7b0a1;
       --fire: #ff7a16;
       --ember: #ffbc70;
+      --shield-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath fill='black' d='M100 20 Q140 40 170 60 Q170 120 140 160 Q100 180 60 160 Q30 120 30 60 Q60 40 100 20 Z'/%3E%3C/svg%3E");
+      --shield-inner-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath fill='black' d='M100 30 Q132 46 156 62 Q156 112 132 146 Q100 164 68 146 Q44 112 44 62 Q68 46 100 30 Z'/%3E%3C/svg%3E");
+      --shield-outline: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cpath d='M100 20 Q140 40 170 60 Q170 120 140 160 Q100 180 60 160 Q30 120 30 60 Q60 40 100 20 Z' fill='none' stroke='%23fff8ee' stroke-opacity='.12' stroke-width='5'/%3E%3Cpath d='M100 30 Q132 46 156 62 Q156 112 132 146 Q100 164 68 146 Q44 112 44 62 Q68 46 100 30 Z' fill='none' stroke='%23fff8ee' stroke-opacity='.22' stroke-width='3'/%3E%3C/svg%3E");
     }
     * { box-sizing: border-box; }
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); }
@@ -177,32 +180,41 @@
     .shield-shell {
       position: relative;
       width: 100%;
-      max-width: 128px;
-      aspect-ratio: 0.84;
-      padding: 9px;
-      clip-path: polygon(50% 0%, 89% 13%, 89% 52%, 50% 100%, 11% 52%, 11% 13%);
-      background:
-        linear-gradient(180deg, color-mix(in srgb, var(--accent, #7bb9dd) 62%, white), color-mix(in srgb, var(--accent, #7bb9dd) 76%, black));
-      box-shadow:
-        0 0 18px color-mix(in srgb, var(--accent, #7bb9dd) 35%, transparent),
-        inset 0 0 0 1px rgba(255,255,255,0.18);
+      max-width: 134px;
+      aspect-ratio: 1;
+      isolation: isolate;
+      filter:
+        drop-shadow(0 0 18px color-mix(in srgb, var(--accent, #7bb9dd) 34%, transparent))
+        drop-shadow(0 10px 14px rgba(0,0,0,0.38));
     }
     .shield-shell::before {
       content: "";
       position: absolute;
-      inset: 2px;
-      clip-path: inherit;
-      background: linear-gradient(180deg, #0e1118, #171b24);
+      inset: 0;
       z-index: 0;
+      background:
+        linear-gradient(180deg, color-mix(in srgb, var(--accent, #7bb9dd) 60%, white), color-mix(in srgb, var(--accent, #7bb9dd) 76%, black));
+      -webkit-mask: var(--shield-mask) center / 100% 100% no-repeat;
+      mask: var(--shield-mask) center / 100% 100% no-repeat;
+    }
+    .shield-shell::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      pointer-events: none;
+      background: center / 100% 100% no-repeat var(--shield-outline);
     }
     .shield-shell img {
-      position: relative;
+      position: absolute;
+      inset: 4px;
       z-index: 1;
-      width: 100%;
-      height: 100%;
+      width: calc(100% - 8px);
+      height: calc(100% - 8px);
       display: block;
       object-fit: cover;
-      clip-path: polygon(50% 0%, 86% 14%, 86% 52%, 50% 100%, 14% 52%, 14% 14%);
+      -webkit-mask: var(--shield-mask) center / 100% 100% no-repeat;
+      mask: var(--shield-mask) center / 100% 100% no-repeat;
       filter: saturate(1.08) contrast(1.03);
       opacity: 0;
       transition: opacity 180ms ease;
@@ -339,7 +351,7 @@
           <h2 id="shield-board-title">Shield Rack</h2>
           <p>One shield per album. Tap the shield to open the album page, or use the lower controls for first-track play and direct Mandalla load.</p>
         </div>
-        <div class="board-tag">14 Album Shields</div>
+        <div class="board-tag">16 Album Shields</div>
       </div>
 
       <div class="shield-grid">
@@ -559,6 +571,42 @@
           </div>
         </article>
 
+        <article class="shield-tile" style="--accent:#78c4e1">
+          <a class="shield-link" href="./VOLHOLLA/cathedral-of-iv-drips.html" aria-label="Open Cathedral of IV Drips album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-album-key="cathedral" data-media-source="CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew.png" alt="Cathedral of IV Drips artwork" loading="lazy" decoding="async" fetchpriority="low" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">cathedral</div>
+              <div class="shield-kicker">iv-lit basilica ritual</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-cathedral-01.html">Play</a>
+            <a href="./mandalla.html?album=cathedral">Load</a>
+            <a href="./VOLHOLLA/cathedral-of-iv-drips.html">Share</a>
+          </div>
+        </article>
+
+        <article class="shield-tile" style="--accent:#c98f75">
+          <a class="shield-link" href="./VOLHOLLA/silence-in-the-757.html" aria-label="Open Silence in the 757 album page">
+            <div class="shield-art-frame">
+              <div class="shield-aura"></div>
+              <div class="shield-shell"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" data-album-key="silence" data-media-source="SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3.png" alt="Silence in the 757 artwork" loading="lazy" decoding="async" fetchpriority="low" /></div>
+            </div>
+            <div class="shield-info">
+              <div class="shield-name">silence 757</div>
+              <div class="shield-kicker">757 confessional noir</div>
+            </div>
+          </a>
+          <div class="shield-actions">
+            <a href="./VOLHOLLA/song-silence-01.html">Play</a>
+            <a href="./mandalla.html?album=silence">Load</a>
+            <a href="./VOLHOLLA/silence-in-the-757.html">Share</a>
+          </div>
+        </article>
+
         <article class="shield-tile" style="--accent:#d98b57">
           <a class="shield-link" href="./VOLHOLLA/concreto.html" aria-label="Open Concreto album page">
             <div class="shield-art-frame">
@@ -600,7 +648,7 @@
     <section class="grid">
       <article class="card">
         <h2>VOLHOLLA Shield Hall</h2>
-        <div class="meta">Multi-album shield browser for VOLHOLLA, STOCHASTIC ELEPHANT, BREATH-THIEFS LOOM, GEOMETRIC GHOSTS OF MITTE, MOTO, RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NO SERVICE, CLINICAL HEAT, CONCRETO, and CYPHER MIXTAPE.</div>
+        <div class="meta">Multi-album shield browser for VOLHOLLA, STOCHASTIC ELEPHANT, BREATH-THIEFS LOOM, GEOMETRIC GHOSTS OF MITTE, MOTO, RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NO SERVICE, CLINICAL HEAT, CATHEDRAL OF IV DRIPS, SILENCE IN THE 757, CONCRETO, and CYPHER MIXTAPE.</div>
         <div class="row">
           <a class="btn primary" href="./VOLHOLLA/">Open Shield Hall</a>
           <a class="btn" href="./VOLHOLLA/river-bank-waiting.html">River Album</a>
@@ -610,6 +658,8 @@
           <a class="btn" href="./VOLHOLLA/cybernetic-winter.html">Cyber Album</a>
           <a class="btn" href="./VOLHOLLA/no-service.html">No Service Album</a>
           <a class="btn" href="./VOLHOLLA/clinical-heat.html">Clinical Album</a>
+          <a class="btn" href="./VOLHOLLA/cathedral-of-iv-drips.html">Cathedral Album</a>
+          <a class="btn" href="./VOLHOLLA/silence-in-the-757.html">Silence 757 Album</a>
           <a class="btn" href="./VOLHOLLA/concreto.html">Concreto Album</a>
           <a class="btn" href="./VOLHOLLA/cypher-mixtape.html">Cypher Album</a>
         </div>
@@ -625,7 +675,7 @@
 
       <article class="card">
         <h2>Mandalla (Single Ring Mixer)</h2>
-        <div class="meta">Album-loadable radial sequencer/mixer. Supports `?album=` and `?embed=1` for iframe use, including the RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NO SERVICE, CLINICAL HEAT, CONCRETO, and CYPHER MIXTAPE crates.</div>
+        <div class="meta">Album-loadable radial sequencer/mixer. Supports `?album=` and `?embed=1` for iframe use, including the RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, CATHEDRAL OF IV DRIPS, SILENCE IN THE 757, NO SERVICE, CLINICAL HEAT, CONCRETO, and CYPHER MIXTAPE crates.</div>
         <div class="row">
           <a class="btn primary" href="./mandalla.html?album=elephant">Open Mandalla</a>
           <a class="btn" href="./mandalla-ns.html?album=elephant">Open NS Single</a>
@@ -637,6 +687,8 @@
           <a class="btn" href="./mandalla.html?album=solar">Solar</a>
           <a class="btn" href="./mandalla.html?album=jukebox">Jukebox</a>
           <a class="btn" href="./mandalla.html?album=cyber">Cyber</a>
+          <a class="btn" href="./mandalla.html?album=cathedral">Cathedral</a>
+          <a class="btn" href="./mandalla.html?album=silence">Silence 757</a>
           <a class="btn" href="./mandalla.html?album=noservice">No Service</a>
           <a class="btn" href="./mandalla.html?album=clinical">Clinical</a>
           <a class="btn" href="./mandalla.html?album=concreto">Concreto</a>
@@ -658,6 +710,8 @@
           <a class="btn" href="./mandalla-deck.html?a=solar&b=crossroads">Solar × Cross</a>
           <a class="btn" href="./mandalla-deck.html?a=jukebox&b=solar">Jukebox × Solar</a>
           <a class="btn" href="./mandalla-deck.html?a=cyber&b=jukebox">Cyber × Jukebox</a>
+          <a class="btn" href="./mandalla-deck.html?a=cathedral&b=clinical">Cathedral × Clinical</a>
+          <a class="btn" href="./mandalla-deck.html?a=silence&b=cathedral">Silence × Cathedral</a>
           <a class="btn" href="./mandalla-deck.html?a=noservice&b=cyber">No Service × Cyber</a>
           <a class="btn" href="./mandalla-deck.html?a=clinical&b=noservice">Clinical × No Service</a>
           <a class="btn" href="./mandalla-deck.html?a=concreto&b=cypher">Concreto × Cypher</a>
@@ -686,6 +740,8 @@
           <a class="btn" href="./VOLHOLLA/cybernetic-winter.html">Cyber Album</a>
           <a class="btn" href="./VOLHOLLA/no-service.html">No Service Album</a>
           <a class="btn" href="./VOLHOLLA/clinical-heat.html">Clinical Album</a>
+          <a class="btn" href="./VOLHOLLA/cathedral-of-iv-drips.html">Cathedral Album</a>
+          <a class="btn" href="./VOLHOLLA/silence-in-the-757.html">Silence 757 Album</a>
           <a class="btn" href="./VOLHOLLA/concreto.html">Concreto Album</a>
           <a class="btn" href="./VOLHOLLA/cypher-mixtape.html">Cypher Album</a>
           <a class="btn" href="./VOLHOLLA/song-elephant-01.html">Song Page</a>
@@ -697,6 +753,8 @@
           <a class="btn" href="./VOLHOLLA/song-cyber-01.html">Cyber Song</a>
           <a class="btn" href="./VOLHOLLA/song-noservice-01.html">No Service Song</a>
           <a class="btn" href="./VOLHOLLA/song-clinical-01.html">Clinical Song</a>
+          <a class="btn" href="./VOLHOLLA/song-cathedral-01.html">Cathedral Song</a>
+          <a class="btn" href="./VOLHOLLA/song-silence-01.html">Silence 757 Song</a>
           <a class="btn" href="./VOLHOLLA/song-concreto-01.html">Concreto Song</a>
           <a class="btn" href="./VOLHOLLA/song-cypher-01.html">Cypher Song</a>
           <a class="btn" href="./VOLHOLLA/song-elephant-01.html?embed=1">Song Embed</a>
@@ -705,6 +763,8 @@
           <a class="btn" href="./op2.html?a=solar&b=crossroads">OP2 Solar × Cross</a>
           <a class="btn" href="./op2.html?a=jukebox&b=solar">OP2 Jukebox × Solar</a>
           <a class="btn" href="./op2.html?a=cyber&b=jukebox">OP2 Cyber × Jukebox</a>
+          <a class="btn" href="./op2.html?a=cathedral&b=clinical">OP2 Cathedral × Clinical</a>
+          <a class="btn" href="./op2.html?a=silence&b=cathedral">OP2 Silence × Cathedral</a>
           <a class="btn" href="./op2.html?a=noservice&b=cyber">OP2 No Service × Cyber</a>
           <a class="btn" href="./op2.html?a=clinical&b=noservice">OP2 Clinical × No Service</a>
           <a class="btn" href="./op2.html?a=concreto&b=cypher">OP2 Concreto × Cypher</a>

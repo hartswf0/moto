@@ -408,6 +408,65 @@
         "Virtual_Network_Operator.mp3"
       ]
     },
+    cathedral: {
+      key: "cathedral",
+      pageSlug: "cathedral-of-iv-drips",
+      basePath: "../CATHEDRAL OF IV DRIPS/",
+      label: "CATHEDRAL OF IV DRIPS",
+      subtitle: "IV-lit basilicas / stained data ritual / ledger-crack sanctimony",
+      accentA: "#78c4e1",
+      accentB: "#e5c26f",
+      coverImage: "../CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_guewwdguewwdguew.png",
+      defaultTrackArt: "../CATHEDRAL OF IV DRIPS/Gemini_Generated_Image_o8mf3ho8mf3ho8mf.png",
+      hallKey: "cathedral",
+      op2Key: "cathedral",
+      op2Pair: "clinical",
+      files: [
+        "The Cathedral of IV Drips - Amortized Greatness - Sonauto.ogg",
+        "The Cathedral of IV Drips - Chains & Whips (ft. Kendrick Lamar) - Sonauto.ogg",
+        "The Cathedral of IV Drips - Chrome Skeleton - Sonauto.ogg",
+        "The Cathedral of IV Drips - Data Purge - Sonauto.ogg",
+        "The Cathedral of IV Drips - Inglorious Bastards - Sonauto.ogg",
+        "The Cathedral of IV Drips - Iron Peak - Sonauto.ogg",
+        "The Cathedral of IV Drips - Let God Sort Em Out - Sonauto.ogg",
+        "The Cathedral of IV Drips - M.T.B.T.T.F. (Mike Tyson Blow To The Face) - Sonauto.ogg",
+        "The Cathedral of IV Drips - Parisian Pavements - Sonauto.ogg",
+        "The Cathedral of IV Drips - Sanctified Ledger - Sonauto.ogg",
+        "The Cathedral of IV Drips - Stained Glass Rims - Sonauto.ogg",
+        "The Cathedral of IV Drips - Structural Revolt - Sonauto.ogg",
+        "The Cathedral of IV Drips - The Final Sort - Sonauto.ogg",
+        "The Cathedral of IV Drips - Vatican Vigil - Sonauto.ogg",
+        "The Cathedral of IV Drips - Version Control - Sonauto.ogg"
+      ]
+    },
+    silence: {
+      key: "silence",
+      pageSlug: "silence-in-the-757",
+      basePath: "../SILENCE IN THE 757/",
+      label: "SILENCE IN THE 757",
+      subtitle: "757 confessions / backseat debt noir / funeral finance drift",
+      accentA: "#c98f75",
+      accentB: "#e1c87a",
+      coverImage: "../SILENCE IN THE 757/Gemini_Generated_Image_5fm3fz5fm3fz5fm3.png",
+      defaultTrackArt: "../SILENCE IN THE 757/Gemini_Generated_Image_guewwdguewwdguew (2).png",
+      hallKey: "silence",
+      op2Key: "silence",
+      op2Pair: "cathedral",
+      files: [
+        "Silence in the 757 - Distance and Devotion - Sonauto.ogg",
+        "Silence in the 757 - E.B.I.T.D.A. (ft. Pharrell) - Sonauto.ogg",
+        "Silence in the 757 - E.B.I.T.D.A. - Sonauto.ogg",
+        "Silence in the 757 - Funeral Procession Through The Sanctuary - Sonauto.ogg",
+        "Silence in the 757 - Iron Mike Blow - Sonauto.ogg",
+        "Silence in the 757 - Mess as a Message - Sonauto.ogg",
+        "Silence in the 757 - Re-Up Rollback - Sonauto.ogg",
+        "Silence in the 757 - System Halt - Sonauto.ogg",
+        "Silence in the 757 - The Abu Dhabi Debt - Sonauto.ogg",
+        "Silence in the 757 - The Prime Rate Preacher - Sonauto.ogg",
+        "Silence in the 757 - The Transactional Truth - Sonauto.ogg",
+        "Silence in the 757 - Virginia Confessions - Sonauto.ogg"
+      ]
+    },
     concreto: {
       key: "concreto",
       pageSlug: "concreto",
@@ -486,6 +545,8 @@
       .replace(/^solar reveries\s*-\s*/i, "")
       .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
+      .replace(/^the cathedral of iv drips\s*-\s*/i, "")
+      .replace(/^silence in the 757\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
       .replace(/^concreto y cyphers\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
@@ -577,15 +638,19 @@
             ? "jukebox"
             : raw === "cybernetic-winter" || raw === "cybernetic_winter" || raw === "cyber"
               ? "cyber"
+              : raw === "cathedral-of-iv-drips" || raw === "cathedral_of_iv_drips" || raw === "cathedral" || raw === "ivdrips"
+                ? "cathedral"
+                : raw === "silence-in-the-757" || raw === "silence_in_the_757" || raw === "silence" || raw === "757"
+                  ? "silence"
               : raw === "no-service" || raw === "no_service" || raw === "noservice"
                 ? "noservice"
-                : raw === "clinical-heat" || raw === "clinical_heat" || raw === "clinical"
-                  ? "clinical"
-                  : raw === "concreto"
-                    ? "concreto"
-                    : raw === "cypher-mixtape" || raw === "cypher_mixtape" || raw === "cypher"
-                      ? "cypher"
-            : raw;
+                  : raw === "clinical-heat" || raw === "clinical_heat" || raw === "clinical"
+                    ? "clinical"
+                    : raw === "concreto"
+                      ? "concreto"
+                      : raw === "cypher-mixtape" || raw === "cypher_mixtape" || raw === "cypher"
+                        ? "cypher"
+                        : raw;
     return ALBUMS[key] ? key : "volholla";
   }
 

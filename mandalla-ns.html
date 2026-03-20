@@ -257,6 +257,8 @@
         { key: 'solar', label: 'SOLAR' },
         { key: 'jukebox', label: 'JUKE' },
         { key: 'cyber', label: 'CYBER' },
+        { key: 'cathedral', label: 'CATH' },
+        { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
         { key: 'concreto', label: 'CONCR' },
@@ -295,6 +297,10 @@
             ? 'jukebox'
           : raw === 'cybernetic-winter' || raw === 'cybernetic_winter' || raw === 'cyber'
             ? 'cyber'
+          : raw === 'cathedral-of-iv-drips' || raw === 'cathedral_of_iv_drips' || raw === 'cathedral' || raw === 'ivdrips'
+            ? 'cathedral'
+          : raw === 'silence-in-the-757' || raw === 'silence_in_the_757' || raw === 'silence' || raw === '757'
+            ? 'silence'
           : raw === 'no-service' || raw === 'no_service' || raw === 'noservice'
             ? 'noservice'
           : raw === 'clinical-heat' || raw === 'clinical_heat' || raw === 'clinical'
