@@ -537,6 +537,71 @@
         ["OP2 Pair", "Launch with CATHEDRAL OF IV DRIPS for the devotional-noir split deck."]
       ]
     },
+    goleyakh: {
+      key: "goleyakh",
+      pageSlug: "gole-yakh-memory",
+      basePath: "../GOLE YAKH MEMORY/",
+      label: "GOLE YAKH MEMORY",
+      subtitle: "Ice-flower memory / rooftop tea smoke / winter postcard radio",
+      accentA: "#8bb8d6",
+      accentB: "#d9c19a",
+      coverImage: "../GOLE YAKH MEMORY/Gemini_Generated_Image_52klu552klu552kl.png",
+      defaultTrackArt: "../GOLE YAKH MEMORY/Gemini_Generated_Image_m83fnzm83fnzm83f.png",
+      hallKey: "goleyakh",
+      op2Key: "goleyakh",
+      op2Pair: "mitte",
+      files: [
+        "Gole Yakh Memory - Acetate Dreams - Sonauto.ogg",
+        "Gole Yakh Memory - Anthropophagic Radio - Sonauto.ogg",
+        "Gole Yakh Memory - Bare Hands and Steel Strings - Sonauto.ogg",
+        "Gole Yakh Memory - Blueprint of the Soul - Sonauto.ogg",
+        "Gole Yakh Memory - Crate Digging Lineage - Sonauto.ogg",
+        "Gole Yakh Memory - Digital Lonesome - Sonauto.ogg",
+        "Gole Yakh Memory - District Tizita - Sonauto.ogg",
+        "Gole Yakh Memory - Dust on the Lens - Sonauto.ogg",
+        "Gole Yakh Memory - Dusty Attic Gold - Sonauto.ogg",
+        "Gole Yakh Memory - Garden of the Sun - Sonauto (1).ogg",
+        "Gole Yakh Memory - Garden of the Sun - Sonauto.ogg",
+        "Gole Yakh Memory - Greenhouse Groove - Sonauto.ogg",
+        "Gole Yakh Memory - Hardwood Circuitry - Sonauto.ogg",
+        "Gole Yakh Memory - High Register Bloom - Sonauto.ogg",
+        "Gole Yakh Memory - Highland Haze - Sonauto.ogg",
+        "Gole Yakh Memory - Iron in the Mud - Sonauto.ogg",
+        "Gole Yakh Memory - Kinetic Tuscany - Sonauto.ogg",
+        "Gole Yakh Memory - Limestone and Red Clay - Sonauto.ogg",
+        "Gole Yakh Memory - Memphis Clay - Sonauto.ogg",
+        "Gole Yakh Memory - Mogadishu Midnight Swirl - Sonauto.ogg",
+        "Gole Yakh Memory - Pacific Thunder - Sonauto.ogg",
+        "Gole Yakh Memory - Red Dirt Digital - Sonauto.ogg",
+        "Gole Yakh Memory - Rooted in the Concrete - Sonauto.ogg",
+        "Gole Yakh Memory - Sand and the Spree - Sonauto.ogg",
+        "Gole Yakh Memory - Savannah High-Tech - Sonauto.ogg",
+        "Gole Yakh Memory - Silk and Voltage - Sonauto.ogg",
+        "Gole Yakh Memory - Silver Mist and Pine - Sonauto.ogg",
+        "Gole Yakh Memory - Silver Song Throat - Sonauto.ogg",
+        "Gole Yakh Memory - Spirit of the Harbor - Sonauto.ogg",
+        "Gole Yakh Memory - Taka Heat - Sonauto.ogg",
+        "Gole Yakh Memory - The Avenue Slant - Sonauto.ogg",
+        "Gole Yakh Memory - The Garden Wakes - Sonauto.ogg",
+        "Gole Yakh Memory - The King's Migration - Sonauto.ogg",
+        "Gole Yakh Memory - The Munich Pulse - Sonauto.ogg",
+        "Gole Yakh Memory - The National Theatre Ghost - Sonauto.ogg",
+        "Gole Yakh Memory - The Nomad's Razor - Sonauto.ogg",
+        "Gole Yakh Memory - The Samovar and the Stone - Sonauto.ogg",
+        "Gole Yakh Memory - The Sinking Cradle - Sonauto.ogg",
+        "Gole Yakh Memory - Tide Pulling Home - Sonauto.ogg",
+        "Gole Yakh Memory - Tijuana Bloom - Sonauto.ogg",
+        "Gole Yakh Memory - Top Deck Impressionism - Sonauto.ogg",
+        "Gole Yakh Memory - Union Avenue Glow - Sonauto.ogg",
+        "Gole Yakh Memory - Valley of the Dead Joe - Sonauto.ogg",
+        "Gole Yakh Memory - Zion's Jazz-Rap Geometry - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Ice-flower memory / rooftop tea smoke / winter postcard radio"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with GEOMETRIC GHOSTS OF MITTE for a winter-ghost contrast deck."]
+      ]
+    },
     concreto: {
       key: "concreto",
       pageSlug: "concreto",
@@ -627,6 +692,7 @@
       .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^the cathedral of iv drips\s*-\s*/i, "")
       .replace(/^silence in the 757\s*-\s*/i, "")
+      .replace(/^gole yakh memory\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
       .replace(/^concreto y cyphers\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")

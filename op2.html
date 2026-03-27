@@ -904,6 +904,59 @@
                     "Silence in the 757 - Virginia Confessions - Sonauto.ogg"
                 ]
             },
+            goleyakh: {
+                key: 'goleyakh',
+                label: 'GOLE YAKH MEMORY',
+                short: 'GOLE',
+                basePath: 'GOLE YAKH MEMORY/',
+                logic: 'Gole Yakh Memory Relay',
+                files: [
+                    "Gole Yakh Memory - Acetate Dreams - Sonauto.ogg",
+                    "Gole Yakh Memory - Anthropophagic Radio - Sonauto.ogg",
+                    "Gole Yakh Memory - Bare Hands and Steel Strings - Sonauto.ogg",
+                    "Gole Yakh Memory - Blueprint of the Soul - Sonauto.ogg",
+                    "Gole Yakh Memory - Crate Digging Lineage - Sonauto.ogg",
+                    "Gole Yakh Memory - Digital Lonesome - Sonauto.ogg",
+                    "Gole Yakh Memory - District Tizita - Sonauto.ogg",
+                    "Gole Yakh Memory - Dust on the Lens - Sonauto.ogg",
+                    "Gole Yakh Memory - Dusty Attic Gold - Sonauto.ogg",
+                    "Gole Yakh Memory - Garden of the Sun - Sonauto (1).ogg",
+                    "Gole Yakh Memory - Garden of the Sun - Sonauto.ogg",
+                    "Gole Yakh Memory - Greenhouse Groove - Sonauto.ogg",
+                    "Gole Yakh Memory - Hardwood Circuitry - Sonauto.ogg",
+                    "Gole Yakh Memory - High Register Bloom - Sonauto.ogg",
+                    "Gole Yakh Memory - Highland Haze - Sonauto.ogg",
+                    "Gole Yakh Memory - Iron in the Mud - Sonauto.ogg",
+                    "Gole Yakh Memory - Kinetic Tuscany - Sonauto.ogg",
+                    "Gole Yakh Memory - Limestone and Red Clay - Sonauto.ogg",
+                    "Gole Yakh Memory - Memphis Clay - Sonauto.ogg",
+                    "Gole Yakh Memory - Mogadishu Midnight Swirl - Sonauto.ogg",
+                    "Gole Yakh Memory - Pacific Thunder - Sonauto.ogg",
+                    "Gole Yakh Memory - Red Dirt Digital - Sonauto.ogg",
+                    "Gole Yakh Memory - Rooted in the Concrete - Sonauto.ogg",
+                    "Gole Yakh Memory - Sand and the Spree - Sonauto.ogg",
+                    "Gole Yakh Memory - Savannah High-Tech - Sonauto.ogg",
+                    "Gole Yakh Memory - Silk and Voltage - Sonauto.ogg",
+                    "Gole Yakh Memory - Silver Mist and Pine - Sonauto.ogg",
+                    "Gole Yakh Memory - Silver Song Throat - Sonauto.ogg",
+                    "Gole Yakh Memory - Spirit of the Harbor - Sonauto.ogg",
+                    "Gole Yakh Memory - Taka Heat - Sonauto.ogg",
+                    "Gole Yakh Memory - The Avenue Slant - Sonauto.ogg",
+                    "Gole Yakh Memory - The Garden Wakes - Sonauto.ogg",
+                    "Gole Yakh Memory - The King's Migration - Sonauto.ogg",
+                    "Gole Yakh Memory - The Munich Pulse - Sonauto.ogg",
+                    "Gole Yakh Memory - The National Theatre Ghost - Sonauto.ogg",
+                    "Gole Yakh Memory - The Nomad's Razor - Sonauto.ogg",
+                    "Gole Yakh Memory - The Samovar and the Stone - Sonauto.ogg",
+                    "Gole Yakh Memory - The Sinking Cradle - Sonauto.ogg",
+                    "Gole Yakh Memory - Tide Pulling Home - Sonauto.ogg",
+                    "Gole Yakh Memory - Tijuana Bloom - Sonauto.ogg",
+                    "Gole Yakh Memory - Top Deck Impressionism - Sonauto.ogg",
+                    "Gole Yakh Memory - Union Avenue Glow - Sonauto.ogg",
+                    "Gole Yakh Memory - Valley of the Dead Joe - Sonauto.ogg",
+                    "Gole Yakh Memory - Zion's Jazz-Rap Geometry - Sonauto.ogg"
+                ]
+            },
             noservice: {
                 key: 'noservice',
                 label: 'NO SERVICE',
@@ -1011,6 +1064,7 @@
                 .replace(/^the cybernetic winter\s*-\s*/i, '')
                 .replace(/^the cathedral of iv drips\s*-\s*/i, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
+                .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
                 .replace(/^concreto y cyphers\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
@@ -1049,6 +1103,7 @@
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
             if (v === 'cathedral-of-iv-drips' || v === 'cathedral_of_iv_drips' || v === 'cathedral' || v === 'ivdrips') return 'cathedral';
             if (v === 'silence-in-the-757' || v === 'silence_in_the_757' || v === 'silence' || v === '757') return 'silence';
+            if (v === 'gole-yakh-memory' || v === 'gole_yakh_memory' || v === 'goleyakh') return 'goleyakh';
             if (v === 'no-service' || v === 'no_service' || v === 'noservice') return 'noservice';
             if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
             if (v === 'concreto') return 'concreto';

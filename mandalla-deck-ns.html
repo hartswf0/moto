@@ -252,6 +252,7 @@
         { key: 'solar', label: 'SOLAR' },
         { key: 'jukebox', label: 'JUKE' },
         { key: 'cyber', label: 'CYBER' },
+        { key: 'goleyakh', label: 'GOLE' },
         { key: 'cathedral', label: 'CATH' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
@@ -295,6 +296,8 @@
             ? 'jukebox'
           : raw === 'cybernetic-winter' || raw === 'cybernetic_winter' || raw === 'cyber'
             ? 'cyber'
+          : raw === 'gole-yakh-memory' || raw === 'gole_yakh_memory' || raw === 'goleyakh'
+            ? 'goleyakh'
           : raw === 'cathedral-of-iv-drips' || raw === 'cathedral_of_iv_drips' || raw === 'cathedral' || raw === 'ivdrips'
             ? 'cathedral'
           : raw === 'silence-in-the-757' || raw === 'silence_in_the_757' || raw === 'silence' || raw === '757'
