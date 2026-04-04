@@ -1,9 +1,10 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { extractAlbumsFromSource, titleFromFilename } from "./lib/volholla-albums.mjs";
-import { readJsonIfExists } from "./lib/pipeline-utils.mjs";
+import { parseArgs, readJsonIfExists } from "./lib/pipeline-utils.mjs";
 
 const ROOT = process.cwd();
+const ARGS = parseArgs(process.argv.slice(2));
 const SONG_PAGE_JS = path.join(ROOT, "VOLHOLLA", "song-page.js");
 const OUT_DIR = path.join(ROOT, "VOLHOLLA");
 const MEDIA_MANIFEST_FILE = path.join(ROOT, "VOLHOLLA", "media-manifest.json");
@@ -187,7 +188,11 @@ function songPageHtml(album, trackIndex, manifestAlbum) {
 
 async function main() {
   const source = await fs.readFile(SONG_PAGE_JS, "utf8");
-  const albums = extractAlbumsFromSource(source, ROOT);
+  const requestedAlbum = String(ARGS.album || "").trim().toLowerCase();
+  const albums = extractAlbumsFromSource(source, ROOT).filter((album) => {
+    if (!requestedAlbum) return true;
+    return album.key.toLowerCase() === requestedAlbum || album.pageSlug.toLowerCase() === requestedAlbum;
+  });
   const mediaManifest = await readJsonIfExists(MEDIA_MANIFEST_FILE);
   let written = 0;
   for (const album of albums) {
