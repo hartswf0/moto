@@ -1048,6 +1048,52 @@
                     "Concreto y Cyphers - The Cypher of the Andes - Sonauto.ogg",
                     "Concreto y Cyphers - Trote de Cipher - Sonauto.ogg"
                 ]
+            },
+            usblegacy: {
+                key: 'usblegacy',
+                label: 'USB LEGACY',
+                short: 'USB',
+                basePath: 'USB LEGACY - FERROUS LAMENT/',
+                logic: 'USB Legacy Relay',
+                files: [
+                    "USB Legacy - Blood & Iron Debt - Sonauto.ogg",
+                    "USB Legacy - Chemical Ignition - Sonauto.ogg",
+                    "USB Legacy - Corazoncito (Stadium Love) - Sonauto.ogg",
+                    "USB Legacy - Extraction Ceremony - Sonauto.ogg",
+                    "USB Legacy - Grace Through Erosion - Sonauto.ogg",
+                    "USB Legacy - Hull Creak Ritual - Sonauto.ogg",
+                    "USB Legacy - Hull Creaks and Healing - Sonauto.ogg",
+                    "USB Legacy - Icaro of the Shipyard - Sonauto.ogg",
+                    "USB Legacy - Iron Into Dust - Sonauto.ogg",
+                    "USB Legacy - Oceans Through Our Eyes - Sonauto.ogg",
+                    "USB Legacy - Óxido y Sangre (El Abrazo) - Sonauto.ogg",
+                    "USB Legacy - Relational Radiance - Sonauto.ogg",
+                    "USB Legacy - Ritual Decay - Sonauto.ogg",
+                    "USB Legacy - Rust and Rebirth - Sonauto.ogg",
+                    "USB Legacy - Rusted Rituals - Sonauto.ogg",
+                    "USB Legacy - Slow Motion Fire - Sonauto.ogg",
+                    "USB Legacy - Submerged Prayer - Sonauto.ogg",
+                    "USB Legacy - The A Cappella Catharsis - Sonauto.ogg",
+                    "USB Legacy - The Machine Finds Soul - Sonauto.ogg",
+                    "USB Legacy - The USB Handoff - Sonauto.ogg",
+                    "USB Legacy - Tribal Stadium Catharsis - Sonauto.ogg",
+                    "USB Legacy - Water Light Alive - Sonauto.ogg",
+                    "USB Legacy - Water Light Finale - Sonauto.ogg"
+                ]
+            },
+            ferrous: {
+                key: 'ferrous',
+                label: 'FERROUS LAMENT',
+                short: 'FERRO',
+                basePath: 'USB LEGACY - FERROUS LAMENT/',
+                logic: 'Ferrous Lament Relay',
+                files: [
+                    "Ferrous Lament - Ferrous Pressure - Sonauto.ogg",
+                    "Ferrous Lament - Iron Dust Falling - Sonauto.ogg",
+                    "Ferrous Lament - Oxide Rising - Sonauto.ogg",
+                    "Ferrous Lament - The Magnetic Skeleton - Sonauto.ogg",
+                    "Ferrous Lament - The Oxide Pulse - Sonauto.ogg"
+                ]
             }
         };
 
@@ -1067,6 +1113,8 @@
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
                 .replace(/^concreto y cyphers\s*-\s*/i, '')
+                .replace(/^usb legacy\s*-\s*/i, '')
+                .replace(/^ferrous lament\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
@@ -1108,6 +1156,8 @@
             if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
             if (v === 'concreto') return 'concreto';
             if (v === 'cypher-mixtape' || v === 'cypher_mixtape' || v === 'cypher') return 'cypher';
+            if (v === 'usb-legacy' || v === 'usb_legacy' || v === 'usblegacy' || v === 'usb') return 'usblegacy';
+            if (v === 'ferrous-lament' || v === 'ferrous_lament' || v === 'ferrouslament' || v === 'ferrous') return 'ferrous';
             return v;
         }
 

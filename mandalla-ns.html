@@ -264,6 +264,8 @@
         { key: 'clinical', label: 'CLIN' },
         { key: 'concreto', label: 'CONCR' },
         { key: 'cypher', label: 'CYPHR' },
+        { key: 'usblegacy', label: 'USB' },
+        { key: 'ferrous', label: 'FERRO' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -312,6 +314,10 @@
             ? 'concreto'
           : raw === 'cypher-mixtape' || raw === 'cypher_mixtape' || raw === 'cypher'
             ? 'cypher'
+          : raw === 'usb-legacy' || raw === 'usb_legacy' || raw === 'usblegacy' || raw === 'usb'
+            ? 'usblegacy'
+          : raw === 'ferrous-lament' || raw === 'ferrous_lament' || raw === 'ferrouslament' || raw === 'ferrous'
+            ? 'ferrous'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

@@ -528,6 +528,8 @@
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
     { key:'cypher', label:'Cypher Mixtape' },
+    { key:'usblegacy', label:'USB Legacy' },
+    { key:'ferrous', label:'Ferrous Lament' },
     { key:'river', label:'River' },
     { key:'cathedral', label:'Cathedral' },
     { key:'silence', label:'Silence 757' },
@@ -549,6 +551,7 @@
     { id:'ns-cy', label:'No Service × Cyber', a:'noservice', b:'cyber' },
     { id:'cl-ns', label:'Clinical × No Service', a:'clinical', b:'noservice' },
     { id:'co-cy', label:'Concreto × Cypher', a:'concreto', b:'cypher' },
+    { id:'ul-fe', label:'USB Legacy × Ferrous', a:'usblegacy', b:'ferrous' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -569,6 +572,8 @@
     if (v === 'clinical-heat' || v === 'clinical_heat' || v === 'clinical') return 'clinical';
     if (v === 'concreto') return 'concreto';
     if (v === 'cypher-mixtape' || v === 'cypher_mixtape' || v === 'cypher') return 'cypher';
+    if (v === 'usb-legacy' || v === 'usb_legacy' || v === 'usblegacy' || v === 'usb') return 'usblegacy';
+    if (v === 'ferrous-lament' || v === 'ferrous_lament' || v === 'ferrouslament' || v === 'ferrous') return 'ferrous';
     return v;
   }
 

@@ -591,6 +591,66 @@
         "Concreto y Cyphers - The Cypher of the Andes - Sonauto.ogg",
         "Concreto y Cyphers - Trote de Cipher - Sonauto.ogg"
       ]
+    },
+    usblegacy: {
+      key: "usblegacy",
+      pageSlug: "usb-legacy",
+      basePath: "../USB LEGACY - FERROUS LAMENT/",
+      label: "USB LEGACY",
+      subtitle: "Shipyard catharsis / rust-water devotion / salvage-memory circuitry",
+      accentA: "#cf6f3b",
+      accentB: "#4ab7bb",
+      coverImage: "../USB LEGACY - FERROUS LAMENT/usb-legacy-00.png",
+      defaultTrackArt: "../USB LEGACY - FERROUS LAMENT/usb-legacy-01.png",
+      hallKey: "usblegacy",
+      op2Key: "usblegacy",
+      op2Pair: "ferrous",
+      files: [
+        "USB Legacy - Blood & Iron Debt - Sonauto.ogg",
+        "USB Legacy - Chemical Ignition - Sonauto.ogg",
+        "USB Legacy - Corazoncito (Stadium Love) - Sonauto.ogg",
+        "USB Legacy - Extraction Ceremony - Sonauto.ogg",
+        "USB Legacy - Grace Through Erosion - Sonauto.ogg",
+        "USB Legacy - Hull Creak Ritual - Sonauto.ogg",
+        "USB Legacy - Hull Creaks and Healing - Sonauto.ogg",
+        "USB Legacy - Icaro of the Shipyard - Sonauto.ogg",
+        "USB Legacy - Iron Into Dust - Sonauto.ogg",
+        "USB Legacy - Oceans Through Our Eyes - Sonauto.ogg",
+        "USB Legacy - Óxido y Sangre (El Abrazo) - Sonauto.ogg",
+        "USB Legacy - Relational Radiance - Sonauto.ogg",
+        "USB Legacy - Ritual Decay - Sonauto.ogg",
+        "USB Legacy - Rust and Rebirth - Sonauto.ogg",
+        "USB Legacy - Rusted Rituals - Sonauto.ogg",
+        "USB Legacy - Slow Motion Fire - Sonauto.ogg",
+        "USB Legacy - Submerged Prayer - Sonauto.ogg",
+        "USB Legacy - The A Cappella Catharsis - Sonauto.ogg",
+        "USB Legacy - The Machine Finds Soul - Sonauto.ogg",
+        "USB Legacy - The USB Handoff - Sonauto.ogg",
+        "USB Legacy - Tribal Stadium Catharsis - Sonauto.ogg",
+        "USB Legacy - Water Light Alive - Sonauto.ogg",
+        "USB Legacy - Water Light Finale - Sonauto.ogg"
+      ]
+    },
+    ferrous: {
+      key: "ferrous",
+      pageSlug: "ferrous-lament",
+      basePath: "../USB LEGACY - FERROUS LAMENT/",
+      label: "FERROUS LAMENT",
+      subtitle: "Abyssal requiems / oxidized signal prayer / rusted-airwave mourning",
+      accentA: "#53c1c0",
+      accentB: "#d47a49",
+      coverImage: "../USB LEGACY - FERROUS LAMENT/ferrous-lament-00.png",
+      defaultTrackArt: "../USB LEGACY - FERROUS LAMENT/Gemini_Generated_Image_p5m3oop5m3oop5m3.png",
+      hallKey: "ferrous",
+      op2Key: "ferrous",
+      op2Pair: "usblegacy",
+      files: [
+        "Ferrous Lament - Ferrous Pressure - Sonauto.ogg",
+        "Ferrous Lament - Iron Dust Falling - Sonauto.ogg",
+        "Ferrous Lament - Oxide Rising - Sonauto.ogg",
+        "Ferrous Lament - The Magnetic Skeleton - Sonauto.ogg",
+        "Ferrous Lament - The Oxide Pulse - Sonauto.ogg"
+      ]
     }
   };
 
@@ -610,6 +670,8 @@
       .replace(/^gole yakh memory\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
       .replace(/^concreto y cyphers\s*-\s*/i, "")
+      .replace(/^usb legacy\s*-\s*/i, "")
+      .replace(/^ferrous lament\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -711,6 +773,10 @@
                       ? "concreto"
                       : raw === "cypher-mixtape" || raw === "cypher_mixtape" || raw === "cypher"
                         ? "cypher"
+                        : raw === "usb-legacy" || raw === "usb_legacy" || raw === "usblegacy" || raw === "usb"
+                          ? "usblegacy"
+                          : raw === "ferrous-lament" || raw === "ferrous_lament" || raw === "ferrouslament" || raw === "ferrous"
+                            ? "ferrous"
                         : raw;
     return ALBUMS[key] ? key : "volholla";
   }

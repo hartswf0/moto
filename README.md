@@ -30,6 +30,8 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `goleyakh`
 - `noservice`
 - `clinical`
+- `usblegacy`
+- `ferrous`
 - `concreto`
 - `cypher`
 
@@ -66,7 +68,7 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, and `cypher` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, and `ferrous` currently use `.ogg`.
 
 ## Media Derivatives
 
