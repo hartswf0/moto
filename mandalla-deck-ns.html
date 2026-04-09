@@ -254,6 +254,9 @@
         { key: 'cyber', label: 'CYBER' },
         { key: 'goleyakh', label: 'GOLE' },
         { key: 'cathedral', label: 'CATH' },
+        { key: 'throne', label: 'THRON' },
+        { key: 'glass', label: 'GLASS' },
+        { key: 'event', label: 'EVENT' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -298,6 +301,12 @@
             ? 'jukebox'
           : raw === 'cybernetic-winter' || raw === 'cybernetic_winter' || raw === 'cyber'
             ? 'cyber'
+          : raw === 'throne-of-ash' || raw === 'throne_of_ash' || raw === 'throne' || raw === 'ash'
+            ? 'throne'
+          : raw === 'cathedral-of-glass' || raw === 'cathedral_of_glass' || raw === 'glass'
+            ? 'glass'
+          : raw === 'event-horizon-discovery' || raw === 'event_horizon_discovery' || raw === 'event'
+            ? 'event'
           : raw === 'gole-yakh-memory' || raw === 'gole_yakh_memory' || raw === 'goleyakh'
             ? 'goleyakh'
           : raw === 'cathedral-of-iv-drips' || raw === 'cathedral_of_iv_drips' || raw === 'cathedral' || raw === 'ivdrips'

@@ -504,6 +504,107 @@
         ["OP2 Pair", "Launch with CLINICAL HEAT for the cold-ward contrast deck."]
       ]
     },
+    throne: {
+      key: "throne",
+      pageSlug: "throne-of-ash",
+      basePath: "../THRONE OF ASH/",
+      label: "THRONE OF ASH",
+      subtitle: "Ring sermons / monochrome bruises / late-count redemption",
+      accentA: "#b86a46",
+      accentB: "#d7b18a",
+      coverImage: "../THRONE OF ASH/Gemini_Generated_Image_.png",
+      defaultTrackArt: "../THRONE OF ASH/ChatGPT Image Apr 8, 2026, 07_53_38 PM.png",
+      hallKey: "throne",
+      op2Key: "throne",
+      op2Pair: "glass",
+      files: [
+        "Throne of Ash - Astronaut Gospel - Sonauto.ogg",
+        "Throne of Ash - Canvas Spirit - Sonauto.ogg",
+        "Throne of Ash - Desert Shadow - Sonauto.ogg",
+        "Throne of Ash - Gritty Mat Struggle - Sonauto.ogg",
+        "Throne of Ash - Heavyweights in the Dark - Sonauto.ogg",
+        "Throne of Ash - Highs and Lows - Sonauto.ogg",
+        "Throne of Ash - Monochrome Anticipation - Sonauto.ogg",
+        "Throne of Ash - Monochrome Ring Redemption - Sonauto.ogg",
+        "Throne of Ash - Monochrome Survival - Sonauto.ogg",
+        "Throne of Ash - Punch Drunk Chaos - Sonauto.ogg",
+        "Throne of Ash - Shadow Sparring - Sonauto.ogg",
+        "Throne of Ash - Square Circle Soul - Sonauto.ogg",
+        "Throne of Ash - The Final Count - Sonauto.ogg",
+        "Throne of Ash - The King's Archive - Sonauto.ogg",
+        "Throne of Ash - The Ring - Sonauto.ogg",
+        "Throne of Ash - The Sunday Sparring - Sonauto.ogg",
+        "Throne of Ash - This The Return - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Fight-night noir / ash-ring pressure / bruised gospel circuitry"],
+        ["Use", "Standalone album page for sendable ring-noir tracks and direct share links."],
+        ["OP2 Pair", "Launch with CATHEDRAL OF GLASS for bruise-and-blue-hour contrast."]
+      ]
+    },
+    glass: {
+      key: "glass",
+      pageSlug: "cathedral-of-glass",
+      basePath: "../CATHEDRAL OF GLASS/",
+      label: "CATHEDRAL OF GLASS",
+      subtitle: "Blue-hour architecture / fragile soul static / improvised glass gospel",
+      accentA: "#7fcde5",
+      accentB: "#e8d2a8",
+      coverImage: "../CATHEDRAL OF GLASS/Gemini_Generated_Image_ (1).png",
+      defaultTrackArt: "../CATHEDRAL OF GLASS/ChatGPT Image Apr 8, 2026, 07_58_48 PM.png",
+      hallKey: "glass",
+      op2Key: "glass",
+      op2Pair: "event",
+      files: [
+        "Cathedral of Glass - Architect of Improvised Soul - Sonauto.ogg",
+        "Cathedral of Glass - Architect of the Soul - Sonauto.ogg",
+        "Cathedral of Glass - Blue Hour Architecture - Sonauto.ogg",
+        "Cathedral of Glass - Blue Hour Mantras - Sonauto.ogg",
+        "Cathedral of Glass - Blue Hour Porcelain - Sonauto.ogg",
+        "Cathedral of Glass - Cathedral of Glass - Sonauto.ogg",
+        "Cathedral of Glass - Domestic Stasis - Sonauto.ogg",
+        "Cathedral of Glass - Ethereal Pleas - Sonauto.ogg",
+        "Cathedral of Glass - Fragmented Gospel Stasis - Sonauto.ogg",
+        "Cathedral of Glass - Glitch Gospel Architecture - Sonauto.ogg",
+        "Cathedral of Glass - London Hiss - Sonauto.ogg",
+        "Cathedral of Glass - Modular Stasis - Sonauto.ogg",
+        "Cathedral of Glass - Spinning Plate Soul Stasis - Sonauto.ogg",
+        "Cathedral of Glass - Trying Times (Fragile Balance) - Sonauto.ogg",
+        "Cathedral of Glass - Tunnel Lights & Dirty Money - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Blue-hour glass hymns / fragile-balance soul / improvised architecture"],
+        ["Use", "Standalone album page for porcelain-night tracks, Hall launch, and sendable song pages."],
+        ["OP2 Pair", "Launch with EVENT HORIZON DISCOVERY for glass-to-void contrast."]
+      ]
+    },
+    event: {
+      key: "event",
+      pageSlug: "event-horizon-discovery",
+      basePath: "../EVENT HORIZON DISCOVERY/",
+      label: "EVENT HORIZON DISCOVERY",
+      subtitle: "Void-crossing relay / bunker-to-dunes propulsion / 2 AM steel-static",
+      accentA: "#6fa7d9",
+      accentB: "#f0b169",
+      coverImage: "../EVENT HORIZON DISCOVERY/ChatGPT Image Apr 8, 2026, 08_01_06 PM.png",
+      defaultTrackArt: "../EVENT HORIZON DISCOVERY/ChatGPT Image Apr 8, 2026, 08_00_28 PM.png",
+      hallKey: "event",
+      op2Key: "event",
+      op2Pair: "throne",
+      files: [
+        "Event Horizon Discovery - Bunker to Dunes - Sonauto.ogg",
+        "Event Horizon Discovery - Iron Mirage - Sonauto.ogg",
+        "Event Horizon Discovery - Steel & Static — The 2 AM Express - Sonauto.ogg",
+        "Event Horizon Discovery - Stratospheric Void Crossing - Sonauto.ogg",
+        "Event Horizon Discovery - Vital Tether - Sonauto.ogg",
+        "Event Horizon Discovery - Warehouse Sermon - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Desert relay propulsion / void-crossing synth noir / steel-static testimony"],
+        ["Use", "Standalone album page for orbit-route sharing, Hall launch, and direct song-page sends."],
+        ["OP2 Pair", "Launch with THRONE OF ASH for propulsion-versus-ring contrast."]
+      ]
+    },
     silence: {
       key: "silence",
       pageSlug: "silence-in-the-757",
@@ -761,6 +862,9 @@
       .replace(/^jukebox time collapse\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^the cathedral of iv drips\s*-\s*/i, "")
+      .replace(/^throne of ash\s*-\s*/i, "")
+      .replace(/^cathedral of glass\s*-\s*/i, "")
+      .replace(/^event horizon discovery\s*-\s*/i, "")
       .replace(/^silence in the 757\s*-\s*/i, "")
       .replace(/^gole yakh memory\s*-\s*/i, "")
       .replace(/^clinical heat\s*-\s*/i, "")
