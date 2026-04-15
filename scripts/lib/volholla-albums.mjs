@@ -23,6 +23,7 @@ export function titleFromFilename(file) {
     .replace(/^concreto y cyphers\s*-\s*/i, "")
     .replace(/^usb legacy\s*-\s*/i, "")
     .replace(/^ferrous lament\s*-\s*/i, "")
+    .replace(/^the great congregation\s*-\s*/i, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
     .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")

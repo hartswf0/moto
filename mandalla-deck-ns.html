@@ -264,6 +264,7 @@
         { key: 'cypher', label: 'CYPHR' },
         { key: 'usblegacy', label: 'USB' },
         { key: 'ferrous', label: 'FERRO' },
+        { key: 'congregation', label: 'CONG' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -325,6 +326,8 @@
             ? 'usblegacy'
           : raw === 'ferrous-lament' || raw === 'ferrous_lament' || raw === 'ferrouslament' || raw === 'ferrous'
             ? 'ferrous'
+          : raw === 'great-congregation' || raw === 'great_congregation' || raw === 'greatcongregation' || raw === 'congregation'
+            ? 'congregation'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';

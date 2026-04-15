@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-09T00:15:31.386Z",
+  "generatedAt": "2026-04-15T05:05:11.470Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -5109,6 +5109,170 @@
           "songPage": "VOLHOLLA/song-ferrous-05.html",
           "audio": {
             "source": "USB LEGACY - FERROUS LAMENT/Ferrous Lament - The Oxide Pulse - Sonauto.ogg",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "congregation": {
+      "key": "congregation",
+      "label": "THE GREAT CONGREGATION",
+      "subtitle": "Malian pulse / fractured cathedral / crate-digger bounce",
+      "pageSlug": "great-congregation",
+      "hallKey": "congregation",
+      "op2Key": "congregation",
+      "op2Pair": "goleyakh",
+      "accentA": "#a8b882",
+      "accentB": "#d9c58b",
+      "cover": {
+        "source": "THE GREAT CONGREGATION/ChatGPT Image Apr 15, 2026, 12_53_47 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "THE GREAT CONGREGATION/Gemini_Generated_Image_ (2).png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "82 BPM Blues Bash",
+          "file": "The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-01.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Bamako Midnight Dialogue",
+          "file": "The Great Congregation - Bamako Midnight Dialogue - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Bamako Midnight Dialogue - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-02.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Bamako Midnight Dialogue - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Calyx Rhythm",
+          "file": "The Great Congregation - Calyx Rhythm - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Calyx Rhythm - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-03.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Calyx Rhythm - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Crate Digger Bounce",
+          "file": "The Great Congregation - Crate Digger Bounce - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Crate Digger Bounce - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-04.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Crate Digger Bounce - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Dusty Bass Revolution",
+          "file": "The Great Congregation - Dusty Bass Revolution - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Dusty Bass Revolution - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-05.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Dusty Bass Revolution - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Echoes of the Tamani",
+          "file": "The Great Congregation - Echoes of the Tamani - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Echoes of the Tamani - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-06.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Echoes of the Tamani - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Fractured Cathedral",
+          "file": "The Great Congregation - Fractured Cathedral - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Fractured Cathedral - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-07.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Fractured Cathedral - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Homebound Loop",
+          "file": "The Great Congregation - Homebound Loop - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Homebound Loop - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-08.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Homebound Loop - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Kitchen Prep at Dawn",
+          "file": "The Great Congregation - Kitchen Prep at Dawn - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Kitchen Prep at Dawn - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-09.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Kitchen Prep at Dawn - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Malian Pulse",
+          "file": "The Great Congregation - Malian Pulse - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Malian Pulse - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-10.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Malian Pulse - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Midnight Monitor Glow",
+          "file": "The Great Congregation - Midnight Monitor Glow - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Midnight Monitor Glow - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-11.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Midnight Monitor Glow - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Rope Burns",
+          "file": "The Great Congregation - Rope Burns - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - Rope Burns - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-12.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - Rope Burns - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Master's Zenith",
+          "file": "The Great Congregation - The Master's Zenith - Sonauto.ogg",
+          "source": "THE GREAT CONGREGATION/The Great Congregation - The Master's Zenith - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-congregation-13.html",
+          "audio": {
+            "source": "THE GREAT CONGREGATION/The Great Congregation - The Master's Zenith - Sonauto.ogg",
             "derivatives": {}
           }
         }

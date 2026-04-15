@@ -737,6 +737,35 @@
         "Ferrous Lament - The Magnetic Skeleton - Sonauto.ogg",
         "Ferrous Lament - The Oxide Pulse - Sonauto.ogg"
       ]
+    },
+    congregation: {
+      key: "congregation",
+      pageSlug: "great-congregation",
+      basePath: "../THE GREAT CONGREGATION/",
+      label: "THE GREAT CONGREGATION",
+      subtitle: "Malian pulse / fractured cathedral / crate-digger bounce",
+      accentA: "#a8b882",
+      accentB: "#d9c58b",
+      coverImage: "../THE GREAT CONGREGATION/ChatGPT Image Apr 15, 2026, 12_53_47 AM.png",
+      defaultTrackArt: "../THE GREAT CONGREGATION/Gemini_Generated_Image_ (2).png",
+      hallKey: "congregation",
+      op2Key: "congregation",
+      op2Pair: "goleyakh",
+      files: [
+        "The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
+        "The Great Congregation - Bamako Midnight Dialogue - Sonauto.ogg",
+        "The Great Congregation - Calyx Rhythm - Sonauto.ogg",
+        "The Great Congregation - Crate Digger Bounce - Sonauto.ogg",
+        "The Great Congregation - Dusty Bass Revolution - Sonauto.ogg",
+        "The Great Congregation - Echoes of the Tamani - Sonauto.ogg",
+        "The Great Congregation - Fractured Cathedral - Sonauto.ogg",
+        "The Great Congregation - Homebound Loop - Sonauto.ogg",
+        "The Great Congregation - Kitchen Prep at Dawn - Sonauto.ogg",
+        "The Great Congregation - Malian Pulse - Sonauto.ogg",
+        "The Great Congregation - Midnight Monitor Glow - Sonauto.ogg",
+        "The Great Congregation - Rope Burns - Sonauto.ogg",
+        "The Great Congregation - The Master's Zenith - Sonauto.ogg"
+      ]
     }
   };
 
@@ -761,6 +790,7 @@
       .replace(/^concreto y cyphers\s*-\s*/i, "")
       .replace(/^usb legacy\s*-\s*/i, "")
       .replace(/^ferrous lament\s*-\s*/i, "")
+      .replace(/^the great congregation\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -872,6 +902,8 @@
                           ? "usblegacy"
                           : raw === "ferrous-lament" || raw === "ferrous_lament" || raw === "ferrouslament" || raw === "ferrous"
                             ? "ferrous"
+                            : raw === "great-congregation" || raw === "great_congregation" || raw === "greatcongregation" || raw === "congregation"
+                              ? "congregation"
                         : raw;
     return ALBUMS[key] ? key : "volholla";
   }
