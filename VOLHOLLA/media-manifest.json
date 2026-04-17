@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-15T05:05:11.470Z",
+  "generatedAt": "2026-04-17T10:23:02.394Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -5273,6 +5273,566 @@
           "songPage": "VOLHOLLA/song-congregation-13.html",
           "audio": {
             "source": "THE GREAT CONGREGATION/The Great Congregation - The Master's Zenith - Sonauto.ogg",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "maquina": {
+      "key": "maquina",
+      "label": "MÁQUINA DE GUERRA",
+      "subtitle": "Warrior-state broadcasts / desert-fire circuitry / saffron threshold pressure",
+      "pageSlug": "maquina-de-guerra",
+      "hallKey": "maquina",
+      "op2Key": "maquina",
+      "op2Pair": "cypher",
+      "accentA": "#ef6f2d",
+      "accentB": "#8a9551",
+      "cover": {
+        "source": "Máquina de Guerra/WhatsApp Image 2026-04-17 at 06.11.03 (3).jpeg",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Máquina de Guerra/WhatsApp Image 2026-04-17 at 06.11.03 (4).jpeg",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Acid Logic (1)",
+          "file": "Máquina de Guerra - Acid Logic - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Acid Logic - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-01.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Acid Logic - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Acid Logic",
+          "file": "Máquina de Guerra - Acid Logic - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Acid Logic - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-02.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Acid Logic - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Across the Shore of Names",
+          "file": "Máquina de Guerra - Across the Shore of Names - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Across the Shore of Names - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-03.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Across the Shore of Names - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Agua Bendita Trap",
+          "file": "Máquina de Guerra - Agua Bendita Trap - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Agua Bendita Trap - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-04.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Agua Bendita Trap - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Circuits of Grace",
+          "file": "Máquina de Guerra - Circuits of Grace - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Circuits of Grace - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-05.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Circuits of Grace - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Conditions of the Warrior (1)",
+          "file": "Máquina de Guerra - Conditions of the Warrior - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Conditions of the Warrior - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-06.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Conditions of the Warrior - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Conditions of the Warrior",
+          "file": "Máquina de Guerra - Conditions of the Warrior - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Conditions of the Warrior - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-07.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Conditions of the Warrior - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Dust and Light",
+          "file": "Máquina de Guerra - Dust and Light - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Dust and Light - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-08.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Dust and Light - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "El Acecho del Viento",
+          "file": "Máquina de Guerra - El Acecho del Viento - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - El Acecho del Viento - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-09.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - El Acecho del Viento - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Fréquence Nocturne (1)",
+          "file": "Máquina de Guerra - Fréquence Nocturne - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-10.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Fréquence Nocturne (2)",
+          "file": "Máquina de Guerra - Fréquence Nocturne - Sonauto (2).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto (2).ogg",
+          "songPage": "VOLHOLLA/song-maquina-11.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto (2).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Fréquence Nocturne",
+          "file": "Máquina de Guerra - Fréquence Nocturne - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-12.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Fréquence Nocturne - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Gone with the Tide (1)",
+          "file": "Máquina de Guerra - Gone with the Tide - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Gone with the Tide - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-13.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Gone with the Tide - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Gone with the Tide",
+          "file": "Máquina de Guerra - Gone with the Tide - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Gone with the Tide - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-14.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Gone with the Tide - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Hold Yuh Fire",
+          "file": "Máquina de Guerra - Hold Yuh Fire - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Hold Yuh Fire - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-15.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Hold Yuh Fire - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Holy 808s",
+          "file": "Máquina de Guerra - Holy 808s - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Holy 808s - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-16.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Holy 808s - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Midnight Borough FM (1)",
+          "file": "Máquina de Guerra - Midnight Borough FM - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Midnight Borough FM - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-17.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Midnight Borough FM - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Midnight Borough FM",
+          "file": "Máquina de Guerra - Midnight Borough FM - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Midnight Borough FM - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-18.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Midnight Borough FM - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Mountain Passing (1)",
+          "file": "Máquina de Guerra - Mountain Passing - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Mountain Passing - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-19.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Mountain Passing - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Mountain Passing",
+          "file": "Máquina de Guerra - Mountain Passing - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Mountain Passing - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-20.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Mountain Passing - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "No Scatter",
+          "file": "Máquina de Guerra - No Scatter - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - No Scatter - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-21.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - No Scatter - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "O Caminho do Bruxo",
+          "file": "Máquina de Guerra - O Caminho do Bruxo - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - O Caminho do Bruxo - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-22.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - O Caminho do Bruxo - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Orange Fire in the Hall",
+          "file": "Máquina de Guerra - Orange Fire in the Hall - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Orange Fire in the Hall - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-23.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Orange Fire in the Hall - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Pacific Drift (1)",
+          "file": "Máquina de Guerra - Pacific Drift - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Pacific Drift - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-24.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Pacific Drift - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "Pacific Drift",
+          "file": "Máquina de Guerra - Pacific Drift - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Pacific Drift - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-25.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Pacific Drift - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "Rolling Wisdom Waddup",
+          "file": "Máquina de Guerra - Rolling Wisdom Waddup - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Rolling Wisdom Waddup - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-26.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Rolling Wisdom Waddup - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 27,
+          "title": "Saffron Dawn Sky",
+          "file": "Máquina de Guerra - Saffron Dawn Sky - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Saffron Dawn Sky - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-27.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Saffron Dawn Sky - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 28,
+          "title": "Selected States (1)",
+          "file": "Máquina de Guerra - Selected States - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Selected States - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-28.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Selected States - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 29,
+          "title": "Selected States",
+          "file": "Máquina de Guerra - Selected States - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Selected States - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-29.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Selected States - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 30,
+          "title": "Silk and String (1)",
+          "file": "Máquina de Guerra - Silk and String - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Silk and String - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-30.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Silk and String - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 31,
+          "title": "Silk and String",
+          "file": "Máquina de Guerra - Silk and String - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Silk and String - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-31.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Silk and String - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 32,
+          "title": "Soldado da Unção (1)",
+          "file": "Máquina de Guerra - Soldado da Unção - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Soldado da Unção - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-32.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Soldado da Unção - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 33,
+          "title": "Soldado da Unção",
+          "file": "Máquina de Guerra - Soldado da Unção - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Soldado da Unção - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-33.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Soldado da Unção - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 34,
+          "title": "Sombra do Deserto",
+          "file": "Máquina de Guerra - Sombra do Deserto - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Sombra do Deserto - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-34.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Sombra do Deserto - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 35,
+          "title": "The Cost of the Breath",
+          "file": "Máquina de Guerra - The Cost of the Breath - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Cost of the Breath - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-35.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Cost of the Breath - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 36,
+          "title": "The Loose Knot",
+          "file": "Máquina de Guerra - The Loose Knot - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Loose Knot - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-36.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Loose Knot - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 37,
+          "title": "The Magnetic Head (1)",
+          "file": "Máquina de Guerra - The Magnetic Head - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Magnetic Head - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-37.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Magnetic Head - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 38,
+          "title": "The Magnetic Head",
+          "file": "Máquina de Guerra - The Magnetic Head - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Magnetic Head - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-38.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Magnetic Head - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 39,
+          "title": "The Rotund King",
+          "file": "Máquina de Guerra - The Rotund King - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Rotund King - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-39.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Rotund King - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 40,
+          "title": "The Saffron Threshold",
+          "file": "Máquina de Guerra - The Saffron Threshold - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Saffron Threshold - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-40.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Saffron Threshold - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 41,
+          "title": "The Salty Cup (1)",
+          "file": "Máquina de Guerra - The Salty Cup - Sonauto (1).ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Salty Cup - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-maquina-41.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Salty Cup - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 42,
+          "title": "The Salty Cup",
+          "file": "Máquina de Guerra - The Salty Cup - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - The Salty Cup - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-42.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - The Salty Cup - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 43,
+          "title": "Valley of Dry Bones",
+          "file": "Máquina de Guerra - Valley of Dry Bones - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Valley of Dry Bones - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-43.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Valley of Dry Bones - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 44,
+          "title": "Who Sabi Hold Body",
+          "file": "Máquina de Guerra - Who Sabi Hold Body - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - Who Sabi Hold Body - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-44.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - Who Sabi Hold Body - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 45,
+          "title": "המדבר מדבר",
+          "file": "Máquina de Guerra - המדבר מדבר - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - המדבר מדבר - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-45.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - המדבר מדבר - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 46,
+          "title": "اتقان المحارب (Warrior's Mastery)",
+          "file": "Máquina de Guerra - اتقان المحارب (Warrior's Mastery) - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - اتقان المحارب (Warrior's Mastery) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-46.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - اتقان المحارب (Warrior's Mastery) - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 47,
+          "title": "طريق القوة (The Path of Power)",
+          "file": "Máquina de Guerra - طريق القوة (The Path of Power) - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - طريق القوة (The Path of Power) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-47.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - طريق القوة (The Path of Power) - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 48,
+          "title": "ኃይል አደን (Hunting Power)",
+          "file": "Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-48.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 49,
+          "title": "የተዋጊው ንጽህና (Warrior's Impeccability)",
+          "file": "Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg",
+          "source": "Máquina de Guerra/Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-maquina-49.html",
+          "audio": {
+            "source": "Máquina de Guerra/Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg",
             "derivatives": {}
           }
         }

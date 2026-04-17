@@ -534,6 +534,7 @@
     { key:'usblegacy', label:'USB Legacy' },
     { key:'ferrous', label:'Ferrous Lament' },
     { key:'congregation', label:'Great Congregation' },
+    { key:'maquina', label:'Maquina de Guerra' },
     { key:'river', label:'River' },
     { key:'cathedral', label:'Cathedral' },
     { key:'silence', label:'Silence 757' },
@@ -560,6 +561,7 @@
     { id:'co-cy', label:'Concreto × Cypher', a:'concreto', b:'cypher' },
     { id:'ul-fe', label:'USB Legacy × Ferrous', a:'usblegacy', b:'ferrous' },
     { id:'co-gy', label:'Congregation × Gole Yakh', a:'congregation', b:'goleyakh' },
+    { id:'mq-cy', label:'Maquina × Cypher', a:'maquina', b:'cypher' },
     { id:'ri-lo', label:'River × Loom', a:'river', b:'loom' },
     { id:'vo-mo', label:'Volholla × Moto', a:'volholla', b:'moto' },
     { id:'mo-el', label:'Moto × Elephant', a:'moto', b:'elephant' }
@@ -586,6 +588,7 @@
     if (v === 'usb-legacy' || v === 'usb_legacy' || v === 'usblegacy' || v === 'usb') return 'usblegacy';
     if (v === 'ferrous-lament' || v === 'ferrous_lament' || v === 'ferrouslament' || v === 'ferrous') return 'ferrous';
     if (v === 'great-congregation' || v === 'great_congregation' || v === 'greatcongregation' || v === 'congregation') return 'congregation';
+    if (v === 'maquina-de-guerra' || v === 'maquina_de_guerra' || v === 'maquinadeguerra' || v === 'maquina' || v === 'm\u00e1quina-de-guerra' || v === 'ma\u0301quina-de-guerra') return 'maquina';
     return v;
   }
 

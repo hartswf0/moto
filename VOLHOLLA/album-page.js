@@ -881,6 +881,76 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with GOLE YAKH MEMORY for the nocturne-memory companion deck."]
       ]
+    },
+    maquina: {
+      key: "maquina",
+      pageSlug: "maquina-de-guerra",
+      basePath: "../Máquina de Guerra/",
+      label: "MÁQUINA DE GUERRA",
+      subtitle: "Warrior-state broadcasts / desert-fire circuitry / saffron threshold pressure",
+      accentA: "#ef6f2d",
+      accentB: "#8a9551",
+      coverImage: "../Máquina de Guerra/WhatsApp Image 2026-04-17 at 06.11.03 (3).jpeg",
+      defaultTrackArt: "../Máquina de Guerra/WhatsApp Image 2026-04-17 at 06.11.03 (4).jpeg",
+      hallKey: "maquina",
+      op2Key: "maquina",
+      op2Pair: "cypher",
+      files: [
+        "Máquina de Guerra - Acid Logic - Sonauto (1).ogg",
+        "Máquina de Guerra - Acid Logic - Sonauto.ogg",
+        "Máquina de Guerra - Across the Shore of Names - Sonauto.ogg",
+        "Máquina de Guerra - Agua Bendita Trap - Sonauto.ogg",
+        "Máquina de Guerra - Circuits of Grace - Sonauto.ogg",
+        "Máquina de Guerra - Conditions of the Warrior - Sonauto (1).ogg",
+        "Máquina de Guerra - Conditions of the Warrior - Sonauto.ogg",
+        "Máquina de Guerra - Dust and Light - Sonauto.ogg",
+        "Máquina de Guerra - El Acecho del Viento - Sonauto.ogg",
+        "Máquina de Guerra - Fréquence Nocturne - Sonauto (1).ogg",
+        "Máquina de Guerra - Fréquence Nocturne - Sonauto (2).ogg",
+        "Máquina de Guerra - Fréquence Nocturne - Sonauto.ogg",
+        "Máquina de Guerra - Gone with the Tide - Sonauto (1).ogg",
+        "Máquina de Guerra - Gone with the Tide - Sonauto.ogg",
+        "Máquina de Guerra - Hold Yuh Fire - Sonauto.ogg",
+        "Máquina de Guerra - Holy 808s - Sonauto.ogg",
+        "Máquina de Guerra - Midnight Borough FM - Sonauto (1).ogg",
+        "Máquina de Guerra - Midnight Borough FM - Sonauto.ogg",
+        "Máquina de Guerra - Mountain Passing - Sonauto (1).ogg",
+        "Máquina de Guerra - Mountain Passing - Sonauto.ogg",
+        "Máquina de Guerra - No Scatter - Sonauto.ogg",
+        "Máquina de Guerra - O Caminho do Bruxo - Sonauto.ogg",
+        "Máquina de Guerra - Orange Fire in the Hall - Sonauto.ogg",
+        "Máquina de Guerra - Pacific Drift - Sonauto (1).ogg",
+        "Máquina de Guerra - Pacific Drift - Sonauto.ogg",
+        "Máquina de Guerra - Rolling Wisdom Waddup - Sonauto.ogg",
+        "Máquina de Guerra - Saffron Dawn Sky - Sonauto.ogg",
+        "Máquina de Guerra - Selected States - Sonauto (1).ogg",
+        "Máquina de Guerra - Selected States - Sonauto.ogg",
+        "Máquina de Guerra - Silk and String - Sonauto (1).ogg",
+        "Máquina de Guerra - Silk and String - Sonauto.ogg",
+        "Máquina de Guerra - Soldado da Unção - Sonauto (1).ogg",
+        "Máquina de Guerra - Soldado da Unção - Sonauto.ogg",
+        "Máquina de Guerra - Sombra do Deserto - Sonauto.ogg",
+        "Máquina de Guerra - The Cost of the Breath - Sonauto.ogg",
+        "Máquina de Guerra - The Loose Knot - Sonauto.ogg",
+        "Máquina de Guerra - The Magnetic Head - Sonauto (1).ogg",
+        "Máquina de Guerra - The Magnetic Head - Sonauto.ogg",
+        "Máquina de Guerra - The Rotund King - Sonauto.ogg",
+        "Máquina de Guerra - The Saffron Threshold - Sonauto.ogg",
+        "Máquina de Guerra - The Salty Cup - Sonauto (1).ogg",
+        "Máquina de Guerra - The Salty Cup - Sonauto.ogg",
+        "Máquina de Guerra - Valley of Dry Bones - Sonauto.ogg",
+        "Máquina de Guerra - Who Sabi Hold Body - Sonauto.ogg",
+        "Máquina de Guerra - המדבר מדבר - Sonauto.ogg",
+        "Máquina de Guerra - اتقان المحارب (Warrior's Mastery) - Sonauto.ogg",
+        "Máquina de Guerra - طريق القوة (The Path of Power) - Sonauto.ogg",
+        "Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
+        "Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Warrior-state broadcasts / desert-fire circuitry / saffron threshold pressure"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CYPHER MIXTAPE for a militant asphalt-breaks companion deck."]
+      ]
     }
   };
 
@@ -906,6 +976,7 @@
       .replace(/^usb legacy\s*-\s*/i, "")
       .replace(/^ferrous lament\s*-\s*/i, "")
       .replace(/^the great congregation\s*-\s*/i, "")
+      .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
