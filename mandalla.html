@@ -1741,6 +1741,58 @@
                     "Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
                     "Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg"
                 ]
+            },
+            blackwater: {
+                key: 'blackwater',
+                label: 'BLACK WATER RUN',
+                shortLabel: 'BWR',
+                libraryParam: 'blackwater',
+                op2Pair: 'heishui',
+                basePath: 'BLACK WATER RUN/',
+                files: [
+                    "Black Water Run - A Chinese Good Man (Main Theme) - Sonauto.ogg",
+                    "Black Water Run - Amphibian Escape & Concrete Smoke - Sonauto.ogg",
+                    "Black Water Run - Amphibian Noir (The Hard Cut) - Sonauto.ogg",
+                    "Black Water Run - Baja Jade Night - Sonauto.ogg",
+                    "Black Water Run - Concrete Alley Soul - Sonauto.ogg",
+                    "Black Water Run - Concrete Exhale (Searchlight Halation) - Sonauto.ogg",
+                    "Black Water Run - Concrete Exhale - Sonauto.ogg",
+                    "Black Water Run - Deep Sea Monarchy - Sonauto.ogg",
+                    "Black Water Run - Ghost City Dynasty - Sonauto.ogg",
+                    "Black Water Run - Gray Alley Slow Drag - Sonauto.ogg",
+                    "Black Water Run - Midnight Evasion - Sonauto.ogg",
+                    "Black Water Run - Night Wake (Spotlight Halation) - Sonauto.ogg",
+                    "Black Water Run - Nylon and Jade - Sonauto.ogg",
+                    "Black Water Run - Ocean Palace Static - Sonauto.ogg",
+                    "Black Water Run - Red Lanterns over the Malecon - Sonauto.ogg",
+                    "Black Water Run - Static Smoke Phase - Sonauto.ogg",
+                    "Black Water Run - Tectonic Wake, Static Smoke - Sonauto.ogg",
+                    "Black Water Run - The Good Man's Jasmine Draught - Sonauto.ogg",
+                    "Black Water Run - The Sea To The Alleyway - Sonauto.ogg",
+                    "Black Water Run - The Shadow of the Alley - Sonauto.ogg",
+                    "Black Water Run - The Soulful Good Man (Philly Fusion) - Sonauto.ogg",
+                    "Black Water Run - Vinilo de Sangre y Sal - Sonauto.ogg"
+                ]
+            },
+            heishui: {
+                key: 'heishui',
+                label: '黑水奔流',
+                shortLabel: '黑水',
+                libraryParam: 'heishui',
+                op2Pair: 'blackwater',
+                basePath: '黑水奔流/',
+                files: [
+                    "Black Water Run - Chinese Good Man - Sonauto.ogg",
+                    "Black Water Run - Lao Li's Iron Lighter - Sonauto.ogg",
+                    "Black Water Run - Old Li of the Alley - Sonauto.ogg",
+                    "Black Water Run - The Breath of Uselessness - Sonauto.ogg",
+                    "Black Water Run - 中国好人 (Chinese Good Man) - Sonauto.ogg",
+                    "Black Water Run - 中国好人 (Good Man) - Sonauto.ogg",
+                    "Black Water Run - 中国好人 (The Good Man) - Sonauto.ogg",
+                    "Black Water Run - 因果律动 (Yinguo Rhythm) - Sonauto.ogg",
+                    "Black Water Run - 消散 (Dissipation) - Sonauto.ogg",
+                    "Black Water Run - 骏马与烟灰的叙事曲 - Sonauto.ogg"
+                ]
             }
         };
 
@@ -1767,6 +1819,7 @@
                 .replace(/^ferrous lament\s*-\s*/i, '')
                 .replace(/^the great congregation\s*-\s*/i, '')
                 .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, '')
+                .replace(/^black water run\s*-\s*/i, '')
                 .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, '')
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
@@ -1801,6 +1854,8 @@
             if (v === 'ferrous-lament' || v === 'ferrous_lament' || v === 'ferrouslament' || v === 'ferrous') return 'ferrous';
             if (v === 'great-congregation' || v === 'great_congregation' || v === 'greatcongregation' || v === 'congregation') return 'congregation';
             if (v === 'maquina-de-guerra' || v === 'maquina_de_guerra' || v === 'maquinadeguerra' || v === 'maquina' || v === 'm\u00e1quina-de-guerra' || v === 'ma\u0301quina-de-guerra') return 'maquina';
+            if (v === 'black-water-run' || v === 'black_water_run' || v === 'blackwaterrun' || v === 'black water run' || v === 'blackwater') return 'blackwater';
+            if (v === 'hei-shui-ben-liu' || v === 'hei_shui_ben_liu' || v === 'heishuibenliu' || v === 'hei shui ben liu' || v === 'heishui' || v === '黑水奔流') return 'heishui';
             if (ALBUM_CRATE_DEFS[v]) return v;
             return 'loom';
         }

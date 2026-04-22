@@ -25,6 +25,7 @@ export function titleFromFilename(file) {
     .replace(/^ferrous lament\s*-\s*/i, "")
     .replace(/^the great congregation\s*-\s*/i, "")
     .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
+    .replace(/^black water run\s*-\s*/i, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
     .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")

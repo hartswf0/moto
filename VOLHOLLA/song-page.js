@@ -819,6 +819,70 @@
         "Máquina de Guerra - ኃይል አደን (Hunting Power) - Sonauto.ogg",
         "Máquina de Guerra - የተዋጊው ንጽህና (Warrior's Impeccability) - Sonauto.ogg"
       ]
+    },
+    blackwater: {
+      key: "blackwater",
+      pageSlug: "black-water-run",
+      basePath: "../BLACK WATER RUN/",
+      label: "BLACK WATER RUN",
+      subtitle: "Frog-noir escapes / jade seawall static / alleyway pursuit soul",
+      accentA: "#61788f",
+      accentB: "#d7dce0",
+      coverImage: "../BLACK WATER RUN/ChatGPT Image Apr 21, 2026, 11_35_30 PM.png",
+      defaultTrackArt: "../BLACK WATER RUN/ChatGPT Image Apr 21, 2026, 11_35_47 PM.png",
+      hallKey: "blackwater",
+      op2Key: "blackwater",
+      op2Pair: "heishui",
+      files: [
+        "Black Water Run - A Chinese Good Man (Main Theme) - Sonauto.ogg",
+        "Black Water Run - Amphibian Escape & Concrete Smoke - Sonauto.ogg",
+        "Black Water Run - Amphibian Noir (The Hard Cut) - Sonauto.ogg",
+        "Black Water Run - Baja Jade Night - Sonauto.ogg",
+        "Black Water Run - Concrete Alley Soul - Sonauto.ogg",
+        "Black Water Run - Concrete Exhale (Searchlight Halation) - Sonauto.ogg",
+        "Black Water Run - Concrete Exhale - Sonauto.ogg",
+        "Black Water Run - Deep Sea Monarchy - Sonauto.ogg",
+        "Black Water Run - Ghost City Dynasty - Sonauto.ogg",
+        "Black Water Run - Gray Alley Slow Drag - Sonauto.ogg",
+        "Black Water Run - Midnight Evasion - Sonauto.ogg",
+        "Black Water Run - Night Wake (Spotlight Halation) - Sonauto.ogg",
+        "Black Water Run - Nylon and Jade - Sonauto.ogg",
+        "Black Water Run - Ocean Palace Static - Sonauto.ogg",
+        "Black Water Run - Red Lanterns over the Malecon - Sonauto.ogg",
+        "Black Water Run - Static Smoke Phase - Sonauto.ogg",
+        "Black Water Run - Tectonic Wake, Static Smoke - Sonauto.ogg",
+        "Black Water Run - The Good Man's Jasmine Draught - Sonauto.ogg",
+        "Black Water Run - The Sea To The Alleyway - Sonauto.ogg",
+        "Black Water Run - The Shadow of the Alley - Sonauto.ogg",
+        "Black Water Run - The Soulful Good Man (Philly Fusion) - Sonauto.ogg",
+        "Black Water Run - Vinilo de Sangre y Sal - Sonauto.ogg"
+      ]
+    },
+    heishui: {
+      key: "heishui",
+      pageSlug: "hei-shui-ben-liu",
+      basePath: "../黑水奔流/",
+      label: "黑水奔流",
+      subtitle: "Red-squall river noir / canal fugues / good-man afterimages",
+      accentA: "#c64534",
+      accentB: "#8ca6c6",
+      coverImage: "../黑水奔流/ChatGPT Image Apr 21, 2026, 11_36_08 PM.png",
+      defaultTrackArt: "../黑水奔流/ChatGPT Image Apr 21, 2026, 11_36_13 PM.png",
+      hallKey: "heishui",
+      op2Key: "heishui",
+      op2Pair: "blackwater",
+      files: [
+        "Black Water Run - Chinese Good Man - Sonauto.ogg",
+        "Black Water Run - Lao Li's Iron Lighter - Sonauto.ogg",
+        "Black Water Run - Old Li of the Alley - Sonauto.ogg",
+        "Black Water Run - The Breath of Uselessness - Sonauto.ogg",
+        "Black Water Run - 中国好人 (Chinese Good Man) - Sonauto.ogg",
+        "Black Water Run - 中国好人 (Good Man) - Sonauto.ogg",
+        "Black Water Run - 中国好人 (The Good Man) - Sonauto.ogg",
+        "Black Water Run - 因果律动 (Yinguo Rhythm) - Sonauto.ogg",
+        "Black Water Run - 消散 (Dissipation) - Sonauto.ogg",
+        "Black Water Run - 骏马与烟灰的叙事曲 - Sonauto.ogg"
+      ]
     }
   };
 
@@ -845,6 +909,7 @@
       .replace(/^ferrous lament\s*-\s*/i, "")
       .replace(/^the great congregation\s*-\s*/i, "")
       .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
+      .replace(/^black water run\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -960,6 +1025,10 @@
                               ? "congregation"
                               : raw === "maquina-de-guerra" || raw === "maquina_de_guerra" || raw === "maquinadeguerra" || raw === "maquina" || raw === "m\u00e1quina-de-guerra" || raw === "ma\u0301quina-de-guerra"
                                 ? "maquina"
+                                : raw === "black-water-run" || raw === "black_water_run" || raw === "blackwaterrun" || raw === "black water run" || raw === "blackwater"
+                                  ? "blackwater"
+                                  : raw === "hei-shui-ben-liu" || raw === "hei_shui_ben_liu" || raw === "heishuibenliu" || raw === "hei shui ben liu" || raw === "heishui" || raw === "黑水奔流"
+                                    ? "heishui"
                         : raw;
     return ALBUMS[key] ? key : "volholla";
   }

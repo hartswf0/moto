@@ -266,6 +266,8 @@
         { key: 'ferrous', label: 'FERRO' },
         { key: 'congregation', label: 'CONG' },
         { key: 'maquina', label: 'MAQ' },
+        { key: 'blackwater', label: 'BWR' },
+        { key: 'heishui', label: '黑水' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -331,6 +333,10 @@
             ? 'congregation'
           : raw === 'maquina-de-guerra' || raw === 'maquina_de_guerra' || raw === 'maquinadeguerra' || raw === 'maquina' || raw === 'm\u00e1quina-de-guerra' || raw === 'ma\u0301quina-de-guerra'
             ? 'maquina'
+          : raw === 'black-water-run' || raw === 'black_water_run' || raw === 'blackwaterrun' || raw === 'black water run' || raw === 'blackwater'
+            ? 'blackwater'
+          : raw === 'hei-shui-ben-liu' || raw === 'hei_shui_ben_liu' || raw === 'heishuibenliu' || raw === 'hei shui ben liu' || raw === 'heishui' || raw === '黑水奔流'
+            ? 'heishui'
           : raw;
         const hit = ALBUMS.find((a) => a.key === alias);
         return hit ? hit.key : 'elephant';
