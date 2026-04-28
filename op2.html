@@ -859,6 +859,33 @@
                     "The Cybernetic Winter - Wood and Ash Logic - Sonauto.ogg"
                 ]
             },
+            neon: {
+                key: 'neon',
+                label: 'NEON PUDDLES',
+                short: 'NEON',
+                basePath: 'NEON PUDDLES/',
+                logic: 'Neon Puddles Relay',
+                files: [
+                    "Neon Puddles (Night Bus Edit) - Abyssal Decay (Iron Lung) - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Abyssal Sonar Station - Sonauto (1).ogg",
+                    "Neon Puddles (Night Bus Edit) - Abyssal Sonar Station - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Abyssal Transcendence - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Abyssal Transmission - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Diesel and Shale - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Farewell to the Quay - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Industrial Catharsis - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Pressure Hull Ritual - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Scavenger's Wake - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Shamanic Precision - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - The Caretaker's Sonar - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - The Diesel-Fumed Ghost - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - The Leviathan's Ascent - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - The Shamanic Abyss - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - The Steel Ribs of the Mariana - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Through the Heavy Fog - Sonauto.ogg",
+                    "Neon Puddles (Night Bus Edit) - Vanguard at Sunrise - Sonauto.ogg"
+                ]
+            },
             cathedral: {
                 key: 'cathedral',
                 label: 'CATHEDRAL OF IV DRIPS',
@@ -1290,6 +1317,8 @@
                 .replace(/^river bank waiting\s*-\s*/i, '')
                 .replace(/^solar reveries\s*-\s*/i, '')
                 .replace(/^jukebox time collapse\s*-\s*/i, '')
+                .replace(/^neon puddles\s*\(night bus edit\)\s*-\s*/i, '')
+                .replace(/^neon puddles\s*-\s*/i, '')
                 .replace(/^the cybernetic winter\s*-\s*/i, '')
                 .replace(/^the cathedral of iv drips\s*-\s*/i, '')
                 .replace(/^throne of ash\s*-\s*/i, '')
@@ -1337,6 +1366,7 @@
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
             if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
+            if (v === 'neon-puddles' || v === 'neon_puddles' || v === 'neon') return 'neon';
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
             if (v === 'throne-of-ash' || v === 'throne_of_ash' || v === 'throne' || v === 'ash') return 'throne';
             if (v === 'cathedral-of-glass' || v === 'cathedral_of_glass' || v === 'glass') return 'glass';

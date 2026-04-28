@@ -403,6 +403,45 @@
         ["OP2 Pair", "Launch with JUKEBOX TIME COLLAPSE for a cold/ember contrast deck."]
       ]
     },
+    neon: {
+      key: "neon",
+      pageSlug: "neon-puddles",
+      basePath: "../NEON PUDDLES/",
+      label: "NEON PUDDLES",
+      subtitle: "Night-bus sonar / abyssal industrial drift / rain-lit pressure rituals",
+      accentA: "#39f5e9",
+      accentB: "#ff4fd8",
+      coverImage: "../NEON PUDDLES/Gemini_Generated_Image_45dd9t45dd9t45dd.jpeg",
+      defaultTrackArt: "../NEON PUDDLES/Gemini_Generated_Image_7y5wmb7y5wmb7y5w.jpeg",
+      hallKey: "neon",
+      op2Key: "neon",
+      op2Pair: "cyber",
+      files: [
+        "Neon Puddles (Night Bus Edit) - Abyssal Decay (Iron Lung) - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Abyssal Sonar Station - Sonauto (1).ogg",
+        "Neon Puddles (Night Bus Edit) - Abyssal Sonar Station - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Abyssal Transcendence - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Abyssal Transmission - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Diesel and Shale - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Farewell to the Quay - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Industrial Catharsis - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Pressure Hull Ritual - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Scavenger's Wake - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Shamanic Precision - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - The Caretaker's Sonar - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - The Diesel-Fumed Ghost - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - The Leviathan's Ascent - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - The Shamanic Abyss - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - The Steel Ribs of the Mariana - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Through the Heavy Fog - Sonauto.ogg",
+        "Neon Puddles (Night Bus Edit) - Vanguard at Sunrise - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Night-bus sonar / neon rain pressure / abyssal industrial rituals"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with CYBERNETIC WINTER for cold machine contrast."]
+      ]
+    },
     noservice: {
       key: "noservice",
       pageSlug: "no-service",
@@ -1026,6 +1065,8 @@
       .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/^solar reveries\s*-\s*/i, "")
       .replace(/^jukebox time collapse\s*-\s*/i, "")
+      .replace(/^neon puddles\s*\(night bus edit\)\s*-\s*/i, "")
+      .replace(/^neon puddles\s*-\s*/i, "")
       .replace(/^the cybernetic winter\s*-\s*/i, "")
       .replace(/^the cathedral of iv drips\s*-\s*/i, "")
       .replace(/^throne of ash\s*-\s*/i, "")
