@@ -23,14 +23,17 @@
   const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
     Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
   );
-  const MALL_ART_POOL = [
-    "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-    "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+  const MALL_SONG_ART_POOL = [
     "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"
+    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+    "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+    "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"
   ];
-  const MALL_TRACK_ART_BY_INDEX = Object.fromEntries(
-    Array.from({ length: 54 }, (_, i) => [i, MALL_ART_POOL[Math.min(3, Math.floor(i / 14))]])
+  const MALL_GROUND_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[i % MALL_SONG_ART_POOL.length]])
+  );
+  const MALL_MEZZANINE_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[(i + 1) % MALL_SONG_ART_POOL.length]])
   );
   let mediaManifestPromise = null;
 
@@ -489,24 +492,20 @@
         ["OP2 Pair", "Launch with NEON PUDDLES for the full split-catalog deck."]
       ]
     },
-    mall: {
-      key: "mall",
-      pageSlug: "mall-patchworld-ingest",
+    mallground: {
+      key: "mallground",
+      pageSlug: "mall-patchworld-ingest-ground",
       basePath: "../MALL PATCHWORLD/",
-      label: "MALL PATCHWORLD INGEST",
-      subtitle: "Retail catacombs / kiosk republics / food-court forensic memory",
+      label: "MALL PATCHWORLD INGEST (ground)",
+      subtitle: "Ground level / atrium systems / food-court forensic memory",
       accentA: "#7df2c8",
       accentB: "#f4c95d",
-      coverImage: "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-      defaultTrackArt: "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
-      trackArtByIndex: MALL_TRACK_ART_BY_INDEX,
-      hallKey: "mall",
-      op2Key: "mall",
-      op2Pair: "nightbus",
-      sides: [
-        { label: "Side A", start: 0, end: 26, note: "Atrium systems / food-court ecology / catalog mind" },
-        { label: "Side B", start: 27, end: 53, note: "Mannequin states / security dossier / warranty medicine" }
-      ],
+      coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+      trackArtByIndex: MALL_GROUND_TRACK_ART_BY_INDEX,
+      defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+      hallKey: "mallground",
+      op2Key: "mallground",
+      op2Pair: "mallmezzanine",
       files: [
         "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
         "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
@@ -534,7 +533,30 @@
         "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
         "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
         "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
-        "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+        "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg"
+      ],
+      notes: [
+        ["Level", "Ground"],
+        ["Mode", "Atrium systems / food-court ecology / catalog mind"],
+        ["Art", "Four-image song cycle across the ground track list"],
+        ["OP2 Pair", "Launch with MALL PATCHWORLD INGEST (mezzanine) for the full two-level deck."]
+      ]
+    },
+    mallmezzanine: {
+      key: "mallmezzanine",
+      pageSlug: "mall-patchworld-ingest-mezzanine",
+      basePath: "../MALL PATCHWORLD/",
+      label: "MALL PATCHWORLD INGEST (mezzanine)",
+      subtitle: "Mezzanine level / mannequin states / security dossier glow",
+      accentA: "#9ad7ff",
+      accentB: "#ffcf6e",
+      coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      trackArtByIndex: MALL_MEZZANINE_TRACK_ART_BY_INDEX,
+      defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      hallKey: "mallmezzanine",
+      op2Key: "mallmezzanine",
+      op2Pair: "mallground",
+      files: [
         "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
         "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
         "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
@@ -564,12 +586,10 @@
         "Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg"
       ],
       notes: [
-        ["Mode", "Retail catacomb archive / kiosk republic circuitry / food-court forensic drift"],
-        ["Side A", "Tracks 01-27: atrium systems, food-court ecology, catalog mind."],
-        ["Side B", "Tracks 28-54: mannequin states, security dossier, warranty medicine."],
-        ["Art", "The four Mall images rotate across the visual grid in quarter-album blocks."],
-        ["Use", "Standalone album page, hall route, and direct song-page links for the full ingest."],
-        ["OP2 Pair", "Launch with NIGHT BUS for transit-system contrast."]
+        ["Level", "Mezzanine"],
+        ["Mode", "Mannequin states / security dossier / warranty medicine"],
+        ["Art", "Four-image song cycle across the mezzanine track list"],
+        ["OP2 Pair", "Launch with MALL PATCHWORLD INGEST (ground) for the full two-level deck."]
       ]
     },
     noservice: {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T09:41:49Z",
+  "generatedAt": "2026-04-29T18:41:11Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -7031,23 +7031,23 @@
         }
       ]
     },
-    "mall": {
-      "key": "mall",
-      "label": "MALL PATCHWORLD INGEST",
-      "subtitle": "Retail catacombs / kiosk republics / food-court forensic memory",
-      "pageSlug": "mall-patchworld-ingest",
-      "hallKey": "mall",
-      "op2Key": "mall",
-      "op2Pair": "nightbus",
+    "mallground": {
+      "key": "mallground",
+      "label": "MALL PATCHWORLD INGEST (ground)",
+      "subtitle": "Ground level / atrium systems / food-court forensic memory",
+      "pageSlug": "mall-patchworld-ingest-ground",
+      "hallKey": "mallground",
+      "op2Key": "mallground",
+      "op2Pair": "mallmezzanine",
       "accentA": "#7df2c8",
       "accentB": "#f4c95d",
       "cover": {
-        "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+        "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
         "derivatives": {
         }
       },
       "defaultTrackArt": {
-        "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+        "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
         "derivatives": {
         }
       },
@@ -7057,15 +7057,14 @@
           "title": "Ball Pit Geology",
           "file": "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-01.html",
+          "songPage": "VOLHOLLA/song-mallground-01.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7075,15 +7074,14 @@
           "title": "Blackout Return",
           "file": "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-02.html",
+          "songPage": "VOLHOLLA/song-mallground-02.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7093,13 +7091,12 @@
           "title": "Cart Nomads (Kiosk Anthem)",
           "file": "Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-03.html",
+          "songPage": "VOLHOLLA/song-mallground-03.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
@@ -7111,15 +7108,14 @@
           "title": "Catalog Mind",
           "file": "Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-04.html",
+          "songPage": "VOLHOLLA/song-mallground-04.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
@@ -7129,15 +7125,14 @@
           "title": "Childhood Ruin Collapse",
           "file": "Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-05.html",
+          "songPage": "VOLHOLLA/song-mallground-05.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7147,15 +7142,14 @@
           "title": "Corridor Divided by Moving Air",
           "file": "Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-06.html",
+          "songPage": "VOLHOLLA/song-mallground-06.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7165,13 +7159,12 @@
           "title": "Corridor Trade Route",
           "file": "Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-07.html",
+          "songPage": "VOLHOLLA/song-mallground-07.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
@@ -7183,15 +7176,14 @@
           "title": "Deep Friars   MallNet Fragment A1",
           "file": "Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-08.html",
+          "songPage": "VOLHOLLA/song-mallground-08.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
@@ -7201,15 +7193,14 @@
           "title": "Detached Personhood Archive",
           "file": "Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-09.html",
+          "songPage": "VOLHOLLA/song-mallground-09.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7219,15 +7210,14 @@
           "title": "Docket of Returns",
           "file": "Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-10.html",
+          "songPage": "VOLHOLLA/song-mallground-10.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7237,13 +7227,12 @@
           "title": "Door Sensor Rite (The Threshold Opens)",
           "file": "Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-11.html",
+          "songPage": "VOLHOLLA/song-mallground-11.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
@@ -7255,15 +7244,14 @@
           "title": "Duct Resonance Map",
           "file": "Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-12.html",
+          "songPage": "VOLHOLLA/song-mallground-12.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
@@ -7273,15 +7261,14 @@
           "title": "Failed Device Lullaby",
           "file": "Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-13.html",
+          "songPage": "VOLHOLLA/song-mallground-13.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7291,15 +7278,14 @@
           "title": "Food Court Games",
           "file": "Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-14.html",
+          "songPage": "VOLHOLLA/song-mallground-14.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7309,15 +7295,14 @@
           "title": "Food-Court Catacombs",
           "file": "Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-15.html",
+          "songPage": "VOLHOLLA/song-mallground-15.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
@@ -7327,13 +7312,12 @@
           "title": "Forensic Playback  Sector 4",
           "file": "Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-16.html",
+          "songPage": "VOLHOLLA/song-mallground-16.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
@@ -7345,15 +7329,14 @@
           "title": "Governance of the Tray",
           "file": "Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-17.html",
+          "songPage": "VOLHOLLA/song-mallground-17.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7363,15 +7346,14 @@
           "title": "Hidden Systems (Infra-Bass Edit)",
           "file": "Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-18.html",
+          "songPage": "VOLHOLLA/song-mallground-18.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7381,15 +7363,14 @@
           "title": "INDEXED EVIDENCE 120",
           "file": "Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-19.html",
+          "songPage": "VOLHOLLA/song-mallground-19.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
@@ -7399,13 +7380,12 @@
           "title": "Inside the Optical Store",
           "file": "Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-20.html",
+          "songPage": "VOLHOLLA/song-mallground-20.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
@@ -7417,15 +7397,14 @@
           "title": "Internal Currency Arithmetic",
           "file": "Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-21.html",
+          "songPage": "VOLHOLLA/song-mallground-21.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7435,15 +7414,14 @@
           "title": "Kiosk Republics",
           "file": "Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-22.html",
+          "songPage": "VOLHOLLA/song-mallground-22.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7453,15 +7431,14 @@
           "title": "Level Two Clearance",
           "file": "Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-23.html",
+          "songPage": "VOLHOLLA/song-mallground-23.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
@@ -7471,13 +7448,12 @@
           "title": "Line of Appeal",
           "file": "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-24.html",
+          "songPage": "VOLHOLLA/song-mallground-24.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
@@ -7489,15 +7465,14 @@
           "title": "Loading Dock Stage",
           "file": "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-25.html",
+          "songPage": "VOLHOLLA/song-mallground-25.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
@@ -7507,15 +7482,14 @@
           "title": "Lost Object Choir (SRC077)",
           "file": "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-26.html",
+          "songPage": "VOLHOLLA/song-mallground-26.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
@@ -7525,31 +7499,108 @@
           "title": "MallNet Paradise System",
           "file": "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-27.html",
+          "songPage": "VOLHOLLA/song-mallground-27.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "A",
           "art": {
-            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
+        }
+      ],
+      "songArtPool": [
+        {
+          "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+          "derivatives": {
+          }
         },
         {
-          "index": 28,
+          "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+          "derivatives": {
+          }
+        },
+        {
+          "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+          "derivatives": {
+          }
+        },
+        {
+          "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+          "derivatives": {
+          }
+        }
+      ]
+    },
+    "mallmezzanine": {
+      "key": "mallmezzanine",
+      "label": "MALL PATCHWORLD INGEST (mezzanine)",
+      "subtitle": "Mezzanine level / mannequin states / security dossier glow",
+      "pageSlug": "mall-patchworld-ingest-mezzanine",
+      "hallKey": "mallmezzanine",
+      "op2Key": "mallmezzanine",
+      "op2Pair": "mallground",
+      "accentA": "#9ad7ff",
+      "accentB": "#ffcf6e",
+      "cover": {
+        "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+        "derivatives": {
+        }
+      },
+      "defaultTrackArt": {
+        "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+        "derivatives": {
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
           "title": "Mannequin Body",
           "file": "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-28.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-01.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
+          "art": {
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Mattress Hierarchy",
+          "file": "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mallmezzanine-02.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+            "derivatives": {
+            }
+          },
+          "art": {
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Metabolic Fryer",
+          "file": "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mallmezzanine-03.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+            "derivatives": {
+            }
+          },
           "art": {
             "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
@@ -7557,53 +7608,16 @@
           }
         },
         {
-          "index": 29,
-          "title": "Mattress Hierarchy",
-          "file": "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
-          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-29.html",
-          "audio": {
-            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
-            "derivatives": {
-            }
-          },
-          "side": "B",
-          "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-            "derivatives": {
-            }
-          }
-        },
-        {
-          "index": 30,
-          "title": "Metabolic Fryer",
-          "file": "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
-          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-30.html",
-          "audio": {
-            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
-            "derivatives": {
-            }
-          },
-          "side": "B",
-          "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-            "derivatives": {
-            }
-          }
-        },
-        {
-          "index": 31,
+          "index": 4,
           "title": "Modular Personhood",
           "file": "Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-31.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-04.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
@@ -7611,71 +7625,67 @@
           }
         },
         {
-          "index": 32,
+          "index": 5,
           "title": "Name Tag Self",
           "file": "Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-32.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-05.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
         },
         {
-          "index": 33,
+          "index": 6,
           "title": "Panopticon Retail",
           "file": "Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-33.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-06.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 34,
+          "index": 7,
           "title": "Playground CCTV",
           "file": "Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-34.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-07.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 35,
+          "index": 8,
           "title": "Pressure Architecture",
           "file": "Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-35.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-08.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
@@ -7683,71 +7693,67 @@
           }
         },
         {
-          "index": 36,
+          "index": 9,
           "title": "Project Panopticon (Field Study)",
           "file": "Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-36.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-09.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
         },
         {
-          "index": 37,
+          "index": 10,
           "title": "Republic of Pose",
           "file": "Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-37.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-10.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 38,
+          "index": 11,
           "title": "Retail Ecology (Artifact 08)",
           "file": "Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-38.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-11.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 39,
+          "index": 12,
           "title": "Retail Jargon Drift",
           "file": "Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-39.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-12.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
@@ -7755,53 +7761,67 @@
           }
         },
         {
-          "index": 40,
+          "index": 13,
           "title": "Retail Time Ritual",
           "file": "Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-40.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-13.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
             }
           }
         },
         {
-          "index": 41,
+          "index": 14,
           "title": "SEALED STOCKROOM RECOVERY",
           "file": "Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-41.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-14.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 42,
+          "index": 15,
           "title": "SKU Pilgrimage",
           "file": "Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-42.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-15.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
+          "art": {
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Search Team Echoes",
+          "file": "Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mallmezzanine-16.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+            "derivatives": {
+            }
+          },
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
@@ -7809,35 +7829,16 @@
           }
         },
         {
-          "index": 43,
-          "title": "Search Team Echoes",
-          "file": "Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
-          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-43.html",
-          "audio": {
-            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
-            "derivatives": {
-            }
-          },
-          "side": "B",
-          "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
-            "derivatives": {
-            }
-          }
-        },
-        {
-          "index": 44,
+          "index": 17,
           "title": "Sears Wastes Reject",
           "file": "Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-44.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-17.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
@@ -7845,71 +7846,67 @@
           }
         },
         {
-          "index": 45,
+          "index": 18,
           "title": "Security Office Dossier",
           "file": "Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-45.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-18.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 46,
+          "index": 19,
           "title": "Security Protocol 001-120",
           "file": "Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-46.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-19.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 47,
+          "index": 20,
           "title": "Store Credit Math",
           "file": "Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-47.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-20.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
         },
         {
-          "index": 48,
+          "index": 21,
           "title": "Super Saver Bloom",
           "file": "Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-48.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-21.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
@@ -7917,71 +7914,67 @@
           }
         },
         {
-          "index": 49,
+          "index": 22,
           "title": "Survival Taxonomy",
           "file": "Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-49.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-22.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 50,
+          "index": 23,
           "title": "The Atrium Covenant",
           "file": "Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-50.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-23.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 51,
+          "index": 24,
           "title": "The Semantic Markdown",
           "file": "Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-51.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-24.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
             "derivatives": {
             }
           }
         },
         {
-          "index": 52,
+          "index": 25,
           "title": "Upper Macy Aura",
           "file": "Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-52.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-25.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
             "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
             "derivatives": {
@@ -7989,76 +7982,62 @@
           }
         },
         {
-          "index": 53,
+          "index": 26,
           "title": "Vent Drift Navigation",
           "file": "Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-53.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-26.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
             "derivatives": {
             }
           }
         },
         {
-          "index": 54,
+          "index": 27,
           "title": "Warranty Medicine",
           "file": "Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
           "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
-          "songPage": "VOLHOLLA/song-mall-54.html",
+          "songPage": "VOLHOLLA/song-mallmezzanine-27.html",
           "audio": {
             "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
             "derivatives": {
             }
           },
-          "side": "B",
           "art": {
-            "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+            "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
             "derivatives": {
             }
           }
         }
       ],
-      "sides": [
+      "songArtPool": [
         {
-          "label": "Side A",
-          "start": 1,
-          "end": 27,
-          "note": "Atrium systems / food-court ecology / catalog mind",
-          "images": [
-            "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-            "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"
-          ]
+          "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+          "derivatives": {
+          }
         },
         {
-          "label": "Side B",
-          "start": 28,
-          "end": 54,
-          "note": "Mannequin states / security dossier / warranty medicine",
-          "images": [
-            "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-            "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"
-          ]
+          "source": "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+          "derivatives": {
+          }
+        },
+        {
+          "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+          "derivatives": {
+          }
+        },
+        {
+          "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+          "derivatives": {
+          }
         }
-      ],
-      "images": {
-        "cover": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-        "secondary": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
-        "sideA": [
-          "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-          "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"
-        ],
-        "sideB": [
-          "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-          "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"
-        ]
-      }
+      ]
     }
   }
 }

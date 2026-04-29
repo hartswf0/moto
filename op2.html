@@ -912,12 +912,12 @@
                     "Neon Puddles (Night Bus Edit) - The Wet Console - Sonauto.ogg"
                 ]
             },
-            mall: {
-                key: 'mall',
-                label: 'MALL PATCHWORLD INGEST',
-                short: 'MALL',
+            mallground: {
+                key: 'mallground',
+                label: 'MALL PATCHWORLD INGEST (ground)',
+                short: 'MALL-G',
                 basePath: 'MALL PATCHWORLD/',
-                logic: 'Mall Patchworld Relay',
+                logic: 'Mall Ground Relay',
                 files: [
                     "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
                     "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
@@ -945,7 +945,16 @@
                     "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
                     "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
                     "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
-                    "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+                    "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg"
+                ]
+            },
+            mallmezzanine: {
+                key: 'mallmezzanine',
+                label: 'MALL PATCHWORLD INGEST (mezzanine)',
+                short: 'MALL-M',
+                basePath: 'MALL PATCHWORLD/',
+                logic: 'Mall Mezzanine Relay',
+                files: [
                     "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
                     "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
                     "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
@@ -1458,7 +1467,8 @@
             if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';
             if (v === 'neon-puddles' || v === 'neon_puddles' || v === 'neon') return 'neon';
             if (v === 'night-bus' || v === 'night_bus' || v === 'nightbus') return 'nightbus';
-            if (v === 'mall-patchworld-ingest' || v === 'mall_patchworld_ingest' || v === 'mall-patchworld' || v === 'mall_patchworld' || v === 'mall') return 'mall';
+            if (v === 'mall-patchworld-ingest-ground' || v === 'mall_patchworld_ingest_ground' || v === 'mall-ground' || v === 'mall_ground' || v === 'mallground' || v === 'mall') return 'mallground';
+            if (v === 'mall-patchworld-ingest-mezzanine' || v === 'mall_patchworld_ingest_mezzanine' || v === 'mall-mezzanine' || v === 'mall_mezzanine' || v === 'mallmezzanine' || v === 'mezzanine') return 'mallmezzanine';
             if (v === 'cybernetic-winter' || v === 'cybernetic_winter' || v === 'cyber') return 'cyber';
             if (v === 'throne-of-ash' || v === 'throne_of_ash' || v === 'throne' || v === 'ash') return 'throne';
             if (v === 'cathedral-of-glass' || v === 'cathedral_of_glass' || v === 'glass') return 'glass';

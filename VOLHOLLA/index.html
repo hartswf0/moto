@@ -1471,16 +1471,18 @@
     const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
       Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
     );
-    const MALL_ART_POOL = [
-      "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-      "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+    const MALL_SONG_ART_POOL = [
       "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
-      "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"
+      "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+      "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"
     ];
-    const MALL_TRACK_ART_BY_INDEX = Object.fromEntries(
-      Array.from({ length: 54 }, (_, i) => [i, MALL_ART_POOL[Math.min(3, Math.floor(i / 14))]])
+    const MALL_GROUND_TRACK_ART_BY_INDEX = Object.fromEntries(
+      Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[i % MALL_SONG_ART_POOL.length]])
     );
-
+    const MALL_MEZZANINE_TRACK_ART_BY_INDEX = Object.fromEntries(
+      Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[(i + 1) % MALL_SONG_ART_POOL.length]])
+    );
     const AREA_DEFS = [
       {
         key: "volholla",
@@ -1842,15 +1844,15 @@
         ]
       },
       {
-        key: "mall",
-        label: "MALL PATCHWORLD INGEST",
-        pageSlug: "mall-patchworld-ingest",
-        description: "Retail catacombs / kiosk republics / food-court forensic memory",
+        key: "mallground",
+        label: "MALL PATCHWORLD INGEST (ground)",
+        pageSlug: "mall-patchworld-ingest-ground",
+        description: "Ground level / atrium systems / food-court forensic memory",
         accentA: "#7df2c8",
         accentB: "#f4c95d",
-        coverImage: "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-        defaultTrackArt: "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
-        trackArtByIndex: MALL_TRACK_ART_BY_INDEX,
+        coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+        trackArtByIndex: MALL_GROUND_TRACK_ART_BY_INDEX,
+        defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
         basePath: "../MALL PATCHWORLD/",
         files: [
           "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
@@ -1879,7 +1881,21 @@
           "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
           "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
           "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
-          "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+          "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg"
+        ]
+      },
+      {
+        key: "mallmezzanine",
+        label: "MALL PATCHWORLD INGEST (mezzanine)",
+        pageSlug: "mall-patchworld-ingest-mezzanine",
+        description: "Mezzanine level / mannequin states / security dossier glow",
+        accentA: "#9ad7ff",
+        accentB: "#ffcf6e",
+        coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+        trackArtByIndex: MALL_MEZZANINE_TRACK_ART_BY_INDEX,
+        defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+        basePath: "../MALL PATCHWORLD/",
+        files: [
           "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
           "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
           "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",

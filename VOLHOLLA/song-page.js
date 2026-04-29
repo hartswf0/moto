@@ -420,19 +420,19 @@
         "Neon Puddles (Night Bus Edit) - The Wet Console - Sonauto.ogg"
       ]
     },
-    mall: {
-      key: "mall",
-      pageSlug: "mall-patchworld-ingest",
+    mallground: {
+      key: "mallground",
+      pageSlug: "mall-patchworld-ingest-ground",
       basePath: "../MALL PATCHWORLD/",
-      label: "MALL PATCHWORLD INGEST",
-      subtitle: "Retail catacombs / kiosk republics / food-court forensic memory",
+      label: "MALL PATCHWORLD INGEST (ground)",
+      subtitle: "Ground level / atrium systems / food-court forensic memory",
       accentA: "#7df2c8",
       accentB: "#f4c95d",
-      coverImage: "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
-      defaultTrackArt: "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
-      hallKey: "mall",
-      op2Key: "mall",
-      op2Pair: "nightbus",
+      coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+      defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+      hallKey: "mallground",
+      op2Key: "mallground",
+      op2Pair: "mallmezzanine",
       files: [
         "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
         "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
@@ -460,7 +460,23 @@
         "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
         "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
         "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
-        "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+        "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg"
+      ]
+    },
+    mallmezzanine: {
+      key: "mallmezzanine",
+      pageSlug: "mall-patchworld-ingest-mezzanine",
+      basePath: "../MALL PATCHWORLD/",
+      label: "MALL PATCHWORLD INGEST (mezzanine)",
+      subtitle: "Mezzanine level / mannequin states / security dossier glow",
+      accentA: "#9ad7ff",
+      accentB: "#ffcf6e",
+      coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      hallKey: "mallmezzanine",
+      op2Key: "mallmezzanine",
+      op2Pair: "mallground",
+      files: [
         "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
         "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
         "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
@@ -1141,8 +1157,10 @@
               ? "neon"
               : raw === "night-bus" || raw === "night_bus" || raw === "nightbus"
                 ? "nightbus"
-                : raw === "mall-patchworld-ingest" || raw === "mall_patchworld_ingest" || raw === "mall-patchworld" || raw === "mall_patchworld" || raw === "mall"
-                  ? "mall"
+                : raw === "mall-patchworld-ingest-ground" || raw === "mall_patchworld_ingest_ground" || raw === "mall-ground" || raw === "mall_ground" || raw === "mallground" || raw === "mall"
+                  ? "mallground"
+                  : raw === "mall-patchworld-ingest-mezzanine" || raw === "mall_patchworld_ingest_mezzanine" || raw === "mall-mezzanine" || raw === "mall_mezzanine" || raw === "mallmezzanine" || raw === "mezzanine"
+                    ? "mallmezzanine"
             : raw === "cybernetic-winter" || raw === "cybernetic_winter" || raw === "cyber"
               ? "cyber"
               : raw === "throne-of-ash" || raw === "throne_of_ash" || raw === "throne" || raw === "ash"
@@ -1842,7 +1860,8 @@
         `  style="max-width:100%; border:0; border-radius:12px; overflow:hidden;"`,
         `  allow="autoplay; clipboard-write"`,
         `></iframe>`
-      ].join("\n");
+      ].join("
+");
     }
 
     function updateTrackListUI() {
