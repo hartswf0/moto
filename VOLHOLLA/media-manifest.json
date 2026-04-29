@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T16:59:56Z",
+  "generatedAt": "2026-04-29T09:29:18Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -6798,6 +6798,904 @@
           "songPage": "VOLHOLLA/song-neon-18.html",
           "audio": {
             "source": "NEON PUDDLES/Neon Puddles (Night Bus Edit) - Vanguard at Sunrise - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        }
+      ]
+    },
+    "nightbus": {
+      "key": "nightbus",
+      "label": "NIGHT BUS",
+      "subtitle": "Wet-console dispatches / crush-depth lounge signal / phosphor transit logs",
+      "pageSlug": "night-bus",
+      "hallKey": "nightbus",
+      "op2Key": "nightbus",
+      "op2Pair": "neon",
+      "accentA": "#52e3ff",
+      "accentB": "#d95cff",
+      "cover": {
+        "source": "NEON PUDDLES/Gemini_Generated_Image_45dd9t45dd9t45dd.jpeg",
+        "derivatives": {
+        }
+      },
+      "defaultTrackArt": {
+        "source": "NEON PUDDLES/Gemini_Generated_Image_7y5wmb7y5wmb7y5w.jpeg",
+        "derivatives": {
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Abyssal Decay (Iron Lung) (1)",
+          "file": "Neon Puddles (Night Bus Edit) - Abyssal Decay (Iron Lung) - Sonauto (1).ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Abyssal Decay (Iron Lung) - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-nightbus-01.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Abyssal Decay (Iron Lung) - Sonauto (1).ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Cavitation Point",
+          "file": "Neon Puddles (Night Bus Edit) - Cavitation Point - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Cavitation Point - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-02.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Cavitation Point - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Command Decent",
+          "file": "Neon Puddles (Night Bus Edit) - Command Decent - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Command Decent - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-03.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Command Decent - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Iron Heart’s Last Breath",
+          "file": "Neon Puddles (Night Bus Edit) - Iron Heart’s Last Breath - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Iron Heart’s Last Breath - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-04.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Iron Heart’s Last Breath - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Phosphor Trace",
+          "file": "Neon Puddles (Night Bus Edit) - Phosphor Trace - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Phosphor Trace - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-05.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Phosphor Trace - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Phosphor Waveform Log",
+          "file": "Neon Puddles (Night Bus Edit) - Phosphor Waveform Log - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Phosphor Waveform Log - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-06.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Phosphor Waveform Log - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Receiving Station 404",
+          "file": "Neon Puddles (Night Bus Edit) - Receiving Station 404 - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Receiving Station 404 - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-07.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Receiving Station 404 - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Saltwater Static (The Last Shanty)",
+          "file": "Neon Puddles (Night Bus Edit) - Saltwater Static (The Last Shanty) - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Saltwater Static (The Last Shanty) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-08.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Saltwater Static (The Last Shanty) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Sonar Cyan Longing",
+          "file": "Neon Puddles (Night Bus Edit) - Sonar Cyan Longing - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Sonar Cyan Longing - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-09.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - Sonar Cyan Longing - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "The Crush Depth Elegy",
+          "file": "Neon Puddles (Night Bus Edit) - The Crush Depth Elegy - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Crush Depth Elegy - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-10.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Crush Depth Elegy - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "The Diesel-Fumed Ghost (1)",
+          "file": "Neon Puddles (Night Bus Edit) - The Diesel-Fumed Ghost - Sonauto (1).ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Diesel-Fumed Ghost - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-nightbus-11.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Diesel-Fumed Ghost - Sonauto (1).ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "The Flooded Room",
+          "file": "Neon Puddles (Night Bus Edit) - The Flooded Room - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Flooded Room - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-12.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Flooded Room - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Fragile Iron Ghost",
+          "file": "Neon Puddles (Night Bus Edit) - The Fragile Iron Ghost - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Fragile Iron Ghost - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-13.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Fragile Iron Ghost - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "The Long Descent (Memory Rot)",
+          "file": "Neon Puddles (Night Bus Edit) - The Long Descent (Memory Rot) - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Long Descent (Memory Rot) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-14.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Long Descent (Memory Rot) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "The Lounge at Crush Depth",
+          "file": "Neon Puddles (Night Bus Edit) - The Lounge at Crush Depth - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Lounge at Crush Depth - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-15.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Lounge at Crush Depth - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "The Paper Log Oscillation",
+          "file": "Neon Puddles (Night Bus Edit) - The Paper Log Oscillation - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Paper Log Oscillation - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-16.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Paper Log Oscillation - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "The Wet Console",
+          "file": "Neon Puddles (Night Bus Edit) - The Wet Console - Sonauto.ogg",
+          "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Wet Console - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-nightbus-17.html",
+          "audio": {
+            "source": "NEON PUDDLES/night bus/Neon Puddles (Night Bus Edit) - The Wet Console - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        }
+      ]
+    },
+    "mall": {
+      "key": "mall",
+      "label": "MALL PATCHWORLD INGEST",
+      "subtitle": "Retail catacombs / kiosk republics / food-court forensic memory",
+      "pageSlug": "mall-patchworld-ingest",
+      "hallKey": "mall",
+      "op2Key": "mall",
+      "op2Pair": "nightbus",
+      "accentA": "#7df2c8",
+      "accentB": "#f4c95d",
+      "cover": {
+        "source": "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+        "derivatives": {
+        }
+      },
+      "defaultTrackArt": {
+        "source": "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+        "derivatives": {
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Ball Pit Geology",
+          "file": "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-01.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Blackout Return",
+          "file": "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-02.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Cart Nomads (Kiosk Anthem)",
+          "file": "Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-03.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Cart Nomads (Kiosk Anthem) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Catalog Mind",
+          "file": "Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-04.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Childhood Ruin Collapse",
+          "file": "Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-05.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Corridor Divided by Moving Air",
+          "file": "Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-06.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Corridor Trade Route",
+          "file": "Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-07.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Trade Route - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Deep Friars   MallNet Fragment A1",
+          "file": "Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-08.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Detached Personhood Archive",
+          "file": "Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-09.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Docket of Returns",
+          "file": "Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-10.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Door Sensor Rite (The Threshold Opens)",
+          "file": "Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-11.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Duct Resonance Map",
+          "file": "Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-12.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Duct Resonance Map - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Failed Device Lullaby",
+          "file": "Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-13.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Failed Device Lullaby - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Food Court Games",
+          "file": "Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-14.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food Court Games - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Food-Court Catacombs",
+          "file": "Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-15.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Food-Court Catacombs - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Forensic Playback  Sector 4",
+          "file": "Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-16.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "Governance of the Tray",
+          "file": "Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-17.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "Hidden Systems (Infra-Bass Edit)",
+          "file": "Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-18.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Hidden Systems (Infra-Bass Edit) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "INDEXED EVIDENCE 120",
+          "file": "Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-19.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Inside the Optical Store",
+          "file": "Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-20.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "Internal Currency Arithmetic",
+          "file": "Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-21.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Internal Currency Arithmetic - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "Kiosk Republics",
+          "file": "Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-22.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "Level Two Clearance",
+          "file": "Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-23.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "Line of Appeal",
+          "file": "Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-24.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Line of Appeal - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "Loading Dock Stage",
+          "file": "Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-25.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Loading Dock Stage - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "Lost Object Choir (SRC077)",
+          "file": "Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-26.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "MallNet Paradise System",
+          "file": "Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-27.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "Mannequin Body",
+          "file": "Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-28.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mannequin Body - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "Mattress Hierarchy",
+          "file": "Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-29.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Mattress Hierarchy - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "Metabolic Fryer",
+          "file": "Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-30.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "Modular Personhood",
+          "file": "Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-31.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Modular Personhood - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "Name Tag Self",
+          "file": "Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-32.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Name Tag Self - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "Panopticon Retail",
+          "file": "Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-33.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "Playground CCTV",
+          "file": "Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-34.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "Pressure Architecture",
+          "file": "Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-35.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "Project Panopticon (Field Study)",
+          "file": "Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-36.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 37,
+          "title": "Republic of Pose",
+          "file": "Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-37.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 38,
+          "title": "Retail Ecology (Artifact 08)",
+          "file": "Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-38.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 39,
+          "title": "Retail Jargon Drift",
+          "file": "Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-39.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Jargon Drift - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 40,
+          "title": "Retail Time Ritual",
+          "file": "Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-40.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 41,
+          "title": "SEALED STOCKROOM RECOVERY",
+          "file": "Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-41.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 42,
+          "title": "SKU Pilgrimage",
+          "file": "Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-42.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - SKU Pilgrimage - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 43,
+          "title": "Search Team Echoes",
+          "file": "Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-43.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 44,
+          "title": "Sears Wastes Reject",
+          "file": "Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-44.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 45,
+          "title": "Security Office Dossier",
+          "file": "Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-45.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Office Dossier - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 46,
+          "title": "Security Protocol 001-120",
+          "file": "Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-46.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Security Protocol 001-120 - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 47,
+          "title": "Store Credit Math",
+          "file": "Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-47.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 48,
+          "title": "Super Saver Bloom",
+          "file": "Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-48.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Super Saver Bloom - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 49,
+          "title": "Survival Taxonomy",
+          "file": "Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-49.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 50,
+          "title": "The Atrium Covenant",
+          "file": "Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-50.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 51,
+          "title": "The Semantic Markdown",
+          "file": "Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-51.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - The Semantic Markdown - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 52,
+          "title": "Upper Macy Aura",
+          "file": "Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-52.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 53,
+          "title": "Vent Drift Navigation",
+          "file": "Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-53.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Vent Drift Navigation - Sonauto.ogg",
+            "derivatives": {
+            }
+          }
+        },
+        {
+          "index": 54,
+          "title": "Warranty Medicine",
+          "file": "Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
+          "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-mall-54.html",
+          "audio": {
+            "source": "MALL PATCHWORLD/Mall Patchworld Ingest - Warranty Medicine - Sonauto.ogg",
             "derivatives": {
             }
           }

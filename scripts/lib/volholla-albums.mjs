@@ -14,6 +14,7 @@ export function titleFromFilename(file) {
     .replace(/^jukebox time collapse\s*-\s*/i, "")
     .replace(/^neon puddles\s*\(night bus edit\)\s*-\s*/i, "")
     .replace(/^neon puddles\s*-\s*/i, "")
+    .replace(/^mall patchworld ingest\s*-\s*/i, "")
     .replace(/^the cybernetic winter\s*-\s*/i, "")
     .replace(/^the cathedral of iv drips\s*-\s*/i, "")
     .replace(/^throne of ash\s*-\s*/i, "")
