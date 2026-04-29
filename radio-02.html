@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="VOLHOLLA catalog radio shuffle player" />
+  <title>VOLHOLLA Radio — Operational</title>
+  <style>
+    /* * EXECUTION STEP 1 & 2: ARCHITECTURE COLLAPSE & PALETTE ERADICATION 
+     * Absolute white and black palette. Zero mid-tones. Zero scroll.
+     */
+    :root {
+      --bg: #FFFFFF;
+      --fg: #000000;
+    }
+
+    * { 
+      box-sizing: border-box; 
+      border-radius: 0 !important; /* Eradicate soft corners */
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden; /* Scrolling is eradicated */
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      text-transform: uppercase;
+    }
+
+    /* * EXECUTION STEP 5: PERSPECTIVE ANCHORING
+     * Master container uses flex column to lock to screen.
+     * The radio-deck uses column-reverse to anchor the queue to the base.
+     */
+    .radio-shell {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 10px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--fg);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      flex-shrink: 0;
+      font-weight: 900;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: 0.1em;
+    }
+
+    .brand-dot {
+      width: 12px;
+      height: 12px;
+      background: var(--fg);
+    }
+
+    .nav-link {
+      color: var(--fg);
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid var(--fg);
+      padding: 4px 8px;
+    }
+
+    .nav-link:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .radio-deck {
+      flex: 1;
+      display: flex;
+      flex-direction: column-reverse; /* Inverts DOM visual flow */
+      gap: 10px;
+      overflow: hidden;
+    }
+
+    /* Common structural blocks */
+    .block {
+      border: 1px solid var(--fg);
+      background: var(--bg);
+    }
+
+    /* * EXECUTION STEP 4: SPATIAL PRUNING 
+     * Queue absorbs vertical space. Controls absorb lateral space.
+     */
+    .queue-panel {
+      flex: 1; /* Takes remaining vertical space */
+      display: flex;
+      flex-direction: column;
+      overflow: hidden; /* No inner scroll allowed */
+    }
+
+    .queue-head {
+      border-bottom: 2px solid var(--fg);
+      padding: 6px 10px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 900;
+      letter-spacing: 0.05em;
+    }
+
+    .queue-head button {
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid var(--fg);
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .queue-head button:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .queue-list {
+      flex: 1;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .queue-list li {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 10px;
+      border-bottom: 1px solid var(--fg);
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 700;
+      background: var(--bg);
+      color: var(--fg);
+    }
+
+    .queue-list li:last-child {
+      border-bottom: none;
+    }
+
+    .queue-list .name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+
+    .queue-list .album {
+      font-weight: 400;
+    }
+
+    /* Active State Contrast Inversion */
+    .queue-list li.is-current {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .controls {
+      display: flex;
+      height: 50px;
+      flex-shrink: 0;
+    }
+
+    .play-btn {
+      flex: 1;
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid var(--fg);
+      font-size: 1.2rem;
+      font-weight: 900;
+      cursor: pointer;
+      letter-spacing: 0.1em;
+    }
+
+    .play-btn:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .mode-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .mode-btn {
+      border: 1px solid var(--fg);
+      background: var(--bg);
+      color: var(--fg);
+      padding: 8px 0;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .mode-btn.is-on {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .progress {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 10px;
+      border: 1px solid var(--fg);
+      height: 30px;
+      font-weight: bold;
+      flex-shrink: 0;
+      font-size: 0.8rem;
+    }
+
+    .progress input {
+      flex: 1;
+      appearance: none;
+      background: var(--bg);
+      border: 1px solid var(--fg);
+      height: 10px;
+      cursor: pointer;
+    }
+
+    .progress input::-webkit-slider-thumb {
+      appearance: none;
+      width: 10px;
+      height: 20px;
+      background: var(--fg);
+    }
+
+    .readout {
+      padding: 10px;
+      flex-shrink: 0;
+    }
+
+    .readout-top {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 0.75rem;
+      border-bottom: 1px solid var(--fg);
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+    }
+
+    .readout h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 900;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .readout p {
+      margin: 0;
+      font-size: 0.85rem;
+      font-weight: bold;
+    }
+
+    .dial-zone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+
+    /* * EXECUTION STEP 3: DEPTH RECONSTRUCTION
+     * High-contrast linear gradients replace radial blurs. 
+     */
+    .radio-dial {
+      width: 140px;
+      height: 140px;
+      background: repeating-linear-gradient(45deg, var(--fg), var(--fg) 4px, var(--bg) 4px, var(--bg) 8px);
+      border: 4px solid var(--fg);
+      border-radius: 50% !important; /* Exception for mechanical dial semantics */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .radio-dial.is-playing {
+      animation: dialSweep 4s linear infinite;
+    }
+
+    .dial-core {
+      width: 60px;
+      height: 60px;
+      background: var(--bg);
+      border: 4px solid var(--fg);
+      border-radius: 50% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1;
+    }
+
+    .dial-mark {
+      font-size: 0.6rem;
+      font-weight: 900;
+    }
+
+    .dial-title {
+      font-size: 0.9rem;
+      font-weight: 900;
+    }
+
+    /* * EXECUTION STEP 7: ASSET INTEGRATION (STARK MODE)
+     * Image forced to extreme black-and-white. No subtle grays.
+     */
+    .top-visuals {
+      display: flex;
+      height: 140px;
+      flex-shrink: 0;
+      border: 1px solid var(--fg);
+      background: var(--bg);
+    }
+
+    .art-frame {
+      width: 140px;
+      height: 100%;
+      border-right: 1px solid var(--fg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      font-weight: 900;
+      font-size: 0.8rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .art-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Eradicate mid-tones and force 2-bit visual starkness */
+      filter: grayscale(100%) contrast(500%) brightness(1.2);
+    }
+
+    .top-visuals .dial-zone {
+      flex: 1;
+      border: none;
+      padding: 0; /* Let the container handle sizing */
+    }
+
+    @keyframes dialSweep {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <main class="radio-shell">
+    <header class="topbar">
+      <a class="nav-link" href="#">LIB</a>
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>VOLHOLLA OPR</span>
+      </div>
+      <a class="nav-link" href="#">HUB</a>
+    </header>
+
+    <section class="radio-deck">
+      <!-- 1. QUEUE: Foundation Anchor -->
+      <section class="queue-panel block">
+        <div class="queue-head">
+          <span>OPERATIONAL QUEUE</span>
+          <button type="button" id="reshuffleBtn">RSHFL</button>
+        </div>
+        <ul class="queue-list" id="queueList"></ul>
+      </section>
+
+      <!-- 2. PROGRESS -->
+      <div class="progress block">
+        <span id="timeNow">0:00</span>
+        <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" />
+        <span id="timeTotal">0:00</span>
+      </div>
+
+      <!-- 3. MODES -->
+      <div class="mode-row">
+        <button type="button" class="mode-btn is-on" id="shuffleBtn">SHUFFLE</button>
+        <button type="button" class="mode-btn is-on" id="autoBtn">AUTO</button>
+        <a class="mode-btn" id="songPageLink" href="#">LINK</a>
+      </div>
+
+      <!-- 4. CONTROLS (Lateral space maximized) -->
+      <div class="controls block">
+        <button type="button" class="play-btn" id="playBtn">START OPERATION</button>
+      </div>
+
+      <!-- 5. READOUT -->
+      <div class="readout block">
+        <div class="readout-top">
+          <span id="radioState">STANDBY</span>
+          <span id="radioCount">NO SIGNAL</span>
+        </div>
+        <h1 id="trackTitle">SYS INIT</h1>
+        <p id="albumTitle">AWAITING CATALOG</p>
+      </div>
+
+      <!-- 6. TOP VISUALS: Upper Boundary (Art & Dial) -->
+      <div class="top-visuals block">
+        <div class="art-frame">
+          <img id="trackArt" alt="" hidden />
+          <span id="artText">NO IMG</span>
+        </div>
+        <div class="dial-zone">
+          <div class="radio-dial" id="radioDial">
+            <div class="dial-core">
+              <span class="dial-mark" id="dialMark">OFF</span>
+              <span class="dial-title" id="dialTitle">TUNE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    /* * EXECUTION STEP 6: BIDIRECTIONAL BINDING
+     * JavaScript operates as the terminal state machine.
+     */
+    (function () {
+      const els = {
+        dial: document.getElementById("radioDial"),
+        dialMark: document.getElementById("dialMark"),
+        dialTitle: document.getElementById("dialTitle"),
+        art: document.getElementById("trackArt"),
+        artText: document.getElementById("artText"),
+        state: document.getElementById("radioState"),
+        count: document.getElementById("radioCount"),
+        title: document.getElementById("trackTitle"),
+        album: document.getElementById("albumTitle"),
+        play: document.getElementById("playBtn"),
+        shuffle: document.getElementById("shuffleBtn"),
+        auto: document.getElementById("autoBtn"),
+        seek: document.getElementById("seekBar"),
+        timeNow: document.getElementById("timeNow"),
+        timeTotal: document.getElementById("timeTotal"),
+        queue: document.getElementById("queueList"),
+        reshuffle: document.getElementById("reshuffleBtn")
+      };
+
+      const audio = new Audio();
+      let catalog = [];
+      let order = [];
+      let position = 0;
+      let shuffleMode = true;
+      let autoMode = true;
+      let seeking = false;
+
+      // Ensure consistent sizing based on viewport to eradicate scroll
+      const visibleQueueCount = 6; 
+
+      function fmtTime(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "0:00";
+        const m = Math.floor(sec / 60);
+        const r = Math.floor(sec % 60);
+        return `${m}:${String(r).padStart(2, "0")}`;
+      }
+
+      function pathFromRoot(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function songHref(source) {
+        if (!source) return "./index.html";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function shuffleArray(items) {
+        const next = items.slice();
+        for (let i = next.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [next[i], next[j]] = [next[j], next[i]];
+        }
+        return next;
+      }
+
+      function buildOrder(keepCurrent = true) {
+        const current = catalog[order[position]];
+        order = shuffleMode
+          ? shuffleArray(catalog.map((_, index) => index))
+          : catalog.map((_, index) => index);
+        
+        if (keepCurrent && current) {
+          const idx = order.findIndex((item) => catalog[item] === current);
+          if (idx > 0) {
+            order.splice(idx, 1);
+            order.unshift(catalog.indexOf(current));
+          }
+        }
+        position = 0;
+        initQueue(); // Rebuild physical stack based on new order
+      }
+
+      function currentTrack() {
+        return catalog[order[position]] || null;
+      }
+
+      /* * TACTILE OPERATION: Initiating Queue Physicalization
+       * Creates nodes capable of bidirectional state updates.
+       */
+      function initQueue() {
+        els.queue.innerHTML = '';
+        const displayLimit = Math.min(order.length, visibleQueueCount);
+        
+        for(let i = 0; i < displayLimit; i++) {
+          const catalogIndex = order[i];
+          const track = catalog[catalogIndex];
+          const li = document.createElement('li');
+          
+          li.dataset.orderIdx = i; // Map to logical order
+          li.innerHTML = `
+            <span>${String(i + 1).padStart(2, "0")}</span>
+            <span class="name">${track.title} <span class="album">/ ${track.albumLabel}</span></span>
+          `;
+
+          // Bidirectional binding enforcement
+          li.addEventListener('click', () => {
+             position = parseInt(li.dataset.orderIdx, 10);
+             load(position, true);
+             
+             // Move to literal physical base of the container stack
+             els.queue.appendChild(li); 
+             
+             updateQueueContrast();
+          });
+
+          els.queue.appendChild(li);
+        }
+        updateQueueContrast();
+      }
+
+      function updateQueueContrast() {
+        if (!els.queue) return;
+        Array.from(els.queue.children).forEach(li => {
+            li.classList.remove('is-current');
+            if (parseInt(li.dataset.orderIdx, 10) === position) {
+                li.classList.add('is-current');
+            }
+        });
+      }
+
+      function updateUI() {
+        const track = currentTrack();
+        const playing = !audio.paused && !!audio.src;
+        
+        els.dial.classList.toggle("is-playing", playing);
+        els.shuffle.classList.toggle("is-on", shuffleMode);
+        els.auto.classList.toggle("is-on", autoMode);
+
+        if (!track) return;
+
+        els.state.textContent = playing ? "BROADCAST" : audio.src ? "HALTED" : "STANDBY";
+        els.count.textContent = `TRACK ${position + 1} OF ${catalog.length}`;
+        els.title.textContent = track.title;
+        els.album.textContent = track.albumLabel;
+        els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
+        els.dialTitle.textContent = shuffleMode ? "SHUF" : "SEQ";
+        els.play.textContent = playing ? "PAUSE OPR" : audio.src ? "RESUME OPR" : "START OPR";
+        if (els.songLink) els.songLink.href = songHref(track.songPage);
+
+        const artSrc = pathFromRoot(track.art);
+        if (els.art && artSrc) {
+          els.art.src = encodeURI(artSrc);
+          els.art.hidden = false;
+          els.artText.style.display = "none";
+        } else if (els.art) {
+          els.art.hidden = true;
+          els.artText.style.display = "block";
+        }
+
+        const pct = Number.isFinite(audio.duration) && audio.duration > 0
+          ? Math.max(0, Math.min(1000, Math.round((audio.currentTime / audio.duration) * 1000)))
+          : 0;
+        
+        if (!seeking) els.seek.value = String(pct);
+        els.timeNow.textContent = fmtTime(audio.currentTime);
+        els.timeTotal.textContent = fmtTime(audio.duration);
+      }
+
+      function load(posIndex, autoplay = false) {
+        if (!catalog.length) return;
+        position = Math.max(0, Math.min(order.length - 1, posIndex));
+        const track = currentTrack();
+        
+        // Use placeholder audio path if none exists to ensure UI state reacts
+        const src = pathFromRoot(track.audio);
+        audio.src = src ? encodeURI(src) : "";
+        
+        updateUI();
+        updateQueueContrast();
+
+        // Ensure current item shifts to bottom automatically during progression
+        const activeLi = Array.from(els.queue.children).find(li => parseInt(li.dataset.orderIdx, 10) === position);
+        if (activeLi) {
+           els.queue.appendChild(activeLi);
+        }
+
+        if (autoplay && audio.src) {
+          audio.play().catch(() => updateUI());
+        }
+      }
+
+      function playPause() {
+        if (!catalog.length) return;
+        if (!audio.src) {
+          load(position, true);
+          return;
+        }
+        if (audio.paused) audio.play().catch(() => updateUI());
+        else audio.pause();
+      }
+
+      function nextSequence() {
+        if (!catalog.length) return;
+        if (position >= order.length - 1) buildOrder(false);
+        else position += 1;
+        load(position, true);
+      }
+
+      async function loadCatalog() {
+        // Fallback hardcoded catalog ensures operational autonomy without external assets
+        catalog = [
+          { title: "FOURTEENTH STREET LOOP", albumLabel: "CROSSROADS AND CROWN", audio: "", art: "" },
+          { title: "THE BALTIC CHILL", albumLabel: "CROSSROADS AND CROWN", audio: "", art: "" },
+          { title: "THE NOMAD'S RAZOR", albumLabel: "GOLE YAKH MEMORY", audio: "", art: "" },
+          { title: "THE ANIMAL FIRE", albumLabel: "CYBERNETIC WINTER", audio: "", art: "" },
+          { title: "RETAIL ECOLOGY", albumLabel: "MALL PATCHWORLD INGEST", audio: "", art: "" },
+          { title: "ZERO BARS", albumLabel: "NO SERVICE", audio: "", art: "" },
+          { title: "DIGITAL LONESOME", albumLabel: "GOLE YAKH MEMORY", audio: "", art: "" },
+          { title: "MONOLITO DEL GUERRERO", albumLabel: "CYPHER MIXTAPE", audio: "", art: "" }
+        ];
+
+        try {
+          const response = await fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" });
+          if(response.ok) {
+              const manifest = await response.json();
+              const albums = manifest.albums || {};
+              const fetched = Object.values(albums).flatMap((album) => {
+                const tracks = Array.isArray(album.tracks) ? album.tracks : [];
+                return tracks.map((track) => ({
+                  title: track.title,
+                  albumLabel: album.label || album.key,
+                  audio: track.audio?.source || track.source || "",
+                  art: track.art?.source || album.defaultTrackArt?.source || album.cover?.source || "",
+                  songPage: track.songPage || album.page || "./index.html"
+                })).filter(t => t.audio);
+              });
+              if(fetched.length > 0) catalog = fetched;
+          }
+        } catch (error) {
+           console.log("External manifest severed. Using sealed internal catalog.");
+        }
+        
+        buildOrder(false);
+        updateUI();
+      }
+
+      // Event Binding
+      els.dial.addEventListener("click", playPause);
+      els.play.addEventListener("click", playPause);
+      
+      els.shuffle.addEventListener("click", () => {
+        shuffleMode = !shuffleMode;
+        buildOrder(true);
+        updateUI();
+      });
+      
+      els.auto.addEventListener("click", () => {
+        autoMode = !autoMode;
+        updateUI();
+      });
+      
+      els.reshuffle.addEventListener("click", () => {
+        shuffleMode = true;
+        buildOrder(true);
+        updateUI();
+      });
+
+      els.seek.addEventListener("pointerdown", () => { seeking = true; });
+      els.seek.addEventListener("pointerup", () => { seeking = false; });
+      els.seek.addEventListener("input", () => {
+        if (!Number.isFinite(audio.duration) || audio.duration <= 0) return;
+        const target = (Number(els.seek.value) / 1000) * audio.duration;
+        els.timeNow.textContent = fmtTime(target);
+      });
+      els.seek.addEventListener("change", () => {
+        if (Number.isFinite(audio.duration) && audio.duration > 0) {
+          audio.currentTime = (Number(els.seek.value) / 1000) * audio.duration;
+        }
+        seeking = false;
+      });
+
+      audio.addEventListener("play", updateUI);
+      audio.addEventListener("pause", updateUI);
+      audio.addEventListener("timeupdate", updateUI);
+      audio.addEventListener("loadedmetadata", updateUI);
+      audio.addEventListener("ended", () => {
+        if (autoMode) nextSequence();
+        else updateUI();
+      });
+      audio.addEventListener("error", () => {
+        els.state.textContent = "SIG LOST";
+        // Mock progression to simulate playback in sealed environment
+        if (autoMode) setTimeout(() => nextSequence(), 1000);
+      });
+
+      // Initialize
+      loadCatalog();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="description" content="VOLHOLLA catalog radio shuffle player" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VOLHOLLA" />
+  <meta property="og:title" content="VOLHOLLA Radio" />
+  <meta property="og:description" content="Shuffle playback across the full VOLHOLLA album catalog." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>VOLHOLLA Radio — Single Screen</title>
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #000000;
+      --slot: 1px;
+      --topbar-h: 34px;
+      --readout-h: clamp(118px, 20dvh, 164px);
+      --visual-h: clamp(190px, 32dvh, 276px);
+      --transport-h: 42px;
+      --mode-h: 34px;
+      --progress-h: 30px;
+      --queue-h: minmax(0, 1fr);
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      touch-action: manipulation;
+    }
+
+    body {
+      min-height: 100dvh;
+      background:
+        linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 100%),
+        linear-gradient(180deg, var(--ink) 0 1px, transparent 1px 100%),
+        var(--paper);
+      background-size: 24px 24px;
+    }
+
+    button,
+    a,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    button,
+    a {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .radio-shell {
+      width: 100vw;
+      height: 100dvh;
+      max-height: 100dvh;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: var(--topbar-h) var(--readout-h) var(--visual-h) var(--transport-h) var(--mode-h) var(--progress-h) var(--queue-h);
+      gap: 4px;
+      padding: max(4px, env(safe-area-inset-top)) max(4px, env(safe-area-inset-right)) max(4px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left));
+      background: var(--paper);
+    }
+
+    .topbar,
+    .readout,
+    .visual-bay,
+    .controls,
+    .mode-row,
+    .progress,
+    .queue-panel {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: stretch;
+    }
+
+    .brand,
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      height: 100%;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 950;
+      letter-spacing: 0.09em;
+      font-size: clamp(0.58rem, 2.1vw, 0.74rem);
+      white-space: nowrap;
+    }
+
+    .brand {
+      padding: 0 8px;
+      border-left: 2px solid var(--ink);
+      border-right: 2px solid var(--ink);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .nav-link:active,
+    .nav-link:focus-visible,
+    .mode-btn:active,
+    .mode-btn:focus-visible,
+    .play-btn:active,
+    .play-btn:focus-visible,
+    .queue-head button:active,
+    .queue-head button:focus-visible,
+    .radio-dial:active,
+    .radio-dial:focus-visible,
+    .bind-line:active,
+    .bind-line:focus-visible,
+    [data-bind-target]:active,
+    [data-bind-target]:focus-visible {
+      outline: 3px solid var(--ink);
+      outline-offset: -5px;
+    }
+
+    .readout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 0;
+    }
+
+    .readout-copy {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      border-right: 2px solid var(--ink);
+    }
+
+    .readout-top {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      min-height: 24px;
+      align-items: center;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: clamp(0.56rem, 2.2vw, 0.72rem);
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      white-space: nowrap;
+    }
+
+    .readout h1 {
+      min-width: 0;
+      margin: 0;
+      padding: 7px 8px 4px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      font-size: clamp(1.2rem, 7.5vw, 3rem);
+      line-height: 0.92;
+      text-transform: uppercase;
+      letter-spacing: -0.06em;
+    }
+
+    .readout p {
+      min-width: 0;
+      margin: 0;
+      padding: 0 8px 7px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: clamp(0.62rem, 2.4vw, 0.84rem);
+      font-weight: 850;
+    }
+
+    .logic-strip {
+      min-height: 0;
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+    }
+
+    .bind-line {
+      width: 100%;
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      align-items: center;
+      gap: 6px;
+      padding: 0 6px;
+      border: 0;
+      border-bottom: 2px solid var(--ink);
+      background: var(--paper);
+      text-align: left;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: clamp(0.52rem, 2.1vw, 0.68rem);
+      font-weight: 950;
+      letter-spacing: 0.05em;
+    }
+
+    .bind-line:last-child { border-bottom: 0; }
+
+    .bind-line span:last-child {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .bind-line.is-bound,
+    [data-bind-target].is-bound {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .visual-bay {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: stretch;
+    }
+
+    .dial-zone,
+    .art-frame {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .dial-zone { border-right: 2px solid var(--ink); }
+
+    .radio-dial {
+      width: min(78%, 220px);
+      aspect-ratio: 1;
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, var(--paper) 0 28%, var(--ink) 29% 31%, var(--paper) 32% 45%, var(--ink) 46% 48%, var(--paper) 49% 100%);
+      color: var(--ink);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      position: relative;
+    }
+
+    .radio-dial::before,
+    .radio-dial::after {
+      content: "";
+      position: absolute;
+      inset: 8%;
+      border-radius: 50%;
+      border: 2px dashed var(--ink);
+      pointer-events: none;
+    }
+
+    .radio-dial::after {
+      inset: 22%;
+      border-style: solid;
+      animation: none;
+    }
+
+    .radio-dial.is-playing::after {
+      animation: dialSweep 7s steps(36) infinite;
+    }
+
+    .dial-core {
+      width: 50%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      display: grid;
+      place-items: center;
+      align-content: center;
+      gap: 2px;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .dial-mark,
+    .dial-title {
+      display: block;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      line-height: 1;
+    }
+
+    .dial-mark { font-size: clamp(0.48rem, 2vw, 0.68rem); }
+    .dial-title { font-size: clamp(0.9rem, 4.5vw, 1.35rem); }
+
+    .signal-meter {
+      position: absolute;
+      left: 7px;
+      right: 7px;
+      bottom: 7px;
+      height: 18px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 3px;
+    }
+
+    .signal-meter span {
+      align-self: end;
+      height: 5px;
+      background: var(--ink);
+      transform-origin: bottom center;
+    }
+
+    .signal-meter span:nth-child(2) { height: 8px; }
+    .signal-meter span:nth-child(3) { height: 11px; }
+    .signal-meter span:nth-child(4) { height: 16px; }
+    .signal-meter span:nth-child(5) { height: 12px; }
+    .signal-meter span:nth-child(6) { height: 9px; }
+    .signal-meter span:nth-child(7) { height: 6px; }
+
+    .is-live .signal-meter span { animation: meter 760ms steps(3) infinite alternate; }
+    .is-live .signal-meter span:nth-child(2) { animation-delay: 80ms; }
+    .is-live .signal-meter span:nth-child(3) { animation-delay: 160ms; }
+    .is-live .signal-meter span:nth-child(4) { animation-delay: 40ms; }
+    .is-live .signal-meter span:nth-child(5) { animation-delay: 120ms; }
+    .is-live .signal-meter span:nth-child(6) { animation-delay: 200ms; }
+    .is-live .signal-meter span:nth-child(7) { animation-delay: 280ms; }
+
+    .art-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(1) contrast(1.75);
+    }
+
+    .art-fallback {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(45deg, var(--ink) 0 12%, var(--paper) 12% 24%, var(--ink) 24% 36%, var(--paper) 36% 48%, var(--ink) 48% 60%, var(--paper) 60% 72%, var(--ink) 72% 84%, var(--paper) 84% 100%);
+      color: var(--paper);
+      font-size: clamp(2rem, 14vw, 5rem);
+      font-weight: 950;
+      letter-spacing: -0.1em;
+      text-shadow: 3px 3px 0 var(--ink), -3px -3px 0 var(--ink), 3px -3px 0 var(--ink), -3px 3px 0 var(--ink);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr 1fr;
+      gap: 0;
+    }
+
+    .play-btn,
+    .mode-btn,
+    .queue-head button {
+      min-width: 0;
+      min-height: 0;
+      border: 0;
+      border-right: 2px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 950;
+      letter-spacing: 0.06em;
+      font-size: clamp(0.62rem, 2.6vw, 0.84rem);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      white-space: nowrap;
+      padding: 0 6px;
+    }
+
+    .play-btn {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .controls > *:last-child,
+    .mode-row > *:last-child { border-right: 0; }
+
+    .mode-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .mode-btn:not(.is-on) {
+      background: var(--paper);
+      color: var(--ink);
+      background-image: repeating-linear-gradient(135deg, var(--paper) 0 6px, var(--ink) 6px 8px);
+    }
+
+    .mode-btn.is-on {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .progress {
+      display: grid;
+      grid-template-columns: 38px 1fr 38px;
+      align-items: center;
+      gap: 5px;
+      padding: 0 6px;
+      font-size: 0.62rem;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .progress input {
+      width: 100%;
+      height: 100%;
+      min-width: 0;
+      accent-color: var(--ink);
+    }
+
+    .queue-panel {
+      display: grid;
+      grid-template-rows: 28px minmax(0, 1fr);
+    }
+
+    .queue-head {
+      min-width: 0;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: stretch;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: 0.62rem;
+      font-weight: 950;
+      letter-spacing: 0.1em;
+    }
+
+    .queue-head span {
+      display: flex;
+      align-items: center;
+      padding: 0 8px;
+      min-width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .queue-head button {
+      border-left: 2px solid var(--ink);
+      border-right: 0;
+      min-width: 96px;
+    }
+
+    .queue-list {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-auto-rows: minmax(24px, 1fr);
+    }
+
+    .queue-list li {
+      min-width: 0;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 34px 1fr;
+      align-items: center;
+      gap: 6px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: clamp(0.58rem, 2.2vw, 0.72rem);
+      font-weight: 900;
+      letter-spacing: 0.02em;
+    }
+
+    .queue-list li:last-child { border-bottom: 0; }
+
+    .queue-list li.is-current {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .queue-list .name,
+    .queue-list .album {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .queue-list .album::before { content: " / "; }
+
+    @media (orientation: landscape) and (max-height: 560px) {
+      .radio-shell {
+        grid-template-columns: 34px 1fr 1fr 0.72fr;
+        grid-template-rows: 1fr 42px 34px 30px;
+      }
+
+      .topbar {
+        grid-row: 1 / -1;
+        grid-column: 1;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+      }
+
+      .brand,
+      .nav-link {
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+        border: 0;
+        border-bottom: 2px solid var(--ink);
+        padding: 6px 0;
+      }
+
+      .brand { border-left: 0; border-right: 0; }
+      .topbar > *:last-child { border-bottom: 0; }
+      .readout { grid-column: 2; grid-row: 1 / -1; grid-template-columns: 1fr; }
+      .readout-copy { border-right: 0; border-bottom: 2px solid var(--ink); }
+      .logic-strip { grid-template-rows: repeat(4, minmax(24px, 1fr)); }
+      .visual-bay { grid-column: 3; grid-row: 1 / -1; grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+      .dial-zone { border-right: 0; border-bottom: 2px solid var(--ink); }
+      .controls { grid-column: 4; grid-row: 1; grid-template-columns: 1fr; grid-template-rows: repeat(3, 1fr); }
+      .controls > * { border-right: 0; border-bottom: 2px solid var(--ink); }
+      .controls > *:last-child { border-bottom: 0; }
+      .mode-row { grid-column: 4; grid-row: 2; }
+      .progress { grid-column: 4; grid-row: 3; }
+      .queue-panel { grid-column: 4; grid-row: 4; grid-template-rows: 0 1fr; }
+      .queue-head { display: none; }
+      .queue-list { display: none; }
+    }
+
+    @media (max-height: 680px) and (orientation: portrait) {
+      :root {
+        --topbar-h: 30px;
+        --readout-h: 112px;
+        --visual-h: minmax(150px, 28dvh);
+        --transport-h: 38px;
+        --mode-h: 30px;
+        --progress-h: 26px;
+      }
+
+      .bind-line { grid-template-columns: 34px 1fr; }
+      .queue-panel { grid-template-rows: 24px minmax(0, 1fr); }
+      .queue-list { grid-auto-rows: minmax(20px, 1fr); }
+    }
+
+    @media (min-width: 760px) and (min-height: 620px) {
+      .radio-shell {
+        width: min(920px, 100vw);
+        margin: 0 auto;
+        grid-template-columns: 1fr 320px;
+        grid-template-rows: var(--topbar-h) var(--readout-h) minmax(0, 1fr) var(--transport-h) var(--mode-h) var(--progress-h);
+      }
+
+      .topbar { grid-column: 1 / -1; }
+      .readout { grid-column: 1; grid-row: 2; }
+      .visual-bay { grid-column: 2; grid-row: 2 / 5; grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+      .dial-zone { border-right: 0; border-bottom: 2px solid var(--ink); }
+      .controls { grid-column: 1; grid-row: 4; }
+      .mode-row { grid-column: 1; grid-row: 5; }
+      .progress { grid-column: 1; grid-row: 6; }
+      .queue-panel { grid-column: 1; grid-row: 3; }
+    }
+
+    @keyframes dialSweep {
+      to { transform: rotate(360deg); }
+    }
+
+    @keyframes meter {
+      from { transform: scaleY(0.35); }
+      to { transform: scaleY(1); }
+    }
+  </style>
+</head>
+<body>
+  <main class="radio-shell" aria-label="VOLHOLLA single-screen radio">
+    <header class="topbar">
+      <a class="nav-link" href="./index.html">Library</a>
+      <div class="brand">VOLHOLLA RADIO</div>
+      <a class="nav-link" href="../index.html">Hub</a>
+    </header>
+
+    <section class="readout" data-bind-target="readout" tabindex="0" aria-label="Radio readout">
+      <div class="readout-copy">
+        <div class="readout-top">
+          <span id="radioState">Ready</span>
+          <span id="radioCount">Loading</span>
+        </div>
+        <h1 id="trackTitle">VOLHOLLA RADIO</h1>
+        <p id="albumTitle">Shuffle across all albums.</p>
+      </div>
+
+      <div class="logic-strip" aria-label="Operational control surface">
+        <button class="bind-line is-bound" type="button" data-bind-line="readout">
+          <span>TEXT</span><span id="logicReadout">Readout binds track state</span>
+        </button>
+        <button class="bind-line" type="button" data-bind-line="dial">
+          <span>DIAL</span><span id="logicDial">Click dial to start or pause</span>
+        </button>
+        <button class="bind-line" type="button" data-bind-line="art">
+          <span>IMAGE</span><span id="logicArt">Artwork is evidence, not blur</span>
+        </button>
+        <button class="bind-line" type="button" data-bind-line="queue">
+          <span>QUEUE</span><span id="logicQueue">Queue shows next signal slots</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="visual-bay" aria-label="Radio viewport">
+      <div class="dial-zone" data-bind-target="dial" tabindex="0">
+        <button type="button" class="radio-dial" id="radioDial" aria-label="Start or pause radio">
+          <span class="dial-core">
+            <span class="dial-mark" id="dialMark">OFF</span>
+            <span class="dial-title" id="dialTitle">TUNE</span>
+          </span>
+        </button>
+        <div class="signal-meter" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="art-frame" data-bind-target="art" tabindex="0" aria-label="Current track artwork">
+        <img id="trackArt" alt="" hidden />
+        <div class="art-fallback" id="artFallback">VR</div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Radio controls">
+      <button type="button" class="play-btn" id="playBtn">Start</button>
+      <button type="button" class="mode-btn" id="reshuffleBtn">Reshuffle</button>
+      <a class="mode-btn" id="songPageLink" href="./index.html">Song Page</a>
+    </section>
+
+    <section class="mode-row" aria-label="Radio modes">
+      <button type="button" class="mode-btn is-on" id="shuffleBtn" aria-pressed="true">Shuffle On</button>
+      <button type="button" class="mode-btn is-on" id="autoBtn" aria-pressed="true">Auto On</button>
+      <button type="button" class="mode-btn" id="bindResetBtn">Bind Reset</button>
+    </section>
+
+    <section class="progress" aria-label="Track progress">
+      <span id="timeNow">0:00</span>
+      <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek radio track" />
+      <span id="timeTotal">0:00</span>
+    </section>
+
+    <section class="queue-panel" data-bind-target="queue" tabindex="0" aria-label="Signal queue">
+      <div class="queue-head">
+        <span>Signal Queue</span>
+        <button type="button" id="queueBindBtn">Bind</button>
+      </div>
+      <ol class="queue-list" id="queueList"></ol>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      /*
+        SINGLE-FILE CONTRACT
+        - CSS and JS are embedded here.
+        - The catalog can still be loaded from ./media-manifest.json.
+        - To make the catalog fully embedded, define window.VOLHOLLA_MANIFEST before this script.
+      */
+      const els = {
+        shell: document.querySelector(".radio-shell"),
+        dialZone: document.querySelector("[data-bind-target='dial']"),
+        dial: document.getElementById("radioDial"),
+        dialMark: document.getElementById("dialMark"),
+        dialTitle: document.getElementById("dialTitle"),
+        state: document.getElementById("radioState"),
+        count: document.getElementById("radioCount"),
+        title: document.getElementById("trackTitle"),
+        album: document.getElementById("albumTitle"),
+        art: document.getElementById("trackArt"),
+        artFallback: document.getElementById("artFallback"),
+        play: document.getElementById("playBtn"),
+        reshuffle: document.getElementById("reshuffleBtn"),
+        shuffle: document.getElementById("shuffleBtn"),
+        auto: document.getElementById("autoBtn"),
+        bindReset: document.getElementById("bindResetBtn"),
+        queueBind: document.getElementById("queueBindBtn"),
+        songLink: document.getElementById("songPageLink"),
+        seek: document.getElementById("seekBar"),
+        timeNow: document.getElementById("timeNow"),
+        timeTotal: document.getElementById("timeTotal"),
+        queue: document.getElementById("queueList"),
+        bindLines: Array.from(document.querySelectorAll("[data-bind-line]")),
+        bindTargets: Array.from(document.querySelectorAll("[data-bind-target]")),
+        logicReadout: document.getElementById("logicReadout"),
+        logicDial: document.getElementById("logicDial"),
+        logicArt: document.getElementById("logicArt"),
+        logicQueue: document.getElementById("logicQueue")
+      };
+
+      const audio = new Audio();
+      audio.preload = "metadata";
+
+      let catalog = [];
+      let order = [];
+      let position = 0;
+      let shuffleMode = true;
+      let autoMode = true;
+      let seeking = false;
+      let boundId = "readout";
+
+      function fmtTime(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "0:00";
+        const m = Math.floor(sec / 60);
+        const r = Math.floor(sec % 60);
+        return `${m}:${String(r).padStart(2, "0")}`;
+      }
+
+      function escapeHtml(value) {
+        return String(value || "").replace(/[&<>"']/g, (ch) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          "\"": "&quot;",
+          "'": "&#39;"
+        }[ch]));
+      }
+
+      function pathFromRoot(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source) || source.startsWith("data:")) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function songHref(source) {
+        if (!source) return "./index.html";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function pickArt(album, track) {
+        return track?.art?.source || album?.defaultTrackArt?.source || album?.cover?.source || "";
+      }
+
+      function pickAudio(track) {
+        return track?.audio?.source || track?.source || "";
+      }
+
+      function shuffleArray(items) {
+        const next = items.slice();
+        for (let i = next.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [next[i], next[j]] = [next[j], next[i]];
+        }
+        return next;
+      }
+
+      function currentTrack() {
+        return catalog[order[position]] || null;
+      }
+
+      function buildOrder(keepCurrent) {
+        const current = currentTrack();
+        order = shuffleMode
+          ? shuffleArray(catalog.map((_, index) => index))
+          : catalog.map((_, index) => index);
+
+        if (keepCurrent && current) {
+          const existing = order.findIndex((item) => catalog[item] === current);
+          if (existing >= 0) {
+            const [held] = order.splice(existing, 1);
+            order.unshift(held);
+          }
+        }
+
+        position = 0;
+      }
+
+      function bind(id) {
+        boundId = id || "readout";
+        els.bindLines.forEach((line) => {
+          line.classList.toggle("is-bound", line.dataset.bindLine === boundId);
+        });
+        els.bindTargets.forEach((target) => {
+          target.classList.toggle("is-bound", target.dataset.bindTarget === boundId);
+        });
+      }
+
+      function visibleQueueCount() {
+        if (window.matchMedia("(orientation: landscape) and (max-height: 560px)").matches) return 0;
+        if (window.matchMedia("(max-height: 680px)").matches) return 3;
+        if (window.matchMedia("(max-height: 780px)").matches) return 4;
+        return 6;
+      }
+
+      function renderQueue() {
+        if (!els.queue) return;
+        const limit = visibleQueueCount();
+        if (limit === 0) return;
+
+        const rows = order.slice(position, position + limit).map((catalogIndex, offset) => {
+          const track = catalog[catalogIndex];
+          return `
+            <li class="${offset === 0 ? "is-current" : ""}">
+              <span>${String(position + offset + 1).padStart(2, "0")}</span>
+              <span class="name">${escapeHtml(track.title)}<span class="album">${escapeHtml(track.albumLabel)}</span></span>
+            </li>
+          `;
+        }).join("");
+
+        els.queue.innerHTML = rows || "<li><span>--</span><span class=\"name\">No tracks loaded</span></li>";
+      }
+
+      function updateLogic(track, playing) {
+        if (els.logicReadout) els.logicReadout.textContent = playing ? "Readout broadcasts active track" : "Readout holds current track";
+        if (els.logicDial) els.logicDial.textContent = playing ? "Dial pauses live signal" : "Dial starts signal";
+        if (els.logicArt) els.logicArt.textContent = track?.art ? "Artwork loads as hard image" : "Fallback mark replaces missing art";
+        if (els.logicQueue) els.logicQueue.textContent = `${catalog.length || 0} catalog slots / ${position + 1 || 0} active`;
+      }
+
+      function updateUI() {
+        const track = currentTrack();
+        const playing = !audio.paused && !!audio.src;
+
+        document.body.classList.toggle("is-live", playing);
+        els.dial?.classList.toggle("is-playing", playing);
+        els.shuffle?.classList.toggle("is-on", shuffleMode);
+        els.shuffle?.setAttribute("aria-pressed", shuffleMode ? "true" : "false");
+        els.auto?.classList.toggle("is-on", autoMode);
+        els.auto?.setAttribute("aria-pressed", autoMode ? "true" : "false");
+
+        if (els.shuffle) els.shuffle.textContent = shuffleMode ? "Shuffle On" : "Shuffle Off";
+        if (els.auto) els.auto.textContent = autoMode ? "Auto On" : "Auto Off";
+
+        if (!track) {
+          if (els.state) els.state.textContent = "Empty";
+          if (els.count) els.count.textContent = "0 Tracks";
+          if (els.play) els.play.textContent = "Start";
+          updateLogic(null, false);
+          renderQueue();
+          return;
+        }
+
+        if (els.state) els.state.textContent = playing ? "Broadcasting" : audio.src ? "Paused" : "Ready";
+        if (els.count) els.count.textContent = `${catalog.length} / ${position + 1}`;
+        if (els.title) els.title.textContent = track.title || "Untitled Signal";
+        if (els.album) els.album.textContent = track.albumLabel || "Unknown Album";
+        if (els.dialMark) els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
+        if (els.dialTitle) els.dialTitle.textContent = shuffleMode ? "SHUF" : "SEQ";
+        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Start";
+        if (els.songLink) els.songLink.href = songHref(track.songPage);
+
+        const pct = Number.isFinite(audio.duration) && audio.duration > 0
+          ? Math.max(0, Math.min(1000, Math.round((audio.currentTime / audio.duration) * 1000)))
+          : 0;
+
+        if (!seeking && els.seek) els.seek.value = String(pct);
+        if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
+        if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
+
+        const art = pathFromRoot(track.art);
+        if (els.art && art) {
+          els.art.src = encodeURI(art);
+          els.art.alt = `${track.title || "Track"} artwork`;
+          els.art.hidden = false;
+          if (els.artFallback) els.artFallback.hidden = true;
+        } else if (els.art) {
+          els.art.removeAttribute("src");
+          els.art.alt = "";
+          els.art.hidden = true;
+          if (els.artFallback) els.artFallback.hidden = false;
+        }
+
+        updateLogic(track, playing);
+        renderQueue();
+        bind(boundId);
+      }
+
+      function load(positionIndex, autoplay) {
+        if (!catalog.length || !order.length) return;
+        position = Math.max(0, Math.min(order.length - 1, positionIndex));
+        const track = currentTrack();
+        if (!track) return;
+
+        const src = pathFromRoot(track.audio);
+        if (!src) return;
+
+        audio.src = encodeURI(src);
+        audio.load();
+        updateUI();
+
+        if (autoplay) {
+          audio.play().catch(() => updateUI());
+        }
+      }
+
+      function playPause() {
+        if (!catalog.length) return;
+        bind("dial");
+        if (!audio.src) {
+          load(position, true);
+          return;
+        }
+        if (audio.paused) audio.play().catch(() => updateUI());
+        else audio.pause();
+      }
+
+      function scanForward(autoplay) {
+        if (!catalog.length) return;
+        if (position >= order.length - 1) buildOrder(false);
+        else position += 1;
+        load(position, autoplay);
+      }
+
+      async function getManifest() {
+        if (window.VOLHOLLA_MANIFEST && typeof window.VOLHOLLA_MANIFEST === "object") {
+          return window.VOLHOLLA_MANIFEST;
+        }
+
+        const response = await fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" });
+        if (!response.ok) throw new Error(`Manifest request failed: ${response.status}`);
+        return response.json();
+      }
+
+      async function loadCatalog() {
+        const manifest = await getManifest();
+        const albums = manifest.albums || {};
+
+        catalog = Object.values(albums).flatMap((album) => {
+          const tracks = Array.isArray(album.tracks) ? album.tracks : [];
+          return tracks.map((track) => ({
+            title: track.title || "Untitled Signal",
+            albumLabel: album.label || album.key || "VOLHOLLA",
+            audio: pickAudio(track),
+            art: pickArt(album, track),
+            songPage: track.songPage || album.page || "./index.html"
+          })).filter((track) => track.audio);
+        });
+
+        buildOrder(false);
+        if (els.count) els.count.textContent = `${catalog.length} Tracks`;
+        updateUI();
+      }
+
+      els.dial?.addEventListener("click", playPause);
+      els.play?.addEventListener("click", playPause);
+
+      els.reshuffle?.addEventListener("click", () => {
+        shuffleMode = true;
+        buildOrder(true);
+        bind("queue");
+        updateUI();
+      });
+
+      els.shuffle?.addEventListener("click", () => {
+        shuffleMode = !shuffleMode;
+        buildOrder(true);
+        updateUI();
+      });
+
+      els.auto?.addEventListener("click", () => {
+        autoMode = !autoMode;
+        updateUI();
+      });
+
+      els.bindReset?.addEventListener("click", () => bind("readout"));
+      els.queueBind?.addEventListener("click", () => bind("queue"));
+
+      els.seek?.addEventListener("pointerdown", () => { seeking = true; });
+      els.seek?.addEventListener("pointerup", () => { seeking = false; });
+      els.seek?.addEventListener("input", () => {
+        if (!Number.isFinite(audio.duration) || audio.duration <= 0) return;
+        const target = (Number(els.seek.value) / 1000) * audio.duration;
+        if (els.timeNow) els.timeNow.textContent = fmtTime(target);
+      });
+      els.seek?.addEventListener("change", () => {
+        if (Number.isFinite(audio.duration) && audio.duration > 0) {
+          audio.currentTime = (Number(els.seek.value) / 1000) * audio.duration;
+        }
+        seeking = false;
+      });
+
+      els.bindLines.forEach((line) => {
+        line.addEventListener("click", () => bind(line.dataset.bindLine));
+      });
+
+      els.bindTargets.forEach((target) => {
+        target.addEventListener("click", (event) => {
+          if (event.target.closest("button, a, input")) return;
+          bind(target.dataset.bindTarget);
+        });
+        target.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            bind(target.dataset.bindTarget);
+          }
+        });
+      });
+
+      audio.addEventListener("play", updateUI);
+      audio.addEventListener("pause", updateUI);
+      audio.addEventListener("timeupdate", updateUI);
+      audio.addEventListener("loadedmetadata", updateUI);
+      audio.addEventListener("ended", () => {
+        if (autoMode) scanForward(true);
+        else updateUI();
+      });
+      audio.addEventListener("error", () => {
+        if (els.state) els.state.textContent = "Signal Lost";
+        if (autoMode) window.setTimeout(() => scanForward(true), 650);
+      });
+
+      window.addEventListener("resize", () => renderQueue(), { passive: true });
+
+      bind("readout");
+      loadCatalog().catch((error) => {
+        console.warn("Radio catalog failed", error);
+        if (els.state) els.state.textContent = "Catalog Error";
+        if (els.count) els.count.textContent = "Manifest Missing";
+        renderQueue();
+      });
+    })();
+  </script>
+</body>
+</html>

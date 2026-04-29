@@ -1419,6 +1419,7 @@
                 <div class="album-sub">${escapeHtml(album.subtitle)}</div>
               </div>
               <div class="head-actions">
+                <a class="btn nav-only" href="./radio.html">Radio</a>
                 <button type="button" class="btn primary" id="sendBtn">↗ Send</button>
               </div>
             </div>

@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="VOLHOLLA Radio — Air King Skyscraper operational deck" />
+  <title>VOLHOLLA Radio — Operational</title>
+  <style>
+    /* EXECUTION STEP 2: PALETTE ERADICATION — Plaskon/Bakelite binary */
+    :root {
+      --bg: #FFFFFF;
+      --fg: #000000;
+    }
+
+    * {
+      box-sizing: border-box;
+      border-radius: 0 !important; /* no soft corners – fluting is 1px borders */
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      overflow: hidden; /* scrolling eradicated */
+      background: var(--bg);
+      color: var(--fg);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      touch-action: none; /* prevent default gestures for precise pointer control */
+    }
+
+    /* EXECUTION STEP 1: ARCHITECTURE COLLAPSE — horizontal deck as skyscraper plinth */
+    .radio-shell {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      padding: 10px;
+    }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid var(--fg);
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      flex-shrink: 0;
+      font-weight: 900;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: 0.15em;
+    }
+
+    .brand-dot {
+      width: 12px;
+      height: 12px;
+      background: var(--fg);
+    }
+
+    .nav-link {
+      color: var(--fg);
+      text-decoration: none;
+      font-weight: bold;
+      border: 1px solid var(--fg);
+      padding: 4px 8px;
+    }
+
+    .nav-link:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    /* EXECUTION STEP 5: PERSPECTIVE ANCHORING — camera at base, column-reverse inverts visual flow */
+    .radio-deck {
+      flex: 1;
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 10px;
+      overflow: hidden;
+    }
+
+    .block {
+      border: 1px solid var(--fg);
+      background: var(--bg);
+    }
+
+    /* EXECUTION STEP 4: SPATIAL PRUNING — queue absorbs vertical space, no scroll, max 6 visible */
+    .queue-panel {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .queue-head {
+      border-bottom: 2px solid var(--fg);
+      padding: 6px 10px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 900;
+      letter-spacing: 0.1em;
+    }
+
+    .queue-head button {
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid var(--fg);
+      font-weight: bold;
+      cursor: pointer;
+      text-transform: uppercase;
+    }
+
+    .queue-head button:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .queue-list {
+      flex: 1;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .queue-list li {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 10px;
+      border-bottom: 1px solid var(--fg);
+      cursor: pointer;
+      font-size: 0.73rem;
+      font-weight: 700;
+      background: var(--bg);
+      color: var(--fg);
+      transition: none; /* instant contrast swap */
+    }
+
+    .queue-list li:last-child {
+      border-bottom: none;
+    }
+
+    .queue-list .name {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 100%;
+    }
+
+    .queue-list .album {
+      font-weight: 400;
+      opacity: 0.9;
+    }
+
+    /* Active state contrast inversion — the pressed Bakelite key */
+    .queue-list li.is-current {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .controls {
+      display: flex;
+      height: 50px;
+      flex-shrink: 0;
+    }
+
+    .play-btn {
+      flex: 1;
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid var(--fg);
+      font-size: 1.1rem;
+      font-weight: 900;
+      cursor: pointer;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .play-btn:hover {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .mode-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      flex-shrink: 0;
+    }
+
+    .mode-btn {
+      border: 1px solid var(--fg);
+      background: var(--bg);
+      color: var(--fg);
+      padding: 8px 0;
+      font-weight: bold;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .mode-btn.is-on {
+      background: var(--fg);
+      color: var(--bg);
+    }
+
+    .progress {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 10px;
+      border: 1px solid var(--fg);
+      height: 30px;
+      font-weight: bold;
+      flex-shrink: 0;
+      font-size: 0.8rem;
+    }
+
+    .progress input {
+      flex: 1;
+      appearance: none;
+      background: var(--bg);
+      border: 1px solid var(--fg);
+      height: 10px;
+      cursor: pointer;
+    }
+
+    .progress input::-webkit-slider-thumb {
+      appearance: none;
+      width: 10px;
+      height: 20px;
+      background: var(--fg);
+      border-radius: 0;
+    }
+
+    .readout {
+      padding: 10px;
+      flex-shrink: 0;
+    }
+
+    .readout-top {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      font-size: 0.7rem;
+      border-bottom: 1px solid var(--fg);
+      padding-bottom: 5px;
+      margin-bottom: 5px;
+      letter-spacing: 0.05em;
+    }
+
+    .readout h1 {
+      margin: 0;
+      font-size: 1.4rem;
+      font-weight: 900;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      letter-spacing: 0.05em;
+    }
+
+    .readout p {
+      margin: 0;
+      font-size: 0.8rem;
+      font-weight: bold;
+      opacity: 0.95;
+    }
+
+    .dial-zone {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    /* EXECUTION STEP 3: DEPTH RECONSTRUCTION — repeating-linear-gradient as mechanical fluting */
+    .radio-dial {
+      width: 140px;
+      height: 140px;
+      background: repeating-linear-gradient(45deg, var(--fg), var(--fg) 4px, var(--bg) 4px, var(--bg) 8px);
+      border: 4px solid var(--fg);
+      border-radius: 50% !important; /* mechanical globe insert */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: grab;               /* scratch surface affordance */
+      touch-action: none;         /* own gesture handling */
+      flex-shrink: 0;
+      user-select: none;
+    }
+
+    .radio-dial:active {
+      cursor: grabbing;
+    }
+
+    .radio-dial.is-playing {
+      animation: dialSweep 4s linear infinite;
+    }
+
+    .dial-core {
+      width: 60px;
+      height: 60px;
+      background: var(--bg);
+      border: 4px solid var(--fg);
+      border-radius: 50% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      line-height: 1;
+      pointer-events: none;       /* clicks pass through to dial */
+    }
+
+    .dial-mark {
+      font-size: 0.65rem;
+      font-weight: 900;
+    }
+
+    .dial-title {
+      font-size: 0.8rem;
+      font-weight: 900;
+    }
+
+    /* EXECUTION STEP 7: ASSET INTEGRATION — 2‑bit starkness, no mid‑tones */
+    .top-visuals {
+      display: flex;
+      height: 140px;
+      flex-shrink: 0;
+      border: 1px solid var(--fg);
+      background: var(--bg);
+    }
+
+    .art-frame {
+      width: 140px;
+      height: 100%;
+      border-right: 1px solid var(--fg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      font-weight: 900;
+      font-size: 0.8rem;
+      text-align: center;
+      position: relative;
+      background: var(--bg);
+    }
+
+    .art-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* Eradicate mid‑tones — forced high‑contrast relief */
+      filter: grayscale(100%) contrast(500%) brightness(1.2);
+    }
+
+    .top-visuals .dial-zone {
+      flex: 1;
+      border: none;
+      padding: 0;
+    }
+
+    @keyframes dialSweep {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <main class="radio-shell">
+    <header class="topbar">
+      <a class="nav-link" href="#">LIB</a>
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <span>VOLHOLLA OPR</span>
+      </div>
+      <a class="nav-link" href="#">HUB</a>
+    </header>
+
+    <!-- EXECUTION STEP 1: deck layers in column-reverse order -->
+    <section class="radio-deck">
+      <!-- 1. QUEUE: base plinth, camera anchor -->
+      <section class="queue-panel block">
+        <div class="queue-head">
+          <span>OPERATIONAL QUEUE</span>
+          <button type="button" id="reshuffleBtn">RSHFL</button>
+        </div>
+        <ul class="queue-list" id="queueList"></ul>
+      </section>
+
+      <!-- 2. PROGRESS -->
+      <div class="progress block">
+        <span id="timeNow">0:00</span>
+        <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" />
+        <span id="timeTotal">0:00</span>
+      </div>
+
+      <!-- 3. MODES -->
+      <div class="mode-row">
+        <button type="button" class="mode-btn is-on" id="shuffleBtn">SHUFFLE</button>
+        <button type="button" class="mode-btn is-on" id="autoBtn">AUTO</button>
+        <a class="mode-btn" id="songPageLink" href="#">LINK</a>
+      </div>
+
+      <!-- 4. CONTROLS -->
+      <div class="controls block">
+        <button type="button" class="play-btn" id="playBtn">START OPERATION</button>
+      </div>
+
+      <!-- 5. READOUT -->
+      <div class="readout block">
+        <div class="readout-top">
+          <span id="radioState">STANDBY</span>
+          <span id="radioCount">NO SIGNAL</span>
+        </div>
+        <h1 id="trackTitle">SYS INIT</h1>
+        <p id="albumTitle">AWAITING CATALOG</p>
+      </div>
+
+      <!-- 6. TOP VISUALS: Art + Dial (spire) -->
+      <div class="top-visuals block">
+        <div class="art-frame">
+          <img id="trackArt" alt="" hidden />
+          <span id="artText">NO IMG</span>
+        </div>
+        <div class="dial-zone">
+          <div class="radio-dial" id="radioDial">
+            <div class="dial-core">
+              <span class="dial-mark" id="dialMark">OFF</span>
+              <span class="dial-title" id="dialTitle">TUNE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    /* EXECUTION STEP 6: BIDIRECTIONAL BINDING — every surface is a control */
+    (function () {
+      const els = {
+        dial: document.getElementById("radioDial"),
+        dialMark: document.getElementById("dialMark"),
+        dialTitle: document.getElementById("dialTitle"),
+        art: document.getElementById("trackArt"),
+        artText: document.getElementById("artText"),
+        state: document.getElementById("radioState"),
+        count: document.getElementById("radioCount"),
+        title: document.getElementById("trackTitle"),
+        album: document.getElementById("albumTitle"),
+        play: document.getElementById("playBtn"),
+        shuffle: document.getElementById("shuffleBtn"),
+        auto: document.getElementById("autoBtn"),
+        seek: document.getElementById("seekBar"),
+        timeNow: document.getElementById("timeNow"),
+        timeTotal: document.getElementById("timeTotal"),
+        queue: document.getElementById("queueList"),
+        reshuffle: document.getElementById("reshuffleBtn")
+      };
+
+      const audio = new Audio();
+      let catalog = [];
+      let order = [];
+      let position = 0;
+      let shuffleMode = true;
+      let autoMode = true;
+      let seeking = false;
+
+      // --- SCRATCH STATE (disc becomes real control surface) ---
+      let scratchActive = false;
+      let scratchStartX = 0;
+      let scratchStartY = 0;
+      let scratchStartAngle = 0;        // degrees, reference angle at pointerdown
+      let scratchInitialTime = 0;       // audio.currentTime when scratch started
+      let scratchHasMoved = false;      // distinguishes tap from drag
+
+      // --- Utility: map angle from pointer relative to dial center ---
+      function getAngleFromCenter(el, clientX, clientY) {
+        const rect = el.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+        const dx = clientX - cx;
+        const dy = clientY - cy;
+        // 0° = 12 o'clock, increasing clockwise
+        let angle = Math.atan2(dx, -dy) * (180 / Math.PI);
+        if (angle < 0) angle += 360;
+        return angle;
+      }
+
+      // --- Compute shortest angular distance (degrees, signed) ---
+      function angleDelta(degFrom, degTo) {
+        let diff = degTo - degFrom;
+        if (diff > 180) diff -= 360;
+        if (diff < -180) diff += 360;
+        return diff;
+      }
+
+      const MAX_VISIBLE_QUEUE = 6; // EXECUTION STEP 4: limited Bakelite keys
+
+      function fmtTime(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "0:00";
+        const m = Math.floor(sec / 60);
+        const r = Math.floor(sec % 60);
+        return `${m}:${String(r).padStart(2, "0")}`;
+      }
+
+      function pathFromRoot(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function songHref(source) {
+        if (!source) return "./index.html";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function shuffleArray(items) {
+        const next = items.slice();
+        for (let i = next.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [next[i], next[j]] = [next[j], next[i]];
+        }
+        return next;
+      }
+
+      function buildOrder(keepCurrent = true) {
+        const current = catalog[order[position]];
+        order = shuffleMode
+          ? shuffleArray(catalog.map((_, index) => index))
+          : catalog.map((_, index) => index);
+        
+        if (keepCurrent && current) {
+          const idx = order.findIndex((item) => catalog[item] === current);
+          if (idx > 0) {
+            order.splice(idx, 1);
+            order.unshift(catalog.indexOf(current));
+          }
+        }
+        position = 0;
+        initQueue(); // rebuild physical Bakelite stack
+      }
+
+      function currentTrack() {
+        return catalog[order[position]] || null;
+      }
+
+      /* EXECUTION STEP 4 + 6: queue is a physical surface — keys sink when pressed */
+      function initQueue() {
+        els.queue.innerHTML = '';
+        const displayLimit = Math.min(order.length, MAX_VISIBLE_QUEUE);
+        
+        for (let i = 0; i < displayLimit; i++) {
+          const catalogIndex = order[i];
+          const track = catalog[catalogIndex];
+          const li = document.createElement('li');
+          
+          li.dataset.orderIdx = i;
+          li.innerHTML = `
+            <span>${String(i + 1).padStart(2, "0")}</span>
+            <span class="name">${track.title} <span class="album">/ ${track.albumLabel}</span></span>
+          `;
+
+          // Bidirectional binding: click loads track AND physically moves key to base
+          li.addEventListener('click', () => {
+            position = parseInt(li.dataset.orderIdx, 10);
+            load(position, true);
+            els.queue.appendChild(li); // sink to bottom
+            updateQueueContrast();
+          });
+
+          els.queue.appendChild(li);
+        }
+        updateQueueContrast();
+      }
+
+      function updateQueueContrast() {
+        if (!els.queue) return;
+        Array.from(els.queue.children).forEach(li => {
+          li.classList.remove('is-current');
+          if (parseInt(li.dataset.orderIdx, 10) === position) {
+            li.classList.add('is-current');
+          }
+        });
+      }
+
+      function updateUI() {
+        const track = currentTrack();
+        const playing = !audio.paused && !!audio.src;
+        
+        // Dial rotation & state
+        els.dial.classList.toggle("is-playing", playing);
+        els.shuffle.classList.toggle("is-on", shuffleMode);
+        els.auto.classList.toggle("is-on", autoMode);
+
+        if (!track) return;
+
+        els.state.textContent = playing ? "BROADCAST" : audio.src ? "HALTED" : "STANDBY";
+        els.count.textContent = `TRACK ${position + 1} OF ${catalog.length}`;
+        els.title.textContent = track.title;
+        els.album.textContent = track.albumLabel;
+        els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
+        els.dialTitle.textContent = shuffleMode ? "SHUF" : "SEQ";
+        els.play.textContent = playing ? "PAUSE OPR" : audio.src ? "RESUME OPR" : "START OPR";
+        if (els.songLink) els.songLink.href = songHref(track.songPage);
+
+        const artSrc = pathFromRoot(track.art);
+        if (els.art && artSrc) {
+          els.art.src = encodeURI(artSrc);
+          els.art.hidden = false;
+          els.artText.style.display = "none";
+        } else if (els.art) {
+          els.art.hidden = true;
+          els.artText.style.display = "block";
+        }
+
+        const pct = Number.isFinite(audio.duration) && audio.duration > 0
+          ? Math.max(0, Math.min(1000, Math.round((audio.currentTime / audio.duration) * 1000)))
+          : 0;
+        
+        if (!seeking) els.seek.value = String(pct);
+        els.timeNow.textContent = fmtTime(audio.currentTime);
+        els.timeTotal.textContent = fmtTime(audio.duration);
+      }
+
+      function load(posIndex, autoplay = false) {
+        if (!catalog.length) return;
+        position = Math.max(0, Math.min(order.length - 1, posIndex));
+        const track = currentTrack();
+        
+        const src = pathFromRoot(track.audio);
+        audio.src = src ? encodeURI(src) : "";
+        
+        updateUI();
+        updateQueueContrast();
+
+        // Ensure physical movement of active key to bottom
+        const activeLi = Array.from(els.queue.children).find(li => parseInt(li.dataset.orderIdx, 10) === position);
+        if (activeLi) {
+          els.queue.appendChild(activeLi);
+        }
+
+        if (autoplay && audio.src) {
+          audio.play().catch(() => updateUI());
+        }
+      }
+
+      function playPause() {
+        if (!catalog.length) return;
+        if (!audio.src) {
+          load(position, true);
+          return;
+        }
+        if (audio.paused) audio.play().catch(() => updateUI());
+        else audio.pause();
+      }
+
+      function nextSequence() {
+        if (!catalog.length) return;
+        if (position >= order.length - 1) buildOrder(false);
+        else position += 1;
+        load(position, true);
+      }
+
+      // --- SCRATCH CONTROL SURFACE HANDLERS ---
+      function onDialPointerDown(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        // Ignore if no valid source or duration
+        if (!audio.src || isNaN(audio.duration)) return;
+
+        const rect = els.dial.getBoundingClientRect();
+        scratchStartX = e.clientX;
+        scratchStartY = e.clientY;
+        scratchStartAngle = getAngleFromCenter(els.dial, e.clientX, e.clientY);
+        scratchInitialTime = audio.currentTime;
+        scratchActive = true;
+        scratchHasMoved = false;
+
+        // Force playback when touching the disc (vinyl feel)
+        if (audio.paused) {
+          audio.play().catch(() => {});
+        }
+
+        // Capture pointer for continuous movement even outside disc
+        els.dial.setPointerCapture(e.pointerId);
+      }
+
+      function onDialPointerMove(e) {
+        if (!scratchActive) return;
+        e.preventDefault();
+
+        const nowAngle = getAngleFromCenter(els.dial, e.clientX, e.clientY);
+        const deltaDeg = angleDelta(scratchStartAngle, nowAngle);
+        
+        // Determine if enough movement to be a scratch (not a tap)
+        const dx = e.clientX - scratchStartX;
+        const dy = e.clientY - scratchStartY;
+        if (Math.abs(dx) > 3 || Math.abs(dy) > 3) {
+          scratchHasMoved = true;
+        }
+
+        if (!isNaN(audio.duration)) {
+          // Map angular movement to time: 360° = 2 seconds (adjustable)
+          const timeDelta = (deltaDeg / 360) * 2.0; // seconds
+          let newTime = scratchInitialTime + timeDelta;
+          newTime = Math.max(0, Math.min(audio.duration, newTime));
+          audio.currentTime = newTime;
+
+          // Scratch sound: modulate playbackRate based on angular velocity
+          const nowTs = performance.now();
+          if (!onDialPointerMove._lastAngle) {
+            onDialPointerMove._lastAngle = nowAngle;
+            onDialPointerMove._lastTs = nowTs;
+          }
+          const angleDiff = nowAngle - onDialPointerMove._lastAngle;
+          const timeDiff = nowTs - onDialPointerMove._lastTs;
+          if (timeDiff > 0) {
+            const angularSpeed = angleDiff / timeDiff;     // degrees per ms
+            // Pitch shift: 1.0 + (angular speed * 0.03), clamped 0.3–3
+            const rate = Math.max(0.3, Math.min(3.0, 1.0 + angularSpeed * 0.03));
+            audio.playbackRate = rate;
+          }
+          onDialPointerMove._lastAngle = nowAngle;
+          onDialPointerMove._lastTs = nowTs;
+        }
+      }
+
+      function onDialPointerUp(e) {
+        if (!scratchActive) return;
+        e.preventDefault();
+
+        // Reset scratch state
+        scratchActive = false;
+        els.dial.releasePointerCapture(e.pointerId);
+        // Clean up velocity tracking
+        delete onDialPointerMove._lastAngle;
+        delete onDialPointerMove._lastTs;
+
+        // If minimal movement -> treat as a tap/click (toggle play/pause)
+        if (!scratchHasMoved) {
+          // Click equivalent: toggle play/pause
+          playPause();
+        } else {
+          // End of scratch: restore normal playback speed
+          audio.playbackRate = 1.0;
+          // Continue playing from the scratched position
+          if (audio.paused) {
+            audio.play().catch(() => {});
+          }
+        }
+        updateUI();
+      }
+
+      /* EXECUTION STEP 9: hermetic catalog with machine‑age titles */
+      async function loadCatalog() {
+        catalog = [
+          { title: "FOURTEENTH STREET LOOP", albumLabel: "CROSSROADS AND CROWN", audio: "", art: "" },
+          { title: "THE BALTIC CHILL", albumLabel: "CROSSROADS AND CROWN", audio: "", art: "" },
+          { title: "THE NOMAD'S RAZOR", albumLabel: "GOLE YAKH MEMORY", audio: "", art: "" },
+          { title: "THE ANIMAL FIRE", albumLabel: "CYBERNETIC WINTER", audio: "", art: "" },
+          { title: "RETAIL ECOLOGY", albumLabel: "MALL PATCHWORLD INGEST", audio: "", art: "" },
+          { title: "ZERO BARS", albumLabel: "NO SERVICE", audio: "", art: "" },
+          { title: "DIGITAL LONESOME", albumLabel: "GOLE YAKH MEMORY", audio: "", art: "" },
+          { title: "MONOLITO DEL GUERRERO", albumLabel: "CYPHER MIXTAPE", audio: "", art: "" }
+        ];
+
+        try {
+          const response = await fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" });
+          if (response.ok) {
+            const manifest = await response.json();
+            const albums = manifest.albums || {};
+            const fetched = Object.values(albums).flatMap((album) => {
+              const tracks = Array.isArray(album.tracks) ? album.tracks : [];
+              return tracks.map((track) => ({
+                title: track.title,
+                albumLabel: album.label || album.key,
+                audio: track.audio?.source || track.source || "",
+                art: track.art?.source || album.defaultTrackArt?.source || album.cover?.source || "",
+                songPage: track.songPage || album.page || "./index.html"
+              })).filter(t => t.audio);
+            });
+            if (fetched.length > 0) catalog = fetched;
+          }
+        } catch (error) {
+          console.log("External manifest severed. Using sealed internal catalog.");
+        }
+        
+        buildOrder(false);
+        updateUI();
+      }
+
+      // --- Bind scratch events (replaces old click listener) ---
+      els.dial.addEventListener("pointerdown", onDialPointerDown);
+      els.dial.addEventListener("pointermove", onDialPointerMove);
+      els.dial.addEventListener("pointerup", onDialPointerUp);
+      els.dial.addEventListener("pointercancel", onDialPointerUp); // handle cancel
+      els.dial.addEventListener("lostpointercapture", () => {
+        if (scratchActive) {
+          scratchActive = false;
+          audio.playbackRate = 1.0;
+          updateUI();
+        }
+      });
+
+      // Prevent default touch actions on the dial zone
+      els.dial.addEventListener("touchstart", (e) => e.preventDefault());
+
+      // Other UI bindings
+      els.play.addEventListener("click", playPause);
+      
+      els.shuffle.addEventListener("click", () => {
+        shuffleMode = !shuffleMode;
+        buildOrder(true);
+        updateUI();
+      });
+      
+      els.auto.addEventListener("click", () => {
+        autoMode = !autoMode;
+        updateUI();
+      });
+      
+      els.reshuffle.addEventListener("click", () => {
+        shuffleMode = true;
+        buildOrder(true);
+        updateUI();
+      });
+
+      els.seek.addEventListener("pointerdown", () => { seeking = true; });
+      els.seek.addEventListener("pointerup", () => { seeking = false; });
+      els.seek.addEventListener("input", () => {
+        if (!Number.isFinite(audio.duration) || audio.duration <= 0) return;
+        const target = (Number(els.seek.value) / 1000) * audio.duration;
+        els.timeNow.textContent = fmtTime(target);
+      });
+      els.seek.addEventListener("change", () => {
+        if (Number.isFinite(audio.duration) && audio.duration > 0) {
+          audio.currentTime = (Number(els.seek.value) / 1000) * audio.duration;
+        }
+        seeking = false;
+      });
+
+      audio.addEventListener("play", updateUI);
+      audio.addEventListener("pause", updateUI);
+      audio.addEventListener("timeupdate", updateUI);
+      audio.addEventListener("loadedmetadata", updateUI);
+      audio.addEventListener("ended", () => {
+        if (autoMode) nextSequence();
+        else updateUI();
+      });
+      audio.addEventListener("error", () => {
+        els.state.textContent = "SIG LOST";
+        if (autoMode) setTimeout(() => nextSequence(), 1000);
+      });
+
+      // Initialization
+      loadCatalog();
+    })();
+  </script>
+</body>
+</html>

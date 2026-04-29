@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="description" content="VOLHOLLA catalog radio shuffle player" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VOLHOLLA" />
+  <meta property="og:title" content="VOLHOLLA Radio" />
+  <meta property="og:description" content="Shuffle playback across the full VOLHOLLA album catalog." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>VOLHOLLA Radio</title>
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #000000;
+      --app-height: 100svh;
+      --gap: 4px;
+      --pad: max(4px, env(safe-area-inset-top)) max(4px, env(safe-area-inset-right)) max(4px, env(safe-area-inset-bottom)) max(4px, env(safe-area-inset-left));
+      --topbar-h: 32px;
+      --stage-h: 32dvh;
+      --controls-h: 48px;
+      --progress-h: 34px;
+      --queue-h: 19dvh;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      overscroll-behavior: none;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      touch-action: manipulation;
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      min-height: var(--app-height);
+      background:
+        linear-gradient(90deg, var(--ink) 0 1px, transparent 1px 100%),
+        linear-gradient(180deg, var(--ink) 0 1px, transparent 1px 100%),
+        var(--paper);
+      background-size: 28px 28px;
+    }
+
+    button,
+    a,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    button,
+    a,
+    input[type="range"] {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .radio-shell {
+      width: 100vw;
+      height: var(--app-height);
+      max-height: var(--app-height);
+      overflow: hidden;
+      display: grid;
+      grid-template-rows:
+        var(--topbar-h)
+        minmax(140px, var(--stage-h))
+        minmax(86px, 1fr)
+        var(--controls-h)
+        var(--progress-h)
+        minmax(64px, var(--queue-h));
+      gap: var(--gap);
+      padding: var(--pad);
+      background: var(--paper);
+    }
+
+    .topbar,
+    .stage,
+    .readout,
+    .controls,
+    .progress,
+    .queue-panel {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: stretch;
+    }
+
+    .brand,
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 0;
+      height: 100%;
+      padding: 0 8px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      font-size: clamp(0.56rem, 2.2vw, 0.76rem);
+      white-space: nowrap;
+    }
+
+    .brand {
+      border-left: 2px solid var(--ink);
+      border-right: 2px solid var(--ink);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .stage {
+      display: grid;
+      grid-template-columns: 1fr 0.95fr;
+    }
+
+    .art-frame,
+    .dial-zone {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      position: relative;
+      display: grid;
+      place-items: center;
+    }
+
+    .art-frame { border-right: 2px solid var(--ink); }
+
+    .art-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(1) contrast(1.75);
+    }
+
+    .art-fallback {
+      width: 100%;
+      height: 100%;
+      display: grid;
+      place-items: center;
+      background:
+        linear-gradient(45deg, var(--ink) 0 12%, var(--paper) 12% 24%, var(--ink) 24% 36%, var(--paper) 36% 48%, var(--ink) 48% 60%, var(--paper) 60% 72%, var(--ink) 72% 84%, var(--paper) 84% 100%);
+      color: var(--paper);
+      font-size: clamp(2.2rem, 15vw, 5.5rem);
+      font-weight: 950;
+      letter-spacing: -0.1em;
+      text-shadow: 3px 3px 0 var(--ink), -3px -3px 0 var(--ink), 3px -3px 0 var(--ink), -3px 3px 0 var(--ink);
+    }
+
+    .radio-dial {
+      width: min(74%, 218px);
+      aspect-ratio: 1;
+      border: 2px solid var(--ink);
+      border-radius: 50%;
+      background:
+        radial-gradient(circle, var(--paper) 0 28%, var(--ink) 29% 31%, var(--paper) 32% 47%, var(--ink) 48% 50%, var(--paper) 51% 100%);
+      color: var(--ink);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      position: relative;
+    }
+
+    .radio-dial::before,
+    .radio-dial::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .radio-dial::before {
+      inset: 8%;
+      border: 2px dashed var(--ink);
+    }
+
+    .radio-dial::after {
+      inset: 20%;
+      border: 2px solid var(--ink);
+    }
+
+    .radio-dial.is-playing::after {
+      animation: dialSweep 7s steps(36) infinite;
+    }
+
+    .dial-core {
+      width: 52%;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      display: grid;
+      place-items: center;
+      align-content: center;
+      gap: 2px;
+      text-align: center;
+      z-index: 1;
+    }
+
+    .dial-mark,
+    .dial-title {
+      display: block;
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      line-height: 1;
+    }
+
+    .dial-mark { font-size: clamp(0.5rem, 2vw, 0.7rem); }
+    .dial-title { font-size: clamp(0.92rem, 4.6vw, 1.38rem); }
+
+    .signal-meter {
+      position: absolute;
+      left: 7px;
+      right: 7px;
+      bottom: 7px;
+      height: 18px;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 3px;
+    }
+
+    .signal-meter span {
+      align-self: end;
+      height: 5px;
+      background: var(--ink);
+      transform-origin: bottom center;
+    }
+
+    .signal-meter span:nth-child(2) { height: 8px; }
+    .signal-meter span:nth-child(3) { height: 12px; }
+    .signal-meter span:nth-child(4) { height: 17px; }
+    .signal-meter span:nth-child(5) { height: 12px; }
+    .signal-meter span:nth-child(6) { height: 8px; }
+    .signal-meter span:nth-child(7) { height: 5px; }
+
+    .is-live .signal-meter span { animation: meter 780ms steps(3) infinite alternate; }
+    .is-live .signal-meter span:nth-child(2) { animation-delay: 80ms; }
+    .is-live .signal-meter span:nth-child(3) { animation-delay: 160ms; }
+    .is-live .signal-meter span:nth-child(4) { animation-delay: 40ms; }
+    .is-live .signal-meter span:nth-child(5) { animation-delay: 120ms; }
+    .is-live .signal-meter span:nth-child(6) { animation-delay: 200ms; }
+    .is-live .signal-meter span:nth-child(7) { animation-delay: 280ms; }
+
+    .readout {
+      display: grid;
+      grid-template-rows: 26px minmax(0, 1fr) 28px;
+    }
+
+    .readout-top,
+    .readout-bottom {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 8px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: clamp(0.58rem, 2.3vw, 0.72rem);
+      font-weight: 950;
+      letter-spacing: 0.07em;
+      white-space: nowrap;
+    }
+
+    .readout-bottom {
+      border-top: 2px solid var(--ink);
+      border-bottom: 0;
+    }
+
+    .readout h1 {
+      min-width: 0;
+      min-height: 0;
+      margin: 0;
+      padding: 8px;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      font-size: clamp(1.42rem, 8.5vw, 3.15rem);
+      line-height: 0.9;
+      text-transform: uppercase;
+      letter-spacing: -0.065em;
+    }
+
+    .readout p,
+    .readout span {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr 0.86fr;
+    }
+
+    .play-btn,
+    .control-btn,
+    .song-link {
+      min-width: 0;
+      min-height: 44px;
+      border: 0;
+      border-right: 2px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 6px;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 950;
+      letter-spacing: 0.055em;
+      font-size: clamp(0.72rem, 3.1vw, 0.95rem);
+      white-space: nowrap;
+    }
+
+    .controls > *:last-child { border-right: 0; }
+
+    .play-btn {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .control-btn.is-on {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .progress {
+      display: grid;
+      grid-template-columns: 40px minmax(0, 1fr) 40px;
+      align-items: center;
+      gap: 6px;
+      padding: 0 7px;
+      font-size: 0.64rem;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .progress input {
+      width: 100%;
+      min-width: 0;
+      accent-color: var(--ink);
+    }
+
+    .queue-panel {
+      display: grid;
+      grid-template-rows: 24px minmax(0, 1fr);
+    }
+
+    .queue-head {
+      min-width: 0;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      align-items: center;
+      gap: 8px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: 0.62rem;
+      font-weight: 950;
+      letter-spacing: 0.09em;
+      white-space: nowrap;
+    }
+
+    .queue-list {
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-auto-rows: minmax(22px, 1fr);
+    }
+
+    .queue-list li {
+      min-width: 0;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: 34px minmax(0, 1fr);
+      align-items: center;
+      gap: 6px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--ink);
+      text-transform: uppercase;
+      font-size: clamp(0.6rem, 2.35vw, 0.74rem);
+      font-weight: 900;
+      letter-spacing: 0.015em;
+    }
+
+    .queue-list li:last-child { border-bottom: 0; }
+
+    .queue-list li.is-current {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .queue-list .name,
+    .queue-list .album {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .queue-list .album::before { content: " / "; }
+
+    .nav-link:active,
+    .nav-link:focus-visible,
+    .play-btn:active,
+    .play-btn:focus-visible,
+    .control-btn:active,
+    .control-btn:focus-visible,
+    .song-link:active,
+    .song-link:focus-visible,
+    .radio-dial:active,
+    .radio-dial:focus-visible {
+      outline: 3px solid var(--ink);
+      outline-offset: -6px;
+    }
+
+    @media (max-height: 680px) {
+      :root {
+        --topbar-h: 30px;
+        --stage-h: 27dvh;
+        --controls-h: 44px;
+        --progress-h: 30px;
+        --queue-h: 14dvh;
+      }
+
+      .readout {
+        grid-template-rows: 23px minmax(0, 1fr) 24px;
+      }
+
+      .readout h1 {
+        font-size: clamp(1.18rem, 7.4vw, 2.25rem);
+        -webkit-line-clamp: 2;
+      }
+
+      .queue-list { grid-auto-rows: minmax(20px, 1fr); }
+    }
+
+    @media (max-width: 360px) {
+      :root { --gap: 3px; }
+      .brand,
+      .nav-link { padding: 0 5px; letter-spacing: 0.045em; }
+      .controls { grid-template-columns: 1fr 1fr 0.8fr; }
+      .play-btn,
+      .control-btn,
+      .song-link { font-size: 0.66rem; letter-spacing: 0.035em; }
+      .readout h1 { font-size: clamp(1.1rem, 7vw, 2rem); }
+    }
+
+    @media (orientation: landscape) and (max-height: 560px) {
+      :root {
+        --topbar-h: 28px;
+        --stage-h: 25dvh;
+        --controls-h: 42px;
+        --progress-h: 28px;
+        --queue-h: 12dvh;
+      }
+
+      .radio-shell {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: var(--topbar-h) minmax(0, 1fr) var(--controls-h) var(--progress-h);
+      }
+
+      .topbar { grid-column: 1 / -1; }
+      .stage { grid-column: 1; grid-row: 2 / -1; }
+      .readout { grid-column: 2; grid-row: 2; }
+      .controls { grid-column: 2; grid-row: 3; }
+      .progress { grid-column: 2; grid-row: 4; }
+      .queue-panel { display: none; }
+    }
+
+    @media (min-width: 780px) and (min-height: 620px) {
+      .radio-shell {
+        width: min(920px, 100vw);
+        margin: 0 auto;
+        grid-template-columns: 340px minmax(0, 1fr);
+        grid-template-rows: var(--topbar-h) minmax(0, 1fr) var(--controls-h) var(--progress-h) minmax(92px, 17dvh);
+      }
+
+      .topbar { grid-column: 1 / -1; }
+      .stage { grid-column: 1; grid-row: 2 / 5; grid-template-columns: 1fr; grid-template-rows: 1fr 1fr; }
+      .art-frame { border-right: 0; border-bottom: 2px solid var(--ink); }
+      .readout { grid-column: 2; grid-row: 2; }
+      .controls { grid-column: 2; grid-row: 3; }
+      .progress { grid-column: 2; grid-row: 4; }
+      .queue-panel { grid-column: 1 / -1; grid-row: 5; }
+    }
+
+    @keyframes dialSweep { to { transform: rotate(360deg); } }
+    @keyframes meter { from { transform: scaleY(0.35); } to { transform: scaleY(1); } }
+  </style>
+</head>
+<body>
+  <main class="radio-shell" aria-label="VOLHOLLA single-screen radio">
+    <header class="topbar">
+      <a class="nav-link" href="./index.html">Library</a>
+      <div class="brand">VOLHOLLA RADIO</div>
+      <a class="nav-link" href="../index.html">Hub</a>
+    </header>
+
+    <section class="stage" aria-label="Current signal">
+      <div class="art-frame" aria-label="Current track artwork">
+        <img id="trackArt" alt="" hidden />
+        <div class="art-fallback" id="artFallback">VR</div>
+      </div>
+
+      <div class="dial-zone">
+        <button type="button" class="radio-dial" id="radioDial" aria-label="Start or pause radio">
+          <span class="dial-core">
+            <span class="dial-mark" id="dialMark">OFF</span>
+            <span class="dial-title" id="dialTitle">TUNE</span>
+          </span>
+        </button>
+        <div class="signal-meter" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="readout" aria-label="Radio readout">
+      <div class="readout-top">
+        <span id="radioState">Ready</span>
+        <span id="radioCount">Loading</span>
+      </div>
+      <h1 id="trackTitle">VOLHOLLA RADIO</h1>
+      <div class="readout-bottom">
+        <p id="albumTitle">Shuffle across all albums.</p>
+        <span id="radioMode">Auto Shuffle</span>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Radio controls">
+      <button type="button" class="play-btn" id="playBtn">Start</button>
+      <button type="button" class="control-btn" id="reshuffleBtn">Reshuffle</button>
+      <a class="song-link" id="songPageLink" href="./index.html">Song</a>
+    </section>
+
+    <section class="progress" aria-label="Track progress">
+      <span id="timeNow">0:00</span>
+      <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek radio track" />
+      <span id="timeTotal">0:00</span>
+    </section>
+
+    <section class="queue-panel" aria-label="Signal queue">
+      <div class="queue-head">
+        <span>Signal Queue</span>
+        <span id="queueStatus">Auto next</span>
+      </div>
+      <ol class="queue-list" id="queueList"></ol>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const els = {
+        dial: document.getElementById("radioDial"),
+        dialMark: document.getElementById("dialMark"),
+        dialTitle: document.getElementById("dialTitle"),
+        state: document.getElementById("radioState"),
+        count: document.getElementById("radioCount"),
+        mode: document.getElementById("radioMode"),
+        title: document.getElementById("trackTitle"),
+        album: document.getElementById("albumTitle"),
+        art: document.getElementById("trackArt"),
+        artFallback: document.getElementById("artFallback"),
+        play: document.getElementById("playBtn"),
+        reshuffle: document.getElementById("reshuffleBtn"),
+        songLink: document.getElementById("songPageLink"),
+        seek: document.getElementById("seekBar"),
+        timeNow: document.getElementById("timeNow"),
+        timeTotal: document.getElementById("timeTotal"),
+        queue: document.getElementById("queueList"),
+        queueStatus: document.getElementById("queueStatus")
+      };
+
+      const audio = new Audio();
+      audio.preload = "metadata";
+
+      let catalog = [];
+      let order = [];
+      let position = 0;
+      let seeking = false;
+
+      function setAppHeight() {
+        document.documentElement.style.setProperty("--app-height", `${window.innerHeight}px`);
+      }
+
+      function fmtTime(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "0:00";
+        const m = Math.floor(sec / 60);
+        const r = Math.floor(sec % 60);
+        return `${m}:${String(r).padStart(2, "0")}`;
+      }
+
+      function escapeHtml(value) {
+        return String(value || "").replace(/[&<>"']/g, (ch) => ({
+          "&": "&amp;",
+          "<": "&lt;",
+          ">": "&gt;",
+          "\"": "&quot;",
+          "'": "&#39;"
+        }[ch]));
+      }
+
+      function pathFromRoot(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source) || source.startsWith("data:")) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function songHref(source) {
+        if (!source) return "./index.html";
+        if (/^https?:\/\//i.test(source)) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function pickArt(album, track) {
+        return track?.art?.source || album?.defaultTrackArt?.source || album?.cover?.source || "";
+      }
+
+      function pickAudio(track) {
+        return track?.audio?.source || track?.source || "";
+      }
+
+      function shuffleArray(items) {
+        const next = items.slice();
+        for (let i = next.length - 1; i > 0; i -= 1) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [next[i], next[j]] = [next[j], next[i]];
+        }
+        return next;
+      }
+
+      function currentTrack() {
+        return catalog[order[position]] || null;
+      }
+
+      function buildOrder(keepCurrent) {
+        const current = currentTrack();
+        order = shuffleArray(catalog.map((_, index) => index));
+
+        if (keepCurrent && current) {
+          const existing = order.findIndex((item) => catalog[item] === current);
+          if (existing >= 0) {
+            const held = order.splice(existing, 1)[0];
+            order.unshift(held);
+          }
+        }
+
+        position = 0;
+      }
+
+      function visibleQueueCount() {
+        const h = window.innerHeight;
+        if (window.matchMedia("(orientation: landscape) and (max-height: 560px)").matches) return 0;
+        if (h < 610) return 2;
+        if (h < 760) return 3;
+        return 4;
+      }
+
+      function renderQueue() {
+        if (!els.queue) return;
+        const limit = visibleQueueCount();
+        if (limit === 0) {
+          els.queue.innerHTML = "";
+          return;
+        }
+
+        const rows = order.slice(position, position + limit).map((catalogIndex, offset) => {
+          const track = catalog[catalogIndex];
+          return `
+            <li class="${offset === 0 ? "is-current" : ""}">
+              <span>${String(position + offset + 1).padStart(2, "0")}</span>
+              <span class="name">${escapeHtml(track.title)}<span class="album">${escapeHtml(track.albumLabel)}</span></span>
+            </li>
+          `;
+        }).join("");
+
+        els.queue.innerHTML = rows || "<li><span>--</span><span class=\"name\">No tracks loaded</span></li>";
+      }
+
+      function updateUI() {
+        const track = currentTrack();
+        const playing = !audio.paused && !!audio.src;
+
+        document.body.classList.toggle("is-live", playing);
+        els.dial?.classList.toggle("is-playing", playing);
+
+        if (!track) {
+          if (els.state) els.state.textContent = "Empty";
+          if (els.count) els.count.textContent = "0 Tracks";
+          if (els.mode) els.mode.textContent = "No Signal";
+          if (els.play) els.play.textContent = "Start";
+          if (els.queueStatus) els.queueStatus.textContent = "No queue";
+          renderQueue();
+          return;
+        }
+
+        if (els.state) els.state.textContent = playing ? "Broadcasting" : audio.src ? "Paused" : "Ready";
+        if (els.count) els.count.textContent = `${catalog.length} / ${position + 1}`;
+        if (els.mode) els.mode.textContent = "Auto Shuffle";
+        if (els.title) els.title.textContent = track.title || "Untitled Signal";
+        if (els.album) els.album.textContent = track.albumLabel || "Unknown Album";
+        if (els.dialMark) els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
+        if (els.dialTitle) els.dialTitle.textContent = "SHUF";
+        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Start";
+        if (els.songLink) els.songLink.href = songHref(track.songPage);
+        if (els.queueStatus) els.queueStatus.textContent = "Auto next";
+
+        const pct = Number.isFinite(audio.duration) && audio.duration > 0
+          ? Math.max(0, Math.min(1000, Math.round((audio.currentTime / audio.duration) * 1000)))
+          : 0;
+
+        if (!seeking && els.seek) els.seek.value = String(pct);
+        if (els.timeNow) els.timeNow.textContent = fmtTime(audio.currentTime);
+        if (els.timeTotal) els.timeTotal.textContent = fmtTime(audio.duration);
+
+        const art = pathFromRoot(track.art);
+        if (els.art && art) {
+          els.art.src = encodeURI(art);
+          els.art.alt = `${track.title || "Track"} artwork`;
+          els.art.hidden = false;
+          if (els.artFallback) els.artFallback.hidden = true;
+        } else if (els.art) {
+          els.art.removeAttribute("src");
+          els.art.alt = "";
+          els.art.hidden = true;
+          if (els.artFallback) els.artFallback.hidden = false;
+        }
+
+        renderQueue();
+      }
+
+      function load(positionIndex, autoplay) {
+        if (!catalog.length || !order.length) return;
+        position = Math.max(0, Math.min(order.length - 1, positionIndex));
+        const track = currentTrack();
+        if (!track) return;
+
+        const src = pathFromRoot(track.audio);
+        if (!src) return;
+
+        audio.src = encodeURI(src);
+        audio.load();
+        updateUI();
+
+        if (autoplay) audio.play().catch(updateUI);
+      }
+
+      function playPause() {
+        if (!catalog.length) return;
+        if (!audio.src) {
+          load(position, true);
+          return;
+        }
+        if (audio.paused) audio.play().catch(updateUI);
+        else audio.pause();
+      }
+
+      function next(autoplay) {
+        if (!catalog.length) return;
+        if (position >= order.length - 1) buildOrder(false);
+        else position += 1;
+        load(position, autoplay);
+      }
+
+      async function getManifest() {
+        if (window.VOLHOLLA_MANIFEST && typeof window.VOLHOLLA_MANIFEST === "object") return window.VOLHOLLA_MANIFEST;
+        const response = await fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" });
+        if (!response.ok) throw new Error(`Manifest request failed: ${response.status}`);
+        return response.json();
+      }
+
+      async function loadCatalog() {
+        const manifest = await getManifest();
+        const albums = manifest.albums || {};
+
+        catalog = Object.values(albums).flatMap((album) => {
+          const tracks = Array.isArray(album.tracks) ? album.tracks : [];
+          return tracks.map((track) => ({
+            title: track.title || "Untitled Signal",
+            albumLabel: album.label || album.key || "VOLHOLLA",
+            audio: pickAudio(track),
+            art: pickArt(album, track),
+            songPage: track.songPage || album.page || "./index.html"
+          })).filter((track) => track.audio);
+        });
+
+        buildOrder(false);
+        if (els.count) els.count.textContent = `${catalog.length} Tracks`;
+        updateUI();
+      }
+
+      els.dial?.addEventListener("click", playPause);
+      els.play?.addEventListener("click", playPause);
+
+      els.reshuffle?.addEventListener("click", () => {
+        buildOrder(true);
+        updateUI();
+      });
+
+      els.seek?.addEventListener("pointerdown", () => { seeking = true; });
+      els.seek?.addEventListener("pointerup", () => { seeking = false; });
+      els.seek?.addEventListener("input", () => {
+        if (!Number.isFinite(audio.duration) || audio.duration <= 0) return;
+        const target = (Number(els.seek.value) / 1000) * audio.duration;
+        if (els.timeNow) els.timeNow.textContent = fmtTime(target);
+      });
+      els.seek?.addEventListener("change", () => {
+        if (Number.isFinite(audio.duration) && audio.duration > 0) {
+          audio.currentTime = (Number(els.seek.value) / 1000) * audio.duration;
+        }
+        seeking = false;
+      });
+
+      if (els.art) {
+        els.art.addEventListener("error", () => {
+          els.art.hidden = true;
+          els.art.removeAttribute("src");
+          if (els.artFallback) els.artFallback.hidden = false;
+        });
+      }
+
+      audio.addEventListener("play", updateUI);
+      audio.addEventListener("pause", updateUI);
+      audio.addEventListener("timeupdate", updateUI);
+      audio.addEventListener("loadedmetadata", updateUI);
+      audio.addEventListener("ended", () => next(true));
+      audio.addEventListener("error", () => {
+        if (els.state) els.state.textContent = "Signal Lost";
+        window.setTimeout(() => next(true), 650);
+      });
+
+      window.addEventListener("resize", () => {
+        setAppHeight();
+        renderQueue();
+      }, { passive: true });
+
+      window.addEventListener("orientationchange", () => {
+        window.setTimeout(() => {
+          setAppHeight();
+          renderQueue();
+        }, 250);
+      }, { passive: true });
+
+      setAppHeight();
+      loadCatalog().catch((error) => {
+        console.warn("Radio catalog failed", error);
+        if (els.state) els.state.textContent = "Catalog Error";
+        if (els.count) els.count.textContent = "Manifest Missing";
+        if (els.mode) els.mode.textContent = "Check Path";
+        renderQueue();
+      });
+    })();
+  </script>
+</body>
+</html>
