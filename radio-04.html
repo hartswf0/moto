@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <meta name="description" content="VOLHOLLA Radio — Air King Skyscraper operational deck" />
-  <title>VOLHOLLA Radio — Operational</title>
+  <meta name="description" content="VOLHOLLA Radio shuffle player" />
+  <title>VOLHOLLA Radio</title>
   <style>
     /* EXECUTION STEP 2: PALETTE ERADICATION — Plaskon/Bakelite binary */
     :root {
@@ -175,7 +175,8 @@
       flex-shrink: 0;
     }
 
-    .play-btn {
+    .play-btn,
+    .nav-btn {
       flex: 1;
       background: var(--bg);
       color: var(--fg);
@@ -187,7 +188,8 @@
       text-transform: uppercase;
     }
 
-    .play-btn:hover {
+    .play-btn:hover,
+    .nav-btn:hover {
       background: var(--fg);
       color: var(--bg);
     }
@@ -382,7 +384,7 @@
       <a class="nav-link" href="#">LIB</a>
       <div class="brand">
         <span class="brand-dot"></span>
-        <span>VOLHOLLA OPR</span>
+        <span>VOLHOLLA RADIO</span>
       </div>
       <a class="nav-link" href="#">HUB</a>
     </header>
@@ -409,18 +411,20 @@
       <div class="mode-row">
         <button type="button" class="mode-btn is-on" id="shuffleBtn">SHUFFLE</button>
         <button type="button" class="mode-btn is-on" id="autoBtn">AUTO</button>
-        <a class="mode-btn" id="songPageLink" href="#">LINK</a>
+        <a class="mode-btn" id="songPageLink" href="#">SONG</a>
       </div>
 
       <!-- 4. CONTROLS -->
       <div class="controls block">
-        <button type="button" class="play-btn" id="playBtn">START OPERATION</button>
+        <button type="button" class="nav-btn" id="prevBtn">BACK</button>
+        <button type="button" class="play-btn" id="playBtn">PLAY</button>
+        <button type="button" class="nav-btn" id="nextBtn">NEXT</button>
       </div>
 
       <!-- 5. READOUT -->
       <div class="readout block">
         <div class="readout-top">
-          <span id="radioState">STANDBY</span>
+          <span id="radioState">READY</span>
           <span id="radioCount">NO SIGNAL</span>
         </div>
         <h1 id="trackTitle">SYS INIT</h1>
@@ -458,7 +462,9 @@
         count: document.getElementById("radioCount"),
         title: document.getElementById("trackTitle"),
         album: document.getElementById("albumTitle"),
+        prev: document.getElementById("prevBtn"),
         play: document.getElementById("playBtn"),
+        next: document.getElementById("nextBtn"),
         shuffle: document.getElementById("shuffleBtn"),
         auto: document.getElementById("autoBtn"),
         seek: document.getElementById("seekBar"),
@@ -608,13 +614,13 @@
 
         if (!track) return;
 
-        els.state.textContent = playing ? "BROADCAST" : audio.src ? "HALTED" : "STANDBY";
-        els.count.textContent = `TRACK ${position + 1} OF ${catalog.length}`;
+        els.state.textContent = playing ? "PLAYING" : audio.src ? "PAUSED" : "READY";
+        els.count.textContent = `SONG ${position + 1} OF ${catalog.length}`;
         els.title.textContent = track.title;
         els.album.textContent = track.albumLabel;
         els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
         els.dialTitle.textContent = shuffleMode ? "SHUF" : "SEQ";
-        els.play.textContent = playing ? "PAUSE OPR" : audio.src ? "RESUME OPR" : "START OPR";
+        els.play.textContent = playing ? "PAUSE" : audio.src ? "RESUME" : "PLAY";
         if (els.songLink) els.songLink.href = songHref(track.songPage);
 
         const artSrc = pathFromRoot(track.art);
@@ -672,6 +678,17 @@
         if (!catalog.length) return;
         if (position >= order.length - 1) buildOrder(false);
         else position += 1;
+        load(position, true);
+      }
+
+      function previousSequence() {
+        if (!catalog.length) return;
+        if (audio.currentTime > 3) {
+          audio.currentTime = 0;
+          updateUI();
+          return;
+        }
+        position = position > 0 ? position - 1 : order.length - 1;
         load(position, true);
       }
 
@@ -820,7 +837,9 @@
       els.dial.addEventListener("touchstart", (e) => e.preventDefault());
 
       // Other UI bindings
+      els.prev.addEventListener("click", previousSequence);
       els.play.addEventListener("click", playPause);
+      els.next.addEventListener("click", nextSequence);
       
       els.shuffle.addEventListener("click", () => {
         shuffleMode = !shuffleMode;

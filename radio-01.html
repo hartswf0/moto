@@ -366,7 +366,7 @@
 
     .controls {
       display: grid;
-      grid-template-columns: 1.35fr 1fr 1fr;
+      grid-template-columns: 0.8fr 1.2fr 0.8fr 1fr 1fr;
       gap: 0;
     }
 
@@ -611,7 +611,7 @@
         <p id="albumTitle">Shuffle across all albums.</p>
       </div>
 
-      <div class="logic-strip" aria-label="Operational control surface">
+      <div class="logic-strip" aria-label="Player status">
         <button class="bind-line is-bound" type="button" data-bind-line="readout">
           <span>TEXT</span><span id="logicReadout">Readout binds track state</span>
         </button>
@@ -622,7 +622,7 @@
           <span>IMAGE</span><span id="logicArt">Artwork is evidence, not blur</span>
         </button>
         <button class="bind-line" type="button" data-bind-line="queue">
-          <span>QUEUE</span><span id="logicQueue">Queue shows next signal slots</span>
+          <span>QUEUE</span><span id="logicQueue">Songs coming up</span>
         </button>
       </div>
     </section>
@@ -647,15 +647,17 @@
     </section>
 
     <section class="controls" aria-label="Radio controls">
-      <button type="button" class="play-btn" id="playBtn">Start</button>
-      <button type="button" class="mode-btn" id="reshuffleBtn">Reshuffle</button>
+      <button type="button" class="mode-btn" id="prevBtn">Back</button>
+      <button type="button" class="play-btn" id="playBtn">Play</button>
+      <button type="button" class="mode-btn" id="nextBtn">Next</button>
+      <button type="button" class="mode-btn" id="reshuffleBtn">Shuffle</button>
       <a class="mode-btn" id="songPageLink" href="./index.html">Song Page</a>
     </section>
 
     <section class="mode-row" aria-label="Radio modes">
       <button type="button" class="mode-btn is-on" id="shuffleBtn" aria-pressed="true">Shuffle On</button>
       <button type="button" class="mode-btn is-on" id="autoBtn" aria-pressed="true">Auto On</button>
-      <button type="button" class="mode-btn" id="bindResetBtn">Bind Reset</button>
+      <button type="button" class="mode-btn" id="bindResetBtn">Reset View</button>
     </section>
 
     <section class="progress" aria-label="Track progress">
@@ -664,9 +666,9 @@
       <span id="timeTotal">0:00</span>
     </section>
 
-    <section class="queue-panel" data-bind-target="queue" tabindex="0" aria-label="Signal queue">
+    <section class="queue-panel" data-bind-target="queue" tabindex="0" aria-label="Up next">
       <div class="queue-head">
-        <span>Signal Queue</span>
+        <span>Up Next</span>
         <button type="button" id="queueBindBtn">Bind</button>
       </div>
       <ol class="queue-list" id="queueList"></ol>
@@ -695,7 +697,9 @@
         album: document.getElementById("albumTitle"),
         art: document.getElementById("trackArt"),
         artFallback: document.getElementById("artFallback"),
+        prev: document.getElementById("prevBtn"),
         play: document.getElementById("playBtn"),
+        next: document.getElementById("nextBtn"),
         reshuffle: document.getElementById("reshuffleBtn"),
         shuffle: document.getElementById("shuffleBtn"),
         auto: document.getElementById("autoBtn"),
@@ -830,10 +834,10 @@
       }
 
       function updateLogic(track, playing) {
-        if (els.logicReadout) els.logicReadout.textContent = playing ? "Readout broadcasts active track" : "Readout holds current track";
-        if (els.logicDial) els.logicDial.textContent = playing ? "Dial pauses live signal" : "Dial starts signal";
-        if (els.logicArt) els.logicArt.textContent = track?.art ? "Artwork loads as hard image" : "Fallback mark replaces missing art";
-        if (els.logicQueue) els.logicQueue.textContent = `${catalog.length || 0} catalog slots / ${position + 1 || 0} active`;
+        if (els.logicReadout) els.logicReadout.textContent = playing ? "Now playing" : "Current song";
+        if (els.logicDial) els.logicDial.textContent = playing ? "Tap to pause" : "Tap to play";
+        if (els.logicArt) els.logicArt.textContent = track?.art ? "Cover loaded" : "No cover found";
+        if (els.logicQueue) els.logicQueue.textContent = `${catalog.length || 0} songs / ${position + 1 || 0} selected`;
       }
 
       function updateUI() {
@@ -859,13 +863,13 @@
           return;
         }
 
-        if (els.state) els.state.textContent = playing ? "Broadcasting" : audio.src ? "Paused" : "Ready";
+        if (els.state) els.state.textContent = playing ? "Playing" : audio.src ? "Paused" : "Ready";
         if (els.count) els.count.textContent = `${catalog.length} / ${position + 1}`;
         if (els.title) els.title.textContent = track.title || "Untitled Signal";
         if (els.album) els.album.textContent = track.albumLabel || "Unknown Album";
         if (els.dialMark) els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
         if (els.dialTitle) els.dialTitle.textContent = shuffleMode ? "SHUF" : "SEQ";
-        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Start";
+        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play";
         if (els.songLink) els.songLink.href = songHref(track.songPage);
 
         const pct = Number.isFinite(audio.duration) && audio.duration > 0
@@ -930,6 +934,17 @@
         load(position, autoplay);
       }
 
+      function scanBack() {
+        if (!catalog.length) return;
+        if (audio.currentTime > 3) {
+          audio.currentTime = 0;
+          updateUI();
+          return;
+        }
+        position = position > 0 ? position - 1 : order.length - 1;
+        load(position, true);
+      }
+
       async function getManifest() {
         if (window.VOLHOLLA_MANIFEST && typeof window.VOLHOLLA_MANIFEST === "object") {
           return window.VOLHOLLA_MANIFEST;
@@ -961,7 +976,9 @@
       }
 
       els.dial?.addEventListener("click", playPause);
+      els.prev?.addEventListener("click", scanBack);
       els.play?.addEventListener("click", playPause);
+      els.next?.addEventListener("click", () => scanForward(true));
 
       els.reshuffle?.addEventListener("click", () => {
         shuffleMode = true;

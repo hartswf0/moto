@@ -307,7 +307,7 @@
 
     .controls {
       display: grid;
-      grid-template-columns: 1.15fr 1fr 0.86fr;
+      grid-template-columns: 0.82fr 1.15fr 0.82fr 0.86fr;
     }
 
     .play-btn,
@@ -550,13 +550,14 @@
       <h1 id="trackTitle">VOLHOLLA RADIO</h1>
       <div class="readout-bottom">
         <p id="albumTitle">Shuffle across all albums.</p>
-        <span id="radioMode">Auto Shuffle</span>
+        <span id="radioMode">Auto Play</span>
       </div>
     </section>
 
     <section class="controls" aria-label="Radio controls">
-      <button type="button" class="play-btn" id="playBtn">Start</button>
-      <button type="button" class="control-btn" id="reshuffleBtn">Reshuffle</button>
+      <button type="button" class="control-btn" id="prevBtn">Back</button>
+      <button type="button" class="play-btn" id="playBtn">Play</button>
+      <button type="button" class="control-btn" id="nextBtn">Next</button>
       <a class="song-link" id="songPageLink" href="./index.html">Song</a>
     </section>
 
@@ -566,9 +567,9 @@
       <span id="timeTotal">0:00</span>
     </section>
 
-    <section class="queue-panel" aria-label="Signal queue">
+    <section class="queue-panel" aria-label="Up next">
       <div class="queue-head">
-        <span>Signal Queue</span>
+        <span>Up Next</span>
         <span id="queueStatus">Auto next</span>
       </div>
       <ol class="queue-list" id="queueList"></ol>
@@ -590,8 +591,9 @@
         album: document.getElementById("albumTitle"),
         art: document.getElementById("trackArt"),
         artFallback: document.getElementById("artFallback"),
+        prev: document.getElementById("prevBtn"),
         play: document.getElementById("playBtn"),
-        reshuffle: document.getElementById("reshuffleBtn"),
+        next: document.getElementById("nextBtn"),
         songLink: document.getElementById("songPageLink"),
         seek: document.getElementById("seekBar"),
         timeNow: document.getElementById("timeNow"),
@@ -718,21 +720,21 @@
         if (!track) {
           if (els.state) els.state.textContent = "Empty";
           if (els.count) els.count.textContent = "0 Tracks";
-          if (els.mode) els.mode.textContent = "No Signal";
-          if (els.play) els.play.textContent = "Start";
+          if (els.mode) els.mode.textContent = "No Songs";
+          if (els.play) els.play.textContent = "Play";
           if (els.queueStatus) els.queueStatus.textContent = "No queue";
           renderQueue();
           return;
         }
 
-        if (els.state) els.state.textContent = playing ? "Broadcasting" : audio.src ? "Paused" : "Ready";
+        if (els.state) els.state.textContent = playing ? "Playing" : audio.src ? "Paused" : "Ready";
         if (els.count) els.count.textContent = `${catalog.length} / ${position + 1}`;
-        if (els.mode) els.mode.textContent = "Auto Shuffle";
+        if (els.mode) els.mode.textContent = "Auto Play";
         if (els.title) els.title.textContent = track.title || "Untitled Signal";
         if (els.album) els.album.textContent = track.albumLabel || "Unknown Album";
         if (els.dialMark) els.dialMark.textContent = playing ? "ON AIR" : "TUNED";
         if (els.dialTitle) els.dialTitle.textContent = "SHUF";
-        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Start";
+        if (els.play) els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play";
         if (els.songLink) els.songLink.href = songHref(track.songPage);
         if (els.queueStatus) els.queueStatus.textContent = "Auto next";
 
@@ -793,6 +795,17 @@
         load(position, autoplay);
       }
 
+      function prev() {
+        if (!catalog.length) return;
+        if (audio.currentTime > 3) {
+          audio.currentTime = 0;
+          updateUI();
+          return;
+        }
+        position = position > 0 ? position - 1 : order.length - 1;
+        load(position, true);
+      }
+
       async function getManifest() {
         if (window.VOLHOLLA_MANIFEST && typeof window.VOLHOLLA_MANIFEST === "object") return window.VOLHOLLA_MANIFEST;
         const response = await fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" });
@@ -821,12 +834,9 @@
       }
 
       els.dial?.addEventListener("click", playPause);
+      els.prev?.addEventListener("click", prev);
       els.play?.addEventListener("click", playPause);
-
-      els.reshuffle?.addEventListener("click", () => {
-        buildOrder(true);
-        updateUI();
-      });
+      els.next?.addEventListener("click", () => next(true));
 
       els.seek?.addEventListener("pointerdown", () => { seeking = true; });
       els.seek?.addEventListener("pointerup", () => { seeking = false; });
