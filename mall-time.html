@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="THE MALL scoring playlist board" />
+  <title>Mall Time</title>
+  <style>
+    :root {
+      --paper: #ffffff;
+      --ink: #000000;
+      --soft: #f2f2f2;
+      --line: #000000;
+      --accent: #000000;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(0,0,0,0.08) 1px, transparent 1px),
+        var(--paper);
+      background-size: 28px 28px;
+    }
+
+    button,
+    a,
+    select,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    .shell {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+      padding: 10px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .topbar,
+    .player,
+    .panel {
+      border: 2px solid var(--line);
+      background: var(--paper);
+    }
+
+    .topbar {
+      min-height: 42px;
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      align-items: stretch;
+    }
+
+    .nav,
+    .brand,
+    .count {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      font-size: 0.76rem;
+    }
+
+    .brand {
+      border-left: 2px solid var(--line);
+      border-right: 2px solid var(--line);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .player {
+      display: grid;
+      grid-template-columns: 118px 1fr;
+      min-height: 118px;
+    }
+
+    .art {
+      border-right: 2px solid var(--line);
+      background: var(--soft);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .art img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(1) contrast(1.45);
+    }
+
+    .art .mark {
+      font-size: 1.6rem;
+      font-weight: 950;
+    }
+
+    .now {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    .now-top {
+      min-height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--line);
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    .now h1 {
+      margin: 0;
+      padding: 7px 8px 3px;
+      font-size: clamp(1.25rem, 5vw, 3rem);
+      line-height: 0.96;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      overflow-wrap: anywhere;
+    }
+
+    .now p {
+      margin: 0;
+      padding: 0 8px 7px;
+      text-transform: uppercase;
+      font-weight: 850;
+      font-size: 0.8rem;
+    }
+
+    .time-tools {
+      display: none;
+    }
+
+    .fit-row {
+      display: none;
+    }
+
+    .tool-row {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 78px 1fr 68px;
+      align-items: center;
+      min-height: 34px;
+      border-bottom: 2px solid var(--line);
+    }
+
+    .tool-row:last-child { border-bottom: 0; }
+
+    .tool-row label,
+    .tool-value {
+      min-width: 0;
+      padding: 0 7px;
+      text-transform: uppercase;
+      font-weight: 950;
+      font-size: 0.64rem;
+      letter-spacing: 0.07em;
+      white-space: nowrap;
+    }
+
+    .tool-value {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tool-row input[type="range"] {
+      width: 100%;
+      accent-color: var(--ink);
+    }
+
+    .tool-row select {
+      width: 100%;
+      min-width: 0;
+      height: 100%;
+      border: 0;
+      border-left: 2px solid var(--line);
+      border-right: 2px solid var(--line);
+      background: var(--paper);
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 950;
+      padding: 0 6px;
+    }
+
+    .nudge-row {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      border-top: 2px solid var(--line);
+    }
+
+    .nudge-row .btn {
+      min-height: 32px;
+      font-size: 0.64rem;
+    }
+
+    .transport {
+      display: grid;
+      grid-template-columns: 0.85fr 1.2fr 0.85fr 1fr 1fr;
+      border-top: 2px solid var(--line);
+    }
+
+    .btn {
+      min-height: 38px;
+      border: 0;
+      border-right: 2px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 8px;
+      font-size: 0.76rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .btn:last-child { border-right: 0; }
+    .btn.primary { background: var(--ink); color: var(--paper); }
+    .btn:hover,
+    .btn:focus-visible { outline: 3px solid var(--ink); outline-offset: -5px; }
+
+    .layout {
+      display: grid;
+      gap: 8px;
+    }
+
+    .panel {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .panel-head {
+      min-height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--line);
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    .panel-body {
+      padding: 6px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .chapters {
+      display: grid;
+      gap: 6px;
+    }
+
+    .chapter {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      display: grid;
+      gap: 4px;
+      padding: 7px;
+      cursor: pointer;
+    }
+
+    .chapter.is-current {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .chapter-top {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px;
+      font-weight: 950;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+    }
+
+    .chapter p {
+      margin: 0;
+      font-size: 0.72rem;
+      line-height: 1.25;
+    }
+
+    .chapter .time {
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    .playlist {
+      display: grid;
+      gap: 5px;
+    }
+
+    .cue {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      min-height: 70px;
+    }
+
+    .cue.is-current {
+      box-shadow: inset 0 0 0 3px var(--ink);
+    }
+
+    .cue.is-dragging {
+      opacity: 0.45;
+    }
+
+    .cue-no {
+      border-right: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+      cursor: grab;
+      user-select: none;
+      touch-action: none;
+    }
+
+    .cue-no span {
+      display: block;
+      font-size: 0.52rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .cue-main {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto auto auto;
+      gap: 5px;
+      padding: 6px;
+    }
+
+    .cue-title {
+      min-width: 0;
+      font-weight: 950;
+      text-transform: uppercase;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .cue-meta {
+      color: #333;
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .cue-actions {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 72px 72px;
+      gap: 4px;
+    }
+
+    .mini,
+    .chapter-select,
+    .rating-select {
+      min-width: 0;
+      min-height: 28px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 0.64rem;
+      font-weight: 950;
+      letter-spacing: 0.05em;
+    }
+
+    .mini:hover,
+    .chapter-select:hover,
+    .rating-select:hover,
+    .mini:focus-visible,
+    .chapter-select:focus-visible,
+    .rating-select:focus-visible {
+      outline: 2px solid var(--line);
+      outline-offset: -4px;
+    }
+
+    .chapter-select {
+      grid-column: span 2;
+      padding: 0 4px;
+    }
+
+    .beat-list {
+      display: grid;
+      gap: 5px;
+    }
+
+    .beat {
+      border: 1px solid var(--line);
+      padding: 7px;
+      display: grid;
+      gap: 4px;
+    }
+
+    .beat strong {
+      text-transform: uppercase;
+      font-size: 0.75rem;
+    }
+
+    .beat span {
+      font-size: 0.72rem;
+      line-height: 1.25;
+    }
+
+    textarea {
+      width: 100%;
+      min-height: 120px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      padding: 8px;
+      resize: vertical;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.72rem;
+    }
+
+    @media (min-width: 880px) {
+      .layout {
+        grid-template-columns: 280px minmax(0, 1fr) 300px;
+        align-items: start;
+      }
+
+      .panel.sticky {
+        position: sticky;
+        top: 8px;
+      }
+    }
+
+    @media (max-width: 620px) {
+      html,
+      body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .shell {
+        height: 100svh;
+        max-height: 100svh;
+        overflow: hidden;
+        grid-template-rows: auto auto minmax(0, 1fr);
+        padding: 4px;
+      }
+
+      .topbar { display: none; }
+      .player {
+        grid-template-columns: 82px 1fr;
+        min-height: 0;
+      }
+      .art {
+        display: grid;
+        min-height: 100%;
+      }
+      .art .mark {
+        font-size: 1.15rem;
+      }
+      .now-top {
+        min-height: 22px;
+        font-size: 0.58rem;
+        padding: 0 6px;
+      }
+      .now h1 {
+        font-size: clamp(0.94rem, 6.6vw, 1.7rem);
+        padding: 5px 6px 1px;
+      }
+      .now p {
+        font-size: 0.61rem;
+        padding: 0 6px 4px;
+      }
+      .tool-row {
+        grid-template-columns: 54px 1fr 50px;
+        min-height: 28px;
+      }
+      .tool-row label,
+      .tool-value {
+        font-size: 0.56rem;
+        padding: 0 5px;
+      }
+      .tool-row select {
+        font-size: 0.62rem;
+      }
+      .transport { grid-template-columns: 1fr 1fr 1fr; }
+      .transport .btn:nth-child(3) { border-right: 0; }
+      .transport .btn:nth-child(n+4) { display: none; }
+      .layout {
+        min-height: 0;
+        overflow: hidden;
+        grid-template-rows: minmax(0, 1fr);
+      }
+      .layout .panel:first-child,
+      .layout .panel:last-child {
+        display: none;
+      }
+      .panel,
+      .panel-body,
+      .playlist {
+        min-height: 0;
+      }
+      .panel-body {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+      }
+      .cue {
+        min-height: 62px;
+        grid-template-columns: 38px 1fr;
+      }
+      .cue-main {
+        gap: 3px;
+        padding: 5px;
+      }
+      .cue-title {
+        font-size: 0.82rem;
+      }
+      .cue-meta {
+        font-size: 0.65rem;
+      }
+      .cue-actions { grid-template-columns: minmax(0, 1fr) 64px 60px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="nav" href="./index.html">Hub</a>
+      <div class="brand">Mall Time</div>
+      <div class="count" id="countReadout">31 cues</div>
+    </header>
+
+    <section class="player" aria-label="Playlist player">
+      <div class="art" id="artBox"><div class="mark">MT</div></div>
+      <div class="now">
+        <div class="now-top">
+          <span id="stateReadout">Recommended Pass</span>
+          <span id="timeReadout">0:00 / 26:43</span>
+        </div>
+        <h1 id="nowTitle">First Cue Ready</h1>
+        <p id="nowMeta">Recommended scoring pass for THE MALL</p>
+        <div class="time-tools" aria-label="Cue timing tools">
+          <div class="tool-row">
+            <label for="activeChapter">Chapter</label>
+            <select id="activeChapter"></select>
+            <span class="tool-value" id="chapterTime">0:00</span>
+          </div>
+          <div class="tool-row">
+            <label for="hitRange">Start</label>
+            <input id="hitRange" type="range" min="0" max="1603" value="0" step="1" aria-label="Cue start time" />
+            <span class="tool-value" id="hitValue">0:00</span>
+          </div>
+          <div class="tool-row">
+            <label for="durationRange">Length</label>
+            <input id="durationRange" type="range" min="5" max="180" value="45" step="1" aria-label="Cue duration" />
+            <span class="tool-value" id="durationValue">0:45</span>
+          </div>
+          <div class="tool-row fit-row">
+            <label for="fitSelect">Fit</label>
+            <select id="fitSelect">
+              <option value="try">Try</option>
+              <option value="good">Good</option>
+              <option value="hold">Hold</option>
+              <option value="cut">Cut</option>
+            </select>
+            <span class="tool-value" id="endValue">0:45</span>
+          </div>
+          <div class="nudge-row">
+            <button type="button" class="btn" id="minus15Btn">-15s</button>
+            <button type="button" class="btn" id="minus1Btn">-1s</button>
+            <button type="button" class="btn" id="plus1Btn">+1s</button>
+            <button type="button" class="btn" id="plus15Btn">+15s</button>
+          </div>
+        </div>
+        <div class="transport">
+          <button type="button" class="btn" id="prevBtn">Back</button>
+          <button type="button" class="btn primary" id="playBtn">Play Pass</button>
+          <button type="button" class="btn" id="nextBtn">Next</button>
+          <button type="button" class="btn" id="copyBtn">Copy Plan</button>
+          <a class="btn" id="songLink" href="./VOLHOLLA/index.html">Song Page</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel sticky">
+        <div class="panel-head">
+          <span>Film Beats</span>
+          <span id="chapterReadout">CH00</span>
+        </div>
+        <div class="panel-body">
+          <div class="chapters" id="chapterList"></div>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <div class="panel-head">
+          <span>Recommended Pass</span>
+          <button type="button" class="mini" id="resetBtn">Rebuild</button>
+        </div>
+        <div class="panel-body">
+          <div class="playlist" id="playlist"></div>
+        </div>
+      </section>
+
+      <aside class="panel sticky">
+        <div class="panel-head">
+          <span>Match Notes</span>
+          <button type="button" class="mini" id="saveNoteBtn">Save</button>
+        </div>
+        <div class="panel-body">
+          <div class="beat-list" id="beatList"></div>
+          <textarea id="notes" spellcheck="true" placeholder="Notes for sync points, cuts, dialogue gaps, or scenes that need less music."></textarea>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const FILM_DURATION = 1603.221;
+      const STORAGE_KEY = "mallTimeScorePlan.v3";
+      const NOTE_KEY = "mallTimeScoreNotes.v1";
+
+      const chapters = [
+        { id: "CH00", title: "Public Release", start: 0, duration: 30.058, clips: 2, fn: "declare the case apparatus and witness frame" },
+        { id: "CH01", title: "The Building Becomes A Field", start: 30.058, duration: 180.348, clips: 12, fn: "geography, containment, access, threshold, surveillance" },
+        { id: "CH02", title: "Governance Without Government", start: 210.406, duration: 285.551, clips: 19, fn: "value, queues, status, law, caste" },
+        { id: "CH03", title: "Metabolism Of The Sealed Interior", start: 495.957, duration: 350.689, clips: 24, fn: "food, waste, batteries, lint, heat, salvage" },
+        { id: "CH04", title: "Bodies Under Retail Light", start: 846.646, duration: 240.464, clips: 16, fn: "display, sleep, cosmetics, mannequins, visibility" },
+        { id: "CH05", title: "Belief Systems And Language Drift", start: 1087.110, duration: 300.580, clips: 20, fn: "ritual, archive, Muzak, ghosts, catalog logic" },
+        { id: "CH06", title: "Residue That Keeps Producing", start: 1387.690, duration: 165.319, clips: 11, fn: "children, games, commons, final persistence" }
+      ];
+
+      const selected = [
+        { page: "VOLHOLLA/song-mallground-02.html", chapter: "CH01", note: "blackout, power return, threshold" },
+        { page: "VOLHOLLA/song-mallground-04.html", chapter: "CH05", note: "catalog logic, archive mind" },
+        { page: "VOLHOLLA/song-mallground-05.html", chapter: "CH04", note: "children, memory, body under retail light" },
+        { page: "VOLHOLLA/song-mallground-06.html", chapter: "CH01", note: "corridor geography, moving air" },
+        { page: "VOLHOLLA/song-mallground-08.html", chapter: "CH03", note: "food court catacombs, metabolism" },
+        { page: "VOLHOLLA/song-mallground-09.html", chapter: "CH05", note: "archive, personhood, evidence" },
+        { page: "VOLHOLLA/song-mallground-10.html", chapter: "CH02", note: "returns desk, law, bureaucracy" },
+        { page: "VOLHOLLA/song-mallground-11.html", chapter: "CH01", note: "door threshold, entry ritual" },
+        { page: "VOLHOLLA/song-mallground-16.html", chapter: "CH00", note: "casefile opening, playback evidence" },
+        { page: "VOLHOLLA/song-mallground-17.html", chapter: "CH02", note: "food court governance" },
+        { page: "VOLHOLLA/song-mallground-19.html", chapter: "CH00", note: "index, evidence, title logic" },
+        { page: "VOLHOLLA/song-mallground-20.html", chapter: "CH04", note: "optical store, mirrors, visibility" },
+        { page: "VOLHOLLA/song-mallground-22.html", chapter: "CH02", note: "kiosk states, micro law" },
+        { page: "VOLHOLLA/song-mallground-23.html", chapter: "CH04", note: "mezzanine access, clearance, display" },
+        { page: "VOLHOLLA/song-mallground-26.html", chapter: "CH05", note: "lost found archive, ghost inventory" },
+        { page: "VOLHOLLA/song-mallground-27.html", chapter: "CH06", note: "system afterlife, paradise machine" },
+        { page: "VOLHOLLA/song-mallmezzanine-03.html", chapter: "CH03", note: "fryer heat, metabolism" },
+        { page: "VOLHOLLA/song-mallmezzanine-06.html", chapter: "CH01", note: "surveillance, panopticon geography" },
+        { page: "VOLHOLLA/song-mallmezzanine-07.html", chapter: "CH06", note: "children, games, CCTV residue" },
+        { page: "VOLHOLLA/song-mallmezzanine-08.html", chapter: "CH01", note: "pressure, architecture, enclosure" },
+        { page: "VOLHOLLA/song-mallmezzanine-09.html", chapter: "CH02", note: "field study, institutional frame" },
+        { page: "VOLHOLLA/song-mallmezzanine-10.html", chapter: "CH04", note: "portrait, pose, status body" },
+        { page: "VOLHOLLA/song-mallmezzanine-11.html", chapter: "CH03", note: "retail ecology, artifact" },
+        { page: "VOLHOLLA/song-mallmezzanine-13.html", chapter: "CH05", note: "time ritual, seasonal engine" },
+        { page: "VOLHOLLA/song-mallmezzanine-14.html", chapter: "CH03", note: "sealed stockroom, salvage" },
+        { page: "VOLHOLLA/song-mallmezzanine-16.html", chapter: "CH06", note: "search team, persistence" },
+        { page: "VOLHOLLA/song-mallmezzanine-17.html", chapter: "CH03", note: "Sears wastes, sub-level", fit: "good" },
+        { page: "VOLHOLLA/song-mallmezzanine-20.html", chapter: "CH02", note: "store credit, value math" },
+        { page: "VOLHOLLA/song-mallmezzanine-22.html", chapter: "CH02", note: "taxonomy, social order", fit: "good" },
+        { page: "VOLHOLLA/song-mallmezzanine-23.html", chapter: "CH05", note: "atrium covenant, belief", fit: "good" },
+        { page: "VOLHOLLA/song-mallmezzanine-25.html", chapter: "CH04", note: "Upper Macy, olfactory class", fit: "good" }
+      ];
+
+      const fallback = {
+        "VOLHOLLA/song-mallground-02.html": ["Blackout Return", "MALL PATCHWORLD/Mall Patchworld Ingest - Blackout Return - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallground-04.html": ["Catalog Mind", "MALL PATCHWORLD/Mall Patchworld Ingest - Catalog Mind - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallground-05.html": ["Childhood Ruin Collapse", "MALL PATCHWORLD/Mall Patchworld Ingest - Childhood Ruin Collapse - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallground-06.html": ["Corridor Divided by Moving Air", "MALL PATCHWORLD/Mall Patchworld Ingest - Corridor Divided by Moving Air - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallground-08.html": ["Deep Friars / MallNet Fragment A1", "MALL PATCHWORLD/Mall Patchworld Ingest - Deep Friars _ MallNet Fragment A1 - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallground-09.html": ["Detached Personhood Archive", "MALL PATCHWORLD/Mall Patchworld Ingest - Detached Personhood Archive - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallground-10.html": ["Docket of Returns", "MALL PATCHWORLD/Mall Patchworld Ingest - Docket of Returns - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallground-11.html": ["Door Sensor Rite", "MALL PATCHWORLD/Mall Patchworld Ingest - Door Sensor Rite (The Threshold Opens) - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallground-16.html": ["Forensic Playback / Sector 4", "MALL PATCHWORLD/Mall Patchworld Ingest - Forensic Playback_ Sector 4 - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallground-17.html": ["Governance of the Tray", "MALL PATCHWORLD/Mall Patchworld Ingest - Governance of the Tray - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallground-19.html": ["Indexed Evidence 120", "MALL PATCHWORLD/Mall Patchworld Ingest - INDEXED EVIDENCE 120 - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallground-20.html": ["Inside the Optical Store", "MALL PATCHWORLD/Mall Patchworld Ingest - Inside the Optical Store - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallground-22.html": ["Kiosk Republics", "MALL PATCHWORLD/Mall Patchworld Ingest - Kiosk Republics - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallground-23.html": ["Level Two Clearance", "MALL PATCHWORLD/Mall Patchworld Ingest - Level Two Clearance - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallground-26.html": ["Lost Object Choir (SRC077)", "MALL PATCHWORLD/Mall Patchworld Ingest - Lost Object Choir (SRC077) - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallground-27.html": ["MallNet Paradise System", "MALL PATCHWORLD/Mall Patchworld Ingest - MallNet Paradise System - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-03.html": ["Metabolic Fryer", "MALL PATCHWORLD/Mall Patchworld Ingest - Metabolic Fryer - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-06.html": ["Panopticon Retail", "MALL PATCHWORLD/Mall Patchworld Ingest - Panopticon Retail - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-07.html": ["Playground CCTV", "MALL PATCHWORLD/Mall Patchworld Ingest - Playground CCTV - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-08.html": ["Pressure Architecture", "MALL PATCHWORLD/Mall Patchworld Ingest - Pressure Architecture - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-09.html": ["Project Panopticon", "MALL PATCHWORLD/Mall Patchworld Ingest - Project Panopticon (Field Study) - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-10.html": ["Republic of Pose", "MALL PATCHWORLD/Mall Patchworld Ingest - Republic of Pose - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-11.html": ["Retail Ecology (Artifact 08)", "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Ecology (Artifact 08) - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-13.html": ["Retail Time Ritual", "MALL PATCHWORLD/Mall Patchworld Ingest - Retail Time Ritual - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-14.html": ["Sealed Stockroom Recovery", "MALL PATCHWORLD/Mall Patchworld Ingest - SEALED STOCKROOM RECOVERY - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-16.html": ["Search Team Echoes", "MALL PATCHWORLD/Mall Patchworld Ingest - Search Team Echoes - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-17.html": ["Sears Wastes Reject", "MALL PATCHWORLD/Mall Patchworld Ingest - Sears Wastes Reject - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-20.html": ["Store Credit Math", "MALL PATCHWORLD/Mall Patchworld Ingest - Store Credit Math - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png"],
+        "VOLHOLLA/song-mallmezzanine-22.html": ["Survival Taxonomy", "MALL PATCHWORLD/Mall Patchworld Ingest - Survival Taxonomy - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-23.html": ["The Atrium Covenant", "MALL PATCHWORLD/Mall Patchworld Ingest - The Atrium Covenant - Sonauto.ogg", "MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"],
+        "VOLHOLLA/song-mallmezzanine-25.html": ["Upper Macy Aura", "MALL PATCHWORLD/Mall Patchworld Ingest - Upper Macy Aura - Sonauto.ogg", "MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"]
+      };
+
+      const recommendedOrder = [
+        "VOLHOLLA/song-mallground-16.html",
+        "VOLHOLLA/song-mallground-19.html",
+        "VOLHOLLA/song-mallground-02.html",
+        "VOLHOLLA/song-mallground-06.html",
+        "VOLHOLLA/song-mallground-11.html",
+        "VOLHOLLA/song-mallmezzanine-06.html",
+        "VOLHOLLA/song-mallmezzanine-08.html",
+        "VOLHOLLA/song-mallground-10.html",
+        "VOLHOLLA/song-mallground-22.html",
+        "VOLHOLLA/song-mallground-17.html",
+        "VOLHOLLA/song-mallmezzanine-09.html",
+        "VOLHOLLA/song-mallmezzanine-20.html",
+        "VOLHOLLA/song-mallmezzanine-22.html",
+        "VOLHOLLA/song-mallground-08.html",
+        "VOLHOLLA/song-mallmezzanine-03.html",
+        "VOLHOLLA/song-mallmezzanine-11.html",
+        "VOLHOLLA/song-mallmezzanine-14.html",
+        "VOLHOLLA/song-mallmezzanine-17.html",
+        "VOLHOLLA/song-mallground-05.html",
+        "VOLHOLLA/song-mallground-20.html",
+        "VOLHOLLA/song-mallground-23.html",
+        "VOLHOLLA/song-mallmezzanine-10.html",
+        "VOLHOLLA/song-mallmezzanine-25.html",
+        "VOLHOLLA/song-mallground-04.html",
+        "VOLHOLLA/song-mallground-09.html",
+        "VOLHOLLA/song-mallground-26.html",
+        "VOLHOLLA/song-mallmezzanine-13.html",
+        "VOLHOLLA/song-mallmezzanine-23.html",
+        "VOLHOLLA/song-mallground-27.html",
+        "VOLHOLLA/song-mallmezzanine-07.html",
+        "VOLHOLLA/song-mallmezzanine-16.html"
+      ];
+
+      const els = {
+        count: document.getElementById("countReadout"),
+        state: document.getElementById("stateReadout"),
+        time: document.getElementById("timeReadout"),
+        title: document.getElementById("nowTitle"),
+        meta: document.getElementById("nowMeta"),
+        art: document.getElementById("artBox"),
+        prev: document.getElementById("prevBtn"),
+        play: document.getElementById("playBtn"),
+        next: document.getElementById("nextBtn"),
+        copy: document.getElementById("copyBtn"),
+        songLink: document.getElementById("songLink"),
+        activeChapter: document.getElementById("activeChapter"),
+        chapterTime: document.getElementById("chapterTime"),
+        hitRange: document.getElementById("hitRange"),
+        hitValue: document.getElementById("hitValue"),
+        durationRange: document.getElementById("durationRange"),
+        durationValue: document.getElementById("durationValue"),
+        fitSelect: document.getElementById("fitSelect"),
+        endValue: document.getElementById("endValue"),
+        minus15: document.getElementById("minus15Btn"),
+        minus1: document.getElementById("minus1Btn"),
+        plus1: document.getElementById("plus1Btn"),
+        plus15: document.getElementById("plus15Btn"),
+        reset: document.getElementById("resetBtn"),
+        saveNote: document.getElementById("saveNoteBtn"),
+        notes: document.getElementById("notes"),
+        chapters: document.getElementById("chapterList"),
+        chapterReadout: document.getElementById("chapterReadout"),
+        playlist: document.getElementById("playlist"),
+        beats: document.getElementById("beatList")
+      };
+
+      const audio = new Audio();
+      audio.preload = "metadata";
+      let currentIndex = 0;
+      let currentChapter = "CH00";
+      let passComplete = false;
+      let cachedManifest = null;
+      let draggedId = null;
+      let pointerDraggedId = null;
+      let pointerDragEl = null;
+      let plan = buildRecommendedPlan();
+
+      function path(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source) || source.startsWith("data:")) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function fmt(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "0:00";
+        const m = Math.floor(sec / 60);
+        const s = Math.floor(sec % 60);
+        return `${m}:${String(s).padStart(2, "0")}`;
+      }
+
+      function runtime(cue) {
+        const seconds = Number(cue?.runtime);
+        return Number.isFinite(seconds) && seconds > 0.5 ? seconds : null;
+      }
+
+      function runtimeLabel(cue) {
+        const seconds = runtime(cue);
+        return seconds === null ? "runtime --" : `runtime ${fmt(seconds)}`;
+      }
+
+      function chapterFor(id) {
+        return chapters.find((chapter) => chapter.id === id) || chapters[0];
+      }
+
+      function defaultStars(fit) {
+        if (fit === "good") return 4;
+        if (fit === "hold") return 3;
+        if (fit === "cut") return 1;
+        return 2;
+      }
+
+      function stars(cue) {
+        return Math.max(0, Math.min(5, Number(cue.stars) || 0));
+      }
+
+      function buildRecommendedPlan() {
+        const chapterRank = Object.fromEntries(chapters.map((chapter, index) => [chapter.id, index]));
+        const orderRank = Object.fromEntries(recommendedOrder.map((page, index) => [page, index]));
+        const cues = selected.map((item) => {
+          const fb = fallback[item.page] || ["Untitled", "", ""];
+          return {
+            id: item.page,
+            page: item.page,
+            title: fb[0],
+            audio: fb[1],
+            art: fb[2],
+            chapter: item.chapter,
+            note: item.note,
+            fit: item.fit || "try",
+            stars: Number.isFinite(Number(item.stars)) ? Number(item.stars) : defaultStars(item.fit),
+            runtime: null,
+            manualTime: null,
+            duration: 45,
+            order: orderRank[item.page] ?? 999
+          };
+        }).sort((a, b) => {
+          const chapterDelta = (chapterRank[a.chapter] ?? 99) - (chapterRank[b.chapter] ?? 99);
+          if (chapterDelta) return chapterDelta;
+          return a.order - b.order;
+        });
+
+        cues.forEach((cue, index) => { cue.order = index; });
+        chapters.forEach((chapter) => {
+          const group = cues.filter((cue) => cue.chapter === chapter.id).sort((a, b) => a.order - b.order);
+          const spacing = chapter.duration / Math.max(1, group.length + 1);
+          const duration = Math.max(18, Math.min(70, spacing * 0.72));
+          group.forEach((cue, index) => {
+            cue.manualTime = chapter.start + spacing * (index + 1);
+            cue.duration = Math.round(duration);
+          });
+        });
+        return cues;
+      }
+
+      function sortedPlan() {
+        return plan.slice().sort((a, b) => a.order - b.order);
+      }
+
+      function assignedToChapter(id) {
+        return sortedPlan().filter((cue) => cue.chapter === id);
+      }
+
+      function suggestedCueTime(cue) {
+        const chapter = chapterFor(cue.chapter);
+        const cues = assignedToChapter(cue.chapter);
+        const idx = Math.max(0, cues.findIndex((item) => item.id === cue.id));
+        const step = chapter.duration / Math.max(1, cues.length + 1);
+        return chapter.start + step * (idx + 1);
+      }
+
+      function clampTime(sec) {
+        return Math.max(0, Math.min(FILM_DURATION, Number(sec) || 0));
+      }
+
+      function cueTime(cue) {
+        return clampTime(cue.manualTime === null || cue.manualTime === undefined ? suggestedCueTime(cue) : cue.manualTime);
+      }
+
+      function cueDuration(cue) {
+        return Math.max(5, Math.min(180, Number(cue.duration) || 45));
+      }
+
+      function cueEnd(cue) {
+        return clampTime(cueTime(cue) + cueDuration(cue));
+      }
+
+      function setCueTime(cue, value) {
+        cue.manualTime = clampTime(value);
+        cue.chapter = chapterAt(cue.manualTime).id;
+        currentChapter = cue.chapter;
+        save();
+        render();
+      }
+
+      function chapterAt(sec) {
+        const time = clampTime(sec);
+        return chapters.find((chapter) => time >= chapter.start && time < chapter.start + chapter.duration) || chapters[chapters.length - 1];
+      }
+
+      function save() {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(plan.map(({ id, chapter, order, note, fit, stars, manualTime, duration }) => ({ id, chapter, order, note, fit, stars, manualTime, duration }))));
+        } catch {
+          // storage can be blocked
+        }
+      }
+
+      function loadSaved() {
+        try {
+          const raw = localStorage.getItem(STORAGE_KEY);
+          if (!raw) return;
+          const saved = JSON.parse(raw);
+          if (!Array.isArray(saved)) return;
+          const base = Object.fromEntries(buildRecommendedPlan().map((cue) => [cue.id, cue]));
+          const restored = [];
+          saved.forEach((item) => {
+            const cue = base[item.id];
+            if (!cue) return;
+            if (chapters.some((chapter) => chapter.id === item.chapter)) cue.chapter = item.chapter;
+            if (Number.isFinite(Number(item.order))) cue.order = Number(item.order);
+            if (typeof item.note === "string") cue.note = item.note;
+            if (typeof item.fit === "string") cue.fit = item.fit;
+            if (Number.isFinite(Number(item.stars))) cue.stars = Math.max(0, Math.min(5, Number(item.stars)));
+            if (Number.isFinite(Number(item.manualTime))) cue.manualTime = Number(item.manualTime);
+            if (Number.isFinite(Number(item.duration))) cue.duration = Number(item.duration);
+            restored.push(cue);
+          });
+          plan = restored;
+        } catch {
+          // ignore malformed local state
+        }
+      }
+
+      function normalizeOrder() {
+        sortedPlan().forEach((cue, index) => { cue.order = index; });
+      }
+
+      function loadNotes() {
+        try {
+          els.notes.value = localStorage.getItem(NOTE_KEY) || "";
+        } catch {
+          els.notes.value = "";
+        }
+      }
+
+      function saveNotes() {
+        try {
+          localStorage.setItem(NOTE_KEY, els.notes.value || "");
+        } catch {
+          // ignore
+        }
+      }
+
+      function setCurrentById(id, autoplay) {
+        const index = sortedPlan().findIndex((cue) => cue.id === id);
+        if (index < 0) return;
+        passComplete = false;
+        currentIndex = index;
+        loadCurrent(autoplay);
+      }
+
+      function currentCue() {
+        return sortedPlan()[currentIndex] || sortedPlan()[0];
+      }
+
+      function loadCurrent(autoplay) {
+        const cue = currentCue();
+        if (!cue) return;
+        currentChapter = cue.chapter;
+        const src = path(cue.audio);
+        if (src && audio.src !== new URL(encodeURI(src), window.location.href).toString()) {
+          audio.src = encodeURI(src);
+          audio.load();
+        }
+        if (Number.isFinite(audio.duration)) cue.runtime = audio.duration;
+        render();
+        if (autoplay && src) audio.play().catch(render);
+      }
+
+      function playPause() {
+        const cue = currentCue();
+        if (!cue) return;
+        if (!audio.src) {
+          passComplete = false;
+          currentIndex = Math.max(0, currentIndex);
+          loadCurrent(true);
+          return;
+        }
+        if (audio.paused) {
+          passComplete = false;
+          audio.play().catch(render);
+        }
+        else audio.pause();
+      }
+
+      function next() {
+        const list = sortedPlan();
+        if (!list.length) return;
+        passComplete = false;
+        currentIndex = currentIndex >= list.length - 1 ? 0 : currentIndex + 1;
+        loadCurrent(true);
+      }
+
+      function advanceAfterEnd() {
+        const list = sortedPlan();
+        if (!list.length) return;
+        if (currentIndex >= list.length - 1) {
+          audio.pause();
+          audio.removeAttribute("src");
+          audio.load();
+          passComplete = true;
+          currentIndex = 0;
+          render();
+          return;
+        }
+        currentIndex += 1;
+        loadCurrent(true);
+      }
+
+      function prev() {
+        const list = sortedPlan();
+        if (!list.length) return;
+        passComplete = false;
+        if (audio.currentTime > 3) {
+          audio.currentTime = 0;
+          render();
+          return;
+        }
+        currentIndex = currentIndex > 0 ? currentIndex - 1 : list.length - 1;
+        loadCurrent(true);
+      }
+
+      function moveCue(id, delta) {
+        const list = sortedPlan();
+        const index = list.findIndex((cue) => cue.id === id);
+        const nextIndex = index + delta;
+        if (index < 0 || nextIndex < 0 || nextIndex >= list.length) return;
+        const a = list[index];
+        const b = list[nextIndex];
+        [a.order, b.order] = [b.order, a.order];
+        currentIndex = nextIndex;
+        save();
+        render();
+      }
+
+      function moveCueTo(sourceId, targetId) {
+        if (!sourceId || !targetId || sourceId === targetId) return;
+        const list = sortedPlan();
+        const from = list.findIndex((cue) => cue.id === sourceId);
+        const to = list.findIndex((cue) => cue.id === targetId);
+        if (from < 0 || to < 0) return;
+        const [moved] = list.splice(from, 1);
+        list.splice(to, 0, moved);
+        list.forEach((cue, index) => { cue.order = index; });
+        currentIndex = list.findIndex((cue) => cue.id === moved.id);
+        save();
+        render();
+      }
+
+      function chapterOptions(active) {
+        return chapters.map((chapter) => `<option value="${chapter.id}" ${chapter.id === active ? "selected" : ""}>${chapter.id} ${chapter.title}</option>`).join("");
+      }
+
+      function starOptions(active) {
+        return [0, 1, 2, 3, 4, 5].map((value) => `<option value="${value}" ${value === stars({ stars: active }) ? "selected" : ""}>${value}</option>`).join("");
+      }
+
+      function deleteCue(id) {
+        const list = sortedPlan();
+        const index = list.findIndex((cue) => cue.id === id);
+        if (index < 0) return;
+        const wasPlaying = !audio.paused && !!audio.src;
+        const wasCurrent = currentCue()?.id === id;
+        plan = list.filter((cue) => cue.id !== id);
+        if (wasCurrent) currentIndex = Math.min(index, Math.max(0, plan.length - 1));
+        else if (index < currentIndex) currentIndex -= 1;
+        passComplete = false;
+        if (!plan.length) {
+          audio.pause();
+          audio.removeAttribute("src");
+          audio.load();
+          save();
+          render();
+          return;
+        }
+        save();
+        if (wasCurrent) loadCurrent(wasPlaying);
+        else render();
+      }
+
+      function renderActiveTools() {
+        const cue = currentCue();
+        if (!cue) {
+          els.activeChapter.innerHTML = chapterOptions(currentChapter);
+          els.hitRange.value = "0";
+          els.hitValue.textContent = "0:00";
+          els.durationRange.value = "45";
+          els.durationValue.textContent = "0:45";
+          els.fitSelect.value = "try";
+          els.endValue.textContent = "0:45";
+          return;
+        }
+        const chapter = chapterFor(cue.chapter);
+        els.activeChapter.innerHTML = chapterOptions(cue.chapter);
+        els.activeChapter.value = cue.chapter;
+        els.chapterTime.textContent = `${fmt(chapter.start)}-${fmt(chapter.start + chapter.duration)}`;
+        els.hitRange.max = String(Math.floor(FILM_DURATION));
+        els.hitRange.value = String(Math.round(cueTime(cue)));
+        els.hitValue.textContent = fmt(cueTime(cue));
+        els.durationRange.value = String(Math.round(cueDuration(cue)));
+        els.durationValue.textContent = fmt(cueDuration(cue));
+        els.fitSelect.value = cue.fit || "try";
+        els.endValue.textContent = fmt(cueEnd(cue));
+      }
+
+      function renderChapters() {
+        els.chapters.innerHTML = chapters.map((chapter) => {
+          const count = assignedToChapter(chapter.id).length;
+          const end = chapter.start + chapter.duration;
+          return `
+            <button type="button" class="chapter ${chapter.id === currentChapter ? "is-current" : ""}" data-chapter="${chapter.id}">
+              <div class="chapter-top"><span>${chapter.id} / ${chapter.title}</span><span class="time">${fmt(chapter.start)}-${fmt(end)}</span></div>
+              <p>${chapter.fn}</p>
+              <p>${count} cues / ${chapter.clips} clips</p>
+            </button>
+          `;
+        }).join("");
+      }
+
+      function renderPlaylist() {
+        const list = sortedPlan();
+        if (!list.length) {
+          els.playlist.innerHTML = `
+            <article class="cue">
+              <div class="cue-no">00</div>
+              <div class="cue-main">
+                <div class="cue-title">No cues in this pass</div>
+                <div class="cue-meta">Use Rebuild to restore the recommended pass.</div>
+              </div>
+            </article>
+          `;
+          return;
+        }
+        els.playlist.innerHTML = list.map((cue, index) => {
+          const chapter = chapterFor(cue.chapter);
+          const hit = cueTime(cue);
+          return `
+            <article class="cue ${index === currentIndex ? "is-current" : ""}" data-id="${cue.id}" draggable="true">
+              <div class="cue-no">${String(index + 1).padStart(2, "0")}<span>move</span></div>
+              <div class="cue-main">
+                <div class="cue-title">${cue.title}</div>
+                <div class="cue-meta">${chapter.id} ${chapter.title} / ${fmt(hit)} / ${runtimeLabel(cue)} / ${stars(cue)}/5</div>
+                <div class="cue-actions">
+                  <button type="button" class="mini" data-action="play">Play</button>
+                  <select class="rating-select" data-action="stars" aria-label="Stars for ${cue.title}">${starOptions(cue.stars)}</select>
+                  <button type="button" class="mini" data-action="delete" aria-label="Cut ${cue.title}">Cut</button>
+                </div>
+              </div>
+            </article>
+          `;
+        }).join("");
+      }
+
+      function renderBeats() {
+        const cues = assignedToChapter(currentChapter);
+        const chapter = chapterFor(currentChapter);
+        els.beats.innerHTML = cues.map((cue) => `
+          <div class="beat">
+            <strong>${fmt(cueTime(cue))}-${fmt(cueEnd(cue))} / ${cue.title}</strong>
+            <span>${runtimeLabel(cue)} / ${stars(cue)}/5 / ${cue.note}</span>
+          </div>
+        `).join("") || `
+          <div class="beat">
+            <strong>${chapter.id} has no cue yet</strong>
+            <span>Move a song into this chapter from the playlist.</span>
+          </div>
+        `;
+      }
+
+      function renderNow() {
+        const cue = currentCue();
+        if (!cue) {
+          els.state.textContent = "No Cues";
+          els.time.textContent = `0:00 / ${fmt(FILM_DURATION)}`;
+          els.title.textContent = "No cues in pass";
+          els.meta.textContent = "Rebuild restores the recommended pass";
+          els.play.textContent = "Play Pass";
+          els.art.innerHTML = `<div class="mark">MT</div>`;
+          els.count.textContent = "0 cues";
+          return;
+        }
+        const chapter = chapterFor(cue.chapter);
+        const playing = !audio.paused && !!audio.src;
+        els.state.textContent = passComplete ? "Pass Complete" : playing ? "Playing Pass" : audio.src ? "Paused" : "Recommended Pass";
+        els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(runtime(cue) ?? audio.duration)}` : runtimeLabel(cue);
+        els.title.textContent = cue.title;
+        els.meta.textContent = `${chapter.id} / ${chapter.title} / ${fmt(cueTime(cue))}-${fmt(cueEnd(cue))} / ${stars(cue)}/5`;
+        els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play Pass";
+        els.songLink.href = `./${cue.page}`;
+        const art = path(cue.art);
+        els.art.innerHTML = art ? `<img src="${encodeURI(art)}" alt="${cue.title} artwork">` : `<div class="mark">MT</div>`;
+        els.count.textContent = `${plan.length} cues`;
+        els.chapterReadout.textContent = `${chapterFor(currentChapter).id} ${chapterFor(currentChapter).title}`;
+      }
+
+      function render() {
+        normalizeOrder();
+        renderChapters();
+        renderPlaylist();
+        renderBeats();
+        renderActiveTools();
+        renderNow();
+      }
+
+      function exportPlan() {
+        const payload = {
+          title: "THE MALL score playlist",
+          durationSeconds: FILM_DURATION,
+          cues: sortedPlan().map((cue, index) => ({
+            order: index + 1,
+            chapter: cue.chapter,
+            chapterTitle: chapterFor(cue.chapter).title,
+            start: fmt(cueTime(cue)),
+            end: fmt(cueEnd(cue)),
+            duration: fmt(cueDuration(cue)),
+            runtime: runtime(cue) === null ? null : fmt(runtime(cue)),
+            stars: stars(cue),
+            fit: cue.fit || "try",
+            title: cue.title,
+            songPage: cue.page,
+            audio: cue.audio,
+            note: cue.note
+          })),
+          notes: els.notes.value || ""
+        };
+        const text = JSON.stringify(payload, null, 2);
+        if (navigator.clipboard?.writeText) {
+          navigator.clipboard.writeText(text).then(() => {
+            els.copy.textContent = "Copied";
+            setTimeout(() => { els.copy.textContent = "Copy Plan"; }, 1000);
+          }).catch(() => window.prompt("Copy plan", text));
+        } else {
+          window.prompt("Copy plan", text);
+        }
+      }
+
+      function applyManifest(manifest) {
+        const byPage = {};
+        Object.values(manifest?.albums || {}).forEach((album) => {
+          (album.tracks || []).forEach((track) => {
+            if (!track.songPage) return;
+            byPage[track.songPage] = { track, album };
+          });
+        });
+        plan.forEach((cue) => {
+          const hit = byPage[cue.page];
+          if (!hit) return;
+          cue.title = hit.track.title || cue.title;
+          cue.audio = hit.track.audio?.source || hit.track.source || cue.audio;
+          cue.art = hit.track.art?.source || hit.album.defaultTrackArt?.source || hit.album.cover?.source || cue.art;
+        });
+      }
+
+      function probeDurations() {
+        plan.forEach((cue) => {
+          if (!cue.audio || runtime(cue) !== null) return;
+          const probe = new Audio();
+          const done = () => {
+            if (Number.isFinite(probe.duration)) {
+              cue.runtime = probe.duration;
+              render();
+            }
+            probe.removeAttribute("src");
+            probe.load();
+          };
+          probe.preload = "metadata";
+          probe.addEventListener("loadedmetadata", done, { once: true });
+          probe.addEventListener("error", () => {
+            probe.removeAttribute("src");
+            probe.load();
+          }, { once: true });
+          probe.src = encodeURI(path(cue.audio));
+        });
+      }
+
+      els.prev.addEventListener("click", prev);
+      els.play.addEventListener("click", playPause);
+      els.next.addEventListener("click", next);
+      els.copy.addEventListener("click", exportPlan);
+      els.reset.addEventListener("click", () => {
+        try { localStorage.removeItem(STORAGE_KEY); } catch {}
+        plan = buildRecommendedPlan();
+        if (cachedManifest) applyManifest(cachedManifest);
+        probeDurations();
+        passComplete = false;
+        currentIndex = 0;
+        render();
+      });
+      els.saveNote.addEventListener("click", () => {
+        saveNotes();
+        els.saveNote.textContent = "Saved";
+        setTimeout(() => { els.saveNote.textContent = "Save"; }, 1000);
+      });
+      els.playlist.addEventListener("click", (event) => {
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl) return;
+        const cue = plan.find((item) => item.id === cueEl.dataset.id);
+        if (!cue) return;
+        const action = event.target.dataset.action;
+        if (action === "play") setCurrentById(cue.id, true);
+        if (action === "delete") deleteCue(cue.id);
+      });
+      els.playlist.addEventListener("change", (event) => {
+        const cueEl = event.target.closest(".cue");
+        const cue = plan.find((item) => item.id === cueEl?.dataset.id);
+        if (!cue) return;
+        if (event.target.dataset.action === "stars") {
+          cue.stars = Math.max(0, Math.min(5, Number(event.target.value) || 0));
+        }
+        save();
+        render();
+      });
+      els.playlist.addEventListener("dragstart", (event) => {
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        draggedId = cueEl.dataset.id;
+        cueEl.classList.add("is-dragging");
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.setData("text/plain", draggedId);
+      });
+      els.playlist.addEventListener("dragend", (event) => {
+        event.target.closest(".cue")?.classList.remove("is-dragging");
+        draggedId = null;
+      });
+      els.playlist.addEventListener("dragover", (event) => {
+        if (!draggedId) return;
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id || cueEl.dataset.id === draggedId) return;
+        event.preventDefault();
+        event.dataTransfer.dropEffect = "move";
+      });
+      els.playlist.addEventListener("drop", (event) => {
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        event.preventDefault();
+        moveCueTo(draggedId || event.dataTransfer.getData("text/plain"), cueEl.dataset.id);
+      });
+      els.playlist.addEventListener("pointerdown", (event) => {
+        const handle = event.target.closest(".cue-no");
+        if (!handle) return;
+        const cueEl = handle.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        pointerDraggedId = cueEl.dataset.id;
+        pointerDragEl = cueEl;
+        cueEl.classList.add("is-dragging");
+        handle.setPointerCapture?.(event.pointerId);
+        event.preventDefault();
+      });
+      els.playlist.addEventListener("pointermove", (event) => {
+        if (pointerDraggedId) event.preventDefault();
+      });
+      els.playlist.addEventListener("pointerup", (event) => {
+        if (!pointerDraggedId) return;
+        const target = document.elementFromPoint(event.clientX, event.clientY)?.closest(".cue");
+        if (target?.dataset.id) moveCueTo(pointerDraggedId, target.dataset.id);
+        pointerDragEl?.classList.remove("is-dragging");
+        pointerDraggedId = null;
+        pointerDragEl = null;
+        event.preventDefault();
+      });
+      els.playlist.addEventListener("pointercancel", () => {
+        pointerDragEl?.classList.remove("is-dragging");
+        pointerDraggedId = null;
+        pointerDragEl = null;
+      });
+      els.chapters.addEventListener("click", (event) => {
+        const btn = event.target.closest("[data-chapter]");
+        if (!btn) return;
+        currentChapter = btn.dataset.chapter;
+        render();
+      });
+      els.activeChapter.addEventListener("change", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        const chapter = chapterFor(els.activeChapter.value);
+        cue.chapter = chapter.id;
+        cue.manualTime = chapter.start + Math.min(10, chapter.duration / 3);
+        currentChapter = chapter.id;
+        save();
+        render();
+      });
+      els.hitRange.addEventListener("input", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        cue.manualTime = clampTime(Number(els.hitRange.value));
+        currentChapter = chapterAt(cue.manualTime).id;
+        cue.chapter = currentChapter;
+        renderActiveTools();
+        renderNow();
+      });
+      els.hitRange.addEventListener("change", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        setCueTime(cue, Number(els.hitRange.value));
+      });
+      els.durationRange.addEventListener("input", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        cue.duration = Number(els.durationRange.value);
+        renderActiveTools();
+        renderNow();
+      });
+      els.durationRange.addEventListener("change", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        cue.duration = Number(els.durationRange.value);
+        save();
+        render();
+      });
+      els.fitSelect.addEventListener("change", () => {
+        const cue = currentCue();
+        if (!cue) return;
+        cue.fit = els.fitSelect.value;
+        save();
+        render();
+      });
+      function nudge(seconds) {
+        const cue = currentCue();
+        if (!cue) return;
+        setCueTime(cue, cueTime(cue) + seconds);
+      }
+      els.minus15.addEventListener("click", () => nudge(-15));
+      els.minus1.addEventListener("click", () => nudge(-1));
+      els.plus1.addEventListener("click", () => nudge(1));
+      els.plus15.addEventListener("click", () => nudge(15));
+      audio.addEventListener("play", render);
+      audio.addEventListener("pause", render);
+      audio.addEventListener("loadedmetadata", () => {
+        const cue = currentCue();
+        if (cue && Number.isFinite(audio.duration)) cue.runtime = audio.duration;
+        render();
+      });
+      audio.addEventListener("timeupdate", renderNow);
+      audio.addEventListener("ended", advanceAfterEnd);
+
+      loadSaved();
+      loadNotes();
+      render();
+      fetch("./VOLHOLLA/media-manifest.json", { cache: "no-cache" })
+        .then((response) => response.ok ? response.json() : null)
+        .then((manifest) => {
+          if (manifest) {
+            cachedManifest = manifest;
+            applyManifest(manifest);
+            probeDurations();
+          }
+          render();
+        })
+        .catch(() => render());
+    })();
+  </script>
+</body>
+</html>
