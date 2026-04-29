@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VOLHOLLA catalog radio shuffle player" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="VOLHOLLA" />
+  <meta property="og:title" content="VOLHOLLA Radio" />
+  <meta property="og:description" content="Shuffle playback across the full VOLHOLLA album catalog." />
+  <meta name="theme-color" content="#101116" />
+  <title>VOLHOLLA Radio</title>
+  <link rel="stylesheet" href="./radio.css" />
+</head>
+<body>
+  <main class="radio-shell">
+    <header class="topbar">
+      <a class="nav-link" href="./index.html">Library</a>
+      <div class="brand">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span>VOLHOLLA Radio</span>
+      </div>
+      <a class="nav-link" href="../index.html">Hub</a>
+    </header>
+
+    <section class="radio-deck" aria-label="Catalog radio player">
+      <div class="dial-zone">
+        <button type="button" class="radio-dial" id="radioDial" aria-label="Start or pause radio">
+          <span class="dial-ring"></span>
+          <span class="dial-core">
+            <span class="dial-mark" id="dialMark">OFF</span>
+            <span class="dial-title" id="dialTitle">TUNE</span>
+          </span>
+        </button>
+        <div class="signal-meter" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="readout">
+        <div class="readout-top">
+          <span id="radioState">Ready</span>
+          <span id="radioCount">Loading catalog</span>
+        </div>
+        <h1 id="trackTitle">VOLHOLLA RADIO</h1>
+        <p id="albumTitle">Shuffle across all albums.</p>
+      </div>
+
+      <div class="art-frame">
+        <img id="trackArt" alt="" hidden />
+        <div class="art-fallback" id="artFallback">VR</div>
+      </div>
+
+      <div class="controls">
+        <button type="button" class="icon-btn" id="prevBtn" aria-label="Previous track">⏮</button>
+        <button type="button" class="play-btn" id="playBtn">Start Radio</button>
+        <button type="button" class="icon-btn" id="nextBtn" aria-label="Next track">⏭</button>
+      </div>
+
+      <div class="mode-row">
+        <button type="button" class="mode-btn is-on" id="shuffleBtn" aria-pressed="true">Shuffle</button>
+        <button type="button" class="mode-btn is-on" id="autoBtn" aria-pressed="true">Auto</button>
+        <a class="mode-btn link-btn" id="songPageLink" href="./index.html">Song Page</a>
+      </div>
+
+      <div class="progress">
+        <span id="timeNow">0:00</span>
+        <input id="seekBar" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek radio track" />
+        <span id="timeTotal">0:00</span>
+      </div>
+
+      <section class="queue-panel" aria-label="Up next">
+        <div class="queue-head">
+          <span>Signal Queue</span>
+          <button type="button" id="reshuffleBtn">Reshuffle</button>
+        </div>
+        <ol class="queue-list" id="queueList"></ol>
+      </section>
+    </section>
+  </main>
+  <script src="./radio.js"></script>
+</body>
+</html>

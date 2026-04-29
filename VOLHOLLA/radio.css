@@ -1,0 +1,398 @@
+:root {
+  --bg: #101116;
+  --panel: #191a20;
+  --line: rgba(255,255,255,0.09);
+  --text: #f4efe6;
+  --muted: #b8b0a1;
+  --accent-a: #7df2c8;
+  --accent-b: #f4c95d;
+}
+
+* { box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(840px 520px at 50% -12%, rgba(125,242,200,0.14), transparent 62%),
+    radial-gradient(520px 380px at 12% 74%, rgba(244,201,93,0.08), transparent 64%),
+    linear-gradient(180deg, #15161c, #0b0c10);
+}
+
+button,
+a,
+input {
+  font: inherit;
+}
+
+.radio-shell {
+  width: min(880px, 100%);
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.topbar {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.brand {
+  min-width: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.brand-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-a);
+  box-shadow: 0 0 18px rgba(125,242,200,0.8);
+}
+
+.nav-link,
+.mode-btn,
+.icon-btn,
+.play-btn,
+.queue-head button {
+  min-height: 34px;
+  border: 1px solid rgba(0,0,0,0.8);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #292b33, #1d1e25);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.38);
+  font-weight: 850;
+}
+
+.nav-link {
+  padding: 0 12px;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.radio-deck {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.dial-zone,
+.readout,
+.art-frame,
+.queue-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.012));
+  box-shadow: 0 16px 34px rgba(0,0,0,0.34);
+}
+
+.dial-zone {
+  min-height: 290px;
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  padding: 18px;
+}
+
+.radio-dial {
+  width: min(68vw, 280px);
+  aspect-ratio: 1;
+  border: 0;
+  padding: 0;
+  border-radius: 50%;
+  color: var(--text);
+  background:
+    radial-gradient(circle at 50% 50%, #101116 0 42%, transparent 43%),
+    conic-gradient(from -40deg, #333640, var(--accent-a), var(--accent-b), #333640, var(--accent-a));
+  position: relative;
+  cursor: pointer;
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,0.08),
+    inset 0 0 44px rgba(0,0,0,0.7),
+    0 24px 50px rgba(0,0,0,0.44);
+}
+
+.radio-dial.is-playing {
+  animation: dialSweep 12s linear infinite;
+}
+
+.dial-ring {
+  position: absolute;
+  inset: 14px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.14);
+  box-shadow: inset 0 0 0 14px rgba(0,0,0,0.28);
+}
+
+.dial-core {
+  position: absolute;
+  inset: 30%;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 3px;
+  background: linear-gradient(180deg, #22242b, #121319);
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.dial-mark {
+  color: var(--accent-b);
+  font-size: 0.68rem;
+  font-weight: 950;
+  letter-spacing: 0.12em;
+}
+
+.dial-title {
+  font-size: 1.1rem;
+  font-weight: 950;
+  letter-spacing: 0.08em;
+}
+
+.signal-meter {
+  width: min(72vw, 320px);
+  height: 26px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  align-items: end;
+}
+
+.signal-meter span {
+  min-height: 5px;
+  border-radius: 99px;
+  background: color-mix(in srgb, var(--accent-a) 62%, #ffffff);
+  opacity: 0.42;
+}
+
+.is-live .signal-meter span {
+  animation: meter 900ms ease-in-out infinite alternate;
+}
+
+.signal-meter span:nth-child(2) { animation-delay: 100ms; height: 10px; }
+.signal-meter span:nth-child(3) { animation-delay: 190ms; height: 16px; }
+.signal-meter span:nth-child(4) { animation-delay: 70ms; height: 22px; }
+.signal-meter span:nth-child(5) { animation-delay: 250ms; height: 13px; }
+
+.readout {
+  padding: 12px;
+  min-width: 0;
+}
+
+.readout-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.readout h1 {
+  margin: 8px 0 3px;
+  font-size: clamp(1.5rem, 5vw, 3.5rem);
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.readout p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.art-frame {
+  aspect-ratio: 1;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: 220px;
+}
+
+.art-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.art-fallback {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  font-weight: 950;
+  color: var(--accent-b);
+  background:
+    radial-gradient(circle at 50% 30%, color-mix(in srgb, var(--accent-a) 18%, transparent), transparent 55%),
+    #17181d;
+}
+
+.controls,
+.mode-row,
+.progress {
+  display: grid;
+  gap: 6px;
+}
+
+.controls {
+  grid-template-columns: 44px 1fr 44px;
+}
+
+.icon-btn {
+  padding: 0;
+}
+
+.play-btn {
+  color: #160f04;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--accent-b) 86%, white), var(--accent-a));
+}
+
+.mode-row {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.mode-btn {
+  padding: 0 9px;
+  min-width: 0;
+  color: var(--muted);
+}
+
+.mode-btn.is-on {
+  color: var(--text);
+  border-color: color-mix(in srgb, var(--accent-a) 36%, #000);
+}
+
+.link-btn {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.progress {
+  grid-template-columns: 42px 1fr 42px;
+  align-items: center;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.progress input {
+  width: 100%;
+  accent-color: var(--accent-a);
+}
+
+.queue-panel {
+  overflow: hidden;
+}
+
+.queue-head {
+  min-height: 38px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.queue-head button {
+  min-height: 28px;
+  padding: 0 9px;
+  font-size: 0.68rem;
+}
+
+.queue-list {
+  list-style: none;
+  margin: 0;
+  padding: 6px;
+  display: grid;
+  gap: 4px;
+}
+
+.queue-list li {
+  min-height: 34px;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;
+  gap: 8px;
+  padding: 0 8px;
+  border-radius: 7px;
+  color: var(--muted);
+  background: rgba(255,255,255,0.018);
+}
+
+.queue-list li.is-current {
+  color: var(--text);
+  background: color-mix(in srgb, var(--accent-a) 12%, rgba(255,255,255,0.03));
+}
+
+.queue-list .name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.queue-list .album {
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+@media (min-width: 760px) {
+  .radio-deck {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+  }
+
+  .dial-zone,
+  .readout,
+  .controls,
+  .mode-row,
+  .progress,
+  .queue-panel {
+    grid-column: 1;
+  }
+
+  .art-frame {
+    grid-column: 2;
+    grid-row: 1 / span 5;
+    position: sticky;
+    top: 12px;
+  }
+}
+
+@keyframes dialSweep {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes meter {
+  from { opacity: 0.32; transform: scaleY(0.45); }
+  to { opacity: 0.95; transform: scaleY(1); }
+}

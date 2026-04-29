@@ -909,6 +909,59 @@ input[type="range"]:active::-webkit-slider-thumb {
   min-width: 0;
 }
 
+.play-mode {
+  display: grid;
+}
+
+.mode-toggle {
+  appearance: none;
+  width: 100%;
+  min-height: 42px;
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 6px 9px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    "led main"
+    "led sub";
+  column-gap: 8px;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255,255,255,0.026), rgba(255,255,255,0.008));
+  color: var(--text);
+  cursor: pointer;
+  text-align: left;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.22);
+}
+
+.mode-toggle .mode-led {
+  grid-area: led;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #474a54;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.45);
+}
+
+.mode-toggle.is-on .mode-led {
+  background: var(--accent-a, var(--orange));
+  box-shadow: 0 0 16px color-mix(in srgb, var(--accent-a, var(--orange)) 70%, transparent);
+}
+
+.mode-main {
+  grid-area: main;
+  font-size: 0.72rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mode-sub {
+  grid-area: sub;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
 .actions {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

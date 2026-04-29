@@ -1333,6 +1333,23 @@
     return v === "1" || v === "true" || v === "yes";
   }
 
+  function readStorage(key, fallback) {
+    try {
+      const value = localStorage.getItem(key);
+      return value === null ? fallback : value;
+    } catch {
+      return fallback;
+    }
+  }
+
+  function writeStorage(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch {
+      // ignore storage restrictions
+    }
+  }
+
   function mount() {
     const root = document.getElementById("songPageRoot");
     if (!root) return;
@@ -1351,6 +1368,7 @@
     audio.preload = canWarmTrack ? "metadata" : "none";
     let isSeeking = false;
     let hasPlaybackIntent = false;
+    let albumContinuous = readStorage("volhollaAlbumContinuous", "1") !== "0";
     let transportState = "idle";
     let warmupTimer = 0;
 
@@ -1500,6 +1518,14 @@
               <button type="button" class="btn icon-btn" id="nextBtn" aria-label="Next song">⏭</button>
             </div>
 
+            <div class="play-mode">
+              <button type="button" class="mode-toggle is-on" id="continuousBtn" aria-pressed="true">
+                <span class="mode-led" aria-hidden="true"></span>
+                <span class="mode-main">Album Auto</span>
+                <span class="mode-sub" id="continuousText">continues through this album</span>
+              </button>
+            </div>
+
             <div class="actions">
               <button type="button" class="btn" id="copyUrlBtn">Copy URL</button>
               <button type="button" class="btn" id="copyEmbedBtn">Embed</button>
@@ -1543,6 +1569,8 @@
       copyUrlBtn: document.getElementById("copyUrlBtn"),
       copyEmbedBtn: document.getElementById("copyEmbedBtn"),
       embedCodeBox: document.getElementById("embedCodeBox"),
+      continuousBtn: document.getElementById("continuousBtn"),
+      continuousText: document.getElementById("continuousText"),
       prevBtn: document.getElementById("prevBtn"),
       playBtn: document.getElementById("playBtn"),
       nextBtn: document.getElementById("nextBtn"),
@@ -1705,7 +1733,7 @@
       if (index < 0 || index >= tracks.length) return false;
       if (audio.dataset.trackIndex === String(index) && audio.src) return false;
       audio.dataset.trackIndex = String(index);
-      audio.src = currentTrack().src;
+      audio.src = tracks[index].src;
       audio.load();
       return true;
     }
@@ -1936,6 +1964,11 @@
 
       updateDocumentMeta(track);
       if (els.panel) els.panel.classList.toggle("is-playing", playing);
+      if (els.continuousBtn) {
+        els.continuousBtn.classList.toggle("is-on", albumContinuous);
+        els.continuousBtn.setAttribute("aria-pressed", albumContinuous ? "true" : "false");
+      }
+      if (els.continuousText) els.continuousText.textContent = albumContinuous ? "continues through this album" : "stops after this song";
       if (els.headSongTitle) els.headSongTitle.textContent = track.title;
       if (els.lcdTrackTitle) els.lcdTrackTitle.textContent = track.title;
       if (els.nowKicker) {
@@ -2024,8 +2057,15 @@
     }
 
     function nextTrack(fromEnded = false) {
+      if (fromEnded && !albumContinuous) {
+        audio.pause();
+        updateNowUI();
+        return;
+      }
       if (fromEnded && currentIndex >= tracks.length - 1) {
         audio.pause();
+        setTransportState("ready");
+        if (els.nowSubline) els.nowSubline.textContent = "Album complete";
         updateNowUI();
         return;
       }
@@ -2072,6 +2112,12 @@
     if (els.sendBtn) els.sendBtn.addEventListener("click", sendSong);
     if (els.copyUrlBtn) els.copyUrlBtn.addEventListener("click", () => { vibrate(8); copyText(absoluteSongUrl(), els.copyUrlBtn, "Copy URL"); });
     if (els.copyEmbedBtn) els.copyEmbedBtn.addEventListener("click", () => { vibrate(8); copyText(currentEmbedCode(), els.copyEmbedBtn, "Embed"); });
+    if (els.continuousBtn) els.continuousBtn.addEventListener("click", () => {
+      vibrate(8);
+      albumContinuous = !albumContinuous;
+      writeStorage("volhollaAlbumContinuous", albumContinuous ? "1" : "0");
+      updateNowUI();
+    });
     if (els.retryBtn) els.retryBtn.addEventListener("click", () => {
       vibrate(8);
       if (currentIndex >= 0) loadTrack(currentIndex, true);
