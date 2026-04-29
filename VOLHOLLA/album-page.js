@@ -23,6 +23,15 @@
   const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
     Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
   );
+  const MALL_ART_POOL = [
+    "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+    "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png"
+  ];
+  const MALL_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 54 }, (_, i) => [i, MALL_ART_POOL[Math.min(3, Math.floor(i / 14))]])
+  );
   let mediaManifestPromise = null;
 
   const ALBUMS = {
@@ -490,9 +499,14 @@
       accentB: "#f4c95d",
       coverImage: "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
       defaultTrackArt: "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg",
+      trackArtByIndex: MALL_TRACK_ART_BY_INDEX,
       hallKey: "mall",
       op2Key: "mall",
       op2Pair: "nightbus",
+      sides: [
+        { label: "Side A", start: 0, end: 26, note: "Atrium systems / food-court ecology / catalog mind" },
+        { label: "Side B", start: 27, end: 53, note: "Mannequin states / security dossier / warranty medicine" }
+      ],
       files: [
         "Mall Patchworld Ingest - Ball Pit Geology - Sonauto.ogg",
         "Mall Patchworld Ingest - Blackout Return - Sonauto.ogg",
@@ -551,6 +565,9 @@
       ],
       notes: [
         ["Mode", "Retail catacomb archive / kiosk republic circuitry / food-court forensic drift"],
+        ["Side A", "Tracks 01-27: atrium systems, food-court ecology, catalog mind."],
+        ["Side B", "Tracks 28-54: mannequin states, security dossier, warranty medicine."],
+        ["Art", "The four Mall images rotate across the visual grid in quarter-album blocks."],
         ["Use", "Standalone album page, hall route, and direct song-page links for the full ingest."],
         ["OP2 Pair", "Launch with NIGHT BUS for transit-system contrast."]
       ]
@@ -1299,7 +1316,14 @@
   }
 
   function renderTrackList(album) {
-    return album.files.map((file, i) => `
+    return album.files.map((file, i) => {
+      const side = album.sides?.find((entry) => entry.start === i);
+      const sideHeader = side ? `
+      <li class="track-side">
+        <div class="track-side-label">${escapeHtml(side.label)}</div>
+        <div class="track-side-meta">${String(side.start + 1).padStart(2, "0")}-${String(side.end + 1).padStart(2, "0")} · ${escapeHtml(side.note || "")}</div>
+      </li>` : "";
+      return `${sideHeader}
       <li class="track-row">
         <button class="track" type="button" data-track-index="${i}" aria-label="Play ${escapeHtml(titleFromFilename(file))}">
           <div class="track-no">${String(i + 1).padStart(2, "0")}</div>
@@ -1308,7 +1332,8 @@
         </button>
         <a class="track-link" href="${escapeHtml(songPageHref(album, i))}" aria-label="Open song page for ${escapeHtml(titleFromFilename(file))}">Open</a>
       </li>
-    `).join("");
+    `;
+    }).join("");
   }
 
   function fmtTime(sec) {

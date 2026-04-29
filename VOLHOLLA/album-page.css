@@ -996,6 +996,34 @@ body::before {
   align-items: center;
 }
 
+.track-side {
+  margin: 8px 0 2px;
+  min-height: 42px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--accent-a, #ff7a16) 34%, transparent);
+  background:
+    linear-gradient(90deg, color-mix(in srgb, var(--accent-a, #ff7a16) 16%, transparent), transparent 58%),
+    rgba(255,255,255,0.025);
+  padding: 8px 10px;
+  display: grid;
+  gap: 3px;
+}
+
+.track-side-label {
+  color: var(--accent-b, var(--ember));
+  font-size: 0.72rem;
+  font-weight: 950;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.track-side-meta {
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.25;
+}
+
 .tracks-panel {
   overflow: hidden;
 }
