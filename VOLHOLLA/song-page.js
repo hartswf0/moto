@@ -23,6 +23,18 @@
   const MITTE_TRACK_ART_BY_INDEX = Object.fromEntries(
     Array.from({ length: 19 }, (_, i) => [i, MITTE_ART_POOL[i % MITTE_ART_POOL.length]])
   );
+  const MALL_SONG_ART_POOL = [
+    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+    "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+    "../MALL PATCHWORLD/Gemini_Generated_Image_ctypelctypelctyp.jpeg",
+    "../MALL PATCHWORLD/Gemini_Generated_Image_xo0vrrxo0vrrxo0v.jpeg"
+  ];
+  const MALL_GROUND_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[i % MALL_SONG_ART_POOL.length]])
+  );
+  const MALL_MEZZANINE_TRACK_ART_BY_INDEX = Object.fromEntries(
+    Array.from({ length: 27 }, (_, i) => [i, MALL_SONG_ART_POOL[(i + 1) % MALL_SONG_ART_POOL.length]])
+  );
   let mediaManifestPromise = null;
 
   const ALBUMS = {
@@ -429,6 +441,7 @@
       accentA: "#7df2c8",
       accentB: "#f4c95d",
       coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
+      trackArtByIndex: MALL_GROUND_TRACK_ART_BY_INDEX,
       defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_24_03 AM.png",
       hallKey: "mallground",
       op2Key: "mallground",
@@ -472,6 +485,7 @@
       accentA: "#9ad7ff",
       accentB: "#ffcf6e",
       coverImage: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
+      trackArtByIndex: MALL_MEZZANINE_TRACK_ART_BY_INDEX,
       defaultTrackArt: "../MALL PATCHWORLD/ChatGPT Image Apr 29, 2026, 05_25_46 AM.png",
       hallKey: "mallmezzanine",
       op2Key: "mallmezzanine",
@@ -1860,8 +1874,7 @@
         `  style="max-width:100%; border:0; border-radius:12px; overflow:hidden;"`,
         `  allow="autoplay; clipboard-write"`,
         `></iframe>`
-      ].join("
-");
+      ].join("\n");
     }
 
     function updateTrackListUI() {
