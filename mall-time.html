@@ -150,6 +150,35 @@
       font-size: 0.8rem;
     }
 
+    .song-scrub-wrap {
+      border-top: 2px solid var(--line);
+      display: grid;
+      grid-template-columns: 54px 1fr 54px;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 7px;
+      gap: 7px;
+    }
+
+    .song-scrub-wrap span {
+      font-size: 0.64rem;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .song-scrub {
+      width: 100%;
+      accent-color: var(--ink);
+      touch-action: pan-x;
+    }
+
+    .song-scrub:disabled {
+      opacity: 0.45;
+    }
+
     .time-tools {
       display: none;
     }
@@ -535,6 +564,15 @@
         font-size: 0.61rem;
         padding: 0 6px 4px;
       }
+      .song-scrub-wrap {
+        grid-template-columns: 42px 1fr 42px;
+        min-height: 30px;
+        padding: 0 5px;
+        gap: 5px;
+      }
+      .song-scrub-wrap span {
+        font-size: 0.56rem;
+      }
       .tool-row {
         grid-template-columns: 54px 1fr 50px;
         min-height: 28px;
@@ -625,6 +663,11 @@
         </div>
         <h1 id="nowTitle">First Cue Ready</h1>
         <p id="nowMeta">Recommended scoring pass for THE MALL</p>
+        <div class="song-scrub-wrap" aria-label="Song scrub">
+          <span id="scrubNow">0:00</span>
+          <input class="song-scrub" id="songScrub" type="range" min="0" max="0" value="0" step="0.01" disabled aria-label="Scrub current song" />
+          <span id="scrubEnd">--</span>
+        </div>
         <div class="time-tools" aria-label="Cue timing tools">
           <div class="tool-row">
             <label for="activeChapter">Chapter</label>
@@ -832,6 +875,9 @@
         time: document.getElementById("timeReadout"),
         title: document.getElementById("nowTitle"),
         meta: document.getElementById("nowMeta"),
+        songScrub: document.getElementById("songScrub"),
+        scrubNow: document.getElementById("scrubNow"),
+        scrubEnd: document.getElementById("scrubEnd"),
         art: document.getElementById("artBox"),
         prev: document.getElementById("prevBtn"),
         play: document.getElementById("playBtn"),
@@ -873,6 +919,7 @@
       let pointerStart = null;
       let moveArmedId = null;
       let suppressCueClick = false;
+      let isSongScrubbing = false;
       let plan = buildRecommendedPlan();
 
       function path(source) {
@@ -892,6 +939,12 @@
       function runtime(cue) {
         const seconds = Number(cue?.runtime);
         return Number.isFinite(seconds) && seconds > 0.5 ? seconds : null;
+      }
+
+      function currentAudioDuration(cue) {
+        const loaded = Number(audio.duration);
+        if (Number.isFinite(loaded) && loaded > 0.5) return loaded;
+        return runtime(cue);
       }
 
       function runtimeLabel(cue) {
@@ -1329,16 +1382,27 @@
           els.play.textContent = "Play Pass";
           els.art.innerHTML = `<div class="mark">MT</div>`;
           els.count.textContent = "0 cues";
+          els.songScrub.disabled = true;
+          els.songScrub.max = "0";
+          els.songScrub.value = "0";
+          els.scrubNow.textContent = "0:00";
+          els.scrubEnd.textContent = "--";
           return;
         }
         const chapter = chapterFor(cue.chapter);
         const playing = !audio.paused && !!audio.src;
         const position = `${String(currentIndex + 1).padStart(2, "0")}/${sortedPlan().length}`;
+        const songDuration = currentAudioDuration(cue);
         els.state.textContent = passComplete ? "Pass Complete" : playing ? `Playing ${position}` : audio.src ? `Paused ${position}` : `Ready ${position}`;
-        els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(runtime(cue) ?? audio.duration)}` : runtimeLabel(cue);
+        els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(songDuration)}` : runtimeLabel(cue);
         els.title.textContent = cue.title;
         els.meta.textContent = `Cue ${position} / ${chapter.id} ${chapter.title} / ${fmt(cueTime(cue))} / ${stars(cue)}/5`;
         els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play Pass";
+        els.songScrub.disabled = !audio.src || songDuration === null;
+        els.songScrub.max = songDuration === null ? "0" : String(songDuration);
+        if (!isSongScrubbing) els.songScrub.value = songDuration === null ? "0" : String(Math.min(audio.currentTime || 0, songDuration));
+        els.scrubNow.textContent = fmt(isSongScrubbing ? Number(els.songScrub.value) : audio.currentTime);
+        els.scrubEnd.textContent = songDuration === null ? "--" : fmt(songDuration);
         els.songLink.href = `./${cue.page}`;
         const art = path(cue.art);
         els.art.innerHTML = art ? `<img src="${encodeURI(art)}" alt="${cue.title} artwork">` : `<div class="mark">MT</div>`;
@@ -1602,6 +1666,34 @@
         cue.duration = Number(els.durationRange.value);
         save();
         render();
+      });
+      els.songScrub.addEventListener("pointerdown", () => {
+        isSongScrubbing = true;
+        if (!audio.src && currentCue()) loadCurrent(false);
+      });
+      els.songScrub.addEventListener("input", () => {
+        isSongScrubbing = true;
+        const seconds = Number(els.songScrub.value) || 0;
+        els.scrubNow.textContent = fmt(seconds);
+        if (audio.src && Number.isFinite(Number(audio.duration))) {
+          audio.currentTime = Math.max(0, Math.min(Number(audio.duration), seconds));
+        }
+      });
+      els.songScrub.addEventListener("change", () => {
+        const seconds = Number(els.songScrub.value) || 0;
+        if (audio.src && Number.isFinite(Number(audio.duration))) {
+          audio.currentTime = Math.max(0, Math.min(Number(audio.duration), seconds));
+        }
+        isSongScrubbing = false;
+        renderNow();
+      });
+      els.songScrub.addEventListener("pointerup", () => {
+        isSongScrubbing = false;
+        renderNow();
+      });
+      els.songScrub.addEventListener("pointercancel", () => {
+        isSongScrubbing = false;
+        renderNow();
       });
       els.fitSelect.addEventListener("change", () => {
         const cue = currentCue();
