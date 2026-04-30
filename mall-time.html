@@ -270,6 +270,22 @@
       letter-spacing: 0.08em;
     }
 
+    .move-readout {
+      flex: 1;
+      min-width: 0;
+      color: #333;
+      overflow: hidden;
+      text-align: center;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .panel-actions {
+      display: inline-flex;
+      align-items: stretch;
+      gap: 4px;
+    }
+
     .panel-body {
       padding: 6px;
       display: grid;
@@ -333,8 +349,22 @@
       box-shadow: inset 0 0 0 3px var(--ink);
     }
 
+    .cue.is-current .cue-no {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
     .cue.is-dragging {
       opacity: 0.45;
+    }
+
+    .cue.is-moving {
+      outline: 3px solid var(--ink);
+      outline-offset: -5px;
+    }
+
+    .cue.is-drop-target {
+      background: var(--soft);
     }
 
     .cue-no {
@@ -465,15 +495,18 @@
     @media (max-width: 620px) {
       html,
       body {
-        height: 100%;
-        overflow: hidden;
+        height: auto;
+        min-height: 100dvh;
+        overflow-x: hidden;
+        overflow-y: auto;
       }
 
       .shell {
-        height: 100svh;
-        max-height: 100svh;
-        overflow: hidden;
-        grid-template-rows: auto auto minmax(0, 1fr);
+        min-height: 100dvh;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+        grid-template-rows: auto auto auto;
         padding: 4px;
       }
 
@@ -518,9 +551,10 @@
       .transport .btn:nth-child(3) { border-right: 0; }
       .transport .btn:nth-child(n+4) { display: none; }
       .layout {
+        height: auto;
         min-height: 0;
-        overflow: hidden;
-        grid-template-rows: minmax(0, 1fr);
+        overflow: visible;
+        grid-template-rows: auto;
       }
       .layout .panel:first-child,
       .layout .panel:last-child {
@@ -531,9 +565,16 @@
       .playlist {
         min-height: 0;
       }
+      .layout > .panel {
+        height: auto;
+        display: grid;
+        grid-template-rows: auto auto;
+      }
       .panel-body {
-        overflow: auto;
+        overflow-y: visible;
+        overflow-x: hidden;
         -webkit-overflow-scrolling: touch;
+        overscroll-behavior: auto;
       }
       .cue {
         min-height: 62px;
@@ -550,6 +591,20 @@
         font-size: 0.65rem;
       }
       .cue-actions { grid-template-columns: minmax(0, 1fr) 64px 60px; }
+      .panel-head {
+        gap: 5px;
+        padding: 0 5px;
+      }
+      .panel-head > span:first-child {
+        display: none;
+      }
+      .move-readout {
+        text-align: left;
+        font-size: 0.58rem;
+      }
+      .panel-actions .mini {
+        min-width: 66px;
+      }
     }
   </style>
 </head>
@@ -627,7 +682,11 @@
       <section class="panel">
         <div class="panel-head">
           <span>Recommended Pass</span>
-          <button type="button" class="mini" id="resetBtn">Rebuild</button>
+          <span class="move-readout" id="moveReadout">Drag number to move</span>
+          <span class="panel-actions">
+            <button type="button" class="mini" id="exportBtn">Export</button>
+            <button type="button" class="mini" id="resetBtn">Rebuild</button>
+          </span>
         </div>
         <div class="panel-body">
           <div class="playlist" id="playlist"></div>
@@ -791,7 +850,9 @@
         minus1: document.getElementById("minus1Btn"),
         plus1: document.getElementById("plus1Btn"),
         plus15: document.getElementById("plus15Btn"),
+        exportPlan: document.getElementById("exportBtn"),
         reset: document.getElementById("resetBtn"),
+        move: document.getElementById("moveReadout"),
         saveNote: document.getElementById("saveNoteBtn"),
         notes: document.getElementById("notes"),
         chapters: document.getElementById("chapterList"),
@@ -809,6 +870,9 @@
       let draggedId = null;
       let pointerDraggedId = null;
       let pointerDragEl = null;
+      let pointerStart = null;
+      let moveArmedId = null;
+      let suppressCueClick = false;
       let plan = buildRecommendedPlan();
 
       function path(source) {
@@ -891,6 +955,25 @@
 
       function sortedPlan() {
         return plan.slice().sort((a, b) => a.order - b.order);
+      }
+
+      function cueById(id) {
+        return plan.find((cue) => cue.id === id) || null;
+      }
+
+      function cuePosition(id) {
+        return sortedPlan().findIndex((cue) => cue.id === id);
+      }
+
+      function cueMoveLabel(id) {
+        const cue = cueById(id);
+        const index = cuePosition(id);
+        if (!cue || index < 0) return "cue";
+        return `${String(index + 1).padStart(2, "0")} ${cue.title}`;
+      }
+
+      function setMoveStatus(text) {
+        if (els.move) els.move.textContent = text || "Drag number to move";
       }
 
       function assignedToChapter(id) {
@@ -1090,8 +1173,25 @@
         list.splice(to, 0, moved);
         list.forEach((cue, index) => { cue.order = index; });
         currentIndex = list.findIndex((cue) => cue.id === moved.id);
+        moveArmedId = null;
         save();
         render();
+        setMoveStatus(`Moved to ${String(currentIndex + 1).padStart(2, "0")}`);
+      }
+
+      function armMove(id) {
+        if (!id) return;
+        moveArmedId = moveArmedId === id ? null : id;
+        renderPlaylist();
+        setMoveStatus(moveArmedId ? `Moving ${cueMoveLabel(id)}. Tap destination.` : "Drag number to move");
+      }
+
+      function clearMoveState() {
+        draggedId = null;
+        pointerDraggedId = null;
+        pointerDragEl?.classList.remove("is-dragging");
+        pointerDragEl = null;
+        pointerStart = null;
       }
 
       function chapterOptions(active) {
@@ -1181,8 +1281,13 @@
         els.playlist.innerHTML = list.map((cue, index) => {
           const chapter = chapterFor(cue.chapter);
           const hit = cueTime(cue);
+          const classes = [
+            "cue",
+            index === currentIndex ? "is-current" : "",
+            cue.id === moveArmedId ? "is-moving" : ""
+          ].filter(Boolean).join(" ");
           return `
-            <article class="cue ${index === currentIndex ? "is-current" : ""}" data-id="${cue.id}" draggable="true">
+            <article class="${classes}" data-id="${cue.id}" draggable="true">
               <div class="cue-no">${String(index + 1).padStart(2, "0")}<span>move</span></div>
               <div class="cue-main">
                 <div class="cue-title">${cue.title}</div>
@@ -1228,10 +1333,11 @@
         }
         const chapter = chapterFor(cue.chapter);
         const playing = !audio.paused && !!audio.src;
-        els.state.textContent = passComplete ? "Pass Complete" : playing ? "Playing Pass" : audio.src ? "Paused" : "Recommended Pass";
+        const position = `${String(currentIndex + 1).padStart(2, "0")}/${sortedPlan().length}`;
+        els.state.textContent = passComplete ? "Pass Complete" : playing ? `Playing ${position}` : audio.src ? `Paused ${position}` : `Ready ${position}`;
         els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(runtime(cue) ?? audio.duration)}` : runtimeLabel(cue);
         els.title.textContent = cue.title;
-        els.meta.textContent = `${chapter.id} / ${chapter.title} / ${fmt(cueTime(cue))}-${fmt(cueEnd(cue))} / ${stars(cue)}/5`;
+        els.meta.textContent = `Cue ${position} / ${chapter.id} ${chapter.title} / ${fmt(cueTime(cue))} / ${stars(cue)}/5`;
         els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play Pass";
         els.songLink.href = `./${cue.page}`;
         const art = path(cue.art);
@@ -1271,10 +1377,19 @@
           notes: els.notes.value || ""
         };
         const text = JSON.stringify(payload, null, 2);
+        const flash = () => {
+          els.copy.textContent = "Copied";
+          els.exportPlan.textContent = "Copied";
+          setMoveStatus("Playlist copied");
+          setTimeout(() => {
+            els.copy.textContent = "Copy Plan";
+            els.exportPlan.textContent = "Export";
+            setMoveStatus(moveArmedId ? `Moving ${cueMoveLabel(moveArmedId)}. Tap destination.` : "Drag number to move");
+          }, 1000);
+        };
         if (navigator.clipboard?.writeText) {
           navigator.clipboard.writeText(text).then(() => {
-            els.copy.textContent = "Copied";
-            setTimeout(() => { els.copy.textContent = "Copy Plan"; }, 1000);
+            flash();
           }).catch(() => window.prompt("Copy plan", text));
         } else {
           window.prompt("Copy plan", text);
@@ -1324,14 +1439,17 @@
       els.play.addEventListener("click", playPause);
       els.next.addEventListener("click", next);
       els.copy.addEventListener("click", exportPlan);
+      els.exportPlan.addEventListener("click", exportPlan);
       els.reset.addEventListener("click", () => {
         try { localStorage.removeItem(STORAGE_KEY); } catch {}
         plan = buildRecommendedPlan();
         if (cachedManifest) applyManifest(cachedManifest);
         probeDurations();
         passComplete = false;
+        moveArmedId = null;
         currentIndex = 0;
         render();
+        setMoveStatus("Recommended pass rebuilt");
       });
       els.saveNote.addEventListener("click", () => {
         saveNotes();
@@ -1339,11 +1457,23 @@
         setTimeout(() => { els.saveNote.textContent = "Save"; }, 1000);
       });
       els.playlist.addEventListener("click", (event) => {
+        if (suppressCueClick) {
+          event.preventDefault();
+          return;
+        }
         const cueEl = event.target.closest(".cue");
         if (!cueEl) return;
         const cue = plan.find((item) => item.id === cueEl.dataset.id);
         if (!cue) return;
         const action = event.target.dataset.action;
+        if (event.target.closest(".cue-no")) {
+          armMove(cue.id);
+          return;
+        }
+        if (moveArmedId && !action) {
+          moveCueTo(moveArmedId, cue.id);
+          return;
+        }
         if (action === "play") setCurrentById(cue.id, true);
         if (action === "delete") deleteCue(cue.id);
       });
@@ -1358,15 +1488,22 @@
         render();
       });
       els.playlist.addEventListener("dragstart", (event) => {
+        if (!event.target.closest(".cue-no")) {
+          event.preventDefault();
+          return;
+        }
         const cueEl = event.target.closest(".cue");
         if (!cueEl?.dataset.id) return;
         draggedId = cueEl.dataset.id;
+        moveArmedId = null;
+        setMoveStatus(`Moving ${cueMoveLabel(draggedId)}`);
         cueEl.classList.add("is-dragging");
         event.dataTransfer.effectAllowed = "move";
         event.dataTransfer.setData("text/plain", draggedId);
       });
       els.playlist.addEventListener("dragend", (event) => {
         event.target.closest(".cue")?.classList.remove("is-dragging");
+        document.querySelectorAll(".cue.is-drop-target").forEach((el) => el.classList.remove("is-drop-target"));
         draggedId = null;
       });
       els.playlist.addEventListener("dragover", (event) => {
@@ -1375,6 +1512,9 @@
         if (!cueEl?.dataset.id || cueEl.dataset.id === draggedId) return;
         event.preventDefault();
         event.dataTransfer.dropEffect = "move";
+        document.querySelectorAll(".cue.is-drop-target").forEach((el) => el.classList.remove("is-drop-target"));
+        cueEl.classList.add("is-drop-target");
+        setMoveStatus(`Drop on ${cueMoveLabel(cueEl.dataset.id)}`);
       });
       els.playlist.addEventListener("drop", (event) => {
         const cueEl = event.target.closest(".cue");
@@ -1389,6 +1529,9 @@
         if (!cueEl?.dataset.id) return;
         pointerDraggedId = cueEl.dataset.id;
         pointerDragEl = cueEl;
+        pointerStart = { x: event.clientX, y: event.clientY };
+        moveArmedId = null;
+        setMoveStatus(`Moving ${cueMoveLabel(pointerDraggedId)}`);
         cueEl.classList.add("is-dragging");
         handle.setPointerCapture?.(event.pointerId);
         event.preventDefault();
@@ -1398,17 +1541,23 @@
       });
       els.playlist.addEventListener("pointerup", (event) => {
         if (!pointerDraggedId) return;
+        suppressCueClick = true;
+        setTimeout(() => { suppressCueClick = false; }, 0);
         const target = document.elementFromPoint(event.clientX, event.clientY)?.closest(".cue");
-        if (target?.dataset.id) moveCueTo(pointerDraggedId, target.dataset.id);
-        pointerDragEl?.classList.remove("is-dragging");
-        pointerDraggedId = null;
-        pointerDragEl = null;
+        const movedEnough = pointerStart && Math.hypot(event.clientX - pointerStart.x, event.clientY - pointerStart.y) > 12;
+        if (movedEnough && target?.dataset.id && target.dataset.id !== pointerDraggedId) {
+          moveCueTo(pointerDraggedId, target.dataset.id);
+        } else {
+          const id = pointerDraggedId;
+          clearMoveState();
+          armMove(id);
+        }
+        clearMoveState();
         event.preventDefault();
       });
       els.playlist.addEventListener("pointercancel", () => {
-        pointerDragEl?.classList.remove("is-dragging");
-        pointerDraggedId = null;
-        pointerDragEl = null;
+        clearMoveState();
+        setMoveStatus(moveArmedId ? `Moving ${cueMoveLabel(moveArmedId)}. Tap destination.` : "Drag number to move");
       });
       els.chapters.addEventListener("click", (event) => {
         const btn = event.target.closest("[data-chapter]");
