@@ -1,0 +1,1332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Any-Time On Site playlist builder" />
+  <title>Any-Time On Site</title>
+  <style>
+    :root {
+      --paper: #fff;
+      --ink: #000;
+      --soft: #f2f2f2;
+      --line: #000;
+    }
+
+    * { box-sizing: border-box; }
+
+    html,
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,0.08) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(0,0,0,0.08) 1px, transparent 1px),
+        var(--paper);
+      background-size: 28px 28px;
+    }
+
+    button,
+    a,
+    select,
+    input {
+      font: inherit;
+      color: inherit;
+    }
+
+    .shell {
+      width: min(1240px, 100%);
+      margin: 0 auto;
+      padding: 10px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .topbar,
+    .player,
+    .panel {
+      border: 2px solid var(--line);
+      background: var(--paper);
+    }
+
+    .topbar {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      min-height: 42px;
+    }
+
+    .nav,
+    .brand,
+    .count {
+      min-width: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    .brand {
+      border-left: 2px solid var(--line);
+      border-right: 2px solid var(--line);
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .player {
+      display: grid;
+      grid-template-columns: 118px 1fr;
+      min-height: 122px;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .art {
+      border-right: 2px solid var(--line);
+      background: var(--soft);
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+
+    .art img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: grayscale(1) contrast(1.35);
+    }
+
+    .mark {
+      font-size: 1.5rem;
+      font-weight: 950;
+    }
+
+    .now {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto 1fr auto auto;
+    }
+
+    .now-top {
+      min-height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--line);
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 7px 8px 3px;
+      text-transform: uppercase;
+      font-size: clamp(1.2rem, 4.8vw, 2.7rem);
+      line-height: 0.98;
+      overflow-wrap: anywhere;
+    }
+
+    .meta-line {
+      margin: 0;
+      padding: 0 8px 7px;
+      text-transform: uppercase;
+      font-size: 0.76rem;
+      font-weight: 850;
+    }
+
+    .scrub {
+      border-top: 2px solid var(--line);
+      display: grid;
+      grid-template-columns: 54px 1fr 54px;
+      align-items: center;
+      min-height: 34px;
+      padding: 0 7px;
+      gap: 7px;
+    }
+
+    .scrub span {
+      font-size: 0.64rem;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .scrub input {
+      width: 100%;
+      accent-color: var(--ink);
+      touch-action: pan-x;
+    }
+
+    .transport,
+    .chooser-actions,
+    .row-actions {
+      display: grid;
+    }
+
+    .transport {
+      grid-template-columns: 0.9fr 1.2fr 0.9fr;
+      border-top: 2px solid var(--line);
+    }
+
+    .btn,
+    .mini {
+      min-height: 34px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 8px;
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    .transport .btn {
+      border: 0;
+      border-right: 2px solid var(--line);
+      min-height: 38px;
+    }
+
+    .transport .btn:last-child { border-right: 0; }
+    .primary { background: var(--ink); color: var(--paper); }
+
+    .layout {
+      display: grid;
+      gap: 8px;
+    }
+
+    .panel {
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    .panel-head {
+      min-height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      padding: 0 8px;
+      border-bottom: 2px solid var(--line);
+      text-transform: uppercase;
+      font-size: 0.7rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    .status {
+      flex: 1;
+      min-width: 0;
+      color: #333;
+      text-align: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .panel-actions {
+      display: inline-flex;
+      gap: 4px;
+    }
+
+    .panel-body {
+      padding: 6px;
+      display: grid;
+      gap: 6px;
+    }
+
+    .album-select {
+      width: 100%;
+      min-height: 38px;
+      border: 2px solid var(--line);
+      background: var(--paper);
+      text-transform: uppercase;
+      font-weight: 950;
+      padding: 0 8px;
+    }
+
+    .album-strip {
+      display: none;
+      gap: 5px;
+      min-width: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding-bottom: 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+
+    .album-pill {
+      flex: 0 0 auto;
+      min-height: 32px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      cursor: pointer;
+      padding: 0 10px;
+      text-transform: uppercase;
+      font-size: 0.64rem;
+      font-weight: 950;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+
+    .album-pill.is-current {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .chooser-actions {
+      grid-template-columns: 1fr;
+      gap: 5px;
+    }
+
+    .beat-strip {
+      display: none;
+      gap: 5px;
+      min-width: 0;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding-bottom: 2px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+    }
+
+    .beat-pill {
+      flex: 0 0 auto;
+      min-height: 30px;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      cursor: pointer;
+      padding: 0 9px;
+      text-transform: uppercase;
+      font-size: 0.6rem;
+      font-weight: 950;
+      letter-spacing: 0.05em;
+      white-space: nowrap;
+    }
+
+    .beat-pill.is-current {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .track-picker,
+    .playlist {
+      display: grid;
+      gap: 5px;
+    }
+
+    .pick,
+    .cue {
+      border: 1px solid var(--line);
+      background: var(--paper);
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      min-height: 62px;
+    }
+
+    .pick-no,
+    .cue-no {
+      border-right: 1px solid var(--line);
+      display: grid;
+      place-items: center;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+      cursor: grab;
+      touch-action: none;
+      user-select: none;
+    }
+
+    .pick-main,
+    .cue-main {
+      min-width: 0;
+      display: grid;
+      gap: 4px;
+      padding: 6px;
+    }
+
+    .title {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-weight: 950;
+    }
+
+    .small {
+      min-width: 0;
+      color: #333;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: 0.66rem;
+      font-weight: 850;
+    }
+
+    .row-actions {
+      grid-template-columns: minmax(0, 1fr) 72px 72px;
+      gap: 4px;
+    }
+
+    .pick-actions {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 4px;
+    }
+
+    .stars {
+      min-width: 0;
+      border: 1px solid var(--line);
+      background: var(--paper);
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 0.68rem;
+      font-weight: 950;
+    }
+
+    .cue.is-current {
+      box-shadow: inset 0 0 0 3px var(--ink);
+    }
+
+    .cue.is-current .cue-no {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .cue.is-moving {
+      outline: 3px solid var(--ink);
+      outline-offset: -5px;
+    }
+
+    .cue.is-dragging {
+      opacity: 0.45;
+    }
+
+    .empty {
+      border: 1px solid var(--line);
+      padding: 10px;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 900;
+    }
+
+    @media (min-width: 900px) {
+      .layout {
+        grid-template-columns: 340px minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .panel.sticky {
+        position: sticky;
+        top: 8px;
+      }
+    }
+
+    @media (max-width: 620px) {
+      html,
+      body {
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .shell {
+        height: 100dvh;
+        max-height: 100dvh;
+        padding: 4px;
+        overflow: hidden;
+        grid-template-rows: auto minmax(0, 1fr);
+      }
+
+      .topbar {
+        display: none;
+      }
+
+      .player {
+        grid-template-columns: 82px 1fr;
+        min-height: 0;
+        top: 0;
+        z-index: 30;
+      }
+
+      h1 {
+        font-size: clamp(0.95rem, 6.5vw, 1.65rem);
+        padding: 5px 6px 1px;
+      }
+
+      .meta-line {
+        font-size: 0.6rem;
+        padding: 0 6px 4px;
+      }
+
+      .now-top {
+        min-height: 22px;
+        font-size: 0.56rem;
+        padding: 0 6px;
+      }
+
+      .scrub {
+        grid-template-columns: 42px 1fr 42px;
+        min-height: 30px;
+        padding: 0 5px;
+        gap: 5px;
+      }
+
+      .scrub span,
+      .small,
+      .panel-head {
+        font-size: 0.56rem;
+      }
+
+      .panel-head > span:first-child {
+        display: none;
+      }
+
+      .status {
+        text-align: left;
+      }
+
+      .panel-actions .mini {
+        min-width: 52px;
+        padding: 0 5px;
+      }
+
+      .layout {
+        min-height: 0;
+        display: flex;
+        gap: 8px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+      }
+
+      .layout::-webkit-scrollbar {
+        display: none;
+      }
+
+      .layout > .panel {
+        flex: 0 0 calc(100vw - 8px);
+        width: calc(100vw - 8px);
+        min-height: 0;
+        height: 100%;
+        display: grid;
+        grid-template-rows: auto minmax(0, 1fr);
+        scroll-snap-align: start;
+      }
+
+      .panel-body {
+        min-height: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+      }
+
+      .pick,
+      .cue {
+        grid-template-columns: 38px 1fr;
+      }
+
+      .row-actions {
+        grid-template-columns: minmax(0, 1fr) 64px 58px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="nav" href="./index.html">Hub</a>
+      <div class="brand">Any-Time On Site</div>
+      <div class="count" id="countReadout">Loading</div>
+    </header>
+
+    <section class="player" aria-label="Playlist player">
+      <div class="art" id="artBox"><div class="mark">AT</div></div>
+      <div class="now">
+        <div class="now-top">
+          <span id="stateReadout">Ready</span>
+          <span id="timeReadout">0:00 / --</span>
+        </div>
+        <h1 id="nowTitle">Build Empty</h1>
+        <p class="meta-line" id="nowMeta">Choose album and beat, then add songs</p>
+        <div class="scrub" aria-label="Song scrub">
+          <span id="scrubNow">0:00</span>
+          <input id="songScrub" type="range" min="0" max="0" value="0" step="0.01" disabled aria-label="Scrub current song" />
+          <span id="scrubEnd">--</span>
+        </div>
+        <div class="transport">
+          <button type="button" class="btn" id="prevBtn">Back</button>
+          <button type="button" class="btn primary" id="playBtn">Play</button>
+          <button type="button" class="btn" id="nextBtn">Next</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout">
+      <aside class="panel sticky">
+        <div class="panel-head">
+          <span>Source</span>
+          <span id="sourceReadout">Album</span>
+        </div>
+        <div class="panel-body">
+          <select class="album-select" id="albumSelect" aria-label="Choose album"></select>
+          <select class="album-select" id="beatSelect" aria-label="Choose beat"></select>
+          <div class="album-strip" id="albumStrip" aria-label="Album rail"></div>
+          <div class="beat-strip" id="beatStrip" aria-label="Film beat flags"></div>
+          <div class="chooser-actions">
+            <button type="button" class="mini primary" id="loadAlbumBtn">Load Album</button>
+          </div>
+          <div class="track-picker" id="trackPicker"></div>
+        </div>
+      </aside>
+
+      <section class="panel">
+        <div class="panel-head">
+          <span>Current Build</span>
+          <span class="status" id="statusReadout">Empty until you add or load songs</span>
+          <span class="panel-actions">
+            <button type="button" class="mini" id="exportBtn">Export</button>
+            <button type="button" class="mini" id="csvBtn">CSV</button>
+            <button type="button" class="mini" id="clearBtn">Clear</button>
+          </span>
+        </div>
+        <div class="panel-body">
+          <div class="playlist" id="playlist"></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    (function () {
+      "use strict";
+
+      const STORAGE_KEY = "anyTimePlaylist.v3";
+      const MANIFEST_URL = "./VOLHOLLA/media-manifest.json";
+      const filmBeats = [
+        { id: "", label: "No Beat" },
+        { id: "CH00", label: "CH00 Release" },
+        { id: "CH01", label: "CH01 Field" },
+        { id: "CH02", label: "CH02 Governance" },
+        { id: "CH03", label: "CH03 Metabolism" },
+        { id: "CH04", label: "CH04 Bodies" },
+        { id: "CH05", label: "CH05 Belief" },
+        { id: "CH06", label: "CH06 Residue" }
+      ];
+
+      const els = {
+        count: document.getElementById("countReadout"),
+        state: document.getElementById("stateReadout"),
+        time: document.getElementById("timeReadout"),
+        title: document.getElementById("nowTitle"),
+        meta: document.getElementById("nowMeta"),
+        art: document.getElementById("artBox"),
+        scrub: document.getElementById("songScrub"),
+        scrubNow: document.getElementById("scrubNow"),
+        scrubEnd: document.getElementById("scrubEnd"),
+        prev: document.getElementById("prevBtn"),
+        play: document.getElementById("playBtn"),
+        next: document.getElementById("nextBtn"),
+        album: document.getElementById("albumSelect"),
+        beat: document.getElementById("beatSelect"),
+        albumStrip: document.getElementById("albumStrip"),
+        beatStrip: document.getElementById("beatStrip"),
+        source: document.getElementById("sourceReadout"),
+        loadAlbum: document.getElementById("loadAlbumBtn"),
+        picker: document.getElementById("trackPicker"),
+        status: document.getElementById("statusReadout"),
+        exportBtn: document.getElementById("exportBtn"),
+        csv: document.getElementById("csvBtn"),
+        clear: document.getElementById("clearBtn"),
+        playlist: document.getElementById("playlist")
+      };
+
+      const audio = new Audio();
+      audio.preload = "metadata";
+
+      let albums = [];
+      let tracks = [];
+      let plan = [];
+      let currentAlbum = "";
+      let activeBeat = "";
+      let currentIndex = 0;
+      let movingId = null;
+      let draggedId = null;
+      let pointerId = null;
+      let pointerStart = null;
+      let pointerEl = null;
+      let suppressClick = false;
+      let isScrubbing = false;
+
+      function path(source) {
+        if (!source) return "";
+        if (/^https?:\/\//i.test(source) || source.startsWith("data:")) return source;
+        if (source.startsWith("./") || source.startsWith("/") || source.startsWith("../")) return source;
+        return `./${source}`;
+      }
+
+      function fmt(sec) {
+        if (!Number.isFinite(sec) || sec < 0) return "--";
+        const m = Math.floor(sec / 60);
+        const s = Math.floor(sec % 60);
+        return `${m}:${String(s).padStart(2, "0")}`;
+      }
+
+      function runtime(cue) {
+        const seconds = Number(cue?.runtime);
+        return Number.isFinite(seconds) && seconds > 0.5 ? seconds : null;
+      }
+
+      function runtimeLabel(cue) {
+        const seconds = runtime(cue);
+        return seconds === null ? "runtime --" : `runtime ${fmt(seconds)}`;
+      }
+
+      function currentDuration(cue) {
+        const loaded = Number(audio.duration);
+        if (Number.isFinite(loaded) && loaded > 0.5) return loaded;
+        return runtime(cue);
+      }
+
+      function stars(cue) {
+        return Math.max(0, Math.min(5, Number(cue?.stars) || 0));
+      }
+
+      function beatLabel(id) {
+        return filmBeats.find((beat) => beat.id === id)?.label || "No Beat";
+      }
+
+      function sortedPlan() {
+        return plan.slice().sort((a, b) => a.order - b.order);
+      }
+
+      function cueById(id) {
+        return plan.find((cue) => cue.id === id) || null;
+      }
+
+      function currentCue() {
+        return sortedPlan()[currentIndex] || sortedPlan()[0] || null;
+      }
+
+      function setStatus(text) {
+        els.status.textContent = text || "Ready";
+      }
+
+      function renderBeatSelect() {
+        els.beat.innerHTML = filmBeats.map((beat) => `<option value="${beat.id}" ${beat.id === activeBeat ? "selected" : ""}>${beat.label}</option>`).join("");
+      }
+
+      function setAlbum(key, message) {
+        if (!albums.some((album) => album.key === key)) return;
+        currentAlbum = key;
+        save();
+        renderAlbums();
+        renderPicker();
+        setStatus(message || "Album saved");
+      }
+
+      function save() {
+        try {
+          localStorage.setItem(STORAGE_KEY, JSON.stringify({
+            currentAlbum,
+            activeBeat,
+            plan: sortedPlan().map(({ id, order, stars, runtime, beat }) => ({ id, order, stars, runtime, beat }))
+          }));
+        } catch {
+          // storage can be blocked
+        }
+      }
+
+      function restore() {
+        try {
+          const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+          if (saved.currentAlbum) currentAlbum = saved.currentAlbum;
+          if (typeof saved.activeBeat === "string") activeBeat = saved.activeBeat;
+          if (!Array.isArray(saved.plan)) return;
+          const byId = Object.fromEntries(tracks.map((track) => [track.id, track]));
+          plan = saved.plan.map((item) => {
+            const base = byId[item.id];
+            if (!base) return null;
+            return {
+              ...base,
+              order: Number.isFinite(Number(item.order)) ? Number(item.order) : 0,
+              stars: Number.isFinite(Number(item.stars)) ? Number(item.stars) : 0,
+              runtime: Number.isFinite(Number(item.runtime)) ? Number(item.runtime) : base.runtime,
+              beat: typeof item.beat === "string" ? item.beat : ""
+            };
+          }).filter(Boolean);
+        } catch {
+          // ignore malformed local state
+        }
+      }
+
+      function normalizeOrder() {
+        sortedPlan().forEach((cue, index) => { cue.order = index; });
+      }
+
+      function albumTracks(key) {
+        return tracks.filter((track) => track.albumKey === key);
+      }
+
+      function addTracks(items, replace) {
+        if (replace) plan = [];
+        const existing = new Set(plan.map((cue) => cue.id));
+        items.forEach((track) => {
+          if (existing.has(track.id)) return;
+          plan.push({ ...track, order: plan.length, stars: 0, beat: activeBeat });
+          existing.add(track.id);
+        });
+        currentIndex = Math.min(currentIndex, Math.max(0, plan.length - 1));
+        normalizeOrder();
+        save();
+        probeDurations();
+        render();
+        setStatus(replace ? `Loaded ${items.length} songs` : `Added ${items.length} songs`);
+      }
+
+      function deleteCue(id) {
+        const list = sortedPlan();
+        const index = list.findIndex((cue) => cue.id === id);
+        if (index < 0) return;
+        const wasCurrent = currentCue()?.id === id;
+        const wasPlaying = !audio.paused && !!audio.src;
+        plan = list.filter((cue) => cue.id !== id);
+        if (wasCurrent) currentIndex = Math.min(index, Math.max(0, plan.length - 1));
+        else if (index < currentIndex) currentIndex -= 1;
+        normalizeOrder();
+        save();
+        if (!plan.length) {
+          audio.pause();
+          audio.removeAttribute("src");
+          audio.load();
+          render();
+          setStatus("Playlist empty");
+          return;
+        }
+        if (wasCurrent) loadCurrent(wasPlaying);
+        else render();
+        setStatus("Cut saved");
+      }
+
+      function moveCueTo(sourceId, targetId) {
+        if (!sourceId || !targetId || sourceId === targetId) return;
+        const list = sortedPlan();
+        const from = list.findIndex((cue) => cue.id === sourceId);
+        const to = list.findIndex((cue) => cue.id === targetId);
+        if (from < 0 || to < 0) return;
+        const [moved] = list.splice(from, 1);
+        list.splice(to, 0, moved);
+        plan = list;
+        normalizeOrder();
+        currentIndex = sortedPlan().findIndex((cue) => cue.id === moved.id);
+        movingId = null;
+        save();
+        render();
+        setStatus(`Moved to ${String(currentIndex + 1).padStart(2, "0")}`);
+      }
+
+      function armMove(id) {
+        movingId = movingId === id ? null : id;
+        renderPlaylist();
+        const cue = cueById(id);
+        setStatus(movingId && cue ? `Moving ${cue.title}. Tap destination.` : "Drag number to move");
+      }
+
+      function loadCurrent(autoplay) {
+        const cue = currentCue();
+        if (!cue) return;
+        const src = path(cue.audio);
+        if (src && audio.src !== new URL(encodeURI(src), window.location.href).toString()) {
+          audio.src = encodeURI(src);
+          audio.load();
+        }
+        render();
+        if (autoplay && src) audio.play().catch(render);
+      }
+
+      function setCurrent(id, autoplay) {
+        const index = sortedPlan().findIndex((cue) => cue.id === id);
+        if (index < 0) return;
+        currentIndex = index;
+        loadCurrent(autoplay);
+      }
+
+      function playPause() {
+        if (!currentCue()) return;
+        if (!audio.src) {
+          loadCurrent(true);
+          return;
+        }
+        if (audio.paused) audio.play().catch(render);
+        else audio.pause();
+      }
+
+      function next() {
+        const list = sortedPlan();
+        if (!list.length) return;
+        currentIndex = currentIndex >= list.length - 1 ? 0 : currentIndex + 1;
+        loadCurrent(true);
+      }
+
+      function prev() {
+        const list = sortedPlan();
+        if (!list.length) return;
+        if (audio.currentTime > 3) {
+          audio.currentTime = 0;
+          render();
+          return;
+        }
+        currentIndex = currentIndex > 0 ? currentIndex - 1 : list.length - 1;
+        loadCurrent(true);
+      }
+
+      function renderAlbums() {
+        els.album.innerHTML = albums.map((album) => `<option value="${album.key}" ${album.key === currentAlbum ? "selected" : ""}>${album.label}</option>`).join("");
+        els.albumStrip.innerHTML = albums.map((album) => `
+          <button type="button" class="album-pill ${album.key === currentAlbum ? "is-current" : ""}" data-album="${album.key}">
+            ${album.label}
+          </button>
+        `).join("");
+        requestAnimationFrame(() => {
+          els.albumStrip.querySelector(".is-current")?.scrollIntoView({ block: "nearest", inline: "center" });
+        });
+      }
+
+      function renderBeats() {
+        renderBeatSelect();
+        els.beatStrip.innerHTML = filmBeats.map((beat) => `
+          <button type="button" class="beat-pill ${beat.id === activeBeat ? "is-current" : ""}" data-beat="${beat.id}">
+            ${beat.label}
+          </button>
+        `).join("");
+      }
+
+      function renderPicker() {
+        const items = albumTracks(currentAlbum);
+        const album = albums.find((candidate) => candidate.key === currentAlbum);
+        els.source.textContent = album ? `${items.length} songs` : "Album";
+        els.picker.innerHTML = items.map((track) => `
+          <article class="pick" data-id="${track.id}">
+            <span class="pick-no">${String(track.index).padStart(2, "0")}</span>
+            <span class="pick-main">
+              <span class="title">${track.title}</span>
+              <span class="small">${track.albumLabel} / ${runtimeLabel(track)}</span>
+              <span class="pick-actions">
+                <button type="button" class="mini" data-action="add">Add</button>
+                <button type="button" class="mini" data-action="preview">Play</button>
+              </span>
+            </span>
+          </article>
+        `).join("") || `<div class="empty">No songs found</div>`;
+      }
+
+      function renderPlaylist() {
+        const list = sortedPlan();
+        if (!list.length) {
+          els.playlist.innerHTML = `<div class="empty">Empty. Add one song or load the album.</div>`;
+          return;
+        }
+        els.playlist.innerHTML = list.map((cue, index) => {
+          const classes = ["cue", index === currentIndex ? "is-current" : "", cue.id === movingId ? "is-moving" : ""].filter(Boolean).join(" ");
+          return `
+            <article class="${classes}" data-id="${cue.id}" draggable="true">
+              <div class="cue-no">${String(index + 1).padStart(2, "0")}</div>
+              <div class="cue-main">
+                <div class="title">${cue.title}</div>
+                <div class="small">${beatLabel(cue.beat || "")} / ${cue.albumLabel} / ${runtimeLabel(cue)} / ${stars(cue)}/5</div>
+                <div class="row-actions">
+                  <button type="button" class="mini" data-action="play">Play</button>
+                  <select class="stars" data-action="stars" aria-label="Stars for ${cue.title}">
+                    ${[0, 1, 2, 3, 4, 5].map((value) => `<option value="${value}" ${value === stars(cue) ? "selected" : ""}>${value}</option>`).join("")}
+                  </select>
+                  <button type="button" class="mini" data-action="cut">Cut</button>
+                </div>
+              </div>
+            </article>
+          `;
+        }).join("");
+      }
+
+      function renderNow() {
+        const cue = currentCue();
+        if (!cue) {
+          els.state.textContent = "Ready";
+          els.time.textContent = "0:00 / --";
+          els.title.textContent = "Build Empty";
+          els.meta.textContent = `${currentAlbum ? albums.find((album) => album.key === currentAlbum)?.label || "Album" : "Choose album"} / ${beatLabel(activeBeat)}`;
+          els.play.textContent = "Play";
+          els.art.innerHTML = `<div class="mark">AT</div>`;
+          els.count.textContent = `${tracks.length} songs`;
+          els.scrub.disabled = true;
+          els.scrub.max = "0";
+          els.scrub.value = "0";
+          els.scrubNow.textContent = "0:00";
+          els.scrubEnd.textContent = "--";
+          return;
+        }
+        const list = sortedPlan();
+        const position = `${String(currentIndex + 1).padStart(2, "0")}/${list.length}`;
+        const duration = currentDuration(cue);
+        const playing = !audio.paused && !!audio.src;
+        els.state.textContent = playing ? `Playing ${position}` : audio.src ? `Paused ${position}` : `Ready ${position}`;
+        els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(duration)}` : runtimeLabel(cue);
+        els.title.textContent = cue.title;
+        els.meta.textContent = `${cue.albumLabel} / ${position} / ${stars(cue)}/5`;
+        els.play.textContent = playing ? "Pause" : audio.src ? "Resume" : "Play";
+        els.art.innerHTML = cue.art ? `<img src="${encodeURI(path(cue.art))}" alt="${cue.title} artwork">` : `<div class="mark">AT</div>`;
+        els.count.textContent = `${list.length} selected`;
+        els.scrub.disabled = !audio.src || duration === null;
+        els.scrub.max = duration === null ? "0" : String(duration);
+        if (!isScrubbing) els.scrub.value = duration === null ? "0" : String(Math.min(audio.currentTime || 0, duration));
+        els.scrubNow.textContent = fmt(isScrubbing ? Number(els.scrub.value) : audio.currentTime);
+        els.scrubEnd.textContent = duration === null ? "--" : fmt(duration);
+      }
+
+      function render() {
+        normalizeOrder();
+        renderAlbums();
+        renderBeats();
+        renderPicker();
+        renderPlaylist();
+        renderNow();
+      }
+
+      function exportJSON() {
+        const payload = {
+          title: "Any Time playlist",
+          exportedAt: new Date().toISOString(),
+          count: sortedPlan().length,
+          songs: sortedPlan().map((cue, index) => ({
+            order: index + 1,
+            songName: cue.title,
+            album: cue.albumLabel,
+            duration: runtime(cue) === null ? null : fmt(runtime(cue)),
+            durationSeconds: runtime(cue),
+            rating: stars(cue),
+            beat: cue.beat || "",
+            beatLabel: beatLabel(cue.beat || ""),
+            songPage: cue.page,
+            audio: cue.audio,
+            artwork: cue.art
+          }))
+        };
+        copyText(JSON.stringify(payload, null, 2), "Playlist JSON copied");
+      }
+
+      function exportCSV() {
+        const rows = [["order", "song_name", "album", "duration", "duration_seconds", "rating", "beat", "song_page", "audio"]];
+        sortedPlan().forEach((cue, index) => {
+          rows.push([
+            index + 1,
+            cue.title,
+            cue.albumLabel,
+            runtime(cue) === null ? "" : fmt(runtime(cue)),
+            runtime(cue) === null ? "" : runtime(cue).toFixed(3),
+            stars(cue),
+            beatLabel(cue.beat || ""),
+            cue.page,
+            cue.audio
+          ]);
+        });
+        const csv = rows.map((row) => row.map((cell) => `"${String(cell).replace(/"/g, '""')}"`).join(",")).join("\n");
+        copyText(csv, "Playlist CSV copied");
+      }
+
+      function copyText(text, status) {
+        if (navigator.clipboard?.writeText) {
+          navigator.clipboard.writeText(text).then(() => setStatus(status)).catch(() => window.prompt("Copy playlist", text));
+        } else {
+          window.prompt("Copy playlist", text);
+        }
+      }
+
+      function probeDurations() {
+        sortedPlan().forEach((cue) => {
+          if (!cue.audio || runtime(cue) !== null) return;
+          const probe = new Audio();
+          probe.preload = "metadata";
+          probe.addEventListener("loadedmetadata", () => {
+            if (Number.isFinite(probe.duration)) {
+              cue.runtime = probe.duration;
+              const source = tracks.find((track) => track.id === cue.id);
+              if (source) source.runtime = probe.duration;
+              save();
+              render();
+            }
+            probe.removeAttribute("src");
+            probe.load();
+          }, { once: true });
+          probe.src = encodeURI(path(cue.audio));
+        });
+      }
+
+      els.album.addEventListener("change", () => {
+        setAlbum(els.album.value, "Album saved");
+      });
+      els.beat.addEventListener("change", () => {
+        activeBeat = els.beat.value;
+        save();
+        renderBeats();
+        setStatus(activeBeat ? `${beatLabel(activeBeat)} selected` : "Beat cleared");
+      });
+      els.albumStrip.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-album]");
+        if (!button) return;
+        setAlbum(button.dataset.album, "Album saved");
+      });
+      els.beatStrip.addEventListener("click", (event) => {
+        const button = event.target.closest("[data-beat]");
+        if (!button) return;
+        activeBeat = button.dataset.beat;
+        save();
+        renderBeats();
+        setStatus(activeBeat ? `${beatLabel(activeBeat)} selected` : "Beat cleared");
+      });
+      els.loadAlbum.addEventListener("click", () => addTracks(albumTracks(currentAlbum), true));
+      els.picker.addEventListener("click", (event) => {
+        const row = event.target.closest(".pick");
+        if (!row?.dataset.id) return;
+        const track = tracks.find((item) => item.id === row.dataset.id);
+        if (!track) return;
+        const action = event.target.dataset.action;
+        if (action === "add") addTracks([track], false);
+        if (action === "preview") {
+          addTracks([track], false);
+          setCurrent(track.id, true);
+        }
+      });
+      els.clear.addEventListener("click", () => {
+        plan = [];
+        currentIndex = 0;
+        movingId = null;
+        audio.pause();
+        audio.removeAttribute("src");
+        audio.load();
+        save();
+        render();
+        setStatus("Playlist cleared");
+      });
+      els.exportBtn.addEventListener("click", exportJSON);
+      els.csv.addEventListener("click", exportCSV);
+      els.prev.addEventListener("click", prev);
+      els.play.addEventListener("click", playPause);
+      els.next.addEventListener("click", next);
+
+      els.playlist.addEventListener("click", (event) => {
+        if (suppressClick) {
+          event.preventDefault();
+          return;
+        }
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        const cue = cueById(cueEl.dataset.id);
+        if (!cue) return;
+        const action = event.target.dataset.action;
+        if (event.target.closest(".cue-no")) {
+          armMove(cue.id);
+          return;
+        }
+        if (movingId && !action) {
+          moveCueTo(movingId, cue.id);
+          return;
+        }
+        if (activeBeat && !action) {
+          cue.beat = activeBeat;
+          save();
+          render();
+          setStatus(`${beatLabel(activeBeat)} flagged`);
+          return;
+        }
+        if (action === "play") setCurrent(cue.id, true);
+        if (action === "cut") deleteCue(cue.id);
+      });
+      els.playlist.addEventListener("change", (event) => {
+        if (event.target.dataset.action !== "stars") return;
+        const cue = cueById(event.target.closest(".cue")?.dataset.id);
+        if (!cue) return;
+        cue.stars = Math.max(0, Math.min(5, Number(event.target.value) || 0));
+        save();
+        render();
+        setStatus("Rating saved");
+      });
+      els.playlist.addEventListener("dragstart", (event) => {
+        if (!event.target.closest(".cue-no")) {
+          event.preventDefault();
+          return;
+        }
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        draggedId = cueEl.dataset.id;
+        movingId = null;
+        cueEl.classList.add("is-dragging");
+        event.dataTransfer.effectAllowed = "move";
+        event.dataTransfer.setData("text/plain", draggedId);
+        setStatus(`Moving ${cueById(draggedId)?.title || "song"}`);
+      });
+      els.playlist.addEventListener("dragend", (event) => {
+        event.target.closest(".cue")?.classList.remove("is-dragging");
+        draggedId = null;
+      });
+      els.playlist.addEventListener("dragover", (event) => {
+        if (!draggedId) return;
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id || cueEl.dataset.id === draggedId) return;
+        event.preventDefault();
+      });
+      els.playlist.addEventListener("drop", (event) => {
+        const cueEl = event.target.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        event.preventDefault();
+        moveCueTo(draggedId || event.dataTransfer.getData("text/plain"), cueEl.dataset.id);
+      });
+      els.playlist.addEventListener("pointerdown", (event) => {
+        const handle = event.target.closest(".cue-no");
+        if (!handle) return;
+        const cueEl = handle.closest(".cue");
+        if (!cueEl?.dataset.id) return;
+        pointerId = cueEl.dataset.id;
+        pointerEl = cueEl;
+        pointerStart = { x: event.clientX, y: event.clientY };
+        movingId = null;
+        cueEl.classList.add("is-dragging");
+        handle.setPointerCapture?.(event.pointerId);
+        setStatus(`Moving ${cueById(pointerId)?.title || "song"}`);
+        event.preventDefault();
+      });
+      els.playlist.addEventListener("pointerup", (event) => {
+        if (!pointerId) return;
+        suppressClick = true;
+        setTimeout(() => { suppressClick = false; }, 0);
+        const target = document.elementFromPoint(event.clientX, event.clientY)?.closest(".cue");
+        const movedEnough = pointerStart && Math.hypot(event.clientX - pointerStart.x, event.clientY - pointerStart.y) > 12;
+        if (movedEnough && target?.dataset.id && target.dataset.id !== pointerId) {
+          moveCueTo(pointerId, target.dataset.id);
+        } else {
+          const id = pointerId;
+          pointerEl?.classList.remove("is-dragging");
+          pointerId = null;
+          pointerEl = null;
+          pointerStart = null;
+          armMove(id);
+          return;
+        }
+        pointerEl?.classList.remove("is-dragging");
+        pointerId = null;
+        pointerEl = null;
+        pointerStart = null;
+        event.preventDefault();
+      });
+
+      els.scrub.addEventListener("pointerdown", () => {
+        isScrubbing = true;
+        if (!audio.src && currentCue()) loadCurrent(false);
+      });
+      els.scrub.addEventListener("input", () => {
+        isScrubbing = true;
+        const seconds = Number(els.scrub.value) || 0;
+        els.scrubNow.textContent = fmt(seconds);
+        if (audio.src && Number.isFinite(Number(audio.duration))) {
+          audio.currentTime = Math.max(0, Math.min(Number(audio.duration), seconds));
+        }
+      });
+      els.scrub.addEventListener("change", () => {
+        const seconds = Number(els.scrub.value) || 0;
+        if (audio.src && Number.isFinite(Number(audio.duration))) {
+          audio.currentTime = Math.max(0, Math.min(Number(audio.duration), seconds));
+        }
+        isScrubbing = false;
+        renderNow();
+      });
+      els.scrub.addEventListener("pointerup", () => {
+        isScrubbing = false;
+        renderNow();
+      });
+
+      audio.addEventListener("play", render);
+      audio.addEventListener("pause", render);
+      audio.addEventListener("timeupdate", renderNow);
+      audio.addEventListener("loadedmetadata", () => {
+        const cue = currentCue();
+        if (cue && Number.isFinite(audio.duration)) {
+          cue.runtime = audio.duration;
+          const source = tracks.find((track) => track.id === cue.id);
+          if (source) source.runtime = audio.duration;
+          save();
+        }
+        render();
+      });
+      audio.addEventListener("ended", next);
+
+      fetch(MANIFEST_URL, { cache: "no-cache" })
+        .then((response) => response.ok ? response.json() : Promise.reject(new Error("manifest")))
+        .then((manifest) => {
+          albums = Object.values(manifest.albums || {}).map((album) => ({
+            key: album.key,
+            label: album.label || album.key,
+            cover: album.cover?.source || album.defaultTrackArt?.source || "",
+            defaultArt: album.defaultTrackArt?.source || album.cover?.source || ""
+          })).filter((album) => album.key);
+          tracks = [];
+          Object.values(manifest.albums || {}).forEach((album) => {
+            const albumLabel = album.label || album.key;
+            const albumKey = album.key;
+            (album.tracks || []).forEach((track) => {
+              const audioSource = track.audio?.source || track.source || "";
+              const art = track.art?.source || album.defaultTrackArt?.source || album.cover?.source || "";
+              tracks.push({
+                id: `${albumKey}:${track.index}:${track.songPage || audioSource}`,
+                albumKey,
+                albumLabel,
+                index: track.index,
+                title: track.title || track.file || "Untitled",
+                page: track.songPage || "",
+                audio: audioSource,
+                art,
+                runtime: null,
+                stars: 0,
+                order: 0
+              });
+            });
+          });
+          currentAlbum = currentAlbum || albums[0]?.key || "";
+          restore();
+          render();
+          probeDurations();
+        })
+        .catch(() => {
+          els.title.textContent = "Manifest failed";
+          els.meta.textContent = "Could not load VOLHOLLA/media-manifest.json";
+          setStatus("Manifest failed");
+        });
+    })();
+  </script>
+</body>
+</html>
