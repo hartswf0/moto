@@ -185,6 +185,33 @@
       white-space: nowrap;
     }
 
+    .now-share {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 8px;
+    }
+
+    .now-share-btn {
+      min-height: 26px;
+      border: 1px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      padding: 0 9px;
+      cursor: pointer;
+      text-transform: uppercase;
+      font-size: 0.58rem;
+      font-weight: 950;
+      letter-spacing: 0.07em;
+      white-space: nowrap;
+    }
+
+    .now-share-btn.primary,
+    .now-share-btn:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
     .scrub {
       border-top: 2px solid var(--ink);
       display: grid;
@@ -1211,6 +1238,76 @@
       font-weight: 950;
     }
 
+    .share-section {
+      border: 2px solid var(--ink);
+      margin-bottom: 12px;
+      background: var(--paper);
+    }
+
+    .share-section-title {
+      border-bottom: 2px solid var(--ink);
+      padding: 8px 10px;
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      text-transform: uppercase;
+      font-size: 0.72rem;
+      font-weight: 950;
+      letter-spacing: 0.08em;
+    }
+
+    .share-panel {
+      padding: 10px;
+      border-bottom: 1px solid var(--ink);
+      display: grid;
+      gap: 8px;
+    }
+
+    .share-panel:last-child {
+      border-bottom: 0;
+    }
+
+    .share-panel.primary {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .share-panel-head {
+      display: grid;
+      grid-template-columns: 48px minmax(0, 1fr);
+      gap: 10px;
+      align-items: center;
+    }
+
+    .share-url {
+      border: 1px solid currentColor;
+      padding: 6px 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 0.62rem;
+      font-weight: 850;
+    }
+
+    .share-panel.primary .mini {
+      border-color: var(--paper);
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .share-panel.primary .mini.primary {
+      background: var(--paper);
+      color: var(--ink);
+      outline: 3px double var(--paper);
+      outline-offset: -7px;
+    }
+
+    .share-tools {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 6px;
+    }
+
     .legend {
       display: flex;
       align-items: center;
@@ -1343,6 +1440,17 @@
         margin-top: 3px;
       }
 
+      .now-share {
+        gap: 4px;
+        margin-top: 5px;
+      }
+
+      .now-share-btn {
+        min-height: 24px;
+        padding: 0 6px;
+        font-size: 0.5rem;
+      }
+
       .scrub {
         grid-template-columns: 42px 1fr 42px;
         min-height: 30px;
@@ -1443,6 +1551,11 @@
         <div class="now">
           <h1 id="nowTitle">All-Time</h1>
           <p id="nowMeta">Albums -> Songs -> Keeps -> Beats -> Exports</p>
+          <div class="now-share" aria-label="Now playing share actions">
+            <button class="now-share-btn primary" type="button" data-action="copy-current-link">Copy Song Link</button>
+            <button class="now-share-btn" type="button" data-action="copy-album-link">Copy Album Link</button>
+            <button class="now-share-btn compact-hide" type="button" data-action="download-current-qr">Song QR</button>
+          </div>
         </div>
         <div class="scrub">
           <span id="scrubNow">0:00</span>
@@ -1474,6 +1587,7 @@
       "use strict";
 
       const MANIFEST_URL = "./VOLHOLLA/media-manifest.json";
+      const PUBLIC_BASE_URL = "https://hartswf0.github.io/moto/";
       const STORAGE_KEY = "allTimeInstrument.v3";
       const beats = [
         { id: "unassigned", label: "Unassigned", target: 0 },
@@ -2294,7 +2408,7 @@
           songs: sourceTracks().length,
           keeps: sortedBuild().length,
           beats: beats.length,
-          shares: 6
+          shares: 12
         }[type] ?? "";
         return h`
           <section class="column" data-column="${type}">
@@ -2539,6 +2653,7 @@
             rating: stars(item),
             notes: item.notes || "",
             songPage: item.page,
+            songPageUrl: sourceSongPageUrl(item),
             audio: item.audio,
             artwork: item.art
           })),
@@ -2567,7 +2682,7 @@
         const payload = exportPayload();
         const current = nowItem || currentItem();
         const source = sourceTracks();
-        if (kind === "current") return { kind, current };
+        if (kind === "current") return { kind, current, songPageUrl: current ? sourceSongPageUrl(current) : "" };
         if (kind === "albums") return { kind, albums };
         if (kind === "songs") return { kind, songs: source.length ? source : tracks };
         if (kind === "keeps") return { kind, keeps: payload.songs };
@@ -2575,12 +2690,52 @@
         return payload;
       }
 
+      function sourceSongPagePath(item) {
+        if (!item) return "";
+        if (item.page) return item.page;
+        if (!item.albumKey || !Number.isFinite(Number(item.index))) return "";
+        return `VOLHOLLA/song-${item.albumKey}-${String(Number(item.index)).padStart(2, "0")}.html`;
+      }
+
+      function sourceSongPageUrl(item) {
+        const page = sourceSongPagePath(item);
+        if (!page) return "";
+        try {
+          return new URL(page.replace(/^\.\//, ""), PUBLIC_BASE_URL).toString();
+        } catch {
+          return page;
+        }
+      }
+
+      function activeAlbumRecord() {
+        return albums.find((album) => album.key === activeAlbum) || albums[0] || null;
+      }
+
+      function albumPagePath(album) {
+        if (!album) return "";
+        return `VOLHOLLA/${album.pageSlug || album.key}.html`;
+      }
+
+      function albumPageUrl(album) {
+        const page = albumPagePath(album);
+        if (!page) return "";
+        try {
+          return new URL(page.replace(/^\.\//, ""), PUBLIC_BASE_URL).toString();
+        } catch {
+          return page;
+        }
+      }
+
+      function currentShareItem() {
+        return nowItem || currentItem();
+      }
+
       function currentSongPageHtml(item) {
         const duration = runtime(item);
         const beat = beatLabel(item.beat || activeBeat);
         const audioSrc = item.audio ? encodeURI(path(item.audio)) : "";
         const artSrc = item.art ? encodeURI(path(item.art)) : "";
-        const pageHref = item.page ? encodeURI(path(item.page)) : "";
+        const pageHref = sourceSongPageUrl(item);
         return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -2618,7 +2773,7 @@
         ${audioSrc ? `<audio controls preload="metadata" src="${audioSrc}"></audio>` : `<div class="meta">No audio source stored for this item.</div>`}
       </div>
       <div class="meta">
-        ${pageHref ? `<a href="${pageHref}">Open Source Song Page</a>` : ""}
+        ${pageHref ? `<a href="${pageHref}">Open Canonical Song Page</a>` : ""}
       </div>
     </section>
   </main>
@@ -2627,7 +2782,7 @@
       }
 
       function downloadCurrentSongPage() {
-        const item = nowItem || currentItem();
+        const item = currentShareItem();
         if (!item) {
           status("No current song to export", 1800);
           return false;
@@ -2636,36 +2791,237 @@
         return true;
       }
 
+      function copyCurrentSongLink() {
+        const item = currentShareItem();
+        const url = sourceSongPageUrl(item);
+        if (!url) {
+          status("No song page link available", 1800);
+          return false;
+        }
+        copyText(url, "Copied song page link");
+        return true;
+      }
+
+      function downloadCurrentSongLink() {
+        const item = currentShareItem();
+        const url = sourceSongPageUrl(item);
+        if (!item || !url) {
+          status("No song page link available", 1800);
+          return false;
+        }
+        downloadText(`${slug(item.title)}-song-link.txt`, `${item.title}\n${item.albumLabel}\n${url}\n`, "text/plain");
+        return true;
+      }
+
+      function qrImageUrl(url) {
+        return `https://api.qrserver.com/v1/create-qr-code/?size=640x640&margin=18&data=${encodeURIComponent(url)}`;
+      }
+
+      function currentQrHtml(item, url) {
+        const qrUrl = qrImageUrl(url);
+        return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${escapeHtml(item.title)} QR / All-Time</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #fff; color: #000; font: 14px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+    main { width: min(720px, calc(100vw - 24px)); border: 2px solid #000; padding: 18px; display: grid; gap: 14px; }
+    h1 { margin: 0; text-transform: uppercase; font-size: clamp(1.4rem, 6vw, 3rem); line-height: 1; overflow-wrap: anywhere; }
+    img { width: min(100%, 520px); border: 2px solid #000; image-rendering: pixelated; justify-self: center; }
+    a { color: #000; overflow-wrap: anywhere; font-weight: 950; }
+    .meta { text-transform: uppercase; font-weight: 950; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="meta">All-Time Canonical Song Page QR</div>
+    <h1>${escapeHtml(item.title)}</h1>
+    <div>${escapeHtml(item.albumLabel)} / ${escapeHtml(beatLabel(item.beat || activeBeat))}</div>
+    <img src="${qrUrl}" alt="QR code for ${escapeHtml(item.title)}">
+    <a href="${url}">${url}</a>
+  </main>
+</body>
+</html>`;
+      }
+
+      function albumQrHtml(album, url) {
+        const qrUrl = qrImageUrl(url);
+        const artSrc = album?.cover ? encodeURI(path(album.cover)) : "";
+        return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${escapeHtml(album?.label || "Album")} QR / All-Time</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #fff; color: #000; font: 14px/1.4 ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+    main { width: min(820px, calc(100vw - 24px)); border: 2px solid #000; display: grid; grid-template-columns: minmax(160px, 260px) 1fr; }
+    .art { border-right: 2px solid #000; min-height: 100%; display: grid; place-items: center; background: #f3f3f3; }
+    .art img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.25); }
+    .mark { font-size: 2rem; font-weight: 950; }
+    .body { padding: 18px; display: grid; gap: 14px; }
+    h1 { margin: 0; text-transform: uppercase; font-size: clamp(1.6rem, 6vw, 3.6rem); line-height: 1; overflow-wrap: anywhere; }
+    img.qr { width: min(100%, 420px); border: 2px solid #000; image-rendering: pixelated; justify-self: start; }
+    a { color: #000; overflow-wrap: anywhere; font-weight: 950; }
+    .meta { text-transform: uppercase; font-weight: 950; }
+    @media (max-width: 760px) { main { grid-template-columns: 1fr; } .art { min-height: 36vh; border-right: 0; border-bottom: 2px solid #000; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="art">${artSrc ? `<img src="${artSrc}" alt="${escapeHtml(album?.label || "Album")} artwork">` : `<div class="mark">ALBUM</div>`}</section>
+    <section class="body">
+      <div class="meta">All-Time Canonical Album Page QR</div>
+      <h1>${escapeHtml(album?.label || "Album")}</h1>
+      <div>${album?.count || 0} songs</div>
+      <img class="qr" src="${qrUrl}" alt="QR code for ${escapeHtml(album?.label || "Album")}">
+      <a href="${url}">${url}</a>
+    </section>
+  </main>
+</body>
+</html>`;
+      }
+
+      function downloadCurrentSongQr() {
+        const item = currentShareItem();
+        const url = sourceSongPageUrl(item);
+        if (!item || !url) {
+          status("No song page link available", 1800);
+          return false;
+        }
+        downloadText(`${slug(item.title)}-qr.html`, currentQrHtml(item, url), "text/html");
+        return true;
+      }
+
+      function copyActiveAlbumLink() {
+        const album = activeAlbumRecord();
+        const url = albumPageUrl(album);
+        if (!url) {
+          status("No album page link available", 1800);
+          return false;
+        }
+        copyText(url, "Copied album page link");
+        return true;
+      }
+
+      function downloadActiveAlbumLink() {
+        const album = activeAlbumRecord();
+        const url = albumPageUrl(album);
+        if (!album || !url) {
+          status("No album page link available", 1800);
+          return false;
+        }
+        downloadText(`${slug(album.label)}-album-link.txt`, `${album.label}\n${url}\n`, "text/plain");
+        return true;
+      }
+
+      function downloadActiveAlbumQr() {
+        const album = activeAlbumRecord();
+        const url = albumPageUrl(album);
+        if (!album || !url) {
+          status("No album page link available", 1800);
+          return false;
+        }
+        downloadText(`${slug(album.label)}-album-qr.html`, albumQrHtml(album, url), "text/html");
+        return true;
+      }
+
       function renderShares() {
         const json = JSON.stringify(exportPayload(), null, 2);
         const list = sortedBuild();
         const current = nowItem || currentItem();
+        const album = activeAlbumRecord();
         const assigned = list.filter((item) => (item.beat || "unassigned") === activeBeat);
+        const songUrl = current ? sourceSongPageUrl(current) : "";
+        const albumUrl = album ? albumPageUrl(album) : "";
         return h`
-          ${shareCard("TARGET", "Export Current Selection", current ? `${current.title} / ${beatLabel(current.beat || activeBeat)}` : "No current song", "current", true)}
-          <button class="share-card ${current ? "active" : ""}" type="button" data-action="download-current-page">
-            <span class="share-icon">PAGE</span>
-            <span>
-              <span class="share-title">Export Playing Page</span>
-              <span class="share-meta">${escapeHtml(current ? current.title : "No current song")}</span>
-            </span>
-            <span class="share-send">⇩</span>
-          </button>
-          ${shareCard("ALBUM", "Export Albums", `All ${albums.length} albums`, "albums")}
-          ${shareCard("SONG", "Export Songs", `All ${sourceTracks().length || tracks.length} songs`, "songs")}
-          ${shareCard("KEEP", "Export Keeps", `All ${list.length} keeps`, "keeps")}
-          ${shareCard("BEAT", "Export Beats", `${beats.length} beats / ${assigned.length} in active`, "beats")}
-          <div class="actions">
-            <button class="mini primary" type="button" data-action="download-json">Download JSON</button>
-            <button class="mini" type="button" data-action="download-csv">Download CSV</button>
-            <button class="mini" type="button" data-action="copy-json">Copy JSON</button>
-            <button class="mini" type="button" data-action="upload-project">Upload JSON</button>
-          </div>
-          <div class="actions three">
-            <button class="mini" type="button" data-action="copy-csv">Copy CSV</button>
-            <button class="mini" type="button" data-action="paste-json">Paste JSON</button>
-            <button class="mini" type="button" data-action="clear-build">Clear</button>
-          </div>
+          <section class="share-section">
+            <div class="share-section-title"><span>Share Links</span><span>Repo Pages</span></div>
+            <article class="share-panel primary">
+              <div class="share-panel-head">
+                <span class="share-icon">SONG</span>
+                <span>
+                  <span class="share-title">Current Song Page</span>
+                  <span class="share-meta">${escapeHtml(current ? current.title : "No current song")}</span>
+                </span>
+              </div>
+              <div class="share-url">${escapeHtml(songUrl || "No canonical song page available")}</div>
+              <div class="share-tools">
+                <button class="mini primary" type="button" data-action="copy-current-link">Copy</button>
+                <button class="mini" type="button" data-action="open-current-link">Open</button>
+                <button class="mini" type="button" data-action="download-current-qr">QR</button>
+                <button class="mini" type="button" data-action="download-current-link">TXT</button>
+              </div>
+            </article>
+            <article class="share-panel">
+              <div class="share-panel-head">
+                <span class="share-icon">ALBUM</span>
+                <span>
+                  <span class="share-title">Current Album Page</span>
+                  <span class="share-meta">${escapeHtml(album ? album.label : "No album")}</span>
+                </span>
+              </div>
+              <div class="share-url">${escapeHtml(albumUrl || "No canonical album page available")}</div>
+              <div class="share-tools">
+                <button class="mini primary" type="button" data-action="copy-album-link">Copy</button>
+                <button class="mini" type="button" data-action="open-album-link">Open</button>
+                <button class="mini" type="button" data-action="download-album-qr">QR</button>
+                <button class="mini" type="button" data-action="download-album-link">TXT</button>
+              </div>
+            </article>
+          </section>
+          <section class="share-section">
+            <div class="share-section-title"><span>Build Data</span><span>Keeps / Beats</span></div>
+            <article class="share-panel">
+              <div class="share-panel-head">
+                <span class="share-icon">KEEP</span>
+                <span>
+                  <span class="share-title">Keeps</span>
+                  <span class="share-meta">${list.length} kept songs</span>
+                </span>
+              </div>
+              <div class="share-tools">
+                <button class="mini primary" type="button" data-action="copy-keeps">Copy</button>
+                <button class="mini" type="button" data-action="download-keeps">JSON</button>
+                <button class="mini" type="button" data-action="download-csv">CSV</button>
+                <button class="mini" type="button" data-action="copy-csv">Copy CSV</button>
+              </div>
+            </article>
+            <article class="share-panel">
+              <div class="share-panel-head">
+                <span class="share-icon">BEAT</span>
+                <span>
+                  <span class="share-title">Beats</span>
+                  <span class="share-meta">${beats.length} beats / ${assigned.length} in active</span>
+                </span>
+              </div>
+              <div class="share-tools">
+                <button class="mini primary" type="button" data-action="copy-beats">Copy</button>
+                <button class="mini" type="button" data-action="download-beats">JSON</button>
+                <button class="mini" type="button" data-action="download-json">Project</button>
+                <button class="mini" type="button" data-action="copy-json">Copy All</button>
+              </div>
+            </article>
+            <article class="share-panel">
+              <div class="share-panel-head">
+                <span class="share-icon">LOAD</span>
+                <span>
+                  <span class="share-title">Load / Reset</span>
+                  <span class="share-meta">Paste or upload an All-Time build</span>
+                </span>
+              </div>
+              <div class="share-tools">
+                <button class="mini primary" type="button" data-action="upload-project">Upload</button>
+                <button class="mini" type="button" data-action="paste-json">Paste</button>
+                <button class="mini" type="button" data-action="download-current-page">Portable</button>
+                <button class="mini" type="button" data-action="clear-build">Clear</button>
+              </div>
+            </article>
+          </section>
           <textarea class="paste-box" data-paste-import placeholder="Paste All-Time JSON here, then press Paste JSON"></textarea>
           <div class="export-box"><textarea readonly>${escapeHtml(json)}</textarea></div>
         `;
@@ -2771,6 +3127,28 @@
 
       function downloadExport(kind = "all") {
         downloadText(`all-time-${slug(kind)}.json`, JSON.stringify(exportChannel(kind), null, 2));
+      }
+
+      function copyExport(kind = "all") {
+        return copyText(JSON.stringify(exportChannel(kind), null, 2), `Copied ${kind}`);
+      }
+
+      function openUrl(url, label = "Opened link") {
+        if (!url) {
+          status("No link available", 1800);
+          return false;
+        }
+        window.open(url, "_blank", "noopener,noreferrer");
+        status(label, 1400);
+        return true;
+      }
+
+      function openCurrentSongLink() {
+        return openUrl(sourceSongPageUrl(currentShareItem()), "Opened song page");
+      }
+
+      function openActiveAlbumLink() {
+        return openUrl(albumPageUrl(activeAlbumRecord()), "Opened album page");
       }
 
       function importPayload(payload) {
@@ -2884,6 +3262,18 @@
           "clear-build": () => clearBuild(),
           "download-export": () => downloadExport(control.dataset.export || "all"),
           "download-current-page": () => downloadCurrentSongPage(),
+          "copy-current-link": () => copyCurrentSongLink(),
+          "open-current-link": () => openCurrentSongLink(),
+          "download-current-link": () => downloadCurrentSongLink(),
+          "download-current-qr": () => downloadCurrentSongQr(),
+          "copy-album-link": () => copyActiveAlbumLink(),
+          "open-album-link": () => openActiveAlbumLink(),
+          "download-album-link": () => downloadActiveAlbumLink(),
+          "download-album-qr": () => downloadActiveAlbumQr(),
+          "copy-keeps": () => copyExport("keeps"),
+          "download-keeps": () => downloadExport("keeps"),
+          "copy-beats": () => copyExport("beats"),
+          "download-beats": () => downloadExport("beats"),
           "download-json": () => downloadText("all-time-build.json", JSON.stringify(exportPayload(), null, 2)),
           "download-csv": () => downloadText("all-time-keeps.csv", csvText(), "text/csv"),
           "upload-project": () => els.upload.click(),
@@ -2982,6 +3372,14 @@
           displaced.classList.add("displaced");
           displaced.closest(".slot-row")?.classList.add("displaced");
         }
+      });
+
+      document.querySelector(".player")?.addEventListener("click", (event) => {
+        const control = event.target.closest("[data-action]");
+        if (!control) return;
+        event.preventDefault();
+        event.stopPropagation();
+        runAction(control);
       });
 
       els.workspace.addEventListener("dragleave", (event) => {
@@ -3131,6 +3529,7 @@
           albums = Object.values(manifest.albums || {}).map((album) => ({
             key: album.key,
             label: album.label || album.key,
+            pageSlug: album.pageSlug || album.key,
             cover: album.cover?.source || album.defaultTrackArt?.source || "",
             count: (album.tracks || []).length
           })).filter((album) => album.key);

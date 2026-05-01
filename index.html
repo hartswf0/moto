@@ -296,6 +296,17 @@
       font-size: 0.84rem;
       margin-bottom: 12px;
     }
+    .priority-grid {
+      margin-bottom: 14px;
+    }
+    .operator-card h2 {
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-size: 0.96rem;
+    }
+    .operator-card .meta {
+      max-width: 42rem;
+    }
     .row {
       display: flex;
       flex-wrap: wrap;
@@ -340,19 +351,16 @@
         </svg>
         <div>
           <h1>MOTO Hub</h1>
-          <p>GitHub Pages launcher for the shield hall, OP deck, and Mandalla ring mixers.</p>
+          <p>Shield rack and main operators.</p>
         </div>
       </div>
       <div class="row" style="margin-top:12px">
         <a class="btn primary" href="./all-time.html">All Time</a>
-        <a class="btn" href="./any-time.html">Any Time</a>
-        <a class="btn" href="./mall-time.html">Mall Time</a>
-        <a class="btn" href="./radio-01.html">Radio 01</a>
-        <a class="btn" href="./radio-02.html">Radio 02</a>
-        <a class="btn" href="./radio-03.html">Radio 03</a>
-        <a class="btn" href="./radio-04.html">Radio 04</a>
-        <a class="btn" href="./VOLHOLLA/radio.html">VOLHOLLA Radio</a>
-        <a class="btn" href="./VOLHOLLA/index.html">Library</a>
+        <a class="btn" href="./VOLHOLLA/">Shield Hall</a>
+        <a class="btn" href="./op2.html">OP Deck</a>
+        <a class="btn" href="./mandalla.html?album=ghost">Mandalla</a>
+        <a class="btn" href="./mandalla-deck.html?a=ghost&b=maquina">Deck</a>
+        <a class="btn" href="./VOLHOLLA/radio.html">Radio</a>
       </div>
     </section>
 
@@ -360,9 +368,9 @@
       <div class="board-head">
         <div>
           <h2 id="shield-board-title">Shield Rack</h2>
-          <p>One shield per album. Tap the shield to open the album page, or use the lower controls for first-track play and direct Mandalla load.</p>
+          <p>Albums first. Open, load, or share from the shield itself.</p>
         </div>
-        <div class="board-tag">31 Album Shields</div>
+        <div class="board-tag">31 Shields</div>
       </div>
 
       <div class="shield-grid">
@@ -926,7 +934,49 @@
       </div>
     </section>
 
-    <section class="grid">
+    <section class="grid priority-grid" aria-label="Main operators">
+      <article class="card operator-card">
+        <h2>All Time</h2>
+        <div class="meta">Build keeps, beats, exports, and share links from one locked player.</div>
+        <div class="row">
+          <a class="btn primary" href="./all-time.html">Open</a>
+          <a class="btn" href="./any-time.html">Any Time</a>
+          <a class="btn" href="./mall-time.html">Mall Time</a>
+        </div>
+      </article>
+
+      <article class="card operator-card">
+        <h2>OP Deck</h2>
+        <div class="meta">Two-album operator for direct crate collisions.</div>
+        <div class="row">
+          <a class="btn primary" href="./op2.html">Open</a>
+          <a class="btn" href="./op2.html?a=ghost&b=maquina">Ghost × Maquina</a>
+          <a class="btn" href="./op2.html?a=river&b=loom">River × Loom</a>
+        </div>
+      </article>
+
+      <article class="card operator-card">
+        <h2>Mandalla</h2>
+        <div class="meta">Single-ring and paired-ring album loaders.</div>
+        <div class="row">
+          <a class="btn primary" href="./mandalla.html?album=ghost">Single</a>
+          <a class="btn" href="./mandalla-deck.html?a=ghost&b=maquina">Pair</a>
+          <a class="btn" href="./mandalla.html?album=river">River</a>
+        </div>
+      </article>
+
+      <article class="card operator-card">
+        <h2>Library / Radio</h2>
+        <div class="meta">Manifest-backed album pages, song pages, and radio harness.</div>
+        <div class="row">
+          <a class="btn primary" href="./VOLHOLLA/">Library</a>
+          <a class="btn" href="./VOLHOLLA/radio.html">Radio</a>
+          <a class="btn" href="./VOLHOLLA/media-manifest.json">Manifest</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid legacy-routes" hidden>
       <article class="card">
         <h2>VOLHOLLA Shield Hall</h2>
         <div class="meta">Multi-album shield browser for VOLHOLLA, STOCHASTIC ELEPHANT, BREATH-THIEFS LOOM, GEOMETRIC GHOSTS OF MITTE, MOTO, RIVER BANK WAITING, CROSSROADS AND CROWN, SOLAR REVERIES, JUKEBOX TIME COLLAPSE, CYBERNETIC WINTER, NEON PUDDLES, NIGHT BUS, MALL PATCHWORLD INGEST (ground), MALL PATCHWORLD INGEST (mezzanine), NO SERVICE, CLINICAL HEAT, CATHEDRAL OF IV DRIPS, THRONE OF ASH, CATHEDRAL OF GLASS, EVENT HORIZON DISCOVERY, GHOST IN THE WIRES, SILENCE IN THE 757, CONCRETO, CYPHER MIXTAPE, GOLE YAKH MEMORY, USB LEGACY, FERROUS LAMENT, THE GREAT CONGREGATION, MÁQUINA DE GUERRA, BLACK WATER RUN, and 黑水奔流.</div>
@@ -1126,7 +1176,7 @@
       </article>
     </section>
 
-    <section class="grid" aria-label="Radio harnesses" style="margin-top:12px">
+    <section class="grid legacy-routes" aria-label="Radio harnesses" style="margin-top:12px" hidden>
       <article class="card">
         <h2>Radio Harnesses</h2>
         <div class="meta">Root-level catalog radios using the VOLHOLLA manifest for song, image, and song-page data.</div>
@@ -1152,7 +1202,7 @@
       </article>
     </section>
 
-    <div class="small">If GitHub Pages is enabled on `main` / root, this page becomes the entry point.</div>
+    <div class="small">MOTO operators stay above the archive routes.</div>
   </div>
   <script>
     (function () {
