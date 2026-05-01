@@ -1382,6 +1382,7 @@
         .replace(/^\d+_/, "")
         .replace(/^coolradio\s*-\s*/i, "")
         .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
+        .replace(/^ghost in the wires\s*-\s*/i, "")
         .replace(/^river bank waiting\s*-\s*/i, "")
         .replace(/^solar reveries\s*-\s*/i, "")
         .replace(/^jukebox time collapse\s*-\s*/i, "")
@@ -1650,6 +1651,61 @@
           "River Bank Waiting - The Mutt on the Marsh - Sonauto.ogg",
           "River Bank Waiting - The Pastiche of Super Dad - Sonauto.ogg",
           "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
+        ]
+      },
+      {
+        key: "ghost",
+        label: "GHOST IN THE WIRES",
+        pageSlug: "ghost-in-the-wires",
+        description: "Azmari circuitry / ancestral machine critique / highland signal resistance",
+        accentA: "#8bd2ff",
+        accentB: "#f0d36c",
+        coverImage: "../GHOST IN THE WIRES/Gemini_Generated_Image_ljagjwljagjwljag.jpeg",
+        defaultTrackArt: "../GHOST IN THE WIRES/Gemini_Generated_Image_l9y4qjl9y4qjl9y4.jpeg",
+        basePath: "../GHOST IN THE WIRES/",
+        noSongPages: true,
+        files: [
+          "Ghost in the Wires - Ancestral Fire (ጥንታዊ እሳት) - Sonauto.ogg",
+          "Ghost in the Wires - Blood of the Highlands - Sonauto.ogg",
+          "Ghost in the Wires - Bone Over Silicon - Sonauto.ogg",
+          "Ghost in the Wires - Broken Code Over Adwa - Sonauto.ogg",
+          "Ghost in the Wires - Burn the Excuse - Sonauto.ogg",
+          "Ghost in the Wires - Cheb Cheb (The Machine Bows) - Sonauto.ogg",
+          "Ghost in the Wires - Coded Gaze Resistance - Sonauto.ogg",
+          "Ghost in the Wires - Frictionless Ghost - Sonauto.ogg",
+          "Ghost in the Wires - GPU Azmari - Sonauto.ogg",
+          "Ghost in the Wires - GPU Azmari Flow - Sonauto.ogg",
+          "Ghost in the Wires - Gojo Freestyle - Sonauto.ogg",
+          "Ghost in the Wires - Nigat Chora (Morning Ray) - Sonauto.ogg",
+          "Ghost in the Wires - Sile Milach (The Sharp Blade) - Sonauto.ogg",
+          "Ghost in the Wires - Tetris at Arat Kilo (አራት ኪሎ ላይ ተትሪስ) - Sonauto.ogg",
+          "Ghost in the Wires - The Bati Mirror - Sonauto.ogg",
+          "Ghost in the Wires - The Frictionless Mirror - Sonauto.ogg",
+          "Ghost in the Wires - The Human Cry - Sonauto.ogg",
+          "Ghost in the Wires - The Struggle of Memory and Sweat - Sonauto.ogg",
+          "Ghost in the Wires - መደበቂያው ጠፋ (Missing Hiding Place) - Sonauto.ogg",
+          "Ghost in the Wires - ሲሊኮን እና አፈር (Silicon and Soil) - Sonauto.ogg",
+          "Ghost in the Wires - ትግል የሌለው ህይወት (Life Without Struggle) - Sonauto.ogg",
+          "Ghost in the Wires - አይ ማሽን አትመካ (Machine's Reflection) - Sonauto.ogg",
+          "Ghost in the Wires - አፈር እና ብረት (Dirt and Iron) - Sonauto.ogg",
+          "Ghost in the Wires - ዝምታ ባሻገር (Beyond the Silence) - Sonauto.ogg",
+          "Ghost in the Wires - የሰም ሻማ (The Wax Candle) - Sonauto.ogg",
+          "Ghost in the Wires - የሳንኮፋ ሪትም (Sankofa Rhythm) - Sonauto.ogg",
+          "Ghost in the Wires - የሳንኮፋ ዑደት (Sankofa Circuit) - Sonauto.ogg",
+          "Ghost in the Wires - የሳንኮፋ ዑደት (The Sankofa Circuit) - Sonauto.ogg",
+          "Ghost in the Wires - የሳንኮፋ ዑደት ፩ - Sonauto.ogg",
+          "Ghost in the Wires - የቀንበር ቀመር (Equation of Yoke) - Sonauto.ogg",
+          "Ghost in the Wires - የቃል ኪዳን መረብ (The Covenant Web) - Sonauto.ogg",
+          "Ghost in the Wires - የብረት በሬ (Metal Bull) - Sonauto.ogg",
+          "Ghost in the Wires - የብረት በሬ ሪትም (Iron Ox Rhythm) - Sonauto.ogg",
+          "Ghost in the Wires - የብረት በሬ እና የአራኪስ አሸዋ (Iron Bull) - Sonauto.ogg",
+          "Ghost in the Wires - የነፃነት አየር (Air of Freedom) - Sonauto.ogg",
+          "Ghost in the Wires - የኔት-ወርቅ (My Gold Network) - Sonauto.ogg",
+          "Ghost in the Wires - የንጋት ኮከብ (Morning Star) - Sonauto.ogg",
+          "Ghost in the Wires - የአዝማሪው ፌዝ (The Bard's Jest) - Sonauto.ogg",
+          "Ghost in the Wires - የአጥንት ጥንካሬ (Strength of Bone) - Sonauto.ogg",
+          "Ghost in the Wires - የአፓላቺያን ቅኔ (Appalachian Qene) - Sonauto.ogg",
+          "Ghost in the Wires - የዘመን ሽግግር (The Shift) - Sonauto.ogg"
         ]
       },
       {
@@ -2616,6 +2672,15 @@
 
     function getSongPagePath(index = state.currentIndex, areaKey = state.activeAreaKey, opts = {}) {
       if (!Number.isFinite(index) || index < 0) return "";
+      const area = getAreaDef(areaKey);
+      if (area?.noSongPages) {
+        const params = new URLSearchParams();
+        params.set("track", String(index + 1));
+        if (opts.embed) params.set("embed", "1");
+        if (opts.autoplay) params.set("autoplay", "1");
+        const query = params.toString();
+        return `./${area.pageSlug || area.key}.html${query ? `?${query}` : ""}#tracks`;
+      }
       const num = String(index + 1).padStart(2, "0");
       const params = new URLSearchParams();
       if (opts.embed) params.set("embed", "1");

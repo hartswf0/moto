@@ -257,6 +257,7 @@
         { key: 'throne', label: 'THRON' },
         { key: 'glass', label: 'GLASS' },
         { key: 'event', label: 'EVENT' },
+        { key: 'ghost', label: 'GHOST' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -311,6 +312,8 @@
             ? 'glass'
           : raw === 'event-horizon-discovery' || raw === 'event_horizon_discovery' || raw === 'event'
             ? 'event'
+          : raw === 'ghost-in-the-wires' || raw === 'ghost_in_the_wires' || raw === 'ghost'
+            ? 'ghost'
           : raw === 'gole-yakh-memory' || raw === 'gole_yakh_memory' || raw === 'goleyakh'
             ? 'goleyakh'
           : raw === 'cathedral-of-iv-drips' || raw === 'cathedral_of_iv_drips' || raw === 'cathedral' || raw === 'ivdrips'

@@ -744,6 +744,56 @@
                     "River Bank Waiting - The Swamp Dog Jam - Sonauto.ogg"
                 ]
             },
+            ghost: {
+                key: 'ghost',
+                label: 'GHOST IN THE WIRES',
+                short: 'GHOST',
+                basePath: 'GHOST IN THE WIRES/',
+                logic: 'Wire Ghost Relay',
+                files: [
+                    "Ghost in the Wires - Ancestral Fire (ጥንታዊ እሳት) - Sonauto.ogg",
+                    "Ghost in the Wires - Blood of the Highlands - Sonauto.ogg",
+                    "Ghost in the Wires - Bone Over Silicon - Sonauto.ogg",
+                    "Ghost in the Wires - Broken Code Over Adwa - Sonauto.ogg",
+                    "Ghost in the Wires - Burn the Excuse - Sonauto.ogg",
+                    "Ghost in the Wires - Cheb Cheb (The Machine Bows) - Sonauto.ogg",
+                    "Ghost in the Wires - Coded Gaze Resistance - Sonauto.ogg",
+                    "Ghost in the Wires - Frictionless Ghost - Sonauto.ogg",
+                    "Ghost in the Wires - GPU Azmari - Sonauto.ogg",
+                    "Ghost in the Wires - GPU Azmari Flow - Sonauto.ogg",
+                    "Ghost in the Wires - Gojo Freestyle - Sonauto.ogg",
+                    "Ghost in the Wires - Nigat Chora (Morning Ray) - Sonauto.ogg",
+                    "Ghost in the Wires - Sile Milach (The Sharp Blade) - Sonauto.ogg",
+                    "Ghost in the Wires - Tetris at Arat Kilo (አራት ኪሎ ላይ ተትሪስ) - Sonauto.ogg",
+                    "Ghost in the Wires - The Bati Mirror - Sonauto.ogg",
+                    "Ghost in the Wires - The Frictionless Mirror - Sonauto.ogg",
+                    "Ghost in the Wires - The Human Cry - Sonauto.ogg",
+                    "Ghost in the Wires - The Struggle of Memory and Sweat - Sonauto.ogg",
+                    "Ghost in the Wires - መደበቂያው ጠፋ (Missing Hiding Place) - Sonauto.ogg",
+                    "Ghost in the Wires - ሲሊኮን እና አፈር (Silicon and Soil) - Sonauto.ogg",
+                    "Ghost in the Wires - ትግል የሌለው ህይወት (Life Without Struggle) - Sonauto.ogg",
+                    "Ghost in the Wires - አይ ማሽን አትመካ (Machine's Reflection) - Sonauto.ogg",
+                    "Ghost in the Wires - አፈር እና ብረት (Dirt and Iron) - Sonauto.ogg",
+                    "Ghost in the Wires - ዝምታ ባሻገር (Beyond the Silence) - Sonauto.ogg",
+                    "Ghost in the Wires - የሰም ሻማ (The Wax Candle) - Sonauto.ogg",
+                    "Ghost in the Wires - የሳንኮፋ ሪትም (Sankofa Rhythm) - Sonauto.ogg",
+                    "Ghost in the Wires - የሳንኮፋ ዑደት (Sankofa Circuit) - Sonauto.ogg",
+                    "Ghost in the Wires - የሳንኮፋ ዑደት (The Sankofa Circuit) - Sonauto.ogg",
+                    "Ghost in the Wires - የሳንኮፋ ዑደት ፩ - Sonauto.ogg",
+                    "Ghost in the Wires - የቀንበር ቀመር (Equation of Yoke) - Sonauto.ogg",
+                    "Ghost in the Wires - የቃል ኪዳን መረብ (The Covenant Web) - Sonauto.ogg",
+                    "Ghost in the Wires - የብረት በሬ (Metal Bull) - Sonauto.ogg",
+                    "Ghost in the Wires - የብረት በሬ ሪትም (Iron Ox Rhythm) - Sonauto.ogg",
+                    "Ghost in the Wires - የብረት በሬ እና የአራኪስ አሸዋ (Iron Bull) - Sonauto.ogg",
+                    "Ghost in the Wires - የነፃነት አየር (Air of Freedom) - Sonauto.ogg",
+                    "Ghost in the Wires - የኔት-ወርቅ (My Gold Network) - Sonauto.ogg",
+                    "Ghost in the Wires - የንጋት ኮከብ (Morning Star) - Sonauto.ogg",
+                    "Ghost in the Wires - የአዝማሪው ፌዝ (The Bard's Jest) - Sonauto.ogg",
+                    "Ghost in the Wires - የአጥንት ጥንካሬ (Strength of Bone) - Sonauto.ogg",
+                    "Ghost in the Wires - የአፓላቺያን ቅኔ (Appalachian Qene) - Sonauto.ogg",
+                    "Ghost in the Wires - የዘመን ሽግግር (The Shift) - Sonauto.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1423,6 +1473,7 @@
                 .replace(/^throne of ash\s*-\s*/i, '')
                 .replace(/^cathedral of glass\s*-\s*/i, '')
                 .replace(/^event horizon discovery\s*-\s*/i, '')
+                .replace(/^ghost in the wires\s*-\s*/i, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -1461,6 +1512,7 @@
         function normalizeOp2AlbumKey(raw) {
             const v = String(raw || '').toLowerCase();
             if (v === 'geometric-ghosts-of-mitte' || v === 'geometric_ghosts_of_mitte' || v === 'ghosts') return 'mitte';
+            if (v === 'ghost-in-the-wires' || v === 'ghost_in_the_wires' || v === 'ghost') return 'ghost';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

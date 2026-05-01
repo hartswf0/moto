@@ -415,6 +415,69 @@
         ["OP2 Pair", "Launch with JUKEBOX TIME COLLAPSE for a cold/ember contrast deck."]
       ]
     },
+    ghost: {
+      key: "ghost",
+      pageSlug: "ghost-in-the-wires",
+      basePath: "../GHOST IN THE WIRES/",
+      label: "GHOST IN THE WIRES",
+      subtitle: "Azmari circuitry / ancestral machine critique / highland signal resistance",
+      accentA: "#8bd2ff",
+      accentB: "#f0d36c",
+      coverImage: "../GHOST IN THE WIRES/Gemini_Generated_Image_ljagjwljagjwljag.jpeg",
+      defaultTrackArt: "../GHOST IN THE WIRES/Gemini_Generated_Image_l9y4qjl9y4qjl9y4.jpeg",
+      hallKey: "ghost",
+      op2Key: "ghost",
+      op2Pair: "maquina",
+      noSongPages: true,
+      files: [
+        "Ghost in the Wires - Ancestral Fire (ጥንታዊ እሳት) - Sonauto.ogg",
+        "Ghost in the Wires - Blood of the Highlands - Sonauto.ogg",
+        "Ghost in the Wires - Bone Over Silicon - Sonauto.ogg",
+        "Ghost in the Wires - Broken Code Over Adwa - Sonauto.ogg",
+        "Ghost in the Wires - Burn the Excuse - Sonauto.ogg",
+        "Ghost in the Wires - Cheb Cheb (The Machine Bows) - Sonauto.ogg",
+        "Ghost in the Wires - Coded Gaze Resistance - Sonauto.ogg",
+        "Ghost in the Wires - Frictionless Ghost - Sonauto.ogg",
+        "Ghost in the Wires - GPU Azmari - Sonauto.ogg",
+        "Ghost in the Wires - GPU Azmari Flow - Sonauto.ogg",
+        "Ghost in the Wires - Gojo Freestyle - Sonauto.ogg",
+        "Ghost in the Wires - Nigat Chora (Morning Ray) - Sonauto.ogg",
+        "Ghost in the Wires - Sile Milach (The Sharp Blade) - Sonauto.ogg",
+        "Ghost in the Wires - Tetris at Arat Kilo (አራት ኪሎ ላይ ተትሪስ) - Sonauto.ogg",
+        "Ghost in the Wires - The Bati Mirror - Sonauto.ogg",
+        "Ghost in the Wires - The Frictionless Mirror - Sonauto.ogg",
+        "Ghost in the Wires - The Human Cry - Sonauto.ogg",
+        "Ghost in the Wires - The Struggle of Memory and Sweat - Sonauto.ogg",
+        "Ghost in the Wires - መደበቂያው ጠፋ (Missing Hiding Place) - Sonauto.ogg",
+        "Ghost in the Wires - ሲሊኮን እና አፈር (Silicon and Soil) - Sonauto.ogg",
+        "Ghost in the Wires - ትግል የሌለው ህይወት (Life Without Struggle) - Sonauto.ogg",
+        "Ghost in the Wires - አይ ማሽን አትመካ (Machine's Reflection) - Sonauto.ogg",
+        "Ghost in the Wires - አፈር እና ብረት (Dirt and Iron) - Sonauto.ogg",
+        "Ghost in the Wires - ዝምታ ባሻገር (Beyond the Silence) - Sonauto.ogg",
+        "Ghost in the Wires - የሰም ሻማ (The Wax Candle) - Sonauto.ogg",
+        "Ghost in the Wires - የሳንኮፋ ሪትም (Sankofa Rhythm) - Sonauto.ogg",
+        "Ghost in the Wires - የሳንኮፋ ዑደት (Sankofa Circuit) - Sonauto.ogg",
+        "Ghost in the Wires - የሳንኮፋ ዑደት (The Sankofa Circuit) - Sonauto.ogg",
+        "Ghost in the Wires - የሳንኮፋ ዑደት ፩ - Sonauto.ogg",
+        "Ghost in the Wires - የቀንበር ቀመር (Equation of Yoke) - Sonauto.ogg",
+        "Ghost in the Wires - የቃል ኪዳን መረብ (The Covenant Web) - Sonauto.ogg",
+        "Ghost in the Wires - የብረት በሬ (Metal Bull) - Sonauto.ogg",
+        "Ghost in the Wires - የብረት በሬ ሪትም (Iron Ox Rhythm) - Sonauto.ogg",
+        "Ghost in the Wires - የብረት በሬ እና የአራኪስ አሸዋ (Iron Bull) - Sonauto.ogg",
+        "Ghost in the Wires - የነፃነት አየር (Air of Freedom) - Sonauto.ogg",
+        "Ghost in the Wires - የኔት-ወርቅ (My Gold Network) - Sonauto.ogg",
+        "Ghost in the Wires - የንጋት ኮከብ (Morning Star) - Sonauto.ogg",
+        "Ghost in the Wires - የአዝማሪው ፌዝ (The Bard's Jest) - Sonauto.ogg",
+        "Ghost in the Wires - የአጥንት ጥንካሬ (Strength of Bone) - Sonauto.ogg",
+        "Ghost in the Wires - የአፓላቺያን ቅኔ (Appalachian Qene) - Sonauto.ogg",
+        "Ghost in the Wires - የዘመን ሽግግር (The Shift) - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Azmari circuitry / ancestral machine critique / highland signal resistance"],
+        ["Art", "Two-image album object: cover and default track visual alternate through the manifest."],
+        ["OP2 Pair", "Launch with MÁQUINA DE GUERRA for signal-resistance contrast."]
+      ]
+    },
     neon: {
       key: "neon",
       pageSlug: "neon-puddles",
@@ -1325,6 +1388,10 @@
   }
 
   function songPageHref(album, index, extra = {}) {
+    if (album.noSongPages) {
+      const params = new URLSearchParams({ track: String(index + 1), ...extra });
+      return `./${album.pageSlug}.html?${params.toString()}#tracks`;
+    }
     const num = String(index + 1).padStart(2, "0");
     const params = new URLSearchParams();
     Object.entries(extra).forEach(([k, v]) => {
