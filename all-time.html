@@ -295,7 +295,7 @@
       min-width: var(--column-w);
       height: 100%;
       display: grid;
-      grid-template-rows: 58px minmax(0, 1fr);
+      grid-template-rows: 74px minmax(0, 1fr);
       border-right: 2px solid var(--ink);
       background: var(--paper);
       scroll-snap-align: start;
@@ -309,6 +309,8 @@
       grid-template-columns: 1fr;
       align-items: stretch;
       border-bottom: 2px solid var(--ink);
+      min-height: 74px;
+      background: var(--paper);
     }
 
     .column-header::after {
@@ -322,29 +324,34 @@
       border-radius: 3px;
       padding: 2px 7px;
       background: var(--paper);
-      font-size: 0.72rem;
+      font-size: 0.76rem;
       font-weight: 950;
       letter-spacing: 0.08em;
+      line-height: 1.1;
     }
 
     .column-title {
       min-width: 0;
-      padding: 10px 54px 10px 12px;
+      padding: 12px 64px 10px 12px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      gap: 5px;
       text-transform: uppercase;
     }
 
     .column-name {
       font-weight: 950;
+      font-size: 1.08rem;
+      line-height: 1.05;
       letter-spacing: 0.12em;
     }
 
     .column-subtitle {
-      margin-top: 2px;
-      font-size: 0.64rem;
+      font-size: 0.74rem;
+      line-height: 1.15;
       font-weight: 850;
+      letter-spacing: 0.04em;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
@@ -370,7 +377,7 @@
     }
 
     .column-add {
-      min-height: 42px;
+      min-height: 54px;
       border: 2px solid var(--ink);
       border-left: 0;
       border-right: 0;
@@ -378,14 +385,28 @@
       background: var(--paper);
       color: var(--ink);
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 10px;
+      gap: 3px;
       text-transform: uppercase;
-      font-size: 0.68rem;
       font-weight: 950;
-      letter-spacing: 0.08em;
       cursor: pointer;
+      padding: 7px 10px;
+      text-align: center;
+    }
+
+    .column-add-main {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      line-height: 1.05;
+    }
+
+    .column-add-sub {
+      font-size: 0.58rem;
+      letter-spacing: 0.06em;
+      line-height: 1.1;
+      opacity: 0.82;
     }
 
     .column-add:hover {
@@ -615,8 +636,8 @@
 
     .unit-main {
       display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 10px;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 4px;
       align-items: start;
       min-width: 0;
     }
@@ -798,6 +819,9 @@
       font-weight: 950;
       letter-spacing: 0.02em;
       white-space: nowrap;
+      justify-self: start;
+      font-size: 0.82rem;
+      line-height: 1;
     }
 
     .rating-rail {
@@ -808,23 +832,33 @@
 
     .star-btn {
       min-height: 48px;
-      border: 1px solid currentColor;
-      background: transparent;
-      color: inherit;
-      font-size: 1rem;
+      border: 2px solid var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+      font-size: 1.18rem;
       font-weight: 950;
       cursor: pointer;
       text-align: center;
+      line-height: 1;
     }
 
     .star-btn.on,
     .star-btn:hover {
-      background: currentColor;
+      background: var(--ink);
+      color: var(--paper);
     }
 
     .star-btn.on span,
     .star-btn:hover span {
-      color: var(--paper);
+      color: inherit;
+    }
+
+    .unit:hover .star-btn,
+    .unit.active .star-btn,
+    .unit.selected .star-btn {
+      border-color: var(--paper);
+      background: var(--paper);
+      color: var(--ink);
     }
 
     .unit:hover .star-btn.on span,
@@ -833,7 +867,7 @@
     .unit:hover .star-btn:hover span,
     .unit.active .star-btn:hover span,
     .unit.selected .star-btn:hover span {
-      color: var(--ink);
+      color: inherit;
     }
 
     .toolbar {
@@ -1785,6 +1819,23 @@
         render({ snap: false });
       }
 
+      function keepOpenAlbum() {
+        const visible = sourceTracks();
+        let added = 0;
+        visible.forEach((track) => {
+          if (keptFor(track.id)) return;
+          build.push({ ...track, order: build.length, stars: 0, beat: activeBeat, notes: "", keptAt: new Date().toISOString() });
+          added += 1;
+        });
+        normalizeOrder();
+        if (added) rememberPlacement(visible[0]?.id || "", `${added} songs moved to keeps`);
+        save();
+        render({ snap: false });
+        status(added ? `${added} songs added to Keeps` : "Open album is already in Keeps", 1800);
+        requestAnimationFrame(() => scrollColumn("keeps"));
+        return true;
+      }
+
       function cutItem(id) {
         const list = sortedBuild();
         const index = list.findIndex((item) => item.id === id);
@@ -1874,6 +1925,36 @@
         return ok;
       }
 
+      function addCurrentItem() {
+        const item = nowItem || currentItem() || sourceTracks()[0] || tracks[0];
+        const ok = addTrack(item);
+        if (ok && item) {
+          status(`${item.title} is in Keeps`, 1600);
+          requestAnimationFrame(() => scrollColumn("keeps"));
+        }
+        return ok;
+      }
+
+      function addCurrentItemToActiveBeat() {
+        const item = nowItem || currentItem() || sourceTracks()[0] || tracks[0];
+        if (!item) return false;
+        const targetBeat = activeBeat && activeBeat !== "unassigned" ? activeBeat : "CH00";
+        activeBeat = targetBeat;
+        const existing = keptFor(item.id);
+        if (existing) {
+          existing.beat = targetBeat;
+        } else {
+          build.push({ ...item, order: build.length, stars: 0, beat: targetBeat, notes: "", keptAt: new Date().toISOString() });
+          normalizeOrder();
+        }
+        rememberPlacement(item.id, `placed in ${beatLabel(targetBeat)}`);
+        save();
+        render({ snap: false });
+        status(`${item.title} placed in ${beatLabel(targetBeat)}`, 1700);
+        requestAnimationFrame(() => scrollColumn("beats"));
+        return true;
+      }
+
       function moveItem(id, delta) {
         const list = sortedBuild();
         const index = list.findIndex((item) => item.id === id);
@@ -1899,6 +1980,29 @@
             lastMove = { id: "", direction: "" };
           }
         }, 1400);
+        return true;
+      }
+
+      function moveSlot(slot, delta) {
+        const list = sortedBuild();
+        const index = Number(slot);
+        const next = index + delta;
+        if (!Number.isInteger(index) || index < 0 || next < 0 || next >= list.length) {
+          signalSnap("keep:intake", false);
+          return false;
+        }
+        const [item] = list.splice(index, 1);
+        list.splice(next, 0, item);
+        build = list;
+        normalizeOrder();
+        lastMove = { id: item.id, direction: delta < 0 ? "up" : "down" };
+        const slotNumber = next + 1;
+        const message = `${delta < 0 ? "moved earlier" : "moved later"} -> slot ${String(slotNumber).padStart(2, "0")}`;
+        rememberPlacement(item.id, message);
+        currentIndex = Math.max(0, list.findIndex((candidate) => candidate.id === nowItem?.id));
+        save();
+        render({ snap: false });
+        status(`${item.title} ${message}`, 1800);
         return true;
       }
 
@@ -2190,7 +2294,7 @@
           songs: sourceTracks().length,
           keeps: sortedBuild().length,
           beats: beats.length,
-          shares: 5
+          shares: 6
         }[type] ?? "";
         return h`
           <section class="column" data-column="${type}">
@@ -2210,16 +2314,16 @@
 
       function columnFooter(type) {
         const footers = {
-          albums: ["+ Add Album", "noop"],
-          songs: ["+ Add Song", "noop"],
-          keeps: ["+ Add Keep", "noop"],
-          beats: ["+ Add New Beat", "noop"],
-          shares: ["⇩ Export All Channels", "download-json"]
+          albums: ["Import Build", "Upload or restore JSON", "upload-project"],
+          songs: ["Keep Open Album", "Append visible songs to Keeps", "keep-open-album"],
+          keeps: ["Keep Now Playing", "Add current item to Keeps", "add-current"],
+          beats: ["Place Now In Beat", "Send current item to target beat", "add-current-active"],
+          shares: ["Download All JSON", "Full project export", "download-json"]
         };
-        const [label, action] = footers[type] || ["", ""];
+        const [label, sublabel, action] = footers[type] || ["", "", ""];
         if (!label) return "";
         const extra = type === "beats" ? ` data-beat="${activeBeat}"` : "";
-        return `<button class="column-add" type="button" data-action="${action}"${extra}>${escapeHtml(label)}</button>`;
+        return `<button class="column-add" type="button" data-action="${action}"${extra}><span class="column-add-main">${escapeHtml(label)}</span><span class="column-add-sub">${escapeHtml(sublabel)}</span></button>`;
       }
 
       function renderAlbums() {
@@ -2312,10 +2416,11 @@
           ${list.map((item, index) => {
             const playing = nowItem?.id === item.id && !!audio.src;
             const moveClass = lastMove.id === item.id ? `moved-${lastMove.direction}` : "";
+            const itemId = escapeHtml(item.id);
             return h`
-          <div class="slot-row ${playing ? "now-slot" : ""} ${heldClass("keep", item.id)}" data-slot-track="${item.id}" data-drop-track="${item.id}">
-            <button class="slot-num" type="button" data-action="slot-target" data-track="${item.id}">${String(index + 1).padStart(2, "0")}</button>
-            <article class="unit ${index === currentIndex ? "active" : ""} ${playing ? "now-playing" : ""} ${moveClass} ${snapClass(`keep:${item.id}`)} ${heldClass("keep", item.id)}" data-keep-id="${item.id}" data-drop-track="${item.id}">
+          <div class="slot-row ${playing ? "now-slot" : ""} ${heldClass("keep", item.id)}" data-slot-track="${itemId}" data-drop-track="${itemId}">
+            <button class="slot-num" type="button" data-action="slot-target" data-track="${itemId}">${String(index + 1).padStart(2, "0")}</button>
+            <article class="unit ${index === currentIndex ? "active" : ""} ${playing ? "now-playing" : ""} ${moveClass} ${snapClass(`keep:${item.id}`)} ${heldClass("keep", item.id)}" data-keep-id="${itemId}" data-drop-track="${itemId}">
             <div class="unit-body">
               <div class="song-shell">
                 <div class="thumb">${artHtml(item)}</div>
@@ -2332,32 +2437,32 @@
                     <span class="chip">Kept</span>
                     <span class="chip">${escapeHtml(beatLabel(item.beat))}</span>
                     ${item.beat && item.beat !== "unassigned" ? `<span class="chip hot"><span>In Beats</span></span>` : ""}
-                    <button class="chip chip-button" type="button" data-action="reveal-track" data-track="${item.id}"><span>Source</span></button>
+                    <button class="chip chip-button" type="button" data-action="reveal-track" data-track="${itemId}"><span>Source</span></button>
                     ${moveClass ? `<span class="chip">Moved ${lastMove.direction === "up" ? "↑" : "↓"}</span>` : ""}
                     ${playing ? `<span class="chip">Playing from ${escapeHtml(originLabel())}</span>` : ""}
                   </div>
                 </div>
               </div>
               <div class="move-rail">
-                <button class="mini move-btn" type="button" data-action="move-earlier" data-track="${item.id}" aria-label="Move ${escapeHtml(item.title)} earlier"><span class="move-icon">↑</span><span class="move-word">Earlier</span></button>
-                <button class="drag-handle" type="button" draggable="true" data-action="grab-keep" data-track="${item.id}" data-drag-track="${item.id}" aria-label="Grab block for movement">${heldPayload?.kind === "keep" && heldPayload?.id === item.id ? "Grabbed" : "Grab"}</button>
-                <button class="mini move-btn" type="button" data-action="move-later" data-track="${item.id}" aria-label="Move ${escapeHtml(item.title)} later"><span class="move-icon">↓</span><span class="move-word">Later</span></button>
+                <button class="mini move-btn" type="button" data-action="move-slot-earlier" data-slot="${index}" data-track="${itemId}" aria-label="Move slot ${index + 1} earlier"><span class="move-icon">↑</span><span class="move-word">Earlier</span></button>
+                <button class="drag-handle" type="button" draggable="true" data-action="grab-keep" data-track="${itemId}" data-drag-track="${itemId}" aria-label="Grab block for movement">${heldPayload?.kind === "keep" && heldPayload?.id === item.id ? "Grabbed" : "Grab"}</button>
+                <button class="mini move-btn" type="button" data-action="move-slot-later" data-slot="${index}" data-track="${itemId}" aria-label="Move slot ${index + 1} later"><span class="move-icon">↓</span><span class="move-word">Later</span></button>
               </div>
               <div class="unit-ops media-ops">
-                <button class="mini play-control ${playing ? "is-playing" : ""}" type="button" data-action="play-build" data-context="keeps" data-track="${item.id}">${playing && !audio.paused ? "Pause" : "Play"}</button>
-                <button class="mini" type="button" data-action="assign-active" data-track="${item.id}">Beat</button>
-                <button class="mini" type="button" data-action="confirm-cut" data-track="${item.id}">Cut</button>
+                <button class="mini play-control ${playing ? "is-playing" : ""}" type="button" data-action="play-build" data-context="keeps" data-track="${itemId}">${playing && !audio.paused ? "Pause" : "Play"}</button>
+                <button class="mini" type="button" data-action="assign-active" data-track="${itemId}">Beat</button>
+                <button class="mini" type="button" data-action="confirm-cut" data-track="${itemId}">Cut</button>
               </div>
               <div class="unit-ops">
-                <select class="select" data-action="assign-beat" data-track="${item.id}" aria-label="Beat for ${escapeHtml(item.title)}">
+                <select class="select" data-action="assign-beat" data-track="${itemId}" aria-label="Beat for ${escapeHtml(item.title)}">
                   ${beats.map((beat) => `<option value="${beat.id}" ${beat.id === item.beat ? "selected" : ""}>${escapeHtml(beat.label)}</option>`).join("")}
                 </select>
                 <div class="rating-rail" aria-label="Rating for ${escapeHtml(item.title)}">
-                  ${[1, 2, 3, 4, 5].map((value) => `<button class="star-btn ${value <= stars(item) ? "on" : ""}" type="button" data-action="rate-star" data-track="${item.id}" data-rating="${value}"><span>${value}</span></button>`).join("")}
+                  ${[1, 2, 3, 4, 5].map((value) => `<button class="star-btn ${value <= stars(item) ? "on" : ""}" type="button" data-action="rate-star" data-track="${itemId}" data-rating="${value}" title="${value} stars" aria-label="Rate ${escapeHtml(item.title)} ${value} stars"><span>${value <= stars(item) ? "★" : "☆"}</span></button>`).join("")}
                 </div>
-                <input class="note-input" data-action="note" data-track="${item.id}" placeholder="Cue note" value="${escapeHtml(item.notes || "")}" aria-label="Cue note for ${escapeHtml(item.title)}" />
+                <input class="note-input" data-action="note" data-track="${itemId}" placeholder="Cue note" value="${escapeHtml(item.notes || "")}" aria-label="Cue note for ${escapeHtml(item.title)}" />
               </div>
-              <button class="transclusion-row ${lastPlacement.id === item.id ? "hot" : ""}" type="button" data-action="reveal-track" data-track="${item.id}">← ${escapeHtml(placementText(item.id, "from songs"))}</button>
+              <button class="transclusion-row ${lastPlacement.id === item.id ? "hot" : ""}" type="button" data-action="reveal-track" data-track="${itemId}">← ${escapeHtml(placementText(item.id, "from songs"))}</button>
             </div>
           </article>
           </div>
@@ -2470,6 +2575,67 @@
         return payload;
       }
 
+      function currentSongPageHtml(item) {
+        const duration = runtime(item);
+        const beat = beatLabel(item.beat || activeBeat);
+        const audioSrc = item.audio ? encodeURI(path(item.audio)) : "";
+        const artSrc = item.art ? encodeURI(path(item.art)) : "";
+        const pageHref = item.page ? encodeURI(path(item.page)) : "";
+        return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>${escapeHtml(item.title)} / All-Time</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: #000; font: 14px/1.45 ui-monospace, SFMono-Regular, Menlo, Consolas, "Courier New", monospace; }
+    main { min-height: 100vh; display: grid; grid-template-columns: minmax(220px, 34vw) 1fr; border: 2px solid #000; }
+    .art { border-right: 2px solid #000; min-height: 100vh; display: grid; place-items: center; background: #f3f3f3; }
+    .art img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) contrast(1.25); }
+    .mark { font-size: clamp(2rem, 8vw, 7rem); font-weight: 950; letter-spacing: .08em; }
+    .deck { display: grid; grid-template-rows: auto 1fr auto; min-width: 0; }
+    .top, .player, .meta { border-bottom: 2px solid #000; padding: 14px; text-transform: uppercase; font-weight: 950; }
+    h1 { margin: 0; font-size: clamp(2rem, 8vw, 6rem); line-height: .94; letter-spacing: .035em; text-transform: uppercase; overflow-wrap: anywhere; }
+    .meta { display: grid; gap: 8px; font-size: .78rem; }
+    audio { width: 100%; }
+    a, button { color: inherit; font: inherit; }
+    a { border: 2px solid #000; padding: 10px 12px; text-decoration: none; display: inline-flex; width: max-content; text-transform: uppercase; font-weight: 950; }
+    @media (max-width: 760px) { main { grid-template-columns: 1fr; } .art { min-height: 42vh; border-right: 0; border-bottom: 2px solid #000; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="art">${artSrc ? `<img src="${artSrc}" alt="${escapeHtml(item.title)} artwork">` : `<div class="mark">ALL</div>`}</section>
+    <section class="deck">
+      <div class="top">All-Time Export / ${escapeHtml(playOrigin)} / ${new Date().toISOString()}</div>
+      <div class="player">
+        <h1>${escapeHtml(item.title)}</h1>
+        <div class="meta">
+          <div>${escapeHtml(item.albumLabel)} / ${escapeHtml(beat)} / ${duration === null ? "runtime --" : escapeHtml(fmt(duration))} / ${stars(item)}/5</div>
+          <div>${escapeHtml(item.notes || "No cue note")}</div>
+        </div>
+        ${audioSrc ? `<audio controls preload="metadata" src="${audioSrc}"></audio>` : `<div class="meta">No audio source stored for this item.</div>`}
+      </div>
+      <div class="meta">
+        ${pageHref ? `<a href="${pageHref}">Open Source Song Page</a>` : ""}
+      </div>
+    </section>
+  </main>
+</body>
+</html>`;
+      }
+
+      function downloadCurrentSongPage() {
+        const item = nowItem || currentItem();
+        if (!item) {
+          status("No current song to export", 1800);
+          return false;
+        }
+        downloadText(`${slug(item.title)}-song-page.html`, currentSongPageHtml(item), "text/html");
+        return true;
+      }
+
       function renderShares() {
         const json = JSON.stringify(exportPayload(), null, 2);
         const list = sortedBuild();
@@ -2477,6 +2643,14 @@
         const assigned = list.filter((item) => (item.beat || "unassigned") === activeBeat);
         return h`
           ${shareCard("TARGET", "Export Current Selection", current ? `${current.title} / ${beatLabel(current.beat || activeBeat)}` : "No current song", "current", true)}
+          <button class="share-card ${current ? "active" : ""}" type="button" data-action="download-current-page">
+            <span class="share-icon">PAGE</span>
+            <span>
+              <span class="share-title">Export Playing Page</span>
+              <span class="share-meta">${escapeHtml(current ? current.title : "No current song")}</span>
+            </span>
+            <span class="share-send">⇩</span>
+          </button>
           ${shareCard("ALBUM", "Export Albums", `All ${albums.length} albums`, "albums")}
           ${shareCard("SONG", "Export Songs", `All ${sourceTracks().length || tracks.length} songs`, "songs")}
           ${shareCard("KEEP", "Export Keeps", `All ${list.length} keeps`, "keeps")}
@@ -2680,18 +2854,22 @@
         const action = control.dataset.action;
         const track = () => tracks.find((candidate) => candidate.id === control.dataset.track);
         const actions = {
-          "noop": () => signalSnap("keep:intake", false),
           "select-album": () => selectAlbum(control.dataset.album),
           "select-beat": () => selectBeat(control.dataset.beat),
           "load-album": () => loadAlbum(),
+          "keep-open-album": () => keepOpenAlbum(),
           "add-track": () => addTrack(track()),
           "add-to-active": () => addTrack(track(), activeBeat),
+          "add-current": () => addCurrentItem(),
+          "add-current-active": () => addCurrentItemToActiveBeat(),
           "beat-source": () => beatSource(control.dataset.track),
           "play-source": () => toggleSource(control.dataset.track),
           "play-build": () => toggleBuild(control.dataset.track, control.dataset.context || "keeps"),
           "assign-active": () => assignBeat(control.dataset.track, activeBeat),
           "move-earlier": () => moveItem(control.dataset.track, -1),
           "move-later": () => moveItem(control.dataset.track, 1),
+          "move-slot-earlier": () => moveSlot(control.dataset.slot, -1),
+          "move-slot-later": () => moveSlot(control.dataset.slot, 1),
           "grab-source": () => {
             setHeld("source", control.dataset.track);
             scrollColumn("beats");
@@ -2705,6 +2883,7 @@
           "confirm-cut": () => confirmCutItem(control.dataset.track),
           "clear-build": () => clearBuild(),
           "download-export": () => downloadExport(control.dataset.export || "all"),
+          "download-current-page": () => downloadCurrentSongPage(),
           "download-json": () => downloadText("all-time-build.json", JSON.stringify(exportPayload(), null, 2)),
           "download-csv": () => downloadText("all-time-keeps.csv", csvText(), "text/csv"),
           "upload-project": () => els.upload.click(),

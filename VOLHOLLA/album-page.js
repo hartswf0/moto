@@ -428,7 +428,6 @@
       hallKey: "ghost",
       op2Key: "ghost",
       op2Pair: "maquina",
-      noSongPages: true,
       files: [
         "Ghost in the Wires - Ancestral Fire (ጥንታዊ እሳት) - Sonauto.ogg",
         "Ghost in the Wires - Blood of the Highlands - Sonauto.ogg",
