@@ -12,6 +12,7 @@ export function titleFromFilename(file) {
     .replace(/^river bank waiting\s*-\s*/i, "")
     .replace(/^solar reveries\s*-\s*/i, "")
     .replace(/^jukebox time collapse\s*-\s*/i, "")
+    .replace(/^ghost in the wires\s*-\s*/i, "")
     .replace(/^neon puddles\s*\(night bus edit\)\s*-\s*/i, "")
     .replace(/^neon puddles\s*-\s*/i, "")
     .replace(/^mall patchworld ingest\s*-\s*/i, "")
