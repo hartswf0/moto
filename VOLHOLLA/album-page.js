@@ -1264,6 +1264,44 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with BLACK WATER RUN for the English-title mirror deck."]
       ]
+    },
+    executable: {
+      key: "executable",
+      pageSlug: "executable-infrastructure-dub",
+      basePath: "../Executable Infrastructure Dub/",
+      label: "Executable Infrastructure Dub",
+      subtitle: "Canopy infrastructure dub / steel and fiber rhythms / the regulation paradox",
+      accentA: "#6b8f7c",
+      accentB: "#a8c4b0",
+      coverImage: "../Executable Infrastructure Dub/ChatGPT Image May 4, 2026, 07_37_48 PM.png",
+      defaultTrackArt: "../Executable Infrastructure Dub/ChatGPT Image May 4, 2026, 07_37_48 PM.png",
+      hallKey: "executable",
+      op2Key: "executable",
+      op2Pair: "mall",
+      files: [
+        "Executable Infrastructure Dub - Canopy Deep - Sonauto.ogg",
+        "Executable Infrastructure Dub - Cristal en el Celular - Sonauto.ogg",
+        "Executable Infrastructure Dub - Dead Glass Loop - Sonauto.ogg",
+        "Executable Infrastructure Dub - Fiber and Steel - Sonauto.ogg",
+        "Executable Infrastructure Dub - Root Symmetry - Sonauto.ogg",
+        "Executable Infrastructure Dub - Sharp Blade Heavy Bass - Sonauto.ogg",
+        "Executable Infrastructure Dub - Sharp Edge Logic - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe (Rebel Cut) - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe Blade - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe Warning - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Afterlife of Wood - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Feller's Skank - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Landlord's Sky - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Regulation Paradox - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Small Axe Swing - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Spectacle Indictment - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Unstable Afterlife - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Canopy infrastructure dub / steel and fiber rhythms / the regulation paradox"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
+        ["OP2 Pair", "Launch with MALL PATCHWORLD for the infrastructure-consumer contrast deck."]
+      ]
     }
   };
 
@@ -1294,6 +1332,7 @@
       .replace(/^the great congregation\s*-\s*/i, "")
       .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
       .replace(/^black water run\s*-\s*/i, "")
+      .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -1474,6 +1513,7 @@
       playerShell: root.querySelector("#albumPlayerShell"),
       topShare: root.querySelector("#sharePageBtn"),
       topCopyBtn: root.querySelector("#copyTopUrlBtn"),
+      topQrBtn: root.querySelector("#downloadAlbumQrBtn"),
       headMenu: root.querySelector(".head-menu"),
       sendBtn: root.querySelector("#sendAlbumBtn"),
       copyBtn: root.querySelector("#copyUrlBtn"),
@@ -1771,6 +1811,82 @@
       loadTrack(prev, true);
     }
 
+    function albumPublicAssetUrl(source) {
+      if (!source) return "";
+      if (/^(?:https?:|data:)/i.test(source)) return source;
+      try {
+        return new URL(encodeURI(normalizeAssetPath(source)), window.location.href).toString();
+      } catch {
+        return source;
+      }
+    }
+
+    function qrImageUrl(url) {
+      return `https://api.qrserver.com/v1/create-qr-code/?size=900x900&margin=18&data=${encodeURIComponent(url)}`;
+    }
+
+    function albumQrSvg() {
+      const artSrc = albumPublicAssetUrl(album.coverImage || album.defaultTrackArt || "");
+      const qrUrl = qrImageUrl(pageUrl);
+      return `<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <defs>
+    <filter id="bw"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="linear" slope="1.3" intercept="-0.06"/><feFuncG type="linear" slope="1.3" intercept="-0.06"/><feFuncB type="linear" slope="1.3" intercept="-0.06"/></feComponentTransfer></filter>
+    <style>
+      .mono { font-family: Menlo, Consolas, "Courier New", monospace; fill: #000; }
+      .label { font-size: 32px; font-weight: 900; letter-spacing: 5px; text-transform: uppercase; }
+      .title { font-size: 70px; font-weight: 900; letter-spacing: 2px; text-transform: uppercase; }
+      .small { font-size: 24px; font-weight: 900; }
+    </style>
+  </defs>
+  <rect width="1080" height="1350" fill="#fff"/>
+  <rect x="30" y="30" width="1020" height="1290" fill="#fff" stroke="#000" stroke-width="8"/>
+  <g transform="translate(62 58) scale(.35)">
+    <path d="M100 18 Q142 38 172 60 Q171 120 140 160 Q100 182 60 160 Q29 120 28 60 Q58 38 100 18 Z" fill="#fff" stroke="#000" stroke-width="10"/>
+    <path d="M100 35 Q130 49 150 64 Q150 111 128 141 Q100 158 72 141 Q50 111 50 64 Q70 49 100 35 Z" fill="none" stroke="#000" stroke-width="5"/>
+    <circle cx="100" cy="94" r="28" fill="none" stroke="#000" stroke-width="9"/>
+    <path d="M72 130 L100 69 L128 130" fill="none" stroke="#000" stroke-width="9" stroke-linejoin="round"/>
+  </g>
+  <text x="155" y="100" class="mono label">MOTO ALBUM QR</text>
+  <text x="930" y="100" class="mono label" text-anchor="end">${String(album.files.length).padStart(2, "0")}</text>
+  <line x1="30" y1="140" x2="1050" y2="140" stroke="#000" stroke-width="8"/>
+  <rect x="78" y="190" width="360" height="360" fill="#f4f4f4" stroke="#000" stroke-width="6"/>
+  ${artSrc ? `<image href="${escapeHtml(artSrc)}" x="84" y="196" width="348" height="348" preserveAspectRatio="xMidYMid slice" filter="url(#bw)"/>` : `<text x="258" y="385" class="mono title" text-anchor="middle">MOTO</text>`}
+  <rect x="510" y="190" width="492" height="492" fill="#fff" stroke="#000" stroke-width="6"/>
+  <image href="${escapeHtml(qrUrl)}" x="530" y="210" width="452" height="452" preserveAspectRatio="xMidYMid meet"/>
+  <line x1="30" y1="730" x2="1050" y2="730" stroke="#000" stroke-width="8"/>
+  <foreignObject x="72" y="770" width="936" height="220">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font: 900 70px/.92 Menlo, Consolas, 'Courier New', monospace; text-transform: uppercase; overflow-wrap: anywhere; color: #000;">${escapeHtml(album.label)}</div>
+  </foreignObject>
+  <text x="72" y="1045" class="mono label">${escapeHtml(album.files.length)} TRACKS / VOLHOLLA</text>
+  <foreignObject x="72" y="1090" width="936" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font: 900 24px/1.2 Menlo, Consolas, 'Courier New', monospace; overflow-wrap: anywhere; color: #000;">${escapeHtml(pageUrl)}</div>
+  </foreignObject>
+  <line x1="30" y1="1242" x2="1050" y2="1242" stroke="#000" stroke-width="8"/>
+  <text x="72" y="1304" class="mono small">SCAN TO OPEN ALBUM PAGE</text>
+</svg>`;
+    }
+
+    function downloadText(filename, text, type) {
+      const blob = new Blob([text], { type });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+    }
+
+    function downloadAlbumQrImage() {
+      downloadText(`${album.pageSlug || album.key}-qr.svg`, albumQrSvg(), "image/svg+xml");
+      if (els.topQrBtn) {
+        els.topQrBtn.textContent = "✓ QR";
+        setTimeout(() => { els.topQrBtn.textContent = "QR Image"; }, 1200);
+      }
+      if (els.headMenu) els.headMenu.open = false;
+    }
+
     async function sharePage() {
       try {
         const mode = await copyOrShare(pageUrl, album.label);
@@ -1808,6 +1924,7 @@
     }
     if (els.sendBtn) els.sendBtn.addEventListener("click", sharePage);
     if (els.topShare) els.topShare.addEventListener("click", sharePage);
+    if (els.topQrBtn) els.topQrBtn.addEventListener("click", downloadAlbumQrImage);
     if (els.topCopyBtn) {
       els.topCopyBtn.addEventListener("click", async () => {
         try {
@@ -1977,6 +2094,7 @@
                   <a class="btn" href="${escapeHtml(op2Href)}" aria-label="Open mix view for this album pair">Mix</a>
                   <a class="btn" href="./index.html" aria-label="All album pages">Albums</a>
                   <button class="btn" type="button" id="copyTopUrlBtn" aria-label="Copy album page URL">Copy URL</button>
+                  <button class="btn" type="button" id="downloadAlbumQrBtn" aria-label="Download album QR image">QR Image</button>
                 </div>
               </details>
             </div>
