@@ -1107,6 +1107,38 @@
         "Black Water Run - 消散 (Dissipation) - Sonauto.ogg",
         "Black Water Run - 骏马与烟灰的叙事曲 - Sonauto.ogg"
       ]
+    },
+    executable: {
+      key: "executable",
+      pageSlug: "executable-infrastructure-dub",
+      basePath: "../Executable Infrastructure Dub/",
+      label: "Executable Infrastructure Dub",
+      subtitle: "Canopy infrastructure dub / steel and fiber rhythms / the regulation paradox",
+      accentA: "#6b8f7c",
+      accentB: "#a8c4b0",
+      coverImage: "../Executable Infrastructure Dub/ChatGPT Image May 4, 2026, 07_37_48 PM.png",
+      hallKey: "executable",
+      op2Key: "executable",
+      op2Pair: "mall",
+      files: [
+        "Executable Infrastructure Dub - Canopy Deep - Sonauto.ogg",
+        "Executable Infrastructure Dub - Cristal en el Celular - Sonauto.ogg",
+        "Executable Infrastructure Dub - Dead Glass Loop - Sonauto.ogg",
+        "Executable Infrastructure Dub - Fiber and Steel - Sonauto.ogg",
+        "Executable Infrastructure Dub - Root Symmetry - Sonauto.ogg",
+        "Executable Infrastructure Dub - Sharp Blade Heavy Bass - Sonauto.ogg",
+        "Executable Infrastructure Dub - Sharp Edge Logic - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe (Rebel Cut) - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe Blade - Sonauto.ogg",
+        "Executable Infrastructure Dub - Small Axe Warning - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Afterlife of Wood - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Feller's Skank - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Landlord's Sky - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Regulation Paradox - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Small Axe Swing - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Spectacle Indictment - Sonauto.ogg",
+        "Executable Infrastructure Dub - The Unstable Afterlife - Sonauto.ogg"
+      ]
     }
   };
 
@@ -1138,6 +1170,7 @@
       .replace(/^the great congregation\s*-\s*/i, "")
       .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
       .replace(/^black water run\s*-\s*/i, "")
+      .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -1186,6 +1219,10 @@
 
   function loadMediaManifest() {
     if (mediaManifestPromise) return mediaManifestPromise;
+    if (window.location.protocol === "file:") {
+      mediaManifestPromise = Promise.resolve(null);
+      return mediaManifestPromise;
+    }
     mediaManifestPromise = fetch("./media-manifest.json", { cache: "force-cache" })
       .then((response) => response.ok ? response.json() : null)
       .catch(() => null);
@@ -1216,7 +1253,10 @@
   }
 
   function normalizeAlbumInput(rawValue) {
-    const raw = String(rawValue || "volholla").toLowerCase();
+    const raw = String(rawValue || "volholla").trim().toLowerCase();
+    if (raw === "executable" || raw === "executable-infrastructure-dub" || raw === "executable_infrastructure_dub" || raw === "executable infrastructure dub" || raw === "executableinfrastructure" || raw === "infrastructure") {
+      return "executable";
+    }
     const key = raw === "river-bank-waiting" || raw === "river_bank_waiting" || raw === "rbw"
       ? "river"
       : raw === "crossroads-and-crown" || raw === "crossroads_and_crown" || raw === "cac"
@@ -1265,6 +1305,8 @@
                                   ? "blackwater"
                                   : raw === "hei-shui-ben-liu" || raw === "hei_shui_ben_liu" || raw === "heishuibenliu" || raw === "hei shui ben liu" || raw === "heishui" || raw === "黑水奔流"
                                     ? "heishui"
+                                    : raw === "executable" || raw === "executable-infrastructure-dub" || raw === "executable_infrastructure_dub" || raw === "executableinfrastructure" || raw === "infrastructure"
+                                      ? "executable"
                         : raw;
     return ALBUMS[key] ? key : "volholla";
   }
@@ -1422,7 +1464,7 @@
 
     const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection || null;
     const canWarmTrack = !connection || (!connection.saveData && !["slow-2g", "2g"].includes(String(connection.effectiveType || "").toLowerCase()));
-    const audio = new Audio();
+    let audio = new Audio();
     audio.preload = canWarmTrack ? "metadata" : "none";
     let isSeeking = false;
     let hasPlaybackIntent = false;
@@ -1576,6 +1618,7 @@
               <button type="button" class="btn primary play-btn" id="playBtn" aria-label="Play or pause"><span aria-hidden="true">▶</span><span>Play</span></button>
               <button type="button" class="btn icon-btn" id="nextBtn" aria-label="Next song">⏭</button>
             </div>
+            <audio id="nativeAudio" controls preload="none" playsinline src="${escapeHtml(firstTrack.src)}" style="width:100%;margin-top:10px"></audio>
 
             <div class="play-mode">
               <button type="button" class="mode-toggle is-on" id="continuousBtn" aria-pressed="true">
@@ -1633,6 +1676,7 @@
       prevBtn: document.getElementById("prevBtn"),
       playBtn: document.getElementById("playBtn"),
       nextBtn: document.getElementById("nextBtn"),
+      nativeAudio: document.getElementById("nativeAudio"),
       nowKicker: document.getElementById("nowKicker"),
       nowLine: document.getElementById("nowLine"),
       nowSubline: document.getElementById("nowSubline"),
@@ -1655,6 +1699,10 @@
       discWrap: root.querySelector(".disc-wrap"),
       trackBtns: Array.from(root.querySelectorAll(".track-btn"))
     };
+    if (els.nativeAudio) {
+      audio = els.nativeAudio;
+      audio.preload = canWarmTrack ? "metadata" : "none";
+    }
     let trackPulseTimer = 0;
     let lastSeekBuzzAt = 0;
     let artSwapTimer = 0;
@@ -2073,11 +2121,13 @@
       updateArt(track);
       updateTransportStrip(track, playing, loading, buffering, errored);
       syncTransportState();
-      try {
-        const nextUrl = songUrl(album.key, currentIndex, embed ? { embed: 1 } : {});
-        window.history.replaceState({}, "", nextUrl);
-      } catch {
-        // ignore
+      if (window.location.protocol !== "file:") {
+        try {
+          const nextUrl = songUrl(album.key, currentIndex, embed ? { embed: 1 } : {});
+          window.history.replaceState({}, "", nextUrl);
+        } catch {
+          // ignore
+        }
       }
     }
 
