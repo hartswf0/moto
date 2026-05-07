@@ -1139,6 +1139,39 @@
         "Executable Infrastructure Dub - The Spectacle Indictment - Sonauto.ogg",
         "Executable Infrastructure Dub - The Unstable Afterlife - Sonauto.ogg"
       ]
+    },
+    queen: {
+      key: "queen",
+      pageSlug: "queen-of-light",
+      basePath: "../QUEEN of LIGHT/",
+      label: "QUEEN OF LIGHT",
+      subtitle: "Gilded frog radio / gospel birds / graduate funk transmissions",
+      accentA: "#f2c14e",
+      accentB: "#1f6f4a",
+      coverImage: "../QUEEN of LIGHT/ChatGPT Image May 7, 2026, 06_08_44 PM.png",
+      defaultTrackArt: "../QUEEN of LIGHT/ChatGPT Image May 7, 2026, 06_18_43 PM.png",
+      hallKey: "queen",
+      op2Key: "queen",
+      op2Pair: "congregation",
+      files: [
+        "Queen of Light - EBITDA & Funk - Sonauto.ogg",
+        "Queen of Light - Gold Graduation Groove - Sonauto.ogg",
+        "Queen of Light - Golden Terrace - Sonauto.ogg",
+        "Queen of Light - Queen of Light Transmission - Sonauto.ogg",
+        "Queen of Light - Silicon Harvest - Sonauto.ogg",
+        "Queen of Light - Swamp Star Frequency - Sonauto.ogg",
+        "Queen of Light - The Atlanta Graduate - Sonauto.ogg",
+        "Queen of Light - The Divine Abyss - Sonauto.ogg",
+        "Queen of Light - The Gospel of Birds - Sonauto.ogg",
+        "Queen of Light - The Higher Order (Tibelet) - Sonauto.ogg",
+        "Queen of Light - The Real Appetite - Sonauto.ogg",
+        "Queen of Light - The Rise of Tiblitz - Sonauto.ogg",
+        "Queen of Light - Tibelet (Morning Message) - Sonauto.ogg",
+        "Queen of Light - Tibelet (Ye-Dil Zewd) - Sonauto.ogg",
+        "Queen of Light - ልቃ የተገኘች (Greater Excellence) - Sonauto.ogg",
+        "Queen of Light - ትብለጥ በክብር (Tiblitz Excels) - Sonauto.ogg",
+        "Queen of Light - የድል አርማ (Victory Banner) - Sonauto.ogg"
+      ]
     }
   };
 
@@ -1171,6 +1204,7 @@
       .replace(/^(?:m\u00e1quina|ma\u0301quina) de guerra\s*-\s*/i, "")
       .replace(/^black water run\s*-\s*/i, "")
       .replace(/^executable infrastructure dub\s*-\s*/i, "")
+      .replace(/^queen of light\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
@@ -1256,6 +1290,9 @@
     const raw = String(rawValue || "volholla").trim().toLowerCase();
     if (raw === "executable" || raw === "executable-infrastructure-dub" || raw === "executable_infrastructure_dub" || raw === "executable infrastructure dub" || raw === "executableinfrastructure" || raw === "infrastructure") {
       return "executable";
+    }
+    if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") {
+      return "queen";
     }
     const key = raw === "river-bank-waiting" || raw === "river_bank_waiting" || raw === "rbw"
       ? "river"

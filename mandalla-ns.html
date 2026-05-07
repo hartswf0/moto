@@ -273,6 +273,7 @@
         { key: 'maquina', label: 'MAQ' },
         { key: 'blackwater', label: 'BWR' },
         { key: 'heishui', label: '黑水' },
+        { key: 'queen', label: 'QUEEN' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -337,6 +338,8 @@
             ? 'maquina'
           : raw === 'black-water-run' || raw === 'black_water_run' || raw === 'blackwaterrun' || raw === 'black water run' || raw === 'blackwater'
             ? 'blackwater'
+          : raw === 'queen-of-light' || raw === 'queen_of_light' || raw === 'queen' || raw === 'qol'
+            ? 'queen'
           : raw === 'hei-shui-ben-liu' || raw === 'hei_shui_ben_liu' || raw === 'heishuibenliu' || raw === 'hei shui ben liu' || raw === 'heishui' || raw === '黑水奔流'
             ? 'heishui'
           : raw;
