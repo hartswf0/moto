@@ -274,6 +274,8 @@
         { key: 'blackwater', label: 'BWR' },
         { key: 'heishui', label: '黑水' },
         { key: 'queen', label: 'QUEEN' },
+        { key: 'emptyfields', label: 'EMPTY' },
+        { key: 'weedfield', label: 'WEED' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -340,6 +342,10 @@
             ? 'blackwater'
           : raw === 'queen-of-light' || raw === 'queen_of_light' || raw === 'queen' || raw === 'qol'
             ? 'queen'
+          : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
+            ? 'emptyfields'
+          : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'
+            ? 'weedfield'
           : raw === 'hei-shui-ben-liu' || raw === 'hei_shui_ben_liu' || raw === 'heishuibenliu' || raw === 'hei shui ben liu' || raw === 'heishui' || raw === '黑水奔流'
             ? 'heishui'
           : raw;

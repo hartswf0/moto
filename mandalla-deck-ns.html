@@ -259,6 +259,8 @@
         { key: 'event', label: 'EVENT' },
         { key: 'ghost', label: 'GHOST' },
         { key: 'queen', label: 'QUEEN' },
+        { key: 'emptyfields', label: 'EMPTY' },
+        { key: 'weedfield', label: 'WEED' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -317,6 +319,10 @@
             ? 'ghost'
             : raw === 'queen-of-light' || raw === 'queen_of_light' || raw === 'queen' || raw === 'qol'
             ? 'queen'
+          : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
+            ? 'emptyfields'
+          : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'
+            ? 'weedfield'
           : raw === 'gole-yakh-memory' || raw === 'gole_yakh_memory' || raw === 'goleyakh'
             ? 'goleyakh'
           : raw === 'cathedral-of-iv-drips' || raw === 'cathedral_of_iv_drips' || raw === 'cathedral' || raw === 'ivdrips'

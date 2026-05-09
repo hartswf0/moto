@@ -1340,6 +1340,90 @@
         ["Use", "Standalone album page, hall route, and direct song-page links for each cut."],
         ["OP2 Pair", "Launch with THE GREAT CONGREGATION for gospel-funk contrast."]
       ]
+    },
+    weedfield: {
+      key: "weedfield",
+      pageSlug: "weed-choked-field",
+      basePath: "../WEED-CHOKED FIELD/",
+      label: "THE WEED-CHOKED FIELD",
+      subtitle: "Ruined field recordings / steel weather / Sankofa signal decay",
+      accentA: "#6f7f3f",
+      accentB: "#c7b56f",
+      coverImage: "../WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_42_11 AM.png",
+      defaultTrackArt: "../WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+      hallKey: "weedfield",
+      op2Key: "weedfield",
+      op2Pair: "emptyfields",
+      files: [
+        "The Weed-Choked Field - 70mm Sankofa Protocol - Sonauto.ogg",
+        "The Weed-Choked Field - Arc Flash Appalachian - Sonauto.ogg",
+        "The Weed-Choked Field - Architecture of a Dying Signal - Sonauto.ogg",
+        "The Weed-Choked Field - Echoes of Volholla - Sonauto.ogg",
+        "The Weed-Choked Field - Fortress Decay - Sonauto.ogg",
+        "The Weed-Choked Field - Fracture Matrix Blues - Sonauto.ogg",
+        "The Weed-Choked Field - Hephaestus Error - Sonauto.ogg",
+        "The Weed-Choked Field - Lead Sky Jukebox - Sonauto.ogg",
+        "The Weed-Choked Field - London Rain Hiss - Sonauto.ogg",
+        "The Weed-Choked Field - Luxury and Mud - Sonauto.ogg",
+        "The Weed-Choked Field - Microcassette Memory - Sonauto.ogg",
+        "The Weed-Choked Field - Monolithic Aftermath - Sonauto.ogg",
+        "The Weed-Choked Field - Neurosymbolic Shield Strike - Sonauto.ogg",
+        "The Weed-Choked Field - Ozone Scented Plasma - Sonauto.ogg",
+        "The Weed-Choked Field - Ozone Séance - Sonauto.ogg",
+        "The Weed-Choked Field - Playground in the Fog - Sonauto.ogg",
+        "The Weed-Choked Field - Ruins of the Auditory Wall - Sonauto.ogg",
+        "The Weed-Choked Field - Sankofa Protocol - Sonauto.ogg",
+        "The Weed-Choked Field - Silo Array Test 4 (144 BPM) - Sonauto.ogg",
+        "The Weed-Choked Field - Stalactite Ritual - Sonauto.ogg",
+        "The Weed-Choked Field - Static Shape-Note Pulse - Sonauto.ogg",
+        "The Weed-Choked Field - Stone Wall Crumbling - Sonauto.ogg",
+        "The Weed-Choked Field - Tape Rot In A Vault - Sonauto.ogg",
+        "The Weed-Choked Field - The Arc Lamp Glow - Sonauto.ogg",
+        "The Weed-Choked Field - The Cooling Tower Sèance - Sonauto.ogg",
+        "The Weed-Choked Field - The Cost of Steel - Sonauto.ogg",
+        "The Weed-Choked Field - The Crust Resonance - Sonauto.ogg",
+        "The Weed-Choked Field - The Morse Code Mooche - Sonauto.ogg",
+        "The Weed-Choked Field - The Ruined Somnambulist - Sonauto.ogg",
+        "The Weed-Choked Field - The Volholla Cylinder Protocol - Sonauto.ogg",
+        "The Weed-Choked Field - The Wire-Recorder Séances - Sonauto.ogg",
+        "The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Ruined field recordings / steel weather / Sankofa signal decay"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for every cut."],
+        ["OP2 Pair", "Launch with EMPTY ARE THE FIELDS for the field-echo mirror deck."]
+      ]
+    },
+    emptyfields: {
+      key: "emptyfields",
+      pageSlug: "empty-are-the-fields",
+      basePath: "../EMPTY ARE THE FIELDS/",
+      label: "EMPTY ARE THE FIELDS",
+      subtitle: "Iron shield hymns / bare-field strings / radiator ghosts",
+      accentA: "#d9d0b0",
+      accentB: "#6f6f68",
+      coverImage: "../EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_56_43 AM.png",
+      defaultTrackArt: "../EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+      hallKey: "emptyfields",
+      op2Key: "emptyfields",
+      op2Pair: "weedfield",
+      files: [
+        "The Weed-Choked Field - Axioms of the Field - Sonauto.ogg",
+        "The Weed-Choked Field - Ghosts in the Radiator - Sonauto.ogg",
+        "The Weed-Choked Field - Iron-Hearted Shift - Sonauto.ogg",
+        "The Weed-Choked Field - Shield of Achilles - Sonauto.ogg",
+        "The Weed-Choked Field - Shield of the Ragged Urchin - Sonauto.ogg",
+        "The Weed-Choked Field - The Field of Weeds - Sonauto.ogg",
+        "The Weed-Choked Field - The Iron Shield (Minimal Spoken Word Score) - Sonauto.ogg",
+        "The Weed-Choked Field - The Shield of Achilles - Sonauto.ogg",
+        "The Weed-Choked Field - The Shield of Iron - Sonauto.ogg",
+        "The Weed-Choked Field - The Whispering Strings - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Iron shield hymns / bare-field strings / radiator ghosts"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for every cut."],
+        ["OP2 Pair", "Launch with THE WEED-CHOKED FIELD for the field-echo mirror deck."]
+      ]
     }
   };
 
@@ -1372,6 +1456,9 @@
       .replace(/^black water run\s*-\s*/i, "")
       .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^queen of light\s*-\s*/i, "")
+      .replace(/^empty are the fields\s*-\s*/i, "")
+      .replace(/^weed-choked field\s*-\s*/i, "")
+      .replace(/^the weed-choked field\s*-\s*/i, "")
       .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")

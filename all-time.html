@@ -1583,6 +1583,7 @@
     </footer>
   </main>
 
+  <script src="./VOLHOLLA/all-time-manifest.js"></script>
   <script>
     (function () {
       "use strict";
@@ -1590,6 +1591,7 @@
       const PUBLIC_BASE_URL = "https://hartswf0.github.io/moto/";
       const PAGE_BASE_URL = new URL("./", window.location.href).toString();
       const LOCAL_MOTO_BASE_URL = new URL("moto/", window.location.origin + "/").toString();
+      const URL_PARAMS = new URLSearchParams(window.location.search);
 
       let ASSET_BASE_URL = PAGE_BASE_URL;
 
@@ -1690,6 +1692,17 @@
       async function fetchFirstJson(candidates) {
         const failures = [];
 
+        if (window.ALL_TIME_EMBEDDED_MANIFEST && window.location.protocol === "file:") {
+          return {
+            manifest: window.ALL_TIME_EMBEDDED_MANIFEST,
+            source: {
+              label: "embedded manifest",
+              url: "VOLHOLLA/all-time-manifest.js",
+              base: PAGE_BASE_URL
+            }
+          };
+        }
+
         for (const candidate of candidates) {
           try {
             const response = await fetch(candidate.url, { cache: "no-cache" });
@@ -1706,6 +1719,17 @@
           } catch (error) {
             failures.push(`${candidate.label}: ${error.message}`);
           }
+        }
+
+        if (window.ALL_TIME_EMBEDDED_MANIFEST) {
+          return {
+            manifest: window.ALL_TIME_EMBEDDED_MANIFEST,
+            source: {
+              label: "embedded manifest fallback",
+              url: "VOLHOLLA/all-time-manifest.js",
+              base: PAGE_BASE_URL
+            }
+          };
         }
 
         throw new Error(failures.join(" | "));
@@ -3938,6 +3962,15 @@
           });
           activeAlbum = albums[0]?.key || "";
           restore();
+          const requestedAlbum = (URL_PARAMS.get("album") || "").toLowerCase().trim();
+          if (requestedAlbum) {
+            const matchedAlbum = albums.find((album) =>
+              album.key === requestedAlbum ||
+              album.pageSlug === requestedAlbum ||
+              album.label.toLowerCase() === requestedAlbum.replace(/[-_]+/g, " ")
+            );
+            if (matchedAlbum) activeAlbum = matchedAlbum.key;
+          }
           render({ preserveScroll: false });
         })
         .catch((error) => {

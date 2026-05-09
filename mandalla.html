@@ -1318,6 +1318,68 @@
                     "Queen of Light - የድል አርማ (Victory Banner) - Sonauto.ogg"
                   ]
             },
+            weedfield: {
+                key: 'weedfield',
+                label: 'THE WEED-CHOKED FIELD',
+                shortLabel: 'WEED',
+                libraryParam: 'weedfield',
+                op2Pair: 'emptyfields',
+                basePath: 'WEED-CHOKED FIELD/',
+                files: [
+                    "The Weed-Choked Field - 70mm Sankofa Protocol - Sonauto.ogg",
+                    "The Weed-Choked Field - Arc Flash Appalachian - Sonauto.ogg",
+                    "The Weed-Choked Field - Architecture of a Dying Signal - Sonauto.ogg",
+                    "The Weed-Choked Field - Echoes of Volholla - Sonauto.ogg",
+                    "The Weed-Choked Field - Fortress Decay - Sonauto.ogg",
+                    "The Weed-Choked Field - Fracture Matrix Blues - Sonauto.ogg",
+                    "The Weed-Choked Field - Hephaestus Error - Sonauto.ogg",
+                    "The Weed-Choked Field - Lead Sky Jukebox - Sonauto.ogg",
+                    "The Weed-Choked Field - London Rain Hiss - Sonauto.ogg",
+                    "The Weed-Choked Field - Luxury and Mud - Sonauto.ogg",
+                    "The Weed-Choked Field - Microcassette Memory - Sonauto.ogg",
+                    "The Weed-Choked Field - Monolithic Aftermath - Sonauto.ogg",
+                    "The Weed-Choked Field - Neurosymbolic Shield Strike - Sonauto.ogg",
+                    "The Weed-Choked Field - Ozone Scented Plasma - Sonauto.ogg",
+                    "The Weed-Choked Field - Ozone Séance - Sonauto.ogg",
+                    "The Weed-Choked Field - Playground in the Fog - Sonauto.ogg",
+                    "The Weed-Choked Field - Ruins of the Auditory Wall - Sonauto.ogg",
+                    "The Weed-Choked Field - Sankofa Protocol - Sonauto.ogg",
+                    "The Weed-Choked Field - Silo Array Test 4 (144 BPM) - Sonauto.ogg",
+                    "The Weed-Choked Field - Stalactite Ritual - Sonauto.ogg",
+                    "The Weed-Choked Field - Static Shape-Note Pulse - Sonauto.ogg",
+                    "The Weed-Choked Field - Stone Wall Crumbling - Sonauto.ogg",
+                    "The Weed-Choked Field - Tape Rot In A Vault - Sonauto.ogg",
+                    "The Weed-Choked Field - The Arc Lamp Glow - Sonauto.ogg",
+                    "The Weed-Choked Field - The Cooling Tower Sèance - Sonauto.ogg",
+                    "The Weed-Choked Field - The Cost of Steel - Sonauto.ogg",
+                    "The Weed-Choked Field - The Crust Resonance - Sonauto.ogg",
+                    "The Weed-Choked Field - The Morse Code Mooche - Sonauto.ogg",
+                    "The Weed-Choked Field - The Ruined Somnambulist - Sonauto.ogg",
+                    "The Weed-Choked Field - The Volholla Cylinder Protocol - Sonauto.ogg",
+                    "The Weed-Choked Field - The Wire-Recorder Séances - Sonauto.ogg",
+                    "The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg"
+                  ]
+            },
+            emptyfields: {
+                key: 'emptyfields',
+                label: 'EMPTY ARE THE FIELDS',
+                shortLabel: 'EMPTY',
+                libraryParam: 'emptyfields',
+                op2Pair: 'weedfield',
+                basePath: 'EMPTY ARE THE FIELDS/',
+                files: [
+                    "The Weed-Choked Field - Axioms of the Field - Sonauto.ogg",
+                    "The Weed-Choked Field - Ghosts in the Radiator - Sonauto.ogg",
+                    "The Weed-Choked Field - Iron-Hearted Shift - Sonauto.ogg",
+                    "The Weed-Choked Field - Shield of Achilles - Sonauto.ogg",
+                    "The Weed-Choked Field - Shield of the Ragged Urchin - Sonauto.ogg",
+                    "The Weed-Choked Field - The Field of Weeds - Sonauto.ogg",
+                    "The Weed-Choked Field - The Iron Shield (Minimal Spoken Word Score) - Sonauto.ogg",
+                    "The Weed-Choked Field - The Shield of Achilles - Sonauto.ogg",
+                    "The Weed-Choked Field - The Shield of Iron - Sonauto.ogg",
+                    "The Weed-Choked Field - The Whispering Strings - Sonauto.ogg"
+                  ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -2023,6 +2085,9 @@
                 .replace(/^event horizon discovery\s*-\s*/i, '')
                 .replace(/^ghost in the wires\s*-\s*/i, '')
                 .replace(/^queen of light\s*-\s*/i, '')
+                .replace(/^empty are the fields\s*-\s*/i, '')
+                .replace(/^weed-choked field\s*-\s*/i, '')
+                .replace(/^the weed-choked field\s*-\s*/i, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -2050,6 +2115,8 @@
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'ghost-in-the-wires' || v === 'ghost_in_the_wires' || v === 'ghost') return 'ghost';
             if (v === 'queen-of-light' || v === 'queen_of_light' || v === 'queen of light' || v === 'queen' || v === 'qol') return 'queen';
+            if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
+            if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
             if (v === 'jukebox-time-collapse' || v === 'jukebox_time_collapse' || v === 'jtc') return 'jukebox';

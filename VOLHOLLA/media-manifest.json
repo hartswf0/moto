@@ -8532,6 +8532,674 @@
           }
         }
       ]
+    },
+    "weedfield": {
+      "key": "weedfield",
+      "label": "THE WEED-CHOKED FIELD",
+      "description": "Ruined field recordings / steel weather / Sankofa signal decay",
+      "pageSlug": "weed-choked-field",
+      "hallKey": "weedfield",
+      "op2Key": "weedfield",
+      "op2Pair": "emptyfields",
+      "cover": {
+        "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_42_11 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "70mm Sankofa Protocol",
+          "file": "The Weed-Choked Field - 70mm Sankofa Protocol - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - 70mm Sankofa Protocol - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-01.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - 70mm Sankofa Protocol - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Arc Flash Appalachian",
+          "file": "The Weed-Choked Field - Arc Flash Appalachian - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Arc Flash Appalachian - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-02.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Arc Flash Appalachian - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Architecture of a Dying Signal",
+          "file": "The Weed-Choked Field - Architecture of a Dying Signal - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Architecture of a Dying Signal - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-03.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Architecture of a Dying Signal - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Echoes of Volholla",
+          "file": "The Weed-Choked Field - Echoes of Volholla - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Echoes of Volholla - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-04.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Echoes of Volholla - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Fortress Decay",
+          "file": "The Weed-Choked Field - Fortress Decay - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Fortress Decay - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-05.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Fortress Decay - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Fracture Matrix Blues",
+          "file": "The Weed-Choked Field - Fracture Matrix Blues - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Fracture Matrix Blues - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-06.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Fracture Matrix Blues - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Hephaestus Error",
+          "file": "The Weed-Choked Field - Hephaestus Error - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Hephaestus Error - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-07.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Hephaestus Error - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Lead Sky Jukebox",
+          "file": "The Weed-Choked Field - Lead Sky Jukebox - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Lead Sky Jukebox - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-08.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Lead Sky Jukebox - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "London Rain Hiss",
+          "file": "The Weed-Choked Field - London Rain Hiss - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - London Rain Hiss - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-09.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - London Rain Hiss - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Luxury and Mud",
+          "file": "The Weed-Choked Field - Luxury and Mud - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Luxury and Mud - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-10.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Luxury and Mud - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Microcassette Memory",
+          "file": "The Weed-Choked Field - Microcassette Memory - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Microcassette Memory - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-11.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Microcassette Memory - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Monolithic Aftermath",
+          "file": "The Weed-Choked Field - Monolithic Aftermath - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Monolithic Aftermath - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-12.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Monolithic Aftermath - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Neurosymbolic Shield Strike",
+          "file": "The Weed-Choked Field - Neurosymbolic Shield Strike - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Neurosymbolic Shield Strike - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-13.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Neurosymbolic Shield Strike - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Ozone Scented Plasma",
+          "file": "The Weed-Choked Field - Ozone Scented Plasma - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ozone Scented Plasma - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-14.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ozone Scented Plasma - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Ozone Séance",
+          "file": "The Weed-Choked Field - Ozone Séance - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ozone Séance - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-15.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ozone Séance - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Playground in the Fog",
+          "file": "The Weed-Choked Field - Playground in the Fog - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Playground in the Fog - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-16.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Playground in the Fog - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Ruins of the Auditory Wall",
+          "file": "The Weed-Choked Field - Ruins of the Auditory Wall - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ruins of the Auditory Wall - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-17.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Ruins of the Auditory Wall - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Sankofa Protocol",
+          "file": "The Weed-Choked Field - Sankofa Protocol - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Sankofa Protocol - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-18.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Sankofa Protocol - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Silo Array Test 4 (144 BPM)",
+          "file": "The Weed-Choked Field - Silo Array Test 4 (144 BPM) - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Silo Array Test 4 (144 BPM) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-19.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Silo Array Test 4 (144 BPM) - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Stalactite Ritual",
+          "file": "The Weed-Choked Field - Stalactite Ritual - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Stalactite Ritual - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-20.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Stalactite Ritual - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Static Shape-Note Pulse",
+          "file": "The Weed-Choked Field - Static Shape-Note Pulse - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Static Shape-Note Pulse - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-21.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Static Shape-Note Pulse - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Stone Wall Crumbling",
+          "file": "The Weed-Choked Field - Stone Wall Crumbling - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Stone Wall Crumbling - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-22.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Stone Wall Crumbling - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Tape Rot In A Vault",
+          "file": "The Weed-Choked Field - Tape Rot In A Vault - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Tape Rot In A Vault - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-23.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Tape Rot In A Vault - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "The Arc Lamp Glow",
+          "file": "The Weed-Choked Field - The Arc Lamp Glow - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Arc Lamp Glow - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-24.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Arc Lamp Glow - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "The Cooling Tower Sèance",
+          "file": "The Weed-Choked Field - The Cooling Tower Sèance - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Cooling Tower Sèance - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-25.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Cooling Tower Sèance - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "The Cost of Steel",
+          "file": "The Weed-Choked Field - The Cost of Steel - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Cost of Steel - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-26.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Cost of Steel - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 27,
+          "title": "The Crust Resonance",
+          "file": "The Weed-Choked Field - The Crust Resonance - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Crust Resonance - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-27.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Crust Resonance - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 28,
+          "title": "The Morse Code Mooche",
+          "file": "The Weed-Choked Field - The Morse Code Mooche - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Morse Code Mooche - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-28.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Morse Code Mooche - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 29,
+          "title": "The Ruined Somnambulist",
+          "file": "The Weed-Choked Field - The Ruined Somnambulist - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Ruined Somnambulist - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-29.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Ruined Somnambulist - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 30,
+          "title": "The Volholla Cylinder Protocol",
+          "file": "The Weed-Choked Field - The Volholla Cylinder Protocol - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Volholla Cylinder Protocol - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-30.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Volholla Cylinder Protocol - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 31,
+          "title": "The Wire-Recorder Séances",
+          "file": "The Weed-Choked Field - The Wire-Recorder Séances - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Wire-Recorder Séances - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-31.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - The Wire-Recorder Séances - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 32,
+          "title": "Whir of the Ancestor",
+          "file": "The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg",
+          "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-weedfield-32.html",
+          "audio": {
+            "source": "WEED-CHOKED FIELD/The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WEED-CHOKED FIELD/ChatGPT Image May 9, 2026, 02_43_26 AM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "emptyfields": {
+      "key": "emptyfields",
+      "label": "EMPTY ARE THE FIELDS",
+      "description": "Iron shield hymns / bare-field strings / radiator ghosts",
+      "pageSlug": "empty-are-the-fields",
+      "hallKey": "emptyfields",
+      "op2Key": "emptyfields",
+      "op2Pair": "weedfield",
+      "cover": {
+        "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_56_43 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Axioms of the Field",
+          "file": "The Weed-Choked Field - Axioms of the Field - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Axioms of the Field - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-01.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Axioms of the Field - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Ghosts in the Radiator",
+          "file": "The Weed-Choked Field - Ghosts in the Radiator - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Ghosts in the Radiator - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-02.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Ghosts in the Radiator - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Iron-Hearted Shift",
+          "file": "The Weed-Choked Field - Iron-Hearted Shift - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Iron-Hearted Shift - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-03.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Iron-Hearted Shift - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Shield of Achilles",
+          "file": "The Weed-Choked Field - Shield of Achilles - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Shield of Achilles - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-04.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Shield of Achilles - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Shield of the Ragged Urchin",
+          "file": "The Weed-Choked Field - Shield of the Ragged Urchin - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Shield of the Ragged Urchin - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-05.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - Shield of the Ragged Urchin - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "The Field of Weeds",
+          "file": "The Weed-Choked Field - The Field of Weeds - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Field of Weeds - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-06.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Field of Weeds - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "The Iron Shield (Minimal Spoken Word Score)",
+          "file": "The Weed-Choked Field - The Iron Shield (Minimal Spoken Word Score) - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Iron Shield (Minimal Spoken Word Score) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-07.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Iron Shield (Minimal Spoken Word Score) - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "The Shield of Achilles",
+          "file": "The Weed-Choked Field - The Shield of Achilles - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Shield of Achilles - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-08.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Shield of Achilles - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "The Shield of Iron",
+          "file": "The Weed-Choked Field - The Shield of Iron - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Shield of Iron - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-09.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Shield of Iron - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "The Whispering Strings",
+          "file": "The Weed-Choked Field - The Whispering Strings - Sonauto.ogg",
+          "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Whispering Strings - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-emptyfields-10.html",
+          "audio": {
+            "source": "EMPTY ARE THE FIELDS/The Weed-Choked Field - The Whispering Strings - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "EMPTY ARE THE FIELDS/ChatGPT Image May 9, 2026, 02_57_09 AM.png",
+            "derivatives": {}
+          }
+        }
+      ]
     }
   }
 }
