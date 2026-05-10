@@ -261,6 +261,7 @@
         { key: 'queen', label: 'QUEEN' },
         { key: 'emptyfields', label: 'EMPTY' },
         { key: 'weedfield', label: 'WEED' },
+        { key: 'rootresidue', label: 'ROOT' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -319,6 +320,8 @@
             ? 'ghost'
             : raw === 'queen-of-light' || raw === 'queen_of_light' || raw === 'queen' || raw === 'qol'
             ? 'queen'
+          : raw === 'rootresidue' || raw === 'root' || raw === 'root-and-residue' || raw === 'root_and_residue' || raw === 'root and residue' || raw === 'rar'
+            ? 'rootresidue'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

@@ -1341,6 +1341,43 @@
         ["OP2 Pair", "Launch with THE GREAT CONGREGATION for gospel-funk contrast."]
       ]
     },
+    rootresidue: {
+      key: "rootresidue",
+      pageSlug: "root-and-residue",
+      basePath: "../ROOT AND RESIDUE/",
+      label: "ROOT AND RESIDUE",
+      subtitle: "Family room fieldwork / porch-light funk / resin memory rituals",
+      accentA: "#8f6f3a",
+      accentB: "#c7a66a",
+      coverImage: "../ROOT AND RESIDUE/ChatGPT Image May 10, 2026, 01_17_36 PM (1).png",
+      defaultTrackArt: "../ROOT AND RESIDUE/ChatGPT Image May 10, 2026, 01_17_36 PM (2).png",
+      hallKey: "rootresidue",
+      op2Key: "rootresidue",
+      op2Pair: "queen",
+      files: [
+        "Root and Residue - The House Says Thanks - Sonauto.ogg",
+        "Root and Residue - Agua de la Madre - Sonauto.ogg",
+        "Root and Residue - Blue Nap Rhythm - Sonauto.ogg",
+        "Root and Residue - Deep in the Sand - Sonauto.ogg",
+        "Root and Residue - Golden Light Sanctuary - Sonauto.ogg",
+        "Root and Residue - Living Room Queen - Sonauto.ogg",
+        "Root and Residue - Machete Lullaby - Sonauto.ogg",
+        "Root and Residue - Minivan F.C. - Sonauto.ogg",
+        "Root and Residue - Rhinestones and Resin - Sonauto.ogg",
+        "Root and Residue - Super-8 Couch Stomp - Sonauto.ogg",
+        "Root and Residue - The Deepest Root - Sonauto.ogg",
+        "Root and Residue - The House Says Thank You - Sonauto.ogg",
+        "Root and Residue - The Way I Am (Mother's Groove) - Sonauto.ogg",
+        "Root and Residue - Third Row Glory - Sonauto.ogg",
+        "Root and Residue - This Is My Mother Resting - Sonauto.ogg",
+        "Root and Residue - Wool and Willow - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Family room fieldwork / porch-light funk / resin memory rituals"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for every cut."],
+        ["OP2 Pair", "Launch with QUEEN OF LIGHT for the family-light counterweight deck."]
+      ]
+    },
     weedfield: {
       key: "weedfield",
       pageSlug: "weed-choked-field",
@@ -1456,6 +1493,7 @@
       .replace(/^black water run\s*-\s*/i, "")
       .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^queen of light\s*-\s*/i, "")
+    .replace(/^root and residue\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")

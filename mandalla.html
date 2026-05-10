@@ -1318,6 +1318,32 @@
                     "Queen of Light - የድል አርማ (Victory Banner) - Sonauto.ogg"
                   ]
             },
+            rootresidue: {
+                key: 'rootresidue',
+                label: 'ROOT AND RESIDUE',
+                shortLabel: 'ROOT',
+                libraryParam: 'rootresidue',
+                op2Pair: 'queen',
+                basePath: 'ROOT AND RESIDUE/',
+                files: [
+                    "Root and Residue - The House Says Thanks - Sonauto.ogg",
+                    "Root and Residue - Agua de la Madre - Sonauto.ogg",
+                    "Root and Residue - Blue Nap Rhythm - Sonauto.ogg",
+                    "Root and Residue - Deep in the Sand - Sonauto.ogg",
+                    "Root and Residue - Golden Light Sanctuary - Sonauto.ogg",
+                    "Root and Residue - Living Room Queen - Sonauto.ogg",
+                    "Root and Residue - Machete Lullaby - Sonauto.ogg",
+                    "Root and Residue - Minivan F.C. - Sonauto.ogg",
+                    "Root and Residue - Rhinestones and Resin - Sonauto.ogg",
+                    "Root and Residue - Super-8 Couch Stomp - Sonauto.ogg",
+                    "Root and Residue - The Deepest Root - Sonauto.ogg",
+                    "Root and Residue - The House Says Thank You - Sonauto.ogg",
+                    "Root and Residue - The Way I Am (Mother's Groove) - Sonauto.ogg",
+                    "Root and Residue - Third Row Glory - Sonauto.ogg",
+                    "Root and Residue - This Is My Mother Resting - Sonauto.ogg",
+                    "Root and Residue - Wool and Willow - Sonauto.ogg"
+                  ]
+            },
             weedfield: {
                 key: 'weedfield',
                 label: 'THE WEED-CHOKED FIELD',
@@ -2085,6 +2111,7 @@
                 .replace(/^event horizon discovery\s*-\s*/i, '')
                 .replace(/^ghost in the wires\s*-\s*/i, '')
                 .replace(/^queen of light\s*-\s*/i, '')
+                .replace(/^root and residue\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
                 .replace(/^the weed-choked field\s*-\s*/i, '')
@@ -2115,6 +2142,7 @@
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'ghost-in-the-wires' || v === 'ghost_in_the_wires' || v === 'ghost') return 'ghost';
             if (v === 'queen-of-light' || v === 'queen_of_light' || v === 'queen of light' || v === 'queen' || v === 'qol') return 'queen';
+            if (v === 'rootresidue' || v === 'root' || v === 'root-and-residue' || v === 'root_and_residue' || v === 'root and residue' || v === 'rar') return 'rootresidue';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
