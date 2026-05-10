@@ -1643,6 +1643,15 @@
     }));
   }
 
+  function normalizeAlbumKey(rawValue) {
+    const raw = String(rawValue || "").trim().toLowerCase();
+    if (raw === "rootresidue" || raw === "root" || raw === "root-and-residue" || raw === "root_and_residue" || raw === "root and residue" || raw === "rar") return "rootresidue";
+    if (raw === "weedfield" || raw === "weed" || raw === "weed-choked-field" || raw === "weed_choked_field" || raw === "the weed-choked field" || raw === "the-weed-choked-field" || raw === "wcf") return "weedfield";
+    if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") return "emptyfields";
+    if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
+    return raw;
+  }
+
   function renderVisualPanel(album) {
     return `
       <details class="panel extras-panel" id="albumVisualsPanel">
@@ -2221,7 +2230,9 @@
   function init() {
     const root = document.querySelector("[data-album-page]");
     if (!root) return;
-    const key = root.getAttribute("data-album-page");
+    const params = new URLSearchParams(window.location.search);
+    const pageSlug = window.location.pathname.split("/").pop()?.replace(/\.html$/i, "") || "";
+    const key = normalizeAlbumKey(root.getAttribute("data-album-page") || params.get("album") || pageSlug);
     const album = ALBUMS[key] || ALBUMS.volholla;
 
     document.title = `${album.label} · Album Page`;
