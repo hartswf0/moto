@@ -60,7 +60,8 @@ async function main() {
         file: track.file,
         source: track.source,
         songPage: track.songPage,
-        audio: audioEntryFor(audioManifest?.items, track.source)
+        audio: audioEntryFor(audioManifest?.items, track.source),
+        ...(track.artSource ? { art: imageEntryFor(imageManifest?.items, track.artSource) } : {})
       }))
     };
   }
@@ -74,4 +75,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-

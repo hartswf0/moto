@@ -85,8 +85,13 @@ function songPageHtml(album, trackIndex, manifestAlbum) {
   const desc = `${album.label} · Track ${String(trackIndex + 1).padStart(2, "0")} of ${album.files.length}`;
   const title = `${trackTitle} · ${album.label}`;
   const coverRootRelative = pickImagePath(manifestAlbum?.cover, "cover");
-  const shareRootRelative = pickImagePath(manifestAlbum?.cover, "share") || coverRootRelative;
-  const trackArtRootRelative = pickImagePath(manifestAlbum?.defaultTrackArt, "cover") || coverRootRelative;
+  const trackArtRootRelative = pickImagePath(manifestAlbum?.tracks?.[trackIndex]?.art, "cover")
+    || pickImagePath(manifestAlbum?.defaultTrackArt, "cover")
+    || coverRootRelative;
+  const shareRootRelative = pickImagePath(manifestAlbum?.tracks?.[trackIndex]?.art, "share")
+    || pickImagePath(manifestAlbum?.cover, "share")
+    || trackArtRootRelative
+    || coverRootRelative;
   const imageUrl = siteAssetUrl(shareRootRelative);
   const iconHref = encodeURI(pageAssetPath(coverRootRelative) || album.coverImage || "");
   const artHref = encodeURI(pageAssetPath(trackArtRootRelative) || album.coverImage || "");

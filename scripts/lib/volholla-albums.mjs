@@ -46,6 +46,15 @@ function blockValue(block, key) {
   return block.match(new RegExp(`${key}:\\s*"([^"]+)"`))?.[1] || "";
 }
 
+function blockObjectByIndex(block, key) {
+  const objectBlock = block.match(new RegExp(`${key}:\\s*\\{([\\s\\S]*?)\\n\\s*\\},`))?.[1] || "";
+  const values = {};
+  for (const match of objectBlock.matchAll(/(\d+):\s*"([^"]+)"/g)) {
+    values[Number(match[1])] = match[2];
+  }
+  return values;
+}
+
 function resolveFromVolholla(rootDir, assetPath) {
   if (!assetPath) return "";
   const absolute = path.resolve(rootDir, "VOLHOLLA", assetPath);
@@ -92,6 +101,7 @@ export function extractAlbumsFromSource(source, rootDir = process.cwd()) {
       const basePath = blockValue(block, "basePath");
       const coverImage = blockValue(block, "coverImage");
       const defaultTrackArt = blockValue(block, "defaultTrackArt") || coverImage;
+      const trackArtByIndex = blockObjectByIndex(block, "trackArtByIndex");
       const hallKey = blockValue(block, "hallKey");
       const op2Key = blockValue(block, "op2Key");
       const op2Pair = blockValue(block, "op2Pair");
@@ -122,6 +132,7 @@ export function extractAlbumsFromSource(source, rootDir = process.cwd()) {
           file,
           title: titleFromFilename(file),
           source: resolveFromVolholla(rootDir, `${basePath}${file}`),
+          artSource: resolveFromVolholla(rootDir, trackArtByIndex[index] || ""),
           songPage: `VOLHOLLA/song-${key}-${String(index + 1).padStart(2, "0")}.html`
         }))
       });
