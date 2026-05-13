@@ -1603,7 +1603,6 @@
       .replace(/^queen of light\s*-\s*/i, "")
     .replace(/^root and residue\s*-\s*/i, "")
       .replace(/^better hands\s*-\s*/i, "")
-      .replace(/^sharper hands\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
