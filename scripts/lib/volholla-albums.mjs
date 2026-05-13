@@ -34,6 +34,7 @@ export function titleFromFilename(file) {
     .replace(/^queen of light\s*-\s*/i, "")
     .replace(/^root and residue\s*-\s*/i, "")
     .replace(/^better hands\s*-\s*/i, "")
+    .replace(/^sharper hands\s*-\s*/i, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
     .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")

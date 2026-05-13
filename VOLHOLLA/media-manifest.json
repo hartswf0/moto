@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T04:54:24.754Z",
+  "generatedAt": "2026-05-13T05:56:56.692Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -8348,7 +8348,7 @@
         },
         {
           "index": 2,
-          "title": "Sharper Hands",
+          "title": "Sonauto",
           "file": "Better Hands - Sharper Hands - Sonauto.ogg",
           "source": "BETTER HANDS/Better Hands - Sharper Hands - Sonauto.ogg",
           "songPage": "VOLHOLLA/song-betterhands-02.html",
@@ -8564,6 +8564,117 @@
           "songPage": "VOLHOLLA/song-betterhands-16.html",
           "audio": {
             "source": "BETTER HANDS/Better Hands - Blood on the Ice - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "sharperhands": {
+      "key": "sharperhands",
+      "label": "SHARPER HANDS",
+      "subtitle": "Sharper repair edits / prompt-prune testimony / cool radio revision work",
+      "pageSlug": "sharper-hands",
+      "hallKey": "sharperhands",
+      "op2Key": "sharperhands",
+      "op2Pair": "betterhands",
+      "accentA": "#9b3028",
+      "accentB": "#e7dbc6",
+      "cover": {
+        "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Sonauto",
+          "file": "Better Hands - Sharper Hands - Sonauto.ogg",
+          "source": "BETTER HANDS/Better Hands - Sharper Hands - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-01.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - Sharper Hands - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Through the Sentence",
+          "file": "Better Hands - Through the Sentence - Sonauto.ogg",
+          "source": "BETTER HANDS/Better Hands - Through the Sentence - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-02.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - Through the Sentence - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 12_30_44 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Fingerprints in the Silicon",
+          "file": "Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+          "source": "BETTER HANDS/Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-03.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 12_31_57 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "The Wound and the Mirror",
+          "file": "Better Hands - The Wound and the Mirror - Sonauto.ogg",
+          "source": "BETTER HANDS/Better Hands - The Wound and the Mirror - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-04.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - The Wound and the Mirror - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 12_25_30 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Visible Repair",
+          "file": "Better Hands - Visible Repair - Sonauto.ogg",
+          "source": "BETTER HANDS/Better Hands - Visible Repair - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-05.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - Visible Repair - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "The Defiant Podium (1)",
+          "file": "Better Hands - The Defiant Podium - Sonauto (1).ogg",
+          "source": "BETTER HANDS/Better Hands - The Defiant Podium - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-sharperhands-06.html",
+          "audio": {
+            "source": "BETTER HANDS/Better Hands - The Defiant Podium - Sonauto (1).ogg",
             "derivatives": {}
           },
           "art": {

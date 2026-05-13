@@ -1273,6 +1273,36 @@
         "Better Hands - Blood on the Ice - Sonauto.ogg"
       ]
     },
+    sharperhands: {
+      key: "sharperhands",
+      pageSlug: "sharper-hands",
+      basePath: "../BETTER HANDS/",
+      label: "SHARPER HANDS",
+      subtitle: "Sharper repair edits / prompt-prune testimony / cool radio revision work",
+      accentA: "#9b3028",
+      accentB: "#e7dbc6",
+      coverImage: "../BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+      defaultTrackArt: "../BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+      trackArtByIndex: {
+        0: "../BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+        1: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_30_44 AM.png",
+        2: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_31_57 AM.png",
+        3: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_25_30 AM.png",
+        4: "../BETTER HANDS/ChatGPT Image May 13, 2026, 01_48_46 AM.png",
+        5: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png"
+      },
+      hallKey: "sharperhands",
+      op2Key: "sharperhands",
+      op2Pair: "betterhands",
+      files: [
+        "Better Hands - Sharper Hands - Sonauto.ogg",
+        "Better Hands - Through the Sentence - Sonauto.ogg",
+        "Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+        "Better Hands - The Wound and the Mirror - Sonauto.ogg",
+        "Better Hands - Visible Repair - Sonauto.ogg",
+        "Better Hands - The Defiant Podium - Sonauto (1).ogg"
+      ]
+    },
     weedfield: {
       key: "weedfield",
       pageSlug: "weed-choked-field",
@@ -1381,6 +1411,7 @@
       .replace(/^queen of light\s*-\s*/i, "")
     .replace(/^root and residue\s*-\s*/i, "")
       .replace(/^better hands\s*-\s*/i, "")
+      .replace(/^sharper hands\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
