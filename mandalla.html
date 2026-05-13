@@ -1344,6 +1344,32 @@
                     "Root and Residue - Wool and Willow - Sonauto.ogg"
                   ]
             },
+            betterhands: {
+                key: 'betterhands',
+                label: 'BETTER HANDS',
+                shortLabel: 'HANDS',
+                libraryParam: 'betterhands',
+                op2Pair: 'rootresidue',
+                basePath: 'BETTER HANDS/',
+                files: [
+                    "Better Hands - Better Hands - Sonauto.ogg",
+                    "Better Hands - Sharper Hands - Sonauto.ogg",
+                    "Better Hands - Hands Upon The Wheel - Sonauto.ogg",
+                    "Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+                    "Better Hands - The Machine Heard Me First - Sonauto.ogg",
+                    "Better Hands - Machines of Migration - Sonauto.ogg",
+                    "Better Hands - The Prompt Log Brick - Sonauto.ogg",
+                    "Better Hands - Through the Sentence - Sonauto.ogg",
+                    "Better Hands - The Wound and the Mirror - Sonauto.ogg",
+                    "Better Hands - Visible Repair - Sonauto.ogg",
+                    "Better Hands - Salt in the Signal - Sonauto.ogg",
+                    "Better Hands - Pocket Receipts - Sonauto.ogg",
+                    "Better Hands - Appliance Prayer - Sonauto.ogg",
+                    "Better Hands - The Defiant Podium - Sonauto.ogg",
+                    "Better Hands - The Defiant Podium - Sonauto (1).ogg",
+                    "Better Hands - Blood on the Ice - Sonauto.ogg"
+                  ]
+            },
             weedfield: {
                 key: 'weedfield',
                 label: 'THE WEED-CHOKED FIELD',
@@ -2112,6 +2138,7 @@
                 .replace(/^ghost in the wires\s*-\s*/i, '')
                 .replace(/^queen of light\s*-\s*/i, '')
                 .replace(/^root and residue\s*-\s*/i, '')
+                .replace(/^better hands\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
                 .replace(/^the weed-choked field\s*-\s*/i, '')
@@ -2143,6 +2170,7 @@
             if (v === 'ghost-in-the-wires' || v === 'ghost_in_the_wires' || v === 'ghost') return 'ghost';
             if (v === 'queen-of-light' || v === 'queen_of_light' || v === 'queen of light' || v === 'queen' || v === 'qol') return 'queen';
             if (v === 'rootresidue' || v === 'root' || v === 'root-and-residue' || v === 'root_and_residue' || v === 'root and residue' || v === 'rar') return 'rootresidue';
+            if (v === 'betterhands' || v === 'better' || v === 'hands' || v === 'better-hands' || v === 'better_hands' || v === 'better hands') return 'betterhands';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';

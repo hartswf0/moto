@@ -1396,6 +1396,61 @@
         ["OP2 Pair", "Launch with QUEEN OF LIGHT for the family-light counterweight deck."]
       ]
     },
+    betterhands: {
+      key: "betterhands",
+      pageSlug: "better-hands",
+      basePath: "../BETTER HANDS/",
+      label: "BETTER HANDS",
+      subtitle: "Machine witness / repair testimony / hands-on signal work",
+      accentA: "#d86a4a",
+      accentB: "#f2c66d",
+      coverImage: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+      defaultTrackArt: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_50_10 AM.png",
+      trackArtByIndex: {
+        0: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+        1: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_50_10 AM.png",
+        2: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_30_44 AM.png",
+        3: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_31_57 AM.png",
+        4: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_25_30 AM.png",
+        5: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+        6: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_50_10 AM.png",
+        7: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_30_44 AM.png",
+        8: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_31_57 AM.png",
+        9: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_25_30 AM.png",
+        10: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+        11: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_50_10 AM.png",
+        12: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_30_44 AM.png",
+        13: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_31_57 AM.png",
+        14: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_25_30 AM.png",
+        15: "../BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png"
+      },
+      hallKey: "betterhands",
+      op2Key: "betterhands",
+      op2Pair: "rootresidue",
+      files: [
+        "Better Hands - Better Hands - Sonauto.ogg",
+        "Better Hands - Sharper Hands - Sonauto.ogg",
+        "Better Hands - Hands Upon The Wheel - Sonauto.ogg",
+        "Better Hands - Fingerprints in the Silicon - Sonauto.ogg",
+        "Better Hands - The Machine Heard Me First - Sonauto.ogg",
+        "Better Hands - Machines of Migration - Sonauto.ogg",
+        "Better Hands - The Prompt Log Brick - Sonauto.ogg",
+        "Better Hands - Through the Sentence - Sonauto.ogg",
+        "Better Hands - The Wound and the Mirror - Sonauto.ogg",
+        "Better Hands - Visible Repair - Sonauto.ogg",
+        "Better Hands - Salt in the Signal - Sonauto.ogg",
+        "Better Hands - Pocket Receipts - Sonauto.ogg",
+        "Better Hands - Appliance Prayer - Sonauto.ogg",
+        "Better Hands - The Defiant Podium - Sonauto.ogg",
+        "Better Hands - The Defiant Podium - Sonauto (1).ogg",
+        "Better Hands - Blood on the Ice - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Machine witness / repair testimony / hands-on signal work"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for every cut."],
+        ["OP2 Pair", "Launch with ROOT AND RESIDUE for a repair-memory counterweight deck."]
+      ]
+    },
     weedfield: {
       key: "weedfield",
       pageSlug: "weed-choked-field",
@@ -1512,6 +1567,7 @@
       .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^queen of light\s*-\s*/i, "")
     .replace(/^root and residue\s*-\s*/i, "")
+      .replace(/^better hands\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")

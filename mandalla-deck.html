@@ -532,6 +532,7 @@
     { key:'emptyfields', label:'Empty Are The Fields' },
     { key:'weedfield', label:'The Weed-Choked Field' },
     { key:'rootresidue', label:'Root And Residue' },
+    { key:'betterhands', label:'Better Hands' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -563,6 +564,7 @@
     { id:'ef-wf', label:'Empty Fields × Weed Field', a:'emptyfields', b:'weedfield' },
     { id:'wf-ef', label:'Weed Field × Empty Fields', a:'weedfield', b:'emptyfields' },
     { id:'rr-qu', label:'Root Residue × Queen', a:'rootresidue', b:'queen' },
+    { id:'bh-rr', label:'Better Hands × Root Residue', a:'betterhands', b:'rootresidue' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -594,6 +596,7 @@
     if (v === 'ghost-in-the-wires' || v === 'ghost_in_the_wires' || v === 'ghost') return 'ghost';
     if (v === 'queen-of-light' || v === 'queen_of_light' || v === 'queen of light' || v === 'queen' || v === 'qol') return 'queen';
     if (v === 'rootresidue' || v === 'root' || v === 'root-and-residue' || v === 'root_and_residue' || v === 'root and residue' || v === 'rar') return 'rootresidue';
+    if (v === 'betterhands' || v === 'better' || v === 'hands' || v === 'better-hands' || v === 'better_hands' || v === 'better hands') return 'betterhands';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
     if (v === 'gole-yakh-memory' || v === 'gole_yakh_memory' || v === 'goleyakh') return 'goleyakh';

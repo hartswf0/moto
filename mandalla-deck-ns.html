@@ -262,6 +262,7 @@
         { key: 'emptyfields', label: 'EMPTY' },
         { key: 'weedfield', label: 'WEED' },
         { key: 'rootresidue', label: 'ROOT' },
+        { key: 'betterhands', label: 'HANDS' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -322,6 +323,8 @@
             ? 'queen'
           : raw === 'rootresidue' || raw === 'root' || raw === 'root-and-residue' || raw === 'root_and_residue' || raw === 'root and residue' || raw === 'rar'
             ? 'rootresidue'
+          : raw === 'betterhands' || raw === 'better' || raw === 'hands' || raw === 'better-hands' || raw === 'better_hands' || raw === 'better hands'
+            ? 'betterhands'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'
