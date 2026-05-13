@@ -1386,6 +1386,25 @@
                     "Better Hands - The Defiant Podium - Sonauto (1).ogg"
                   ]
             },
+            sunfadedghosts: {
+                key: 'sunfadedghosts',
+                label: 'SUN-FADED GHOSTS',
+                shortLabel: 'GHOST',
+                libraryParam: 'sunfadedghosts',
+                op2Pair: 'sharperhands',
+                basePath: 'SUN-FADED GHOSTS/',
+                files: [
+                    "Sun-Faded Ghost - Asphalt Levitation (Passinho Circo) - Sonauto.ogg",
+                    "Sun-Faded Ghost - Asphalt Levitation - Sonauto.ogg",
+                    "Sun-Faded Ghost - Asphalt Levitation - Sonauto (1).ogg",
+                    "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto.ogg",
+                    "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto (1).ogg",
+                    "Sun-Faded Ghost - Lisbon Kuduro Voltage - Sonauto.ogg",
+                    "Sun-Faded Ghost - Melancolia de Concreto - Sonauto.ogg",
+                    "Sun-Faded Ghost - Passinho das Quadras - Sonauto.ogg",
+                    "Sun-Faded Ghost - Trilhos do Passinho - Sonauto.ogg"
+                  ]
+            },
             weedfield: {
                 key: 'weedfield',
                 label: 'THE WEED-CHOKED FIELD',
@@ -2155,6 +2174,7 @@
                 .replace(/^queen of light\s*-\s*/i, '')
                 .replace(/^root and residue\s*-\s*/i, '')
                 .replace(/^better hands\s*-\s*/i, '')
+                .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
                 .replace(/^the weed-choked field\s*-\s*/i, '')
@@ -2188,6 +2208,7 @@
             if (v === 'rootresidue' || v === 'root' || v === 'root-and-residue' || v === 'root_and_residue' || v === 'root and residue' || v === 'rar') return 'rootresidue';
             if (v === 'betterhands' || v === 'better' || v === 'hands' || v === 'better-hands' || v === 'better_hands' || v === 'better hands') return 'betterhands';
             if (v === 'sharperhands' || v === 'sharper' || v === 'sharp' || v === 'sharper-hands' || v === 'sharper_hands' || v === 'sharper hands') return 'sharperhands';
+            if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';

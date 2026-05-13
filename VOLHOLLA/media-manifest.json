@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T17:24:52.279Z",
+  "generatedAt": "2026-05-13T21:49:29.958Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -8679,6 +8679,126 @@
           },
           "art": {
             "source": "BETTER HANDS/ChatGPT Image May 13, 2026, 12_37_40 AM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "sunfadedghosts": {
+      "key": "sunfadedghosts",
+      "label": "SUN-FADED GHOSTS",
+      "subtitle": "Concrete glare / passinho voltage / sun-bleached ghost circuits",
+      "pageSlug": "sun-faded-ghosts",
+      "hallKey": "sunfadedghosts",
+      "op2Key": "sunfadedghosts",
+      "op2Pair": "sharperhands",
+      "accentA": "#c98242",
+      "accentB": "#68a7a0",
+      "cover": {
+        "source": "SUN-FADED GHOSTS/9208d141-f249-4391-b3f3-f0ecc4cdfe4a.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "SUN-FADED GHOSTS/Gemini_Generated_Image_prepgyprepgyprep.jpeg",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Asphalt Levitation (Passinho Circo)",
+          "file": "Sun-Faded Ghost - Asphalt Levitation (Passinho Circo) - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation (Passinho Circo) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-01.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation (Passinho Circo) - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Asphalt Levitation",
+          "file": "Sun-Faded Ghost - Asphalt Levitation - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-02.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Asphalt Levitation (1)",
+          "file": "Sun-Faded Ghost - Asphalt Levitation - Sonauto (1).ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-03.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Asphalt Levitation - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Favela Footwork Circuit",
+          "file": "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Favela Footwork Circuit - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-04.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Favela Footwork Circuit - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Favela Footwork Circuit (1)",
+          "file": "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto (1).ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Favela Footwork Circuit - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-05.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Favela Footwork Circuit - Sonauto (1).ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Lisbon Kuduro Voltage",
+          "file": "Sun-Faded Ghost - Lisbon Kuduro Voltage - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Lisbon Kuduro Voltage - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-06.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Lisbon Kuduro Voltage - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Melancolia de Concreto",
+          "file": "Sun-Faded Ghost - Melancolia de Concreto - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Melancolia de Concreto - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-07.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Melancolia de Concreto - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Passinho das Quadras",
+          "file": "Sun-Faded Ghost - Passinho das Quadras - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Passinho das Quadras - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-08.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Passinho das Quadras - Sonauto.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Trilhos do Passinho",
+          "file": "Sun-Faded Ghost - Trilhos do Passinho - Sonauto.ogg",
+          "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Trilhos do Passinho - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-sunfadedghosts-09.html",
+          "audio": {
+            "source": "SUN-FADED GHOSTS/Sun-Faded Ghost - Trilhos do Passinho - Sonauto.ogg",
             "derivatives": {}
           }
         }

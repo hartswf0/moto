@@ -1303,6 +1303,31 @@
         "Better Hands - The Defiant Podium - Sonauto (1).ogg"
       ]
     },
+    sunfadedghosts: {
+      key: "sunfadedghosts",
+      pageSlug: "sun-faded-ghosts",
+      basePath: "../SUN-FADED GHOSTS/",
+      label: "SUN-FADED GHOSTS",
+      subtitle: "Concrete glare / passinho voltage / sun-bleached ghost circuits",
+      accentA: "#c98242",
+      accentB: "#68a7a0",
+      coverImage: "../SUN-FADED GHOSTS/9208d141-f249-4391-b3f3-f0ecc4cdfe4a.png",
+      defaultTrackArt: "../SUN-FADED GHOSTS/Gemini_Generated_Image_prepgyprepgyprep.jpeg",
+      hallKey: "sunfadedghosts",
+      op2Key: "sunfadedghosts",
+      op2Pair: "sharperhands",
+      files: [
+        "Sun-Faded Ghost - Asphalt Levitation (Passinho Circo) - Sonauto.ogg",
+        "Sun-Faded Ghost - Asphalt Levitation - Sonauto.ogg",
+        "Sun-Faded Ghost - Asphalt Levitation - Sonauto (1).ogg",
+        "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto.ogg",
+        "Sun-Faded Ghost - Favela Footwork Circuit - Sonauto (1).ogg",
+        "Sun-Faded Ghost - Lisbon Kuduro Voltage - Sonauto.ogg",
+        "Sun-Faded Ghost - Melancolia de Concreto - Sonauto.ogg",
+        "Sun-Faded Ghost - Passinho das Quadras - Sonauto.ogg",
+        "Sun-Faded Ghost - Trilhos do Passinho - Sonauto.ogg"
+      ]
+    },
     weedfield: {
       key: "weedfield",
       pageSlug: "weed-choked-field",
@@ -1411,6 +1436,7 @@
       .replace(/^queen of light\s*-\s*/i, "")
     .replace(/^root and residue\s*-\s*/i, "")
       .replace(/^better hands\s*-\s*/i, "")
+      .replace(/^sun-faded ghosts?\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
