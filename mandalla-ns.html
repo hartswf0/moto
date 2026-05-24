@@ -277,6 +277,9 @@
         { key: 'emptyfields', label: 'EMPTY' },
         { key: 'weedfield', label: 'WEED' },
         { key: 'rootresidue', label: 'ROOT' },
+        { key: 'nobrightstand', label: 'NBS' },
+        { key: 'dustrest', label: 'DUST' },
+        { key: 'museumfloor', label: 'MUSEUM' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -345,6 +348,12 @@
             ? 'queen'
           : raw === 'rootresidue' || raw === 'root' || raw === 'root-and-residue' || raw === 'root_and_residue' || raw === 'root and residue' || raw === 'rar'
             ? 'rootresidue'
+          : raw === 'nobrightstand' || raw === 'no-bright-stand' || raw === 'no_bright_stand' || raw === 'no bright stand' || raw === 'nbs'
+            ? 'nobrightstand'
+          : raw === 'dustrest' || raw === 'where-can-dust-rest' || raw === 'where_can_dust_rest' || raw === 'where can dust rest' || raw === 'wcdr'
+            ? 'dustrest'
+          : raw === 'museumfloor' || raw === 'museum-floor-thinking' || raw === 'museum_floor_thinking' || raw === 'museum floor thinking' || raw === 'mft'
+            ? 'museumfloor'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

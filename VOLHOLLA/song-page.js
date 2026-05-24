@@ -1477,6 +1477,38 @@
         "No Bright Stand - Mirror Dust System - Sonauto.ogg"
       ]
     },
+    museumfloor: {
+      key: "museumfloor",
+      pageSlug: "museum-floor-thinking",
+      basePath: "../MUSEUM FLOOR THINKING/",
+      label: "MUSEUM FLOOR THINKING",
+      subtitle: "Hallway hunger / inventory logic / country-of-enough pressure",
+      accentA: "#b78b55",
+      accentB: "#5f8d91",
+      coverImage: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+      defaultTrackArt: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+      trackArtByIndex: {
+        0: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+        1: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+        2: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_42 PM.png",
+        3: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+        4: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+        5: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_42 PM.png",
+        6: "../MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png"
+      },
+      hallKey: "museumfloor",
+      op2Key: "museumfloor",
+      op2Pair: "dustrest",
+      files: [
+        "Museum Floor Thinking - The Inventory of Hunger - Sonauto.ogg",
+        "Museum Floor Thinking - Hunger in the Hallway - Sonauto.ogg",
+        "Museum Floor Thinking - Enough Is a Country - Sonauto.ogg",
+        "Museum Floor Thinking - Enough Is a Country - Sonauto (1).ogg",
+        "Museum Floor Thinking - Too Much Is Too Much - Sonauto.ogg",
+        "Museum Floor Thinking - Enough Is a Country - Sonauto (3).ogg",
+        "Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg"
+      ]
+    },
     sunfadedghosts: {
       key: "sunfadedghosts",
       pageSlug: "sun-faded-ghosts",
@@ -1609,9 +1641,10 @@
       .replace(/^executable infrastructure dub\s*-\s*/i, "")
       .replace(/^queen of light\s*-\s*/i, "")
       .replace(/^root and residue\s*-\s*/i, "")
-      .replace(/^better hands\s*-\s*/i, "")
-      .replace(/^no bright stand\s*-\s*/i, "")
-      .replace(/^sun-faded ghosts?\s*-\s*/i, "")
+    .replace(/^better hands\s*-\s*/i, "")
+    .replace(/^no bright stand\s*-\s*/i, "")
+    .replace(/^museum floor thinking\s*-\s*/i, "")
+    .replace(/^sun-faded ghosts?\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
@@ -1712,6 +1745,9 @@
     }
     if (raw === "dustrest" || raw === "where-can-dust-rest" || raw === "where_can_dust_rest" || raw === "where can dust rest" || raw === "wcdr") {
       return "dustrest";
+    }
+    if (raw === "museumfloor" || raw === "museum-floor-thinking" || raw === "museum_floor_thinking" || raw === "museum floor thinking" || raw === "mft") {
+      return "museumfloor";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";

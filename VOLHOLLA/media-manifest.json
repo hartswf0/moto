@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T23:36:33.379Z",
+  "generatedAt": "2026-05-24T20:13:51.148Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -9756,6 +9756,132 @@
           },
           "art": {
             "source": "WHERE CAN DUST REST/ChatGPT Image May 18, 2026, 07_19_10 PM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "museumfloor": {
+      "key": "museumfloor",
+      "label": "MUSEUM FLOOR THINKING",
+      "subtitle": "Hallway hunger / inventory logic / country-of-enough pressure",
+      "pageSlug": "museum-floor-thinking",
+      "hallKey": "museumfloor",
+      "op2Key": "museumfloor",
+      "op2Pair": "dustrest",
+      "accentA": "#b78b55",
+      "accentB": "#5f8d91",
+      "cover": {
+        "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "The Inventory of Hunger",
+          "file": "Museum Floor Thinking - The Inventory of Hunger - Sonauto.ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - The Inventory of Hunger - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-01.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - The Inventory of Hunger - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Hunger in the Hallway",
+          "file": "Museum Floor Thinking - Hunger in the Hallway - Sonauto.ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Hunger in the Hallway - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-02.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Hunger in the Hallway - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Enough Is a Country",
+          "file": "Museum Floor Thinking - Enough Is a Country - Sonauto.ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-03.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_42 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Enough Is a Country (1)",
+          "file": "Museum Floor Thinking - Enough Is a Country - Sonauto (1).ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (1).ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-04.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Too Much Is Too Much",
+          "file": "Museum Floor Thinking - Too Much Is Too Much - Sonauto.ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Too Much Is Too Much - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-05.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Too Much Is Too Much - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_38 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Enough Is a Country (3)",
+          "file": "Museum Floor Thinking - Enough Is a Country - Sonauto (3).ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (3).ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-06.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (3).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_42 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Enough Is a Country (2)",
+          "file": "Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg",
+          "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg",
+          "songPage": "VOLHOLLA/song-museumfloor-07.html",
+          "audio": {
+            "source": "MUSEUM FLOOR THINKING/Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
             "derivatives": {}
           }
         }

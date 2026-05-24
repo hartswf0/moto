@@ -264,6 +264,9 @@
         { key: 'rootresidue', label: 'ROOT' },
         { key: 'betterhands', label: 'HANDS' },
         { key: 'sharperhands', label: 'SHARP' },
+        { key: 'nobrightstand', label: 'NBS' },
+        { key: 'dustrest', label: 'DUST' },
+        { key: 'museumfloor', label: 'MUSEUM' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -328,6 +331,12 @@
             ? 'betterhands'
           : raw === 'sharperhands' || raw === 'sharper' || raw === 'sharp' || raw === 'sharper-hands' || raw === 'sharper_hands' || raw === 'sharper hands'
             ? 'sharperhands'
+          : raw === 'nobrightstand' || raw === 'no-bright-stand' || raw === 'no_bright_stand' || raw === 'no bright stand' || raw === 'nbs'
+            ? 'nobrightstand'
+          : raw === 'dustrest' || raw === 'where-can-dust-rest' || raw === 'where_can_dust_rest' || raw === 'where can dust rest' || raw === 'wcdr'
+            ? 'dustrest'
+          : raw === 'museumfloor' || raw === 'museum-floor-thinking' || raw === 'museum_floor_thinking' || raw === 'museum floor thinking' || raw === 'mft'
+            ? 'museumfloor'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

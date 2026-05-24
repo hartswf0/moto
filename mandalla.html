@@ -1475,6 +1475,23 @@
                     "No Bright Stand - Mirror Dust System - Sonauto.ogg"
                   ]
             },
+            museumfloor: {
+                key: 'museumfloor',
+                label: 'MUSEUM FLOOR THINKING',
+                shortLabel: 'MUSEUM',
+                libraryParam: 'museumfloor',
+                op2Pair: 'dustrest',
+                basePath: 'MUSEUM FLOOR THINKING/',
+                files: [
+                    "Museum Floor Thinking - The Inventory of Hunger - Sonauto.ogg",
+                    "Museum Floor Thinking - Hunger in the Hallway - Sonauto.ogg",
+                    "Museum Floor Thinking - Enough Is a Country - Sonauto.ogg",
+                    "Museum Floor Thinking - Enough Is a Country - Sonauto (1).ogg",
+                    "Museum Floor Thinking - Too Much Is Too Much - Sonauto.ogg",
+                    "Museum Floor Thinking - Enough Is a Country - Sonauto (3).ogg",
+                    "Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2264,6 +2281,7 @@
                 .replace(/^root and residue\s*-\s*/i, '')
                 .replace(/^better hands\s*-\s*/i, '')
                 .replace(/^no bright stand\s*-\s*/i, '')
+                .replace(/^museum floor thinking\s*-\s*/i, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
@@ -2300,6 +2318,7 @@
             if (v === 'sharperhands' || v === 'sharper' || v === 'sharp' || v === 'sharper-hands' || v === 'sharper_hands' || v === 'sharper hands') return 'sharperhands';
             if (v === 'nobrightstand' || v === 'no-bright-stand' || v === 'no_bright_stand' || v === 'no bright stand' || v === 'nbs') return 'nobrightstand';
             if (v === 'dustrest' || v === 'where-can-dust-rest' || v === 'where_can_dust_rest' || v === 'where can dust rest' || v === 'wcdr') return 'dustrest';
+            if (v === 'museumfloor' || v === 'museum-floor-thinking' || v === 'museum_floor_thinking' || v === 'museum floor thinking' || v === 'mft') return 'museumfloor';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
