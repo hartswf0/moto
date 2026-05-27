@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T20:13:51.148Z",
+  "generatedAt": "2026-05-27T20:40:22.843Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -9882,6 +9882,132 @@
           },
           "art": {
             "source": "MUSEUM FLOOR THINKING/ChatGPT Image May 24, 2026, 04_06_25 PM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "truthrhythm": {
+      "key": "truthrhythm",
+      "label": "TRUTH TO THE RHYTHM",
+      "subtitle": "Boulevard vows / wedding-line voltage / sunset street rhythm",
+      "pageSlug": "truth-to-the-rhythm",
+      "hallKey": "truthrhythm",
+      "op2Key": "truthrhythm",
+      "op2Pair": "museumfloor",
+      "accentA": "#d1844a",
+      "accentB": "#6fa7b6",
+      "cover": {
+        "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Winner on the Line",
+          "file": "Truth to the Rhythm - Winner on the Line - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Winner on the Line - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-01.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Winner on the Line - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Sunset on the Boulevard",
+          "file": "Truth to the Rhythm - Sunset on the Boulevard - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Sunset on the Boulevard - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-02.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Sunset on the Boulevard - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Brooklyn Vows",
+          "file": "Truth to the Rhythm - Brooklyn Vows - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Brooklyn Vows - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-03.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Brooklyn Vows - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Blundstones on the Street",
+          "file": "Truth to the Rhythm - Blundstones on the Street - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Blundstones on the Street - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-04.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Blundstones on the Street - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Boulevard Sweetheart",
+          "file": "Truth to the Rhythm - Boulevard Sweetheart - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Boulevard Sweetheart - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-05.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Boulevard Sweetheart - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Henry and Brittney (Got It Done)",
+          "file": "Truth to the Rhythm - Henry and Brittney (Got It Done) - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Henry and Brittney (Got It Done) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-06.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Henry and Brittney (Got It Done) - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Two Names Together",
+          "file": "Truth to the Rhythm - Two Names Together - Sonauto.ogg",
+          "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Two Names Together - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-truthrhythm-07.html",
+          "audio": {
+            "source": "TRUTH TO THE RHYTHM/Truth to the Rhythm - Two Names Together - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
             "derivatives": {}
           }
         }

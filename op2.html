@@ -988,6 +988,22 @@
                     "Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg"
                   ]
             },
+            truthrhythm: {
+                key: 'truthrhythm',
+                label: 'TRUTH TO THE RHYTHM',
+                short: 'TRUTH',
+                basePath: 'TRUTH TO THE RHYTHM/',
+                logic: 'Truth Rhythm Relay',
+                files: [
+                    "Truth to the Rhythm - Winner on the Line - Sonauto.ogg",
+                    "Truth to the Rhythm - Sunset on the Boulevard - Sonauto.ogg",
+                    "Truth to the Rhythm - Brooklyn Vows - Sonauto.ogg",
+                    "Truth to the Rhythm - Blundstones on the Street - Sonauto.ogg",
+                    "Truth to the Rhythm - Boulevard Sweetheart - Sonauto.ogg",
+                    "Truth to the Rhythm - Henry and Brittney (Got It Done) - Sonauto.ogg",
+                    "Truth to the Rhythm - Two Names Together - Sonauto.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -1751,6 +1767,7 @@
                 .replace(/^better hands\s*-\s*/i, '')
                 .replace(/^no bright stand\s*-\s*/i, '')
                 .replace(/^museum floor thinking\s*-\s*/i, '')
+                .replace(/^truth to the rhythm\s*-\s*/i, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
@@ -1801,6 +1818,7 @@
             if (v === 'nobrightstand' || v === 'no-bright-stand' || v === 'no_bright_stand' || v === 'no bright stand' || v === 'nbs') return 'nobrightstand';
             if (v === 'dustrest' || v === 'where-can-dust-rest' || v === 'where_can_dust_rest' || v === 'where can dust rest' || v === 'wcdr') return 'dustrest';
             if (v === 'museumfloor' || v === 'museum-floor-thinking' || v === 'museum_floor_thinking' || v === 'museum floor thinking' || v === 'mft') return 'museumfloor';
+            if (v === 'truthrhythm' || v === 'truth-to-the-rhythm' || v === 'truth_to_the_rhythm' || v === 'truth to the rhythm' || v === 'ttr') return 'truthrhythm';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

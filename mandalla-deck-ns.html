@@ -267,6 +267,7 @@
         { key: 'nobrightstand', label: 'NBS' },
         { key: 'dustrest', label: 'DUST' },
         { key: 'museumfloor', label: 'MUSEUM' },
+        { key: 'truthrhythm', label: 'TRUTH' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -337,6 +338,8 @@
             ? 'dustrest'
           : raw === 'museumfloor' || raw === 'museum-floor-thinking' || raw === 'museum_floor_thinking' || raw === 'museum floor thinking' || raw === 'mft'
             ? 'museumfloor'
+          : raw === 'truthrhythm' || raw === 'truth-to-the-rhythm' || raw === 'truth_to_the_rhythm' || raw === 'truth to the rhythm' || raw === 'ttr'
+            ? 'truthrhythm'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

@@ -280,6 +280,7 @@
         { key: 'nobrightstand', label: 'NBS' },
         { key: 'dustrest', label: 'DUST' },
         { key: 'museumfloor', label: 'MUSEUM' },
+        { key: 'truthrhythm', label: 'TRUTH' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -354,6 +355,8 @@
             ? 'dustrest'
           : raw === 'museumfloor' || raw === 'museum-floor-thinking' || raw === 'museum_floor_thinking' || raw === 'museum floor thinking' || raw === 'mft'
             ? 'museumfloor'
+          : raw === 'truthrhythm' || raw === 'truth-to-the-rhythm' || raw === 'truth_to_the_rhythm' || raw === 'truth to the rhythm' || raw === 'ttr'
+            ? 'truthrhythm'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

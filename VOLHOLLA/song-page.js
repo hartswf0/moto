@@ -1509,6 +1509,38 @@
         "Museum Floor Thinking - Enough Is a Country - Sonauto (2).ogg"
       ]
     },
+    truthrhythm: {
+      key: "truthrhythm",
+      pageSlug: "truth-to-the-rhythm",
+      basePath: "../TRUTH TO THE RHYTHM/",
+      label: "TRUTH TO THE RHYTHM",
+      subtitle: "Boulevard vows / wedding-line voltage / sunset street rhythm",
+      accentA: "#d1844a",
+      accentB: "#6fa7b6",
+      coverImage: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+      defaultTrackArt: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+      trackArtByIndex: {
+        0: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+        1: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+        2: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+        3: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+        4: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png",
+        5: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_44 PM.png",
+        6: "../TRUTH TO THE RHYTHM/ChatGPT Image May 27, 2026, 04_30_56 PM.png"
+      },
+      hallKey: "truthrhythm",
+      op2Key: "truthrhythm",
+      op2Pair: "museumfloor",
+      files: [
+        "Truth to the Rhythm - Winner on the Line - Sonauto.ogg",
+        "Truth to the Rhythm - Sunset on the Boulevard - Sonauto.ogg",
+        "Truth to the Rhythm - Brooklyn Vows - Sonauto.ogg",
+        "Truth to the Rhythm - Blundstones on the Street - Sonauto.ogg",
+        "Truth to the Rhythm - Boulevard Sweetheart - Sonauto.ogg",
+        "Truth to the Rhythm - Henry and Brittney (Got It Done) - Sonauto.ogg",
+        "Truth to the Rhythm - Two Names Together - Sonauto.ogg"
+      ]
+    },
     sunfadedghosts: {
       key: "sunfadedghosts",
       pageSlug: "sun-faded-ghosts",
@@ -1644,6 +1676,7 @@
     .replace(/^better hands\s*-\s*/i, "")
     .replace(/^no bright stand\s*-\s*/i, "")
     .replace(/^museum floor thinking\s*-\s*/i, "")
+    .replace(/^truth to the rhythm\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -1748,6 +1781,9 @@
     }
     if (raw === "museumfloor" || raw === "museum-floor-thinking" || raw === "museum_floor_thinking" || raw === "museum floor thinking" || raw === "mft") {
       return "museumfloor";
+    }
+    if (raw === "truthrhythm" || raw === "truth-to-the-rhythm" || raw === "truth_to_the_rhythm" || raw === "truth to the rhythm" || raw === "ttr") {
+      return "truthrhythm";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";

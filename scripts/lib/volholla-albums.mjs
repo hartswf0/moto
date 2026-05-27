@@ -36,6 +36,7 @@ export function titleFromFilename(file) {
     .replace(/^better hands\s*-\s*/i, "")
     .replace(/^no bright stand\s*-\s*/i, "")
     .replace(/^museum floor thinking\s*-\s*/i, "")
+    .replace(/^truth to the rhythm\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
