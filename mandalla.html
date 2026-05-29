@@ -1509,6 +1509,34 @@
                     "Truth to the Rhythm - Two Names Together - Sonauto.ogg"
                   ]
             },
+            unpatchedglitch: {
+                key: 'unpatchedglitch',
+                label: 'UNPATCHED GLITCH UNPAID GLITCH',
+                shortLabel: 'GLITCH',
+                libraryParam: 'unpatchedglitch',
+                op2Pair: 'truthrhythm',
+                basePath: 'UNPATCHED GLITCH/',
+                files: [
+                    "Unpatched Glitch - Tuition for a Chatbot - Sonauto.ogg",
+                    "Unpatched Glitch - The Tollbooth (Bow & Arrow) - Sonauto.ogg",
+                    "Unpatched Glitch - The Tollbooth (Horseback Wi-Fi) - Sonauto.ogg",
+                    "Unpatched Glitch - The Crown in the Dirt - Sonauto.ogg",
+                    "Unpatched Glitch - Crown of the Process - Sonauto.ogg",
+                    "Unpatched Glitch - Regal Slop - Sonauto.ogg",
+                    "Unpatched Glitch - Crown in the Mud - Sonauto.ogg",
+                    "Unpatched Glitch - Debt Spa Royal - Sonauto.ogg",
+                    "Unpatched Glitch - Corporate Lease - Sonauto.ogg",
+                    "Unpatched Glitch - The Top Floor Ledger - Sonauto.ogg",
+                    "Unpatched Glitch - Mirror Mirror (Regal Mud) - Sonauto.ogg",
+                    "Unpatched Glitch - Regal Mud Rap - Sonauto.ogg",
+                    "Unpatched Glitch - The Tollbooth, Vol. 3 - Sonauto.ogg",
+                    "Unpatched Glitch - Luxury of the Grind - Sonauto.ogg",
+                    "Unpatched Glitch - Velvet Gate Panic - Sonauto.ogg",
+                    "Unpatched Glitch - Regal Mud Rap - Sonauto (1).ogg",
+                    "Unpatched Glitch - King Don’t Beg the Gate - Sonauto.ogg",
+                    "Unpatched Glitch - Horseback Wi-Fi - Sonauto.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2300,6 +2328,7 @@
                 .replace(/^no bright stand\s*-\s*/i, '')
                 .replace(/^museum floor thinking\s*-\s*/i, '')
                 .replace(/^truth to the rhythm\s*-\s*/i, '')
+                .replace(/^unpatched glitch\s*-\s*/i, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
@@ -2338,6 +2367,7 @@
             if (v === 'dustrest' || v === 'where-can-dust-rest' || v === 'where_can_dust_rest' || v === 'where can dust rest' || v === 'wcdr') return 'dustrest';
             if (v === 'museumfloor' || v === 'museum-floor-thinking' || v === 'museum_floor_thinking' || v === 'museum floor thinking' || v === 'mft') return 'museumfloor';
             if (v === 'truthrhythm' || v === 'truth-to-the-rhythm' || v === 'truth_to_the_rhythm' || v === 'truth to the rhythm' || v === 'ttr') return 'truthrhythm';
+            if (v === 'unpatchedglitch' || v === 'unpatched-glitch' || v === 'unpatched_glitch' || v === 'unpatched glitch' || v === 'unpaidglitch' || v === 'unpatched-glitch-unpaid-glitch' || v === 'unpatched_glitch_unpaid_glitch' || v === 'unpatched glitch unpaid glitch' || v === 'ugg') return 'unpatchedglitch';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

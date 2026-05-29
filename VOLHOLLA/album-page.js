@@ -1744,6 +1744,65 @@
         ["OP2 Pair", "Launch with MUSEUM FLOOR THINKING for a vow-and-hall companion deck."]
       ]
     },
+    unpatchedglitch: {
+      key: "unpatchedglitch",
+      pageSlug: "unpatched-glitch-unpaid-glitch",
+      basePath: "../UNPATCHED GLITCH/",
+      label: "UNPATCHED GLITCH UNPAID GLITCH",
+      subtitle: "Royal mud ledgers / tollbooth panic / unpatched debt-glitch relay",
+      accentA: "#9f6bce",
+      accentB: "#d6b85d",
+      coverImage: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_10 PM.png",
+      defaultTrackArt: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_35 PM.png",
+      trackArtByIndex: {
+        0: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_10 PM.png",
+        1: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_35 PM.png",
+        2: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_30_06 PM.png",
+        3: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_31_00 PM.png",
+        4: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_47_59 PM.png",
+        5: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_48_25 PM.png",
+        6: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_10 PM.png",
+        7: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_35 PM.png",
+        8: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_30_06 PM.png",
+        9: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_31_00 PM.png",
+        10: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_47_59 PM.png",
+        11: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_48_25 PM.png",
+        12: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_10 PM.png",
+        13: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_29_35 PM.png",
+        14: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_30_06 PM.png",
+        15: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_31_00 PM.png",
+        16: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_47_59 PM.png",
+        17: "../UNPATCHED GLITCH/ChatGPT Image May 29, 2026, 05_48_25 PM.png"
+      },
+      hallKey: "unpatchedglitch",
+      op2Key: "unpatchedglitch",
+      op2Pair: "truthrhythm",
+      files: [
+        "Unpatched Glitch - Tuition for a Chatbot - Sonauto.ogg",
+        "Unpatched Glitch - The Tollbooth (Bow & Arrow) - Sonauto.ogg",
+        "Unpatched Glitch - The Tollbooth (Horseback Wi-Fi) - Sonauto.ogg",
+        "Unpatched Glitch - The Crown in the Dirt - Sonauto.ogg",
+        "Unpatched Glitch - Crown of the Process - Sonauto.ogg",
+        "Unpatched Glitch - Regal Slop - Sonauto.ogg",
+        "Unpatched Glitch - Crown in the Mud - Sonauto.ogg",
+        "Unpatched Glitch - Debt Spa Royal - Sonauto.ogg",
+        "Unpatched Glitch - Corporate Lease - Sonauto.ogg",
+        "Unpatched Glitch - The Top Floor Ledger - Sonauto.ogg",
+        "Unpatched Glitch - Mirror Mirror (Regal Mud) - Sonauto.ogg",
+        "Unpatched Glitch - Regal Mud Rap - Sonauto.ogg",
+        "Unpatched Glitch - The Tollbooth, Vol. 3 - Sonauto.ogg",
+        "Unpatched Glitch - Luxury of the Grind - Sonauto.ogg",
+        "Unpatched Glitch - Velvet Gate Panic - Sonauto.ogg",
+        "Unpatched Glitch - Regal Mud Rap - Sonauto (1).ogg",
+        "Unpatched Glitch - King Don’t Beg the Gate - Sonauto.ogg",
+        "Unpatched Glitch - Horseback Wi-Fi - Sonauto.ogg"
+      ],
+      notes: [
+        ["Mode", "Royal mud ledgers / tollbooth panic / unpatched debt-glitch relay"],
+        ["Use", "Standalone album page, hall route, and direct song-page links for every cut."],
+        ["OP2 Pair", "Launch with TRUTH TO THE RHYTHM for a glitch-and-vow companion deck."]
+      ]
+    },
     sunfadedghosts: {
       key: "sunfadedghosts",
       pageSlug: "sun-faded-ghosts",
@@ -1905,6 +1964,7 @@
     .replace(/^no bright stand\s*-\s*/i, "")
     .replace(/^museum floor thinking\s*-\s*/i, "")
     .replace(/^truth to the rhythm\s*-\s*/i, "")
+    .replace(/^unpatched glitch\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2064,6 +2124,7 @@
     if (raw === "dustrest" || raw === "where-can-dust-rest" || raw === "where_can_dust_rest" || raw === "where can dust rest" || raw === "wcdr") return "dustrest";
     if (raw === "museumfloor" || raw === "museum-floor-thinking" || raw === "museum_floor_thinking" || raw === "museum floor thinking" || raw === "mft") return "museumfloor";
     if (raw === "truthrhythm" || raw === "truth-to-the-rhythm" || raw === "truth_to_the_rhythm" || raw === "truth to the rhythm" || raw === "ttr") return "truthrhythm";
+    if (raw === "unpatchedglitch" || raw === "unpatched-glitch" || raw === "unpatched_glitch" || raw === "unpatched glitch" || raw === "unpaidglitch" || raw === "unpatched-glitch-unpaid-glitch" || raw === "unpatched_glitch_unpaid_glitch" || raw === "unpatched glitch unpaid glitch" || raw === "ugg") return "unpatchedglitch";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

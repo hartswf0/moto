@@ -281,6 +281,7 @@
         { key: 'dustrest', label: 'DUST' },
         { key: 'museumfloor', label: 'MUSEUM' },
         { key: 'truthrhythm', label: 'TRUTH' },
+        { key: 'unpatchedglitch', label: 'GLITCH' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -357,6 +358,8 @@
             ? 'museumfloor'
           : raw === 'truthrhythm' || raw === 'truth-to-the-rhythm' || raw === 'truth_to_the_rhythm' || raw === 'truth to the rhythm' || raw === 'ttr'
             ? 'truthrhythm'
+          : raw === 'unpatchedglitch' || raw === 'unpatched-glitch' || raw === 'unpatched_glitch' || raw === 'unpatched glitch' || raw === 'unpaidglitch' || raw === 'unpatched-glitch-unpaid-glitch' || raw === 'unpatched_glitch_unpaid_glitch' || raw === 'unpatched glitch unpaid glitch' || raw === 'ugg'
+            ? 'unpatchedglitch'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'
