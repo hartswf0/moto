@@ -1537,6 +1537,48 @@
                     "Unpatched Glitch - Horseback Wi-Fi - Sonauto.ogg"
                   ]
             },
+            abyssalcrown: {
+                key: 'abyssalcrown',
+                label: 'THE ABYSSAL CROWN',
+                shortLabel: 'ABYSS',
+                libraryParam: 'abyssalcrown',
+                op2Pair: 'unpatchedglitch',
+                basePath: 'The Abyssal Crown/',
+                files: [
+                    "The Abyssal Crown - First Fires Awakening - Sonauto.ogg",
+                    "The Abyssal Crown - Microtonal Mutation Protocol - Sonauto.ogg",
+                    "The Abyssal Crown - Conversational Neurotic Trap - Sonauto.ogg",
+                    "The Abyssal Crown - Acoustic Brutalism - Sonauto.ogg",
+                    "The Abyssal Crown - Outward Facing Sensors - Sonauto.ogg",
+                    "The Abyssal Crown - Paul's Vision - Sonauto.ogg",
+                    "The Abyssal Crown - The Manor Ritual - Sonauto.ogg",
+                    "The Abyssal Crown - Oceanic Mechanical Violence - Sonauto.ogg",
+                    "The Abyssal Crown - Plaintiff Mode - Sonauto.ogg",
+                    "The Abyssal Crown - Sweeping Intimate Grit - Sonauto (2).ogg",
+                    "The Abyssal Crown - Camera Roll Grief - Sonauto.ogg",
+                    "The Abyssal Crown - Orchestral Cybernetic Pulse - Sonauto.ogg",
+                    "The Abyssal Crown - Language of the Wound - Sonauto.ogg",
+                    "The Abyssal Crown - The Sonoran Silence - Sonauto.ogg",
+                    "The Abyssal Crown - Saturated Physical Drone - Sonauto.ogg",
+                    "The Abyssal Crown - Symphonic Bloodshed - Sonauto.ogg",
+                    "The Abyssal Crown - The North Borders Breath - Sonauto.ogg",
+                    "The Abyssal Crown - Post-Impact Clarity - Sonauto.ogg",
+                    "The Abyssal Crown - First Fires Rising - Sonauto.ogg",
+                    "The Abyssal Crown - First Fires of Autumn - Sonauto.ogg",
+                    "The Abyssal Crown - Path of the Concrete Impeccable - Sonauto.ogg",
+                    "The Abyssal Crown - Sweeping Intimate Grit - Sonauto (1).ogg",
+                    "The Abyssal Crown - Concrete Intimate Grit - Sonauto.ogg",
+                    "The Abyssal Crown - Sweeping Intimate Grit - Sonauto.ogg",
+                    "The Abyssal Crown - Deep Water Pressure - Sonauto.ogg",
+                    "The Abyssal Crown - The Seamless Bridge - Sonauto.ogg",
+                    "The Abyssal Crown - Terminal Velocity Collision - Sonauto.ogg",
+                    "The Abyssal Crown - PhD in Flinching - Sonauto.ogg",
+                    "The Abyssal Crown - Ring Light On A Bruise - Sonauto.ogg",
+                    "The Abyssal Crown - Sonoran Sub-Bass Ritual - Sonauto.ogg",
+                    "The Abyssal Crown - Weathered 4K - Sonauto.ogg",
+                    "The Abyssal Crown - Pristine Organic Grit - Sonauto.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2329,6 +2371,7 @@
                 .replace(/^museum floor thinking\s*-\s*/i, '')
                 .replace(/^truth to the rhythm\s*-\s*/i, '')
                 .replace(/^unpatched glitch\s*-\s*/i, '')
+                .replace(/^the abyssal crown\s*-\s*/i, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
@@ -2368,6 +2411,7 @@
             if (v === 'museumfloor' || v === 'museum-floor-thinking' || v === 'museum_floor_thinking' || v === 'museum floor thinking' || v === 'mft') return 'museumfloor';
             if (v === 'truthrhythm' || v === 'truth-to-the-rhythm' || v === 'truth_to_the_rhythm' || v === 'truth to the rhythm' || v === 'ttr') return 'truthrhythm';
             if (v === 'unpatchedglitch' || v === 'unpatched-glitch' || v === 'unpatched_glitch' || v === 'unpatched glitch' || v === 'unpaidglitch' || v === 'unpatched-glitch-unpaid-glitch' || v === 'unpatched_glitch_unpaid_glitch' || v === 'unpatched glitch unpaid glitch' || v === 'ugg') return 'unpatchedglitch';
+            if (v === 'abyssalcrown' || v === 'abyssal' || v === 'crown' || v === 'the-abyssal-crown' || v === 'the_abyssal_crown' || v === 'the abyssal crown' || v === 'tac') return 'abyssalcrown';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

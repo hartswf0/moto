@@ -269,6 +269,7 @@
         { key: 'museumfloor', label: 'MUSEUM' },
         { key: 'truthrhythm', label: 'TRUTH' },
         { key: 'unpatchedglitch', label: 'GLITCH' },
+        { key: 'abyssalcrown', label: 'ABYSS' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -343,6 +344,8 @@
             ? 'truthrhythm'
           : raw === 'unpatchedglitch' || raw === 'unpatched-glitch' || raw === 'unpatched_glitch' || raw === 'unpatched glitch' || raw === 'unpaidglitch' || raw === 'unpatched-glitch-unpaid-glitch' || raw === 'unpatched_glitch_unpaid_glitch' || raw === 'unpatched glitch unpaid glitch' || raw === 'ugg'
             ? 'unpatchedglitch'
+          : raw === 'abyssalcrown' || raw === 'abyssal' || raw === 'crown' || raw === 'the-abyssal-crown' || raw === 'the_abyssal_crown' || raw === 'the abyssal crown' || raw === 'tac'
+            ? 'abyssalcrown'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

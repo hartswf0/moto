@@ -1595,6 +1595,88 @@
         "Unpatched Glitch - Horseback Wi-Fi - Sonauto.ogg"
       ]
     },
+    abyssalcrown: {
+      key: "abyssalcrown",
+      pageSlug: "the-abyssal-crown",
+      basePath: "../The Abyssal Crown/",
+      label: "THE ABYSSAL CROWN",
+      subtitle: "Abyssal pressure / cybernetic wounds / Sonoran concrete ritual",
+      accentA: "#4b83b6",
+      accentB: "#c65f4f",
+      coverImage: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+      defaultTrackArt: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+      trackArtByIndex: {
+        0: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        1: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        2: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        3: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        4: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        5: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        6: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        7: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        8: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        9: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        10: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        11: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        12: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        13: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        14: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        15: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        16: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        17: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        18: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        19: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        20: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        21: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        22: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        23: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        24: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        25: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        26: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        27: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        28: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png",
+        29: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_19 PM.png",
+        30: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_35_35 PM.png",
+        31: "../The Abyssal Crown/ChatGPT Image Jun 2, 2026, 04_36_01 PM.png"
+      },
+      hallKey: "abyssalcrown",
+      op2Key: "abyssalcrown",
+      op2Pair: "unpatchedglitch",
+      files: [
+        "The Abyssal Crown - First Fires Awakening - Sonauto.ogg",
+        "The Abyssal Crown - Microtonal Mutation Protocol - Sonauto.ogg",
+        "The Abyssal Crown - Conversational Neurotic Trap - Sonauto.ogg",
+        "The Abyssal Crown - Acoustic Brutalism - Sonauto.ogg",
+        "The Abyssal Crown - Outward Facing Sensors - Sonauto.ogg",
+        "The Abyssal Crown - Paul's Vision - Sonauto.ogg",
+        "The Abyssal Crown - The Manor Ritual - Sonauto.ogg",
+        "The Abyssal Crown - Oceanic Mechanical Violence - Sonauto.ogg",
+        "The Abyssal Crown - Plaintiff Mode - Sonauto.ogg",
+        "The Abyssal Crown - Sweeping Intimate Grit - Sonauto (2).ogg",
+        "The Abyssal Crown - Camera Roll Grief - Sonauto.ogg",
+        "The Abyssal Crown - Orchestral Cybernetic Pulse - Sonauto.ogg",
+        "The Abyssal Crown - Language of the Wound - Sonauto.ogg",
+        "The Abyssal Crown - The Sonoran Silence - Sonauto.ogg",
+        "The Abyssal Crown - Saturated Physical Drone - Sonauto.ogg",
+        "The Abyssal Crown - Symphonic Bloodshed - Sonauto.ogg",
+        "The Abyssal Crown - The North Borders Breath - Sonauto.ogg",
+        "The Abyssal Crown - Post-Impact Clarity - Sonauto.ogg",
+        "The Abyssal Crown - First Fires Rising - Sonauto.ogg",
+        "The Abyssal Crown - First Fires of Autumn - Sonauto.ogg",
+        "The Abyssal Crown - Path of the Concrete Impeccable - Sonauto.ogg",
+        "The Abyssal Crown - Sweeping Intimate Grit - Sonauto (1).ogg",
+        "The Abyssal Crown - Concrete Intimate Grit - Sonauto.ogg",
+        "The Abyssal Crown - Sweeping Intimate Grit - Sonauto.ogg",
+        "The Abyssal Crown - Deep Water Pressure - Sonauto.ogg",
+        "The Abyssal Crown - The Seamless Bridge - Sonauto.ogg",
+        "The Abyssal Crown - Terminal Velocity Collision - Sonauto.ogg",
+        "The Abyssal Crown - PhD in Flinching - Sonauto.ogg",
+        "The Abyssal Crown - Ring Light On A Bruise - Sonauto.ogg",
+        "The Abyssal Crown - Sonoran Sub-Bass Ritual - Sonauto.ogg",
+        "The Abyssal Crown - Weathered 4K - Sonauto.ogg",
+        "The Abyssal Crown - Pristine Organic Grit - Sonauto.ogg"
+      ]
+    },
     sunfadedghosts: {
       key: "sunfadedghosts",
       pageSlug: "sun-faded-ghosts",
@@ -1732,6 +1814,7 @@
     .replace(/^museum floor thinking\s*-\s*/i, "")
     .replace(/^truth to the rhythm\s*-\s*/i, "")
     .replace(/^unpatched glitch\s*-\s*/i, "")
+    .replace(/^the abyssal crown\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -1842,6 +1925,9 @@
     }
     if (raw === "unpatchedglitch" || raw === "unpatched-glitch" || raw === "unpatched_glitch" || raw === "unpatched glitch" || raw === "unpaidglitch" || raw === "unpatched-glitch-unpaid-glitch" || raw === "unpatched_glitch_unpaid_glitch" || raw === "unpatched glitch unpaid glitch" || raw === "ugg") {
       return "unpatchedglitch";
+    }
+    if (raw === "abyssalcrown" || raw === "abyssal" || raw === "crown" || raw === "the-abyssal-crown" || raw === "the_abyssal_crown" || raw === "the abyssal crown" || raw === "tac") {
+      return "abyssalcrown";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";
