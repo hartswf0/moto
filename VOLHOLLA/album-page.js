@@ -2054,6 +2054,7 @@
     .replace(/^unpatched glitch\s*-\s*/i, "")
     .replace(/^the abyssal crown\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
+    .replace(/^doppler phantom\s*-\s*/i, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
