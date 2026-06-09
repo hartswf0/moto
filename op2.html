@@ -1150,6 +1150,36 @@
                     "The Weed-Choked Field - The Whispering Strings - Sonauto.ogg"
                   ]
             },
+            doppler: {
+                key: 'doppler',
+                label: 'DOPPLER PHANTOM',
+                short: 'DOPPL',
+                basePath: 'DOPPLER PHANTOM/',
+                logic: 'Doppler Phantom Relay',
+                files: [
+                    "Doppler Phantom - Ancestral Guerilla Meditation - Sonauto.ogg",
+                    "Doppler Phantom - Aura Render_ Tunnel Exit - Sonauto.ogg",
+                    "Doppler Phantom - Concrete Doppler Intersection - Sonauto.ogg",
+                    "Doppler Phantom - Concrete Doppler Reflection - Sonauto.ogg",
+                    "Doppler Phantom - Cosmic Static Flyby - Sonauto.ogg",
+                    "Doppler Phantom - Doppler Phase Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Genomic Retrofiture - Sonauto.ogg",
+                    "Doppler Phantom - Grief at Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Porch to Orbit - Sonauto.ogg",
+                    "Doppler Phantom - Russell Render Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Sphinx Temple Echo - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Disco Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Slums Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Spoke Dub - Sonauto.ogg",
+                    "Doppler Phantom - The Nancarrow-Ayler Haiku - Sonauto.ogg",
+                    "Doppler Phantom - The Octo-Vector Archival Intersection - Sonauto.ogg",
+                    "Doppler Phantom - The Pérotin-Astatke Sphinx - Sonauto.ogg",
+                    "Doppler Phantom - The Tunnel Intersection - Sonauto.ogg",
+                    "Doppler Phantom - Tunnel Flyby Blues - Sonauto.ogg",
+                    "Doppler Phantom - Velocity Diary - Sonauto.ogg",
+                    "Doppler Phantom - Velocity Lap - Sonauto.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1842,6 +1872,7 @@
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
                 .replace(/^the weed-choked field\s*-\s*/i, '')
+                .replace(/^doppler phantom\s*-\s*/i, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -1894,6 +1925,7 @@
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
+            if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

@@ -1579,6 +1579,37 @@
                     "The Abyssal Crown - Pristine Organic Grit - Sonauto.ogg"
                   ]
             },
+            doppler: {
+                key: 'doppler',
+                label: 'DOPPLER PHANTOM',
+                shortLabel: 'DOPPL',
+                libraryParam: 'doppler',
+                op2Pair: 'abyssalcrown',
+                basePath: 'DOPPLER PHANTOM/',
+                files: [
+                    "Doppler Phantom - Ancestral Guerilla Meditation - Sonauto.ogg",
+                    "Doppler Phantom - Aura Render_ Tunnel Exit - Sonauto.ogg",
+                    "Doppler Phantom - Concrete Doppler Intersection - Sonauto.ogg",
+                    "Doppler Phantom - Concrete Doppler Reflection - Sonauto.ogg",
+                    "Doppler Phantom - Cosmic Static Flyby - Sonauto.ogg",
+                    "Doppler Phantom - Doppler Phase Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Genomic Retrofiture - Sonauto.ogg",
+                    "Doppler Phantom - Grief at Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Porch to Orbit - Sonauto.ogg",
+                    "Doppler Phantom - Russell Render Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Sphinx Temple Echo - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Disco Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Slums Velocity - Sonauto.ogg",
+                    "Doppler Phantom - Subterranean Spoke Dub - Sonauto.ogg",
+                    "Doppler Phantom - The Nancarrow-Ayler Haiku - Sonauto.ogg",
+                    "Doppler Phantom - The Octo-Vector Archival Intersection - Sonauto.ogg",
+                    "Doppler Phantom - The Pérotin-Astatke Sphinx - Sonauto.ogg",
+                    "Doppler Phantom - The Tunnel Intersection - Sonauto.ogg",
+                    "Doppler Phantom - Tunnel Flyby Blues - Sonauto.ogg",
+                    "Doppler Phantom - Velocity Diary - Sonauto.ogg",
+                    "Doppler Phantom - Velocity Lap - Sonauto.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2372,6 +2403,7 @@
                 .replace(/^truth to the rhythm\s*-\s*/i, '')
                 .replace(/^unpatched glitch\s*-\s*/i, '')
                 .replace(/^the abyssal crown\s*-\s*/i, '')
+                .replace(/^doppler phantom\s*-\s*/i, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
                 .replace(/^weed-choked field\s*-\s*/i, '')
@@ -2412,6 +2444,7 @@
             if (v === 'truthrhythm' || v === 'truth-to-the-rhythm' || v === 'truth_to_the_rhythm' || v === 'truth to the rhythm' || v === 'ttr') return 'truthrhythm';
             if (v === 'unpatchedglitch' || v === 'unpatched-glitch' || v === 'unpatched_glitch' || v === 'unpatched glitch' || v === 'unpaidglitch' || v === 'unpatched-glitch-unpaid-glitch' || v === 'unpatched_glitch_unpaid_glitch' || v === 'unpatched glitch unpaid glitch' || v === 'ugg') return 'unpatchedglitch';
             if (v === 'abyssalcrown' || v === 'abyssal' || v === 'crown' || v === 'the-abyssal-crown' || v === 'the_abyssal_crown' || v === 'the abyssal crown' || v === 'tac') return 'abyssalcrown';
+            if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

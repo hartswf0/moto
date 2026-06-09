@@ -1750,6 +1750,66 @@
         "The Weed-Choked Field - Whir of the Ancestor - Sonauto.ogg"
       ]
     },
+    doppler: {
+      key: "doppler",
+      pageSlug: "doppler-phantom",
+      basePath: "../DOPPLER PHANTOM/",
+      label: "DOPPLER PHANTOM",
+      subtitle: "Velocity ghosts / tunnel waveforms / spectrum-shift ritual",
+      accentA: "#11a8ff",
+      accentB: "#ff6b24",
+      coverImage: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_21_59 PM.png",
+      defaultTrackArt: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_39 PM.png",
+      trackArtByIndex: {
+        0: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_39 PM.png",
+        1: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_15 PM.png",
+        2: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_32 PM.png",
+        3: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_56 PM.png",
+        4: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_23_05 PM.png",
+        5: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_21_59 PM.png",
+        6: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_39 PM.png",
+        7: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_15 PM.png",
+        8: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_32 PM.png",
+        9: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_56 PM.png",
+        10: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_23_05 PM.png",
+        11: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_21_59 PM.png",
+        12: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_39 PM.png",
+        13: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_15 PM.png",
+        14: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_32 PM.png",
+        15: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_56 PM.png",
+        16: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_23_05 PM.png",
+        17: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_21_59 PM.png",
+        18: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_39 PM.png",
+        19: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_15 PM.png",
+        20: "../DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_32 PM.png"
+      },
+      hallKey: "doppler",
+      op2Key: "doppler",
+      op2Pair: "abyssalcrown",
+      files: [
+        "Doppler Phantom - Ancestral Guerilla Meditation - Sonauto.ogg",
+        "Doppler Phantom - Aura Render_ Tunnel Exit - Sonauto.ogg",
+        "Doppler Phantom - Concrete Doppler Intersection - Sonauto.ogg",
+        "Doppler Phantom - Concrete Doppler Reflection - Sonauto.ogg",
+        "Doppler Phantom - Cosmic Static Flyby - Sonauto.ogg",
+        "Doppler Phantom - Doppler Phase Velocity - Sonauto.ogg",
+        "Doppler Phantom - Genomic Retrofiture - Sonauto.ogg",
+        "Doppler Phantom - Grief at Velocity - Sonauto.ogg",
+        "Doppler Phantom - Porch to Orbit - Sonauto.ogg",
+        "Doppler Phantom - Russell Render Velocity - Sonauto.ogg",
+        "Doppler Phantom - Sphinx Temple Echo - Sonauto.ogg",
+        "Doppler Phantom - Subterranean Disco Velocity - Sonauto.ogg",
+        "Doppler Phantom - Subterranean Slums Velocity - Sonauto.ogg",
+        "Doppler Phantom - Subterranean Spoke Dub - Sonauto.ogg",
+        "Doppler Phantom - The Nancarrow-Ayler Haiku - Sonauto.ogg",
+        "Doppler Phantom - The Octo-Vector Archival Intersection - Sonauto.ogg",
+        "Doppler Phantom - The Pérotin-Astatke Sphinx - Sonauto.ogg",
+        "Doppler Phantom - The Tunnel Intersection - Sonauto.ogg",
+        "Doppler Phantom - Tunnel Flyby Blues - Sonauto.ogg",
+        "Doppler Phantom - Velocity Diary - Sonauto.ogg",
+        "Doppler Phantom - Velocity Lap - Sonauto.ogg"
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -1929,6 +1989,9 @@
     }
     if (raw === "abyssalcrown" || raw === "abyssal" || raw === "crown" || raw === "the-abyssal-crown" || raw === "the_abyssal_crown" || raw === "the abyssal crown" || raw === "tac") {
       return "abyssalcrown";
+    }
+    if (raw === "doppler" || raw === "doppler-phantom" || raw === "doppler_phantom" || raw === "doppler phantom" || raw === "dp") {
+      return "doppler";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";

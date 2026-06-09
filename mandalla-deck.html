@@ -540,6 +540,7 @@
     { key:'truthrhythm', label:'Truth To The Rhythm' },
     { key:'unpatchedglitch', label:'Unpatched Glitch' },
     { key:'abyssalcrown', label:'The Abyssal Crown' },
+    { key:'doppler', label:'Doppler Phantom' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -578,6 +579,7 @@
     { id:'tr-mf', label:'Truth Rhythm × Museum Floor', a:'truthrhythm', b:'museumfloor' },
     { id:'ug-tr', label:'Unpatched Glitch × Truth Rhythm', a:'unpatchedglitch', b:'truthrhythm' },
     { id:'ac-ug', label:'Abyssal Crown × Unpatched Glitch', a:'abyssalcrown', b:'unpatchedglitch' },
+    { id:'dp-ac', label:'Doppler Phantom × Abyssal Crown', a:'doppler', b:'abyssalcrown' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -617,6 +619,7 @@
     if (v === 'truthrhythm' || v === 'truth-to-the-rhythm' || v === 'truth_to_the_rhythm' || v === 'truth to the rhythm' || v === 'ttr') return 'truthrhythm';
     if (v === 'unpatchedglitch' || v === 'unpatched-glitch' || v === 'unpatched_glitch' || v === 'unpatched glitch' || v === 'unpaidglitch' || v === 'unpatched-glitch-unpaid-glitch' || v === 'unpatched_glitch_unpaid_glitch' || v === 'unpatched glitch unpaid glitch' || v === 'ugg') return 'unpatchedglitch';
     if (v === 'abyssalcrown' || v === 'abyssal' || v === 'crown' || v === 'the-abyssal-crown' || v === 'the_abyssal_crown' || v === 'the abyssal crown' || v === 'tac') return 'abyssalcrown';
+    if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
     if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

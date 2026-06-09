@@ -38,6 +38,7 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `maquina`
 - `blackwater`
 - `heishui`
+- `doppler`
 
 ### Single Mandalla
 
