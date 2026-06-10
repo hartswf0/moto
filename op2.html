@@ -1180,6 +1180,30 @@
                     "Doppler Phantom - Velocity Lap - Sonauto.ogg"
                 ]
             },
+            aeolian: {
+                key: 'aeolian',
+                label: 'AEOLIAN DRIFT',
+                short: 'AEOLIAN',
+                basePath: 'AEOLIAN DRIFT/',
+                logic: 'Aeolian Drift Relay',
+                files: [
+                    "Aeolian Drift - 01_Out of Life - Sonauto.ogg",
+                    "Aeolian Drift - 02_Flashing Lights (Roadside Omen) - Sonauto.ogg",
+                    "Aeolian Drift - 03_How to Break Off an Engagement - Sonauto.ogg",
+                    "Aeolian Drift - 04_Steel Drum Solitude - Treblo.ogg",
+                    "Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg",
+                    "Aeolian Drift - 06_Resurrecting Atlantis house - Treblo.ogg",
+                    "Aeolian Drift - 07_DJ Turn Me Up - Treblo.ogg",
+                    "Aeolian Drift - 08_Newly Single (Strobe Purgatory) - Treblo.ogg",
+                    "Aeolian Drift - 09_Dial Tone Echoes - Treblo.ogg",
+                    "Aeolian Drift - 10_Magic Ride - Treblo.ogg",
+                    "Aeolian Drift - 11_New Day - Treblo.ogg",
+                    "Aeolian Drift - 12_Reunion - Treblo.ogg",
+                    "Aeolian Drift - 13_How to Win My Heart (Dial-Tone) - Treblo.ogg",
+                    "Aeolian Drift - 14_Pine Belt Transition - Treblo.ogg",
+                    "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1873,6 +1897,8 @@
                 .replace(/^weed-choked field\s*-\s*/i, '')
                 .replace(/^the weed-choked field\s*-\s*/i, '')
                 .replace(/^doppler phantom\s*-\s*/i, '')
+                .replace(/^aeolian drift\s*-\s*/i, '')
+                .replace(/^\d+[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -1886,6 +1912,7 @@
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
                 .replace(/\s*-\s*Sonauto$/i, '')
+                .replace(/\s*-\s*Treblo$/i, '')
                 .replace(/_/g, ' ')
                 .trim()
                 .normalize('NFC');
@@ -1926,6 +1953,7 @@
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
+            if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

@@ -271,6 +271,7 @@
         { key: 'unpatchedglitch', label: 'GLITCH' },
         { key: 'abyssalcrown', label: 'ABYSS' },
         { key: 'doppler', label: 'DOPPL' },
+        { key: 'aeolian', label: 'AEOL' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -349,6 +350,8 @@
             ? 'abyssalcrown'
           : raw === 'doppler' || raw === 'doppler-phantom' || raw === 'doppler_phantom' || raw === 'doppler phantom' || raw === 'dp'
             ? 'doppler'
+          : raw === 'aeolian' || raw === 'aeolian-drift' || raw === 'aeolian_drift' || raw === 'aeolian drift' || raw === 'ad'
+            ? 'aeolian'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

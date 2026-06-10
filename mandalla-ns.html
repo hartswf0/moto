@@ -284,6 +284,7 @@
         { key: 'unpatchedglitch', label: 'GLITCH' },
         { key: 'abyssalcrown', label: 'ABYSS' },
         { key: 'doppler', label: 'DOPPL' },
+        { key: 'aeolian', label: 'AEOL' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -366,6 +367,8 @@
             ? 'abyssalcrown'
           : raw === 'doppler' || raw === 'doppler-phantom' || raw === 'doppler_phantom' || raw === 'doppler phantom' || raw === 'dp'
             ? 'doppler'
+          : raw === 'aeolian' || raw === 'aeolian-drift' || raw === 'aeolian_drift' || raw === 'aeolian drift' || raw === 'ad'
+            ? 'aeolian'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

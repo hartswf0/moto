@@ -41,10 +41,13 @@ export function titleFromFilename(file) {
     .replace(/^the abyssal crown\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
     .replace(/^doppler phantom\s*-\s*/i, "")
+    .replace(/^aeolian drift\s*-\s*/i, "")
+    .replace(/^\d+[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
     .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
     .replace(/\s*-\s*Sonauto$/i, "")
+    .replace(/\s*-\s*Treblo$/i, "")
     .replace(/_/g, " ")
     .trim()
     .normalize("NFC");

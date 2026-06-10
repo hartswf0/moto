@@ -226,6 +226,7 @@
                 <option value="moto">MOTO</option>
                 <option value="volholla">VOLHOLLA</option>
                 <option value="doppler">DOPPLER PHANTOM</option>
+                <option value="aeolian">AEOLIAN DRIFT</option>
             </select>
         </div>
         <div class="strip-sec" style="flex:1;">
@@ -309,6 +310,10 @@ const ALBUM_CRATE_DEFS = {
     doppler: {
         label: 'DOPPLER PHANTOM', basePath: 'DOPPLER PHANTOM/',
         files: ["Doppler Phantom - Velocity Diary - Sonauto.ogg", "Doppler Phantom - Doppler Phase Velocity - Sonauto.ogg", "Doppler Phantom - The Tunnel Intersection - Sonauto.ogg"]
+    },
+    aeolian: {
+        label: 'AEOLIAN DRIFT', basePath: 'AEOLIAN DRIFT/',
+        files: ["Aeolian Drift - 01_Out of Life - Sonauto.ogg", "Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg", "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg"]
     }
 };
 
@@ -542,7 +547,7 @@ function loadCrate(key) {
 
 function updateTrackDisplay() {
     const file = currentCrateFiles[currentFileIdx];
-    let title = file.replace(/^.*\//, '').replace(/\.mp3$/i, '').replace(/^\d+_/, '').replace(/^coolradio\s*-\s*/i, '').replace(/\s*-\s*Sonauto$/i, '').trim();
+    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
     document.getElementById('track-title').innerText = title;
     document.getElementById('track-meta').innerText = `${ALBUM_CRATE_DEFS[currentCrateKey].label} | [${currentFileIdx+1}/${currentCrateFiles.length}]`;
 }

@@ -2049,6 +2049,59 @@
         ["OP2 Pair", "Launch with THE ABYSSAL CROWN for a pressure-shift contrast deck."]
       ]
     },
+    aeolian: {
+      key: "aeolian",
+      pageSlug: "aeolian-drift",
+      basePath: "../AEOLIAN DRIFT/",
+      label: "AEOLIAN DRIFT",
+      subtitle: "Wind-scoured frog transmissions / dial-tone heartbreak / pine-floor drift",
+      accentA: "#6ec6b8",
+      accentB: "#f4c86a",
+      coverImage: "../AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+      defaultTrackArt: "../AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+      trackArtByIndex: {
+        0: "../AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+        1: "../AEOLIAN DRIFT/Frog_eye_reflecting_window_screen_202606092013.jpeg",
+        2: "../AEOLIAN DRIFT/Frog_navigating_concrete_maze_202606092015.jpeg",
+        3: "../AEOLIAN DRIFT/Frog_silhouette_against_streetla…_202606092015.jpeg",
+        4: "../AEOLIAN DRIFT/Suitcase_floating_zero-gravity_s…_202606092012.jpeg",
+        5: "../AEOLIAN DRIFT/Abstract_artwork_seascape_frog_h…_202606092006.jpeg",
+        6: "../AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+        7: "../AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+        8: "../AEOLIAN DRIFT/Frog_eye_reflecting_window_screen_202606092013.jpeg",
+        9: "../AEOLIAN DRIFT/Frog_navigating_concrete_maze_202606092015.jpeg",
+        10: "../AEOLIAN DRIFT/Frog_silhouette_against_streetla…_202606092015.jpeg",
+        11: "../AEOLIAN DRIFT/Suitcase_floating_zero-gravity_s…_202606092012.jpeg",
+        12: "../AEOLIAN DRIFT/Abstract_artwork_seascape_frog_h…_202606092006.jpeg",
+        13: "../AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+        14: "../AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg"
+      },
+      hallKey: "aeolian",
+      op2Key: "aeolian",
+      op2Pair: "doppler",
+      files: [
+        "Aeolian Drift - 01_Out of Life - Sonauto.ogg",
+        "Aeolian Drift - 02_Flashing Lights (Roadside Omen) - Sonauto.ogg",
+        "Aeolian Drift - 03_How to Break Off an Engagement - Sonauto.ogg",
+        "Aeolian Drift - 04_Steel Drum Solitude - Treblo.ogg",
+        "Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg",
+        "Aeolian Drift - 06_Resurrecting Atlantis house - Treblo.ogg",
+        "Aeolian Drift - 07_DJ Turn Me Up - Treblo.ogg",
+        "Aeolian Drift - 08_Newly Single (Strobe Purgatory) - Treblo.ogg",
+        "Aeolian Drift - 09_Dial Tone Echoes - Treblo.ogg",
+        "Aeolian Drift - 10_Magic Ride - Treblo.ogg",
+        "Aeolian Drift - 11_New Day - Treblo.ogg",
+        "Aeolian Drift - 12_Reunion - Treblo.ogg",
+        "Aeolian Drift - 13_How to Win My Heart (Dial-Tone) - Treblo.ogg",
+        "Aeolian Drift - 14_Pine Belt Transition - Treblo.ogg",
+        "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Wind-scoured frog transmissions / dial-tone heartbreak / pine-floor drift"],
+        ["Use", "Standalone album page, hall route, direct song links, and Aeolian-ready mix entry."],
+        ["OP2 Pair", "Launch with DOPPLER PHANTOM for a wind-against-velocity contrast deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2120,6 +2173,8 @@
     .replace(/^the abyssal crown\s*-\s*/i, "")
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
     .replace(/^doppler phantom\s*-\s*/i, "")
+    .replace(/^aeolian drift\s*-\s*/i, "")
+    .replace(/^\d+[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
@@ -2127,6 +2182,7 @@
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
+      .replace(/\s*-\s*Treblo$/i, "")
       .replace(/_/g, " ")
       .trim()
       .normalize("NFC");
@@ -2281,6 +2337,7 @@
     if (raw === "unpatchedglitch" || raw === "unpatched-glitch" || raw === "unpatched_glitch" || raw === "unpatched glitch" || raw === "unpaidglitch" || raw === "unpatched-glitch-unpaid-glitch" || raw === "unpatched_glitch_unpaid_glitch" || raw === "unpatched glitch unpaid glitch" || raw === "ugg") return "unpatchedglitch";
     if (raw === "abyssalcrown" || raw === "abyssal" || raw === "crown" || raw === "the-abyssal-crown" || raw === "the_abyssal_crown" || raw === "the abyssal crown" || raw === "tac") return "abyssalcrown";
     if (raw === "doppler" || raw === "doppler-phantom" || raw === "doppler_phantom" || raw === "doppler phantom" || raw === "dp") return "doppler";
+    if (raw === "aeolian" || raw === "aeolian-drift" || raw === "aeolian_drift" || raw === "aeolian drift" || raw === "ad") return "aeolian";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

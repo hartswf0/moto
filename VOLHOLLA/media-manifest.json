@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T16:40:47.099Z",
+  "generatedAt": "2026-06-10T08:27:23.095Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -680,7 +680,7 @@
       "tracks": [
         {
           "index": 1,
-          "title": "192 kbps Ghost",
+          "title": "kbps Ghost",
           "file": "Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
           "source": "GEOMETRIC GHOSTS OF MITTE/Geometric Ghosts of Mitte - 192 kbps Ghost - Sonauto.mp3",
           "songPage": "VOLHOLLA/song-mitte-01.html",
@@ -3639,7 +3639,7 @@
         },
         {
           "index": 2,
-          "title": "84 Point 8 (Rudeboy Prompt)",
+          "title": "Point 8 (Rudeboy Prompt)",
           "file": "Clinical Heat - 84 Point 8 (Rudeboy Prompt) - Sonauto.ogg",
           "source": "NO SERVICE/Clinical Heat - 84 Point 8 (Rudeboy Prompt) - Sonauto.ogg",
           "songPage": "VOLHOLLA/song-noservice-02.html",
@@ -6079,7 +6079,7 @@
       "tracks": [
         {
           "index": 1,
-          "title": "5 Vidas en la Plaza",
+          "title": "Vidas en la Plaza",
           "file": "Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
           "source": "CONCRETO y CYPHER/Concreto y Cyphers - 5 Vidas en la Plaza - Sonauto.ogg",
           "songPage": "VOLHOLLA/song-cypher-01.html",
@@ -6670,7 +6670,7 @@
       "tracks": [
         {
           "index": 1,
-          "title": "82 BPM Blues Bash",
+          "title": "BPM Blues Bash",
           "file": "The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
           "source": "THE GREAT CONGREGATION/The Great Congregation - 82 BPM Blues Bash - Sonauto.ogg",
           "songPage": "VOLHOLLA/song-congregation-01.html",
@@ -11629,6 +11629,252 @@
           },
           "art": {
             "source": "DOPPLER PHANTOM/ChatGPT Image Jun 9, 2026, 12_22_32 PM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "aeolian": {
+      "key": "aeolian",
+      "label": "AEOLIAN DRIFT",
+      "subtitle": "Wind-scoured frog transmissions / dial-tone heartbreak / pine-floor drift",
+      "pageSlug": "aeolian-drift",
+      "hallKey": "aeolian",
+      "op2Key": "aeolian",
+      "op2Pair": "doppler",
+      "accentA": "#6ec6b8",
+      "accentB": "#f4c86a",
+      "cover": {
+        "source": "AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Out of Life",
+          "file": "Aeolian Drift - 01_Out of Life - Sonauto.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 01_Out of Life - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-01.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 01_Out of Life - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Flashing Lights (Roadside Omen)",
+          "file": "Aeolian Drift - 02_Flashing Lights (Roadside Omen) - Sonauto.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 02_Flashing Lights (Roadside Omen) - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-02.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 02_Flashing Lights (Roadside Omen) - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_eye_reflecting_window_screen_202606092013.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "How to Break Off an Engagement",
+          "file": "Aeolian Drift - 03_How to Break Off an Engagement - Sonauto.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 03_How to Break Off an Engagement - Sonauto.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-03.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 03_How to Break Off an Engagement - Sonauto.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_navigating_concrete_maze_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Steel Drum Solitude",
+          "file": "Aeolian Drift - 04_Steel Drum Solitude - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 04_Steel Drum Solitude - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-04.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 04_Steel Drum Solitude - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_silhouette_against_streetla…_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Pine Floor Orbit",
+          "file": "Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-05.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Suitcase_floating_zero-gravity_s…_202606092012.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Resurrecting Atlantis house",
+          "file": "Aeolian Drift - 06_Resurrecting Atlantis house - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 06_Resurrecting Atlantis house - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-06.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 06_Resurrecting Atlantis house - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Abstract_artwork_seascape_frog_h…_202606092006.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "DJ Turn Me Up",
+          "file": "Aeolian Drift - 07_DJ Turn Me Up - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 07_DJ Turn Me Up - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-07.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 07_DJ Turn Me Up - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Newly Single (Strobe Purgatory)",
+          "file": "Aeolian Drift - 08_Newly Single (Strobe Purgatory) - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 08_Newly Single (Strobe Purgatory) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-08.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 08_Newly Single (Strobe Purgatory) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Dial Tone Echoes",
+          "file": "Aeolian Drift - 09_Dial Tone Echoes - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 09_Dial Tone Echoes - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-09.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 09_Dial Tone Echoes - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_eye_reflecting_window_screen_202606092013.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Magic Ride",
+          "file": "Aeolian Drift - 10_Magic Ride - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 10_Magic Ride - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-10.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 10_Magic Ride - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_navigating_concrete_maze_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "New Day",
+          "file": "Aeolian Drift - 11_New Day - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 11_New Day - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-11.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 11_New Day - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Frog_silhouette_against_streetla…_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Reunion",
+          "file": "Aeolian Drift - 12_Reunion - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 12_Reunion - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-12.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 12_Reunion - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Suitcase_floating_zero-gravity_s…_202606092012.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "How to Win My Heart (Dial-Tone)",
+          "file": "Aeolian Drift - 13_How to Win My Heart (Dial-Tone) - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 13_How to Win My Heart (Dial-Tone) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-13.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 13_How to Win My Heart (Dial-Tone) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Abstract_artwork_seascape_frog_h…_202606092006.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Pine Belt Transition",
+          "file": "Aeolian Drift - 14_Pine Belt Transition - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - 14_Pine Belt Transition - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-14.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - 14_Pine Belt Transition - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Album_cover_Aeolian_Drift_WYGWYL_202606092015.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Rainwater Gutter Blues",
+          "file": "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg",
+          "source": "AEOLIAN DRIFT/Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-aeolian-15.html",
+          "audio": {
+            "source": "AEOLIAN DRIFT/Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
             "derivatives": {}
           }
         }
