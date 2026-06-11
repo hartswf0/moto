@@ -285,6 +285,7 @@
         { key: 'abyssalcrown', label: 'ABYSS' },
         { key: 'doppler', label: 'DOPPL' },
         { key: 'aeolian', label: 'AEOL' },
+        { key: 'chapelring', label: 'CHPL' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -369,6 +370,8 @@
             ? 'doppler'
           : raw === 'aeolian' || raw === 'aeolian-drift' || raw === 'aeolian_drift' || raw === 'aeolian drift' || raw === 'ad'
             ? 'aeolian'
+          : raw === 'chapelring' || raw === 'chapel' || raw === 'chapel-ring' || raw === 'chapel_ring' || raw === 'chapel ring' || raw === 'the chapel ring' || raw === 'tcr' || raw === 'cr'
+            ? 'chapelring'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

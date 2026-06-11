@@ -2102,6 +2102,75 @@
         ["OP2 Pair", "Launch with DOPPLER PHANTOM for a wind-against-velocity contrast deck."]
       ]
     },
+    chapelring: {
+      key: "chapelring",
+      pageSlug: "chapel-ring",
+      basePath: "../THE CHAPEL RING/",
+      label: "THE CHAPEL RING",
+      subtitle: "Cave-lit ring rituals / word-hoard static / folio trap sermons",
+      accentA: "#d7c7a1",
+      accentB: "#86b66f",
+      coverImage: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf.jpeg",
+      defaultTrackArt: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (1).jpeg",
+      trackArtByIndex: {
+        0: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (1).jpeg",
+        1: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (2).jpeg",
+        2: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (3).jpeg",
+        3: "../THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf.jpeg"
+      },
+      hallKey: "chapelring",
+      op2Key: "chapelring",
+      op2Pair: "aeolian",
+      files: [
+        "The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg",
+        "The Chapel Ring - Ancient Law, New Fine Print - Treblo.ogg",
+        "The Chapel Ring - Anti-Deduction Lunch - Treblo.ogg",
+        "The Chapel Ring - Brauron Bear Mode - Treblo.ogg",
+        "The Chapel Ring - Codex Glitch - Treblo.ogg",
+        "The Chapel Ring - Cold Grammar (Sick Boi Anthem) - Treblo.ogg",
+        "The Chapel Ring - Dichrome Demon (Twitchy Logic Mix) - Treblo.ogg",
+        "The Chapel Ring - DoorDash for the Doomed - Treblo.ogg",
+        "The Chapel Ring - Double Weeks - Treblo.ogg",
+        "The Chapel Ring - Empires in Business Casual - Treblo.ogg",
+        "The Chapel Ring - Exit, Pursued by My Group Chat - Treblo.ogg",
+        "The Chapel Ring - Exit, Pursued by Myself - Treblo.ogg",
+        "The Chapel Ring - Goddess in the Cut - Treblo.ogg",
+        "The Chapel Ring - I Am Just A Poet - Treblo.ogg",
+        "The Chapel Ring - I Am Just A Rapper (Folio Mix) - Treblo.ogg",
+        "The Chapel Ring - Just Right Felony - Treblo.ogg",
+        "The Chapel Ring - Lick It Into Shape (192kbps Edit) - Treblo.ogg",
+        "The Chapel Ring - Lick the Cub (Lose the Child) - Treblo.ogg",
+        "The Chapel Ring - Lick This Into Shape (Indie Hack) - Treblo.ogg",
+        "The Chapel Ring - Little Bear Run - Treblo.ogg",
+        "The Chapel Ring - Microscope _ Telescope (DatPiff Special) - Treblo.ogg",
+        "The Chapel Ring - Moral Bill - Treblo.ogg",
+        "The Chapel Ring - Nerd-Culture Scripture - Treblo.ogg",
+        "The Chapel Ring - Northside Bruise - Treblo.ogg",
+        "The Chapel Ring - Plush Monopoly (Button Eye Receipts) - Treblo.ogg",
+        "The Chapel Ring - Proverbs Said Run - Treblo.ogg",
+        "The Chapel Ring - Saint Bandit - Treblo.ogg",
+        "The Chapel Ring - Scent Debt (Hashtag Prophecy) - Treblo.ogg",
+        "The Chapel Ring - Scent Vector - Treblo.ogg",
+        "The Chapel Ring - Skull On A Block (Receipts) - Treblo.ogg",
+        "The Chapel Ring - The Bear (Tisch Graduate Freestyle) - Treblo.ogg",
+        "The Chapel Ring - The Heavy Bear Hijack (Jeans) - Treblo.ogg",
+        "The Chapel Ring - The I Am Just A Rapper Manifesto - Treblo.ogg",
+        "The Chapel Ring - The PhD of Musk - Treblo.ogg",
+        "The Chapel Ring - The South Sea Ledger - Treblo.ogg",
+        "The Chapel Ring - The Veckatimest Collisions - Treblo.ogg",
+        "The Chapel Ring - Tree Rub Résumé - Treblo.ogg",
+        "The Chapel Ring - Two Weeks of Hip Hop (2011 Recap) - Treblo.ogg",
+        "The Chapel Ring - Umwelt Ain’t a Moodboard (Just a Rapper Mix) - Treblo.ogg",
+        "The Chapel Ring - Unwashed Rich (Bearskin Flow) - Treblo.ogg",
+        "The Chapel Ring - Very Little Brain (The Hundred Acre Manifesto) - Treblo.ogg",
+        "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Cave-lit ring rituals / word-hoard static / folio trap sermons"],
+        ["Use", "Standalone album page, hall route, direct song links, and Chapel-ready mix entry."],
+        ["OP2 Pair", "Launch with AEOLIAN DRIFT for the ring-and-wind companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2174,6 +2243,7 @@
     .replace(/^sun-faded ghosts?\s*-\s*/i, "")
     .replace(/^doppler phantom\s*-\s*/i, "")
     .replace(/^aeolian drift\s*-\s*/i, "")
+    .replace(/^the chapel ring\s*-\s*/i, "")
     .replace(/^\d+[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2338,6 +2408,7 @@
     if (raw === "abyssalcrown" || raw === "abyssal" || raw === "crown" || raw === "the-abyssal-crown" || raw === "the_abyssal_crown" || raw === "the abyssal crown" || raw === "tac") return "abyssalcrown";
     if (raw === "doppler" || raw === "doppler-phantom" || raw === "doppler_phantom" || raw === "doppler phantom" || raw === "dp") return "doppler";
     if (raw === "aeolian" || raw === "aeolian-drift" || raw === "aeolian_drift" || raw === "aeolian drift" || raw === "ad") return "aeolian";
+    if (raw === "chapelring" || raw === "chapel" || raw === "chapel-ring" || raw === "chapel_ring" || raw === "chapel ring" || raw === "the chapel ring" || raw === "tcr" || raw === "cr") return "chapelring";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

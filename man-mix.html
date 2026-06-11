@@ -227,6 +227,7 @@
                 <option value="volholla">VOLHOLLA</option>
                 <option value="doppler">DOPPLER PHANTOM</option>
                 <option value="aeolian">AEOLIAN DRIFT</option>
+                <option value="chapelring">THE CHAPEL RING</option>
             </select>
         </div>
         <div class="strip-sec" style="flex:1;">
@@ -314,6 +315,10 @@ const ALBUM_CRATE_DEFS = {
     aeolian: {
         label: 'AEOLIAN DRIFT', basePath: 'AEOLIAN DRIFT/',
         files: ["Aeolian Drift - 01_Out of Life - Sonauto.ogg", "Aeolian Drift - 05_Pine Floor Orbit - Treblo.ogg", "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg"]
+    },
+    chapelring: {
+        label: 'THE CHAPEL RING', basePath: 'THE CHAPEL RING/',
+        files: ["The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg", "The Chapel Ring - Codex Glitch - Treblo.ogg", "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"]
     }
 };
 
@@ -547,7 +552,7 @@ function loadCrate(key) {
 
 function updateTrackDisplay() {
     const file = currentCrateFiles[currentFileIdx];
-    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
+    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^the chapel ring\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
     document.getElementById('track-title').innerText = title;
     document.getElementById('track-meta').innerText = `${ALBUM_CRATE_DEFS[currentCrateKey].label} | [${currentFileIdx+1}/${currentCrateFiles.length}]`;
 }

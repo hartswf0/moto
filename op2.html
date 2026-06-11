@@ -1204,6 +1204,57 @@
                     "Aeolian Drift - Rainwater Gutter Blues - Treblo.ogg"
                 ]
             },
+            chapelring: {
+                key: 'chapelring',
+                label: 'THE CHAPEL RING',
+                short: 'CHAPEL',
+                basePath: 'THE CHAPEL RING/',
+                logic: 'Chapel Ring Relay',
+                files: [
+                    "The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg",
+                    "The Chapel Ring - Ancient Law, New Fine Print - Treblo.ogg",
+                    "The Chapel Ring - Anti-Deduction Lunch - Treblo.ogg",
+                    "The Chapel Ring - Brauron Bear Mode - Treblo.ogg",
+                    "The Chapel Ring - Codex Glitch - Treblo.ogg",
+                    "The Chapel Ring - Cold Grammar (Sick Boi Anthem) - Treblo.ogg",
+                    "The Chapel Ring - Dichrome Demon (Twitchy Logic Mix) - Treblo.ogg",
+                    "The Chapel Ring - DoorDash for the Doomed - Treblo.ogg",
+                    "The Chapel Ring - Double Weeks - Treblo.ogg",
+                    "The Chapel Ring - Empires in Business Casual - Treblo.ogg",
+                    "The Chapel Ring - Exit, Pursued by My Group Chat - Treblo.ogg",
+                    "The Chapel Ring - Exit, Pursued by Myself - Treblo.ogg",
+                    "The Chapel Ring - Goddess in the Cut - Treblo.ogg",
+                    "The Chapel Ring - I Am Just A Poet - Treblo.ogg",
+                    "The Chapel Ring - I Am Just A Rapper (Folio Mix) - Treblo.ogg",
+                    "The Chapel Ring - Just Right Felony - Treblo.ogg",
+                    "The Chapel Ring - Lick It Into Shape (192kbps Edit) - Treblo.ogg",
+                    "The Chapel Ring - Lick the Cub (Lose the Child) - Treblo.ogg",
+                    "The Chapel Ring - Lick This Into Shape (Indie Hack) - Treblo.ogg",
+                    "The Chapel Ring - Little Bear Run - Treblo.ogg",
+                    "The Chapel Ring - Microscope _ Telescope (DatPiff Special) - Treblo.ogg",
+                    "The Chapel Ring - Moral Bill - Treblo.ogg",
+                    "The Chapel Ring - Nerd-Culture Scripture - Treblo.ogg",
+                    "The Chapel Ring - Northside Bruise - Treblo.ogg",
+                    "The Chapel Ring - Plush Monopoly (Button Eye Receipts) - Treblo.ogg",
+                    "The Chapel Ring - Proverbs Said Run - Treblo.ogg",
+                    "The Chapel Ring - Saint Bandit - Treblo.ogg",
+                    "The Chapel Ring - Scent Debt (Hashtag Prophecy) - Treblo.ogg",
+                    "The Chapel Ring - Scent Vector - Treblo.ogg",
+                    "The Chapel Ring - Skull On A Block (Receipts) - Treblo.ogg",
+                    "The Chapel Ring - The Bear (Tisch Graduate Freestyle) - Treblo.ogg",
+                    "The Chapel Ring - The Heavy Bear Hijack (Jeans) - Treblo.ogg",
+                    "The Chapel Ring - The I Am Just A Rapper Manifesto - Treblo.ogg",
+                    "The Chapel Ring - The PhD of Musk - Treblo.ogg",
+                    "The Chapel Ring - The South Sea Ledger - Treblo.ogg",
+                    "The Chapel Ring - The Veckatimest Collisions - Treblo.ogg",
+                    "The Chapel Ring - Tree Rub Résumé - Treblo.ogg",
+                    "The Chapel Ring - Two Weeks of Hip Hop (2011 Recap) - Treblo.ogg",
+                    "The Chapel Ring - Umwelt Ain’t a Moodboard (Just a Rapper Mix) - Treblo.ogg",
+                    "The Chapel Ring - Unwashed Rich (Bearskin Flow) - Treblo.ogg",
+                    "The Chapel Ring - Very Little Brain (The Hundred Acre Manifesto) - Treblo.ogg",
+                    "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1898,6 +1949,7 @@
                 .replace(/^the weed-choked field\s*-\s*/i, '')
                 .replace(/^doppler phantom\s*-\s*/i, '')
                 .replace(/^aeolian drift\s*-\s*/i, '')
+                .replace(/^the chapel ring\s*-\s*/i, '')
                 .replace(/^\d+[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -1954,6 +2006,7 @@
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
             if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
             if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
+            if (v === 'chapelring' || v === 'chapel' || v === 'chapel-ring' || v === 'chapel_ring' || v === 'chapel ring' || v === 'the chapel ring' || v === 'tcr' || v === 'cr') return 'chapelring';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

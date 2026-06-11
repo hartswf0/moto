@@ -272,6 +272,7 @@
         { key: 'abyssalcrown', label: 'ABYSS' },
         { key: 'doppler', label: 'DOPPL' },
         { key: 'aeolian', label: 'AEOL' },
+        { key: 'chapelring', label: 'CHPL' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -352,6 +353,8 @@
             ? 'doppler'
           : raw === 'aeolian' || raw === 'aeolian-drift' || raw === 'aeolian_drift' || raw === 'aeolian drift' || raw === 'ad'
             ? 'aeolian'
+          : raw === 'chapelring' || raw === 'chapel' || raw === 'chapel-ring' || raw === 'chapel_ring' || raw === 'chapel ring' || raw === 'the chapel ring' || raw === 'tcr' || raw === 'cr'
+            ? 'chapelring'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-10T08:27:23.095Z",
+  "generatedAt": "2026-06-11T19:56:24.735Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -11875,6 +11875,505 @@
           },
           "art": {
             "source": "AEOLIAN DRIFT/Album_cover_frog_wave-function_202606092013.jpeg",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "chapelring": {
+      "key": "chapelring",
+      "label": "THE CHAPEL RING",
+      "subtitle": "Cave-lit ring rituals / word-hoard static / folio trap sermons",
+      "pageSlug": "chapel-ring",
+      "hallKey": "chapelring",
+      "op2Key": "chapelring",
+      "op2Pair": "aeolian",
+      "accentA": "#d7c7a1",
+      "accentB": "#86b66f",
+      "cover": {
+        "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf.jpeg",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (1).jpeg",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Almost Nothing Outlasts All",
+          "file": "The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-01.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (1).jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Ancient Law, New Fine Print",
+          "file": "The Chapel Ring - Ancient Law, New Fine Print - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Ancient Law, New Fine Print - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-02.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Ancient Law, New Fine Print - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (2).jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Anti-Deduction Lunch",
+          "file": "The Chapel Ring - Anti-Deduction Lunch - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Anti-Deduction Lunch - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-03.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Anti-Deduction Lunch - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf (3).jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Brauron Bear Mode",
+          "file": "The Chapel Ring - Brauron Bear Mode - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Brauron Bear Mode - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-04.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Brauron Bear Mode - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE CHAPEL RING/Gemini_Generated_Image_xbdfikxbdfikxbdf.jpeg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Codex Glitch",
+          "file": "The Chapel Ring - Codex Glitch - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Codex Glitch - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-05.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Codex Glitch - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Cold Grammar (Sick Boi Anthem)",
+          "file": "The Chapel Ring - Cold Grammar (Sick Boi Anthem) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Cold Grammar (Sick Boi Anthem) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-06.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Cold Grammar (Sick Boi Anthem) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Dichrome Demon (Twitchy Logic Mix)",
+          "file": "The Chapel Ring - Dichrome Demon (Twitchy Logic Mix) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Dichrome Demon (Twitchy Logic Mix) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-07.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Dichrome Demon (Twitchy Logic Mix) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "DoorDash for the Doomed",
+          "file": "The Chapel Ring - DoorDash for the Doomed - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - DoorDash for the Doomed - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-08.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - DoorDash for the Doomed - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Double Weeks",
+          "file": "The Chapel Ring - Double Weeks - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Double Weeks - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-09.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Double Weeks - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Empires in Business Casual",
+          "file": "The Chapel Ring - Empires in Business Casual - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Empires in Business Casual - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-10.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Empires in Business Casual - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Exit, Pursued by My Group Chat",
+          "file": "The Chapel Ring - Exit, Pursued by My Group Chat - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Exit, Pursued by My Group Chat - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-11.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Exit, Pursued by My Group Chat - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Exit, Pursued by Myself",
+          "file": "The Chapel Ring - Exit, Pursued by Myself - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Exit, Pursued by Myself - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-12.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Exit, Pursued by Myself - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Goddess in the Cut",
+          "file": "The Chapel Ring - Goddess in the Cut - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Goddess in the Cut - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-13.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Goddess in the Cut - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "I Am Just A Poet",
+          "file": "The Chapel Ring - I Am Just A Poet - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - I Am Just A Poet - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-14.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - I Am Just A Poet - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "I Am Just A Rapper (Folio Mix)",
+          "file": "The Chapel Ring - I Am Just A Rapper (Folio Mix) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - I Am Just A Rapper (Folio Mix) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-15.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - I Am Just A Rapper (Folio Mix) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Just Right Felony",
+          "file": "The Chapel Ring - Just Right Felony - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Just Right Felony - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-16.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Just Right Felony - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Lick It Into Shape (192kbps Edit)",
+          "file": "The Chapel Ring - Lick It Into Shape (192kbps Edit) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Lick It Into Shape (192kbps Edit) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-17.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Lick It Into Shape (192kbps Edit) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Lick the Cub (Lose the Child)",
+          "file": "The Chapel Ring - Lick the Cub (Lose the Child) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Lick the Cub (Lose the Child) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-18.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Lick the Cub (Lose the Child) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Lick This Into Shape (Indie Hack)",
+          "file": "The Chapel Ring - Lick This Into Shape (Indie Hack) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Lick This Into Shape (Indie Hack) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-19.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Lick This Into Shape (Indie Hack) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Little Bear Run",
+          "file": "The Chapel Ring - Little Bear Run - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Little Bear Run - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-20.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Little Bear Run - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Microscope   Telescope (DatPiff Special)",
+          "file": "The Chapel Ring - Microscope _ Telescope (DatPiff Special) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Microscope _ Telescope (DatPiff Special) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-21.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Microscope _ Telescope (DatPiff Special) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Moral Bill",
+          "file": "The Chapel Ring - Moral Bill - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Moral Bill - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-22.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Moral Bill - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Nerd-Culture Scripture",
+          "file": "The Chapel Ring - Nerd-Culture Scripture - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Nerd-Culture Scripture - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-23.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Nerd-Culture Scripture - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Northside Bruise",
+          "file": "The Chapel Ring - Northside Bruise - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Northside Bruise - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-24.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Northside Bruise - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "Plush Monopoly (Button Eye Receipts)",
+          "file": "The Chapel Ring - Plush Monopoly (Button Eye Receipts) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Plush Monopoly (Button Eye Receipts) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-25.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Plush Monopoly (Button Eye Receipts) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "Proverbs Said Run",
+          "file": "The Chapel Ring - Proverbs Said Run - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Proverbs Said Run - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-26.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Proverbs Said Run - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 27,
+          "title": "Saint Bandit",
+          "file": "The Chapel Ring - Saint Bandit - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Saint Bandit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-27.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Saint Bandit - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 28,
+          "title": "Scent Debt (Hashtag Prophecy)",
+          "file": "The Chapel Ring - Scent Debt (Hashtag Prophecy) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Scent Debt (Hashtag Prophecy) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-28.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Scent Debt (Hashtag Prophecy) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 29,
+          "title": "Scent Vector",
+          "file": "The Chapel Ring - Scent Vector - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Scent Vector - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-29.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Scent Vector - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 30,
+          "title": "Skull On A Block (Receipts)",
+          "file": "The Chapel Ring - Skull On A Block (Receipts) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Skull On A Block (Receipts) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-30.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Skull On A Block (Receipts) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 31,
+          "title": "The Bear (Tisch Graduate Freestyle)",
+          "file": "The Chapel Ring - The Bear (Tisch Graduate Freestyle) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The Bear (Tisch Graduate Freestyle) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-31.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The Bear (Tisch Graduate Freestyle) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 32,
+          "title": "The Heavy Bear Hijack (Jeans)",
+          "file": "The Chapel Ring - The Heavy Bear Hijack (Jeans) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The Heavy Bear Hijack (Jeans) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-32.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The Heavy Bear Hijack (Jeans) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 33,
+          "title": "The I Am Just A Rapper Manifesto",
+          "file": "The Chapel Ring - The I Am Just A Rapper Manifesto - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The I Am Just A Rapper Manifesto - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-33.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The I Am Just A Rapper Manifesto - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 34,
+          "title": "The PhD of Musk",
+          "file": "The Chapel Ring - The PhD of Musk - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The PhD of Musk - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-34.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The PhD of Musk - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 35,
+          "title": "The South Sea Ledger",
+          "file": "The Chapel Ring - The South Sea Ledger - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The South Sea Ledger - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-35.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The South Sea Ledger - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 36,
+          "title": "The Veckatimest Collisions",
+          "file": "The Chapel Ring - The Veckatimest Collisions - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - The Veckatimest Collisions - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-36.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - The Veckatimest Collisions - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 37,
+          "title": "Tree Rub Résumé",
+          "file": "The Chapel Ring - Tree Rub Résumé - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Tree Rub Résumé - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-37.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Tree Rub Résumé - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 38,
+          "title": "Two Weeks of Hip Hop (2011 Recap)",
+          "file": "The Chapel Ring - Two Weeks of Hip Hop (2011 Recap) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Two Weeks of Hip Hop (2011 Recap) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-38.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Two Weeks of Hip Hop (2011 Recap) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 39,
+          "title": "Umwelt Ain’t a Moodboard (Just a Rapper Mix)",
+          "file": "The Chapel Ring - Umwelt Ain’t a Moodboard (Just a Rapper Mix) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Umwelt Ain’t a Moodboard (Just a Rapper Mix) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-39.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Umwelt Ain’t a Moodboard (Just a Rapper Mix) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 40,
+          "title": "Unwashed Rich (Bearskin Flow)",
+          "file": "The Chapel Ring - Unwashed Rich (Bearskin Flow) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Unwashed Rich (Bearskin Flow) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-40.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Unwashed Rich (Bearskin Flow) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 41,
+          "title": "Very Little Brain (The Hundred Acre Manifesto)",
+          "file": "The Chapel Ring - Very Little Brain (The Hundred Acre Manifesto) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Very Little Brain (The Hundred Acre Manifesto) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-41.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Very Little Brain (The Hundred Acre Manifesto) - Treblo.ogg",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 42,
+          "title": "Wortschatz (Etymology)",
+          "file": "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg",
+          "source": "THE CHAPEL RING/The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-chapelring-42.html",
+          "audio": {
+            "source": "THE CHAPEL RING/The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg",
             "derivatives": {}
           }
         }
