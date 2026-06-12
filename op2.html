@@ -1255,6 +1255,27 @@
                     "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"
                 ]
             },
+            republicdrink: {
+                key: 'republicdrink',
+                label: 'THE REPUBLIC SPILLED ITS DRINK',
+                short: 'REPUBLIC',
+                basePath: 'THE REPUBLIC SPILLED ITS DRINK/',
+                logic: 'Republic Spill Relay',
+                files: [
+                    "The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+                    "The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1950,6 +1971,7 @@
                 .replace(/^doppler phantom\s*-\s*/i, '')
                 .replace(/^aeolian drift\s*-\s*/i, '')
                 .replace(/^the chapel ring\s*-\s*/i, '')
+                .replace(/^the republic spilled its drink\s*-\s*/i, '')
                 .replace(/^\d+[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -2007,6 +2029,7 @@
             if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
             if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
             if (v === 'chapelring' || v === 'chapel' || v === 'chapel-ring' || v === 'chapel_ring' || v === 'chapel ring' || v === 'the chapel ring' || v === 'tcr' || v === 'cr') return 'chapelring';
+            if (v === 'republicdrink' || v === 'republic' || v === 'republic-spilled-its-drink' || v === 'republic_spilled_its_drink' || v === 'the republic spilled its drink' || v === 'trsid' || v === 'rsid') return 'republicdrink';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

@@ -1687,6 +1687,28 @@
                     "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"
                   ]
             },
+            republicdrink: {
+                key: 'republicdrink',
+                label: 'THE REPUBLIC SPILLED ITS DRINK',
+                shortLabel: 'REPUBLIC',
+                libraryParam: 'republicdrink',
+                op2Pair: 'chapelring',
+                basePath: 'THE REPUBLIC SPILLED ITS DRINK/',
+                files: [
+                    "The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+                    "The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+                    "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2483,6 +2505,7 @@
                 .replace(/^doppler phantom\s*-\s*/i, '')
                 .replace(/^aeolian drift\s*-\s*/i, '')
                 .replace(/^the chapel ring\s*-\s*/i, '')
+                .replace(/^the republic spilled its drink\s*-\s*/i, '')
                 .replace(/^\d+[_\s-]+/, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
@@ -2528,6 +2551,7 @@
             if (v === 'doppler' || v === 'doppler-phantom' || v === 'doppler_phantom' || v === 'doppler phantom' || v === 'dp') return 'doppler';
             if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
             if (v === 'chapelring' || v === 'chapel' || v === 'chapel-ring' || v === 'chapel_ring' || v === 'chapel ring' || v === 'the chapel ring' || v === 'tcr' || v === 'cr') return 'chapelring';
+            if (v === 'republicdrink' || v === 'republic' || v === 'republic-spilled-its-drink' || v === 'republic_spilled_its_drink' || v === 'the republic spilled its drink' || v === 'trsid' || v === 'rsid') return 'republicdrink';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

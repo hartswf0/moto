@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T19:56:24.735Z",
+  "generatedAt": "2026-06-12T21:51:54.349Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -12374,6 +12374,207 @@
           "songPage": "VOLHOLLA/song-chapelring-42.html",
           "audio": {
             "source": "THE CHAPEL RING/The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "republicdrink": {
+      "key": "republicdrink",
+      "label": "THE REPUBLIC SPILLED ITS DRINK",
+      "subtitle": "Civic spill funk / strange-light road songs / Bayville hangover",
+      "pageSlug": "republic-spilled-its-drink",
+      "hallKey": "republicdrink",
+      "op2Key": "republicdrink",
+      "op2Pair": "chapelring",
+      "accentA": "#d53c2f",
+      "accentB": "#2e70b8",
+      "cover": {
+        "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Bring the Bucket (Strange Light Encounter)",
+          "file": "The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-01.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Orange Blood (Strange Light Encounter)",
+          "file": "The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-02.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Ordinary Magic",
+          "file": "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-03.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Road Dad Narrates the View",
+          "file": "The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-04.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Sidewalk Silk",
+          "file": "The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-05.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Small Fire (Strange Light Encounter)",
+          "file": "The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-06.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "The 250 Year Hangover",
+          "file": "The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-07.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "The Elemental Groove",
+          "file": "The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-08.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Too Many Roots",
+          "file": "The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-09.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Volholla (Bayville Legend)",
+          "file": "The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-10.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Volholla (Strange Light Blessing)",
+          "file": "The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-11.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Wrong Road (Strange Light Encounter)",
+          "file": "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg",
+          "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-republicdrink-12.html",
+          "audio": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
             "derivatives": {}
           }
         }

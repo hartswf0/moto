@@ -286,6 +286,7 @@
         { key: 'doppler', label: 'DOPPL' },
         { key: 'aeolian', label: 'AEOL' },
         { key: 'chapelring', label: 'CHPL' },
+        { key: 'republicdrink', label: 'RPSD' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -372,6 +373,8 @@
             ? 'aeolian'
           : raw === 'chapelring' || raw === 'chapel' || raw === 'chapel-ring' || raw === 'chapel_ring' || raw === 'chapel ring' || raw === 'the chapel ring' || raw === 'tcr' || raw === 'cr'
             ? 'chapelring'
+          : raw === 'republicdrink' || raw === 'republic' || raw === 'republic-spilled-its-drink' || raw === 'republic_spilled_its_drink' || raw === 'the republic spilled its drink' || raw === 'trsid' || raw === 'rsid'
+            ? 'republicdrink'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

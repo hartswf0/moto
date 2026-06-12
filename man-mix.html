@@ -228,6 +228,7 @@
                 <option value="doppler">DOPPLER PHANTOM</option>
                 <option value="aeolian">AEOLIAN DRIFT</option>
                 <option value="chapelring">THE CHAPEL RING</option>
+                <option value="republicdrink">THE REPUBLIC SPILLED ITS DRINK</option>
             </select>
         </div>
         <div class="strip-sec" style="flex:1;">
@@ -319,6 +320,10 @@ const ALBUM_CRATE_DEFS = {
     chapelring: {
         label: 'THE CHAPEL RING', basePath: 'THE CHAPEL RING/',
         files: ["The Chapel Ring - Almost Nothing Outlasts All - Treblo.ogg", "The Chapel Ring - Codex Glitch - Treblo.ogg", "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"]
+    },
+    republicdrink: {
+        label: 'THE REPUBLIC SPILLED ITS DRINK', basePath: 'THE REPUBLIC SPILLED ITS DRINK/',
+        files: ["The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg", "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg", "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"]
     }
 };
 
@@ -552,7 +557,7 @@ function loadCrate(key) {
 
 function updateTrackDisplay() {
     const file = currentCrateFiles[currentFileIdx];
-    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^the chapel ring\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
+    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^the chapel ring\s*-\s*/i, '').replace(/^the republic spilled its drink\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
     document.getElementById('track-title').innerText = title;
     document.getElementById('track-meta').innerText = `${ALBUM_CRATE_DEFS[currentCrateKey].label} | [${currentFileIdx+1}/${currentCrateFiles.length}]`;
 }

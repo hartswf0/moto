@@ -1922,6 +1922,48 @@
         "The Chapel Ring - Wortschatz (Etymology) - Treblo.ogg"
       ]
     },
+    republicdrink: {
+      key: "republicdrink",
+      pageSlug: "republic-spilled-its-drink",
+      basePath: "../THE REPUBLIC SPILLED ITS DRINK/",
+      label: "THE REPUBLIC SPILLED ITS DRINK",
+      subtitle: "Civic spill funk / strange-light road songs / Bayville hangover",
+      accentA: "#d53c2f",
+      accentB: "#2e70b8",
+      coverImage: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+      defaultTrackArt: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+      trackArtByIndex: {
+        0: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+        1: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+        2: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+        3: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+        4: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+        5: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+        6: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+        7: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+        8: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png",
+        9: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_28 PM.png",
+        10: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_43_49 PM.png",
+        11: "../THE REPUBLIC SPILLED ITS DRINK/ChatGPT Image Jun 12, 2026, 05_40_18 PM.png"
+      },
+      hallKey: "republicdrink",
+      op2Key: "republicdrink",
+      op2Pair: "chapelring",
+      files: [
+        "The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg",
+        "The Republic Spilled Its Drink - Orange Blood (Strange Light Encounter) - Treblo.ogg",
+        "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg",
+        "The Republic Spilled Its Drink - Road Dad Narrates the View - Treblo.ogg",
+        "The Republic Spilled Its Drink - Sidewalk Silk - Treblo.ogg",
+        "The Republic Spilled Its Drink - Small Fire (Strange Light Encounter) - Treblo.ogg",
+        "The Republic Spilled Its Drink - The 250 Year Hangover - Treblo.ogg",
+        "The Republic Spilled Its Drink - The Elemental Groove - Treblo.ogg",
+        "The Republic Spilled Its Drink - Too Many Roots - Treblo.ogg",
+        "The Republic Spilled Its Drink - Volholla (Bayville Legend) - Treblo.ogg",
+        "The Republic Spilled Its Drink - Volholla (Strange Light Blessing) - Treblo.ogg",
+        "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -1991,6 +2033,7 @@
     .replace(/^doppler phantom\s*-\s*/i, "")
     .replace(/^aeolian drift\s*-\s*/i, "")
     .replace(/^the chapel ring\s*-\s*/i, "")
+    .replace(/^the republic spilled its drink\s*-\s*/i, "")
     .replace(/^\d+[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2114,6 +2157,9 @@
     }
     if (raw === "chapelring" || raw === "chapel" || raw === "chapel-ring" || raw === "chapel_ring" || raw === "chapel ring" || raw === "the chapel ring" || raw === "tcr" || raw === "cr") {
       return "chapelring";
+    }
+    if (raw === "republicdrink" || raw === "republic" || raw === "republic-spilled-its-drink" || raw === "republic_spilled_its_drink" || raw === "the republic spilled its drink" || raw === "trsid" || raw === "rsid") {
+      return "republicdrink";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";
