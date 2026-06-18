@@ -229,6 +229,8 @@
                 <option value="aeolian">AEOLIAN DRIFT</option>
                 <option value="chapelring">THE CHAPEL RING</option>
                 <option value="republicdrink">THE REPUBLIC SPILLED ITS DRINK</option>
+                <option value="sanctuaryshake">SANCTUARY SHAKE</option>
+                <option value="globalstadium">GLOBAL STADIUM SUNSHINE</option>
             </select>
         </div>
         <div class="strip-sec" style="flex:1;">
@@ -324,6 +326,14 @@ const ALBUM_CRATE_DEFS = {
     republicdrink: {
         label: 'THE REPUBLIC SPILLED ITS DRINK', basePath: 'THE REPUBLIC SPILLED ITS DRINK/',
         files: ["The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg", "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg", "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"]
+    },
+    sanctuaryshake: {
+        label: 'SANCTUARY SHAKE', basePath: 'SANCTUARY SHAKE/',
+        files: ["Sanctuary Shake - 1891 to MSG - Treblo.ogg", "Sanctuary Shake - Cathedral Redemption - Treblo.ogg", "Sanctuary Shake - The Peach Basket Drop - Treblo.ogg"]
+    },
+    globalstadium: {
+        label: 'GLOBAL STADIUM SUNSHINE', basePath: 'GLOBAL STADIUM SUNSHINE/',
+        files: ["Global Stadium Sunshine - Joga Pirate Broadcast - Treblo (1).ogg", "Global Stadium Sunshine - O Jogo Bonito - Treblo (1).ogg", "Global Stadium Sunshine - Unity Pitch - Treblo (3).ogg"]
     }
 };
 
@@ -557,7 +567,7 @@ function loadCrate(key) {
 
 function updateTrackDisplay() {
     const file = currentCrateFiles[currentFileIdx];
-    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^the chapel ring\s*-\s*/i, '').replace(/^the republic spilled its drink\s*-\s*/i, '').replace(/^\d+[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
+    let title = file.replace(/^.*\//, '').replace(/\.(?:mp3|ogg)$/i, '').replace(/^coolradio\s*-\s*/i, '').replace(/^aeolian drift\s*-\s*/i, '').replace(/^the chapel ring\s*-\s*/i, '').replace(/^the republic spilled its drink\s*-\s*/i, '').replace(/^sanctuary shake\s*-\s*/i, '').replace(/^global stadium sunshine\s*-\s*/i, '').replace(/^\d{1,2}[_\s-]+/, '').replace(/\s*-\s*Sonauto$/i, '').replace(/\s*-\s*Treblo\s*\((\d+)\)$/i, ' ($1)').replace(/\s*-\s*Treblo$/i, '').replace(/_/g, ' ').trim();
     document.getElementById('track-title').innerText = title;
     document.getElementById('track-meta').innerText = `${ALBUM_CRATE_DEFS[currentCrateKey].label} | [${currentFileIdx+1}/${currentCrateFiles.length}]`;
 }

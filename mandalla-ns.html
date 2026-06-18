@@ -287,6 +287,8 @@
         { key: 'aeolian', label: 'AEOL' },
         { key: 'chapelring', label: 'CHPL' },
         { key: 'republicdrink', label: 'RPSD' },
+        { key: 'sanctuaryshake', label: 'SNCT' },
+        { key: 'globalstadium', label: 'GSS' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -375,6 +377,10 @@
             ? 'chapelring'
           : raw === 'republicdrink' || raw === 'republic' || raw === 'republic-spilled-its-drink' || raw === 'republic_spilled_its_drink' || raw === 'the republic spilled its drink' || raw === 'trsid' || raw === 'rsid'
             ? 'republicdrink'
+          : raw === 'sanctuaryshake' || raw === 'sanctuary' || raw === 'sanctuary-shake' || raw === 'sanctuary_shake' || raw === 'sanctuary shake' || raw === 'ss'
+            ? 'sanctuaryshake'
+          : raw === 'globalstadium' || raw === 'global' || raw === 'stadium' || raw === 'global-stadium-sunshine' || raw === 'global_stadium_sunshine' || raw === 'global stadium sunshine' || raw === 'gss'
+            ? 'globalstadium'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

@@ -1964,6 +1964,92 @@
         "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"
       ]
     },
+    sanctuaryshake: {
+      key: "sanctuaryshake",
+      pageSlug: "sanctuary-shake",
+      basePath: "../SANCTUARY SHAKE/",
+      label: "SANCTUARY SHAKE",
+      subtitle: "Cathedral bounce / Mecca-break sermons / Sunday service MPC",
+      accentA: "#f06a22",
+      accentB: "#155db8",
+      coverImage: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+      defaultTrackArt: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+      trackArtByIndex: {
+        0: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+        1: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+        2: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+        3: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+        4: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+        5: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+        6: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+        7: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+        8: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png",
+        9: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_09 AM.png",
+        10: "../SANCTUARY SHAKE/ChatGPT Image Jun 18, 2026, 10_05_26 AM.png"
+      },
+      hallKey: "sanctuaryshake",
+      op2Key: "sanctuaryshake",
+      op2Pair: "republicdrink",
+      files: [
+        "Sanctuary Shake - 1891 to MSG - Treblo.ogg",
+        "Sanctuary Shake - Ancestral Edit - Treblo.ogg",
+        "Sanctuary Shake - Cathedral Chops - Treblo.ogg",
+        "Sanctuary Shake - Cathedral Redemption - Treblo.ogg",
+        "Sanctuary Shake - Mecca Buzzer Beater - Treblo (1).ogg",
+        "Sanctuary Shake - Mecca Buzzer Beater - Treblo (2).ogg",
+        "Sanctuary Shake - Mecca Buzzer Beater - Treblo (3).ogg",
+        "Sanctuary Shake - Mecca Buzzer Beater - Treblo.ogg",
+        "Sanctuary Shake - Redemption Loop - Treblo.ogg",
+        "Sanctuary Shake - Sunday Service MPC - Treblo.ogg",
+        "Sanctuary Shake - The Peach Basket Drop - Treblo.ogg"
+      ]
+    },
+    globalstadium: {
+      key: "globalstadium",
+      pageSlug: "global-stadium-sunshine",
+      basePath: "../GLOBAL STADIUM SUNSHINE/",
+      label: "GLOBAL STADIUM SUNSHINE",
+      subtitle: "Pirate signal football / global pitch radiance / beautiful-game bounce",
+      accentA: "#f5c400",
+      accentB: "#19c85a",
+      coverImage: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_44_52 AM.png",
+      defaultTrackArt: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+      trackArtByIndex: {
+        0: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+        1: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png",
+        2: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_44_52 AM.png",
+        3: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+        4: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png",
+        5: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_44_52 AM.png",
+        6: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+        7: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png",
+        8: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_44_52 AM.png",
+        9: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+        10: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png",
+        11: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_44_52 AM.png",
+        12: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_05 AM.png",
+        13: "../GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png"
+      },
+      hallKey: "globalstadium",
+      op2Key: "globalstadium",
+      op2Pair: "sanctuaryshake",
+      files: [
+        "Global Stadium Sunshine - Joga Pirate Broadcast - Treblo (1).ogg",
+        "Global Stadium Sunshine - O Jogo Bonito - Treblo (1).ogg",
+        "Global Stadium Sunshine - O Jogo Bonito - Treblo (2).ogg",
+        "Global Stadium Sunshine - Rising Ground - Treblo (1).ogg",
+        "Global Stadium Sunshine - Rising Ground - Treblo (2).ogg",
+        "Global Stadium Sunshine - South Street Pressure - Treblo (1).ogg",
+        "Global Stadium Sunshine - South Street Pressure - Treblo (2).ogg",
+        "Global Stadium Sunshine - Sun Drenched Pitch - Treblo (1).ogg",
+        "Global Stadium Sunshine - Ten on the Back - Treblo (1).ogg",
+        "Global Stadium Sunshine - Ten on the Back - Treblo (2).ogg",
+        "Global Stadium Sunshine - The King's Smile - Treblo (1).ogg",
+        "Global Stadium Sunshine - The Number Ten - Treblo (1).ogg",
+        "Global Stadium Sunshine - Unity Pitch - Treblo (2).ogg",
+        "Global Stadium Sunshine - Unity Pitch - Treblo (3).ogg"
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2034,7 +2120,9 @@
     .replace(/^aeolian drift\s*-\s*/i, "")
     .replace(/^the chapel ring\s*-\s*/i, "")
     .replace(/^the republic spilled its drink\s*-\s*/i, "")
-    .replace(/^\d+[_\s-]+/, "")
+    .replace(/^sanctuary shake\s*-\s*/i, "")
+    .replace(/^global stadium sunshine\s*-\s*/i, "")
+      .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
@@ -2042,6 +2130,7 @@
       .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
+      .replace(/\s*-\s*Treblo\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Treblo$/i, "")
       .replace(/_/g, " ")
       .trim()
@@ -2160,6 +2249,12 @@
     }
     if (raw === "republicdrink" || raw === "republic" || raw === "republic-spilled-its-drink" || raw === "republic_spilled_its_drink" || raw === "the republic spilled its drink" || raw === "trsid" || raw === "rsid") {
       return "republicdrink";
+    }
+    if (raw === "sanctuaryshake" || raw === "sanctuary" || raw === "sanctuary-shake" || raw === "sanctuary_shake" || raw === "sanctuary shake" || raw === "ss") {
+      return "sanctuaryshake";
+    }
+    if (raw === "globalstadium" || raw === "global" || raw === "stadium" || raw === "global-stadium-sunshine" || raw === "global_stadium_sunshine" || raw === "global stadium sunshine" || raw === "gss") {
+      return "globalstadium";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";

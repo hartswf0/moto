@@ -544,6 +544,8 @@
     { key:'aeolian', label:'Aeolian Drift' },
     { key:'chapelring', label:'Chapel Ring' },
     { key:'republicdrink', label:'Republic Spilled Its Drink' },
+    { key:'sanctuaryshake', label:'Sanctuary Shake' },
+    { key:'globalstadium', label:'Global Stadium Sunshine' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -586,6 +588,8 @@
     { id:'ae-dp', label:'Aeolian Drift × Doppler Phantom', a:'aeolian', b:'doppler' },
     { id:'ch-ae', label:'Chapel Ring × Aeolian Drift', a:'chapelring', b:'aeolian' },
     { id:'rd-ch', label:'Republic Spilled Its Drink × Chapel Ring', a:'republicdrink', b:'chapelring' },
+    { id:'ss-rd', label:'Sanctuary Shake × Republic Spilled Its Drink', a:'sanctuaryshake', b:'republicdrink' },
+    { id:'gs-ss', label:'Global Stadium Sunshine × Sanctuary Shake', a:'globalstadium', b:'sanctuaryshake' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -629,6 +633,8 @@
     if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
     if (v === 'chapelring' || v === 'chapel' || v === 'chapel-ring' || v === 'chapel_ring' || v === 'chapel ring' || v === 'the chapel ring' || v === 'tcr' || v === 'cr') return 'chapelring';
     if (v === 'republicdrink' || v === 'republic' || v === 'republic-spilled-its-drink' || v === 'republic_spilled_its_drink' || v === 'the republic spilled its drink' || v === 'trsid' || v === 'rsid') return 'republicdrink';
+    if (v === 'sanctuaryshake' || v === 'sanctuary' || v === 'sanctuary-shake' || v === 'sanctuary_shake' || v === 'sanctuary shake' || v === 'ss') return 'sanctuaryshake';
+    if (v === 'globalstadium' || v === 'global' || v === 'stadium' || v === 'global-stadium-sunshine' || v === 'global_stadium_sunshine' || v === 'global stadium sunshine' || v === 'gss') return 'globalstadium';
     if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

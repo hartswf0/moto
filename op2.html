@@ -1276,6 +1276,49 @@
                     "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"
                 ]
             },
+            sanctuaryshake: {
+                key: 'sanctuaryshake',
+                label: 'SANCTUARY SHAKE',
+                short: 'SANCT',
+                basePath: 'SANCTUARY SHAKE/',
+                logic: 'Sanctuary Shake Relay',
+                files: [
+                    "Sanctuary Shake - 1891 to MSG - Treblo.ogg",
+                    "Sanctuary Shake - Ancestral Edit - Treblo.ogg",
+                    "Sanctuary Shake - Cathedral Chops - Treblo.ogg",
+                    "Sanctuary Shake - Cathedral Redemption - Treblo.ogg",
+                    "Sanctuary Shake - Mecca Buzzer Beater - Treblo (1).ogg",
+                    "Sanctuary Shake - Mecca Buzzer Beater - Treblo (2).ogg",
+                    "Sanctuary Shake - Mecca Buzzer Beater - Treblo (3).ogg",
+                    "Sanctuary Shake - Mecca Buzzer Beater - Treblo.ogg",
+                    "Sanctuary Shake - Redemption Loop - Treblo.ogg",
+                    "Sanctuary Shake - Sunday Service MPC - Treblo.ogg",
+                    "Sanctuary Shake - The Peach Basket Drop - Treblo.ogg"
+                ]
+            },
+            globalstadium: {
+                key: 'globalstadium',
+                label: 'GLOBAL STADIUM SUNSHINE',
+                short: 'GSS',
+                basePath: 'GLOBAL STADIUM SUNSHINE/',
+                logic: 'Global Stadium Relay',
+                files: [
+                    "Global Stadium Sunshine - Joga Pirate Broadcast - Treblo (1).ogg",
+                    "Global Stadium Sunshine - O Jogo Bonito - Treblo (1).ogg",
+                    "Global Stadium Sunshine - O Jogo Bonito - Treblo (2).ogg",
+                    "Global Stadium Sunshine - Rising Ground - Treblo (1).ogg",
+                    "Global Stadium Sunshine - Rising Ground - Treblo (2).ogg",
+                    "Global Stadium Sunshine - South Street Pressure - Treblo (1).ogg",
+                    "Global Stadium Sunshine - South Street Pressure - Treblo (2).ogg",
+                    "Global Stadium Sunshine - Sun Drenched Pitch - Treblo (1).ogg",
+                    "Global Stadium Sunshine - Ten on the Back - Treblo (1).ogg",
+                    "Global Stadium Sunshine - Ten on the Back - Treblo (2).ogg",
+                    "Global Stadium Sunshine - The King's Smile - Treblo (1).ogg",
+                    "Global Stadium Sunshine - The Number Ten - Treblo (1).ogg",
+                    "Global Stadium Sunshine - Unity Pitch - Treblo (2).ogg",
+                    "Global Stadium Sunshine - Unity Pitch - Treblo (3).ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -1972,7 +2015,9 @@
                 .replace(/^aeolian drift\s*-\s*/i, '')
                 .replace(/^the chapel ring\s*-\s*/i, '')
                 .replace(/^the republic spilled its drink\s*-\s*/i, '')
-                .replace(/^\d+[_\s-]+/, '')
+                .replace(/^sanctuary shake\s*-\s*/i, '')
+                .replace(/^global stadium sunshine\s*-\s*/i, '')
+                .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -1986,6 +2031,7 @@
                 .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, '')
                 .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, ' ($1)')
                 .replace(/\s*-\s*Sonauto$/i, '')
+                .replace(/\s*-\s*Treblo\s*\((\d+)\)$/i, ' ($1)')
                 .replace(/\s*-\s*Treblo$/i, '')
                 .replace(/_/g, ' ')
                 .trim()
@@ -2030,6 +2076,8 @@
             if (v === 'aeolian' || v === 'aeolian-drift' || v === 'aeolian_drift' || v === 'aeolian drift' || v === 'ad') return 'aeolian';
             if (v === 'chapelring' || v === 'chapel' || v === 'chapel-ring' || v === 'chapel_ring' || v === 'chapel ring' || v === 'the chapel ring' || v === 'tcr' || v === 'cr') return 'chapelring';
             if (v === 'republicdrink' || v === 'republic' || v === 'republic-spilled-its-drink' || v === 'republic_spilled_its_drink' || v === 'the republic spilled its drink' || v === 'trsid' || v === 'rsid') return 'republicdrink';
+            if (v === 'sanctuaryshake' || v === 'sanctuary' || v === 'sanctuary-shake' || v === 'sanctuary_shake' || v === 'sanctuary shake' || v === 'ss') return 'sanctuaryshake';
+            if (v === 'globalstadium' || v === 'global' || v === 'stadium' || v === 'global-stadium-sunshine' || v === 'global_stadium_sunshine' || v === 'global stadium sunshine' || v === 'gss') return 'globalstadium';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
