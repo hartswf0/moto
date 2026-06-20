@@ -2314,6 +2314,63 @@
         ["OP2 Pair", "Launch with SANCTUARY SHAKE for the stadium-and-sanctuary companion deck."]
       ]
     },
+    cavalrymarsh: {
+      key: "cavalrymarsh",
+      pageSlug: "cavalry-of-the-marsh",
+      basePath: "../CAVALRY OF THE MARSH/",
+      label: "CAVALRY OF THE MARSH",
+      subtitle: "Marsh cavalry / broken-vessel folk cards / winged field logic",
+      accentA: "#4f9b42",
+      accentB: "#e2b866",
+      coverImage: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+      defaultTrackArt: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+      trackArtByIndex: {
+        0: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+        1: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+        2: "../CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+        3: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+        4: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+        5: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+        6: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+        7: "../CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+        8: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+        9: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+        10: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+        11: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+        12: "../CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+        13: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+        14: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+        15: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+        16: "../CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png"
+      },
+      hallKey: "cavalrymarsh",
+      op2Key: "cavalrymarsh",
+      op2Pair: "globalstadium",
+      files: [
+        "Cavalry of the Marsh - Afterlife - Treblo.ogg",
+        "Cavalry of the Marsh - The Same Loaf - Treblo.ogg",
+        "Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg",
+        "Cavalry of the Marsh - Pure Language - Treblo.ogg",
+        "Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg",
+        "Cavalry of the Marsh - The Colonnade - Treblo.ogg",
+        "Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg",
+        "Cavalry of the Marsh - The Host Tongue - Treblo.ogg",
+        "Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg",
+        "Cavalry of the Marsh - Raincoat Flex - Treblo.ogg",
+        "Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg",
+        "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg",
+        "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg",
+        "Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg",
+        "Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg",
+        "Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg",
+        "Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Marsh cavalry / broken-vessel folk cards / winged field logic"],
+        ["Use", "Standalone album page, hall route, direct song links, and Cavalry-ready mix entry."],
+        ["OP2 Pair", "Launch with GLOBAL STADIUM SUNSHINE for the pitch-and-marsh companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2390,6 +2447,7 @@
     .replace(/^the republic spilled its drink\s*-\s*/i, "")
     .replace(/^sanctuary shake\s*-\s*/i, "")
     .replace(/^global stadium sunshine\s*-\s*/i, "")
+    .replace(/^cavalry of the marsh\s*-\s*/i, "")
       .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2559,6 +2617,7 @@
     if (raw === "republicdrink" || raw === "republic" || raw === "republic-spilled-its-drink" || raw === "republic_spilled_its_drink" || raw === "the republic spilled its drink" || raw === "trsid" || raw === "rsid") return "republicdrink";
     if (raw === "sanctuaryshake" || raw === "sanctuary" || raw === "sanctuary-shake" || raw === "sanctuary_shake" || raw === "sanctuary shake" || raw === "ss") return "sanctuaryshake";
     if (raw === "globalstadium" || raw === "global" || raw === "stadium" || raw === "global-stadium-sunshine" || raw === "global_stadium_sunshine" || raw === "global stadium sunshine" || raw === "gss") return "globalstadium";
+    if (raw === "cavalrymarsh" || raw === "cavalry" || raw === "marshcavalry" || raw === "cavalry-of-the-marsh" || raw === "cavalry_of_the_marsh" || raw === "cavalry of the marsh" || raw === "cotm") return "cavalrymarsh";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

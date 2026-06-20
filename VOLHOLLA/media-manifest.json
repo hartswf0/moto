@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T14:58:18.444Z",
+  "generatedAt": "2026-06-20T20:24:14.152Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -12993,6 +12993,1114 @@
           "art": {
             "source": "GLOBAL STADIUM SUNSHINE/ChatGPT Image Jun 18, 2026, 10_45_35 AM.png",
             "derivatives": {}
+          }
+        }
+      ]
+    },
+    "cavalrymarsh": {
+      "key": "cavalrymarsh",
+      "label": "CAVALRY OF THE MARSH",
+      "subtitle": "Marsh cavalry / broken-vessel folk cards / winged field logic",
+      "pageSlug": "cavalry-of-the-marsh",
+      "hallKey": "cavalrymarsh",
+      "op2Key": "cavalrymarsh",
+      "op2Pair": "globalstadium",
+      "accentA": "#4f9b42",
+      "accentB": "#e2b866",
+      "cover": {
+        "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.jpg",
+            "webpBytes": 34114,
+            "jpegBytes": 65109,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.jpg",
+            "webpBytes": 87710,
+            "jpegBytes": 173247,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.jpg",
+            "webpBytes": 32016,
+            "jpegBytes": 65529,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.jpg",
+            "webpBytes": 38524,
+            "jpegBytes": 69910,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.jpg",
+            "webpBytes": 103842,
+            "jpegBytes": 189805,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.jpg",
+            "webpBytes": 35720,
+            "jpegBytes": 70157,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Afterlife",
+          "file": "Cavalry of the Marsh - Afterlife - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-01.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife - Treblo.ogg",
+            "durationSeconds": 257.190729,
+            "sourceBitRate": 102303,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife - Treblo--stream.mp3",
+                "bytes": 4116106,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife - Treblo--fallback.mp3",
+                "bytes": 2058075,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.jpg",
+                "webpBytes": 34114,
+                "jpegBytes": 65109,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.jpg",
+                "webpBytes": 87710,
+                "jpegBytes": 173247,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.jpg",
+                "webpBytes": 32016,
+                "jpegBytes": 65529,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "The Same Loaf",
+          "file": "Cavalry of the Marsh - The Same Loaf - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Same Loaf - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-02.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Same Loaf - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 103022,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Same Loaf - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Same Loaf - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Same Loaf - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.jpg",
+                "webpBytes": 38524,
+                "jpegBytes": 69910,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.jpg",
+                "webpBytes": 103842,
+                "jpegBytes": 189805,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.jpg",
+                "webpBytes": 35720,
+                "jpegBytes": 70157,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Broken Vessel Fragment",
+          "file": "Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-03.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 103198,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Fragment - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Fragment - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Fragment - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.jpg",
+                "webpBytes": 50164,
+                "jpegBytes": 92276,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.jpg",
+                "webpBytes": 108420,
+                "jpegBytes": 192267,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.jpg",
+                "webpBytes": 44642,
+                "jpegBytes": 89607,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Pure Language",
+          "file": "Cavalry of the Marsh - Pure Language - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Pure Language - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-04.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Pure Language - Treblo.ogg",
+            "durationSeconds": 236.385646,
+            "sourceBitRate": 102627,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Pure Language - Treblo--stream.mp3",
+                "bytes": 3782992,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Pure Language - Treblo--fallback.mp3",
+                "bytes": 1891518,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Pure Language - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.jpg",
+                "webpBytes": 46522,
+                "jpegBytes": 80747,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.jpg",
+                "webpBytes": 160150,
+                "jpegBytes": 254353,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.jpg",
+                "webpBytes": 42172,
+                "jpegBytes": 80861,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Broken Vessel Echoes",
+          "file": "Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-05.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg",
+            "durationSeconds": 179.12525,
+            "sourceBitRate": 104069,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Echoes - Treblo--stream.mp3",
+                "bytes": 2866826,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Echoes - Treblo--fallback.mp3",
+                "bytes": 1433435,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Broken Vessel Echoes - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.jpg",
+                "webpBytes": 32660,
+                "jpegBytes": 63851,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.jpg",
+                "webpBytes": 107538,
+                "jpegBytes": 182648,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.jpg",
+                "webpBytes": 30052,
+                "jpegBytes": 63270,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "The Colonnade",
+          "file": "Cavalry of the Marsh - The Colonnade - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Colonnade - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-06.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Colonnade - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 98133,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Colonnade - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Colonnade - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Colonnade - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.jpg",
+                "webpBytes": 34114,
+                "jpegBytes": 65109,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.jpg",
+                "webpBytes": 87710,
+                "jpegBytes": 173247,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.jpg",
+                "webpBytes": 32016,
+                "jpegBytes": 65529,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Wings of the Marsh",
+          "file": "Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-07.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg",
+            "durationSeconds": 179.728958,
+            "sourceBitRate": 104465,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Wings of the Marsh - Treblo--stream.mp3",
+                "bytes": 2876857,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Wings of the Marsh - Treblo--fallback.mp3",
+                "bytes": 1438450,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Wings of the Marsh - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.jpg",
+                "webpBytes": 38524,
+                "jpegBytes": 69910,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.jpg",
+                "webpBytes": 103842,
+                "jpegBytes": 189805,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.jpg",
+                "webpBytes": 35720,
+                "jpegBytes": 70157,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "The Host Tongue",
+          "file": "Cavalry of the Marsh - The Host Tongue - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Host Tongue - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-08.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Host Tongue - Treblo.ogg",
+            "durationSeconds": 209.636271,
+            "sourceBitRate": 103769,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Host Tongue - Treblo--stream.mp3",
+                "bytes": 3355002,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Host Tongue - Treblo--fallback.mp3",
+                "bytes": 1677523,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Host Tongue - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.jpg",
+                "webpBytes": 50164,
+                "jpegBytes": 92276,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.jpg",
+                "webpBytes": 108420,
+                "jpegBytes": 192267,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.jpg",
+                "webpBytes": 44642,
+                "jpegBytes": 89607,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Neural Network Rattle",
+          "file": "Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-09.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg",
+            "durationSeconds": 110.347729,
+            "sourceBitRate": 94284,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Neural Network Rattle - Treblo--stream.mp3",
+                "bytes": 1766339,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Neural Network Rattle - Treblo--fallback.mp3",
+                "bytes": 883191,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Neural Network Rattle - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.jpg",
+                "webpBytes": 46522,
+                "jpegBytes": 80747,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.jpg",
+                "webpBytes": 160150,
+                "jpegBytes": 254353,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.jpg",
+                "webpBytes": 42172,
+                "jpegBytes": 80861,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Raincoat Flex",
+          "file": "Cavalry of the Marsh - Raincoat Flex - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Raincoat Flex - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-10.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Raincoat Flex - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 100264,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Raincoat Flex - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Raincoat Flex - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Raincoat Flex - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.jpg",
+                "webpBytes": 32660,
+                "jpegBytes": 63851,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.jpg",
+                "webpBytes": 107538,
+                "jpegBytes": 182648,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.jpg",
+                "webpBytes": 30052,
+                "jpegBytes": 63270,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Two Mouths, One Loaf",
+          "file": "Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-11.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg",
+            "durationSeconds": 245.487875,
+            "sourceBitRate": 99814,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Two Mouths, One Loaf - Treblo--stream.mp3",
+                "bytes": 3928860,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Two Mouths, One Loaf - Treblo--fallback.mp3",
+                "bytes": 1964452,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Two Mouths, One Loaf - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.jpg",
+                "webpBytes": 34114,
+                "jpegBytes": 65109,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.jpg",
+                "webpBytes": 87710,
+                "jpegBytes": 173247,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.jpg",
+                "webpBytes": 32016,
+                "jpegBytes": 65529,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Rubber Soles on Sunset",
+          "file": "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-12.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 103326,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.jpg",
+                "webpBytes": 38524,
+                "jpegBytes": 69910,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.jpg",
+                "webpBytes": 103842,
+                "jpegBytes": 189805,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.jpg",
+                "webpBytes": 35720,
+                "jpegBytes": 70157,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Rubber Soles on Sunset (1)",
+          "file": "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-13.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg",
+            "durationSeconds": 280.689313,
+            "sourceBitRate": 97107,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1)--stream.mp3",
+                "bytes": 4491851,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1)--fallback.mp3",
+                "bytes": 2245947,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1)--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13).jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--thumb.jpg",
+                "webpBytes": 50164,
+                "jpegBytes": 92276,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--cover.jpg",
+                "webpBytes": 108420,
+                "jpegBytes": 192267,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/Gemini_Generated_Image_ (13)--share.jpg",
+                "webpBytes": 44642,
+                "jpegBytes": 89607,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Afterlife (Sunset Plastic)",
+          "file": "Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-14.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg",
+            "durationSeconds": 245.627188,
+            "sourceBitRate": 101776,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo--stream.mp3",
+                "bytes": 3930950,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo--fallback.mp3",
+                "bytes": 1965497,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--thumb.jpg",
+                "webpBytes": 46522,
+                "jpegBytes": 80747,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--cover.jpg",
+                "webpBytes": 160150,
+                "jpegBytes": 254353,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_40 PM--share.jpg",
+                "webpBytes": 42172,
+                "jpegBytes": 80861,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "The Art of Meaning (Das Gemeinte)",
+          "file": "Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-15.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg",
+            "durationSeconds": 30.053125,
+            "sourceBitRate": 107327,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo--stream.mp3",
+                "bytes": 481951,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo--fallback.mp3",
+                "bytes": 240997,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--thumb.jpg",
+                "webpBytes": 32660,
+                "jpegBytes": 63851,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--cover.jpg",
+                "webpBytes": 107538,
+                "jpegBytes": 182648,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_31 PM--share.jpg",
+                "webpBytes": 30052,
+                "jpegBytes": 63270,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Algorithmic Ghosting",
+          "file": "Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-16.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg",
+            "durationSeconds": 180.889958,
+            "sourceBitRate": 95259,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Algorithmic Ghosting - Treblo--stream.mp3",
+                "bytes": 2895247,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Algorithmic Ghosting - Treblo--fallback.mp3",
+                "bytes": 1447645,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Algorithmic Ghosting - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--thumb.jpg",
+                "webpBytes": 34114,
+                "jpegBytes": 65109,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--cover.jpg",
+                "webpBytes": 87710,
+                "jpegBytes": 173247,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_50_02 PM--share.jpg",
+                "webpBytes": 32016,
+                "jpegBytes": 65529,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "Fruit Beyond the Tree",
+          "file": "Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg",
+          "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-cavalrymarsh-17.html",
+          "audio": {
+            "source": "CAVALRY OF THE MARSH/Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg",
+            "durationSeconds": 240.147292,
+            "sourceBitRate": 104799,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Fruit Beyond the Tree - Treblo--stream.mp3",
+                "bytes": 3843178,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Fruit Beyond the Tree - Treblo--fallback.mp3",
+                "bytes": 1921611,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/CAVALRY OF THE MARSH/Cavalry of the Marsh - Fruit Beyond the Tree - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--thumb.jpg",
+                "webpBytes": 38524,
+                "jpegBytes": 69910,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--cover.jpg",
+                "webpBytes": 103842,
+                "jpegBytes": 189805,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/CAVALRY OF THE MARSH/ChatGPT Image Jun 20, 2026, 03_46_47 PM--share.jpg",
+                "webpBytes": 35720,
+                "jpegBytes": 70157,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
           }
         }
       ]
