@@ -313,6 +313,8 @@
         <option value="republicdrink">THE REPUBLIC SPILLED ITS DRINK</option>
         <option value="sanctuaryshake">SANCTUARY SHAKE</option>
         <option value="globalstadium">GLOBAL STADIUM SUNSHINE</option>
+        <option value="cavalrymarsh">CAVALRY OF THE MARSH</option>
+        <option value="midnightsteppe">MIDNIGHT OVER THE STEPPE</option>
       </select>
     </div>
 
@@ -366,7 +368,7 @@ const QP = new URLSearchParams(location.search);
 const EMBED = QP.get('embed') === '1';
 const INITIAL_CRATE = (() => {
   const k = (QP.get('album') || QP.get('crate') || 'loom').toLowerCase();
-  return ['loom','elephant','moto','volholla','maquina','blackwater','doppler','aeolian','chapelring','republicdrink','sanctuaryshake','globalstadium','heishui'].includes(k) ? k : 'loom';
+  return ['loom','elephant','moto','volholla','maquina','blackwater','doppler','aeolian','chapelring','republicdrink','sanctuaryshake','globalstadium','cavalrymarsh','midnightsteppe','heishui'].includes(k) ? k : 'loom';
 })();
 const INITIAL_BPM = (() => {
   const n = Number(QP.get('bpm'));
@@ -394,6 +396,8 @@ const ALBUM_CRATE_DEFS = {
   republicdrink: { label: 'THE REPUBLIC SPILLED ITS DRINK', basePath: 'THE REPUBLIC SPILLED ITS DRINK/', files: ["The Republic Spilled Its Drink - Bring the Bucket (Strange Light Encounter) - Treblo.ogg", "The Republic Spilled Its Drink - Ordinary Magic - Treblo.ogg", "The Republic Spilled Its Drink - Wrong Road (Strange Light Encounter) - Treblo.ogg"] },
   sanctuaryshake: { label: 'SANCTUARY SHAKE', basePath: 'SANCTUARY SHAKE/', files: ["Sanctuary Shake - 1891 to MSG - Treblo.ogg", "Sanctuary Shake - Cathedral Redemption - Treblo.ogg", "Sanctuary Shake - The Peach Basket Drop - Treblo.ogg"] },
   globalstadium: { label: 'GLOBAL STADIUM SUNSHINE', basePath: 'GLOBAL STADIUM SUNSHINE/', files: ["Global Stadium Sunshine - Joga Pirate Broadcast - Treblo (1).ogg", "Global Stadium Sunshine - O Jogo Bonito - Treblo (1).ogg", "Global Stadium Sunshine - Unity Pitch - Treblo (3).ogg"] },
+  cavalrymarsh: { label: 'CAVALRY OF THE MARSH', basePath: 'CAVALRY OF THE MARSH/', files: ["Cavalry of the Marsh - Afterlife - Treblo.ogg", "Cavalry of the Marsh - The Same Loaf - Treblo.ogg", "Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg", "Cavalry of the Marsh - Pure Language - Treblo.ogg", "Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg", "Cavalry of the Marsh - The Colonnade - Treblo.ogg", "Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg", "Cavalry of the Marsh - The Host Tongue - Treblo.ogg", "Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg", "Cavalry of the Marsh - Raincoat Flex - Treblo.ogg", "Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg", "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg", "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg", "Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg", "Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg", "Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg", "Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg"] },
+  midnightsteppe: { label: 'MIDNIGHT OVER THE STEPPE', basePath: 'MIDNIGHT OVER THE STEPPE/', files: ["Midnight Over the Steppe - Beautiful Low Ground - Treblo.ogg", "Midnight Over the Steppe - Cached Fragment 3381 - Treblo.ogg", "Midnight Over the Steppe - Cathedral in the Delay Tank - Treblo.ogg", "Midnight Over the Steppe - Groove Paradox - Treblo.ogg", "Midnight Over the Steppe - I Thought We Would Be Here - Treblo.ogg", "Midnight Over the Steppe - Infinite Echo Machine - Treblo.ogg", "Midnight Over the Steppe - Midnight Drift - Treblo.ogg", "Midnight Over the Steppe - Nombre de Tierra - Treblo.ogg", "Midnight Over the Steppe - Porch Light Version - Treblo.ogg", "Midnight Over the Steppe - Private Evidence - Treblo.ogg", "Midnight Over the Steppe - Spatial Absence - Treblo.ogg", "Midnight Over the Steppe - Strip Shadows - Treblo.ogg", "Midnight Over the Steppe - The Crowd Remembers Tomorrow - Treblo.ogg", "Midnight Over the Steppe - The Infinite Pocket - Treblo.ogg", "Midnight Over the Steppe - Trench Drift - Treblo.ogg", "Midnight Over the Steppe - Velvet Shame and Shellac Fog - Treblo.ogg", "Midnight Over the Steppe - When the Soul Becomes People - Treblo.ogg"] },
   heishui: { label: '黑水奔流', basePath: '黑水奔流/', files: ["Black Water Run - Chinese Good Man - Sonauto.ogg", "Black Water Run - 因果律动 (Yinguo Rhythm) - Sonauto.ogg", "Black Water Run - 消散 (Dissipation) - Sonauto.ogg"] }
 };
 

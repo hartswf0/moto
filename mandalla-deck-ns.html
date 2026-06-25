@@ -276,6 +276,8 @@
         { key: 'republicdrink', label: 'RPSD' },
         { key: 'sanctuaryshake', label: 'SNCT' },
         { key: 'globalstadium', label: 'GSS' },
+        { key: 'cavalrymarsh', label: 'CAV' },
+        { key: 'midnightsteppe', label: 'STEP' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -364,6 +366,10 @@
             ? 'sanctuaryshake'
           : raw === 'globalstadium' || raw === 'global' || raw === 'stadium' || raw === 'global-stadium-sunshine' || raw === 'global_stadium_sunshine' || raw === 'global stadium sunshine' || raw === 'gss'
             ? 'globalstadium'
+          : raw === 'cavalrymarsh' || raw === 'cavalry' || raw === 'marshcavalry' || raw === 'cavalry-of-the-marsh' || raw === 'cavalry_of_the_marsh' || raw === 'cavalry of the marsh' || raw === 'cotm'
+            ? 'cavalrymarsh'
+          : raw === 'midnightsteppe' || raw === 'midnight' || raw === 'steppe' || raw === 'midnight-over-the-steppe' || raw === 'midnight_over_the_steppe' || raw === 'midnight over the steppe' || raw === 'mots'
+            ? 'midnightsteppe'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

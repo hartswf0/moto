@@ -2102,6 +2102,58 @@
         "Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg"
       ]
     },
+    midnightsteppe: {
+      key: "midnightsteppe",
+      pageSlug: "midnight-over-the-steppe",
+      basePath: "../MIDNIGHT OVER THE STEPPE/",
+      label: "MIDNIGHT OVER THE STEPPE",
+      subtitle: "Star-field steppe / shellac memory / low-ground midnight drift",
+      accentA: "#9fc7ff",
+      accentB: "#e8d7ad",
+      coverImage: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png",
+      defaultTrackArt: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_36 PM.png",
+      trackArtByIndex: {
+        0: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png",
+        1: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_36 PM.png",
+        2: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_09 PM.png",
+        3: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_51 PM.png",
+        4: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png",
+        5: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_36 PM.png",
+        6: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_09 PM.png",
+        7: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_51 PM.png",
+        8: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png",
+        9: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_36 PM.png",
+        10: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_09 PM.png",
+        11: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_51 PM.png",
+        12: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png",
+        13: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_36 PM.png",
+        14: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_09 PM.png",
+        15: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 05_00_51 PM.png",
+        16: "../MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM.png"
+      },
+      hallKey: "midnightsteppe",
+      op2Key: "midnightsteppe",
+      op2Pair: "cavalrymarsh",
+      files: [
+        "Midnight Over the Steppe - Beautiful Low Ground - Treblo.ogg",
+        "Midnight Over the Steppe - Cached Fragment 3381 - Treblo.ogg",
+        "Midnight Over the Steppe - Cathedral in the Delay Tank - Treblo.ogg",
+        "Midnight Over the Steppe - Groove Paradox - Treblo.ogg",
+        "Midnight Over the Steppe - I Thought We Would Be Here - Treblo.ogg",
+        "Midnight Over the Steppe - Infinite Echo Machine - Treblo.ogg",
+        "Midnight Over the Steppe - Midnight Drift - Treblo.ogg",
+        "Midnight Over the Steppe - Nombre de Tierra - Treblo.ogg",
+        "Midnight Over the Steppe - Porch Light Version - Treblo.ogg",
+        "Midnight Over the Steppe - Private Evidence - Treblo.ogg",
+        "Midnight Over the Steppe - Spatial Absence - Treblo.ogg",
+        "Midnight Over the Steppe - Strip Shadows - Treblo.ogg",
+        "Midnight Over the Steppe - The Crowd Remembers Tomorrow - Treblo.ogg",
+        "Midnight Over the Steppe - The Infinite Pocket - Treblo.ogg",
+        "Midnight Over the Steppe - Trench Drift - Treblo.ogg",
+        "Midnight Over the Steppe - Velvet Shame and Shellac Fog - Treblo.ogg",
+        "Midnight Over the Steppe - When the Soul Becomes People - Treblo.ogg"
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2175,6 +2227,7 @@
     .replace(/^sanctuary shake\s*-\s*/i, "")
     .replace(/^global stadium sunshine\s*-\s*/i, "")
     .replace(/^cavalry of the marsh\s*-\s*/i, "")
+    .replace(/^midnight over the steppe\s*-\s*/i, "")
       .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2311,6 +2364,9 @@
     }
     if (raw === "cavalrymarsh" || raw === "cavalry" || raw === "marshcavalry" || raw === "cavalry-of-the-marsh" || raw === "cavalry_of_the_marsh" || raw === "cavalry of the marsh" || raw === "cotm") {
       return "cavalrymarsh";
+    }
+    if (raw === "midnightsteppe" || raw === "midnight" || raw === "steppe" || raw === "midnight-over-the-steppe" || raw === "midnight_over_the_steppe" || raw === "midnight over the steppe" || raw === "mots") {
+      return "midnightsteppe";
     }
     if (raw === "emptyfields" || raw === "empty" || raw === "empty-are-the-fields" || raw === "empty_are_the_fields" || raw === "empty are the fields" || raw === "eatf") {
       return "emptyfields";

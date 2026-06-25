@@ -1319,6 +1319,58 @@
                     "Global Stadium Sunshine - Unity Pitch - Treblo (3).ogg"
                 ]
             },
+            cavalrymarsh: {
+                key: 'cavalrymarsh',
+                label: 'CAVALRY OF THE MARSH',
+                short: 'CAV',
+                basePath: 'CAVALRY OF THE MARSH/',
+                logic: 'Cavalry Marsh Relay',
+                files: [
+                    "Cavalry of the Marsh - Afterlife - Treblo.ogg",
+                    "Cavalry of the Marsh - The Same Loaf - Treblo.ogg",
+                    "Cavalry of the Marsh - Broken Vessel Fragment - Treblo.ogg",
+                    "Cavalry of the Marsh - Pure Language - Treblo.ogg",
+                    "Cavalry of the Marsh - Broken Vessel Echoes - Treblo.ogg",
+                    "Cavalry of the Marsh - The Colonnade - Treblo.ogg",
+                    "Cavalry of the Marsh - Wings of the Marsh - Treblo.ogg",
+                    "Cavalry of the Marsh - The Host Tongue - Treblo.ogg",
+                    "Cavalry of the Marsh - Neural Network Rattle - Treblo.ogg",
+                    "Cavalry of the Marsh - Raincoat Flex - Treblo.ogg",
+                    "Cavalry of the Marsh - Two Mouths, One Loaf - Treblo.ogg",
+                    "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo.ogg",
+                    "Cavalry of the Marsh - Rubber Soles on Sunset - Treblo (1).ogg",
+                    "Cavalry of the Marsh - Afterlife (Sunset Plastic) - Treblo.ogg",
+                    "Cavalry of the Marsh - The Art of Meaning (Das Gemeinte) - Treblo.ogg",
+                    "Cavalry of the Marsh - Algorithmic Ghosting - Treblo.ogg",
+                    "Cavalry of the Marsh - Fruit Beyond the Tree - Treblo.ogg"
+                ]
+            },
+            midnightsteppe: {
+                key: 'midnightsteppe',
+                label: 'MIDNIGHT OVER THE STEPPE',
+                short: 'STEP',
+                basePath: 'MIDNIGHT OVER THE STEPPE/',
+                logic: 'Midnight Steppe Relay',
+                files: [
+                    "Midnight Over the Steppe - Beautiful Low Ground - Treblo.ogg",
+                    "Midnight Over the Steppe - Cached Fragment 3381 - Treblo.ogg",
+                    "Midnight Over the Steppe - Cathedral in the Delay Tank - Treblo.ogg",
+                    "Midnight Over the Steppe - Groove Paradox - Treblo.ogg",
+                    "Midnight Over the Steppe - I Thought We Would Be Here - Treblo.ogg",
+                    "Midnight Over the Steppe - Infinite Echo Machine - Treblo.ogg",
+                    "Midnight Over the Steppe - Midnight Drift - Treblo.ogg",
+                    "Midnight Over the Steppe - Nombre de Tierra - Treblo.ogg",
+                    "Midnight Over the Steppe - Porch Light Version - Treblo.ogg",
+                    "Midnight Over the Steppe - Private Evidence - Treblo.ogg",
+                    "Midnight Over the Steppe - Spatial Absence - Treblo.ogg",
+                    "Midnight Over the Steppe - Strip Shadows - Treblo.ogg",
+                    "Midnight Over the Steppe - The Crowd Remembers Tomorrow - Treblo.ogg",
+                    "Midnight Over the Steppe - The Infinite Pocket - Treblo.ogg",
+                    "Midnight Over the Steppe - Trench Drift - Treblo.ogg",
+                    "Midnight Over the Steppe - Velvet Shame and Shellac Fog - Treblo.ogg",
+                    "Midnight Over the Steppe - When the Soul Becomes People - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -2017,6 +2069,8 @@
                 .replace(/^the republic spilled its drink\s*-\s*/i, '')
                 .replace(/^sanctuary shake\s*-\s*/i, '')
                 .replace(/^global stadium sunshine\s*-\s*/i, '')
+                .replace(/^cavalry of the marsh\s*-\s*/i, '')
+                .replace(/^midnight over the steppe\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -2078,6 +2132,8 @@
             if (v === 'republicdrink' || v === 'republic' || v === 'republic-spilled-its-drink' || v === 'republic_spilled_its_drink' || v === 'the republic spilled its drink' || v === 'trsid' || v === 'rsid') return 'republicdrink';
             if (v === 'sanctuaryshake' || v === 'sanctuary' || v === 'sanctuary-shake' || v === 'sanctuary_shake' || v === 'sanctuary shake' || v === 'ss') return 'sanctuaryshake';
             if (v === 'globalstadium' || v === 'global' || v === 'stadium' || v === 'global-stadium-sunshine' || v === 'global_stadium_sunshine' || v === 'global stadium sunshine' || v === 'gss') return 'globalstadium';
+            if (v === 'cavalrymarsh' || v === 'cavalry' || v === 'marshcavalry' || v === 'cavalry-of-the-marsh' || v === 'cavalry_of_the_marsh' || v === 'cavalry of the marsh' || v === 'cotm') return 'cavalrymarsh';
+            if (v === 'midnightsteppe' || v === 'midnight' || v === 'steppe' || v === 'midnight-over-the-steppe' || v === 'midnight_over_the_steppe' || v === 'midnight over the steppe' || v === 'mots') return 'midnightsteppe';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

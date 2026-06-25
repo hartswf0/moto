@@ -47,6 +47,7 @@ export function titleFromFilename(file) {
     .replace(/^sanctuary shake\s*-\s*/i, "")
     .replace(/^global stadium sunshine\s*-\s*/i, "")
     .replace(/^cavalry of the marsh\s*-\s*/i, "")
+    .replace(/^midnight over the steppe\s*-\s*/i, "")
     .replace(/^\d{1,2}[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
