@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:13:55.424Z",
+  "generatedAt": "2026-06-28T17:47:56.869Z",
   "outputRoot": "MEDIA_DERIVATIVES/audio",
   "profiles": {
     "stream": {
@@ -1539,6 +1539,1031 @@
         },
         "preview": {
           "mp3": "MEDIA_DERIVATIVES/audio/MIDNIGHT OVER THE STEPPE/Midnight Over the Steppe - When the Soul Becomes People - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+      "durationSeconds": 260.348646,
+      "sourceBitRate": 94426,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--stream.mp3",
+          "bytes": 4166679,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--fallback.mp3",
+          "bytes": 2083361,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+      "durationSeconds": 281.478792,
+      "sourceBitRate": 101030,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--stream.mp3",
+          "bytes": 4504808,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--fallback.mp3",
+          "bytes": 2252426,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+      "durationSeconds": 256.540563,
+      "sourceBitRate": 104573,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--stream.mp3",
+          "bytes": 4105657,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--fallback.mp3",
+          "bytes": 2052850,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+      "durationSeconds": 205.503104,
+      "sourceBitRate": 105640,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--stream.mp3",
+          "bytes": 3288964,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--fallback.mp3",
+          "bytes": 1644504,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+      "durationSeconds": 258.955438,
+      "sourceBitRate": 98281,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--stream.mp3",
+          "bytes": 4144109,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--fallback.mp3",
+          "bytes": 2072076,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+      "durationSeconds": 277.577854,
+      "sourceBitRate": 97903,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--stream.mp3",
+          "bytes": 4442114,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--fallback.mp3",
+          "bytes": 2221079,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+      "durationSeconds": 36.229646,
+      "sourceBitRate": 99318,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--stream.mp3",
+          "bytes": 580589,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--fallback.mp3",
+          "bytes": 290316,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+      "durationSeconds": 243.862479,
+      "sourceBitRate": 108040,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--stream.mp3",
+          "bytes": 3902946,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--fallback.mp3",
+          "bytes": 1951495,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+      "durationSeconds": 31.585646,
+      "sourceBitRate": 104155,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--stream.mp3",
+          "bytes": 506192,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--fallback.mp3",
+          "bytes": 253118,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+      "durationSeconds": 143.087875,
+      "sourceBitRate": 97862,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--stream.mp3",
+          "bytes": 2290460,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--fallback.mp3",
+          "bytes": 1145252,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+      "durationSeconds": 162.128229,
+      "sourceBitRate": 98575,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--stream.mp3",
+          "bytes": 2595152,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--fallback.mp3",
+          "bytes": 1297598,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+      "durationSeconds": 283.940125,
+      "sourceBitRate": 95574,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--stream.mp3",
+          "bytes": 4544096,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--fallback.mp3",
+          "bytes": 2272070,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo.ogg",
+      "durationSeconds": 255.286688,
+      "sourceBitRate": 97890,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--stream.mp3",
+          "bytes": 4085595,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--fallback.mp3",
+          "bytes": 2042819,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+      "durationSeconds": 284.265188,
+      "sourceBitRate": 96265,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--stream.mp3",
+          "bytes": 4549111,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--fallback.mp3",
+          "bytes": 2274577,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo.ogg",
+      "durationSeconds": 105.935938,
+      "sourceBitRate": 83258,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--stream.mp3",
+          "bytes": 1696122,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--fallback.mp3",
+          "bytes": 848083,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+      "durationSeconds": 217.716813,
+      "sourceBitRate": 105567,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--stream.mp3",
+          "bytes": 3484569,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--fallback.mp3",
+          "bytes": 1742306,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+      "durationSeconds": 205.317354,
+      "sourceBitRate": 99036,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--stream.mp3",
+          "bytes": 3286039,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--fallback.mp3",
+          "bytes": 1643041,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+      "durationSeconds": 160.827917,
+      "sourceBitRate": 106739,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--stream.mp3",
+          "bytes": 2574254,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--fallback.mp3",
+          "bytes": 1287149,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+      "durationSeconds": 271.819292,
+      "sourceBitRate": 91651,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--stream.mp3",
+          "bytes": 4350163,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--fallback.mp3",
+          "bytes": 2175103,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+      "durationSeconds": 198.537125,
+      "sourceBitRate": 100774,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--stream.mp3",
+          "bytes": 3177787,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--fallback.mp3",
+          "bytes": 1588915,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo.ogg",
+      "durationSeconds": 164.82175,
+      "sourceBitRate": 104324,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--stream.mp3",
+          "bytes": 2638202,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--fallback.mp3",
+          "bytes": 1319123,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+      "durationSeconds": 196.029375,
+      "sourceBitRate": 98860,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--stream.mp3",
+          "bytes": 3137663,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--fallback.mp3",
+          "bytes": 1568853,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 110436,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--stream.mp3",
+          "bytes": 4560396,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--fallback.mp3",
+          "bytes": 2280220,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+      "durationSeconds": 216.323604,
+      "sourceBitRate": 96924,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--stream.mp3",
+          "bytes": 3461999,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--fallback.mp3",
+          "bytes": 1731021,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo.ogg",
+      "durationSeconds": 164.403792,
+      "sourceBitRate": 100026,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--stream.mp3",
+          "bytes": 2631515,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--fallback.mp3",
+          "bytes": 1315779,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+      "durationSeconds": 146.106458,
+      "sourceBitRate": 101333,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--stream.mp3",
+          "bytes": 2338525,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--fallback.mp3",
+          "bytes": 1169284,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+      "durationSeconds": 282.407604,
+      "sourceBitRate": 108020,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--stream.mp3",
+          "bytes": 4519436,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--fallback.mp3",
+          "bytes": 2259740,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+      "durationSeconds": 168.30475,
+      "sourceBitRate": 110378,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--stream.mp3",
+          "bytes": 2693791,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--fallback.mp3",
+          "bytes": 1346917,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 98060,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--stream.mp3",
+          "bytes": 4560396,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--fallback.mp3",
+          "bytes": 2280220,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 100321,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--stream.mp3",
+          "bytes": 4560396,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--fallback.mp3",
+          "bytes": 2280220,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+      "durationSeconds": 197.422563,
+      "sourceBitRate": 100787,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--stream.mp3",
+          "bytes": 3159815,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--fallback.mp3",
+          "bytes": 1579929,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo.ogg",
+      "durationSeconds": 261.091688,
+      "sourceBitRate": 96901,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--stream.mp3",
+          "bytes": 4178382,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--fallback.mp3",
+          "bytes": 2089213,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+      "durationSeconds": 195.843604,
+      "sourceBitRate": 95173,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--stream.mp3",
+          "bytes": 3134319,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--fallback.mp3",
+          "bytes": 1567181,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+      "durationSeconds": 247.995625,
+      "sourceBitRate": 94898,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--stream.mp3",
+          "bytes": 3968984,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--fallback.mp3",
+          "bytes": 1984514,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+      "durationSeconds": 198.862208,
+      "sourceBitRate": 99924,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--stream.mp3",
+          "bytes": 3182803,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--fallback.mp3",
+          "bytes": 1591423,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+      "durationSeconds": 199.187292,
+      "sourceBitRate": 96645,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--stream.mp3",
+          "bytes": 3187818,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--fallback.mp3",
+          "bytes": 1593931,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 107383,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--stream.mp3",
+          "bytes": 4560396,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--fallback.mp3",
+          "bytes": 2280220,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+      "durationSeconds": 266.200063,
+      "sourceBitRate": 98576,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--stream.mp3",
+          "bytes": 4260302,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--fallback.mp3",
+          "bytes": 2130173,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+      "durationSeconds": 100.316708,
+      "sourceBitRate": 104796,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--stream.mp3",
+          "bytes": 1605843,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--fallback.mp3",
+          "bytes": 802943,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+      "durationSeconds": 265.457042,
+      "sourceBitRate": 111001,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--stream.mp3",
+          "bytes": 4248181,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--fallback.mp3",
+          "bytes": 2124112,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--preview.mp3",
+          "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg": {
+      "source": "BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg",
+      "durationSeconds": 279.249688,
+      "sourceBitRate": 99385,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--stream.mp3",
+          "bytes": 4468863,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--fallback.mp3",
+          "bytes": 2234453,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--preview.mp3",
           "bytes": 180498,
           "bitrate": "48k",
           "previewSeconds": 30

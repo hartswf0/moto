@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:18:53.625Z",
+  "generatedAt": "2026-06-28T17:59:40.617Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -15205,6 +15205,2578 @@
                 "jpeg": "MEDIA_DERIVATIVES/images/MIDNIGHT OVER THE STEPPE/ChatGPT Image Jun 25, 2026, 04_59_50 PM--share.jpg",
                 "webpBytes": 51998,
                 "jpegBytes": 75418,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "brooklynomen": {
+      "key": "brooklynomen",
+      "label": "BROOKLYN OMEN",
+      "subtitle": "Red-sky omen / locked-room soul / borough shadow transmission",
+      "pageSlug": "brooklyn-omen",
+      "hallKey": "brooklynomen",
+      "op2Key": "brooklynomen",
+      "op2Pair": "midnightsteppe",
+      "accentA": "#d71914",
+      "accentB": "#f4f0df",
+      "cover": {
+        "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+            "webpBytes": 22078,
+            "jpegBytes": 63512,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+            "webpBytes": 69460,
+            "jpegBytes": 161974,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+            "webpBytes": 20952,
+            "jpegBytes": 64421,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+            "webpBytes": 37318,
+            "jpegBytes": 89408,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+            "webpBytes": 137910,
+            "jpegBytes": 263740,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+            "webpBytes": 32372,
+            "jpegBytes": 83130,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Assistant, Don't Get Promoted",
+          "file": "Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-01.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+            "durationSeconds": 260.348646,
+            "sourceBitRate": 94426,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--stream.mp3",
+                "bytes": 4166679,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--fallback.mp3",
+                "bytes": 2083361,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Assistant, Don't Get Promoted - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Behind Locked Doors",
+          "file": "Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-02.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+            "durationSeconds": 281.478792,
+            "sourceBitRate": 101030,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--stream.mp3",
+                "bytes": 4504808,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--fallback.mp3",
+                "bytes": 2252426,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Behind Locked Doors - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Black Sedan Victory",
+          "file": "Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-03.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+            "durationSeconds": 256.540563,
+            "sourceBitRate": 104573,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--stream.mp3",
+                "bytes": 4105657,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--fallback.mp3",
+                "bytes": 2052850,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Black Sedan Victory - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Bloodlines Around the Table",
+          "file": "Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-04.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+            "durationSeconds": 205.503104,
+            "sourceBitRate": 105640,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--stream.mp3",
+                "bytes": 3288964,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--fallback.mp3",
+                "bytes": 1644504,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines Around the Table - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Bloodlines at the Table",
+          "file": "Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-05.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+            "durationSeconds": 258.955438,
+            "sourceBitRate": 98281,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--stream.mp3",
+                "bytes": 4144109,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--fallback.mp3",
+                "bytes": 2072076,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bloodlines at the Table - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Bunker Reassurance Mechanism",
+          "file": "Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-06.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+            "durationSeconds": 277.577854,
+            "sourceBitRate": 97903,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--stream.mp3",
+                "bytes": 4442114,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--fallback.mp3",
+                "bytes": 2221079,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Bunker Reassurance Mechanism - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Chrome Funk Mirage",
+          "file": "Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-07.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+            "durationSeconds": 36.229646,
+            "sourceBitRate": 99318,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--stream.mp3",
+                "bytes": 580589,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--fallback.mp3",
+                "bytes": 290316,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Chrome Funk Mirage - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Crown Through the Windshield",
+          "file": "Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-08.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+            "durationSeconds": 243.862479,
+            "sourceBitRate": 108040,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--stream.mp3",
+                "bytes": 3902946,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--fallback.mp3",
+                "bytes": 1951495,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Crown Through the Windshield - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Empty Soundstage Blues",
+          "file": "Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-09.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+            "durationSeconds": 31.585646,
+            "sourceBitRate": 104155,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--stream.mp3",
+                "bytes": 506192,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--fallback.mp3",
+                "bytes": 253118,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Empty Soundstage Blues - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Enclosure of Dreams",
+          "file": "Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-10.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+            "durationSeconds": 143.087875,
+            "sourceBitRate": 97862,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--stream.mp3",
+                "bytes": 2290460,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--fallback.mp3",
+                "bytes": 1145252,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Enclosure of Dreams - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Father, Can You Hear Me",
+          "file": "Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-11.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+            "durationSeconds": 162.128229,
+            "sourceBitRate": 98575,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--stream.mp3",
+                "bytes": 2595152,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--fallback.mp3",
+                "bytes": 1297598,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Father, Can You Hear Me - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Four Voices One Table",
+          "file": "Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-12.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+            "durationSeconds": 283.940125,
+            "sourceBitRate": 95574,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--stream.mp3",
+                "bytes": 4544096,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--fallback.mp3",
+                "bytes": 2272070,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Four Voices One Table - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Friction on the Record",
+          "file": "Brooklyn Omen - Friction on the Record - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-13.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo.ogg",
+            "durationSeconds": 255.286688,
+            "sourceBitRate": 97890,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--stream.mp3",
+                "bytes": 4085595,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--fallback.mp3",
+                "bytes": 2042819,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Friction on the Record - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Get Ready (The Remix)",
+          "file": "Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-14.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+            "durationSeconds": 284.265188,
+            "sourceBitRate": 96265,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--stream.mp3",
+                "bytes": 4549111,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--fallback.mp3",
+                "bytes": 2274577,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Get Ready (The Remix) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Getting Close",
+          "file": "Brooklyn Omen - Getting Close - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-15.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo.ogg",
+            "durationSeconds": 105.935938,
+            "sourceBitRate": 83258,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--stream.mp3",
+                "bytes": 1696122,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--fallback.mp3",
+                "bytes": 848083,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Getting Close - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Jersey City Shadow",
+          "file": "Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-16.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+            "durationSeconds": 217.716813,
+            "sourceBitRate": 105567,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--stream.mp3",
+                "bytes": 3484569,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--fallback.mp3",
+                "bytes": 1742306,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Jersey City Shadow - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "Labor Soul Indictment",
+          "file": "Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-17.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+            "durationSeconds": 205.317354,
+            "sourceBitRate": 99036,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--stream.mp3",
+                "bytes": 3286039,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--fallback.mp3",
+                "bytes": 1643041,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Labor Soul Indictment - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "Last Transmission Bloom",
+          "file": "Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-18.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+            "durationSeconds": 160.827917,
+            "sourceBitRate": 106739,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--stream.mp3",
+                "bytes": 2574254,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--fallback.mp3",
+                "bytes": 1287149,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Last Transmission Bloom - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "Lean Wit It, Rock Wit It",
+          "file": "Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-19.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+            "durationSeconds": 271.819292,
+            "sourceBitRate": 91651,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--stream.mp3",
+                "bytes": 4350163,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--fallback.mp3",
+                "bytes": 2175103,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Midnight Sabotage",
+          "file": "Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-20.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+            "durationSeconds": 198.537125,
+            "sourceBitRate": 100774,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--stream.mp3",
+                "bytes": 3177787,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--fallback.mp3",
+                "bytes": 1588915,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Midnight Sabotage - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "No Promotion Today",
+          "file": "Brooklyn Omen - No Promotion Today - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-21.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo.ogg",
+            "durationSeconds": 164.82175,
+            "sourceBitRate": 104324,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--stream.mp3",
+                "bytes": 2638202,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--fallback.mp3",
+                "bytes": 1319123,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - No Promotion Today - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "Nobody Was Missing",
+          "file": "Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-22.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+            "durationSeconds": 196.029375,
+            "sourceBitRate": 98860,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--stream.mp3",
+                "bytes": 3137663,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--fallback.mp3",
+                "bytes": 1568853,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Nobody Was Missing - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "Ordinary Gratitude",
+          "file": "Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-23.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 110436,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Ordinary Gratitude - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "Poolside Pressure",
+          "file": "Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-24.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+            "durationSeconds": 216.323604,
+            "sourceBitRate": 96924,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--stream.mp3",
+                "bytes": 3461999,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--fallback.mp3",
+                "bytes": 1731021,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Pressure - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "Poolside Static",
+          "file": "Brooklyn Omen - Poolside Static - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-25.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo.ogg",
+            "durationSeconds": 164.403792,
+            "sourceBitRate": 100026,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--stream.mp3",
+                "bytes": 2631515,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--fallback.mp3",
+                "bytes": 1315779,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Poolside Static - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "Resolved Dependency (Madea's Underworld)",
+          "file": "Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-26.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+            "durationSeconds": 282.407604,
+            "sourceBitRate": 108020,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--stream.mp3",
+                "bytes": 4519436,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--fallback.mp3",
+                "bytes": 2259740,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "Resolved Dependency (The Empty Department)",
+          "file": "Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-27.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+            "durationSeconds": 168.30475,
+            "sourceBitRate": 110378,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--stream.mp3",
+                "bytes": 2693791,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--fallback.mp3",
+                "bytes": 1346917,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "Resolved Dependency",
+          "file": "Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-28.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+            "durationSeconds": 146.106458,
+            "sourceBitRate": 101333,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--stream.mp3",
+                "bytes": 2338525,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--fallback.mp3",
+                "bytes": 1169284,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Resolved Dependency - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "Sanctuary After the Breaking",
+          "file": "Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-29.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 98060,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sanctuary After the Breaking - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "Sunlight Through the Screen Door",
+          "file": "Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-30.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 100321,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Sunlight Through the Screen Door - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "Table Talk (Uncensored)",
+          "file": "Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-31.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+            "durationSeconds": 197.422563,
+            "sourceBitRate": 100787,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--stream.mp3",
+                "bytes": 3159815,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--fallback.mp3",
+                "bytes": 1579929,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Table Talk (Uncensored) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "The Book of Names",
+          "file": "Brooklyn Omen - The Book of Names - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-32.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo.ogg",
+            "durationSeconds": 261.091688,
+            "sourceBitRate": 96901,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--stream.mp3",
+                "bytes": 4178382,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--fallback.mp3",
+                "bytes": 2089213,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Book of Names - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "The Bunker Singalong",
+          "file": "Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-33.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+            "durationSeconds": 195.843604,
+            "sourceBitRate": 95173,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--stream.mp3",
+                "bytes": 3134319,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--fallback.mp3",
+                "bytes": 1567181,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Bunker Singalong - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "The Empty Soundstage",
+          "file": "Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-34.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+            "durationSeconds": 247.995625,
+            "sourceBitRate": 94898,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--stream.mp3",
+                "bytes": 3968984,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--fallback.mp3",
+                "bytes": 1984514,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Empty Soundstage - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "The Long Table Sermon",
+          "file": "Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-35.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+            "durationSeconds": 198.862208,
+            "sourceBitRate": 99924,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--stream.mp3",
+                "bytes": 3182803,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--fallback.mp3",
+                "bytes": 1591423,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Long Table Sermon - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "The Machine Instruction",
+          "file": "Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-36.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+            "durationSeconds": 199.187292,
+            "sourceBitRate": 96645,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--stream.mp3",
+                "bytes": 3187818,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--fallback.mp3",
+                "bytes": 1593931,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - The Machine Instruction - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 37,
+          "title": "Transmission Final Credits",
+          "file": "Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-37.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 107383,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--stream.mp3",
+                "bytes": 4560396,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--fallback.mp3",
+                "bytes": 2280220,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Transmission Final Credits - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 38,
+          "title": "What Happened to Everybody",
+          "file": "Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-38.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+            "durationSeconds": 266.200063,
+            "sourceBitRate": 98576,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--stream.mp3",
+                "bytes": 4260302,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--fallback.mp3",
+                "bytes": 2130173,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - What Happened to Everybody_ - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 39,
+          "title": "Who Is We  (The Perfect Copy)",
+          "file": "Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-39.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+            "durationSeconds": 100.316708,
+            "sourceBitRate": 104796,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--stream.mp3",
+                "bytes": 1605843,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--fallback.mp3",
+                "bytes": 802943,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--thumb.jpg",
+                "webpBytes": 37318,
+                "jpegBytes": 89408,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--cover.jpg",
+                "webpBytes": 137910,
+                "jpegBytes": 263740,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM--share.jpg",
+                "webpBytes": 32372,
+                "jpegBytes": 83130,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 40,
+          "title": "Who Made Madea",
+          "file": "Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-40.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+            "durationSeconds": 265.457042,
+            "sourceBitRate": 111001,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--stream.mp3",
+                "bytes": 4248181,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--fallback.mp3",
+                "bytes": 2124112,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - Who Made Madea_ - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--thumb.jpg",
+                "webpBytes": 22078,
+                "jpegBytes": 63512,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--cover.jpg",
+                "webpBytes": 69460,
+                "jpegBytes": 161974,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM--share.jpg",
+                "webpBytes": 20952,
+                "jpegBytes": 64421,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 41,
+          "title": "You for Me (The Wedding Song)",
+          "file": "Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg",
+          "source": "BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brooklynomen-41.html",
+          "audio": {
+            "source": "BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg",
+            "durationSeconds": 279.249688,
+            "sourceBitRate": 99385,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--stream.mp3",
+                "bytes": 4468863,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--fallback.mp3",
+                "bytes": 2234453,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/BROOKLYN OMEN/Brooklyn Omen - You for Me (The Wedding Song) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--thumb.jpg",
+                "webpBytes": 26558,
+                "jpegBytes": 70982,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--cover.jpg",
+                "webpBytes": 102250,
+                "jpegBytes": 211488,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
+                "webpBytes": 25048,
+                "jpegBytes": 70380,
                 "webpQuality": 76,
                 "jpegQScale": 5
               }

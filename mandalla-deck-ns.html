@@ -278,6 +278,7 @@
         { key: 'globalstadium', label: 'GSS' },
         { key: 'cavalrymarsh', label: 'CAV' },
         { key: 'midnightsteppe', label: 'STEP' },
+        { key: 'brooklynomen', label: 'BKO' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -370,6 +371,8 @@
             ? 'cavalrymarsh'
           : raw === 'midnightsteppe' || raw === 'midnight' || raw === 'steppe' || raw === 'midnight-over-the-steppe' || raw === 'midnight_over_the_steppe' || raw === 'midnight over the steppe' || raw === 'mots'
             ? 'midnightsteppe'
+          : raw === 'brooklynomen' || raw === 'brooklyn' || raw === 'omen' || raw === 'brooklyn-omen' || raw === 'brooklyn_omen' || raw === 'brooklyn omen' || raw === 'bo'
+            ? 'brooklynomen'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
             ? 'sunfadedghosts'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

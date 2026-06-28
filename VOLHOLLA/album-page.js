@@ -2428,6 +2428,111 @@
         ["OP2 Pair", "Launch with CAVALRY OF THE MARSH for the marsh-and-steppe companion deck."]
       ]
     },
+    brooklynomen: {
+      key: "brooklynomen",
+      pageSlug: "brooklyn-omen",
+      basePath: "../BROOKLYN OMEN/",
+      label: "BROOKLYN OMEN",
+      subtitle: "Red-sky omen / locked-room soul / borough shadow transmission",
+      accentA: "#d71914",
+      accentB: "#f4f0df",
+      coverImage: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+      defaultTrackArt: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+      trackArtByIndex: {
+        0: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        1: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        2: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        3: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        4: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        5: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        6: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        7: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        8: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        9: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        10: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        11: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        12: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        13: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        14: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        15: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        16: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        17: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        18: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        19: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        20: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        21: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        22: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        23: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        24: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        25: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        26: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        27: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        28: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        29: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        30: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        31: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        32: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        33: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        34: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        35: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        36: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        37: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png",
+        38: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 01_36_16 PM.png",
+        39: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_58_55 PM.png",
+        40: "../BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM.png"
+      },
+      hallKey: "brooklynomen",
+      op2Key: "brooklynomen",
+      op2Pair: "midnightsteppe",
+      files: [
+        "Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+        "Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+        "Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+        "Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+        "Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+        "Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+        "Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+        "Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+        "Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+        "Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+        "Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+        "Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+        "Brooklyn Omen - Friction on the Record - Treblo.ogg",
+        "Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+        "Brooklyn Omen - Getting Close - Treblo.ogg",
+        "Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+        "Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+        "Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+        "Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+        "Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+        "Brooklyn Omen - No Promotion Today - Treblo.ogg",
+        "Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+        "Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+        "Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+        "Brooklyn Omen - Poolside Static - Treblo.ogg",
+        "Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+        "Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+        "Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+        "Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+        "Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+        "Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+        "Brooklyn Omen - The Book of Names - Treblo.ogg",
+        "Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+        "Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+        "Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+        "Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+        "Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+        "Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+        "Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+        "Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+        "Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Red-sky omen / locked-room soul / borough shadow transmission"],
+        ["Use", "Standalone album page, hall route, direct song links, and Brooklyn-ready mix entry."],
+        ["OP2 Pair", "Launch with MIDNIGHT OVER THE STEPPE for the omen-and-steppe companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2506,6 +2611,7 @@
     .replace(/^global stadium sunshine\s*-\s*/i, "")
     .replace(/^cavalry of the marsh\s*-\s*/i, "")
     .replace(/^midnight over the steppe\s*-\s*/i, "")
+    .replace(/^brooklyn omen\s*-\s*/i, "")
       .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2677,6 +2783,7 @@
     if (raw === "globalstadium" || raw === "global" || raw === "stadium" || raw === "global-stadium-sunshine" || raw === "global_stadium_sunshine" || raw === "global stadium sunshine" || raw === "gss") return "globalstadium";
     if (raw === "cavalrymarsh" || raw === "cavalry" || raw === "marshcavalry" || raw === "cavalry-of-the-marsh" || raw === "cavalry_of_the_marsh" || raw === "cavalry of the marsh" || raw === "cotm") return "cavalrymarsh";
     if (raw === "midnightsteppe" || raw === "midnight" || raw === "steppe" || raw === "midnight-over-the-steppe" || raw === "midnight_over_the_steppe" || raw === "midnight over the steppe" || raw === "mots") return "midnightsteppe";
+    if (raw === "brooklynomen" || raw === "brooklyn" || raw === "omen" || raw === "brooklyn-omen" || raw === "brooklyn_omen" || raw === "brooklyn omen" || raw === "bo") return "brooklynomen";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

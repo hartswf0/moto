@@ -1371,6 +1371,56 @@
                     "Midnight Over the Steppe - When the Soul Becomes People - Treblo.ogg"
                 ]
             },
+            brooklynomen: {
+                key: 'brooklynomen',
+                label: 'BROOKLYN OMEN',
+                short: 'BKO',
+                basePath: 'BROOKLYN OMEN/',
+                logic: 'Brooklyn Omen Relay',
+                files: [
+                    "Brooklyn Omen - Assistant, Don't Get Promoted - Treblo.ogg",
+                    "Brooklyn Omen - Behind Locked Doors - Treblo.ogg",
+                    "Brooklyn Omen - Black Sedan Victory - Treblo.ogg",
+                    "Brooklyn Omen - Bloodlines Around the Table - Treblo.ogg",
+                    "Brooklyn Omen - Bloodlines at the Table - Treblo.ogg",
+                    "Brooklyn Omen - Bunker Reassurance Mechanism - Treblo.ogg",
+                    "Brooklyn Omen - Chrome Funk Mirage - Treblo.ogg",
+                    "Brooklyn Omen - Crown Through the Windshield - Treblo.ogg",
+                    "Brooklyn Omen - Empty Soundstage Blues - Treblo.ogg",
+                    "Brooklyn Omen - Enclosure of Dreams - Treblo.ogg",
+                    "Brooklyn Omen - Father, Can You Hear Me - Treblo.ogg",
+                    "Brooklyn Omen - Four Voices One Table - Treblo.ogg",
+                    "Brooklyn Omen - Friction on the Record - Treblo.ogg",
+                    "Brooklyn Omen - Get Ready (The Remix) - Treblo.ogg",
+                    "Brooklyn Omen - Getting Close - Treblo.ogg",
+                    "Brooklyn Omen - Jersey City Shadow - Treblo.ogg",
+                    "Brooklyn Omen - Labor Soul Indictment - Treblo.ogg",
+                    "Brooklyn Omen - Last Transmission Bloom - Treblo.ogg",
+                    "Brooklyn Omen - Lean Wit It, Rock Wit It - Treblo.ogg",
+                    "Brooklyn Omen - Midnight Sabotage - Treblo.ogg",
+                    "Brooklyn Omen - No Promotion Today - Treblo.ogg",
+                    "Brooklyn Omen - Nobody Was Missing - Treblo.ogg",
+                    "Brooklyn Omen - Ordinary Gratitude - Treblo.ogg",
+                    "Brooklyn Omen - Poolside Pressure - Treblo.ogg",
+                    "Brooklyn Omen - Poolside Static - Treblo.ogg",
+                    "Brooklyn Omen - Resolved Dependency (Madea's Underworld) - Treblo.ogg",
+                    "Brooklyn Omen - Resolved Dependency (The Empty Department) - Treblo.ogg",
+                    "Brooklyn Omen - Resolved Dependency - Treblo.ogg",
+                    "Brooklyn Omen - Sanctuary After the Breaking - Treblo.ogg",
+                    "Brooklyn Omen - Sunlight Through the Screen Door - Treblo.ogg",
+                    "Brooklyn Omen - Table Talk (Uncensored) - Treblo.ogg",
+                    "Brooklyn Omen - The Book of Names - Treblo.ogg",
+                    "Brooklyn Omen - The Bunker Singalong - Treblo.ogg",
+                    "Brooklyn Omen - The Empty Soundstage - Treblo.ogg",
+                    "Brooklyn Omen - The Long Table Sermon - Treblo.ogg",
+                    "Brooklyn Omen - The Machine Instruction - Treblo.ogg",
+                    "Brooklyn Omen - Transmission Final Credits - Treblo.ogg",
+                    "Brooklyn Omen - What Happened to Everybody_ - Treblo.ogg",
+                    "Brooklyn Omen - Who Is We_ (The Perfect Copy) - Treblo.ogg",
+                    "Brooklyn Omen - Who Made Madea_ - Treblo.ogg",
+                    "Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -2071,6 +2121,7 @@
                 .replace(/^global stadium sunshine\s*-\s*/i, '')
                 .replace(/^cavalry of the marsh\s*-\s*/i, '')
                 .replace(/^midnight over the steppe\s*-\s*/i, '')
+                .replace(/^brooklyn omen\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -2134,6 +2185,7 @@
             if (v === 'globalstadium' || v === 'global' || v === 'stadium' || v === 'global-stadium-sunshine' || v === 'global_stadium_sunshine' || v === 'global stadium sunshine' || v === 'gss') return 'globalstadium';
             if (v === 'cavalrymarsh' || v === 'cavalry' || v === 'marshcavalry' || v === 'cavalry-of-the-marsh' || v === 'cavalry_of_the_marsh' || v === 'cavalry of the marsh' || v === 'cotm') return 'cavalrymarsh';
             if (v === 'midnightsteppe' || v === 'midnight' || v === 'steppe' || v === 'midnight-over-the-steppe' || v === 'midnight_over_the_steppe' || v === 'midnight over the steppe' || v === 'mots') return 'midnightsteppe';
+            if (v === 'brooklynomen' || v === 'brooklyn' || v === 'omen' || v === 'brooklyn-omen' || v === 'brooklyn_omen' || v === 'brooklyn omen' || v === 'bo') return 'brooklynomen';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';
