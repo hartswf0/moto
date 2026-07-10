@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T17:59:40.617Z",
+  "generatedAt": "2026-07-10T23:38:42.279Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -17777,6 +17777,931 @@
                 "jpeg": "MEDIA_DERIVATIVES/images/BROOKLYN OMEN/ChatGPT Image Jun 28, 2026, 12_59_22 PM--share.jpg",
                 "webpBytes": 25048,
                 "jpegBytes": 70380,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "paperglasses": {
+      "key": "paperglasses",
+      "label": "PAPER GLASSES, ELECTRIC WONDER",
+      "subtitle": "VR arcade gospel / paper-frame cinema / electric headset wonder",
+      "pageSlug": "paper-glasses-electric-wonder",
+      "hallKey": "paperglasses",
+      "op2Key": "paperglasses",
+      "op2Pair": "brooklynomen",
+      "accentA": "#f5d31d",
+      "accentB": "#23d5ff",
+      "cover": {
+        "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.jpg",
+            "webpBytes": 77766,
+            "jpegBytes": 110174,
+            "webpQuality": 73,
+            "jpegQScale": 8
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.jpg",
+            "webpBytes": 252418,
+            "jpegBytes": 479746,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.jpg",
+            "webpBytes": 77110,
+            "jpegBytes": 164065,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.jpg",
+            "webpBytes": 55768,
+            "jpegBytes": 109421,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.jpg",
+            "webpBytes": 164192,
+            "jpegBytes": 291847,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.jpg",
+            "webpBytes": 46834,
+            "jpegBytes": 98984,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Matinee Projectionist",
+          "file": "01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-01.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo.ogg",
+            "durationSeconds": 67.065729,
+            "sourceBitRate": 98739,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo--stream.mp3",
+                "bytes": 1074199,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo--fallback.mp3",
+                "bytes": 537121,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.jpg",
+                "webpBytes": 77766,
+                "jpegBytes": 110174,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.jpg",
+                "webpBytes": 252418,
+                "jpegBytes": 479746,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.jpg",
+                "webpBytes": 77110,
+                "jpegBytes": 164065,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Private Headset Romance",
+          "file": "02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-02.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo.ogg",
+            "durationSeconds": 33.954083,
+            "sourceBitRate": 101637,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo--stream.mp3",
+                "bytes": 544226,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo--fallback.mp3",
+                "bytes": 272135,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.jpg",
+                "webpBytes": 55768,
+                "jpegBytes": 109421,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.jpg",
+                "webpBytes": 164192,
+                "jpegBytes": 291847,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.jpg",
+                "webpBytes": 46834,
+                "jpegBytes": 98984,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Sensorama 03",
+          "file": "03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-03.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo.ogg",
+            "durationSeconds": 141.648229,
+            "sourceBitRate": 104238,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo--stream.mp3",
+                "bytes": 2267472,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo--fallback.mp3",
+                "bytes": 1133758,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--thumb.jpg",
+                "webpBytes": 35552,
+                "jpegBytes": 57947,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--cover.jpg",
+                "webpBytes": 123114,
+                "jpegBytes": 144236,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--share.jpg",
+                "webpBytes": 29444,
+                "jpegBytes": 55747,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "The Room Becomes Infinite",
+          "file": "04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-04.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo.ogg",
+            "durationSeconds": 172.205688,
+            "sourceBitRate": 115051,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo--stream.mp3",
+                "bytes": 2756066,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo--fallback.mp3",
+                "bytes": 1378055,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--thumb.jpg",
+                "webpBytes": 64370,
+                "jpegBytes": 111577,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--cover.jpg",
+                "webpBytes": 156188,
+                "jpegBytes": 241733,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--share.jpg",
+                "webpBytes": 54522,
+                "jpegBytes": 107630,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Damocles Under Glass",
+          "file": "05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-05.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo.ogg",
+            "durationSeconds": 125.858667,
+            "sourceBitRate": 144934,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo--stream.mp3",
+                "bytes": 2014607,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo--fallback.mp3",
+                "bytes": 1007325,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--thumb.jpg",
+                "webpBytes": 65974,
+                "jpegBytes": 105031,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--cover.jpg",
+                "webpBytes": 149002,
+                "jpegBytes": 219267,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--share.jpg",
+                "webpBytes": 57542,
+                "jpegBytes": 101479,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Public Grid 06",
+          "file": "06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-06.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo.ogg",
+            "durationSeconds": 136.493396,
+            "sourceBitRate": 112582,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo--stream.mp3",
+                "bytes": 2184716,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo--fallback.mp3",
+                "bytes": 1092380,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--thumb.jpg",
+                "webpBytes": 48568,
+                "jpegBytes": 92095,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--cover.jpg",
+                "webpBytes": 128374,
+                "jpegBytes": 211888,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--share.jpg",
+                "webpBytes": 41524,
+                "jpegBytes": 88435,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Telemetry Dreams",
+          "file": "07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-07.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo.ogg",
+            "durationSeconds": 193.521604,
+            "sourceBitRate": 101809,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo--stream.mp3",
+                "bytes": 3097121,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo--fallback.mp3",
+                "bytes": 1548582,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--thumb.jpg",
+                "webpBytes": 44118,
+                "jpegBytes": 86807,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--cover.jpg",
+                "webpBytes": 101586,
+                "jpegBytes": 177997,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--share.jpg",
+                "webpBytes": 39342,
+                "jpegBytes": 87129,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Two Hands Meet in Code",
+          "file": "08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-08.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo.ogg",
+            "durationSeconds": 44.774583,
+            "sourceBitRate": 111607,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo--stream.mp3",
+                "bytes": 717262,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo--fallback.mp3",
+                "bytes": 358653,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--thumb.jpg",
+                "webpBytes": 77766,
+                "jpegBytes": 110174,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--cover.jpg",
+                "webpBytes": 252418,
+                "jpegBytes": 479746,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM--share.jpg",
+                "webpBytes": 77110,
+                "jpegBytes": 164065,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Quarter-Fed Future",
+          "file": "09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-09.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo.ogg",
+            "durationSeconds": 143.645146,
+            "sourceBitRate": 103961,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo--stream.mp3",
+                "bytes": 2299237,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo--fallback.mp3",
+                "bytes": 1149640,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--thumb.jpg",
+                "webpBytes": 55768,
+                "jpegBytes": 109421,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--cover.jpg",
+                "webpBytes": 164192,
+                "jpegBytes": 291847,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM--share.jpg",
+                "webpBytes": 46834,
+                "jpegBytes": 98984,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Future Breathing in Dust",
+          "file": "10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-10.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo.ogg",
+            "durationSeconds": 103.799708,
+            "sourceBitRate": 109151,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo--stream.mp3",
+                "bytes": 1661849,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo--fallback.mp3",
+                "bytes": 830946,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--thumb.jpg",
+                "webpBytes": 35552,
+                "jpegBytes": 57947,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--cover.jpg",
+                "webpBytes": 123114,
+                "jpegBytes": 144236,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912--share.jpg",
+                "webpBytes": 29444,
+                "jpegBytes": 55747,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Crowdfunding the Horizon",
+          "file": "11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-11.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo.ogg",
+            "durationSeconds": 112.994813,
+            "sourceBitRate": 113789,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo--stream.mp3",
+                "bytes": 1808971,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo--fallback.mp3",
+                "bytes": 904507,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--thumb.jpg",
+                "webpBytes": 64370,
+                "jpegBytes": 111577,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--cover.jpg",
+                "webpBytes": 156188,
+                "jpegBytes": 241733,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912--share.jpg",
+                "webpBytes": 54522,
+                "jpegBytes": 107630,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "The Room Is Sold Back",
+          "file": "12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-12.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo.ogg",
+            "durationSeconds": 45.238979,
+            "sourceBitRate": 104240,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo--stream.mp3",
+                "bytes": 724785,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo--fallback.mp3",
+                "bytes": 362414,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--thumb.jpg",
+                "webpBytes": 65974,
+                "jpegBytes": 105031,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--cover.jpg",
+                "webpBytes": 149002,
+                "jpegBytes": 219267,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912--share.jpg",
+                "webpBytes": 57542,
+                "jpegBytes": 101479,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Forkable Protocol",
+          "file": "13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-13.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo.ogg",
+            "durationSeconds": 158.041521,
+            "sourceBitRate": 112787,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo--stream.mp3",
+                "bytes": 2529533,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo--fallback.mp3",
+                "bytes": 1264788,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--thumb.jpg",
+                "webpBytes": 48568,
+                "jpegBytes": 92095,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--cover.jpg",
+                "webpBytes": 128374,
+                "jpegBytes": 211888,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913--share.jpg",
+                "webpBytes": 41524,
+                "jpegBytes": 88435,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Glass Closes Around the Listener",
+          "file": "14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg",
+          "source": "PAPER GLASSES, ELECTRIC WONDER/14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-paperglasses-14.html",
+          "audio": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg",
+            "durationSeconds": 227.376313,
+            "sourceBitRate": 103919,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo--stream.mp3",
+                "bytes": 3639214,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo--fallback.mp3",
+                "bytes": 1819629,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/PAPER GLASSES, ELECTRIC WONDER/14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913.jpeg",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--thumb.jpg",
+                "webpBytes": 44118,
+                "jpegBytes": 86807,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--cover.jpg",
+                "webpBytes": 101586,
+                "jpegBytes": 177997,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--share.jpg",
+                "webpBytes": 39342,
+                "jpegBytes": 87129,
                 "webpQuality": 76,
                 "jpegQScale": 5
               }

@@ -292,6 +292,7 @@
         { key: 'cavalrymarsh', label: 'CAV' },
         { key: 'midnightsteppe', label: 'STEP' },
         { key: 'brooklynomen', label: 'BKO' },
+        { key: 'paperglasses', label: 'PGEW' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -390,6 +391,8 @@
             ? 'midnightsteppe'
           : raw === 'brooklynomen' || raw === 'brooklyn' || raw === 'omen' || raw === 'brooklyn-omen' || raw === 'brooklyn_omen' || raw === 'brooklyn omen' || raw === 'bo'
             ? 'brooklynomen'
+          : raw === 'paperglasses' || raw === 'paper' || raw === 'glasses' || raw === 'wonder' || raw === 'paper-glasses-electric-wonder' || raw === 'paper_glasses_electric_wonder' || raw === 'paper glasses electric wonder' || raw === 'pgew'
+            ? 'paperglasses'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'
             ? 'emptyfields'
           : raw === 'weedfield' || raw === 'weed' || raw === 'weed-choked-field' || raw === 'weed_choked_field' || raw === 'the weed-choked field' || raw === 'the-weed-choked-field' || raw === 'wcf'

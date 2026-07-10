@@ -549,6 +549,7 @@
     { key:'cavalrymarsh', label:'Cavalry Of The Marsh' },
     { key:'midnightsteppe', label:'Midnight Over The Steppe' },
     { key:'brooklynomen', label:'Brooklyn Omen' },
+    { key:'paperglasses', label:'Paper Glasses Electric Wonder' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -597,6 +598,8 @@
     { id:'cav-ms', label:'Cavalry Marsh × Midnight Steppe', a:'cavalrymarsh', b:'midnightsteppe' },
     { id:'bo-ms', label:'Brooklyn Omen × Midnight Steppe', a:'brooklynomen', b:'midnightsteppe' },
     { id:'ms-bo', label:'Midnight Steppe × Brooklyn Omen', a:'midnightsteppe', b:'brooklynomen' },
+    { id:'pg-bo', label:'Paper Glasses × Brooklyn Omen', a:'paperglasses', b:'brooklynomen' },
+    { id:'bo-pg', label:'Brooklyn Omen × Paper Glasses', a:'brooklynomen', b:'paperglasses' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -645,6 +648,7 @@
     if (v === 'cavalrymarsh' || v === 'cavalry' || v === 'marshcavalry' || v === 'cavalry-of-the-marsh' || v === 'cavalry_of_the_marsh' || v === 'cavalry of the marsh' || v === 'cotm') return 'cavalrymarsh';
     if (v === 'midnightsteppe' || v === 'midnight' || v === 'steppe' || v === 'midnight-over-the-steppe' || v === 'midnight_over_the_steppe' || v === 'midnight over the steppe' || v === 'mots') return 'midnightsteppe';
     if (v === 'brooklynomen' || v === 'brooklyn' || v === 'omen' || v === 'brooklyn-omen' || v === 'brooklyn_omen' || v === 'brooklyn omen' || v === 'bo') return 'brooklynomen';
+    if (v === 'paperglasses' || v === 'paper' || v === 'glasses' || v === 'wonder' || v === 'paper-glasses-electric-wonder' || v === 'paper_glasses_electric_wonder' || v === 'paper glasses electric wonder' || v === 'pgew') return 'paperglasses';
     if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

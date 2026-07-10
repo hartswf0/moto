@@ -1421,6 +1421,29 @@
                     "Brooklyn Omen - You for Me (The Wedding Song) - Treblo.ogg"
                 ]
             },
+            paperglasses: {
+                key: 'paperglasses',
+                label: 'PAPER GLASSES, ELECTRIC WONDER',
+                short: 'PGEW',
+                basePath: 'PAPER GLASSES, ELECTRIC WONDER/',
+                logic: 'Paper Glasses Relay',
+                files: [
+                    "01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo.ogg",
+                    "02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo.ogg",
+                    "03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo.ogg",
+                    "04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo.ogg",
+                    "05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo.ogg",
+                    "06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo.ogg",
+                    "07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo.ogg",
+                    "08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo.ogg",
+                    "09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo.ogg",
+                    "10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo.ogg",
+                    "11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo.ogg",
+                    "12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo.ogg",
+                    "13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo.ogg",
+                    "14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -2122,6 +2145,7 @@
                 .replace(/^cavalry of the marsh\s*-\s*/i, '')
                 .replace(/^midnight over the steppe\s*-\s*/i, '')
                 .replace(/^brooklyn omen\s*-\s*/i, '')
+                .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -2186,6 +2210,7 @@
             if (v === 'cavalrymarsh' || v === 'cavalry' || v === 'marshcavalry' || v === 'cavalry-of-the-marsh' || v === 'cavalry_of_the_marsh' || v === 'cavalry of the marsh' || v === 'cotm') return 'cavalrymarsh';
             if (v === 'midnightsteppe' || v === 'midnight' || v === 'steppe' || v === 'midnight-over-the-steppe' || v === 'midnight_over_the_steppe' || v === 'midnight over the steppe' || v === 'mots') return 'midnightsteppe';
             if (v === 'brooklynomen' || v === 'brooklyn' || v === 'omen' || v === 'brooklyn-omen' || v === 'brooklyn_omen' || v === 'brooklyn omen' || v === 'bo') return 'brooklynomen';
+            if (v === 'paperglasses' || v === 'paper' || v === 'glasses' || v === 'wonder' || v === 'paper-glasses-electric-wonder' || v === 'paper_glasses_electric_wonder' || v === 'paper glasses electric wonder' || v === 'pgew') return 'paperglasses';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

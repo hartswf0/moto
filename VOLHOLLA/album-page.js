@@ -2533,6 +2533,57 @@
         ["OP2 Pair", "Launch with MIDNIGHT OVER THE STEPPE for the omen-and-steppe companion deck."]
       ]
     },
+    paperglasses: {
+      key: "paperglasses",
+      pageSlug: "paper-glasses-electric-wonder",
+      basePath: "../PAPER GLASSES, ELECTRIC WONDER/",
+      label: "PAPER GLASSES, ELECTRIC WONDER",
+      subtitle: "VR arcade gospel / paper-frame cinema / electric headset wonder",
+      accentA: "#f5d31d",
+      accentB: "#23d5ff",
+      coverImage: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+      defaultTrackArt: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+      trackArtByIndex: {
+        0: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+        1: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+        2: "../PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912.jpeg",
+        3: "../PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912.jpeg",
+        4: "../PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912.jpeg",
+        5: "../PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913.jpeg",
+        6: "../PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913.jpeg",
+        7: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_23 PM.png",
+        8: "../PAPER GLASSES, ELECTRIC WONDER/ChatGPT Image Jul 10, 2026, 07_14_37 PM.png",
+        9: "../PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_3D_glasses_202607101912.jpeg",
+        10: "../PAPER GLASSES, ELECTRIC WONDER/Frog_wearing_glasses_in_theater_202607101912.jpeg",
+        11: "../PAPER GLASSES, ELECTRIC WONDER/Bullfrog_wearing_paper_glasses_202607101912.jpeg",
+        12: "../PAPER GLASSES, ELECTRIC WONDER/Frog_playing_virtual_tennis_202607101913.jpeg",
+        13: "../PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913.jpeg"
+      },
+      hallKey: "paperglasses",
+      op2Key: "paperglasses",
+      op2Pair: "brooklynomen",
+      files: [
+        "01_Paper Glasses, Electric Wonder - Matinee Projectionist - Treblo.ogg",
+        "02_Paper Glasses, Electric Wonder - Private Headset Romance - Treblo.ogg",
+        "03_Paper Glasses, Electric Wonder - Sensorama 03 - Treblo.ogg",
+        "04_Paper Glasses, Electric Wonder - The Room Becomes Infinite - Treblo.ogg",
+        "05_Paper Glasses, Electric Wonder - Damocles Under Glass - Treblo.ogg",
+        "06_Paper Glasses, Electric Wonder - Public Grid 06 - Treblo.ogg",
+        "07_Paper Glasses, Electric Wonder - Telemetry Dreams - Treblo.ogg",
+        "08_Paper Glasses, Electric Wonder - Two Hands Meet in Code - Treblo.ogg",
+        "09_Paper Glasses, Electric Wonder - Quarter-Fed Future - Treblo.ogg",
+        "10_Paper Glasses, Electric Wonder - Future Breathing in Dust - Treblo.ogg",
+        "11_Paper Glasses, Electric Wonder - Crowdfunding the Horizon - Treblo.ogg",
+        "12_Paper Glasses, Electric Wonder - The Room Is Sold Back - Treblo.ogg",
+        "13_Paper Glasses, Electric Wonder - Forkable Protocol - Treblo.ogg",
+        "14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "VR arcade gospel / paper-frame cinema / electric headset wonder"],
+        ["Use", "Standalone album page, hall route, direct song links, and Paper-ready mix entry."],
+        ["OP2 Pair", "Launch with BROOKLYN OMEN for the headset-and-omen companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2608,11 +2659,12 @@
     .replace(/^the chapel ring\s*-\s*/i, "")
     .replace(/^the republic spilled its drink\s*-\s*/i, "")
     .replace(/^sanctuary shake\s*-\s*/i, "")
-    .replace(/^global stadium sunshine\s*-\s*/i, "")
-    .replace(/^cavalry of the marsh\s*-\s*/i, "")
-    .replace(/^midnight over the steppe\s*-\s*/i, "")
-    .replace(/^brooklyn omen\s*-\s*/i, "")
-      .replace(/^\d{1,2}[_\s-]+/, "")
+        .replace(/^global stadium sunshine\s*-\s*/i, "")
+        .replace(/^cavalry of the marsh\s*-\s*/i, "")
+        .replace(/^midnight over the steppe\s*-\s*/i, "")
+        .replace(/^brooklyn omen\s*-\s*/i, "")
+        .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, "")
+        .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
@@ -2784,6 +2836,7 @@
     if (raw === "cavalrymarsh" || raw === "cavalry" || raw === "marshcavalry" || raw === "cavalry-of-the-marsh" || raw === "cavalry_of_the_marsh" || raw === "cavalry of the marsh" || raw === "cotm") return "cavalrymarsh";
     if (raw === "midnightsteppe" || raw === "midnight" || raw === "steppe" || raw === "midnight-over-the-steppe" || raw === "midnight_over_the_steppe" || raw === "midnight over the steppe" || raw === "mots") return "midnightsteppe";
     if (raw === "brooklynomen" || raw === "brooklyn" || raw === "omen" || raw === "brooklyn-omen" || raw === "brooklyn_omen" || raw === "brooklyn omen" || raw === "bo") return "brooklynomen";
+    if (raw === "paperglasses" || raw === "paper" || raw === "glasses" || raw === "wonder" || raw === "paper-glasses-electric-wonder" || raw === "paper_glasses_electric_wonder" || raw === "paper glasses electric wonder" || raw === "pgew") return "paperglasses";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }
