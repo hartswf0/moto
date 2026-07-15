@@ -1883,6 +1883,56 @@
                     "14_Paper Glasses, Electric Wonder - Glass Closes Around the Listener - Treblo.ogg"
                   ]
             },
+            inthemiddle: {
+                key: 'inthemiddle',
+                label: 'IN THE MIDDLE',
+                shortLabel: 'MID',
+                libraryParam: 'inthemiddle',
+                op2Pair: 'paperglasses',
+                basePath: 'IN THE MIDDLE/',
+                files: [
+                    "In The Middle - Aeolian Sands - Treblo.ogg",
+                    "In The Middle - Analog Soul Chop - Treblo.ogg",
+                    "In The Middle - Antenna Frost - Treblo.ogg",
+                    "In The Middle - Cabin Static _ River Bloom - Treblo.ogg",
+                    "In The Middle - Copper Colored Light - Treblo.ogg",
+                    "In The Middle - Cracked Lens Cypher - Treblo.ogg",
+                    "In The Middle - Crate Digger Mantra - Treblo.ogg",
+                    "In The Middle - Desert Protocol - Treblo.ogg",
+                    "In The Middle - Desert Shift - Treblo.ogg",
+                    "In The Middle - Dust and Dawn - Treblo.ogg",
+                    "In The Middle - Ether Riddim - Treblo.ogg",
+                    "In The Middle - Focus Tonight - Treblo.ogg",
+                    "In The Middle - Forty-Four Echoes - Treblo.ogg",
+                    "In The Middle - Ghost of the Venue - Treblo.ogg",
+                    "In The Middle - Granular Contact - Treblo.ogg",
+                    "In The Middle - Heat Mist Haze - Treblo.ogg",
+                    "In The Middle - High Plateau Spirits - Treblo.ogg",
+                    "In The Middle - Incense and Phantoms - Treblo.ogg",
+                    "In The Middle - Iron Lung Meditations - Treblo.ogg",
+                    "In The Middle - Iron Wheels and MacDougal St. - Treblo.ogg",
+                    "In The Middle - Last One Out - Treblo.ogg",
+                    "In The Middle - Latex in the Sky - Treblo.ogg",
+                    "In The Middle - Low End Ritual - Treblo.ogg",
+                    "In The Middle - Midnight Grave - Treblo.ogg",
+                    "In The Middle - North Side Sermon - Treblo.ogg",
+                    "In The Middle - Orbit Dancehall - Treblo.ogg",
+                    "In The Middle - Penthouse Spirit - Treblo.ogg",
+                    "In The Middle - Positive Space - Treblo.ogg",
+                    "In The Middle - Recursive Peak - Treblo.ogg",
+                    "In The Middle - Smoke Over Mountain - Treblo.ogg",
+                    "In The Middle - Static Canyon - Treblo.ogg",
+                    "In The Middle - Static Sanctuary - Treblo.ogg",
+                    "In The Middle - Strobe Lights Flash - Treblo.ogg",
+                    "In The Middle - The Black Gold Pulse - Treblo.ogg",
+                    "In The Middle - Timber and Salt - Treblo.ogg",
+                    "In The Middle - Undertow of Grey - Treblo.ogg",
+                    "In The Middle - Up For Air - Treblo.ogg",
+                    "In The Middle - Vinyl Incense Ritual - Treblo.ogg",
+                    "In The Middle - Weightless Dub - Treblo.ogg",
+                    "In The Middle - Weightless Riddim - Treblo.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2686,6 +2736,7 @@
                 .replace(/^midnight over the steppe\s*-\s*/i, '')
                 .replace(/^brooklyn omen\s*-\s*/i, '')
                 .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, '')
+                .replace(/^in the middle\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
@@ -2739,6 +2790,7 @@
             if (v === 'midnightsteppe' || v === 'midnight' || v === 'steppe' || v === 'midnight-over-the-steppe' || v === 'midnight_over_the_steppe' || v === 'midnight over the steppe' || v === 'mots') return 'midnightsteppe';
             if (v === 'brooklynomen' || v === 'brooklyn' || v === 'omen' || v === 'brooklyn-omen' || v === 'brooklyn_omen' || v === 'brooklyn omen' || v === 'bo') return 'brooklynomen';
             if (v === 'paperglasses' || v === 'paper' || v === 'glasses' || v === 'wonder' || v === 'paper-glasses-electric-wonder' || v === 'paper_glasses_electric_wonder' || v === 'paper glasses electric wonder' || v === 'pgew') return 'paperglasses';
+            if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

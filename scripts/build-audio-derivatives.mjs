@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import fs from "node:fs/promises";
 import path from "node:path";
-import { basenameNoExt, ensureDir, fileExists, humanBytes, matchesFilters, parseArgs, runCommand, statSafe, stripLeadingDotSlash, toPosixPath, walkFiles } from "./lib/pipeline-utils.mjs";
+import { basenameNoExt, ensureDir, fileExists, humanBytes, matchesFilters, parseArgs, readJsonIfExists, runCommand, statSafe, stripLeadingDotSlash, toPosixPath, walkFiles } from "./lib/pipeline-utils.mjs";
 
 const ROOT = process.cwd();
 const args = parseArgs(process.argv.slice(2));
@@ -131,11 +131,15 @@ async function main() {
     .slice(0, LIMIT || undefined)
     .map((file) => path.join(ROOT, file));
 
+  const existingManifest = !DRY_RUN && (FILTERS.length || LIMIT)
+    ? await readJsonIfExists(path.join(OUT_ROOT, "manifest.json"))
+    : null;
+
   const manifest = {
     generatedAt: new Date().toISOString(),
     outputRoot: stripLeadingDotSlash(toPosixPath(path.relative(ROOT, OUT_ROOT))),
     profiles: PROFILES,
-    items: {}
+    items: existingManifest?.items ? { ...existingManifest.items } : {}
   };
 
   let built = 0;
@@ -168,4 +172,3 @@ main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });
-

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-10T23:38:42.279Z",
+  "generatedAt": "2026-07-15T16:00:26.946Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -18702,6 +18702,2517 @@
                 "jpeg": "MEDIA_DERIVATIVES/images/PAPER GLASSES, ELECTRIC WONDER/Frog_silhouette_dancing_on_wall_202607101913--share.jpg",
                 "webpBytes": 39342,
                 "jpegBytes": 87129,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "inthemiddle": {
+      "key": "inthemiddle",
+      "label": "IN THE MIDDLE",
+      "subtitle": "Desert dub / crate-digger ritual / low-end radio mirage",
+      "pageSlug": "in-the-middle",
+      "hallKey": "inthemiddle",
+      "op2Key": "inthemiddle",
+      "op2Pair": "paperglasses",
+      "accentA": "#c96a2d",
+      "accentB": "#7dff6a",
+      "cover": {
+        "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+            "webpBytes": 78998,
+            "jpegBytes": 105868,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+            "webpBytes": 312090,
+            "jpegBytes": 393734,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+            "webpBytes": 63706,
+            "jpegBytes": 93825,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+            "webpBytes": 78784,
+            "jpegBytes": 114326,
+            "webpQuality": 48,
+            "jpegQScale": 8
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+            "webpBytes": 388770,
+            "jpegBytes": 496506,
+            "webpQuality": 75,
+            "jpegQScale": 6
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+            "webpBytes": 98946,
+            "jpegBytes": 174196,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Aeolian Sands",
+          "file": "In The Middle - Aeolian Sands - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Aeolian Sands - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-01.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Aeolian Sands - Treblo.ogg",
+            "durationSeconds": 171.184021,
+            "sourceBitRate": 100624,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Aeolian Sands - Treblo--stream.mp3",
+                "bytes": 2739766,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Aeolian Sands - Treblo--fallback.mp3",
+                "bytes": 1369905,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Aeolian Sands - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Analog Soul Chop",
+          "file": "In The Middle - Analog Soul Chop - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Analog Soul Chop - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-02.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Analog Soul Chop - Treblo.ogg",
+            "durationSeconds": 99.062833,
+            "sourceBitRate": 111981,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Analog Soul Chop - Treblo--stream.mp3",
+                "bytes": 1586199,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Analog Soul Chop - Treblo--fallback.mp3",
+                "bytes": 793121,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Analog Soul Chop - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Antenna Frost",
+          "file": "In The Middle - Antenna Frost - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Antenna Frost - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-03.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Antenna Frost - Treblo.ogg",
+            "durationSeconds": 251.014229,
+            "sourceBitRate": 98187,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Antenna Frost - Treblo--stream.mp3",
+                "bytes": 4017049,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Antenna Frost - Treblo--fallback.mp3",
+                "bytes": 2008546,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Antenna Frost - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Cabin Static   River Bloom",
+          "file": "In The Middle - Cabin Static _ River Bloom - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Cabin Static _ River Bloom - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-04.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Cabin Static _ River Bloom - Treblo.ogg",
+            "durationSeconds": 205.503104,
+            "sourceBitRate": 100261,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cabin Static _ River Bloom - Treblo--stream.mp3",
+                "bytes": 3288964,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cabin Static _ River Bloom - Treblo--fallback.mp3",
+                "bytes": 1644504,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cabin Static _ River Bloom - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Copper Colored Light",
+          "file": "In The Middle - Copper Colored Light - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Copper Colored Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-05.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Copper Colored Light - Treblo.ogg",
+            "durationSeconds": 241.122521,
+            "sourceBitRate": 97311,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Copper Colored Light - Treblo--stream.mp3",
+                "bytes": 3859061,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Copper Colored Light - Treblo--fallback.mp3",
+                "bytes": 1929552,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Copper Colored Light - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Cracked Lens Cypher",
+          "file": "In The Middle - Cracked Lens Cypher - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Cracked Lens Cypher - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-06.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Cracked Lens Cypher - Treblo.ogg",
+            "durationSeconds": 88.567417,
+            "sourceBitRate": 103290,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cracked Lens Cypher - Treblo--stream.mp3",
+                "bytes": 1418179,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cracked Lens Cypher - Treblo--fallback.mp3",
+                "bytes": 709111,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Cracked Lens Cypher - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Crate Digger Mantra",
+          "file": "In The Middle - Crate Digger Mantra - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Crate Digger Mantra - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-07.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Crate Digger Mantra - Treblo.ogg",
+            "durationSeconds": 219.945917,
+            "sourceBitRate": 97400,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Crate Digger Mantra - Treblo--stream.mp3",
+                "bytes": 3520096,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Crate Digger Mantra - Treblo--fallback.mp3",
+                "bytes": 1760070,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Crate Digger Mantra - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Desert Protocol",
+          "file": "In The Middle - Desert Protocol - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Desert Protocol - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-08.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Desert Protocol - Treblo.ogg",
+            "durationSeconds": 262.299125,
+            "sourceBitRate": 99292,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Protocol - Treblo--stream.mp3",
+                "bytes": 4197608,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Protocol - Treblo--fallback.mp3",
+                "bytes": 2098826,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Protocol - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Desert Shift",
+          "file": "In The Middle - Desert Shift - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Desert Shift - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-09.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Desert Shift - Treblo.ogg",
+            "durationSeconds": 232.066729,
+            "sourceBitRate": 102784,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Shift - Treblo--stream.mp3",
+                "bytes": 3714029,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Shift - Treblo--fallback.mp3",
+                "bytes": 1857036,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Desert Shift - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Dust and Dawn",
+          "file": "In The Middle - Dust and Dawn - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Dust and Dawn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-10.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Dust and Dawn - Treblo.ogg",
+            "durationSeconds": 161.756708,
+            "sourceBitRate": 102888,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Dust and Dawn - Treblo--stream.mp3",
+                "bytes": 2588883,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Dust and Dawn - Treblo--fallback.mp3",
+                "bytes": 1294463,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Dust and Dawn - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Ether Riddim",
+          "file": "In The Middle - Ether Riddim - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Ether Riddim - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-11.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Ether Riddim - Treblo.ogg",
+            "durationSeconds": 205.595979,
+            "sourceBitRate": 104752,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ether Riddim - Treblo--stream.mp3",
+                "bytes": 3290636,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ether Riddim - Treblo--fallback.mp3",
+                "bytes": 1645340,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ether Riddim - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Focus Tonight",
+          "file": "In The Middle - Focus Tonight - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Focus Tonight - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-12.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Focus Tonight - Treblo.ogg",
+            "durationSeconds": 197.143917,
+            "sourceBitRate": 99767,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Focus Tonight - Treblo--stream.mp3",
+                "bytes": 3155217,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Focus Tonight - Treblo--fallback.mp3",
+                "bytes": 1577630,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Focus Tonight - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Forty-Four Echoes",
+          "file": "In The Middle - Forty-Four Echoes - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Forty-Four Echoes - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-13.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Forty-Four Echoes - Treblo.ogg",
+            "durationSeconds": 196.725958,
+            "sourceBitRate": 107500,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Forty-Four Echoes - Treblo--stream.mp3",
+                "bytes": 3148530,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Forty-Four Echoes - Treblo--fallback.mp3",
+                "bytes": 1574287,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Forty-Four Echoes - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Ghost of the Venue",
+          "file": "In The Middle - Ghost of the Venue - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Ghost of the Venue - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-14.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Ghost of the Venue - Treblo.ogg",
+            "durationSeconds": 173.459563,
+            "sourceBitRate": 112802,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ghost of the Venue - Treblo--stream.mp3",
+                "bytes": 2776128,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ghost of the Venue - Treblo--fallback.mp3",
+                "bytes": 1388086,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Ghost of the Venue - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Granular Contact",
+          "file": "In The Middle - Granular Contact - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Granular Contact - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-15.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Granular Contact - Treblo.ogg",
+            "durationSeconds": 182.794,
+            "sourceBitRate": 97037,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Granular Contact - Treblo--stream.mp3",
+                "bytes": 2925758,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Granular Contact - Treblo--fallback.mp3",
+                "bytes": 1462901,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Granular Contact - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Heat Mist Haze",
+          "file": "In The Middle - Heat Mist Haze - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Heat Mist Haze - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-16.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Heat Mist Haze - Treblo.ogg",
+            "durationSeconds": 119.21775,
+            "sourceBitRate": 89767,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Heat Mist Haze - Treblo--stream.mp3",
+                "bytes": 1908445,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Heat Mist Haze - Treblo--fallback.mp3",
+                "bytes": 954244,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Heat Mist Haze - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "High Plateau Spirits",
+          "file": "In The Middle - High Plateau Spirits - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - High Plateau Spirits - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-17.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - High Plateau Spirits - Treblo.ogg",
+            "durationSeconds": 143.784479,
+            "sourceBitRate": 96998,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - High Plateau Spirits - Treblo--stream.mp3",
+                "bytes": 2301745,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - High Plateau Spirits - Treblo--fallback.mp3",
+                "bytes": 1150894,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - High Plateau Spirits - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "Incense and Phantoms",
+          "file": "In The Middle - Incense and Phantoms - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Incense and Phantoms - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-18.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Incense and Phantoms - Treblo.ogg",
+            "durationSeconds": 165.146833,
+            "sourceBitRate": 95285,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Incense and Phantoms - Treblo--stream.mp3",
+                "bytes": 2643217,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Incense and Phantoms - Treblo--fallback.mp3",
+                "bytes": 1321630,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Incense and Phantoms - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "Iron Lung Meditations",
+          "file": "In The Middle - Iron Lung Meditations - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Iron Lung Meditations - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-19.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Iron Lung Meditations - Treblo.ogg",
+            "durationSeconds": 227.144104,
+            "sourceBitRate": 106704,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Lung Meditations - Treblo--stream.mp3",
+                "bytes": 3635453,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Lung Meditations - Treblo--fallback.mp3",
+                "bytes": 1817748,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Lung Meditations - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Iron Wheels and MacDougal St.",
+          "file": "In The Middle - Iron Wheels and MacDougal St. - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Iron Wheels and MacDougal St. - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-20.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Iron Wheels and MacDougal St. - Treblo.ogg",
+            "durationSeconds": 138.397438,
+            "sourceBitRate": 102067,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Wheels and MacDougal St. - Treblo--stream.mp3",
+                "bytes": 2215227,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Wheels and MacDougal St. - Treblo--fallback.mp3",
+                "bytes": 1107635,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Iron Wheels and MacDougal St. - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "Last One Out",
+          "file": "In The Middle - Last One Out - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Last One Out - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-21.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Last One Out - Treblo.ogg",
+            "durationSeconds": 267.593271,
+            "sourceBitRate": 107525,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Last One Out - Treblo--stream.mp3",
+                "bytes": 4282453,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Last One Out - Treblo--fallback.mp3",
+                "bytes": 2141248,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Last One Out - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "Latex in the Sky",
+          "file": "In The Middle - Latex in the Sky - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Latex in the Sky - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-22.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Latex in the Sky - Treblo.ogg",
+            "durationSeconds": 163.567875,
+            "sourceBitRate": 100378,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Latex in the Sky - Treblo--stream.mp3",
+                "bytes": 2618140,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Latex in the Sky - Treblo--fallback.mp3",
+                "bytes": 1309092,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Latex in the Sky - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "Low End Ritual",
+          "file": "In The Middle - Low End Ritual - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Low End Ritual - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-23.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Low End Ritual - Treblo.ogg",
+            "durationSeconds": 166.725792,
+            "sourceBitRate": 96028,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Low End Ritual - Treblo--stream.mp3",
+                "bytes": 2668713,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Low End Ritual - Treblo--fallback.mp3",
+                "bytes": 1334378,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Low End Ritual - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "Midnight Grave",
+          "file": "In The Middle - Midnight Grave - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Midnight Grave - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-24.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Midnight Grave - Treblo.ogg",
+            "durationSeconds": 232.020292,
+            "sourceBitRate": 96446,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Midnight Grave - Treblo--stream.mp3",
+                "bytes": 3713193,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Midnight Grave - Treblo--fallback.mp3",
+                "bytes": 1856618,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Midnight Grave - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "North Side Sermon",
+          "file": "In The Middle - North Side Sermon - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - North Side Sermon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-25.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - North Side Sermon - Treblo.ogg",
+            "durationSeconds": 195.007688,
+            "sourceBitRate": 101848,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - North Side Sermon - Treblo--stream.mp3",
+                "bytes": 3120945,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - North Side Sermon - Treblo--fallback.mp3",
+                "bytes": 1560494,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - North Side Sermon - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "Orbit Dancehall",
+          "file": "In The Middle - Orbit Dancehall - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Orbit Dancehall - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-26.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Orbit Dancehall - Treblo.ogg",
+            "durationSeconds": 188.877625,
+            "sourceBitRate": 100087,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Orbit Dancehall - Treblo--stream.mp3",
+                "bytes": 3023142,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Orbit Dancehall - Treblo--fallback.mp3",
+                "bytes": 1511593,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Orbit Dancehall - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "Penthouse Spirit",
+          "file": "In The Middle - Penthouse Spirit - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Penthouse Spirit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-27.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Penthouse Spirit - Treblo.ogg",
+            "durationSeconds": 179.821833,
+            "sourceBitRate": 106273,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Penthouse Spirit - Treblo--stream.mp3",
+                "bytes": 2878111,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Penthouse Spirit - Treblo--fallback.mp3",
+                "bytes": 1439077,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Penthouse Spirit - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "Positive Space",
+          "file": "In The Middle - Positive Space - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Positive Space - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-28.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Positive Space - Treblo.ogg",
+            "durationSeconds": 168.444063,
+            "sourceBitRate": 104694,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Positive Space - Treblo--stream.mp3",
+                "bytes": 2696298,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Positive Space - Treblo--fallback.mp3",
+                "bytes": 1348171,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Positive Space - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "Recursive Peak",
+          "file": "In The Middle - Recursive Peak - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Recursive Peak - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-29.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Recursive Peak - Treblo.ogg",
+            "durationSeconds": 198.537125,
+            "sourceBitRate": 100776,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Recursive Peak - Treblo--stream.mp3",
+                "bytes": 3177787,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Recursive Peak - Treblo--fallback.mp3",
+                "bytes": 1588915,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Recursive Peak - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "Smoke Over Mountain",
+          "file": "In The Middle - Smoke Over Mountain - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Smoke Over Mountain - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-30.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Smoke Over Mountain - Treblo.ogg",
+            "durationSeconds": 210.332854,
+            "sourceBitRate": 95137,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Smoke Over Mountain - Treblo--stream.mp3",
+                "bytes": 3366287,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Smoke Over Mountain - Treblo--fallback.mp3",
+                "bytes": 1683165,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Smoke Over Mountain - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "Static Canyon",
+          "file": "In The Middle - Static Canyon - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Static Canyon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-31.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Static Canyon - Treblo.ogg",
+            "durationSeconds": 189.527771,
+            "sourceBitRate": 95349,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Canyon - Treblo--stream.mp3",
+                "bytes": 3033591,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Canyon - Treblo--fallback.mp3",
+                "bytes": 1516817,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Canyon - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "Static Sanctuary",
+          "file": "In The Middle - Static Sanctuary - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Static Sanctuary - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-32.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Static Sanctuary - Treblo.ogg",
+            "durationSeconds": 78.954354,
+            "sourceBitRate": 102211,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Sanctuary - Treblo--stream.mp3",
+                "bytes": 1264370,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Sanctuary - Treblo--fallback.mp3",
+                "bytes": 632207,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Static Sanctuary - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "Strobe Lights Flash",
+          "file": "In The Middle - Strobe Lights Flash - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Strobe Lights Flash - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-33.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Strobe Lights Flash - Treblo.ogg",
+            "durationSeconds": 144.806146,
+            "sourceBitRate": 94355,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Strobe Lights Flash - Treblo--stream.mp3",
+                "bytes": 2318045,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Strobe Lights Flash - Treblo--fallback.mp3",
+                "bytes": 1159044,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Strobe Lights Flash - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "The Black Gold Pulse",
+          "file": "In The Middle - The Black Gold Pulse - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - The Black Gold Pulse - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-34.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - The Black Gold Pulse - Treblo.ogg",
+            "durationSeconds": 200.116083,
+            "sourceBitRate": 105262,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - The Black Gold Pulse - Treblo--stream.mp3",
+                "bytes": 3202865,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - The Black Gold Pulse - Treblo--fallback.mp3",
+                "bytes": 1601454,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - The Black Gold Pulse - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "Timber and Salt",
+          "file": "In The Middle - Timber and Salt - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Timber and Salt - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-35.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Timber and Salt - Treblo.ogg",
+            "durationSeconds": 236.757167,
+            "sourceBitRate": 106593,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Timber and Salt - Treblo--stream.mp3",
+                "bytes": 3789262,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Timber and Salt - Treblo--fallback.mp3",
+                "bytes": 1894653,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Timber and Salt - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "Undertow of Grey",
+          "file": "In The Middle - Undertow of Grey - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Undertow of Grey - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-36.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Undertow of Grey - Treblo.ogg",
+            "durationSeconds": 203.413313,
+            "sourceBitRate": 98692,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Undertow of Grey - Treblo--stream.mp3",
+                "bytes": 3255528,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Undertow of Grey - Treblo--fallback.mp3",
+                "bytes": 1627786,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Undertow of Grey - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--thumb.jpg",
+                "webpBytes": 78998,
+                "jpegBytes": 105868,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--cover.jpg",
+                "webpBytes": 312090,
+                "jpegBytes": 393734,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_25 AM--share.jpg",
+                "webpBytes": 63706,
+                "jpegBytes": 93825,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 37,
+          "title": "Up For Air",
+          "file": "In The Middle - Up For Air - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Up For Air - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-37.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Up For Air - Treblo.ogg",
+            "durationSeconds": 221.199792,
+            "sourceBitRate": 95671,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Up For Air - Treblo--stream.mp3",
+                "bytes": 3540158,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Up For Air - Treblo--fallback.mp3",
+                "bytes": 1770101,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Up For Air - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_39 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 38,
+          "title": "Vinyl Incense Ritual",
+          "file": "In The Middle - Vinyl Incense Ritual - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Vinyl Incense Ritual - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-38.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Vinyl Incense Ritual - Treblo.ogg",
+            "durationSeconds": 170.301667,
+            "sourceBitRate": 101910,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Vinyl Incense Ritual - Treblo--stream.mp3",
+                "bytes": 2725973,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Vinyl Incense Ritual - Treblo--fallback.mp3",
+                "bytes": 1363008,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Vinyl Incense Ritual - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--thumb.jpg",
+                "webpBytes": 80388,
+                "jpegBytes": 105505,
+                "webpQuality": 78,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--cover.jpg",
+                "webpBytes": 251638,
+                "jpegBytes": 410818,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_56_46 AM--share.jpg",
+                "webpBytes": 68202,
+                "jpegBytes": 131220,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 39,
+          "title": "Weightless Dub",
+          "file": "In The Middle - Weightless Dub - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Weightless Dub - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-39.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Weightless Dub - Treblo.ogg",
+            "durationSeconds": 156.369688,
+            "sourceBitRate": 94902,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Dub - Treblo--stream.mp3",
+                "bytes": 2502783,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Dub - Treblo--fallback.mp3",
+                "bytes": 1251413,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Dub - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--thumb.jpg",
+                "webpBytes": 70322,
+                "jpegBytes": 106289,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--cover.jpg",
+                "webpBytes": 207206,
+                "jpegBytes": 302377,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_08 AM--share.jpg",
+                "webpBytes": 61666,
+                "jpegBytes": 98579,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 40,
+          "title": "Weightless Riddim",
+          "file": "In The Middle - Weightless Riddim - Treblo.ogg",
+          "source": "IN THE MIDDLE/In The Middle - Weightless Riddim - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-inthemiddle-40.html",
+          "audio": {
+            "source": "IN THE MIDDLE/In The Middle - Weightless Riddim - Treblo.ogg",
+            "durationSeconds": 230.441333,
+            "sourceBitRate": 93813,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Riddim - Treblo--stream.mp3",
+                "bytes": 3688115,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Riddim - Treblo--fallback.mp3",
+                "bytes": 1844079,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/IN THE MIDDLE/In The Middle - Weightless Riddim - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--thumb.jpg",
+                "webpBytes": 78784,
+                "jpegBytes": 114326,
+                "webpQuality": 48,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--cover.jpg",
+                "webpBytes": 388770,
+                "jpegBytes": 496506,
+                "webpQuality": 75,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
+                "webpBytes": 98946,
+                "jpegBytes": 174196,
                 "webpQuality": 76,
                 "jpegQScale": 5
               }
