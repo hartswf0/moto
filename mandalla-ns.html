@@ -294,6 +294,7 @@
         { key: 'brooklynomen', label: 'BKO' },
         { key: 'paperglasses', label: 'PGEW' },
         { key: 'inthemiddle', label: 'MID' },
+        { key: 'mareamemory', label: 'MAREA' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -394,6 +395,8 @@
             ? 'brooklynomen'
           : raw === 'paperglasses' || raw === 'paper' || raw === 'glasses' || raw === 'wonder' || raw === 'paper-glasses-electric-wonder' || raw === 'paper_glasses_electric_wonder' || raw === 'paper glasses electric wonder' || raw === 'pgew'
             ? 'paperglasses'
+          : raw === 'mareamemory' || raw === 'marea' || raw === 'memory' || raw === 'marea-memory' || raw === 'marea_memory' || raw === 'marea memory' || raw === 'mm'
+            ? 'mareamemory'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

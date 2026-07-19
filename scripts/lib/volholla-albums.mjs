@@ -51,6 +51,7 @@ export function titleFromFilename(file) {
     .replace(/^brooklyn omen\s*-\s*/i, "")
     .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, "")
     .replace(/^in the middle\s*-\s*/i, "")
+    .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^\d{1,2}[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")

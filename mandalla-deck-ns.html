@@ -281,6 +281,7 @@
         { key: 'brooklynomen', label: 'BKO' },
         { key: 'paperglasses', label: 'PGEW' },
         { key: 'inthemiddle', label: 'MID' },
+        { key: 'mareamemory', label: 'MAREA' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -377,6 +378,8 @@
             ? 'brooklynomen'
           : raw === 'paperglasses' || raw === 'paper' || raw === 'glasses' || raw === 'wonder' || raw === 'paper-glasses-electric-wonder' || raw === 'paper_glasses_electric_wonder' || raw === 'paper glasses electric wonder' || raw === 'pgew'
             ? 'paperglasses'
+          : raw === 'mareamemory' || raw === 'marea' || raw === 'memory' || raw === 'marea-memory' || raw === 'marea_memory' || raw === 'marea memory' || raw === 'mm'
+            ? 'mareamemory'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'

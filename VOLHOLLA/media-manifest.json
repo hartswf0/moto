@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T16:00:26.946Z",
+  "generatedAt": "2026-07-19T06:59:48.432Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -21213,6 +21213,2334 @@
                 "jpeg": "MEDIA_DERIVATIVES/images/IN THE MIDDLE/ChatGPT Image Jul 15, 2026, 02_57_26 AM--share.jpg",
                 "webpBytes": 98946,
                 "jpegBytes": 174196,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "mareamemory": {
+      "key": "mareamemory",
+      "label": "MAREA MEMORY",
+      "subtitle": "Solar archive ritual / papyrus memory / dawn-engine cumbia",
+      "pageSlug": "marea-memory",
+      "hallKey": "mareamemory",
+      "op2Key": "mareamemory",
+      "op2Pair": "inthemiddle",
+      "accentA": "#d07823",
+      "accentB": "#16382d",
+      "cover": {
+        "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+            "webpBytes": 79830,
+            "jpegBytes": 87816,
+            "webpQuality": 73,
+            "jpegQScale": 6
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+            "webpBytes": 320506,
+            "jpegBytes": 476455,
+            "webpQuality": 75,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+            "webpBytes": 76590,
+            "jpegBytes": 114385,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+            "webpBytes": 25482,
+            "jpegBytes": 42370,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+            "webpBytes": 157734,
+            "jpegBytes": 199930,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+            "webpBytes": 21980,
+            "jpegBytes": 42949,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Actual Life Engine",
+          "file": "Marea Memory - Actual Life Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Actual Life Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-01.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Actual Life Engine - Treblo.ogg",
+            "durationSeconds": 53.644604,
+            "sourceBitRate": 96841,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Actual Life Engine - Treblo--stream.mp3",
+                "bytes": 859368,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Actual Life Engine - Treblo--fallback.mp3",
+                "bytes": 429706,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Actual Life Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Aten Rising (Voice Memo 1)",
+          "file": "Marea Memory - Aten Rising (Voice Memo 1) - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Aten Rising (Voice Memo 1) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-02.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Aten Rising (Voice Memo 1) - Treblo.ogg",
+            "durationSeconds": 96.555083,
+            "sourceBitRate": 103580,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Aten Rising (Voice Memo 1) - Treblo--stream.mp3",
+                "bytes": 1546075,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Aten Rising (Voice Memo 1) - Treblo--fallback.mp3",
+                "bytes": 773059,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Aten Rising (Voice Memo 1) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Berlin Diary",
+          "file": "Marea Memory - Berlin Diary - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Berlin Diary - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-03.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Berlin Diary - Treblo.ogg",
+            "durationSeconds": 247.995625,
+            "sourceBitRate": 105960,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Berlin Diary - Treblo--stream.mp3",
+                "bytes": 3968984,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Berlin Diary - Treblo--fallback.mp3",
+                "bytes": 1984514,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Berlin Diary - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Daylight Possession",
+          "file": "Marea Memory - Daylight Possession - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Daylight Possession - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-04.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Daylight Possession - Treblo.ogg",
+            "durationSeconds": 179.264563,
+            "sourceBitRate": 100191,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Daylight Possession - Treblo--stream.mp3",
+                "bytes": 2869333,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Daylight Possession - Treblo--fallback.mp3",
+                "bytes": 1434688,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Daylight Possession - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Desert Sunrise Mirror",
+          "file": "Marea Memory - Desert Sunrise Mirror - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Desert Sunrise Mirror - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-05.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Desert Sunrise Mirror - Treblo.ogg",
+            "durationSeconds": 198.490688,
+            "sourceBitRate": 105980,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Desert Sunrise Mirror - Treblo--stream.mp3",
+                "bytes": 3176951,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Desert Sunrise Mirror - Treblo--fallback.mp3",
+                "bytes": 1588497,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Desert Sunrise Mirror - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Ecstatic Dawn",
+          "file": "Marea Memory - Ecstatic Dawn - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Ecstatic Dawn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-06.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Ecstatic Dawn - Treblo.ogg",
+            "durationSeconds": 220.08525,
+            "sourceBitRate": 105686,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Ecstatic Dawn - Treblo--stream.mp3",
+                "bytes": 3522186,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Ecstatic Dawn - Treblo--fallback.mp3",
+                "bytes": 1761115,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Ecstatic Dawn - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Electro-Cumbia Lockdown Sunrise",
+          "file": "Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-07.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo.ogg",
+            "durationSeconds": 246.695313,
+            "sourceBitRate": 102988,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo--stream.mp3",
+                "bytes": 3948086,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo--fallback.mp3",
+                "bytes": 1974065,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Fragment in Motion",
+          "file": "Marea Memory - Fragment in Motion - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Fragment in Motion - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-08.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Fragment in Motion - Treblo.ogg",
+            "durationSeconds": 270.333229,
+            "sourceBitRate": 104240,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Fragment in Motion - Treblo--stream.mp3",
+                "bytes": 4326339,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Fragment in Motion - Treblo--fallback.mp3",
+                "bytes": 2163191,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Fragment in Motion - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Hideout Gospel Illumination Engine",
+          "file": "Marea Memory - Hideout Gospel Illumination Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Hideout Gospel Illumination Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-09.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Hideout Gospel Illumination Engine - Treblo.ogg",
+            "durationSeconds": 77.050313,
+            "sourceBitRate": 105735,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Hideout Gospel Illumination Engine - Treblo--stream.mp3",
+                "bytes": 1233859,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Hideout Gospel Illumination Engine - Treblo--fallback.mp3",
+                "bytes": 616951,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Hideout Gospel Illumination Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Incandescent Gas Hook",
+          "file": "Marea Memory - Incandescent Gas Hook - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Incandescent Gas Hook - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-10.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Incandescent Gas Hook - Treblo.ogg",
+            "durationSeconds": 231.27725,
+            "sourceBitRate": 101967,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Incandescent Gas Hook - Treblo--stream.mp3",
+                "bytes": 3701490,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Incandescent Gas Hook - Treblo--fallback.mp3",
+                "bytes": 1850767,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Incandescent Gas Hook - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Kitchen Table Memories",
+          "file": "Marea Memory - Kitchen Table Memories - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Kitchen Table Memories - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-11.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Kitchen Table Memories - Treblo.ogg",
+            "durationSeconds": 176.153083,
+            "sourceBitRate": 109689,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Kitchen Table Memories - Treblo--stream.mp3",
+                "bytes": 2819596,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Kitchen Table Memories - Treblo--fallback.mp3",
+                "bytes": 1409820,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Kitchen Table Memories - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Locked in the 120s",
+          "file": "Marea Memory - Locked in the 120s - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Locked in the 120s - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-12.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Locked in the 120s - Treblo.ogg",
+            "durationSeconds": 187.066458,
+            "sourceBitRate": 98138,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Locked in the 120s - Treblo--stream.mp3",
+                "bytes": 2993885,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Locked in the 120s - Treblo--fallback.mp3",
+                "bytes": 1496964,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Locked in the 120s - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "London Flat Air",
+          "file": "Marea Memory - London Flat Air - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - London Flat Air - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-13.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - London Flat Air - Treblo.ogg",
+            "durationSeconds": 54.201875,
+            "sourceBitRate": 108824,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - London Flat Air - Treblo--stream.mp3",
+                "bytes": 868145,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - London Flat Air - Treblo--fallback.mp3",
+                "bytes": 434094,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - London Flat Air - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Lost in the Sun",
+          "file": "Marea Memory - Lost in the Sun - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Lost in the Sun - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-14.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Lost in the Sun - Treblo.ogg",
+            "durationSeconds": 103.195979,
+            "sourceBitRate": 95468,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Lost in the Sun - Treblo--stream.mp3",
+                "bytes": 1652236,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Lost in the Sun - Treblo--fallback.mp3",
+                "bytes": 826140,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Lost in the Sun - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Operative Solar Physics Synthesis",
+          "file": "Marea Memory - Operative Solar Physics Synthesis - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Operative Solar Physics Synthesis - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-15.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Operative Solar Physics Synthesis - Treblo.ogg",
+            "durationSeconds": 195.611417,
+            "sourceBitRate": 101959,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Operative Solar Physics Synthesis - Treblo--stream.mp3",
+                "bytes": 3130976,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Operative Solar Physics Synthesis - Treblo--fallback.mp3",
+                "bytes": 1565510,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Operative Solar Physics Synthesis - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "Pale Minnesota Morning (Rise Up)",
+          "file": "Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-16.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo.ogg",
+            "durationSeconds": 224.729229,
+            "sourceBitRate": 103550,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo--stream.mp3",
+                "bytes": 3596582,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo--fallback.mp3",
+                "bytes": 1798313,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "Pre-Columbian Solar Ascension Engine",
+          "file": "Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-17.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo.ogg",
+            "durationSeconds": 180.518438,
+            "sourceBitRate": 98412,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo--stream.mp3",
+                "bytes": 2889395,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo--fallback.mp3",
+                "bytes": 1444719,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "Prime Foundation — The Actual Life Engine",
+          "file": "Marea Memory - Prime Foundation — The Actual Life Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Prime Foundation — The Actual Life Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-18.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Prime Foundation — The Actual Life Engine - Treblo.ogg",
+            "durationSeconds": 78.118438,
+            "sourceBitRate": 124363,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Prime Foundation — The Actual Life Engine - Treblo--stream.mp3",
+                "bytes": 1250995,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Prime Foundation — The Actual Life Engine - Treblo--fallback.mp3",
+                "bytes": 625519,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Prime Foundation — The Actual Life Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "Procession to Saturn",
+          "file": "Marea Memory - Procession to Saturn - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Procession to Saturn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-19.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Procession to Saturn - Treblo.ogg",
+            "durationSeconds": 269.172229,
+            "sourceBitRate": 103882,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Procession to Saturn - Treblo--stream.mp3",
+                "bytes": 4307949,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Procession to Saturn - Treblo--fallback.mp3",
+                "bytes": 2153996,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Procession to Saturn - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Radiant Lockdown Ritual",
+          "file": "Marea Memory - Radiant Lockdown Ritual - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Radiant Lockdown Ritual - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-20.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Radiant Lockdown Ritual - Treblo.ogg",
+            "durationSeconds": 218.088333,
+            "sourceBitRate": 105150,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Radiant Lockdown Ritual - Treblo--stream.mp3",
+                "bytes": 3490421,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Radiant Lockdown Ritual - Treblo--fallback.mp3",
+                "bytes": 1745232,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Radiant Lockdown Ritual - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "Room Full of Witness",
+          "file": "Marea Memory - Room Full of Witness - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Room Full of Witness - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-21.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Room Full of Witness - Treblo.ogg",
+            "durationSeconds": 195.890042,
+            "sourceBitRate": 95166,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Room Full of Witness - Treblo--stream.mp3",
+                "bytes": 3135155,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Room Full of Witness - Treblo--fallback.mp3",
+                "bytes": 1567599,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Room Full of Witness - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "Sacred Dawn Invocation",
+          "file": "Marea Memory - Sacred Dawn Invocation - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Sacred Dawn Invocation - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-22.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Sacred Dawn Invocation - Treblo.ogg",
+            "durationSeconds": 187.112896,
+            "sourceBitRate": 121188,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sacred Dawn Invocation - Treblo--stream.mp3",
+                "bytes": 2994721,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sacred Dawn Invocation - Treblo--fallback.mp3",
+                "bytes": 1497382,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sacred Dawn Invocation - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "Saturnian Voice Memo",
+          "file": "Marea Memory - Saturnian Voice Memo - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Saturnian Voice Memo - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-23.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Saturnian Voice Memo - Treblo.ogg",
+            "durationSeconds": 46.910813,
+            "sourceBitRate": 104180,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo - Treblo--stream.mp3",
+                "bytes": 751534,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo - Treblo--fallback.mp3",
+                "bytes": 375789,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "Saturnian Voice Memo (Extended 1)",
+          "file": "Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-24.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo.ogg",
+            "durationSeconds": 167.14375,
+            "sourceBitRate": 100894,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo--stream.mp3",
+                "bytes": 2675400,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo--fallback.mp3",
+                "bytes": 1337722,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "Shaolin Sunrise Pulse",
+          "file": "Marea Memory - Shaolin Sunrise Pulse - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Shaolin Sunrise Pulse - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-25.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Shaolin Sunrise Pulse - Treblo.ogg",
+            "durationSeconds": 79.186563,
+            "sourceBitRate": 124784,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Shaolin Sunrise Pulse - Treblo--stream.mp3",
+                "bytes": 1268132,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Shaolin Sunrise Pulse - Treblo--fallback.mp3",
+                "bytes": 634088,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Shaolin Sunrise Pulse - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "Solar Ascension",
+          "file": "Marea Memory - Solar Ascension - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Solar Ascension - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-26.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Solar Ascension - Treblo.ogg",
+            "durationSeconds": 212.747729,
+            "sourceBitRate": 90799,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Ascension - Treblo--stream.mp3",
+                "bytes": 3404739,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Ascension - Treblo--fallback.mp3",
+                "bytes": 1702391,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Ascension - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "Solar Expenditure Pulse",
+          "file": "Marea Memory - Solar Expenditure Pulse - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Solar Expenditure Pulse - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-27.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Solar Expenditure Pulse - Treblo.ogg",
+            "durationSeconds": 245.441438,
+            "sourceBitRate": 98966,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Expenditure Pulse - Treblo--stream.mp3",
+                "bytes": 3928024,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Expenditure Pulse - Treblo--fallback.mp3",
+                "bytes": 1964034,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Solar Expenditure Pulse - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "Speakeasy Shadow",
+          "file": "Marea Memory - Speakeasy Shadow - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Speakeasy Shadow - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-28.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Speakeasy Shadow - Treblo.ogg",
+            "durationSeconds": 128.505729,
+            "sourceBitRate": 103409,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Speakeasy Shadow - Treblo--stream.mp3",
+                "bytes": 2057239,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Speakeasy Shadow - Treblo--fallback.mp3",
+                "bytes": 1028641,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Speakeasy Shadow - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "Stadium-Sized Lockdown Sunrise",
+          "file": "Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-29.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo.ogg",
+            "durationSeconds": 160.688604,
+            "sourceBitRate": 95747,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo--stream.mp3",
+                "bytes": 2572164,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo--fallback.mp3",
+                "bytes": 1286104,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "Submerged Afrofuturist Ignition",
+          "file": "Marea Memory - Submerged Afrofuturist Ignition - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Submerged Afrofuturist Ignition - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-30.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Submerged Afrofuturist Ignition - Treblo.ogg",
+            "durationSeconds": 181.586563,
+            "sourceBitRate": 97233,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Afrofuturist Ignition - Treblo--stream.mp3",
+                "bytes": 2906532,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Afrofuturist Ignition - Treblo--fallback.mp3",
+                "bytes": 1453288,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Afrofuturist Ignition - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "Submerged Signal Ritual",
+          "file": "Marea Memory - Submerged Signal Ritual - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Submerged Signal Ritual - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-31.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Submerged Signal Ritual - Treblo.ogg",
+            "durationSeconds": 217.716813,
+            "sourceBitRate": 104040,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Signal Ritual - Treblo--stream.mp3",
+                "bytes": 3484569,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Signal Ritual - Treblo--fallback.mp3",
+                "bytes": 1742306,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Submerged Signal Ritual - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "Sun Ritual Mantras",
+          "file": "Marea Memory - Sun Ritual Mantras - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Sun Ritual Mantras - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-32.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Sun Ritual Mantras - Treblo.ogg",
+            "durationSeconds": 245.116354,
+            "sourceBitRate": 118749,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sun Ritual Mantras - Treblo--stream.mp3",
+                "bytes": 3923008,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sun Ritual Mantras - Treblo--fallback.mp3",
+                "bytes": 1961526,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Sun Ritual Mantras - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "The Flood Below the Sky",
+          "file": "Marea Memory - The Flood Below the Sky - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - The Flood Below the Sky - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-33.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - The Flood Below the Sky - Treblo.ogg",
+            "durationSeconds": 203.691958,
+            "sourceBitRate": 100725,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Flood Below the Sky - Treblo--stream.mp3",
+                "bytes": 3260125,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Flood Below the Sky - Treblo--fallback.mp3",
+                "bytes": 1630084,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Flood Below the Sky - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "The Great Collective Solar Day",
+          "file": "Marea Memory - The Great Collective Solar Day - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - The Great Collective Solar Day - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-34.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - The Great Collective Solar Day - Treblo.ogg",
+            "durationSeconds": 127.019667,
+            "sourceBitRate": 103662,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Great Collective Solar Day - Treblo--stream.mp3",
+                "bytes": 2033415,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Great Collective Solar Day - Treblo--fallback.mp3",
+                "bytes": 1016729,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Great Collective Solar Day - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--thumb.jpg",
+                "webpBytes": 81706,
+                "jpegBytes": 98521,
+                "webpQuality": 63,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--cover.jpg",
+                "webpBytes": 352364,
+                "jpegBytes": 503808,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM--share.jpg",
+                "webpBytes": 83228,
+                "jpegBytes": 123242,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "The Morning Greeting",
+          "file": "Marea Memory - The Morning Greeting - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - The Morning Greeting - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-35.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - The Morning Greeting - Treblo.ogg",
+            "durationSeconds": 230.859292,
+            "sourceBitRate": 101833,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Morning Greeting - Treblo--stream.mp3",
+                "bytes": 3694803,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Morning Greeting - Treblo--fallback.mp3",
+                "bytes": 1847423,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Morning Greeting - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--thumb.jpg",
+                "webpBytes": 79552,
+                "jpegBytes": 120280,
+                "webpQuality": 68,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--cover.jpg",
+                "webpBytes": 343032,
+                "jpegBytes": 459746,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM--share.jpg",
+                "webpBytes": 79608,
+                "jpegBytes": 107492,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "The Solar Ascension Engine",
+          "file": "Marea Memory - The Solar Ascension Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - The Solar Ascension Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-36.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - The Solar Ascension Engine - Treblo.ogg",
+            "durationSeconds": 170.255208,
+            "sourceBitRate": 97247,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Solar Ascension Engine - Treblo--stream.mp3",
+                "bytes": 2725137,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Solar Ascension Engine - Treblo--fallback.mp3",
+                "bytes": 1362590,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - The Solar Ascension Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--thumb.jpg",
+                "webpBytes": 25482,
+                "jpegBytes": 42370,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--cover.jpg",
+                "webpBytes": 157734,
+                "jpegBytes": 199930,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM--share.jpg",
+                "webpBytes": 21980,
+                "jpegBytes": 42949,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 37,
+          "title": "Viscous Ontological Solar Engine",
+          "file": "Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg",
+          "source": "MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-mareamemory-37.html",
+          "audio": {
+            "source": "MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg",
+            "durationSeconds": 59.914,
+            "sourceBitRate": 90046,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo--stream.mp3",
+                "bytes": 959678,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo--fallback.mp3",
+                "bytes": 479861,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo--preview.mp3",
+                "bytes": 180498,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--thumb.jpg",
+                "webpBytes": 79830,
+                "jpegBytes": 87816,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--cover.jpg",
+                "webpBytes": 320506,
+                "jpegBytes": 476455,
+                "webpQuality": 75,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM--share.jpg",
+                "webpBytes": 76590,
+                "jpegBytes": 114385,
                 "webpQuality": 76,
                 "jpegQScale": 5
               }

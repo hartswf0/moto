@@ -2687,6 +2687,103 @@
         ["OP2 Pair", "Launch with PAPER GLASSES, ELECTRIC WONDER for the headset-and-desert companion deck."]
       ]
     },
+    mareamemory: {
+      key: "mareamemory",
+      pageSlug: "marea-memory",
+      basePath: "../MAREA MEMORY/",
+      label: "MAREA MEMORY",
+      subtitle: "Solar archive ritual / papyrus memory / dawn-engine cumbia",
+      accentA: "#d07823",
+      accentB: "#16382d",
+      coverImage: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+      defaultTrackArt: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+      trackArtByIndex: {
+        0: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        1: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        2: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        3: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        4: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        5: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        6: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        7: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        8: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        9: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        10: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        11: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        12: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        13: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        14: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        15: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        16: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        17: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        18: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        19: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        20: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        21: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        22: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        23: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        24: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        25: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        26: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        27: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        28: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        29: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        30: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        31: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        32: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png",
+        33: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_30 AM.png",
+        34: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_45 AM.png",
+        35: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_40_50 AM.png",
+        36: "../MAREA MEMORY/ChatGPT Image Jul 19, 2026, 02_39_49 AM.png"
+      },
+      hallKey: "mareamemory",
+      op2Key: "mareamemory",
+      op2Pair: "inthemiddle",
+      files: [
+        "Marea Memory - Actual Life Engine - Treblo.ogg",
+        "Marea Memory - Aten Rising (Voice Memo 1) - Treblo.ogg",
+        "Marea Memory - Berlin Diary - Treblo.ogg",
+        "Marea Memory - Daylight Possession - Treblo.ogg",
+        "Marea Memory - Desert Sunrise Mirror - Treblo.ogg",
+        "Marea Memory - Ecstatic Dawn - Treblo.ogg",
+        "Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo.ogg",
+        "Marea Memory - Fragment in Motion - Treblo.ogg",
+        "Marea Memory - Hideout Gospel Illumination Engine - Treblo.ogg",
+        "Marea Memory - Incandescent Gas Hook - Treblo.ogg",
+        "Marea Memory - Kitchen Table Memories - Treblo.ogg",
+        "Marea Memory - Locked in the 120s - Treblo.ogg",
+        "Marea Memory - London Flat Air - Treblo.ogg",
+        "Marea Memory - Lost in the Sun - Treblo.ogg",
+        "Marea Memory - Operative Solar Physics Synthesis - Treblo.ogg",
+        "Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo.ogg",
+        "Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo.ogg",
+        "Marea Memory - Prime Foundation — The Actual Life Engine - Treblo.ogg",
+        "Marea Memory - Procession to Saturn - Treblo.ogg",
+        "Marea Memory - Radiant Lockdown Ritual - Treblo.ogg",
+        "Marea Memory - Room Full of Witness - Treblo.ogg",
+        "Marea Memory - Sacred Dawn Invocation - Treblo.ogg",
+        "Marea Memory - Saturnian Voice Memo - Treblo.ogg",
+        "Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo.ogg",
+        "Marea Memory - Shaolin Sunrise Pulse - Treblo.ogg",
+        "Marea Memory - Solar Ascension - Treblo.ogg",
+        "Marea Memory - Solar Expenditure Pulse - Treblo.ogg",
+        "Marea Memory - Speakeasy Shadow - Treblo.ogg",
+        "Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo.ogg",
+        "Marea Memory - Submerged Afrofuturist Ignition - Treblo.ogg",
+        "Marea Memory - Submerged Signal Ritual - Treblo.ogg",
+        "Marea Memory - Sun Ritual Mantras - Treblo.ogg",
+        "Marea Memory - The Flood Below the Sky - Treblo.ogg",
+        "Marea Memory - The Great Collective Solar Day - Treblo.ogg",
+        "Marea Memory - The Morning Greeting - Treblo.ogg",
+        "Marea Memory - The Solar Ascension Engine - Treblo.ogg",
+        "Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Solar archive ritual / papyrus memory / dawn-engine cumbia"],
+        ["Use", "Standalone album page, hall route, direct song links, and sunrise-ready mix entry."],
+        ["OP2 Pair", "Launch with IN THE MIDDLE for the desert-to-solar companion deck." ]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2768,6 +2865,7 @@
         .replace(/^brooklyn omen\s*-\s*/i, "")
         .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, "")
         .replace(/^in the middle\s*-\s*/i, "")
+    .replace(/^marea memory\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -2942,6 +3040,7 @@
     if (raw === "brooklynomen" || raw === "brooklyn" || raw === "omen" || raw === "brooklyn-omen" || raw === "brooklyn_omen" || raw === "brooklyn omen" || raw === "bo") return "brooklynomen";
     if (raw === "paperglasses" || raw === "paper" || raw === "glasses" || raw === "wonder" || raw === "paper-glasses-electric-wonder" || raw === "paper_glasses_electric_wonder" || raw === "paper glasses electric wonder" || raw === "pgew") return "paperglasses";
     if (raw === "inthemiddle" || raw === "middle" || raw === "in-the-middle" || raw === "in_the_middle" || raw === "in the middle" || raw === "itm") return "inthemiddle";
+    if (raw === "mareamemory" || raw === "marea" || raw === "memory" || raw === "marea-memory" || raw === "marea_memory" || raw === "marea memory" || raw === "mm") return "mareamemory";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

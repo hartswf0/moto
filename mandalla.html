@@ -1933,6 +1933,53 @@
                     "In The Middle - Weightless Riddim - Treblo.ogg"
                   ]
             },
+            mareamemory: {
+                key: 'mareamemory',
+                label: 'MAREA MEMORY',
+                shortLabel: 'MAREA',
+                libraryParam: 'mareamemory',
+                op2Pair: 'inthemiddle',
+                basePath: 'MAREA MEMORY/',
+                files: [
+                    "Marea Memory - Actual Life Engine - Treblo.ogg",
+                    "Marea Memory - Aten Rising (Voice Memo 1) - Treblo.ogg",
+                    "Marea Memory - Berlin Diary - Treblo.ogg",
+                    "Marea Memory - Daylight Possession - Treblo.ogg",
+                    "Marea Memory - Desert Sunrise Mirror - Treblo.ogg",
+                    "Marea Memory - Ecstatic Dawn - Treblo.ogg",
+                    "Marea Memory - Electro-Cumbia Lockdown Sunrise - Treblo.ogg",
+                    "Marea Memory - Fragment in Motion - Treblo.ogg",
+                    "Marea Memory - Hideout Gospel Illumination Engine - Treblo.ogg",
+                    "Marea Memory - Incandescent Gas Hook - Treblo.ogg",
+                    "Marea Memory - Kitchen Table Memories - Treblo.ogg",
+                    "Marea Memory - Locked in the 120s - Treblo.ogg",
+                    "Marea Memory - London Flat Air - Treblo.ogg",
+                    "Marea Memory - Lost in the Sun - Treblo.ogg",
+                    "Marea Memory - Operative Solar Physics Synthesis - Treblo.ogg",
+                    "Marea Memory - Pale Minnesota Morning (Rise Up) - Treblo.ogg",
+                    "Marea Memory - Pre-Columbian Solar Ascension Engine - Treblo.ogg",
+                    "Marea Memory - Prime Foundation — The Actual Life Engine - Treblo.ogg",
+                    "Marea Memory - Procession to Saturn - Treblo.ogg",
+                    "Marea Memory - Radiant Lockdown Ritual - Treblo.ogg",
+                    "Marea Memory - Room Full of Witness - Treblo.ogg",
+                    "Marea Memory - Sacred Dawn Invocation - Treblo.ogg",
+                    "Marea Memory - Saturnian Voice Memo - Treblo.ogg",
+                    "Marea Memory - Saturnian Voice Memo (Extended 1) - Treblo.ogg",
+                    "Marea Memory - Shaolin Sunrise Pulse - Treblo.ogg",
+                    "Marea Memory - Solar Ascension - Treblo.ogg",
+                    "Marea Memory - Solar Expenditure Pulse - Treblo.ogg",
+                    "Marea Memory - Speakeasy Shadow - Treblo.ogg",
+                    "Marea Memory - Stadium-Sized Lockdown Sunrise - Treblo.ogg",
+                    "Marea Memory - Submerged Afrofuturist Ignition - Treblo.ogg",
+                    "Marea Memory - Submerged Signal Ritual - Treblo.ogg",
+                    "Marea Memory - Sun Ritual Mantras - Treblo.ogg",
+                    "Marea Memory - The Flood Below the Sky - Treblo.ogg",
+                    "Marea Memory - The Great Collective Solar Day - Treblo.ogg",
+                    "Marea Memory - The Morning Greeting - Treblo.ogg",
+                    "Marea Memory - The Solar Ascension Engine - Treblo.ogg",
+                    "Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg"
+                  ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2737,6 +2784,7 @@
                 .replace(/^brooklyn omen\s*-\s*/i, '')
                 .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, '')
                 .replace(/^in the middle\s*-\s*/i, '')
+                .replace(/^marea memory\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
@@ -2791,6 +2839,7 @@
             if (v === 'brooklynomen' || v === 'brooklyn' || v === 'omen' || v === 'brooklyn-omen' || v === 'brooklyn_omen' || v === 'brooklyn omen' || v === 'bo') return 'brooklynomen';
             if (v === 'paperglasses' || v === 'paper' || v === 'glasses' || v === 'wonder' || v === 'paper-glasses-electric-wonder' || v === 'paper_glasses_electric_wonder' || v === 'paper glasses electric wonder' || v === 'pgew') return 'paperglasses';
             if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
+            if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
