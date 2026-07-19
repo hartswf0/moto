@@ -1,0 +1,703 @@
+{
+  "analysisVersion": 1,
+  "index": 90,
+  "id": "../VOLHOLLA/song-cypher-08.html",
+  "slug": "la-maquina-de-cypher-ancestral",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",
+  "sampledRanges": [
+    [
+      10.79,
+      28.79
+    ],
+    [
+      43.16,
+      61.16
+    ],
+    [
+      75.53,
+      93.53
+    ],
+    [
+      107.9,
+      125.9
+    ]
+  ],
+  "segments": [
+    {
+      "start": 124.48,
+      "end": 125.88,
+      "text": "Ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha",
+      "avgLogprob": -0.132,
+      "compressionRatio": 21.333,
+      "noSpeechProbability": 0.636,
+      "words": [
+        {
+          "word": " Ha",
+          "start": 124.48,
+          "end": 124.98,
+          "probability": 0.006
+        },
+        {
+          "word": " ha",
+          "start": 124.98,
+          "end": 125.26,
+          "probability": 0.603
+        },
+        {
+          "word": " ha",
+          "start": 125.26,
+          "end": 125.72,
+          "probability": 0.922
+        },
+        {
+          "word": " ha",
+          "start": 125.72,
+          "end": 125.88,
+          "probability": 0.845
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.804
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.796
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.819
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.857
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.894
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.927
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.947
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.961
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.971
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.978
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.982
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.985
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.987
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.989
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.991
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.992
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.993
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.994
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.994
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.994
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.994
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.995
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.995
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.995
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.995
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.995
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.997
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        },
+        {
+          "word": " ha",
+          "start": 125.88,
+          "end": 125.88,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 125.86,
+      "end": 125.86,
+      "text": "",
+      "avgLogprob": -0.089,
+      "compressionRatio": 23.615,
+      "noSpeechProbability": 0.766,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.573,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.471,
+    "reviewRequired": true
+  }
+}

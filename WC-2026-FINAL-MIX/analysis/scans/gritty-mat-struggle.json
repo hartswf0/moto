@@ -1,0 +1,1252 @@
+{
+  "analysisVersion": 1,
+  "index": 107,
+  "id": "../VOLHOLLA/song-throne-04.html",
+  "slug": "gritty-mat-struggle",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Can't lose burns it raw sweat Blood drips on the newbie I breathe keep me muscle twitching a great fall Black boots heavy chest Heaving in the center utter ring Total war in the mind Tonight, I struggle for the life for me Survival is the only plan I hit, I hit, I hit Survival is the only plan I hit, I hit, I hit Show the end of your sternum Heavy grind, ball on bone I'm a winner with a run of ribs Tired of being a grapple and lace White lines cross the mat tonight I struggle for the life of me Survival is the only plan I hit, I hit, I hit Survival is the only plan I hit, I hit, I hit Under the flat light, I survive, I survive, I survive White learns cross the mat tonight, I struggle for the life in me Survive who's the only plan, I hit, I hit, I hit Survive who's the only plan",
+  "sampledRanges": [
+    [
+      9.85,
+      27.85
+    ],
+    [
+      39.39,
+      57.39
+    ],
+    [
+      68.92,
+      86.92
+    ],
+    [
+      98.46,
+      116.46
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.83,
+      "end": 21.81,
+      "text": "Can't lose burns it raw sweat Blood drips on the newbie I breathe keep me muscle twitching",
+      "avgLogprob": -0.791,
+      "compressionRatio": 1.358,
+      "noSpeechProbability": 0.695,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 14.83,
+          "end": 15.59,
+          "probability": 0.231
+        },
+        {
+          "word": " lose",
+          "start": 15.59,
+          "end": 15.67,
+          "probability": 0.106
+        },
+        {
+          "word": " burns",
+          "start": 15.67,
+          "end": 15.93,
+          "probability": 0.339
+        },
+        {
+          "word": " it",
+          "start": 15.93,
+          "end": 16.05,
+          "probability": 0.26
+        },
+        {
+          "word": " raw",
+          "start": 16.05,
+          "end": 16.23,
+          "probability": 0.389
+        },
+        {
+          "word": " sweat",
+          "start": 16.23,
+          "end": 16.63,
+          "probability": 0.997
+        },
+        {
+          "word": " Blood",
+          "start": 16.63,
+          "end": 17.45,
+          "probability": 0.345
+        },
+        {
+          "word": " drips",
+          "start": 17.45,
+          "end": 17.65,
+          "probability": 0.626
+        },
+        {
+          "word": " on",
+          "start": 17.65,
+          "end": 17.83,
+          "probability": 0.864
+        },
+        {
+          "word": " the",
+          "start": 17.83,
+          "end": 17.95,
+          "probability": 0.703
+        },
+        {
+          "word": " newbie",
+          "start": 17.95,
+          "end": 18.45,
+          "probability": 0.254
+        },
+        {
+          "word": " I",
+          "start": 18.45,
+          "end": 19.03,
+          "probability": 0.86
+        },
+        {
+          "word": " breathe",
+          "start": 19.03,
+          "end": 19.43,
+          "probability": 0.785
+        },
+        {
+          "word": " keep",
+          "start": 19.43,
+          "end": 20.01,
+          "probability": 0.384
+        },
+        {
+          "word": " me",
+          "start": 20.01,
+          "end": 20.41,
+          "probability": 0.771
+        },
+        {
+          "word": " muscle",
+          "start": 20.41,
+          "end": 21.29,
+          "probability": 0.052
+        },
+        {
+          "word": " twitching",
+          "start": 21.29,
+          "end": 21.81,
+          "probability": 0.8
+        }
+      ]
+    },
+    {
+      "start": 21.81,
+      "end": 26.53,
+      "text": "a great fall Black boots heavy chest Heaving in the center utter ring",
+      "avgLogprob": -0.791,
+      "compressionRatio": 1.358,
+      "noSpeechProbability": 0.695,
+      "words": [
+        {
+          "word": " a",
+          "start": 21.81,
+          "end": 21.89,
+          "probability": 0.299
+        },
+        {
+          "word": " great",
+          "start": 21.89,
+          "end": 22.19,
+          "probability": 0.411
+        },
+        {
+          "word": " fall",
+          "start": 22.19,
+          "end": 22.53,
+          "probability": 0.95
+        },
+        {
+          "word": " Black",
+          "start": 22.53,
+          "end": 23.15,
+          "probability": 0.492
+        },
+        {
+          "word": " boots",
+          "start": 23.15,
+          "end": 23.61,
+          "probability": 0.987
+        },
+        {
+          "word": " heavy",
+          "start": 23.61,
+          "end": 24.15,
+          "probability": 0.828
+        },
+        {
+          "word": " chest",
+          "start": 24.15,
+          "end": 24.55,
+          "probability": 0.961
+        },
+        {
+          "word": " Heaving",
+          "start": 24.55,
+          "end": 25.17,
+          "probability": 0.24
+        },
+        {
+          "word": " in",
+          "start": 25.17,
+          "end": 25.37,
+          "probability": 0.872
+        },
+        {
+          "word": " the",
+          "start": 25.37,
+          "end": 25.49,
+          "probability": 0.947
+        },
+        {
+          "word": " center",
+          "start": 25.49,
+          "end": 25.71,
+          "probability": 0.962
+        },
+        {
+          "word": " utter",
+          "start": 25.71,
+          "end": 26.09,
+          "probability": 0.564
+        },
+        {
+          "word": " ring",
+          "start": 26.09,
+          "end": 26.53,
+          "probability": 0.618
+        }
+      ]
+    },
+    {
+      "start": 26.53,
+      "end": 27.83,
+      "text": "Total war in the mind",
+      "avgLogprob": -0.791,
+      "compressionRatio": 1.358,
+      "noSpeechProbability": 0.695,
+      "words": [
+        {
+          "word": " Total",
+          "start": 26.53,
+          "end": 27.01,
+          "probability": 0.347
+        },
+        {
+          "word": " war",
+          "start": 27.01,
+          "end": 27.37,
+          "probability": 0.83
+        },
+        {
+          "word": " in",
+          "start": 27.37,
+          "end": 27.59,
+          "probability": 0.168
+        },
+        {
+          "word": " the",
+          "start": 27.59,
+          "end": 27.63,
+          "probability": 0.489
+        },
+        {
+          "word": " mind",
+          "start": 27.63,
+          "end": 27.83,
+          "probability": 0.312
+        }
+      ]
+    },
+    {
+      "start": 39.39,
+      "end": 41.75,
+      "text": "Tonight, I struggle for the life for me",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " Tonight,",
+          "start": 39.39,
+          "end": 39.79,
+          "probability": 0.121
+        },
+        {
+          "word": " I",
+          "start": 40.11,
+          "end": 40.27,
+          "probability": 0.962
+        },
+        {
+          "word": " struggle",
+          "start": 40.27,
+          "end": 40.59,
+          "probability": 0.946
+        },
+        {
+          "word": " for",
+          "start": 40.59,
+          "end": 40.85,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 40.85,
+          "end": 40.99,
+          "probability": 0.98
+        },
+        {
+          "word": " life",
+          "start": 40.99,
+          "end": 41.21,
+          "probability": 0.774
+        },
+        {
+          "word": " for",
+          "start": 41.21,
+          "end": 41.51,
+          "probability": 0.532
+        },
+        {
+          "word": " me",
+          "start": 41.51,
+          "end": 41.75,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 41.75,
+      "end": 43.65,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " Survival",
+          "start": 41.75,
+          "end": 42.45,
+          "probability": 0.52
+        },
+        {
+          "word": " is",
+          "start": 42.45,
+          "end": 42.77,
+          "probability": 0.812
+        },
+        {
+          "word": " the",
+          "start": 42.77,
+          "end": 42.89,
+          "probability": 0.998
+        },
+        {
+          "word": " only",
+          "start": 42.89,
+          "end": 43.29,
+          "probability": 0.989
+        },
+        {
+          "word": " plan",
+          "start": 43.29,
+          "end": 43.65,
+          "probability": 0.94
+        }
+      ]
+    },
+    {
+      "start": 44.31,
+      "end": 47.17,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " I",
+          "start": 44.31,
+          "end": 44.83,
+          "probability": 0.776
+        },
+        {
+          "word": " hit,",
+          "start": 44.83,
+          "end": 45.05,
+          "probability": 0.946
+        },
+        {
+          "word": " I",
+          "start": 45.21,
+          "end": 45.31,
+          "probability": 0.989
+        },
+        {
+          "word": " hit,",
+          "start": 45.31,
+          "end": 45.55,
+          "probability": 0.997
+        },
+        {
+          "word": " I",
+          "start": 45.63,
+          "end": 45.77,
+          "probability": 0.998
+        },
+        {
+          "word": " hit",
+          "start": 45.77,
+          "end": 47.17,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 47.17,
+      "end": 50.21,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " Survival",
+          "start": 47.17,
+          "end": 48.19,
+          "probability": 0.959
+        },
+        {
+          "word": " is",
+          "start": 48.19,
+          "end": 48.53,
+          "probability": 0.898
+        },
+        {
+          "word": " the",
+          "start": 48.53,
+          "end": 48.63,
+          "probability": 0.998
+        },
+        {
+          "word": " only",
+          "start": 48.63,
+          "end": 49.03,
+          "probability": 0.998
+        },
+        {
+          "word": " plan",
+          "start": 49.03,
+          "end": 50.21,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 50.21,
+      "end": 53.23,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " I",
+          "start": 50.21,
+          "end": 50.57,
+          "probability": 0.993
+        },
+        {
+          "word": " hit,",
+          "start": 50.57,
+          "end": 50.81,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 50.95,
+          "end": 51.05,
+          "probability": 0.999
+        },
+        {
+          "word": " hit,",
+          "start": 51.05,
+          "end": 51.37,
+          "probability": 0.999
+        },
+        {
+          "word": " I",
+          "start": 51.37,
+          "end": 51.51,
+          "probability": 0.998
+        },
+        {
+          "word": " hit",
+          "start": 51.51,
+          "end": 53.23,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 53.23,
+      "end": 54.91,
+      "text": "Show the end of your sternum",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " Show",
+          "start": 53.23,
+          "end": 53.59,
+          "probability": 0.702
+        },
+        {
+          "word": " the",
+          "start": 53.59,
+          "end": 53.77,
+          "probability": 0.713
+        },
+        {
+          "word": " end",
+          "start": 53.77,
+          "end": 53.95,
+          "probability": 0.499
+        },
+        {
+          "word": " of",
+          "start": 53.95,
+          "end": 54.09,
+          "probability": 0.788
+        },
+        {
+          "word": " your",
+          "start": 54.09,
+          "end": 54.27,
+          "probability": 0.923
+        },
+        {
+          "word": " sternum",
+          "start": 54.27,
+          "end": 54.91,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 54.91,
+      "end": 56.87,
+      "text": "Heavy grind, ball on bone",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.661,
+      "noSpeechProbability": 0.711,
+      "words": [
+        {
+          "word": " Heavy",
+          "start": 54.91,
+          "end": 55.57,
+          "probability": 0.834
+        },
+        {
+          "word": " grind,",
+          "start": 55.57,
+          "end": 55.95,
+          "probability": 0.799
+        },
+        {
+          "word": " ball",
+          "start": 56.29,
+          "end": 56.47,
+          "probability": 0.227
+        },
+        {
+          "word": " on",
+          "start": 56.47,
+          "end": 56.61,
+          "probability": 0.755
+        },
+        {
+          "word": " bone",
+          "start": 56.61,
+          "end": 56.87,
+          "probability": 0.436
+        }
+      ]
+    },
+    {
+      "start": 68.92,
+      "end": 70.22,
+      "text": "I'm a winner with a run of ribs",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 68.92,
+          "end": 68.92,
+          "probability": 0.343
+        },
+        {
+          "word": " a",
+          "start": 68.92,
+          "end": 69.04,
+          "probability": 0.599
+        },
+        {
+          "word": " winner",
+          "start": 69.04,
+          "end": 69.28,
+          "probability": 0.099
+        },
+        {
+          "word": " with",
+          "start": 69.28,
+          "end": 69.58,
+          "probability": 0.533
+        },
+        {
+          "word": " a",
+          "start": 69.58,
+          "end": 69.66,
+          "probability": 0.867
+        },
+        {
+          "word": " run",
+          "start": 69.66,
+          "end": 69.84,
+          "probability": 0.42
+        },
+        {
+          "word": " of",
+          "start": 69.84,
+          "end": 70.04,
+          "probability": 0.91
+        },
+        {
+          "word": " ribs",
+          "start": 70.04,
+          "end": 70.22,
+          "probability": 0.929
+        }
+      ]
+    },
+    {
+      "start": 70.22,
+      "end": 71.98,
+      "text": "Tired of being a grapple and lace",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " Tired",
+          "start": 70.22,
+          "end": 70.82,
+          "probability": 0.323
+        },
+        {
+          "word": " of",
+          "start": 70.82,
+          "end": 70.92,
+          "probability": 0.882
+        },
+        {
+          "word": " being",
+          "start": 70.92,
+          "end": 71.1,
+          "probability": 0.674
+        },
+        {
+          "word": " a",
+          "start": 71.1,
+          "end": 71.22,
+          "probability": 0.883
+        },
+        {
+          "word": " grapple",
+          "start": 71.22,
+          "end": 71.6,
+          "probability": 0.57
+        },
+        {
+          "word": " and",
+          "start": 71.6,
+          "end": 71.8,
+          "probability": 0.507
+        },
+        {
+          "word": " lace",
+          "start": 71.8,
+          "end": 71.98,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 71.98,
+      "end": 74.08,
+      "text": "White lines cross the mat tonight",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " White",
+          "start": 71.98,
+          "end": 72.68,
+          "probability": 0.253
+        },
+        {
+          "word": " lines",
+          "start": 72.68,
+          "end": 73.02,
+          "probability": 0.586
+        },
+        {
+          "word": " cross",
+          "start": 73.02,
+          "end": 73.24,
+          "probability": 0.578
+        },
+        {
+          "word": " the",
+          "start": 73.24,
+          "end": 73.42,
+          "probability": 0.983
+        },
+        {
+          "word": " mat",
+          "start": 73.42,
+          "end": 73.6,
+          "probability": 0.394
+        },
+        {
+          "word": " tonight",
+          "start": 73.6,
+          "end": 74.08,
+          "probability": 0.844
+        }
+      ]
+    },
+    {
+      "start": 74.08,
+      "end": 76.06,
+      "text": "I struggle for the life of me",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " I",
+          "start": 74.08,
+          "end": 74.56,
+          "probability": 0.855
+        },
+        {
+          "word": " struggle",
+          "start": 74.56,
+          "end": 74.86,
+          "probability": 0.978
+        },
+        {
+          "word": " for",
+          "start": 74.86,
+          "end": 75.14,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 75.14,
+          "end": 75.28,
+          "probability": 0.965
+        },
+        {
+          "word": " life",
+          "start": 75.28,
+          "end": 75.52,
+          "probability": 0.641
+        },
+        {
+          "word": " of",
+          "start": 75.52,
+          "end": 75.76,
+          "probability": 0.612
+        },
+        {
+          "word": " me",
+          "start": 75.76,
+          "end": 76.06,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 76.06,
+      "end": 78.0,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " Survival",
+          "start": 76.06,
+          "end": 76.82,
+          "probability": 0.831
+        },
+        {
+          "word": " is",
+          "start": 76.82,
+          "end": 77.08,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 77.08,
+          "end": 77.18,
+          "probability": 0.995
+        },
+        {
+          "word": " only",
+          "start": 77.18,
+          "end": 77.6,
+          "probability": 0.994
+        },
+        {
+          "word": " plan",
+          "start": 77.6,
+          "end": 78.0,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 78.66,
+      "end": 81.54,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " I",
+          "start": 78.66,
+          "end": 79.14,
+          "probability": 0.551
+        },
+        {
+          "word": " hit,",
+          "start": 79.14,
+          "end": 79.34,
+          "probability": 0.954
+        },
+        {
+          "word": " I",
+          "start": 79.5,
+          "end": 79.6,
+          "probability": 0.993
+        },
+        {
+          "word": " hit,",
+          "start": 79.6,
+          "end": 79.84,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 79.96,
+          "end": 80.08,
+          "probability": 0.997
+        },
+        {
+          "word": " hit",
+          "start": 80.08,
+          "end": 81.54,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 81.54,
+      "end": 83.7,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " Survival",
+          "start": 81.54,
+          "end": 82.5,
+          "probability": 0.966
+        },
+        {
+          "word": " is",
+          "start": 82.5,
+          "end": 82.82,
+          "probability": 0.983
+        },
+        {
+          "word": " the",
+          "start": 82.82,
+          "end": 82.92,
+          "probability": 0.998
+        },
+        {
+          "word": " only",
+          "start": 82.92,
+          "end": 83.32,
+          "probability": 0.998
+        },
+        {
+          "word": " plan",
+          "start": 83.32,
+          "end": 83.7,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 84.4,
+      "end": 86.08,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.421,
+      "compressionRatio": 1.687,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.4,
+          "end": 84.88,
+          "probability": 0.991
+        },
+        {
+          "word": " hit,",
+          "start": 84.88,
+          "end": 85.1,
+          "probability": 0.997
+        },
+        {
+          "word": " I",
+          "start": 85.24,
+          "end": 85.36,
+          "probability": 0.999
+        },
+        {
+          "word": " hit,",
+          "start": 85.36,
+          "end": 85.6,
+          "probability": 0.999
+        },
+        {
+          "word": " I",
+          "start": 85.7,
+          "end": 85.8,
+          "probability": 0.999
+        },
+        {
+          "word": " hit",
+          "start": 85.8,
+          "end": 86.08,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 98.46,
+      "end": 104.58,
+      "text": "Under the flat light, I survive, I survive, I survive",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.735,
+      "noSpeechProbability": 0.668,
+      "words": [
+        {
+          "word": " Under",
+          "start": 98.46,
+          "end": 98.82,
+          "probability": 0.602
+        },
+        {
+          "word": " the",
+          "start": 98.82,
+          "end": 99.12,
+          "probability": 0.982
+        },
+        {
+          "word": " flat",
+          "start": 99.12,
+          "end": 99.42,
+          "probability": 0.386
+        },
+        {
+          "word": " light,",
+          "start": 99.42,
+          "end": 99.9,
+          "probability": 0.869
+        },
+        {
+          "word": " I",
+          "start": 100.34,
+          "end": 100.46,
+          "probability": 0.894
+        },
+        {
+          "word": " survive,",
+          "start": 100.46,
+          "end": 101.02,
+          "probability": 0.789
+        },
+        {
+          "word": " I",
+          "start": 101.76,
+          "end": 101.96,
+          "probability": 0.964
+        },
+        {
+          "word": " survive,",
+          "start": 101.96,
+          "end": 102.52,
+          "probability": 0.989
+        },
+        {
+          "word": " I",
+          "start": 103.14,
+          "end": 103.36,
+          "probability": 0.973
+        },
+        {
+          "word": " survive",
+          "start": 103.36,
+          "end": 104.58,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 104.58,
+      "end": 108.44,
+      "text": "White learns cross the mat tonight, I struggle for the life in me",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.735,
+      "noSpeechProbability": 0.668,
+      "words": [
+        {
+          "word": " White",
+          "start": 104.58,
+          "end": 105.04,
+          "probability": 0.718
+        },
+        {
+          "word": " learns",
+          "start": 105.04,
+          "end": 105.32,
+          "probability": 0.111
+        },
+        {
+          "word": " cross",
+          "start": 105.32,
+          "end": 105.62,
+          "probability": 0.525
+        },
+        {
+          "word": " the",
+          "start": 105.62,
+          "end": 105.8,
+          "probability": 0.975
+        },
+        {
+          "word": " mat",
+          "start": 105.8,
+          "end": 105.96,
+          "probability": 0.555
+        },
+        {
+          "word": " tonight,",
+          "start": 105.96,
+          "end": 106.44,
+          "probability": 0.929
+        },
+        {
+          "word": " I",
+          "start": 106.82,
+          "end": 106.92,
+          "probability": 0.921
+        },
+        {
+          "word": " struggle",
+          "start": 106.92,
+          "end": 107.22,
+          "probability": 0.987
+        },
+        {
+          "word": " for",
+          "start": 107.22,
+          "end": 107.52,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 107.52,
+          "end": 107.64,
+          "probability": 0.971
+        },
+        {
+          "word": " life",
+          "start": 107.64,
+          "end": 107.88,
+          "probability": 0.785
+        },
+        {
+          "word": " in",
+          "start": 107.88,
+          "end": 108.16,
+          "probability": 0.381
+        },
+        {
+          "word": " me",
+          "start": 108.16,
+          "end": 108.44,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 108.44,
+      "end": 113.92,
+      "text": "Survive who's the only plan, I hit, I hit, I hit",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.735,
+      "noSpeechProbability": 0.668,
+      "words": [
+        {
+          "word": " Survive",
+          "start": 108.44,
+          "end": 109.06,
+          "probability": 0.659
+        },
+        {
+          "word": " who's",
+          "start": 109.06,
+          "end": 109.44,
+          "probability": 0.479
+        },
+        {
+          "word": " the",
+          "start": 109.44,
+          "end": 109.54,
+          "probability": 0.998
+        },
+        {
+          "word": " only",
+          "start": 109.54,
+          "end": 109.96,
+          "probability": 0.993
+        },
+        {
+          "word": " plan,",
+          "start": 109.96,
+          "end": 110.36,
+          "probability": 0.777
+        },
+        {
+          "word": " I",
+          "start": 110.58,
+          "end": 111.54,
+          "probability": 0.932
+        },
+        {
+          "word": " hit,",
+          "start": 111.54,
+          "end": 111.72,
+          "probability": 0.959
+        },
+        {
+          "word": " I",
+          "start": 111.9,
+          "end": 112.0,
+          "probability": 0.994
+        },
+        {
+          "word": " hit,",
+          "start": 112.0,
+          "end": 112.22,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 112.34,
+          "end": 112.44,
+          "probability": 0.995
+        },
+        {
+          "word": " hit",
+          "start": 112.44,
+          "end": 113.92,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 113.92,
+      "end": 116.06,
+      "text": "Survive who's the only plan",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.735,
+      "noSpeechProbability": 0.668,
+      "words": [
+        {
+          "word": " Survive",
+          "start": 113.92,
+          "end": 114.74,
+          "probability": 0.881
+        },
+        {
+          "word": " who's",
+          "start": 114.74,
+          "end": 115.18,
+          "probability": 0.977
+        },
+        {
+          "word": " the",
+          "start": 115.18,
+          "end": 115.28,
+          "probability": 0.997
+        },
+        {
+          "word": " only",
+          "start": 115.28,
+          "end": 115.68,
+          "probability": 0.997
+        },
+        {
+          "word": " plan",
+          "start": 115.68,
+          "end": 116.06,
+          "probability": 0.992
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.892,
+    "wordCount": 165,
+    "credibleWordCount": 146,
+    "segmentCount": 22,
+    "averageWordProbability": 0.776,
+    "vocalSeconds": 63.22,
+    "scanCoverage": 0.51,
+    "reviewRequired": false
+  }
+}

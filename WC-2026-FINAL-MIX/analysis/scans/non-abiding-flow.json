@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 12,
+  "id": "../VOLHOLLA/song-dustrest-10.html",
+  "slug": "non-abiding-flow",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      15.06,
+      33.06
+    ],
+    [
+      60.22,
+      78.22
+    ],
+    [
+      105.39,
+      123.39
+    ],
+    [
+      150.55,
+      168.55
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.544,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.349,
+    "reviewRequired": true
+  }
+}

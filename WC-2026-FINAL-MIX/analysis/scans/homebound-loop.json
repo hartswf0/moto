@@ -1,0 +1,758 @@
+{
+  "analysisVersion": 1,
+  "index": 78,
+  "id": "../VOLHOLLA/song-congregation-08.html",
+  "slug": "homebound-loop",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Old dust in my child lungs, dead parts, and the heart weight heat, walking through the brambles where I hide. to believe oh I'm going home oh I'm going home across the Jordan River I am going home yes I'm going home going home Watch me shake Nothing in my pockets, but a silver hope Wondering how much more that I can take And I can feel the ground Crying for my soul to make I'm going home, yes I'm going home, going home, going home, going home, I see my mother, see my father, I see the people, oh yeah.",
+  "sampledRanges": [
+    [
+      9.45,
+      27.45
+    ],
+    [
+      37.8,
+      55.8
+    ],
+    [
+      66.15,
+      84.15
+    ],
+    [
+      94.5,
+      112.5
+    ]
+  ],
+  "segments": [
+    {
+      "start": 10.85,
+      "end": 22.71,
+      "text": "Old dust in my child lungs, dead parts, and the heart weight heat, walking through",
+      "avgLogprob": -0.626,
+      "compressionRatio": 1.172,
+      "noSpeechProbability": 0.485,
+      "words": [
+        {
+          "word": " Old",
+          "start": 10.85,
+          "end": 11.93,
+          "probability": 0.292
+        },
+        {
+          "word": " dust",
+          "start": 11.93,
+          "end": 12.45,
+          "probability": 0.934
+        },
+        {
+          "word": " in",
+          "start": 12.45,
+          "end": 14.09,
+          "probability": 0.77
+        },
+        {
+          "word": " my",
+          "start": 14.09,
+          "end": 14.37,
+          "probability": 0.995
+        },
+        {
+          "word": " child",
+          "start": 14.37,
+          "end": 15.33,
+          "probability": 0.707
+        },
+        {
+          "word": " lungs,",
+          "start": 15.33,
+          "end": 16.03,
+          "probability": 0.42
+        },
+        {
+          "word": " dead",
+          "start": 16.35,
+          "end": 17.37,
+          "probability": 0.655
+        },
+        {
+          "word": " parts,",
+          "start": 17.37,
+          "end": 18.05,
+          "probability": 0.453
+        },
+        {
+          "word": " and",
+          "start": 18.63,
+          "end": 19.19,
+          "probability": 0.974
+        },
+        {
+          "word": " the",
+          "start": 19.19,
+          "end": 19.43,
+          "probability": 0.99
+        },
+        {
+          "word": " heart",
+          "start": 19.43,
+          "end": 19.79,
+          "probability": 0.339
+        },
+        {
+          "word": " weight",
+          "start": 19.79,
+          "end": 20.31,
+          "probability": 0.255
+        },
+        {
+          "word": " heat,",
+          "start": 20.31,
+          "end": 20.91,
+          "probability": 0.477
+        },
+        {
+          "word": " walking",
+          "start": 22.05,
+          "end": 22.37,
+          "probability": 0.445
+        },
+        {
+          "word": " through",
+          "start": 22.37,
+          "end": 22.71,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 22.71,
+      "end": 24.75,
+      "text": "the brambles where I hide.",
+      "avgLogprob": -0.626,
+      "compressionRatio": 1.172,
+      "noSpeechProbability": 0.485,
+      "words": [
+        {
+          "word": " the",
+          "start": 22.71,
+          "end": 23.09,
+          "probability": 0.995
+        },
+        {
+          "word": " brambles",
+          "start": 23.09,
+          "end": 23.79,
+          "probability": 0.872
+        },
+        {
+          "word": " where",
+          "start": 23.79,
+          "end": 24.03,
+          "probability": 0.962
+        },
+        {
+          "word": " I",
+          "start": 24.03,
+          "end": 24.29,
+          "probability": 0.966
+        },
+        {
+          "word": " hide.",
+          "start": 24.29,
+          "end": 24.75,
+          "probability": 0.913
+        }
+      ]
+    },
+    {
+      "start": 37.8,
+      "end": 48.2,
+      "text": "to believe oh I'm going home oh I'm going home across the Jordan River I am",
+      "avgLogprob": -0.454,
+      "compressionRatio": 1.589,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": " to",
+          "start": 37.8,
+          "end": 38.8,
+          "probability": 0.119
+        },
+        {
+          "word": " believe",
+          "start": 38.8,
+          "end": 39.32,
+          "probability": 0.853
+        },
+        {
+          "word": " oh",
+          "start": 39.32,
+          "end": 40.92,
+          "probability": 0.33
+        },
+        {
+          "word": " I'm",
+          "start": 40.92,
+          "end": 41.5,
+          "probability": 0.895
+        },
+        {
+          "word": " going",
+          "start": 41.5,
+          "end": 41.7,
+          "probability": 0.981
+        },
+        {
+          "word": " home",
+          "start": 41.7,
+          "end": 42.18,
+          "probability": 0.997
+        },
+        {
+          "word": " oh",
+          "start": 42.18,
+          "end": 43.14,
+          "probability": 0.81
+        },
+        {
+          "word": " I'm",
+          "start": 43.14,
+          "end": 43.84,
+          "probability": 0.984
+        },
+        {
+          "word": " going",
+          "start": 43.84,
+          "end": 44.06,
+          "probability": 0.991
+        },
+        {
+          "word": " home",
+          "start": 44.06,
+          "end": 44.62,
+          "probability": 0.997
+        },
+        {
+          "word": " across",
+          "start": 44.62,
+          "end": 45.54,
+          "probability": 0.493
+        },
+        {
+          "word": " the",
+          "start": 45.54,
+          "end": 45.76,
+          "probability": 0.989
+        },
+        {
+          "word": " Jordan",
+          "start": 45.76,
+          "end": 46.24,
+          "probability": 0.947
+        },
+        {
+          "word": " River",
+          "start": 46.24,
+          "end": 46.84,
+          "probability": 0.761
+        },
+        {
+          "word": " I",
+          "start": 46.84,
+          "end": 48.0,
+          "probability": 0.833
+        },
+        {
+          "word": " am",
+          "start": 48.0,
+          "end": 48.2,
+          "probability": 0.714
+        }
+      ]
+    },
+    {
+      "start": 48.2,
+      "end": 54.16,
+      "text": "going home yes I'm going home going home",
+      "avgLogprob": -0.454,
+      "compressionRatio": 1.589,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": " going",
+          "start": 48.2,
+          "end": 48.6,
+          "probability": 0.986
+        },
+        {
+          "word": " home",
+          "start": 48.6,
+          "end": 49.46,
+          "probability": 0.995
+        },
+        {
+          "word": " yes",
+          "start": 49.46,
+          "end": 50.54,
+          "probability": 0.818
+        },
+        {
+          "word": " I'm",
+          "start": 50.54,
+          "end": 51.02,
+          "probability": 0.953
+        },
+        {
+          "word": " going",
+          "start": 51.02,
+          "end": 51.26,
+          "probability": 0.992
+        },
+        {
+          "word": " home",
+          "start": 51.26,
+          "end": 51.84,
+          "probability": 0.992
+        },
+        {
+          "word": " going",
+          "start": 51.84,
+          "end": 53.42,
+          "probability": 0.517
+        },
+        {
+          "word": " home",
+          "start": 53.42,
+          "end": 54.16,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 66.15,
+      "end": 67.35,
+      "text": "Watch me shake",
+      "avgLogprob": -0.42,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Watch",
+          "start": 66.15,
+          "end": 66.53,
+          "probability": 0.165
+        },
+        {
+          "word": " me",
+          "start": 66.53,
+          "end": 66.85,
+          "probability": 0.98
+        },
+        {
+          "word": " shake",
+          "start": 66.85,
+          "end": 67.35,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 68.55,
+      "end": 71.27,
+      "text": "Nothing in my pockets, but a silver hope",
+      "avgLogprob": -0.42,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Nothing",
+          "start": 68.47,
+          "end": 68.85,
+          "probability": 0.335
+        },
+        {
+          "word": " in",
+          "start": 68.85,
+          "end": 69.23,
+          "probability": 0.998
+        },
+        {
+          "word": " my",
+          "start": 69.23,
+          "end": 69.51,
+          "probability": 0.991
+        },
+        {
+          "word": " pockets,",
+          "start": 69.51,
+          "end": 69.89,
+          "probability": 0.98
+        },
+        {
+          "word": " but",
+          "start": 69.89,
+          "end": 70.23,
+          "probability": 0.962
+        },
+        {
+          "word": " a",
+          "start": 70.23,
+          "end": 70.43,
+          "probability": 0.929
+        },
+        {
+          "word": " silver",
+          "start": 70.43,
+          "end": 70.75,
+          "probability": 0.975
+        },
+        {
+          "word": " hope",
+          "start": 70.75,
+          "end": 71.27,
+          "probability": 0.309
+        }
+      ]
+    },
+    {
+      "start": 73.17,
+      "end": 76.19,
+      "text": "Wondering how much more that I can take",
+      "avgLogprob": -0.42,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Wondering",
+          "start": 73.17,
+          "end": 73.93,
+          "probability": 0.899
+        },
+        {
+          "word": " how",
+          "start": 73.93,
+          "end": 74.37,
+          "probability": 0.988
+        },
+        {
+          "word": " much",
+          "start": 74.37,
+          "end": 74.73,
+          "probability": 0.999
+        },
+        {
+          "word": " more",
+          "start": 74.73,
+          "end": 74.97,
+          "probability": 0.996
+        },
+        {
+          "word": " that",
+          "start": 74.97,
+          "end": 75.23,
+          "probability": 0.722
+        },
+        {
+          "word": " I",
+          "start": 75.23,
+          "end": 75.35,
+          "probability": 0.977
+        },
+        {
+          "word": " can",
+          "start": 75.35,
+          "end": 75.57,
+          "probability": 0.998
+        },
+        {
+          "word": " take",
+          "start": 75.57,
+          "end": 76.19,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 77.55,
+      "end": 79.89,
+      "text": "And I can feel the ground",
+      "avgLogprob": -0.42,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " And",
+          "start": 77.23,
+          "end": 77.61,
+          "probability": 0.905
+        },
+        {
+          "word": " I",
+          "start": 77.61,
+          "end": 77.83,
+          "probability": 0.995
+        },
+        {
+          "word": " can",
+          "start": 77.83,
+          "end": 78.07,
+          "probability": 0.997
+        },
+        {
+          "word": " feel",
+          "start": 78.07,
+          "end": 78.65,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 78.65,
+          "end": 79.41,
+          "probability": 0.804
+        },
+        {
+          "word": " ground",
+          "start": 79.41,
+          "end": 79.89,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 80.75,
+      "end": 83.41,
+      "text": "Crying for my soul to make",
+      "avgLogprob": -0.42,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Crying",
+          "start": 80.75,
+          "end": 81.19,
+          "probability": 0.72
+        },
+        {
+          "word": " for",
+          "start": 81.19,
+          "end": 81.41,
+          "probability": 0.998
+        },
+        {
+          "word": " my",
+          "start": 81.41,
+          "end": 81.71,
+          "probability": 0.997
+        },
+        {
+          "word": " soul",
+          "start": 81.71,
+          "end": 82.23,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 82.23,
+          "end": 83.03,
+          "probability": 0.804
+        },
+        {
+          "word": " make",
+          "start": 83.03,
+          "end": 83.41,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 94.5,
+      "end": 106.42,
+      "text": "I'm going home, yes I'm going home, going home, going home, going home, I see my mother,",
+      "avgLogprob": -0.525,
+      "compressionRatio": 1.781,
+      "noSpeechProbability": 0.513,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 94.5,
+          "end": 94.66,
+          "probability": 0.159
+        },
+        {
+          "word": " going",
+          "start": 94.66,
+          "end": 95.04,
+          "probability": 0.844
+        },
+        {
+          "word": " home,",
+          "start": 95.04,
+          "end": 95.68,
+          "probability": 0.941
+        },
+        {
+          "word": " yes",
+          "start": 95.94,
+          "end": 96.98,
+          "probability": 0.313
+        },
+        {
+          "word": " I'm",
+          "start": 96.98,
+          "end": 97.42,
+          "probability": 0.848
+        },
+        {
+          "word": " going",
+          "start": 97.42,
+          "end": 97.66,
+          "probability": 0.984
+        },
+        {
+          "word": " home,",
+          "start": 97.66,
+          "end": 98.3,
+          "probability": 0.979
+        },
+        {
+          "word": " going",
+          "start": 98.4,
+          "end": 99.78,
+          "probability": 0.579
+        },
+        {
+          "word": " home,",
+          "start": 99.78,
+          "end": 100.8,
+          "probability": 0.994
+        },
+        {
+          "word": " going",
+          "start": 100.86,
+          "end": 102.28,
+          "probability": 0.944
+        },
+        {
+          "word": " home,",
+          "start": 102.28,
+          "end": 102.98,
+          "probability": 0.996
+        },
+        {
+          "word": " going",
+          "start": 102.98,
+          "end": 102.98,
+          "probability": 0.431
+        },
+        {
+          "word": " home,",
+          "start": 102.98,
+          "end": 103.22,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 103.44,
+          "end": 104.96,
+          "probability": 0.842
+        },
+        {
+          "word": " see",
+          "start": 104.96,
+          "end": 105.38,
+          "probability": 0.947
+        },
+        {
+          "word": " my",
+          "start": 105.38,
+          "end": 105.86,
+          "probability": 0.979
+        },
+        {
+          "word": " mother,",
+          "start": 105.86,
+          "end": 106.42,
+          "probability": 0.973
+        }
+      ]
+    },
+    {
+      "start": 107.6,
+      "end": 112.48,
+      "text": "see my father, I see the people, oh yeah.",
+      "avgLogprob": -0.525,
+      "compressionRatio": 1.781,
+      "noSpeechProbability": 0.513,
+      "words": [
+        {
+          "word": " see",
+          "start": 107.6,
+          "end": 107.86,
+          "probability": 0.963
+        },
+        {
+          "word": " my",
+          "start": 107.86,
+          "end": 108.32,
+          "probability": 0.997
+        },
+        {
+          "word": " father,",
+          "start": 108.32,
+          "end": 108.82,
+          "probability": 0.989
+        },
+        {
+          "word": " I",
+          "start": 109.68,
+          "end": 109.8,
+          "probability": 0.982
+        },
+        {
+          "word": " see",
+          "start": 109.8,
+          "end": 110.3,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 110.3,
+          "end": 110.7,
+          "probability": 0.983
+        },
+        {
+          "word": " people,",
+          "start": 110.7,
+          "end": 111.16,
+          "probability": 0.995
+        },
+        {
+          "word": " oh",
+          "start": 111.82,
+          "end": 112.2,
+          "probability": 0.179
+        },
+        {
+          "word": " yeah.",
+          "start": 112.2,
+          "end": 112.48,
+          "probability": 0.763
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.916,
+    "wordCount": 101,
+    "credibleWordCount": 90,
+    "segmentCount": 11,
+    "averageWordProbability": 0.824,
+    "vocalSeconds": 59.0,
+    "scanCoverage": 0.529,
+    "reviewRequired": false
+  }
+}

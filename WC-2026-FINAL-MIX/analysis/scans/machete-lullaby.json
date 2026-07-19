@@ -1,0 +1,1391 @@
+{
+  "analysisVersion": 1,
+  "index": 56,
+  "id": "../VOLHOLLA/song-rootresidue-07.html",
+  "slug": "machete-lullaby",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Check the phone, she's got a wild heart, it's a question of who's I, keeping the world moving with a feeling just right, the quick and the break and the mother of the wild, She's got a wild heart and some question of who's side. I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a Give it a whirlpool, we're the field of despise Give it a break, and the mother of the wild Raise a man with the soul of a child Wild, wild, wild",
+  "sampledRanges": [
+    [
+      12.28,
+      30.28
+    ],
+    [
+      49.12,
+      67.12
+    ],
+    [
+      85.96,
+      103.96
+    ],
+    [
+      122.8,
+      140.8
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.82,
+      "end": 22.0,
+      "text": "Check the phone, she's got a wild heart, it's a question of who's I, keeping the world",
+      "avgLogprob": -0.703,
+      "compressionRatio": 1.376,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Check",
+          "start": 14.82,
+          "end": 15.46,
+          "probability": 0.292
+        },
+        {
+          "word": " the",
+          "start": 15.46,
+          "end": 15.72,
+          "probability": 0.938
+        },
+        {
+          "word": " phone,",
+          "start": 15.72,
+          "end": 15.82,
+          "probability": 0.164
+        },
+        {
+          "word": " she's",
+          "start": 16.24,
+          "end": 16.78,
+          "probability": 0.919
+        },
+        {
+          "word": " got",
+          "start": 16.78,
+          "end": 16.98,
+          "probability": 0.88
+        },
+        {
+          "word": " a",
+          "start": 16.98,
+          "end": 17.12,
+          "probability": 0.945
+        },
+        {
+          "word": " wild",
+          "start": 17.12,
+          "end": 17.4,
+          "probability": 0.881
+        },
+        {
+          "word": " heart,",
+          "start": 17.4,
+          "end": 17.82,
+          "probability": 0.969
+        },
+        {
+          "word": " it's",
+          "start": 18.1,
+          "end": 18.12,
+          "probability": 0.566
+        },
+        {
+          "word": " a",
+          "start": 18.12,
+          "end": 18.18,
+          "probability": 0.754
+        },
+        {
+          "word": " question",
+          "start": 18.18,
+          "end": 18.52,
+          "probability": 0.354
+        },
+        {
+          "word": " of",
+          "start": 18.52,
+          "end": 18.88,
+          "probability": 0.919
+        },
+        {
+          "word": " who's",
+          "start": 18.88,
+          "end": 19.34,
+          "probability": 0.517
+        },
+        {
+          "word": " I,",
+          "start": 19.34,
+          "end": 19.86,
+          "probability": 0.358
+        },
+        {
+          "word": " keeping",
+          "start": 20.54,
+          "end": 21.6,
+          "probability": 0.515
+        },
+        {
+          "word": " the",
+          "start": 21.6,
+          "end": 21.76,
+          "probability": 0.937
+        },
+        {
+          "word": " world",
+          "start": 21.76,
+          "end": 22.0,
+          "probability": 0.961
+        }
+      ]
+    },
+    {
+      "start": 22.0,
+      "end": 28.94,
+      "text": "moving with a feeling just right, the quick and the break and the mother of the wild,",
+      "avgLogprob": -0.703,
+      "compressionRatio": 1.376,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " moving",
+          "start": 22.0,
+          "end": 22.4,
+          "probability": 0.836
+        },
+        {
+          "word": " with",
+          "start": 22.4,
+          "end": 22.68,
+          "probability": 0.334
+        },
+        {
+          "word": " a",
+          "start": 22.68,
+          "end": 22.84,
+          "probability": 0.532
+        },
+        {
+          "word": " feeling",
+          "start": 22.84,
+          "end": 23.1,
+          "probability": 0.903
+        },
+        {
+          "word": " just",
+          "start": 23.1,
+          "end": 23.46,
+          "probability": 0.924
+        },
+        {
+          "word": " right,",
+          "start": 23.46,
+          "end": 24.52,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 25.34,
+          "end": 25.66,
+          "probability": 0.4
+        },
+        {
+          "word": " quick",
+          "start": 25.66,
+          "end": 25.82,
+          "probability": 0.054
+        },
+        {
+          "word": " and",
+          "start": 25.82,
+          "end": 25.96,
+          "probability": 0.509
+        },
+        {
+          "word": " the",
+          "start": 25.96,
+          "end": 26.06,
+          "probability": 0.79
+        },
+        {
+          "word": " break",
+          "start": 26.06,
+          "end": 26.32,
+          "probability": 0.531
+        },
+        {
+          "word": " and",
+          "start": 26.32,
+          "end": 26.66,
+          "probability": 0.644
+        },
+        {
+          "word": " the",
+          "start": 26.66,
+          "end": 26.76,
+          "probability": 0.83
+        },
+        {
+          "word": " mother",
+          "start": 26.76,
+          "end": 27.08,
+          "probability": 0.847
+        },
+        {
+          "word": " of",
+          "start": 27.08,
+          "end": 27.38,
+          "probability": 0.823
+        },
+        {
+          "word": " the",
+          "start": 27.38,
+          "end": 27.74,
+          "probability": 0.924
+        },
+        {
+          "word": " wild,",
+          "start": 27.74,
+          "end": 28.94,
+          "probability": 0.895
+        }
+      ]
+    },
+    {
+      "start": 63.3,
+      "end": 66.72,
+      "text": "She's got a wild heart and some question of who's side.",
+      "avgLogprob": -0.988,
+      "compressionRatio": 0.917,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": " She's",
+          "start": 63.3,
+          "end": 63.9,
+          "probability": 0.311
+        },
+        {
+          "word": " got",
+          "start": 63.9,
+          "end": 64.1,
+          "probability": 0.746
+        },
+        {
+          "word": " a",
+          "start": 64.1,
+          "end": 64.26,
+          "probability": 0.911
+        },
+        {
+          "word": " wild",
+          "start": 64.26,
+          "end": 64.52,
+          "probability": 0.883
+        },
+        {
+          "word": " heart",
+          "start": 64.52,
+          "end": 64.88,
+          "probability": 0.937
+        },
+        {
+          "word": " and",
+          "start": 64.88,
+          "end": 65.16,
+          "probability": 0.384
+        },
+        {
+          "word": " some",
+          "start": 65.16,
+          "end": 65.32,
+          "probability": 0.96
+        },
+        {
+          "word": " question",
+          "start": 65.32,
+          "end": 65.64,
+          "probability": 0.056
+        },
+        {
+          "word": " of",
+          "start": 65.64,
+          "end": 66.04,
+          "probability": 0.663
+        },
+        {
+          "word": " who's",
+          "start": 66.04,
+          "end": 66.5,
+          "probability": 0.375
+        },
+        {
+          "word": " side.",
+          "start": 66.5,
+          "end": 66.72,
+          "probability": 0.058
+        }
+      ]
+    },
+    {
+      "start": 85.96,
+      "end": 103.94,
+      "text": "I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a girl, I'm a",
+      "avgLogprob": -0.132,
+      "compressionRatio": 20.5,
+      "noSpeechProbability": 0.619,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 85.96,
+          "end": 86.26,
+          "probability": 0.154
+        },
+        {
+          "word": " a",
+          "start": 86.26,
+          "end": 86.26,
+          "probability": 0.139
+        },
+        {
+          "word": " girl,",
+          "start": 86.26,
+          "end": 86.26,
+          "probability": 0.038
+        },
+        {
+          "word": " I'm",
+          "start": 86.56,
+          "end": 87.46,
+          "probability": 0.582
+        },
+        {
+          "word": " a",
+          "start": 87.46,
+          "end": 87.46,
+          "probability": 0.802
+        },
+        {
+          "word": " girl,",
+          "start": 87.46,
+          "end": 87.46,
+          "probability": 0.812
+        },
+        {
+          "word": " I'm",
+          "start": 87.46,
+          "end": 87.76,
+          "probability": 0.8
+        },
+        {
+          "word": " a",
+          "start": 87.76,
+          "end": 87.8,
+          "probability": 0.917
+        },
+        {
+          "word": " girl,",
+          "start": 87.8,
+          "end": 87.8,
+          "probability": 0.964
+        },
+        {
+          "word": " I'm",
+          "start": 87.86,
+          "end": 87.96,
+          "probability": 0.871
+        },
+        {
+          "word": " a",
+          "start": 87.96,
+          "end": 87.96,
+          "probability": 0.927
+        },
+        {
+          "word": " girl,",
+          "start": 87.96,
+          "end": 87.96,
+          "probability": 0.979
+        },
+        {
+          "word": " I'm",
+          "start": 87.96,
+          "end": 88.1,
+          "probability": 0.901
+        },
+        {
+          "word": " a",
+          "start": 88.1,
+          "end": 88.16,
+          "probability": 0.926
+        },
+        {
+          "word": " girl,",
+          "start": 88.16,
+          "end": 88.56,
+          "probability": 0.98
+        },
+        {
+          "word": " I'm",
+          "start": 88.56,
+          "end": 88.56,
+          "probability": 0.919
+        },
+        {
+          "word": " a",
+          "start": 88.56,
+          "end": 88.56,
+          "probability": 0.937
+        },
+        {
+          "word": " girl,",
+          "start": 88.56,
+          "end": 88.58,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 88.68,
+          "end": 88.78,
+          "probability": 0.923
+        },
+        {
+          "word": " a",
+          "start": 88.78,
+          "end": 88.78,
+          "probability": 0.938
+        },
+        {
+          "word": " girl,",
+          "start": 88.78,
+          "end": 88.78,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 88.78,
+          "end": 88.78,
+          "probability": 0.922
+        },
+        {
+          "word": " a",
+          "start": 88.78,
+          "end": 88.78,
+          "probability": 0.94
+        },
+        {
+          "word": " girl,",
+          "start": 88.78,
+          "end": 88.78,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 88.78,
+          "end": 88.8,
+          "probability": 0.924
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.984
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.919
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.927
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.923
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.949
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.922
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.949
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.917
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.947
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.915
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.946
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.913
+        },
+        {
+          "word": " a",
+          "start": 88.8,
+          "end": 88.8,
+          "probability": 0.946
+        },
+        {
+          "word": " girl,",
+          "start": 88.8,
+          "end": 89.18,
+          "probability": 0.981
+        },
+        {
+          "word": " I'm",
+          "start": 89.18,
+          "end": 89.22,
+          "probability": 0.911
+        },
+        {
+          "word": " a",
+          "start": 89.22,
+          "end": 89.22,
+          "probability": 0.948
+        },
+        {
+          "word": " girl,",
+          "start": 89.22,
+          "end": 89.22,
+          "probability": 0.981
+        },
+        {
+          "word": " I'm",
+          "start": 89.22,
+          "end": 89.24,
+          "probability": 0.908
+        },
+        {
+          "word": " a",
+          "start": 89.24,
+          "end": 89.24,
+          "probability": 0.947
+        },
+        {
+          "word": " girl,",
+          "start": 89.24,
+          "end": 89.24,
+          "probability": 0.98
+        },
+        {
+          "word": " I'm",
+          "start": 89.34,
+          "end": 89.34,
+          "probability": 0.908
+        },
+        {
+          "word": " a",
+          "start": 89.34,
+          "end": 89.4,
+          "probability": 0.942
+        },
+        {
+          "word": " girl,",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.905
+        },
+        {
+          "word": " a",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.981
+        },
+        {
+          "word": " I'm",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.901
+        },
+        {
+          "word": " a",
+          "start": 89.4,
+          "end": 89.4,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 89.4,
+          "end": 89.52,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 89.52,
+          "end": 89.52,
+          "probability": 0.902
+        },
+        {
+          "word": " a",
+          "start": 89.52,
+          "end": 89.52,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 89.52,
+          "end": 89.64,
+          "probability": 0.981
+        },
+        {
+          "word": " I'm",
+          "start": 89.72,
+          "end": 89.72,
+          "probability": 0.9
+        },
+        {
+          "word": " a",
+          "start": 89.72,
+          "end": 89.72,
+          "probability": 0.942
+        },
+        {
+          "word": " girl,",
+          "start": 89.72,
+          "end": 89.72,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 89.72,
+          "end": 89.72,
+          "probability": 0.899
+        },
+        {
+          "word": " a",
+          "start": 89.72,
+          "end": 89.72,
+          "probability": 0.946
+        },
+        {
+          "word": " girl,",
+          "start": 89.72,
+          "end": 90.24,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 90.36,
+          "end": 91.08,
+          "probability": 0.896
+        },
+        {
+          "word": " a",
+          "start": 91.08,
+          "end": 91.18,
+          "probability": 0.944
+        },
+        {
+          "word": " girl,",
+          "start": 91.18,
+          "end": 91.3,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 91.3,
+          "end": 91.42,
+          "probability": 0.897
+        },
+        {
+          "word": " a",
+          "start": 91.42,
+          "end": 91.56,
+          "probability": 0.943
+        },
+        {
+          "word": " girl,",
+          "start": 91.56,
+          "end": 91.82,
+          "probability": 0.984
+        },
+        {
+          "word": " I'm",
+          "start": 91.82,
+          "end": 92.02,
+          "probability": 0.896
+        },
+        {
+          "word": " a",
+          "start": 92.02,
+          "end": 92.02,
+          "probability": 0.937
+        },
+        {
+          "word": " girl,",
+          "start": 92.02,
+          "end": 92.4,
+          "probability": 0.982
+        },
+        {
+          "word": " I'm",
+          "start": 92.4,
+          "end": 92.86,
+          "probability": 0.894
+        },
+        {
+          "word": " a",
+          "start": 92.86,
+          "end": 92.86,
+          "probability": 0.939
+        },
+        {
+          "word": " girl,",
+          "start": 92.86,
+          "end": 94.2,
+          "probability": 0.983
+        },
+        {
+          "word": " I'm",
+          "start": 94.2,
+          "end": 94.66,
+          "probability": 0.897
+        },
+        {
+          "word": " a",
+          "start": 94.66,
+          "end": 94.66,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 94.66,
+          "end": 94.66,
+          "probability": 0.984
+        },
+        {
+          "word": " I'm",
+          "start": 94.68,
+          "end": 94.88,
+          "probability": 0.898
+        },
+        {
+          "word": " a",
+          "start": 94.88,
+          "end": 94.88,
+          "probability": 0.938
+        },
+        {
+          "word": " girl,",
+          "start": 94.88,
+          "end": 95.48,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 95.48,
+          "end": 95.68,
+          "probability": 0.901
+        },
+        {
+          "word": " a",
+          "start": 95.68,
+          "end": 95.86,
+          "probability": 0.94
+        },
+        {
+          "word": " girl,",
+          "start": 95.86,
+          "end": 96.1,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 96.1,
+          "end": 96.66,
+          "probability": 0.904
+        },
+        {
+          "word": " a",
+          "start": 96.66,
+          "end": 96.66,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 96.66,
+          "end": 96.74,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 96.74,
+          "end": 97.1,
+          "probability": 0.899
+        },
+        {
+          "word": " a",
+          "start": 97.1,
+          "end": 97.1,
+          "probability": 0.942
+        },
+        {
+          "word": " girl,",
+          "start": 97.1,
+          "end": 98.16,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 98.16,
+          "end": 98.56,
+          "probability": 0.903
+        },
+        {
+          "word": " a",
+          "start": 98.56,
+          "end": 98.56,
+          "probability": 0.943
+        },
+        {
+          "word": " girl,",
+          "start": 98.56,
+          "end": 98.92,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 98.92,
+          "end": 99.08,
+          "probability": 0.897
+        },
+        {
+          "word": " a",
+          "start": 99.08,
+          "end": 99.08,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 99.08,
+          "end": 99.08,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 99.08,
+          "end": 99.08,
+          "probability": 0.904
+        },
+        {
+          "word": " a",
+          "start": 99.08,
+          "end": 99.08,
+          "probability": 0.941
+        },
+        {
+          "word": " girl,",
+          "start": 99.08,
+          "end": 99.86,
+          "probability": 0.986
+        },
+        {
+          "word": " I'm",
+          "start": 99.86,
+          "end": 99.86,
+          "probability": 0.904
+        },
+        {
+          "word": " a",
+          "start": 99.86,
+          "end": 99.86,
+          "probability": 0.943
+        },
+        {
+          "word": " girl,",
+          "start": 99.86,
+          "end": 99.86,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 99.86,
+          "end": 99.86,
+          "probability": 0.902
+        },
+        {
+          "word": " a",
+          "start": 99.86,
+          "end": 99.96,
+          "probability": 0.944
+        },
+        {
+          "word": " girl,",
+          "start": 99.96,
+          "end": 100.42,
+          "probability": 0.986
+        },
+        {
+          "word": " I'm",
+          "start": 100.62,
+          "end": 100.72,
+          "probability": 0.908
+        },
+        {
+          "word": " a",
+          "start": 100.72,
+          "end": 100.72,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 100.72,
+          "end": 100.72,
+          "probability": 0.986
+        },
+        {
+          "word": " I'm",
+          "start": 100.72,
+          "end": 100.72,
+          "probability": 0.91
+        },
+        {
+          "word": " a",
+          "start": 100.72,
+          "end": 100.72,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 100.72,
+          "end": 100.72,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 100.72,
+          "end": 100.92,
+          "probability": 0.9
+        },
+        {
+          "word": " a",
+          "start": 100.92,
+          "end": 100.92,
+          "probability": 0.945
+        },
+        {
+          "word": " girl,",
+          "start": 100.92,
+          "end": 101.42,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 101.7,
+          "end": 101.86,
+          "probability": 0.903
+        },
+        {
+          "word": " a",
+          "start": 101.86,
+          "end": 101.92,
+          "probability": 0.947
+        },
+        {
+          "word": " girl,",
+          "start": 101.92,
+          "end": 102.1,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 103.38,
+          "end": 103.38,
+          "probability": 0.905
+        },
+        {
+          "word": " a",
+          "start": 103.38,
+          "end": 103.38,
+          "probability": 0.949
+        },
+        {
+          "word": " girl,",
+          "start": 103.38,
+          "end": 103.38,
+          "probability": 0.986
+        },
+        {
+          "word": " I'm",
+          "start": 103.42,
+          "end": 103.42,
+          "probability": 0.905
+        },
+        {
+          "word": " a",
+          "start": 103.42,
+          "end": 103.86,
+          "probability": 0.944
+        },
+        {
+          "word": " girl,",
+          "start": 103.86,
+          "end": 103.94,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 103.94,
+          "end": 103.94,
+          "probability": 0.905
+        },
+        {
+          "word": " a",
+          "start": 103.94,
+          "end": 103.94,
+          "probability": 0.944
+        }
+      ]
+    },
+    {
+      "start": 103.92,
+      "end": 103.92,
+      "text": "",
+      "avgLogprob": -0.125,
+      "compressionRatio": 22.4,
+      "noSpeechProbability": 0.794,
+      "words": []
+    },
+    {
+      "start": 123.78,
+      "end": 127.12,
+      "text": "Give it a whirlpool, we're the field of despise",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " Give",
+          "start": 123.78,
+          "end": 124.42,
+          "probability": 0.025
+        },
+        {
+          "word": " it",
+          "start": 124.42,
+          "end": 124.54,
+          "probability": 0.553
+        },
+        {
+          "word": " a",
+          "start": 124.54,
+          "end": 124.64,
+          "probability": 0.693
+        },
+        {
+          "word": " whirlpool,",
+          "start": 124.64,
+          "end": 125.22,
+          "probability": 0.782
+        },
+        {
+          "word": " we're",
+          "start": 125.22,
+          "end": 125.6,
+          "probability": 0.208
+        },
+        {
+          "word": " the",
+          "start": 125.6,
+          "end": 125.66,
+          "probability": 0.683
+        },
+        {
+          "word": " field",
+          "start": 125.66,
+          "end": 125.9,
+          "probability": 0.18
+        },
+        {
+          "word": " of",
+          "start": 125.9,
+          "end": 126.06,
+          "probability": 0.944
+        },
+        {
+          "word": " despise",
+          "start": 126.06,
+          "end": 127.12,
+          "probability": 0.529
+        }
+      ]
+    },
+    {
+      "start": 127.12,
+      "end": 131.38,
+      "text": "Give it a break, and the mother of the wild",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " Give",
+          "start": 127.12,
+          "end": 127.66,
+          "probability": 0.184
+        },
+        {
+          "word": " it",
+          "start": 127.66,
+          "end": 128.8,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 128.8,
+          "end": 128.92,
+          "probability": 0.995
+        },
+        {
+          "word": " break,",
+          "start": 128.92,
+          "end": 129.18,
+          "probability": 0.959
+        },
+        {
+          "word": " and",
+          "start": 129.18,
+          "end": 129.52,
+          "probability": 0.37
+        },
+        {
+          "word": " the",
+          "start": 129.52,
+          "end": 129.62,
+          "probability": 0.523
+        },
+        {
+          "word": " mother",
+          "start": 129.62,
+          "end": 129.92,
+          "probability": 0.621
+        },
+        {
+          "word": " of",
+          "start": 129.92,
+          "end": 130.24,
+          "probability": 0.397
+        },
+        {
+          "word": " the",
+          "start": 130.24,
+          "end": 130.56,
+          "probability": 0.722
+        },
+        {
+          "word": " wild",
+          "start": 130.56,
+          "end": 131.38,
+          "probability": 0.394
+        }
+      ]
+    },
+    {
+      "start": 132.38,
+      "end": 135.4,
+      "text": "Raise a man with the soul of a child",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " Raise",
+          "start": 132.38,
+          "end": 133.02,
+          "probability": 0.004
+        },
+        {
+          "word": " a",
+          "start": 133.02,
+          "end": 133.22,
+          "probability": 0.419
+        },
+        {
+          "word": " man",
+          "start": 133.22,
+          "end": 133.42,
+          "probability": 0.655
+        },
+        {
+          "word": " with",
+          "start": 133.42,
+          "end": 133.7,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 133.7,
+          "end": 133.88,
+          "probability": 0.743
+        },
+        {
+          "word": " soul",
+          "start": 133.88,
+          "end": 134.14,
+          "probability": 0.799
+        },
+        {
+          "word": " of",
+          "start": 134.14,
+          "end": 134.6,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 134.6,
+          "end": 134.94,
+          "probability": 0.768
+        },
+        {
+          "word": " child",
+          "start": 134.94,
+          "end": 135.4,
+          "probability": 0.904
+        }
+      ]
+    },
+    {
+      "start": 135.4,
+      "end": 138.54,
+      "text": "Wild, wild, wild",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " Wild,",
+          "start": 135.4,
+          "end": 136.5,
+          "probability": 0.337
+        },
+        {
+          "word": " wild,",
+          "start": 137.2,
+          "end": 137.52,
+          "probability": 0.796
+        },
+        {
+          "word": " wild",
+          "start": 138.54,
+          "end": 138.54,
+          "probability": 0.968
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.808,
+    "wordCount": 76,
+    "credibleWordCount": 63,
+    "segmentCount": 7,
+    "averageWordProbability": 0.645,
+    "vocalSeconds": 31.3,
+    "scanCoverage": 0.42,
+    "reviewRequired": false
+  }
+}

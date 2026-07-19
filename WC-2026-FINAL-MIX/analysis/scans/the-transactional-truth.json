@@ -1,0 +1,1446 @@
+{
+  "analysisVersion": 1,
+  "index": 104,
+  "id": "../VOLHOLLA/song-silence-11.html",
+  "slug": "the-transactional-truth",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm tied as a bush, the collection plate was like swung back to talk the white Cold calculator, money never waited, I saw my soul for a first and bought it back with a prayer The load is my shepherd, but the land load is right there, hard choice I'm just a man, cold boof, stick it to the plan, tellin' tellin' to the scale while I flip the songs The devil is alive, but he puts bread in my palms He's back Walkin' through valley Time to purly gate, blend back, flip, profit back from the game Tax man knocking on the sanctuary black man Everything is temporary bills stackin' on the desk God, put me to the test, I filled, I flinch, I filled the world Baby bitch, so I dust off the rhyme book Better than a pew, the saints want to swim Back to the game, check it when the sun might hide in the rain One hand on the head, one hand on the weight, walk a good valley Pass the prelude gate and back to the profit back to the game Confession, I did it for the bank account obsession, I ain't watching the amount He is back.",
+  "sampledRanges": [
+    [
+      9.53,
+      27.53
+    ],
+    [
+      38.11,
+      56.11
+    ],
+    [
+      66.69,
+      84.69
+    ],
+    [
+      95.27,
+      113.27
+    ]
+  ],
+  "segments": [
+    {
+      "start": 9.53,
+      "end": 12.85,
+      "text": "I'm tied as a bush, the collection plate was like swung back to talk the white",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 9.53,
+          "end": 9.87,
+          "probability": 0.521
+        },
+        {
+          "word": " tied",
+          "start": 9.87,
+          "end": 10.13,
+          "probability": 0.536
+        },
+        {
+          "word": " as",
+          "start": 10.13,
+          "end": 10.33,
+          "probability": 0.378
+        },
+        {
+          "word": " a",
+          "start": 10.33,
+          "end": 10.45,
+          "probability": 0.831
+        },
+        {
+          "word": " bush,",
+          "start": 10.45,
+          "end": 10.69,
+          "probability": 0.444
+        },
+        {
+          "word": " the",
+          "start": 10.75,
+          "end": 10.99,
+          "probability": 0.411
+        },
+        {
+          "word": " collection",
+          "start": 10.99,
+          "end": 11.25,
+          "probability": 0.962
+        },
+        {
+          "word": " plate",
+          "start": 11.25,
+          "end": 11.49,
+          "probability": 0.48
+        },
+        {
+          "word": " was",
+          "start": 11.49,
+          "end": 11.67,
+          "probability": 0.957
+        },
+        {
+          "word": " like",
+          "start": 11.67,
+          "end": 11.77,
+          "probability": 0.376
+        },
+        {
+          "word": " swung",
+          "start": 11.77,
+          "end": 12.05,
+          "probability": 0.353
+        },
+        {
+          "word": " back",
+          "start": 12.05,
+          "end": 12.23,
+          "probability": 0.984
+        },
+        {
+          "word": " to",
+          "start": 12.23,
+          "end": 12.39,
+          "probability": 0.825
+        },
+        {
+          "word": " talk",
+          "start": 12.39,
+          "end": 12.53,
+          "probability": 0.578
+        },
+        {
+          "word": " the",
+          "start": 12.53,
+          "end": 12.69,
+          "probability": 0.445
+        },
+        {
+          "word": " white",
+          "start": 12.69,
+          "end": 12.85,
+          "probability": 0.889
+        }
+      ]
+    },
+    {
+      "start": 12.85,
+      "end": 17.09,
+      "text": "Cold calculator, money never waited, I saw my soul for a first and bought it back with a prayer",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " Cold",
+          "start": 12.85,
+          "end": 13.37,
+          "probability": 0.012
+        },
+        {
+          "word": " calculator,",
+          "start": 13.37,
+          "end": 13.73,
+          "probability": 0.246
+        },
+        {
+          "word": " money",
+          "start": 13.85,
+          "end": 14.17,
+          "probability": 0.979
+        },
+        {
+          "word": " never",
+          "start": 14.17,
+          "end": 14.47,
+          "probability": 0.953
+        },
+        {
+          "word": " waited,",
+          "start": 14.47,
+          "end": 14.77,
+          "probability": 0.835
+        },
+        {
+          "word": " I",
+          "start": 14.87,
+          "end": 15.05,
+          "probability": 0.938
+        },
+        {
+          "word": " saw",
+          "start": 15.05,
+          "end": 15.19,
+          "probability": 0.929
+        },
+        {
+          "word": " my",
+          "start": 15.19,
+          "end": 15.35,
+          "probability": 0.781
+        },
+        {
+          "word": " soul",
+          "start": 15.35,
+          "end": 15.57,
+          "probability": 0.989
+        },
+        {
+          "word": " for",
+          "start": 15.57,
+          "end": 15.81,
+          "probability": 0.818
+        },
+        {
+          "word": " a",
+          "start": 15.81,
+          "end": 15.89,
+          "probability": 0.186
+        },
+        {
+          "word": " first",
+          "start": 15.89,
+          "end": 16.09,
+          "probability": 0.937
+        },
+        {
+          "word": " and",
+          "start": 16.09,
+          "end": 16.25,
+          "probability": 0.329
+        },
+        {
+          "word": " bought",
+          "start": 16.25,
+          "end": 16.35,
+          "probability": 0.754
+        },
+        {
+          "word": " it",
+          "start": 16.35,
+          "end": 16.43,
+          "probability": 0.715
+        },
+        {
+          "word": " back",
+          "start": 16.43,
+          "end": 16.63,
+          "probability": 0.997
+        },
+        {
+          "word": " with",
+          "start": 16.63,
+          "end": 16.77,
+          "probability": 0.799
+        },
+        {
+          "word": " a",
+          "start": 16.77,
+          "end": 16.87,
+          "probability": 0.899
+        },
+        {
+          "word": " prayer",
+          "start": 16.87,
+          "end": 17.09,
+          "probability": 0.687
+        }
+      ]
+    },
+    {
+      "start": 17.09,
+      "end": 19.57,
+      "text": "The load is my shepherd, but the land load is right there, hard choice",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " The",
+          "start": 17.09,
+          "end": 17.23,
+          "probability": 0.158
+        },
+        {
+          "word": " load",
+          "start": 17.23,
+          "end": 17.39,
+          "probability": 0.886
+        },
+        {
+          "word": " is",
+          "start": 17.39,
+          "end": 17.49,
+          "probability": 0.596
+        },
+        {
+          "word": " my",
+          "start": 17.49,
+          "end": 17.59,
+          "probability": 0.516
+        },
+        {
+          "word": " shepherd,",
+          "start": 17.59,
+          "end": 17.81,
+          "probability": 0.272
+        },
+        {
+          "word": " but",
+          "start": 17.81,
+          "end": 18.03,
+          "probability": 0.962
+        },
+        {
+          "word": " the",
+          "start": 18.03,
+          "end": 18.15,
+          "probability": 0.992
+        },
+        {
+          "word": " land",
+          "start": 18.15,
+          "end": 18.31,
+          "probability": 0.427
+        },
+        {
+          "word": " load",
+          "start": 18.31,
+          "end": 18.51,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 18.51,
+          "end": 18.65,
+          "probability": 0.849
+        },
+        {
+          "word": " right",
+          "start": 18.65,
+          "end": 18.81,
+          "probability": 0.99
+        },
+        {
+          "word": " there,",
+          "start": 18.81,
+          "end": 19.07,
+          "probability": 0.96
+        },
+        {
+          "word": " hard",
+          "start": 19.07,
+          "end": 19.35,
+          "probability": 0.773
+        },
+        {
+          "word": " choice",
+          "start": 19.35,
+          "end": 19.57,
+          "probability": 0.218
+        }
+      ]
+    },
+    {
+      "start": 19.57,
+      "end": 24.25,
+      "text": "I'm just a man, cold boof, stick it to the plan, tellin' tellin' to the scale while I flip the songs",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 19.57,
+          "end": 20.01,
+          "probability": 0.818
+        },
+        {
+          "word": " just",
+          "start": 20.01,
+          "end": 20.13,
+          "probability": 0.993
+        },
+        {
+          "word": " a",
+          "start": 20.13,
+          "end": 20.29,
+          "probability": 0.957
+        },
+        {
+          "word": " man,",
+          "start": 20.29,
+          "end": 20.45,
+          "probability": 0.976
+        },
+        {
+          "word": " cold",
+          "start": 20.47,
+          "end": 20.75,
+          "probability": 0.91
+        },
+        {
+          "word": " boof,",
+          "start": 20.75,
+          "end": 21.17,
+          "probability": 0.652
+        },
+        {
+          "word": " stick",
+          "start": 21.17,
+          "end": 21.53,
+          "probability": 0.636
+        },
+        {
+          "word": " it",
+          "start": 21.53,
+          "end": 21.63,
+          "probability": 0.409
+        },
+        {
+          "word": " to",
+          "start": 21.63,
+          "end": 21.77,
+          "probability": 0.597
+        },
+        {
+          "word": " the",
+          "start": 21.77,
+          "end": 21.89,
+          "probability": 0.725
+        },
+        {
+          "word": " plan,",
+          "start": 21.89,
+          "end": 22.09,
+          "probability": 0.583
+        },
+        {
+          "word": " tellin'",
+          "start": 22.27,
+          "end": 22.43,
+          "probability": 0.663
+        },
+        {
+          "word": " tellin'",
+          "start": 22.49,
+          "end": 22.79,
+          "probability": 0.683
+        },
+        {
+          "word": " to",
+          "start": 22.81,
+          "end": 22.81,
+          "probability": 0.114
+        },
+        {
+          "word": " the",
+          "start": 22.81,
+          "end": 22.93,
+          "probability": 0.464
+        },
+        {
+          "word": " scale",
+          "start": 22.93,
+          "end": 23.17,
+          "probability": 0.624
+        },
+        {
+          "word": " while",
+          "start": 23.17,
+          "end": 23.39,
+          "probability": 0.573
+        },
+        {
+          "word": " I",
+          "start": 23.39,
+          "end": 23.47,
+          "probability": 0.977
+        },
+        {
+          "word": " flip",
+          "start": 23.47,
+          "end": 23.71,
+          "probability": 0.78
+        },
+        {
+          "word": " the",
+          "start": 23.71,
+          "end": 23.93,
+          "probability": 0.311
+        },
+        {
+          "word": " songs",
+          "start": 23.93,
+          "end": 24.25,
+          "probability": 0.267
+        }
+      ]
+    },
+    {
+      "start": 24.25,
+      "end": 26.61,
+      "text": "The devil is alive, but he puts bread in my palms",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " The",
+          "start": 24.25,
+          "end": 24.63,
+          "probability": 0.551
+        },
+        {
+          "word": " devil",
+          "start": 24.63,
+          "end": 24.87,
+          "probability": 0.908
+        },
+        {
+          "word": " is",
+          "start": 24.87,
+          "end": 25.09,
+          "probability": 0.867
+        },
+        {
+          "word": " alive,",
+          "start": 25.09,
+          "end": 25.33,
+          "probability": 0.525
+        },
+        {
+          "word": " but",
+          "start": 25.35,
+          "end": 25.55,
+          "probability": 0.816
+        },
+        {
+          "word": " he",
+          "start": 25.55,
+          "end": 25.65,
+          "probability": 0.989
+        },
+        {
+          "word": " puts",
+          "start": 25.65,
+          "end": 25.85,
+          "probability": 0.245
+        },
+        {
+          "word": " bread",
+          "start": 25.85,
+          "end": 26.01,
+          "probability": 0.645
+        },
+        {
+          "word": " in",
+          "start": 26.01,
+          "end": 26.09,
+          "probability": 0.602
+        },
+        {
+          "word": " my",
+          "start": 26.09,
+          "end": 26.21,
+          "probability": 0.997
+        },
+        {
+          "word": " palms",
+          "start": 26.21,
+          "end": 26.61,
+          "probability": 0.939
+        }
+      ]
+    },
+    {
+      "start": 26.61,
+      "end": 27.51,
+      "text": "He's back",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.618,
+      "noSpeechProbability": 0.545,
+      "words": [
+        {
+          "word": " He's",
+          "start": 26.61,
+          "end": 27.31,
+          "probability": 0.461
+        },
+        {
+          "word": " back",
+          "start": 27.31,
+          "end": 27.51,
+          "probability": 0.612
+        }
+      ]
+    },
+    {
+      "start": 38.17,
+      "end": 39.19,
+      "text": "Walkin' through valley",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Walkin'",
+          "start": 38.17,
+          "end": 38.57,
+          "probability": 0.141
+        },
+        {
+          "word": " through",
+          "start": 38.69,
+          "end": 38.71,
+          "probability": 0.691
+        },
+        {
+          "word": " valley",
+          "start": 38.71,
+          "end": 39.19,
+          "probability": 0.511
+        }
+      ]
+    },
+    {
+      "start": 40.19,
+      "end": 43.53,
+      "text": "Time to purly gate, blend back, flip, profit back from the game",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Time",
+          "start": 40.19,
+          "end": 40.59,
+          "probability": 0.164
+        },
+        {
+          "word": " to",
+          "start": 40.59,
+          "end": 40.73,
+          "probability": 0.972
+        },
+        {
+          "word": " purly",
+          "start": 40.73,
+          "end": 40.95,
+          "probability": 0.274
+        },
+        {
+          "word": " gate,",
+          "start": 40.95,
+          "end": 41.17,
+          "probability": 0.128
+        },
+        {
+          "word": " blend",
+          "start": 41.37,
+          "end": 41.45,
+          "probability": 0.311
+        },
+        {
+          "word": " back,",
+          "start": 41.45,
+          "end": 41.69,
+          "probability": 0.922
+        },
+        {
+          "word": " flip,",
+          "start": 41.87,
+          "end": 41.93,
+          "probability": 0.629
+        },
+        {
+          "word": " profit",
+          "start": 42.21,
+          "end": 42.41,
+          "probability": 0.539
+        },
+        {
+          "word": " back",
+          "start": 42.41,
+          "end": 42.81,
+          "probability": 0.427
+        },
+        {
+          "word": " from",
+          "start": 42.81,
+          "end": 43.03,
+          "probability": 0.609
+        },
+        {
+          "word": " the",
+          "start": 43.03,
+          "end": 43.17,
+          "probability": 0.954
+        },
+        {
+          "word": " game",
+          "start": 43.17,
+          "end": 43.53,
+          "probability": 0.883
+        }
+      ]
+    },
+    {
+      "start": 44.67,
+      "end": 46.91,
+      "text": "Tax man knocking on the sanctuary black man",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Tax",
+          "start": 44.67,
+          "end": 45.07,
+          "probability": 0.744
+        },
+        {
+          "word": " man",
+          "start": 45.07,
+          "end": 45.33,
+          "probability": 0.665
+        },
+        {
+          "word": " knocking",
+          "start": 45.33,
+          "end": 45.61,
+          "probability": 0.401
+        },
+        {
+          "word": " on",
+          "start": 45.61,
+          "end": 45.81,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 45.81,
+          "end": 45.89,
+          "probability": 0.637
+        },
+        {
+          "word": " sanctuary",
+          "start": 45.89,
+          "end": 46.23,
+          "probability": 0.963
+        },
+        {
+          "word": " black",
+          "start": 46.23,
+          "end": 46.63,
+          "probability": 0.516
+        },
+        {
+          "word": " man",
+          "start": 46.63,
+          "end": 46.91,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 46.91,
+      "end": 49.03,
+      "text": "Everything is temporary bills stackin' on the desk",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 46.91,
+          "end": 47.27,
+          "probability": 0.565
+        },
+        {
+          "word": " is",
+          "start": 47.27,
+          "end": 47.51,
+          "probability": 0.927
+        },
+        {
+          "word": " temporary",
+          "start": 47.51,
+          "end": 47.89,
+          "probability": 0.983
+        },
+        {
+          "word": " bills",
+          "start": 47.89,
+          "end": 48.27,
+          "probability": 0.241
+        },
+        {
+          "word": " stackin'",
+          "start": 48.27,
+          "end": 48.65,
+          "probability": 0.637
+        },
+        {
+          "word": " on",
+          "start": 48.69,
+          "end": 48.77,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 48.77,
+          "end": 48.85,
+          "probability": 0.83
+        },
+        {
+          "word": " desk",
+          "start": 48.85,
+          "end": 49.03,
+          "probability": 0.437
+        }
+      ]
+    },
+    {
+      "start": 49.03,
+      "end": 52.05,
+      "text": "God, put me to the test, I filled, I flinch, I filled the world",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " God,",
+          "start": 49.03,
+          "end": 49.37,
+          "probability": 0.337
+        },
+        {
+          "word": " put",
+          "start": 49.39,
+          "end": 49.55,
+          "probability": 0.677
+        },
+        {
+          "word": " me",
+          "start": 49.55,
+          "end": 49.67,
+          "probability": 0.973
+        },
+        {
+          "word": " to",
+          "start": 49.67,
+          "end": 49.83,
+          "probability": 0.241
+        },
+        {
+          "word": " the",
+          "start": 49.83,
+          "end": 49.95,
+          "probability": 0.896
+        },
+        {
+          "word": " test,",
+          "start": 49.95,
+          "end": 50.11,
+          "probability": 0.889
+        },
+        {
+          "word": " I",
+          "start": 50.33,
+          "end": 50.41,
+          "probability": 0.953
+        },
+        {
+          "word": " filled,",
+          "start": 50.41,
+          "end": 50.65,
+          "probability": 0.514
+        },
+        {
+          "word": " I",
+          "start": 50.65,
+          "end": 50.95,
+          "probability": 0.991
+        },
+        {
+          "word": " flinch,",
+          "start": 50.95,
+          "end": 51.27,
+          "probability": 0.865
+        },
+        {
+          "word": " I",
+          "start": 51.37,
+          "end": 51.51,
+          "probability": 0.995
+        },
+        {
+          "word": " filled",
+          "start": 51.51,
+          "end": 51.69,
+          "probability": 0.727
+        },
+        {
+          "word": " the",
+          "start": 51.69,
+          "end": 51.89,
+          "probability": 0.991
+        },
+        {
+          "word": " world",
+          "start": 51.89,
+          "end": 52.05,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 52.05,
+      "end": 53.91,
+      "text": "Baby bitch, so I dust off the rhyme book",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Baby",
+          "start": 52.05,
+          "end": 52.33,
+          "probability": 0.023
+        },
+        {
+          "word": " bitch,",
+          "start": 52.33,
+          "end": 52.57,
+          "probability": 0.079
+        },
+        {
+          "word": " so",
+          "start": 52.57,
+          "end": 52.81,
+          "probability": 0.555
+        },
+        {
+          "word": " I",
+          "start": 52.81,
+          "end": 52.87,
+          "probability": 0.92
+        },
+        {
+          "word": " dust",
+          "start": 52.87,
+          "end": 53.05,
+          "probability": 0.304
+        },
+        {
+          "word": " off",
+          "start": 53.05,
+          "end": 53.29,
+          "probability": 0.293
+        },
+        {
+          "word": " the",
+          "start": 53.29,
+          "end": 53.47,
+          "probability": 0.986
+        },
+        {
+          "word": " rhyme",
+          "start": 53.47,
+          "end": 53.67,
+          "probability": 0.418
+        },
+        {
+          "word": " book",
+          "start": 53.67,
+          "end": 53.91,
+          "probability": 0.488
+        }
+      ]
+    },
+    {
+      "start": 53.91,
+      "end": 55.89,
+      "text": "Better than a pew, the saints want to swim",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Better",
+          "start": 53.91,
+          "end": 54.19,
+          "probability": 0.142
+        },
+        {
+          "word": " than",
+          "start": 54.19,
+          "end": 54.35,
+          "probability": 0.919
+        },
+        {
+          "word": " a",
+          "start": 54.35,
+          "end": 54.47,
+          "probability": 0.369
+        },
+        {
+          "word": " pew,",
+          "start": 54.47,
+          "end": 54.73,
+          "probability": 0.646
+        },
+        {
+          "word": " the",
+          "start": 55.03,
+          "end": 55.13,
+          "probability": 0.542
+        },
+        {
+          "word": " saints",
+          "start": 55.13,
+          "end": 55.33,
+          "probability": 0.425
+        },
+        {
+          "word": " want",
+          "start": 55.33,
+          "end": 55.53,
+          "probability": 0.582
+        },
+        {
+          "word": " to",
+          "start": 55.53,
+          "end": 55.67,
+          "probability": 0.824
+        },
+        {
+          "word": " swim",
+          "start": 55.67,
+          "end": 55.89,
+          "probability": 0.112
+        }
+      ]
+    },
+    {
+      "start": 66.69,
+      "end": 70.59,
+      "text": "Back to the game, check it when the sun might hide in the rain",
+      "avgLogprob": -0.45,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " Back",
+          "start": 66.69,
+          "end": 66.77,
+          "probability": 0.033
+        },
+        {
+          "word": " to",
+          "start": 66.77,
+          "end": 66.99,
+          "probability": 0.946
+        },
+        {
+          "word": " the",
+          "start": 66.99,
+          "end": 67.09,
+          "probability": 0.986
+        },
+        {
+          "word": " game,",
+          "start": 67.09,
+          "end": 67.57,
+          "probability": 0.857
+        },
+        {
+          "word": " check",
+          "start": 67.77,
+          "end": 68.95,
+          "probability": 0.237
+        },
+        {
+          "word": " it",
+          "start": 68.95,
+          "end": 69.07,
+          "probability": 0.174
+        },
+        {
+          "word": " when",
+          "start": 69.07,
+          "end": 69.17,
+          "probability": 0.388
+        },
+        {
+          "word": " the",
+          "start": 69.17,
+          "end": 69.25,
+          "probability": 0.626
+        },
+        {
+          "word": " sun",
+          "start": 69.25,
+          "end": 69.45,
+          "probability": 0.655
+        },
+        {
+          "word": " might",
+          "start": 69.45,
+          "end": 69.75,
+          "probability": 0.83
+        },
+        {
+          "word": " hide",
+          "start": 69.75,
+          "end": 70.05,
+          "probability": 0.381
+        },
+        {
+          "word": " in",
+          "start": 70.05,
+          "end": 70.25,
+          "probability": 0.623
+        },
+        {
+          "word": " the",
+          "start": 70.25,
+          "end": 70.37,
+          "probability": 0.985
+        },
+        {
+          "word": " rain",
+          "start": 70.37,
+          "end": 70.59,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 70.59,
+      "end": 76.25,
+      "text": "One hand on the head, one hand on the weight, walk a good valley",
+      "avgLogprob": -0.45,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " One",
+          "start": 70.59,
+          "end": 70.85,
+          "probability": 0.053
+        },
+        {
+          "word": " hand",
+          "start": 70.85,
+          "end": 71.15,
+          "probability": 0.898
+        },
+        {
+          "word": " on",
+          "start": 71.15,
+          "end": 71.35,
+          "probability": 0.544
+        },
+        {
+          "word": " the",
+          "start": 71.35,
+          "end": 71.49,
+          "probability": 0.536
+        },
+        {
+          "word": " head,",
+          "start": 71.49,
+          "end": 71.65,
+          "probability": 0.501
+        },
+        {
+          "word": " one",
+          "start": 71.65,
+          "end": 72.01,
+          "probability": 0.733
+        },
+        {
+          "word": " hand",
+          "start": 72.01,
+          "end": 73.29,
+          "probability": 0.833
+        },
+        {
+          "word": " on",
+          "start": 73.29,
+          "end": 73.51,
+          "probability": 0.813
+        },
+        {
+          "word": " the",
+          "start": 73.51,
+          "end": 73.63,
+          "probability": 0.777
+        },
+        {
+          "word": " weight,",
+          "start": 73.63,
+          "end": 73.85,
+          "probability": 0.866
+        },
+        {
+          "word": " walk",
+          "start": 74.13,
+          "end": 75.49,
+          "probability": 0.617
+        },
+        {
+          "word": " a",
+          "start": 75.49,
+          "end": 75.67,
+          "probability": 0.554
+        },
+        {
+          "word": " good",
+          "start": 75.67,
+          "end": 75.77,
+          "probability": 0.431
+        },
+        {
+          "word": " valley",
+          "start": 75.77,
+          "end": 76.25,
+          "probability": 0.524
+        }
+      ]
+    },
+    {
+      "start": 77.25,
+      "end": 80.61,
+      "text": "Pass the prelude gate and back to the profit back to the game",
+      "avgLogprob": -0.45,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " Pass",
+          "start": 77.25,
+          "end": 77.69,
+          "probability": 0.311
+        },
+        {
+          "word": " the",
+          "start": 77.69,
+          "end": 77.77,
+          "probability": 0.729
+        },
+        {
+          "word": " prelude",
+          "start": 77.77,
+          "end": 77.99,
+          "probability": 0.455
+        },
+        {
+          "word": " gate",
+          "start": 77.99,
+          "end": 78.29,
+          "probability": 0.72
+        },
+        {
+          "word": " and",
+          "start": 78.29,
+          "end": 78.45,
+          "probability": 0.276
+        },
+        {
+          "word": " back",
+          "start": 78.45,
+          "end": 78.73,
+          "probability": 0.926
+        },
+        {
+          "word": " to",
+          "start": 78.73,
+          "end": 78.95,
+          "probability": 0.93
+        },
+        {
+          "word": " the",
+          "start": 78.95,
+          "end": 79.07,
+          "probability": 0.684
+        },
+        {
+          "word": " profit",
+          "start": 79.07,
+          "end": 79.47,
+          "probability": 0.658
+        },
+        {
+          "word": " back",
+          "start": 79.47,
+          "end": 79.85,
+          "probability": 0.287
+        },
+        {
+          "word": " to",
+          "start": 79.85,
+          "end": 80.07,
+          "probability": 0.687
+        },
+        {
+          "word": " the",
+          "start": 80.07,
+          "end": 80.19,
+          "probability": 0.997
+        },
+        {
+          "word": " game",
+          "start": 80.19,
+          "end": 80.61,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 81.21,
+      "end": 84.17,
+      "text": "Confession, I did it for the bank account obsession, I ain't watching the amount",
+      "avgLogprob": -0.45,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " Confession,",
+          "start": 81.21,
+          "end": 81.65,
+          "probability": 0.88
+        },
+        {
+          "word": " I",
+          "start": 81.75,
+          "end": 81.79,
+          "probability": 0.95
+        },
+        {
+          "word": " did",
+          "start": 81.79,
+          "end": 81.97,
+          "probability": 0.987
+        },
+        {
+          "word": " it",
+          "start": 81.97,
+          "end": 82.05,
+          "probability": 0.998
+        },
+        {
+          "word": " for",
+          "start": 82.05,
+          "end": 82.23,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 82.23,
+          "end": 82.35,
+          "probability": 0.985
+        },
+        {
+          "word": " bank",
+          "start": 82.35,
+          "end": 82.53,
+          "probability": 0.598
+        },
+        {
+          "word": " account",
+          "start": 82.53,
+          "end": 82.81,
+          "probability": 0.985
+        },
+        {
+          "word": " obsession,",
+          "start": 82.81,
+          "end": 83.03,
+          "probability": 0.973
+        },
+        {
+          "word": " I",
+          "start": 83.03,
+          "end": 83.35,
+          "probability": 0.986
+        },
+        {
+          "word": " ain't",
+          "start": 83.35,
+          "end": 83.45,
+          "probability": 0.958
+        },
+        {
+          "word": " watching",
+          "start": 83.45,
+          "end": 83.73,
+          "probability": 0.903
+        },
+        {
+          "word": " the",
+          "start": 83.73,
+          "end": 83.91,
+          "probability": 0.88
+        },
+        {
+          "word": " amount",
+          "start": 83.91,
+          "end": 84.17,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 112.61,
+      "end": 113.21,
+      "text": "He is back.",
+      "avgLogprob": -0.979,
+      "compressionRatio": 0.579,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " He",
+          "start": 112.61,
+          "end": 112.91,
+          "probability": 0.145
+        },
+        {
+          "word": " is",
+          "start": 112.91,
+          "end": 113.01,
+          "probability": 0.575
+        },
+        {
+          "word": " back.",
+          "start": 113.01,
+          "end": 113.21,
+          "probability": 0.968
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.841,
+    "wordCount": 204,
+    "credibleWordCount": 171,
+    "segmentCount": 18,
+    "averageWordProbability": 0.668,
+    "vocalSeconds": 50.04,
+    "scanCoverage": 0.525,
+    "reviewRequired": false
+  }
+}

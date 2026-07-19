@@ -1,0 +1,29 @@
+{
+  "analysisVersion": 1,
+  "index": 120,
+  "id": "../VOLHOLLA/song-mallground-26.html",
+  "slug": "lost-object-choir-src077",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      2.3,
+      40.98
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.659,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.828,
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,990 @@
+{
+  "analysisVersion": 1,
+  "index": 80,
+  "id": "../VOLHOLLA/song-congregation-10.html",
+  "slug": "malian-pulse",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "They show what they're in a modern world Can you hear the story's dead? I had this song I found this song He beat the ground I found this song What the hell did they find that I flamed For me to the light For me to the light Fluid, hot street Walking on a heavy beat You can see that the city does a shake Voices high on the sky No more time for us to wipe It's your what I know But I'm well, I've got you here It's your instead I hear the sound I find the sound Deep in the drum I find the sound Rolling every day From the dive Flame for me",
+  "sampledRanges": [
+    [
+      10.15,
+      28.15
+    ],
+    [
+      40.6,
+      58.6
+    ],
+    [
+      71.06,
+      89.06
+    ],
+    [
+      101.51,
+      119.51
+    ]
+  ],
+  "segments": [
+    {
+      "start": 40.6,
+      "end": 42.5,
+      "text": "They show what they're in a modern world",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " They",
+          "start": 40.6,
+          "end": 40.86,
+          "probability": 0.011
+        },
+        {
+          "word": " show",
+          "start": 40.86,
+          "end": 41.08,
+          "probability": 0.839
+        },
+        {
+          "word": " what",
+          "start": 41.08,
+          "end": 41.32,
+          "probability": 0.355
+        },
+        {
+          "word": " they're",
+          "start": 41.32,
+          "end": 41.46,
+          "probability": 0.486
+        },
+        {
+          "word": " in",
+          "start": 41.46,
+          "end": 41.64,
+          "probability": 0.946
+        },
+        {
+          "word": " a",
+          "start": 41.64,
+          "end": 41.8,
+          "probability": 0.371
+        },
+        {
+          "word": " modern",
+          "start": 41.8,
+          "end": 42.04,
+          "probability": 0.151
+        },
+        {
+          "word": " world",
+          "start": 42.04,
+          "end": 42.5,
+          "probability": 0.753
+        }
+      ]
+    },
+    {
+      "start": 42.5,
+      "end": 43.86,
+      "text": "Can you hear the story's dead?",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " Can",
+          "start": 42.5,
+          "end": 42.72,
+          "probability": 0.242
+        },
+        {
+          "word": " you",
+          "start": 42.72,
+          "end": 42.88,
+          "probability": 0.906
+        },
+        {
+          "word": " hear",
+          "start": 42.88,
+          "end": 43.08,
+          "probability": 0.936
+        },
+        {
+          "word": " the",
+          "start": 43.08,
+          "end": 43.26,
+          "probability": 0.584
+        },
+        {
+          "word": " story's",
+          "start": 43.26,
+          "end": 43.76,
+          "probability": 0.506
+        },
+        {
+          "word": " dead?",
+          "start": 43.76,
+          "end": 43.86,
+          "probability": 0.641
+        }
+      ]
+    },
+    {
+      "start": 44.36,
+      "end": 45.36,
+      "text": "I had this song",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " I",
+          "start": 44.36,
+          "end": 44.76,
+          "probability": 0.894
+        },
+        {
+          "word": " had",
+          "start": 44.76,
+          "end": 44.96,
+          "probability": 0.396
+        },
+        {
+          "word": " this",
+          "start": 44.96,
+          "end": 45.12,
+          "probability": 0.536
+        },
+        {
+          "word": " song",
+          "start": 45.12,
+          "end": 45.36,
+          "probability": 0.877
+        }
+      ]
+    },
+    {
+      "start": 46.1,
+      "end": 47.0,
+      "text": "I found this song",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " I",
+          "start": 45.96,
+          "end": 46.18,
+          "probability": 0.413
+        },
+        {
+          "word": " found",
+          "start": 46.18,
+          "end": 46.38,
+          "probability": 0.616
+        },
+        {
+          "word": " this",
+          "start": 46.38,
+          "end": 46.58,
+          "probability": 0.932
+        },
+        {
+          "word": " song",
+          "start": 46.58,
+          "end": 47.0,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 47.6,
+      "end": 48.28,
+      "text": "He beat the ground",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " He",
+          "start": 47.42,
+          "end": 47.64,
+          "probability": 0.279
+        },
+        {
+          "word": " beat",
+          "start": 47.64,
+          "end": 47.86,
+          "probability": 0.457
+        },
+        {
+          "word": " the",
+          "start": 47.86,
+          "end": 48.02,
+          "probability": 0.557
+        },
+        {
+          "word": " ground",
+          "start": 48.02,
+          "end": 48.28,
+          "probability": 0.873
+        }
+      ]
+    },
+    {
+      "start": 48.28,
+      "end": 49.96,
+      "text": "I found this song",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " I",
+          "start": 48.28,
+          "end": 49.1,
+          "probability": 0.844
+        },
+        {
+          "word": " found",
+          "start": 49.1,
+          "end": 49.26,
+          "probability": 0.947
+        },
+        {
+          "word": " this",
+          "start": 49.26,
+          "end": 49.54,
+          "probability": 0.91
+        },
+        {
+          "word": " song",
+          "start": 49.54,
+          "end": 49.96,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 49.96,
+      "end": 52.38,
+      "text": "What the hell did they find that I flamed",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " What",
+          "start": 49.96,
+          "end": 50.44,
+          "probability": 0.143
+        },
+        {
+          "word": " the",
+          "start": 50.44,
+          "end": 50.62,
+          "probability": 0.321
+        },
+        {
+          "word": " hell",
+          "start": 50.62,
+          "end": 50.8,
+          "probability": 0.508
+        },
+        {
+          "word": " did",
+          "start": 50.8,
+          "end": 50.96,
+          "probability": 0.411
+        },
+        {
+          "word": " they",
+          "start": 50.96,
+          "end": 51.18,
+          "probability": 0.574
+        },
+        {
+          "word": " find",
+          "start": 51.18,
+          "end": 51.48,
+          "probability": 0.685
+        },
+        {
+          "word": " that",
+          "start": 51.48,
+          "end": 51.7,
+          "probability": 0.567
+        },
+        {
+          "word": " I",
+          "start": 51.7,
+          "end": 51.96,
+          "probability": 0.766
+        },
+        {
+          "word": " flamed",
+          "start": 51.96,
+          "end": 52.38,
+          "probability": 0.246
+        }
+      ]
+    },
+    {
+      "start": 52.38,
+      "end": 53.42,
+      "text": "For me to the light",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " For",
+          "start": 52.38,
+          "end": 52.6,
+          "probability": 0.075
+        },
+        {
+          "word": " me",
+          "start": 52.6,
+          "end": 52.76,
+          "probability": 0.841
+        },
+        {
+          "word": " to",
+          "start": 52.76,
+          "end": 52.96,
+          "probability": 0.595
+        },
+        {
+          "word": " the",
+          "start": 52.96,
+          "end": 53.16,
+          "probability": 0.478
+        },
+        {
+          "word": " light",
+          "start": 53.16,
+          "end": 53.42,
+          "probability": 0.728
+        }
+      ]
+    },
+    {
+      "start": 53.42,
+      "end": 54.88,
+      "text": "For me to the light",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " For",
+          "start": 53.42,
+          "end": 54.04,
+          "probability": 0.401
+        },
+        {
+          "word": " me",
+          "start": 54.04,
+          "end": 54.24,
+          "probability": 0.97
+        },
+        {
+          "word": " to",
+          "start": 54.24,
+          "end": 54.38,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 54.38,
+          "end": 54.6,
+          "probability": 0.993
+        },
+        {
+          "word": " light",
+          "start": 54.6,
+          "end": 54.88,
+          "probability": 0.964
+        }
+      ]
+    },
+    {
+      "start": 54.88,
+      "end": 56.28,
+      "text": "Fluid, hot street",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " Fluid,",
+          "start": 54.88,
+          "end": 55.54,
+          "probability": 0.492
+        },
+        {
+          "word": " hot",
+          "start": 55.76,
+          "end": 55.9,
+          "probability": 0.941
+        },
+        {
+          "word": " street",
+          "start": 55.9,
+          "end": 56.28,
+          "probability": 0.461
+        }
+      ]
+    },
+    {
+      "start": 56.28,
+      "end": 58.12,
+      "text": "Walking on a heavy beat",
+      "avgLogprob": -0.545,
+      "compressionRatio": 1.652,
+      "noSpeechProbability": 0.506,
+      "words": [
+        {
+          "word": " Walking",
+          "start": 56.28,
+          "end": 57.06,
+          "probability": 0.839
+        },
+        {
+          "word": " on",
+          "start": 57.06,
+          "end": 57.36,
+          "probability": 0.984
+        },
+        {
+          "word": " a",
+          "start": 57.36,
+          "end": 57.52,
+          "probability": 0.735
+        },
+        {
+          "word": " heavy",
+          "start": 57.52,
+          "end": 57.82,
+          "probability": 0.989
+        },
+        {
+          "word": " beat",
+          "start": 57.82,
+          "end": 58.12,
+          "probability": 0.527
+        }
+      ]
+    },
+    {
+      "start": 71.06,
+      "end": 72.58,
+      "text": "You can see that the city does a shake",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " You",
+          "start": 71.06,
+          "end": 71.06,
+          "probability": 0.028
+        },
+        {
+          "word": " can",
+          "start": 71.06,
+          "end": 71.3,
+          "probability": 0.159
+        },
+        {
+          "word": " see",
+          "start": 71.3,
+          "end": 71.44,
+          "probability": 0.342
+        },
+        {
+          "word": " that",
+          "start": 71.44,
+          "end": 71.62,
+          "probability": 0.346
+        },
+        {
+          "word": " the",
+          "start": 71.62,
+          "end": 71.8,
+          "probability": 0.26
+        },
+        {
+          "word": " city",
+          "start": 71.8,
+          "end": 71.98,
+          "probability": 0.649
+        },
+        {
+          "word": " does",
+          "start": 71.98,
+          "end": 72.2,
+          "probability": 0.247
+        },
+        {
+          "word": " a",
+          "start": 72.2,
+          "end": 72.32,
+          "probability": 0.675
+        },
+        {
+          "word": " shake",
+          "start": 72.32,
+          "end": 72.58,
+          "probability": 0.276
+        }
+      ]
+    },
+    {
+      "start": 72.58,
+      "end": 75.24,
+      "text": "Voices high on the sky",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " Voices",
+          "start": 72.58,
+          "end": 73.18,
+          "probability": 0.573
+        },
+        {
+          "word": " high",
+          "start": 73.18,
+          "end": 73.74,
+          "probability": 0.925
+        },
+        {
+          "word": " on",
+          "start": 73.74,
+          "end": 74.5,
+          "probability": 0.533
+        },
+        {
+          "word": " the",
+          "start": 74.5,
+          "end": 74.68,
+          "probability": 0.869
+        },
+        {
+          "word": " sky",
+          "start": 74.68,
+          "end": 75.24,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 75.24,
+      "end": 76.98,
+      "text": "No more time for us to wipe",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " No",
+          "start": 75.24,
+          "end": 75.78,
+          "probability": 0.188
+        },
+        {
+          "word": " more",
+          "start": 75.78,
+          "end": 75.98,
+          "probability": 0.968
+        },
+        {
+          "word": " time",
+          "start": 75.98,
+          "end": 76.14,
+          "probability": 0.721
+        },
+        {
+          "word": " for",
+          "start": 76.14,
+          "end": 76.32,
+          "probability": 0.987
+        },
+        {
+          "word": " us",
+          "start": 76.32,
+          "end": 76.54,
+          "probability": 0.89
+        },
+        {
+          "word": " to",
+          "start": 76.54,
+          "end": 76.72,
+          "probability": 0.364
+        },
+        {
+          "word": " wipe",
+          "start": 76.72,
+          "end": 76.98,
+          "probability": 0.33
+        }
+      ]
+    },
+    {
+      "start": 76.98,
+      "end": 78.1,
+      "text": "It's your what I know",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " It's",
+          "start": 76.98,
+          "end": 77.32,
+          "probability": 0.367
+        },
+        {
+          "word": " your",
+          "start": 77.32,
+          "end": 77.44,
+          "probability": 0.433
+        },
+        {
+          "word": " what",
+          "start": 77.44,
+          "end": 77.62,
+          "probability": 0.188
+        },
+        {
+          "word": " I",
+          "start": 77.62,
+          "end": 77.82,
+          "probability": 0.658
+        },
+        {
+          "word": " know",
+          "start": 77.82,
+          "end": 78.1,
+          "probability": 0.905
+        }
+      ]
+    },
+    {
+      "start": 78.1,
+      "end": 79.4,
+      "text": "But I'm well, I've got you here",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " But",
+          "start": 78.1,
+          "end": 78.38,
+          "probability": 0.125
+        },
+        {
+          "word": " I'm",
+          "start": 78.38,
+          "end": 78.76,
+          "probability": 0.393
+        },
+        {
+          "word": " well,",
+          "start": 78.76,
+          "end": 78.76,
+          "probability": 0.147
+        },
+        {
+          "word": " I've",
+          "start": 78.76,
+          "end": 78.96,
+          "probability": 0.401
+        },
+        {
+          "word": " got",
+          "start": 78.96,
+          "end": 79.04,
+          "probability": 0.884
+        },
+        {
+          "word": " you",
+          "start": 79.04,
+          "end": 79.18,
+          "probability": 0.276
+        },
+        {
+          "word": " here",
+          "start": 79.18,
+          "end": 79.4,
+          "probability": 0.881
+        }
+      ]
+    },
+    {
+      "start": 79.4,
+      "end": 80.14,
+      "text": "It's your instead",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " It's",
+          "start": 79.4,
+          "end": 79.64,
+          "probability": 0.459
+        },
+        {
+          "word": " your",
+          "start": 79.64,
+          "end": 79.76,
+          "probability": 0.139
+        },
+        {
+          "word": " instead",
+          "start": 79.76,
+          "end": 80.14,
+          "probability": 0.524
+        }
+      ]
+    },
+    {
+      "start": 80.14,
+      "end": 81.7,
+      "text": "I hear the sound",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " I",
+          "start": 80.14,
+          "end": 81.08,
+          "probability": 0.783
+        },
+        {
+          "word": " hear",
+          "start": 81.08,
+          "end": 81.24,
+          "probability": 0.373
+        },
+        {
+          "word": " the",
+          "start": 81.24,
+          "end": 81.4,
+          "probability": 0.824
+        },
+        {
+          "word": " sound",
+          "start": 81.4,
+          "end": 81.7,
+          "probability": 0.658
+        }
+      ]
+    },
+    {
+      "start": 81.7,
+      "end": 83.28,
+      "text": "I find the sound",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " I",
+          "start": 81.7,
+          "end": 82.52,
+          "probability": 0.587
+        },
+        {
+          "word": " find",
+          "start": 82.52,
+          "end": 82.68,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 82.68,
+          "end": 82.86,
+          "probability": 0.954
+        },
+        {
+          "word": " sound",
+          "start": 82.86,
+          "end": 83.28,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 83.28,
+      "end": 84.58,
+      "text": "Deep in the drum",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " Deep",
+          "start": 83.28,
+          "end": 84.0,
+          "probability": 0.357
+        },
+        {
+          "word": " in",
+          "start": 84.0,
+          "end": 84.18,
+          "probability": 0.74
+        },
+        {
+          "word": " the",
+          "start": 84.18,
+          "end": 84.32,
+          "probability": 0.922
+        },
+        {
+          "word": " drum",
+          "start": 84.32,
+          "end": 84.58,
+          "probability": 0.367
+        }
+      ]
+    },
+    {
+      "start": 84.58,
+      "end": 86.22,
+      "text": "I find the sound",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.58,
+          "end": 85.42,
+          "probability": 0.896
+        },
+        {
+          "word": " find",
+          "start": 85.42,
+          "end": 85.58,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 85.58,
+          "end": 85.76,
+          "probability": 0.994
+        },
+        {
+          "word": " sound",
+          "start": 85.76,
+          "end": 86.22,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 86.22,
+      "end": 87.46,
+      "text": "Rolling every day",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " Rolling",
+          "start": 86.22,
+          "end": 86.82,
+          "probability": 0.053
+        },
+        {
+          "word": " every",
+          "start": 86.82,
+          "end": 87.2,
+          "probability": 0.443
+        },
+        {
+          "word": " day",
+          "start": 87.2,
+          "end": 87.46,
+          "probability": 0.47
+        }
+      ]
+    },
+    {
+      "start": 87.46,
+      "end": 88.22,
+      "text": "From the dive",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " From",
+          "start": 87.46,
+          "end": 87.74,
+          "probability": 0.243
+        },
+        {
+          "word": " the",
+          "start": 87.74,
+          "end": 87.98,
+          "probability": 0.948
+        },
+        {
+          "word": " dive",
+          "start": 87.98,
+          "end": 88.22,
+          "probability": 0.261
+        }
+      ]
+    },
+    {
+      "start": 88.22,
+      "end": 89.04,
+      "text": "Flame for me",
+      "avgLogprob": -0.654,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " Flame",
+          "start": 88.22,
+          "end": 88.66,
+          "probability": 0.038
+        },
+        {
+          "word": " for",
+          "start": 88.66,
+          "end": 88.92,
+          "probability": 0.419
+        },
+        {
+          "word": " me",
+          "start": 88.92,
+          "end": 89.04,
+          "probability": 0.986
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.808,
+    "wordCount": 118,
+    "credibleWordCount": 92,
+    "segmentCount": 24,
+    "averageWordProbability": 0.6,
+    "vocalSeconds": 33.66,
+    "scanCoverage": 0.497,
+    "reviewRequired": false
+  }
+}

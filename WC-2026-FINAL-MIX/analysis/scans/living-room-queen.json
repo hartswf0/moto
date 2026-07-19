@@ -1,0 +1,1401 @@
+{
+  "analysisVersion": 1,
+  "index": 55,
+  "id": "../VOLHOLLA/song-rootresidue-06.html",
+  "slug": "living-room-queen",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "She's where the couch is home, is where the dog sleeps She gave us all the love, now we're giving it back Playin' her a song on Where the dog sleeps, she gave us all the love Now we're giving it back Playin' her a song on the vintage portrait Yeah, with the dogs Yeah Home is where the cowches Home is where the dog sleeps She gave us all the love Now we're giving it back Playing her a song on the vintage four track Yeah, mom Oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh",
+  "sampledRanges": [
+    [
+      21.03,
+      39.03
+    ],
+    [
+      84.1,
+      102.1
+    ],
+    [
+      147.18,
+      165.18
+    ],
+    [
+      210.26,
+      228.26
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.03,
+      "end": 26.81,
+      "text": "She's where the couch is home, is where the dog sleeps",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.233,
+      "noSpeechProbability": 0.451,
+      "words": [
+        {
+          "word": " She's",
+          "start": 21.03,
+          "end": 21.21,
+          "probability": 0.145
+        },
+        {
+          "word": " where",
+          "start": 21.21,
+          "end": 21.53,
+          "probability": 0.45
+        },
+        {
+          "word": " the",
+          "start": 21.53,
+          "end": 22.11,
+          "probability": 0.977
+        },
+        {
+          "word": " couch",
+          "start": 22.11,
+          "end": 22.75,
+          "probability": 0.234
+        },
+        {
+          "word": " is",
+          "start": 22.75,
+          "end": 23.37,
+          "probability": 0.941
+        },
+        {
+          "word": " home,",
+          "start": 23.37,
+          "end": 23.75,
+          "probability": 0.284
+        },
+        {
+          "word": " is",
+          "start": 24.21,
+          "end": 24.43,
+          "probability": 0.528
+        },
+        {
+          "word": " where",
+          "start": 24.43,
+          "end": 24.81,
+          "probability": 0.717
+        },
+        {
+          "word": " the",
+          "start": 24.81,
+          "end": 25.33,
+          "probability": 0.994
+        },
+        {
+          "word": " dog",
+          "start": 25.33,
+          "end": 25.85,
+          "probability": 0.838
+        },
+        {
+          "word": " sleeps",
+          "start": 25.85,
+          "end": 26.81,
+          "probability": 0.924
+        }
+      ]
+    },
+    {
+      "start": 26.81,
+      "end": 34.07,
+      "text": "She gave us all the love, now we're giving it back",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.233,
+      "noSpeechProbability": 0.451,
+      "words": [
+        {
+          "word": " She",
+          "start": 26.81,
+          "end": 27.47,
+          "probability": 0.328
+        },
+        {
+          "word": " gave",
+          "start": 27.47,
+          "end": 27.87,
+          "probability": 0.991
+        },
+        {
+          "word": " us",
+          "start": 27.87,
+          "end": 28.79,
+          "probability": 0.959
+        },
+        {
+          "word": " all",
+          "start": 28.79,
+          "end": 29.21,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 29.21,
+          "end": 29.63,
+          "probability": 0.98
+        },
+        {
+          "word": " love,",
+          "start": 29.63,
+          "end": 30.07,
+          "probability": 0.507
+        },
+        {
+          "word": " now",
+          "start": 30.61,
+          "end": 31.27,
+          "probability": 0.929
+        },
+        {
+          "word": " we're",
+          "start": 31.27,
+          "end": 31.93,
+          "probability": 0.984
+        },
+        {
+          "word": " giving",
+          "start": 31.93,
+          "end": 32.31,
+          "probability": 0.908
+        },
+        {
+          "word": " it",
+          "start": 32.31,
+          "end": 32.69,
+          "probability": 0.927
+        },
+        {
+          "word": " back",
+          "start": 32.69,
+          "end": 34.07,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 34.93,
+      "end": 38.69,
+      "text": "Playin' her a song on",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.233,
+      "noSpeechProbability": 0.451,
+      "words": [
+        {
+          "word": " Playin'",
+          "start": 34.93,
+          "end": 36.13,
+          "probability": 0.264
+        },
+        {
+          "word": " her",
+          "start": 36.31,
+          "end": 36.63,
+          "probability": 0.872
+        },
+        {
+          "word": " a",
+          "start": 36.63,
+          "end": 37.17,
+          "probability": 0.851
+        },
+        {
+          "word": " song",
+          "start": 37.17,
+          "end": 37.69,
+          "probability": 0.996
+        },
+        {
+          "word": " on",
+          "start": 37.69,
+          "end": 38.69,
+          "probability": 0.432
+        }
+      ]
+    },
+    {
+      "start": 84.1,
+      "end": 89.64,
+      "text": "Where the dog sleeps, she gave us all the love",
+      "avgLogprob": -0.311,
+      "compressionRatio": 1.175,
+      "noSpeechProbability": 0.146,
+      "words": [
+        {
+          "word": " Where",
+          "start": 84.1,
+          "end": 84.44,
+          "probability": 0.198
+        },
+        {
+          "word": " the",
+          "start": 84.44,
+          "end": 84.92,
+          "probability": 0.987
+        },
+        {
+          "word": " dog",
+          "start": 84.92,
+          "end": 85.5,
+          "probability": 0.8
+        },
+        {
+          "word": " sleeps,",
+          "start": 85.5,
+          "end": 86.38,
+          "probability": 0.979
+        },
+        {
+          "word": " she",
+          "start": 86.9,
+          "end": 87.04,
+          "probability": 0.953
+        },
+        {
+          "word": " gave",
+          "start": 87.04,
+          "end": 87.48,
+          "probability": 0.977
+        },
+        {
+          "word": " us",
+          "start": 87.48,
+          "end": 88.26,
+          "probability": 0.981
+        },
+        {
+          "word": " all",
+          "start": 88.26,
+          "end": 88.76,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 88.76,
+          "end": 89.12,
+          "probability": 0.981
+        },
+        {
+          "word": " love",
+          "start": 89.12,
+          "end": 89.64,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 89.64,
+      "end": 93.62,
+      "text": "Now we're giving it back",
+      "avgLogprob": -0.311,
+      "compressionRatio": 1.175,
+      "noSpeechProbability": 0.146,
+      "words": [
+        {
+          "word": " Now",
+          "start": 89.64,
+          "end": 90.72,
+          "probability": 0.624
+        },
+        {
+          "word": " we're",
+          "start": 90.72,
+          "end": 91.4,
+          "probability": 0.949
+        },
+        {
+          "word": " giving",
+          "start": 91.4,
+          "end": 91.78,
+          "probability": 0.793
+        },
+        {
+          "word": " it",
+          "start": 91.78,
+          "end": 92.16,
+          "probability": 0.967
+        },
+        {
+          "word": " back",
+          "start": 92.16,
+          "end": 93.62,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 93.62,
+      "end": 100.94,
+      "text": "Playin' her a song on the vintage portrait",
+      "avgLogprob": -0.311,
+      "compressionRatio": 1.175,
+      "noSpeechProbability": 0.146,
+      "words": [
+        {
+          "word": " Playin'",
+          "start": 93.62,
+          "end": 95.54,
+          "probability": 0.681
+        },
+        {
+          "word": " her",
+          "start": 95.76,
+          "end": 96.02,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 96.02,
+          "end": 96.54,
+          "probability": 0.964
+        },
+        {
+          "word": " song",
+          "start": 96.54,
+          "end": 97.3,
+          "probability": 0.993
+        },
+        {
+          "word": " on",
+          "start": 97.3,
+          "end": 98.2,
+          "probability": 0.566
+        },
+        {
+          "word": " the",
+          "start": 98.2,
+          "end": 98.64,
+          "probability": 0.94
+        },
+        {
+          "word": " vintage",
+          "start": 98.64,
+          "end": 99.6,
+          "probability": 0.934
+        },
+        {
+          "word": " portrait",
+          "start": 99.6,
+          "end": 100.94,
+          "probability": 0.28
+        }
+      ]
+    },
+    {
+      "start": 147.42,
+      "end": 150.06,
+      "text": "Yeah, with the dogs",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 147.42,
+          "end": 148.1,
+          "probability": 0.172
+        },
+        {
+          "word": " with",
+          "start": 148.1,
+          "end": 148.78,
+          "probability": 0.44
+        },
+        {
+          "word": " the",
+          "start": 148.78,
+          "end": 149.12,
+          "probability": 0.921
+        },
+        {
+          "word": " dogs",
+          "start": 149.12,
+          "end": 150.06,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 150.06,
+      "end": 150.62,
+      "text": "Yeah",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Yeah",
+          "start": 150.06,
+          "end": 150.62,
+          "probability": 0.26
+        }
+      ]
+    },
+    {
+      "start": 151.18,
+      "end": 153.92,
+      "text": "Home is where the cowches",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Home",
+          "start": 151.18,
+          "end": 151.74,
+          "probability": 0.387
+        },
+        {
+          "word": " is",
+          "start": 151.74,
+          "end": 152.72,
+          "probability": 0.801
+        },
+        {
+          "word": " where",
+          "start": 152.72,
+          "end": 152.88,
+          "probability": 0.923
+        },
+        {
+          "word": " the",
+          "start": 152.88,
+          "end": 153.04,
+          "probability": 0.994
+        },
+        {
+          "word": " cowches",
+          "start": 153.04,
+          "end": 153.92,
+          "probability": 0.42
+        }
+      ]
+    },
+    {
+      "start": 153.92,
+      "end": 156.9,
+      "text": "Home is where the dog sleeps",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Home",
+          "start": 153.92,
+          "end": 154.74,
+          "probability": 0.505
+        },
+        {
+          "word": " is",
+          "start": 154.74,
+          "end": 155.8,
+          "probability": 0.719
+        },
+        {
+          "word": " where",
+          "start": 155.8,
+          "end": 155.96,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 155.96,
+          "end": 156.12,
+          "probability": 0.996
+        },
+        {
+          "word": " dog",
+          "start": 156.12,
+          "end": 156.42,
+          "probability": 0.946
+        },
+        {
+          "word": " sleeps",
+          "start": 156.42,
+          "end": 156.9,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 156.9,
+      "end": 158.6,
+      "text": "She gave us all the love",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " She",
+          "start": 156.9,
+          "end": 157.52,
+          "probability": 0.938
+        },
+        {
+          "word": " gave",
+          "start": 157.52,
+          "end": 157.74,
+          "probability": 0.998
+        },
+        {
+          "word": " us",
+          "start": 157.74,
+          "end": 157.94,
+          "probability": 0.998
+        },
+        {
+          "word": " all",
+          "start": 157.94,
+          "end": 158.1,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 158.1,
+          "end": 158.24,
+          "probability": 0.99
+        },
+        {
+          "word": " love",
+          "start": 158.24,
+          "end": 158.6,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 158.6,
+      "end": 160.34,
+      "text": "Now we're giving it back",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Now",
+          "start": 158.6,
+          "end": 159.1,
+          "probability": 0.652
+        },
+        {
+          "word": " we're",
+          "start": 159.1,
+          "end": 159.32,
+          "probability": 0.973
+        },
+        {
+          "word": " giving",
+          "start": 159.32,
+          "end": 159.48,
+          "probability": 0.852
+        },
+        {
+          "word": " it",
+          "start": 159.48,
+          "end": 159.76,
+          "probability": 0.998
+        },
+        {
+          "word": " back",
+          "start": 159.76,
+          "end": 160.34,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 160.34,
+      "end": 163.18,
+      "text": "Playing her a song on the vintage four track",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Playing",
+          "start": 160.34,
+          "end": 160.9,
+          "probability": 0.564
+        },
+        {
+          "word": " her",
+          "start": 160.9,
+          "end": 161.14,
+          "probability": 0.945
+        },
+        {
+          "word": " a",
+          "start": 161.14,
+          "end": 161.28,
+          "probability": 0.95
+        },
+        {
+          "word": " song",
+          "start": 161.28,
+          "end": 161.54,
+          "probability": 0.993
+        },
+        {
+          "word": " on",
+          "start": 161.54,
+          "end": 161.86,
+          "probability": 0.945
+        },
+        {
+          "word": " the",
+          "start": 161.86,
+          "end": 162.02,
+          "probability": 0.985
+        },
+        {
+          "word": " vintage",
+          "start": 162.02,
+          "end": 162.3,
+          "probability": 0.947
+        },
+        {
+          "word": " four",
+          "start": 162.3,
+          "end": 162.58,
+          "probability": 0.136
+        },
+        {
+          "word": " track",
+          "start": 162.58,
+          "end": 163.18,
+          "probability": 0.84
+        }
+      ]
+    },
+    {
+      "start": 163.18,
+      "end": 164.92,
+      "text": "Yeah, mom",
+      "avgLogprob": -0.301,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.645,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 163.18,
+          "end": 164.02,
+          "probability": 0.68
+        },
+        {
+          "word": " mom",
+          "start": 164.02,
+          "end": 164.92,
+          "probability": 0.369
+        }
+      ]
+    },
+    {
+      "start": 210.28,
+      "end": 228.2,
+      "text": "Oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh oh",
+      "avgLogprob": -0.158,
+      "compressionRatio": 22.333,
+      "noSpeechProbability": 0.675,
+      "words": [
+        {
+          "word": " Oh",
+          "start": 210.28,
+          "end": 210.96,
+          "probability": 0.049
+        },
+        {
+          "word": " oh",
+          "start": 210.96,
+          "end": 211.26,
+          "probability": 0.128
+        },
+        {
+          "word": " oh",
+          "start": 211.26,
+          "end": 211.6,
+          "probability": 0.803
+        },
+        {
+          "word": " oh",
+          "start": 211.6,
+          "end": 211.96,
+          "probability": 0.745
+        },
+        {
+          "word": " oh",
+          "start": 211.96,
+          "end": 212.16,
+          "probability": 0.633
+        },
+        {
+          "word": " oh",
+          "start": 212.16,
+          "end": 212.4,
+          "probability": 0.577
+        },
+        {
+          "word": " oh",
+          "start": 212.4,
+          "end": 212.72,
+          "probability": 0.595
+        },
+        {
+          "word": " oh",
+          "start": 212.72,
+          "end": 212.72,
+          "probability": 0.654
+        },
+        {
+          "word": " oh",
+          "start": 212.72,
+          "end": 212.72,
+          "probability": 0.707
+        },
+        {
+          "word": " oh",
+          "start": 212.72,
+          "end": 212.84,
+          "probability": 0.758
+        },
+        {
+          "word": " oh",
+          "start": 212.84,
+          "end": 213.08,
+          "probability": 0.797
+        },
+        {
+          "word": " oh",
+          "start": 213.08,
+          "end": 213.24,
+          "probability": 0.837
+        },
+        {
+          "word": " oh",
+          "start": 213.24,
+          "end": 215.3,
+          "probability": 0.863
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.882
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.897
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.908
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.917
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.92
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.3,
+          "probability": 0.928
+        },
+        {
+          "word": " oh",
+          "start": 215.3,
+          "end": 215.72,
+          "probability": 0.932
+        },
+        {
+          "word": " oh",
+          "start": 215.72,
+          "end": 215.72,
+          "probability": 0.935
+        },
+        {
+          "word": " oh",
+          "start": 215.72,
+          "end": 215.72,
+          "probability": 0.939
+        },
+        {
+          "word": " oh",
+          "start": 215.72,
+          "end": 215.72,
+          "probability": 0.941
+        },
+        {
+          "word": " oh",
+          "start": 215.72,
+          "end": 216.82,
+          "probability": 0.944
+        },
+        {
+          "word": " oh",
+          "start": 216.82,
+          "end": 217.36,
+          "probability": 0.945
+        },
+        {
+          "word": " oh",
+          "start": 217.36,
+          "end": 217.36,
+          "probability": 0.946
+        },
+        {
+          "word": " oh",
+          "start": 217.36,
+          "end": 217.36,
+          "probability": 0.948
+        },
+        {
+          "word": " oh",
+          "start": 217.36,
+          "end": 221.28,
+          "probability": 0.948
+        },
+        {
+          "word": " oh",
+          "start": 221.28,
+          "end": 221.28,
+          "probability": 0.95
+        },
+        {
+          "word": " oh",
+          "start": 221.28,
+          "end": 222.22,
+          "probability": 0.95
+        },
+        {
+          "word": " oh",
+          "start": 222.22,
+          "end": 223.12,
+          "probability": 0.949
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.12,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.12,
+          "end": 223.4,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.4,
+          "end": 223.4,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 223.4,
+          "end": 223.4,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 223.4,
+          "end": 223.4,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 223.4,
+          "end": 224.94,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 224.94,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 224.94,
+          "end": 225.32,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.32,
+          "end": 225.32,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.32,
+          "end": 225.32,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 225.32,
+          "end": 225.32,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.32,
+          "end": 225.58,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.58,
+          "end": 225.58,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 225.58,
+          "end": 225.58,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.58,
+          "end": 225.58,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 225.58,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.78,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.78,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.952
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 227.8,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 227.8,
+          "end": 228.12,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.953
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.954
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.956
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.956
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.956
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.955
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.956
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.957
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.956
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.957
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.957
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.957
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.958
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.958
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.959
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.12,
+          "probability": 0.958
+        },
+        {
+          "word": " oh",
+          "start": 228.12,
+          "end": 228.2,
+          "probability": 0.959
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.959
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.959
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.96
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.96
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.96
+        },
+        {
+          "word": " oh",
+          "start": 228.2,
+          "end": 228.2,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "start": 228.2,
+      "end": 228.2,
+      "text": "",
+      "avgLogprob": -0.123,
+      "compressionRatio": 22.385,
+      "noSpeechProbability": 0.798,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.897,
+    "wordCount": 88,
+    "credibleWordCount": 78,
+    "segmentCount": 14,
+    "averageWordProbability": 0.791,
+    "vocalSeconds": 50.58,
+    "scanCoverage": 0.256,
+    "reviewRequired": false
+  }
+}

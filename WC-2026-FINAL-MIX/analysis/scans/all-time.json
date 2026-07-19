@@ -1,0 +1,468 @@
+{
+  "analysisVersion": 1,
+  "index": 63,
+  "id": "../VOLHOLLA/song-heishui-10.html",
+  "slug": "all-time",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "zh",
+  "text": "他總是喘著那間深藍色的舊價格坐在兩面水泥腔的營銀衝你也要教知乎哦他们都教他重够好人一个把你离从最强身天轻出生愿无尽身愿曾挑冲身",
+  "sampledRanges": [
+    [
+      18.72,
+      36.72
+    ],
+    [
+      74.86,
+      92.86
+    ],
+    [
+      131.01,
+      149.01
+    ],
+    [
+      187.15,
+      205.15
+    ]
+  ],
+  "segments": [
+    {
+      "start": 27.92,
+      "end": 32.86,
+      "text": "他總是喘著那間深藍色的舊價格",
+      "avgLogprob": -0.49,
+      "compressionRatio": 0.872,
+      "noSpeechProbability": 0.304,
+      "words": [
+        {
+          "word": "他",
+          "start": 27.92,
+          "end": 28.18,
+          "probability": 0.452
+        },
+        {
+          "word": "總",
+          "start": 28.18,
+          "end": 28.48,
+          "probability": 0.21
+        },
+        {
+          "word": "是",
+          "start": 28.48,
+          "end": 28.88,
+          "probability": 0.979
+        },
+        {
+          "word": "喘",
+          "start": 28.88,
+          "end": 29.16,
+          "probability": 0.527
+        },
+        {
+          "word": "著",
+          "start": 29.16,
+          "end": 29.5,
+          "probability": 0.426
+        },
+        {
+          "word": "那",
+          "start": 29.5,
+          "end": 29.96,
+          "probability": 0.93
+        },
+        {
+          "word": "間",
+          "start": 29.96,
+          "end": 30.2,
+          "probability": 0.466
+        },
+        {
+          "word": "深",
+          "start": 30.2,
+          "end": 30.5,
+          "probability": 0.396
+        },
+        {
+          "word": "藍",
+          "start": 30.5,
+          "end": 30.9,
+          "probability": 0.94
+        },
+        {
+          "word": "色",
+          "start": 30.9,
+          "end": 31.24,
+          "probability": 0.997
+        },
+        {
+          "word": "的",
+          "start": 31.24,
+          "end": 31.74,
+          "probability": 0.994
+        },
+        {
+          "word": "舊",
+          "start": 31.74,
+          "end": 32.06,
+          "probability": 0.712
+        },
+        {
+          "word": "價",
+          "start": 32.06,
+          "end": 32.32,
+          "probability": 0.71
+        },
+        {
+          "word": "格",
+          "start": 32.32,
+          "end": 32.86,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 32.86,
+      "end": 36.54,
+      "text": "坐在兩面水泥腔的營銀衝",
+      "avgLogprob": -0.49,
+      "compressionRatio": 0.872,
+      "noSpeechProbability": 0.304,
+      "words": [
+        {
+          "word": "坐",
+          "start": 32.86,
+          "end": 33.28,
+          "probability": 0.805
+        },
+        {
+          "word": "在",
+          "start": 33.28,
+          "end": 33.52,
+          "probability": 0.997
+        },
+        {
+          "word": "兩",
+          "start": 33.52,
+          "end": 33.7,
+          "probability": 0.735
+        },
+        {
+          "word": "面",
+          "start": 33.7,
+          "end": 33.98,
+          "probability": 0.381
+        },
+        {
+          "word": "水",
+          "start": 33.98,
+          "end": 34.38,
+          "probability": 0.822
+        },
+        {
+          "word": "泥",
+          "start": 34.38,
+          "end": 34.8,
+          "probability": 0.679
+        },
+        {
+          "word": "腔",
+          "start": 34.8,
+          "end": 35.12,
+          "probability": 0.59
+        },
+        {
+          "word": "的",
+          "start": 35.12,
+          "end": 35.52,
+          "probability": 0.993
+        },
+        {
+          "word": "營",
+          "start": 35.52,
+          "end": 35.82,
+          "probability": 0.6
+        },
+        {
+          "word": "銀",
+          "start": 35.82,
+          "end": 36.12,
+          "probability": 0.803
+        },
+        {
+          "word": "衝",
+          "start": 36.12,
+          "end": 36.54,
+          "probability": 0.739
+        }
+      ]
+    },
+    {
+      "start": 74.86,
+      "end": 76.72,
+      "text": "你也要教知乎",
+      "avgLogprob": -0.7,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.901,
+      "words": [
+        {
+          "word": "你",
+          "start": 74.86,
+          "end": 75.02,
+          "probability": 0.058
+        },
+        {
+          "word": "也",
+          "start": 75.02,
+          "end": 75.42,
+          "probability": 0.101
+        },
+        {
+          "word": "要",
+          "start": 75.42,
+          "end": 75.68,
+          "probability": 0.506
+        },
+        {
+          "word": "教",
+          "start": 75.68,
+          "end": 75.9,
+          "probability": 0.587
+        },
+        {
+          "word": "知",
+          "start": 75.9,
+          "end": 76.26,
+          "probability": 0.23
+        },
+        {
+          "word": "乎",
+          "start": 76.26,
+          "end": 76.72,
+          "probability": 0.638
+        }
+      ]
+    },
+    {
+      "start": 77.6,
+      "end": 81.72,
+      "text": "哦他们都教他重够好人",
+      "avgLogprob": -0.7,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.901,
+      "words": [
+        {
+          "word": "哦",
+          "start": 77.6,
+          "end": 78.34,
+          "probability": 0.553
+        },
+        {
+          "word": "他们",
+          "start": 78.34,
+          "end": 78.94,
+          "probability": 0.441
+        },
+        {
+          "word": "都",
+          "start": 78.94,
+          "end": 79.4,
+          "probability": 0.986
+        },
+        {
+          "word": "教",
+          "start": 79.4,
+          "end": 79.72,
+          "probability": 0.796
+        },
+        {
+          "word": "他",
+          "start": 79.72,
+          "end": 80.2,
+          "probability": 0.821
+        },
+        {
+          "word": "重",
+          "start": 80.2,
+          "end": 80.54,
+          "probability": 0.21
+        },
+        {
+          "word": "够",
+          "start": 80.54,
+          "end": 80.82,
+          "probability": 0.594
+        },
+        {
+          "word": "好",
+          "start": 80.82,
+          "end": 81.18,
+          "probability": 0.963
+        },
+        {
+          "word": "人",
+          "start": 81.18,
+          "end": 81.72,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 83.44,
+      "end": 87.94,
+      "text": "一个把你离从最强身天轻出",
+      "avgLogprob": -0.7,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.901,
+      "words": [
+        {
+          "word": "一个",
+          "start": 83.44,
+          "end": 84.18,
+          "probability": 0.771
+        },
+        {
+          "word": "把",
+          "start": 84.18,
+          "end": 84.64,
+          "probability": 0.796
+        },
+        {
+          "word": "你",
+          "start": 84.64,
+          "end": 85.06,
+          "probability": 0.963
+        },
+        {
+          "word": "离",
+          "start": 85.06,
+          "end": 85.3,
+          "probability": 0.658
+        },
+        {
+          "word": "从",
+          "start": 85.3,
+          "end": 85.68,
+          "probability": 0.678
+        },
+        {
+          "word": "最",
+          "start": 85.68,
+          "end": 86.04,
+          "probability": 0.242
+        },
+        {
+          "word": "强",
+          "start": 86.04,
+          "end": 86.36,
+          "probability": 0.942
+        },
+        {
+          "word": "身",
+          "start": 86.36,
+          "end": 86.68,
+          "probability": 0.703
+        },
+        {
+          "word": "天",
+          "start": 86.68,
+          "end": 87.06,
+          "probability": 0.65
+        },
+        {
+          "word": "轻",
+          "start": 87.06,
+          "end": 87.42,
+          "probability": 0.563
+        },
+        {
+          "word": "出",
+          "start": 87.42,
+          "end": 87.94,
+          "probability": 0.169
+        }
+      ]
+    },
+    {
+      "start": 88.72,
+      "end": 92.6,
+      "text": "生愿无尽身愿曾挑冲身",
+      "avgLogprob": -0.7,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.901,
+      "words": [
+        {
+          "word": "生",
+          "start": 88.72,
+          "end": 89.46,
+          "probability": 0.218
+        },
+        {
+          "word": "愿",
+          "start": 89.46,
+          "end": 89.9,
+          "probability": 0.671
+        },
+        {
+          "word": "无",
+          "start": 89.9,
+          "end": 90.28,
+          "probability": 0.847
+        },
+        {
+          "word": "尽",
+          "start": 90.28,
+          "end": 90.54,
+          "probability": 0.831
+        },
+        {
+          "word": "身",
+          "start": 90.54,
+          "end": 90.88,
+          "probability": 0.175
+        },
+        {
+          "word": "愿",
+          "start": 90.88,
+          "end": 91.28,
+          "probability": 0.975
+        },
+        {
+          "word": "曾",
+          "start": 91.28,
+          "end": 91.62,
+          "probability": 0.75
+        },
+        {
+          "word": "挑",
+          "start": 91.62,
+          "end": 92.02,
+          "probability": 0.257
+        },
+        {
+          "word": "冲",
+          "start": 92.02,
+          "end": 92.28,
+          "probability": 0.623
+        },
+        {
+          "word": "身",
+          "start": 92.28,
+          "end": 92.6,
+          "probability": 0.116
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.792,
+    "wordCount": 25,
+    "credibleWordCount": 24,
+    "segmentCount": 2,
+    "averageWordProbability": 0.714,
+    "vocalSeconds": 8.62,
+    "scanCoverage": 0.286,
+    "reviewRequired": false
+  }
+}

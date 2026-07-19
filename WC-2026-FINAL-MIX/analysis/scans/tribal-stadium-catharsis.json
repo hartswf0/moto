@@ -1,0 +1,1382 @@
+{
+  "analysisVersion": 1,
+  "index": 85,
+  "id": "../VOLHOLLA/song-usblegacy-21.html",
+  "slug": "tribal-stadium-catharsis",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey",
+  "sampledRanges": [
+    [
+      11.72,
+      29.72
+    ],
+    [
+      46.88,
+      64.88
+    ],
+    [
+      82.03,
+      100.03
+    ],
+    [
+      117.19,
+      135.19
+    ]
+  ],
+  "segments": [
+    {
+      "start": 91.15,
+      "end": 100.01,
+      "text": "I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die, I'm gonna die,",
+      "avgLogprob": -0.161,
+      "compressionRatio": 18.714,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 91.15,
+          "end": 91.95,
+          "probability": 0.117
+        },
+        {
+          "word": " gonna",
+          "start": 91.95,
+          "end": 92.05,
+          "probability": 0.09
+        },
+        {
+          "word": " die,",
+          "start": 92.05,
+          "end": 92.45,
+          "probability": 0.257
+        },
+        {
+          "word": " I'm",
+          "start": 92.63,
+          "end": 93.33,
+          "probability": 0.636
+        },
+        {
+          "word": " gonna",
+          "start": 93.33,
+          "end": 93.47,
+          "probability": 0.88
+        },
+        {
+          "word": " die,",
+          "start": 93.47,
+          "end": 93.99,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 93.99,
+          "end": 95.21,
+          "probability": 0.941
+        },
+        {
+          "word": " gonna",
+          "start": 95.21,
+          "end": 95.25,
+          "probability": 0.978
+        },
+        {
+          "word": " die,",
+          "start": 95.25,
+          "end": 95.97,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 95.97,
+          "end": 95.97,
+          "probability": 0.939
+        },
+        {
+          "word": " gonna",
+          "start": 95.97,
+          "end": 95.97,
+          "probability": 0.977
+        },
+        {
+          "word": " die,",
+          "start": 95.97,
+          "end": 96.47,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 96.47,
+          "end": 96.47,
+          "probability": 0.932
+        },
+        {
+          "word": " gonna",
+          "start": 96.47,
+          "end": 96.47,
+          "probability": 0.975
+        },
+        {
+          "word": " die,",
+          "start": 96.47,
+          "end": 97.23,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 97.23,
+          "end": 97.23,
+          "probability": 0.927
+        },
+        {
+          "word": " gonna",
+          "start": 97.23,
+          "end": 97.23,
+          "probability": 0.975
+        },
+        {
+          "word": " die,",
+          "start": 97.23,
+          "end": 97.67,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 97.67,
+          "end": 97.67,
+          "probability": 0.928
+        },
+        {
+          "word": " gonna",
+          "start": 97.67,
+          "end": 97.67,
+          "probability": 0.974
+        },
+        {
+          "word": " die,",
+          "start": 97.67,
+          "end": 99.17,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 99.17,
+          "end": 100.01,
+          "probability": 0.93
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.974
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.933
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.977
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.936
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.978
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.948
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.982
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.95
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.984
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.952
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.986
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.953
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.987
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.954
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.987
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.955
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.987
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.956
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.988
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.957
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.988
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.959
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.989
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.958
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.989
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.96
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.99
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.96
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.989
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.962
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.989
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.962
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.991
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.961
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.991
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.963
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.991
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.962
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.991
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.963
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.991
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.963
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.992
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.964
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.992
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.967
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.993
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.969
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.993
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.966
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.992
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.967
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.993
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.964
+        },
+        {
+          "word": " gonna",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.993
+        },
+        {
+          "word": " die,",
+          "start": 100.01,
+          "end": 100.01,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 99.99,
+      "end": 99.99,
+      "text": "",
+      "avgLogprob": -0.122,
+      "compressionRatio": 21.962,
+      "noSpeechProbability": 0.785,
+      "words": []
+    },
+    {
+      "start": 117.19,
+      "end": 135.17,
+      "text": "Hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey, hey",
+      "avgLogprob": -0.083,
+      "compressionRatio": 29.368,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " Hey,",
+          "start": 117.19,
+          "end": 117.41,
+          "probability": 0.01
+        },
+        {
+          "word": " hey,",
+          "start": 117.59,
+          "end": 117.79,
+          "probability": 0.848
+        },
+        {
+          "word": " hey,",
+          "start": 118.05,
+          "end": 118.53,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 118.59,
+          "end": 118.91,
+          "probability": 0.977
+        },
+        {
+          "word": " hey,",
+          "start": 118.91,
+          "end": 119.03,
+          "probability": 0.968
+        },
+        {
+          "word": " hey,",
+          "start": 119.77,
+          "end": 119.77,
+          "probability": 0.968
+        },
+        {
+          "word": " hey,",
+          "start": 119.81,
+          "end": 119.83,
+          "probability": 0.969
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.968
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.975
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.978
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 119.83,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 119.83,
+          "end": 120.11,
+          "probability": 0.984
+        },
+        {
+          "word": " hey,",
+          "start": 120.11,
+          "end": 120.11,
+          "probability": 0.985
+        },
+        {
+          "word": " hey,",
+          "start": 120.11,
+          "end": 122.45,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 122.45,
+          "end": 122.47,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 122.57,
+          "end": 122.63,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 122.63,
+          "end": 122.75,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 122.75,
+          "end": 125.39,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 126.01,
+          "end": 126.23,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 128.69,
+          "end": 128.69,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 128.69,
+          "end": 128.69,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 128.97,
+          "end": 128.97,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 128.97,
+          "end": 128.97,
+          "probability": 0.988
+        },
+        {
+          "word": " hey,",
+          "start": 131.37,
+          "end": 131.37,
+          "probability": 0.988
+        },
+        {
+          "word": " hey,",
+          "start": 131.37,
+          "end": 131.37,
+          "probability": 0.988
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.988
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.987
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.986
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.985
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.985
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.984
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.984
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.984
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.984
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.983
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 131.47,
+          "end": 131.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 132.47,
+          "end": 132.47,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 132.73,
+          "end": 132.73,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 132.73,
+          "end": 132.73,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 132.73,
+          "end": 132.73,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 134.27,
+          "end": 134.27,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 134.91,
+          "end": 134.91,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 134.91,
+          "end": 134.91,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 134.91,
+          "end": 134.91,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 134.91,
+          "end": 134.91,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.979
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.98
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.982
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey,",
+          "start": 135.13,
+          "end": 135.13,
+          "probability": 0.981
+        },
+        {
+          "word": " hey",
+          "start": 135.17,
+          "end": 135.17,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 135.15,
+      "end": 135.15,
+      "text": "",
+      "avgLogprob": -0.122,
+      "compressionRatio": 21.962,
+      "noSpeechProbability": 0.783,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.565,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.438,
+    "reviewRequired": true
+  }
+}

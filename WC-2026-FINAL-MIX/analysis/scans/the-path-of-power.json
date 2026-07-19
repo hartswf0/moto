@@ -1,0 +1,1508 @@
+{
+  "analysisVersion": 1,
+  "index": 72,
+  "id": "../VOLHOLLA/song-maquina-35.html",
+  "slug": "the-path-of-power",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm Ar-Rama-Li Ar-Rawiyat Al-Bahudu Al-Ainah Harib-Wahudu Ah, in the distance, you are the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who",
+  "sampledRanges": [
+    [
+      20.56,
+      38.56
+    ],
+    [
+      82.23,
+      100.23
+    ],
+    [
+      143.9,
+      161.9
+    ],
+    [
+      205.58,
+      223.58
+    ]
+  ],
+  "segments": [
+    {
+      "start": 37.14,
+      "end": 38.54,
+      "text": "Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+      "avgLogprob": -0.085,
+      "compressionRatio": 31.929,
+      "noSpeechProbability": 0.712,
+      "words": [
+        {
+          "word": " Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+          "start": 37.14,
+          "end": 38.54,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "start": 38.52,
+      "end": 38.52,
+      "text": "",
+      "avgLogprob": -0.09,
+      "compressionRatio": 23.615,
+      "noSpeechProbability": 0.792,
+      "words": []
+    },
+    {
+      "start": 146.9,
+      "end": 149.9,
+      "text": "Ar-Rama-Li",
+      "avgLogprob": -0.939,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Ar",
+          "start": 146.9,
+          "end": 147.04,
+          "probability": 0.061
+        },
+        {
+          "word": "-Rama",
+          "start": 147.04,
+          "end": 147.62,
+          "probability": 0.201
+        },
+        {
+          "word": "-Li",
+          "start": 147.62,
+          "end": 149.9,
+          "probability": 0.314
+        }
+      ]
+    },
+    {
+      "start": 152.9,
+      "end": 158.26,
+      "text": "Ar-Rawiyat Al-Bahudu Al-Ainah",
+      "avgLogprob": -0.939,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Ar",
+          "start": 152.28,
+          "end": 152.98,
+          "probability": 0.554
+        },
+        {
+          "word": "-Rawiyat",
+          "start": 152.98,
+          "end": 153.98,
+          "probability": 0.756
+        },
+        {
+          "word": " Al",
+          "start": 153.98,
+          "end": 154.38,
+          "probability": 0.107
+        },
+        {
+          "word": "-Bahudu",
+          "start": 154.38,
+          "end": 155.48,
+          "probability": 0.43
+        },
+        {
+          "word": " Al",
+          "start": 155.48,
+          "end": 155.86,
+          "probability": 0.155
+        },
+        {
+          "word": "-Ainah",
+          "start": 155.86,
+          "end": 158.26,
+          "probability": 0.632
+        }
+      ]
+    },
+    {
+      "start": 160.9,
+      "end": 161.88,
+      "text": "Harib-Wahudu",
+      "avgLogprob": -0.939,
+      "compressionRatio": 1.0,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Harib",
+          "start": 160.66,
+          "end": 161.36,
+          "probability": 0.569
+        },
+        {
+          "word": "-Wahudu",
+          "start": 161.36,
+          "end": 161.88,
+          "probability": 0.476
+        }
+      ]
+    },
+    {
+      "start": 207.32,
+      "end": 223.56,
+      "text": "Ah, in the distance, you are the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who is the one who",
+      "avgLogprob": -0.179,
+      "compressionRatio": 15.182,
+      "noSpeechProbability": 0.556,
+      "words": [
+        {
+          "word": " Ah,",
+          "start": 207.32,
+          "end": 208.2,
+          "probability": 0.142
+        },
+        {
+          "word": " in",
+          "start": 208.5,
+          "end": 209.1,
+          "probability": 0.199
+        },
+        {
+          "word": " the",
+          "start": 209.1,
+          "end": 209.46,
+          "probability": 0.379
+        },
+        {
+          "word": " distance,",
+          "start": 209.46,
+          "end": 209.74,
+          "probability": 0.048
+        },
+        {
+          "word": " you",
+          "start": 210.54,
+          "end": 210.56,
+          "probability": 0.14
+        },
+        {
+          "word": " are",
+          "start": 210.56,
+          "end": 211.12,
+          "probability": 0.259
+        },
+        {
+          "word": " the",
+          "start": 211.12,
+          "end": 211.46,
+          "probability": 0.084
+        },
+        {
+          "word": " one",
+          "start": 211.46,
+          "end": 211.54,
+          "probability": 0.031
+        },
+        {
+          "word": " who",
+          "start": 211.54,
+          "end": 211.58,
+          "probability": 0.567
+        },
+        {
+          "word": " is",
+          "start": 211.58,
+          "end": 211.76,
+          "probability": 0.198
+        },
+        {
+          "word": " the",
+          "start": 211.76,
+          "end": 211.9,
+          "probability": 0.063
+        },
+        {
+          "word": " one",
+          "start": 211.9,
+          "end": 212.48,
+          "probability": 0.097
+        },
+        {
+          "word": " who",
+          "start": 212.48,
+          "end": 214.94,
+          "probability": 0.794
+        },
+        {
+          "word": " is",
+          "start": 214.94,
+          "end": 214.94,
+          "probability": 0.239
+        },
+        {
+          "word": " the",
+          "start": 214.94,
+          "end": 214.94,
+          "probability": 0.357
+        },
+        {
+          "word": " one",
+          "start": 214.94,
+          "end": 214.94,
+          "probability": 0.455
+        },
+        {
+          "word": " who",
+          "start": 214.94,
+          "end": 215.84,
+          "probability": 0.886
+        },
+        {
+          "word": " is",
+          "start": 215.84,
+          "end": 218.34,
+          "probability": 0.54
+        },
+        {
+          "word": " the",
+          "start": 218.34,
+          "end": 219.36,
+          "probability": 0.71
+        },
+        {
+          "word": " one",
+          "start": 219.36,
+          "end": 219.8,
+          "probability": 0.857
+        },
+        {
+          "word": " who",
+          "start": 219.8,
+          "end": 219.8,
+          "probability": 0.945
+        },
+        {
+          "word": " is",
+          "start": 219.8,
+          "end": 219.8,
+          "probability": 0.803
+        },
+        {
+          "word": " the",
+          "start": 219.8,
+          "end": 219.8,
+          "probability": 0.876
+        },
+        {
+          "word": " one",
+          "start": 219.8,
+          "end": 220.04,
+          "probability": 0.925
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.967
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.883
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.929
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.976
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.917
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.949
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.95
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.976
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.923
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.952
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.95
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.979
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.923
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.952
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.95
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.979
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.926
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.952
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.949
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.978
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.92
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.957
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.947
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.957
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.952
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.911
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.959
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.95
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.979
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.906
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.962
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.948
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.982
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.906
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.954
+        },
+        {
+          "word": " who",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.979
+        },
+        {
+          "word": " is",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.897
+        },
+        {
+          "word": " the",
+          "start": 220.04,
+          "end": 220.04,
+          "probability": 0.959
+        },
+        {
+          "word": " one",
+          "start": 220.04,
+          "end": 220.18,
+          "probability": 0.949
+        },
+        {
+          "word": " who",
+          "start": 220.18,
+          "end": 220.84,
+          "probability": 0.978
+        },
+        {
+          "word": " is",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.886
+        },
+        {
+          "word": " the",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.956
+        },
+        {
+          "word": " one",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.945
+        },
+        {
+          "word": " who",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.977
+        },
+        {
+          "word": " is",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.883
+        },
+        {
+          "word": " the",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.958
+        },
+        {
+          "word": " one",
+          "start": 220.84,
+          "end": 220.84,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 220.84,
+          "end": 222.6,
+          "probability": 0.973
+        },
+        {
+          "word": " is",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.873
+        },
+        {
+          "word": " the",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.959
+        },
+        {
+          "word": " one",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.975
+        },
+        {
+          "word": " is",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.879
+        },
+        {
+          "word": " the",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.961
+        },
+        {
+          "word": " one",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.949
+        },
+        {
+          "word": " who",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.976
+        },
+        {
+          "word": " is",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.879
+        },
+        {
+          "word": " the",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 222.6,
+          "end": 222.6,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 222.6,
+          "end": 223.54,
+          "probability": 0.974
+        },
+        {
+          "word": " is",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.875
+        },
+        {
+          "word": " the",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.957
+        },
+        {
+          "word": " one",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.863
+        },
+        {
+          "word": " the",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.957
+        },
+        {
+          "word": " one",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.974
+        },
+        {
+          "word": " is",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.869
+        },
+        {
+          "word": " the",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.961
+        },
+        {
+          "word": " one",
+          "start": 223.54,
+          "end": 223.54,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 223.54,
+          "end": 223.56,
+          "probability": 0.973
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.864
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.962
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.945
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.865
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.963
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.947
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.865
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.962
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.94
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.861
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.961
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.863
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.942
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.865
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.964
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.945
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.863
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.963
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.946
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.861
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.963
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.857
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.967
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.945
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.86
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.938
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.854
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.966
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.857
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.959
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.943
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.855
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.965
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.941
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.856
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.963
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.94
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.85
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.959
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.934
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.967
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.844
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.956
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.935
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.844
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.962
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.938
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.854
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.967
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.934
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.848
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.966
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.936
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.848
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.965
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.94
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.853
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.968
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.94
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.843
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.962
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.934
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.968
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.839
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.964
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.931
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.838
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.961
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.932
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.821
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.954
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.928
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.824
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.955
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.921
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.968
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.804
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.924
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.821
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.96
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.929
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.97
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.821
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.956
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.926
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.967
+        },
+        {
+          "word": " is",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.806
+        },
+        {
+          "word": " the",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.965
+        },
+        {
+          "word": " one",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.924
+        },
+        {
+          "word": " who",
+          "start": 223.56,
+          "end": 223.56,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 223.54,
+      "end": 223.54,
+      "text": "",
+      "avgLogprob": -0.123,
+      "compressionRatio": 21.962,
+      "noSpeechProbability": 0.796,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "vocal-fragment",
+    "confidence": 0.512,
+    "wordCount": 11,
+    "credibleWordCount": 6,
+    "segmentCount": 3,
+    "averageWordProbability": 0.387,
+    "vocalSeconds": 9.34,
+    "scanCoverage": 0.262,
+    "reviewRequired": true
+  }
+}

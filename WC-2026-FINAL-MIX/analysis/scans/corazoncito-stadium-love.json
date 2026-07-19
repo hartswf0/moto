@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 83,
+  "id": "../VOLHOLLA/song-usblegacy-04.html",
+  "slug": "corazoncito-stadium-love",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      12.52,
+      30.52
+    ],
+    [
+      50.07,
+      68.07
+    ],
+    [
+      87.62,
+      105.62
+    ],
+    [
+      125.18,
+      143.18
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.559,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.413,
+    "reviewRequired": true
+  }
+}

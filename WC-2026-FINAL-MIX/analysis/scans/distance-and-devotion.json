@@ -1,0 +1,1988 @@
+{
+  "analysisVersion": 1,
+  "index": 101,
+  "id": "../VOLHOLLA/song-silence-01.html",
+  "slug": "distance-and-devotion",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm too far they are so small, look at the gap, I measure the distance and deck it's either vista from the peak of the mountain, that stood in the quiet stand, singing hymns with my handstand, now they ain't keep driving the dotted line, but I keep the faith in the pocket of my coat. Come in the back seat, count my mouth, so far ahead of the pack So far ahead of the pack, got you the wheel, now the road is wide I don't look back, so far ahead of the pack, so far ahead of the pack Two lanes, one soul, I am chasing the brides But the glory is his competition is the lonely game I find the comfort in the scriptures, open the book, read the truth I think he's the end of spirit, step, after step I ain't walking on the surface, why they seein' the mud And I ain't bein' The end of the drive, I ain't in the back seat Count my mouth, so far ahead of the pack So far ahead of the pack, got you the wheel, now the road is wide I don't look back, so far ahead of the pack So far ahead of the pack, kneel down B3, bug in the room, mixin' the homie with your heavy sample to quiet Loved the testimony, I am the witness to the greatest, one, two Ten years gone, still the king of the mountain, I don't brag, I just testify The view is better from the front, let them talk, let them plot I am cupped by the blood in the base, run in the race, but I finish before I even start it",
+  "sampledRanges": [
+    [
+      8.86,
+      26.86
+    ],
+    [
+      35.45,
+      53.45
+    ],
+    [
+      62.04,
+      80.04
+    ],
+    [
+      88.62,
+      106.62
+    ]
+  ],
+  "segments": [
+    {
+      "start": 13.4,
+      "end": 17.66,
+      "text": "I'm too far they are so small, look at the gap, I measure the distance and deck it's",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.56,
+      "noSpeechProbability": 0.585,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 13.4,
+          "end": 13.82,
+          "probability": 0.243
+        },
+        {
+          "word": " too",
+          "start": 13.82,
+          "end": 14.24,
+          "probability": 0.835
+        },
+        {
+          "word": " far",
+          "start": 14.24,
+          "end": 14.44,
+          "probability": 0.909
+        },
+        {
+          "word": " they",
+          "start": 14.44,
+          "end": 14.58,
+          "probability": 0.217
+        },
+        {
+          "word": " are",
+          "start": 14.58,
+          "end": 14.64,
+          "probability": 0.775
+        },
+        {
+          "word": " so",
+          "start": 14.64,
+          "end": 14.84,
+          "probability": 0.991
+        },
+        {
+          "word": " small,",
+          "start": 14.84,
+          "end": 15.3,
+          "probability": 0.961
+        },
+        {
+          "word": " look",
+          "start": 15.3,
+          "end": 15.76,
+          "probability": 0.812
+        },
+        {
+          "word": " at",
+          "start": 15.76,
+          "end": 15.86,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 15.86,
+          "end": 16.0,
+          "probability": 0.986
+        },
+        {
+          "word": " gap,",
+          "start": 16.0,
+          "end": 16.2,
+          "probability": 0.926
+        },
+        {
+          "word": " I",
+          "start": 16.2,
+          "end": 16.42,
+          "probability": 0.859
+        },
+        {
+          "word": " measure",
+          "start": 16.42,
+          "end": 16.64,
+          "probability": 0.724
+        },
+        {
+          "word": " the",
+          "start": 16.64,
+          "end": 16.82,
+          "probability": 0.858
+        },
+        {
+          "word": " distance",
+          "start": 16.82,
+          "end": 17.06,
+          "probability": 0.996
+        },
+        {
+          "word": " and",
+          "start": 17.06,
+          "end": 17.3,
+          "probability": 0.649
+        },
+        {
+          "word": " deck",
+          "start": 17.3,
+          "end": 17.46,
+          "probability": 0.225
+        },
+        {
+          "word": " it's",
+          "start": 17.46,
+          "end": 17.66,
+          "probability": 0.511
+        }
+      ]
+    },
+    {
+      "start": 17.66,
+      "end": 21.32,
+      "text": "either vista from the peak of the mountain, that stood in the quiet stand, singing hymns",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.56,
+      "noSpeechProbability": 0.585,
+      "words": [
+        {
+          "word": " either",
+          "start": 17.66,
+          "end": 17.82,
+          "probability": 0.665
+        },
+        {
+          "word": " vista",
+          "start": 17.82,
+          "end": 18.06,
+          "probability": 0.599
+        },
+        {
+          "word": " from",
+          "start": 18.06,
+          "end": 18.3,
+          "probability": 0.236
+        },
+        {
+          "word": " the",
+          "start": 18.3,
+          "end": 18.42,
+          "probability": 0.969
+        },
+        {
+          "word": " peak",
+          "start": 18.42,
+          "end": 18.62,
+          "probability": 0.887
+        },
+        {
+          "word": " of",
+          "start": 18.62,
+          "end": 18.84,
+          "probability": 0.861
+        },
+        {
+          "word": " the",
+          "start": 18.84,
+          "end": 18.94,
+          "probability": 0.981
+        },
+        {
+          "word": " mountain,",
+          "start": 18.94,
+          "end": 19.18,
+          "probability": 0.99
+        },
+        {
+          "word": " that",
+          "start": 19.18,
+          "end": 19.4,
+          "probability": 0.567
+        },
+        {
+          "word": " stood",
+          "start": 19.4,
+          "end": 19.56,
+          "probability": 0.453
+        },
+        {
+          "word": " in",
+          "start": 19.56,
+          "end": 19.74,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 19.74,
+          "end": 19.84,
+          "probability": 0.983
+        },
+        {
+          "word": " quiet",
+          "start": 19.84,
+          "end": 20.06,
+          "probability": 0.161
+        },
+        {
+          "word": " stand,",
+          "start": 20.06,
+          "end": 20.38,
+          "probability": 0.317
+        },
+        {
+          "word": " singing",
+          "start": 20.8,
+          "end": 20.94,
+          "probability": 0.568
+        },
+        {
+          "word": " hymns",
+          "start": 20.94,
+          "end": 21.32,
+          "probability": 0.891
+        }
+      ]
+    },
+    {
+      "start": 21.32,
+      "end": 25.32,
+      "text": "with my handstand, now they ain't keep driving the dotted line, but I keep the faith in",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.56,
+      "noSpeechProbability": 0.585,
+      "words": [
+        {
+          "word": " with",
+          "start": 21.32,
+          "end": 21.4,
+          "probability": 0.655
+        },
+        {
+          "word": " my",
+          "start": 21.4,
+          "end": 21.54,
+          "probability": 0.997
+        },
+        {
+          "word": " handstand,",
+          "start": 21.54,
+          "end": 22.04,
+          "probability": 0.521
+        },
+        {
+          "word": " now",
+          "start": 22.52,
+          "end": 22.76,
+          "probability": 0.449
+        },
+        {
+          "word": " they",
+          "start": 22.76,
+          "end": 22.88,
+          "probability": 0.652
+        },
+        {
+          "word": " ain't",
+          "start": 22.88,
+          "end": 23.14,
+          "probability": 0.844
+        },
+        {
+          "word": " keep",
+          "start": 23.14,
+          "end": 23.22,
+          "probability": 0.336
+        },
+        {
+          "word": " driving",
+          "start": 23.22,
+          "end": 23.46,
+          "probability": 0.468
+        },
+        {
+          "word": " the",
+          "start": 23.46,
+          "end": 23.7,
+          "probability": 0.388
+        },
+        {
+          "word": " dotted",
+          "start": 23.7,
+          "end": 23.94,
+          "probability": 0.595
+        },
+        {
+          "word": " line,",
+          "start": 23.94,
+          "end": 24.18,
+          "probability": 0.987
+        },
+        {
+          "word": " but",
+          "start": 24.52,
+          "end": 24.58,
+          "probability": 0.982
+        },
+        {
+          "word": " I",
+          "start": 24.58,
+          "end": 24.72,
+          "probability": 0.977
+        },
+        {
+          "word": " keep",
+          "start": 24.72,
+          "end": 24.86,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 24.86,
+          "end": 24.98,
+          "probability": 0.722
+        },
+        {
+          "word": " faith",
+          "start": 24.98,
+          "end": 25.14,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 25.14,
+          "end": 25.32,
+          "probability": 0.965
+        }
+      ]
+    },
+    {
+      "start": 25.32,
+      "end": 26.36,
+      "text": "the pocket of my coat.",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.56,
+      "noSpeechProbability": 0.585,
+      "words": [
+        {
+          "word": " the",
+          "start": 25.32,
+          "end": 25.42,
+          "probability": 0.987
+        },
+        {
+          "word": " pocket",
+          "start": 25.42,
+          "end": 25.68,
+          "probability": 0.983
+        },
+        {
+          "word": " of",
+          "start": 25.68,
+          "end": 25.9,
+          "probability": 0.945
+        },
+        {
+          "word": " my",
+          "start": 25.9,
+          "end": 26.02,
+          "probability": 0.686
+        },
+        {
+          "word": " coat.",
+          "start": 26.02,
+          "end": 26.36,
+          "probability": 0.632
+        }
+      ]
+    },
+    {
+      "start": 35.45,
+      "end": 38.35,
+      "text": "Come in the back seat, count my mouth, so far ahead of the pack",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Come",
+          "start": 35.45,
+          "end": 35.45,
+          "probability": 0.028
+        },
+        {
+          "word": " in",
+          "start": 35.45,
+          "end": 35.57,
+          "probability": 0.842
+        },
+        {
+          "word": " the",
+          "start": 35.57,
+          "end": 35.69,
+          "probability": 0.952
+        },
+        {
+          "word": " back",
+          "start": 35.69,
+          "end": 35.89,
+          "probability": 0.975
+        },
+        {
+          "word": " seat,",
+          "start": 35.89,
+          "end": 36.25,
+          "probability": 0.446
+        },
+        {
+          "word": " count",
+          "start": 36.47,
+          "end": 36.75,
+          "probability": 0.677
+        },
+        {
+          "word": " my",
+          "start": 36.75,
+          "end": 36.95,
+          "probability": 0.612
+        },
+        {
+          "word": " mouth,",
+          "start": 36.95,
+          "end": 37.23,
+          "probability": 0.679
+        },
+        {
+          "word": " so",
+          "start": 37.41,
+          "end": 37.41,
+          "probability": 0.704
+        },
+        {
+          "word": " far",
+          "start": 37.41,
+          "end": 37.61,
+          "probability": 0.977
+        },
+        {
+          "word": " ahead",
+          "start": 37.61,
+          "end": 37.85,
+          "probability": 0.958
+        },
+        {
+          "word": " of",
+          "start": 37.85,
+          "end": 38.01,
+          "probability": 0.782
+        },
+        {
+          "word": " the",
+          "start": 38.01,
+          "end": 38.13,
+          "probability": 0.99
+        },
+        {
+          "word": " pack",
+          "start": 38.13,
+          "end": 38.35,
+          "probability": 0.899
+        }
+      ]
+    },
+    {
+      "start": 38.35,
+      "end": 41.53,
+      "text": "So far ahead of the pack, got you the wheel, now the road is wide",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " So",
+          "start": 38.35,
+          "end": 38.81,
+          "probability": 0.17
+        },
+        {
+          "word": " far",
+          "start": 38.81,
+          "end": 39.01,
+          "probability": 0.996
+        },
+        {
+          "word": " ahead",
+          "start": 39.01,
+          "end": 39.29,
+          "probability": 0.998
+        },
+        {
+          "word": " of",
+          "start": 39.29,
+          "end": 39.41,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 39.41,
+          "end": 39.55,
+          "probability": 0.997
+        },
+        {
+          "word": " pack,",
+          "start": 39.55,
+          "end": 39.77,
+          "probability": 0.994
+        },
+        {
+          "word": " got",
+          "start": 39.97,
+          "end": 40.17,
+          "probability": 0.792
+        },
+        {
+          "word": " you",
+          "start": 40.17,
+          "end": 40.29,
+          "probability": 0.479
+        },
+        {
+          "word": " the",
+          "start": 40.29,
+          "end": 40.43,
+          "probability": 0.58
+        },
+        {
+          "word": " wheel,",
+          "start": 40.43,
+          "end": 40.65,
+          "probability": 0.944
+        },
+        {
+          "word": " now",
+          "start": 40.81,
+          "end": 40.87,
+          "probability": 0.764
+        },
+        {
+          "word": " the",
+          "start": 40.87,
+          "end": 41.01,
+          "probability": 0.883
+        },
+        {
+          "word": " road",
+          "start": 41.01,
+          "end": 41.15,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 41.15,
+          "end": 41.31,
+          "probability": 0.987
+        },
+        {
+          "word": " wide",
+          "start": 41.31,
+          "end": 41.53,
+          "probability": 0.958
+        }
+      ]
+    },
+    {
+      "start": 41.53,
+      "end": 44.95,
+      "text": "I don't look back, so far ahead of the pack, so far ahead of the pack",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " I",
+          "start": 41.53,
+          "end": 41.89,
+          "probability": 0.489
+        },
+        {
+          "word": " don't",
+          "start": 41.89,
+          "end": 42.01,
+          "probability": 0.992
+        },
+        {
+          "word": " look",
+          "start": 42.01,
+          "end": 42.09,
+          "probability": 0.993
+        },
+        {
+          "word": " back,",
+          "start": 42.09,
+          "end": 42.43,
+          "probability": 0.992
+        },
+        {
+          "word": " so",
+          "start": 42.63,
+          "end": 42.71,
+          "probability": 0.993
+        },
+        {
+          "word": " far",
+          "start": 42.71,
+          "end": 42.89,
+          "probability": 0.998
+        },
+        {
+          "word": " ahead",
+          "start": 42.89,
+          "end": 43.15,
+          "probability": 0.999
+        },
+        {
+          "word": " of",
+          "start": 43.15,
+          "end": 43.27,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 43.27,
+          "end": 43.41,
+          "probability": 0.998
+        },
+        {
+          "word": " pack,",
+          "start": 43.41,
+          "end": 43.67,
+          "probability": 0.996
+        },
+        {
+          "word": " so",
+          "start": 43.87,
+          "end": 43.99,
+          "probability": 0.967
+        },
+        {
+          "word": " far",
+          "start": 43.99,
+          "end": 44.19,
+          "probability": 0.997
+        },
+        {
+          "word": " ahead",
+          "start": 44.19,
+          "end": 44.45,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 44.45,
+          "end": 44.57,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 44.57,
+          "end": 44.69,
+          "probability": 0.997
+        },
+        {
+          "word": " pack",
+          "start": 44.69,
+          "end": 44.95,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 44.95,
+      "end": 47.69,
+      "text": "Two lanes, one soul, I am chasing the brides",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Two",
+          "start": 44.95,
+          "end": 45.35,
+          "probability": 0.648
+        },
+        {
+          "word": " lanes,",
+          "start": 45.35,
+          "end": 45.63,
+          "probability": 0.518
+        },
+        {
+          "word": " one",
+          "start": 45.95,
+          "end": 46.19,
+          "probability": 0.95
+        },
+        {
+          "word": " soul,",
+          "start": 46.19,
+          "end": 46.57,
+          "probability": 0.899
+        },
+        {
+          "word": " I",
+          "start": 46.57,
+          "end": 46.73,
+          "probability": 0.917
+        },
+        {
+          "word": " am",
+          "start": 46.73,
+          "end": 46.79,
+          "probability": 0.616
+        },
+        {
+          "word": " chasing",
+          "start": 46.79,
+          "end": 47.09,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 47.09,
+          "end": 47.29,
+          "probability": 0.946
+        },
+        {
+          "word": " brides",
+          "start": 47.29,
+          "end": 47.69,
+          "probability": 0.439
+        }
+      ]
+    },
+    {
+      "start": 47.69,
+      "end": 50.13,
+      "text": "But the glory is his competition is the lonely game",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " But",
+          "start": 47.69,
+          "end": 47.99,
+          "probability": 0.781
+        },
+        {
+          "word": " the",
+          "start": 47.99,
+          "end": 48.13,
+          "probability": 0.96
+        },
+        {
+          "word": " glory",
+          "start": 48.13,
+          "end": 48.43,
+          "probability": 0.745
+        },
+        {
+          "word": " is",
+          "start": 48.43,
+          "end": 48.63,
+          "probability": 0.427
+        },
+        {
+          "word": " his",
+          "start": 48.63,
+          "end": 48.71,
+          "probability": 0.668
+        },
+        {
+          "word": " competition",
+          "start": 48.71,
+          "end": 49.15,
+          "probability": 0.982
+        },
+        {
+          "word": " is",
+          "start": 49.15,
+          "end": 49.47,
+          "probability": 0.767
+        },
+        {
+          "word": " the",
+          "start": 49.47,
+          "end": 49.57,
+          "probability": 0.933
+        },
+        {
+          "word": " lonely",
+          "start": 49.57,
+          "end": 49.77,
+          "probability": 0.723
+        },
+        {
+          "word": " game",
+          "start": 49.77,
+          "end": 50.13,
+          "probability": 0.964
+        }
+      ]
+    },
+    {
+      "start": 50.13,
+      "end": 53.11,
+      "text": "I find the comfort in the scriptures, open the book, read the truth",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.848,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " I",
+          "start": 50.13,
+          "end": 50.39,
+          "probability": 0.793
+        },
+        {
+          "word": " find",
+          "start": 50.39,
+          "end": 50.57,
+          "probability": 0.578
+        },
+        {
+          "word": " the",
+          "start": 50.57,
+          "end": 50.69,
+          "probability": 0.877
+        },
+        {
+          "word": " comfort",
+          "start": 50.69,
+          "end": 50.93,
+          "probability": 0.35
+        },
+        {
+          "word": " in",
+          "start": 50.93,
+          "end": 51.15,
+          "probability": 0.748
+        },
+        {
+          "word": " the",
+          "start": 51.15,
+          "end": 51.25,
+          "probability": 0.982
+        },
+        {
+          "word": " scriptures,",
+          "start": 51.25,
+          "end": 51.51,
+          "probability": 0.846
+        },
+        {
+          "word": " open",
+          "start": 51.51,
+          "end": 51.81,
+          "probability": 0.734
+        },
+        {
+          "word": " the",
+          "start": 51.81,
+          "end": 51.95,
+          "probability": 0.971
+        },
+        {
+          "word": " book,",
+          "start": 51.95,
+          "end": 52.21,
+          "probability": 0.99
+        },
+        {
+          "word": " read",
+          "start": 52.33,
+          "end": 52.67,
+          "probability": 0.973
+        },
+        {
+          "word": " the",
+          "start": 52.67,
+          "end": 52.83,
+          "probability": 0.962
+        },
+        {
+          "word": " truth",
+          "start": 52.83,
+          "end": 53.11,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 62.04,
+      "end": 64.18,
+      "text": "I think he's the end of spirit, step, after step",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " I",
+          "start": 62.04,
+          "end": 62.18,
+          "probability": 0.238
+        },
+        {
+          "word": " think",
+          "start": 62.18,
+          "end": 62.18,
+          "probability": 0.763
+        },
+        {
+          "word": " he's",
+          "start": 62.18,
+          "end": 62.36,
+          "probability": 0.945
+        },
+        {
+          "word": " the",
+          "start": 62.36,
+          "end": 62.42,
+          "probability": 0.77
+        },
+        {
+          "word": " end",
+          "start": 62.42,
+          "end": 62.58,
+          "probability": 0.312
+        },
+        {
+          "word": " of",
+          "start": 62.58,
+          "end": 62.62,
+          "probability": 0.846
+        },
+        {
+          "word": " spirit,",
+          "start": 62.62,
+          "end": 62.94,
+          "probability": 0.771
+        },
+        {
+          "word": " step,",
+          "start": 63.12,
+          "end": 63.32,
+          "probability": 0.921
+        },
+        {
+          "word": " after",
+          "start": 63.62,
+          "end": 63.96,
+          "probability": 0.539
+        },
+        {
+          "word": " step",
+          "start": 63.96,
+          "end": 64.18,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 64.18,
+      "end": 66.72,
+      "text": "I ain't walking on the surface, why they seein' the mud",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " I",
+          "start": 64.18,
+          "end": 64.7,
+          "probability": 0.504
+        },
+        {
+          "word": " ain't",
+          "start": 64.7,
+          "end": 64.84,
+          "probability": 0.978
+        },
+        {
+          "word": " walking",
+          "start": 64.84,
+          "end": 65.06,
+          "probability": 0.864
+        },
+        {
+          "word": " on",
+          "start": 65.06,
+          "end": 65.3,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 65.3,
+          "end": 65.4,
+          "probability": 0.923
+        },
+        {
+          "word": " surface,",
+          "start": 65.4,
+          "end": 65.5,
+          "probability": 0.977
+        },
+        {
+          "word": " why",
+          "start": 65.5,
+          "end": 65.88,
+          "probability": 0.656
+        },
+        {
+          "word": " they",
+          "start": 65.88,
+          "end": 65.98,
+          "probability": 0.745
+        },
+        {
+          "word": " seein'",
+          "start": 65.98,
+          "end": 66.4,
+          "probability": 0.298
+        },
+        {
+          "word": " the",
+          "start": 66.52,
+          "end": 66.54,
+          "probability": 0.857
+        },
+        {
+          "word": " mud",
+          "start": 66.54,
+          "end": 66.72,
+          "probability": 0.796
+        }
+      ]
+    },
+    {
+      "start": 66.72,
+      "end": 67.24,
+      "text": "And I ain't bein'",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " And",
+          "start": 66.72,
+          "end": 66.86,
+          "probability": 0.006
+        },
+        {
+          "word": " I",
+          "start": 66.86,
+          "end": 66.98,
+          "probability": 0.198
+        },
+        {
+          "word": " ain't",
+          "start": 66.98,
+          "end": 67.16,
+          "probability": 0.554
+        },
+        {
+          "word": " bein'",
+          "start": 67.16,
+          "end": 67.24,
+          "probability": 0.262
+        }
+      ]
+    },
+    {
+      "start": 68.7,
+      "end": 70.5,
+      "text": "The end of the drive, I ain't in the back seat",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " The",
+          "start": 68.7,
+          "end": 68.7,
+          "probability": 0.032
+        },
+        {
+          "word": " end",
+          "start": 68.7,
+          "end": 68.96,
+          "probability": 0.134
+        },
+        {
+          "word": " of",
+          "start": 68.96,
+          "end": 69.12,
+          "probability": 0.921
+        },
+        {
+          "word": " the",
+          "start": 69.12,
+          "end": 69.18,
+          "probability": 0.563
+        },
+        {
+          "word": " drive,",
+          "start": 69.18,
+          "end": 69.34,
+          "probability": 0.814
+        },
+        {
+          "word": " I",
+          "start": 69.42,
+          "end": 69.52,
+          "probability": 0.964
+        },
+        {
+          "word": " ain't",
+          "start": 69.52,
+          "end": 69.72,
+          "probability": 0.99
+        },
+        {
+          "word": " in",
+          "start": 69.72,
+          "end": 69.86,
+          "probability": 0.269
+        },
+        {
+          "word": " the",
+          "start": 69.86,
+          "end": 69.96,
+          "probability": 0.991
+        },
+        {
+          "word": " back",
+          "start": 69.96,
+          "end": 70.18,
+          "probability": 0.98
+        },
+        {
+          "word": " seat",
+          "start": 70.18,
+          "end": 70.5,
+          "probability": 0.402
+        }
+      ]
+    },
+    {
+      "start": 70.5,
+      "end": 72.64,
+      "text": "Count my mouth, so far ahead of the pack",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " Count",
+          "start": 70.5,
+          "end": 71.02,
+          "probability": 0.883
+        },
+        {
+          "word": " my",
+          "start": 71.02,
+          "end": 71.24,
+          "probability": 0.39
+        },
+        {
+          "word": " mouth,",
+          "start": 71.24,
+          "end": 71.52,
+          "probability": 0.546
+        },
+        {
+          "word": " so",
+          "start": 71.68,
+          "end": 71.7,
+          "probability": 0.921
+        },
+        {
+          "word": " far",
+          "start": 71.7,
+          "end": 71.9,
+          "probability": 0.989
+        },
+        {
+          "word": " ahead",
+          "start": 71.9,
+          "end": 72.14,
+          "probability": 0.997
+        },
+        {
+          "word": " of",
+          "start": 72.14,
+          "end": 72.28,
+          "probability": 0.939
+        },
+        {
+          "word": " the",
+          "start": 72.28,
+          "end": 72.42,
+          "probability": 0.996
+        },
+        {
+          "word": " pack",
+          "start": 72.42,
+          "end": 72.64,
+          "probability": 0.932
+        }
+      ]
+    },
+    {
+      "start": 72.64,
+      "end": 75.82,
+      "text": "So far ahead of the pack, got you the wheel, now the road is wide",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " So",
+          "start": 72.64,
+          "end": 73.12,
+          "probability": 0.621
+        },
+        {
+          "word": " far",
+          "start": 73.12,
+          "end": 73.32,
+          "probability": 0.996
+        },
+        {
+          "word": " ahead",
+          "start": 73.32,
+          "end": 73.58,
+          "probability": 0.998
+        },
+        {
+          "word": " of",
+          "start": 73.58,
+          "end": 73.7,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 73.7,
+          "end": 73.8,
+          "probability": 0.997
+        },
+        {
+          "word": " pack,",
+          "start": 73.8,
+          "end": 74.14,
+          "probability": 0.99
+        },
+        {
+          "word": " got",
+          "start": 74.2,
+          "end": 74.46,
+          "probability": 0.89
+        },
+        {
+          "word": " you",
+          "start": 74.46,
+          "end": 74.58,
+          "probability": 0.562
+        },
+        {
+          "word": " the",
+          "start": 74.58,
+          "end": 74.72,
+          "probability": 0.285
+        },
+        {
+          "word": " wheel,",
+          "start": 74.72,
+          "end": 74.96,
+          "probability": 0.666
+        },
+        {
+          "word": " now",
+          "start": 75.08,
+          "end": 75.16,
+          "probability": 0.934
+        },
+        {
+          "word": " the",
+          "start": 75.16,
+          "end": 75.28,
+          "probability": 0.908
+        },
+        {
+          "word": " road",
+          "start": 75.28,
+          "end": 75.42,
+          "probability": 0.985
+        },
+        {
+          "word": " is",
+          "start": 75.42,
+          "end": 75.58,
+          "probability": 0.969
+        },
+        {
+          "word": " wide",
+          "start": 75.58,
+          "end": 75.82,
+          "probability": 0.914
+        }
+      ]
+    },
+    {
+      "start": 75.82,
+      "end": 77.94,
+      "text": "I don't look back, so far ahead of the pack",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " I",
+          "start": 75.82,
+          "end": 76.16,
+          "probability": 0.461
+        },
+        {
+          "word": " don't",
+          "start": 76.16,
+          "end": 76.26,
+          "probability": 0.977
+        },
+        {
+          "word": " look",
+          "start": 76.26,
+          "end": 76.36,
+          "probability": 0.796
+        },
+        {
+          "word": " back,",
+          "start": 76.36,
+          "end": 76.66,
+          "probability": 0.997
+        },
+        {
+          "word": " so",
+          "start": 76.8,
+          "end": 76.98,
+          "probability": 0.984
+        },
+        {
+          "word": " far",
+          "start": 76.98,
+          "end": 77.18,
+          "probability": 0.996
+        },
+        {
+          "word": " ahead",
+          "start": 77.18,
+          "end": 77.44,
+          "probability": 0.999
+        },
+        {
+          "word": " of",
+          "start": 77.44,
+          "end": 77.56,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 77.56,
+          "end": 77.72,
+          "probability": 0.997
+        },
+        {
+          "word": " pack",
+          "start": 77.72,
+          "end": 77.94,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 77.94,
+      "end": 79.92,
+      "text": "So far ahead of the pack, kneel down",
+      "avgLogprob": -0.462,
+      "compressionRatio": 1.94,
+      "noSpeechProbability": 0.624,
+      "words": [
+        {
+          "word": " So",
+          "start": 77.94,
+          "end": 78.24,
+          "probability": 0.608
+        },
+        {
+          "word": " far",
+          "start": 78.24,
+          "end": 78.46,
+          "probability": 0.984
+        },
+        {
+          "word": " ahead",
+          "start": 78.46,
+          "end": 78.74,
+          "probability": 0.995
+        },
+        {
+          "word": " of",
+          "start": 78.74,
+          "end": 78.84,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 78.84,
+          "end": 78.94,
+          "probability": 0.998
+        },
+        {
+          "word": " pack,",
+          "start": 78.94,
+          "end": 79.24,
+          "probability": 0.984
+        },
+        {
+          "word": " kneel",
+          "start": 79.48,
+          "end": 79.72,
+          "probability": 0.799
+        },
+        {
+          "word": " down",
+          "start": 79.72,
+          "end": 79.92,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 88.98,
+      "end": 92.52,
+      "text": "B3, bug in the room, mixin' the homie with your heavy sample to quiet",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.601,
+      "noSpeechProbability": 0.537,
+      "words": [
+        {
+          "word": " B3,",
+          "start": 88.98,
+          "end": 89.32,
+          "probability": 0.639
+        },
+        {
+          "word": " bug",
+          "start": 89.78,
+          "end": 89.86,
+          "probability": 0.226
+        },
+        {
+          "word": " in",
+          "start": 89.86,
+          "end": 90.04,
+          "probability": 0.711
+        },
+        {
+          "word": " the",
+          "start": 90.04,
+          "end": 90.1,
+          "probability": 0.965
+        },
+        {
+          "word": " room,",
+          "start": 90.1,
+          "end": 90.34,
+          "probability": 0.782
+        },
+        {
+          "word": " mixin'",
+          "start": 90.62,
+          "end": 90.84,
+          "probability": 0.454
+        },
+        {
+          "word": " the",
+          "start": 90.94,
+          "end": 90.98,
+          "probability": 0.476
+        },
+        {
+          "word": " homie",
+          "start": 90.98,
+          "end": 91.26,
+          "probability": 0.853
+        },
+        {
+          "word": " with",
+          "start": 91.26,
+          "end": 91.44,
+          "probability": 0.913
+        },
+        {
+          "word": " your",
+          "start": 91.44,
+          "end": 91.58,
+          "probability": 0.661
+        },
+        {
+          "word": " heavy",
+          "start": 91.58,
+          "end": 91.78,
+          "probability": 0.908
+        },
+        {
+          "word": " sample",
+          "start": 91.78,
+          "end": 92.1,
+          "probability": 0.42
+        },
+        {
+          "word": " to",
+          "start": 92.1,
+          "end": 92.26,
+          "probability": 0.313
+        },
+        {
+          "word": " quiet",
+          "start": 92.26,
+          "end": 92.52,
+          "probability": 0.775
+        }
+      ]
+    },
+    {
+      "start": 92.52,
+      "end": 95.28,
+      "text": "Loved the testimony, I am the witness to the greatest, one, two",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.601,
+      "noSpeechProbability": 0.537,
+      "words": [
+        {
+          "word": " Loved",
+          "start": 92.52,
+          "end": 92.9,
+          "probability": 0.166
+        },
+        {
+          "word": " the",
+          "start": 92.9,
+          "end": 92.98,
+          "probability": 0.239
+        },
+        {
+          "word": " testimony,",
+          "start": 92.98,
+          "end": 93.22,
+          "probability": 0.748
+        },
+        {
+          "word": " I",
+          "start": 93.62,
+          "end": 93.7,
+          "probability": 0.983
+        },
+        {
+          "word": " am",
+          "start": 93.7,
+          "end": 93.82,
+          "probability": 0.774
+        },
+        {
+          "word": " the",
+          "start": 93.82,
+          "end": 93.98,
+          "probability": 0.974
+        },
+        {
+          "word": " witness",
+          "start": 93.98,
+          "end": 94.2,
+          "probability": 0.994
+        },
+        {
+          "word": " to",
+          "start": 94.2,
+          "end": 94.42,
+          "probability": 0.55
+        },
+        {
+          "word": " the",
+          "start": 94.42,
+          "end": 94.52,
+          "probability": 0.99
+        },
+        {
+          "word": " greatest,",
+          "start": 94.52,
+          "end": 94.78,
+          "probability": 0.968
+        },
+        {
+          "word": " one,",
+          "start": 94.96,
+          "end": 95.04,
+          "probability": 0.547
+        },
+        {
+          "word": " two",
+          "start": 95.16,
+          "end": 95.28,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 95.28,
+      "end": 99.16,
+      "text": "Ten years gone, still the king of the mountain, I don't brag, I just testify",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.601,
+      "noSpeechProbability": 0.537,
+      "words": [
+        {
+          "word": " Ten",
+          "start": 95.28,
+          "end": 95.9,
+          "probability": 0.124
+        },
+        {
+          "word": " years",
+          "start": 95.9,
+          "end": 96.1,
+          "probability": 0.963
+        },
+        {
+          "word": " gone,",
+          "start": 96.1,
+          "end": 96.48,
+          "probability": 0.986
+        },
+        {
+          "word": " still",
+          "start": 96.76,
+          "end": 96.84,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 96.84,
+          "end": 96.98,
+          "probability": 0.724
+        },
+        {
+          "word": " king",
+          "start": 96.98,
+          "end": 97.14,
+          "probability": 0.826
+        },
+        {
+          "word": " of",
+          "start": 97.14,
+          "end": 97.28,
+          "probability": 0.844
+        },
+        {
+          "word": " the",
+          "start": 97.28,
+          "end": 97.36,
+          "probability": 0.981
+        },
+        {
+          "word": " mountain,",
+          "start": 97.36,
+          "end": 97.6,
+          "probability": 0.282
+        },
+        {
+          "word": " I",
+          "start": 97.96,
+          "end": 98.0,
+          "probability": 0.984
+        },
+        {
+          "word": " don't",
+          "start": 98.0,
+          "end": 98.18,
+          "probability": 0.992
+        },
+        {
+          "word": " brag,",
+          "start": 98.18,
+          "end": 98.32,
+          "probability": 0.96
+        },
+        {
+          "word": " I",
+          "start": 98.5,
+          "end": 98.56,
+          "probability": 0.991
+        },
+        {
+          "word": " just",
+          "start": 98.56,
+          "end": 98.68,
+          "probability": 0.949
+        },
+        {
+          "word": " testify",
+          "start": 98.68,
+          "end": 99.16,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 99.16,
+      "end": 101.92,
+      "text": "The view is better from the front, let them talk, let them plot",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.601,
+      "noSpeechProbability": 0.537,
+      "words": [
+        {
+          "word": " The",
+          "start": 99.16,
+          "end": 99.54,
+          "probability": 0.528
+        },
+        {
+          "word": " view",
+          "start": 99.54,
+          "end": 99.74,
+          "probability": 0.977
+        },
+        {
+          "word": " is",
+          "start": 99.74,
+          "end": 99.88,
+          "probability": 0.957
+        },
+        {
+          "word": " better",
+          "start": 99.88,
+          "end": 100.02,
+          "probability": 0.987
+        },
+        {
+          "word": " from",
+          "start": 100.02,
+          "end": 100.28,
+          "probability": 0.962
+        },
+        {
+          "word": " the",
+          "start": 100.28,
+          "end": 100.38,
+          "probability": 0.997
+        },
+        {
+          "word": " front,",
+          "start": 100.38,
+          "end": 100.64,
+          "probability": 0.994
+        },
+        {
+          "word": " let",
+          "start": 100.76,
+          "end": 101.0,
+          "probability": 0.943
+        },
+        {
+          "word": " them",
+          "start": 101.0,
+          "end": 101.1,
+          "probability": 0.189
+        },
+        {
+          "word": " talk,",
+          "start": 101.1,
+          "end": 101.32,
+          "probability": 0.987
+        },
+        {
+          "word": " let",
+          "start": 101.44,
+          "end": 101.54,
+          "probability": 0.976
+        },
+        {
+          "word": " them",
+          "start": 101.54,
+          "end": 101.68,
+          "probability": 0.856
+        },
+        {
+          "word": " plot",
+          "start": 101.68,
+          "end": 101.92,
+          "probability": 0.548
+        }
+      ]
+    },
+    {
+      "start": 101.92,
+      "end": 106.06,
+      "text": "I am cupped by the blood in the base, run in the race, but I finish before I even start it",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.601,
+      "noSpeechProbability": 0.537,
+      "words": [
+        {
+          "word": " I",
+          "start": 101.92,
+          "end": 102.28,
+          "probability": 0.683
+        },
+        {
+          "word": " am",
+          "start": 102.28,
+          "end": 102.4,
+          "probability": 0.888
+        },
+        {
+          "word": " cupped",
+          "start": 102.4,
+          "end": 102.64,
+          "probability": 0.393
+        },
+        {
+          "word": " by",
+          "start": 102.64,
+          "end": 102.86,
+          "probability": 0.961
+        },
+        {
+          "word": " the",
+          "start": 102.86,
+          "end": 102.96,
+          "probability": 0.987
+        },
+        {
+          "word": " blood",
+          "start": 102.96,
+          "end": 103.14,
+          "probability": 0.97
+        },
+        {
+          "word": " in",
+          "start": 103.14,
+          "end": 103.3,
+          "probability": 0.863
+        },
+        {
+          "word": " the",
+          "start": 103.3,
+          "end": 103.4,
+          "probability": 0.94
+        },
+        {
+          "word": " base,",
+          "start": 103.4,
+          "end": 103.68,
+          "probability": 0.541
+        },
+        {
+          "word": " run",
+          "start": 103.92,
+          "end": 104.0,
+          "probability": 0.206
+        },
+        {
+          "word": " in",
+          "start": 104.0,
+          "end": 104.14,
+          "probability": 0.491
+        },
+        {
+          "word": " the",
+          "start": 104.14,
+          "end": 104.26,
+          "probability": 0.993
+        },
+        {
+          "word": " race,",
+          "start": 104.26,
+          "end": 104.44,
+          "probability": 0.945
+        },
+        {
+          "word": " but",
+          "start": 104.56,
+          "end": 104.6,
+          "probability": 0.97
+        },
+        {
+          "word": " I",
+          "start": 104.6,
+          "end": 104.7,
+          "probability": 0.989
+        },
+        {
+          "word": " finish",
+          "start": 104.7,
+          "end": 104.92,
+          "probability": 0.442
+        },
+        {
+          "word": " before",
+          "start": 104.92,
+          "end": 105.3,
+          "probability": 0.935
+        },
+        {
+          "word": " I",
+          "start": 105.3,
+          "end": 105.46,
+          "probability": 0.757
+        },
+        {
+          "word": " even",
+          "start": 105.46,
+          "end": 105.6,
+          "probability": 0.743
+        },
+        {
+          "word": " start",
+          "start": 105.6,
+          "end": 105.92,
+          "probability": 0.682
+        },
+        {
+          "word": " it",
+          "start": 105.92,
+          "end": 106.06,
+          "probability": 0.974
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.895,
+    "wordCount": 286,
+    "credibleWordCount": 259,
+    "segmentCount": 23,
+    "averageWordProbability": 0.781,
+    "vocalSeconds": 64.12,
+    "scanCoverage": 0.559,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1387 @@
+{
+  "analysisVersion": 1,
+  "index": 91,
+  "id": "../VOLHOLLA/song-cypher-11.html",
+  "slug": "maquina-de-cypher",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry Good bye, good bye. What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it? What's it for you? What's it for you? What's it for you? What's it for you? What's it for you? What's it for you? What's it for you? What's it for you?",
+  "sampledRanges": [
+    [
+      8.22,
+      26.22
+    ],
+    [
+      32.89,
+      50.89
+    ],
+    [
+      57.56,
+      75.56
+    ],
+    [
+      82.23,
+      100.23
+    ]
+  ],
+  "segments": [
+    {
+      "start": 8.74,
+      "end": 26.2,
+      "text": "I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry",
+      "avgLogprob": -0.08,
+      "compressionRatio": 23.615,
+      "noSpeechProbability": 0.75,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 8.74,
+          "end": 9.5,
+          "probability": 0.106
+        },
+        {
+          "word": " sorry,",
+          "start": 9.5,
+          "end": 9.5,
+          "probability": 0.076
+        },
+        {
+          "word": " I'm",
+          "start": 9.5,
+          "end": 9.5,
+          "probability": 0.392
+        },
+        {
+          "word": " sorry,",
+          "start": 9.5,
+          "end": 9.5,
+          "probability": 0.665
+        },
+        {
+          "word": " I'm",
+          "start": 9.5,
+          "end": 10.56,
+          "probability": 0.861
+        },
+        {
+          "word": " sorry,",
+          "start": 10.56,
+          "end": 10.82,
+          "probability": 0.975
+        },
+        {
+          "word": " I'm",
+          "start": 10.82,
+          "end": 11.52,
+          "probability": 0.944
+        },
+        {
+          "word": " sorry,",
+          "start": 11.52,
+          "end": 11.6,
+          "probability": 0.991
+        },
+        {
+          "word": " I'm",
+          "start": 11.6,
+          "end": 13.2,
+          "probability": 0.967
+        },
+        {
+          "word": " sorry,",
+          "start": 13.2,
+          "end": 13.2,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 13.2,
+          "end": 14.0,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 14.0,
+          "end": 14.0,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 14.0,
+          "end": 14.86,
+          "probability": 0.981
+        },
+        {
+          "word": " sorry,",
+          "start": 14.86,
+          "end": 14.86,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 14.86,
+          "end": 16.12,
+          "probability": 0.984
+        },
+        {
+          "word": " sorry,",
+          "start": 16.12,
+          "end": 16.12,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 16.12,
+          "end": 16.82,
+          "probability": 0.985
+        },
+        {
+          "word": " sorry,",
+          "start": 16.82,
+          "end": 16.82,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 16.82,
+          "end": 18.26,
+          "probability": 0.986
+        },
+        {
+          "word": " sorry,",
+          "start": 18.26,
+          "end": 18.26,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 18.26,
+          "end": 18.34,
+          "probability": 0.986
+        },
+        {
+          "word": " sorry,",
+          "start": 18.34,
+          "end": 18.34,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 18.34,
+          "end": 18.76,
+          "probability": 0.986
+        },
+        {
+          "word": " sorry,",
+          "start": 18.76,
+          "end": 18.76,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 19.1,
+          "end": 19.68,
+          "probability": 0.985
+        },
+        {
+          "word": " sorry,",
+          "start": 19.68,
+          "end": 19.96,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 21.32,
+          "end": 21.32,
+          "probability": 0.985
+        },
+        {
+          "word": " sorry,",
+          "start": 21.32,
+          "end": 21.32,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 22.4,
+          "end": 22.48,
+          "probability": 0.984
+        },
+        {
+          "word": " sorry,",
+          "start": 22.48,
+          "end": 22.66,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 22.76,
+          "end": 23.02,
+          "probability": 0.984
+        },
+        {
+          "word": " sorry,",
+          "start": 23.02,
+          "end": 23.02,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 23.98,
+          "end": 24.26,
+          "probability": 0.983
+        },
+        {
+          "word": " sorry,",
+          "start": 24.26,
+          "end": 24.26,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 24.32,
+          "end": 24.32,
+          "probability": 0.982
+        },
+        {
+          "word": " sorry,",
+          "start": 24.32,
+          "end": 24.32,
+          "probability": 0.992
+        },
+        {
+          "word": " I'm",
+          "start": 24.7,
+          "end": 24.94,
+          "probability": 0.982
+        },
+        {
+          "word": " sorry,",
+          "start": 24.94,
+          "end": 24.94,
+          "probability": 0.991
+        },
+        {
+          "word": " I'm",
+          "start": 25.34,
+          "end": 25.56,
+          "probability": 0.982
+        },
+        {
+          "word": " sorry,",
+          "start": 25.56,
+          "end": 25.56,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.981
+        },
+        {
+          "word": " sorry,",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.99
+        },
+        {
+          "word": " I'm",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.98
+        },
+        {
+          "word": " sorry,",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.99
+        },
+        {
+          "word": " I'm",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.981
+        },
+        {
+          "word": " sorry,",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.98
+        },
+        {
+          "word": " sorry,",
+          "start": 25.94,
+          "end": 25.94,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.979
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.979
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.978
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.99
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.975
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.975
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.975
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.986
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.977
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.975
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.976
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.978
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.978
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.978
+        },
+        {
+          "word": " sorry,",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.979
+        },
+        {
+          "word": " sorry",
+          "start": 26.2,
+          "end": 26.2,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 26.18,
+      "end": 26.18,
+      "text": "",
+      "avgLogprob": -0.118,
+      "compressionRatio": 22.808,
+      "noSpeechProbability": 0.774,
+      "words": []
+    },
+    {
+      "start": 49.47,
+      "end": 50.65,
+      "text": "Good bye, good bye.",
+      "avgLogprob": -1.066,
+      "compressionRatio": 0.905,
+      "noSpeechProbability": 0.593,
+      "words": [
+        {
+          "word": " Good",
+          "start": 49.47,
+          "end": 49.61,
+          "probability": 0.039
+        },
+        {
+          "word": " bye,",
+          "start": 49.61,
+          "end": 50.07,
+          "probability": 0.255
+        },
+        {
+          "word": " good",
+          "start": 50.15,
+          "end": 50.33,
+          "probability": 0.336
+        },
+        {
+          "word": " bye.",
+          "start": 50.33,
+          "end": 50.65,
+          "probability": 0.872
+        }
+      ]
+    },
+    {
+      "start": 57.56,
+      "end": 58.04,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 57.56,
+          "end": 57.94,
+          "probability": 0.289
+        },
+        {
+          "word": " it?",
+          "start": 57.94,
+          "end": 58.04,
+          "probability": 0.072
+        }
+      ]
+    },
+    {
+      "start": 58.72,
+      "end": 59.5,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 58.72,
+          "end": 59.36,
+          "probability": 0.816
+        },
+        {
+          "word": " it?",
+          "start": 59.36,
+          "end": 59.5,
+          "probability": 0.931
+        }
+      ]
+    },
+    {
+      "start": 60.22,
+      "end": 61.1,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 60.22,
+          "end": 60.72,
+          "probability": 0.89
+        },
+        {
+          "word": " it?",
+          "start": 60.72,
+          "end": 61.1,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "start": 61.54,
+      "end": 62.34,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 61.54,
+          "end": 62.12,
+          "probability": 0.909
+        },
+        {
+          "word": " it?",
+          "start": 62.12,
+          "end": 62.34,
+          "probability": 0.963
+        }
+      ]
+    },
+    {
+      "start": 63.0,
+      "end": 63.7,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 63.0,
+          "end": 63.5,
+          "probability": 0.914
+        },
+        {
+          "word": " it?",
+          "start": 63.5,
+          "end": 63.7,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 64.44,
+      "end": 64.74,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 64.44,
+          "end": 64.74,
+          "probability": 0.901
+        },
+        {
+          "word": " it?",
+          "start": 64.74,
+          "end": 64.74,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 64.74,
+      "end": 65.08,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 64.74,
+          "end": 64.92,
+          "probability": 0.904
+        },
+        {
+          "word": " it?",
+          "start": 64.92,
+          "end": 65.08,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 65.9,
+      "end": 66.48,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 65.9,
+          "end": 66.3,
+          "probability": 0.894
+        },
+        {
+          "word": " it?",
+          "start": 66.3,
+          "end": 66.48,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 67.82,
+      "end": 68.58,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 67.82,
+          "end": 68.58,
+          "probability": 0.886
+        },
+        {
+          "word": " it?",
+          "start": 68.58,
+          "end": 68.58,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 68.58,
+      "end": 68.58,
+      "text": "",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": []
+    },
+    {
+      "start": 68.58,
+      "end": 68.58,
+      "text": "",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": []
+    },
+    {
+      "start": 68.58,
+      "end": 69.24,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 68.58,
+          "end": 69.06,
+          "probability": 0.885
+        },
+        {
+          "word": " it?",
+          "start": 69.06,
+          "end": 69.24,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 69.46,
+      "end": 69.8,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 69.46,
+          "end": 69.7,
+          "probability": 0.897
+        },
+        {
+          "word": " it?",
+          "start": 69.7,
+          "end": 69.8,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 70.4,
+      "end": 71.16,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 70.4,
+          "end": 71.16,
+          "probability": 0.893
+        },
+        {
+          "word": " it?",
+          "start": 71.16,
+          "end": 71.16,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 71.16,
+      "end": 71.32,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 71.16,
+          "end": 71.2,
+          "probability": 0.902
+        },
+        {
+          "word": " it?",
+          "start": 71.2,
+          "end": 71.32,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 71.36,
+      "end": 71.98,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 71.36,
+          "end": 71.84,
+          "probability": 0.907
+        },
+        {
+          "word": " it?",
+          "start": 71.84,
+          "end": 71.98,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 74.56,
+      "end": 74.74,
+      "text": "What's it?",
+      "avgLogprob": -0.181,
+      "compressionRatio": 8.455,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " What's",
+          "start": 74.26,
+          "end": 74.64,
+          "probability": 0.898
+        },
+        {
+          "word": " it?",
+          "start": 74.64,
+          "end": 74.74,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 82.43,
+      "end": 84.23,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 82.43,
+          "end": 83.07,
+          "probability": 0.177
+        },
+        {
+          "word": " it",
+          "start": 83.07,
+          "end": 83.15,
+          "probability": 0.37
+        },
+        {
+          "word": " for",
+          "start": 83.15,
+          "end": 83.51,
+          "probability": 0.089
+        },
+        {
+          "word": " you?",
+          "start": 83.51,
+          "end": 84.23,
+          "probability": 0.335
+        }
+      ]
+    },
+    {
+      "start": 90.77,
+      "end": 92.15,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 90.77,
+          "end": 91.41,
+          "probability": 0.567
+        },
+        {
+          "word": " it",
+          "start": 91.41,
+          "end": 91.51,
+          "probability": 0.897
+        },
+        {
+          "word": " for",
+          "start": 91.51,
+          "end": 91.83,
+          "probability": 0.989
+        },
+        {
+          "word": " you?",
+          "start": 91.83,
+          "end": 92.15,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 92.53,
+      "end": 93.49,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 92.53,
+          "end": 92.61,
+          "probability": 0.749
+        },
+        {
+          "word": " it",
+          "start": 92.61,
+          "end": 92.61,
+          "probability": 0.946
+        },
+        {
+          "word": " for",
+          "start": 92.61,
+          "end": 92.61,
+          "probability": 0.987
+        },
+        {
+          "word": " you?",
+          "start": 92.61,
+          "end": 93.49,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 93.55,
+      "end": 94.65,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 93.55,
+          "end": 94.19,
+          "probability": 0.829
+        },
+        {
+          "word": " it",
+          "start": 94.19,
+          "end": 94.23,
+          "probability": 0.955
+        },
+        {
+          "word": " for",
+          "start": 94.23,
+          "end": 94.65,
+          "probability": 0.982
+        },
+        {
+          "word": " you?",
+          "start": 94.65,
+          "end": 94.65,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 94.65,
+      "end": 95.87,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 94.65,
+          "end": 94.87,
+          "probability": 0.879
+        },
+        {
+          "word": " it",
+          "start": 94.87,
+          "end": 94.91,
+          "probability": 0.964
+        },
+        {
+          "word": " for",
+          "start": 94.91,
+          "end": 94.97,
+          "probability": 0.98
+        },
+        {
+          "word": " you?",
+          "start": 94.97,
+          "end": 95.87,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 95.89,
+      "end": 96.33,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 95.89,
+          "end": 95.99,
+          "probability": 0.907
+        },
+        {
+          "word": " it",
+          "start": 95.99,
+          "end": 96.03,
+          "probability": 0.975
+        },
+        {
+          "word": " for",
+          "start": 96.03,
+          "end": 96.03,
+          "probability": 0.983
+        },
+        {
+          "word": " you?",
+          "start": 96.03,
+          "end": 96.33,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 96.61,
+      "end": 97.65,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 96.61,
+          "end": 97.03,
+          "probability": 0.923
+        },
+        {
+          "word": " it",
+          "start": 97.03,
+          "end": 97.05,
+          "probability": 0.981
+        },
+        {
+          "word": " for",
+          "start": 97.05,
+          "end": 97.45,
+          "probability": 0.987
+        },
+        {
+          "word": " you?",
+          "start": 97.45,
+          "end": 97.65,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 97.65,
+      "end": 98.53,
+      "text": "What's it for you?",
+      "avgLogprob": -0.391,
+      "compressionRatio": 5.033,
+      "noSpeechProbability": 0.705,
+      "words": [
+        {
+          "word": " What's",
+          "start": 97.65,
+          "end": 97.65,
+          "probability": 0.928
+        },
+        {
+          "word": " it",
+          "start": 97.65,
+          "end": 97.65,
+          "probability": 0.982
+        },
+        {
+          "word": " for",
+          "start": 97.65,
+          "end": 98.03,
+          "probability": 0.987
+        },
+        {
+          "word": " you?",
+          "start": 98.03,
+          "end": 98.53,
+          "probability": 0.985
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.558,
+    "wordCount": 4,
+    "credibleWordCount": 1,
+    "segmentCount": 1,
+    "averageWordProbability": 0.376,
+    "vocalSeconds": 1.18,
+    "scanCoverage": 0.596,
+    "reviewRequired": true
+  }
+}

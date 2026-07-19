@@ -1,0 +1,3411 @@
+{
+  "analysisVersion": 1,
+  "index": 20,
+  "id": "../VOLHOLLA/song-sunfadedghosts-08.html",
+  "slug": "passinho-das-quadras",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "es",
+  "text": "Bóndam y estoy como mandando las údidas pasiones en la boca Bóndam y digan el paílando Dejo se verito de la pisción Y el paílando de este verito de la pulera Que dejaron que las titásan a pisada Y me deje bonito, pasieron conmigo Que le mando para los mitos a la vez En las manos vengo a un único burro Que le mando para los mitos burro Que le mando para los mitos burro Que le van a van a la pipotulurico, Buréu! Que la para para mi panturónica murió Que la para para mi panturónica murió Que la para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la para para para mi panturónica murió Que la bola por los dipontos lo rigo, murió! ¡Ey, ay! ¡Ella lo es, lo es, lo es! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Ahh! ¡Una brillo! ¡Una brillo! ¡Ese es el abadillo! Me dejó un guimón, constábamos a la bala ¿Por qué me aberó? ¡Vamos a ver, me aberó! Ejónidá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo... No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no Y te vamos de coloras y yo voy a llevarlo Y te vamos de coloras y yo voy a llevarlo Y te vamos de coloras y yo voy a llevarlo Y te vamos de coloras y yo voy a llevarlo Y yo les tiro un montón Y te vamos de coloras y yo voy a llevarlo Y te vamos de coloras y yo voy a llevarlo No me digan el bailando, de arro mi cuarto, de arro mi cuarto, de arro mi cuarto. ¡Era Obandica! ¡Sí! ¡Luce! ¡Ni distinto! ¡Vulsao!",
+  "sampledRanges": [
+    [
+      0.0,
+      218.55
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.32,
+      "text": "Bóndam y estoy como mandando las údidas pasiones en la boca",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Bóndam",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "y",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "estoy",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "como",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "mandando",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "las",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "údidas",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "pasiones",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "en",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "la",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        },
+        {
+          "word": "boca",
+          "start": 0.0,
+          "end": 5.32,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 5.32,
+      "end": 8.0,
+      "text": "Bóndam y digan el paílando",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Bóndam",
+          "start": 5.32,
+          "end": 8.0,
+          "probability": 0.512
+        },
+        {
+          "word": "y",
+          "start": 5.32,
+          "end": 8.0,
+          "probability": 0.512
+        },
+        {
+          "word": "digan",
+          "start": 5.32,
+          "end": 8.0,
+          "probability": 0.512
+        },
+        {
+          "word": "el",
+          "start": 5.32,
+          "end": 8.0,
+          "probability": 0.512
+        },
+        {
+          "word": "paílando",
+          "start": 5.32,
+          "end": 8.0,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 10.56,
+      "text": "Dejo se verito de la pisción",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Dejo",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        },
+        {
+          "word": "se",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        },
+        {
+          "word": "verito",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        },
+        {
+          "word": "de",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        },
+        {
+          "word": "la",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        },
+        {
+          "word": "pisción",
+          "start": 8.0,
+          "end": 10.56,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 10.56,
+      "end": 13.56,
+      "text": "Y el paílando de este verito de la pulera",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Y",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "el",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "paílando",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "de",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "este",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "verito",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "de",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "la",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        },
+        {
+          "word": "pulera",
+          "start": 10.56,
+          "end": 13.56,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 13.56,
+      "end": 15.96,
+      "text": "Que dejaron que las titásan a pisada",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Que",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "dejaron",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "que",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "las",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "titásan",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "a",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        },
+        {
+          "word": "pisada",
+          "start": 13.56,
+          "end": 15.96,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 15.96,
+      "end": 18.6,
+      "text": "Y me deje bonito, pasieron conmigo",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Y",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        },
+        {
+          "word": "me",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        },
+        {
+          "word": "deje",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        },
+        {
+          "word": "bonito,",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        },
+        {
+          "word": "pasieron",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        },
+        {
+          "word": "conmigo",
+          "start": 15.96,
+          "end": 18.6,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 18.6,
+      "end": 20.8,
+      "text": "Que le mando para los mitos a la vez",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Que",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "le",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "mando",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "para",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "los",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "mitos",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "a",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "la",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        },
+        {
+          "word": "vez",
+          "start": 18.6,
+          "end": 20.8,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 20.8,
+      "end": 23.2,
+      "text": "En las manos vengo a un único burro",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "En",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "las",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "manos",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "vengo",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "a",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "un",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "único",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        },
+        {
+          "word": "burro",
+          "start": 20.8,
+          "end": 23.2,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 23.2,
+      "end": 25.76,
+      "text": "Que le mando para los mitos burro",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Que",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "le",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "mando",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "para",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "los",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "mitos",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        },
+        {
+          "word": "burro",
+          "start": 23.2,
+          "end": 25.76,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 25.76,
+      "end": 28.4,
+      "text": "Que le mando para los mitos burro",
+      "avgLogprob": -0.669,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "Que",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "le",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "mando",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "para",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "los",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "mitos",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        },
+        {
+          "word": "burro",
+          "start": 25.76,
+          "end": 28.4,
+          "probability": 0.512
+        }
+      ]
+    },
+    {
+      "start": 28.4,
+      "end": 44.96,
+      "text": "Que le van a van a la pipotulurico, Buréu!",
+      "avgLogprob": -1.177,
+      "compressionRatio": 0.935,
+      "noSpeechProbability": 0.207,
+      "words": [
+        {
+          "word": "Que",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "le",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "van",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "a",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "van",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "a",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "la",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "pipotulurico,",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        },
+        {
+          "word": "Buréu!",
+          "start": 28.4,
+          "end": 44.96,
+          "probability": 0.308
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 47.58,
+      "text": "Que la para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 45.0,
+          "end": 47.58,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 47.58,
+      "end": 50.32,
+      "text": "Que la para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 47.58,
+          "end": 50.32,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 50.32,
+      "end": 53.08,
+      "text": "Que la para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 50.32,
+          "end": 53.08,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 53.08,
+      "end": 55.76,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 53.08,
+          "end": 55.76,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 55.76,
+      "end": 58.44,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 55.76,
+          "end": 58.44,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 58.44,
+      "end": 61.12,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 58.44,
+          "end": 61.12,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 61.12,
+      "end": 63.76,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 61.12,
+          "end": 63.76,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 63.76,
+      "end": 66.44,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 63.76,
+          "end": 66.44,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 66.44,
+      "end": 69.12,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 66.44,
+          "end": 69.12,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 69.12,
+      "end": 71.84,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 69.12,
+          "end": 71.84,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 71.84,
+      "end": 74.52,
+      "text": "Que la para para para mi panturónica murió",
+      "avgLogprob": -0.242,
+      "compressionRatio": 9.979,
+      "noSpeechProbability": 0.549,
+      "words": [
+        {
+          "word": "Que",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "la",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "para",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "mi",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "panturónica",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        },
+        {
+          "word": "murió",
+          "start": 71.84,
+          "end": 74.52,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 74.52,
+      "end": 76.92,
+      "text": "Que la bola por los dipontos lo rigo, murió!",
+      "avgLogprob": -0.185,
+      "compressionRatio": 13.968,
+      "noSpeechProbability": 0.104,
+      "words": [
+        {
+          "word": "Que",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "la",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "bola",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "por",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "los",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "dipontos",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "lo",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "rigo,",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        },
+        {
+          "word": "murió!",
+          "start": 74.52,
+          "end": 76.92,
+          "probability": 0.831
+        }
+      ]
+    },
+    {
+      "start": 76.92,
+      "end": 81.92,
+      "text": "¡Ey, ay!",
+      "avgLogprob": -0.202,
+      "compressionRatio": 17.52,
+      "noSpeechProbability": 0.434,
+      "words": [
+        {
+          "word": "¡Ey,",
+          "start": 76.92,
+          "end": 81.92,
+          "probability": 0.817
+        },
+        {
+          "word": "ay!",
+          "start": 76.92,
+          "end": 81.92,
+          "probability": 0.817
+        }
+      ]
+    },
+    {
+      "start": 81.92,
+      "end": 83.92,
+      "text": "¡Ella lo es, lo es, lo es!",
+      "avgLogprob": -1.16,
+      "compressionRatio": 1.125,
+      "noSpeechProbability": 0.505,
+      "words": [
+        {
+          "word": "¡Ella",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "lo",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "es,",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "lo",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "es,",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "lo",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        },
+        {
+          "word": "es!",
+          "start": 81.92,
+          "end": 83.92,
+          "probability": 0.313
+        }
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 90.0,
+          "end": 92.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 92.0,
+          "end": 94.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 94.0,
+      "end": 96.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 94.0,
+          "end": 96.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 96.0,
+      "end": 98.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 96.0,
+          "end": 98.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 98.0,
+      "end": 100.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 98.0,
+          "end": 100.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 100.0,
+      "end": 102.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 100.0,
+          "end": 102.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 102.0,
+      "end": 104.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 102.0,
+          "end": 104.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 104.0,
+      "end": 106.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 104.0,
+          "end": 106.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 106.0,
+      "end": 108.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 106.0,
+          "end": 108.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 108.0,
+      "end": 110.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 108.0,
+          "end": 110.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 110.0,
+      "end": 112.0,
+      "text": "¡Ahh!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ahh!",
+          "start": 110.0,
+          "end": 112.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "text": "¡Una brillo!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Una",
+          "start": 112.0,
+          "end": 114.0,
+          "probability": 0.642
+        },
+        {
+          "word": "brillo!",
+          "start": 112.0,
+          "end": 114.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 114.0,
+      "end": 116.0,
+      "text": "¡Una brillo!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Una",
+          "start": 114.0,
+          "end": 116.0,
+          "probability": 0.642
+        },
+        {
+          "word": "brillo!",
+          "start": 114.0,
+          "end": 116.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 116.0,
+      "end": 118.0,
+      "text": "¡Ese es el abadillo!",
+      "avgLogprob": -0.444,
+      "compressionRatio": 2.739,
+      "noSpeechProbability": 0.563,
+      "words": [
+        {
+          "word": "¡Ese",
+          "start": 116.0,
+          "end": 118.0,
+          "probability": 0.642
+        },
+        {
+          "word": "es",
+          "start": 116.0,
+          "end": 118.0,
+          "probability": 0.642
+        },
+        {
+          "word": "el",
+          "start": 116.0,
+          "end": 118.0,
+          "probability": 0.642
+        },
+        {
+          "word": "abadillo!",
+          "start": 116.0,
+          "end": 118.0,
+          "probability": 0.642
+        }
+      ]
+    },
+    {
+      "start": 118.0,
+      "end": 121.42,
+      "text": "Me dejó un guimón, constábamos a la bala",
+      "avgLogprob": -0.316,
+      "compressionRatio": 4.615,
+      "noSpeechProbability": 0.48,
+      "words": [
+        {
+          "word": "Me",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "dejó",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "un",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "guimón,",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "constábamos",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "a",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "la",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        },
+        {
+          "word": "bala",
+          "start": 118.0,
+          "end": 121.42,
+          "probability": 0.729
+        }
+      ]
+    },
+    {
+      "start": 121.42,
+      "end": 123.32,
+      "text": "¿Por qué me aberó?",
+      "avgLogprob": -0.316,
+      "compressionRatio": 4.615,
+      "noSpeechProbability": 0.48,
+      "words": [
+        {
+          "word": "¿Por",
+          "start": 121.42,
+          "end": 123.32,
+          "probability": 0.729
+        },
+        {
+          "word": "qué",
+          "start": 121.42,
+          "end": 123.32,
+          "probability": 0.729
+        },
+        {
+          "word": "me",
+          "start": 121.42,
+          "end": 123.32,
+          "probability": 0.729
+        },
+        {
+          "word": "aberó?",
+          "start": 121.42,
+          "end": 123.32,
+          "probability": 0.729
+        }
+      ]
+    },
+    {
+      "start": 123.32,
+      "end": 125.32,
+      "text": "¡Vamos a ver, me aberó!",
+      "avgLogprob": -0.316,
+      "compressionRatio": 4.615,
+      "noSpeechProbability": 0.48,
+      "words": [
+        {
+          "word": "¡Vamos",
+          "start": 123.32,
+          "end": 125.32,
+          "probability": 0.729
+        },
+        {
+          "word": "a",
+          "start": 123.32,
+          "end": 125.32,
+          "probability": 0.729
+        },
+        {
+          "word": "ver,",
+          "start": 123.32,
+          "end": 125.32,
+          "probability": 0.729
+        },
+        {
+          "word": "me",
+          "start": 123.32,
+          "end": 125.32,
+          "probability": 0.729
+        },
+        {
+          "word": "aberó!",
+          "start": 123.32,
+          "end": 125.32,
+          "probability": 0.729
+        }
+      ]
+    },
+    {
+      "start": 125.32,
+      "end": 135.32,
+      "text": "Ejónidá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo, pecorosá malo...",
+      "avgLogprob": -0.158,
+      "compressionRatio": 10.553,
+      "noSpeechProbability": 0.288,
+      "words": [
+        {
+          "word": "Ejónidá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo,",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "pecorosá",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        },
+        {
+          "word": "malo...",
+          "start": 125.32,
+          "end": 135.32,
+          "probability": 0.854
+        }
+      ]
+    },
+    {
+      "start": 135.0,
+      "end": 165.0,
+      "text": "No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no",
+      "avgLogprob": -0.109,
+      "compressionRatio": 26.235,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": "No,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        },
+        {
+          "word": "no",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.897
+        }
+      ]
+    },
+    {
+      "start": 165.0,
+      "end": 167.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 165.0,
+          "end": 167.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 167.0,
+      "end": 169.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 167.0,
+          "end": 169.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 169.0,
+      "end": 171.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 169.0,
+          "end": 171.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 171.0,
+      "end": 173.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 171.0,
+          "end": 173.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 173.0,
+      "end": 175.0,
+      "text": "Y yo les tiro un montón",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        },
+        {
+          "word": "les",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        },
+        {
+          "word": "tiro",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        },
+        {
+          "word": "un",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        },
+        {
+          "word": "montón",
+          "start": 173.0,
+          "end": 175.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 175.0,
+      "end": 177.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 175.0,
+          "end": 177.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 177.0,
+      "end": 180.0,
+      "text": "Y te vamos de coloras y yo voy a llevarlo",
+      "avgLogprob": -0.384,
+      "compressionRatio": 3.68,
+      "noSpeechProbability": 0.335,
+      "words": [
+        {
+          "word": "Y",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "te",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "vamos",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "de",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "coloras",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "y",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "yo",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "voy",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "a",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        },
+        {
+          "word": "llevarlo",
+          "start": 177.0,
+          "end": 180.0,
+          "probability": 0.681
+        }
+      ]
+    },
+    {
+      "start": 180.0,
+      "end": 191.0,
+      "text": "No me digan el bailando, de arro mi cuarto, de arro mi cuarto, de arro mi cuarto.",
+      "avgLogprob": -0.64,
+      "compressionRatio": 1.588,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": "No",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "me",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "digan",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "el",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "bailando,",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "de",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "arro",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "mi",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "cuarto,",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "de",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "arro",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "mi",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "cuarto,",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "de",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "arro",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "mi",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        },
+        {
+          "word": "cuarto.",
+          "start": 180.0,
+          "end": 191.0,
+          "probability": 0.527
+        }
+      ]
+    },
+    {
+      "start": 191.0,
+      "end": 197.0,
+      "text": "¡Era Obandica! ¡Sí! ¡Luce! ¡Ni distinto! ¡Vulsao!",
+      "avgLogprob": -0.828,
+      "compressionRatio": 0.982,
+      "noSpeechProbability": 0.565,
+      "words": [
+        {
+          "word": "¡Era",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "Obandica!",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "¡Sí!",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "¡Luce!",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "¡Ni",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "distinto!",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        },
+        {
+          "word": "¡Vulsao!",
+          "start": 191.0,
+          "end": 197.0,
+          "probability": 0.437
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.764,
+    "wordCount": 99,
+    "credibleWordCount": 99,
+    "segmentCount": 12,
+    "averageWordProbability": 0.509,
+    "vocalSeconds": 45.4,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

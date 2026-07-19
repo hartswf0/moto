@@ -1,0 +1,1139 @@
+{
+  "analysisVersion": 1,
+  "index": 73,
+  "id": "../VOLHOLLA/song-maquina-36.html",
+  "slug": "hunting-power",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "ar",
+  "text": "حوصة تفعله ينكات اللي نبروش تاكف دوال سق ببامر ونبذت تاكد الليل نفاصوين غراله مستوى من نتيامي فالجو نونت كانو يا لفن تلاوش بسادر ينشوك شوكا شوكا تقيمي بلي اللم يا حونو ساتب شانه مرشاه افتيا ليلو اللم قجر بابس متاتين ورقولال قبر هي تبق فكرة ملقات بزوري عيال لوت موت ورعي تالي حلو نبن تالي نتبكي يا زمتب تالي حالي ندين ببراها وفترسين وقاو حالي ندين ودتوا حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث ح",
+  "sampledRanges": [
+    [
+      15.0,
+      33.0
+    ],
+    [
+      60.01,
+      78.01
+    ],
+    [
+      105.02,
+      123.02
+    ],
+    [
+      150.03,
+      168.03
+    ]
+  ],
+  "segments": [
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "text": "حوصة تفعله",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " حوصة",
+          "start": 15.0,
+          "end": 15.66,
+          "probability": 0.282
+        },
+        {
+          "word": " تفعله",
+          "start": 15.66,
+          "end": 17.0,
+          "probability": 0.682
+        }
+      ]
+    },
+    {
+      "start": 17.0,
+      "end": 19.82,
+      "text": "ينكات اللي نبروش تاكف دوال",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " ينكات",
+          "start": 17.0,
+          "end": 17.68,
+          "probability": 0.561
+        },
+        {
+          "word": " اللي",
+          "start": 17.68,
+          "end": 17.96,
+          "probability": 0.447
+        },
+        {
+          "word": " نبروش",
+          "start": 17.96,
+          "end": 18.62,
+          "probability": 0.623
+        },
+        {
+          "word": " تاكف",
+          "start": 18.62,
+          "end": 19.12,
+          "probability": 0.594
+        },
+        {
+          "word": " دوال",
+          "start": 19.12,
+          "end": 19.82,
+          "probability": 0.734
+        }
+      ]
+    },
+    {
+      "start": 19.82,
+      "end": 23.28,
+      "text": "سق ببامر ونبذت تاكد الليل",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " سق",
+          "start": 19.82,
+          "end": 20.46,
+          "probability": 0.388
+        },
+        {
+          "word": " ببامر",
+          "start": 20.46,
+          "end": 21.1,
+          "probability": 0.509
+        },
+        {
+          "word": " ونبذت",
+          "start": 21.1,
+          "end": 21.66,
+          "probability": 0.575
+        },
+        {
+          "word": " تاكد",
+          "start": 21.66,
+          "end": 22.22,
+          "probability": 0.543
+        },
+        {
+          "word": " الليل",
+          "start": 22.22,
+          "end": 23.28,
+          "probability": 0.216
+        }
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 25.98,
+      "text": "نفاصوين غراله",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " نفاصوين",
+          "start": 24.0,
+          "end": 24.98,
+          "probability": 0.667
+        },
+        {
+          "word": " غراله",
+          "start": 24.98,
+          "end": 25.98,
+          "probability": 0.607
+        }
+      ]
+    },
+    {
+      "start": 25.98,
+      "end": 28.92,
+      "text": "مستوى من نتيامي فالجو نونت",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " مستوى",
+          "start": 25.98,
+          "end": 26.72,
+          "probability": 0.496
+        },
+        {
+          "word": " من",
+          "start": 26.72,
+          "end": 26.96,
+          "probability": 0.203
+        },
+        {
+          "word": " نتيامي",
+          "start": 26.96,
+          "end": 27.54,
+          "probability": 0.376
+        },
+        {
+          "word": " فالجو",
+          "start": 27.54,
+          "end": 28.12,
+          "probability": 0.419
+        },
+        {
+          "word": " نونت",
+          "start": 28.12,
+          "end": 28.92,
+          "probability": 0.49
+        }
+      ]
+    },
+    {
+      "start": 28.92,
+      "end": 30.6,
+      "text": "كانو يا لفن",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " كانو",
+          "start": 28.92,
+          "end": 29.82,
+          "probability": 0.52
+        },
+        {
+          "word": " يا",
+          "start": 29.82,
+          "end": 29.96,
+          "probability": 0.386
+        },
+        {
+          "word": " لفن",
+          "start": 29.96,
+          "end": 30.6,
+          "probability": 0.406
+        }
+      ]
+    },
+    {
+      "start": 30.6,
+      "end": 32.96,
+      "text": "تلاوش بسادر ينشوك شوكا شوكا",
+      "avgLogprob": -0.69,
+      "compressionRatio": 1.69,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " تلاوش",
+          "start": 30.6,
+          "end": 31.3,
+          "probability": 0.737
+        },
+        {
+          "word": " بسادر",
+          "start": 31.3,
+          "end": 31.9,
+          "probability": 0.635
+        },
+        {
+          "word": " ينشوك",
+          "start": 31.9,
+          "end": 32.52,
+          "probability": 0.597
+        },
+        {
+          "word": " شوكا",
+          "start": 32.52,
+          "end": 32.6,
+          "probability": 0.439
+        },
+        {
+          "word": " شوكا",
+          "start": 32.6,
+          "end": 32.96,
+          "probability": 0.947
+        }
+      ]
+    },
+    {
+      "start": 60.01,
+      "end": 61.95,
+      "text": "تقيمي بلي اللم",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " تقيمي",
+          "start": 60.01,
+          "end": 60.85,
+          "probability": 0.409
+        },
+        {
+          "word": " بلي",
+          "start": 60.85,
+          "end": 61.29,
+          "probability": 0.414
+        },
+        {
+          "word": " اللم",
+          "start": 61.29,
+          "end": 61.95,
+          "probability": 0.425
+        }
+      ]
+    },
+    {
+      "start": 61.95,
+      "end": 64.85,
+      "text": "يا حونو ساتب شانه مرشاه",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " يا",
+          "start": 61.95,
+          "end": 62.41,
+          "probability": 0.526
+        },
+        {
+          "word": " حونو",
+          "start": 62.41,
+          "end": 62.79,
+          "probability": 0.539
+        },
+        {
+          "word": " ساتب",
+          "start": 62.79,
+          "end": 63.33,
+          "probability": 0.626
+        },
+        {
+          "word": " شانه",
+          "start": 63.33,
+          "end": 63.81,
+          "probability": 0.285
+        },
+        {
+          "word": " مرشاه",
+          "start": 63.81,
+          "end": 64.85,
+          "probability": 0.373
+        }
+      ]
+    },
+    {
+      "start": 64.85,
+      "end": 67.95,
+      "text": "افتيا ليلو اللم",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " افتيا",
+          "start": 64.85,
+          "end": 65.81,
+          "probability": 0.445
+        },
+        {
+          "word": " ليلو",
+          "start": 65.81,
+          "end": 67.19,
+          "probability": 0.429
+        },
+        {
+          "word": " اللم",
+          "start": 67.19,
+          "end": 67.95,
+          "probability": 0.612
+        }
+      ]
+    },
+    {
+      "start": 67.95,
+      "end": 71.31,
+      "text": "قجر بابس متاتين ورقولال",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " قجر",
+          "start": 67.95,
+          "end": 68.63,
+          "probability": 0.47
+        },
+        {
+          "word": " بابس",
+          "start": 68.63,
+          "end": 69.23,
+          "probability": 0.56
+        },
+        {
+          "word": " متاتين",
+          "start": 69.23,
+          "end": 69.91,
+          "probability": 0.35
+        },
+        {
+          "word": " ورقولال",
+          "start": 69.91,
+          "end": 71.31,
+          "probability": 0.388
+        }
+      ]
+    },
+    {
+      "start": 72.01,
+      "end": 73.95,
+      "text": "قبر هي تبق",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " قبر",
+          "start": 71.71,
+          "end": 72.41,
+          "probability": 0.642
+        },
+        {
+          "word": " هي",
+          "start": 72.41,
+          "end": 72.81,
+          "probability": 0.197
+        },
+        {
+          "word": " تبق",
+          "start": 72.81,
+          "end": 73.95,
+          "probability": 0.814
+        }
+      ]
+    },
+    {
+      "start": 73.95,
+      "end": 76.87,
+      "text": "فكرة ملقات بزوري عيال",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " فكرة",
+          "start": 73.95,
+          "end": 74.77,
+          "probability": 0.622
+        },
+        {
+          "word": " ملقات",
+          "start": 74.77,
+          "end": 75.57,
+          "probability": 0.492
+        },
+        {
+          "word": " بزوري",
+          "start": 75.57,
+          "end": 76.31,
+          "probability": 0.545
+        },
+        {
+          "word": " عيال",
+          "start": 76.31,
+          "end": 76.87,
+          "probability": 0.666
+        }
+      ]
+    },
+    {
+      "start": 76.87,
+      "end": 77.99,
+      "text": "لوت موت",
+      "avgLogprob": -0.787,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.627,
+      "words": [
+        {
+          "word": " لوت",
+          "start": 76.87,
+          "end": 77.71,
+          "probability": 0.409
+        },
+        {
+          "word": " موت",
+          "start": 77.71,
+          "end": 77.99,
+          "probability": 0.349
+        }
+      ]
+    },
+    {
+      "start": 105.02,
+      "end": 106.2,
+      "text": "ورعي تالي",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " ورعي",
+          "start": 105.02,
+          "end": 105.36,
+          "probability": 0.211
+        },
+        {
+          "word": " تالي",
+          "start": 105.36,
+          "end": 106.2,
+          "probability": 0.402
+        }
+      ]
+    },
+    {
+      "start": 107.02,
+      "end": 108.78,
+      "text": "حلو نبن تالي",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " حلو",
+          "start": 106.74,
+          "end": 107.44,
+          "probability": 0.251
+        },
+        {
+          "word": " نبن",
+          "start": 107.44,
+          "end": 107.8,
+          "probability": 0.455
+        },
+        {
+          "word": " تالي",
+          "start": 107.8,
+          "end": 108.78,
+          "probability": 0.381
+        }
+      ]
+    },
+    {
+      "start": 108.78,
+      "end": 109.84,
+      "text": "نتبكي",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " نتبكي",
+          "start": 108.78,
+          "end": 109.84,
+          "probability": 0.53
+        }
+      ]
+    },
+    {
+      "start": 109.84,
+      "end": 112.18,
+      "text": "يا زمتب تالي",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " يا",
+          "start": 109.84,
+          "end": 110.2,
+          "probability": 0.352
+        },
+        {
+          "word": " زمتب",
+          "start": 110.2,
+          "end": 110.84,
+          "probability": 0.515
+        },
+        {
+          "word": " تالي",
+          "start": 110.84,
+          "end": 112.18,
+          "probability": 0.536
+        }
+      ]
+    },
+    {
+      "start": 112.18,
+      "end": 115.58,
+      "text": "حالي ندين",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " حالي",
+          "start": 112.18,
+          "end": 113.36,
+          "probability": 0.326
+        },
+        {
+          "word": " ندين",
+          "start": 113.36,
+          "end": 115.58,
+          "probability": 0.647
+        }
+      ]
+    },
+    {
+      "start": 115.58,
+      "end": 118.06,
+      "text": "ببراها وفترسين",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " ببراها",
+          "start": 115.58,
+          "end": 117.0,
+          "probability": 0.349
+        },
+        {
+          "word": " وفترسين",
+          "start": 117.0,
+          "end": 118.06,
+          "probability": 0.482
+        }
+      ]
+    },
+    {
+      "start": 118.06,
+      "end": 121.3,
+      "text": "وقاو حالي ندين",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " وقاو",
+          "start": 118.06,
+          "end": 118.72,
+          "probability": 0.415
+        },
+        {
+          "word": " حالي",
+          "start": 118.72,
+          "end": 119.36,
+          "probability": 0.97
+        },
+        {
+          "word": " ندين",
+          "start": 119.36,
+          "end": 121.3,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 122.02,
+      "end": 122.86,
+      "text": "ودتوا",
+      "avgLogprob": -0.788,
+      "compressionRatio": 1.681,
+      "noSpeechProbability": 0.869,
+      "words": [
+        {
+          "word": " ودتوا",
+          "start": 122.02,
+          "end": 122.86,
+          "probability": 0.457
+        }
+      ]
+    },
+    {
+      "start": 150.85,
+      "end": 168.01,
+      "text": "حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث حيث ح",
+      "avgLogprob": -0.064,
+      "compressionRatio": 24.762,
+      "noSpeechProbability": 0.362,
+      "words": [
+        {
+          "word": " حيث",
+          "start": 150.85,
+          "end": 152.25,
+          "probability": 0.184
+        },
+        {
+          "word": " حيث",
+          "start": 152.25,
+          "end": 152.73,
+          "probability": 0.426
+        },
+        {
+          "word": " حيث",
+          "start": 152.73,
+          "end": 152.77,
+          "probability": 0.641
+        },
+        {
+          "word": " حيث",
+          "start": 152.77,
+          "end": 153.47,
+          "probability": 0.711
+        },
+        {
+          "word": " حيث",
+          "start": 153.47,
+          "end": 156.23,
+          "probability": 0.875
+        },
+        {
+          "word": " حيث",
+          "start": 156.23,
+          "end": 159.35,
+          "probability": 0.929
+        },
+        {
+          "word": " حيث",
+          "start": 159.35,
+          "end": 163.03,
+          "probability": 0.963
+        },
+        {
+          "word": " حيث",
+          "start": 163.03,
+          "end": 163.13,
+          "probability": 0.973
+        },
+        {
+          "word": " حيث",
+          "start": 163.13,
+          "end": 163.71,
+          "probability": 0.973
+        },
+        {
+          "word": " حيث",
+          "start": 163.71,
+          "end": 165.39,
+          "probability": 0.976
+        },
+        {
+          "word": " حيث",
+          "start": 165.39,
+          "end": 165.69,
+          "probability": 0.979
+        },
+        {
+          "word": " حيث",
+          "start": 165.69,
+          "end": 165.69,
+          "probability": 0.981
+        },
+        {
+          "word": " حيث",
+          "start": 165.69,
+          "end": 166.61,
+          "probability": 0.979
+        },
+        {
+          "word": " حيث",
+          "start": 166.61,
+          "end": 168.01,
+          "probability": 0.982
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.983
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.983
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.984
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.984
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.985
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.985
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.986
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.986
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.986
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.987
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.988
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.989
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.99
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.99
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.992
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.993
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.994
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.995
+        },
+        {
+          "word": " حيث",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.995
+        },
+        {
+          "word": " ح",
+          "start": 168.01,
+          "end": 168.01,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 167.99,
+      "end": 167.99,
+      "text": "",
+      "avgLogprob": -0.103,
+      "compressionRatio": 23.278,
+      "noSpeechProbability": 0.783,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.718,
+    "wordCount": 51,
+    "credibleWordCount": 45,
+    "segmentCount": 14,
+    "averageWordProbability": 0.503,
+    "vocalSeconds": 34.52,
+    "scanCoverage": 0.35,
+    "reviewRequired": true
+  }
+}

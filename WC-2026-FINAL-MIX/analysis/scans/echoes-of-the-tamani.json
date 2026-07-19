@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 76,
+  "id": "../VOLHOLLA/song-congregation-06.html",
+  "slug": "echoes-of-the-tamani",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      7.21,
+      25.21
+    ],
+    [
+      28.82,
+      46.82
+    ],
+    [
+      50.44,
+      68.44
+    ],
+    [
+      72.06,
+      90.06
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.62,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.666,
+    "reviewRequired": true
+  }
+}

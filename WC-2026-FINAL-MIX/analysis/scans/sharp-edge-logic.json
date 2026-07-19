@@ -1,0 +1,394 @@
+{
+  "analysisVersion": 1,
+  "index": 62,
+  "id": "../VOLHOLLA/song-executable-07.html",
+  "slug": "sharp-edge-logic",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Look at them rise Look at them fall See it, oh, clearly One small X Shopping up to fill a big tree One small X Shopping up to set us all free To set us all free, one small ex One small ex Let it die Timber",
+  "sampledRanges": [
+    [
+      20.97,
+      38.97
+    ],
+    [
+      83.88,
+      101.88
+    ],
+    [
+      146.79,
+      164.79
+    ],
+    [
+      209.7,
+      227.7
+    ]
+  ],
+  "segments": [
+    {
+      "start": 20.97,
+      "end": 27.61,
+      "text": "Look at them rise Look at them fall See it, oh, clearly",
+      "avgLogprob": -0.551,
+      "compressionRatio": 1.484,
+      "noSpeechProbability": 0.686,
+      "words": [
+        {
+          "word": " Look",
+          "start": 20.97,
+          "end": 21.35,
+          "probability": 0.219
+        },
+        {
+          "word": " at",
+          "start": 21.35,
+          "end": 21.59,
+          "probability": 0.989
+        },
+        {
+          "word": " them",
+          "start": 21.59,
+          "end": 21.91,
+          "probability": 0.923
+        },
+        {
+          "word": " rise",
+          "start": 21.91,
+          "end": 22.45,
+          "probability": 0.738
+        },
+        {
+          "word": " Look",
+          "start": 22.45,
+          "end": 23.39,
+          "probability": 0.454
+        },
+        {
+          "word": " at",
+          "start": 23.39,
+          "end": 23.93,
+          "probability": 0.997
+        },
+        {
+          "word": " them",
+          "start": 23.93,
+          "end": 24.23,
+          "probability": 0.994
+        },
+        {
+          "word": " fall",
+          "start": 24.23,
+          "end": 24.71,
+          "probability": 0.952
+        },
+        {
+          "word": " See",
+          "start": 24.71,
+          "end": 25.79,
+          "probability": 0.793
+        },
+        {
+          "word": " it,",
+          "start": 25.79,
+          "end": 26.43,
+          "probability": 0.939
+        },
+        {
+          "word": " oh,",
+          "start": 26.45,
+          "end": 26.55,
+          "probability": 0.251
+        },
+        {
+          "word": " clearly",
+          "start": 26.67,
+          "end": 27.61,
+          "probability": 0.447
+        }
+      ]
+    },
+    {
+      "start": 29.75,
+      "end": 34.39,
+      "text": "One small X Shopping up to fill a big tree",
+      "avgLogprob": -0.551,
+      "compressionRatio": 1.484,
+      "noSpeechProbability": 0.686,
+      "words": [
+        {
+          "word": " One",
+          "start": 29.75,
+          "end": 30.45,
+          "probability": 0.69
+        },
+        {
+          "word": " small",
+          "start": 30.45,
+          "end": 31.15,
+          "probability": 0.955
+        },
+        {
+          "word": " X",
+          "start": 31.15,
+          "end": 31.73,
+          "probability": 0.22
+        },
+        {
+          "word": " Shopping",
+          "start": 31.73,
+          "end": 32.85,
+          "probability": 0.642
+        },
+        {
+          "word": " up",
+          "start": 32.85,
+          "end": 33.03,
+          "probability": 0.976
+        },
+        {
+          "word": " to",
+          "start": 33.03,
+          "end": 33.23,
+          "probability": 0.947
+        },
+        {
+          "word": " fill",
+          "start": 33.23,
+          "end": 33.43,
+          "probability": 0.24
+        },
+        {
+          "word": " a",
+          "start": 33.43,
+          "end": 33.59,
+          "probability": 0.93
+        },
+        {
+          "word": " big",
+          "start": 33.59,
+          "end": 33.73,
+          "probability": 0.989
+        },
+        {
+          "word": " tree",
+          "start": 33.73,
+          "end": 34.39,
+          "probability": 0.853
+        }
+      ]
+    },
+    {
+      "start": 34.39,
+      "end": 38.69,
+      "text": "One small X Shopping up to set us all free",
+      "avgLogprob": -0.551,
+      "compressionRatio": 1.484,
+      "noSpeechProbability": 0.686,
+      "words": [
+        {
+          "word": " One",
+          "start": 34.39,
+          "end": 35.01,
+          "probability": 0.956
+        },
+        {
+          "word": " small",
+          "start": 35.01,
+          "end": 35.75,
+          "probability": 0.967
+        },
+        {
+          "word": " X",
+          "start": 35.75,
+          "end": 36.55,
+          "probability": 0.973
+        },
+        {
+          "word": " Shopping",
+          "start": 36.55,
+          "end": 37.47,
+          "probability": 0.99
+        },
+        {
+          "word": " up",
+          "start": 37.47,
+          "end": 37.67,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 37.67,
+          "end": 37.87,
+          "probability": 0.994
+        },
+        {
+          "word": " set",
+          "start": 37.87,
+          "end": 38.05,
+          "probability": 0.989
+        },
+        {
+          "word": " us",
+          "start": 38.05,
+          "end": 38.23,
+          "probability": 0.991
+        },
+        {
+          "word": " all",
+          "start": 38.23,
+          "end": 38.39,
+          "probability": 0.938
+        },
+        {
+          "word": " free",
+          "start": 38.39,
+          "end": 38.69,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 83.88,
+      "end": 87.38,
+      "text": "To set us all free, one small ex",
+      "avgLogprob": -0.528,
+      "compressionRatio": 1.105,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " To",
+          "start": 83.88,
+          "end": 84.16,
+          "probability": 0.111
+        },
+        {
+          "word": " set",
+          "start": 84.16,
+          "end": 84.36,
+          "probability": 0.979
+        },
+        {
+          "word": " us",
+          "start": 84.36,
+          "end": 84.56,
+          "probability": 0.852
+        },
+        {
+          "word": " all",
+          "start": 84.56,
+          "end": 84.68,
+          "probability": 0.769
+        },
+        {
+          "word": " free,",
+          "start": 84.68,
+          "end": 85.2,
+          "probability": 1.0
+        },
+        {
+          "word": " one",
+          "start": 85.58,
+          "end": 86.06,
+          "probability": 0.936
+        },
+        {
+          "word": " small",
+          "start": 86.06,
+          "end": 86.7,
+          "probability": 0.96
+        },
+        {
+          "word": " ex",
+          "start": 86.7,
+          "end": 87.38,
+          "probability": 0.644
+        }
+      ]
+    },
+    {
+      "start": 89.36,
+      "end": 93.92,
+      "text": "One small ex",
+      "avgLogprob": -0.528,
+      "compressionRatio": 1.105,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " One",
+          "start": 89.36,
+          "end": 90.5,
+          "probability": 0.318
+        },
+        {
+          "word": " small",
+          "start": 90.5,
+          "end": 91.32,
+          "probability": 0.995
+        },
+        {
+          "word": " ex",
+          "start": 91.32,
+          "end": 93.92,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 93.92,
+      "end": 96.56,
+      "text": "Let it die",
+      "avgLogprob": -0.528,
+      "compressionRatio": 1.105,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " Let",
+          "start": 93.92,
+          "end": 94.54,
+          "probability": 0.037
+        },
+        {
+          "word": " it",
+          "start": 94.54,
+          "end": 94.8,
+          "probability": 0.966
+        },
+        {
+          "word": " die",
+          "start": 94.8,
+          "end": 96.56,
+          "probability": 0.6
+        }
+      ]
+    },
+    {
+      "start": 99.3,
+      "end": 100.44,
+      "text": "Timber",
+      "avgLogprob": -0.528,
+      "compressionRatio": 1.105,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " Timber",
+          "start": 99.3,
+          "end": 100.44,
+          "probability": 0.583
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.845,
+    "wordCount": 47,
+    "credibleWordCount": 40,
+    "segmentCount": 7,
+    "averageWordProbability": 0.78,
+    "vocalSeconds": 27.42,
+    "scanCoverage": 0.257,
+    "reviewRequired": false
+  }
+}

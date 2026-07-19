@@ -1,0 +1,1376 @@
+{
+  "analysisVersion": 1,
+  "index": 28,
+  "id": "../VOLHOLLA/song-unpatchedglitch-15.html",
+  "slug": "velvet-gate-panic",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "They said destroy I I from the prestige stage crowd roared back like a will train page Everybody braven the ceremony your life while the campus tech stack homes all night. That's filthy gay panic That's old fear manning. That's please keep polish expensive in academic. They don't hate short Machine steam fun his different with the lights have paid fun his different when your boss wants 10 May You got time to wander lovely eye clap somebody else got three jobs in an out somebody else got a deadline swarm in a manager calling panic The norm so don't be friction like it's This right click the grammar was a guard dog syntax was a fence mere walk alone in charge the mission since then the machine walked in with a bar Roll tie Fixed the commas made the margins fly first-gen mind with the thesis inside not a old guard calls the polish a lie Funny house standard With decals it's so flan This is not any learning Learning needs a spine But learning without access Is the life of trying Who's the stronger the gate does Who's the stronger the",
+  "sampledRanges": [
+    [
+      20.0,
+      38.0
+    ],
+    [
+      80.02,
+      98.02
+    ],
+    [
+      140.03,
+      158.03
+    ],
+    [
+      200.04,
+      218.04
+    ]
+  ],
+  "segments": [
+    {
+      "start": 20.3,
+      "end": 26.32,
+      "text": "They said destroy I I from the prestige stage crowd roared back like a will train page",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.47,
+      "noSpeechProbability": 0.59,
+      "words": [
+        {
+          "word": " They",
+          "start": 20.3,
+          "end": 20.9,
+          "probability": 0.102
+        },
+        {
+          "word": " said",
+          "start": 20.9,
+          "end": 21.1,
+          "probability": 0.742
+        },
+        {
+          "word": " destroy",
+          "start": 21.1,
+          "end": 21.48,
+          "probability": 0.926
+        },
+        {
+          "word": " I",
+          "start": 21.48,
+          "end": 21.9,
+          "probability": 0.399
+        },
+        {
+          "word": " I",
+          "start": 21.9,
+          "end": 22.18,
+          "probability": 0.189
+        },
+        {
+          "word": " from",
+          "start": 22.18,
+          "end": 22.44,
+          "probability": 0.832
+        },
+        {
+          "word": " the",
+          "start": 22.44,
+          "end": 22.58,
+          "probability": 0.972
+        },
+        {
+          "word": " prestige",
+          "start": 22.58,
+          "end": 22.92,
+          "probability": 0.923
+        },
+        {
+          "word": " stage",
+          "start": 22.92,
+          "end": 23.72,
+          "probability": 0.93
+        },
+        {
+          "word": " crowd",
+          "start": 23.72,
+          "end": 24.22,
+          "probability": 0.549
+        },
+        {
+          "word": " roared",
+          "start": 24.22,
+          "end": 24.66,
+          "probability": 0.503
+        },
+        {
+          "word": " back",
+          "start": 24.66,
+          "end": 24.86,
+          "probability": 0.621
+        },
+        {
+          "word": " like",
+          "start": 24.86,
+          "end": 25.1,
+          "probability": 0.944
+        },
+        {
+          "word": " a",
+          "start": 25.1,
+          "end": 25.26,
+          "probability": 0.992
+        },
+        {
+          "word": " will",
+          "start": 25.26,
+          "end": 25.38,
+          "probability": 0.374
+        },
+        {
+          "word": " train",
+          "start": 25.38,
+          "end": 25.74,
+          "probability": 0.849
+        },
+        {
+          "word": " page",
+          "start": 25.74,
+          "end": 26.32,
+          "probability": 0.928
+        }
+      ]
+    },
+    {
+      "start": 26.32,
+      "end": 32.66,
+      "text": "Everybody braven the ceremony your life while the campus tech stack homes all night. That's filthy gay panic",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.47,
+      "noSpeechProbability": 0.59,
+      "words": [
+        {
+          "word": " Everybody",
+          "start": 26.32,
+          "end": 27.02,
+          "probability": 0.864
+        },
+        {
+          "word": " braven",
+          "start": 27.02,
+          "end": 27.6,
+          "probability": 0.561
+        },
+        {
+          "word": " the",
+          "start": 27.6,
+          "end": 27.74,
+          "probability": 0.568
+        },
+        {
+          "word": " ceremony",
+          "start": 27.74,
+          "end": 28.02,
+          "probability": 0.799
+        },
+        {
+          "word": " your",
+          "start": 28.02,
+          "end": 28.38,
+          "probability": 0.223
+        },
+        {
+          "word": " life",
+          "start": 28.38,
+          "end": 28.76,
+          "probability": 0.419
+        },
+        {
+          "word": " while",
+          "start": 28.76,
+          "end": 29.1,
+          "probability": 0.47
+        },
+        {
+          "word": " the",
+          "start": 29.1,
+          "end": 29.2,
+          "probability": 0.978
+        },
+        {
+          "word": " campus",
+          "start": 29.2,
+          "end": 29.5,
+          "probability": 0.763
+        },
+        {
+          "word": " tech",
+          "start": 29.5,
+          "end": 29.8,
+          "probability": 0.709
+        },
+        {
+          "word": " stack",
+          "start": 29.8,
+          "end": 30.16,
+          "probability": 0.833
+        },
+        {
+          "word": " homes",
+          "start": 30.16,
+          "end": 30.62,
+          "probability": 0.769
+        },
+        {
+          "word": " all",
+          "start": 30.62,
+          "end": 30.9,
+          "probability": 0.951
+        },
+        {
+          "word": " night.",
+          "start": 30.9,
+          "end": 31.26,
+          "probability": 0.996
+        },
+        {
+          "word": " That's",
+          "start": 31.34,
+          "end": 31.66,
+          "probability": 0.967
+        },
+        {
+          "word": " filthy",
+          "start": 31.66,
+          "end": 31.9,
+          "probability": 0.26
+        },
+        {
+          "word": " gay",
+          "start": 31.9,
+          "end": 32.18,
+          "probability": 0.813
+        },
+        {
+          "word": " panic",
+          "start": 32.18,
+          "end": 32.66,
+          "probability": 0.498
+        }
+      ]
+    },
+    {
+      "start": 32.66,
+      "end": 37.84,
+      "text": "That's old fear manning. That's please keep polish expensive in academic. They don't hate short",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.47,
+      "noSpeechProbability": 0.59,
+      "words": [
+        {
+          "word": " That's",
+          "start": 32.66,
+          "end": 33.1,
+          "probability": 0.596
+        },
+        {
+          "word": " old",
+          "start": 33.1,
+          "end": 33.24,
+          "probability": 0.489
+        },
+        {
+          "word": " fear",
+          "start": 33.24,
+          "end": 33.52,
+          "probability": 0.957
+        },
+        {
+          "word": " manning.",
+          "start": 33.52,
+          "end": 34.04,
+          "probability": 0.557
+        },
+        {
+          "word": " That's",
+          "start": 34.14,
+          "end": 34.38,
+          "probability": 0.63
+        },
+        {
+          "word": " please",
+          "start": 34.38,
+          "end": 34.52,
+          "probability": 0.852
+        },
+        {
+          "word": " keep",
+          "start": 34.52,
+          "end": 34.82,
+          "probability": 0.982
+        },
+        {
+          "word": " polish",
+          "start": 34.82,
+          "end": 35.12,
+          "probability": 0.12
+        },
+        {
+          "word": " expensive",
+          "start": 35.12,
+          "end": 35.48,
+          "probability": 0.755
+        },
+        {
+          "word": " in",
+          "start": 35.48,
+          "end": 35.96,
+          "probability": 0.876
+        },
+        {
+          "word": " academic.",
+          "start": 35.96,
+          "end": 36.36,
+          "probability": 0.834
+        },
+        {
+          "word": " They",
+          "start": 36.52,
+          "end": 37.12,
+          "probability": 0.988
+        },
+        {
+          "word": " don't",
+          "start": 37.12,
+          "end": 37.34,
+          "probability": 0.997
+        },
+        {
+          "word": " hate",
+          "start": 37.34,
+          "end": 37.48,
+          "probability": 0.96
+        },
+        {
+          "word": " short",
+          "start": 37.48,
+          "end": 37.84,
+          "probability": 0.891
+        }
+      ]
+    },
+    {
+      "start": 80.02,
+      "end": 86.5,
+      "text": "Machine steam fun his different with the lights have paid fun his different when your boss wants 10 May",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.59,
+      "noSpeechProbability": 0.676,
+      "words": [
+        {
+          "word": " Machine",
+          "start": 80.02,
+          "end": 80.38,
+          "probability": 0.029
+        },
+        {
+          "word": " steam",
+          "start": 80.38,
+          "end": 81.08,
+          "probability": 0.288
+        },
+        {
+          "word": " fun",
+          "start": 81.08,
+          "end": 81.5,
+          "probability": 0.399
+        },
+        {
+          "word": " his",
+          "start": 81.5,
+          "end": 81.76,
+          "probability": 0.326
+        },
+        {
+          "word": " different",
+          "start": 81.76,
+          "end": 82.16,
+          "probability": 0.949
+        },
+        {
+          "word": " with",
+          "start": 82.16,
+          "end": 82.36,
+          "probability": 0.851
+        },
+        {
+          "word": " the",
+          "start": 82.36,
+          "end": 82.54,
+          "probability": 0.983
+        },
+        {
+          "word": " lights",
+          "start": 82.54,
+          "end": 82.78,
+          "probability": 0.937
+        },
+        {
+          "word": " have",
+          "start": 82.78,
+          "end": 83.1,
+          "probability": 0.821
+        },
+        {
+          "word": " paid",
+          "start": 83.1,
+          "end": 83.64,
+          "probability": 0.83
+        },
+        {
+          "word": " fun",
+          "start": 83.64,
+          "end": 84.18,
+          "probability": 0.613
+        },
+        {
+          "word": " his",
+          "start": 84.18,
+          "end": 84.42,
+          "probability": 0.766
+        },
+        {
+          "word": " different",
+          "start": 84.42,
+          "end": 84.82,
+          "probability": 0.927
+        },
+        {
+          "word": " when",
+          "start": 84.82,
+          "end": 85.02,
+          "probability": 0.903
+        },
+        {
+          "word": " your",
+          "start": 85.02,
+          "end": 85.18,
+          "probability": 0.889
+        },
+        {
+          "word": " boss",
+          "start": 85.18,
+          "end": 85.48,
+          "probability": 0.676
+        },
+        {
+          "word": " wants",
+          "start": 85.48,
+          "end": 85.78,
+          "probability": 0.811
+        },
+        {
+          "word": " 10",
+          "start": 85.78,
+          "end": 86.14,
+          "probability": 0.5
+        },
+        {
+          "word": " May",
+          "start": 86.14,
+          "end": 86.5,
+          "probability": 0.569
+        }
+      ]
+    },
+    {
+      "start": 86.5,
+      "end": 95.8,
+      "text": "You got time to wander lovely eye clap somebody else got three jobs in an out somebody else got a deadline swarm in a manager calling panic",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.59,
+      "noSpeechProbability": 0.676,
+      "words": [
+        {
+          "word": " You",
+          "start": 86.5,
+          "end": 87.06,
+          "probability": 0.27
+        },
+        {
+          "word": " got",
+          "start": 87.06,
+          "end": 87.2,
+          "probability": 0.945
+        },
+        {
+          "word": " time",
+          "start": 87.2,
+          "end": 87.46,
+          "probability": 0.988
+        },
+        {
+          "word": " to",
+          "start": 87.46,
+          "end": 87.6,
+          "probability": 0.992
+        },
+        {
+          "word": " wander",
+          "start": 87.6,
+          "end": 87.94,
+          "probability": 0.722
+        },
+        {
+          "word": " lovely",
+          "start": 87.94,
+          "end": 88.56,
+          "probability": 0.745
+        },
+        {
+          "word": " eye",
+          "start": 88.56,
+          "end": 88.82,
+          "probability": 0.472
+        },
+        {
+          "word": " clap",
+          "start": 88.82,
+          "end": 89.16,
+          "probability": 0.266
+        },
+        {
+          "word": " somebody",
+          "start": 89.16,
+          "end": 89.76,
+          "probability": 0.64
+        },
+        {
+          "word": " else",
+          "start": 89.76,
+          "end": 90.08,
+          "probability": 0.986
+        },
+        {
+          "word": " got",
+          "start": 90.08,
+          "end": 90.24,
+          "probability": 0.954
+        },
+        {
+          "word": " three",
+          "start": 90.24,
+          "end": 90.52,
+          "probability": 0.95
+        },
+        {
+          "word": " jobs",
+          "start": 90.52,
+          "end": 90.88,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 90.88,
+          "end": 91.1,
+          "probability": 0.66
+        },
+        {
+          "word": " an",
+          "start": 91.1,
+          "end": 91.24,
+          "probability": 0.448
+        },
+        {
+          "word": " out",
+          "start": 91.24,
+          "end": 91.56,
+          "probability": 0.497
+        },
+        {
+          "word": " somebody",
+          "start": 91.56,
+          "end": 92.36,
+          "probability": 0.617
+        },
+        {
+          "word": " else",
+          "start": 92.36,
+          "end": 92.8,
+          "probability": 0.967
+        },
+        {
+          "word": " got",
+          "start": 92.8,
+          "end": 93.02,
+          "probability": 0.693
+        },
+        {
+          "word": " a",
+          "start": 93.02,
+          "end": 93.16,
+          "probability": 0.99
+        },
+        {
+          "word": " deadline",
+          "start": 93.16,
+          "end": 93.74,
+          "probability": 0.432
+        },
+        {
+          "word": " swarm",
+          "start": 93.74,
+          "end": 94.22,
+          "probability": 0.888
+        },
+        {
+          "word": " in",
+          "start": 94.22,
+          "end": 94.44,
+          "probability": 0.733
+        },
+        {
+          "word": " a",
+          "start": 94.44,
+          "end": 94.56,
+          "probability": 0.83
+        },
+        {
+          "word": " manager",
+          "start": 94.56,
+          "end": 94.98,
+          "probability": 0.955
+        },
+        {
+          "word": " calling",
+          "start": 94.98,
+          "end": 95.44,
+          "probability": 0.899
+        },
+        {
+          "word": " panic",
+          "start": 95.44,
+          "end": 95.8,
+          "probability": 0.945
+        }
+      ]
+    },
+    {
+      "start": 95.8,
+      "end": 97.94,
+      "text": "The norm so don't be friction like it's",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.59,
+      "noSpeechProbability": 0.676,
+      "words": [
+        {
+          "word": " The",
+          "start": 95.8,
+          "end": 96.06,
+          "probability": 0.06
+        },
+        {
+          "word": " norm",
+          "start": 96.06,
+          "end": 96.54,
+          "probability": 0.025
+        },
+        {
+          "word": " so",
+          "start": 96.54,
+          "end": 96.9,
+          "probability": 0.802
+        },
+        {
+          "word": " don't",
+          "start": 96.9,
+          "end": 97.12,
+          "probability": 0.983
+        },
+        {
+          "word": " be",
+          "start": 97.12,
+          "end": 97.22,
+          "probability": 0.93
+        },
+        {
+          "word": " friction",
+          "start": 97.22,
+          "end": 97.52,
+          "probability": 0.364
+        },
+        {
+          "word": " like",
+          "start": 97.52,
+          "end": 97.72,
+          "probability": 0.873
+        },
+        {
+          "word": " it's",
+          "start": 97.72,
+          "end": 97.94,
+          "probability": 0.745
+        }
+      ]
+    },
+    {
+      "start": 140.03,
+      "end": 148.19,
+      "text": "This right click the grammar was a guard dog syntax was a fence mere walk alone in charge the mission since then the machine walked in with a bar",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.576,
+      "noSpeechProbability": 0.643,
+      "words": [
+        {
+          "word": " This",
+          "start": 140.03,
+          "end": 140.21,
+          "probability": 0.027
+        },
+        {
+          "word": " right",
+          "start": 140.21,
+          "end": 140.39,
+          "probability": 0.361
+        },
+        {
+          "word": " click",
+          "start": 140.39,
+          "end": 140.83,
+          "probability": 0.825
+        },
+        {
+          "word": " the",
+          "start": 140.83,
+          "end": 141.17,
+          "probability": 0.676
+        },
+        {
+          "word": " grammar",
+          "start": 141.17,
+          "end": 141.45,
+          "probability": 0.667
+        },
+        {
+          "word": " was",
+          "start": 141.45,
+          "end": 141.71,
+          "probability": 0.965
+        },
+        {
+          "word": " a",
+          "start": 141.71,
+          "end": 141.85,
+          "probability": 0.94
+        },
+        {
+          "word": " guard",
+          "start": 141.85,
+          "end": 142.09,
+          "probability": 0.959
+        },
+        {
+          "word": " dog",
+          "start": 142.09,
+          "end": 142.47,
+          "probability": 0.917
+        },
+        {
+          "word": " syntax",
+          "start": 142.47,
+          "end": 142.79,
+          "probability": 0.682
+        },
+        {
+          "word": " was",
+          "start": 142.79,
+          "end": 143.05,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 143.05,
+          "end": 143.21,
+          "probability": 0.583
+        },
+        {
+          "word": " fence",
+          "start": 143.21,
+          "end": 143.61,
+          "probability": 0.799
+        },
+        {
+          "word": " mere",
+          "start": 143.61,
+          "end": 144.11,
+          "probability": 0.382
+        },
+        {
+          "word": " walk",
+          "start": 144.11,
+          "end": 144.41,
+          "probability": 0.338
+        },
+        {
+          "word": " alone",
+          "start": 144.41,
+          "end": 144.71,
+          "probability": 0.953
+        },
+        {
+          "word": " in",
+          "start": 144.71,
+          "end": 145.03,
+          "probability": 0.722
+        },
+        {
+          "word": " charge",
+          "start": 145.03,
+          "end": 145.31,
+          "probability": 0.954
+        },
+        {
+          "word": " the",
+          "start": 145.31,
+          "end": 145.51,
+          "probability": 0.36
+        },
+        {
+          "word": " mission",
+          "start": 145.51,
+          "end": 145.77,
+          "probability": 0.91
+        },
+        {
+          "word": " since",
+          "start": 145.77,
+          "end": 146.17,
+          "probability": 0.666
+        },
+        {
+          "word": " then",
+          "start": 146.17,
+          "end": 146.37,
+          "probability": 0.759
+        },
+        {
+          "word": " the",
+          "start": 146.37,
+          "end": 146.51,
+          "probability": 0.952
+        },
+        {
+          "word": " machine",
+          "start": 146.51,
+          "end": 146.95,
+          "probability": 0.911
+        },
+        {
+          "word": " walked",
+          "start": 146.95,
+          "end": 147.45,
+          "probability": 0.9
+        },
+        {
+          "word": " in",
+          "start": 147.45,
+          "end": 147.69,
+          "probability": 0.986
+        },
+        {
+          "word": " with",
+          "start": 147.69,
+          "end": 147.85,
+          "probability": 0.983
+        },
+        {
+          "word": " a",
+          "start": 147.85,
+          "end": 147.99,
+          "probability": 0.857
+        },
+        {
+          "word": " bar",
+          "start": 147.99,
+          "end": 148.19,
+          "probability": 0.197
+        }
+      ]
+    },
+    {
+      "start": 148.19,
+      "end": 148.79,
+      "text": "Roll tie",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.576,
+      "noSpeechProbability": 0.643,
+      "words": [
+        {
+          "word": " Roll",
+          "start": 148.19,
+          "end": 148.41,
+          "probability": 0.002
+        },
+        {
+          "word": " tie",
+          "start": 148.41,
+          "end": 148.79,
+          "probability": 0.306
+        }
+      ]
+    },
+    {
+      "start": 148.79,
+      "end": 156.63,
+      "text": "Fixed the commas made the margins fly first-gen mind with the thesis inside not a old guard calls the polish a lie",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.576,
+      "noSpeechProbability": 0.643,
+      "words": [
+        {
+          "word": " Fixed",
+          "start": 148.79,
+          "end": 149.51,
+          "probability": 0.264
+        },
+        {
+          "word": " the",
+          "start": 149.51,
+          "end": 149.51,
+          "probability": 0.914
+        },
+        {
+          "word": " commas",
+          "start": 149.51,
+          "end": 150.07,
+          "probability": 0.724
+        },
+        {
+          "word": " made",
+          "start": 150.07,
+          "end": 150.47,
+          "probability": 0.889
+        },
+        {
+          "word": " the",
+          "start": 150.47,
+          "end": 150.63,
+          "probability": 0.99
+        },
+        {
+          "word": " margins",
+          "start": 150.63,
+          "end": 150.97,
+          "probability": 0.807
+        },
+        {
+          "word": " fly",
+          "start": 150.97,
+          "end": 151.37,
+          "probability": 0.984
+        },
+        {
+          "word": " first",
+          "start": 151.37,
+          "end": 152.09,
+          "probability": 0.574
+        },
+        {
+          "word": "-gen",
+          "start": 152.09,
+          "end": 152.37,
+          "probability": 0.535
+        },
+        {
+          "word": " mind",
+          "start": 152.37,
+          "end": 152.75,
+          "probability": 0.474
+        },
+        {
+          "word": " with",
+          "start": 152.75,
+          "end": 152.99,
+          "probability": 0.957
+        },
+        {
+          "word": " the",
+          "start": 152.99,
+          "end": 153.11,
+          "probability": 0.943
+        },
+        {
+          "word": " thesis",
+          "start": 153.11,
+          "end": 153.41,
+          "probability": 0.881
+        },
+        {
+          "word": " inside",
+          "start": 153.41,
+          "end": 153.99,
+          "probability": 0.944
+        },
+        {
+          "word": " not",
+          "start": 153.99,
+          "end": 154.63,
+          "probability": 0.456
+        },
+        {
+          "word": " a",
+          "start": 154.63,
+          "end": 154.77,
+          "probability": 0.581
+        },
+        {
+          "word": " old",
+          "start": 154.77,
+          "end": 155.03,
+          "probability": 0.902
+        },
+        {
+          "word": " guard",
+          "start": 155.03,
+          "end": 155.35,
+          "probability": 0.94
+        },
+        {
+          "word": " calls",
+          "start": 155.35,
+          "end": 155.67,
+          "probability": 0.55
+        },
+        {
+          "word": " the",
+          "start": 155.67,
+          "end": 155.81,
+          "probability": 0.843
+        },
+        {
+          "word": " polish",
+          "start": 155.81,
+          "end": 156.13,
+          "probability": 0.758
+        },
+        {
+          "word": " a",
+          "start": 156.13,
+          "end": 156.31,
+          "probability": 0.404
+        },
+        {
+          "word": " lie",
+          "start": 156.31,
+          "end": 156.63,
+          "probability": 0.791
+        }
+      ]
+    },
+    {
+      "start": 156.63,
+      "end": 157.91,
+      "text": "Funny house standard",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.576,
+      "noSpeechProbability": 0.643,
+      "words": [
+        {
+          "word": " Funny",
+          "start": 156.63,
+          "end": 157.29,
+          "probability": 0.121
+        },
+        {
+          "word": " house",
+          "start": 157.29,
+          "end": 157.63,
+          "probability": 0.679
+        },
+        {
+          "word": " standard",
+          "start": 157.63,
+          "end": 157.91,
+          "probability": 0.415
+        }
+      ]
+    },
+    {
+      "start": 200.04,
+      "end": 201.98,
+      "text": "With decals it's so flan",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " With",
+          "start": 200.04,
+          "end": 200.3,
+          "probability": 0.117
+        },
+        {
+          "word": " decals",
+          "start": 200.3,
+          "end": 200.64,
+          "probability": 0.557
+        },
+        {
+          "word": " it's",
+          "start": 200.64,
+          "end": 201.02,
+          "probability": 0.764
+        },
+        {
+          "word": " so",
+          "start": 201.02,
+          "end": 201.12,
+          "probability": 0.974
+        },
+        {
+          "word": " flan",
+          "start": 201.12,
+          "end": 201.98,
+          "probability": 0.196
+        }
+      ]
+    },
+    {
+      "start": 202.6,
+      "end": 204.26,
+      "text": "This is not any learning",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " This",
+          "start": 202.6,
+          "end": 203.12,
+          "probability": 0.672
+        },
+        {
+          "word": " is",
+          "start": 203.12,
+          "end": 203.24,
+          "probability": 0.984
+        },
+        {
+          "word": " not",
+          "start": 203.24,
+          "end": 203.44,
+          "probability": 0.764
+        },
+        {
+          "word": " any",
+          "start": 203.44,
+          "end": 203.78,
+          "probability": 0.68
+        },
+        {
+          "word": " learning",
+          "start": 203.78,
+          "end": 204.26,
+          "probability": 0.872
+        }
+      ]
+    },
+    {
+      "start": 205.06,
+      "end": 207.8,
+      "text": "Learning needs a spine",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " Learning",
+          "start": 205.06,
+          "end": 205.86,
+          "probability": 0.79
+        },
+        {
+          "word": " needs",
+          "start": 205.86,
+          "end": 206.32,
+          "probability": 0.946
+        },
+        {
+          "word": " a",
+          "start": 206.32,
+          "end": 206.42,
+          "probability": 0.562
+        },
+        {
+          "word": " spine",
+          "start": 206.42,
+          "end": 207.8,
+          "probability": 0.738
+        }
+      ]
+    },
+    {
+      "start": 207.8,
+      "end": 210.14,
+      "text": "But learning without access",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " But",
+          "start": 207.8,
+          "end": 208.26,
+          "probability": 0.582
+        },
+        {
+          "word": " learning",
+          "start": 208.26,
+          "end": 208.54,
+          "probability": 0.994
+        },
+        {
+          "word": " without",
+          "start": 208.54,
+          "end": 209.12,
+          "probability": 0.665
+        },
+        {
+          "word": " access",
+          "start": 209.12,
+          "end": 210.14,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 210.84,
+      "end": 212.64,
+      "text": "Is the life of trying",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " Is",
+          "start": 210.7,
+          "end": 211.1,
+          "probability": 0.692
+        },
+        {
+          "word": " the",
+          "start": 211.1,
+          "end": 211.24,
+          "probability": 0.503
+        },
+        {
+          "word": " life",
+          "start": 211.24,
+          "end": 211.54,
+          "probability": 0.955
+        },
+        {
+          "word": " of",
+          "start": 211.54,
+          "end": 211.76,
+          "probability": 0.764
+        },
+        {
+          "word": " trying",
+          "start": 211.76,
+          "end": 212.64,
+          "probability": 0.129
+        }
+      ]
+    },
+    {
+      "start": 213.44,
+      "end": 215.8,
+      "text": "Who's the stronger the gate does",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 213.44,
+          "end": 214.24,
+          "probability": 0.682
+        },
+        {
+          "word": " the",
+          "start": 214.24,
+          "end": 214.32,
+          "probability": 0.194
+        },
+        {
+          "word": " stronger",
+          "start": 214.32,
+          "end": 214.7,
+          "probability": 0.495
+        },
+        {
+          "word": " the",
+          "start": 214.7,
+          "end": 215.26,
+          "probability": 0.739
+        },
+        {
+          "word": " gate",
+          "start": 215.26,
+          "end": 215.52,
+          "probability": 0.785
+        },
+        {
+          "word": " does",
+          "start": 215.52,
+          "end": 215.92,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 216.36,
+      "end": 217.92,
+      "text": "Who's the stronger the",
+      "avgLogprob": -0.662,
+      "compressionRatio": 1.508,
+      "noSpeechProbability": 0.457,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 216.36,
+          "end": 216.86,
+          "probability": 0.546
+        },
+        {
+          "word": " the",
+          "start": 216.86,
+          "end": 216.96,
+          "probability": 0.64
+        },
+        {
+          "word": " stronger",
+          "start": 216.96,
+          "end": 217.36,
+          "probability": 0.904
+        },
+        {
+          "word": " the",
+          "start": 217.36,
+          "end": 217.92,
+          "probability": 0.889
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.858,
+    "wordCount": 194,
+    "credibleWordCount": 171,
+    "segmentCount": 17,
+    "averageWordProbability": 0.704,
+    "vocalSeconds": 67.74,
+    "scanCoverage": 0.269,
+    "reviewRequired": false
+  }
+}

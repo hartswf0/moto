@@ -1,0 +1,748 @@
+{
+  "analysisVersion": 1,
+  "index": 99,
+  "id": "../VOLHOLLA/song-goleyakh-36.html",
+  "slug": "the-nomad-s-razor",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "So send it up out of when it turns to dust My boots are heavy with the secrets of the road The horizon is a razor Then, shall I see the eye? the creek of windows, the wind is hollow, like a broken path ancient. Oh, telling me to wait my fingers trace, the cobblest dreams stay intact, worn out by the miles. The cake drumrolls in the ground. Maybe I'm lost, maybe I'm found, maybe I'm just a ghost, I'm holy ground, I came with nothing, I saw the fire, I left this chain. Take it out, no man, oh",
+  "sampledRanges": [
+    [
+      16.69,
+      34.69
+    ],
+    [
+      66.75,
+      84.75
+    ],
+    [
+      116.8,
+      134.8
+    ],
+    [
+      166.86,
+      184.86
+    ]
+  ],
+  "segments": [
+    {
+      "start": 18.45,
+      "end": 22.67,
+      "text": "So send it up out of when it turns to dust",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " So",
+          "start": 18.45,
+          "end": 19.13,
+          "probability": 0.085
+        },
+        {
+          "word": " send",
+          "start": 19.13,
+          "end": 19.81,
+          "probability": 0.051
+        },
+        {
+          "word": " it",
+          "start": 19.81,
+          "end": 20.27,
+          "probability": 0.523
+        },
+        {
+          "word": " up",
+          "start": 20.27,
+          "end": 20.53,
+          "probability": 0.24
+        },
+        {
+          "word": " out",
+          "start": 20.53,
+          "end": 20.77,
+          "probability": 0.658
+        },
+        {
+          "word": " of",
+          "start": 20.77,
+          "end": 21.05,
+          "probability": 0.912
+        },
+        {
+          "word": " when",
+          "start": 21.05,
+          "end": 21.29,
+          "probability": 0.581
+        },
+        {
+          "word": " it",
+          "start": 21.29,
+          "end": 21.59,
+          "probability": 0.96
+        },
+        {
+          "word": " turns",
+          "start": 21.59,
+          "end": 21.83,
+          "probability": 0.927
+        },
+        {
+          "word": " to",
+          "start": 21.83,
+          "end": 22.11,
+          "probability": 0.948
+        },
+        {
+          "word": " dust",
+          "start": 22.11,
+          "end": 22.67,
+          "probability": 0.938
+        }
+      ]
+    },
+    {
+      "start": 22.67,
+      "end": 26.11,
+      "text": "My boots are heavy with the secrets of the road",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " My",
+          "start": 22.67,
+          "end": 22.97,
+          "probability": 0.52
+        },
+        {
+          "word": " boots",
+          "start": 22.97,
+          "end": 23.21,
+          "probability": 0.927
+        },
+        {
+          "word": " are",
+          "start": 23.21,
+          "end": 23.41,
+          "probability": 0.93
+        },
+        {
+          "word": " heavy",
+          "start": 23.41,
+          "end": 23.71,
+          "probability": 0.675
+        },
+        {
+          "word": " with",
+          "start": 23.71,
+          "end": 24.15,
+          "probability": 0.924
+        },
+        {
+          "word": " the",
+          "start": 24.15,
+          "end": 24.53,
+          "probability": 0.974
+        },
+        {
+          "word": " secrets",
+          "start": 24.53,
+          "end": 25.01,
+          "probability": 0.977
+        },
+        {
+          "word": " of",
+          "start": 25.01,
+          "end": 25.43,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 25.43,
+          "end": 25.73,
+          "probability": 0.996
+        },
+        {
+          "word": " road",
+          "start": 25.73,
+          "end": 26.11,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 26.11,
+      "end": 28.81,
+      "text": "The horizon is a razor",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " The",
+          "start": 26.11,
+          "end": 26.65,
+          "probability": 0.827
+        },
+        {
+          "word": " horizon",
+          "start": 26.65,
+          "end": 27.37,
+          "probability": 0.99
+        },
+        {
+          "word": " is",
+          "start": 27.37,
+          "end": 27.87,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 27.87,
+          "end": 28.03,
+          "probability": 0.879
+        },
+        {
+          "word": " razor",
+          "start": 28.03,
+          "end": 28.81,
+          "probability": 0.911
+        }
+      ]
+    },
+    {
+      "start": 30.13,
+      "end": 34.57,
+      "text": "Then, shall I see the eye?",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " Then,",
+          "start": 30.13,
+          "end": 30.81,
+          "probability": 0.595
+        },
+        {
+          "word": " shall",
+          "start": 32.41,
+          "end": 32.97,
+          "probability": 0.182
+        },
+        {
+          "word": " I",
+          "start": 32.97,
+          "end": 33.83,
+          "probability": 0.955
+        },
+        {
+          "word": " see",
+          "start": 33.83,
+          "end": 34.09,
+          "probability": 0.983
+        },
+        {
+          "word": " the",
+          "start": 34.09,
+          "end": 34.31,
+          "probability": 0.892
+        },
+        {
+          "word": " eye?",
+          "start": 34.31,
+          "end": 34.57,
+          "probability": 0.773
+        }
+      ]
+    },
+    {
+      "start": 66.75,
+      "end": 72.59,
+      "text": "the creek of windows, the wind is hollow, like a broken path ancient.",
+      "avgLogprob": -0.597,
+      "compressionRatio": 1.389,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " the",
+          "start": 66.75,
+          "end": 67.19,
+          "probability": 0.071
+        },
+        {
+          "word": " creek",
+          "start": 67.19,
+          "end": 67.47,
+          "probability": 0.616
+        },
+        {
+          "word": " of",
+          "start": 67.47,
+          "end": 67.85,
+          "probability": 0.94
+        },
+        {
+          "word": " windows,",
+          "start": 67.85,
+          "end": 68.51,
+          "probability": 0.671
+        },
+        {
+          "word": " the",
+          "start": 68.51,
+          "end": 69.11,
+          "probability": 0.774
+        },
+        {
+          "word": " wind",
+          "start": 69.11,
+          "end": 69.27,
+          "probability": 0.815
+        },
+        {
+          "word": " is",
+          "start": 69.27,
+          "end": 69.49,
+          "probability": 0.972
+        },
+        {
+          "word": " hollow,",
+          "start": 69.49,
+          "end": 69.83,
+          "probability": 0.986
+        },
+        {
+          "word": " like",
+          "start": 69.83,
+          "end": 70.47,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 70.47,
+          "end": 70.63,
+          "probability": 0.99
+        },
+        {
+          "word": " broken",
+          "start": 70.63,
+          "end": 71.05,
+          "probability": 0.999
+        },
+        {
+          "word": " path",
+          "start": 71.05,
+          "end": 71.45,
+          "probability": 0.456
+        },
+        {
+          "word": " ancient.",
+          "start": 71.45,
+          "end": 72.59,
+          "probability": 0.329
+        }
+      ]
+    },
+    {
+      "start": 73.95,
+      "end": 81.45,
+      "text": "Oh, telling me to wait my fingers trace, the cobblest dreams stay intact, worn out by the miles.",
+      "avgLogprob": -0.597,
+      "compressionRatio": 1.389,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 73.95,
+          "end": 74.59,
+          "probability": 0.453
+        },
+        {
+          "word": " telling",
+          "start": 74.95,
+          "end": 75.13,
+          "probability": 0.83
+        },
+        {
+          "word": " me",
+          "start": 75.13,
+          "end": 75.49,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 75.49,
+          "end": 75.77,
+          "probability": 0.989
+        },
+        {
+          "word": " wait",
+          "start": 75.77,
+          "end": 76.07,
+          "probability": 0.898
+        },
+        {
+          "word": " my",
+          "start": 76.07,
+          "end": 76.35,
+          "probability": 0.762
+        },
+        {
+          "word": " fingers",
+          "start": 76.35,
+          "end": 76.83,
+          "probability": 0.986
+        },
+        {
+          "word": " trace,",
+          "start": 76.83,
+          "end": 77.31,
+          "probability": 0.551
+        },
+        {
+          "word": " the",
+          "start": 77.53,
+          "end": 77.61,
+          "probability": 0.927
+        },
+        {
+          "word": " cobblest",
+          "start": 77.61,
+          "end": 78.17,
+          "probability": 0.633
+        },
+        {
+          "word": " dreams",
+          "start": 78.17,
+          "end": 78.41,
+          "probability": 0.382
+        },
+        {
+          "word": " stay",
+          "start": 78.41,
+          "end": 78.97,
+          "probability": 0.274
+        },
+        {
+          "word": " intact,",
+          "start": 78.97,
+          "end": 79.71,
+          "probability": 0.511
+        },
+        {
+          "word": " worn",
+          "start": 80.11,
+          "end": 80.25,
+          "probability": 0.949
+        },
+        {
+          "word": " out",
+          "start": 80.25,
+          "end": 80.45,
+          "probability": 0.939
+        },
+        {
+          "word": " by",
+          "start": 80.45,
+          "end": 80.81,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 80.81,
+          "end": 81.03,
+          "probability": 0.933
+        },
+        {
+          "word": " miles.",
+          "start": 81.03,
+          "end": 81.45,
+          "probability": 0.314
+        }
+      ]
+    },
+    {
+      "start": 81.69,
+      "end": 83.83,
+      "text": "The cake drumrolls in the ground.",
+      "avgLogprob": -0.597,
+      "compressionRatio": 1.389,
+      "noSpeechProbability": 0.632,
+      "words": [
+        {
+          "word": " The",
+          "start": 81.69,
+          "end": 81.79,
+          "probability": 0.397
+        },
+        {
+          "word": " cake",
+          "start": 81.79,
+          "end": 81.97,
+          "probability": 0.46
+        },
+        {
+          "word": " drumrolls",
+          "start": 81.97,
+          "end": 82.87,
+          "probability": 0.59
+        },
+        {
+          "word": " in",
+          "start": 82.87,
+          "end": 83.03,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 83.03,
+          "end": 83.35,
+          "probability": 0.994
+        },
+        {
+          "word": " ground.",
+          "start": 83.35,
+          "end": 83.83,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 118.78,
+      "end": 129.56,
+      "text": "Maybe I'm lost, maybe I'm found, maybe I'm just a ghost, I'm holy ground, I came with",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.33,
+      "noSpeechProbability": 0.731,
+      "words": [
+        {
+          "word": " Maybe",
+          "start": 118.78,
+          "end": 119.66,
+          "probability": 0.352
+        },
+        {
+          "word": " I'm",
+          "start": 119.66,
+          "end": 120.3,
+          "probability": 0.574
+        },
+        {
+          "word": " lost,",
+          "start": 120.3,
+          "end": 120.8,
+          "probability": 0.261
+        },
+        {
+          "word": " maybe",
+          "start": 120.82,
+          "end": 121.94,
+          "probability": 0.918
+        },
+        {
+          "word": " I'm",
+          "start": 121.94,
+          "end": 122.54,
+          "probability": 0.724
+        },
+        {
+          "word": " found,",
+          "start": 122.54,
+          "end": 123.06,
+          "probability": 0.92
+        },
+        {
+          "word": " maybe",
+          "start": 123.82,
+          "end": 124.22,
+          "probability": 0.827
+        },
+        {
+          "word": " I'm",
+          "start": 124.22,
+          "end": 124.9,
+          "probability": 0.918
+        },
+        {
+          "word": " just",
+          "start": 124.9,
+          "end": 125.18,
+          "probability": 0.752
+        },
+        {
+          "word": " a",
+          "start": 125.18,
+          "end": 125.54,
+          "probability": 0.925
+        },
+        {
+          "word": " ghost,",
+          "start": 125.54,
+          "end": 125.9,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 126.08,
+          "end": 126.18,
+          "probability": 0.975
+        },
+        {
+          "word": " holy",
+          "start": 126.18,
+          "end": 126.48,
+          "probability": 0.495
+        },
+        {
+          "word": " ground,",
+          "start": 126.48,
+          "end": 127.04,
+          "probability": 0.917
+        },
+        {
+          "word": " I",
+          "start": 128.1,
+          "end": 128.72,
+          "probability": 0.988
+        },
+        {
+          "word": " came",
+          "start": 128.72,
+          "end": 129.1,
+          "probability": 0.988
+        },
+        {
+          "word": " with",
+          "start": 129.1,
+          "end": 129.56,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 129.56,
+      "end": 134.52,
+      "text": "nothing, I saw the fire, I left this chain.",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.33,
+      "noSpeechProbability": 0.731,
+      "words": [
+        {
+          "word": " nothing,",
+          "start": 129.56,
+          "end": 130.2,
+          "probability": 0.874
+        },
+        {
+          "word": " I",
+          "start": 130.94,
+          "end": 131.0,
+          "probability": 0.962
+        },
+        {
+          "word": " saw",
+          "start": 131.0,
+          "end": 131.44,
+          "probability": 0.597
+        },
+        {
+          "word": " the",
+          "start": 131.44,
+          "end": 131.78,
+          "probability": 0.895
+        },
+        {
+          "word": " fire,",
+          "start": 131.78,
+          "end": 132.14,
+          "probability": 0.555
+        },
+        {
+          "word": " I",
+          "start": 133.24,
+          "end": 133.42,
+          "probability": 0.597
+        },
+        {
+          "word": " left",
+          "start": 133.42,
+          "end": 133.92,
+          "probability": 0.973
+        },
+        {
+          "word": " this",
+          "start": 133.92,
+          "end": 134.22,
+          "probability": 0.673
+        },
+        {
+          "word": " chain.",
+          "start": 134.22,
+          "end": 134.52,
+          "probability": 0.377
+        }
+      ]
+    },
+    {
+      "start": 166.9,
+      "end": 174.02,
+      "text": "Take it out, no man, oh",
+      "avgLogprob": -0.95,
+      "compressionRatio": 0.742,
+      "noSpeechProbability": 0.696,
+      "words": [
+        {
+          "word": " Take",
+          "start": 166.9,
+          "end": 168.3,
+          "probability": 0.041
+        },
+        {
+          "word": " it",
+          "start": 168.3,
+          "end": 168.8,
+          "probability": 0.941
+        },
+        {
+          "word": " out,",
+          "start": 168.8,
+          "end": 169.6,
+          "probability": 0.904
+        },
+        {
+          "word": " no",
+          "start": 169.98,
+          "end": 170.68,
+          "probability": 0.542
+        },
+        {
+          "word": " man,",
+          "start": 170.68,
+          "end": 171.36,
+          "probability": 0.636
+        },
+        {
+          "word": " oh",
+          "start": 172.28,
+          "end": 174.02,
+          "probability": 0.551
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.879,
+    "wordCount": 101,
+    "credibleWordCount": 91,
+    "segmentCount": 10,
+    "averageWordProbability": 0.749,
+    "vocalSeconds": 53.14,
+    "scanCoverage": 0.318,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1318 @@
+{
+  "analysisVersion": 1,
+  "index": 53,
+  "id": "../VOLHOLLA/song-betterhands-13.html",
+  "slug": "appliance-prayer",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "told us do not fear the noise noise means it's still working it is the pulse of being here and a house that's breathing even when we're frozen by the year take a minute hear the room every machine is a Some keep fear bright, some keep fear bright Better hands Hold the wire, better hands Lift the fire, what I mean safe What click means gone, what silence means Check the body to the dawn Take a minute, hear the room Every machine has a little tool If you're bright, you're wrenched from cars numbers By coin we could not waste Every appliance had a job, every job And a way to heat it out of the pipes Like somebody asking to come in The buzzer dials this Screamed out in a panic Scratch and phone card numbers By coin we could not waste Every appliance had a job Every job had a worry They heat an ox, the pipes Like somebody asking to come in The buzzer dial stays Screamed out in a penny",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.36,
+      "end": 30.18,
+      "text": "told us do not fear the noise noise means it's still working it is the pulse of being here",
+      "avgLogprob": -0.431,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.54,
+      "words": [
+        {
+          "word": " told",
+          "start": 21.36,
+          "end": 21.58,
+          "probability": 0.067
+        },
+        {
+          "word": " us",
+          "start": 21.58,
+          "end": 21.96,
+          "probability": 0.994
+        },
+        {
+          "word": " do",
+          "start": 21.96,
+          "end": 22.24,
+          "probability": 0.845
+        },
+        {
+          "word": " not",
+          "start": 22.24,
+          "end": 22.52,
+          "probability": 0.992
+        },
+        {
+          "word": " fear",
+          "start": 22.52,
+          "end": 22.86,
+          "probability": 0.347
+        },
+        {
+          "word": " the",
+          "start": 22.86,
+          "end": 23.08,
+          "probability": 0.989
+        },
+        {
+          "word": " noise",
+          "start": 23.08,
+          "end": 24.54,
+          "probability": 0.969
+        },
+        {
+          "word": " noise",
+          "start": 24.54,
+          "end": 25.48,
+          "probability": 0.404
+        },
+        {
+          "word": " means",
+          "start": 25.48,
+          "end": 25.8,
+          "probability": 0.987
+        },
+        {
+          "word": " it's",
+          "start": 25.8,
+          "end": 26.22,
+          "probability": 0.874
+        },
+        {
+          "word": " still",
+          "start": 26.22,
+          "end": 26.44,
+          "probability": 0.967
+        },
+        {
+          "word": " working",
+          "start": 26.44,
+          "end": 27.06,
+          "probability": 0.948
+        },
+        {
+          "word": " it",
+          "start": 27.06,
+          "end": 27.84,
+          "probability": 0.72
+        },
+        {
+          "word": " is",
+          "start": 27.84,
+          "end": 28.08,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 28.08,
+          "end": 28.32,
+          "probability": 0.988
+        },
+        {
+          "word": " pulse",
+          "start": 28.32,
+          "end": 28.68,
+          "probability": 0.909
+        },
+        {
+          "word": " of",
+          "start": 28.68,
+          "end": 28.96,
+          "probability": 0.993
+        },
+        {
+          "word": " being",
+          "start": 28.96,
+          "end": 29.48,
+          "probability": 0.971
+        },
+        {
+          "word": " here",
+          "start": 29.48,
+          "end": 30.18,
+          "probability": 0.961
+        }
+      ]
+    },
+    {
+      "start": 30.18,
+      "end": 36.4,
+      "text": "and a house that's breathing even when we're frozen by the year take a minute",
+      "avgLogprob": -0.431,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.54,
+      "words": [
+        {
+          "word": " and",
+          "start": 30.18,
+          "end": 30.74,
+          "probability": 0.462
+        },
+        {
+          "word": " a",
+          "start": 30.74,
+          "end": 30.96,
+          "probability": 0.699
+        },
+        {
+          "word": " house",
+          "start": 30.96,
+          "end": 31.36,
+          "probability": 0.994
+        },
+        {
+          "word": " that's",
+          "start": 31.36,
+          "end": 31.66,
+          "probability": 0.948
+        },
+        {
+          "word": " breathing",
+          "start": 31.66,
+          "end": 32.06,
+          "probability": 0.966
+        },
+        {
+          "word": " even",
+          "start": 32.06,
+          "end": 32.76,
+          "probability": 0.967
+        },
+        {
+          "word": " when",
+          "start": 32.76,
+          "end": 33.14,
+          "probability": 0.991
+        },
+        {
+          "word": " we're",
+          "start": 33.14,
+          "end": 33.56,
+          "probability": 0.986
+        },
+        {
+          "word": " frozen",
+          "start": 33.56,
+          "end": 34.04,
+          "probability": 0.997
+        },
+        {
+          "word": " by",
+          "start": 34.04,
+          "end": 34.48,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 34.48,
+          "end": 34.76,
+          "probability": 0.996
+        },
+        {
+          "word": " year",
+          "start": 34.76,
+          "end": 35.3,
+          "probability": 0.553
+        },
+        {
+          "word": " take",
+          "start": 35.3,
+          "end": 35.78,
+          "probability": 0.756
+        },
+        {
+          "word": " a",
+          "start": 35.78,
+          "end": 36.02,
+          "probability": 0.616
+        },
+        {
+          "word": " minute",
+          "start": 36.02,
+          "end": 36.4,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 36.4,
+      "end": 39.34,
+      "text": "hear the room every machine is a",
+      "avgLogprob": -0.431,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.54,
+      "words": [
+        {
+          "word": " hear",
+          "start": 36.4,
+          "end": 37.08,
+          "probability": 0.22
+        },
+        {
+          "word": " the",
+          "start": 37.08,
+          "end": 37.34,
+          "probability": 0.995
+        },
+        {
+          "word": " room",
+          "start": 37.34,
+          "end": 37.82,
+          "probability": 0.397
+        },
+        {
+          "word": " every",
+          "start": 37.82,
+          "end": 38.44,
+          "probability": 0.941
+        },
+        {
+          "word": " machine",
+          "start": 38.44,
+          "end": 38.84,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 38.84,
+          "end": 39.34,
+          "probability": 0.803
+        },
+        {
+          "word": " a",
+          "start": 39.34,
+          "end": 39.34,
+          "probability": 0.491
+        }
+      ]
+    },
+    {
+      "start": 85.43,
+      "end": 89.53,
+      "text": "Some keep fear bright, some keep fear bright Better hands",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.553,
+      "noSpeechProbability": 0.725,
+      "words": [
+        {
+          "word": " Some",
+          "start": 85.43,
+          "end": 85.75,
+          "probability": 0.037
+        },
+        {
+          "word": " keep",
+          "start": 85.75,
+          "end": 86.07,
+          "probability": 0.829
+        },
+        {
+          "word": " fear",
+          "start": 86.07,
+          "end": 86.45,
+          "probability": 0.485
+        },
+        {
+          "word": " bright,",
+          "start": 86.45,
+          "end": 86.75,
+          "probability": 0.757
+        },
+        {
+          "word": " some",
+          "start": 86.89,
+          "end": 87.03,
+          "probability": 0.83
+        },
+        {
+          "word": " keep",
+          "start": 87.03,
+          "end": 87.37,
+          "probability": 0.987
+        },
+        {
+          "word": " fear",
+          "start": 87.37,
+          "end": 87.77,
+          "probability": 0.967
+        },
+        {
+          "word": " bright",
+          "start": 87.77,
+          "end": 88.19,
+          "probability": 0.932
+        },
+        {
+          "word": " Better",
+          "start": 88.19,
+          "end": 88.73,
+          "probability": 0.762
+        },
+        {
+          "word": " hands",
+          "start": 88.73,
+          "end": 89.53,
+          "probability": 0.949
+        }
+      ]
+    },
+    {
+      "start": 89.53,
+      "end": 94.41,
+      "text": "Hold the wire, better hands Lift the fire, what I mean safe",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.553,
+      "noSpeechProbability": 0.725,
+      "words": [
+        {
+          "word": " Hold",
+          "start": 89.53,
+          "end": 90.03,
+          "probability": 0.249
+        },
+        {
+          "word": " the",
+          "start": 90.03,
+          "end": 90.25,
+          "probability": 0.936
+        },
+        {
+          "word": " wire,",
+          "start": 90.25,
+          "end": 90.69,
+          "probability": 0.939
+        },
+        {
+          "word": " better",
+          "start": 91.09,
+          "end": 91.23,
+          "probability": 0.981
+        },
+        {
+          "word": " hands",
+          "start": 91.23,
+          "end": 92.09,
+          "probability": 0.996
+        },
+        {
+          "word": " Lift",
+          "start": 92.09,
+          "end": 92.59,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 92.59,
+          "end": 92.81,
+          "probability": 0.968
+        },
+        {
+          "word": " fire,",
+          "start": 92.81,
+          "end": 93.21,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 93.21,
+          "end": 93.51,
+          "probability": 0.968
+        },
+        {
+          "word": " I",
+          "start": 93.51,
+          "end": 93.61,
+          "probability": 0.205
+        },
+        {
+          "word": " mean",
+          "start": 93.61,
+          "end": 93.85,
+          "probability": 0.818
+        },
+        {
+          "word": " safe",
+          "start": 93.85,
+          "end": 94.41,
+          "probability": 0.375
+        }
+      ]
+    },
+    {
+      "start": 94.41,
+      "end": 98.55,
+      "text": "What click means gone, what silence means Check the body to the dawn",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.553,
+      "noSpeechProbability": 0.725,
+      "words": [
+        {
+          "word": " What",
+          "start": 94.41,
+          "end": 94.83,
+          "probability": 0.495
+        },
+        {
+          "word": " click",
+          "start": 94.83,
+          "end": 95.07,
+          "probability": 0.282
+        },
+        {
+          "word": " means",
+          "start": 95.07,
+          "end": 95.47,
+          "probability": 0.887
+        },
+        {
+          "word": " gone,",
+          "start": 95.47,
+          "end": 95.85,
+          "probability": 0.915
+        },
+        {
+          "word": " what",
+          "start": 95.97,
+          "end": 96.09,
+          "probability": 0.978
+        },
+        {
+          "word": " silence",
+          "start": 96.09,
+          "end": 96.65,
+          "probability": 0.529
+        },
+        {
+          "word": " means",
+          "start": 96.65,
+          "end": 97.09,
+          "probability": 0.981
+        },
+        {
+          "word": " Check",
+          "start": 97.09,
+          "end": 97.33,
+          "probability": 0.894
+        },
+        {
+          "word": " the",
+          "start": 97.33,
+          "end": 97.51,
+          "probability": 0.984
+        },
+        {
+          "word": " body",
+          "start": 97.51,
+          "end": 97.79,
+          "probability": 0.995
+        },
+        {
+          "word": " to",
+          "start": 97.79,
+          "end": 98.01,
+          "probability": 0.918
+        },
+        {
+          "word": " the",
+          "start": 98.01,
+          "end": 98.17,
+          "probability": 0.993
+        },
+        {
+          "word": " dawn",
+          "start": 98.17,
+          "end": 98.55,
+          "probability": 0.931
+        }
+      ]
+    },
+    {
+      "start": 98.55,
+      "end": 103.29,
+      "text": "Take a minute, hear the room Every machine has a little tool",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.553,
+      "noSpeechProbability": 0.725,
+      "words": [
+        {
+          "word": " Take",
+          "start": 98.55,
+          "end": 99.05,
+          "probability": 0.782
+        },
+        {
+          "word": " a",
+          "start": 99.05,
+          "end": 99.29,
+          "probability": 0.903
+        },
+        {
+          "word": " minute,",
+          "start": 99.29,
+          "end": 99.69,
+          "probability": 0.986
+        },
+        {
+          "word": " hear",
+          "start": 99.99,
+          "end": 100.39,
+          "probability": 0.845
+        },
+        {
+          "word": " the",
+          "start": 100.39,
+          "end": 100.61,
+          "probability": 0.994
+        },
+        {
+          "word": " room",
+          "start": 100.61,
+          "end": 101.13,
+          "probability": 0.408
+        },
+        {
+          "word": " Every",
+          "start": 101.13,
+          "end": 101.69,
+          "probability": 0.965
+        },
+        {
+          "word": " machine",
+          "start": 101.69,
+          "end": 102.15,
+          "probability": 0.997
+        },
+        {
+          "word": " has",
+          "start": 102.15,
+          "end": 102.61,
+          "probability": 0.491
+        },
+        {
+          "word": " a",
+          "start": 102.61,
+          "end": 102.69,
+          "probability": 0.863
+        },
+        {
+          "word": " little",
+          "start": 102.69,
+          "end": 102.91,
+          "probability": 0.737
+        },
+        {
+          "word": " tool",
+          "start": 102.91,
+          "end": 103.29,
+          "probability": 0.852
+        }
+      ]
+    },
+    {
+      "start": 149.5,
+      "end": 152.28,
+      "text": "If you're bright, you're wrenched from cars numbers",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " If",
+          "start": 149.5,
+          "end": 149.62,
+          "probability": 0.035
+        },
+        {
+          "word": " you're",
+          "start": 149.62,
+          "end": 149.9,
+          "probability": 0.489
+        },
+        {
+          "word": " bright,",
+          "start": 149.9,
+          "end": 150.08,
+          "probability": 0.897
+        },
+        {
+          "word": " you're",
+          "start": 150.48,
+          "end": 150.64,
+          "probability": 0.38
+        },
+        {
+          "word": " wrenched",
+          "start": 150.64,
+          "end": 151.04,
+          "probability": 0.336
+        },
+        {
+          "word": " from",
+          "start": 151.04,
+          "end": 151.38,
+          "probability": 0.684
+        },
+        {
+          "word": " cars",
+          "start": 151.38,
+          "end": 151.8,
+          "probability": 0.764
+        },
+        {
+          "word": " numbers",
+          "start": 151.8,
+          "end": 152.28,
+          "probability": 0.477
+        }
+      ]
+    },
+    {
+      "start": 152.28,
+      "end": 155.02,
+      "text": "By coin we could not waste",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " By",
+          "start": 152.28,
+          "end": 152.98,
+          "probability": 0.286
+        },
+        {
+          "word": " coin",
+          "start": 152.98,
+          "end": 153.32,
+          "probability": 0.509
+        },
+        {
+          "word": " we",
+          "start": 153.32,
+          "end": 153.66,
+          "probability": 0.693
+        },
+        {
+          "word": " could",
+          "start": 153.66,
+          "end": 153.94,
+          "probability": 0.984
+        },
+        {
+          "word": " not",
+          "start": 153.94,
+          "end": 154.32,
+          "probability": 0.993
+        },
+        {
+          "word": " waste",
+          "start": 154.32,
+          "end": 155.02,
+          "probability": 0.803
+        }
+      ]
+    },
+    {
+      "start": 155.02,
+      "end": 157.9,
+      "text": "Every appliance had a job, every job",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " Every",
+          "start": 155.02,
+          "end": 155.66,
+          "probability": 0.957
+        },
+        {
+          "word": " appliance",
+          "start": 155.66,
+          "end": 156.46,
+          "probability": 0.993
+        },
+        {
+          "word": " had",
+          "start": 156.46,
+          "end": 156.84,
+          "probability": 0.926
+        },
+        {
+          "word": " a",
+          "start": 156.84,
+          "end": 157.0,
+          "probability": 0.996
+        },
+        {
+          "word": " job,",
+          "start": 157.0,
+          "end": 157.24,
+          "probability": 0.999
+        },
+        {
+          "word": " every",
+          "start": 157.24,
+          "end": 157.58,
+          "probability": 0.979
+        },
+        {
+          "word": " job",
+          "start": 157.58,
+          "end": 157.9,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 157.9,
+      "end": 159.96,
+      "text": "And a way to heat it out of the pipes",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " And",
+          "start": 157.9,
+          "end": 158.16,
+          "probability": 0.189
+        },
+        {
+          "word": " a",
+          "start": 158.16,
+          "end": 158.26,
+          "probability": 0.369
+        },
+        {
+          "word": " way",
+          "start": 158.26,
+          "end": 158.48,
+          "probability": 0.426
+        },
+        {
+          "word": " to",
+          "start": 158.48,
+          "end": 158.7,
+          "probability": 0.446
+        },
+        {
+          "word": " heat",
+          "start": 158.7,
+          "end": 158.96,
+          "probability": 0.617
+        },
+        {
+          "word": " it",
+          "start": 158.96,
+          "end": 159.04,
+          "probability": 0.451
+        },
+        {
+          "word": " out",
+          "start": 159.04,
+          "end": 159.3,
+          "probability": 0.663
+        },
+        {
+          "word": " of",
+          "start": 159.3,
+          "end": 159.44,
+          "probability": 0.941
+        },
+        {
+          "word": " the",
+          "start": 159.44,
+          "end": 159.56,
+          "probability": 0.992
+        },
+        {
+          "word": " pipes",
+          "start": 159.56,
+          "end": 159.96,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 160.54,
+      "end": 162.72,
+      "text": "Like somebody asking to come in",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " Like",
+          "start": 160.36,
+          "end": 160.7,
+          "probability": 0.927
+        },
+        {
+          "word": " somebody",
+          "start": 160.7,
+          "end": 161.28,
+          "probability": 0.938
+        },
+        {
+          "word": " asking",
+          "start": 161.28,
+          "end": 161.86,
+          "probability": 0.955
+        },
+        {
+          "word": " to",
+          "start": 161.86,
+          "end": 162.08,
+          "probability": 0.696
+        },
+        {
+          "word": " come",
+          "start": 162.08,
+          "end": 162.3,
+          "probability": 0.993
+        },
+        {
+          "word": " in",
+          "start": 162.3,
+          "end": 162.72,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 162.72,
+      "end": 165.2,
+      "text": "The buzzer dials this",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " The",
+          "start": 162.72,
+          "end": 163.32,
+          "probability": 0.488
+        },
+        {
+          "word": " buzzer",
+          "start": 163.32,
+          "end": 164.02,
+          "probability": 0.898
+        },
+        {
+          "word": " dials",
+          "start": 164.02,
+          "end": 164.8,
+          "probability": 0.457
+        },
+        {
+          "word": " this",
+          "start": 164.8,
+          "end": 165.2,
+          "probability": 0.458
+        }
+      ]
+    },
+    {
+      "start": 165.2,
+      "end": 167.1,
+      "text": "Screamed out in a panic",
+      "avgLogprob": -0.539,
+      "compressionRatio": 1.367,
+      "noSpeechProbability": 0.662,
+      "words": [
+        {
+          "word": " Screamed",
+          "start": 165.2,
+          "end": 166.18,
+          "probability": 0.884
+        },
+        {
+          "word": " out",
+          "start": 166.18,
+          "end": 166.38,
+          "probability": 0.978
+        },
+        {
+          "word": " in",
+          "start": 166.38,
+          "end": 166.56,
+          "probability": 0.455
+        },
+        {
+          "word": " a",
+          "start": 166.56,
+          "end": 166.68,
+          "probability": 0.898
+        },
+        {
+          "word": " panic",
+          "start": 166.68,
+          "end": 167.1,
+          "probability": 0.522
+        }
+      ]
+    },
+    {
+      "start": 213.57,
+      "end": 215.55,
+      "text": "Scratch and phone card numbers",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " Scratch",
+          "start": 213.57,
+          "end": 214.21,
+          "probability": 0.748
+        },
+        {
+          "word": " and",
+          "start": 214.21,
+          "end": 214.35,
+          "probability": 0.221
+        },
+        {
+          "word": " phone",
+          "start": 214.35,
+          "end": 214.69,
+          "probability": 0.939
+        },
+        {
+          "word": " card",
+          "start": 214.69,
+          "end": 215.01,
+          "probability": 0.897
+        },
+        {
+          "word": " numbers",
+          "start": 215.01,
+          "end": 215.55,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 215.55,
+      "end": 218.35,
+      "text": "By coin we could not waste",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " By",
+          "start": 215.55,
+          "end": 216.27,
+          "probability": 0.277
+        },
+        {
+          "word": " coin",
+          "start": 216.27,
+          "end": 216.57,
+          "probability": 0.789
+        },
+        {
+          "word": " we",
+          "start": 216.57,
+          "end": 216.93,
+          "probability": 0.895
+        },
+        {
+          "word": " could",
+          "start": 216.93,
+          "end": 217.27,
+          "probability": 0.981
+        },
+        {
+          "word": " not",
+          "start": 217.27,
+          "end": 217.59,
+          "probability": 0.691
+        },
+        {
+          "word": " waste",
+          "start": 217.59,
+          "end": 218.35,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 218.35,
+      "end": 220.53,
+      "text": "Every appliance had a job",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " Every",
+          "start": 218.35,
+          "end": 218.95,
+          "probability": 0.949
+        },
+        {
+          "word": " appliance",
+          "start": 218.95,
+          "end": 219.77,
+          "probability": 0.992
+        },
+        {
+          "word": " had",
+          "start": 219.77,
+          "end": 220.11,
+          "probability": 0.72
+        },
+        {
+          "word": " a",
+          "start": 220.11,
+          "end": 220.25,
+          "probability": 0.995
+        },
+        {
+          "word": " job",
+          "start": 220.25,
+          "end": 220.53,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 220.53,
+      "end": 221.77,
+      "text": "Every job had a worry",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " Every",
+          "start": 220.53,
+          "end": 220.85,
+          "probability": 0.484
+        },
+        {
+          "word": " job",
+          "start": 220.85,
+          "end": 221.17,
+          "probability": 0.998
+        },
+        {
+          "word": " had",
+          "start": 221.17,
+          "end": 221.45,
+          "probability": 0.918
+        },
+        {
+          "word": " a",
+          "start": 221.45,
+          "end": 221.55,
+          "probability": 0.962
+        },
+        {
+          "word": " worry",
+          "start": 221.55,
+          "end": 221.77,
+          "probability": 0.889
+        }
+      ]
+    },
+    {
+      "start": 221.77,
+      "end": 223.19,
+      "text": "They heat an ox, the pipes",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " They",
+          "start": 221.77,
+          "end": 222.03,
+          "probability": 0.185
+        },
+        {
+          "word": " heat",
+          "start": 222.03,
+          "end": 222.27,
+          "probability": 0.151
+        },
+        {
+          "word": " an",
+          "start": 222.27,
+          "end": 222.45,
+          "probability": 0.435
+        },
+        {
+          "word": " ox,",
+          "start": 222.45,
+          "end": 222.61,
+          "probability": 0.662
+        },
+        {
+          "word": " the",
+          "start": 222.73,
+          "end": 222.83,
+          "probability": 0.942
+        },
+        {
+          "word": " pipes",
+          "start": 222.83,
+          "end": 223.19,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 223.19,
+      "end": 226.09,
+      "text": "Like somebody asking to come in",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " Like",
+          "start": 223.19,
+          "end": 223.99,
+          "probability": 0.863
+        },
+        {
+          "word": " somebody",
+          "start": 223.99,
+          "end": 224.63,
+          "probability": 0.968
+        },
+        {
+          "word": " asking",
+          "start": 224.63,
+          "end": 225.15,
+          "probability": 0.265
+        },
+        {
+          "word": " to",
+          "start": 225.15,
+          "end": 225.39,
+          "probability": 0.96
+        },
+        {
+          "word": " come",
+          "start": 225.39,
+          "end": 225.61,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 225.61,
+          "end": 226.09,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 226.09,
+      "end": 228.75,
+      "text": "The buzzer dial stays",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " The",
+          "start": 226.09,
+          "end": 226.61,
+          "probability": 0.816
+        },
+        {
+          "word": " buzzer",
+          "start": 226.61,
+          "end": 227.31,
+          "probability": 0.874
+        },
+        {
+          "word": " dial",
+          "start": 227.31,
+          "end": 227.71,
+          "probability": 0.248
+        },
+        {
+          "word": " stays",
+          "start": 227.71,
+          "end": 228.75,
+          "probability": 0.481
+        }
+      ]
+    },
+    {
+      "start": 228.75,
+      "end": 230.43,
+      "text": "Screamed out in a penny",
+      "avgLogprob": -0.5,
+      "compressionRatio": 1.373,
+      "noSpeechProbability": 0.284,
+      "words": [
+        {
+          "word": " Screamed",
+          "start": 228.75,
+          "end": 229.47,
+          "probability": 0.919
+        },
+        {
+          "word": " out",
+          "start": 229.47,
+          "end": 229.67,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 229.67,
+          "end": 229.87,
+          "probability": 0.795
+        },
+        {
+          "word": " a",
+          "start": 229.87,
+          "end": 229.99,
+          "probability": 0.931
+        },
+        {
+          "word": " penny",
+          "start": 229.99,
+          "end": 230.43,
+          "probability": 0.475
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.891,
+    "wordCount": 176,
+    "credibleWordCount": 159,
+    "segmentCount": 22,
+    "averageWordProbability": 0.773,
+    "vocalSeconds": 69.72,
+    "scanCoverage": 0.253,
+    "reviewRequired": false
+  }
+}

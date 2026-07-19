@@ -1,0 +1,1724 @@
+{
+  "analysisVersion": 1,
+  "index": 21,
+  "id": "../VOLHOLLA/song-sunfadedghosts-09.html",
+  "slug": "trilhos-do-passinho",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "es",
+  "text": "y te oyeros de que wiley y te oyeros de que wiley y te oyeros de que wiley y te oyeros de que wiley y yo quiero de que wiley y yo quiero de que wiley y yo quiero de que wiley y yo quiero de que wiley y yo quiero de que wiley boom boom boom y yo quiero de que wiley y yo quiero de que wiley Vito, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, v ¡Vení, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven,",
+  "sampledRanges": [
+    [
+      12.68,
+      30.68
+    ],
+    [
+      50.73,
+      68.73
+    ],
+    [
+      88.77,
+      106.77
+    ],
+    [
+      126.82,
+      144.82
+    ]
+  ],
+  "segments": [
+    {
+      "start": 12.98,
+      "end": 14.8,
+      "text": "y te oyeros de que wiley",
+      "avgLogprob": -0.41,
+      "compressionRatio": 2.75,
+      "noSpeechProbability": 0.34,
+      "words": [
+        {
+          "word": " y",
+          "start": 12.98,
+          "end": 13.7,
+          "probability": 0.113
+        },
+        {
+          "word": " te",
+          "start": 13.7,
+          "end": 13.84,
+          "probability": 0.34
+        },
+        {
+          "word": " oyeros",
+          "start": 13.84,
+          "end": 14.18,
+          "probability": 0.269
+        },
+        {
+          "word": " de",
+          "start": 14.18,
+          "end": 14.28,
+          "probability": 0.924
+        },
+        {
+          "word": " que",
+          "start": 14.28,
+          "end": 14.42,
+          "probability": 0.487
+        },
+        {
+          "word": " wiley",
+          "start": 14.42,
+          "end": 14.8,
+          "probability": 0.395
+        }
+      ]
+    },
+    {
+      "start": 14.8,
+      "end": 17.28,
+      "text": "y te oyeros de que wiley",
+      "avgLogprob": -0.41,
+      "compressionRatio": 2.75,
+      "noSpeechProbability": 0.34,
+      "words": [
+        {
+          "word": " y",
+          "start": 14.8,
+          "end": 15.6,
+          "probability": 0.31
+        },
+        {
+          "word": " te",
+          "start": 15.6,
+          "end": 16.22,
+          "probability": 0.942
+        },
+        {
+          "word": " oyeros",
+          "start": 16.22,
+          "end": 16.58,
+          "probability": 0.995
+        },
+        {
+          "word": " de",
+          "start": 16.58,
+          "end": 16.66,
+          "probability": 0.992
+        },
+        {
+          "word": " que",
+          "start": 16.66,
+          "end": 16.82,
+          "probability": 0.985
+        },
+        {
+          "word": " wiley",
+          "start": 16.82,
+          "end": 17.28,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 17.28,
+      "end": 19.66,
+      "text": "y te oyeros de que wiley",
+      "avgLogprob": -0.41,
+      "compressionRatio": 2.75,
+      "noSpeechProbability": 0.34,
+      "words": [
+        {
+          "word": " y",
+          "start": 17.28,
+          "end": 18.0,
+          "probability": 0.814
+        },
+        {
+          "word": " te",
+          "start": 18.0,
+          "end": 18.62,
+          "probability": 0.99
+        },
+        {
+          "word": " oyeros",
+          "start": 18.62,
+          "end": 18.98,
+          "probability": 0.998
+        },
+        {
+          "word": " de",
+          "start": 18.98,
+          "end": 19.06,
+          "probability": 0.996
+        },
+        {
+          "word": " que",
+          "start": 19.06,
+          "end": 19.2,
+          "probability": 0.984
+        },
+        {
+          "word": " wiley",
+          "start": 19.2,
+          "end": 19.66,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 19.66,
+      "end": 22.0,
+      "text": "y te oyeros de que wiley",
+      "avgLogprob": -0.41,
+      "compressionRatio": 2.75,
+      "noSpeechProbability": 0.34,
+      "words": [
+        {
+          "word": " y",
+          "start": 19.66,
+          "end": 20.4,
+          "probability": 0.861
+        },
+        {
+          "word": " te",
+          "start": 20.4,
+          "end": 21.02,
+          "probability": 0.992
+        },
+        {
+          "word": " oyeros",
+          "start": 21.02,
+          "end": 21.36,
+          "probability": 0.997
+        },
+        {
+          "word": " de",
+          "start": 21.36,
+          "end": 21.48,
+          "probability": 0.995
+        },
+        {
+          "word": " que",
+          "start": 21.48,
+          "end": 21.62,
+          "probability": 0.991
+        },
+        {
+          "word": " wiley",
+          "start": 21.62,
+          "end": 22.0,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 51.59,
+      "end": 53.19,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 51.59,
+          "end": 52.11,
+          "probability": 0.08
+        },
+        {
+          "word": " yo",
+          "start": 52.11,
+          "end": 52.25,
+          "probability": 0.293
+        },
+        {
+          "word": " quiero",
+          "start": 52.25,
+          "end": 52.51,
+          "probability": 0.627
+        },
+        {
+          "word": " de",
+          "start": 52.51,
+          "end": 52.67,
+          "probability": 0.464
+        },
+        {
+          "word": " que",
+          "start": 52.67,
+          "end": 52.83,
+          "probability": 0.694
+        },
+        {
+          "word": " wiley",
+          "start": 52.83,
+          "end": 53.19,
+          "probability": 0.293
+        }
+      ]
+    },
+    {
+      "start": 53.97,
+      "end": 55.71,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 53.97,
+          "end": 54.49,
+          "probability": 0.561
+        },
+        {
+          "word": " yo",
+          "start": 54.49,
+          "end": 54.65,
+          "probability": 0.95
+        },
+        {
+          "word": " quiero",
+          "start": 54.65,
+          "end": 54.91,
+          "probability": 0.969
+        },
+        {
+          "word": " de",
+          "start": 54.91,
+          "end": 55.05,
+          "probability": 0.983
+        },
+        {
+          "word": " que",
+          "start": 55.05,
+          "end": 55.21,
+          "probability": 0.992
+        },
+        {
+          "word": " wiley",
+          "start": 55.21,
+          "end": 55.71,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 55.71,
+      "end": 58.05,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 55.71,
+          "end": 56.39,
+          "probability": 0.902
+        },
+        {
+          "word": " yo",
+          "start": 56.39,
+          "end": 57.03,
+          "probability": 0.992
+        },
+        {
+          "word": " quiero",
+          "start": 57.03,
+          "end": 57.29,
+          "probability": 0.958
+        },
+        {
+          "word": " de",
+          "start": 57.29,
+          "end": 57.45,
+          "probability": 0.993
+        },
+        {
+          "word": " que",
+          "start": 57.45,
+          "end": 57.63,
+          "probability": 0.995
+        },
+        {
+          "word": " wiley",
+          "start": 57.63,
+          "end": 58.05,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 58.05,
+      "end": 59.17,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 58.05,
+          "end": 58.69,
+          "probability": 0.918
+        },
+        {
+          "word": " yo",
+          "start": 58.69,
+          "end": 59.15,
+          "probability": 0.993
+        },
+        {
+          "word": " quiero",
+          "start": 59.15,
+          "end": 59.15,
+          "probability": 0.866
+        },
+        {
+          "word": " de",
+          "start": 59.15,
+          "end": 59.15,
+          "probability": 0.991
+        },
+        {
+          "word": " que",
+          "start": 59.15,
+          "end": 59.15,
+          "probability": 0.99
+        },
+        {
+          "word": " wiley",
+          "start": 59.15,
+          "end": 59.17,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 59.17,
+      "end": 61.03,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 59.17,
+          "end": 59.27,
+          "probability": 0.882
+        },
+        {
+          "word": " yo",
+          "start": 59.27,
+          "end": 59.45,
+          "probability": 0.994
+        },
+        {
+          "word": " quiero",
+          "start": 59.45,
+          "end": 59.65,
+          "probability": 0.855
+        },
+        {
+          "word": " de",
+          "start": 59.65,
+          "end": 59.85,
+          "probability": 0.987
+        },
+        {
+          "word": " que",
+          "start": 59.85,
+          "end": 60.01,
+          "probability": 0.983
+        },
+        {
+          "word": " wiley",
+          "start": 60.01,
+          "end": 61.03,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 61.03,
+      "end": 62.31,
+      "text": "boom boom boom",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " boom",
+          "start": 61.03,
+          "end": 61.45,
+          "probability": 0.0
+        },
+        {
+          "word": " boom",
+          "start": 61.45,
+          "end": 62.01,
+          "probability": 0.739
+        },
+        {
+          "word": " boom",
+          "start": 62.01,
+          "end": 62.31,
+          "probability": 0.944
+        }
+      ]
+    },
+    {
+      "start": 62.31,
+      "end": 66.41,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 62.31,
+          "end": 62.79,
+          "probability": 0.006
+        },
+        {
+          "word": " yo",
+          "start": 62.79,
+          "end": 64.59,
+          "probability": 0.966
+        },
+        {
+          "word": " quiero",
+          "start": 64.59,
+          "end": 64.61,
+          "probability": 0.946
+        },
+        {
+          "word": " de",
+          "start": 64.61,
+          "end": 64.93,
+          "probability": 0.949
+        },
+        {
+          "word": " que",
+          "start": 64.93,
+          "end": 66.41,
+          "probability": 0.972
+        },
+        {
+          "word": " wiley",
+          "start": 66.41,
+          "end": 66.41,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 66.41,
+      "end": 67.67,
+      "text": "y yo quiero de que wiley",
+      "avgLogprob": -0.301,
+      "compressionRatio": 4.395,
+      "noSpeechProbability": 0.455,
+      "words": [
+        {
+          "word": " y",
+          "start": 66.41,
+          "end": 66.45,
+          "probability": 0.05
+        },
+        {
+          "word": " yo",
+          "start": 66.45,
+          "end": 66.65,
+          "probability": 0.966
+        },
+        {
+          "word": " quiero",
+          "start": 66.65,
+          "end": 66.87,
+          "probability": 0.934
+        },
+        {
+          "word": " de",
+          "start": 66.87,
+          "end": 67.05,
+          "probability": 0.986
+        },
+        {
+          "word": " que",
+          "start": 67.05,
+          "end": 67.23,
+          "probability": 0.99
+        },
+        {
+          "word": " wiley",
+          "start": 67.23,
+          "end": 67.67,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 88.77,
+      "end": 106.75,
+      "text": "Vito, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, vio, v",
+      "avgLogprob": -0.129,
+      "compressionRatio": 18.6,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Vito,",
+          "start": 88.77,
+          "end": 88.99,
+          "probability": 0.069
+        },
+        {
+          "word": " vio,",
+          "start": 88.99,
+          "end": 88.99,
+          "probability": 0.277
+        },
+        {
+          "word": " vio,",
+          "start": 89.15,
+          "end": 89.57,
+          "probability": 0.664
+        },
+        {
+          "word": " vio,",
+          "start": 89.57,
+          "end": 92.13,
+          "probability": 0.787
+        },
+        {
+          "word": " vio,",
+          "start": 92.13,
+          "end": 92.77,
+          "probability": 0.877
+        },
+        {
+          "word": " vio,",
+          "start": 92.77,
+          "end": 93.11,
+          "probability": 0.924
+        },
+        {
+          "word": " vio,",
+          "start": 93.27,
+          "end": 94.55,
+          "probability": 0.942
+        },
+        {
+          "word": " vio,",
+          "start": 94.55,
+          "end": 95.45,
+          "probability": 0.959
+        },
+        {
+          "word": " vio,",
+          "start": 95.75,
+          "end": 96.17,
+          "probability": 0.969
+        },
+        {
+          "word": " vio,",
+          "start": 96.27,
+          "end": 96.65,
+          "probability": 0.974
+        },
+        {
+          "word": " vio,",
+          "start": 96.65,
+          "end": 96.97,
+          "probability": 0.978
+        },
+        {
+          "word": " vio,",
+          "start": 96.97,
+          "end": 97.49,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 97.49,
+          "end": 97.51,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 97.51,
+          "end": 97.85,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 98.13,
+          "end": 98.13,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 98.13,
+          "end": 98.13,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 98.19,
+          "end": 98.63,
+          "probability": 0.985
+        },
+        {
+          "word": " vio,",
+          "start": 98.63,
+          "end": 98.63,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 98.63,
+          "end": 98.89,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 98.89,
+          "end": 98.89,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 98.89,
+          "end": 99.33,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 99.33,
+          "end": 99.33,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 99.33,
+          "end": 99.99,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 100.23,
+          "end": 100.77,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 100.77,
+          "end": 101.49,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 101.49,
+          "end": 102.37,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 102.37,
+          "end": 102.71,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 102.95,
+          "end": 102.95,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 103.05,
+          "end": 103.27,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 103.47,
+          "end": 103.59,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 103.59,
+          "end": 103.73,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 103.73,
+          "end": 103.73,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 103.73,
+          "end": 103.73,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 104.01,
+          "end": 104.39,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 104.53,
+          "end": 104.71,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.71,
+          "end": 104.71,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.71,
+          "end": 104.71,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.71,
+          "end": 104.71,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.71,
+          "end": 104.73,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.73,
+          "end": 104.73,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.73,
+          "end": 104.77,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 104.77,
+          "end": 105.09,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 105.57,
+          "end": 105.63,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 106.11,
+          "end": 106.11,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 106.41,
+          "end": 106.41,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 106.41,
+          "end": 106.41,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 106.41,
+          "end": 106.41,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 106.41,
+          "end": 106.41,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 106.41,
+          "end": 106.41,
+          "probability": 0.984
+        },
+        {
+          "word": " vio,",
+          "start": 106.59,
+          "end": 106.61,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 106.61,
+          "end": 106.61,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.61,
+          "end": 106.61,
+          "probability": 0.983
+        },
+        {
+          "word": " vio,",
+          "start": 106.61,
+          "end": 106.67,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.982
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.981
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.98
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.979
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.978
+        },
+        {
+          "word": " vio,",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.977
+        },
+        {
+          "word": " v",
+          "start": 106.75,
+          "end": 106.75,
+          "probability": 0.957
+        }
+      ]
+    },
+    {
+      "start": 106.73,
+      "end": 106.73,
+      "text": "",
+      "avgLogprob": -0.087,
+      "compressionRatio": 26.235,
+      "noSpeechProbability": 0.792,
+      "words": []
+    },
+    {
+      "start": 140.14,
+      "end": 144.8,
+      "text": "¡Vení, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven, ven,",
+      "avgLogprob": -0.119,
+      "compressionRatio": 21.269,
+      "noSpeechProbability": 0.593,
+      "words": [
+        {
+          "word": " ¡Vení,",
+          "start": 140.14,
+          "end": 140.46,
+          "probability": 0.168
+        },
+        {
+          "word": " ven,",
+          "start": 140.8,
+          "end": 140.96,
+          "probability": 0.633
+        },
+        {
+          "word": " ven,",
+          "start": 141.42,
+          "end": 141.58,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 141.96,
+          "end": 142.42,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 142.58,
+          "end": 142.74,
+          "probability": 0.991
+        },
+        {
+          "word": " ven,",
+          "start": 142.74,
+          "end": 143.0,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 143.0,
+          "end": 143.34,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 143.34,
+          "end": 143.34,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 143.52,
+          "end": 143.52,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 143.52,
+          "end": 143.6,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 143.6,
+          "end": 143.62,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 143.78,
+          "end": 143.78,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 143.8,
+          "end": 143.8,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 143.88,
+          "end": 143.88,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 143.88,
+          "end": 143.88,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 143.88,
+          "end": 143.88,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 143.88,
+          "end": 143.88,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.0,
+          "end": 144.0,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.0,
+          "end": 144.0,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.0,
+          "end": 144.0,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.04,
+          "end": 144.1,
+          "probability": 0.991
+        },
+        {
+          "word": " ven,",
+          "start": 144.1,
+          "end": 144.26,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.992
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.26,
+          "end": 144.26,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.993
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.32,
+          "end": 144.32,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.5,
+          "end": 144.5,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.52,
+          "end": 144.52,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.52,
+          "end": 144.52,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.52,
+          "end": 144.52,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.52,
+          "end": 144.52,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.52,
+          "end": 144.52,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.56,
+          "end": 144.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.994
+        },
+        {
+          "word": " ven,",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.68,
+          "end": 144.68,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.68,
+          "end": 144.68,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.68,
+          "end": 144.68,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.68,
+          "end": 144.68,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.996
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.996
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.76,
+          "end": 144.76,
+          "probability": 0.996
+        },
+        {
+          "word": " ven,",
+          "start": 144.8,
+          "end": 144.8,
+          "probability": 0.995
+        },
+        {
+          "word": " ven,",
+          "start": 144.8,
+          "end": 144.8,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 144.78,
+      "end": 144.78,
+      "text": "",
+      "avgLogprob": -0.084,
+      "compressionRatio": 26.235,
+      "noSpeechProbability": 0.79,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.558,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.408,
+    "reviewRequired": true
+  }
+}

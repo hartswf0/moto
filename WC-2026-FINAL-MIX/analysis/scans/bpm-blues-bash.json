@@ -1,0 +1,766 @@
+{
+  "analysisVersion": 1,
+  "index": 74,
+  "id": "../VOLHOLLA/song-congregation-01.html",
+  "slug": "bpm-blues-bash",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "No space meant stairs Counts in rustic coats Go wind outside Bringing in my throat Shadows move like summer glasses Heavy glass of rye Losing all my love I said break my heart again Crackle through the lines Walking through the first I came up Spinning my head, it's just a scratching sound Spinning my mind, wait for the breakdown Break my heart again, drop the pain into the ring Round and round, looking back to you Drowning every bit, low sub-shaking walls, found me in the dark Broken spirit gone, lost the seven spots, break my heart",
+  "sampledRanges": [
+    [
+      14.1,
+      32.1
+    ],
+    [
+      56.4,
+      74.4
+    ],
+    [
+      98.71,
+      116.71
+    ],
+    [
+      141.01,
+      159.01
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.1,
+      "end": 19.44,
+      "text": "No space meant stairs Counts in rustic coats Go wind outside",
+      "avgLogprob": -0.725,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.608,
+      "words": [
+        {
+          "word": " No",
+          "start": 14.1,
+          "end": 14.58,
+          "probability": 0.042
+        },
+        {
+          "word": " space",
+          "start": 14.58,
+          "end": 14.94,
+          "probability": 0.807
+        },
+        {
+          "word": " meant",
+          "start": 14.94,
+          "end": 15.32,
+          "probability": 0.103
+        },
+        {
+          "word": " stairs",
+          "start": 15.32,
+          "end": 16.16,
+          "probability": 0.627
+        },
+        {
+          "word": " Counts",
+          "start": 16.16,
+          "end": 16.76,
+          "probability": 0.675
+        },
+        {
+          "word": " in",
+          "start": 16.76,
+          "end": 16.92,
+          "probability": 0.499
+        },
+        {
+          "word": " rustic",
+          "start": 16.92,
+          "end": 17.62,
+          "probability": 0.591
+        },
+        {
+          "word": " coats",
+          "start": 17.62,
+          "end": 18.06,
+          "probability": 0.915
+        },
+        {
+          "word": " Go",
+          "start": 18.06,
+          "end": 18.36,
+          "probability": 0.44
+        },
+        {
+          "word": " wind",
+          "start": 18.36,
+          "end": 18.78,
+          "probability": 0.594
+        },
+        {
+          "word": " outside",
+          "start": 18.78,
+          "end": 19.44,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 19.44,
+      "end": 25.68,
+      "text": "Bringing in my throat Shadows move like summer glasses",
+      "avgLogprob": -0.725,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.608,
+      "words": [
+        {
+          "word": " Bringing",
+          "start": 19.44,
+          "end": 20.38,
+          "probability": 0.767
+        },
+        {
+          "word": " in",
+          "start": 20.38,
+          "end": 20.88,
+          "probability": 0.952
+        },
+        {
+          "word": " my",
+          "start": 20.88,
+          "end": 21.24,
+          "probability": 0.982
+        },
+        {
+          "word": " throat",
+          "start": 21.24,
+          "end": 21.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Shadows",
+          "start": 21.82,
+          "end": 23.48,
+          "probability": 0.942
+        },
+        {
+          "word": " move",
+          "start": 23.48,
+          "end": 23.88,
+          "probability": 0.953
+        },
+        {
+          "word": " like",
+          "start": 23.88,
+          "end": 24.4,
+          "probability": 0.967
+        },
+        {
+          "word": " summer",
+          "start": 24.4,
+          "end": 24.92,
+          "probability": 0.188
+        },
+        {
+          "word": " glasses",
+          "start": 24.92,
+          "end": 25.68,
+          "probability": 0.218
+        }
+      ]
+    },
+    {
+      "start": 25.68,
+      "end": 30.88,
+      "text": "Heavy glass of rye Losing all my love",
+      "avgLogprob": -0.725,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.608,
+      "words": [
+        {
+          "word": " Heavy",
+          "start": 25.68,
+          "end": 26.46,
+          "probability": 0.836
+        },
+        {
+          "word": " glass",
+          "start": 26.46,
+          "end": 26.96,
+          "probability": 0.373
+        },
+        {
+          "word": " of",
+          "start": 26.96,
+          "end": 27.38,
+          "probability": 0.783
+        },
+        {
+          "word": " rye",
+          "start": 27.38,
+          "end": 28.34,
+          "probability": 0.506
+        },
+        {
+          "word": " Losing",
+          "start": 28.34,
+          "end": 29.6,
+          "probability": 0.556
+        },
+        {
+          "word": " all",
+          "start": 29.6,
+          "end": 30.1,
+          "probability": 0.99
+        },
+        {
+          "word": " my",
+          "start": 30.1,
+          "end": 30.46,
+          "probability": 0.997
+        },
+        {
+          "word": " love",
+          "start": 30.46,
+          "end": 30.88,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 56.4,
+      "end": 59.82,
+      "text": "I said break my heart again",
+      "avgLogprob": -0.485,
+      "compressionRatio": 1.141,
+      "noSpeechProbability": 0.665,
+      "words": [
+        {
+          "word": " I",
+          "start": 56.4,
+          "end": 57.26,
+          "probability": 0.374
+        },
+        {
+          "word": " said",
+          "start": 57.26,
+          "end": 57.54,
+          "probability": 0.423
+        },
+        {
+          "word": " break",
+          "start": 57.54,
+          "end": 57.92,
+          "probability": 0.936
+        },
+        {
+          "word": " my",
+          "start": 57.92,
+          "end": 58.3,
+          "probability": 0.996
+        },
+        {
+          "word": " heart",
+          "start": 58.3,
+          "end": 58.8,
+          "probability": 0.987
+        },
+        {
+          "word": " again",
+          "start": 58.8,
+          "end": 59.82,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 59.82,
+      "end": 61.68,
+      "text": "Crackle through the lines",
+      "avgLogprob": -0.485,
+      "compressionRatio": 1.141,
+      "noSpeechProbability": 0.665,
+      "words": [
+        {
+          "word": " Crackle",
+          "start": 59.82,
+          "end": 60.6,
+          "probability": 0.652
+        },
+        {
+          "word": " through",
+          "start": 60.6,
+          "end": 60.96,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 60.96,
+          "end": 61.48,
+          "probability": 0.973
+        },
+        {
+          "word": " lines",
+          "start": 61.48,
+          "end": 61.68,
+          "probability": 0.091
+        }
+      ]
+    },
+    {
+      "start": 62.4,
+      "end": 65.14,
+      "text": "Walking through the first",
+      "avgLogprob": -0.485,
+      "compressionRatio": 1.141,
+      "noSpeechProbability": 0.665,
+      "words": [
+        {
+          "word": " Walking",
+          "start": 62.4,
+          "end": 63.5,
+          "probability": 0.409
+        },
+        {
+          "word": " through",
+          "start": 63.5,
+          "end": 64.0,
+          "probability": 0.992
+        },
+        {
+          "word": " the",
+          "start": 64.0,
+          "end": 64.48,
+          "probability": 0.991
+        },
+        {
+          "word": " first",
+          "start": 64.48,
+          "end": 65.14,
+          "probability": 0.522
+        }
+      ]
+    },
+    {
+      "start": 72.02,
+      "end": 74.38,
+      "text": "I came up",
+      "avgLogprob": -0.485,
+      "compressionRatio": 1.141,
+      "noSpeechProbability": 0.665,
+      "words": [
+        {
+          "word": " I",
+          "start": 72.02,
+          "end": 73.02,
+          "probability": 0.821
+        },
+        {
+          "word": " came",
+          "start": 73.02,
+          "end": 74.02,
+          "probability": 0.679
+        },
+        {
+          "word": " up",
+          "start": 74.02,
+          "end": 74.38,
+          "probability": 0.51
+        }
+      ]
+    },
+    {
+      "start": 99.03,
+      "end": 102.99,
+      "text": "Spinning my head, it's just a scratching sound",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.618,
+      "words": [
+        {
+          "word": " Spinning",
+          "start": 99.03,
+          "end": 99.83,
+          "probability": 0.445
+        },
+        {
+          "word": " my",
+          "start": 99.83,
+          "end": 99.83,
+          "probability": 0.123
+        },
+        {
+          "word": " head,",
+          "start": 99.83,
+          "end": 100.35,
+          "probability": 0.75
+        },
+        {
+          "word": " it's",
+          "start": 100.35,
+          "end": 100.99,
+          "probability": 0.851
+        },
+        {
+          "word": " just",
+          "start": 100.99,
+          "end": 101.23,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 101.23,
+          "end": 101.61,
+          "probability": 0.984
+        },
+        {
+          "word": " scratching",
+          "start": 101.61,
+          "end": 102.25,
+          "probability": 0.837
+        },
+        {
+          "word": " sound",
+          "start": 102.25,
+          "end": 102.99,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 102.99,
+      "end": 108.65,
+      "text": "Spinning my mind, wait for the breakdown",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.618,
+      "words": [
+        {
+          "word": " Spinning",
+          "start": 102.99,
+          "end": 104.47,
+          "probability": 0.961
+        },
+        {
+          "word": " my",
+          "start": 104.47,
+          "end": 105.07,
+          "probability": 0.59
+        },
+        {
+          "word": " mind,",
+          "start": 105.07,
+          "end": 106.65,
+          "probability": 0.348
+        },
+        {
+          "word": " wait",
+          "start": 106.81,
+          "end": 107.33,
+          "probability": 0.723
+        },
+        {
+          "word": " for",
+          "start": 107.33,
+          "end": 107.73,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 107.73,
+          "end": 108.01,
+          "probability": 0.985
+        },
+        {
+          "word": " breakdown",
+          "start": 108.01,
+          "end": 108.65,
+          "probability": 0.825
+        }
+      ]
+    },
+    {
+      "start": 108.65,
+      "end": 113.77,
+      "text": "Break my heart again, drop the pain into the ring",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.618,
+      "words": [
+        {
+          "word": " Break",
+          "start": 108.65,
+          "end": 109.59,
+          "probability": 0.831
+        },
+        {
+          "word": " my",
+          "start": 109.59,
+          "end": 109.97,
+          "probability": 0.997
+        },
+        {
+          "word": " heart",
+          "start": 109.97,
+          "end": 110.37,
+          "probability": 0.997
+        },
+        {
+          "word": " again,",
+          "start": 110.37,
+          "end": 111.25,
+          "probability": 0.989
+        },
+        {
+          "word": " drop",
+          "start": 111.51,
+          "end": 111.85,
+          "probability": 0.407
+        },
+        {
+          "word": " the",
+          "start": 111.85,
+          "end": 112.17,
+          "probability": 0.982
+        },
+        {
+          "word": " pain",
+          "start": 112.17,
+          "end": 112.55,
+          "probability": 0.979
+        },
+        {
+          "word": " into",
+          "start": 112.55,
+          "end": 113.17,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 113.17,
+          "end": 113.53,
+          "probability": 0.765
+        },
+        {
+          "word": " ring",
+          "start": 113.53,
+          "end": 113.77,
+          "probability": 0.376
+        }
+      ]
+    },
+    {
+      "start": 113.77,
+      "end": 116.69,
+      "text": "Round and round, looking back to you",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.618,
+      "words": [
+        {
+          "word": " Round",
+          "start": 113.77,
+          "end": 114.05,
+          "probability": 0.039
+        },
+        {
+          "word": " and",
+          "start": 114.05,
+          "end": 114.63,
+          "probability": 0.549
+        },
+        {
+          "word": " round,",
+          "start": 114.63,
+          "end": 114.97,
+          "probability": 0.971
+        },
+        {
+          "word": " looking",
+          "start": 115.33,
+          "end": 115.85,
+          "probability": 0.116
+        },
+        {
+          "word": " back",
+          "start": 115.85,
+          "end": 116.37,
+          "probability": 0.983
+        },
+        {
+          "word": " to",
+          "start": 116.37,
+          "end": 116.69,
+          "probability": 0.65
+        },
+        {
+          "word": " you",
+          "start": 116.69,
+          "end": 116.69,
+          "probability": 0.558
+        }
+      ]
+    },
+    {
+      "start": 141.29,
+      "end": 149.15,
+      "text": "Drowning every bit, low sub-shaking walls, found me in the dark",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.212,
+      "noSpeechProbability": 0.762,
+      "words": [
+        {
+          "word": " Drowning",
+          "start": 141.29,
+          "end": 142.41,
+          "probability": 0.669
+        },
+        {
+          "word": " every",
+          "start": 142.41,
+          "end": 143.01,
+          "probability": 0.959
+        },
+        {
+          "word": " bit,",
+          "start": 143.01,
+          "end": 143.67,
+          "probability": 0.353
+        },
+        {
+          "word": " low",
+          "start": 143.71,
+          "end": 145.17,
+          "probability": 0.509
+        },
+        {
+          "word": " sub",
+          "start": 145.17,
+          "end": 145.55,
+          "probability": 0.469
+        },
+        {
+          "word": "-shaking",
+          "start": 145.55,
+          "end": 146.07,
+          "probability": 0.85
+        },
+        {
+          "word": " walls,",
+          "start": 146.07,
+          "end": 146.85,
+          "probability": 0.933
+        },
+        {
+          "word": " found",
+          "start": 147.31,
+          "end": 147.43,
+          "probability": 0.893
+        },
+        {
+          "word": " me",
+          "start": 147.43,
+          "end": 147.89,
+          "probability": 0.993
+        },
+        {
+          "word": " in",
+          "start": 147.89,
+          "end": 148.31,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 148.31,
+          "end": 148.51,
+          "probability": 0.992
+        },
+        {
+          "word": " dark",
+          "start": 148.51,
+          "end": 149.15,
+          "probability": 0.931
+        }
+      ]
+    },
+    {
+      "start": 150.01,
+      "end": 158.83,
+      "text": "Broken spirit gone, lost the seven spots, break my heart",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.212,
+      "noSpeechProbability": 0.762,
+      "words": [
+        {
+          "word": " Broken",
+          "start": 150.01,
+          "end": 150.67,
+          "probability": 0.39
+        },
+        {
+          "word": " spirit",
+          "start": 150.67,
+          "end": 151.33,
+          "probability": 0.812
+        },
+        {
+          "word": " gone,",
+          "start": 151.33,
+          "end": 152.09,
+          "probability": 0.975
+        },
+        {
+          "word": " lost",
+          "start": 152.57,
+          "end": 153.49,
+          "probability": 0.899
+        },
+        {
+          "word": " the",
+          "start": 153.49,
+          "end": 153.87,
+          "probability": 0.935
+        },
+        {
+          "word": " seven",
+          "start": 153.87,
+          "end": 154.37,
+          "probability": 0.41
+        },
+        {
+          "word": " spots,",
+          "start": 154.37,
+          "end": 155.35,
+          "probability": 0.276
+        },
+        {
+          "word": " break",
+          "start": 156.33,
+          "end": 158.05,
+          "probability": 0.641
+        },
+        {
+          "word": " my",
+          "start": 158.05,
+          "end": 158.45,
+          "probability": 0.996
+        },
+        {
+          "word": " heart",
+          "start": 158.45,
+          "end": 158.83,
+          "probability": 0.99
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.848,
+    "wordCount": 77,
+    "credibleWordCount": 68,
+    "segmentCount": 11,
+    "averageWordProbability": 0.715,
+    "vocalSeconds": 44.82,
+    "scanCoverage": 0.371,
+    "reviewRequired": false
+  }
+}

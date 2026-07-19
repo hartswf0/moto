@@ -1,0 +1,1840 @@
+{
+  "analysisVersion": 1,
+  "index": 26,
+  "id": "../VOLHOLLA/song-unpatchedglitch-06.html",
+  "slug": "regal-slop",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Told the class don't master it, smash it instead Crying wild like the Wi-Fi was dead Say use it for medicine, physics, big brain glory But not for your inbox, your draft or your story Interesting border, very tasteful fence Tool saves a life, fine Tool saves ten minutes, all fence, I respect the warning I love a heart sentence, I love a clean joke I love when the mind makes fire from smoke, but here comes the wrinkle Cresting to the gown, fun feels different, when the rain comes around A hover crowd laughs, very culture, very crisp The slot keen calls with a grocery list Sorry to interrupt this moral cuisine, but who can- Who pays price? Who gets passion? Who gets need? Who gets more from the worst speed? Bow down to the labor, bow down to the scar But don't cause struggles sacred from the safe and see by far Who said don't let the online be the offline? Correct, beautiful, put that on a sign But the slot king wonders gently with tea Who made the online world? My last loss of avatase Come now My key speech would have knockin' tucked in Little bit messy but the argument's thin If the tour helps science everybody up plots If it helps the workers suddenly there are laws Mirror, mirror telling nights Who gives pleasure, who pays price Who gets passion, who gives need Who gets my from moving speed Bow down",
+  "sampledRanges": [
+    [
+      21.06,
+      39.06
+    ],
+    [
+      84.24,
+      102.24
+    ],
+    [
+      147.41,
+      165.41
+    ],
+    [
+      210.59,
+      228.59
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.06,
+      "end": 23.66,
+      "text": "Told the class don't master it, smash it instead",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Told",
+          "start": 21.06,
+          "end": 21.44,
+          "probability": 0.258
+        },
+        {
+          "word": " the",
+          "start": 21.44,
+          "end": 21.58,
+          "probability": 0.931
+        },
+        {
+          "word": " class",
+          "start": 21.58,
+          "end": 21.78,
+          "probability": 0.901
+        },
+        {
+          "word": " don't",
+          "start": 21.78,
+          "end": 22.02,
+          "probability": 0.93
+        },
+        {
+          "word": " master",
+          "start": 22.02,
+          "end": 22.32,
+          "probability": 0.73
+        },
+        {
+          "word": " it,",
+          "start": 22.32,
+          "end": 22.64,
+          "probability": 0.863
+        },
+        {
+          "word": " smash",
+          "start": 22.72,
+          "end": 23.06,
+          "probability": 0.957
+        },
+        {
+          "word": " it",
+          "start": 23.06,
+          "end": 23.28,
+          "probability": 0.995
+        },
+        {
+          "word": " instead",
+          "start": 23.28,
+          "end": 23.66,
+          "probability": 0.828
+        }
+      ]
+    },
+    {
+      "start": 23.66,
+      "end": 25.94,
+      "text": "Crying wild like the Wi-Fi was dead",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Crying",
+          "start": 23.66,
+          "end": 24.32,
+          "probability": 0.507
+        },
+        {
+          "word": " wild",
+          "start": 24.32,
+          "end": 24.58,
+          "probability": 0.545
+        },
+        {
+          "word": " like",
+          "start": 24.58,
+          "end": 24.88,
+          "probability": 0.827
+        },
+        {
+          "word": " the",
+          "start": 24.88,
+          "end": 25.06,
+          "probability": 0.962
+        },
+        {
+          "word": " Wi",
+          "start": 25.06,
+          "end": 25.24,
+          "probability": 0.121
+        },
+        {
+          "word": "-Fi",
+          "start": 25.24,
+          "end": 25.36,
+          "probability": 0.983
+        },
+        {
+          "word": " was",
+          "start": 25.36,
+          "end": 25.62,
+          "probability": 0.99
+        },
+        {
+          "word": " dead",
+          "start": 25.62,
+          "end": 25.94,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 25.94,
+      "end": 29.28,
+      "text": "Say use it for medicine, physics, big brain glory",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Say",
+          "start": 25.94,
+          "end": 26.34,
+          "probability": 0.586
+        },
+        {
+          "word": " use",
+          "start": 26.34,
+          "end": 26.6,
+          "probability": 0.427
+        },
+        {
+          "word": " it",
+          "start": 26.6,
+          "end": 26.7,
+          "probability": 0.989
+        },
+        {
+          "word": " for",
+          "start": 26.7,
+          "end": 26.86,
+          "probability": 0.95
+        },
+        {
+          "word": " medicine,",
+          "start": 26.86,
+          "end": 27.38,
+          "probability": 0.987
+        },
+        {
+          "word": " physics,",
+          "start": 27.44,
+          "end": 28.14,
+          "probability": 0.738
+        },
+        {
+          "word": " big",
+          "start": 28.44,
+          "end": 28.54,
+          "probability": 0.945
+        },
+        {
+          "word": " brain",
+          "start": 28.54,
+          "end": 28.8,
+          "probability": 0.979
+        },
+        {
+          "word": " glory",
+          "start": 28.8,
+          "end": 29.28,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 29.28,
+      "end": 32.0,
+      "text": "But not for your inbox, your draft or your story",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " But",
+          "start": 29.28,
+          "end": 29.94,
+          "probability": 0.912
+        },
+        {
+          "word": " not",
+          "start": 29.94,
+          "end": 30.12,
+          "probability": 0.959
+        },
+        {
+          "word": " for",
+          "start": 30.12,
+          "end": 30.32,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 30.32,
+          "end": 30.5,
+          "probability": 0.99
+        },
+        {
+          "word": " inbox,",
+          "start": 30.5,
+          "end": 30.84,
+          "probability": 0.99
+        },
+        {
+          "word": " your",
+          "start": 31.0,
+          "end": 31.06,
+          "probability": 0.874
+        },
+        {
+          "word": " draft",
+          "start": 31.06,
+          "end": 31.28,
+          "probability": 0.801
+        },
+        {
+          "word": " or",
+          "start": 31.28,
+          "end": 31.44,
+          "probability": 0.711
+        },
+        {
+          "word": " your",
+          "start": 31.44,
+          "end": 31.58,
+          "probability": 0.987
+        },
+        {
+          "word": " story",
+          "start": 31.58,
+          "end": 32.0,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 32.0,
+      "end": 34.12,
+      "text": "Interesting border, very tasteful fence",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Interesting",
+          "start": 32.0,
+          "end": 32.58,
+          "probability": 0.827
+        },
+        {
+          "word": " border,",
+          "start": 32.58,
+          "end": 33.06,
+          "probability": 0.952
+        },
+        {
+          "word": " very",
+          "start": 33.34,
+          "end": 33.48,
+          "probability": 0.987
+        },
+        {
+          "word": " tasteful",
+          "start": 33.48,
+          "end": 33.82,
+          "probability": 0.603
+        },
+        {
+          "word": " fence",
+          "start": 33.82,
+          "end": 34.12,
+          "probability": 0.764
+        }
+      ]
+    },
+    {
+      "start": 34.12,
+      "end": 35.78,
+      "text": "Tool saves a life, fine",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Tool",
+          "start": 34.12,
+          "end": 34.56,
+          "probability": 0.091
+        },
+        {
+          "word": " saves",
+          "start": 34.56,
+          "end": 34.72,
+          "probability": 0.443
+        },
+        {
+          "word": " a",
+          "start": 34.72,
+          "end": 34.92,
+          "probability": 0.968
+        },
+        {
+          "word": " life,",
+          "start": 34.92,
+          "end": 35.2,
+          "probability": 0.991
+        },
+        {
+          "word": " fine",
+          "start": 35.2,
+          "end": 35.78,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 35.78,
+      "end": 38.48,
+      "text": "Tool saves ten minutes, all fence, I respect the warning",
+      "avgLogprob": -0.378,
+      "compressionRatio": 1.498,
+      "noSpeechProbability": 0.586,
+      "words": [
+        {
+          "word": " Tool",
+          "start": 35.78,
+          "end": 36.18,
+          "probability": 0.573
+        },
+        {
+          "word": " saves",
+          "start": 36.18,
+          "end": 36.36,
+          "probability": 0.987
+        },
+        {
+          "word": " ten",
+          "start": 36.36,
+          "end": 36.56,
+          "probability": 0.645
+        },
+        {
+          "word": " minutes,",
+          "start": 36.56,
+          "end": 36.78,
+          "probability": 0.992
+        },
+        {
+          "word": " all",
+          "start": 36.8,
+          "end": 37.02,
+          "probability": 0.713
+        },
+        {
+          "word": " fence,",
+          "start": 37.02,
+          "end": 37.32,
+          "probability": 0.5
+        },
+        {
+          "word": " I",
+          "start": 37.56,
+          "end": 37.78,
+          "probability": 0.841
+        },
+        {
+          "word": " respect",
+          "start": 37.78,
+          "end": 38.0,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 38.0,
+          "end": 38.18,
+          "probability": 0.938
+        },
+        {
+          "word": " warning",
+          "start": 38.18,
+          "end": 38.48,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 84.72,
+      "end": 88.04,
+      "text": "I love a heart sentence, I love a clean joke",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.72,
+          "end": 85.2,
+          "probability": 0.205
+        },
+        {
+          "word": " love",
+          "start": 85.2,
+          "end": 85.42,
+          "probability": 0.874
+        },
+        {
+          "word": " a",
+          "start": 85.42,
+          "end": 85.68,
+          "probability": 0.406
+        },
+        {
+          "word": " heart",
+          "start": 85.68,
+          "end": 85.94,
+          "probability": 0.562
+        },
+        {
+          "word": " sentence,",
+          "start": 85.94,
+          "end": 86.52,
+          "probability": 0.954
+        },
+        {
+          "word": " I",
+          "start": 86.7,
+          "end": 86.86,
+          "probability": 0.975
+        },
+        {
+          "word": " love",
+          "start": 86.86,
+          "end": 87.06,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 87.06,
+          "end": 87.3,
+          "probability": 0.993
+        },
+        {
+          "word": " clean",
+          "start": 87.3,
+          "end": 87.66,
+          "probability": 0.981
+        },
+        {
+          "word": " joke",
+          "start": 87.66,
+          "end": 88.04,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 88.04,
+      "end": 91.98,
+      "text": "I love when the mind makes fire from smoke, but here comes the wrinkle",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " I",
+          "start": 88.04,
+          "end": 88.48,
+          "probability": 0.613
+        },
+        {
+          "word": " love",
+          "start": 88.48,
+          "end": 88.68,
+          "probability": 0.979
+        },
+        {
+          "word": " when",
+          "start": 88.68,
+          "end": 88.92,
+          "probability": 0.836
+        },
+        {
+          "word": " the",
+          "start": 88.92,
+          "end": 89.08,
+          "probability": 0.73
+        },
+        {
+          "word": " mind",
+          "start": 89.08,
+          "end": 89.3,
+          "probability": 0.937
+        },
+        {
+          "word": " makes",
+          "start": 89.3,
+          "end": 89.62,
+          "probability": 0.992
+        },
+        {
+          "word": " fire",
+          "start": 89.62,
+          "end": 89.94,
+          "probability": 0.984
+        },
+        {
+          "word": " from",
+          "start": 89.94,
+          "end": 90.34,
+          "probability": 0.897
+        },
+        {
+          "word": " smoke,",
+          "start": 90.34,
+          "end": 90.76,
+          "probability": 0.984
+        },
+        {
+          "word": " but",
+          "start": 90.9,
+          "end": 91.04,
+          "probability": 0.898
+        },
+        {
+          "word": " here",
+          "start": 91.04,
+          "end": 91.2,
+          "probability": 0.987
+        },
+        {
+          "word": " comes",
+          "start": 91.2,
+          "end": 91.44,
+          "probability": 0.992
+        },
+        {
+          "word": " the",
+          "start": 91.44,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " wrinkle",
+          "start": 91.6,
+          "end": 91.98,
+          "probability": 0.633
+        }
+      ]
+    },
+    {
+      "start": 91.98,
+      "end": 95.14,
+      "text": "Cresting to the gown, fun feels different, when the rain comes around",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " Cresting",
+          "start": 91.98,
+          "end": 92.52,
+          "probability": 0.642
+        },
+        {
+          "word": " to",
+          "start": 92.52,
+          "end": 92.68,
+          "probability": 0.947
+        },
+        {
+          "word": " the",
+          "start": 92.68,
+          "end": 92.86,
+          "probability": 0.993
+        },
+        {
+          "word": " gown,",
+          "start": 92.86,
+          "end": 93.12,
+          "probability": 0.603
+        },
+        {
+          "word": " fun",
+          "start": 93.16,
+          "end": 93.4,
+          "probability": 0.942
+        },
+        {
+          "word": " feels",
+          "start": 93.4,
+          "end": 93.56,
+          "probability": 0.912
+        },
+        {
+          "word": " different,",
+          "start": 93.56,
+          "end": 93.88,
+          "probability": 0.999
+        },
+        {
+          "word": " when",
+          "start": 93.88,
+          "end": 94.14,
+          "probability": 0.783
+        },
+        {
+          "word": " the",
+          "start": 94.14,
+          "end": 94.3,
+          "probability": 0.996
+        },
+        {
+          "word": " rain",
+          "start": 94.3,
+          "end": 94.5,
+          "probability": 0.77
+        },
+        {
+          "word": " comes",
+          "start": 94.5,
+          "end": 94.74,
+          "probability": 0.99
+        },
+        {
+          "word": " around",
+          "start": 94.74,
+          "end": 95.14,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 95.14,
+      "end": 97.34,
+      "text": "A hover crowd laughs, very culture, very crisp",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " A",
+          "start": 95.14,
+          "end": 95.46,
+          "probability": 0.472
+        },
+        {
+          "word": " hover",
+          "start": 95.46,
+          "end": 95.64,
+          "probability": 0.561
+        },
+        {
+          "word": " crowd",
+          "start": 95.64,
+          "end": 95.92,
+          "probability": 0.27
+        },
+        {
+          "word": " laughs,",
+          "start": 95.92,
+          "end": 96.16,
+          "probability": 0.639
+        },
+        {
+          "word": " very",
+          "start": 96.32,
+          "end": 96.48,
+          "probability": 0.956
+        },
+        {
+          "word": " culture,",
+          "start": 96.48,
+          "end": 96.74,
+          "probability": 0.778
+        },
+        {
+          "word": " very",
+          "start": 96.86,
+          "end": 97.04,
+          "probability": 0.982
+        },
+        {
+          "word": " crisp",
+          "start": 97.04,
+          "end": 97.34,
+          "probability": 0.841
+        }
+      ]
+    },
+    {
+      "start": 97.34,
+      "end": 99.5,
+      "text": "The slot keen calls with a grocery list",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " The",
+          "start": 97.34,
+          "end": 97.62,
+          "probability": 0.626
+        },
+        {
+          "word": " slot",
+          "start": 97.62,
+          "end": 97.82,
+          "probability": 0.762
+        },
+        {
+          "word": " keen",
+          "start": 97.82,
+          "end": 98.16,
+          "probability": 0.402
+        },
+        {
+          "word": " calls",
+          "start": 98.16,
+          "end": 98.36,
+          "probability": 0.82
+        },
+        {
+          "word": " with",
+          "start": 98.36,
+          "end": 98.58,
+          "probability": 0.762
+        },
+        {
+          "word": " a",
+          "start": 98.58,
+          "end": 98.7,
+          "probability": 0.713
+        },
+        {
+          "word": " grocery",
+          "start": 98.7,
+          "end": 99.0,
+          "probability": 0.608
+        },
+        {
+          "word": " list",
+          "start": 99.0,
+          "end": 99.5,
+          "probability": 0.925
+        }
+      ]
+    },
+    {
+      "start": 99.5,
+      "end": 102.22,
+      "text": "Sorry to interrupt this moral cuisine, but who can-",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.565,
+      "noSpeechProbability": 0.786,
+      "words": [
+        {
+          "word": " Sorry",
+          "start": 99.5,
+          "end": 99.98,
+          "probability": 0.797
+        },
+        {
+          "word": " to",
+          "start": 99.98,
+          "end": 100.22,
+          "probability": 0.985
+        },
+        {
+          "word": " interrupt",
+          "start": 100.22,
+          "end": 100.64,
+          "probability": 0.996
+        },
+        {
+          "word": " this",
+          "start": 100.64,
+          "end": 100.88,
+          "probability": 0.358
+        },
+        {
+          "word": " moral",
+          "start": 100.88,
+          "end": 101.16,
+          "probability": 0.88
+        },
+        {
+          "word": " cuisine,",
+          "start": 101.16,
+          "end": 101.6,
+          "probability": 0.872
+        },
+        {
+          "word": " but",
+          "start": 101.78,
+          "end": 101.96,
+          "probability": 0.954
+        },
+        {
+          "word": " who",
+          "start": 101.96,
+          "end": 102.12,
+          "probability": 0.956
+        },
+        {
+          "word": " can",
+          "start": 102.12,
+          "end": 102.22,
+          "probability": 0.662
+        },
+        {
+          "word": "-",
+          "start": 102.22,
+          "end": 102.22,
+          "probability": 0.338
+        }
+      ]
+    },
+    {
+      "start": 147.41,
+      "end": 151.45,
+      "text": "Who pays price? Who gets passion? Who gets need? Who gets more from the worst speed?",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 147.41,
+          "end": 147.51,
+          "probability": 0.208
+        },
+        {
+          "word": " pays",
+          "start": 147.51,
+          "end": 147.69,
+          "probability": 0.679
+        },
+        {
+          "word": " price?",
+          "start": 147.69,
+          "end": 148.03,
+          "probability": 0.842
+        },
+        {
+          "word": " Who",
+          "start": 148.37,
+          "end": 148.47,
+          "probability": 0.976
+        },
+        {
+          "word": " gets",
+          "start": 148.47,
+          "end": 148.65,
+          "probability": 0.964
+        },
+        {
+          "word": " passion?",
+          "start": 148.65,
+          "end": 148.95,
+          "probability": 0.315
+        },
+        {
+          "word": " Who",
+          "start": 149.09,
+          "end": 149.19,
+          "probability": 0.991
+        },
+        {
+          "word": " gets",
+          "start": 149.19,
+          "end": 149.39,
+          "probability": 0.961
+        },
+        {
+          "word": " need?",
+          "start": 149.39,
+          "end": 149.67,
+          "probability": 0.885
+        },
+        {
+          "word": " Who",
+          "start": 149.99,
+          "end": 150.11,
+          "probability": 0.997
+        },
+        {
+          "word": " gets",
+          "start": 150.11,
+          "end": 150.29,
+          "probability": 0.983
+        },
+        {
+          "word": " more",
+          "start": 150.29,
+          "end": 150.45,
+          "probability": 0.125
+        },
+        {
+          "word": " from",
+          "start": 150.45,
+          "end": 150.71,
+          "probability": 0.951
+        },
+        {
+          "word": " the",
+          "start": 150.71,
+          "end": 150.79,
+          "probability": 0.287
+        },
+        {
+          "word": " worst",
+          "start": 150.79,
+          "end": 150.99,
+          "probability": 0.157
+        },
+        {
+          "word": " speed?",
+          "start": 150.99,
+          "end": 151.45,
+          "probability": 0.969
+        }
+      ]
+    },
+    {
+      "start": 151.67,
+      "end": 154.53,
+      "text": "Bow down to the labor, bow down to the scar",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Bow",
+          "start": 151.67,
+          "end": 151.81,
+          "probability": 0.808
+        },
+        {
+          "word": " down",
+          "start": 151.81,
+          "end": 152.21,
+          "probability": 0.956
+        },
+        {
+          "word": " to",
+          "start": 152.21,
+          "end": 152.47,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 152.47,
+          "end": 152.63,
+          "probability": 0.992
+        },
+        {
+          "word": " labor,",
+          "start": 152.63,
+          "end": 152.99,
+          "probability": 0.776
+        },
+        {
+          "word": " bow",
+          "start": 153.29,
+          "end": 153.43,
+          "probability": 0.477
+        },
+        {
+          "word": " down",
+          "start": 153.43,
+          "end": 153.85,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 153.85,
+          "end": 154.09,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 154.09,
+          "end": 154.23,
+          "probability": 0.996
+        },
+        {
+          "word": " scar",
+          "start": 154.23,
+          "end": 154.53,
+          "probability": 0.932
+        }
+      ]
+    },
+    {
+      "start": 154.53,
+      "end": 157.89,
+      "text": "But don't cause struggles sacred from the safe and see by far",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " But",
+          "start": 154.53,
+          "end": 154.81,
+          "probability": 0.344
+        },
+        {
+          "word": " don't",
+          "start": 154.81,
+          "end": 155.05,
+          "probability": 0.983
+        },
+        {
+          "word": " cause",
+          "start": 155.05,
+          "end": 155.19,
+          "probability": 0.717
+        },
+        {
+          "word": " struggles",
+          "start": 155.19,
+          "end": 155.47,
+          "probability": 0.533
+        },
+        {
+          "word": " sacred",
+          "start": 155.47,
+          "end": 156.01,
+          "probability": 0.681
+        },
+        {
+          "word": " from",
+          "start": 156.01,
+          "end": 156.33,
+          "probability": 0.363
+        },
+        {
+          "word": " the",
+          "start": 156.33,
+          "end": 156.45,
+          "probability": 0.818
+        },
+        {
+          "word": " safe",
+          "start": 156.45,
+          "end": 156.69,
+          "probability": 0.514
+        },
+        {
+          "word": " and",
+          "start": 156.69,
+          "end": 156.83,
+          "probability": 0.584
+        },
+        {
+          "word": " see",
+          "start": 156.83,
+          "end": 157.07,
+          "probability": 0.532
+        },
+        {
+          "word": " by",
+          "start": 157.07,
+          "end": 157.39,
+          "probability": 0.628
+        },
+        {
+          "word": " far",
+          "start": 157.39,
+          "end": 157.89,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 157.89,
+      "end": 159.67,
+      "text": "Who said don't let the online be the offline?",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 157.89,
+          "end": 157.99,
+          "probability": 0.275
+        },
+        {
+          "word": " said",
+          "start": 157.99,
+          "end": 158.13,
+          "probability": 0.907
+        },
+        {
+          "word": " don't",
+          "start": 158.13,
+          "end": 158.35,
+          "probability": 0.898
+        },
+        {
+          "word": " let",
+          "start": 158.35,
+          "end": 158.43,
+          "probability": 0.975
+        },
+        {
+          "word": " the",
+          "start": 158.43,
+          "end": 158.57,
+          "probability": 0.895
+        },
+        {
+          "word": " online",
+          "start": 158.57,
+          "end": 158.83,
+          "probability": 0.948
+        },
+        {
+          "word": " be",
+          "start": 158.83,
+          "end": 159.11,
+          "probability": 0.318
+        },
+        {
+          "word": " the",
+          "start": 159.11,
+          "end": 159.25,
+          "probability": 0.926
+        },
+        {
+          "word": " offline?",
+          "start": 159.25,
+          "end": 159.67,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 159.87,
+      "end": 161.67,
+      "text": "Correct, beautiful, put that on a sign",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Correct,",
+          "start": 159.87,
+          "end": 160.09,
+          "probability": 0.299
+        },
+        {
+          "word": " beautiful,",
+          "start": 160.37,
+          "end": 160.73,
+          "probability": 0.988
+        },
+        {
+          "word": " put",
+          "start": 160.93,
+          "end": 161.03,
+          "probability": 0.978
+        },
+        {
+          "word": " that",
+          "start": 161.03,
+          "end": 161.17,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 161.17,
+          "end": 161.29,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 161.29,
+          "end": 161.39,
+          "probability": 0.697
+        },
+        {
+          "word": " sign",
+          "start": 161.39,
+          "end": 161.67,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 161.67,
+      "end": 164.13,
+      "text": "But the slot king wonders gently with tea",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " But",
+          "start": 161.67,
+          "end": 161.83,
+          "probability": 0.636
+        },
+        {
+          "word": " the",
+          "start": 161.83,
+          "end": 161.93,
+          "probability": 0.976
+        },
+        {
+          "word": " slot",
+          "start": 161.93,
+          "end": 162.17,
+          "probability": 0.66
+        },
+        {
+          "word": " king",
+          "start": 162.17,
+          "end": 162.45,
+          "probability": 0.465
+        },
+        {
+          "word": " wonders",
+          "start": 162.45,
+          "end": 162.85,
+          "probability": 0.785
+        },
+        {
+          "word": " gently",
+          "start": 162.85,
+          "end": 163.43,
+          "probability": 0.694
+        },
+        {
+          "word": " with",
+          "start": 163.43,
+          "end": 163.79,
+          "probability": 0.602
+        },
+        {
+          "word": " tea",
+          "start": 163.79,
+          "end": 164.13,
+          "probability": 0.302
+        }
+      ]
+    },
+    {
+      "start": 164.13,
+      "end": 165.39,
+      "text": "Who made the online world?",
+      "avgLogprob": -0.379,
+      "compressionRatio": 1.711,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 164.13,
+          "end": 164.33,
+          "probability": 0.8
+        },
+        {
+          "word": " made",
+          "start": 164.33,
+          "end": 164.49,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 164.49,
+          "end": 164.71,
+          "probability": 0.995
+        },
+        {
+          "word": " online",
+          "start": 164.71,
+          "end": 165.05,
+          "probability": 0.998
+        },
+        {
+          "word": " world?",
+          "start": 165.05,
+          "end": 165.39,
+          "probability": 0.799
+        }
+      ]
+    },
+    {
+      "start": 210.59,
+      "end": 211.89,
+      "text": "My last loss of avatase",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " My",
+          "start": 210.59,
+          "end": 210.59,
+          "probability": 0.013
+        },
+        {
+          "word": " last",
+          "start": 210.59,
+          "end": 210.73,
+          "probability": 0.02
+        },
+        {
+          "word": " loss",
+          "start": 210.73,
+          "end": 210.97,
+          "probability": 0.338
+        },
+        {
+          "word": " of",
+          "start": 210.97,
+          "end": 211.21,
+          "probability": 0.972
+        },
+        {
+          "word": " avatase",
+          "start": 211.21,
+          "end": 211.89,
+          "probability": 0.509
+        }
+      ]
+    },
+    {
+      "start": 211.89,
+      "end": 212.71,
+      "text": "Come now",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Come",
+          "start": 211.89,
+          "end": 212.35,
+          "probability": 0.298
+        },
+        {
+          "word": " now",
+          "start": 212.35,
+          "end": 212.71,
+          "probability": 0.89
+        }
+      ]
+    },
+    {
+      "start": 212.71,
+      "end": 214.65,
+      "text": "My key speech would have knockin' tucked in",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " My",
+          "start": 212.71,
+          "end": 212.85,
+          "probability": 0.07
+        },
+        {
+          "word": " key",
+          "start": 212.85,
+          "end": 213.15,
+          "probability": 0.502
+        },
+        {
+          "word": " speech",
+          "start": 213.15,
+          "end": 213.47,
+          "probability": 0.288
+        },
+        {
+          "word": " would",
+          "start": 213.47,
+          "end": 213.69,
+          "probability": 0.275
+        },
+        {
+          "word": " have",
+          "start": 213.69,
+          "end": 213.77,
+          "probability": 0.61
+        },
+        {
+          "word": " knockin'",
+          "start": 213.77,
+          "end": 214.07,
+          "probability": 0.303
+        },
+        {
+          "word": " tucked",
+          "start": 214.17,
+          "end": 214.27,
+          "probability": 0.536
+        },
+        {
+          "word": " in",
+          "start": 214.27,
+          "end": 214.65,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 214.65,
+      "end": 216.73,
+      "text": "Little bit messy but the argument's thin",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Little",
+          "start": 214.65,
+          "end": 215.07,
+          "probability": 0.876
+        },
+        {
+          "word": " bit",
+          "start": 215.07,
+          "end": 215.33,
+          "probability": 0.939
+        },
+        {
+          "word": " messy",
+          "start": 215.33,
+          "end": 215.65,
+          "probability": 0.995
+        },
+        {
+          "word": " but",
+          "start": 215.65,
+          "end": 215.83,
+          "probability": 0.493
+        },
+        {
+          "word": " the",
+          "start": 215.83,
+          "end": 215.97,
+          "probability": 0.919
+        },
+        {
+          "word": " argument's",
+          "start": 215.97,
+          "end": 216.55,
+          "probability": 0.606
+        },
+        {
+          "word": " thin",
+          "start": 216.55,
+          "end": 216.73,
+          "probability": 0.873
+        }
+      ]
+    },
+    {
+      "start": 216.73,
+      "end": 218.93,
+      "text": "If the tour helps science everybody up plots",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " If",
+          "start": 216.73,
+          "end": 216.97,
+          "probability": 0.05
+        },
+        {
+          "word": " the",
+          "start": 216.97,
+          "end": 216.99,
+          "probability": 0.899
+        },
+        {
+          "word": " tour",
+          "start": 216.99,
+          "end": 217.25,
+          "probability": 0.531
+        },
+        {
+          "word": " helps",
+          "start": 217.25,
+          "end": 217.51,
+          "probability": 0.953
+        },
+        {
+          "word": " science",
+          "start": 217.51,
+          "end": 217.81,
+          "probability": 0.958
+        },
+        {
+          "word": " everybody",
+          "start": 217.81,
+          "end": 218.21,
+          "probability": 0.498
+        },
+        {
+          "word": " up",
+          "start": 218.21,
+          "end": 218.61,
+          "probability": 0.903
+        },
+        {
+          "word": " plots",
+          "start": 218.61,
+          "end": 218.93,
+          "probability": 0.103
+        }
+      ]
+    },
+    {
+      "start": 218.93,
+      "end": 221.19,
+      "text": "If it helps the workers suddenly there are laws",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " If",
+          "start": 218.93,
+          "end": 219.11,
+          "probability": 0.664
+        },
+        {
+          "word": " it",
+          "start": 219.11,
+          "end": 219.23,
+          "probability": 0.993
+        },
+        {
+          "word": " helps",
+          "start": 219.23,
+          "end": 219.39,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 219.39,
+          "end": 219.63,
+          "probability": 0.19
+        },
+        {
+          "word": " workers",
+          "start": 219.63,
+          "end": 219.95,
+          "probability": 0.73
+        },
+        {
+          "word": " suddenly",
+          "start": 219.95,
+          "end": 220.27,
+          "probability": 0.883
+        },
+        {
+          "word": " there",
+          "start": 220.27,
+          "end": 220.55,
+          "probability": 0.265
+        },
+        {
+          "word": " are",
+          "start": 220.55,
+          "end": 220.73,
+          "probability": 0.977
+        },
+        {
+          "word": " laws",
+          "start": 220.73,
+          "end": 221.19,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 221.19,
+      "end": 222.81,
+      "text": "Mirror, mirror telling nights",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Mirror,",
+          "start": 221.19,
+          "end": 221.69,
+          "probability": 0.809
+        },
+        {
+          "word": " mirror",
+          "start": 221.87,
+          "end": 222.01,
+          "probability": 0.837
+        },
+        {
+          "word": " telling",
+          "start": 222.01,
+          "end": 222.33,
+          "probability": 0.464
+        },
+        {
+          "word": " nights",
+          "start": 222.33,
+          "end": 222.81,
+          "probability": 0.561
+        }
+      ]
+    },
+    {
+      "start": 222.81,
+      "end": 224.33,
+      "text": "Who gives pleasure, who pays price",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 222.81,
+          "end": 223.19,
+          "probability": 0.977
+        },
+        {
+          "word": " gives",
+          "start": 223.19,
+          "end": 223.39,
+          "probability": 0.493
+        },
+        {
+          "word": " pleasure,",
+          "start": 223.39,
+          "end": 223.57,
+          "probability": 0.223
+        },
+        {
+          "word": " who",
+          "start": 223.75,
+          "end": 223.85,
+          "probability": 0.983
+        },
+        {
+          "word": " pays",
+          "start": 223.85,
+          "end": 224.01,
+          "probability": 0.675
+        },
+        {
+          "word": " price",
+          "start": 224.01,
+          "end": 224.33,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 224.33,
+      "end": 225.97,
+      "text": "Who gets passion, who gives need",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 224.33,
+          "end": 224.79,
+          "probability": 0.771
+        },
+        {
+          "word": " gets",
+          "start": 224.79,
+          "end": 224.99,
+          "probability": 0.585
+        },
+        {
+          "word": " passion,",
+          "start": 224.99,
+          "end": 225.29,
+          "probability": 0.773
+        },
+        {
+          "word": " who",
+          "start": 225.43,
+          "end": 225.49,
+          "probability": 0.99
+        },
+        {
+          "word": " gives",
+          "start": 225.49,
+          "end": 225.69,
+          "probability": 0.505
+        },
+        {
+          "word": " need",
+          "start": 225.69,
+          "end": 225.97,
+          "probability": 0.573
+        }
+      ]
+    },
+    {
+      "start": 225.97,
+      "end": 227.65,
+      "text": "Who gets my from moving speed",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Who",
+          "start": 225.97,
+          "end": 226.43,
+          "probability": 0.871
+        },
+        {
+          "word": " gets",
+          "start": 226.43,
+          "end": 226.63,
+          "probability": 0.678
+        },
+        {
+          "word": " my",
+          "start": 226.63,
+          "end": 226.79,
+          "probability": 0.338
+        },
+        {
+          "word": " from",
+          "start": 226.79,
+          "end": 226.97,
+          "probability": 0.268
+        },
+        {
+          "word": " moving",
+          "start": 226.97,
+          "end": 227.19,
+          "probability": 0.474
+        },
+        {
+          "word": " speed",
+          "start": 227.19,
+          "end": 227.65,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 227.65,
+      "end": 228.51,
+      "text": "Bow down",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.529,
+      "noSpeechProbability": 0.761,
+      "words": [
+        {
+          "word": " Bow",
+          "start": 227.65,
+          "end": 228.15,
+          "probability": 0.042
+        },
+        {
+          "word": " down",
+          "start": 228.15,
+          "end": 228.51,
+          "probability": 0.867
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.877,
+    "wordCount": 56,
+    "credibleWordCount": 53,
+    "segmentCount": 7,
+    "averageWordProbability": 0.815,
+    "vocalSeconds": 17.42,
+    "scanCoverage": 0.256,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,711 @@
+{
+  "analysisVersion": 1,
+  "index": 119,
+  "id": "../VOLHOLLA/song-mallground-22.html",
+  "slug": "kiosk-republics",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "jw",
+  "text": "1 tbps 1 tbps 1 tbps 1 tbps 1 tbps 1 tbps 1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc",
+  "sampledRanges": [
+    [
+      15.95,
+      33.95
+    ],
+    [
+      63.8,
+      81.8
+    ],
+    [
+      111.66,
+      129.66
+    ],
+    [
+      159.51,
+      177.51
+    ]
+  ],
+  "segments": [
+    {
+      "start": 27.31,
+      "end": 29.61,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 27.31,
+          "end": 28.71,
+          "probability": 0.076
+        },
+        {
+          "word": " tbps",
+          "start": 28.71,
+          "end": 29.61,
+          "probability": 0.206
+        }
+      ]
+    },
+    {
+      "start": 29.61,
+      "end": 29.61,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 29.61,
+      "end": 29.61,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 29.61,
+      "end": 29.61,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 29.61,
+      "end": 29.61,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 29.61,
+      "end": 29.61,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 29.61,
+      "end": 31.61,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 29.61,
+          "end": 29.61,
+          "probability": 0.839
+        },
+        {
+          "word": " tbps",
+          "start": 29.61,
+          "end": 31.61,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 31.61,
+      "end": 32.59,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 31.61,
+          "end": 31.61,
+          "probability": 0.868
+        },
+        {
+          "word": " tbps",
+          "start": 31.61,
+          "end": 32.59,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 32.59,
+      "end": 33.51,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 32.59,
+          "end": 32.59,
+          "probability": 0.864
+        },
+        {
+          "word": " tbps",
+          "start": 32.59,
+          "end": 33.51,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 33.51,
+      "end": 33.51,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 33.51,
+      "end": 33.91,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 33.51,
+          "end": 33.51,
+          "probability": 0.88
+        },
+        {
+          "word": " tbps",
+          "start": 33.51,
+          "end": 33.91,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 33.91,
+      "end": 33.91,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 33.91,
+      "end": 33.91,
+      "text": "",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": []
+    },
+    {
+      "start": 33.91,
+      "end": 33.93,
+      "text": "1 tbps",
+      "avgLogprob": -0.217,
+      "compressionRatio": 5.389,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " 1",
+          "start": 33.91,
+          "end": 33.91,
+          "probability": 0.879
+        },
+        {
+          "word": " tbps",
+          "start": 33.91,
+          "end": 33.93,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 33.91,
+      "end": 33.91,
+      "text": "",
+      "avgLogprob": -0.125,
+      "compressionRatio": 22.4,
+      "noSpeechProbability": 0.783,
+      "words": []
+    },
+    {
+      "start": 71.58,
+      "end": 74.04,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 71.58,
+          "end": 72.98,
+          "probability": 0.099
+        },
+        {
+          "word": " tbh",
+          "start": 72.98,
+          "end": 74.04,
+          "probability": 0.169
+        }
+      ]
+    },
+    {
+      "start": 74.04,
+      "end": 74.04,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 74.04,
+      "end": 74.04,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 74.04,
+      "end": 74.04,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 74.04,
+      "end": 74.62,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 74.04,
+          "end": 74.62,
+          "probability": 0.781
+        },
+        {
+          "word": " tbh",
+          "start": 74.62,
+          "end": 74.62,
+          "probability": 0.959
+        }
+      ]
+    },
+    {
+      "start": 74.62,
+      "end": 74.62,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 74.62,
+      "end": 75.82,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 74.62,
+          "end": 74.66,
+          "probability": 0.867
+        },
+        {
+          "word": " tbh",
+          "start": 74.66,
+          "end": 75.82,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 75.82,
+      "end": 76.88,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 75.82,
+          "end": 75.82,
+          "probability": 0.883
+        },
+        {
+          "word": " tbh",
+          "start": 75.82,
+          "end": 76.88,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 76.88,
+      "end": 78.6,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 76.88,
+          "end": 76.88,
+          "probability": 0.894
+        },
+        {
+          "word": " tbh",
+          "start": 76.88,
+          "end": 78.6,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 78.6,
+      "end": 78.6,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 78.6,
+      "end": 80.16,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 78.6,
+          "end": 78.6,
+          "probability": 0.893
+        },
+        {
+          "word": " tbh",
+          "start": 78.6,
+          "end": 80.16,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 80.16,
+      "end": 81.3,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 80.16,
+          "end": 80.16,
+          "probability": 0.89
+        },
+        {
+          "word": " tbh",
+          "start": 80.16,
+          "end": 81.3,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 81.3,
+      "end": 81.78,
+      "text": "1 tbh",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": [
+        {
+          "word": " 1",
+          "start": 81.3,
+          "end": 81.3,
+          "probability": 0.893
+        },
+        {
+          "word": " tbh",
+          "start": 81.3,
+          "end": 81.78,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 81.78,
+      "end": 81.78,
+      "text": "",
+      "avgLogprob": -0.222,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.749,
+      "words": []
+    },
+    {
+      "start": 81.76,
+      "end": 81.76,
+      "text": "",
+      "avgLogprob": -0.127,
+      "compressionRatio": 21.96,
+      "noSpeechProbability": 0.792,
+      "words": []
+    },
+    {
+      "start": 119.7,
+      "end": 122.5,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 119.7,
+          "end": 121.1,
+          "probability": 0.105
+        },
+        {
+          "word": " tbc",
+          "start": 121.1,
+          "end": 122.5,
+          "probability": 0.202
+        }
+      ]
+    },
+    {
+      "start": 122.5,
+      "end": 122.5,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 122.5,
+      "end": 122.5,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 122.5,
+      "end": 122.5,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 122.5,
+      "end": 122.5,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 122.5,
+      "end": 122.5,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 122.5,
+      "end": 123.32,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 122.5,
+          "end": 122.5,
+          "probability": 0.845
+        },
+        {
+          "word": " tbc",
+          "start": 122.5,
+          "end": 123.32,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 123.32,
+      "end": 123.32,
+      "text": "",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 123.32,
+      "end": 126.4,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 123.32,
+          "end": 123.32,
+          "probability": 0.889
+        },
+        {
+          "word": " tbc",
+          "start": 123.32,
+          "end": 126.4,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 126.4,
+      "end": 126.58,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 126.4,
+          "end": 126.4,
+          "probability": 0.894
+        },
+        {
+          "word": " tbc",
+          "start": 126.4,
+          "end": 126.58,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 126.58,
+      "end": 128.52,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 126.58,
+          "end": 126.58,
+          "probability": 0.9
+        },
+        {
+          "word": " tbc",
+          "start": 126.58,
+          "end": 128.52,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 128.52,
+      "end": 129.62,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 128.52,
+          "end": 128.52,
+          "probability": 0.894
+        },
+        {
+          "word": " tbc",
+          "start": 128.52,
+          "end": 129.62,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 129.62,
+      "end": 129.64,
+      "text": "1 tbc",
+      "avgLogprob": -0.264,
+      "compressionRatio": 4.529,
+      "noSpeechProbability": 0.692,
+      "words": [
+        {
+          "word": " 1",
+          "start": 129.62,
+          "end": 129.62,
+          "probability": 0.902
+        },
+        {
+          "word": " tbc",
+          "start": 129.62,
+          "end": 129.64,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 129.62,
+      "end": 129.62,
+      "text": "",
+      "avgLogprob": -0.127,
+      "compressionRatio": 21.96,
+      "noSpeechProbability": 0.787,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.539,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.331,
+    "reviewRequired": true
+  }
+}

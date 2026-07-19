@@ -1,0 +1,1216 @@
+{
+  "analysisVersion": 1,
+  "index": 102,
+  "id": "../VOLHOLLA/song-silence-02.html",
+  "slug": "e-b-i-t-d-a-ft-pharrell",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Looking lovely, paper trellis long, notebook in my direction Clear, I see the vision, focus, look the fortress Great, I break, stacking up the server plus a clubbing on the cell phone My cell phone is smiling, digits moving, guessing on the desktop Epida, earnings before interest, taxes, deep appreciation and the modernization Call it Epida, Epida, count it up, count it up, Man it up, flat the mat, flat the mat You be done Like a similar fan there works Upward, the sky is just a stiller now Came, I saw, I conquered it Cash flow, consistent Ernie, B4, interest, taxes, depreciation, and the modernization Call it Epidae, Epidae, Epidae, Ernie, B4 Fasten that Bebe da Click, click, click The machine is humming Pop the corp, the ball will keep on coming Everything is gross Everything is net Life is such a win While we're da ever fret Earnings be for interest Taxis",
+  "sampledRanges": [
+    [
+      10.12,
+      28.12
+    ],
+    [
+      40.47,
+      58.47
+    ],
+    [
+      70.82,
+      88.82
+    ],
+    [
+      101.18,
+      119.18
+    ]
+  ],
+  "segments": [
+    {
+      "start": 10.12,
+      "end": 13.2,
+      "text": "Looking lovely, paper trellis long, notebook in my direction",
+      "avgLogprob": -0.634,
+      "compressionRatio": 1.521,
+      "noSpeechProbability": 0.471,
+      "words": [
+        {
+          "word": " Looking",
+          "start": 10.12,
+          "end": 10.56,
+          "probability": 0.186
+        },
+        {
+          "word": " lovely,",
+          "start": 10.56,
+          "end": 10.9,
+          "probability": 0.934
+        },
+        {
+          "word": " paper",
+          "start": 11.06,
+          "end": 11.42,
+          "probability": 0.425
+        },
+        {
+          "word": " trellis",
+          "start": 11.42,
+          "end": 11.76,
+          "probability": 0.671
+        },
+        {
+          "word": " long,",
+          "start": 11.76,
+          "end": 12.02,
+          "probability": 0.924
+        },
+        {
+          "word": " notebook",
+          "start": 12.16,
+          "end": 12.36,
+          "probability": 0.428
+        },
+        {
+          "word": " in",
+          "start": 12.36,
+          "end": 12.62,
+          "probability": 0.683
+        },
+        {
+          "word": " my",
+          "start": 12.62,
+          "end": 12.76,
+          "probability": 0.982
+        },
+        {
+          "word": " direction",
+          "start": 12.76,
+          "end": 13.2,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 13.78,
+      "end": 17.82,
+      "text": "Clear, I see the vision, focus, look the fortress",
+      "avgLogprob": -0.634,
+      "compressionRatio": 1.521,
+      "noSpeechProbability": 0.471,
+      "words": [
+        {
+          "word": " Clear,",
+          "start": 13.78,
+          "end": 14.3,
+          "probability": 0.753
+        },
+        {
+          "word": " I",
+          "start": 14.74,
+          "end": 14.9,
+          "probability": 0.498
+        },
+        {
+          "word": " see",
+          "start": 14.9,
+          "end": 15.08,
+          "probability": 0.892
+        },
+        {
+          "word": " the",
+          "start": 15.08,
+          "end": 15.2,
+          "probability": 0.59
+        },
+        {
+          "word": " vision,",
+          "start": 15.2,
+          "end": 15.52,
+          "probability": 0.994
+        },
+        {
+          "word": " focus,",
+          "start": 15.8,
+          "end": 16.7,
+          "probability": 0.909
+        },
+        {
+          "word": " look",
+          "start": 17.26,
+          "end": 17.38,
+          "probability": 0.121
+        },
+        {
+          "word": " the",
+          "start": 17.38,
+          "end": 17.56,
+          "probability": 0.552
+        },
+        {
+          "word": " fortress",
+          "start": 17.56,
+          "end": 17.82,
+          "probability": 0.934
+        }
+      ]
+    },
+    {
+      "start": 18.38,
+      "end": 23.38,
+      "text": "Great, I break, stacking up the server plus a clubbing on the cell phone",
+      "avgLogprob": -0.634,
+      "compressionRatio": 1.521,
+      "noSpeechProbability": 0.471,
+      "words": [
+        {
+          "word": " Great,",
+          "start": 18.38,
+          "end": 18.9,
+          "probability": 0.367
+        },
+        {
+          "word": " I",
+          "start": 19.28,
+          "end": 19.46,
+          "probability": 0.391
+        },
+        {
+          "word": " break,",
+          "start": 19.46,
+          "end": 20.1,
+          "probability": 0.465
+        },
+        {
+          "word": " stacking",
+          "start": 20.34,
+          "end": 20.68,
+          "probability": 0.879
+        },
+        {
+          "word": " up",
+          "start": 20.68,
+          "end": 20.88,
+          "probability": 0.909
+        },
+        {
+          "word": " the",
+          "start": 20.88,
+          "end": 20.98,
+          "probability": 0.757
+        },
+        {
+          "word": " server",
+          "start": 20.98,
+          "end": 21.18,
+          "probability": 0.411
+        },
+        {
+          "word": " plus",
+          "start": 21.18,
+          "end": 21.44,
+          "probability": 0.662
+        },
+        {
+          "word": " a",
+          "start": 21.44,
+          "end": 21.6,
+          "probability": 0.845
+        },
+        {
+          "word": " clubbing",
+          "start": 21.6,
+          "end": 21.88,
+          "probability": 0.267
+        },
+        {
+          "word": " on",
+          "start": 21.88,
+          "end": 22.0,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 22.0,
+          "end": 22.08,
+          "probability": 0.56
+        },
+        {
+          "word": " cell",
+          "start": 22.08,
+          "end": 22.32,
+          "probability": 0.825
+        },
+        {
+          "word": " phone",
+          "start": 22.32,
+          "end": 23.38,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 23.38,
+      "end": 27.7,
+      "text": "My cell phone is smiling, digits moving, guessing on the desktop",
+      "avgLogprob": -0.634,
+      "compressionRatio": 1.521,
+      "noSpeechProbability": 0.471,
+      "words": [
+        {
+          "word": " My",
+          "start": 23.38,
+          "end": 24.06,
+          "probability": 0.304
+        },
+        {
+          "word": " cell",
+          "start": 24.06,
+          "end": 24.28,
+          "probability": 0.208
+        },
+        {
+          "word": " phone",
+          "start": 24.28,
+          "end": 24.7,
+          "probability": 0.981
+        },
+        {
+          "word": " is",
+          "start": 24.7,
+          "end": 24.94,
+          "probability": 0.735
+        },
+        {
+          "word": " smiling,",
+          "start": 24.94,
+          "end": 25.42,
+          "probability": 0.819
+        },
+        {
+          "word": " digits",
+          "start": 25.68,
+          "end": 25.88,
+          "probability": 0.705
+        },
+        {
+          "word": " moving,",
+          "start": 25.88,
+          "end": 26.5,
+          "probability": 0.837
+        },
+        {
+          "word": " guessing",
+          "start": 26.78,
+          "end": 27.02,
+          "probability": 0.143
+        },
+        {
+          "word": " on",
+          "start": 27.02,
+          "end": 27.2,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 27.2,
+          "end": 27.34,
+          "probability": 0.848
+        },
+        {
+          "word": " desktop",
+          "start": 27.34,
+          "end": 27.7,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 40.53,
+      "end": 46.95,
+      "text": "Epida, earnings before interest, taxes, deep appreciation and the modernization",
+      "avgLogprob": -0.633,
+      "compressionRatio": 1.351,
+      "noSpeechProbability": 0.533,
+      "words": [
+        {
+          "word": " Epida,",
+          "start": 40.53,
+          "end": 41.41,
+          "probability": 0.53
+        },
+        {
+          "word": " earnings",
+          "start": 41.41,
+          "end": 42.29,
+          "probability": 0.522
+        },
+        {
+          "word": " before",
+          "start": 42.29,
+          "end": 42.77,
+          "probability": 0.741
+        },
+        {
+          "word": " interest,",
+          "start": 42.77,
+          "end": 43.29,
+          "probability": 0.462
+        },
+        {
+          "word": " taxes,",
+          "start": 43.85,
+          "end": 44.49,
+          "probability": 0.971
+        },
+        {
+          "word": " deep",
+          "start": 44.93,
+          "end": 45.41,
+          "probability": 0.367
+        },
+        {
+          "word": " appreciation",
+          "start": 45.41,
+          "end": 45.99,
+          "probability": 0.398
+        },
+        {
+          "word": " and",
+          "start": 45.99,
+          "end": 46.29,
+          "probability": 0.631
+        },
+        {
+          "word": " the",
+          "start": 46.29,
+          "end": 46.35,
+          "probability": 0.352
+        },
+        {
+          "word": " modernization",
+          "start": 46.35,
+          "end": 46.95,
+          "probability": 0.585
+        }
+      ]
+    },
+    {
+      "start": 46.95,
+      "end": 52.47,
+      "text": "Call it Epida, Epida, count it up, count it up,",
+      "avgLogprob": -0.633,
+      "compressionRatio": 1.351,
+      "noSpeechProbability": 0.533,
+      "words": [
+        {
+          "word": " Call",
+          "start": 46.95,
+          "end": 47.41,
+          "probability": 0.239
+        },
+        {
+          "word": " it",
+          "start": 47.41,
+          "end": 47.57,
+          "probability": 0.97
+        },
+        {
+          "word": " Epida,",
+          "start": 47.57,
+          "end": 47.95,
+          "probability": 0.669
+        },
+        {
+          "word": " Epida,",
+          "start": 48.15,
+          "end": 50.29,
+          "probability": 0.948
+        },
+        {
+          "word": " count",
+          "start": 50.47,
+          "end": 50.65,
+          "probability": 0.4
+        },
+        {
+          "word": " it",
+          "start": 50.65,
+          "end": 50.79,
+          "probability": 0.649
+        },
+        {
+          "word": " up,",
+          "start": 50.79,
+          "end": 51.07,
+          "probability": 0.901
+        },
+        {
+          "word": " count",
+          "start": 51.31,
+          "end": 51.79,
+          "probability": 0.958
+        },
+        {
+          "word": " it",
+          "start": 51.79,
+          "end": 51.93,
+          "probability": 0.993
+        },
+        {
+          "word": " up,",
+          "start": 51.93,
+          "end": 52.47,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 52.47,
+      "end": 55.69,
+      "text": "Man it up, flat the mat, flat the mat",
+      "avgLogprob": -1.278,
+      "compressionRatio": 1.089,
+      "noSpeechProbability": 0.513,
+      "words": [
+        {
+          "word": " Man",
+          "start": 52.47,
+          "end": 52.93,
+          "probability": 0.01
+        },
+        {
+          "word": " it",
+          "start": 52.93,
+          "end": 53.05,
+          "probability": 0.227
+        },
+        {
+          "word": " up,",
+          "start": 53.05,
+          "end": 53.37,
+          "probability": 0.662
+        },
+        {
+          "word": " flat",
+          "start": 53.73,
+          "end": 54.09,
+          "probability": 0.144
+        },
+        {
+          "word": " the",
+          "start": 54.09,
+          "end": 54.21,
+          "probability": 0.316
+        },
+        {
+          "word": " mat,",
+          "start": 54.21,
+          "end": 54.45,
+          "probability": 0.43
+        },
+        {
+          "word": " flat",
+          "start": 54.83,
+          "end": 55.21,
+          "probability": 0.942
+        },
+        {
+          "word": " the",
+          "start": 55.21,
+          "end": 55.35,
+          "probability": 0.995
+        },
+        {
+          "word": " mat",
+          "start": 55.35,
+          "end": 55.69,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 56.85,
+      "end": 57.87,
+      "text": "You be done",
+      "avgLogprob": -1.278,
+      "compressionRatio": 1.089,
+      "noSpeechProbability": 0.513,
+      "words": [
+        {
+          "word": " You",
+          "start": 56.85,
+          "end": 57.51,
+          "probability": 0.07
+        },
+        {
+          "word": " be",
+          "start": 57.51,
+          "end": 57.63,
+          "probability": 0.1
+        },
+        {
+          "word": " done",
+          "start": 57.63,
+          "end": 57.87,
+          "probability": 0.41
+        }
+      ]
+    },
+    {
+      "start": 70.82,
+      "end": 72.08,
+      "text": "Like a similar fan there works",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Like",
+          "start": 70.82,
+          "end": 71.1,
+          "probability": 0.457
+        },
+        {
+          "word": " a",
+          "start": 71.1,
+          "end": 71.16,
+          "probability": 0.937
+        },
+        {
+          "word": " similar",
+          "start": 71.16,
+          "end": 71.38,
+          "probability": 0.207
+        },
+        {
+          "word": " fan",
+          "start": 71.38,
+          "end": 71.64,
+          "probability": 0.625
+        },
+        {
+          "word": " there",
+          "start": 71.64,
+          "end": 71.76,
+          "probability": 0.23
+        },
+        {
+          "word": " works",
+          "start": 71.76,
+          "end": 72.08,
+          "probability": 0.214
+        }
+      ]
+    },
+    {
+      "start": 72.08,
+      "end": 73.98,
+      "text": "Upward, the sky is just a stiller now",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Upward,",
+          "start": 72.08,
+          "end": 72.66,
+          "probability": 0.467
+        },
+        {
+          "word": " the",
+          "start": 72.78,
+          "end": 72.84,
+          "probability": 0.661
+        },
+        {
+          "word": " sky",
+          "start": 72.84,
+          "end": 73.1,
+          "probability": 0.836
+        },
+        {
+          "word": " is",
+          "start": 73.1,
+          "end": 73.24,
+          "probability": 0.76
+        },
+        {
+          "word": " just",
+          "start": 73.24,
+          "end": 73.38,
+          "probability": 0.94
+        },
+        {
+          "word": " a",
+          "start": 73.38,
+          "end": 73.48,
+          "probability": 0.914
+        },
+        {
+          "word": " stiller",
+          "start": 73.48,
+          "end": 73.74,
+          "probability": 0.387
+        },
+        {
+          "word": " now",
+          "start": 73.74,
+          "end": 73.98,
+          "probability": 0.869
+        }
+      ]
+    },
+    {
+      "start": 73.98,
+      "end": 76.02,
+      "text": "Came, I saw, I conquered it",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Came,",
+          "start": 73.98,
+          "end": 74.26,
+          "probability": 0.293
+        },
+        {
+          "word": " I",
+          "start": 74.54,
+          "end": 74.62,
+          "probability": 0.779
+        },
+        {
+          "word": " saw,",
+          "start": 74.62,
+          "end": 74.82,
+          "probability": 0.999
+        },
+        {
+          "word": " I",
+          "start": 75.12,
+          "end": 75.22,
+          "probability": 0.987
+        },
+        {
+          "word": " conquered",
+          "start": 75.22,
+          "end": 75.52,
+          "probability": 0.972
+        },
+        {
+          "word": " it",
+          "start": 75.52,
+          "end": 76.02,
+          "probability": 0.11
+        }
+      ]
+    },
+    {
+      "start": 76.02,
+      "end": 78.38,
+      "text": "Cash flow, consistent",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Cash",
+          "start": 76.02,
+          "end": 76.58,
+          "probability": 0.703
+        },
+        {
+          "word": " flow,",
+          "start": 76.58,
+          "end": 76.88,
+          "probability": 0.756
+        },
+        {
+          "word": " consistent",
+          "start": 77.1,
+          "end": 78.38,
+          "probability": 0.461
+        }
+      ]
+    },
+    {
+      "start": 78.38,
+      "end": 83.84,
+      "text": "Ernie, B4, interest, taxes, depreciation, and the modernization",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Ernie,",
+          "start": 78.38,
+          "end": 79.1,
+          "probability": 0.372
+        },
+        {
+          "word": " B4,",
+          "start": 79.32,
+          "end": 79.74,
+          "probability": 0.602
+        },
+        {
+          "word": " interest,",
+          "start": 79.96,
+          "end": 80.2,
+          "probability": 0.417
+        },
+        {
+          "word": " taxes,",
+          "start": 80.7,
+          "end": 81.4,
+          "probability": 0.899
+        },
+        {
+          "word": " depreciation,",
+          "start": 81.6,
+          "end": 83.08,
+          "probability": 0.701
+        },
+        {
+          "word": " and",
+          "start": 83.2,
+          "end": 83.2,
+          "probability": 0.447
+        },
+        {
+          "word": " the",
+          "start": 83.2,
+          "end": 83.28,
+          "probability": 0.221
+        },
+        {
+          "word": " modernization",
+          "start": 83.28,
+          "end": 83.84,
+          "probability": 0.722
+        }
+      ]
+    },
+    {
+      "start": 83.84,
+      "end": 88.78,
+      "text": "Call it Epidae, Epidae, Epidae, Ernie, B4",
+      "avgLogprob": -0.595,
+      "compressionRatio": 1.445,
+      "noSpeechProbability": 0.375,
+      "words": [
+        {
+          "word": " Call",
+          "start": 83.84,
+          "end": 84.32,
+          "probability": 0.854
+        },
+        {
+          "word": " it",
+          "start": 84.32,
+          "end": 84.5,
+          "probability": 0.748
+        },
+        {
+          "word": " Epidae,",
+          "start": 84.5,
+          "end": 85.38,
+          "probability": 0.32
+        },
+        {
+          "word": " Epidae,",
+          "start": 85.38,
+          "end": 86.26,
+          "probability": 0.984
+        },
+        {
+          "word": " Epidae,",
+          "start": 86.94,
+          "end": 87.48,
+          "probability": 0.951
+        },
+        {
+          "word": " Ernie,",
+          "start": 87.48,
+          "end": 88.34,
+          "probability": 0.802
+        },
+        {
+          "word": " B4",
+          "start": 88.52,
+          "end": 88.78,
+          "probability": 0.778
+        }
+      ]
+    },
+    {
+      "start": 101.18,
+      "end": 101.72,
+      "text": "Fasten that",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Fasten",
+          "start": 101.18,
+          "end": 101.52,
+          "probability": 0.213
+        },
+        {
+          "word": " that",
+          "start": 101.52,
+          "end": 101.72,
+          "probability": 0.35
+        }
+      ]
+    },
+    {
+      "start": 103.34,
+      "end": 104.02,
+      "text": "Bebe da",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Bebe",
+          "start": 103.34,
+          "end": 103.78,
+          "probability": 0.077
+        },
+        {
+          "word": " da",
+          "start": 103.78,
+          "end": 104.02,
+          "probability": 0.22
+        }
+      ]
+    },
+    {
+      "start": 106.12,
+      "end": 107.2,
+      "text": "Click, click, click",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Click,",
+          "start": 106.12,
+          "end": 106.56,
+          "probability": 0.507
+        },
+        {
+          "word": " click,",
+          "start": 106.98,
+          "end": 106.98,
+          "probability": 0.977
+        },
+        {
+          "word": " click",
+          "start": 107.08,
+          "end": 107.2,
+          "probability": 0.939
+        }
+      ]
+    },
+    {
+      "start": 107.2,
+      "end": 108.4,
+      "text": "The machine is humming",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " The",
+          "start": 107.2,
+          "end": 107.4,
+          "probability": 0.509
+        },
+        {
+          "word": " machine",
+          "start": 107.4,
+          "end": 107.66,
+          "probability": 0.945
+        },
+        {
+          "word": " is",
+          "start": 107.66,
+          "end": 108.12,
+          "probability": 0.981
+        },
+        {
+          "word": " humming",
+          "start": 108.12,
+          "end": 108.4,
+          "probability": 0.223
+        }
+      ]
+    },
+    {
+      "start": 108.4,
+      "end": 110.06,
+      "text": "Pop the corp, the ball will keep on coming",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Pop",
+          "start": 108.4,
+          "end": 108.84,
+          "probability": 0.306
+        },
+        {
+          "word": " the",
+          "start": 108.84,
+          "end": 108.98,
+          "probability": 0.971
+        },
+        {
+          "word": " corp,",
+          "start": 108.98,
+          "end": 109.16,
+          "probability": 0.558
+        },
+        {
+          "word": " the",
+          "start": 109.22,
+          "end": 109.28,
+          "probability": 0.971
+        },
+        {
+          "word": " ball",
+          "start": 109.28,
+          "end": 109.4,
+          "probability": 0.222
+        },
+        {
+          "word": " will",
+          "start": 109.4,
+          "end": 109.5,
+          "probability": 0.54
+        },
+        {
+          "word": " keep",
+          "start": 109.5,
+          "end": 109.68,
+          "probability": 0.893
+        },
+        {
+          "word": " on",
+          "start": 109.68,
+          "end": 109.84,
+          "probability": 0.985
+        },
+        {
+          "word": " coming",
+          "start": 109.84,
+          "end": 110.06,
+          "probability": 0.944
+        }
+      ]
+    },
+    {
+      "start": 110.06,
+      "end": 111.2,
+      "text": "Everything is gross",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 110.06,
+          "end": 110.72,
+          "probability": 0.964
+        },
+        {
+          "word": " is",
+          "start": 110.72,
+          "end": 111.0,
+          "probability": 0.99
+        },
+        {
+          "word": " gross",
+          "start": 111.0,
+          "end": 111.2,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 111.2,
+      "end": 112.34,
+      "text": "Everything is net",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 111.2,
+          "end": 111.9,
+          "probability": 0.421
+        },
+        {
+          "word": " is",
+          "start": 111.9,
+          "end": 112.16,
+          "probability": 0.992
+        },
+        {
+          "word": " net",
+          "start": 112.16,
+          "end": 112.34,
+          "probability": 0.245
+        }
+      ]
+    },
+    {
+      "start": 112.34,
+      "end": 113.52,
+      "text": "Life is such a win",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Life",
+          "start": 112.34,
+          "end": 112.92,
+          "probability": 0.544
+        },
+        {
+          "word": " is",
+          "start": 112.92,
+          "end": 113.02,
+          "probability": 0.913
+        },
+        {
+          "word": " such",
+          "start": 113.02,
+          "end": 113.18,
+          "probability": 0.926
+        },
+        {
+          "word": " a",
+          "start": 113.18,
+          "end": 113.32,
+          "probability": 0.997
+        },
+        {
+          "word": " win",
+          "start": 113.32,
+          "end": 113.52,
+          "probability": 0.921
+        }
+      ]
+    },
+    {
+      "start": 113.52,
+      "end": 114.68,
+      "text": "While we're da ever fret",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " While",
+          "start": 113.52,
+          "end": 113.92,
+          "probability": 0.432
+        },
+        {
+          "word": " we're",
+          "start": 113.92,
+          "end": 114.1,
+          "probability": 0.726
+        },
+        {
+          "word": " da",
+          "start": 114.1,
+          "end": 114.14,
+          "probability": 0.197
+        },
+        {
+          "word": " ever",
+          "start": 114.14,
+          "end": 114.38,
+          "probability": 0.856
+        },
+        {
+          "word": " fret",
+          "start": 114.38,
+          "end": 114.68,
+          "probability": 0.45
+        }
+      ]
+    },
+    {
+      "start": 115.76,
+      "end": 117.14,
+      "text": "Earnings be for interest",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Earnings",
+          "start": 115.76,
+          "end": 116.2,
+          "probability": 0.677
+        },
+        {
+          "word": " be",
+          "start": 116.2,
+          "end": 116.34,
+          "probability": 0.585
+        },
+        {
+          "word": " for",
+          "start": 116.34,
+          "end": 116.64,
+          "probability": 0.202
+        },
+        {
+          "word": " interest",
+          "start": 116.64,
+          "end": 117.14,
+          "probability": 0.8
+        }
+      ]
+    },
+    {
+      "start": 118.0,
+      "end": 118.44,
+      "text": "Taxis",
+      "avgLogprob": -0.608,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.661,
+      "words": [
+        {
+          "word": " Taxis",
+          "start": 118.0,
+          "end": 118.44,
+          "probability": 0.559
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.837,
+    "wordCount": 142,
+    "credibleWordCount": 119,
+    "segmentCount": 23,
+    "averageWordProbability": 0.66,
+    "vocalSeconds": 57.94,
+    "scanCoverage": 0.498,
+    "reviewRequired": false
+  }
+}

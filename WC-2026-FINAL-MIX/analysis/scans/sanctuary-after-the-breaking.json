@@ -1,0 +1,670 @@
+{
+  "analysisVersion": 1,
+  "index": 1,
+  "id": "../VOLHOLLA/song-brooklynomen-29.html",
+  "slug": "sanctuary-after-the-breaking",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Find a way, keep me through the day, kitchen, chair, fields, coal, and starting to tremble. Our things go unsaid under this family rules Help me find a way, keep me through the day Brother needs some peace, Mother needs her strength Healing in this house, restoring what was... But you can't heal me, help me find a way Keep me through the day, heal me, heal me Feel my weary soul, I believe I believe you're standing right there She is so far from me Oh, yeah",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.36,
+      "end": 32.56,
+      "text": "Find a way, keep me through the day, kitchen, chair, fields, coal, and starting to tremble.",
+      "avgLogprob": -0.576,
+      "compressionRatio": 1.096,
+      "noSpeechProbability": 0.4,
+      "words": [
+        {
+          "word": " Find",
+          "start": 21.36,
+          "end": 21.78,
+          "probability": 0.148
+        },
+        {
+          "word": " a",
+          "start": 21.78,
+          "end": 22.08,
+          "probability": 0.339
+        },
+        {
+          "word": " way,",
+          "start": 22.08,
+          "end": 22.88,
+          "probability": 0.998
+        },
+        {
+          "word": " keep",
+          "start": 22.9,
+          "end": 24.22,
+          "probability": 0.925
+        },
+        {
+          "word": " me",
+          "start": 24.22,
+          "end": 24.5,
+          "probability": 0.997
+        },
+        {
+          "word": " through",
+          "start": 24.5,
+          "end": 25.04,
+          "probability": 0.985
+        },
+        {
+          "word": " the",
+          "start": 25.04,
+          "end": 25.36,
+          "probability": 0.972
+        },
+        {
+          "word": " day,",
+          "start": 25.36,
+          "end": 25.96,
+          "probability": 0.976
+        },
+        {
+          "word": " kitchen,",
+          "start": 26.42,
+          "end": 26.88,
+          "probability": 0.825
+        },
+        {
+          "word": " chair,",
+          "start": 27.22,
+          "end": 27.42,
+          "probability": 0.879
+        },
+        {
+          "word": " fields,",
+          "start": 27.66,
+          "end": 27.98,
+          "probability": 0.521
+        },
+        {
+          "word": " coal,",
+          "start": 28.1,
+          "end": 28.44,
+          "probability": 0.677
+        },
+        {
+          "word": " and",
+          "start": 29.08,
+          "end": 29.92,
+          "probability": 0.918
+        },
+        {
+          "word": " starting",
+          "start": 29.92,
+          "end": 30.6,
+          "probability": 0.976
+        },
+        {
+          "word": " to",
+          "start": 30.6,
+          "end": 31.16,
+          "probability": 0.997
+        },
+        {
+          "word": " tremble.",
+          "start": 31.16,
+          "end": 32.56,
+          "probability": 0.948
+        }
+      ]
+    },
+    {
+      "start": 32.56,
+      "end": 38.22,
+      "text": "Our things go unsaid under this family rules",
+      "avgLogprob": -0.626,
+      "compressionRatio": 0.936,
+      "noSpeechProbability": 0.32,
+      "words": [
+        {
+          "word": " Our",
+          "start": 32.56,
+          "end": 33.22,
+          "probability": 0.077
+        },
+        {
+          "word": " things",
+          "start": 33.22,
+          "end": 33.64,
+          "probability": 0.952
+        },
+        {
+          "word": " go",
+          "start": 33.64,
+          "end": 34.06,
+          "probability": 0.988
+        },
+        {
+          "word": " unsaid",
+          "start": 34.06,
+          "end": 34.98,
+          "probability": 0.753
+        },
+        {
+          "word": " under",
+          "start": 34.98,
+          "end": 36.36,
+          "probability": 0.352
+        },
+        {
+          "word": " this",
+          "start": 36.36,
+          "end": 36.98,
+          "probability": 0.991
+        },
+        {
+          "word": " family",
+          "start": 36.98,
+          "end": 37.56,
+          "probability": 0.985
+        },
+        {
+          "word": " rules",
+          "start": 37.56,
+          "end": 38.22,
+          "probability": 0.372
+        }
+      ]
+    },
+    {
+      "start": 85.55,
+      "end": 91.71,
+      "text": "Help me find a way, keep me through the day",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.273,
+      "noSpeechProbability": 0.67,
+      "words": [
+        {
+          "word": " Help",
+          "start": 85.55,
+          "end": 86.69,
+          "probability": 0.258
+        },
+        {
+          "word": " me",
+          "start": 86.69,
+          "end": 86.99,
+          "probability": 0.976
+        },
+        {
+          "word": " find",
+          "start": 86.99,
+          "end": 87.47,
+          "probability": 0.869
+        },
+        {
+          "word": " a",
+          "start": 87.47,
+          "end": 87.91,
+          "probability": 0.887
+        },
+        {
+          "word": " way,",
+          "start": 87.91,
+          "end": 88.49,
+          "probability": 0.997
+        },
+        {
+          "word": " keep",
+          "start": 88.55,
+          "end": 89.95,
+          "probability": 0.813
+        },
+        {
+          "word": " me",
+          "start": 89.95,
+          "end": 90.29,
+          "probability": 0.997
+        },
+        {
+          "word": " through",
+          "start": 90.29,
+          "end": 90.79,
+          "probability": 0.976
+        },
+        {
+          "word": " the",
+          "start": 90.79,
+          "end": 91.11,
+          "probability": 0.92
+        },
+        {
+          "word": " day",
+          "start": 91.11,
+          "end": 91.71,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 91.71,
+      "end": 97.85,
+      "text": "Brother needs some peace, Mother needs her strength",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.273,
+      "noSpeechProbability": 0.67,
+      "words": [
+        {
+          "word": " Brother",
+          "start": 91.71,
+          "end": 92.45,
+          "probability": 0.165
+        },
+        {
+          "word": " needs",
+          "start": 92.45,
+          "end": 93.15,
+          "probability": 0.447
+        },
+        {
+          "word": " some",
+          "start": 93.15,
+          "end": 93.63,
+          "probability": 0.963
+        },
+        {
+          "word": " peace,",
+          "start": 93.63,
+          "end": 94.41,
+          "probability": 0.728
+        },
+        {
+          "word": " Mother",
+          "start": 94.83,
+          "end": 95.91,
+          "probability": 0.733
+        },
+        {
+          "word": " needs",
+          "start": 95.91,
+          "end": 96.51,
+          "probability": 0.996
+        },
+        {
+          "word": " her",
+          "start": 96.51,
+          "end": 96.91,
+          "probability": 0.986
+        },
+        {
+          "word": " strength",
+          "start": 96.91,
+          "end": 97.85,
+          "probability": 0.944
+        }
+      ]
+    },
+    {
+      "start": 98.43,
+      "end": 103.41,
+      "text": "Healing in this house, restoring what was...",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.273,
+      "noSpeechProbability": 0.67,
+      "words": [
+        {
+          "word": " Healing",
+          "start": 98.43,
+          "end": 99.21,
+          "probability": 0.228
+        },
+        {
+          "word": " in",
+          "start": 99.21,
+          "end": 99.77,
+          "probability": 0.991
+        },
+        {
+          "word": " this",
+          "start": 99.77,
+          "end": 100.21,
+          "probability": 0.993
+        },
+        {
+          "word": " house,",
+          "start": 100.21,
+          "end": 101.17,
+          "probability": 0.99
+        },
+        {
+          "word": " restoring",
+          "start": 101.87,
+          "end": 102.49,
+          "probability": 0.886
+        },
+        {
+          "word": " what",
+          "start": 102.49,
+          "end": 103.03,
+          "probability": 0.924
+        },
+        {
+          "word": " was...",
+          "start": 103.03,
+          "end": 103.41,
+          "probability": 0.48
+        }
+      ]
+    },
+    {
+      "start": 149.5,
+      "end": 154.14,
+      "text": "But you can't heal me, help me find a way",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.564,
+      "words": [
+        {
+          "word": " But",
+          "start": 149.5,
+          "end": 149.64,
+          "probability": 0.105
+        },
+        {
+          "word": " you",
+          "start": 149.64,
+          "end": 149.92,
+          "probability": 0.977
+        },
+        {
+          "word": " can't",
+          "start": 149.92,
+          "end": 150.6,
+          "probability": 0.602
+        },
+        {
+          "word": " heal",
+          "start": 150.6,
+          "end": 150.82,
+          "probability": 0.439
+        },
+        {
+          "word": " me,",
+          "start": 150.82,
+          "end": 151.3,
+          "probability": 0.997
+        },
+        {
+          "word": " help",
+          "start": 151.32,
+          "end": 152.44,
+          "probability": 0.88
+        },
+        {
+          "word": " me",
+          "start": 152.44,
+          "end": 152.74,
+          "probability": 0.999
+        },
+        {
+          "word": " find",
+          "start": 152.74,
+          "end": 153.24,
+          "probability": 0.977
+        },
+        {
+          "word": " a",
+          "start": 153.24,
+          "end": 153.62,
+          "probability": 0.682
+        },
+        {
+          "word": " way",
+          "start": 153.62,
+          "end": 154.14,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 155.5,
+      "end": 160.9,
+      "text": "Keep me through the day, heal me, heal me",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.564,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 155.22,
+          "end": 155.64,
+          "probability": 0.308
+        },
+        {
+          "word": " me",
+          "start": 155.64,
+          "end": 156.02,
+          "probability": 0.993
+        },
+        {
+          "word": " through",
+          "start": 156.02,
+          "end": 156.52,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 156.52,
+          "end": 156.92,
+          "probability": 0.682
+        },
+        {
+          "word": " day,",
+          "start": 156.92,
+          "end": 157.22,
+          "probability": 0.714
+        },
+        {
+          "word": " heal",
+          "start": 157.22,
+          "end": 158.28,
+          "probability": 0.778
+        },
+        {
+          "word": " me,",
+          "start": 158.28,
+          "end": 158.7,
+          "probability": 0.996
+        },
+        {
+          "word": " heal",
+          "start": 158.7,
+          "end": 160.52,
+          "probability": 0.996
+        },
+        {
+          "word": " me",
+          "start": 160.52,
+          "end": 160.9,
+          "probability": 0.307
+        }
+      ]
+    },
+    {
+      "start": 160.9,
+      "end": 167.14,
+      "text": "Feel my weary soul, I believe I believe you're standing right there",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.564,
+      "words": [
+        {
+          "word": " Feel",
+          "start": 160.9,
+          "end": 161.48,
+          "probability": 0.095
+        },
+        {
+          "word": " my",
+          "start": 161.48,
+          "end": 161.8,
+          "probability": 0.966
+        },
+        {
+          "word": " weary",
+          "start": 161.8,
+          "end": 162.48,
+          "probability": 0.726
+        },
+        {
+          "word": " soul,",
+          "start": 162.48,
+          "end": 163.04,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 163.92,
+          "end": 164.02,
+          "probability": 0.764
+        },
+        {
+          "word": " believe",
+          "start": 164.02,
+          "end": 164.42,
+          "probability": 0.99
+        },
+        {
+          "word": " I",
+          "start": 164.42,
+          "end": 164.84,
+          "probability": 0.341
+        },
+        {
+          "word": " believe",
+          "start": 164.84,
+          "end": 165.26,
+          "probability": 0.99
+        },
+        {
+          "word": " you're",
+          "start": 165.26,
+          "end": 165.78,
+          "probability": 0.779
+        },
+        {
+          "word": " standing",
+          "start": 165.78,
+          "end": 166.28,
+          "probability": 0.994
+        },
+        {
+          "word": " right",
+          "start": 166.28,
+          "end": 166.7,
+          "probability": 0.992
+        },
+        {
+          "word": " there",
+          "start": 166.7,
+          "end": 167.14,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 218.55,
+      "end": 220.59,
+      "text": "She is so far from me",
+      "avgLogprob": -0.868,
+      "compressionRatio": 0.789,
+      "noSpeechProbability": 0.262,
+      "words": [
+        {
+          "word": " She",
+          "start": 218.55,
+          "end": 219.15,
+          "probability": 0.564
+        },
+        {
+          "word": " is",
+          "start": 219.15,
+          "end": 219.37,
+          "probability": 0.804
+        },
+        {
+          "word": " so",
+          "start": 219.37,
+          "end": 219.57,
+          "probability": 0.985
+        },
+        {
+          "word": " far",
+          "start": 219.57,
+          "end": 219.89,
+          "probability": 0.048
+        },
+        {
+          "word": " from",
+          "start": 219.89,
+          "end": 220.19,
+          "probability": 0.142
+        },
+        {
+          "word": " me",
+          "start": 220.19,
+          "end": 220.59,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 220.59,
+      "end": 222.55,
+      "text": "Oh, yeah",
+      "avgLogprob": -0.868,
+      "compressionRatio": 0.789,
+      "noSpeechProbability": 0.262,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 220.59,
+          "end": 221.13,
+          "probability": 0.262
+        },
+        {
+          "word": " yeah",
+          "start": 221.59,
+          "end": 222.55,
+          "probability": 0.918
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.88,
+    "wordCount": 88,
+    "credibleWordCount": 74,
+    "segmentCount": 10,
+    "averageWordProbability": 0.766,
+    "vocalSeconds": 54.42,
+    "scanCoverage": 0.253,
+    "reviewRequired": false
+  }
+}

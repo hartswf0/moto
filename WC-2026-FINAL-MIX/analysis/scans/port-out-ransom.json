@@ -1,0 +1,1428 @@
+{
+  "analysisVersion": 1,
+  "index": 112,
+  "id": "../VOLHOLLA/song-noservice-10.html",
+  "slug": "port-out-ransom",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Don't touch low down, I just watch my account Number and my PI and I am porting out Dial tone Jesus, he hung up Says play the beat I am looking at the bureau, this service is moved Like a zero, I call them on the phone The wait time is all I owe But the man finally picks his attitude very tall She hit me with the technique Five minutes over my suddenly He cannot speak, transfer, media or boss Hostage, nepotia, tours Holding my number for ransom Acid, I'm lost by Chromo Brother, I am already handsome Wahala on the line They're reading from a dirty script Weaponized in competence Watch the way the logic flipped Now they want security checks The interrogation phase Name three people you dialed Money has evaporated, they blame it on my hands and now I am frustrated. Well, how long the line? Customers, services and crime. I just want my PIM. Why are you wasting all my time? Hostage, negotiate, tours. Holding my number for ransom. They say I must buy promo. Brother, I am already... I must fight for a more brother",
+  "sampledRanges": [
+    [
+      9.68,
+      27.68
+    ],
+    [
+      38.7,
+      56.7
+    ],
+    [
+      67.73,
+      85.73
+    ],
+    [
+      96.76,
+      114.76
+    ]
+  ],
+  "segments": [
+    {
+      "start": 9.68,
+      "end": 11.56,
+      "text": "Don't touch low down, I just watch my account",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 9.68,
+          "end": 9.7,
+          "probability": 0.493
+        },
+        {
+          "word": " touch",
+          "start": 9.7,
+          "end": 9.84,
+          "probability": 0.452
+        },
+        {
+          "word": " low",
+          "start": 9.84,
+          "end": 10.08,
+          "probability": 0.452
+        },
+        {
+          "word": " down,",
+          "start": 10.08,
+          "end": 10.38,
+          "probability": 0.849
+        },
+        {
+          "word": " I",
+          "start": 10.46,
+          "end": 10.56,
+          "probability": 0.967
+        },
+        {
+          "word": " just",
+          "start": 10.56,
+          "end": 10.72,
+          "probability": 0.995
+        },
+        {
+          "word": " watch",
+          "start": 10.72,
+          "end": 10.9,
+          "probability": 0.548
+        },
+        {
+          "word": " my",
+          "start": 10.9,
+          "end": 11.16,
+          "probability": 0.983
+        },
+        {
+          "word": " account",
+          "start": 11.16,
+          "end": 11.56,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 11.56,
+      "end": 14.7,
+      "text": "Number and my PI and I am porting out",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Number",
+          "start": 11.56,
+          "end": 12.28,
+          "probability": 0.681
+        },
+        {
+          "word": " and",
+          "start": 12.28,
+          "end": 12.58,
+          "probability": 0.577
+        },
+        {
+          "word": " my",
+          "start": 12.58,
+          "end": 12.76,
+          "probability": 0.817
+        },
+        {
+          "word": " PI",
+          "start": 12.76,
+          "end": 13.08,
+          "probability": 0.686
+        },
+        {
+          "word": " and",
+          "start": 13.08,
+          "end": 13.46,
+          "probability": 0.413
+        },
+        {
+          "word": " I",
+          "start": 13.46,
+          "end": 13.66,
+          "probability": 0.901
+        },
+        {
+          "word": " am",
+          "start": 13.66,
+          "end": 13.86,
+          "probability": 0.915
+        },
+        {
+          "word": " porting",
+          "start": 13.86,
+          "end": 14.3,
+          "probability": 0.531
+        },
+        {
+          "word": " out",
+          "start": 14.3,
+          "end": 14.7,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 14.7,
+      "end": 15.78,
+      "text": "Dial tone",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Dial",
+          "start": 14.7,
+          "end": 15.38,
+          "probability": 0.394
+        },
+        {
+          "word": " tone",
+          "start": 15.38,
+          "end": 15.78,
+          "probability": 0.963
+        }
+      ]
+    },
+    {
+      "start": 15.78,
+      "end": 16.9,
+      "text": "Jesus, he hung up",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Jesus,",
+          "start": 15.78,
+          "end": 16.18,
+          "probability": 0.571
+        },
+        {
+          "word": " he",
+          "start": 16.36,
+          "end": 16.44,
+          "probability": 0.907
+        },
+        {
+          "word": " hung",
+          "start": 16.44,
+          "end": 16.58,
+          "probability": 0.994
+        },
+        {
+          "word": " up",
+          "start": 16.58,
+          "end": 16.9,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 16.9,
+      "end": 17.96,
+      "text": "Says play the beat",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Says",
+          "start": 16.9,
+          "end": 17.3,
+          "probability": 0.161
+        },
+        {
+          "word": " play",
+          "start": 17.3,
+          "end": 17.56,
+          "probability": 0.778
+        },
+        {
+          "word": " the",
+          "start": 17.56,
+          "end": 17.68,
+          "probability": 0.991
+        },
+        {
+          "word": " beat",
+          "start": 17.68,
+          "end": 17.96,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 17.96,
+      "end": 19.94,
+      "text": "I am looking at the bureau, this service is moved",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " I",
+          "start": 17.96,
+          "end": 18.4,
+          "probability": 0.84
+        },
+        {
+          "word": " am",
+          "start": 18.4,
+          "end": 18.52,
+          "probability": 0.972
+        },
+        {
+          "word": " looking",
+          "start": 18.52,
+          "end": 18.72,
+          "probability": 0.884
+        },
+        {
+          "word": " at",
+          "start": 18.72,
+          "end": 18.86,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 18.86,
+          "end": 18.92,
+          "probability": 0.99
+        },
+        {
+          "word": " bureau,",
+          "start": 18.92,
+          "end": 19.1,
+          "probability": 0.442
+        },
+        {
+          "word": " this",
+          "start": 19.1,
+          "end": 19.34,
+          "probability": 0.649
+        },
+        {
+          "word": " service",
+          "start": 19.34,
+          "end": 19.6,
+          "probability": 0.966
+        },
+        {
+          "word": " is",
+          "start": 19.6,
+          "end": 19.82,
+          "probability": 0.893
+        },
+        {
+          "word": " moved",
+          "start": 19.82,
+          "end": 19.94,
+          "probability": 0.134
+        }
+      ]
+    },
+    {
+      "start": 19.94,
+      "end": 21.26,
+      "text": "Like a zero, I call them on the phone",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Like",
+          "start": 19.94,
+          "end": 20.1,
+          "probability": 0.06
+        },
+        {
+          "word": " a",
+          "start": 20.1,
+          "end": 20.22,
+          "probability": 0.969
+        },
+        {
+          "word": " zero,",
+          "start": 20.22,
+          "end": 20.4,
+          "probability": 0.816
+        },
+        {
+          "word": " I",
+          "start": 20.5,
+          "end": 20.6,
+          "probability": 0.829
+        },
+        {
+          "word": " call",
+          "start": 20.6,
+          "end": 20.74,
+          "probability": 0.377
+        },
+        {
+          "word": " them",
+          "start": 20.74,
+          "end": 20.9,
+          "probability": 0.723
+        },
+        {
+          "word": " on",
+          "start": 20.9,
+          "end": 21.0,
+          "probability": 0.613
+        },
+        {
+          "word": " the",
+          "start": 21.0,
+          "end": 21.04,
+          "probability": 0.966
+        },
+        {
+          "word": " phone",
+          "start": 21.04,
+          "end": 21.26,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 21.26,
+      "end": 22.28,
+      "text": "The wait time is all I owe",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " The",
+          "start": 21.26,
+          "end": 21.4,
+          "probability": 0.568
+        },
+        {
+          "word": " wait",
+          "start": 21.4,
+          "end": 21.52,
+          "probability": 0.853
+        },
+        {
+          "word": " time",
+          "start": 21.52,
+          "end": 21.72,
+          "probability": 0.893
+        },
+        {
+          "word": " is",
+          "start": 21.72,
+          "end": 21.86,
+          "probability": 0.915
+        },
+        {
+          "word": " all",
+          "start": 21.86,
+          "end": 22.0,
+          "probability": 0.484
+        },
+        {
+          "word": " I",
+          "start": 22.0,
+          "end": 22.18,
+          "probability": 0.785
+        },
+        {
+          "word": " owe",
+          "start": 22.18,
+          "end": 22.28,
+          "probability": 0.767
+        }
+      ]
+    },
+    {
+      "start": 22.28,
+      "end": 23.94,
+      "text": "But the man finally picks his attitude very tall",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " But",
+          "start": 22.28,
+          "end": 22.46,
+          "probability": 0.081
+        },
+        {
+          "word": " the",
+          "start": 22.46,
+          "end": 22.52,
+          "probability": 0.817
+        },
+        {
+          "word": " man",
+          "start": 22.52,
+          "end": 22.58,
+          "probability": 0.86
+        },
+        {
+          "word": " finally",
+          "start": 22.58,
+          "end": 22.88,
+          "probability": 0.92
+        },
+        {
+          "word": " picks",
+          "start": 22.88,
+          "end": 23.1,
+          "probability": 0.601
+        },
+        {
+          "word": " his",
+          "start": 23.1,
+          "end": 23.26,
+          "probability": 0.936
+        },
+        {
+          "word": " attitude",
+          "start": 23.26,
+          "end": 23.44,
+          "probability": 0.891
+        },
+        {
+          "word": " very",
+          "start": 23.44,
+          "end": 23.72,
+          "probability": 0.385
+        },
+        {
+          "word": " tall",
+          "start": 23.72,
+          "end": 23.94,
+          "probability": 0.41
+        }
+      ]
+    },
+    {
+      "start": 23.94,
+      "end": 24.96,
+      "text": "She hit me with the technique",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " She",
+          "start": 23.94,
+          "end": 24.16,
+          "probability": 0.417
+        },
+        {
+          "word": " hit",
+          "start": 24.16,
+          "end": 24.34,
+          "probability": 0.741
+        },
+        {
+          "word": " me",
+          "start": 24.34,
+          "end": 24.48,
+          "probability": 0.928
+        },
+        {
+          "word": " with",
+          "start": 24.48,
+          "end": 24.6,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 24.6,
+          "end": 24.72,
+          "probability": 0.696
+        },
+        {
+          "word": " technique",
+          "start": 24.72,
+          "end": 24.96,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 24.96,
+      "end": 25.94,
+      "text": "Five minutes over my suddenly",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Five",
+          "start": 24.96,
+          "end": 25.32,
+          "probability": 0.188
+        },
+        {
+          "word": " minutes",
+          "start": 25.32,
+          "end": 25.44,
+          "probability": 0.987
+        },
+        {
+          "word": " over",
+          "start": 25.44,
+          "end": 25.58,
+          "probability": 0.68
+        },
+        {
+          "word": " my",
+          "start": 25.58,
+          "end": 25.74,
+          "probability": 0.194
+        },
+        {
+          "word": " suddenly",
+          "start": 25.74,
+          "end": 25.94,
+          "probability": 0.358
+        }
+      ]
+    },
+    {
+      "start": 25.94,
+      "end": 27.52,
+      "text": "He cannot speak, transfer, media or boss",
+      "avgLogprob": -0.424,
+      "compressionRatio": 1.525,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " He",
+          "start": 25.94,
+          "end": 26.18,
+          "probability": 0.263
+        },
+        {
+          "word": " cannot",
+          "start": 26.18,
+          "end": 26.3,
+          "probability": 0.318
+        },
+        {
+          "word": " speak,",
+          "start": 26.3,
+          "end": 26.54,
+          "probability": 0.997
+        },
+        {
+          "word": " transfer,",
+          "start": 26.72,
+          "end": 26.94,
+          "probability": 0.44
+        },
+        {
+          "word": " media",
+          "start": 27.06,
+          "end": 27.2,
+          "probability": 0.483
+        },
+        {
+          "word": " or",
+          "start": 27.2,
+          "end": 27.34,
+          "probability": 0.24
+        },
+        {
+          "word": " boss",
+          "start": 27.34,
+          "end": 27.52,
+          "probability": 0.914
+        }
+      ]
+    },
+    {
+      "start": 39.26,
+      "end": 43.04,
+      "text": "Hostage, nepotia, tours Holding my number for ransom",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Hostage,",
+          "start": 39.26,
+          "end": 39.82,
+          "probability": 0.691
+        },
+        {
+          "word": " nepotia,",
+          "start": 39.82,
+          "end": 40.38,
+          "probability": 0.209
+        },
+        {
+          "word": " tours",
+          "start": 40.6,
+          "end": 40.98,
+          "probability": 0.839
+        },
+        {
+          "word": " Holding",
+          "start": 40.98,
+          "end": 41.7,
+          "probability": 0.842
+        },
+        {
+          "word": " my",
+          "start": 41.7,
+          "end": 41.94,
+          "probability": 0.274
+        },
+        {
+          "word": " number",
+          "start": 41.94,
+          "end": 42.32,
+          "probability": 0.995
+        },
+        {
+          "word": " for",
+          "start": 42.32,
+          "end": 42.6,
+          "probability": 0.816
+        },
+        {
+          "word": " ransom",
+          "start": 42.6,
+          "end": 43.04,
+          "probability": 0.812
+        }
+      ]
+    },
+    {
+      "start": 43.04,
+      "end": 46.82,
+      "text": "Acid, I'm lost by Chromo Brother, I am already handsome",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Acid,",
+          "start": 43.04,
+          "end": 43.68,
+          "probability": 0.245
+        },
+        {
+          "word": " I'm",
+          "start": 43.68,
+          "end": 43.94,
+          "probability": 0.679
+        },
+        {
+          "word": " lost",
+          "start": 43.94,
+          "end": 44.04,
+          "probability": 0.826
+        },
+        {
+          "word": " by",
+          "start": 44.04,
+          "end": 44.34,
+          "probability": 0.988
+        },
+        {
+          "word": " Chromo",
+          "start": 44.34,
+          "end": 44.9,
+          "probability": 0.277
+        },
+        {
+          "word": " Brother,",
+          "start": 44.9,
+          "end": 45.36,
+          "probability": 0.782
+        },
+        {
+          "word": " I",
+          "start": 45.58,
+          "end": 45.72,
+          "probability": 0.986
+        },
+        {
+          "word": " am",
+          "start": 45.72,
+          "end": 45.9,
+          "probability": 0.805
+        },
+        {
+          "word": " already",
+          "start": 45.9,
+          "end": 46.28,
+          "probability": 0.995
+        },
+        {
+          "word": " handsome",
+          "start": 46.28,
+          "end": 46.82,
+          "probability": 0.967
+        }
+      ]
+    },
+    {
+      "start": 46.82,
+      "end": 49.54,
+      "text": "Wahala on the line They're reading from a dirty script",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Wahala",
+          "start": 46.82,
+          "end": 47.56,
+          "probability": 0.587
+        },
+        {
+          "word": " on",
+          "start": 47.56,
+          "end": 47.76,
+          "probability": 0.934
+        },
+        {
+          "word": " the",
+          "start": 47.76,
+          "end": 47.88,
+          "probability": 0.981
+        },
+        {
+          "word": " line",
+          "start": 47.88,
+          "end": 48.2,
+          "probability": 0.942
+        },
+        {
+          "word": " They're",
+          "start": 48.2,
+          "end": 48.62,
+          "probability": 0.666
+        },
+        {
+          "word": " reading",
+          "start": 48.62,
+          "end": 48.8,
+          "probability": 0.968
+        },
+        {
+          "word": " from",
+          "start": 48.8,
+          "end": 48.98,
+          "probability": 0.992
+        },
+        {
+          "word": " a",
+          "start": 48.98,
+          "end": 49.08,
+          "probability": 0.98
+        },
+        {
+          "word": " dirty",
+          "start": 49.08,
+          "end": 49.22,
+          "probability": 0.952
+        },
+        {
+          "word": " script",
+          "start": 49.22,
+          "end": 49.54,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 49.54,
+      "end": 52.24,
+      "text": "Weaponized in competence Watch the way the logic flipped",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Weaponized",
+          "start": 49.54,
+          "end": 50.22,
+          "probability": 0.848
+        },
+        {
+          "word": " in",
+          "start": 50.22,
+          "end": 50.32,
+          "probability": 0.626
+        },
+        {
+          "word": " competence",
+          "start": 50.32,
+          "end": 50.74,
+          "probability": 0.693
+        },
+        {
+          "word": " Watch",
+          "start": 50.74,
+          "end": 51.0,
+          "probability": 0.526
+        },
+        {
+          "word": " the",
+          "start": 51.0,
+          "end": 51.22,
+          "probability": 0.577
+        },
+        {
+          "word": " way",
+          "start": 51.22,
+          "end": 51.34,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 51.34,
+          "end": 51.48,
+          "probability": 0.92
+        },
+        {
+          "word": " logic",
+          "start": 51.48,
+          "end": 51.82,
+          "probability": 0.977
+        },
+        {
+          "word": " flipped",
+          "start": 51.82,
+          "end": 52.24,
+          "probability": 0.973
+        }
+      ]
+    },
+    {
+      "start": 52.24,
+      "end": 55.34,
+      "text": "Now they want security checks The interrogation phase",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Now",
+          "start": 52.24,
+          "end": 53.08,
+          "probability": 0.838
+        },
+        {
+          "word": " they",
+          "start": 53.08,
+          "end": 53.24,
+          "probability": 0.956
+        },
+        {
+          "word": " want",
+          "start": 53.24,
+          "end": 53.4,
+          "probability": 0.993
+        },
+        {
+          "word": " security",
+          "start": 53.4,
+          "end": 53.74,
+          "probability": 0.978
+        },
+        {
+          "word": " checks",
+          "start": 53.74,
+          "end": 54.14,
+          "probability": 0.993
+        },
+        {
+          "word": " The",
+          "start": 54.14,
+          "end": 54.32,
+          "probability": 0.68
+        },
+        {
+          "word": " interrogation",
+          "start": 54.32,
+          "end": 55.08,
+          "probability": 0.988
+        },
+        {
+          "word": " phase",
+          "start": 55.08,
+          "end": 55.34,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "start": 55.34,
+      "end": 56.68,
+      "text": "Name three people you dialed",
+      "avgLogprob": -0.537,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Name",
+          "start": 55.34,
+          "end": 55.54,
+          "probability": 0.07
+        },
+        {
+          "word": " three",
+          "start": 55.54,
+          "end": 55.74,
+          "probability": 0.397
+        },
+        {
+          "word": " people",
+          "start": 55.74,
+          "end": 56.06,
+          "probability": 0.996
+        },
+        {
+          "word": " you",
+          "start": 56.06,
+          "end": 56.24,
+          "probability": 0.588
+        },
+        {
+          "word": " dialed",
+          "start": 56.24,
+          "end": 56.68,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 67.73,
+      "end": 70.59,
+      "text": "Money has evaporated, they blame it on my hands and now I am frustrated.",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Money",
+          "start": 67.73,
+          "end": 67.89,
+          "probability": 0.137
+        },
+        {
+          "word": " has",
+          "start": 67.89,
+          "end": 68.07,
+          "probability": 0.968
+        },
+        {
+          "word": " evaporated,",
+          "start": 68.07,
+          "end": 68.71,
+          "probability": 0.946
+        },
+        {
+          "word": " they",
+          "start": 68.79,
+          "end": 68.85,
+          "probability": 0.9
+        },
+        {
+          "word": " blame",
+          "start": 68.85,
+          "end": 69.03,
+          "probability": 0.879
+        },
+        {
+          "word": " it",
+          "start": 69.03,
+          "end": 69.17,
+          "probability": 0.975
+        },
+        {
+          "word": " on",
+          "start": 69.17,
+          "end": 69.27,
+          "probability": 0.988
+        },
+        {
+          "word": " my",
+          "start": 69.27,
+          "end": 69.45,
+          "probability": 0.996
+        },
+        {
+          "word": " hands",
+          "start": 69.45,
+          "end": 69.65,
+          "probability": 0.748
+        },
+        {
+          "word": " and",
+          "start": 69.65,
+          "end": 69.79,
+          "probability": 0.599
+        },
+        {
+          "word": " now",
+          "start": 69.79,
+          "end": 69.93,
+          "probability": 0.97
+        },
+        {
+          "word": " I",
+          "start": 69.93,
+          "end": 70.11,
+          "probability": 0.908
+        },
+        {
+          "word": " am",
+          "start": 70.11,
+          "end": 70.25,
+          "probability": 0.569
+        },
+        {
+          "word": " frustrated.",
+          "start": 70.25,
+          "end": 70.59,
+          "probability": 0.664
+        }
+      ]
+    },
+    {
+      "start": 70.65,
+      "end": 73.51,
+      "text": "Well, how long the line? Customers, services and crime.",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Well,",
+          "start": 70.65,
+          "end": 70.77,
+          "probability": 0.277
+        },
+        {
+          "word": " how",
+          "start": 70.85,
+          "end": 70.99,
+          "probability": 0.412
+        },
+        {
+          "word": " long",
+          "start": 70.99,
+          "end": 71.21,
+          "probability": 0.838
+        },
+        {
+          "word": " the",
+          "start": 71.21,
+          "end": 71.35,
+          "probability": 0.209
+        },
+        {
+          "word": " line?",
+          "start": 71.35,
+          "end": 71.69,
+          "probability": 0.855
+        },
+        {
+          "word": " Customers,",
+          "start": 72.13,
+          "end": 72.61,
+          "probability": 0.744
+        },
+        {
+          "word": " services",
+          "start": 72.71,
+          "end": 73.03,
+          "probability": 0.9
+        },
+        {
+          "word": " and",
+          "start": 73.03,
+          "end": 73.19,
+          "probability": 0.443
+        },
+        {
+          "word": " crime.",
+          "start": 73.19,
+          "end": 73.51,
+          "probability": 0.678
+        }
+      ]
+    },
+    {
+      "start": 73.91,
+      "end": 77.95,
+      "text": "I just want my PIM. Why are you wasting all my time?",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " I",
+          "start": 73.91,
+          "end": 73.99,
+          "probability": 0.992
+        },
+        {
+          "word": " just",
+          "start": 73.99,
+          "end": 74.11,
+          "probability": 0.998
+        },
+        {
+          "word": " want",
+          "start": 74.11,
+          "end": 74.27,
+          "probability": 0.99
+        },
+        {
+          "word": " my",
+          "start": 74.27,
+          "end": 74.45,
+          "probability": 0.994
+        },
+        {
+          "word": " PIM.",
+          "start": 74.45,
+          "end": 75.31,
+          "probability": 0.432
+        },
+        {
+          "word": " Why",
+          "start": 75.69,
+          "end": 75.97,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 75.97,
+          "end": 76.17,
+          "probability": 0.984
+        },
+        {
+          "word": " you",
+          "start": 76.17,
+          "end": 76.35,
+          "probability": 0.998
+        },
+        {
+          "word": " wasting",
+          "start": 76.35,
+          "end": 76.79,
+          "probability": 0.994
+        },
+        {
+          "word": " all",
+          "start": 76.79,
+          "end": 77.21,
+          "probability": 0.989
+        },
+        {
+          "word": " my",
+          "start": 77.21,
+          "end": 77.49,
+          "probability": 0.994
+        },
+        {
+          "word": " time?",
+          "start": 77.49,
+          "end": 77.95,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 78.35,
+      "end": 82.39,
+      "text": "Hostage, negotiate, tours. Holding my number for ransom.",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Hostage,",
+          "start": 78.35,
+          "end": 78.83,
+          "probability": 0.899
+        },
+        {
+          "word": " negotiate,",
+          "start": 78.83,
+          "end": 79.31,
+          "probability": 0.244
+        },
+        {
+          "word": " tours.",
+          "start": 79.31,
+          "end": 80.33,
+          "probability": 0.933
+        },
+        {
+          "word": " Holding",
+          "start": 80.73,
+          "end": 81.07,
+          "probability": 0.961
+        },
+        {
+          "word": " my",
+          "start": 81.07,
+          "end": 81.33,
+          "probability": 0.974
+        },
+        {
+          "word": " number",
+          "start": 81.33,
+          "end": 81.69,
+          "probability": 0.993
+        },
+        {
+          "word": " for",
+          "start": 81.69,
+          "end": 81.93,
+          "probability": 0.91
+        },
+        {
+          "word": " ransom.",
+          "start": 81.93,
+          "end": 82.39,
+          "probability": 0.921
+        }
+      ]
+    },
+    {
+      "start": 82.69,
+      "end": 85.71,
+      "text": "They say I must buy promo. Brother, I am already...",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " They",
+          "start": 82.69,
+          "end": 82.79,
+          "probability": 0.61
+        },
+        {
+          "word": " say",
+          "start": 82.79,
+          "end": 83.03,
+          "probability": 0.996
+        },
+        {
+          "word": " I",
+          "start": 83.03,
+          "end": 83.19,
+          "probability": 0.95
+        },
+        {
+          "word": " must",
+          "start": 83.19,
+          "end": 83.43,
+          "probability": 0.541
+        },
+        {
+          "word": " buy",
+          "start": 83.43,
+          "end": 83.71,
+          "probability": 0.882
+        },
+        {
+          "word": " promo.",
+          "start": 83.71,
+          "end": 84.27,
+          "probability": 0.889
+        },
+        {
+          "word": " Brother,",
+          "start": 84.53,
+          "end": 84.77,
+          "probability": 0.952
+        },
+        {
+          "word": " I",
+          "start": 84.77,
+          "end": 85.11,
+          "probability": 0.994
+        },
+        {
+          "word": " am",
+          "start": 85.11,
+          "end": 85.31,
+          "probability": 0.987
+        },
+        {
+          "word": " already...",
+          "start": 85.31,
+          "end": 85.71,
+          "probability": 0.639
+        }
+      ]
+    },
+    {
+      "start": 113.34,
+      "end": 114.62,
+      "text": "I must fight for a more brother",
+      "avgLogprob": -0.996,
+      "compressionRatio": 0.838,
+      "noSpeechProbability": 0.758,
+      "words": [
+        {
+          "word": " I",
+          "start": 113.34,
+          "end": 113.5,
+          "probability": 0.029
+        },
+        {
+          "word": " must",
+          "start": 113.5,
+          "end": 113.5,
+          "probability": 0.031
+        },
+        {
+          "word": " fight",
+          "start": 113.5,
+          "end": 113.82,
+          "probability": 0.277
+        },
+        {
+          "word": " for",
+          "start": 113.82,
+          "end": 114.04,
+          "probability": 0.682
+        },
+        {
+          "word": " a",
+          "start": 114.04,
+          "end": 114.12,
+          "probability": 0.24
+        },
+        {
+          "word": " more",
+          "start": 114.12,
+          "end": 114.36,
+          "probability": 0.772
+        },
+        {
+          "word": " brother",
+          "start": 114.36,
+          "end": 114.62,
+          "probability": 0.91
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.885,
+    "wordCount": 184,
+    "credibleWordCount": 166,
+    "segmentCount": 23,
+    "averageWordProbability": 0.76,
+    "vocalSeconds": 52.08,
+    "scanCoverage": 0.518,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,964 @@
+{
+  "analysisVersion": 1,
+  "index": 105,
+  "id": "../VOLHOLLA/song-event-03.html",
+  "slug": "steel-static-the-2-am-express",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "You I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I'm sorry, I'm sorry. Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+  "sampledRanges": [
+    [
+      7.82,
+      25.82
+    ],
+    [
+      31.27,
+      49.27
+    ],
+    [
+      54.73,
+      72.73
+    ],
+    [
+      78.18,
+      96.18
+    ]
+  ],
+  "segments": [
+    {
+      "start": 24.4,
+      "end": 25.8,
+      "text": "You",
+      "avgLogprob": -0.985,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.849,
+      "words": [
+        {
+          "word": " You",
+          "start": 24.4,
+          "end": 25.8,
+          "probability": 0.03
+        }
+      ]
+    },
+    {
+      "start": 47.85,
+      "end": 49.25,
+      "text": "I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say, I don't know what to say,",
+      "avgLogprob": -0.202,
+      "compressionRatio": 14.561,
+      "noSpeechProbability": 0.799,
+      "words": [
+        {
+          "word": " I",
+          "start": 47.85,
+          "end": 49.25,
+          "probability": 0.015
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.527
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.477
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.144
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.13
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.371
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.154
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.58
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.67
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.385
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.809
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.86
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.42
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.921
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.949
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.757
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.97
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.969
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.7
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.97
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.976
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.816
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.973
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.982
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.806
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.981
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.986
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.85
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.972
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.988
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.848
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.984
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.843
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.969
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.874
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.985
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.884
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.972
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.885
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.986
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.992
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.898
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.971
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.903
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.988
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.993
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.901
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.97
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.9
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.987
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.905
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.968
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.909
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.988
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.917
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.973
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.916
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.988
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.915
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.971
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.92
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.93
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.975
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.928
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.936
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.972
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.992
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.929
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.939
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.975
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.992
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.934
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.946
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.975
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.992
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.945
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.953
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.978
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.993
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.949
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.952
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.978
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.993
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.949
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.956
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.983
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.951
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.962
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.983
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.95
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.958
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.98
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.955
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.967
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.982
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.994
+        },
+        {
+          "word": " I",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.959
+        },
+        {
+          "word": " don't",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.969
+        },
+        {
+          "word": " to",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.982
+        },
+        {
+          "word": " say,",
+          "start": 49.25,
+          "end": 49.25,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 49.23,
+      "end": 49.23,
+      "text": "",
+      "avgLogprob": -0.126,
+      "compressionRatio": 21.96,
+      "noSpeechProbability": 0.795,
+      "words": []
+    },
+    {
+      "start": 71.27,
+      "end": 72.71,
+      "text": "I'm sorry, I'm sorry.",
+      "avgLogprob": -1.571,
+      "compressionRatio": 0.955,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 71.27,
+          "end": 72.67,
+          "probability": 0.112
+        },
+        {
+          "word": " sorry,",
+          "start": 72.67,
+          "end": 72.71,
+          "probability": 0.067
+        },
+        {
+          "word": " I'm",
+          "start": 72.71,
+          "end": 72.71,
+          "probability": 0.311
+        },
+        {
+          "word": " sorry.",
+          "start": 72.71,
+          "end": 72.71,
+          "probability": 0.426
+        }
+      ]
+    },
+    {
+      "start": 94.76,
+      "end": 96.16,
+      "text": "Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+      "avgLogprob": -0.057,
+      "compressionRatio": 31.929,
+      "noSpeechProbability": 0.777,
+      "words": [
+        {
+          "word": " Mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm",
+          "start": 94.76,
+          "end": 96.16,
+          "probability": 0.973
+        }
+      ]
+    },
+    {
+      "start": 96.14,
+      "end": 96.14,
+      "text": "",
+      "avgLogprob": -0.124,
+      "compressionRatio": 21.962,
+      "noSpeechProbability": 0.766,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.609,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.622,
+    "reviewRequired": true
+  }
+}

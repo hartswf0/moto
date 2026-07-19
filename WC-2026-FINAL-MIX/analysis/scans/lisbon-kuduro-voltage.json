@@ -1,0 +1,3185 @@
+{
+  "analysisVersion": 1,
+  "index": 19,
+  "id": "../VOLHOLLA/song-sunfadedghosts-06.html",
+  "slug": "lisbon-kuduro-voltage",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "km",
+  "text": "4. Dessert 4. Dessert 4. Dessert 4. Dessert 4. Dessert 4. Dessert … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa Þa",
+  "sampledRanges": [
+    [
+      18.48,
+      36.48
+    ],
+    [
+      73.92,
+      91.92
+    ],
+    [
+      129.37,
+      147.37
+    ],
+    [
+      184.81,
+      202.81
+    ]
+  ],
+  "segments": [
+    {
+      "start": 26.34,
+      "end": 27.62,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 26.34,
+          "end": 26.98,
+          "probability": 0.036
+        },
+        {
+          "word": " Dessert",
+          "start": 26.98,
+          "end": 27.62,
+          "probability": 0.353
+        }
+      ]
+    },
+    {
+      "start": 27.62,
+      "end": 27.62,
+      "text": "",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": []
+    },
+    {
+      "start": 27.62,
+      "end": 27.62,
+      "text": "",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": []
+    },
+    {
+      "start": 27.62,
+      "end": 27.62,
+      "text": "",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": []
+    },
+    {
+      "start": 27.62,
+      "end": 27.9,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 27.62,
+          "end": 27.64,
+          "probability": 0.833
+        },
+        {
+          "word": " Dessert",
+          "start": 27.66,
+          "end": 27.9,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 27.9,
+      "end": 28.26,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 27.9,
+          "end": 27.9,
+          "probability": 0.86
+        },
+        {
+          "word": " Dessert",
+          "start": 27.94,
+          "end": 28.26,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 28.26,
+      "end": 30.76,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 28.26,
+          "end": 28.62,
+          "probability": 0.869
+        },
+        {
+          "word": " Dessert",
+          "start": 30.12,
+          "end": 30.76,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 30.76,
+      "end": 34.14,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 30.76,
+          "end": 30.88,
+          "probability": 0.867
+        },
+        {
+          "word": " Dessert",
+          "start": 33.5,
+          "end": 34.14,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 34.14,
+      "end": 36.46,
+      "text": "4. Dessert",
+      "avgLogprob": -0.36,
+      "compressionRatio": 4.455,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " 4.",
+          "start": 34.14,
+          "end": 34.14,
+          "probability": 0.856
+        },
+        {
+          "word": " Dessert",
+          "start": 35.82,
+          "end": 36.46,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 78.02,
+      "end": 91.6,
+      "text": "… … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … … …",
+      "avgLogprob": -0.063,
+      "compressionRatio": 44.55,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " …",
+          "start": 78.02,
+          "end": 78.6,
+          "probability": 0.002
+        },
+        {
+          "word": " …",
+          "start": 78.6,
+          "end": 78.6,
+          "probability": 0.024
+        },
+        {
+          "word": " …",
+          "start": 78.6,
+          "end": 78.6,
+          "probability": 0.739
+        },
+        {
+          "word": " …",
+          "start": 78.6,
+          "end": 78.6,
+          "probability": 0.893
+        },
+        {
+          "word": " …",
+          "start": 78.6,
+          "end": 78.6,
+          "probability": 0.92
+        },
+        {
+          "word": " …",
+          "start": 78.6,
+          "end": 78.98,
+          "probability": 0.932
+        },
+        {
+          "word": " …",
+          "start": 78.98,
+          "end": 78.98,
+          "probability": 0.935
+        },
+        {
+          "word": " …",
+          "start": 78.98,
+          "end": 80.92,
+          "probability": 0.937
+        },
+        {
+          "word": " …",
+          "start": 80.92,
+          "end": 80.92,
+          "probability": 0.937
+        },
+        {
+          "word": " …",
+          "start": 80.92,
+          "end": 82.54,
+          "probability": 0.937
+        },
+        {
+          "word": " …",
+          "start": 82.54,
+          "end": 83.72,
+          "probability": 0.941
+        },
+        {
+          "word": " …",
+          "start": 83.72,
+          "end": 84.5,
+          "probability": 0.943
+        },
+        {
+          "word": " …",
+          "start": 84.5,
+          "end": 84.5,
+          "probability": 0.946
+        },
+        {
+          "word": " …",
+          "start": 84.5,
+          "end": 84.5,
+          "probability": 0.946
+        },
+        {
+          "word": " …",
+          "start": 84.5,
+          "end": 84.5,
+          "probability": 0.949
+        },
+        {
+          "word": " …",
+          "start": 84.5,
+          "end": 86.54,
+          "probability": 0.947
+        },
+        {
+          "word": " …",
+          "start": 86.54,
+          "end": 86.54,
+          "probability": 0.95
+        },
+        {
+          "word": " …",
+          "start": 86.54,
+          "end": 86.74,
+          "probability": 0.949
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.954
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.956
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.956
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.959
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.96
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.962
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.962
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.963
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 86.74,
+          "probability": 0.963
+        },
+        {
+          "word": " …",
+          "start": 86.74,
+          "end": 87.8,
+          "probability": 0.964
+        },
+        {
+          "word": " …",
+          "start": 87.8,
+          "end": 87.8,
+          "probability": 0.965
+        },
+        {
+          "word": " …",
+          "start": 87.8,
+          "end": 87.8,
+          "probability": 0.965
+        },
+        {
+          "word": " …",
+          "start": 87.8,
+          "end": 87.8,
+          "probability": 0.966
+        },
+        {
+          "word": " …",
+          "start": 87.8,
+          "end": 88.54,
+          "probability": 0.968
+        },
+        {
+          "word": " …",
+          "start": 88.54,
+          "end": 88.82,
+          "probability": 0.968
+        },
+        {
+          "word": " …",
+          "start": 88.82,
+          "end": 89.18,
+          "probability": 0.968
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.967
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.969
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.969
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.97
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.972
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 89.18,
+          "probability": 0.972
+        },
+        {
+          "word": " …",
+          "start": 89.18,
+          "end": 90.3,
+          "probability": 0.972
+        },
+        {
+          "word": " …",
+          "start": 90.3,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.972
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.973
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.974
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.974
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.974
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.974
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.975
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.46,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.46,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.976
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.58,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.58,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.977
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.978
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.979
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.98
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.981
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.982
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.983
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.984
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.986
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        },
+        {
+          "word": " …",
+          "start": 91.6,
+          "end": 91.6,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 91.76,
+      "end": 91.9,
+      "text": "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...",
+      "avgLogprob": -0.067,
+      "compressionRatio": 44.55,
+      "noSpeechProbability": 0.828,
+      "words": [
+        {
+          "word": " ...",
+          "start": 91.76,
+          "end": 91.84,
+          "probability": 0.02
+        },
+        {
+          "word": " ...",
+          "start": 91.84,
+          "end": 91.84,
+          "probability": 0.094
+        },
+        {
+          "word": " ...",
+          "start": 91.84,
+          "end": 91.88,
+          "probability": 0.746
+        },
+        {
+          "word": " ...",
+          "start": 91.88,
+          "end": 91.88,
+          "probability": 0.788
+        },
+        {
+          "word": " ...",
+          "start": 91.88,
+          "end": 91.88,
+          "probability": 0.792
+        },
+        {
+          "word": " ...",
+          "start": 91.88,
+          "end": 91.9,
+          "probability": 0.808
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.816
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.828
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.832
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.836
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.842
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.849
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.859
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.86
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.864
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.869
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.874
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.873
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.881
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.886
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.892
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.897
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.898
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.901
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.9
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.902
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.903
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.905
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.907
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.908
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.909
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.913
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.915
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.917
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.915
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.916
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.914
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.917
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.917
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.917
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.919
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.92
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.92
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.921
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.923
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.923
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.921
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.922
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.927
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.928
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.926
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.927
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.929
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.928
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.927
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.928
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.931
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.929
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.929
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.929
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.928
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.928
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.93
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.93
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.931
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.932
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.932
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.93
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.932
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.93
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.93
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.932
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.931
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.934
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.935
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.935
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.933
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.934
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.935
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.935
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.937
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.936
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.937
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.937
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.935
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.937
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.937
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.938
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.939
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.94
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.94
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.94
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.939
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.938
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.939
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.939
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.94
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.941
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.941
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.941
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.943
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.941
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.942
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.944
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.943
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.944
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.946
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.944
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.944
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.945
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.944
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.945
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.945
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.946
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.947
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.947
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.947
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.947
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.946
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.948
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.946
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.946
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.948
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.948
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.948
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.948
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.949
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.949
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.949
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.95
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.951
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.951
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.951
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.951
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.952
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.952
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.952
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.953
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.954
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.955
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.956
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.957
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.958
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.959
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.959
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.959
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.96
+        },
+        {
+          "word": " ...",
+          "start": 91.9,
+          "end": 91.9,
+          "probability": 0.964
+        }
+      ]
+    },
+    {
+      "start": 184.95,
+      "end": 185.97,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 184.95,
+          "end": 185.97,
+          "probability": 0.224
+        }
+      ]
+    },
+    {
+      "start": 185.97,
+      "end": 186.39,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 185.97,
+          "end": 186.39,
+          "probability": 0.511
+        }
+      ]
+    },
+    {
+      "start": 187.51,
+      "end": 187.81,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 187.51,
+          "end": 188.02,
+          "probability": 0.925
+        }
+      ]
+    },
+    {
+      "start": 188.53,
+      "end": 189.25,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 188.53,
+          "end": 189.25,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 189.25,
+      "end": 189.77,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 189.25,
+          "end": 189.77,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 189.77,
+      "end": 190.81,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 189.77,
+          "end": 190.81,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 191.49,
+      "end": 191.79,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 191.49,
+          "end": 191.79,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 191.79,
+      "end": 192.25,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 191.79,
+          "end": 192.25,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 192.25,
+      "end": 192.75,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 192.25,
+          "end": 192.75,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 192.75,
+      "end": 192.85,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 192.75,
+          "end": 192.85,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 192.85,
+      "end": 193.45,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 192.85,
+          "end": 193.45,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 193.45,
+      "end": 194.03,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 193.45,
+          "end": 194.03,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 194.03,
+      "end": 194.29,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 194.03,
+          "end": 194.29,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 194.29,
+      "end": 196.03,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 194.29,
+          "end": 196.03,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 196.03,
+      "end": 196.31,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 196.03,
+          "end": 196.31,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 196.31,
+      "end": 196.57,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 196.31,
+          "end": 196.57,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 196.57,
+      "end": 197.51,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 196.57,
+          "end": 197.51,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 197.51,
+      "end": 197.89,
+      "text": "Þa",
+      "avgLogprob": -0.156,
+      "compressionRatio": 4.733,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Þa",
+          "start": 197.51,
+          "end": 197.89,
+          "probability": 0.996
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.529,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.289,
+    "reviewRequired": true
+  }
+}

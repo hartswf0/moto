@@ -1,0 +1,900 @@
+{
+  "analysisVersion": 1,
+  "index": 69,
+  "id": "../VOLHOLLA/song-maquina-27.html",
+  "slug": "the-magnetic-head",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm searching for the sound I'm searching for the sound Such and for the sun, such and for the sun, Spin around, around, won't wind in the window, Pay, steady home of the rain, won't wind in the window, Pay, steady home of the rain, cause the guitar starts to play. Like I matter into the window pan, let's get him in as I grow and lay, Wait until the win Steady home on the way One full one food to the day Wearing out one's worth of any shame Wearing out the 90s hiding Give it a kind in the war and face it great When a father 90s hiding A second violent tension every day Like a murder into the ass",
+  "sampledRanges": [
+    [
+      20.16,
+      38.16
+    ],
+    [
+      80.64,
+      98.64
+    ],
+    [
+      141.12,
+      159.12
+    ],
+    [
+      201.6,
+      219.6
+    ]
+  ],
+  "segments": [
+    {
+      "start": 35.18,
+      "end": 38.14,
+      "text": "I'm searching for the sound I'm searching for the sound",
+      "avgLogprob": -0.963,
+      "compressionRatio": 1.41,
+      "noSpeechProbability": 0.794,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 35.18,
+          "end": 35.86,
+          "probability": 0.454
+        },
+        {
+          "word": " searching",
+          "start": 35.86,
+          "end": 35.86,
+          "probability": 0.458
+        },
+        {
+          "word": " for",
+          "start": 35.86,
+          "end": 36.2,
+          "probability": 0.882
+        },
+        {
+          "word": " the",
+          "start": 36.2,
+          "end": 36.48,
+          "probability": 0.55
+        },
+        {
+          "word": " sound",
+          "start": 36.48,
+          "end": 36.94,
+          "probability": 0.809
+        },
+        {
+          "word": " I'm",
+          "start": 36.94,
+          "end": 37.74,
+          "probability": 0.632
+        },
+        {
+          "word": " searching",
+          "start": 37.74,
+          "end": 37.94,
+          "probability": 0.964
+        },
+        {
+          "word": " for",
+          "start": 37.94,
+          "end": 38.14,
+          "probability": 0.619
+        },
+        {
+          "word": " the",
+          "start": 38.14,
+          "end": 38.14,
+          "probability": 0.766
+        },
+        {
+          "word": " sound",
+          "start": 38.14,
+          "end": 38.14,
+          "probability": 0.709
+        }
+      ]
+    },
+    {
+      "start": 80.64,
+      "end": 84.54,
+      "text": "Such and for the sun, such and for the sun,",
+      "avgLogprob": -0.49,
+      "compressionRatio": 1.866,
+      "noSpeechProbability": 0.719,
+      "words": [
+        {
+          "word": " Such",
+          "start": 80.64,
+          "end": 80.94,
+          "probability": 0.058
+        },
+        {
+          "word": " and",
+          "start": 80.94,
+          "end": 81.1,
+          "probability": 0.602
+        },
+        {
+          "word": " for",
+          "start": 81.1,
+          "end": 81.36,
+          "probability": 0.847
+        },
+        {
+          "word": " the",
+          "start": 81.36,
+          "end": 81.62,
+          "probability": 0.804
+        },
+        {
+          "word": " sun,",
+          "start": 81.62,
+          "end": 82.1,
+          "probability": 0.549
+        },
+        {
+          "word": " such",
+          "start": 82.22,
+          "end": 83.06,
+          "probability": 0.748
+        },
+        {
+          "word": " and",
+          "start": 83.06,
+          "end": 83.4,
+          "probability": 0.986
+        },
+        {
+          "word": " for",
+          "start": 83.4,
+          "end": 83.66,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 83.66,
+          "end": 83.9,
+          "probability": 0.989
+        },
+        {
+          "word": " sun,",
+          "start": 83.9,
+          "end": 84.54,
+          "probability": 0.959
+        }
+      ]
+    },
+    {
+      "start": 85.0,
+      "end": 88.96,
+      "text": "Spin around, around, won't wind in the window,",
+      "avgLogprob": -0.49,
+      "compressionRatio": 1.866,
+      "noSpeechProbability": 0.719,
+      "words": [
+        {
+          "word": " Spin",
+          "start": 85.0,
+          "end": 85.3,
+          "probability": 0.398
+        },
+        {
+          "word": " around,",
+          "start": 85.3,
+          "end": 85.72,
+          "probability": 0.894
+        },
+        {
+          "word": " around,",
+          "start": 87.18,
+          "end": 87.18,
+          "probability": 0.988
+        },
+        {
+          "word": " won't",
+          "start": 87.18,
+          "end": 88.08,
+          "probability": 0.583
+        },
+        {
+          "word": " wind",
+          "start": 88.08,
+          "end": 88.26,
+          "probability": 0.657
+        },
+        {
+          "word": " in",
+          "start": 88.26,
+          "end": 88.48,
+          "probability": 0.876
+        },
+        {
+          "word": " the",
+          "start": 88.48,
+          "end": 88.6,
+          "probability": 0.957
+        },
+        {
+          "word": " window,",
+          "start": 88.6,
+          "end": 88.96,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 88.96,
+      "end": 93.58,
+      "text": "Pay, steady home of the rain, won't wind in the window,",
+      "avgLogprob": -0.49,
+      "compressionRatio": 1.866,
+      "noSpeechProbability": 0.719,
+      "words": [
+        {
+          "word": " Pay,",
+          "start": 88.96,
+          "end": 89.4,
+          "probability": 0.036
+        },
+        {
+          "word": " steady",
+          "start": 89.88,
+          "end": 90.2,
+          "probability": 0.896
+        },
+        {
+          "word": " home",
+          "start": 90.2,
+          "end": 90.84,
+          "probability": 0.273
+        },
+        {
+          "word": " of",
+          "start": 90.84,
+          "end": 91.18,
+          "probability": 0.665
+        },
+        {
+          "word": " the",
+          "start": 91.18,
+          "end": 91.32,
+          "probability": 0.995
+        },
+        {
+          "word": " rain,",
+          "start": 91.32,
+          "end": 91.62,
+          "probability": 0.804
+        },
+        {
+          "word": " won't",
+          "start": 92.14,
+          "end": 92.68,
+          "probability": 0.647
+        },
+        {
+          "word": " wind",
+          "start": 92.68,
+          "end": 92.86,
+          "probability": 0.995
+        },
+        {
+          "word": " in",
+          "start": 92.86,
+          "end": 93.06,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 93.06,
+          "end": 93.2,
+          "probability": 0.99
+        },
+        {
+          "word": " window,",
+          "start": 93.2,
+          "end": 93.58,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 93.8,
+      "end": 97.28,
+      "text": "Pay, steady home of the rain, cause the guitar",
+      "avgLogprob": -0.49,
+      "compressionRatio": 1.866,
+      "noSpeechProbability": 0.719,
+      "words": [
+        {
+          "word": " Pay,",
+          "start": 93.8,
+          "end": 94.0,
+          "probability": 0.961
+        },
+        {
+          "word": " steady",
+          "start": 94.56,
+          "end": 94.74,
+          "probability": 1.0
+        },
+        {
+          "word": " home",
+          "start": 94.74,
+          "end": 95.34,
+          "probability": 0.973
+        },
+        {
+          "word": " of",
+          "start": 95.34,
+          "end": 95.7,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 95.7,
+          "end": 95.9,
+          "probability": 0.999
+        },
+        {
+          "word": " rain,",
+          "start": 95.9,
+          "end": 96.2,
+          "probability": 0.995
+        },
+        {
+          "word": " cause",
+          "start": 96.66,
+          "end": 96.82,
+          "probability": 0.022
+        },
+        {
+          "word": " the",
+          "start": 96.82,
+          "end": 97.0,
+          "probability": 0.547
+        },
+        {
+          "word": " guitar",
+          "start": 97.0,
+          "end": 97.28,
+          "probability": 0.877
+        }
+      ]
+    },
+    {
+      "start": 97.28,
+      "end": 98.36,
+      "text": "starts to play.",
+      "avgLogprob": -0.49,
+      "compressionRatio": 1.866,
+      "noSpeechProbability": 0.719,
+      "words": [
+        {
+          "word": " starts",
+          "start": 97.28,
+          "end": 97.86,
+          "probability": 0.319
+        },
+        {
+          "word": " to",
+          "start": 97.86,
+          "end": 98.16,
+          "probability": 0.985
+        },
+        {
+          "word": " play.",
+          "start": 98.16,
+          "end": 98.36,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 153.46,
+      "end": 157.82,
+      "text": "Like I matter into the window pan, let's get him in as I grow and lay,",
+      "avgLogprob": -0.773,
+      "compressionRatio": 0.972,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " Like",
+          "start": 153.46,
+          "end": 153.92,
+          "probability": 0.103
+        },
+        {
+          "word": " I",
+          "start": 153.92,
+          "end": 154.02,
+          "probability": 0.497
+        },
+        {
+          "word": " matter",
+          "start": 154.02,
+          "end": 154.2,
+          "probability": 0.394
+        },
+        {
+          "word": " into",
+          "start": 154.2,
+          "end": 154.68,
+          "probability": 0.618
+        },
+        {
+          "word": " the",
+          "start": 154.68,
+          "end": 154.88,
+          "probability": 0.963
+        },
+        {
+          "word": " window",
+          "start": 154.88,
+          "end": 155.24,
+          "probability": 0.941
+        },
+        {
+          "word": " pan,",
+          "start": 155.24,
+          "end": 155.78,
+          "probability": 0.656
+        },
+        {
+          "word": " let's",
+          "start": 156.06,
+          "end": 156.38,
+          "probability": 0.522
+        },
+        {
+          "word": " get",
+          "start": 156.38,
+          "end": 156.48,
+          "probability": 0.974
+        },
+        {
+          "word": " him",
+          "start": 156.48,
+          "end": 156.7,
+          "probability": 0.382
+        },
+        {
+          "word": " in",
+          "start": 156.7,
+          "end": 156.84,
+          "probability": 0.983
+        },
+        {
+          "word": " as",
+          "start": 156.84,
+          "end": 157.08,
+          "probability": 0.839
+        },
+        {
+          "word": " I",
+          "start": 157.08,
+          "end": 157.18,
+          "probability": 0.472
+        },
+        {
+          "word": " grow",
+          "start": 157.18,
+          "end": 157.36,
+          "probability": 0.317
+        },
+        {
+          "word": " and",
+          "start": 157.36,
+          "end": 157.64,
+          "probability": 0.508
+        },
+        {
+          "word": " lay,",
+          "start": 157.64,
+          "end": 157.82,
+          "probability": 0.939
+        }
+      ]
+    },
+    {
+      "start": 157.82,
+      "end": 159.04,
+      "text": "Wait until the win",
+      "avgLogprob": -0.907,
+      "compressionRatio": 0.692,
+      "noSpeechProbability": 0.644,
+      "words": [
+        {
+          "word": " Wait",
+          "start": 157.82,
+          "end": 158.48,
+          "probability": 0.025
+        },
+        {
+          "word": " until",
+          "start": 158.48,
+          "end": 158.76,
+          "probability": 0.803
+        },
+        {
+          "word": " the",
+          "start": 158.76,
+          "end": 158.9,
+          "probability": 0.665
+        },
+        {
+          "word": " win",
+          "start": 158.9,
+          "end": 159.04,
+          "probability": 0.225
+        }
+      ]
+    },
+    {
+      "start": 201.72,
+      "end": 205.78,
+      "text": "Steady home on the way One full one food to the day",
+      "avgLogprob": -0.675,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.577,
+      "words": [
+        {
+          "word": " Steady",
+          "start": 201.72,
+          "end": 202.28,
+          "probability": 0.568
+        },
+        {
+          "word": " home",
+          "start": 202.28,
+          "end": 202.84,
+          "probability": 0.269
+        },
+        {
+          "word": " on",
+          "start": 202.84,
+          "end": 203.12,
+          "probability": 0.416
+        },
+        {
+          "word": " the",
+          "start": 203.12,
+          "end": 203.3,
+          "probability": 0.995
+        },
+        {
+          "word": " way",
+          "start": 203.3,
+          "end": 203.64,
+          "probability": 0.625
+        },
+        {
+          "word": " One",
+          "start": 203.64,
+          "end": 204.26,
+          "probability": 0.697
+        },
+        {
+          "word": " full",
+          "start": 204.26,
+          "end": 204.52,
+          "probability": 0.759
+        },
+        {
+          "word": " one",
+          "start": 204.52,
+          "end": 204.76,
+          "probability": 0.689
+        },
+        {
+          "word": " food",
+          "start": 204.76,
+          "end": 205.08,
+          "probability": 0.588
+        },
+        {
+          "word": " to",
+          "start": 205.08,
+          "end": 205.32,
+          "probability": 0.954
+        },
+        {
+          "word": " the",
+          "start": 205.32,
+          "end": 205.44,
+          "probability": 0.992
+        },
+        {
+          "word": " day",
+          "start": 205.44,
+          "end": 205.78,
+          "probability": 0.946
+        }
+      ]
+    },
+    {
+      "start": 205.78,
+      "end": 209.86,
+      "text": "Wearing out one's worth of any shame Wearing out the 90s hiding",
+      "avgLogprob": -0.675,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.577,
+      "words": [
+        {
+          "word": " Wearing",
+          "start": 205.78,
+          "end": 206.36,
+          "probability": 0.535
+        },
+        {
+          "word": " out",
+          "start": 206.36,
+          "end": 206.5,
+          "probability": 0.437
+        },
+        {
+          "word": " one's",
+          "start": 206.5,
+          "end": 206.96,
+          "probability": 0.42
+        },
+        {
+          "word": " worth",
+          "start": 206.96,
+          "end": 207.1,
+          "probability": 0.403
+        },
+        {
+          "word": " of",
+          "start": 207.1,
+          "end": 207.36,
+          "probability": 0.986
+        },
+        {
+          "word": " any",
+          "start": 207.36,
+          "end": 207.58,
+          "probability": 0.953
+        },
+        {
+          "word": " shame",
+          "start": 207.58,
+          "end": 208.2,
+          "probability": 0.978
+        },
+        {
+          "word": " Wearing",
+          "start": 208.2,
+          "end": 208.82,
+          "probability": 0.447
+        },
+        {
+          "word": " out",
+          "start": 208.82,
+          "end": 209.0,
+          "probability": 0.345
+        },
+        {
+          "word": " the",
+          "start": 209.0,
+          "end": 209.18,
+          "probability": 0.662
+        },
+        {
+          "word": " 90s",
+          "start": 209.18,
+          "end": 209.6,
+          "probability": 0.657
+        },
+        {
+          "word": " hiding",
+          "start": 209.6,
+          "end": 209.86,
+          "probability": 0.706
+        }
+      ]
+    },
+    {
+      "start": 209.86,
+      "end": 214.46,
+      "text": "Give it a kind in the war and face it great When a father 90s hiding",
+      "avgLogprob": -0.675,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.577,
+      "words": [
+        {
+          "word": " Give",
+          "start": 209.86,
+          "end": 210.62,
+          "probability": 0.436
+        },
+        {
+          "word": " it",
+          "start": 210.62,
+          "end": 210.72,
+          "probability": 0.382
+        },
+        {
+          "word": " a",
+          "start": 210.72,
+          "end": 210.82,
+          "probability": 0.881
+        },
+        {
+          "word": " kind",
+          "start": 210.82,
+          "end": 211.16,
+          "probability": 0.309
+        },
+        {
+          "word": " in",
+          "start": 211.16,
+          "end": 211.32,
+          "probability": 0.643
+        },
+        {
+          "word": " the",
+          "start": 211.32,
+          "end": 211.44,
+          "probability": 0.993
+        },
+        {
+          "word": " war",
+          "start": 211.44,
+          "end": 211.72,
+          "probability": 0.47
+        },
+        {
+          "word": " and",
+          "start": 211.72,
+          "end": 212.06,
+          "probability": 0.199
+        },
+        {
+          "word": " face",
+          "start": 212.06,
+          "end": 212.44,
+          "probability": 0.581
+        },
+        {
+          "word": " it",
+          "start": 212.44,
+          "end": 212.58,
+          "probability": 0.786
+        },
+        {
+          "word": " great",
+          "start": 212.58,
+          "end": 212.94,
+          "probability": 0.721
+        },
+        {
+          "word": " When",
+          "start": 212.94,
+          "end": 213.22,
+          "probability": 0.524
+        },
+        {
+          "word": " a",
+          "start": 213.22,
+          "end": 213.32,
+          "probability": 0.453
+        },
+        {
+          "word": " father",
+          "start": 213.32,
+          "end": 213.52,
+          "probability": 0.736
+        },
+        {
+          "word": " 90s",
+          "start": 213.52,
+          "end": 214.18,
+          "probability": 0.613
+        },
+        {
+          "word": " hiding",
+          "start": 214.18,
+          "end": 214.46,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 215.12,
+      "end": 219.18,
+      "text": "A second violent tension every day Like a murder into the ass",
+      "avgLogprob": -0.675,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.577,
+      "words": [
+        {
+          "word": " A",
+          "start": 215.12,
+          "end": 215.46,
+          "probability": 0.099
+        },
+        {
+          "word": " second",
+          "start": 215.46,
+          "end": 215.7,
+          "probability": 0.808
+        },
+        {
+          "word": " violent",
+          "start": 215.7,
+          "end": 216.04,
+          "probability": 0.275
+        },
+        {
+          "word": " tension",
+          "start": 216.04,
+          "end": 216.52,
+          "probability": 0.647
+        },
+        {
+          "word": " every",
+          "start": 216.52,
+          "end": 217.02,
+          "probability": 0.448
+        },
+        {
+          "word": " day",
+          "start": 217.02,
+          "end": 217.54,
+          "probability": 0.998
+        },
+        {
+          "word": " Like",
+          "start": 217.54,
+          "end": 217.96,
+          "probability": 0.223
+        },
+        {
+          "word": " a",
+          "start": 217.96,
+          "end": 218.04,
+          "probability": 0.505
+        },
+        {
+          "word": " murder",
+          "start": 218.04,
+          "end": 218.26,
+          "probability": 0.115
+        },
+        {
+          "word": " into",
+          "start": 218.26,
+          "end": 218.68,
+          "probability": 0.772
+        },
+        {
+          "word": " the",
+          "start": 218.68,
+          "end": 218.86,
+          "probability": 0.976
+        },
+        {
+          "word": " ass",
+          "start": 218.86,
+          "end": 219.18,
+          "probability": 0.504
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.842,
+    "wordCount": 113,
+    "credibleWordCount": 96,
+    "segmentCount": 11,
+    "averageWordProbability": 0.67,
+    "vocalSeconds": 39.42,
+    "scanCoverage": 0.267,
+    "reviewRequired": false
+  }
+}

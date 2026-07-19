@@ -1,0 +1,1454 @@
+{
+  "analysisVersion": 1,
+  "index": 52,
+  "id": "../VOLHOLLA/song-betterhands-10.html",
+  "slug": "visible-repair",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "The shame is not the machine The shame is the clean essay with no mud on it The shame is DSI So thin a tool can walk through it without tearing its coat Maybe I asked for proof of typing and called it thought That is the sentence Nobody wants a dinner? Other teachers say Shots, slogans, ghosts, somethings, sprouts. Usually trash. Good, trashes where roots begin. Now garden, cut, stake, water, burn, plant again. A bad prompt asked for fruit. A good prompt changes the soil. That is the work not innocent. Whether the student used AI Of course they did The world is made of tools touching us back The question is whether the contact left a mark So I want the floorboards up the failed run The cheap matter for the output that fooled you The moment you stopped believing at the moment The question changed to excuse. It makes assignment show bone. So answer me. What does your assignment make? Obedience. Concealment. Clean hands. Or better hands. Hands that know the tool, hands that know the dirt. Hands that can build, break, repair. And stand beside the-",
+  "sampledRanges": [
+    [
+      15.76,
+      33.76
+    ],
+    [
+      63.05,
+      81.05
+    ],
+    [
+      110.33,
+      128.33
+    ],
+    [
+      157.62,
+      175.62
+    ]
+  ],
+  "segments": [
+    {
+      "start": 16.02,
+      "end": 17.6,
+      "text": "The shame is not the machine",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " The",
+          "start": 16.02,
+          "end": 16.5,
+          "probability": 0.689
+        },
+        {
+          "word": " shame",
+          "start": 16.5,
+          "end": 16.74,
+          "probability": 0.93
+        },
+        {
+          "word": " is",
+          "start": 16.74,
+          "end": 16.88,
+          "probability": 0.993
+        },
+        {
+          "word": " not",
+          "start": 16.88,
+          "end": 17.08,
+          "probability": 0.813
+        },
+        {
+          "word": " the",
+          "start": 17.08,
+          "end": 17.26,
+          "probability": 0.954
+        },
+        {
+          "word": " machine",
+          "start": 17.26,
+          "end": 17.6,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 18.46,
+      "end": 21.08,
+      "text": "The shame is the clean essay with no mud on it",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " The",
+          "start": 18.46,
+          "end": 18.94,
+          "probability": 0.626
+        },
+        {
+          "word": " shame",
+          "start": 18.94,
+          "end": 19.2,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 19.2,
+          "end": 19.36,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 19.36,
+          "end": 19.46,
+          "probability": 0.985
+        },
+        {
+          "word": " clean",
+          "start": 19.46,
+          "end": 19.7,
+          "probability": 0.969
+        },
+        {
+          "word": " essay",
+          "start": 19.7,
+          "end": 20.02,
+          "probability": 0.939
+        },
+        {
+          "word": " with",
+          "start": 20.02,
+          "end": 20.28,
+          "probability": 0.966
+        },
+        {
+          "word": " no",
+          "start": 20.28,
+          "end": 20.44,
+          "probability": 0.997
+        },
+        {
+          "word": " mud",
+          "start": 20.44,
+          "end": 20.64,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 20.64,
+          "end": 20.82,
+          "probability": 0.992
+        },
+        {
+          "word": " it",
+          "start": 20.82,
+          "end": 21.08,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 21.08,
+      "end": 22.46,
+      "text": "The shame is DSI",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " The",
+          "start": 21.08,
+          "end": 21.5,
+          "probability": 0.85
+        },
+        {
+          "word": " shame",
+          "start": 21.5,
+          "end": 21.8,
+          "probability": 0.943
+        },
+        {
+          "word": " is",
+          "start": 21.8,
+          "end": 22.02,
+          "probability": 0.996
+        },
+        {
+          "word": " DSI",
+          "start": 22.02,
+          "end": 22.46,
+          "probability": 0.582
+        }
+      ]
+    },
+    {
+      "start": 22.46,
+      "end": 25.26,
+      "text": "So thin a tool can walk through it without tearing its coat",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " So",
+          "start": 22.46,
+          "end": 22.68,
+          "probability": 0.261
+        },
+        {
+          "word": " thin",
+          "start": 22.68,
+          "end": 22.92,
+          "probability": 0.341
+        },
+        {
+          "word": " a",
+          "start": 22.92,
+          "end": 23.06,
+          "probability": 0.925
+        },
+        {
+          "word": " tool",
+          "start": 23.06,
+          "end": 23.28,
+          "probability": 0.967
+        },
+        {
+          "word": " can",
+          "start": 23.28,
+          "end": 23.5,
+          "probability": 0.989
+        },
+        {
+          "word": " walk",
+          "start": 23.5,
+          "end": 23.74,
+          "probability": 0.999
+        },
+        {
+          "word": " through",
+          "start": 23.74,
+          "end": 23.96,
+          "probability": 0.965
+        },
+        {
+          "word": " it",
+          "start": 23.96,
+          "end": 24.08,
+          "probability": 0.993
+        },
+        {
+          "word": " without",
+          "start": 24.08,
+          "end": 24.38,
+          "probability": 0.952
+        },
+        {
+          "word": " tearing",
+          "start": 24.38,
+          "end": 24.78,
+          "probability": 0.992
+        },
+        {
+          "word": " its",
+          "start": 24.78,
+          "end": 25.02,
+          "probability": 0.859
+        },
+        {
+          "word": " coat",
+          "start": 25.02,
+          "end": 25.26,
+          "probability": 0.861
+        }
+      ]
+    },
+    {
+      "start": 26.04,
+      "end": 28.76,
+      "text": "Maybe I asked for proof of typing and called it thought",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " Maybe",
+          "start": 26.04,
+          "end": 26.52,
+          "probability": 0.939
+        },
+        {
+          "word": " I",
+          "start": 26.52,
+          "end": 26.78,
+          "probability": 0.973
+        },
+        {
+          "word": " asked",
+          "start": 26.78,
+          "end": 27.06,
+          "probability": 0.785
+        },
+        {
+          "word": " for",
+          "start": 27.06,
+          "end": 27.2,
+          "probability": 0.996
+        },
+        {
+          "word": " proof",
+          "start": 27.2,
+          "end": 27.42,
+          "probability": 0.995
+        },
+        {
+          "word": " of",
+          "start": 27.42,
+          "end": 27.6,
+          "probability": 0.991
+        },
+        {
+          "word": " typing",
+          "start": 27.6,
+          "end": 27.84,
+          "probability": 0.988
+        },
+        {
+          "word": " and",
+          "start": 27.84,
+          "end": 28.1,
+          "probability": 0.928
+        },
+        {
+          "word": " called",
+          "start": 28.1,
+          "end": 28.36,
+          "probability": 0.653
+        },
+        {
+          "word": " it",
+          "start": 28.36,
+          "end": 28.56,
+          "probability": 0.936
+        },
+        {
+          "word": " thought",
+          "start": 28.56,
+          "end": 28.76,
+          "probability": 0.458
+        }
+      ]
+    },
+    {
+      "start": 29.68,
+      "end": 31.06,
+      "text": "That is the sentence",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " That",
+          "start": 29.68,
+          "end": 30.16,
+          "probability": 0.704
+        },
+        {
+          "word": " is",
+          "start": 30.16,
+          "end": 30.4,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 30.4,
+          "end": 30.54,
+          "probability": 0.968
+        },
+        {
+          "word": " sentence",
+          "start": 30.54,
+          "end": 31.06,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 31.06,
+      "end": 32.26,
+      "text": "Nobody wants a dinner?",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " Nobody",
+          "start": 31.06,
+          "end": 31.52,
+          "probability": 0.381
+        },
+        {
+          "word": " wants",
+          "start": 31.52,
+          "end": 31.82,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 31.82,
+          "end": 31.98,
+          "probability": 0.726
+        },
+        {
+          "word": " dinner?",
+          "start": 31.98,
+          "end": 32.26,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 32.56,
+      "end": 33.4,
+      "text": "Other teachers say",
+      "avgLogprob": -0.236,
+      "compressionRatio": 1.549,
+      "noSpeechProbability": 0.476,
+      "words": [
+        {
+          "word": " Other",
+          "start": 32.56,
+          "end": 32.74,
+          "probability": 0.882
+        },
+        {
+          "word": " teachers",
+          "start": 32.74,
+          "end": 33.08,
+          "probability": 0.954
+        },
+        {
+          "word": " say",
+          "start": 33.08,
+          "end": 33.4,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 63.05,
+      "end": 65.79,
+      "text": "Shots, slogans, ghosts, somethings, sprouts.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " Shots,",
+          "start": 63.05,
+          "end": 63.55,
+          "probability": 0.403
+        },
+        {
+          "word": " slogans,",
+          "start": 63.55,
+          "end": 64.07,
+          "probability": 0.941
+        },
+        {
+          "word": " ghosts,",
+          "start": 64.27,
+          "end": 64.39,
+          "probability": 0.966
+        },
+        {
+          "word": " somethings,",
+          "start": 64.69,
+          "end": 65.59,
+          "probability": 0.477
+        },
+        {
+          "word": " sprouts.",
+          "start": 65.61,
+          "end": 65.79,
+          "probability": 0.395
+        }
+      ]
+    },
+    {
+      "start": 65.97,
+      "end": 66.83,
+      "text": "Usually trash.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " Usually",
+          "start": 65.97,
+          "end": 66.33,
+          "probability": 0.437
+        },
+        {
+          "word": " trash.",
+          "start": 66.33,
+          "end": 66.83,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 67.03,
+      "end": 68.73,
+      "text": "Good, trashes where roots begin.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " Good,",
+          "start": 67.03,
+          "end": 67.19,
+          "probability": 0.93
+        },
+        {
+          "word": " trashes",
+          "start": 67.55,
+          "end": 67.97,
+          "probability": 0.771
+        },
+        {
+          "word": " where",
+          "start": 67.97,
+          "end": 68.11,
+          "probability": 0.846
+        },
+        {
+          "word": " roots",
+          "start": 68.11,
+          "end": 68.33,
+          "probability": 0.975
+        },
+        {
+          "word": " begin.",
+          "start": 68.33,
+          "end": 68.73,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 69.13,
+      "end": 73.79,
+      "text": "Now garden, cut, stake, water, burn, plant again.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " Now",
+          "start": 69.13,
+          "end": 69.25,
+          "probability": 0.981
+        },
+        {
+          "word": " garden,",
+          "start": 69.25,
+          "end": 69.63,
+          "probability": 0.75
+        },
+        {
+          "word": " cut,",
+          "start": 70.19,
+          "end": 70.35,
+          "probability": 0.96
+        },
+        {
+          "word": " stake,",
+          "start": 70.79,
+          "end": 71.23,
+          "probability": 0.306
+        },
+        {
+          "word": " water,",
+          "start": 71.81,
+          "end": 72.07,
+          "probability": 0.998
+        },
+        {
+          "word": " burn,",
+          "start": 72.53,
+          "end": 72.77,
+          "probability": 0.949
+        },
+        {
+          "word": " plant",
+          "start": 73.13,
+          "end": 73.41,
+          "probability": 0.961
+        },
+        {
+          "word": " again.",
+          "start": 73.41,
+          "end": 73.79,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 74.69,
+      "end": 76.11,
+      "text": "A bad prompt asked for fruit.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " A",
+          "start": 74.69,
+          "end": 74.79,
+          "probability": 0.986
+        },
+        {
+          "word": " bad",
+          "start": 74.79,
+          "end": 75.01,
+          "probability": 0.988
+        },
+        {
+          "word": " prompt",
+          "start": 75.01,
+          "end": 75.25,
+          "probability": 0.633
+        },
+        {
+          "word": " asked",
+          "start": 75.25,
+          "end": 75.59,
+          "probability": 0.435
+        },
+        {
+          "word": " for",
+          "start": 75.59,
+          "end": 75.81,
+          "probability": 0.998
+        },
+        {
+          "word": " fruit.",
+          "start": 75.81,
+          "end": 76.11,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 77.03,
+      "end": 78.43,
+      "text": "A good prompt changes the soil.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " A",
+          "start": 77.03,
+          "end": 77.15,
+          "probability": 0.993
+        },
+        {
+          "word": " good",
+          "start": 77.15,
+          "end": 77.31,
+          "probability": 0.992
+        },
+        {
+          "word": " prompt",
+          "start": 77.31,
+          "end": 77.55,
+          "probability": 0.997
+        },
+        {
+          "word": " changes",
+          "start": 77.55,
+          "end": 77.97,
+          "probability": 0.977
+        },
+        {
+          "word": " the",
+          "start": 77.97,
+          "end": 78.17,
+          "probability": 0.996
+        },
+        {
+          "word": " soil.",
+          "start": 78.17,
+          "end": 78.43,
+          "probability": 0.907
+        }
+      ]
+    },
+    {
+      "start": 79.39,
+      "end": 80.89,
+      "text": "That is the work not innocent.",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.785,
+      "words": [
+        {
+          "word": " That",
+          "start": 79.39,
+          "end": 79.63,
+          "probability": 0.987
+        },
+        {
+          "word": " is",
+          "start": 79.63,
+          "end": 79.83,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 79.83,
+          "end": 79.99,
+          "probability": 0.993
+        },
+        {
+          "word": " work",
+          "start": 79.99,
+          "end": 80.19,
+          "probability": 0.945
+        },
+        {
+          "word": " not",
+          "start": 80.19,
+          "end": 80.47,
+          "probability": 0.716
+        },
+        {
+          "word": " innocent.",
+          "start": 80.47,
+          "end": 80.89,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 110.33,
+      "end": 111.61,
+      "text": "Whether the student used AI",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " Whether",
+          "start": 110.33,
+          "end": 110.41,
+          "probability": 0.072
+        },
+        {
+          "word": " the",
+          "start": 110.41,
+          "end": 110.57,
+          "probability": 0.903
+        },
+        {
+          "word": " student",
+          "start": 110.57,
+          "end": 110.89,
+          "probability": 0.926
+        },
+        {
+          "word": " used",
+          "start": 110.89,
+          "end": 111.25,
+          "probability": 0.867
+        },
+        {
+          "word": " AI",
+          "start": 111.25,
+          "end": 111.61,
+          "probability": 0.888
+        }
+      ]
+    },
+    {
+      "start": 112.25,
+      "end": 113.43,
+      "text": "Of course they did",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " Of",
+          "start": 112.25,
+          "end": 112.73,
+          "probability": 0.522
+        },
+        {
+          "word": " course",
+          "start": 112.73,
+          "end": 112.95,
+          "probability": 0.982
+        },
+        {
+          "word": " they",
+          "start": 112.95,
+          "end": 113.21,
+          "probability": 0.877
+        },
+        {
+          "word": " did",
+          "start": 113.21,
+          "end": 113.43,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 113.43,
+      "end": 115.95,
+      "text": "The world is made of tools touching us back",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " The",
+          "start": 113.43,
+          "end": 113.95,
+          "probability": 0.592
+        },
+        {
+          "word": " world",
+          "start": 113.95,
+          "end": 114.17,
+          "probability": 0.992
+        },
+        {
+          "word": " is",
+          "start": 114.17,
+          "end": 114.39,
+          "probability": 0.992
+        },
+        {
+          "word": " made",
+          "start": 114.39,
+          "end": 114.53,
+          "probability": 0.988
+        },
+        {
+          "word": " of",
+          "start": 114.53,
+          "end": 114.71,
+          "probability": 0.996
+        },
+        {
+          "word": " tools",
+          "start": 114.71,
+          "end": 114.93,
+          "probability": 0.996
+        },
+        {
+          "word": " touching",
+          "start": 114.93,
+          "end": 115.31,
+          "probability": 0.859
+        },
+        {
+          "word": " us",
+          "start": 115.31,
+          "end": 115.51,
+          "probability": 0.997
+        },
+        {
+          "word": " back",
+          "start": 115.51,
+          "end": 115.95,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 116.69,
+      "end": 118.71,
+      "text": "The question is whether the contact left a mark",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " The",
+          "start": 116.49,
+          "end": 116.73,
+          "probability": 0.977
+        },
+        {
+          "word": " question",
+          "start": 116.73,
+          "end": 117.09,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 117.09,
+          "end": 117.27,
+          "probability": 0.996
+        },
+        {
+          "word": " whether",
+          "start": 117.27,
+          "end": 117.49,
+          "probability": 0.955
+        },
+        {
+          "word": " the",
+          "start": 117.49,
+          "end": 117.69,
+          "probability": 0.99
+        },
+        {
+          "word": " contact",
+          "start": 117.69,
+          "end": 117.97,
+          "probability": 0.993
+        },
+        {
+          "word": " left",
+          "start": 117.97,
+          "end": 118.35,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 118.35,
+          "end": 118.51,
+          "probability": 0.662
+        },
+        {
+          "word": " mark",
+          "start": 118.51,
+          "end": 118.71,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 119.37,
+      "end": 122.03,
+      "text": "So I want the floorboards up the failed run",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " So",
+          "start": 119.37,
+          "end": 119.85,
+          "probability": 0.913
+        },
+        {
+          "word": " I",
+          "start": 119.85,
+          "end": 120.15,
+          "probability": 0.936
+        },
+        {
+          "word": " want",
+          "start": 120.15,
+          "end": 120.35,
+          "probability": 0.945
+        },
+        {
+          "word": " the",
+          "start": 120.35,
+          "end": 120.53,
+          "probability": 0.996
+        },
+        {
+          "word": " floorboards",
+          "start": 120.53,
+          "end": 121.09,
+          "probability": 0.936
+        },
+        {
+          "word": " up",
+          "start": 121.09,
+          "end": 121.27,
+          "probability": 0.972
+        },
+        {
+          "word": " the",
+          "start": 121.27,
+          "end": 121.45,
+          "probability": 0.942
+        },
+        {
+          "word": " failed",
+          "start": 121.45,
+          "end": 121.73,
+          "probability": 0.704
+        },
+        {
+          "word": " run",
+          "start": 121.73,
+          "end": 122.03,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 122.65,
+      "end": 124.89,
+      "text": "The cheap matter for the output that fooled you",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " The",
+          "start": 122.45,
+          "end": 122.69,
+          "probability": 0.953
+        },
+        {
+          "word": " cheap",
+          "start": 122.69,
+          "end": 122.89,
+          "probability": 0.974
+        },
+        {
+          "word": " matter",
+          "start": 122.89,
+          "end": 123.13,
+          "probability": 0.427
+        },
+        {
+          "word": " for",
+          "start": 123.13,
+          "end": 123.37,
+          "probability": 0.983
+        },
+        {
+          "word": " the",
+          "start": 123.37,
+          "end": 123.57,
+          "probability": 0.996
+        },
+        {
+          "word": " output",
+          "start": 123.57,
+          "end": 123.89,
+          "probability": 0.994
+        },
+        {
+          "word": " that",
+          "start": 123.89,
+          "end": 124.15,
+          "probability": 0.989
+        },
+        {
+          "word": " fooled",
+          "start": 124.15,
+          "end": 124.39,
+          "probability": 0.942
+        },
+        {
+          "word": " you",
+          "start": 124.39,
+          "end": 124.89,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 125.53,
+      "end": 127.23,
+      "text": "The moment you stopped believing at the moment",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " The",
+          "start": 125.33,
+          "end": 125.57,
+          "probability": 0.979
+        },
+        {
+          "word": " moment",
+          "start": 125.57,
+          "end": 125.83,
+          "probability": 0.997
+        },
+        {
+          "word": " you",
+          "start": 125.83,
+          "end": 126.01,
+          "probability": 0.997
+        },
+        {
+          "word": " stopped",
+          "start": 126.01,
+          "end": 126.25,
+          "probability": 0.516
+        },
+        {
+          "word": " believing",
+          "start": 126.25,
+          "end": 126.59,
+          "probability": 0.995
+        },
+        {
+          "word": " at",
+          "start": 126.59,
+          "end": 126.87,
+          "probability": 0.633
+        },
+        {
+          "word": " the",
+          "start": 126.87,
+          "end": 127.01,
+          "probability": 0.995
+        },
+        {
+          "word": " moment",
+          "start": 127.01,
+          "end": 127.23,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 127.23,
+      "end": 128.09,
+      "text": "The question changed",
+      "avgLogprob": -0.275,
+      "compressionRatio": 1.594,
+      "noSpeechProbability": 0.782,
+      "words": [
+        {
+          "word": " The",
+          "start": 127.23,
+          "end": 127.43,
+          "probability": 0.143
+        },
+        {
+          "word": " question",
+          "start": 127.43,
+          "end": 127.77,
+          "probability": 0.989
+        },
+        {
+          "word": " changed",
+          "start": 127.77,
+          "end": 128.09,
+          "probability": 0.76
+        }
+      ]
+    },
+    {
+      "start": 157.62,
+      "end": 164.96,
+      "text": "to excuse. It makes assignment show bone. So answer me. What does your assignment make?",
+      "avgLogprob": -0.365,
+      "compressionRatio": 1.546,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " to",
+          "start": 157.62,
+          "end": 157.86,
+          "probability": 0.149
+        },
+        {
+          "word": " excuse.",
+          "start": 157.86,
+          "end": 158.26,
+          "probability": 0.87
+        },
+        {
+          "word": " It",
+          "start": 159.5,
+          "end": 159.62,
+          "probability": 0.883
+        },
+        {
+          "word": " makes",
+          "start": 159.62,
+          "end": 159.84,
+          "probability": 0.986
+        },
+        {
+          "word": " assignment",
+          "start": 159.84,
+          "end": 160.46,
+          "probability": 0.754
+        },
+        {
+          "word": " show",
+          "start": 160.46,
+          "end": 160.8,
+          "probability": 0.408
+        },
+        {
+          "word": " bone.",
+          "start": 160.8,
+          "end": 161.1,
+          "probability": 0.311
+        },
+        {
+          "word": " So",
+          "start": 162.04,
+          "end": 162.14,
+          "probability": 0.969
+        },
+        {
+          "word": " answer",
+          "start": 162.14,
+          "end": 162.5,
+          "probability": 0.851
+        },
+        {
+          "word": " me.",
+          "start": 162.5,
+          "end": 162.74,
+          "probability": 0.998
+        },
+        {
+          "word": " What",
+          "start": 163.74,
+          "end": 163.82,
+          "probability": 0.967
+        },
+        {
+          "word": " does",
+          "start": 163.82,
+          "end": 164.0,
+          "probability": 0.899
+        },
+        {
+          "word": " your",
+          "start": 164.0,
+          "end": 164.14,
+          "probability": 0.998
+        },
+        {
+          "word": " assignment",
+          "start": 164.14,
+          "end": 164.62,
+          "probability": 0.997
+        },
+        {
+          "word": " make?",
+          "start": 164.62,
+          "end": 164.96,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 165.6,
+      "end": 171.72,
+      "text": "Obedience. Concealment. Clean hands. Or better hands. Hands that know the tool, hands that know the",
+      "avgLogprob": -0.365,
+      "compressionRatio": 1.546,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Obedience.",
+          "start": 165.6,
+          "end": 166.08,
+          "probability": 0.746
+        },
+        {
+          "word": " Concealment.",
+          "start": 166.72,
+          "end": 167.2,
+          "probability": 0.914
+        },
+        {
+          "word": " Clean",
+          "start": 167.78,
+          "end": 168.08,
+          "probability": 0.97
+        },
+        {
+          "word": " hands.",
+          "start": 168.08,
+          "end": 168.56,
+          "probability": 0.991
+        },
+        {
+          "word": " Or",
+          "start": 168.84,
+          "end": 169.0,
+          "probability": 0.86
+        },
+        {
+          "word": " better",
+          "start": 169.0,
+          "end": 169.28,
+          "probability": 0.932
+        },
+        {
+          "word": " hands.",
+          "start": 169.28,
+          "end": 169.72,
+          "probability": 0.949
+        },
+        {
+          "word": " Hands",
+          "start": 169.92,
+          "end": 170.22,
+          "probability": 0.965
+        },
+        {
+          "word": " that",
+          "start": 170.22,
+          "end": 170.36,
+          "probability": 0.998
+        },
+        {
+          "word": " know",
+          "start": 170.36,
+          "end": 170.54,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 170.54,
+          "end": 170.7,
+          "probability": 0.987
+        },
+        {
+          "word": " tool,",
+          "start": 170.7,
+          "end": 170.92,
+          "probability": 0.957
+        },
+        {
+          "word": " hands",
+          "start": 171.12,
+          "end": 171.26,
+          "probability": 0.974
+        },
+        {
+          "word": " that",
+          "start": 171.26,
+          "end": 171.4,
+          "probability": 0.995
+        },
+        {
+          "word": " know",
+          "start": 171.4,
+          "end": 171.54,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 171.54,
+          "end": 171.72,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 171.72,
+      "end": 175.6,
+      "text": "dirt. Hands that can build, break, repair. And stand beside the-",
+      "avgLogprob": -0.365,
+      "compressionRatio": 1.546,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " dirt.",
+          "start": 171.72,
+          "end": 171.9,
+          "probability": 0.998
+        },
+        {
+          "word": " Hands",
+          "start": 172.36,
+          "end": 172.6,
+          "probability": 0.985
+        },
+        {
+          "word": " that",
+          "start": 172.6,
+          "end": 172.74,
+          "probability": 0.992
+        },
+        {
+          "word": " can",
+          "start": 172.74,
+          "end": 172.88,
+          "probability": 0.998
+        },
+        {
+          "word": " build,",
+          "start": 172.88,
+          "end": 173.18,
+          "probability": 0.977
+        },
+        {
+          "word": " break,",
+          "start": 173.32,
+          "end": 173.48,
+          "probability": 0.979
+        },
+        {
+          "word": " repair.",
+          "start": 173.68,
+          "end": 173.9,
+          "probability": 0.981
+        },
+        {
+          "word": " And",
+          "start": 174.56,
+          "end": 174.78,
+          "probability": 0.953
+        },
+        {
+          "word": " stand",
+          "start": 174.78,
+          "end": 175.04,
+          "probability": 0.992
+        },
+        {
+          "word": " beside",
+          "start": 175.04,
+          "end": 175.42,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 175.42,
+          "end": 175.6,
+          "probability": 0.773
+        },
+        {
+          "word": "-",
+          "start": 175.6,
+          "end": 175.6,
+          "probability": 0.11
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.947,
+    "wordCount": 97,
+    "credibleWordCount": 93,
+    "segmentCount": 11,
+    "averageWordProbability": 0.89,
+    "vocalSeconds": 31.86,
+    "scanCoverage": 0.335,
+    "reviewRequired": false
+  }
+}

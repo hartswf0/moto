@@ -1,0 +1,710 @@
+{
+  "analysisVersion": 1,
+  "index": 117,
+  "id": "../VOLHOLLA/song-mallmezzanine-23.html",
+  "slug": "the-atrium-covenant",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "The fur of a street of the night, the fur of a street of the night, the fur of a street Deeper of the street of the night Deeper of the street of the night Deeper of the street of the night Deeper of the street of the night Deeper of the street of the night Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night. Five of his dreams of a night.",
+  "sampledRanges": [
+    [
+      16.08,
+      34.08
+    ],
+    [
+      64.34,
+      82.34
+    ],
+    [
+      112.59,
+      130.59
+    ],
+    [
+      160.85,
+      178.85
+    ]
+  ],
+  "segments": [
+    {
+      "start": 24.3,
+      "end": 33.96,
+      "text": "The fur of a street of the night, the fur of a street of the night, the fur of a street",
+      "avgLogprob": -0.413,
+      "compressionRatio": 2.122,
+      "noSpeechProbability": 0.677,
+      "words": [
+        {
+          "word": " The",
+          "start": 24.3,
+          "end": 25.14,
+          "probability": 0.224
+        },
+        {
+          "word": " fur",
+          "start": 25.14,
+          "end": 25.68,
+          "probability": 0.321
+        },
+        {
+          "word": " of",
+          "start": 25.68,
+          "end": 26.34,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 26.34,
+          "end": 26.42,
+          "probability": 0.24
+        },
+        {
+          "word": " street",
+          "start": 26.42,
+          "end": 26.74,
+          "probability": 0.917
+        },
+        {
+          "word": " of",
+          "start": 26.74,
+          "end": 27.5,
+          "probability": 0.841
+        },
+        {
+          "word": " the",
+          "start": 27.5,
+          "end": 27.66,
+          "probability": 0.938
+        },
+        {
+          "word": " night,",
+          "start": 27.66,
+          "end": 28.08,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 28.2,
+          "end": 28.84,
+          "probability": 0.493
+        },
+        {
+          "word": " fur",
+          "start": 28.84,
+          "end": 29.4,
+          "probability": 0.999
+        },
+        {
+          "word": " of",
+          "start": 29.4,
+          "end": 29.98,
+          "probability": 0.978
+        },
+        {
+          "word": " a",
+          "start": 29.98,
+          "end": 30.12,
+          "probability": 0.974
+        },
+        {
+          "word": " street",
+          "start": 30.12,
+          "end": 30.42,
+          "probability": 0.998
+        },
+        {
+          "word": " of",
+          "start": 30.42,
+          "end": 31.12,
+          "probability": 0.953
+        },
+        {
+          "word": " the",
+          "start": 31.12,
+          "end": 31.26,
+          "probability": 0.987
+        },
+        {
+          "word": " night,",
+          "start": 31.26,
+          "end": 31.64,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 31.86,
+          "end": 32.42,
+          "probability": 0.936
+        },
+        {
+          "word": " fur",
+          "start": 32.42,
+          "end": 32.96,
+          "probability": 0.999
+        },
+        {
+          "word": " of",
+          "start": 32.96,
+          "end": 33.58,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 33.58,
+          "end": 33.74,
+          "probability": 0.991
+        },
+        {
+          "word": " street",
+          "start": 33.74,
+          "end": 33.96,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 64.94,
+      "end": 67.8,
+      "text": "Deeper of the street of the night",
+      "avgLogprob": -0.391,
+      "compressionRatio": 4.333,
+      "noSpeechProbability": 0.514,
+      "words": [
+        {
+          "word": " Deeper",
+          "start": 64.94,
+          "end": 65.62,
+          "probability": 0.233
+        },
+        {
+          "word": " of",
+          "start": 65.62,
+          "end": 66.16,
+          "probability": 0.924
+        },
+        {
+          "word": " the",
+          "start": 66.16,
+          "end": 66.24,
+          "probability": 0.149
+        },
+        {
+          "word": " street",
+          "start": 66.24,
+          "end": 66.56,
+          "probability": 0.603
+        },
+        {
+          "word": " of",
+          "start": 66.56,
+          "end": 67.38,
+          "probability": 0.514
+        },
+        {
+          "word": " the",
+          "start": 67.38,
+          "end": 67.52,
+          "probability": 0.984
+        },
+        {
+          "word": " night",
+          "start": 67.52,
+          "end": 67.8,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 68.68,
+      "end": 71.7,
+      "text": "Deeper of the street of the night",
+      "avgLogprob": -0.391,
+      "compressionRatio": 4.333,
+      "noSpeechProbability": 0.514,
+      "words": [
+        {
+          "word": " Deeper",
+          "start": 68.68,
+          "end": 69.36,
+          "probability": 0.665
+        },
+        {
+          "word": " of",
+          "start": 69.36,
+          "end": 69.82,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 69.82,
+          "end": 69.92,
+          "probability": 0.905
+        },
+        {
+          "word": " street",
+          "start": 69.92,
+          "end": 70.32,
+          "probability": 0.991
+        },
+        {
+          "word": " of",
+          "start": 70.32,
+          "end": 71.06,
+          "probability": 0.938
+        },
+        {
+          "word": " the",
+          "start": 71.06,
+          "end": 71.22,
+          "probability": 0.998
+        },
+        {
+          "word": " night",
+          "start": 71.22,
+          "end": 71.7,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 71.7,
+      "end": 75.12,
+      "text": "Deeper of the street of the night",
+      "avgLogprob": -0.391,
+      "compressionRatio": 4.333,
+      "noSpeechProbability": 0.514,
+      "words": [
+        {
+          "word": " Deeper",
+          "start": 71.7,
+          "end": 73.04,
+          "probability": 0.947
+        },
+        {
+          "word": " of",
+          "start": 73.04,
+          "end": 73.42,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 73.42,
+          "end": 73.56,
+          "probability": 0.974
+        },
+        {
+          "word": " street",
+          "start": 73.56,
+          "end": 73.9,
+          "probability": 0.984
+        },
+        {
+          "word": " of",
+          "start": 73.9,
+          "end": 74.64,
+          "probability": 0.939
+        },
+        {
+          "word": " the",
+          "start": 74.64,
+          "end": 74.78,
+          "probability": 0.997
+        },
+        {
+          "word": " night",
+          "start": 74.78,
+          "end": 75.12,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 76.02,
+      "end": 78.86,
+      "text": "Deeper of the street of the night",
+      "avgLogprob": -0.391,
+      "compressionRatio": 4.333,
+      "noSpeechProbability": 0.514,
+      "words": [
+        {
+          "word": " Deeper",
+          "start": 76.02,
+          "end": 76.7,
+          "probability": 0.945
+        },
+        {
+          "word": " of",
+          "start": 76.7,
+          "end": 77.02,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 77.02,
+          "end": 77.18,
+          "probability": 0.986
+        },
+        {
+          "word": " street",
+          "start": 77.18,
+          "end": 77.5,
+          "probability": 0.981
+        },
+        {
+          "word": " of",
+          "start": 77.5,
+          "end": 78.24,
+          "probability": 0.974
+        },
+        {
+          "word": " the",
+          "start": 78.24,
+          "end": 78.38,
+          "probability": 0.998
+        },
+        {
+          "word": " night",
+          "start": 78.38,
+          "end": 78.86,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 78.86,
+      "end": 82.24,
+      "text": "Deeper of the street of the night",
+      "avgLogprob": -0.391,
+      "compressionRatio": 4.333,
+      "noSpeechProbability": 0.514,
+      "words": [
+        {
+          "word": " Deeper",
+          "start": 78.86,
+          "end": 80.22,
+          "probability": 0.915
+        },
+        {
+          "word": " of",
+          "start": 80.22,
+          "end": 80.62,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 80.62,
+          "end": 80.76,
+          "probability": 0.987
+        },
+        {
+          "word": " street",
+          "start": 80.76,
+          "end": 81.08,
+          "probability": 0.988
+        },
+        {
+          "word": " of",
+          "start": 81.08,
+          "end": 81.84,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 81.84,
+          "end": 82.0,
+          "probability": 0.998
+        },
+        {
+          "word": " night",
+          "start": 82.0,
+          "end": 82.24,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 112.59,
+      "end": 130.57,
+      "text": "Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night, Leave out of your street, Mother night.",
+      "avgLogprob": -0.398,
+      "compressionRatio": 3.902,
+      "noSpeechProbability": 0.274,
+      "words": [
+        {
+          "word": " Leave",
+          "start": 112.59,
+          "end": 113.13,
+          "probability": 0.08
+        },
+        {
+          "word": " out",
+          "start": 113.13,
+          "end": 113.61,
+          "probability": 0.217
+        },
+        {
+          "word": " of",
+          "start": 113.61,
+          "end": 114.11,
+          "probability": 0.941
+        },
+        {
+          "word": " your",
+          "start": 114.11,
+          "end": 114.25,
+          "probability": 0.302
+        },
+        {
+          "word": " street,",
+          "start": 114.25,
+          "end": 114.57,
+          "probability": 0.797
+        },
+        {
+          "word": " Mother",
+          "start": 115.15,
+          "end": 115.47,
+          "probability": 0.25
+        },
+        {
+          "word": " night,",
+          "start": 115.47,
+          "end": 116.09,
+          "probability": 0.41
+        },
+        {
+          "word": " Leave",
+          "start": 116.27,
+          "end": 116.87,
+          "probability": 0.891
+        },
+        {
+          "word": " out",
+          "start": 116.87,
+          "end": 117.51,
+          "probability": 0.994
+        },
+        {
+          "word": " of",
+          "start": 117.51,
+          "end": 117.95,
+          "probability": 0.988
+        },
+        {
+          "word": " your",
+          "start": 117.95,
+          "end": 118.09,
+          "probability": 0.556
+        },
+        {
+          "word": " street,",
+          "start": 118.09,
+          "end": 118.43,
+          "probability": 0.963
+        },
+        {
+          "word": " Mother",
+          "start": 118.97,
+          "end": 119.27,
+          "probability": 0.993
+        },
+        {
+          "word": " night,",
+          "start": 119.27,
+          "end": 119.71,
+          "probability": 0.995
+        },
+        {
+          "word": " Leave",
+          "start": 120.03,
+          "end": 120.59,
+          "probability": 0.976
+        },
+        {
+          "word": " out",
+          "start": 120.59,
+          "end": 121.23,
+          "probability": 0.997
+        },
+        {
+          "word": " of",
+          "start": 121.23,
+          "end": 121.71,
+          "probability": 0.983
+        },
+        {
+          "word": " your",
+          "start": 121.71,
+          "end": 121.87,
+          "probability": 0.955
+        },
+        {
+          "word": " street,",
+          "start": 121.87,
+          "end": 122.19,
+          "probability": 0.966
+        },
+        {
+          "word": " Mother",
+          "start": 122.83,
+          "end": 123.03,
+          "probability": 0.994
+        },
+        {
+          "word": " night,",
+          "start": 123.03,
+          "end": 123.45,
+          "probability": 0.997
+        },
+        {
+          "word": " Leave",
+          "start": 123.83,
+          "end": 124.33,
+          "probability": 0.979
+        },
+        {
+          "word": " out",
+          "start": 124.33,
+          "end": 125.03,
+          "probability": 0.997
+        },
+        {
+          "word": " of",
+          "start": 125.03,
+          "end": 125.45,
+          "probability": 0.957
+        },
+        {
+          "word": " your",
+          "start": 125.45,
+          "end": 125.63,
+          "probability": 0.914
+        },
+        {
+          "word": " street,",
+          "start": 125.63,
+          "end": 126.43,
+          "probability": 0.962
+        },
+        {
+          "word": " Mother",
+          "start": 126.43,
+          "end": 126.79,
+          "probability": 0.988
+        },
+        {
+          "word": " night,",
+          "start": 126.79,
+          "end": 127.19,
+          "probability": 0.976
+        },
+        {
+          "word": " Leave",
+          "start": 127.51,
+          "end": 128.01,
+          "probability": 0.615
+        },
+        {
+          "word": " out",
+          "start": 128.01,
+          "end": 128.67,
+          "probability": 0.993
+        },
+        {
+          "word": " of",
+          "start": 128.67,
+          "end": 129.17,
+          "probability": 0.967
+        },
+        {
+          "word": " your",
+          "start": 129.17,
+          "end": 129.35,
+          "probability": 0.913
+        },
+        {
+          "word": " street,",
+          "start": 129.35,
+          "end": 129.65,
+          "probability": 0.96
+        },
+        {
+          "word": " Mother",
+          "start": 130.33,
+          "end": 130.51,
+          "probability": 0.978
+        },
+        {
+          "word": " night.",
+          "start": 130.51,
+          "end": 130.57,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 160.85,
+      "end": 163.39,
+      "text": "Five of his dreams of a night.",
+      "avgLogprob": -0.798,
+      "compressionRatio": 0.857,
+      "noSpeechProbability": 0.31,
+      "words": [
+        {
+          "word": " Five",
+          "start": 160.85,
+          "end": 161.27,
+          "probability": 0.151
+        },
+        {
+          "word": " of",
+          "start": 161.27,
+          "end": 161.89,
+          "probability": 0.823
+        },
+        {
+          "word": " his",
+          "start": 161.89,
+          "end": 162.05,
+          "probability": 0.525
+        },
+        {
+          "word": " dreams",
+          "start": 162.05,
+          "end": 162.33,
+          "probability": 0.881
+        },
+        {
+          "word": " of",
+          "start": 162.33,
+          "end": 163.03,
+          "probability": 0.655
+        },
+        {
+          "word": " a",
+          "start": 163.03,
+          "end": 163.19,
+          "probability": 0.621
+        },
+        {
+          "word": " night.",
+          "start": 163.19,
+          "end": 163.39,
+          "probability": 0.405
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.824,
+    "wordCount": 28,
+    "credibleWordCount": 24,
+    "segmentCount": 2,
+    "averageWordProbability": 0.779,
+    "vocalSeconds": 12.2,
+    "scanCoverage": 0.329,
+    "reviewRequired": false
+  }
+}

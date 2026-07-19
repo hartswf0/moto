@@ -1,0 +1,704 @@
+{
+  "analysisVersion": 1,
+  "index": 81,
+  "id": "../VOLHOLLA/song-usblegacy-01.html",
+  "slug": "iron-into-dust",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Go slow, fight, fight, West is just a spell, most you form a fight, watch you creep, it's head and heat. I am back to dust, I am back to dust, I am back to dust, I am back to dust, slow, slow, fly, fly, I am back to dust, I am back to dust, I am back to dust, I am back to dust I'm back to dust, I'm back to dust, I'm back to dust, I'm back to dust, I'm back to dust, I take since time, it takes its toll, oxygen, eating the soul, burning without a flame. You",
+  "sampledRanges": [
+    [
+      13.7,
+      31.7
+    ],
+    [
+      54.78,
+      72.78
+    ],
+    [
+      95.87,
+      113.87
+    ],
+    [
+      136.96,
+      154.96
+    ]
+  ],
+  "segments": [
+    {
+      "start": 17.26,
+      "end": 28.44,
+      "text": "Go slow, fight, fight, West is just a spell, most you form a fight, watch you creep,",
+      "avgLogprob": -0.991,
+      "compressionRatio": 1.182,
+      "noSpeechProbability": 0.587,
+      "words": [
+        {
+          "word": " Go",
+          "start": 17.26,
+          "end": 17.96,
+          "probability": 0.017
+        },
+        {
+          "word": " slow,",
+          "start": 17.96,
+          "end": 18.66,
+          "probability": 0.8
+        },
+        {
+          "word": " fight,",
+          "start": 18.66,
+          "end": 21.3,
+          "probability": 0.209
+        },
+        {
+          "word": " fight,",
+          "start": 21.3,
+          "end": 22.92,
+          "probability": 0.974
+        },
+        {
+          "word": " West",
+          "start": 23.1,
+          "end": 23.82,
+          "probability": 0.057
+        },
+        {
+          "word": " is",
+          "start": 23.82,
+          "end": 23.96,
+          "probability": 0.875
+        },
+        {
+          "word": " just",
+          "start": 23.96,
+          "end": 24.26,
+          "probability": 0.982
+        },
+        {
+          "word": " a",
+          "start": 24.26,
+          "end": 24.58,
+          "probability": 0.889
+        },
+        {
+          "word": " spell,",
+          "start": 24.58,
+          "end": 24.94,
+          "probability": 0.314
+        },
+        {
+          "word": " most",
+          "start": 25.6,
+          "end": 25.78,
+          "probability": 0.283
+        },
+        {
+          "word": " you",
+          "start": 25.78,
+          "end": 25.98,
+          "probability": 0.456
+        },
+        {
+          "word": " form",
+          "start": 25.98,
+          "end": 26.36,
+          "probability": 0.286
+        },
+        {
+          "word": " a",
+          "start": 26.36,
+          "end": 26.58,
+          "probability": 0.474
+        },
+        {
+          "word": " fight,",
+          "start": 26.58,
+          "end": 27.06,
+          "probability": 0.827
+        },
+        {
+          "word": " watch",
+          "start": 27.18,
+          "end": 27.88,
+          "probability": 0.54
+        },
+        {
+          "word": " you",
+          "start": 27.88,
+          "end": 28.06,
+          "probability": 0.174
+        },
+        {
+          "word": " creep,",
+          "start": 28.06,
+          "end": 28.44,
+          "probability": 0.756
+        }
+      ]
+    },
+    {
+      "start": 29.44,
+      "end": 30.48,
+      "text": "it's head and heat.",
+      "avgLogprob": -0.991,
+      "compressionRatio": 1.182,
+      "noSpeechProbability": 0.587,
+      "words": [
+        {
+          "word": " it's",
+          "start": 29.44,
+          "end": 29.7,
+          "probability": 0.654
+        },
+        {
+          "word": " head",
+          "start": 29.7,
+          "end": 29.86,
+          "probability": 0.138
+        },
+        {
+          "word": " and",
+          "start": 29.86,
+          "end": 30.14,
+          "probability": 0.916
+        },
+        {
+          "word": " heat.",
+          "start": 30.14,
+          "end": 30.48,
+          "probability": 0.52
+        }
+      ]
+    },
+    {
+      "start": 55.84,
+      "end": 72.76,
+      "text": "I am back to dust, I am back to dust, I am back to dust, I am back to dust, slow, slow, fly, fly, I am back to dust, I am back to dust, I am back to dust, I am back to dust",
+      "avgLogprob": -0.321,
+      "compressionRatio": 3.822,
+      "noSpeechProbability": 0.746,
+      "words": [
+        {
+          "word": " I",
+          "start": 55.84,
+          "end": 56.32,
+          "probability": 0.368
+        },
+        {
+          "word": " am",
+          "start": 56.32,
+          "end": 56.54,
+          "probability": 0.84
+        },
+        {
+          "word": " back",
+          "start": 56.54,
+          "end": 56.78,
+          "probability": 0.791
+        },
+        {
+          "word": " to",
+          "start": 56.78,
+          "end": 56.98,
+          "probability": 0.946
+        },
+        {
+          "word": " dust,",
+          "start": 56.98,
+          "end": 57.22,
+          "probability": 0.903
+        },
+        {
+          "word": " I",
+          "start": 57.3,
+          "end": 57.86,
+          "probability": 0.965
+        },
+        {
+          "word": " am",
+          "start": 57.86,
+          "end": 58.06,
+          "probability": 0.967
+        },
+        {
+          "word": " back",
+          "start": 58.06,
+          "end": 58.3,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 58.3,
+          "end": 58.5,
+          "probability": 0.991
+        },
+        {
+          "word": " dust,",
+          "start": 58.5,
+          "end": 58.8,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 58.82,
+          "end": 59.36,
+          "probability": 0.987
+        },
+        {
+          "word": " am",
+          "start": 59.36,
+          "end": 59.6,
+          "probability": 0.995
+        },
+        {
+          "word": " back",
+          "start": 59.6,
+          "end": 59.82,
+          "probability": 0.996
+        },
+        {
+          "word": " to",
+          "start": 59.82,
+          "end": 60.02,
+          "probability": 0.995
+        },
+        {
+          "word": " dust,",
+          "start": 60.02,
+          "end": 60.38,
+          "probability": 0.997
+        },
+        {
+          "word": " I",
+          "start": 60.46,
+          "end": 60.9,
+          "probability": 0.976
+        },
+        {
+          "word": " am",
+          "start": 60.9,
+          "end": 61.1,
+          "probability": 0.995
+        },
+        {
+          "word": " back",
+          "start": 61.1,
+          "end": 61.34,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 61.34,
+          "end": 61.6,
+          "probability": 0.997
+        },
+        {
+          "word": " dust,",
+          "start": 61.6,
+          "end": 61.94,
+          "probability": 0.996
+        },
+        {
+          "word": " slow,",
+          "start": 62.08,
+          "end": 62.52,
+          "probability": 0.523
+        },
+        {
+          "word": " slow,",
+          "start": 63.46,
+          "end": 64.58,
+          "probability": 0.998
+        },
+        {
+          "word": " fly,",
+          "start": 65.12,
+          "end": 65.84,
+          "probability": 0.395
+        },
+        {
+          "word": " fly,",
+          "start": 66.08,
+          "end": 67.6,
+          "probability": 0.734
+        },
+        {
+          "word": " I",
+          "start": 68.04,
+          "end": 68.76,
+          "probability": 0.742
+        },
+        {
+          "word": " am",
+          "start": 68.76,
+          "end": 69.62,
+          "probability": 0.964
+        },
+        {
+          "word": " back",
+          "start": 69.62,
+          "end": 70.5,
+          "probability": 0.972
+        },
+        {
+          "word": " to",
+          "start": 70.5,
+          "end": 70.76,
+          "probability": 0.992
+        },
+        {
+          "word": " dust,",
+          "start": 70.76,
+          "end": 71.8,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 71.98,
+          "end": 72.04,
+          "probability": 0.105
+        },
+        {
+          "word": " am",
+          "start": 72.04,
+          "end": 72.26,
+          "probability": 0.983
+        },
+        {
+          "word": " back",
+          "start": 72.26,
+          "end": 72.52,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 72.52,
+          "end": 72.52,
+          "probability": 0.976
+        },
+        {
+          "word": " dust,",
+          "start": 72.52,
+          "end": 72.52,
+          "probability": 0.855
+        },
+        {
+          "word": " I",
+          "start": 72.52,
+          "end": 72.52,
+          "probability": 0.629
+        },
+        {
+          "word": " am",
+          "start": 72.52,
+          "end": 72.52,
+          "probability": 0.986
+        },
+        {
+          "word": " back",
+          "start": 72.52,
+          "end": 72.52,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 72.52,
+          "end": 72.7,
+          "probability": 0.976
+        },
+        {
+          "word": " dust,",
+          "start": 72.7,
+          "end": 72.74,
+          "probability": 0.599
+        },
+        {
+          "word": " I",
+          "start": 72.74,
+          "end": 72.74,
+          "probability": 0.773
+        },
+        {
+          "word": " am",
+          "start": 72.74,
+          "end": 72.74,
+          "probability": 0.985
+        },
+        {
+          "word": " back",
+          "start": 72.74,
+          "end": 72.74,
+          "probability": 0.989
+        },
+        {
+          "word": " to",
+          "start": 72.74,
+          "end": 72.74,
+          "probability": 0.973
+        },
+        {
+          "word": " dust",
+          "start": 72.74,
+          "end": 72.76,
+          "probability": 0.654
+        }
+      ]
+    },
+    {
+      "start": 102.27,
+      "end": 113.33,
+      "text": "I'm back to dust, I'm back to dust, I'm back to dust, I'm back to dust, I'm back to dust, I take since time, it takes its toll, oxygen, eating the soul, burning without a flame.",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.844,
+      "noSpeechProbability": 0.513,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 102.27,
+          "end": 102.79,
+          "probability": 0.272
+        },
+        {
+          "word": " back",
+          "start": 102.79,
+          "end": 103.03,
+          "probability": 0.595
+        },
+        {
+          "word": " to",
+          "start": 103.03,
+          "end": 103.25,
+          "probability": 0.836
+        },
+        {
+          "word": " dust,",
+          "start": 103.25,
+          "end": 103.53,
+          "probability": 0.663
+        },
+        {
+          "word": " I'm",
+          "start": 103.53,
+          "end": 104.33,
+          "probability": 0.797
+        },
+        {
+          "word": " back",
+          "start": 104.33,
+          "end": 104.57,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 104.57,
+          "end": 104.79,
+          "probability": 0.99
+        },
+        {
+          "word": " dust,",
+          "start": 104.79,
+          "end": 105.17,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 105.17,
+          "end": 105.85,
+          "probability": 0.889
+        },
+        {
+          "word": " back",
+          "start": 105.85,
+          "end": 106.09,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 106.09,
+          "end": 106.23,
+          "probability": 0.995
+        },
+        {
+          "word": " dust,",
+          "start": 106.23,
+          "end": 106.23,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 106.23,
+          "end": 106.23,
+          "probability": 0.919
+        },
+        {
+          "word": " back",
+          "start": 106.23,
+          "end": 106.23,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 106.23,
+          "end": 106.29,
+          "probability": 0.995
+        },
+        {
+          "word": " dust,",
+          "start": 106.29,
+          "end": 106.61,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 106.63,
+          "end": 106.71,
+          "probability": 0.654
+        },
+        {
+          "word": " back",
+          "start": 106.71,
+          "end": 106.71,
+          "probability": 0.405
+        },
+        {
+          "word": " to",
+          "start": 106.71,
+          "end": 106.71,
+          "probability": 0.994
+        },
+        {
+          "word": " dust,",
+          "start": 106.71,
+          "end": 106.71,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 106.75,
+          "end": 106.87,
+          "probability": 0.8
+        },
+        {
+          "word": " take",
+          "start": 106.87,
+          "end": 107.11,
+          "probability": 0.499
+        },
+        {
+          "word": " since",
+          "start": 107.11,
+          "end": 107.45,
+          "probability": 0.284
+        },
+        {
+          "word": " time,",
+          "start": 107.45,
+          "end": 107.79,
+          "probability": 0.896
+        },
+        {
+          "word": " it",
+          "start": 108.31,
+          "end": 108.55,
+          "probability": 0.928
+        },
+        {
+          "word": " takes",
+          "start": 108.55,
+          "end": 108.83,
+          "probability": 0.988
+        },
+        {
+          "word": " its",
+          "start": 108.83,
+          "end": 109.03,
+          "probability": 0.875
+        },
+        {
+          "word": " toll,",
+          "start": 109.03,
+          "end": 109.45,
+          "probability": 0.99
+        },
+        {
+          "word": " oxygen,",
+          "start": 110.01,
+          "end": 110.35,
+          "probability": 0.992
+        },
+        {
+          "word": " eating",
+          "start": 110.87,
+          "end": 111.07,
+          "probability": 0.908
+        },
+        {
+          "word": " the",
+          "start": 111.07,
+          "end": 111.31,
+          "probability": 0.968
+        },
+        {
+          "word": " soul,",
+          "start": 111.31,
+          "end": 111.63,
+          "probability": 0.924
+        },
+        {
+          "word": " burning",
+          "start": 112.19,
+          "end": 112.45,
+          "probability": 0.976
+        },
+        {
+          "word": " without",
+          "start": 112.45,
+          "end": 112.81,
+          "probability": 0.954
+        },
+        {
+          "word": " a",
+          "start": 112.81,
+          "end": 113.07,
+          "probability": 0.962
+        },
+        {
+          "word": " flame.",
+          "start": 113.07,
+          "end": 113.33,
+          "probability": 0.969
+        }
+      ]
+    },
+    {
+      "start": 153.54,
+      "end": 154.94,
+      "text": "You",
+      "avgLogprob": -0.997,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.881,
+      "words": [
+        {
+          "word": " You",
+          "start": 153.54,
+          "end": 154.94,
+          "probability": 0.035
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.833,
+    "wordCount": 57,
+    "credibleWordCount": 47,
+    "segmentCount": 3,
+    "averageWordProbability": 0.738,
+    "vocalSeconds": 23.28,
+    "scanCoverage": 0.381,
+    "reviewRequired": false
+  }
+}

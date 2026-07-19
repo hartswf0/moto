@@ -1,0 +1,4449 @@
+{
+  "analysisVersion": 1,
+  "index": 15,
+  "id": "../VOLHOLLA/song-museumfloor-04.html",
+  "slug": "enough-is-a-country-1",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "He had gold on the faucets, gold on the stairs, gold on the toilet, golded his hair. Had his name on a steakhouse, his name on a plane, his name on a lawsuit, his name in the rain. Had a room full of trophies, a room full of ties, a room full of people, paid acts of pride. Had a mere soul loyal, it'd be herst what to say. He looked great, boss-fantastic, then looked the other way And now he is enough, too much is too much You can stack up the skyline, still be starving for turns And now he is enough, too much is too much When a hunger gets famous, it stops being lost He had treated a foes, growing blue by the bed One for the praise, one for the dread One for the people, who still had to clap, But he watched his own face, like a weatherman. He had cooked in a bottle, I seen a cup, A button for more, when more wasn't enough. That a golf cart waiting back at tiny gold hers To drive around heaven and make it feel worse And nothing is enough too much is too much You can stack up the skyline To be starving for touch Enough is enough Too much is too much When our hunger gets famous It stops being long Too much marble, too much shine Too much ur, too much man Too much winning, too much score Too much more, too much more He said bring me the old days they said which ones exactly he said the ones where the mirror stood up and clapped for me He said bring me the young girls they said bring you chair He said bring me the camera they said it's all ready there He said bring me the cut with these little tsar He said tellin' I'm busy keeping history your life. But history was smoking out by the gate that I don't do their late and I don't wait. Enough is enough, too much is too much. You can You step up the skyline, still be starving for touch. Enough is enough, too much is too much. When our hunger gets famous, it stops being long. Some people have peace, some people have lawyers, Unpermanently Some people have heaven, in a porch light at dusk Some people have everything covered in dust He had flags in the ballroom, flags in the hall Flags in the bathroom, flags on the wall Had a crowd in his bloodstream, a chant in his teeth A red little hat where I thought I'd be Had a joke for the judges, a grin for the mob A Bible-held sideways, like a load of my job Had the son in a headlock, the moon on retainer And still put his feet for that one more explainer Enough is enough, too much is too much You can stack up the skylights to be starving for church Enough is enough, too much is too much When a hunger gets famous, it stops being launched Too much greedy, too much throne Too much kingdom, still alone Too much camera, too much crowd, too much thunder Still too loud, too much noted, too much light Too much morning, scared of night, too much wind Too much score, too much more, too much more, too much waiting Too much war, too much more, too much core Too much left, too much ocean, too much sky Too much war, too much costore Too much man, sounds the release after the towers, after the bluff Tell me old hunger, what would be enough? He's enough, he's enough, too much, too much You can stack up the sky",
+  "sampledRanges": [
+    [
+      0.0,
+      284.96
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.6,
+      "text": "He had gold on the faucets, gold on the stairs, gold on the toilet, golded his hair.",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.8,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": "He",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "had",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "gold",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "the",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "faucets,",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "gold",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "the",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "stairs,",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "gold",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "the",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "toilet,",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "golded",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "his",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        },
+        {
+          "word": "hair.",
+          "start": 0.0,
+          "end": 15.6,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 15.6,
+      "end": 23.56,
+      "text": "Had his name on a steakhouse, his name on a plane, his name on a lawsuit, his name in the",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.8,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": "Had",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "his",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "name",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "a",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "steakhouse,",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "his",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "name",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "a",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "plane,",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "his",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "name",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "on",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "a",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "lawsuit,",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "his",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "name",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "in",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        },
+        {
+          "word": "the",
+          "start": 15.6,
+          "end": 23.56,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 23.56,
+      "end": 27.56,
+      "text": "rain.",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.8,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": "rain.",
+          "start": 23.56,
+          "end": 27.56,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 27.56,
+      "end": 37.0,
+      "text": "Had a room full of trophies, a room full of ties, a room full of people, paid acts of pride.",
+      "avgLogprob": -0.509,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.133,
+      "words": [
+        {
+          "word": "Had",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "a",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "room",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "full",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "of",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "trophies,",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "a",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "room",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "full",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "of",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "ties,",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "a",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "room",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "full",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "of",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "people,",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "paid",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "acts",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "of",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        },
+        {
+          "word": "pride.",
+          "start": 27.56,
+          "end": 37.0,
+          "probability": 0.601
+        }
+      ]
+    },
+    {
+      "start": 40.04,
+      "end": 44.84,
+      "text": "Had a mere soul loyal, it'd be herst what to say.",
+      "avgLogprob": -0.509,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.133,
+      "words": [
+        {
+          "word": "Had",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "a",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "mere",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "soul",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "loyal,",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "it'd",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "be",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "herst",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "what",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "to",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        },
+        {
+          "word": "say.",
+          "start": 40.04,
+          "end": 44.84,
+          "probability": 0.601
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 50.0,
+      "text": "He looked great, boss-fantastic, then looked the other way",
+      "avgLogprob": -0.47,
+      "compressionRatio": 1.616,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": "He",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "looked",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "great,",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "boss-fantastic,",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "then",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "looked",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "other",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        },
+        {
+          "word": "way",
+          "start": 45.0,
+          "end": 50.0,
+          "probability": 0.625
+        }
+      ]
+    },
+    {
+      "start": 52.6,
+      "end": 57.0,
+      "text": "And now he is enough, too much is too much",
+      "avgLogprob": -0.47,
+      "compressionRatio": 1.616,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": "And",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "now",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "he",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "is",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "enough,",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "too",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "much",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "is",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "too",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        },
+        {
+          "word": "much",
+          "start": 52.6,
+          "end": 57.0,
+          "probability": 0.625
+        }
+      ]
+    },
+    {
+      "start": 57.4,
+      "end": 63.0,
+      "text": "You can stack up the skyline, still be starving for turns",
+      "avgLogprob": -0.47,
+      "compressionRatio": 1.616,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": "You",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "can",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "stack",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "up",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "the",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "skyline,",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "still",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "be",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "starving",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "for",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        },
+        {
+          "word": "turns",
+          "start": 57.4,
+          "end": 63.0,
+          "probability": 0.625
+        }
+      ]
+    },
+    {
+      "start": 65.0,
+      "end": 69.0,
+      "text": "And now he is enough, too much is too much",
+      "avgLogprob": -0.47,
+      "compressionRatio": 1.616,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": "And",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "now",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "he",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "is",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "enough,",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "too",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "much",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "is",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "too",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        },
+        {
+          "word": "much",
+          "start": 65.0,
+          "end": 69.0,
+          "probability": 0.625
+        }
+      ]
+    },
+    {
+      "start": 69.0,
+      "end": 75.0,
+      "text": "When a hunger gets famous, it stops being lost",
+      "avgLogprob": -0.391,
+      "compressionRatio": 1.26,
+      "noSpeechProbability": 0.364,
+      "words": [
+        {
+          "word": "When",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "a",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "hunger",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "gets",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "famous,",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "it",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "stops",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "being",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        },
+        {
+          "word": "lost",
+          "start": 69.0,
+          "end": 75.0,
+          "probability": 0.676
+        }
+      ]
+    },
+    {
+      "start": 77.0,
+      "end": 82.0,
+      "text": "He had treated a foes, growing blue by the bed",
+      "avgLogprob": -0.391,
+      "compressionRatio": 1.26,
+      "noSpeechProbability": 0.364,
+      "words": [
+        {
+          "word": "He",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "had",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "treated",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "a",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "foes,",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "growing",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "blue",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "by",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "the",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        },
+        {
+          "word": "bed",
+          "start": 77.0,
+          "end": 82.0,
+          "probability": 0.676
+        }
+      ]
+    },
+    {
+      "start": 82.0,
+      "end": 89.0,
+      "text": "One for the praise, one for the dread",
+      "avgLogprob": -0.391,
+      "compressionRatio": 1.26,
+      "noSpeechProbability": 0.364,
+      "words": [
+        {
+          "word": "One",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "for",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "the",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "praise,",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "one",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "for",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "the",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        },
+        {
+          "word": "dread",
+          "start": 82.0,
+          "end": 89.0,
+          "probability": 0.676
+        }
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 94.48,
+      "text": "One for the people, who still had to clap,",
+      "avgLogprob": -0.548,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.363,
+      "words": [
+        {
+          "word": "One",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "for",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "the",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "people,",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "who",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "still",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "had",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "to",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        },
+        {
+          "word": "clap,",
+          "start": 90.0,
+          "end": 94.48,
+          "probability": 0.578
+        }
+      ]
+    },
+    {
+      "start": 94.48,
+      "end": 100.0,
+      "text": "But he watched his own face, like a weatherman.",
+      "avgLogprob": -0.548,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.363,
+      "words": [
+        {
+          "word": "But",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "he",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "watched",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "his",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "own",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "face,",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "like",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "a",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        },
+        {
+          "word": "weatherman.",
+          "start": 94.48,
+          "end": 100.0,
+          "probability": 0.578
+        }
+      ]
+    },
+    {
+      "start": 102.0,
+      "end": 107.0,
+      "text": "He had cooked in a bottle, I seen a cup,",
+      "avgLogprob": -0.548,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.363,
+      "words": [
+        {
+          "word": "He",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "had",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "cooked",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "in",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "a",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "bottle,",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "I",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "seen",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "a",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        },
+        {
+          "word": "cup,",
+          "start": 102.0,
+          "end": 107.0,
+          "probability": 0.578
+        }
+      ]
+    },
+    {
+      "start": 107.0,
+      "end": 113.0,
+      "text": "A button for more, when more wasn't enough.",
+      "avgLogprob": -0.548,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.363,
+      "words": [
+        {
+          "word": "A",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "button",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "for",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "more,",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "when",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "more",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "wasn't",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        },
+        {
+          "word": "enough.",
+          "start": 107.0,
+          "end": 113.0,
+          "probability": 0.578
+        }
+      ]
+    },
+    {
+      "start": 113.0,
+      "end": 120.0,
+      "text": "That a golf cart waiting back at tiny gold hers",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.352,
+      "noSpeechProbability": 0.189,
+      "words": [
+        {
+          "word": "That",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "a",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "golf",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "cart",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "waiting",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "back",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "at",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "tiny",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "gold",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        },
+        {
+          "word": "hers",
+          "start": 113.0,
+          "end": 120.0,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 120.0,
+      "end": 127.0,
+      "text": "To drive around heaven and make it feel worse",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.352,
+      "noSpeechProbability": 0.189,
+      "words": [
+        {
+          "word": "To",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "drive",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "around",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "heaven",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "and",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "make",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "it",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "feel",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        },
+        {
+          "word": "worse",
+          "start": 120.0,
+          "end": 127.0,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 127.0,
+      "end": 132.0,
+      "text": "And nothing is enough too much is too much",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.352,
+      "noSpeechProbability": 0.189,
+      "words": [
+        {
+          "word": "And",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "nothing",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "is",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "enough",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "too",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "much",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "is",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "too",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        },
+        {
+          "word": "much",
+          "start": 127.0,
+          "end": 132.0,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 132.0,
+      "end": 135.0,
+      "text": "You can stack up the skyline",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.352,
+      "noSpeechProbability": 0.189,
+      "words": [
+        {
+          "word": "You",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        },
+        {
+          "word": "can",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        },
+        {
+          "word": "stack",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        },
+        {
+          "word": "up",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        },
+        {
+          "word": "the",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        },
+        {
+          "word": "skyline",
+          "start": 132.0,
+          "end": 135.0,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 135.0,
+      "end": 138.16,
+      "text": "To be starving for touch",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "To",
+          "start": 135.0,
+          "end": 138.16,
+          "probability": 0.543
+        },
+        {
+          "word": "be",
+          "start": 135.0,
+          "end": 138.16,
+          "probability": 0.543
+        },
+        {
+          "word": "starving",
+          "start": 135.0,
+          "end": 138.16,
+          "probability": 0.543
+        },
+        {
+          "word": "for",
+          "start": 135.0,
+          "end": 138.16,
+          "probability": 0.543
+        },
+        {
+          "word": "touch",
+          "start": 135.0,
+          "end": 138.16,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 140.16,
+      "end": 142.16,
+      "text": "Enough is enough",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Enough",
+          "start": 140.16,
+          "end": 142.16,
+          "probability": 0.543
+        },
+        {
+          "word": "is",
+          "start": 140.16,
+          "end": 142.16,
+          "probability": 0.543
+        },
+        {
+          "word": "enough",
+          "start": 140.16,
+          "end": 142.16,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 142.16,
+      "end": 144.4,
+      "text": "Too much is too much",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Too",
+          "start": 142.16,
+          "end": 144.4,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 142.16,
+          "end": 144.4,
+          "probability": 0.543
+        },
+        {
+          "word": "is",
+          "start": 142.16,
+          "end": 144.4,
+          "probability": 0.543
+        },
+        {
+          "word": "too",
+          "start": 142.16,
+          "end": 144.4,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 142.16,
+          "end": 144.4,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 144.4,
+      "end": 147.4,
+      "text": "When our hunger gets famous",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "When",
+          "start": 144.4,
+          "end": 147.4,
+          "probability": 0.543
+        },
+        {
+          "word": "our",
+          "start": 144.4,
+          "end": 147.4,
+          "probability": 0.543
+        },
+        {
+          "word": "hunger",
+          "start": 144.4,
+          "end": 147.4,
+          "probability": 0.543
+        },
+        {
+          "word": "gets",
+          "start": 144.4,
+          "end": 147.4,
+          "probability": 0.543
+        },
+        {
+          "word": "famous",
+          "start": 144.4,
+          "end": 147.4,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 147.4,
+      "end": 150.0,
+      "text": "It stops being long",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "It",
+          "start": 147.4,
+          "end": 150.0,
+          "probability": 0.543
+        },
+        {
+          "word": "stops",
+          "start": 147.4,
+          "end": 150.0,
+          "probability": 0.543
+        },
+        {
+          "word": "being",
+          "start": 147.4,
+          "end": 150.0,
+          "probability": 0.543
+        },
+        {
+          "word": "long",
+          "start": 147.4,
+          "end": 150.0,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 153.0,
+      "end": 155.4,
+      "text": "Too much marble, too much shine",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Too",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        },
+        {
+          "word": "marble,",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        },
+        {
+          "word": "too",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        },
+        {
+          "word": "shine",
+          "start": 153.0,
+          "end": 155.4,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 155.4,
+      "end": 157.84,
+      "text": "Too much ur, too much man",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Too",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        },
+        {
+          "word": "ur,",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        },
+        {
+          "word": "too",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        },
+        {
+          "word": "man",
+          "start": 155.4,
+          "end": 157.84,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 157.84,
+      "end": 160.24,
+      "text": "Too much winning, too much score",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Too",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        },
+        {
+          "word": "winning,",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        },
+        {
+          "word": "too",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        },
+        {
+          "word": "score",
+          "start": 157.84,
+          "end": 160.24,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 160.24,
+      "end": 162.68,
+      "text": "Too much more, too much more",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.289,
+      "words": [
+        {
+          "word": "Too",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        },
+        {
+          "word": "more,",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        },
+        {
+          "word": "too",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        },
+        {
+          "word": "much",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        },
+        {
+          "word": "more",
+          "start": 160.24,
+          "end": 162.68,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 162.68,
+      "end": 169.64,
+      "text": "He said bring me the old days they said which ones exactly he said the ones where the mirror stood up and clapped for me",
+      "avgLogprob": -0.377,
+      "compressionRatio": 1.946,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "He",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "bring",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "me",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "old",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "days",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "they",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "which",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "ones",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "exactly",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "he",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "ones",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "where",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "mirror",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "stood",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "up",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "and",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "clapped",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "for",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        },
+        {
+          "word": "me",
+          "start": 162.68,
+          "end": 169.64,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 169.64,
+      "end": 172.84,
+      "text": "He said bring me the young girls they said bring you chair",
+      "avgLogprob": -0.377,
+      "compressionRatio": 1.946,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "He",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "bring",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "me",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "young",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "girls",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "they",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "bring",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "you",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        },
+        {
+          "word": "chair",
+          "start": 169.64,
+          "end": 172.84,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 172.84,
+      "end": 175.64,
+      "text": "He said bring me the camera they said it's all ready there",
+      "avgLogprob": -0.377,
+      "compressionRatio": 1.946,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "He",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "bring",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "me",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "camera",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "they",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "it's",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "all",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "ready",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        },
+        {
+          "word": "there",
+          "start": 172.84,
+          "end": 175.64,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 175.64,
+      "end": 178.12,
+      "text": "He said bring me the cut with these little tsar",
+      "avgLogprob": -0.377,
+      "compressionRatio": 1.946,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "He",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "bring",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "me",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "the",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "cut",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "with",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "these",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "little",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        },
+        {
+          "word": "tsar",
+          "start": 175.64,
+          "end": 178.12,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 178.12,
+      "end": 180.04,
+      "text": "He said tellin' I'm busy keeping history",
+      "avgLogprob": -0.377,
+      "compressionRatio": 1.946,
+      "noSpeechProbability": 0.376,
+      "words": [
+        {
+          "word": "He",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "said",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "tellin'",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "I'm",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "busy",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "keeping",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        },
+        {
+          "word": "history",
+          "start": 178.12,
+          "end": 180.04,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 180.0,
+      "end": 188.96,
+      "text": "your life. But history was smoking out by the gate that I don't do",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.288,
+      "noSpeechProbability": 0.691,
+      "words": [
+        {
+          "word": "your",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "life.",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "But",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "history",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "was",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "smoking",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "out",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "by",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "the",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "gate",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "that",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "I",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "don't",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        },
+        {
+          "word": "do",
+          "start": 180.0,
+          "end": 188.96,
+          "probability": 0.616
+        }
+      ]
+    },
+    {
+      "start": 188.96,
+      "end": 200.36,
+      "text": "their late and I don't wait. Enough is enough, too much is too much. You can",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.288,
+      "noSpeechProbability": 0.691,
+      "words": [
+        {
+          "word": "their",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "late",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "and",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "I",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "don't",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "wait.",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "Enough",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "is",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "enough,",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "too",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "much",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "is",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "too",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "much.",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "You",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        },
+        {
+          "word": "can",
+          "start": 188.96,
+          "end": 200.36,
+          "probability": 0.616
+        }
+      ]
+    },
+    {
+      "start": 200.36,
+      "end": 207.36,
+      "text": "You step up the skyline, still be starving for touch.",
+      "avgLogprob": -0.396,
+      "compressionRatio": 1.419,
+      "noSpeechProbability": 0.359,
+      "words": [
+        {
+          "word": "You",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "step",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "up",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "the",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "skyline,",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "still",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "be",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "starving",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "for",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        },
+        {
+          "word": "touch.",
+          "start": 200.36,
+          "end": 207.36,
+          "probability": 0.673
+        }
+      ]
+    },
+    {
+      "start": 207.36,
+      "end": 211.36,
+      "text": "Enough is enough, too much is too much.",
+      "avgLogprob": -0.396,
+      "compressionRatio": 1.419,
+      "noSpeechProbability": 0.359,
+      "words": [
+        {
+          "word": "Enough",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "is",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "enough,",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "too",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "much",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "is",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "too",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        },
+        {
+          "word": "much.",
+          "start": 207.36,
+          "end": 211.36,
+          "probability": 0.673
+        }
+      ]
+    },
+    {
+      "start": 211.36,
+      "end": 219.36,
+      "text": "When our hunger gets famous, it stops being long.",
+      "avgLogprob": -0.396,
+      "compressionRatio": 1.419,
+      "noSpeechProbability": 0.359,
+      "words": [
+        {
+          "word": "When",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "our",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "hunger",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "gets",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "famous,",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "it",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "stops",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "being",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        },
+        {
+          "word": "long.",
+          "start": 211.36,
+          "end": 219.36,
+          "probability": 0.673
+        }
+      ]
+    },
+    {
+      "start": 219.36,
+      "end": 223.36,
+      "text": "Some people have peace, some people have lawyers,",
+      "avgLogprob": -0.396,
+      "compressionRatio": 1.419,
+      "noSpeechProbability": 0.359,
+      "words": [
+        {
+          "word": "Some",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "people",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "have",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "peace,",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "some",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "people",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "have",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        },
+        {
+          "word": "lawyers,",
+          "start": 219.36,
+          "end": 223.36,
+          "probability": 0.673
+        }
+      ]
+    },
+    {
+      "start": 223.36,
+      "end": 225.36,
+      "text": "Unpermanently",
+      "avgLogprob": -0.838,
+      "compressionRatio": 0.619,
+      "noSpeechProbability": 0.246,
+      "words": [
+        {
+          "word": "Unpermanently",
+          "start": 223.36,
+          "end": 225.36,
+          "probability": 0.433
+        }
+      ]
+    },
+    {
+      "start": 225.0,
+      "end": 228.4,
+      "text": "Some people have heaven, in a porch light at dusk",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Some",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "people",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "have",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "heaven,",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "porch",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "light",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "at",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        },
+        {
+          "word": "dusk",
+          "start": 225.0,
+          "end": 228.4,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 228.4,
+      "end": 231.1,
+      "text": "Some people have everything covered in dust",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Some",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "people",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "have",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "everything",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "covered",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        },
+        {
+          "word": "dust",
+          "start": 228.4,
+          "end": 231.1,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 231.1,
+      "end": 234.0,
+      "text": "He had flags in the ballroom, flags in the hall",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "He",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "had",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "flags",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "ballroom,",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "flags",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        },
+        {
+          "word": "hall",
+          "start": 231.1,
+          "end": 234.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 234.0,
+      "end": 236.5,
+      "text": "Flags in the bathroom, flags on the wall",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Flags",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "bathroom,",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "flags",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "on",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        },
+        {
+          "word": "wall",
+          "start": 234.0,
+          "end": 236.5,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 236.5,
+      "end": 239.0,
+      "text": "Had a crowd in his bloodstream, a chant in his teeth",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Had",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "crowd",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "his",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "bloodstream,",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "chant",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "his",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        },
+        {
+          "word": "teeth",
+          "start": 236.5,
+          "end": 239.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 239.0,
+      "end": 243.0,
+      "text": "A red little hat where I thought I'd be",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "A",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "red",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "little",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "hat",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "where",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "I",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "thought",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "I'd",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        },
+        {
+          "word": "be",
+          "start": 239.0,
+          "end": 243.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 243.0,
+      "end": 246.0,
+      "text": "Had a joke for the judges, a grin for the mob",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Had",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "joke",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "for",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "judges,",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "grin",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "for",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        },
+        {
+          "word": "mob",
+          "start": 243.0,
+          "end": 246.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 246.0,
+      "end": 248.0,
+      "text": "A Bible-held sideways, like a load of my job",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "A",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "Bible-held",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "sideways,",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "like",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "load",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "of",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "my",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        },
+        {
+          "word": "job",
+          "start": 246.0,
+          "end": 248.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 248.0,
+      "end": 250.0,
+      "text": "Had the son in a headlock, the moon on retainer",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "Had",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "son",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "in",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "a",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "headlock,",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "the",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "moon",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "on",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        },
+        {
+          "word": "retainer",
+          "start": 248.0,
+          "end": 250.0,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 250.0,
+      "end": 252.5,
+      "text": "And still put his feet for that one more explainer",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.768,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": "And",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "still",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "put",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "his",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "feet",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "for",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "that",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "one",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "more",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        },
+        {
+          "word": "explainer",
+          "start": 250.0,
+          "end": 252.5,
+          "probability": 0.73
+        }
+      ]
+    },
+    {
+      "start": 252.5,
+      "end": 254.5,
+      "text": "Enough is enough, too much is too much",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Enough",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "is",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "enough,",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "is",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 252.5,
+          "end": 254.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 254.5,
+      "end": 256.5,
+      "text": "You can stack up the skylights to be starving for church",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "You",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "can",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "stack",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "up",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "the",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "skylights",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "to",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "be",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "starving",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "for",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        },
+        {
+          "word": "church",
+          "start": 254.5,
+          "end": 256.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 256.5,
+      "end": 258.5,
+      "text": "Enough is enough, too much is too much",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Enough",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "is",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "enough,",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "is",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 256.5,
+          "end": 258.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 258.5,
+      "end": 260.5,
+      "text": "When a hunger gets famous, it stops being launched",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "When",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "a",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "hunger",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "gets",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "famous,",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "it",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "stops",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "being",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        },
+        {
+          "word": "launched",
+          "start": 258.5,
+          "end": 260.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 260.5,
+      "end": 262.5,
+      "text": "Too much greedy, too much throne",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Too",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        },
+        {
+          "word": "greedy,",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        },
+        {
+          "word": "throne",
+          "start": 260.5,
+          "end": 262.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 262.5,
+      "end": 263.5,
+      "text": "Too much kingdom, still alone",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Too",
+          "start": 262.5,
+          "end": 263.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 262.5,
+          "end": 263.5,
+          "probability": 0.752
+        },
+        {
+          "word": "kingdom,",
+          "start": 262.5,
+          "end": 263.5,
+          "probability": 0.752
+        },
+        {
+          "word": "still",
+          "start": 262.5,
+          "end": 263.5,
+          "probability": 0.752
+        },
+        {
+          "word": "alone",
+          "start": 262.5,
+          "end": 263.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 263.5,
+      "end": 265.5,
+      "text": "Too much camera, too much crowd, too much thunder",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Too",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "camera,",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "crowd,",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        },
+        {
+          "word": "thunder",
+          "start": 263.5,
+          "end": 265.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 265.5,
+      "end": 267.5,
+      "text": "Still too loud, too much noted, too much light",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Still",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "loud,",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "noted,",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        },
+        {
+          "word": "light",
+          "start": 265.5,
+          "end": 267.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 267.5,
+      "end": 269.5,
+      "text": "Too much morning, scared of night, too much wind",
+      "avgLogprob": -0.286,
+      "compressionRatio": 2.01,
+      "noSpeechProbability": 0.698,
+      "words": [
+        {
+          "word": "Too",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "morning,",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "scared",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "of",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "night,",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "too",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "much",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        },
+        {
+          "word": "wind",
+          "start": 267.5,
+          "end": 269.5,
+          "probability": 0.752
+        }
+      ]
+    },
+    {
+      "start": 270.0,
+      "end": 272.6,
+      "text": "Too much score, too much more, too much more, too much waiting",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Too",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "score,",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "more,",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "more,",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        },
+        {
+          "word": "waiting",
+          "start": 270.0,
+          "end": 272.6,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 272.6,
+      "end": 274.6,
+      "text": "Too much war, too much more, too much core",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Too",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "war,",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "more,",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        },
+        {
+          "word": "core",
+          "start": 272.6,
+          "end": 274.6,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 274.6,
+      "end": 276.6,
+      "text": "Too much left, too much ocean, too much sky",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Too",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "left,",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "ocean,",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        },
+        {
+          "word": "sky",
+          "start": 274.6,
+          "end": 276.6,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 276.6,
+      "end": 278.2,
+      "text": "Too much war, too much costore",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Too",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        },
+        {
+          "word": "war,",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        },
+        {
+          "word": "costore",
+          "start": 276.6,
+          "end": 278.2,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 278.2,
+      "end": 281.0,
+      "text": "Too much man, sounds the release after the towers, after the bluff",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Too",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "man,",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "sounds",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "the",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "release",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "after",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "the",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "towers,",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "after",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "the",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        },
+        {
+          "word": "bluff",
+          "start": 278.2,
+          "end": 281.0,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 281.0,
+      "end": 282.6,
+      "text": "Tell me old hunger, what would be enough?",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "Tell",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "me",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "old",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "hunger,",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "what",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "would",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "be",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        },
+        {
+          "word": "enough?",
+          "start": 281.0,
+          "end": 282.6,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 282.6,
+      "end": 284.1,
+      "text": "He's enough, he's enough, too much, too much",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "He's",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "enough,",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "he's",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "enough,",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "much,",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "too",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        },
+        {
+          "word": "much",
+          "start": 282.6,
+          "end": 284.1,
+          "probability": 0.723
+        }
+      ]
+    },
+    {
+      "start": 284.1,
+      "end": 285.1,
+      "text": "You can stack up the sky",
+      "avgLogprob": -0.324,
+      "compressionRatio": 2.202,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": "You",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        },
+        {
+          "word": "can",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        },
+        {
+          "word": "stack",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        },
+        {
+          "word": "up",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        },
+        {
+          "word": "the",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        },
+        {
+          "word": "sky",
+          "start": 284.1,
+          "end": 285.1,
+          "probability": 0.723
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.838,
+    "wordCount": 553,
+    "credibleWordCount": 553,
+    "segmentCount": 60,
+    "averageWordProbability": 0.663,
+    "vocalSeconds": 251.7,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

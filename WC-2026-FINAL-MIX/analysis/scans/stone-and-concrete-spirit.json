@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 93,
+  "id": "../VOLHOLLA/song-cypher-18.html",
+  "slug": "stone-and-concrete-spirit",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      6.5,
+      24.5
+    ],
+    [
+      26.01,
+      44.01
+    ],
+    [
+      45.52,
+      63.52
+    ],
+    [
+      65.03,
+      83.03
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.634,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.725,
+    "reviewRequired": true
+  }
+}

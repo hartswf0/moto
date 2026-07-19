@@ -1,0 +1,942 @@
+{
+  "analysisVersion": 1,
+  "index": 111,
+  "id": "../VOLHOLLA/song-noservice-06.html",
+  "slug": "honey-on-the-tongue",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Dusty air, road to the village, sun is deep below Your head rests on my shoulder, driving slow We move through the dark grass Just you and I Under these clouds That's it I got it now, sweet like on you on the tongue It says I got it now, stay young I love the way you look at me, I love the way you look at me I love the way you look at me I found the peace, I found the light I found the home, right here, tonight This is our golden hour Sweet like only on the tongue This is our golden hour Stay young I love the way you look at me I love the",
+  "sampledRanges": [
+    [
+      12.04,
+      30.04
+    ],
+    [
+      48.17,
+      66.17
+    ],
+    [
+      84.3,
+      102.3
+    ],
+    [
+      120.42,
+      138.42
+    ]
+  ],
+  "segments": [
+    {
+      "start": 12.18,
+      "end": 18.74,
+      "text": "Dusty air, road to the village, sun is deep below",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.214,
+      "noSpeechProbability": 0.721,
+      "words": [
+        {
+          "word": " Dusty",
+          "start": 12.18,
+          "end": 13.14,
+          "probability": 0.806
+        },
+        {
+          "word": " air,",
+          "start": 13.14,
+          "end": 13.58,
+          "probability": 0.901
+        },
+        {
+          "word": " road",
+          "start": 13.78,
+          "end": 14.78,
+          "probability": 0.255
+        },
+        {
+          "word": " to",
+          "start": 14.78,
+          "end": 15.02,
+          "probability": 0.927
+        },
+        {
+          "word": " the",
+          "start": 15.02,
+          "end": 15.18,
+          "probability": 0.963
+        },
+        {
+          "word": " village,",
+          "start": 15.18,
+          "end": 15.74,
+          "probability": 0.991
+        },
+        {
+          "word": " sun",
+          "start": 16.1,
+          "end": 17.4,
+          "probability": 0.365
+        },
+        {
+          "word": " is",
+          "start": 17.4,
+          "end": 17.74,
+          "probability": 0.948
+        },
+        {
+          "word": " deep",
+          "start": 17.74,
+          "end": 17.9,
+          "probability": 0.198
+        },
+        {
+          "word": " below",
+          "start": 17.9,
+          "end": 18.74,
+          "probability": 0.927
+        }
+      ]
+    },
+    {
+      "start": 20.04,
+      "end": 25.9,
+      "text": "Your head rests on my shoulder, driving slow",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.214,
+      "noSpeechProbability": 0.721,
+      "words": [
+        {
+          "word": " Your",
+          "start": 20.04,
+          "end": 20.6,
+          "probability": 0.791
+        },
+        {
+          "word": " head",
+          "start": 20.6,
+          "end": 21.78,
+          "probability": 0.939
+        },
+        {
+          "word": " rests",
+          "start": 21.78,
+          "end": 22.38,
+          "probability": 0.427
+        },
+        {
+          "word": " on",
+          "start": 22.38,
+          "end": 22.54,
+          "probability": 0.983
+        },
+        {
+          "word": " my",
+          "start": 22.54,
+          "end": 22.86,
+          "probability": 0.994
+        },
+        {
+          "word": " shoulder,",
+          "start": 22.86,
+          "end": 23.46,
+          "probability": 0.963
+        },
+        {
+          "word": " driving",
+          "start": 23.94,
+          "end": 25.4,
+          "probability": 0.842
+        },
+        {
+          "word": " slow",
+          "start": 25.4,
+          "end": 25.9,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 27.04,
+      "end": 29.1,
+      "text": "We move through the dark grass",
+      "avgLogprob": -0.446,
+      "compressionRatio": 1.214,
+      "noSpeechProbability": 0.721,
+      "words": [
+        {
+          "word": " We",
+          "start": 26.72,
+          "end": 27.2,
+          "probability": 0.609
+        },
+        {
+          "word": " move",
+          "start": 27.2,
+          "end": 27.46,
+          "probability": 0.815
+        },
+        {
+          "word": " through",
+          "start": 27.46,
+          "end": 27.84,
+          "probability": 0.674
+        },
+        {
+          "word": " the",
+          "start": 27.84,
+          "end": 28.14,
+          "probability": 0.86
+        },
+        {
+          "word": " dark",
+          "start": 28.14,
+          "end": 28.44,
+          "probability": 0.428
+        },
+        {
+          "word": " grass",
+          "start": 28.44,
+          "end": 29.1,
+          "probability": 0.728
+        }
+      ]
+    },
+    {
+      "start": 49.45,
+      "end": 52.67,
+      "text": "Just you and I",
+      "avgLogprob": -0.827,
+      "compressionRatio": 0.843,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " Just",
+          "start": 49.45,
+          "end": 50.85,
+          "probability": 0.033
+        },
+        {
+          "word": " you",
+          "start": 50.85,
+          "end": 51.31,
+          "probability": 0.915
+        },
+        {
+          "word": " and",
+          "start": 51.31,
+          "end": 51.93,
+          "probability": 0.932
+        },
+        {
+          "word": " I",
+          "start": 51.93,
+          "end": 52.67,
+          "probability": 0.859
+        }
+      ]
+    },
+    {
+      "start": 56.17,
+      "end": 58.07,
+      "text": "Under these clouds",
+      "avgLogprob": -0.827,
+      "compressionRatio": 0.843,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " Under",
+          "start": 55.95,
+          "end": 56.65,
+          "probability": 0.349
+        },
+        {
+          "word": " these",
+          "start": 56.65,
+          "end": 57.19,
+          "probability": 0.325
+        },
+        {
+          "word": " clouds",
+          "start": 57.19,
+          "end": 58.07,
+          "probability": 0.503
+        }
+      ]
+    },
+    {
+      "start": 62.99,
+      "end": 65.11,
+      "text": "That's it",
+      "avgLogprob": -0.827,
+      "compressionRatio": 0.843,
+      "noSpeechProbability": 0.734,
+      "words": [
+        {
+          "word": " That's",
+          "start": 62.99,
+          "end": 64.39,
+          "probability": 0.572
+        },
+        {
+          "word": " it",
+          "start": 64.39,
+          "end": 65.11,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 84.3,
+      "end": 88.14,
+      "text": "I got it now, sweet like on you on the tongue",
+      "avgLogprob": -0.316,
+      "compressionRatio": 1.943,
+      "noSpeechProbability": 0.802,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.3,
+          "end": 84.4,
+          "probability": 0.18
+        },
+        {
+          "word": " got",
+          "start": 84.4,
+          "end": 84.56,
+          "probability": 0.139
+        },
+        {
+          "word": " it",
+          "start": 84.56,
+          "end": 84.84,
+          "probability": 0.424
+        },
+        {
+          "word": " now,",
+          "start": 84.84,
+          "end": 85.3,
+          "probability": 0.95
+        },
+        {
+          "word": " sweet",
+          "start": 85.64,
+          "end": 86.42,
+          "probability": 0.909
+        },
+        {
+          "word": " like",
+          "start": 86.42,
+          "end": 86.68,
+          "probability": 0.926
+        },
+        {
+          "word": " on",
+          "start": 86.68,
+          "end": 87.0,
+          "probability": 0.288
+        },
+        {
+          "word": " you",
+          "start": 87.0,
+          "end": 87.16,
+          "probability": 0.205
+        },
+        {
+          "word": " on",
+          "start": 87.16,
+          "end": 87.46,
+          "probability": 0.801
+        },
+        {
+          "word": " the",
+          "start": 87.46,
+          "end": 87.52,
+          "probability": 0.976
+        },
+        {
+          "word": " tongue",
+          "start": 87.52,
+          "end": 88.14,
+          "probability": 0.79
+        }
+      ]
+    },
+    {
+      "start": 88.14,
+      "end": 93.06,
+      "text": "It says I got it now, stay young",
+      "avgLogprob": -0.316,
+      "compressionRatio": 1.943,
+      "noSpeechProbability": 0.802,
+      "words": [
+        {
+          "word": " It",
+          "start": 88.14,
+          "end": 89.02,
+          "probability": 0.294
+        },
+        {
+          "word": " says",
+          "start": 89.02,
+          "end": 89.24,
+          "probability": 0.961
+        },
+        {
+          "word": " I",
+          "start": 89.24,
+          "end": 89.5,
+          "probability": 0.818
+        },
+        {
+          "word": " got",
+          "start": 89.5,
+          "end": 89.76,
+          "probability": 0.968
+        },
+        {
+          "word": " it",
+          "start": 89.76,
+          "end": 90.06,
+          "probability": 0.987
+        },
+        {
+          "word": " now,",
+          "start": 90.06,
+          "end": 90.68,
+          "probability": 0.995
+        },
+        {
+          "word": " stay",
+          "start": 91.46,
+          "end": 91.72,
+          "probability": 0.924
+        },
+        {
+          "word": " young",
+          "start": 91.72,
+          "end": 93.06,
+          "probability": 0.888
+        }
+      ]
+    },
+    {
+      "start": 93.06,
+      "end": 97.94,
+      "text": "I love the way you look at me, I love the way you look at me",
+      "avgLogprob": -0.316,
+      "compressionRatio": 1.943,
+      "noSpeechProbability": 0.802,
+      "words": [
+        {
+          "word": " I",
+          "start": 93.06,
+          "end": 93.6,
+          "probability": 0.745
+        },
+        {
+          "word": " love",
+          "start": 93.6,
+          "end": 93.88,
+          "probability": 0.931
+        },
+        {
+          "word": " the",
+          "start": 93.88,
+          "end": 94.12,
+          "probability": 0.863
+        },
+        {
+          "word": " way",
+          "start": 94.12,
+          "end": 94.38,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 94.38,
+          "end": 94.62,
+          "probability": 0.957
+        },
+        {
+          "word": " look",
+          "start": 94.62,
+          "end": 94.9,
+          "probability": 0.954
+        },
+        {
+          "word": " at",
+          "start": 94.9,
+          "end": 95.08,
+          "probability": 0.98
+        },
+        {
+          "word": " me,",
+          "start": 95.08,
+          "end": 95.3,
+          "probability": 0.999
+        },
+        {
+          "word": " I",
+          "start": 95.58,
+          "end": 96.22,
+          "probability": 0.992
+        },
+        {
+          "word": " love",
+          "start": 96.22,
+          "end": 96.46,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 96.46,
+          "end": 96.7,
+          "probability": 0.988
+        },
+        {
+          "word": " way",
+          "start": 96.7,
+          "end": 97.0,
+          "probability": 0.999
+        },
+        {
+          "word": " you",
+          "start": 97.0,
+          "end": 97.18,
+          "probability": 0.996
+        },
+        {
+          "word": " look",
+          "start": 97.18,
+          "end": 97.44,
+          "probability": 0.991
+        },
+        {
+          "word": " at",
+          "start": 97.44,
+          "end": 97.68,
+          "probability": 0.996
+        },
+        {
+          "word": " me",
+          "start": 97.68,
+          "end": 97.94,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 97.94,
+      "end": 100.7,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.316,
+      "compressionRatio": 1.943,
+      "noSpeechProbability": 0.802,
+      "words": [
+        {
+          "word": " I",
+          "start": 97.94,
+          "end": 98.82,
+          "probability": 0.565
+        },
+        {
+          "word": " love",
+          "start": 98.82,
+          "end": 99.08,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 99.08,
+          "end": 99.32,
+          "probability": 0.992
+        },
+        {
+          "word": " way",
+          "start": 99.32,
+          "end": 99.6,
+          "probability": 0.999
+        },
+        {
+          "word": " you",
+          "start": 99.6,
+          "end": 99.82,
+          "probability": 0.997
+        },
+        {
+          "word": " look",
+          "start": 99.82,
+          "end": 100.16,
+          "probability": 0.992
+        },
+        {
+          "word": " at",
+          "start": 100.16,
+          "end": 100.32,
+          "probability": 0.993
+        },
+        {
+          "word": " me",
+          "start": 100.32,
+          "end": 100.7,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 120.42,
+      "end": 122.38,
+      "text": "I found the peace, I found the light",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " I",
+          "start": 120.42,
+          "end": 120.66,
+          "probability": 0.141
+        },
+        {
+          "word": " found",
+          "start": 120.66,
+          "end": 120.66,
+          "probability": 0.724
+        },
+        {
+          "word": " the",
+          "start": 120.66,
+          "end": 120.8,
+          "probability": 0.638
+        },
+        {
+          "word": " peace,",
+          "start": 120.8,
+          "end": 121.2,
+          "probability": 0.79
+        },
+        {
+          "word": " I",
+          "start": 121.44,
+          "end": 121.54,
+          "probability": 0.971
+        },
+        {
+          "word": " found",
+          "start": 121.54,
+          "end": 121.82,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 121.82,
+          "end": 122.08,
+          "probability": 0.912
+        },
+        {
+          "word": " light",
+          "start": 122.08,
+          "end": 122.38,
+          "probability": 0.922
+        }
+      ]
+    },
+    {
+      "start": 122.38,
+      "end": 125.06,
+      "text": "I found the home, right here, tonight",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " I",
+          "start": 122.38,
+          "end": 122.94,
+          "probability": 0.596
+        },
+        {
+          "word": " found",
+          "start": 122.94,
+          "end": 123.16,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 123.16,
+          "end": 123.46,
+          "probability": 0.98
+        },
+        {
+          "word": " home,",
+          "start": 123.46,
+          "end": 123.68,
+          "probability": 0.75
+        },
+        {
+          "word": " right",
+          "start": 123.86,
+          "end": 123.96,
+          "probability": 0.972
+        },
+        {
+          "word": " here,",
+          "start": 123.96,
+          "end": 124.38,
+          "probability": 0.484
+        },
+        {
+          "word": " tonight",
+          "start": 124.64,
+          "end": 125.06,
+          "probability": 0.753
+        }
+      ]
+    },
+    {
+      "start": 125.06,
+      "end": 127.12,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " This",
+          "start": 125.06,
+          "end": 125.6,
+          "probability": 0.926
+        },
+        {
+          "word": " is",
+          "start": 125.6,
+          "end": 125.84,
+          "probability": 0.983
+        },
+        {
+          "word": " our",
+          "start": 125.84,
+          "end": 126.06,
+          "probability": 0.594
+        },
+        {
+          "word": " golden",
+          "start": 126.06,
+          "end": 126.54,
+          "probability": 0.231
+        },
+        {
+          "word": " hour",
+          "start": 126.54,
+          "end": 127.12,
+          "probability": 0.952
+        }
+      ]
+    },
+    {
+      "start": 127.12,
+      "end": 129.64,
+      "text": "Sweet like only on the tongue",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " Sweet",
+          "start": 127.12,
+          "end": 128.14,
+          "probability": 0.677
+        },
+        {
+          "word": " like",
+          "start": 128.14,
+          "end": 128.44,
+          "probability": 0.86
+        },
+        {
+          "word": " only",
+          "start": 128.44,
+          "end": 128.8,
+          "probability": 0.272
+        },
+        {
+          "word": " on",
+          "start": 128.8,
+          "end": 129.16,
+          "probability": 0.441
+        },
+        {
+          "word": " the",
+          "start": 129.16,
+          "end": 129.28,
+          "probability": 0.94
+        },
+        {
+          "word": " tongue",
+          "start": 129.28,
+          "end": 129.64,
+          "probability": 0.826
+        }
+      ]
+    },
+    {
+      "start": 130.24,
+      "end": 132.54,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " This",
+          "start": 130.24,
+          "end": 130.78,
+          "probability": 0.917
+        },
+        {
+          "word": " is",
+          "start": 130.78,
+          "end": 131.02,
+          "probability": 0.997
+        },
+        {
+          "word": " our",
+          "start": 131.02,
+          "end": 131.26,
+          "probability": 0.996
+        },
+        {
+          "word": " golden",
+          "start": 131.26,
+          "end": 131.78,
+          "probability": 0.981
+        },
+        {
+          "word": " hour",
+          "start": 131.78,
+          "end": 132.54,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 132.54,
+      "end": 134.8,
+      "text": "Stay young",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " Stay",
+          "start": 132.54,
+          "end": 133.48,
+          "probability": 0.72
+        },
+        {
+          "word": " young",
+          "start": 133.48,
+          "end": 134.8,
+          "probability": 0.137
+        }
+      ]
+    },
+    {
+      "start": 134.8,
+      "end": 137.06,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " I",
+          "start": 134.8,
+          "end": 135.34,
+          "probability": 0.525
+        },
+        {
+          "word": " love",
+          "start": 135.34,
+          "end": 135.6,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 135.6,
+          "end": 135.88,
+          "probability": 0.747
+        },
+        {
+          "word": " way",
+          "start": 135.88,
+          "end": 136.12,
+          "probability": 0.95
+        },
+        {
+          "word": " you",
+          "start": 136.12,
+          "end": 136.38,
+          "probability": 0.883
+        },
+        {
+          "word": " look",
+          "start": 136.38,
+          "end": 136.64,
+          "probability": 0.953
+        },
+        {
+          "word": " at",
+          "start": 136.64,
+          "end": 136.82,
+          "probability": 0.958
+        },
+        {
+          "word": " me",
+          "start": 136.82,
+          "end": 137.06,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "start": 137.06,
+      "end": 138.4,
+      "text": "I love the",
+      "avgLogprob": -0.315,
+      "compressionRatio": 1.7,
+      "noSpeechProbability": 0.815,
+      "words": [
+        {
+          "word": " I",
+          "start": 137.06,
+          "end": 137.96,
+          "probability": 0.663
+        },
+        {
+          "word": " love",
+          "start": 137.96,
+          "end": 138.2,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 138.2,
+          "end": 138.4,
+          "probability": 0.979
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.801,
+    "wordCount": 33,
+    "credibleWordCount": 28,
+    "segmentCount": 6,
+    "averageWordProbability": 0.721,
+    "vocalSeconds": 21.72,
+    "scanCoverage": 0.427,
+    "reviewRequired": false
+  }
+}

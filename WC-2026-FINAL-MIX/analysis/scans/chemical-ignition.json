@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 82,
+  "id": "../VOLHOLLA/song-usblegacy-03.html",
+  "slug": "chemical-ignition",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      13.85,
+      31.85
+    ],
+    [
+      55.41,
+      73.41
+    ],
+    [
+      96.96,
+      114.96
+    ],
+    [
+      138.52,
+      156.52
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.55,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.377,
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "analysisVersion": 1,
+  "index": 71,
+  "id": "../VOLHOLLA/song-maquina-34.html",
+  "slug": "warrior-s-mastery",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "ar",
+  "text": "أصمته المفتاح الوحيد أجمع قدك من زلنا تريق المعرفة لا ينتي أفاستك تاكي أهرب من دجيج الآن عفى استكتك يمهارب السمته ولمفتاح الوحيد أجمع قتك منزل للنا القوة اتاتي وقت السوقون عفاستك تكيام هارب السمته المفتاح الوحيد أجمع قدك منزل النام عفز تكتك يا مهارب سمتح المفتاح الوحيد عجما قدتك منزل النار تريق المهارف عليك",
+  "sampledRanges": [
+    [
+      12.84,
+      30.84
+    ],
+    [
+      51.37,
+      69.37
+    ],
+    [
+      89.89,
+      107.89
+    ],
+    [
+      128.42,
+      146.42
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.76,
+      "end": 18.12,
+      "text": "أصمته المفتاح الوحيد",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.306,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " أصمته",
+          "start": 14.76,
+          "end": 16.16,
+          "probability": 0.306
+        },
+        {
+          "word": " المفتاح",
+          "start": 16.16,
+          "end": 17.0,
+          "probability": 0.867
+        },
+        {
+          "word": " الوحيد",
+          "start": 17.0,
+          "end": 18.12,
+          "probability": 0.868
+        }
+      ]
+    },
+    {
+      "start": 18.12,
+      "end": 22.42,
+      "text": "أجمع قدك من زلنا",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.306,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " أجمع",
+          "start": 18.12,
+          "end": 20.52,
+          "probability": 0.765
+        },
+        {
+          "word": " قدك",
+          "start": 20.52,
+          "end": 21.24,
+          "probability": 0.551
+        },
+        {
+          "word": " من",
+          "start": 21.24,
+          "end": 21.46,
+          "probability": 0.98
+        },
+        {
+          "word": " زلنا",
+          "start": 21.46,
+          "end": 22.42,
+          "probability": 0.502
+        }
+      ]
+    },
+    {
+      "start": 23.9,
+      "end": 27.48,
+      "text": "تريق المعرفة لا ينتي",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.306,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " تريق",
+          "start": 23.9,
+          "end": 25.3,
+          "probability": 0.81
+        },
+        {
+          "word": " المعرفة",
+          "start": 25.3,
+          "end": 26.3,
+          "probability": 0.776
+        },
+        {
+          "word": " لا",
+          "start": 26.3,
+          "end": 26.54,
+          "probability": 0.201
+        },
+        {
+          "word": " ينتي",
+          "start": 26.54,
+          "end": 27.48,
+          "probability": 0.798
+        }
+      ]
+    },
+    {
+      "start": 28.98,
+      "end": 30.82,
+      "text": "أفاستك تاكي",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.306,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " أفاستك",
+          "start": 28.98,
+          "end": 30.38,
+          "probability": 0.553
+        },
+        {
+          "word": " تاكي",
+          "start": 30.38,
+          "end": 30.82,
+          "probability": 0.594
+        }
+      ]
+    },
+    {
+      "start": 52.67,
+      "end": 55.93,
+      "text": "أهرب من دجيج الآن",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.35,
+      "noSpeechProbability": 0.857,
+      "words": [
+        {
+          "word": " أهرب",
+          "start": 52.67,
+          "end": 54.07,
+          "probability": 0.406
+        },
+        {
+          "word": " من",
+          "start": 54.07,
+          "end": 54.41,
+          "probability": 0.964
+        },
+        {
+          "word": " دجيج",
+          "start": 54.41,
+          "end": 55.23,
+          "probability": 0.517
+        },
+        {
+          "word": " الآن",
+          "start": 55.23,
+          "end": 55.93,
+          "probability": 0.839
+        }
+      ]
+    },
+    {
+      "start": 55.93,
+      "end": 60.53,
+      "text": "عفى استكتك يمهارب",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.35,
+      "noSpeechProbability": 0.857,
+      "words": [
+        {
+          "word": " عفى",
+          "start": 55.93,
+          "end": 58.21,
+          "probability": 0.45
+        },
+        {
+          "word": " استكتك",
+          "start": 58.21,
+          "end": 58.95,
+          "probability": 0.751
+        },
+        {
+          "word": " يمهارب",
+          "start": 58.95,
+          "end": 60.53,
+          "probability": 0.715
+        }
+      ]
+    },
+    {
+      "start": 60.53,
+      "end": 65.05,
+      "text": "السمته ولمفتاح الوحيد",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.35,
+      "noSpeechProbability": 0.857,
+      "words": [
+        {
+          "word": " السمته",
+          "start": 60.53,
+          "end": 63.11,
+          "probability": 0.58
+        },
+        {
+          "word": " ولمفتاح",
+          "start": 63.11,
+          "end": 64.01,
+          "probability": 0.728
+        },
+        {
+          "word": " الوحيد",
+          "start": 64.01,
+          "end": 65.05,
+          "probability": 0.906
+        }
+      ]
+    },
+    {
+      "start": 65.05,
+      "end": 69.35,
+      "text": "أجمع قتك منزل للنا",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.35,
+      "noSpeechProbability": 0.857,
+      "words": [
+        {
+          "word": " أجمع",
+          "start": 65.05,
+          "end": 67.55,
+          "probability": 0.768
+        },
+        {
+          "word": " قتك",
+          "start": 67.55,
+          "end": 68.23,
+          "probability": 0.685
+        },
+        {
+          "word": " منزل",
+          "start": 68.23,
+          "end": 68.89,
+          "probability": 0.841
+        },
+        {
+          "word": " للنا",
+          "start": 68.89,
+          "end": 69.35,
+          "probability": 0.568
+        }
+      ]
+    },
+    {
+      "start": 89.89,
+      "end": 92.89,
+      "text": "القوة اتاتي وقت السوقون",
+      "avgLogprob": -0.56,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " القوة",
+          "start": 89.89,
+          "end": 91.27,
+          "probability": 0.805
+        },
+        {
+          "word": " اتاتي",
+          "start": 91.27,
+          "end": 91.75,
+          "probability": 0.374
+        },
+        {
+          "word": " وقت",
+          "start": 91.75,
+          "end": 92.15,
+          "probability": 0.901
+        },
+        {
+          "word": " السوقون",
+          "start": 92.15,
+          "end": 92.89,
+          "probability": 0.646
+        }
+      ]
+    },
+    {
+      "start": 94.81,
+      "end": 97.99,
+      "text": "عفاستك تكيام هارب",
+      "avgLogprob": -0.56,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " عفاستك",
+          "start": 94.81,
+          "end": 96.21,
+          "probability": 0.61
+        },
+        {
+          "word": " تكيام",
+          "start": 96.21,
+          "end": 96.83,
+          "probability": 0.62
+        },
+        {
+          "word": " هارب",
+          "start": 96.83,
+          "end": 97.99,
+          "probability": 0.66
+        }
+      ]
+    },
+    {
+      "start": 99.89,
+      "end": 102.61,
+      "text": "السمته المفتاح الوحيد",
+      "avgLogprob": -0.56,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " السمته",
+          "start": 99.89,
+          "end": 100.73,
+          "probability": 0.538
+        },
+        {
+          "word": " المفتاح",
+          "start": 100.73,
+          "end": 101.57,
+          "probability": 0.738
+        },
+        {
+          "word": " الوحيد",
+          "start": 101.57,
+          "end": 102.61,
+          "probability": 0.923
+        }
+      ]
+    },
+    {
+      "start": 103.89,
+      "end": 107.67,
+      "text": "أجمع قدك منزل النام",
+      "avgLogprob": -0.56,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " أجمع",
+          "start": 103.89,
+          "end": 105.15,
+          "probability": 0.654
+        },
+        {
+          "word": " قدك",
+          "start": 105.15,
+          "end": 105.83,
+          "probability": 0.646
+        },
+        {
+          "word": " منزل",
+          "start": 105.83,
+          "end": 106.49,
+          "probability": 0.858
+        },
+        {
+          "word": " النام",
+          "start": 106.49,
+          "end": 107.67,
+          "probability": 0.643
+        }
+      ]
+    },
+    {
+      "start": 129.72,
+      "end": 133.3,
+      "text": "عفز تكتك يا مهارب",
+      "avgLogprob": -0.498,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.856,
+      "words": [
+        {
+          "word": " عفز",
+          "start": 129.72,
+          "end": 131.12,
+          "probability": 0.371
+        },
+        {
+          "word": " تكتك",
+          "start": 131.12,
+          "end": 131.74,
+          "probability": 0.649
+        },
+        {
+          "word": " يا",
+          "start": 131.74,
+          "end": 131.96,
+          "probability": 0.584
+        },
+        {
+          "word": " مهارب",
+          "start": 131.96,
+          "end": 133.3,
+          "probability": 0.914
+        }
+      ]
+    },
+    {
+      "start": 133.3,
+      "end": 137.86,
+      "text": "سمتح المفتاح الوحيد",
+      "avgLogprob": -0.498,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.856,
+      "words": [
+        {
+          "word": " سمتح",
+          "start": 133.3,
+          "end": 135.98,
+          "probability": 0.535
+        },
+        {
+          "word": " المفتاح",
+          "start": 135.98,
+          "end": 136.86,
+          "probability": 0.754
+        },
+        {
+          "word": " الوحيد",
+          "start": 136.86,
+          "end": 137.86,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "start": 138.42,
+      "end": 143.18,
+      "text": "عجما قدتك منزل النار",
+      "avgLogprob": -0.498,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.856,
+      "words": [
+        {
+          "word": " عجما",
+          "start": 138.42,
+          "end": 140.34,
+          "probability": 0.66
+        },
+        {
+          "word": " قدتك",
+          "start": 140.34,
+          "end": 141.08,
+          "probability": 0.636
+        },
+        {
+          "word": " منزل",
+          "start": 141.08,
+          "end": 141.7,
+          "probability": 0.839
+        },
+        {
+          "word": " النار",
+          "start": 141.7,
+          "end": 143.18,
+          "probability": 0.731
+        }
+      ]
+    },
+    {
+      "start": 143.18,
+      "end": 146.4,
+      "text": "تريق المهارف عليك",
+      "avgLogprob": -0.498,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.856,
+      "words": [
+        {
+          "word": " تريق",
+          "start": 143.18,
+          "end": 145.04,
+          "probability": 0.753
+        },
+        {
+          "word": " المهارف",
+          "start": 145.04,
+          "end": 145.82,
+          "probability": 0.715
+        },
+        {
+          "word": " عليك",
+          "start": 145.82,
+          "end": 146.4,
+          "probability": 0.364
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.767,
+    "wordCount": 14,
+    "credibleWordCount": 14,
+    "segmentCount": 4,
+    "averageWordProbability": 0.687,
+    "vocalSeconds": 12.68,
+    "scanCoverage": 0.403,
+    "reviewRequired": false
+  }
+}

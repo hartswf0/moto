@@ -1,0 +1,1290 @@
+{
+  "analysisVersion": 1,
+  "index": 36,
+  "id": "../VOLHOLLA/song-nobrightstand-36.html",
+  "slug": "the-sky-sends-an-invoice",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "You create a password so strong, even you cannot enter your life. You're by a sunrise lamp, you create a password so strong, even you cannot enter your life. You buy a machine. You said in a nicer airport The cheese is cubed Digital detox you delete the app You announce it on the app Everyone is proud for 14 minutes You asked the lamp to turn off The lamp says no You stand in the dark lit by betrayal It grows a small government Standing desk, you raise the desk, you stand there Answering emails, you're spine gains ambition And loses faith, your boxage or aisles is entertained A box arrives to teach you cooking Inside our six tiny bags and a cart with instructions Noise cancelling headphones, you erase the world You hear your own blood taking course You keep trying to clean the cage that one day, the cage licks your hand. Your C's come tuned to the 20 joy grab, the end to end and all decided more of...",
+  "sampledRanges": [
+    [
+      19.93,
+      37.93
+    ],
+    [
+      79.72,
+      97.72
+    ],
+    [
+      139.51,
+      157.51
+    ],
+    [
+      199.3,
+      217.3
+    ]
+  ],
+  "segments": [
+    {
+      "start": 19.93,
+      "end": 24.99,
+      "text": "You create a password so strong, even you cannot enter your life.",
+      "avgLogprob": -0.235,
+      "compressionRatio": 1.764,
+      "noSpeechProbability": 0.44,
+      "words": [
+        {
+          "word": " You",
+          "start": 19.93,
+          "end": 20.49,
+          "probability": 0.611
+        },
+        {
+          "word": " create",
+          "start": 20.49,
+          "end": 20.87,
+          "probability": 0.977
+        },
+        {
+          "word": " a",
+          "start": 20.87,
+          "end": 21.15,
+          "probability": 0.992
+        },
+        {
+          "word": " password",
+          "start": 21.15,
+          "end": 21.55,
+          "probability": 0.995
+        },
+        {
+          "word": " so",
+          "start": 21.55,
+          "end": 21.93,
+          "probability": 0.98
+        },
+        {
+          "word": " strong,",
+          "start": 21.93,
+          "end": 22.39,
+          "probability": 0.996
+        },
+        {
+          "word": " even",
+          "start": 22.53,
+          "end": 23.19,
+          "probability": 0.854
+        },
+        {
+          "word": " you",
+          "start": 23.19,
+          "end": 23.41,
+          "probability": 0.985
+        },
+        {
+          "word": " cannot",
+          "start": 23.41,
+          "end": 23.79,
+          "probability": 0.909
+        },
+        {
+          "word": " enter",
+          "start": 23.79,
+          "end": 24.25,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 24.25,
+          "end": 24.51,
+          "probability": 0.995
+        },
+        {
+          "word": " life.",
+          "start": 24.51,
+          "end": 24.99,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 27.01,
+      "end": 34.23,
+      "text": "You're by a sunrise lamp, you create a password so strong, even you cannot enter your life.",
+      "avgLogprob": -0.235,
+      "compressionRatio": 1.764,
+      "noSpeechProbability": 0.44,
+      "words": [
+        {
+          "word": " You're",
+          "start": 27.01,
+          "end": 27.77,
+          "probability": 0.8
+        },
+        {
+          "word": " by",
+          "start": 27.77,
+          "end": 28.03,
+          "probability": 0.773
+        },
+        {
+          "word": " a",
+          "start": 28.03,
+          "end": 28.27,
+          "probability": 0.995
+        },
+        {
+          "word": " sunrise",
+          "start": 28.27,
+          "end": 28.65,
+          "probability": 0.803
+        },
+        {
+          "word": " lamp,",
+          "start": 28.65,
+          "end": 29.19,
+          "probability": 0.987
+        },
+        {
+          "word": " you",
+          "start": 29.57,
+          "end": 29.75,
+          "probability": 0.96
+        },
+        {
+          "word": " create",
+          "start": 29.75,
+          "end": 30.17,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 30.17,
+          "end": 30.43,
+          "probability": 0.997
+        },
+        {
+          "word": " password",
+          "start": 30.43,
+          "end": 30.85,
+          "probability": 0.999
+        },
+        {
+          "word": " so",
+          "start": 30.85,
+          "end": 31.21,
+          "probability": 0.994
+        },
+        {
+          "word": " strong,",
+          "start": 31.21,
+          "end": 31.71,
+          "probability": 0.999
+        },
+        {
+          "word": " even",
+          "start": 31.97,
+          "end": 32.43,
+          "probability": 0.986
+        },
+        {
+          "word": " you",
+          "start": 32.43,
+          "end": 32.69,
+          "probability": 0.996
+        },
+        {
+          "word": " cannot",
+          "start": 32.69,
+          "end": 33.05,
+          "probability": 0.962
+        },
+        {
+          "word": " enter",
+          "start": 33.05,
+          "end": 33.55,
+          "probability": 0.997
+        },
+        {
+          "word": " your",
+          "start": 33.55,
+          "end": 33.77,
+          "probability": 0.998
+        },
+        {
+          "word": " life.",
+          "start": 33.77,
+          "end": 34.23,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 36.39,
+      "end": 37.77,
+      "text": "You buy a machine.",
+      "avgLogprob": -0.799,
+      "compressionRatio": 0.692,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " You",
+          "start": 36.39,
+          "end": 36.99,
+          "probability": 0.331
+        },
+        {
+          "word": " buy",
+          "start": 36.99,
+          "end": 37.31,
+          "probability": 0.425
+        },
+        {
+          "word": " a",
+          "start": 37.31,
+          "end": 37.47,
+          "probability": 0.987
+        },
+        {
+          "word": " machine.",
+          "start": 37.47,
+          "end": 37.77,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 80.5,
+      "end": 82.62,
+      "text": "You said in a nicer airport",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " You",
+          "start": 80.5,
+          "end": 81.1,
+          "probability": 0.126
+        },
+        {
+          "word": " said",
+          "start": 81.1,
+          "end": 81.26,
+          "probability": 0.008
+        },
+        {
+          "word": " in",
+          "start": 81.26,
+          "end": 81.58,
+          "probability": 0.45
+        },
+        {
+          "word": " a",
+          "start": 81.58,
+          "end": 81.7,
+          "probability": 0.889
+        },
+        {
+          "word": " nicer",
+          "start": 81.7,
+          "end": 82.08,
+          "probability": 0.937
+        },
+        {
+          "word": " airport",
+          "start": 82.08,
+          "end": 82.62,
+          "probability": 0.927
+        }
+      ]
+    },
+    {
+      "start": 82.62,
+      "end": 84.24,
+      "text": "The cheese is cubed",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " The",
+          "start": 82.62,
+          "end": 83.32,
+          "probability": 0.187
+        },
+        {
+          "word": " cheese",
+          "start": 83.32,
+          "end": 83.68,
+          "probability": 0.383
+        },
+        {
+          "word": " is",
+          "start": 83.68,
+          "end": 83.88,
+          "probability": 0.986
+        },
+        {
+          "word": " cubed",
+          "start": 83.88,
+          "end": 84.24,
+          "probability": 0.387
+        }
+      ]
+    },
+    {
+      "start": 84.24,
+      "end": 86.46,
+      "text": "Digital detox you delete the app",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " Digital",
+          "start": 84.24,
+          "end": 84.66,
+          "probability": 0.132
+        },
+        {
+          "word": " detox",
+          "start": 84.66,
+          "end": 85.18,
+          "probability": 0.691
+        },
+        {
+          "word": " you",
+          "start": 85.18,
+          "end": 85.62,
+          "probability": 0.254
+        },
+        {
+          "word": " delete",
+          "start": 85.62,
+          "end": 85.94,
+          "probability": 0.961
+        },
+        {
+          "word": " the",
+          "start": 85.94,
+          "end": 86.22,
+          "probability": 0.915
+        },
+        {
+          "word": " app",
+          "start": 86.22,
+          "end": 86.46,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 86.46,
+      "end": 88.32,
+      "text": "You announce it on the app",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " You",
+          "start": 86.46,
+          "end": 86.82,
+          "probability": 0.566
+        },
+        {
+          "word": " announce",
+          "start": 86.82,
+          "end": 87.12,
+          "probability": 0.65
+        },
+        {
+          "word": " it",
+          "start": 87.12,
+          "end": 87.48,
+          "probability": 0.99
+        },
+        {
+          "word": " on",
+          "start": 87.48,
+          "end": 87.74,
+          "probability": 0.961
+        },
+        {
+          "word": " the",
+          "start": 87.74,
+          "end": 87.96,
+          "probability": 0.987
+        },
+        {
+          "word": " app",
+          "start": 87.96,
+          "end": 88.32,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 88.32,
+      "end": 90.4,
+      "text": "Everyone is proud for 14 minutes",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " Everyone",
+          "start": 88.32,
+          "end": 88.74,
+          "probability": 0.884
+        },
+        {
+          "word": " is",
+          "start": 88.74,
+          "end": 89.0,
+          "probability": 0.987
+        },
+        {
+          "word": " proud",
+          "start": 89.0,
+          "end": 89.2,
+          "probability": 0.989
+        },
+        {
+          "word": " for",
+          "start": 89.2,
+          "end": 89.44,
+          "probability": 0.99
+        },
+        {
+          "word": " 14",
+          "start": 89.44,
+          "end": 89.96,
+          "probability": 0.89
+        },
+        {
+          "word": " minutes",
+          "start": 89.96,
+          "end": 90.4,
+          "probability": 0.948
+        }
+      ]
+    },
+    {
+      "start": 92.04,
+      "end": 94.2,
+      "text": "You asked the lamp to turn off",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " You",
+          "start": 92.04,
+          "end": 92.64,
+          "probability": 0.934
+        },
+        {
+          "word": " asked",
+          "start": 92.64,
+          "end": 92.96,
+          "probability": 0.865
+        },
+        {
+          "word": " the",
+          "start": 92.96,
+          "end": 93.2,
+          "probability": 0.976
+        },
+        {
+          "word": " lamp",
+          "start": 93.2,
+          "end": 93.38,
+          "probability": 0.751
+        },
+        {
+          "word": " to",
+          "start": 93.38,
+          "end": 93.6,
+          "probability": 0.998
+        },
+        {
+          "word": " turn",
+          "start": 93.6,
+          "end": 93.82,
+          "probability": 0.998
+        },
+        {
+          "word": " off",
+          "start": 93.82,
+          "end": 94.2,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 94.2,
+      "end": 95.26,
+      "text": "The lamp says no",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " The",
+          "start": 94.2,
+          "end": 94.46,
+          "probability": 0.711
+        },
+        {
+          "word": " lamp",
+          "start": 94.46,
+          "end": 94.66,
+          "probability": 0.991
+        },
+        {
+          "word": " says",
+          "start": 94.66,
+          "end": 94.92,
+          "probability": 0.996
+        },
+        {
+          "word": " no",
+          "start": 94.92,
+          "end": 95.26,
+          "probability": 0.829
+        }
+      ]
+    },
+    {
+      "start": 95.26,
+      "end": 97.1,
+      "text": "You stand in the dark lit by betrayal",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.458,
+      "noSpeechProbability": 0.819,
+      "words": [
+        {
+          "word": " You",
+          "start": 95.26,
+          "end": 95.5,
+          "probability": 0.437
+        },
+        {
+          "word": " stand",
+          "start": 95.5,
+          "end": 95.8,
+          "probability": 0.938
+        },
+        {
+          "word": " in",
+          "start": 95.8,
+          "end": 95.94,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 95.94,
+          "end": 96.06,
+          "probability": 0.983
+        },
+        {
+          "word": " dark",
+          "start": 96.06,
+          "end": 96.32,
+          "probability": 0.98
+        },
+        {
+          "word": " lit",
+          "start": 96.32,
+          "end": 96.46,
+          "probability": 0.223
+        },
+        {
+          "word": " by",
+          "start": 96.46,
+          "end": 96.64,
+          "probability": 0.97
+        },
+        {
+          "word": " betrayal",
+          "start": 96.64,
+          "end": 97.1,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 139.51,
+      "end": 140.87,
+      "text": "It grows a small government",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " It",
+          "start": 139.51,
+          "end": 139.61,
+          "probability": 0.08
+        },
+        {
+          "word": " grows",
+          "start": 139.61,
+          "end": 139.91,
+          "probability": 0.786
+        },
+        {
+          "word": " a",
+          "start": 139.91,
+          "end": 140.09,
+          "probability": 0.975
+        },
+        {
+          "word": " small",
+          "start": 140.09,
+          "end": 140.31,
+          "probability": 0.994
+        },
+        {
+          "word": " government",
+          "start": 140.31,
+          "end": 140.87,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 140.87,
+      "end": 143.29,
+      "text": "Standing desk, you raise the desk, you stand there",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Standing",
+          "start": 140.87,
+          "end": 141.37,
+          "probability": 0.771
+        },
+        {
+          "word": " desk,",
+          "start": 141.37,
+          "end": 141.75,
+          "probability": 0.959
+        },
+        {
+          "word": " you",
+          "start": 141.83,
+          "end": 141.91,
+          "probability": 0.951
+        },
+        {
+          "word": " raise",
+          "start": 141.91,
+          "end": 142.09,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 142.09,
+          "end": 142.29,
+          "probability": 0.97
+        },
+        {
+          "word": " desk,",
+          "start": 142.29,
+          "end": 142.61,
+          "probability": 0.998
+        },
+        {
+          "word": " you",
+          "start": 142.65,
+          "end": 142.75,
+          "probability": 0.903
+        },
+        {
+          "word": " stand",
+          "start": 142.75,
+          "end": 143.05,
+          "probability": 0.986
+        },
+        {
+          "word": " there",
+          "start": 143.05,
+          "end": 143.29,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 143.29,
+      "end": 145.49,
+      "text": "Answering emails, you're spine gains ambition",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Answering",
+          "start": 143.29,
+          "end": 143.81,
+          "probability": 0.536
+        },
+        {
+          "word": " emails,",
+          "start": 143.81,
+          "end": 144.13,
+          "probability": 0.918
+        },
+        {
+          "word": " you're",
+          "start": 144.39,
+          "end": 144.49,
+          "probability": 0.734
+        },
+        {
+          "word": " spine",
+          "start": 144.49,
+          "end": 144.77,
+          "probability": 0.525
+        },
+        {
+          "word": " gains",
+          "start": 144.77,
+          "end": 145.01,
+          "probability": 0.945
+        },
+        {
+          "word": " ambition",
+          "start": 145.01,
+          "end": 145.49,
+          "probability": 0.381
+        }
+      ]
+    },
+    {
+      "start": 145.49,
+      "end": 148.05,
+      "text": "And loses faith, your boxage or aisles is entertained",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " And",
+          "start": 145.49,
+          "end": 145.79,
+          "probability": 0.442
+        },
+        {
+          "word": " loses",
+          "start": 145.79,
+          "end": 146.01,
+          "probability": 0.97
+        },
+        {
+          "word": " faith,",
+          "start": 146.01,
+          "end": 146.33,
+          "probability": 0.816
+        },
+        {
+          "word": " your",
+          "start": 146.43,
+          "end": 146.51,
+          "probability": 0.823
+        },
+        {
+          "word": " boxage",
+          "start": 146.51,
+          "end": 147.01,
+          "probability": 0.664
+        },
+        {
+          "word": " or",
+          "start": 147.01,
+          "end": 147.13,
+          "probability": 0.722
+        },
+        {
+          "word": " aisles",
+          "start": 147.13,
+          "end": 147.47,
+          "probability": 0.742
+        },
+        {
+          "word": " is",
+          "start": 147.47,
+          "end": 147.61,
+          "probability": 0.675
+        },
+        {
+          "word": " entertained",
+          "start": 147.61,
+          "end": 148.05,
+          "probability": 0.409
+        }
+      ]
+    },
+    {
+      "start": 148.05,
+      "end": 150.17,
+      "text": "A box arrives to teach you cooking",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " A",
+          "start": 148.05,
+          "end": 148.33,
+          "probability": 0.328
+        },
+        {
+          "word": " box",
+          "start": 148.33,
+          "end": 148.63,
+          "probability": 0.34
+        },
+        {
+          "word": " arrives",
+          "start": 148.63,
+          "end": 149.11,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 149.11,
+          "end": 149.41,
+          "probability": 0.95
+        },
+        {
+          "word": " teach",
+          "start": 149.41,
+          "end": 149.65,
+          "probability": 0.998
+        },
+        {
+          "word": " you",
+          "start": 149.65,
+          "end": 149.81,
+          "probability": 0.997
+        },
+        {
+          "word": " cooking",
+          "start": 149.81,
+          "end": 150.17,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 150.17,
+      "end": 153.41,
+      "text": "Inside our six tiny bags and a cart with instructions",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Inside",
+          "start": 150.17,
+          "end": 150.71,
+          "probability": 0.897
+        },
+        {
+          "word": " our",
+          "start": 150.71,
+          "end": 150.95,
+          "probability": 0.573
+        },
+        {
+          "word": " six",
+          "start": 150.95,
+          "end": 151.17,
+          "probability": 0.916
+        },
+        {
+          "word": " tiny",
+          "start": 151.17,
+          "end": 151.55,
+          "probability": 0.981
+        },
+        {
+          "word": " bags",
+          "start": 151.55,
+          "end": 152.01,
+          "probability": 0.995
+        },
+        {
+          "word": " and",
+          "start": 152.01,
+          "end": 152.27,
+          "probability": 0.64
+        },
+        {
+          "word": " a",
+          "start": 152.27,
+          "end": 152.37,
+          "probability": 0.994
+        },
+        {
+          "word": " cart",
+          "start": 152.37,
+          "end": 152.57,
+          "probability": 0.972
+        },
+        {
+          "word": " with",
+          "start": 152.57,
+          "end": 152.79,
+          "probability": 0.932
+        },
+        {
+          "word": " instructions",
+          "start": 152.79,
+          "end": 153.41,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 153.41,
+      "end": 155.97,
+      "text": "Noise cancelling headphones, you erase the world",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Noise",
+          "start": 153.41,
+          "end": 153.85,
+          "probability": 0.26
+        },
+        {
+          "word": " cancelling",
+          "start": 153.85,
+          "end": 154.43,
+          "probability": 0.904
+        },
+        {
+          "word": " headphones,",
+          "start": 154.43,
+          "end": 154.85,
+          "probability": 0.993
+        },
+        {
+          "word": " you",
+          "start": 155.11,
+          "end": 155.17,
+          "probability": 0.983
+        },
+        {
+          "word": " erase",
+          "start": 155.17,
+          "end": 155.43,
+          "probability": 0.824
+        },
+        {
+          "word": " the",
+          "start": 155.43,
+          "end": 155.73,
+          "probability": 0.996
+        },
+        {
+          "word": " world",
+          "start": 155.73,
+          "end": 155.97,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 155.97,
+      "end": 157.49,
+      "text": "You hear your own blood taking course",
+      "avgLogprob": -0.393,
+      "compressionRatio": 1.595,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " You",
+          "start": 155.97,
+          "end": 156.19,
+          "probability": 0.364
+        },
+        {
+          "word": " hear",
+          "start": 156.19,
+          "end": 156.37,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 156.37,
+          "end": 156.57,
+          "probability": 0.994
+        },
+        {
+          "word": " own",
+          "start": 156.57,
+          "end": 156.73,
+          "probability": 0.996
+        },
+        {
+          "word": " blood",
+          "start": 156.73,
+          "end": 156.93,
+          "probability": 0.99
+        },
+        {
+          "word": " taking",
+          "start": 156.93,
+          "end": 157.31,
+          "probability": 0.819
+        },
+        {
+          "word": " course",
+          "start": 157.31,
+          "end": 157.49,
+          "probability": 0.144
+        }
+      ]
+    },
+    {
+      "start": 202.82,
+      "end": 208.06,
+      "text": "You keep trying to clean the cage that one day, the cage licks your hand.",
+      "avgLogprob": -0.38,
+      "compressionRatio": 1.043,
+      "noSpeechProbability": 0.557,
+      "words": [
+        {
+          "word": " You",
+          "start": 202.82,
+          "end": 203.38,
+          "probability": 0.433
+        },
+        {
+          "word": " keep",
+          "start": 203.38,
+          "end": 203.66,
+          "probability": 0.972
+        },
+        {
+          "word": " trying",
+          "start": 203.66,
+          "end": 204.2,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 204.2,
+          "end": 204.46,
+          "probability": 0.998
+        },
+        {
+          "word": " clean",
+          "start": 204.46,
+          "end": 204.74,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 204.74,
+          "end": 204.96,
+          "probability": 0.996
+        },
+        {
+          "word": " cage",
+          "start": 204.96,
+          "end": 205.2,
+          "probability": 0.997
+        },
+        {
+          "word": " that",
+          "start": 205.2,
+          "end": 205.44,
+          "probability": 0.829
+        },
+        {
+          "word": " one",
+          "start": 205.44,
+          "end": 205.66,
+          "probability": 0.963
+        },
+        {
+          "word": " day,",
+          "start": 205.66,
+          "end": 206.0,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 206.34,
+          "end": 206.86,
+          "probability": 0.842
+        },
+        {
+          "word": " cage",
+          "start": 206.86,
+          "end": 207.18,
+          "probability": 0.994
+        },
+        {
+          "word": " licks",
+          "start": 207.18,
+          "end": 207.46,
+          "probability": 0.81
+        },
+        {
+          "word": " your",
+          "start": 207.46,
+          "end": 207.66,
+          "probability": 0.993
+        },
+        {
+          "word": " hand.",
+          "start": 207.66,
+          "end": 208.06,
+          "probability": 0.813
+        }
+      ]
+    },
+    {
+      "start": 212.78,
+      "end": 217.28,
+      "text": "Your C's come tuned to the 20 joy grab, the end to end and all decided more of...",
+      "avgLogprob": -0.928,
+      "compressionRatio": 1.052,
+      "noSpeechProbability": 0.621,
+      "words": [
+        {
+          "word": " Your",
+          "start": 212.78,
+          "end": 213.26,
+          "probability": 0.339
+        },
+        {
+          "word": " C's",
+          "start": 213.26,
+          "end": 213.66,
+          "probability": 0.38
+        },
+        {
+          "word": " come",
+          "start": 213.66,
+          "end": 213.78,
+          "probability": 0.947
+        },
+        {
+          "word": " tuned",
+          "start": 213.78,
+          "end": 214.02,
+          "probability": 0.202
+        },
+        {
+          "word": " to",
+          "start": 214.02,
+          "end": 214.22,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 214.22,
+          "end": 214.34,
+          "probability": 0.956
+        },
+        {
+          "word": " 20",
+          "start": 214.34,
+          "end": 214.6,
+          "probability": 0.194
+        },
+        {
+          "word": " joy",
+          "start": 214.6,
+          "end": 215.0,
+          "probability": 0.291
+        },
+        {
+          "word": " grab,",
+          "start": 215.0,
+          "end": 215.28,
+          "probability": 0.377
+        },
+        {
+          "word": " the",
+          "start": 215.58,
+          "end": 215.66,
+          "probability": 0.756
+        },
+        {
+          "word": " end",
+          "start": 215.66,
+          "end": 215.86,
+          "probability": 0.646
+        },
+        {
+          "word": " to",
+          "start": 215.86,
+          "end": 216.0,
+          "probability": 0.13
+        },
+        {
+          "word": " end",
+          "start": 216.0,
+          "end": 216.18,
+          "probability": 0.969
+        },
+        {
+          "word": " and",
+          "start": 216.18,
+          "end": 216.42,
+          "probability": 0.616
+        },
+        {
+          "word": " all",
+          "start": 216.42,
+          "end": 216.54,
+          "probability": 0.777
+        },
+        {
+          "word": " decided",
+          "start": 216.54,
+          "end": 216.88,
+          "probability": 0.451
+        },
+        {
+          "word": " more",
+          "start": 216.88,
+          "end": 217.18,
+          "probability": 0.415
+        },
+        {
+          "word": " of...",
+          "start": 217.18,
+          "end": 217.28,
+          "probability": 0.218
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.908,
+    "wordCount": 126,
+    "credibleWordCount": 114,
+    "segmentCount": 13,
+    "averageWordProbability": 0.808,
+    "vocalSeconds": 41.38,
+    "scanCoverage": 0.27,
+    "reviewRequired": false
+  }
+}

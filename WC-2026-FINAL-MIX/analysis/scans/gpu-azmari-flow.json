@@ -1,0 +1,1463 @@
+{
+  "analysisVersion": 1,
+  "index": 121,
+  "id": "../VOLHOLLA/song-ghost-10.html",
+  "slug": "gpu-azmari-flow",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "ro",
+  "text": "Ier renderă percalge pe gărgevră să tutet Și ce și-și mază marși, colăbătandă mă lăs Părecă dar abaz, surai gormală Cupi iu ca mă ca, surai cază cază Lăsă o ca și-șas, să mă ii băzălă Chală, fină dintă fără, fie mărăt pără Ha la fina de defaia bărăt bără Anbăr băcăr, eu imi rășa Ia mucat-o ar cipci bără, eu ii gătale Cipci băcic mâșuie să la cipci băcic Să o ii fără, mal cipci, să o ii gătale Vă, eu alai, nu e vără, dacă alau Cipi alai, nu e vără, dacă alau Zemă, băreuă la ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mă Adăriu, adăriu, îiilei Să zemă ce măletu și are săniilei Pără, pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără...",
+  "sampledRanges": [
+    [
+      19.06,
+      37.06
+    ],
+    [
+      76.23,
+      94.23
+    ],
+    [
+      133.4,
+      151.4
+    ],
+    [
+      190.57,
+      208.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 19.06,
+      "end": 21.96,
+      "text": "Ier renderă percalge pe gărgevră să tutet",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Ier",
+          "start": 19.06,
+          "end": 19.38,
+          "probability": 0.382
+        },
+        {
+          "word": " renderă",
+          "start": 19.38,
+          "end": 19.86,
+          "probability": 0.262
+        },
+        {
+          "word": " percalge",
+          "start": 19.86,
+          "end": 20.46,
+          "probability": 0.29
+        },
+        {
+          "word": " pe",
+          "start": 20.46,
+          "end": 20.62,
+          "probability": 0.138
+        },
+        {
+          "word": " gărgevră",
+          "start": 20.62,
+          "end": 21.28,
+          "probability": 0.586
+        },
+        {
+          "word": " să",
+          "start": 21.28,
+          "end": 21.44,
+          "probability": 0.401
+        },
+        {
+          "word": " tutet",
+          "start": 21.44,
+          "end": 21.96,
+          "probability": 0.463
+        }
+      ]
+    },
+    {
+      "start": 21.96,
+      "end": 25.2,
+      "text": "Și ce și-și mază marși, colăbătandă mă lăs",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Și",
+          "start": 21.96,
+          "end": 22.38,
+          "probability": 0.316
+        },
+        {
+          "word": " ce",
+          "start": 22.38,
+          "end": 22.58,
+          "probability": 0.088
+        },
+        {
+          "word": " și",
+          "start": 22.58,
+          "end": 22.72,
+          "probability": 0.41
+        },
+        {
+          "word": "-și",
+          "start": 22.72,
+          "end": 22.9,
+          "probability": 0.451
+        },
+        {
+          "word": " mază",
+          "start": 22.9,
+          "end": 23.12,
+          "probability": 0.518
+        },
+        {
+          "word": " marși,",
+          "start": 23.12,
+          "end": 23.52,
+          "probability": 0.319
+        },
+        {
+          "word": " colăbătandă",
+          "start": 23.62,
+          "end": 24.52,
+          "probability": 0.516
+        },
+        {
+          "word": " mă",
+          "start": 24.52,
+          "end": 24.66,
+          "probability": 0.375
+        },
+        {
+          "word": " lăs",
+          "start": 24.66,
+          "end": 25.2,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 25.2,
+      "end": 28.42,
+      "text": "Părecă dar abaz, surai gormală",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Părecă",
+          "start": 25.2,
+          "end": 26.1,
+          "probability": 0.573
+        },
+        {
+          "word": " dar",
+          "start": 26.1,
+          "end": 26.28,
+          "probability": 0.27
+        },
+        {
+          "word": " abaz,",
+          "start": 26.28,
+          "end": 27.02,
+          "probability": 0.476
+        },
+        {
+          "word": " surai",
+          "start": 27.18,
+          "end": 27.52,
+          "probability": 0.441
+        },
+        {
+          "word": " gormală",
+          "start": 27.52,
+          "end": 28.42,
+          "probability": 0.536
+        }
+      ]
+    },
+    {
+      "start": 28.42,
+      "end": 31.38,
+      "text": "Cupi iu ca mă ca, surai cază cază",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Cupi",
+          "start": 28.42,
+          "end": 28.96,
+          "probability": 0.384
+        },
+        {
+          "word": " iu",
+          "start": 28.96,
+          "end": 29.18,
+          "probability": 0.177
+        },
+        {
+          "word": " ca",
+          "start": 29.18,
+          "end": 29.34,
+          "probability": 0.261
+        },
+        {
+          "word": " mă",
+          "start": 29.34,
+          "end": 29.58,
+          "probability": 0.714
+        },
+        {
+          "word": " ca,",
+          "start": 29.58,
+          "end": 29.82,
+          "probability": 0.353
+        },
+        {
+          "word": " surai",
+          "start": 29.94,
+          "end": 30.4,
+          "probability": 0.864
+        },
+        {
+          "word": " cază",
+          "start": 30.4,
+          "end": 30.92,
+          "probability": 0.616
+        },
+        {
+          "word": " cază",
+          "start": 30.92,
+          "end": 31.38,
+          "probability": 0.487
+        }
+      ]
+    },
+    {
+      "start": 31.38,
+      "end": 34.5,
+      "text": "Lăsă o ca și-șas, să mă ii băzălă",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Lăsă",
+          "start": 31.38,
+          "end": 32.06,
+          "probability": 0.353
+        },
+        {
+          "word": " o",
+          "start": 32.06,
+          "end": 32.26,
+          "probability": 0.32
+        },
+        {
+          "word": " ca",
+          "start": 32.26,
+          "end": 32.46,
+          "probability": 0.648
+        },
+        {
+          "word": " și",
+          "start": 32.46,
+          "end": 32.62,
+          "probability": 0.445
+        },
+        {
+          "word": "-șas,",
+          "start": 32.62,
+          "end": 33.18,
+          "probability": 0.595
+        },
+        {
+          "word": " să",
+          "start": 33.36,
+          "end": 33.46,
+          "probability": 0.151
+        },
+        {
+          "word": " mă",
+          "start": 33.46,
+          "end": 33.64,
+          "probability": 0.73
+        },
+        {
+          "word": " ii",
+          "start": 33.64,
+          "end": 33.78,
+          "probability": 0.652
+        },
+        {
+          "word": " băzălă",
+          "start": 33.78,
+          "end": 34.5,
+          "probability": 0.615
+        }
+      ]
+    },
+    {
+      "start": 34.5,
+      "end": 37.02,
+      "text": "Chală, fină dintă fără, fie mărăt pără",
+      "avgLogprob": -0.911,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Chală,",
+          "start": 34.5,
+          "end": 34.96,
+          "probability": 0.466
+        },
+        {
+          "word": " fină",
+          "start": 35.08,
+          "end": 35.34,
+          "probability": 0.661
+        },
+        {
+          "word": " dintă",
+          "start": 35.34,
+          "end": 35.66,
+          "probability": 0.389
+        },
+        {
+          "word": " fără,",
+          "start": 35.66,
+          "end": 36.18,
+          "probability": 0.472
+        },
+        {
+          "word": " fie",
+          "start": 36.18,
+          "end": 36.32,
+          "probability": 0.231
+        },
+        {
+          "word": " mărăt",
+          "start": 36.32,
+          "end": 36.8,
+          "probability": 0.694
+        },
+        {
+          "word": " pără",
+          "start": 36.8,
+          "end": 37.02,
+          "probability": 0.683
+        }
+      ]
+    },
+    {
+      "start": 76.23,
+      "end": 79.05,
+      "text": "Ha la fina de defaia bărăt bără",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Ha",
+          "start": 76.23,
+          "end": 76.57,
+          "probability": 0.083
+        },
+        {
+          "word": " la",
+          "start": 76.57,
+          "end": 76.73,
+          "probability": 0.803
+        },
+        {
+          "word": " fina",
+          "start": 76.73,
+          "end": 77.15,
+          "probability": 0.637
+        },
+        {
+          "word": " de",
+          "start": 77.15,
+          "end": 77.33,
+          "probability": 0.244
+        },
+        {
+          "word": " defaia",
+          "start": 77.33,
+          "end": 78.11,
+          "probability": 0.411
+        },
+        {
+          "word": " bărăt",
+          "start": 78.11,
+          "end": 78.59,
+          "probability": 0.492
+        },
+        {
+          "word": " bără",
+          "start": 78.59,
+          "end": 79.05,
+          "probability": 0.558
+        }
+      ]
+    },
+    {
+      "start": 80.03,
+      "end": 82.59,
+      "text": "Anbăr băcăr, eu imi rășa",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Anbăr",
+          "start": 80.03,
+          "end": 80.49,
+          "probability": 0.484
+        },
+        {
+          "word": " băcăr,",
+          "start": 80.49,
+          "end": 80.95,
+          "probability": 0.659
+        },
+        {
+          "word": " eu",
+          "start": 81.03,
+          "end": 81.39,
+          "probability": 0.164
+        },
+        {
+          "word": " imi",
+          "start": 81.39,
+          "end": 81.83,
+          "probability": 0.581
+        },
+        {
+          "word": " rășa",
+          "start": 81.83,
+          "end": 82.59,
+          "probability": 0.704
+        }
+      ]
+    },
+    {
+      "start": 82.59,
+      "end": 85.23,
+      "text": "Ia mucat-o ar cipci bără, eu ii gătale",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Ia",
+          "start": 82.59,
+          "end": 83.01,
+          "probability": 0.347
+        },
+        {
+          "word": " mucat",
+          "start": 83.01,
+          "end": 83.43,
+          "probability": 0.418
+        },
+        {
+          "word": "-o",
+          "start": 83.43,
+          "end": 83.55,
+          "probability": 0.609
+        },
+        {
+          "word": " ar",
+          "start": 83.55,
+          "end": 83.73,
+          "probability": 0.865
+        },
+        {
+          "word": " cipci",
+          "start": 83.73,
+          "end": 84.05,
+          "probability": 0.309
+        },
+        {
+          "word": " bără,",
+          "start": 84.05,
+          "end": 84.47,
+          "probability": 0.623
+        },
+        {
+          "word": " eu",
+          "start": 84.61,
+          "end": 84.61,
+          "probability": 0.462
+        },
+        {
+          "word": " ii",
+          "start": 84.61,
+          "end": 84.77,
+          "probability": 0.37
+        },
+        {
+          "word": " gătale",
+          "start": 84.77,
+          "end": 85.23,
+          "probability": 0.469
+        }
+      ]
+    },
+    {
+      "start": 85.23,
+      "end": 87.57,
+      "text": "Cipci băcic mâșuie să la cipci băcic",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Cipci",
+          "start": 85.23,
+          "end": 85.89,
+          "probability": 0.513
+        },
+        {
+          "word": " băcic",
+          "start": 85.89,
+          "end": 86.07,
+          "probability": 0.525
+        },
+        {
+          "word": " mâșuie",
+          "start": 86.07,
+          "end": 86.61,
+          "probability": 0.429
+        },
+        {
+          "word": " să",
+          "start": 86.61,
+          "end": 86.79,
+          "probability": 0.675
+        },
+        {
+          "word": " la",
+          "start": 86.79,
+          "end": 86.97,
+          "probability": 0.29
+        },
+        {
+          "word": " cipci",
+          "start": 86.97,
+          "end": 87.39,
+          "probability": 0.765
+        },
+        {
+          "word": " băcic",
+          "start": 87.39,
+          "end": 87.57,
+          "probability": 0.787
+        }
+      ]
+    },
+    {
+      "start": 87.57,
+      "end": 90.19,
+      "text": "Să o ii fără, mal cipci, să o ii gătale",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Să",
+          "start": 87.57,
+          "end": 87.83,
+          "probability": 0.498
+        },
+        {
+          "word": " o",
+          "start": 87.83,
+          "end": 87.89,
+          "probability": 0.29
+        },
+        {
+          "word": " ii",
+          "start": 87.89,
+          "end": 88.03,
+          "probability": 0.775
+        },
+        {
+          "word": " fără,",
+          "start": 88.03,
+          "end": 88.39,
+          "probability": 0.805
+        },
+        {
+          "word": " mal",
+          "start": 88.49,
+          "end": 88.57,
+          "probability": 0.474
+        },
+        {
+          "word": " cipci,",
+          "start": 88.57,
+          "end": 89.07,
+          "probability": 0.801
+        },
+        {
+          "word": " să",
+          "start": 89.17,
+          "end": 89.35,
+          "probability": 0.599
+        },
+        {
+          "word": " o",
+          "start": 89.35,
+          "end": 89.43,
+          "probability": 0.894
+        },
+        {
+          "word": " ii",
+          "start": 89.43,
+          "end": 89.57,
+          "probability": 0.974
+        },
+        {
+          "word": " gătale",
+          "start": 89.57,
+          "end": 90.19,
+          "probability": 0.663
+        }
+      ]
+    },
+    {
+      "start": 90.19,
+      "end": 92.91,
+      "text": "Vă, eu alai, nu e vără, dacă alau",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Vă,",
+          "start": 90.19,
+          "end": 90.63,
+          "probability": 0.438
+        },
+        {
+          "word": " eu",
+          "start": 90.63,
+          "end": 90.81,
+          "probability": 0.606
+        },
+        {
+          "word": " alai,",
+          "start": 90.81,
+          "end": 91.21,
+          "probability": 0.567
+        },
+        {
+          "word": " nu",
+          "start": 91.41,
+          "end": 91.49,
+          "probability": 0.134
+        },
+        {
+          "word": " e",
+          "start": 91.49,
+          "end": 91.61,
+          "probability": 0.302
+        },
+        {
+          "word": " vără,",
+          "start": 91.61,
+          "end": 91.87,
+          "probability": 0.706
+        },
+        {
+          "word": " dacă",
+          "start": 92.01,
+          "end": 92.13,
+          "probability": 0.414
+        },
+        {
+          "word": " alau",
+          "start": 92.13,
+          "end": 92.91,
+          "probability": 0.776
+        }
+      ]
+    },
+    {
+      "start": 92.91,
+      "end": 94.21,
+      "text": "Cipi alai, nu e vără, dacă alau",
+      "avgLogprob": -0.766,
+      "compressionRatio": 1.734,
+      "noSpeechProbability": 0.718,
+      "words": [
+        {
+          "word": " Cipi",
+          "start": 92.91,
+          "end": 93.49,
+          "probability": 0.733
+        },
+        {
+          "word": " alai,",
+          "start": 93.49,
+          "end": 93.93,
+          "probability": 0.866
+        },
+        {
+          "word": " nu",
+          "start": 94.09,
+          "end": 94.19,
+          "probability": 0.893
+        },
+        {
+          "word": " e",
+          "start": 94.19,
+          "end": 94.21,
+          "probability": 0.232
+        },
+        {
+          "word": " vără,",
+          "start": 94.21,
+          "end": 94.21,
+          "probability": 0.847
+        },
+        {
+          "word": " dacă",
+          "start": 94.21,
+          "end": 94.21,
+          "probability": 0.555
+        },
+        {
+          "word": " alau",
+          "start": 94.21,
+          "end": 94.21,
+          "probability": 0.947
+        }
+      ]
+    },
+    {
+      "start": 135.0,
+      "end": 151.38,
+      "text": "Zemă, băreuă la ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mără, ne mă",
+      "avgLogprob": -0.11,
+      "compressionRatio": 10.513,
+      "noSpeechProbability": 0.912,
+      "words": [
+        {
+          "word": " Zemă,",
+          "start": 135.0,
+          "end": 135.4,
+          "probability": 0.391
+        },
+        {
+          "word": " băreuă",
+          "start": 135.4,
+          "end": 135.8,
+          "probability": 0.444
+        },
+        {
+          "word": " la",
+          "start": 135.8,
+          "end": 136.02,
+          "probability": 0.3
+        },
+        {
+          "word": " ne",
+          "start": 136.02,
+          "end": 136.36,
+          "probability": 0.596
+        },
+        {
+          "word": " mără,",
+          "start": 136.36,
+          "end": 136.84,
+          "probability": 0.47
+        },
+        {
+          "word": " ne",
+          "start": 136.98,
+          "end": 137.22,
+          "probability": 0.986
+        },
+        {
+          "word": " mără,",
+          "start": 137.22,
+          "end": 137.64,
+          "probability": 0.983
+        },
+        {
+          "word": " ne",
+          "start": 137.88,
+          "end": 137.96,
+          "probability": 0.988
+        },
+        {
+          "word": " mără,",
+          "start": 137.96,
+          "end": 138.38,
+          "probability": 0.981
+        },
+        {
+          "word": " ne",
+          "start": 138.52,
+          "end": 138.56,
+          "probability": 0.797
+        },
+        {
+          "word": " mără,",
+          "start": 138.56,
+          "end": 139.36,
+          "probability": 0.984
+        },
+        {
+          "word": " ne",
+          "start": 139.4,
+          "end": 139.46,
+          "probability": 0.923
+        },
+        {
+          "word": " mără,",
+          "start": 139.46,
+          "end": 139.92,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 140.06,
+          "end": 140.08,
+          "probability": 0.931
+        },
+        {
+          "word": " mără,",
+          "start": 140.08,
+          "end": 140.32,
+          "probability": 0.987
+        },
+        {
+          "word": " ne",
+          "start": 140.32,
+          "end": 140.36,
+          "probability": 0.938
+        },
+        {
+          "word": " mără,",
+          "start": 140.36,
+          "end": 140.68,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 140.78,
+          "end": 140.84,
+          "probability": 0.944
+        },
+        {
+          "word": " mără,",
+          "start": 140.84,
+          "end": 140.98,
+          "probability": 0.982
+        },
+        {
+          "word": " ne",
+          "start": 140.98,
+          "end": 140.98,
+          "probability": 0.934
+        },
+        {
+          "word": " mără,",
+          "start": 140.98,
+          "end": 141.34,
+          "probability": 0.982
+        },
+        {
+          "word": " ne",
+          "start": 141.34,
+          "end": 141.34,
+          "probability": 0.921
+        },
+        {
+          "word": " mără,",
+          "start": 141.34,
+          "end": 141.38,
+          "probability": 0.977
+        },
+        {
+          "word": " ne",
+          "start": 141.38,
+          "end": 141.38,
+          "probability": 0.922
+        },
+        {
+          "word": " mără,",
+          "start": 141.38,
+          "end": 141.4,
+          "probability": 0.977
+        },
+        {
+          "word": " ne",
+          "start": 141.48,
+          "end": 141.48,
+          "probability": 0.916
+        },
+        {
+          "word": " mără,",
+          "start": 141.48,
+          "end": 141.48,
+          "probability": 0.975
+        },
+        {
+          "word": " ne",
+          "start": 141.48,
+          "end": 141.48,
+          "probability": 0.936
+        },
+        {
+          "word": " mără,",
+          "start": 141.48,
+          "end": 141.48,
+          "probability": 0.973
+        },
+        {
+          "word": " ne",
+          "start": 141.58,
+          "end": 141.78,
+          "probability": 0.935
+        },
+        {
+          "word": " mără,",
+          "start": 141.78,
+          "end": 141.82,
+          "probability": 0.976
+        },
+        {
+          "word": " ne",
+          "start": 141.82,
+          "end": 141.82,
+          "probability": 0.953
+        },
+        {
+          "word": " mără,",
+          "start": 141.82,
+          "end": 141.82,
+          "probability": 0.978
+        },
+        {
+          "word": " ne",
+          "start": 141.82,
+          "end": 141.82,
+          "probability": 0.953
+        },
+        {
+          "word": " mără,",
+          "start": 141.82,
+          "end": 142.06,
+          "probability": 0.975
+        },
+        {
+          "word": " ne",
+          "start": 142.06,
+          "end": 142.06,
+          "probability": 0.962
+        },
+        {
+          "word": " mără,",
+          "start": 142.06,
+          "end": 142.28,
+          "probability": 0.974
+        },
+        {
+          "word": " ne",
+          "start": 142.28,
+          "end": 142.28,
+          "probability": 0.965
+        },
+        {
+          "word": " mără,",
+          "start": 142.28,
+          "end": 142.28,
+          "probability": 0.98
+        },
+        {
+          "word": " ne",
+          "start": 142.32,
+          "end": 142.32,
+          "probability": 0.969
+        },
+        {
+          "word": " mără,",
+          "start": 142.32,
+          "end": 142.32,
+          "probability": 0.981
+        },
+        {
+          "word": " ne",
+          "start": 142.34,
+          "end": 142.48,
+          "probability": 0.971
+        },
+        {
+          "word": " mără,",
+          "start": 142.48,
+          "end": 143.04,
+          "probability": 0.979
+        },
+        {
+          "word": " ne",
+          "start": 143.04,
+          "end": 143.04,
+          "probability": 0.973
+        },
+        {
+          "word": " mără,",
+          "start": 143.04,
+          "end": 143.04,
+          "probability": 0.983
+        },
+        {
+          "word": " ne",
+          "start": 143.08,
+          "end": 143.08,
+          "probability": 0.979
+        },
+        {
+          "word": " mără,",
+          "start": 143.08,
+          "end": 143.46,
+          "probability": 0.984
+        },
+        {
+          "word": " ne",
+          "start": 143.46,
+          "end": 143.96,
+          "probability": 0.981
+        },
+        {
+          "word": " mără,",
+          "start": 143.96,
+          "end": 144.6,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 144.6,
+          "end": 144.6,
+          "probability": 0.981
+        },
+        {
+          "word": " mără,",
+          "start": 144.6,
+          "end": 144.6,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 144.6,
+          "end": 144.6,
+          "probability": 0.983
+        },
+        {
+          "word": " mără,",
+          "start": 144.6,
+          "end": 144.6,
+          "probability": 0.987
+        },
+        {
+          "word": " ne",
+          "start": 144.64,
+          "end": 144.64,
+          "probability": 0.982
+        },
+        {
+          "word": " mără,",
+          "start": 144.64,
+          "end": 144.84,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 144.98,
+          "end": 145.0,
+          "probability": 0.985
+        },
+        {
+          "word": " mără,",
+          "start": 145.0,
+          "end": 145.36,
+          "probability": 0.987
+        },
+        {
+          "word": " ne",
+          "start": 145.36,
+          "end": 145.36,
+          "probability": 0.987
+        },
+        {
+          "word": " mără,",
+          "start": 145.36,
+          "end": 146.1,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 146.1,
+          "end": 146.1,
+          "probability": 0.989
+        },
+        {
+          "word": " mără,",
+          "start": 146.1,
+          "end": 146.8,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 146.94,
+          "end": 147.02,
+          "probability": 0.988
+        },
+        {
+          "word": " mără,",
+          "start": 147.02,
+          "end": 147.52,
+          "probability": 0.985
+        },
+        {
+          "word": " ne",
+          "start": 147.74,
+          "end": 147.96,
+          "probability": 0.988
+        },
+        {
+          "word": " mără,",
+          "start": 147.96,
+          "end": 149.22,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 149.28,
+          "end": 149.28,
+          "probability": 0.989
+        },
+        {
+          "word": " mără,",
+          "start": 149.28,
+          "end": 150.6,
+          "probability": 0.985
+        },
+        {
+          "word": " ne",
+          "start": 150.68,
+          "end": 150.68,
+          "probability": 0.99
+        },
+        {
+          "word": " mără,",
+          "start": 150.68,
+          "end": 151.3,
+          "probability": 0.985
+        },
+        {
+          "word": " ne",
+          "start": 151.34,
+          "end": 151.34,
+          "probability": 0.99
+        },
+        {
+          "word": " mără,",
+          "start": 151.34,
+          "end": 151.38,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 151.38,
+          "end": 151.38,
+          "probability": 0.991
+        },
+        {
+          "word": " mără,",
+          "start": 151.38,
+          "end": 151.38,
+          "probability": 0.986
+        },
+        {
+          "word": " ne",
+          "start": 151.38,
+          "end": 151.38,
+          "probability": 0.991
+        },
+        {
+          "word": " mă",
+          "start": 151.38,
+          "end": 151.38,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 151.36,
+      "end": 151.36,
+      "text": "",
+      "avgLogprob": -0.128,
+      "compressionRatio": 23.211,
+      "noSpeechProbability": 0.787,
+      "words": []
+    },
+    {
+      "start": 190.77,
+      "end": 192.67,
+      "text": "Adăriu, adăriu, îiilei",
+      "avgLogprob": -0.409,
+      "compressionRatio": 3.105,
+      "noSpeechProbability": 0.797,
+      "words": [
+        {
+          "word": " Adăriu,",
+          "start": 190.77,
+          "end": 191.41,
+          "probability": 0.095
+        },
+        {
+          "word": " adăriu,",
+          "start": 191.41,
+          "end": 192.05,
+          "probability": 0.869
+        },
+        {
+          "word": " îiilei",
+          "start": 192.07,
+          "end": 192.67,
+          "probability": 0.266
+        }
+      ]
+    },
+    {
+      "start": 192.67,
+      "end": 195.73,
+      "text": "Să zemă ce măletu și are săniilei",
+      "avgLogprob": -0.409,
+      "compressionRatio": 3.105,
+      "noSpeechProbability": 0.797,
+      "words": [
+        {
+          "word": " Să",
+          "start": 192.67,
+          "end": 193.15,
+          "probability": 0.305
+        },
+        {
+          "word": " zemă",
+          "start": 193.15,
+          "end": 193.47,
+          "probability": 0.494
+        },
+        {
+          "word": " ce",
+          "start": 193.47,
+          "end": 193.65,
+          "probability": 0.208
+        },
+        {
+          "word": " măletu",
+          "start": 193.65,
+          "end": 194.27,
+          "probability": 0.458
+        },
+        {
+          "word": " și",
+          "start": 194.27,
+          "end": 194.43,
+          "probability": 0.569
+        },
+        {
+          "word": " are",
+          "start": 194.43,
+          "end": 194.57,
+          "probability": 0.372
+        },
+        {
+          "word": " săniilei",
+          "start": 194.57,
+          "end": 195.73,
+          "probability": 0.39
+        }
+      ]
+    },
+    {
+      "start": 195.73,
+      "end": 207.99,
+      "text": "Pără, pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără pără...",
+      "avgLogprob": -0.409,
+      "compressionRatio": 3.105,
+      "noSpeechProbability": 0.797,
+      "words": [
+        {
+          "word": " Pără,",
+          "start": 195.73,
+          "end": 196.05,
+          "probability": 0.602
+        },
+        {
+          "word": " pără",
+          "start": 196.15,
+          "end": 196.39,
+          "probability": 0.857
+        },
+        {
+          "word": " pără",
+          "start": 196.39,
+          "end": 196.47,
+          "probability": 0.773
+        },
+        {
+          "word": " pără",
+          "start": 196.47,
+          "end": 196.87,
+          "probability": 0.943
+        },
+        {
+          "word": " pără",
+          "start": 196.87,
+          "end": 197.13,
+          "probability": 0.94
+        },
+        {
+          "word": " pără",
+          "start": 197.13,
+          "end": 197.17,
+          "probability": 0.899
+        },
+        {
+          "word": " pără",
+          "start": 197.17,
+          "end": 197.43,
+          "probability": 0.883
+        },
+        {
+          "word": " pără",
+          "start": 197.43,
+          "end": 197.75,
+          "probability": 0.908
+        },
+        {
+          "word": " pără",
+          "start": 197.75,
+          "end": 198.81,
+          "probability": 0.894
+        },
+        {
+          "word": " pără",
+          "start": 198.81,
+          "end": 199.19,
+          "probability": 0.902
+        },
+        {
+          "word": " pără",
+          "start": 199.19,
+          "end": 199.69,
+          "probability": 0.885
+        },
+        {
+          "word": " pără",
+          "start": 199.69,
+          "end": 200.17,
+          "probability": 0.888
+        },
+        {
+          "word": " pără",
+          "start": 200.17,
+          "end": 200.27,
+          "probability": 0.895
+        },
+        {
+          "word": " pără",
+          "start": 200.27,
+          "end": 200.27,
+          "probability": 0.889
+        },
+        {
+          "word": " pără",
+          "start": 200.27,
+          "end": 200.51,
+          "probability": 0.894
+        },
+        {
+          "word": " pără",
+          "start": 200.51,
+          "end": 200.77,
+          "probability": 0.9
+        },
+        {
+          "word": " pără",
+          "start": 200.77,
+          "end": 201.17,
+          "probability": 0.889
+        },
+        {
+          "word": " pără",
+          "start": 201.17,
+          "end": 201.31,
+          "probability": 0.88
+        },
+        {
+          "word": " pără",
+          "start": 201.31,
+          "end": 201.67,
+          "probability": 0.892
+        },
+        {
+          "word": " pără",
+          "start": 201.67,
+          "end": 203.33,
+          "probability": 0.863
+        },
+        {
+          "word": " pără",
+          "start": 203.33,
+          "end": 205.17,
+          "probability": 0.869
+        },
+        {
+          "word": " pără",
+          "start": 205.17,
+          "end": 207.41,
+          "probability": 0.861
+        },
+        {
+          "word": " pără",
+          "start": 207.41,
+          "end": 207.87,
+          "probability": 0.852
+        },
+        {
+          "word": " pără...",
+          "start": 207.87,
+          "end": 207.99,
+          "probability": 0.695
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.762,
+    "wordCount": 98,
+    "credibleWordCount": 76,
+    "segmentCount": 13,
+    "averageWordProbability": 0.514,
+    "vocalSeconds": 34.96,
+    "scanCoverage": 0.281,
+    "reviewRequired": false
+  }
+}

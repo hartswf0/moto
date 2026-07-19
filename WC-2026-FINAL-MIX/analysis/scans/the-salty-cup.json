@@ -1,0 +1,428 @@
+{
+  "analysisVersion": 1,
+  "index": 2,
+  "id": "../VOLHOLLA/song-maquina-30.html",
+  "slug": "the-salty-cup",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "For my summer jacket Somewhere in the hallway closet Blue skies feeling heavy Waves are getting ready Hard is moving is moving step gone with the tide gone with the tide waiting for the weather walking on the tide gone with the tide maybe it was different maybe it was better",
+  "sampledRanges": [
+    [
+      19.61,
+      37.61
+    ],
+    [
+      78.46,
+      96.46
+    ],
+    [
+      137.3,
+      155.3
+    ],
+    [
+      196.14,
+      214.14
+    ]
+  ],
+  "segments": [
+    {
+      "start": 19.61,
+      "end": 21.51,
+      "text": "For my summer jacket",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.16,
+      "noSpeechProbability": 0.422,
+      "words": [
+        {
+          "word": " For",
+          "start": 19.61,
+          "end": 19.81,
+          "probability": 0.137
+        },
+        {
+          "word": " my",
+          "start": 19.81,
+          "end": 20.05,
+          "probability": 0.99
+        },
+        {
+          "word": " summer",
+          "start": 20.05,
+          "end": 20.79,
+          "probability": 0.982
+        },
+        {
+          "word": " jacket",
+          "start": 20.79,
+          "end": 21.51,
+          "probability": 0.786
+        }
+      ]
+    },
+    {
+      "start": 23.05,
+      "end": 25.99,
+      "text": "Somewhere in the hallway closet",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.16,
+      "noSpeechProbability": 0.422,
+      "words": [
+        {
+          "word": " Somewhere",
+          "start": 22.97,
+          "end": 23.67,
+          "probability": 0.373
+        },
+        {
+          "word": " in",
+          "start": 23.67,
+          "end": 24.11,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 24.11,
+          "end": 24.27,
+          "probability": 0.965
+        },
+        {
+          "word": " hallway",
+          "start": 24.27,
+          "end": 24.97,
+          "probability": 0.972
+        },
+        {
+          "word": " closet",
+          "start": 24.97,
+          "end": 25.99,
+          "probability": 0.676
+        }
+      ]
+    },
+    {
+      "start": 27.43,
+      "end": 30.13,
+      "text": "Blue skies feeling heavy",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.16,
+      "noSpeechProbability": 0.422,
+      "words": [
+        {
+          "word": " Blue",
+          "start": 27.09,
+          "end": 27.79,
+          "probability": 0.303
+        },
+        {
+          "word": " skies",
+          "start": 27.79,
+          "end": 28.31,
+          "probability": 0.871
+        },
+        {
+          "word": " feeling",
+          "start": 28.31,
+          "end": 29.21,
+          "probability": 0.618
+        },
+        {
+          "word": " heavy",
+          "start": 29.21,
+          "end": 30.13,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 31.63,
+      "end": 34.33,
+      "text": "Waves are getting ready",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.16,
+      "noSpeechProbability": 0.422,
+      "words": [
+        {
+          "word": " Waves",
+          "start": 31.55,
+          "end": 32.25,
+          "probability": 0.92
+        },
+        {
+          "word": " are",
+          "start": 32.25,
+          "end": 32.63,
+          "probability": 0.984
+        },
+        {
+          "word": " getting",
+          "start": 32.63,
+          "end": 33.39,
+          "probability": 0.487
+        },
+        {
+          "word": " ready",
+          "start": 33.39,
+          "end": 34.33,
+          "probability": 0.788
+        }
+      ]
+    },
+    {
+      "start": 35.87,
+      "end": 37.23,
+      "text": "Hard is moving",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.16,
+      "noSpeechProbability": 0.422,
+      "words": [
+        {
+          "word": " Hard",
+          "start": 35.61,
+          "end": 36.31,
+          "probability": 0.339
+        },
+        {
+          "word": " is",
+          "start": 36.31,
+          "end": 36.91,
+          "probability": 0.545
+        },
+        {
+          "word": " moving",
+          "start": 36.91,
+          "end": 37.23,
+          "probability": 0.928
+        }
+      ]
+    },
+    {
+      "start": 78.46,
+      "end": 86.9,
+      "text": "is moving step gone with the tide gone with the tide waiting for the weather",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.816,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " is",
+          "start": 78.46,
+          "end": 79.02,
+          "probability": 0.015
+        },
+        {
+          "word": " moving",
+          "start": 79.02,
+          "end": 79.7,
+          "probability": 0.675
+        },
+        {
+          "word": " step",
+          "start": 79.7,
+          "end": 80.38,
+          "probability": 0.131
+        },
+        {
+          "word": " gone",
+          "start": 80.38,
+          "end": 81.54,
+          "probability": 0.794
+        },
+        {
+          "word": " with",
+          "start": 81.54,
+          "end": 81.88,
+          "probability": 0.894
+        },
+        {
+          "word": " the",
+          "start": 81.88,
+          "end": 82.12,
+          "probability": 0.974
+        },
+        {
+          "word": " tide",
+          "start": 82.12,
+          "end": 82.76,
+          "probability": 0.678
+        },
+        {
+          "word": " gone",
+          "start": 82.76,
+          "end": 83.58,
+          "probability": 0.773
+        },
+        {
+          "word": " with",
+          "start": 83.58,
+          "end": 84.0,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 84.0,
+          "end": 84.22,
+          "probability": 0.994
+        },
+        {
+          "word": " tide",
+          "start": 84.22,
+          "end": 84.86,
+          "probability": 0.988
+        },
+        {
+          "word": " waiting",
+          "start": 84.86,
+          "end": 85.74,
+          "probability": 0.863
+        },
+        {
+          "word": " for",
+          "start": 85.74,
+          "end": 86.08,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 86.08,
+          "end": 86.34,
+          "probability": 0.999
+        },
+        {
+          "word": " weather",
+          "start": 86.34,
+          "end": 86.9,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 86.9,
+      "end": 91.28,
+      "text": "walking on the tide gone with the tide",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.816,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " walking",
+          "start": 86.9,
+          "end": 87.84,
+          "probability": 0.946
+        },
+        {
+          "word": " on",
+          "start": 87.84,
+          "end": 88.24,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 88.24,
+          "end": 88.44,
+          "probability": 0.995
+        },
+        {
+          "word": " tide",
+          "start": 88.44,
+          "end": 89.14,
+          "probability": 0.971
+        },
+        {
+          "word": " gone",
+          "start": 89.14,
+          "end": 89.92,
+          "probability": 0.987
+        },
+        {
+          "word": " with",
+          "start": 89.92,
+          "end": 90.32,
+          "probability": 0.985
+        },
+        {
+          "word": " the",
+          "start": 90.32,
+          "end": 90.52,
+          "probability": 0.994
+        },
+        {
+          "word": " tide",
+          "start": 90.52,
+          "end": 91.28,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 91.28,
+      "end": 96.28,
+      "text": "maybe it was different maybe it was better",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.816,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " maybe",
+          "start": 91.28,
+          "end": 92.88,
+          "probability": 0.107
+        },
+        {
+          "word": " it",
+          "start": 92.88,
+          "end": 93.52,
+          "probability": 0.988
+        },
+        {
+          "word": " was",
+          "start": 93.52,
+          "end": 93.7,
+          "probability": 0.998
+        },
+        {
+          "word": " different",
+          "start": 93.7,
+          "end": 94.3,
+          "probability": 0.994
+        },
+        {
+          "word": " maybe",
+          "start": 94.3,
+          "end": 95.12,
+          "probability": 0.898
+        },
+        {
+          "word": " it",
+          "start": 95.12,
+          "end": 95.6,
+          "probability": 0.991
+        },
+        {
+          "word": " was",
+          "start": 95.6,
+          "end": 95.8,
+          "probability": 0.999
+        },
+        {
+          "word": " better",
+          "start": 95.8,
+          "end": 96.28,
+          "probability": 0.998
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.864,
+    "wordCount": 51,
+    "credibleWordCount": 45,
+    "segmentCount": 8,
+    "averageWordProbability": 0.808,
+    "vocalSeconds": 29.42,
+    "scanCoverage": 0.274,
+    "reviewRequired": false
+  }
+}

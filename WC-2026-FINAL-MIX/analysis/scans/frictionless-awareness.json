@@ -1,0 +1,870 @@
+{
+  "analysisVersion": 1,
+  "index": 37,
+  "id": "../VOLHOLLA/song-nobrightstand-33.html",
+  "slug": "frictionless-awareness",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "That's incorrect, it is a breathtaking level of hypocrisy, but in my defense, I am trying very hard to achieve a frictionless, unmarkable state of pure, dustless awareness, I really am, but my landlord in Midtown, Atlanta, still requires a highly localized, deeply structured deposit on the first of every month, so yes, I took the check, and I would probably buy a $14 activated charcoal smoothie and a lobby on my way out. The system is flawless, but my personal complicity and mis-economy doesn't invalidate the trap we're setting for the people who trust us. We can acknowledge that we're all just trying to survive the system, while still having tools we're building or hurting the people who's in them. Now let's talk",
+  "sampledRanges": [
+    [
+      1.65,
+      34.51
+    ]
+  ],
+  "segments": [
+    {
+      "start": 1.73,
+      "end": 6.45,
+      "text": "That's incorrect, it is a breathtaking level of hypocrisy, but in my defense, I am trying",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " That's",
+          "start": 1.73,
+          "end": 2.13,
+          "probability": 0.275
+        },
+        {
+          "word": " incorrect,",
+          "start": 2.13,
+          "end": 2.13,
+          "probability": 0.022
+        },
+        {
+          "word": " it",
+          "start": 2.49,
+          "end": 2.67,
+          "probability": 0.583
+        },
+        {
+          "word": " is",
+          "start": 2.67,
+          "end": 2.77,
+          "probability": 0.715
+        },
+        {
+          "word": " a",
+          "start": 2.77,
+          "end": 2.85,
+          "probability": 0.962
+        },
+        {
+          "word": " breathtaking",
+          "start": 2.85,
+          "end": 3.27,
+          "probability": 0.975
+        },
+        {
+          "word": " level",
+          "start": 3.27,
+          "end": 3.63,
+          "probability": 0.974
+        },
+        {
+          "word": " of",
+          "start": 3.63,
+          "end": 3.83,
+          "probability": 0.996
+        },
+        {
+          "word": " hypocrisy,",
+          "start": 3.83,
+          "end": 4.43,
+          "probability": 0.994
+        },
+        {
+          "word": " but",
+          "start": 4.63,
+          "end": 4.83,
+          "probability": 0.929
+        },
+        {
+          "word": " in",
+          "start": 4.83,
+          "end": 4.93,
+          "probability": 0.968
+        },
+        {
+          "word": " my",
+          "start": 4.93,
+          "end": 5.05,
+          "probability": 0.998
+        },
+        {
+          "word": " defense,",
+          "start": 5.05,
+          "end": 5.35,
+          "probability": 0.957
+        },
+        {
+          "word": " I",
+          "start": 5.73,
+          "end": 6.09,
+          "probability": 0.986
+        },
+        {
+          "word": " am",
+          "start": 6.09,
+          "end": 6.19,
+          "probability": 0.942
+        },
+        {
+          "word": " trying",
+          "start": 6.19,
+          "end": 6.45,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 6.45,
+      "end": 10.53,
+      "text": "very hard to achieve a frictionless, unmarkable state of pure, dustless awareness, I really",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " very",
+          "start": 6.45,
+          "end": 6.69,
+          "probability": 0.971
+        },
+        {
+          "word": " hard",
+          "start": 6.69,
+          "end": 6.99,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 6.99,
+          "end": 7.17,
+          "probability": 0.992
+        },
+        {
+          "word": " achieve",
+          "start": 7.17,
+          "end": 7.37,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 7.37,
+          "end": 7.49,
+          "probability": 0.973
+        },
+        {
+          "word": " frictionless,",
+          "start": 7.49,
+          "end": 7.95,
+          "probability": 0.863
+        },
+        {
+          "word": " unmarkable",
+          "start": 8.25,
+          "end": 8.69,
+          "probability": 0.812
+        },
+        {
+          "word": " state",
+          "start": 8.69,
+          "end": 8.87,
+          "probability": 0.597
+        },
+        {
+          "word": " of",
+          "start": 8.87,
+          "end": 8.99,
+          "probability": 0.991
+        },
+        {
+          "word": " pure,",
+          "start": 8.99,
+          "end": 9.19,
+          "probability": 0.736
+        },
+        {
+          "word": " dustless",
+          "start": 9.41,
+          "end": 9.67,
+          "probability": 0.616
+        },
+        {
+          "word": " awareness,",
+          "start": 9.67,
+          "end": 10.05,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 10.29,
+          "end": 10.29,
+          "probability": 0.979
+        },
+        {
+          "word": " really",
+          "start": 10.29,
+          "end": 10.53,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 10.53,
+      "end": 14.85,
+      "text": "am, but my landlord in Midtown, Atlanta, still requires a highly localized, deeply structured",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " am,",
+          "start": 10.53,
+          "end": 10.87,
+          "probability": 0.997
+        },
+        {
+          "word": " but",
+          "start": 11.21,
+          "end": 11.29,
+          "probability": 0.839
+        },
+        {
+          "word": " my",
+          "start": 11.29,
+          "end": 11.45,
+          "probability": 0.978
+        },
+        {
+          "word": " landlord",
+          "start": 11.45,
+          "end": 11.73,
+          "probability": 0.982
+        },
+        {
+          "word": " in",
+          "start": 11.73,
+          "end": 11.93,
+          "probability": 0.518
+        },
+        {
+          "word": " Midtown,",
+          "start": 11.93,
+          "end": 12.21,
+          "probability": 0.837
+        },
+        {
+          "word": " Atlanta,",
+          "start": 12.31,
+          "end": 12.47,
+          "probability": 0.41
+        },
+        {
+          "word": " still",
+          "start": 12.47,
+          "end": 12.75,
+          "probability": 0.958
+        },
+        {
+          "word": " requires",
+          "start": 12.75,
+          "end": 13.05,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 13.05,
+          "end": 13.23,
+          "probability": 0.97
+        },
+        {
+          "word": " highly",
+          "start": 13.23,
+          "end": 13.43,
+          "probability": 0.995
+        },
+        {
+          "word": " localized,",
+          "start": 13.43,
+          "end": 13.99,
+          "probability": 0.956
+        },
+        {
+          "word": " deeply",
+          "start": 14.35,
+          "end": 14.53,
+          "probability": 0.797
+        },
+        {
+          "word": " structured",
+          "start": 14.53,
+          "end": 14.85,
+          "probability": 0.653
+        }
+      ]
+    },
+    {
+      "start": 14.85,
+      "end": 18.67,
+      "text": "deposit on the first of every month, so yes, I took the check, and I would probably buy",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " deposit",
+          "start": 14.85,
+          "end": 15.35,
+          "probability": 0.762
+        },
+        {
+          "word": " on",
+          "start": 15.35,
+          "end": 15.59,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 15.59,
+          "end": 15.67,
+          "probability": 0.989
+        },
+        {
+          "word": " first",
+          "start": 15.67,
+          "end": 15.85,
+          "probability": 0.911
+        },
+        {
+          "word": " of",
+          "start": 15.85,
+          "end": 15.97,
+          "probability": 0.778
+        },
+        {
+          "word": " every",
+          "start": 15.97,
+          "end": 16.17,
+          "probability": 0.997
+        },
+        {
+          "word": " month,",
+          "start": 16.17,
+          "end": 16.41,
+          "probability": 1.0
+        },
+        {
+          "word": " so",
+          "start": 16.73,
+          "end": 16.87,
+          "probability": 0.981
+        },
+        {
+          "word": " yes,",
+          "start": 16.87,
+          "end": 16.99,
+          "probability": 0.936
+        },
+        {
+          "word": " I",
+          "start": 17.09,
+          "end": 17.15,
+          "probability": 0.99
+        },
+        {
+          "word": " took",
+          "start": 17.15,
+          "end": 17.27,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 17.27,
+          "end": 17.41,
+          "probability": 0.964
+        },
+        {
+          "word": " check,",
+          "start": 17.41,
+          "end": 17.61,
+          "probability": 0.92
+        },
+        {
+          "word": " and",
+          "start": 17.93,
+          "end": 18.03,
+          "probability": 0.991
+        },
+        {
+          "word": " I",
+          "start": 18.03,
+          "end": 18.13,
+          "probability": 0.993
+        },
+        {
+          "word": " would",
+          "start": 18.13,
+          "end": 18.21,
+          "probability": 0.531
+        },
+        {
+          "word": " probably",
+          "start": 18.21,
+          "end": 18.45,
+          "probability": 0.994
+        },
+        {
+          "word": " buy",
+          "start": 18.45,
+          "end": 18.67,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 18.67,
+      "end": 21.57,
+      "text": "a $14 activated charcoal smoothie and a lobby on my way out.",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " a",
+          "start": 18.67,
+          "end": 18.79,
+          "probability": 0.96
+        },
+        {
+          "word": " $14",
+          "start": 18.79,
+          "end": 19.11,
+          "probability": 0.916
+        },
+        {
+          "word": " activated",
+          "start": 19.11,
+          "end": 19.79,
+          "probability": 0.743
+        },
+        {
+          "word": " charcoal",
+          "start": 19.79,
+          "end": 20.05,
+          "probability": 0.638
+        },
+        {
+          "word": " smoothie",
+          "start": 20.05,
+          "end": 20.47,
+          "probability": 0.985
+        },
+        {
+          "word": " and",
+          "start": 20.47,
+          "end": 20.65,
+          "probability": 0.462
+        },
+        {
+          "word": " a",
+          "start": 20.65,
+          "end": 20.73,
+          "probability": 0.665
+        },
+        {
+          "word": " lobby",
+          "start": 20.73,
+          "end": 20.93,
+          "probability": 0.98
+        },
+        {
+          "word": " on",
+          "start": 20.93,
+          "end": 21.09,
+          "probability": 0.982
+        },
+        {
+          "word": " my",
+          "start": 21.09,
+          "end": 21.19,
+          "probability": 0.999
+        },
+        {
+          "word": " way",
+          "start": 21.19,
+          "end": 21.35,
+          "probability": 0.989
+        },
+        {
+          "word": " out.",
+          "start": 21.35,
+          "end": 21.57,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 21.83,
+      "end": 25.53,
+      "text": "The system is flawless, but my personal complicity and mis-economy doesn't invalidate the",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " The",
+          "start": 21.83,
+          "end": 21.89,
+          "probability": 0.968
+        },
+        {
+          "word": " system",
+          "start": 21.89,
+          "end": 22.17,
+          "probability": 0.998
+        },
+        {
+          "word": " is",
+          "start": 22.17,
+          "end": 22.33,
+          "probability": 0.972
+        },
+        {
+          "word": " flawless,",
+          "start": 22.33,
+          "end": 22.63,
+          "probability": 0.995
+        },
+        {
+          "word": " but",
+          "start": 22.99,
+          "end": 23.03,
+          "probability": 0.992
+        },
+        {
+          "word": " my",
+          "start": 23.03,
+          "end": 23.17,
+          "probability": 0.998
+        },
+        {
+          "word": " personal",
+          "start": 23.17,
+          "end": 23.49,
+          "probability": 0.998
+        },
+        {
+          "word": " complicity",
+          "start": 23.49,
+          "end": 24.03,
+          "probability": 0.994
+        },
+        {
+          "word": " and",
+          "start": 24.03,
+          "end": 24.17,
+          "probability": 0.785
+        },
+        {
+          "word": " mis",
+          "start": 24.17,
+          "end": 24.31,
+          "probability": 0.558
+        },
+        {
+          "word": "-economy",
+          "start": 24.31,
+          "end": 24.73,
+          "probability": 0.789
+        },
+        {
+          "word": " doesn't",
+          "start": 24.73,
+          "end": 24.95,
+          "probability": 0.943
+        },
+        {
+          "word": " invalidate",
+          "start": 24.95,
+          "end": 25.43,
+          "probability": 0.866
+        },
+        {
+          "word": " the",
+          "start": 25.43,
+          "end": 25.53,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 25.53,
+      "end": 27.25,
+      "text": "trap we're setting for the people who trust us.",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " trap",
+          "start": 25.53,
+          "end": 25.73,
+          "probability": 0.522
+        },
+        {
+          "word": " we're",
+          "start": 25.73,
+          "end": 25.93,
+          "probability": 0.71
+        },
+        {
+          "word": " setting",
+          "start": 25.93,
+          "end": 26.13,
+          "probability": 0.979
+        },
+        {
+          "word": " for",
+          "start": 26.13,
+          "end": 26.31,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 26.31,
+          "end": 26.39,
+          "probability": 0.987
+        },
+        {
+          "word": " people",
+          "start": 26.39,
+          "end": 26.63,
+          "probability": 0.997
+        },
+        {
+          "word": " who",
+          "start": 26.63,
+          "end": 26.77,
+          "probability": 0.962
+        },
+        {
+          "word": " trust",
+          "start": 26.77,
+          "end": 26.99,
+          "probability": 0.992
+        },
+        {
+          "word": " us.",
+          "start": 26.99,
+          "end": 27.25,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 27.55,
+      "end": 30.45,
+      "text": "We can acknowledge that we're all just trying to survive the system, while still having",
+      "avgLogprob": -0.264,
+      "compressionRatio": 1.629,
+      "noSpeechProbability": 0.772,
+      "words": [
+        {
+          "word": " We",
+          "start": 27.55,
+          "end": 27.63,
+          "probability": 0.995
+        },
+        {
+          "word": " can",
+          "start": 27.63,
+          "end": 27.77,
+          "probability": 0.996
+        },
+        {
+          "word": " acknowledge",
+          "start": 27.77,
+          "end": 28.01,
+          "probability": 0.956
+        },
+        {
+          "word": " that",
+          "start": 28.01,
+          "end": 28.29,
+          "probability": 0.995
+        },
+        {
+          "word": " we're",
+          "start": 28.29,
+          "end": 28.45,
+          "probability": 0.993
+        },
+        {
+          "word": " all",
+          "start": 28.45,
+          "end": 28.53,
+          "probability": 0.993
+        },
+        {
+          "word": " just",
+          "start": 28.53,
+          "end": 28.67,
+          "probability": 0.996
+        },
+        {
+          "word": " trying",
+          "start": 28.67,
+          "end": 28.87,
+          "probability": 0.986
+        },
+        {
+          "word": " to",
+          "start": 28.87,
+          "end": 28.95,
+          "probability": 0.999
+        },
+        {
+          "word": " survive",
+          "start": 28.95,
+          "end": 29.19,
+          "probability": 0.978
+        },
+        {
+          "word": " the",
+          "start": 29.19,
+          "end": 29.35,
+          "probability": 0.69
+        },
+        {
+          "word": " system,",
+          "start": 29.35,
+          "end": 29.69,
+          "probability": 0.999
+        },
+        {
+          "word": " while",
+          "start": 29.97,
+          "end": 30.07,
+          "probability": 0.939
+        },
+        {
+          "word": " still",
+          "start": 30.07,
+          "end": 30.23,
+          "probability": 0.998
+        },
+        {
+          "word": " having",
+          "start": 30.23,
+          "end": 30.45,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 31.65,
+      "end": 34.39,
+      "text": "tools we're building or hurting the people who's in them. Now let's talk",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.014,
+      "noSpeechProbability": 0.611,
+      "words": [
+        {
+          "word": " tools",
+          "start": 31.65,
+          "end": 31.89,
+          "probability": 0.057
+        },
+        {
+          "word": " we're",
+          "start": 31.89,
+          "end": 32.09,
+          "probability": 0.704
+        },
+        {
+          "word": " building",
+          "start": 32.09,
+          "end": 32.25,
+          "probability": 0.963
+        },
+        {
+          "word": " or",
+          "start": 32.25,
+          "end": 32.41,
+          "probability": 0.456
+        },
+        {
+          "word": " hurting",
+          "start": 32.41,
+          "end": 32.59,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 32.59,
+          "end": 32.71,
+          "probability": 0.823
+        },
+        {
+          "word": " people",
+          "start": 32.71,
+          "end": 32.91,
+          "probability": 0.996
+        },
+        {
+          "word": " who's",
+          "start": 32.91,
+          "end": 33.19,
+          "probability": 0.616
+        },
+        {
+          "word": " in",
+          "start": 33.19,
+          "end": 33.25,
+          "probability": 0.817
+        },
+        {
+          "word": " them.",
+          "start": 33.25,
+          "end": 33.43,
+          "probability": 0.661
+        },
+        {
+          "word": " Now",
+          "start": 33.69,
+          "end": 33.87,
+          "probability": 0.963
+        },
+        {
+          "word": " let's",
+          "start": 33.87,
+          "end": 34.27,
+          "probability": 0.759
+        },
+        {
+          "word": " talk",
+          "start": 34.27,
+          "end": 34.39,
+          "probability": 0.988
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.796,
+    "wordCount": 13,
+    "credibleWordCount": 12,
+    "segmentCount": 1,
+    "averageWordProbability": 0.751,
+    "vocalSeconds": 2.74,
+    "scanCoverage": 0.85,
+    "reviewRequired": false
+  }
+}

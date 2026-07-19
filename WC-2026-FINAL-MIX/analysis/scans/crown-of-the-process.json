@@ -1,0 +1,1826 @@
+{
+  "analysisVersion": 1,
+  "index": 25,
+  "id": "../VOLHOLLA/song-unpatchedglitch-05.html",
+  "slug": "crown-of-the-process",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Crown talk, cold walk, wobble on the hallway Cummins, my lights bright, everybody feelin' broadway Big stage, big laugh, truth came sideways Secure the machine, why the click went by on five ways Look, it said on Tuesday, too, that make you mediocre But the same was what's proposed when they did like it closer Journey is the joy, I heard that sermon But the red don't clap when the human's still learning The world wants me, but you sell them proof What is true, still a young queen of the process Maybe what it do, if the journey is sacred Who pays for you? Tell the truth, mirror mirror on the wall Who's the fairest after all? Name somebody real it in the queen When the whole damn But the boss wants 10 by the end of the day So what's real, blood in the drop of the thinnest shifts Sweat on the page or the page that flips Who gets paid when the output's clean? Who gets left defending the dream? This ain't anti-human, this ain't pro-machine This is class warfare And a graduate- Still a young queen or the process Baby what it do If the journey is sacred who pays for you Tell the truth, mirror mirror on the wall Who's a fair staffer, all named somebody Related in the Queen When the whole damn kingdom runs on machines Bow down to the hand that made it",
+  "sampledRanges": [
+    [
+      17.04,
+      35.04
+    ],
+    [
+      68.14,
+      86.14
+    ],
+    [
+      119.25,
+      137.25
+    ],
+    [
+      170.36,
+      188.36
+    ]
+  ],
+  "segments": [
+    {
+      "start": 17.04,
+      "end": 19.14,
+      "text": "Crown talk, cold walk, wobble on the hallway",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Crown",
+          "start": 17.04,
+          "end": 17.34,
+          "probability": 0.368
+        },
+        {
+          "word": " talk,",
+          "start": 17.34,
+          "end": 17.6,
+          "probability": 0.509
+        },
+        {
+          "word": " cold",
+          "start": 17.78,
+          "end": 17.92,
+          "probability": 0.138
+        },
+        {
+          "word": " walk,",
+          "start": 17.92,
+          "end": 18.14,
+          "probability": 0.585
+        },
+        {
+          "word": " wobble",
+          "start": 18.32,
+          "end": 18.54,
+          "probability": 0.536
+        },
+        {
+          "word": " on",
+          "start": 18.54,
+          "end": 18.7,
+          "probability": 0.916
+        },
+        {
+          "word": " the",
+          "start": 18.7,
+          "end": 18.8,
+          "probability": 0.763
+        },
+        {
+          "word": " hallway",
+          "start": 18.8,
+          "end": 19.14,
+          "probability": 0.897
+        }
+      ]
+    },
+    {
+      "start": 19.14,
+      "end": 21.3,
+      "text": "Cummins, my lights bright, everybody feelin' broadway",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Cummins,",
+          "start": 19.14,
+          "end": 19.58,
+          "probability": 0.574
+        },
+        {
+          "word": " my",
+          "start": 19.64,
+          "end": 19.7,
+          "probability": 0.179
+        },
+        {
+          "word": " lights",
+          "start": 19.7,
+          "end": 19.86,
+          "probability": 0.901
+        },
+        {
+          "word": " bright,",
+          "start": 19.86,
+          "end": 20.08,
+          "probability": 0.524
+        },
+        {
+          "word": " everybody",
+          "start": 20.08,
+          "end": 20.34,
+          "probability": 0.927
+        },
+        {
+          "word": " feelin'",
+          "start": 20.34,
+          "end": 20.82,
+          "probability": 0.568
+        },
+        {
+          "word": " broadway",
+          "start": 20.92,
+          "end": 21.3,
+          "probability": 0.433
+        }
+      ]
+    },
+    {
+      "start": 21.3,
+      "end": 23.52,
+      "text": "Big stage, big laugh, truth came sideways",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Big",
+          "start": 21.3,
+          "end": 21.74,
+          "probability": 0.935
+        },
+        {
+          "word": " stage,",
+          "start": 21.74,
+          "end": 22.0,
+          "probability": 0.957
+        },
+        {
+          "word": " big",
+          "start": 22.18,
+          "end": 22.32,
+          "probability": 0.986
+        },
+        {
+          "word": " laugh,",
+          "start": 22.32,
+          "end": 22.5,
+          "probability": 0.192
+        },
+        {
+          "word": " truth",
+          "start": 22.7,
+          "end": 22.78,
+          "probability": 0.979
+        },
+        {
+          "word": " came",
+          "start": 22.78,
+          "end": 23.02,
+          "probability": 0.401
+        },
+        {
+          "word": " sideways",
+          "start": 23.02,
+          "end": 23.52,
+          "probability": 0.918
+        }
+      ]
+    },
+    {
+      "start": 23.52,
+      "end": 25.94,
+      "text": "Secure the machine, why the click went by on five ways",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Secure",
+          "start": 23.52,
+          "end": 23.88,
+          "probability": 0.825
+        },
+        {
+          "word": " the",
+          "start": 23.88,
+          "end": 24.0,
+          "probability": 0.965
+        },
+        {
+          "word": " machine,",
+          "start": 24.0,
+          "end": 24.28,
+          "probability": 0.989
+        },
+        {
+          "word": " why",
+          "start": 24.48,
+          "end": 24.52,
+          "probability": 0.075
+        },
+        {
+          "word": " the",
+          "start": 24.52,
+          "end": 24.62,
+          "probability": 0.919
+        },
+        {
+          "word": " click",
+          "start": 24.62,
+          "end": 24.82,
+          "probability": 0.362
+        },
+        {
+          "word": " went",
+          "start": 24.82,
+          "end": 25.06,
+          "probability": 0.279
+        },
+        {
+          "word": " by",
+          "start": 25.06,
+          "end": 25.26,
+          "probability": 0.296
+        },
+        {
+          "word": " on",
+          "start": 25.26,
+          "end": 25.38,
+          "probability": 0.333
+        },
+        {
+          "word": " five",
+          "start": 25.38,
+          "end": 25.56,
+          "probability": 0.705
+        },
+        {
+          "word": " ways",
+          "start": 25.56,
+          "end": 25.94,
+          "probability": 0.838
+        }
+      ]
+    },
+    {
+      "start": 25.94,
+      "end": 28.12,
+      "text": "Look, it said on Tuesday, too, that make you mediocre",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Look,",
+          "start": 25.94,
+          "end": 26.34,
+          "probability": 0.488
+        },
+        {
+          "word": " it",
+          "start": 26.68,
+          "end": 26.68,
+          "probability": 0.445
+        },
+        {
+          "word": " said",
+          "start": 26.68,
+          "end": 26.82,
+          "probability": 0.758
+        },
+        {
+          "word": " on",
+          "start": 26.82,
+          "end": 26.92,
+          "probability": 0.617
+        },
+        {
+          "word": " Tuesday,",
+          "start": 26.92,
+          "end": 27.08,
+          "probability": 0.045
+        },
+        {
+          "word": " too,",
+          "start": 27.24,
+          "end": 27.32,
+          "probability": 0.185
+        },
+        {
+          "word": " that",
+          "start": 27.38,
+          "end": 27.42,
+          "probability": 0.776
+        },
+        {
+          "word": " make",
+          "start": 27.42,
+          "end": 27.56,
+          "probability": 0.873
+        },
+        {
+          "word": " you",
+          "start": 27.56,
+          "end": 27.7,
+          "probability": 0.972
+        },
+        {
+          "word": " mediocre",
+          "start": 27.7,
+          "end": 28.12,
+          "probability": 0.931
+        }
+      ]
+    },
+    {
+      "start": 28.12,
+      "end": 30.08,
+      "text": "But the same was what's proposed when they did like it closer",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " But",
+          "start": 28.12,
+          "end": 28.32,
+          "probability": 0.721
+        },
+        {
+          "word": " the",
+          "start": 28.32,
+          "end": 28.42,
+          "probability": 0.756
+        },
+        {
+          "word": " same",
+          "start": 28.42,
+          "end": 28.56,
+          "probability": 0.476
+        },
+        {
+          "word": " was",
+          "start": 28.56,
+          "end": 28.7,
+          "probability": 0.783
+        },
+        {
+          "word": " what's",
+          "start": 28.7,
+          "end": 28.82,
+          "probability": 0.286
+        },
+        {
+          "word": " proposed",
+          "start": 28.82,
+          "end": 29.08,
+          "probability": 0.751
+        },
+        {
+          "word": " when",
+          "start": 29.08,
+          "end": 29.24,
+          "probability": 0.74
+        },
+        {
+          "word": " they",
+          "start": 29.24,
+          "end": 29.34,
+          "probability": 0.698
+        },
+        {
+          "word": " did",
+          "start": 29.34,
+          "end": 29.44,
+          "probability": 0.702
+        },
+        {
+          "word": " like",
+          "start": 29.44,
+          "end": 29.6,
+          "probability": 0.577
+        },
+        {
+          "word": " it",
+          "start": 29.6,
+          "end": 29.7,
+          "probability": 0.99
+        },
+        {
+          "word": " closer",
+          "start": 29.7,
+          "end": 30.08,
+          "probability": 0.823
+        }
+      ]
+    },
+    {
+      "start": 30.08,
+      "end": 32.02,
+      "text": "Journey is the joy, I heard that sermon",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " Journey",
+          "start": 30.08,
+          "end": 30.68,
+          "probability": 0.65
+        },
+        {
+          "word": " is",
+          "start": 30.68,
+          "end": 30.9,
+          "probability": 0.943
+        },
+        {
+          "word": " the",
+          "start": 30.9,
+          "end": 31.0,
+          "probability": 0.974
+        },
+        {
+          "word": " joy,",
+          "start": 31.0,
+          "end": 31.18,
+          "probability": 0.936
+        },
+        {
+          "word": " I",
+          "start": 31.32,
+          "end": 31.46,
+          "probability": 0.589
+        },
+        {
+          "word": " heard",
+          "start": 31.46,
+          "end": 31.62,
+          "probability": 0.955
+        },
+        {
+          "word": " that",
+          "start": 31.62,
+          "end": 31.74,
+          "probability": 0.957
+        },
+        {
+          "word": " sermon",
+          "start": 31.74,
+          "end": 32.02,
+          "probability": 0.875
+        }
+      ]
+    },
+    {
+      "start": 32.02,
+      "end": 34.38,
+      "text": "But the red don't clap when the human's still learning",
+      "avgLogprob": -0.558,
+      "compressionRatio": 1.568,
+      "noSpeechProbability": 0.561,
+      "words": [
+        {
+          "word": " But",
+          "start": 32.02,
+          "end": 32.36,
+          "probability": 0.606
+        },
+        {
+          "word": " the",
+          "start": 32.36,
+          "end": 32.5,
+          "probability": 0.974
+        },
+        {
+          "word": " red",
+          "start": 32.5,
+          "end": 32.68,
+          "probability": 0.567
+        },
+        {
+          "word": " don't",
+          "start": 32.68,
+          "end": 33.02,
+          "probability": 0.862
+        },
+        {
+          "word": " clap",
+          "start": 33.02,
+          "end": 33.18,
+          "probability": 0.862
+        },
+        {
+          "word": " when",
+          "start": 33.18,
+          "end": 33.42,
+          "probability": 0.756
+        },
+        {
+          "word": " the",
+          "start": 33.42,
+          "end": 33.52,
+          "probability": 0.705
+        },
+        {
+          "word": " human's",
+          "start": 33.52,
+          "end": 33.86,
+          "probability": 0.69
+        },
+        {
+          "word": " still",
+          "start": 33.86,
+          "end": 33.96,
+          "probability": 0.956
+        },
+        {
+          "word": " learning",
+          "start": 33.96,
+          "end": 34.38,
+          "probability": 0.789
+        }
+      ]
+    },
+    {
+      "start": 68.14,
+      "end": 69.9,
+      "text": "The world wants me, but you sell them proof",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " The",
+          "start": 68.14,
+          "end": 68.24,
+          "probability": 0.026
+        },
+        {
+          "word": " world",
+          "start": 68.24,
+          "end": 68.32,
+          "probability": 0.796
+        },
+        {
+          "word": " wants",
+          "start": 68.32,
+          "end": 68.6,
+          "probability": 0.977
+        },
+        {
+          "word": " me,",
+          "start": 68.6,
+          "end": 68.78,
+          "probability": 0.727
+        },
+        {
+          "word": " but",
+          "start": 68.94,
+          "end": 69.0,
+          "probability": 0.982
+        },
+        {
+          "word": " you",
+          "start": 69.0,
+          "end": 69.1,
+          "probability": 0.957
+        },
+        {
+          "word": " sell",
+          "start": 69.1,
+          "end": 69.32,
+          "probability": 0.521
+        },
+        {
+          "word": " them",
+          "start": 69.32,
+          "end": 69.56,
+          "probability": 0.957
+        },
+        {
+          "word": " proof",
+          "start": 69.56,
+          "end": 69.9,
+          "probability": 0.725
+        }
+      ]
+    },
+    {
+      "start": 69.9,
+      "end": 73.8,
+      "text": "What is true, still a young queen of the process",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " What",
+          "start": 69.9,
+          "end": 70.86,
+          "probability": 0.768
+        },
+        {
+          "word": " is",
+          "start": 70.86,
+          "end": 71.1,
+          "probability": 0.95
+        },
+        {
+          "word": " true,",
+          "start": 71.1,
+          "end": 71.6,
+          "probability": 0.941
+        },
+        {
+          "word": " still",
+          "start": 71.88,
+          "end": 72.08,
+          "probability": 0.729
+        },
+        {
+          "word": " a",
+          "start": 72.08,
+          "end": 72.2,
+          "probability": 0.969
+        },
+        {
+          "word": " young",
+          "start": 72.2,
+          "end": 72.42,
+          "probability": 0.994
+        },
+        {
+          "word": " queen",
+          "start": 72.42,
+          "end": 72.64,
+          "probability": 0.855
+        },
+        {
+          "word": " of",
+          "start": 72.64,
+          "end": 72.94,
+          "probability": 0.296
+        },
+        {
+          "word": " the",
+          "start": 72.94,
+          "end": 73.12,
+          "probability": 0.992
+        },
+        {
+          "word": " process",
+          "start": 73.12,
+          "end": 73.8,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 73.8,
+      "end": 77.02,
+      "text": "Maybe what it do, if the journey is sacred",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Maybe",
+          "start": 73.8,
+          "end": 74.44,
+          "probability": 0.657
+        },
+        {
+          "word": " what",
+          "start": 74.44,
+          "end": 74.94,
+          "probability": 0.978
+        },
+        {
+          "word": " it",
+          "start": 74.94,
+          "end": 75.16,
+          "probability": 0.977
+        },
+        {
+          "word": " do,",
+          "start": 75.16,
+          "end": 75.62,
+          "probability": 0.906
+        },
+        {
+          "word": " if",
+          "start": 76.04,
+          "end": 76.16,
+          "probability": 0.948
+        },
+        {
+          "word": " the",
+          "start": 76.16,
+          "end": 76.26,
+          "probability": 0.97
+        },
+        {
+          "word": " journey",
+          "start": 76.26,
+          "end": 76.44,
+          "probability": 0.579
+        },
+        {
+          "word": " is",
+          "start": 76.44,
+          "end": 76.7,
+          "probability": 0.899
+        },
+        {
+          "word": " sacred",
+          "start": 76.7,
+          "end": 77.02,
+          "probability": 0.498
+        }
+      ]
+    },
+    {
+      "start": 77.02,
+      "end": 78.3,
+      "text": "Who pays for you?",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Who",
+          "start": 77.02,
+          "end": 77.26,
+          "probability": 0.664
+        },
+        {
+          "word": " pays",
+          "start": 77.26,
+          "end": 77.46,
+          "probability": 0.996
+        },
+        {
+          "word": " for",
+          "start": 77.46,
+          "end": 77.72,
+          "probability": 0.996
+        },
+        {
+          "word": " you?",
+          "start": 77.72,
+          "end": 78.3,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 78.84,
+      "end": 81.3,
+      "text": "Tell the truth, mirror mirror on the wall",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Tell",
+          "start": 78.84,
+          "end": 78.98,
+          "probability": 0.918
+        },
+        {
+          "word": " the",
+          "start": 78.98,
+          "end": 79.22,
+          "probability": 0.978
+        },
+        {
+          "word": " truth,",
+          "start": 79.22,
+          "end": 79.8,
+          "probability": 0.996
+        },
+        {
+          "word": " mirror",
+          "start": 80.08,
+          "end": 80.28,
+          "probability": 0.708
+        },
+        {
+          "word": " mirror",
+          "start": 80.28,
+          "end": 80.58,
+          "probability": 0.573
+        },
+        {
+          "word": " on",
+          "start": 80.58,
+          "end": 80.74,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 80.74,
+          "end": 80.82,
+          "probability": 0.956
+        },
+        {
+          "word": " wall",
+          "start": 80.82,
+          "end": 81.3,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 81.3,
+      "end": 83.22,
+      "text": "Who's the fairest after all?",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 81.3,
+          "end": 82.08,
+          "probability": 0.802
+        },
+        {
+          "word": " the",
+          "start": 82.08,
+          "end": 82.1,
+          "probability": 0.566
+        },
+        {
+          "word": " fairest",
+          "start": 82.1,
+          "end": 82.42,
+          "probability": 0.631
+        },
+        {
+          "word": " after",
+          "start": 82.42,
+          "end": 82.72,
+          "probability": 0.923
+        },
+        {
+          "word": " all?",
+          "start": 82.72,
+          "end": 83.22,
+          "probability": 0.923
+        }
+      ]
+    },
+    {
+      "start": 83.48,
+      "end": 85.22,
+      "text": "Name somebody real it in the queen",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Name",
+          "start": 83.48,
+          "end": 83.54,
+          "probability": 0.92
+        },
+        {
+          "word": " somebody",
+          "start": 83.54,
+          "end": 84.02,
+          "probability": 0.962
+        },
+        {
+          "word": " real",
+          "start": 84.02,
+          "end": 84.3,
+          "probability": 0.277
+        },
+        {
+          "word": " it",
+          "start": 84.3,
+          "end": 84.44,
+          "probability": 0.748
+        },
+        {
+          "word": " in",
+          "start": 84.44,
+          "end": 84.64,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 84.64,
+          "end": 84.8,
+          "probability": 0.945
+        },
+        {
+          "word": " queen",
+          "start": 84.8,
+          "end": 85.22,
+          "probability": 0.689
+        }
+      ]
+    },
+    {
+      "start": 85.22,
+      "end": 86.08,
+      "text": "When the whole damn",
+      "avgLogprob": -0.331,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " When",
+          "start": 85.22,
+          "end": 85.54,
+          "probability": 0.572
+        },
+        {
+          "word": " the",
+          "start": 85.54,
+          "end": 85.66,
+          "probability": 0.601
+        },
+        {
+          "word": " whole",
+          "start": 85.66,
+          "end": 85.86,
+          "probability": 0.478
+        },
+        {
+          "word": " damn",
+          "start": 85.86,
+          "end": 86.08,
+          "probability": 0.713
+        }
+      ]
+    },
+    {
+      "start": 119.25,
+      "end": 121.05,
+      "text": "But the boss wants 10 by the end of the day",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " But",
+          "start": 119.25,
+          "end": 119.33,
+          "probability": 0.301
+        },
+        {
+          "word": " the",
+          "start": 119.33,
+          "end": 119.43,
+          "probability": 0.873
+        },
+        {
+          "word": " boss",
+          "start": 119.43,
+          "end": 119.63,
+          "probability": 0.965
+        },
+        {
+          "word": " wants",
+          "start": 119.63,
+          "end": 119.93,
+          "probability": 0.839
+        },
+        {
+          "word": " 10",
+          "start": 119.93,
+          "end": 120.15,
+          "probability": 0.503
+        },
+        {
+          "word": " by",
+          "start": 120.15,
+          "end": 120.35,
+          "probability": 0.835
+        },
+        {
+          "word": " the",
+          "start": 120.35,
+          "end": 120.47,
+          "probability": 0.991
+        },
+        {
+          "word": " end",
+          "start": 120.47,
+          "end": 120.59,
+          "probability": 0.996
+        },
+        {
+          "word": " of",
+          "start": 120.59,
+          "end": 120.71,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 120.71,
+          "end": 120.83,
+          "probability": 0.986
+        },
+        {
+          "word": " day",
+          "start": 120.83,
+          "end": 121.05,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 121.05,
+      "end": 124.01,
+      "text": "So what's real, blood in the drop of the thinnest shifts",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " So",
+          "start": 121.05,
+          "end": 121.65,
+          "probability": 0.704
+        },
+        {
+          "word": " what's",
+          "start": 121.65,
+          "end": 122.01,
+          "probability": 0.933
+        },
+        {
+          "word": " real,",
+          "start": 122.01,
+          "end": 122.27,
+          "probability": 0.998
+        },
+        {
+          "word": " blood",
+          "start": 122.63,
+          "end": 122.67,
+          "probability": 0.868
+        },
+        {
+          "word": " in",
+          "start": 122.67,
+          "end": 122.79,
+          "probability": 0.817
+        },
+        {
+          "word": " the",
+          "start": 122.79,
+          "end": 122.89,
+          "probability": 0.946
+        },
+        {
+          "word": " drop",
+          "start": 122.89,
+          "end": 123.09,
+          "probability": 0.665
+        },
+        {
+          "word": " of",
+          "start": 123.09,
+          "end": 123.27,
+          "probability": 0.72
+        },
+        {
+          "word": " the",
+          "start": 123.27,
+          "end": 123.39,
+          "probability": 0.987
+        },
+        {
+          "word": " thinnest",
+          "start": 123.39,
+          "end": 123.77,
+          "probability": 0.585
+        },
+        {
+          "word": " shifts",
+          "start": 123.77,
+          "end": 124.01,
+          "probability": 0.089
+        }
+      ]
+    },
+    {
+      "start": 124.01,
+      "end": 126.01,
+      "text": "Sweat on the page or the page that flips",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " Sweat",
+          "start": 124.01,
+          "end": 124.73,
+          "probability": 0.856
+        },
+        {
+          "word": " on",
+          "start": 124.73,
+          "end": 124.83,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 124.83,
+          "end": 124.93,
+          "probability": 0.952
+        },
+        {
+          "word": " page",
+          "start": 124.93,
+          "end": 125.17,
+          "probability": 0.943
+        },
+        {
+          "word": " or",
+          "start": 125.17,
+          "end": 125.31,
+          "probability": 0.427
+        },
+        {
+          "word": " the",
+          "start": 125.31,
+          "end": 125.45,
+          "probability": 0.976
+        },
+        {
+          "word": " page",
+          "start": 125.45,
+          "end": 125.65,
+          "probability": 0.381
+        },
+        {
+          "word": " that",
+          "start": 125.65,
+          "end": 125.81,
+          "probability": 0.938
+        },
+        {
+          "word": " flips",
+          "start": 125.81,
+          "end": 126.01,
+          "probability": 0.617
+        }
+      ]
+    },
+    {
+      "start": 126.53,
+      "end": 128.23,
+      "text": "Who gets paid when the output's clean?",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " Who",
+          "start": 126.51,
+          "end": 126.71,
+          "probability": 0.955
+        },
+        {
+          "word": " gets",
+          "start": 126.71,
+          "end": 126.89,
+          "probability": 0.985
+        },
+        {
+          "word": " paid",
+          "start": 126.89,
+          "end": 127.15,
+          "probability": 0.963
+        },
+        {
+          "word": " when",
+          "start": 127.15,
+          "end": 127.37,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 127.37,
+          "end": 127.47,
+          "probability": 0.937
+        },
+        {
+          "word": " output's",
+          "start": 127.47,
+          "end": 128.03,
+          "probability": 0.747
+        },
+        {
+          "word": " clean?",
+          "start": 128.03,
+          "end": 128.23,
+          "probability": 0.948
+        }
+      ]
+    },
+    {
+      "start": 128.65,
+      "end": 130.43,
+      "text": "Who gets left defending the dream?",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " Who",
+          "start": 128.65,
+          "end": 128.75,
+          "probability": 0.996
+        },
+        {
+          "word": " gets",
+          "start": 128.75,
+          "end": 128.95,
+          "probability": 0.993
+        },
+        {
+          "word": " left",
+          "start": 128.95,
+          "end": 129.13,
+          "probability": 0.398
+        },
+        {
+          "word": " defending",
+          "start": 129.13,
+          "end": 129.59,
+          "probability": 0.629
+        },
+        {
+          "word": " the",
+          "start": 129.59,
+          "end": 130.03,
+          "probability": 0.985
+        },
+        {
+          "word": " dream?",
+          "start": 130.03,
+          "end": 130.43,
+          "probability": 0.946
+        }
+      ]
+    },
+    {
+      "start": 130.71,
+      "end": 133.89,
+      "text": "This ain't anti-human, this ain't pro-machine",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " This",
+          "start": 130.71,
+          "end": 130.83,
+          "probability": 0.624
+        },
+        {
+          "word": " ain't",
+          "start": 130.83,
+          "end": 131.19,
+          "probability": 0.994
+        },
+        {
+          "word": " anti",
+          "start": 131.19,
+          "end": 131.59,
+          "probability": 0.87
+        },
+        {
+          "word": "-human,",
+          "start": 131.59,
+          "end": 131.99,
+          "probability": 0.812
+        },
+        {
+          "word": " this",
+          "start": 132.65,
+          "end": 132.87,
+          "probability": 0.959
+        },
+        {
+          "word": " ain't",
+          "start": 132.87,
+          "end": 133.19,
+          "probability": 0.999
+        },
+        {
+          "word": " pro",
+          "start": 133.19,
+          "end": 133.39,
+          "probability": 0.711
+        },
+        {
+          "word": "-machine",
+          "start": 133.39,
+          "end": 133.89,
+          "probability": 0.676
+        }
+      ]
+    },
+    {
+      "start": 134.49,
+      "end": 135.95,
+      "text": "This is class warfare",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " This",
+          "start": 134.49,
+          "end": 134.89,
+          "probability": 0.776
+        },
+        {
+          "word": " is",
+          "start": 134.89,
+          "end": 135.07,
+          "probability": 0.977
+        },
+        {
+          "word": " class",
+          "start": 135.07,
+          "end": 135.39,
+          "probability": 0.472
+        },
+        {
+          "word": " warfare",
+          "start": 135.39,
+          "end": 135.95,
+          "probability": 0.911
+        }
+      ]
+    },
+    {
+      "start": 136.51,
+      "end": 137.23,
+      "text": "And a graduate-",
+      "avgLogprob": -0.394,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " And",
+          "start": 136.51,
+          "end": 136.91,
+          "probability": 0.021
+        },
+        {
+          "word": " a",
+          "start": 136.91,
+          "end": 136.99,
+          "probability": 0.412
+        },
+        {
+          "word": " graduate",
+          "start": 136.99,
+          "end": 137.17,
+          "probability": 0.538
+        },
+        {
+          "word": "-",
+          "start": 137.17,
+          "end": 137.23,
+          "probability": 0.29
+        }
+      ]
+    },
+    {
+      "start": 170.36,
+      "end": 172.42,
+      "text": "Still a young queen or the process",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Still",
+          "start": 170.36,
+          "end": 170.7,
+          "probability": 0.667
+        },
+        {
+          "word": " a",
+          "start": 170.7,
+          "end": 170.84,
+          "probability": 0.934
+        },
+        {
+          "word": " young",
+          "start": 170.84,
+          "end": 171.04,
+          "probability": 0.986
+        },
+        {
+          "word": " queen",
+          "start": 171.04,
+          "end": 171.28,
+          "probability": 0.849
+        },
+        {
+          "word": " or",
+          "start": 171.28,
+          "end": 171.56,
+          "probability": 0.337
+        },
+        {
+          "word": " the",
+          "start": 171.56,
+          "end": 171.74,
+          "probability": 0.911
+        },
+        {
+          "word": " process",
+          "start": 171.74,
+          "end": 172.42,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 172.42,
+      "end": 174.3,
+      "text": "Baby what it do",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Baby",
+          "start": 172.42,
+          "end": 173.14,
+          "probability": 0.352
+        },
+        {
+          "word": " what",
+          "start": 173.14,
+          "end": 173.56,
+          "probability": 0.634
+        },
+        {
+          "word": " it",
+          "start": 173.56,
+          "end": 173.82,
+          "probability": 0.796
+        },
+        {
+          "word": " do",
+          "start": 173.82,
+          "end": 174.3,
+          "probability": 0.95
+        }
+      ]
+    },
+    {
+      "start": 174.3,
+      "end": 177.0,
+      "text": "If the journey is sacred who pays for you",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " If",
+          "start": 174.3,
+          "end": 174.78,
+          "probability": 0.47
+        },
+        {
+          "word": " the",
+          "start": 174.78,
+          "end": 174.88,
+          "probability": 0.977
+        },
+        {
+          "word": " journey",
+          "start": 174.88,
+          "end": 175.1,
+          "probability": 0.505
+        },
+        {
+          "word": " is",
+          "start": 175.1,
+          "end": 175.36,
+          "probability": 0.946
+        },
+        {
+          "word": " sacred",
+          "start": 175.36,
+          "end": 175.68,
+          "probability": 0.972
+        },
+        {
+          "word": " who",
+          "start": 175.68,
+          "end": 175.9,
+          "probability": 0.376
+        },
+        {
+          "word": " pays",
+          "start": 175.9,
+          "end": 176.1,
+          "probability": 0.978
+        },
+        {
+          "word": " for",
+          "start": 176.1,
+          "end": 176.36,
+          "probability": 0.994
+        },
+        {
+          "word": " you",
+          "start": 176.36,
+          "end": 177.0,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 177.0,
+      "end": 180.06,
+      "text": "Tell the truth, mirror mirror on the wall",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Tell",
+          "start": 177.0,
+          "end": 177.6,
+          "probability": 0.666
+        },
+        {
+          "word": " the",
+          "start": 177.6,
+          "end": 177.86,
+          "probability": 0.976
+        },
+        {
+          "word": " truth,",
+          "start": 177.86,
+          "end": 178.52,
+          "probability": 0.987
+        },
+        {
+          "word": " mirror",
+          "start": 178.68,
+          "end": 178.94,
+          "probability": 0.501
+        },
+        {
+          "word": " mirror",
+          "start": 178.94,
+          "end": 179.22,
+          "probability": 0.638
+        },
+        {
+          "word": " on",
+          "start": 179.22,
+          "end": 179.4,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 179.4,
+          "end": 179.48,
+          "probability": 0.89
+        },
+        {
+          "word": " wall",
+          "start": 179.48,
+          "end": 180.06,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 180.06,
+      "end": 182.68,
+      "text": "Who's a fair staffer, all named somebody",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 180.06,
+          "end": 180.72,
+          "probability": 0.872
+        },
+        {
+          "word": " a",
+          "start": 180.72,
+          "end": 180.72,
+          "probability": 0.632
+        },
+        {
+          "word": " fair",
+          "start": 180.72,
+          "end": 180.92,
+          "probability": 0.375
+        },
+        {
+          "word": " staffer,",
+          "start": 180.92,
+          "end": 181.4,
+          "probability": 0.564
+        },
+        {
+          "word": " all",
+          "start": 181.62,
+          "end": 181.86,
+          "probability": 0.614
+        },
+        {
+          "word": " named",
+          "start": 181.86,
+          "end": 182.16,
+          "probability": 0.463
+        },
+        {
+          "word": " somebody",
+          "start": 182.16,
+          "end": 182.68,
+          "probability": 0.861
+        }
+      ]
+    },
+    {
+      "start": 182.68,
+      "end": 183.86,
+      "text": "Related in the Queen",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Related",
+          "start": 182.68,
+          "end": 183.12,
+          "probability": 0.244
+        },
+        {
+          "word": " in",
+          "start": 183.12,
+          "end": 183.34,
+          "probability": 0.815
+        },
+        {
+          "word": " the",
+          "start": 183.34,
+          "end": 183.44,
+          "probability": 0.818
+        },
+        {
+          "word": " Queen",
+          "start": 183.44,
+          "end": 183.86,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 183.86,
+      "end": 185.82,
+      "text": "When the whole damn kingdom runs on machines",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " When",
+          "start": 183.86,
+          "end": 184.2,
+          "probability": 0.73
+        },
+        {
+          "word": " the",
+          "start": 184.2,
+          "end": 184.32,
+          "probability": 0.88
+        },
+        {
+          "word": " whole",
+          "start": 184.32,
+          "end": 184.5,
+          "probability": 0.916
+        },
+        {
+          "word": " damn",
+          "start": 184.5,
+          "end": 184.74,
+          "probability": 0.817
+        },
+        {
+          "word": " kingdom",
+          "start": 184.74,
+          "end": 184.98,
+          "probability": 0.517
+        },
+        {
+          "word": " runs",
+          "start": 184.98,
+          "end": 185.26,
+          "probability": 0.998
+        },
+        {
+          "word": " on",
+          "start": 185.26,
+          "end": 185.44,
+          "probability": 0.876
+        },
+        {
+          "word": " machines",
+          "start": 185.44,
+          "end": 185.82,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 185.82,
+      "end": 188.06,
+      "text": "Bow down to the hand that made it",
+      "avgLogprob": -0.425,
+      "compressionRatio": 1.463,
+      "noSpeechProbability": 0.495,
+      "words": [
+        {
+          "word": " Bow",
+          "start": 185.82,
+          "end": 186.48,
+          "probability": 0.606
+        },
+        {
+          "word": " down",
+          "start": 186.48,
+          "end": 186.74,
+          "probability": 0.859
+        },
+        {
+          "word": " to",
+          "start": 186.74,
+          "end": 186.96,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 186.96,
+          "end": 187.1,
+          "probability": 0.98
+        },
+        {
+          "word": " hand",
+          "start": 187.1,
+          "end": 187.32,
+          "probability": 0.724
+        },
+        {
+          "word": " that",
+          "start": 187.32,
+          "end": 187.52,
+          "probability": 0.804
+        },
+        {
+          "word": " made",
+          "start": 187.52,
+          "end": 187.82,
+          "probability": 0.972
+        },
+        {
+          "word": " it",
+          "start": 187.82,
+          "end": 188.06,
+          "probability": 0.992
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.884,
+    "wordCount": 243,
+    "credibleWordCount": 225,
+    "segmentCount": 32,
+    "averageWordProbability": 0.759,
+    "vocalSeconds": 67.78,
+    "scanCoverage": 0.312,
+    "reviewRequired": false
+  }
+}

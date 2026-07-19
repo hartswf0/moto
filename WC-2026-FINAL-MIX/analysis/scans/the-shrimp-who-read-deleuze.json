@@ -1,0 +1,1416 @@
+{
+  "analysisVersion": 1,
+  "index": 34,
+  "id": "../VOLHOLLA/song-nobrightstand-38.html",
+  "slug": "the-shrimp-who-read-deleuze",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "800 fragments film idea mom country line by eggs you call this an archive it is a junk door with iCloud your e-mail drafts just circling back hope you're well absolutely no worries brother there are worries they have built a condo in your throat three cables two mugs one shirt, black pants, white socks by mistake, you look like a stage hand for your own breakdown. Your headphones noise-cancelling, world-cancelling still cannot cancel the one unpaid in voice singing soprano behind your eyes. 47 open, one is a PDF, one is a grant, one is a soup recipe. of why nothing moved. Falcalt, Gertz, Bateson, one article about why you are tired, unread, all of it. Your big idea, brilliant, huge, world-shaking, currently living in a folder named New Me Fennel Mabe, your password manager. It protects your identity. You cannot access it. The self has been secured against excited to share. Nobody is excited, not even share. Your dissertation, a cathedral, a swamp, a spaceship, a hostage note. Every paragraph arrives wearing three hats and asking for a grant. Real, annoying, late, covered in tabs. Always five minutes from either revelation or ordering fries. You light a candle...",
+  "sampledRanges": [
+    [
+      10.69,
+      28.69
+    ],
+    [
+      42.77,
+      60.77
+    ],
+    [
+      74.86,
+      92.86
+    ],
+    [
+      106.94,
+      124.94
+    ]
+  ],
+  "segments": [
+    {
+      "start": 10.69,
+      "end": 16.57,
+      "text": "800 fragments film idea mom country line by eggs you call this an archive it is a junk",
+      "avgLogprob": -0.223,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.226,
+      "words": [
+        {
+          "word": " 800",
+          "start": 10.69,
+          "end": 11.11,
+          "probability": 0.472
+        },
+        {
+          "word": " fragments",
+          "start": 11.11,
+          "end": 11.61,
+          "probability": 0.774
+        },
+        {
+          "word": " film",
+          "start": 11.61,
+          "end": 11.99,
+          "probability": 0.613
+        },
+        {
+          "word": " idea",
+          "start": 11.99,
+          "end": 12.41,
+          "probability": 0.925
+        },
+        {
+          "word": " mom",
+          "start": 12.41,
+          "end": 13.05,
+          "probability": 0.415
+        },
+        {
+          "word": " country",
+          "start": 13.05,
+          "end": 13.47,
+          "probability": 0.85
+        },
+        {
+          "word": " line",
+          "start": 13.47,
+          "end": 13.79,
+          "probability": 0.727
+        },
+        {
+          "word": " by",
+          "start": 13.79,
+          "end": 14.01,
+          "probability": 0.878
+        },
+        {
+          "word": " eggs",
+          "start": 14.01,
+          "end": 14.53,
+          "probability": 0.922
+        },
+        {
+          "word": " you",
+          "start": 14.53,
+          "end": 14.91,
+          "probability": 0.698
+        },
+        {
+          "word": " call",
+          "start": 14.91,
+          "end": 15.13,
+          "probability": 0.98
+        },
+        {
+          "word": " this",
+          "start": 15.13,
+          "end": 15.29,
+          "probability": 0.971
+        },
+        {
+          "word": " an",
+          "start": 15.29,
+          "end": 15.47,
+          "probability": 0.983
+        },
+        {
+          "word": " archive",
+          "start": 15.47,
+          "end": 15.81,
+          "probability": 0.974
+        },
+        {
+          "word": " it",
+          "start": 15.81,
+          "end": 16.13,
+          "probability": 0.441
+        },
+        {
+          "word": " is",
+          "start": 16.13,
+          "end": 16.23,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 16.23,
+          "end": 16.31,
+          "probability": 0.993
+        },
+        {
+          "word": " junk",
+          "start": 16.31,
+          "end": 16.57,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 16.57,
+      "end": 22.59,
+      "text": "door with iCloud your e-mail drafts just circling back hope you're well absolutely no worries",
+      "avgLogprob": -0.223,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.226,
+      "words": [
+        {
+          "word": " door",
+          "start": 16.57,
+          "end": 16.87,
+          "probability": 0.301
+        },
+        {
+          "word": " with",
+          "start": 16.87,
+          "end": 17.11,
+          "probability": 0.993
+        },
+        {
+          "word": " iCloud",
+          "start": 17.11,
+          "end": 17.61,
+          "probability": 0.723
+        },
+        {
+          "word": " your",
+          "start": 17.61,
+          "end": 18.23,
+          "probability": 0.781
+        },
+        {
+          "word": " e",
+          "start": 18.23,
+          "end": 18.47,
+          "probability": 0.406
+        },
+        {
+          "word": "-mail",
+          "start": 18.47,
+          "end": 18.63,
+          "probability": 0.973
+        },
+        {
+          "word": " drafts",
+          "start": 18.63,
+          "end": 19.07,
+          "probability": 0.917
+        },
+        {
+          "word": " just",
+          "start": 19.07,
+          "end": 19.19,
+          "probability": 0.845
+        },
+        {
+          "word": " circling",
+          "start": 19.19,
+          "end": 19.63,
+          "probability": 0.991
+        },
+        {
+          "word": " back",
+          "start": 19.63,
+          "end": 19.89,
+          "probability": 0.994
+        },
+        {
+          "word": " hope",
+          "start": 19.89,
+          "end": 20.15,
+          "probability": 0.918
+        },
+        {
+          "word": " you're",
+          "start": 20.15,
+          "end": 20.41,
+          "probability": 0.948
+        },
+        {
+          "word": " well",
+          "start": 20.41,
+          "end": 20.77,
+          "probability": 0.977
+        },
+        {
+          "word": " absolutely",
+          "start": 20.77,
+          "end": 21.51,
+          "probability": 0.875
+        },
+        {
+          "word": " no",
+          "start": 21.51,
+          "end": 22.13,
+          "probability": 0.958
+        },
+        {
+          "word": " worries",
+          "start": 22.13,
+          "end": 22.59,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 22.59,
+      "end": 28.45,
+      "text": "brother there are worries they have built a condo in your throat three cables two mugs one",
+      "avgLogprob": -0.223,
+      "compressionRatio": 1.457,
+      "noSpeechProbability": 0.226,
+      "words": [
+        {
+          "word": " brother",
+          "start": 22.59,
+          "end": 23.27,
+          "probability": 0.919
+        },
+        {
+          "word": " there",
+          "start": 23.27,
+          "end": 23.51,
+          "probability": 0.811
+        },
+        {
+          "word": " are",
+          "start": 23.51,
+          "end": 23.65,
+          "probability": 0.993
+        },
+        {
+          "word": " worries",
+          "start": 23.65,
+          "end": 24.05,
+          "probability": 0.988
+        },
+        {
+          "word": " they",
+          "start": 24.05,
+          "end": 24.61,
+          "probability": 0.931
+        },
+        {
+          "word": " have",
+          "start": 24.61,
+          "end": 24.73,
+          "probability": 0.993
+        },
+        {
+          "word": " built",
+          "start": 24.73,
+          "end": 25.03,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 25.03,
+          "end": 25.23,
+          "probability": 0.994
+        },
+        {
+          "word": " condo",
+          "start": 25.23,
+          "end": 25.59,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 25.59,
+          "end": 25.71,
+          "probability": 0.954
+        },
+        {
+          "word": " your",
+          "start": 25.71,
+          "end": 25.81,
+          "probability": 0.994
+        },
+        {
+          "word": " throat",
+          "start": 25.81,
+          "end": 26.17,
+          "probability": 0.992
+        },
+        {
+          "word": " three",
+          "start": 26.17,
+          "end": 26.95,
+          "probability": 0.761
+        },
+        {
+          "word": " cables",
+          "start": 26.95,
+          "end": 27.29,
+          "probability": 0.883
+        },
+        {
+          "word": " two",
+          "start": 27.29,
+          "end": 27.67,
+          "probability": 0.89
+        },
+        {
+          "word": " mugs",
+          "start": 27.67,
+          "end": 28.07,
+          "probability": 0.936
+        },
+        {
+          "word": " one",
+          "start": 28.07,
+          "end": 28.45,
+          "probability": 0.923
+        }
+      ]
+    },
+    {
+      "start": 42.77,
+      "end": 47.71,
+      "text": "shirt, black pants, white socks by mistake, you look like a stage hand for your own breakdown.",
+      "avgLogprob": -0.281,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.616,
+      "words": [
+        {
+          "word": " shirt,",
+          "start": 42.77,
+          "end": 42.97,
+          "probability": 0.072
+        },
+        {
+          "word": " black",
+          "start": 43.15,
+          "end": 43.33,
+          "probability": 0.98
+        },
+        {
+          "word": " pants,",
+          "start": 43.33,
+          "end": 43.73,
+          "probability": 0.969
+        },
+        {
+          "word": " white",
+          "start": 44.19,
+          "end": 44.33,
+          "probability": 0.888
+        },
+        {
+          "word": " socks",
+          "start": 44.33,
+          "end": 44.55,
+          "probability": 0.98
+        },
+        {
+          "word": " by",
+          "start": 44.55,
+          "end": 44.87,
+          "probability": 0.929
+        },
+        {
+          "word": " mistake,",
+          "start": 44.87,
+          "end": 45.25,
+          "probability": 0.984
+        },
+        {
+          "word": " you",
+          "start": 45.69,
+          "end": 45.77,
+          "probability": 0.991
+        },
+        {
+          "word": " look",
+          "start": 45.77,
+          "end": 45.91,
+          "probability": 0.992
+        },
+        {
+          "word": " like",
+          "start": 45.91,
+          "end": 46.07,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 46.07,
+          "end": 46.21,
+          "probability": 0.991
+        },
+        {
+          "word": " stage",
+          "start": 46.21,
+          "end": 46.59,
+          "probability": 0.969
+        },
+        {
+          "word": " hand",
+          "start": 46.59,
+          "end": 46.77,
+          "probability": 0.485
+        },
+        {
+          "word": " for",
+          "start": 46.77,
+          "end": 46.95,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 46.95,
+          "end": 47.09,
+          "probability": 0.992
+        },
+        {
+          "word": " own",
+          "start": 47.09,
+          "end": 47.29,
+          "probability": 0.997
+        },
+        {
+          "word": " breakdown.",
+          "start": 47.29,
+          "end": 47.71,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 48.35,
+      "end": 53.31,
+      "text": "Your headphones noise-cancelling, world-cancelling still cannot cancel the one unpaid in voice",
+      "avgLogprob": -0.281,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.616,
+      "words": [
+        {
+          "word": " Your",
+          "start": 48.35,
+          "end": 48.51,
+          "probability": 0.983
+        },
+        {
+          "word": " headphones",
+          "start": 48.51,
+          "end": 49.01,
+          "probability": 0.939
+        },
+        {
+          "word": " noise",
+          "start": 49.01,
+          "end": 49.37,
+          "probability": 0.522
+        },
+        {
+          "word": "-cancelling,",
+          "start": 49.37,
+          "end": 49.95,
+          "probability": 0.745
+        },
+        {
+          "word": " world",
+          "start": 50.15,
+          "end": 50.29,
+          "probability": 0.919
+        },
+        {
+          "word": "-cancelling",
+          "start": 50.29,
+          "end": 50.89,
+          "probability": 0.984
+        },
+        {
+          "word": " still",
+          "start": 50.89,
+          "end": 51.41,
+          "probability": 0.634
+        },
+        {
+          "word": " cannot",
+          "start": 51.41,
+          "end": 51.71,
+          "probability": 0.972
+        },
+        {
+          "word": " cancel",
+          "start": 51.71,
+          "end": 52.17,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 52.17,
+          "end": 52.31,
+          "probability": 0.873
+        },
+        {
+          "word": " one",
+          "start": 52.31,
+          "end": 52.49,
+          "probability": 0.904
+        },
+        {
+          "word": " unpaid",
+          "start": 52.49,
+          "end": 52.89,
+          "probability": 0.746
+        },
+        {
+          "word": " in",
+          "start": 52.89,
+          "end": 53.05,
+          "probability": 0.464
+        },
+        {
+          "word": " voice",
+          "start": 53.05,
+          "end": 53.31,
+          "probability": 0.718
+        }
+      ]
+    },
+    {
+      "start": 53.31,
+      "end": 55.17,
+      "text": "singing soprano behind your eyes.",
+      "avgLogprob": -0.281,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.616,
+      "words": [
+        {
+          "word": " singing",
+          "start": 53.31,
+          "end": 53.63,
+          "probability": 0.946
+        },
+        {
+          "word": " soprano",
+          "start": 53.63,
+          "end": 54.23,
+          "probability": 0.974
+        },
+        {
+          "word": " behind",
+          "start": 54.23,
+          "end": 54.55,
+          "probability": 0.989
+        },
+        {
+          "word": " your",
+          "start": 54.55,
+          "end": 54.79,
+          "probability": 0.997
+        },
+        {
+          "word": " eyes.",
+          "start": 54.79,
+          "end": 55.17,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 55.59,
+      "end": 60.49,
+      "text": "47 open, one is a PDF, one is a grant, one is a soup recipe.",
+      "avgLogprob": -0.281,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.616,
+      "words": [
+        {
+          "word": " 47",
+          "start": 55.59,
+          "end": 56.07,
+          "probability": 0.759
+        },
+        {
+          "word": " open,",
+          "start": 56.07,
+          "end": 56.61,
+          "probability": 0.775
+        },
+        {
+          "word": " one",
+          "start": 56.99,
+          "end": 57.13,
+          "probability": 0.843
+        },
+        {
+          "word": " is",
+          "start": 57.13,
+          "end": 57.27,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 57.27,
+          "end": 57.35,
+          "probability": 0.985
+        },
+        {
+          "word": " PDF,",
+          "start": 57.35,
+          "end": 57.83,
+          "probability": 0.788
+        },
+        {
+          "word": " one",
+          "start": 58.39,
+          "end": 58.49,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 58.49,
+          "end": 58.63,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 58.63,
+          "end": 58.73,
+          "probability": 0.995
+        },
+        {
+          "word": " grant,",
+          "start": 58.73,
+          "end": 59.09,
+          "probability": 0.941
+        },
+        {
+          "word": " one",
+          "start": 59.49,
+          "end": 59.57,
+          "probability": 0.99
+        },
+        {
+          "word": " is",
+          "start": 59.57,
+          "end": 59.71,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 59.71,
+          "end": 59.83,
+          "probability": 0.998
+        },
+        {
+          "word": " soup",
+          "start": 59.83,
+          "end": 60.09,
+          "probability": 0.199
+        },
+        {
+          "word": " recipe.",
+          "start": 60.09,
+          "end": 60.49,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 74.86,
+      "end": 79.42,
+      "text": "of why nothing moved. Falcalt, Gertz, Bateson, one article about why you are",
+      "avgLogprob": -0.348,
+      "compressionRatio": 1.429,
+      "noSpeechProbability": 0.728,
+      "words": [
+        {
+          "word": " of",
+          "start": 74.86,
+          "end": 75.24,
+          "probability": 0.158
+        },
+        {
+          "word": " why",
+          "start": 75.24,
+          "end": 75.4,
+          "probability": 0.839
+        },
+        {
+          "word": " nothing",
+          "start": 75.4,
+          "end": 75.72,
+          "probability": 0.989
+        },
+        {
+          "word": " moved.",
+          "start": 75.72,
+          "end": 76.28,
+          "probability": 0.984
+        },
+        {
+          "word": " Falcalt,",
+          "start": 76.62,
+          "end": 77.02,
+          "probability": 0.559
+        },
+        {
+          "word": " Gertz,",
+          "start": 77.26,
+          "end": 77.54,
+          "probability": 0.844
+        },
+        {
+          "word": " Bateson,",
+          "start": 77.7,
+          "end": 78.06,
+          "probability": 0.618
+        },
+        {
+          "word": " one",
+          "start": 78.18,
+          "end": 78.24,
+          "probability": 0.817
+        },
+        {
+          "word": " article",
+          "start": 78.24,
+          "end": 78.58,
+          "probability": 0.982
+        },
+        {
+          "word": " about",
+          "start": 78.58,
+          "end": 78.9,
+          "probability": 0.996
+        },
+        {
+          "word": " why",
+          "start": 78.9,
+          "end": 79.16,
+          "probability": 0.976
+        },
+        {
+          "word": " you",
+          "start": 79.16,
+          "end": 79.32,
+          "probability": 0.996
+        },
+        {
+          "word": " are",
+          "start": 79.32,
+          "end": 79.42,
+          "probability": 0.96
+        }
+      ]
+    },
+    {
+      "start": 79.42,
+      "end": 84.7,
+      "text": "tired, unread, all of it. Your big idea, brilliant, huge, world-shaking, currently",
+      "avgLogprob": -0.348,
+      "compressionRatio": 1.429,
+      "noSpeechProbability": 0.728,
+      "words": [
+        {
+          "word": " tired,",
+          "start": 79.42,
+          "end": 79.86,
+          "probability": 0.974
+        },
+        {
+          "word": " unread,",
+          "start": 80.24,
+          "end": 80.6,
+          "probability": 0.852
+        },
+        {
+          "word": " all",
+          "start": 80.84,
+          "end": 80.94,
+          "probability": 0.981
+        },
+        {
+          "word": " of",
+          "start": 80.94,
+          "end": 81.1,
+          "probability": 0.999
+        },
+        {
+          "word": " it.",
+          "start": 81.1,
+          "end": 81.28,
+          "probability": 0.997
+        },
+        {
+          "word": " Your",
+          "start": 81.54,
+          "end": 81.62,
+          "probability": 0.908
+        },
+        {
+          "word": " big",
+          "start": 81.62,
+          "end": 81.8,
+          "probability": 0.983
+        },
+        {
+          "word": " idea,",
+          "start": 81.8,
+          "end": 82.24,
+          "probability": 0.992
+        },
+        {
+          "word": " brilliant,",
+          "start": 82.48,
+          "end": 82.76,
+          "probability": 0.971
+        },
+        {
+          "word": " huge,",
+          "start": 82.98,
+          "end": 83.3,
+          "probability": 0.986
+        },
+        {
+          "word": " world",
+          "start": 83.7,
+          "end": 83.84,
+          "probability": 0.925
+        },
+        {
+          "word": "-shaking,",
+          "start": 83.84,
+          "end": 84.22,
+          "probability": 0.855
+        },
+        {
+          "word": " currently",
+          "start": 84.5,
+          "end": 84.7,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 84.7,
+      "end": 89.06,
+      "text": "living in a folder named New Me Fennel Mabe, your password manager. It protects",
+      "avgLogprob": -0.348,
+      "compressionRatio": 1.429,
+      "noSpeechProbability": 0.728,
+      "words": [
+        {
+          "word": " living",
+          "start": 84.7,
+          "end": 84.98,
+          "probability": 0.883
+        },
+        {
+          "word": " in",
+          "start": 84.98,
+          "end": 85.16,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 85.16,
+          "end": 85.24,
+          "probability": 0.998
+        },
+        {
+          "word": " folder",
+          "start": 85.24,
+          "end": 85.48,
+          "probability": 0.996
+        },
+        {
+          "word": " named",
+          "start": 85.48,
+          "end": 85.92,
+          "probability": 0.987
+        },
+        {
+          "word": " New",
+          "start": 85.92,
+          "end": 86.26,
+          "probability": 0.134
+        },
+        {
+          "word": " Me",
+          "start": 86.26,
+          "end": 86.44,
+          "probability": 0.253
+        },
+        {
+          "word": " Fennel",
+          "start": 86.44,
+          "end": 86.84,
+          "probability": 0.54
+        },
+        {
+          "word": " Mabe,",
+          "start": 86.84,
+          "end": 87.12,
+          "probability": 0.459
+        },
+        {
+          "word": " your",
+          "start": 87.4,
+          "end": 87.48,
+          "probability": 0.975
+        },
+        {
+          "word": " password",
+          "start": 87.48,
+          "end": 87.86,
+          "probability": 0.975
+        },
+        {
+          "word": " manager.",
+          "start": 87.86,
+          "end": 88.4,
+          "probability": 0.962
+        },
+        {
+          "word": " It",
+          "start": 88.76,
+          "end": 88.82,
+          "probability": 0.901
+        },
+        {
+          "word": " protects",
+          "start": 88.82,
+          "end": 89.06,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 89.06,
+      "end": 92.74,
+      "text": "your identity. You cannot access it. The self has been secured against",
+      "avgLogprob": -0.348,
+      "compressionRatio": 1.429,
+      "noSpeechProbability": 0.728,
+      "words": [
+        {
+          "word": " your",
+          "start": 89.06,
+          "end": 89.32,
+          "probability": 0.995
+        },
+        {
+          "word": " identity.",
+          "start": 89.32,
+          "end": 89.78,
+          "probability": 0.999
+        },
+        {
+          "word": " You",
+          "start": 90.2,
+          "end": 90.28,
+          "probability": 0.992
+        },
+        {
+          "word": " cannot",
+          "start": 90.28,
+          "end": 90.58,
+          "probability": 0.962
+        },
+        {
+          "word": " access",
+          "start": 90.58,
+          "end": 90.98,
+          "probability": 0.9
+        },
+        {
+          "word": " it.",
+          "start": 90.98,
+          "end": 91.22,
+          "probability": 0.999
+        },
+        {
+          "word": " The",
+          "start": 91.42,
+          "end": 91.5,
+          "probability": 0.987
+        },
+        {
+          "word": " self",
+          "start": 91.5,
+          "end": 91.78,
+          "probability": 0.949
+        },
+        {
+          "word": " has",
+          "start": 91.78,
+          "end": 91.94,
+          "probability": 0.995
+        },
+        {
+          "word": " been",
+          "start": 91.94,
+          "end": 92.06,
+          "probability": 0.998
+        },
+        {
+          "word": " secured",
+          "start": 92.06,
+          "end": 92.44,
+          "probability": 0.987
+        },
+        {
+          "word": " against",
+          "start": 92.44,
+          "end": 92.74,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 106.94,
+      "end": 112.74,
+      "text": "excited to share. Nobody is excited, not even share. Your dissertation, a cathedral, a swamp,",
+      "avgLogprob": -0.208,
+      "compressionRatio": 1.522,
+      "noSpeechProbability": 0.464,
+      "words": [
+        {
+          "word": " excited",
+          "start": 106.94,
+          "end": 107.36,
+          "probability": 0.487
+        },
+        {
+          "word": " to",
+          "start": 107.36,
+          "end": 107.58,
+          "probability": 0.982
+        },
+        {
+          "word": " share.",
+          "start": 107.58,
+          "end": 107.9,
+          "probability": 0.994
+        },
+        {
+          "word": " Nobody",
+          "start": 108.3,
+          "end": 108.54,
+          "probability": 0.913
+        },
+        {
+          "word": " is",
+          "start": 108.54,
+          "end": 108.76,
+          "probability": 0.984
+        },
+        {
+          "word": " excited,",
+          "start": 108.76,
+          "end": 109.2,
+          "probability": 0.982
+        },
+        {
+          "word": " not",
+          "start": 109.36,
+          "end": 109.48,
+          "probability": 0.99
+        },
+        {
+          "word": " even",
+          "start": 109.48,
+          "end": 109.8,
+          "probability": 0.998
+        },
+        {
+          "word": " share.",
+          "start": 109.8,
+          "end": 110.2,
+          "probability": 0.95
+        },
+        {
+          "word": " Your",
+          "start": 110.62,
+          "end": 110.68,
+          "probability": 0.971
+        },
+        {
+          "word": " dissertation,",
+          "start": 110.68,
+          "end": 111.14,
+          "probability": 0.989
+        },
+        {
+          "word": " a",
+          "start": 111.38,
+          "end": 111.4,
+          "probability": 0.973
+        },
+        {
+          "word": " cathedral,",
+          "start": 111.4,
+          "end": 111.92,
+          "probability": 0.96
+        },
+        {
+          "word": " a",
+          "start": 112.34,
+          "end": 112.4,
+          "probability": 0.989
+        },
+        {
+          "word": " swamp,",
+          "start": 112.4,
+          "end": 112.74,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 113.08,
+      "end": 118.24,
+      "text": "a spaceship, a hostage note. Every paragraph arrives wearing three hats and asking for a grant.",
+      "avgLogprob": -0.208,
+      "compressionRatio": 1.522,
+      "noSpeechProbability": 0.464,
+      "words": [
+        {
+          "word": " a",
+          "start": 113.08,
+          "end": 113.18,
+          "probability": 0.996
+        },
+        {
+          "word": " spaceship,",
+          "start": 113.18,
+          "end": 113.7,
+          "probability": 0.929
+        },
+        {
+          "word": " a",
+          "start": 113.86,
+          "end": 113.94,
+          "probability": 0.996
+        },
+        {
+          "word": " hostage",
+          "start": 113.94,
+          "end": 114.28,
+          "probability": 0.992
+        },
+        {
+          "word": " note.",
+          "start": 114.28,
+          "end": 114.68,
+          "probability": 0.953
+        },
+        {
+          "word": " Every",
+          "start": 115.02,
+          "end": 115.2,
+          "probability": 0.992
+        },
+        {
+          "word": " paragraph",
+          "start": 115.2,
+          "end": 115.64,
+          "probability": 0.996
+        },
+        {
+          "word": " arrives",
+          "start": 115.64,
+          "end": 116.1,
+          "probability": 0.979
+        },
+        {
+          "word": " wearing",
+          "start": 116.1,
+          "end": 116.5,
+          "probability": 0.937
+        },
+        {
+          "word": " three",
+          "start": 116.5,
+          "end": 116.82,
+          "probability": 0.649
+        },
+        {
+          "word": " hats",
+          "start": 116.82,
+          "end": 117.06,
+          "probability": 0.997
+        },
+        {
+          "word": " and",
+          "start": 117.06,
+          "end": 117.22,
+          "probability": 0.949
+        },
+        {
+          "word": " asking",
+          "start": 117.22,
+          "end": 117.52,
+          "probability": 0.997
+        },
+        {
+          "word": " for",
+          "start": 117.52,
+          "end": 117.76,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 117.76,
+          "end": 117.92,
+          "probability": 0.989
+        },
+        {
+          "word": " grant.",
+          "start": 117.92,
+          "end": 118.24,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 118.68,
+      "end": 123.32,
+      "text": "Real, annoying, late, covered in tabs. Always five minutes from either revelation or ordering",
+      "avgLogprob": -0.208,
+      "compressionRatio": 1.522,
+      "noSpeechProbability": 0.464,
+      "words": [
+        {
+          "word": " Real,",
+          "start": 118.68,
+          "end": 118.94,
+          "probability": 0.89
+        },
+        {
+          "word": " annoying,",
+          "start": 119.12,
+          "end": 119.36,
+          "probability": 0.971
+        },
+        {
+          "word": " late,",
+          "start": 119.66,
+          "end": 119.82,
+          "probability": 0.999
+        },
+        {
+          "word": " covered",
+          "start": 120.06,
+          "end": 120.2,
+          "probability": 0.995
+        },
+        {
+          "word": " in",
+          "start": 120.2,
+          "end": 120.38,
+          "probability": 0.981
+        },
+        {
+          "word": " tabs.",
+          "start": 120.38,
+          "end": 120.68,
+          "probability": 0.968
+        },
+        {
+          "word": " Always",
+          "start": 121.08,
+          "end": 121.26,
+          "probability": 0.971
+        },
+        {
+          "word": " five",
+          "start": 121.26,
+          "end": 121.58,
+          "probability": 0.857
+        },
+        {
+          "word": " minutes",
+          "start": 121.58,
+          "end": 121.82,
+          "probability": 0.999
+        },
+        {
+          "word": " from",
+          "start": 121.82,
+          "end": 122.06,
+          "probability": 0.996
+        },
+        {
+          "word": " either",
+          "start": 122.06,
+          "end": 122.28,
+          "probability": 0.997
+        },
+        {
+          "word": " revelation",
+          "start": 122.28,
+          "end": 122.72,
+          "probability": 0.851
+        },
+        {
+          "word": " or",
+          "start": 122.72,
+          "end": 122.94,
+          "probability": 0.987
+        },
+        {
+          "word": " ordering",
+          "start": 122.94,
+          "end": 123.32,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 123.32,
+      "end": 124.92,
+      "text": "fries. You light a candle...",
+      "avgLogprob": -0.208,
+      "compressionRatio": 1.522,
+      "noSpeechProbability": 0.464,
+      "words": [
+        {
+          "word": " fries.",
+          "start": 123.32,
+          "end": 123.78,
+          "probability": 0.932
+        },
+        {
+          "word": " You",
+          "start": 124.16,
+          "end": 124.32,
+          "probability": 0.945
+        },
+        {
+          "word": " light",
+          "start": 124.32,
+          "end": 124.5,
+          "probability": 0.42
+        },
+        {
+          "word": " a",
+          "start": 124.5,
+          "end": 124.58,
+          "probability": 0.984
+        },
+        {
+          "word": " candle...",
+          "start": 124.58,
+          "end": 124.92,
+          "probability": 0.567
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.947,
+    "wordCount": 204,
+    "credibleWordCount": 198,
+    "segmentCount": 15,
+    "averageWordProbability": 0.889,
+    "vocalSeconds": 69.5,
+    "scanCoverage": 0.475,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 9,
+  "id": "../VOLHOLLA/song-neon-05.html",
+  "slug": "abyssal-transmission",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      20.19,
+      38.19
+    ],
+    [
+      80.76,
+      98.76
+    ],
+    [
+      141.33,
+      159.33
+    ],
+    [
+      201.9,
+      219.9
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.524,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.266,
+    "reviewRequired": true
+  }
+}

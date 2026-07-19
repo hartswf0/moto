@@ -1,0 +1,1596 @@
+{
+  "analysisVersion": 1,
+  "index": 47,
+  "id": "../VOLHOLLA/song-nobrightstand-01.html",
+  "slug": "the-yard-sign-blues-slide-ten-says",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Perfect font, akin to a jacket made by hands, no one can pronounce. The land acknowledgement, you say the name slowly, beautifully, then the meeting starts when the rent goes up. The mutual aid post, you share the GoFundMe, you do not donate. You add three fire emojis, revolution receives engagement. It says no humming as illogical inside You have three roommates, you Venmo requests 187 for oat milk, the anti-capitalist hoodie $86, distressed cotton, printed in the font of a collapsed factory, the march, you chant, no precise, no peace, then whisper where are we branching? The safe space, everyone is safe except the person who forgot the new word for yesterday's... The non-profit gala, champagne, silent auction A video of poor children projected above salmon The hashtag, it trends, it peaks, it fades The dead stay dead Your profile picture learns a new border The college radical, you hate empire Your dad pays tuition You call this material contradiction in order door-dash The reading group The formula adds up to courage, the revolution you wanted accessible trauma informed, catered, hybrid and ending by six, passing wide-earties for better tax, brees his deving his alarmed stona, ormaneptual every day, has dot full of half the hour, lipsfanned at UIC the really hysterile echo, no time that pours the 12-pharm out of fact cure.",
+  "sampledRanges": [
+    [
+      14.28,
+      32.28
+    ],
+    [
+      57.12,
+      75.12
+    ],
+    [
+      99.95,
+      117.95
+    ],
+    [
+      142.79,
+      160.79
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.28,
+      "end": 17.66,
+      "text": "Perfect font, akin to a jacket made by hands, no one can pronounce.",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.825,
+      "words": [
+        {
+          "word": " Perfect",
+          "start": 14.28,
+          "end": 14.42,
+          "probability": 0.01
+        },
+        {
+          "word": " font,",
+          "start": 14.42,
+          "end": 14.78,
+          "probability": 0.484
+        },
+        {
+          "word": " akin",
+          "start": 15.02,
+          "end": 15.26,
+          "probability": 0.367
+        },
+        {
+          "word": " to",
+          "start": 15.26,
+          "end": 15.4,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 15.4,
+          "end": 15.5,
+          "probability": 0.974
+        },
+        {
+          "word": " jacket",
+          "start": 15.5,
+          "end": 15.78,
+          "probability": 0.994
+        },
+        {
+          "word": " made",
+          "start": 15.78,
+          "end": 15.96,
+          "probability": 0.997
+        },
+        {
+          "word": " by",
+          "start": 15.96,
+          "end": 16.14,
+          "probability": 0.999
+        },
+        {
+          "word": " hands,",
+          "start": 16.14,
+          "end": 16.6,
+          "probability": 0.655
+        },
+        {
+          "word": " no",
+          "start": 16.76,
+          "end": 17.04,
+          "probability": 0.779
+        },
+        {
+          "word": " one",
+          "start": 17.04,
+          "end": 17.16,
+          "probability": 0.973
+        },
+        {
+          "word": " can",
+          "start": 17.16,
+          "end": 17.3,
+          "probability": 0.996
+        },
+        {
+          "word": " pronounce.",
+          "start": 17.3,
+          "end": 17.66,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 18.24,
+      "end": 22.08,
+      "text": "The land acknowledgement, you say the name slowly, beautifully, then the meeting starts",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.825,
+      "words": [
+        {
+          "word": " The",
+          "start": 18.24,
+          "end": 18.32,
+          "probability": 0.937
+        },
+        {
+          "word": " land",
+          "start": 18.32,
+          "end": 18.5,
+          "probability": 0.818
+        },
+        {
+          "word": " acknowledgement,",
+          "start": 18.5,
+          "end": 19.0,
+          "probability": 0.615
+        },
+        {
+          "word": " you",
+          "start": 19.38,
+          "end": 19.44,
+          "probability": 0.953
+        },
+        {
+          "word": " say",
+          "start": 19.44,
+          "end": 19.6,
+          "probability": 0.871
+        },
+        {
+          "word": " the",
+          "start": 19.6,
+          "end": 19.74,
+          "probability": 0.991
+        },
+        {
+          "word": " name",
+          "start": 19.74,
+          "end": 19.9,
+          "probability": 0.989
+        },
+        {
+          "word": " slowly,",
+          "start": 19.9,
+          "end": 20.32,
+          "probability": 0.912
+        },
+        {
+          "word": " beautifully,",
+          "start": 20.8,
+          "end": 20.96,
+          "probability": 0.926
+        },
+        {
+          "word": " then",
+          "start": 21.42,
+          "end": 21.5,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 21.5,
+          "end": 21.62,
+          "probability": 0.994
+        },
+        {
+          "word": " meeting",
+          "start": 21.62,
+          "end": 21.8,
+          "probability": 0.959
+        },
+        {
+          "word": " starts",
+          "start": 21.8,
+          "end": 22.08,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 22.08,
+      "end": 22.96,
+      "text": "when the rent goes up.",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.825,
+      "words": [
+        {
+          "word": " when",
+          "start": 22.08,
+          "end": 22.28,
+          "probability": 0.449
+        },
+        {
+          "word": " the",
+          "start": 22.28,
+          "end": 22.36,
+          "probability": 0.994
+        },
+        {
+          "word": " rent",
+          "start": 22.36,
+          "end": 22.5,
+          "probability": 0.518
+        },
+        {
+          "word": " goes",
+          "start": 22.5,
+          "end": 22.7,
+          "probability": 0.997
+        },
+        {
+          "word": " up.",
+          "start": 22.7,
+          "end": 22.96,
+          "probability": 0.871
+        }
+      ]
+    },
+    {
+      "start": 23.3,
+      "end": 26.18,
+      "text": "The mutual aid post, you share the GoFundMe, you do not donate.",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.825,
+      "words": [
+        {
+          "word": " The",
+          "start": 23.3,
+          "end": 23.38,
+          "probability": 0.971
+        },
+        {
+          "word": " mutual",
+          "start": 23.38,
+          "end": 23.68,
+          "probability": 0.587
+        },
+        {
+          "word": " aid",
+          "start": 23.68,
+          "end": 23.92,
+          "probability": 0.851
+        },
+        {
+          "word": " post,",
+          "start": 23.92,
+          "end": 24.28,
+          "probability": 0.888
+        },
+        {
+          "word": " you",
+          "start": 24.44,
+          "end": 24.52,
+          "probability": 0.949
+        },
+        {
+          "word": " share",
+          "start": 24.52,
+          "end": 24.74,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 24.74,
+          "end": 24.88,
+          "probability": 0.995
+        },
+        {
+          "word": " GoFundMe,",
+          "start": 24.88,
+          "end": 25.4,
+          "probability": 0.747
+        },
+        {
+          "word": " you",
+          "start": 25.5,
+          "end": 25.58,
+          "probability": 0.985
+        },
+        {
+          "word": " do",
+          "start": 25.58,
+          "end": 25.68,
+          "probability": 0.992
+        },
+        {
+          "word": " not",
+          "start": 25.68,
+          "end": 25.86,
+          "probability": 0.995
+        },
+        {
+          "word": " donate.",
+          "start": 25.86,
+          "end": 26.18,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 26.62,
+      "end": 29.54,
+      "text": "You add three fire emojis, revolution receives engagement.",
+      "avgLogprob": -0.333,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.825,
+      "words": [
+        {
+          "word": " You",
+          "start": 26.62,
+          "end": 26.74,
+          "probability": 0.991
+        },
+        {
+          "word": " add",
+          "start": 26.74,
+          "end": 26.94,
+          "probability": 0.982
+        },
+        {
+          "word": " three",
+          "start": 26.94,
+          "end": 27.18,
+          "probability": 0.782
+        },
+        {
+          "word": " fire",
+          "start": 27.18,
+          "end": 27.54,
+          "probability": 0.605
+        },
+        {
+          "word": " emojis,",
+          "start": 27.54,
+          "end": 27.98,
+          "probability": 0.977
+        },
+        {
+          "word": " revolution",
+          "start": 28.2,
+          "end": 28.44,
+          "probability": 0.653
+        },
+        {
+          "word": " receives",
+          "start": 28.44,
+          "end": 28.94,
+          "probability": 0.93
+        },
+        {
+          "word": " engagement.",
+          "start": 28.94,
+          "end": 29.54,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 29.54,
+      "end": 31.94,
+      "text": "It says no humming as illogical inside",
+      "avgLogprob": -0.726,
+      "compressionRatio": 0.826,
+      "noSpeechProbability": 0.425,
+      "words": [
+        {
+          "word": " It",
+          "start": 29.54,
+          "end": 29.92,
+          "probability": 0.428
+        },
+        {
+          "word": " says",
+          "start": 29.92,
+          "end": 30.16,
+          "probability": 0.967
+        },
+        {
+          "word": " no",
+          "start": 30.16,
+          "end": 30.64,
+          "probability": 0.289
+        },
+        {
+          "word": " humming",
+          "start": 30.64,
+          "end": 30.88,
+          "probability": 0.21
+        },
+        {
+          "word": " as",
+          "start": 30.88,
+          "end": 31.04,
+          "probability": 0.557
+        },
+        {
+          "word": " illogical",
+          "start": 31.04,
+          "end": 31.6,
+          "probability": 0.455
+        },
+        {
+          "word": " inside",
+          "start": 31.6,
+          "end": 31.94,
+          "probability": 0.895
+        }
+      ]
+    },
+    {
+      "start": 57.66,
+      "end": 71.02,
+      "text": "You have three roommates, you Venmo requests 187 for oat milk, the anti-capitalist hoodie $86, distressed cotton, printed in the font of a collapsed factory, the march, you chant, no precise, no peace, then whisper where are we branching?",
+      "avgLogprob": -0.414,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.83,
+      "words": [
+        {
+          "word": " You",
+          "start": 57.66,
+          "end": 58.14,
+          "probability": 0.015
+        },
+        {
+          "word": " have",
+          "start": 58.14,
+          "end": 58.28,
+          "probability": 0.587
+        },
+        {
+          "word": " three",
+          "start": 58.28,
+          "end": 58.54,
+          "probability": 0.587
+        },
+        {
+          "word": " roommates,",
+          "start": 58.54,
+          "end": 58.86,
+          "probability": 0.985
+        },
+        {
+          "word": " you",
+          "start": 59.0,
+          "end": 59.1,
+          "probability": 0.881
+        },
+        {
+          "word": " Venmo",
+          "start": 59.1,
+          "end": 59.4,
+          "probability": 0.803
+        },
+        {
+          "word": " requests",
+          "start": 59.4,
+          "end": 59.72,
+          "probability": 0.44
+        },
+        {
+          "word": " 187",
+          "start": 59.72,
+          "end": 60.48,
+          "probability": 0.812
+        },
+        {
+          "word": " for",
+          "start": 60.48,
+          "end": 60.72,
+          "probability": 0.972
+        },
+        {
+          "word": " oat",
+          "start": 60.72,
+          "end": 60.86,
+          "probability": 0.256
+        },
+        {
+          "word": " milk,",
+          "start": 60.86,
+          "end": 61.24,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 61.5,
+          "end": 61.6,
+          "probability": 0.688
+        },
+        {
+          "word": " anti",
+          "start": 61.6,
+          "end": 61.86,
+          "probability": 0.578
+        },
+        {
+          "word": "-capitalist",
+          "start": 61.86,
+          "end": 62.38,
+          "probability": 0.584
+        },
+        {
+          "word": " hoodie",
+          "start": 62.38,
+          "end": 62.52,
+          "probability": 0.863
+        },
+        {
+          "word": " $86,",
+          "start": 62.52,
+          "end": 63.24,
+          "probability": 0.647
+        },
+        {
+          "word": " distressed",
+          "start": 63.86,
+          "end": 64.24,
+          "probability": 0.551
+        },
+        {
+          "word": " cotton,",
+          "start": 64.24,
+          "end": 64.66,
+          "probability": 0.91
+        },
+        {
+          "word": " printed",
+          "start": 65.06,
+          "end": 65.18,
+          "probability": 0.99
+        },
+        {
+          "word": " in",
+          "start": 65.18,
+          "end": 65.36,
+          "probability": 0.982
+        },
+        {
+          "word": " the",
+          "start": 65.36,
+          "end": 65.46,
+          "probability": 0.97
+        },
+        {
+          "word": " font",
+          "start": 65.46,
+          "end": 65.64,
+          "probability": 0.748
+        },
+        {
+          "word": " of",
+          "start": 65.64,
+          "end": 65.8,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 65.8,
+          "end": 65.86,
+          "probability": 0.992
+        },
+        {
+          "word": " collapsed",
+          "start": 65.86,
+          "end": 66.16,
+          "probability": 0.903
+        },
+        {
+          "word": " factory,",
+          "start": 66.16,
+          "end": 66.68,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 67.02,
+          "end": 67.18,
+          "probability": 0.466
+        },
+        {
+          "word": " march,",
+          "start": 67.18,
+          "end": 67.44,
+          "probability": 0.444
+        },
+        {
+          "word": " you",
+          "start": 67.7,
+          "end": 67.76,
+          "probability": 0.917
+        },
+        {
+          "word": " chant,",
+          "start": 67.76,
+          "end": 68.08,
+          "probability": 0.883
+        },
+        {
+          "word": " no",
+          "start": 68.24,
+          "end": 68.3,
+          "probability": 0.78
+        },
+        {
+          "word": " precise,",
+          "start": 68.3,
+          "end": 68.54,
+          "probability": 0.112
+        },
+        {
+          "word": " no",
+          "start": 68.76,
+          "end": 68.84,
+          "probability": 0.994
+        },
+        {
+          "word": " peace,",
+          "start": 68.84,
+          "end": 69.18,
+          "probability": 0.942
+        },
+        {
+          "word": " then",
+          "start": 69.46,
+          "end": 69.66,
+          "probability": 0.911
+        },
+        {
+          "word": " whisper",
+          "start": 69.66,
+          "end": 69.98,
+          "probability": 0.93
+        },
+        {
+          "word": " where",
+          "start": 69.98,
+          "end": 70.22,
+          "probability": 0.492
+        },
+        {
+          "word": " are",
+          "start": 70.22,
+          "end": 70.36,
+          "probability": 0.985
+        },
+        {
+          "word": " we",
+          "start": 70.36,
+          "end": 70.46,
+          "probability": 0.997
+        },
+        {
+          "word": " branching?",
+          "start": 70.46,
+          "end": 71.02,
+          "probability": 0.686
+        }
+      ]
+    },
+    {
+      "start": 71.32,
+      "end": 75.1,
+      "text": "The safe space, everyone is safe except the person who forgot the new word for yesterday's...",
+      "avgLogprob": -0.414,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.83,
+      "words": [
+        {
+          "word": " The",
+          "start": 71.32,
+          "end": 71.4,
+          "probability": 0.922
+        },
+        {
+          "word": " safe",
+          "start": 71.4,
+          "end": 71.6,
+          "probability": 0.988
+        },
+        {
+          "word": " space,",
+          "start": 71.6,
+          "end": 71.98,
+          "probability": 0.981
+        },
+        {
+          "word": " everyone",
+          "start": 72.12,
+          "end": 72.4,
+          "probability": 0.99
+        },
+        {
+          "word": " is",
+          "start": 72.4,
+          "end": 72.52,
+          "probability": 0.976
+        },
+        {
+          "word": " safe",
+          "start": 72.52,
+          "end": 72.74,
+          "probability": 0.999
+        },
+        {
+          "word": " except",
+          "start": 72.74,
+          "end": 73.04,
+          "probability": 0.833
+        },
+        {
+          "word": " the",
+          "start": 73.04,
+          "end": 73.22,
+          "probability": 0.974
+        },
+        {
+          "word": " person",
+          "start": 73.22,
+          "end": 73.52,
+          "probability": 0.997
+        },
+        {
+          "word": " who",
+          "start": 73.52,
+          "end": 73.66,
+          "probability": 0.99
+        },
+        {
+          "word": " forgot",
+          "start": 73.66,
+          "end": 73.92,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 73.92,
+          "end": 74.1,
+          "probability": 0.99
+        },
+        {
+          "word": " new",
+          "start": 74.1,
+          "end": 74.24,
+          "probability": 0.957
+        },
+        {
+          "word": " word",
+          "start": 74.24,
+          "end": 74.48,
+          "probability": 0.994
+        },
+        {
+          "word": " for",
+          "start": 74.48,
+          "end": 74.68,
+          "probability": 0.99
+        },
+        {
+          "word": " yesterday's...",
+          "start": 74.68,
+          "end": 75.1,
+          "probability": 0.425
+        }
+      ]
+    },
+    {
+      "start": 99.95,
+      "end": 102.41,
+      "text": "The non-profit gala, champagne, silent auction",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " The",
+          "start": 99.95,
+          "end": 100.23,
+          "probability": 0.3
+        },
+        {
+          "word": " non",
+          "start": 100.23,
+          "end": 100.39,
+          "probability": 0.397
+        },
+        {
+          "word": "-profit",
+          "start": 100.39,
+          "end": 100.71,
+          "probability": 0.933
+        },
+        {
+          "word": " gala,",
+          "start": 100.71,
+          "end": 101.05,
+          "probability": 0.603
+        },
+        {
+          "word": " champagne,",
+          "start": 101.23,
+          "end": 101.53,
+          "probability": 0.561
+        },
+        {
+          "word": " silent",
+          "start": 101.85,
+          "end": 102.03,
+          "probability": 0.971
+        },
+        {
+          "word": " auction",
+          "start": 102.03,
+          "end": 102.41,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 102.41,
+      "end": 104.87,
+      "text": "A video of poor children projected above salmon",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " A",
+          "start": 102.41,
+          "end": 102.89,
+          "probability": 0.468
+        },
+        {
+          "word": " video",
+          "start": 102.89,
+          "end": 103.17,
+          "probability": 0.985
+        },
+        {
+          "word": " of",
+          "start": 103.17,
+          "end": 103.33,
+          "probability": 0.947
+        },
+        {
+          "word": " poor",
+          "start": 103.33,
+          "end": 103.49,
+          "probability": 0.301
+        },
+        {
+          "word": " children",
+          "start": 103.49,
+          "end": 103.85,
+          "probability": 0.997
+        },
+        {
+          "word": " projected",
+          "start": 103.85,
+          "end": 104.15,
+          "probability": 0.99
+        },
+        {
+          "word": " above",
+          "start": 104.15,
+          "end": 104.51,
+          "probability": 0.996
+        },
+        {
+          "word": " salmon",
+          "start": 104.51,
+          "end": 104.87,
+          "probability": 0.919
+        }
+      ]
+    },
+    {
+      "start": 104.87,
+      "end": 107.45,
+      "text": "The hashtag, it trends, it peaks, it fades",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " The",
+          "start": 104.87,
+          "end": 105.37,
+          "probability": 0.905
+        },
+        {
+          "word": " hashtag,",
+          "start": 105.37,
+          "end": 105.75,
+          "probability": 0.911
+        },
+        {
+          "word": " it",
+          "start": 105.75,
+          "end": 106.03,
+          "probability": 0.839
+        },
+        {
+          "word": " trends,",
+          "start": 106.03,
+          "end": 106.29,
+          "probability": 0.909
+        },
+        {
+          "word": " it",
+          "start": 106.51,
+          "end": 106.57,
+          "probability": 0.984
+        },
+        {
+          "word": " peaks,",
+          "start": 106.57,
+          "end": 106.83,
+          "probability": 0.835
+        },
+        {
+          "word": " it",
+          "start": 107.03,
+          "end": 107.13,
+          "probability": 0.994
+        },
+        {
+          "word": " fades",
+          "start": 107.13,
+          "end": 107.45,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 107.45,
+      "end": 108.75,
+      "text": "The dead stay dead",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " The",
+          "start": 107.45,
+          "end": 107.93,
+          "probability": 0.931
+        },
+        {
+          "word": " dead",
+          "start": 107.93,
+          "end": 108.11,
+          "probability": 0.876
+        },
+        {
+          "word": " stay",
+          "start": 108.11,
+          "end": 108.35,
+          "probability": 0.342
+        },
+        {
+          "word": " dead",
+          "start": 108.35,
+          "end": 108.75,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 108.75,
+      "end": 110.57,
+      "text": "Your profile picture learns a new border",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Your",
+          "start": 108.75,
+          "end": 109.09,
+          "probability": 0.92
+        },
+        {
+          "word": " profile",
+          "start": 109.09,
+          "end": 109.37,
+          "probability": 0.997
+        },
+        {
+          "word": " picture",
+          "start": 109.37,
+          "end": 109.79,
+          "probability": 0.993
+        },
+        {
+          "word": " learns",
+          "start": 109.79,
+          "end": 110.01,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 110.01,
+          "end": 110.17,
+          "probability": 0.985
+        },
+        {
+          "word": " new",
+          "start": 110.17,
+          "end": 110.29,
+          "probability": 0.987
+        },
+        {
+          "word": " border",
+          "start": 110.29,
+          "end": 110.57,
+          "probability": 0.963
+        }
+      ]
+    },
+    {
+      "start": 110.57,
+      "end": 112.53,
+      "text": "The college radical, you hate empire",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " The",
+          "start": 110.57,
+          "end": 111.03,
+          "probability": 0.978
+        },
+        {
+          "word": " college",
+          "start": 111.03,
+          "end": 111.31,
+          "probability": 0.991
+        },
+        {
+          "word": " radical,",
+          "start": 111.31,
+          "end": 111.73,
+          "probability": 0.989
+        },
+        {
+          "word": " you",
+          "start": 111.87,
+          "end": 111.93,
+          "probability": 0.98
+        },
+        {
+          "word": " hate",
+          "start": 111.93,
+          "end": 112.09,
+          "probability": 0.995
+        },
+        {
+          "word": " empire",
+          "start": 112.09,
+          "end": 112.53,
+          "probability": 0.85
+        }
+      ]
+    },
+    {
+      "start": 112.53,
+      "end": 113.79,
+      "text": "Your dad pays tuition",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " Your",
+          "start": 112.53,
+          "end": 112.91,
+          "probability": 0.892
+        },
+        {
+          "word": " dad",
+          "start": 112.91,
+          "end": 113.13,
+          "probability": 0.98
+        },
+        {
+          "word": " pays",
+          "start": 113.13,
+          "end": 113.35,
+          "probability": 0.947
+        },
+        {
+          "word": " tuition",
+          "start": 113.35,
+          "end": 113.79,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 113.79,
+      "end": 116.69,
+      "text": "You call this material contradiction in order door-dash",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " You",
+          "start": 113.79,
+          "end": 114.25,
+          "probability": 0.944
+        },
+        {
+          "word": " call",
+          "start": 114.25,
+          "end": 114.41,
+          "probability": 0.973
+        },
+        {
+          "word": " this",
+          "start": 114.41,
+          "end": 114.59,
+          "probability": 0.998
+        },
+        {
+          "word": " material",
+          "start": 114.59,
+          "end": 115.03,
+          "probability": 0.915
+        },
+        {
+          "word": " contradiction",
+          "start": 115.03,
+          "end": 115.47,
+          "probability": 0.972
+        },
+        {
+          "word": " in",
+          "start": 115.47,
+          "end": 115.77,
+          "probability": 0.252
+        },
+        {
+          "word": " order",
+          "start": 115.77,
+          "end": 115.97,
+          "probability": 0.916
+        },
+        {
+          "word": " door",
+          "start": 115.97,
+          "end": 116.21,
+          "probability": 0.809
+        },
+        {
+          "word": "-dash",
+          "start": 116.21,
+          "end": 116.69,
+          "probability": 0.77
+        }
+      ]
+    },
+    {
+      "start": 116.69,
+      "end": 117.65,
+      "text": "The reading group",
+      "avgLogprob": -0.267,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.655,
+      "words": [
+        {
+          "word": " The",
+          "start": 116.69,
+          "end": 117.09,
+          "probability": 0.957
+        },
+        {
+          "word": " reading",
+          "start": 117.09,
+          "end": 117.31,
+          "probability": 0.948
+        },
+        {
+          "word": " group",
+          "start": 117.31,
+          "end": 117.65,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 142.79,
+      "end": 160.77,
+      "text": "The formula adds up to courage, the revolution you wanted accessible trauma informed, catered, hybrid and ending by six, passing wide-earties for better tax, brees his deving his alarmed stona, ormaneptual every day, has dot full of half the hour, lipsfanned at UIC the really hysterile echo, no time that pours the 12-pharm out of fact cure.",
+      "avgLogprob": -0.675,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.775,
+      "words": [
+        {
+          "word": " The",
+          "start": 142.79,
+          "end": 143.05,
+          "probability": 0.033
+        },
+        {
+          "word": " formula",
+          "start": 143.05,
+          "end": 143.05,
+          "probability": 0.005
+        },
+        {
+          "word": " adds",
+          "start": 143.05,
+          "end": 143.33,
+          "probability": 0.755
+        },
+        {
+          "word": " up",
+          "start": 143.33,
+          "end": 143.47,
+          "probability": 0.98
+        },
+        {
+          "word": " to",
+          "start": 143.47,
+          "end": 143.59,
+          "probability": 0.972
+        },
+        {
+          "word": " courage,",
+          "start": 143.59,
+          "end": 143.95,
+          "probability": 0.914
+        },
+        {
+          "word": " the",
+          "start": 144.13,
+          "end": 144.35,
+          "probability": 0.699
+        },
+        {
+          "word": " revolution",
+          "start": 144.35,
+          "end": 144.79,
+          "probability": 0.882
+        },
+        {
+          "word": " you",
+          "start": 144.79,
+          "end": 144.99,
+          "probability": 0.957
+        },
+        {
+          "word": " wanted",
+          "start": 144.99,
+          "end": 145.19,
+          "probability": 0.853
+        },
+        {
+          "word": " accessible",
+          "start": 145.19,
+          "end": 145.65,
+          "probability": 0.9
+        },
+        {
+          "word": " trauma",
+          "start": 145.65,
+          "end": 146.07,
+          "probability": 0.683
+        },
+        {
+          "word": " informed,",
+          "start": 146.07,
+          "end": 146.69,
+          "probability": 0.851
+        },
+        {
+          "word": " catered,",
+          "start": 146.89,
+          "end": 147.41,
+          "probability": 0.954
+        },
+        {
+          "word": " hybrid",
+          "start": 147.43,
+          "end": 147.71,
+          "probability": 0.978
+        },
+        {
+          "word": " and",
+          "start": 147.71,
+          "end": 147.91,
+          "probability": 0.605
+        },
+        {
+          "word": " ending",
+          "start": 147.91,
+          "end": 148.11,
+          "probability": 0.995
+        },
+        {
+          "word": " by",
+          "start": 148.11,
+          "end": 148.29,
+          "probability": 0.991
+        },
+        {
+          "word": " six,",
+          "start": 148.29,
+          "end": 148.81,
+          "probability": 0.816
+        },
+        {
+          "word": " passing",
+          "start": 149.09,
+          "end": 149.41,
+          "probability": 0.859
+        },
+        {
+          "word": " wide",
+          "start": 149.41,
+          "end": 149.65,
+          "probability": 0.855
+        },
+        {
+          "word": "-earties",
+          "start": 149.65,
+          "end": 149.91,
+          "probability": 0.382
+        },
+        {
+          "word": " for",
+          "start": 149.91,
+          "end": 150.05,
+          "probability": 0.711
+        },
+        {
+          "word": " better",
+          "start": 150.05,
+          "end": 150.31,
+          "probability": 0.994
+        },
+        {
+          "word": " tax,",
+          "start": 150.31,
+          "end": 150.71,
+          "probability": 0.836
+        },
+        {
+          "word": " brees",
+          "start": 151.13,
+          "end": 151.37,
+          "probability": 0.202
+        },
+        {
+          "word": " his",
+          "start": 151.37,
+          "end": 151.53,
+          "probability": 0.97
+        },
+        {
+          "word": " deving",
+          "start": 151.53,
+          "end": 151.79,
+          "probability": 0.127
+        },
+        {
+          "word": " his",
+          "start": 151.79,
+          "end": 151.95,
+          "probability": 0.141
+        },
+        {
+          "word": " alarmed",
+          "start": 151.95,
+          "end": 152.31,
+          "probability": 0.762
+        },
+        {
+          "word": " stona,",
+          "start": 152.31,
+          "end": 152.69,
+          "probability": 0.737
+        },
+        {
+          "word": " ormaneptual",
+          "start": 153.13,
+          "end": 153.71,
+          "probability": 0.465
+        },
+        {
+          "word": " every",
+          "start": 153.71,
+          "end": 154.03,
+          "probability": 0.472
+        },
+        {
+          "word": " day,",
+          "start": 154.03,
+          "end": 154.37,
+          "probability": 0.991
+        },
+        {
+          "word": " has",
+          "start": 154.69,
+          "end": 154.91,
+          "probability": 0.99
+        },
+        {
+          "word": " dot",
+          "start": 154.91,
+          "end": 155.07,
+          "probability": 0.377
+        },
+        {
+          "word": " full",
+          "start": 155.07,
+          "end": 155.27,
+          "probability": 0.712
+        },
+        {
+          "word": " of",
+          "start": 155.27,
+          "end": 155.43,
+          "probability": 0.988
+        },
+        {
+          "word": " half",
+          "start": 155.43,
+          "end": 155.61,
+          "probability": 0.425
+        },
+        {
+          "word": " the",
+          "start": 155.61,
+          "end": 155.79,
+          "probability": 0.742
+        },
+        {
+          "word": " hour,",
+          "start": 155.79,
+          "end": 156.01,
+          "probability": 0.834
+        },
+        {
+          "word": " lipsfanned",
+          "start": 156.35,
+          "end": 156.73,
+          "probability": 0.33
+        },
+        {
+          "word": " at",
+          "start": 156.73,
+          "end": 156.87,
+          "probability": 0.727
+        },
+        {
+          "word": " UIC",
+          "start": 156.87,
+          "end": 157.25,
+          "probability": 0.798
+        },
+        {
+          "word": " the",
+          "start": 157.25,
+          "end": 157.45,
+          "probability": 0.802
+        },
+        {
+          "word": " really",
+          "start": 157.45,
+          "end": 157.67,
+          "probability": 0.156
+        },
+        {
+          "word": " hysterile",
+          "start": 157.67,
+          "end": 158.11,
+          "probability": 0.168
+        },
+        {
+          "word": " echo,",
+          "start": 158.11,
+          "end": 158.43,
+          "probability": 0.149
+        },
+        {
+          "word": " no",
+          "start": 158.87,
+          "end": 158.99,
+          "probability": 0.963
+        },
+        {
+          "word": " time",
+          "start": 158.99,
+          "end": 159.19,
+          "probability": 0.524
+        },
+        {
+          "word": " that",
+          "start": 159.19,
+          "end": 159.35,
+          "probability": 0.338
+        },
+        {
+          "word": " pours",
+          "start": 159.35,
+          "end": 159.65,
+          "probability": 0.937
+        },
+        {
+          "word": " the",
+          "start": 159.65,
+          "end": 159.73,
+          "probability": 0.937
+        },
+        {
+          "word": " 12",
+          "start": 159.73,
+          "end": 159.95,
+          "probability": 0.606
+        },
+        {
+          "word": "-pharm",
+          "start": 159.95,
+          "end": 160.19,
+          "probability": 0.324
+        },
+        {
+          "word": " out",
+          "start": 160.19,
+          "end": 160.29,
+          "probability": 0.188
+        },
+        {
+          "word": " of",
+          "start": 160.29,
+          "end": 160.35,
+          "probability": 0.991
+        },
+        {
+          "word": " fact",
+          "start": 160.35,
+          "end": 160.57,
+          "probability": 0.808
+        },
+        {
+          "word": " cure.",
+          "start": 160.57,
+          "end": 160.77,
+          "probability": 0.062
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.891,
+    "wordCount": 63,
+    "credibleWordCount": 57,
+    "segmentCount": 10,
+    "averageWordProbability": 0.834,
+    "vocalSeconds": 20.1,
+    "scanCoverage": 0.366,
+    "reviewRequired": false
+  }
+}

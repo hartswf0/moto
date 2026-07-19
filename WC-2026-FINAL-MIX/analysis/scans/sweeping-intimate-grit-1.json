@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 24,
+  "id": "../VOLHOLLA/song-abyssalcrown-22.html",
+  "slug": "sweeping-intimate-grit-1",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      18.66,
+      36.66
+    ],
+    [
+      74.62,
+      92.62
+    ],
+    [
+      130.59,
+      148.59
+    ],
+    [
+      186.55,
+      204.55
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.529,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.287,
+    "reviewRequired": true
+  }
+}

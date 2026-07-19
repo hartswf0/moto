@@ -1,0 +1,1066 @@
+{
+  "analysisVersion": 1,
+  "index": 67,
+  "id": "../VOLHOLLA/song-maquina-15.html",
+  "slug": "no-scatter",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "yo",
+  "text": "Nambada waj bifo yu yamu sa bhi yu buddy Shops and beta pastu muchfoss Strikku, donbadi yapyu yor loki Chenari tadeung, naith labis walu pese main Wazmaw, obsabdi I know I know Uzabi obadi Uno fis katavani pressure plenty Uzabi obadi Uno ni talk to me damn Please back for everybody At the vessel, me the biggest noise Save energy, keep your life, keep your work Precious God, you always don't see but change This is the never sleep Mind is ready Peshaw Plenty Who's a B-O-B-D You know me talking with them, no you're weird Who's a B-O-B-D Bambadavati for you, young Who's a B-O-B-D Shaps and metapasco much for O-B-D O-B-D O-B-D",
+  "sampledRanges": [
+    [
+      11.16,
+      29.16
+    ],
+    [
+      44.65,
+      62.65
+    ],
+    [
+      78.13,
+      96.13
+    ],
+    [
+      111.62,
+      129.62
+    ]
+  ],
+  "segments": [
+    {
+      "start": 11.16,
+      "end": 13.92,
+      "text": "Nambada waj bifo yu yamu sa bhi yu buddy",
+      "avgLogprob": -1.348,
+      "compressionRatio": 1.266,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " Nambada",
+          "start": 11.16,
+          "end": 11.88,
+          "probability": 0.173
+        },
+        {
+          "word": " waj",
+          "start": 11.88,
+          "end": 12.08,
+          "probability": 0.114
+        },
+        {
+          "word": " bifo",
+          "start": 12.08,
+          "end": 12.4,
+          "probability": 0.156
+        },
+        {
+          "word": " yu",
+          "start": 12.4,
+          "end": 12.54,
+          "probability": 0.2
+        },
+        {
+          "word": " yamu",
+          "start": 12.54,
+          "end": 12.82,
+          "probability": 0.399
+        },
+        {
+          "word": " sa",
+          "start": 12.82,
+          "end": 12.96,
+          "probability": 0.247
+        },
+        {
+          "word": " bhi",
+          "start": 12.96,
+          "end": 13.2,
+          "probability": 0.213
+        },
+        {
+          "word": " yu",
+          "start": 13.2,
+          "end": 13.3,
+          "probability": 0.41
+        },
+        {
+          "word": " buddy",
+          "start": 13.3,
+          "end": 13.92,
+          "probability": 0.103
+        }
+      ]
+    },
+    {
+      "start": 13.92,
+      "end": 16.6,
+      "text": "Shops and beta pastu muchfoss",
+      "avgLogprob": -1.348,
+      "compressionRatio": 1.266,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " Shops",
+          "start": 13.92,
+          "end": 14.34,
+          "probability": 0.187
+        },
+        {
+          "word": " and",
+          "start": 14.34,
+          "end": 14.58,
+          "probability": 0.268
+        },
+        {
+          "word": " beta",
+          "start": 14.58,
+          "end": 14.84,
+          "probability": 0.148
+        },
+        {
+          "word": " pastu",
+          "start": 14.84,
+          "end": 15.4,
+          "probability": 0.41
+        },
+        {
+          "word": " muchfoss",
+          "start": 15.4,
+          "end": 16.6,
+          "probability": 0.429
+        }
+      ]
+    },
+    {
+      "start": 17.96,
+      "end": 20.94,
+      "text": "Strikku, donbadi yapyu yor loki",
+      "avgLogprob": -1.348,
+      "compressionRatio": 1.266,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " Strikku,",
+          "start": 17.96,
+          "end": 18.8,
+          "probability": 0.431
+        },
+        {
+          "word": " donbadi",
+          "start": 19.18,
+          "end": 19.6,
+          "probability": 0.422
+        },
+        {
+          "word": " yapyu",
+          "start": 19.6,
+          "end": 19.94,
+          "probability": 0.416
+        },
+        {
+          "word": " yor",
+          "start": 19.94,
+          "end": 20.46,
+          "probability": 0.18
+        },
+        {
+          "word": " loki",
+          "start": 20.46,
+          "end": 20.94,
+          "probability": 0.212
+        }
+      ]
+    },
+    {
+      "start": 21.96,
+      "end": 25.94,
+      "text": "Chenari tadeung, naith labis walu pese main",
+      "avgLogprob": -1.348,
+      "compressionRatio": 1.266,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " Chenari",
+          "start": 21.96,
+          "end": 22.4,
+          "probability": 0.222
+        },
+        {
+          "word": " tadeung,",
+          "start": 22.4,
+          "end": 23.4,
+          "probability": 0.205
+        },
+        {
+          "word": " naith",
+          "start": 24.14,
+          "end": 24.4,
+          "probability": 0.422
+        },
+        {
+          "word": " labis",
+          "start": 24.4,
+          "end": 24.64,
+          "probability": 0.34
+        },
+        {
+          "word": " walu",
+          "start": 24.64,
+          "end": 24.82,
+          "probability": 0.406
+        },
+        {
+          "word": " pese",
+          "start": 24.82,
+          "end": 25.26,
+          "probability": 0.303
+        },
+        {
+          "word": " main",
+          "start": 25.26,
+          "end": 25.94,
+          "probability": 0.345
+        }
+      ]
+    },
+    {
+      "start": 27.36,
+      "end": 29.14,
+      "text": "Wazmaw, obsabdi",
+      "avgLogprob": -1.348,
+      "compressionRatio": 1.266,
+      "noSpeechProbability": 0.569,
+      "words": [
+        {
+          "word": " Wazmaw,",
+          "start": 27.36,
+          "end": 28.2,
+          "probability": 0.201
+        },
+        {
+          "word": " obsabdi",
+          "start": 28.68,
+          "end": 29.14,
+          "probability": 0.297
+        }
+      ]
+    },
+    {
+      "start": 50.01,
+      "end": 52.75,
+      "text": "I know I know",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.208,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " I",
+          "start": 50.01,
+          "end": 50.65,
+          "probability": 0.045
+        },
+        {
+          "word": " know",
+          "start": 50.65,
+          "end": 50.85,
+          "probability": 0.767
+        },
+        {
+          "word": " I",
+          "start": 50.85,
+          "end": 51.43,
+          "probability": 0.604
+        },
+        {
+          "word": " know",
+          "start": 51.43,
+          "end": 52.75,
+          "probability": 0.646
+        }
+      ]
+    },
+    {
+      "start": 55.01,
+      "end": 56.27,
+      "text": "Uzabi obadi",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.208,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " Uzabi",
+          "start": 54.89,
+          "end": 55.47,
+          "probability": 0.408
+        },
+        {
+          "word": " obadi",
+          "start": 55.47,
+          "end": 56.27,
+          "probability": 0.377
+        }
+      ]
+    },
+    {
+      "start": 56.27,
+      "end": 58.49,
+      "text": "Uno fis katavani pressure plenty",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.208,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " Uno",
+          "start": 56.27,
+          "end": 56.63,
+          "probability": 0.031
+        },
+        {
+          "word": " fis",
+          "start": 56.63,
+          "end": 56.87,
+          "probability": 0.233
+        },
+        {
+          "word": " katavani",
+          "start": 56.87,
+          "end": 57.49,
+          "probability": 0.618
+        },
+        {
+          "word": " pressure",
+          "start": 57.49,
+          "end": 57.91,
+          "probability": 0.163
+        },
+        {
+          "word": " plenty",
+          "start": 57.91,
+          "end": 58.49,
+          "probability": 0.397
+        }
+      ]
+    },
+    {
+      "start": 59.01,
+      "end": 60.71,
+      "text": "Uzabi obadi",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.208,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " Uzabi",
+          "start": 59.01,
+          "end": 59.87,
+          "probability": 0.982
+        },
+        {
+          "word": " obadi",
+          "start": 59.87,
+          "end": 60.71,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 60.71,
+      "end": 62.49,
+      "text": "Uno ni talk to me damn",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.208,
+      "noSpeechProbability": 0.707,
+      "words": [
+        {
+          "word": " Uno",
+          "start": 60.71,
+          "end": 61.31,
+          "probability": 0.899
+        },
+        {
+          "word": " ni",
+          "start": 61.31,
+          "end": 61.57,
+          "probability": 0.645
+        },
+        {
+          "word": " talk",
+          "start": 61.57,
+          "end": 61.89,
+          "probability": 0.246
+        },
+        {
+          "word": " to",
+          "start": 61.89,
+          "end": 62.11,
+          "probability": 0.899
+        },
+        {
+          "word": " me",
+          "start": 62.11,
+          "end": 62.25,
+          "probability": 0.596
+        },
+        {
+          "word": " damn",
+          "start": 62.25,
+          "end": 62.49,
+          "probability": 0.375
+        }
+      ]
+    },
+    {
+      "start": 78.13,
+      "end": 79.91,
+      "text": "Please back for everybody",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " Please",
+          "start": 78.13,
+          "end": 78.37,
+          "probability": 0.278
+        },
+        {
+          "word": " back",
+          "start": 78.37,
+          "end": 78.67,
+          "probability": 0.33
+        },
+        {
+          "word": " for",
+          "start": 78.67,
+          "end": 79.09,
+          "probability": 0.883
+        },
+        {
+          "word": " everybody",
+          "start": 79.09,
+          "end": 79.91,
+          "probability": 0.943
+        }
+      ]
+    },
+    {
+      "start": 79.91,
+      "end": 82.49,
+      "text": "At the vessel, me the biggest noise",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " At",
+          "start": 79.91,
+          "end": 80.67,
+          "probability": 0.16
+        },
+        {
+          "word": " the",
+          "start": 80.67,
+          "end": 80.79,
+          "probability": 0.145
+        },
+        {
+          "word": " vessel,",
+          "start": 80.79,
+          "end": 81.17,
+          "probability": 0.197
+        },
+        {
+          "word": " me",
+          "start": 81.17,
+          "end": 81.51,
+          "probability": 0.497
+        },
+        {
+          "word": " the",
+          "start": 81.51,
+          "end": 81.67,
+          "probability": 0.708
+        },
+        {
+          "word": " biggest",
+          "start": 81.67,
+          "end": 81.97,
+          "probability": 0.997
+        },
+        {
+          "word": " noise",
+          "start": 81.97,
+          "end": 82.49,
+          "probability": 0.373
+        }
+      ]
+    },
+    {
+      "start": 82.49,
+      "end": 86.15,
+      "text": "Save energy, keep your life, keep your work",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " Save",
+          "start": 82.49,
+          "end": 83.07,
+          "probability": 0.285
+        },
+        {
+          "word": " energy,",
+          "start": 83.07,
+          "end": 83.53,
+          "probability": 0.808
+        },
+        {
+          "word": " keep",
+          "start": 84.01,
+          "end": 84.19,
+          "probability": 0.938
+        },
+        {
+          "word": " your",
+          "start": 84.19,
+          "end": 84.43,
+          "probability": 0.97
+        },
+        {
+          "word": " life,",
+          "start": 84.43,
+          "end": 84.81,
+          "probability": 0.595
+        },
+        {
+          "word": " keep",
+          "start": 85.19,
+          "end": 85.33,
+          "probability": 0.947
+        },
+        {
+          "word": " your",
+          "start": 85.33,
+          "end": 85.59,
+          "probability": 0.984
+        },
+        {
+          "word": " work",
+          "start": 85.59,
+          "end": 86.15,
+          "probability": 0.572
+        }
+      ]
+    },
+    {
+      "start": 86.15,
+      "end": 88.75,
+      "text": "Precious God, you always don't see but change",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " Precious",
+          "start": 86.15,
+          "end": 86.65,
+          "probability": 0.618
+        },
+        {
+          "word": " God,",
+          "start": 86.65,
+          "end": 86.85,
+          "probability": 0.052
+        },
+        {
+          "word": " you",
+          "start": 86.91,
+          "end": 86.97,
+          "probability": 0.245
+        },
+        {
+          "word": " always",
+          "start": 86.97,
+          "end": 87.41,
+          "probability": 0.25
+        },
+        {
+          "word": " don't",
+          "start": 87.41,
+          "end": 87.83,
+          "probability": 0.673
+        },
+        {
+          "word": " see",
+          "start": 87.83,
+          "end": 87.97,
+          "probability": 0.916
+        },
+        {
+          "word": " but",
+          "start": 87.97,
+          "end": 88.11,
+          "probability": 0.143
+        },
+        {
+          "word": " change",
+          "start": 88.11,
+          "end": 88.75,
+          "probability": 0.655
+        }
+      ]
+    },
+    {
+      "start": 89.83,
+      "end": 92.17,
+      "text": "This is the never sleep",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " This",
+          "start": 89.83,
+          "end": 90.53,
+          "probability": 0.461
+        },
+        {
+          "word": " is",
+          "start": 90.53,
+          "end": 90.65,
+          "probability": 0.394
+        },
+        {
+          "word": " the",
+          "start": 90.65,
+          "end": 90.77,
+          "probability": 0.417
+        },
+        {
+          "word": " never",
+          "start": 90.77,
+          "end": 91.13,
+          "probability": 0.501
+        },
+        {
+          "word": " sleep",
+          "start": 91.13,
+          "end": 92.17,
+          "probability": 0.77
+        }
+      ]
+    },
+    {
+      "start": 94.63,
+      "end": 95.75,
+      "text": "Mind is ready",
+      "avgLogprob": -0.71,
+      "compressionRatio": 1.331,
+      "noSpeechProbability": 0.184,
+      "words": [
+        {
+          "word": " Mind",
+          "start": 94.63,
+          "end": 95.33,
+          "probability": 0.416
+        },
+        {
+          "word": " is",
+          "start": 95.33,
+          "end": 95.53,
+          "probability": 0.918
+        },
+        {
+          "word": " ready",
+          "start": 95.53,
+          "end": 95.75,
+          "probability": 0.469
+        }
+      ]
+    },
+    {
+      "start": 111.62,
+      "end": 112.66,
+      "text": "Peshaw Plenty",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " Peshaw",
+          "start": 111.62,
+          "end": 112.18,
+          "probability": 0.241
+        },
+        {
+          "word": " Plenty",
+          "start": 112.18,
+          "end": 112.66,
+          "probability": 0.573
+        }
+      ]
+    },
+    {
+      "start": 113.24,
+      "end": 114.72,
+      "text": "Who's a B-O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 113.24,
+          "end": 113.8,
+          "probability": 0.495
+        },
+        {
+          "word": " a",
+          "start": 113.8,
+          "end": 113.88,
+          "probability": 0.281
+        },
+        {
+          "word": " B",
+          "start": 113.88,
+          "end": 113.98,
+          "probability": 0.153
+        },
+        {
+          "word": "-O",
+          "start": 113.98,
+          "end": 114.28,
+          "probability": 0.255
+        },
+        {
+          "word": "-B",
+          "start": 114.28,
+          "end": 114.44,
+          "probability": 0.595
+        },
+        {
+          "word": "-D",
+          "start": 114.44,
+          "end": 114.72,
+          "probability": 0.644
+        }
+      ]
+    },
+    {
+      "start": 114.72,
+      "end": 117.54,
+      "text": "You know me talking with them, no you're weird",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " You",
+          "start": 114.72,
+          "end": 115.34,
+          "probability": 0.263
+        },
+        {
+          "word": " know",
+          "start": 115.34,
+          "end": 115.48,
+          "probability": 0.776
+        },
+        {
+          "word": " me",
+          "start": 115.48,
+          "end": 115.66,
+          "probability": 0.28
+        },
+        {
+          "word": " talking",
+          "start": 115.66,
+          "end": 116.14,
+          "probability": 0.68
+        },
+        {
+          "word": " with",
+          "start": 116.14,
+          "end": 116.36,
+          "probability": 0.708
+        },
+        {
+          "word": " them,",
+          "start": 116.36,
+          "end": 116.58,
+          "probability": 0.949
+        },
+        {
+          "word": " no",
+          "start": 116.58,
+          "end": 116.88,
+          "probability": 0.428
+        },
+        {
+          "word": " you're",
+          "start": 116.88,
+          "end": 117.36,
+          "probability": 0.616
+        },
+        {
+          "word": " weird",
+          "start": 117.36,
+          "end": 117.54,
+          "probability": 0.132
+        }
+      ]
+    },
+    {
+      "start": 118.12,
+      "end": 119.52,
+      "text": "Who's a B-O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 118.12,
+          "end": 118.5,
+          "probability": 0.955
+        },
+        {
+          "word": " a",
+          "start": 118.5,
+          "end": 118.56,
+          "probability": 0.93
+        },
+        {
+          "word": " B",
+          "start": 118.56,
+          "end": 118.7,
+          "probability": 0.992
+        },
+        {
+          "word": "-O",
+          "start": 118.7,
+          "end": 118.98,
+          "probability": 0.994
+        },
+        {
+          "word": "-B",
+          "start": 118.98,
+          "end": 119.16,
+          "probability": 0.988
+        },
+        {
+          "word": "-D",
+          "start": 119.16,
+          "end": 119.52,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 119.52,
+      "end": 122.08,
+      "text": "Bambadavati for you, young Who's a B-O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " Bambadavati",
+          "start": 119.52,
+          "end": 120.36,
+          "probability": 0.359
+        },
+        {
+          "word": " for",
+          "start": 120.36,
+          "end": 120.6,
+          "probability": 0.483
+        },
+        {
+          "word": " you,",
+          "start": 120.6,
+          "end": 120.72,
+          "probability": 0.863
+        },
+        {
+          "word": " young",
+          "start": 120.76,
+          "end": 120.92,
+          "probability": 0.355
+        },
+        {
+          "word": " Who's",
+          "start": 120.92,
+          "end": 121.1,
+          "probability": 0.83
+        },
+        {
+          "word": " a",
+          "start": 121.1,
+          "end": 121.18,
+          "probability": 0.954
+        },
+        {
+          "word": " B",
+          "start": 121.18,
+          "end": 121.32,
+          "probability": 0.994
+        },
+        {
+          "word": "-O",
+          "start": 121.32,
+          "end": 121.58,
+          "probability": 0.996
+        },
+        {
+          "word": "-B",
+          "start": 121.58,
+          "end": 121.78,
+          "probability": 0.992
+        },
+        {
+          "word": "-D",
+          "start": 121.78,
+          "end": 122.08,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 122.08,
+      "end": 124.32,
+      "text": "Shaps and metapasco much for",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " Shaps",
+          "start": 122.08,
+          "end": 122.52,
+          "probability": 0.35
+        },
+        {
+          "word": " and",
+          "start": 122.52,
+          "end": 122.8,
+          "probability": 0.481
+        },
+        {
+          "word": " metapasco",
+          "start": 122.8,
+          "end": 123.58,
+          "probability": 0.248
+        },
+        {
+          "word": " much",
+          "start": 123.58,
+          "end": 123.96,
+          "probability": 0.484
+        },
+        {
+          "word": " for",
+          "start": 123.96,
+          "end": 124.32,
+          "probability": 0.799
+        }
+      ]
+    },
+    {
+      "start": 124.32,
+      "end": 125.6,
+      "text": "O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " O",
+          "start": 124.32,
+          "end": 124.84,
+          "probability": 0.206
+        },
+        {
+          "word": "-B",
+          "start": 124.84,
+          "end": 125.04,
+          "probability": 0.53
+        },
+        {
+          "word": "-D",
+          "start": 125.04,
+          "end": 125.6,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 125.6,
+      "end": 127.86,
+      "text": "O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " O",
+          "start": 125.6,
+          "end": 126.0,
+          "probability": 0.806
+        },
+        {
+          "word": "-B",
+          "start": 126.0,
+          "end": 126.2,
+          "probability": 0.991
+        },
+        {
+          "word": "-D",
+          "start": 126.2,
+          "end": 127.86,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 127.86,
+      "end": 129.0,
+      "text": "O-B-D",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " O",
+          "start": 127.86,
+          "end": 128.34,
+          "probability": 0.839
+        },
+        {
+          "word": "-B",
+          "start": 128.34,
+          "end": 128.58,
+          "probability": 0.99
+        },
+        {
+          "word": "-D",
+          "start": 128.58,
+          "end": 129.0,
+          "probability": 0.998
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.806,
+    "wordCount": 101,
+    "credibleWordCount": 77,
+    "segmentCount": 20,
+    "averageWordProbability": 0.603,
+    "vocalSeconds": 40.0,
+    "scanCoverage": 0.457,
+    "reviewRequired": false
+  }
+}

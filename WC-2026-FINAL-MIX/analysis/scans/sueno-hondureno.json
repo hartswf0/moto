@@ -1,0 +1,424 @@
+{
+  "analysisVersion": 1,
+  "index": 95,
+  "id": "../VOLHOLLA/song-concreto-05.html",
+  "slug": "sueno-hondureno",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Chubiacis, putas quieta ladra mi colchón Papá se fue un martes de abris Maletas, pero con una misión Mamá lloraba, yo me entendía la distancia Solo el frío de sozones The selva no perdona la frontera es una bruta 7 estrellas brillando en mi pecho We are the brothers, we are the...",
+  "sampledRanges": [
+    [
+      21.0,
+      39.0
+    ],
+    [
+      83.98,
+      101.98
+    ],
+    [
+      146.97,
+      164.97
+    ],
+    [
+      209.96,
+      227.96
+    ]
+  ],
+  "segments": [
+    {
+      "start": 28.76,
+      "end": 31.18,
+      "text": "Chubiacis, putas quieta ladra mi colchón",
+      "avgLogprob": -0.676,
+      "compressionRatio": 1.246,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Chubiacis,",
+          "start": 28.76,
+          "end": 29.28,
+          "probability": 0.342
+        },
+        {
+          "word": " putas",
+          "start": 29.34,
+          "end": 29.82,
+          "probability": 0.325
+        },
+        {
+          "word": " quieta",
+          "start": 29.82,
+          "end": 30.14,
+          "probability": 0.367
+        },
+        {
+          "word": " ladra",
+          "start": 30.14,
+          "end": 30.4,
+          "probability": 0.683
+        },
+        {
+          "word": " mi",
+          "start": 30.4,
+          "end": 30.56,
+          "probability": 0.205
+        },
+        {
+          "word": " colchón",
+          "start": 30.56,
+          "end": 31.18,
+          "probability": 0.874
+        }
+      ]
+    },
+    {
+      "start": 31.18,
+      "end": 32.7,
+      "text": "Papá se fue un martes de abris",
+      "avgLogprob": -0.676,
+      "compressionRatio": 1.246,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Papá",
+          "start": 31.18,
+          "end": 31.58,
+          "probability": 0.286
+        },
+        {
+          "word": " se",
+          "start": 31.58,
+          "end": 31.76,
+          "probability": 0.805
+        },
+        {
+          "word": " fue",
+          "start": 31.76,
+          "end": 31.9,
+          "probability": 0.41
+        },
+        {
+          "word": " un",
+          "start": 31.9,
+          "end": 32.04,
+          "probability": 0.773
+        },
+        {
+          "word": " martes",
+          "start": 32.04,
+          "end": 32.34,
+          "probability": 0.91
+        },
+        {
+          "word": " de",
+          "start": 32.34,
+          "end": 32.44,
+          "probability": 0.954
+        },
+        {
+          "word": " abris",
+          "start": 32.44,
+          "end": 32.7,
+          "probability": 0.617
+        }
+      ]
+    },
+    {
+      "start": 32.7,
+      "end": 34.78,
+      "text": "Maletas, pero con una misión",
+      "avgLogprob": -0.676,
+      "compressionRatio": 1.246,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Maletas,",
+          "start": 32.7,
+          "end": 33.44,
+          "probability": 0.481
+        },
+        {
+          "word": " pero",
+          "start": 33.5,
+          "end": 33.74,
+          "probability": 0.979
+        },
+        {
+          "word": " con",
+          "start": 33.74,
+          "end": 34.02,
+          "probability": 0.956
+        },
+        {
+          "word": " una",
+          "start": 34.02,
+          "end": 34.26,
+          "probability": 0.989
+        },
+        {
+          "word": " misión",
+          "start": 34.26,
+          "end": 34.78,
+          "probability": 0.684
+        }
+      ]
+    },
+    {
+      "start": 34.78,
+      "end": 37.48,
+      "text": "Mamá lloraba, yo me entendía la distancia",
+      "avgLogprob": -0.676,
+      "compressionRatio": 1.246,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Mamá",
+          "start": 34.78,
+          "end": 35.32,
+          "probability": 0.641
+        },
+        {
+          "word": " lloraba,",
+          "start": 35.32,
+          "end": 35.88,
+          "probability": 0.9
+        },
+        {
+          "word": " yo",
+          "start": 36.12,
+          "end": 36.22,
+          "probability": 0.887
+        },
+        {
+          "word": " me",
+          "start": 36.22,
+          "end": 36.3,
+          "probability": 0.611
+        },
+        {
+          "word": " entendía",
+          "start": 36.3,
+          "end": 36.82,
+          "probability": 0.519
+        },
+        {
+          "word": " la",
+          "start": 36.82,
+          "end": 36.96,
+          "probability": 0.897
+        },
+        {
+          "word": " distancia",
+          "start": 36.96,
+          "end": 37.48,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 37.48,
+      "end": 38.88,
+      "text": "Solo el frío de sozones",
+      "avgLogprob": -0.676,
+      "compressionRatio": 1.246,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Solo",
+          "start": 37.48,
+          "end": 37.74,
+          "probability": 0.068
+        },
+        {
+          "word": " el",
+          "start": 37.74,
+          "end": 37.9,
+          "probability": 0.964
+        },
+        {
+          "word": " frío",
+          "start": 37.9,
+          "end": 38.2,
+          "probability": 0.929
+        },
+        {
+          "word": " de",
+          "start": 38.2,
+          "end": 38.34,
+          "probability": 0.982
+        },
+        {
+          "word": " sozones",
+          "start": 38.34,
+          "end": 38.88,
+          "probability": 0.35
+        }
+      ]
+    },
+    {
+      "start": 97.24,
+      "end": 101.76,
+      "text": "The selva no perdona la frontera es una bruta 7 estrellas brillando en mi pecho",
+      "avgLogprob": -0.607,
+      "compressionRatio": 1.082,
+      "noSpeechProbability": 0.268,
+      "words": [
+        {
+          "word": " The",
+          "start": 97.24,
+          "end": 97.54,
+          "probability": 0.057
+        },
+        {
+          "word": " selva",
+          "start": 97.54,
+          "end": 97.9,
+          "probability": 0.208
+        },
+        {
+          "word": " no",
+          "start": 97.9,
+          "end": 98.02,
+          "probability": 0.224
+        },
+        {
+          "word": " perdona",
+          "start": 98.02,
+          "end": 98.54,
+          "probability": 0.877
+        },
+        {
+          "word": " la",
+          "start": 98.54,
+          "end": 98.7,
+          "probability": 0.463
+        },
+        {
+          "word": " frontera",
+          "start": 98.7,
+          "end": 99.14,
+          "probability": 0.859
+        },
+        {
+          "word": " es",
+          "start": 99.14,
+          "end": 99.34,
+          "probability": 0.576
+        },
+        {
+          "word": " una",
+          "start": 99.34,
+          "end": 99.52,
+          "probability": 0.984
+        },
+        {
+          "word": " bruta",
+          "start": 99.52,
+          "end": 99.86,
+          "probability": 0.518
+        },
+        {
+          "word": " 7",
+          "start": 99.86,
+          "end": 100.06,
+          "probability": 0.227
+        },
+        {
+          "word": " estrellas",
+          "start": 100.06,
+          "end": 100.78,
+          "probability": 0.936
+        },
+        {
+          "word": " brillando",
+          "start": 100.78,
+          "end": 101.26,
+          "probability": 0.733
+        },
+        {
+          "word": " en",
+          "start": 101.26,
+          "end": 101.38,
+          "probability": 0.733
+        },
+        {
+          "word": " mi",
+          "start": 101.38,
+          "end": 101.46,
+          "probability": 0.893
+        },
+        {
+          "word": " pecho",
+          "start": 101.46,
+          "end": 101.76,
+          "probability": 0.943
+        }
+      ]
+    },
+    {
+      "start": 162.93,
+      "end": 164.95,
+      "text": "We are the brothers, we are the...",
+      "avgLogprob": -1.121,
+      "compressionRatio": 1.03,
+      "noSpeechProbability": 0.509,
+      "words": [
+        {
+          "word": " We",
+          "start": 162.93,
+          "end": 163.39,
+          "probability": 0.134
+        },
+        {
+          "word": " are",
+          "start": 163.39,
+          "end": 163.55,
+          "probability": 0.636
+        },
+        {
+          "word": " the",
+          "start": 163.55,
+          "end": 163.85,
+          "probability": 0.1
+        },
+        {
+          "word": " brothers,",
+          "start": 163.85,
+          "end": 164.17,
+          "probability": 0.219
+        },
+        {
+          "word": " we",
+          "start": 164.59,
+          "end": 164.75,
+          "probability": 0.942
+        },
+        {
+          "word": " are",
+          "start": 164.75,
+          "end": 164.85,
+          "probability": 0.94
+        },
+        {
+          "word": " the...",
+          "start": 164.85,
+          "end": 164.95,
+          "probability": 0.391
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.781,
+    "wordCount": 45,
+    "credibleWordCount": 36,
+    "segmentCount": 6,
+    "averageWordProbability": 0.658,
+    "vocalSeconds": 14.64,
+    "scanCoverage": 0.257,
+    "reviewRequired": false
+  }
+}

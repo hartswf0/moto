@@ -1,0 +1,1022 @@
+{
+  "analysisVersion": 1,
+  "index": 97,
+  "id": "../VOLHOLLA/song-concreto-13.html",
+  "slug": "arquitectura-anti-gris",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "es",
+  "text": "la bota volve al cemento, lata de spray agita al pigmento, tengo el plano, tengo el mando, no pinto cara a tu irre programando, hay gris intenta volver, pero el color es la hierro de un rey en el barrio, soy el disay de la guerra. 92 pulso firme nadie puede unirme cromo en el 8 hundred and eight que la envidia no te explot. Madera se cae en la biblioteca de la calle cuidando cada detalle flota malla beat crush. Todo el sistema está harsh silencio de mando estamos avanzando paso de gigante brillante frío, tmp. y ordenando el caos, apiando el bloque, primer toque, boom, boom, boom, boom. Arquitectura en Tigris, máquina de Dios, mandando en el matiz con el Forcount y la disciplina. Toda la ruina se vuelve oro. Escucha el coro. No vuelve a ir gris.",
+  "sampledRanges": [
+    [
+      12.22,
+      30.22
+    ],
+    [
+      48.87,
+      66.87
+    ],
+    [
+      85.52,
+      103.52
+    ],
+    [
+      122.17,
+      140.17
+    ]
+  ],
+  "segments": [
+    {
+      "start": 16.24,
+      "end": 22.28,
+      "text": "la bota volve al cemento, lata de spray agita al pigmento, tengo el plano, tengo el mando,",
+      "avgLogprob": -0.506,
+      "compressionRatio": 1.608,
+      "noSpeechProbability": 0.716,
+      "words": [
+        {
+          "word": " la",
+          "start": 16.24,
+          "end": 16.68,
+          "probability": 0.019
+        },
+        {
+          "word": " bota",
+          "start": 16.68,
+          "end": 17.12,
+          "probability": 0.728
+        },
+        {
+          "word": " volve",
+          "start": 17.12,
+          "end": 17.44,
+          "probability": 0.454
+        },
+        {
+          "word": " al",
+          "start": 17.44,
+          "end": 17.64,
+          "probability": 0.391
+        },
+        {
+          "word": " cemento,",
+          "start": 17.64,
+          "end": 18.26,
+          "probability": 0.965
+        },
+        {
+          "word": " lata",
+          "start": 18.36,
+          "end": 18.52,
+          "probability": 0.636
+        },
+        {
+          "word": " de",
+          "start": 18.52,
+          "end": 18.66,
+          "probability": 0.864
+        },
+        {
+          "word": " spray",
+          "start": 18.66,
+          "end": 19.0,
+          "probability": 0.829
+        },
+        {
+          "word": " agita",
+          "start": 19.0,
+          "end": 19.58,
+          "probability": 0.822
+        },
+        {
+          "word": " al",
+          "start": 19.58,
+          "end": 19.7,
+          "probability": 0.628
+        },
+        {
+          "word": " pigmento,",
+          "start": 19.7,
+          "end": 20.34,
+          "probability": 0.979
+        },
+        {
+          "word": " tengo",
+          "start": 20.42,
+          "end": 20.68,
+          "probability": 0.986
+        },
+        {
+          "word": " el",
+          "start": 20.68,
+          "end": 20.84,
+          "probability": 0.924
+        },
+        {
+          "word": " plano,",
+          "start": 20.84,
+          "end": 21.2,
+          "probability": 0.93
+        },
+        {
+          "word": " tengo",
+          "start": 21.46,
+          "end": 21.72,
+          "probability": 0.978
+        },
+        {
+          "word": " el",
+          "start": 21.72,
+          "end": 21.88,
+          "probability": 0.962
+        },
+        {
+          "word": " mando,",
+          "start": 21.88,
+          "end": 22.28,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 22.4,
+      "end": 27.32,
+      "text": "no pinto cara a tu irre programando, hay gris intenta volver, pero el color es la hierro",
+      "avgLogprob": -0.506,
+      "compressionRatio": 1.608,
+      "noSpeechProbability": 0.716,
+      "words": [
+        {
+          "word": " no",
+          "start": 22.4,
+          "end": 22.48,
+          "probability": 0.992
+        },
+        {
+          "word": " pinto",
+          "start": 22.48,
+          "end": 22.76,
+          "probability": 0.825
+        },
+        {
+          "word": " cara",
+          "start": 22.76,
+          "end": 23.08,
+          "probability": 0.819
+        },
+        {
+          "word": " a",
+          "start": 23.08,
+          "end": 23.28,
+          "probability": 0.53
+        },
+        {
+          "word": " tu",
+          "start": 23.28,
+          "end": 23.28,
+          "probability": 0.6
+        },
+        {
+          "word": " irre",
+          "start": 23.28,
+          "end": 23.54,
+          "probability": 0.35
+        },
+        {
+          "word": " programando,",
+          "start": 23.54,
+          "end": 24.28,
+          "probability": 0.914
+        },
+        {
+          "word": " hay",
+          "start": 24.5,
+          "end": 24.58,
+          "probability": 0.105
+        },
+        {
+          "word": " gris",
+          "start": 24.58,
+          "end": 24.8,
+          "probability": 0.684
+        },
+        {
+          "word": " intenta",
+          "start": 24.8,
+          "end": 25.26,
+          "probability": 0.934
+        },
+        {
+          "word": " volver,",
+          "start": 25.26,
+          "end": 25.58,
+          "probability": 0.868
+        },
+        {
+          "word": " pero",
+          "start": 25.96,
+          "end": 26.18,
+          "probability": 0.995
+        },
+        {
+          "word": " el",
+          "start": 26.18,
+          "end": 26.3,
+          "probability": 0.996
+        },
+        {
+          "word": " color",
+          "start": 26.3,
+          "end": 26.56,
+          "probability": 0.836
+        },
+        {
+          "word": " es",
+          "start": 26.56,
+          "end": 26.84,
+          "probability": 0.996
+        },
+        {
+          "word": " la",
+          "start": 26.84,
+          "end": 26.92,
+          "probability": 0.624
+        },
+        {
+          "word": " hierro",
+          "start": 26.92,
+          "end": 27.32,
+          "probability": 0.585
+        }
+      ]
+    },
+    {
+      "start": 27.32,
+      "end": 30.14,
+      "text": "de un rey en el barrio, soy el disay de la guerra.",
+      "avgLogprob": -0.506,
+      "compressionRatio": 1.608,
+      "noSpeechProbability": 0.716,
+      "words": [
+        {
+          "word": " de",
+          "start": 27.32,
+          "end": 27.4,
+          "probability": 0.957
+        },
+        {
+          "word": " un",
+          "start": 27.4,
+          "end": 27.94,
+          "probability": 0.558
+        },
+        {
+          "word": " rey",
+          "start": 27.94,
+          "end": 28.24,
+          "probability": 0.96
+        },
+        {
+          "word": " en",
+          "start": 28.24,
+          "end": 28.38,
+          "probability": 0.886
+        },
+        {
+          "word": " el",
+          "start": 28.38,
+          "end": 28.5,
+          "probability": 0.997
+        },
+        {
+          "word": " barrio,",
+          "start": 28.5,
+          "end": 28.88,
+          "probability": 0.977
+        },
+        {
+          "word": " soy",
+          "start": 29.04,
+          "end": 29.18,
+          "probability": 0.975
+        },
+        {
+          "word": " el",
+          "start": 29.18,
+          "end": 29.36,
+          "probability": 0.916
+        },
+        {
+          "word": " disay",
+          "start": 29.36,
+          "end": 29.64,
+          "probability": 0.298
+        },
+        {
+          "word": " de",
+          "start": 29.64,
+          "end": 29.78,
+          "probability": 0.896
+        },
+        {
+          "word": " la",
+          "start": 29.78,
+          "end": 29.94,
+          "probability": 0.959
+        },
+        {
+          "word": " guerra.",
+          "start": 29.94,
+          "end": 30.14,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 48.87,
+      "end": 53.39,
+      "text": "92 pulso firme nadie puede unirme cromo en el 8 hundred and eight que la",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.447,
+      "noSpeechProbability": 0.329,
+      "words": [
+        {
+          "word": " 92",
+          "start": 48.87,
+          "end": 49.31,
+          "probability": 0.116
+        },
+        {
+          "word": " pulso",
+          "start": 49.31,
+          "end": 49.91,
+          "probability": 0.724
+        },
+        {
+          "word": " firme",
+          "start": 49.91,
+          "end": 50.29,
+          "probability": 0.965
+        },
+        {
+          "word": " nadie",
+          "start": 50.29,
+          "end": 50.61,
+          "probability": 0.404
+        },
+        {
+          "word": " puede",
+          "start": 50.61,
+          "end": 50.91,
+          "probability": 0.98
+        },
+        {
+          "word": " unirme",
+          "start": 50.91,
+          "end": 51.41,
+          "probability": 0.806
+        },
+        {
+          "word": " cromo",
+          "start": 51.41,
+          "end": 51.75,
+          "probability": 0.746
+        },
+        {
+          "word": " en",
+          "start": 51.75,
+          "end": 51.89,
+          "probability": 0.976
+        },
+        {
+          "word": " el",
+          "start": 51.89,
+          "end": 51.99,
+          "probability": 0.991
+        },
+        {
+          "word": " 8",
+          "start": 51.99,
+          "end": 52.25,
+          "probability": 0.587
+        },
+        {
+          "word": " hundred",
+          "start": 52.25,
+          "end": 52.59,
+          "probability": 0.183
+        },
+        {
+          "word": " and",
+          "start": 52.59,
+          "end": 52.87,
+          "probability": 0.96
+        },
+        {
+          "word": " eight",
+          "start": 52.87,
+          "end": 53.05,
+          "probability": 0.802
+        },
+        {
+          "word": " que",
+          "start": 53.05,
+          "end": 53.27,
+          "probability": 0.929
+        },
+        {
+          "word": " la",
+          "start": 53.27,
+          "end": 53.39,
+          "probability": 0.872
+        }
+      ]
+    },
+    {
+      "start": 53.39,
+      "end": 58.07,
+      "text": "envidia no te explot. Madera se cae en la biblioteca de la calle cuidando cada",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.447,
+      "noSpeechProbability": 0.329,
+      "words": [
+        {
+          "word": " envidia",
+          "start": 53.39,
+          "end": 53.75,
+          "probability": 0.644
+        },
+        {
+          "word": " no",
+          "start": 53.75,
+          "end": 53.91,
+          "probability": 0.926
+        },
+        {
+          "word": " te",
+          "start": 53.91,
+          "end": 54.03,
+          "probability": 0.992
+        },
+        {
+          "word": " explot.",
+          "start": 54.03,
+          "end": 54.47,
+          "probability": 0.542
+        },
+        {
+          "word": " Madera",
+          "start": 54.85,
+          "end": 55.17,
+          "probability": 0.931
+        },
+        {
+          "word": " se",
+          "start": 55.17,
+          "end": 55.41,
+          "probability": 0.96
+        },
+        {
+          "word": " cae",
+          "start": 55.41,
+          "end": 55.69,
+          "probability": 0.621
+        },
+        {
+          "word": " en",
+          "start": 55.69,
+          "end": 55.81,
+          "probability": 0.994
+        },
+        {
+          "word": " la",
+          "start": 55.81,
+          "end": 55.91,
+          "probability": 0.992
+        },
+        {
+          "word": " biblioteca",
+          "start": 55.91,
+          "end": 56.55,
+          "probability": 0.972
+        },
+        {
+          "word": " de",
+          "start": 56.55,
+          "end": 56.73,
+          "probability": 0.984
+        },
+        {
+          "word": " la",
+          "start": 56.73,
+          "end": 56.89,
+          "probability": 0.995
+        },
+        {
+          "word": " calle",
+          "start": 56.89,
+          "end": 57.17,
+          "probability": 0.996
+        },
+        {
+          "word": " cuidando",
+          "start": 57.17,
+          "end": 57.71,
+          "probability": 0.884
+        },
+        {
+          "word": " cada",
+          "start": 57.71,
+          "end": 58.07,
+          "probability": 0.941
+        }
+      ]
+    },
+    {
+      "start": 58.07,
+      "end": 62.37,
+      "text": "detalle flota malla beat crush. Todo el sistema está harsh silencio de mando",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.447,
+      "noSpeechProbability": 0.329,
+      "words": [
+        {
+          "word": " detalle",
+          "start": 58.07,
+          "end": 58.59,
+          "probability": 0.991
+        },
+        {
+          "word": " flota",
+          "start": 58.59,
+          "end": 58.95,
+          "probability": 0.503
+        },
+        {
+          "word": " malla",
+          "start": 58.95,
+          "end": 59.31,
+          "probability": 0.514
+        },
+        {
+          "word": " beat",
+          "start": 59.31,
+          "end": 59.53,
+          "probability": 0.247
+        },
+        {
+          "word": " crush.",
+          "start": 59.53,
+          "end": 59.85,
+          "probability": 0.597
+        },
+        {
+          "word": " Todo",
+          "start": 60.11,
+          "end": 60.21,
+          "probability": 0.887
+        },
+        {
+          "word": " el",
+          "start": 60.21,
+          "end": 60.39,
+          "probability": 0.996
+        },
+        {
+          "word": " sistema",
+          "start": 60.39,
+          "end": 60.69,
+          "probability": 0.965
+        },
+        {
+          "word": " está",
+          "start": 60.69,
+          "end": 60.97,
+          "probability": 0.491
+        },
+        {
+          "word": " harsh",
+          "start": 60.97,
+          "end": 61.33,
+          "probability": 0.339
+        },
+        {
+          "word": " silencio",
+          "start": 61.33,
+          "end": 61.87,
+          "probability": 0.909
+        },
+        {
+          "word": " de",
+          "start": 61.87,
+          "end": 62.03,
+          "probability": 0.384
+        },
+        {
+          "word": " mando",
+          "start": 62.03,
+          "end": 62.37,
+          "probability": 0.858
+        }
+      ]
+    },
+    {
+      "start": 62.37,
+      "end": 65.69,
+      "text": "estamos avanzando paso de gigante brillante frío, tmp.",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.447,
+      "noSpeechProbability": 0.329,
+      "words": [
+        {
+          "word": " estamos",
+          "start": 62.37,
+          "end": 62.65,
+          "probability": 0.818
+        },
+        {
+          "word": " avanzando",
+          "start": 62.65,
+          "end": 63.37,
+          "probability": 0.994
+        },
+        {
+          "word": " paso",
+          "start": 63.37,
+          "end": 63.65,
+          "probability": 0.863
+        },
+        {
+          "word": " de",
+          "start": 63.65,
+          "end": 63.85,
+          "probability": 0.749
+        },
+        {
+          "word": " gigante",
+          "start": 63.85,
+          "end": 64.33,
+          "probability": 0.984
+        },
+        {
+          "word": " brillante",
+          "start": 64.33,
+          "end": 64.89,
+          "probability": 0.981
+        },
+        {
+          "word": " frío,",
+          "start": 64.89,
+          "end": 65.37,
+          "probability": 0.599
+        },
+        {
+          "word": " tmp.",
+          "start": 65.49,
+          "end": 65.69,
+          "probability": 0.117
+        }
+      ]
+    },
+    {
+      "start": 85.52,
+      "end": 88.18,
+      "text": "y ordenando el caos, apiando el bloque, primer toque,",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " y",
+          "start": 85.52,
+          "end": 85.58,
+          "probability": 0.079
+        },
+        {
+          "word": " ordenando",
+          "start": 85.58,
+          "end": 86.16,
+          "probability": 0.969
+        },
+        {
+          "word": " el",
+          "start": 86.16,
+          "end": 86.32,
+          "probability": 0.938
+        },
+        {
+          "word": " caos,",
+          "start": 86.32,
+          "end": 86.6,
+          "probability": 0.816
+        },
+        {
+          "word": " apiando",
+          "start": 86.66,
+          "end": 86.96,
+          "probability": 0.703
+        },
+        {
+          "word": " el",
+          "start": 86.96,
+          "end": 87.12,
+          "probability": 0.981
+        },
+        {
+          "word": " bloque,",
+          "start": 87.12,
+          "end": 87.4,
+          "probability": 0.433
+        },
+        {
+          "word": " primer",
+          "start": 87.56,
+          "end": 87.78,
+          "probability": 0.838
+        },
+        {
+          "word": " toque,",
+          "start": 87.78,
+          "end": 88.18,
+          "probability": 0.912
+        }
+      ]
+    },
+    {
+      "start": 88.3,
+      "end": 90.52,
+      "text": "boom, boom, boom, boom.",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " boom,",
+          "start": 88.3,
+          "end": 88.46,
+          "probability": 0.224
+        },
+        {
+          "word": " boom,",
+          "start": 88.58,
+          "end": 88.92,
+          "probability": 0.98
+        },
+        {
+          "word": " boom,",
+          "start": 89.06,
+          "end": 89.28,
+          "probability": 0.993
+        },
+        {
+          "word": " boom.",
+          "start": 89.46,
+          "end": 90.52,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 91.26,
+      "end": 93.26,
+      "text": "Arquitectura en Tigris, máquina de Dios,",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " Arquitectura",
+          "start": 91.26,
+          "end": 91.76,
+          "probability": 0.817
+        },
+        {
+          "word": " en",
+          "start": 91.76,
+          "end": 91.94,
+          "probability": 0.778
+        },
+        {
+          "word": " Tigris,",
+          "start": 91.94,
+          "end": 92.24,
+          "probability": 0.517
+        },
+        {
+          "word": " máquina",
+          "start": 92.48,
+          "end": 92.7,
+          "probability": 0.706
+        },
+        {
+          "word": " de",
+          "start": 92.7,
+          "end": 93.04,
+          "probability": 0.999
+        },
+        {
+          "word": " Dios,",
+          "start": 93.04,
+          "end": 93.26,
+          "probability": 0.855
+        }
+      ]
+    },
+    {
+      "start": 93.5,
+      "end": 96.26,
+      "text": "mandando en el matiz con el Forcount y la disciplina.",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " mandando",
+          "start": 93.5,
+          "end": 93.8,
+          "probability": 0.977
+        },
+        {
+          "word": " en",
+          "start": 93.8,
+          "end": 93.98,
+          "probability": 0.994
+        },
+        {
+          "word": " el",
+          "start": 93.98,
+          "end": 94.1,
+          "probability": 0.818
+        },
+        {
+          "word": " matiz",
+          "start": 94.1,
+          "end": 94.46,
+          "probability": 0.547
+        },
+        {
+          "word": " con",
+          "start": 94.46,
+          "end": 94.74,
+          "probability": 0.45
+        },
+        {
+          "word": " el",
+          "start": 94.74,
+          "end": 94.9,
+          "probability": 0.958
+        },
+        {
+          "word": " Forcount",
+          "start": 94.9,
+          "end": 95.3,
+          "probability": 0.443
+        },
+        {
+          "word": " y",
+          "start": 95.3,
+          "end": 95.52,
+          "probability": 0.985
+        },
+        {
+          "word": " la",
+          "start": 95.52,
+          "end": 95.6,
+          "probability": 0.958
+        },
+        {
+          "word": " disciplina.",
+          "start": 95.6,
+          "end": 96.26,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 96.68,
+      "end": 98.28,
+      "text": "Toda la ruina se vuelve oro.",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " Toda",
+          "start": 96.68,
+          "end": 96.96,
+          "probability": 0.949
+        },
+        {
+          "word": " la",
+          "start": 96.96,
+          "end": 97.08,
+          "probability": 0.962
+        },
+        {
+          "word": " ruina",
+          "start": 97.08,
+          "end": 97.4,
+          "probability": 0.868
+        },
+        {
+          "word": " se",
+          "start": 97.4,
+          "end": 97.6,
+          "probability": 0.98
+        },
+        {
+          "word": " vuelve",
+          "start": 97.6,
+          "end": 97.96,
+          "probability": 0.995
+        },
+        {
+          "word": " oro.",
+          "start": 97.96,
+          "end": 98.28,
+          "probability": 0.942
+        }
+      ]
+    },
+    {
+      "start": 99.42,
+      "end": 100.42,
+      "text": "Escucha el coro.",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " Escucha",
+          "start": 99.42,
+          "end": 99.92,
+          "probability": 0.937
+        },
+        {
+          "word": " el",
+          "start": 99.92,
+          "end": 100.12,
+          "probability": 0.98
+        },
+        {
+          "word": " coro.",
+          "start": 100.12,
+          "end": 100.42,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 101.24,
+      "end": 102.4,
+      "text": "No vuelve a ir gris.",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.358,
+      "words": [
+        {
+          "word": " No",
+          "start": 101.24,
+          "end": 101.68,
+          "probability": 0.893
+        },
+        {
+          "word": " vuelve",
+          "start": 101.68,
+          "end": 102.02,
+          "probability": 0.963
+        },
+        {
+          "word": " a",
+          "start": 102.02,
+          "end": 102.12,
+          "probability": 0.325
+        },
+        {
+          "word": " ir",
+          "start": 102.12,
+          "end": 102.14,
+          "probability": 0.814
+        },
+        {
+          "word": " gris.",
+          "start": 102.14,
+          "end": 102.4,
+          "probability": 0.779
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.897,
+    "wordCount": 140,
+    "credibleWordCount": 129,
+    "segmentCount": 14,
+    "averageWordProbability": 0.785,
+    "vocalSeconds": 44.0,
+    "scanCoverage": 0.422,
+    "reviewRequired": false
+  }
+}

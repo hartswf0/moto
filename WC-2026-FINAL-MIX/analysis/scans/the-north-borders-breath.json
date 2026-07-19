@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 23,
+  "id": "../VOLHOLLA/song-abyssalcrown-17.html",
+  "slug": "the-north-borders-breath",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      17.68,
+      35.68
+    ],
+    [
+      70.71,
+      88.71
+    ],
+    [
+      123.75,
+      141.75
+    ],
+    [
+      176.78,
+      194.78
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.532,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.301,
+    "reviewRequired": true
+  }
+}

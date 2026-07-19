@@ -1,0 +1,426 @@
+{
+  "analysisVersion": 1,
+  "index": 86,
+  "id": "../VOLHOLLA/song-usblegacy-22.html",
+  "slug": "water-light-alive",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Oh, I press, move it through the door You, me, safe inside the sun Slow motion, finding calm ground The shared grief is just a way to trust I see you I see you One light life, one light life One my love, one my love I see you",
+  "sampledRanges": [
+    [
+      15.74,
+      33.74
+    ],
+    [
+      62.96,
+      80.96
+    ],
+    [
+      110.17,
+      128.17
+    ],
+    [
+      157.39,
+      175.39
+    ]
+  ],
+  "segments": [
+    {
+      "start": 16.58,
+      "end": 21.14,
+      "text": "Oh, I press, move it through the door",
+      "avgLogprob": -0.648,
+      "compressionRatio": 1.1,
+      "noSpeechProbability": 0.73,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 16.58,
+          "end": 17.98,
+          "probability": 0.136
+        },
+        {
+          "word": " I",
+          "start": 18.1,
+          "end": 18.18,
+          "probability": 0.333
+        },
+        {
+          "word": " press,",
+          "start": 18.18,
+          "end": 18.88,
+          "probability": 0.529
+        },
+        {
+          "word": " move",
+          "start": 19.62,
+          "end": 20.06,
+          "probability": 0.813
+        },
+        {
+          "word": " it",
+          "start": 20.06,
+          "end": 20.26,
+          "probability": 0.162
+        },
+        {
+          "word": " through",
+          "start": 20.26,
+          "end": 20.5,
+          "probability": 0.532
+        },
+        {
+          "word": " the",
+          "start": 20.5,
+          "end": 20.78,
+          "probability": 0.958
+        },
+        {
+          "word": " door",
+          "start": 20.78,
+          "end": 21.14,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 21.74,
+      "end": 27.5,
+      "text": "You, me, safe inside the sun",
+      "avgLogprob": -0.648,
+      "compressionRatio": 1.1,
+      "noSpeechProbability": 0.73,
+      "words": [
+        {
+          "word": " You,",
+          "start": 21.74,
+          "end": 23.14,
+          "probability": 0.475
+        },
+        {
+          "word": " me,",
+          "start": 24.18,
+          "end": 25.28,
+          "probability": 0.963
+        },
+        {
+          "word": " safe",
+          "start": 26.04,
+          "end": 26.26,
+          "probability": 0.387
+        },
+        {
+          "word": " inside",
+          "start": 26.26,
+          "end": 26.68,
+          "probability": 0.826
+        },
+        {
+          "word": " the",
+          "start": 26.68,
+          "end": 27.5,
+          "probability": 0.925
+        },
+        {
+          "word": " sun",
+          "start": 27.5,
+          "end": 27.5,
+          "probability": 0.541
+        }
+      ]
+    },
+    {
+      "start": 27.5,
+      "end": 32.0,
+      "text": "Slow motion, finding calm ground",
+      "avgLogprob": -0.648,
+      "compressionRatio": 1.1,
+      "noSpeechProbability": 0.73,
+      "words": [
+        {
+          "word": " Slow",
+          "start": 27.5,
+          "end": 28.38,
+          "probability": 0.908
+        },
+        {
+          "word": " motion,",
+          "start": 28.38,
+          "end": 29.2,
+          "probability": 0.996
+        },
+        {
+          "word": " finding",
+          "start": 30.06,
+          "end": 30.52,
+          "probability": 0.234
+        },
+        {
+          "word": " calm",
+          "start": 30.52,
+          "end": 30.92,
+          "probability": 0.316
+        },
+        {
+          "word": " ground",
+          "start": 30.92,
+          "end": 32.0,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 157.39,
+      "end": 159.67,
+      "text": "The shared grief is just a way to trust",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " The",
+          "start": 157.39,
+          "end": 157.51,
+          "probability": 0.08
+        },
+        {
+          "word": " shared",
+          "start": 157.51,
+          "end": 157.81,
+          "probability": 0.589
+        },
+        {
+          "word": " grief",
+          "start": 157.81,
+          "end": 158.11,
+          "probability": 0.973
+        },
+        {
+          "word": " is",
+          "start": 158.11,
+          "end": 158.39,
+          "probability": 0.985
+        },
+        {
+          "word": " just",
+          "start": 158.39,
+          "end": 158.69,
+          "probability": 0.942
+        },
+        {
+          "word": " a",
+          "start": 158.69,
+          "end": 158.95,
+          "probability": 0.76
+        },
+        {
+          "word": " way",
+          "start": 158.95,
+          "end": 159.21,
+          "probability": 0.982
+        },
+        {
+          "word": " to",
+          "start": 159.21,
+          "end": 159.37,
+          "probability": 0.992
+        },
+        {
+          "word": " trust",
+          "start": 159.37,
+          "end": 159.67,
+          "probability": 0.826
+        }
+      ]
+    },
+    {
+      "start": 159.67,
+      "end": 161.31,
+      "text": "I see you",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " I",
+          "start": 159.67,
+          "end": 160.13,
+          "probability": 0.579
+        },
+        {
+          "word": " see",
+          "start": 160.13,
+          "end": 160.61,
+          "probability": 0.9
+        },
+        {
+          "word": " you",
+          "start": 160.61,
+          "end": 161.31,
+          "probability": 0.943
+        }
+      ]
+    },
+    {
+      "start": 161.31,
+      "end": 165.27,
+      "text": "I see you",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " I",
+          "start": 161.31,
+          "end": 162.23,
+          "probability": 0.438
+        },
+        {
+          "word": " see",
+          "start": 162.23,
+          "end": 163.59,
+          "probability": 0.979
+        },
+        {
+          "word": " you",
+          "start": 163.59,
+          "end": 165.27,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 165.27,
+      "end": 168.85,
+      "text": "One light life, one light life",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " One",
+          "start": 165.27,
+          "end": 165.97,
+          "probability": 0.218
+        },
+        {
+          "word": " light",
+          "start": 165.97,
+          "end": 166.51,
+          "probability": 0.647
+        },
+        {
+          "word": " life,",
+          "start": 166.51,
+          "end": 166.99,
+          "probability": 0.527
+        },
+        {
+          "word": " one",
+          "start": 166.99,
+          "end": 167.55,
+          "probability": 0.96
+        },
+        {
+          "word": " light",
+          "start": 167.55,
+          "end": 168.05,
+          "probability": 0.983
+        },
+        {
+          "word": " life",
+          "start": 168.05,
+          "end": 168.85,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 168.85,
+      "end": 171.95,
+      "text": "One my love, one my love",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " One",
+          "start": 168.85,
+          "end": 169.07,
+          "probability": 0.446
+        },
+        {
+          "word": " my",
+          "start": 169.07,
+          "end": 169.57,
+          "probability": 0.112
+        },
+        {
+          "word": " love,",
+          "start": 169.57,
+          "end": 170.17,
+          "probability": 0.459
+        },
+        {
+          "word": " one",
+          "start": 170.17,
+          "end": 170.67,
+          "probability": 0.972
+        },
+        {
+          "word": " my",
+          "start": 170.67,
+          "end": 171.13,
+          "probability": 0.894
+        },
+        {
+          "word": " love",
+          "start": 171.13,
+          "end": 171.95,
+          "probability": 0.654
+        }
+      ]
+    },
+    {
+      "start": 173.19,
+      "end": 174.25,
+      "text": "I see you",
+      "avgLogprob": -0.542,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.344,
+      "words": [
+        {
+          "word": " I",
+          "start": 172.8,
+          "end": 173.29,
+          "probability": 0.912
+        },
+        {
+          "word": " see",
+          "start": 173.29,
+          "end": 173.67,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 173.67,
+          "end": 174.25,
+          "probability": 0.993
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.811,
+    "wordCount": 49,
+    "credibleWordCount": 41,
+    "segmentCount": 9,
+    "averageWordProbability": 0.708,
+    "vocalSeconds": 30.44,
+    "scanCoverage": 0.335,
+    "reviewRequired": false
+  }
+}

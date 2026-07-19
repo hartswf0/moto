@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 31,
+  "id": "../VOLHOLLA/song-dustrest-11.html",
+  "slug": "not-a-mote-of-dust",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      16.31,
+      34.31
+    ],
+    [
+      65.23,
+      83.23
+    ],
+    [
+      114.15,
+      132.15
+    ],
+    [
+      163.07,
+      181.07
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.538,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.325,
+    "reviewRequired": true
+  }
+}

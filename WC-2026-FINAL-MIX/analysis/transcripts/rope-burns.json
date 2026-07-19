@@ -1,0 +1,1549 @@
+{
+  "analysisVersion": 1,
+  "index": 6,
+  "id": "../VOLHOLLA/song-congregation-12.html",
+  "slug": "rope-burns",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Take this water from my well, take this water from my well, Hard to carry, hard to breathe, I gave away what I should keep. Take this water from my will. Old dust choking up my rusty throat, black coal in my lung. Stung by the bitter frost of the hill I seek a better place Finding my way, losing my mind, buying my peace, buying my time, buying my soul back today Take this water from my well, take this water from my well Hard to carry hard to breathe I gave away what I should keep take this water from my will Robbins robin skin into the green deeper the bucket sinks Heavy weight to break the frame sorrow is the only link finding my way losing my mind by my peace by my time by my soul back to day Take this water from my well take this water from my well hard to carry hard to breathe I gave away But I should keep take this water from my will Wash the dirt from my hands wash the dirt from my soul Wash the dirt until I'm whole take this water from my will take this Water from my well, hard to carry Hard to breathe, I gave away what I should keep Take this water from my well",
+  "sampledRanges": [
+    [
+      0.0,
+      152.32
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 24.0,
+      "text": "Take this water from my well, take this water from my well,",
+      "avgLogprob": -0.563,
+      "compressionRatio": 1.439,
+      "noSpeechProbability": 0.445,
+      "words": [
+        {
+          "word": "Take",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "this",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "water",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "from",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "my",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "well,",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "take",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "this",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "water",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "from",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "my",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        },
+        {
+          "word": "well,",
+          "start": 0.0,
+          "end": 24.0,
+          "probability": 0.569
+        }
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 31.0,
+      "text": "Hard to carry, hard to breathe, I gave away what I should keep.",
+      "avgLogprob": -0.307,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.372,
+      "words": [
+        {
+          "word": "Hard",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "to",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "carry,",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "hard",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "to",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "breathe,",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "I",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "gave",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "away",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "what",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "I",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "should",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        },
+        {
+          "word": "keep.",
+          "start": 24.0,
+          "end": 31.0,
+          "probability": 0.736
+        }
+      ]
+    },
+    {
+      "start": 31.0,
+      "end": 37.0,
+      "text": "Take this water from my will.",
+      "avgLogprob": -0.307,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.372,
+      "words": [
+        {
+          "word": "Take",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        },
+        {
+          "word": "this",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        },
+        {
+          "word": "water",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        },
+        {
+          "word": "from",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        },
+        {
+          "word": "my",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        },
+        {
+          "word": "will.",
+          "start": 31.0,
+          "end": 37.0,
+          "probability": 0.736
+        }
+      ]
+    },
+    {
+      "start": 37.0,
+      "end": 45.0,
+      "text": "Old dust choking up my rusty throat, black coal in my lung.",
+      "avgLogprob": -0.307,
+      "compressionRatio": 1.264,
+      "noSpeechProbability": 0.372,
+      "words": [
+        {
+          "word": "Old",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "dust",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "choking",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "up",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "my",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "rusty",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "throat,",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "black",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "coal",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "in",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "my",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        },
+        {
+          "word": "lung.",
+          "start": 37.0,
+          "end": 45.0,
+          "probability": 0.736
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 51.0,
+      "text": "Stung by the bitter frost of the hill I seek a better place",
+      "avgLogprob": -0.171,
+      "compressionRatio": 1.659,
+      "noSpeechProbability": 0.361,
+      "words": [
+        {
+          "word": "Stung",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "by",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "bitter",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "frost",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "of",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "hill",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "I",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "seek",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "a",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "better",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        },
+        {
+          "word": "place",
+          "start": 45.0,
+          "end": 51.0,
+          "probability": 0.843
+        }
+      ]
+    },
+    {
+      "start": 51.0,
+      "end": 61.0,
+      "text": "Finding my way, losing my mind, buying my peace, buying my time, buying my soul back today",
+      "avgLogprob": -0.171,
+      "compressionRatio": 1.659,
+      "noSpeechProbability": 0.361,
+      "words": [
+        {
+          "word": "Finding",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "way,",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "losing",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "mind,",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "buying",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "peace,",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "buying",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "time,",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "buying",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "soul",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "back",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        },
+        {
+          "word": "today",
+          "start": 51.0,
+          "end": 61.0,
+          "probability": 0.843
+        }
+      ]
+    },
+    {
+      "start": 61.0,
+      "end": 67.0,
+      "text": "Take this water from my well, take this water from my well",
+      "avgLogprob": -0.171,
+      "compressionRatio": 1.659,
+      "noSpeechProbability": 0.361,
+      "words": [
+        {
+          "word": "Take",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "this",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "water",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "from",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "well,",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "take",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "this",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "water",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "from",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "my",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        },
+        {
+          "word": "well",
+          "start": 61.0,
+          "end": 67.0,
+          "probability": 0.843
+        }
+      ]
+    },
+    {
+      "start": 67.0,
+      "end": 77.0,
+      "text": "Hard to carry hard to breathe I gave away what I should keep take this water from my will",
+      "avgLogprob": -0.499,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.591,
+      "words": [
+        {
+          "word": "Hard",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "to",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "carry",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "hard",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "to",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "breathe",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "I",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "gave",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "away",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "what",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "I",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "should",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "keep",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "take",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "this",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "water",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "from",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "my",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        },
+        {
+          "word": "will",
+          "start": 67.0,
+          "end": 77.0,
+          "probability": 0.607
+        }
+      ]
+    },
+    {
+      "start": 80.0,
+      "end": 87.0,
+      "text": "Robbins robin skin into the green deeper the bucket sinks",
+      "avgLogprob": -0.499,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.591,
+      "words": [
+        {
+          "word": "Robbins",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "robin",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "skin",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "into",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "the",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "green",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "deeper",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "the",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "bucket",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        },
+        {
+          "word": "sinks",
+          "start": 80.0,
+          "end": 87.0,
+          "probability": 0.607
+        }
+      ]
+    },
+    {
+      "start": 88.0,
+      "end": 90.0,
+      "text": "Heavy weight to break the frame",
+      "avgLogprob": -0.499,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.591,
+      "words": [
+        {
+          "word": "Heavy",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        },
+        {
+          "word": "weight",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        },
+        {
+          "word": "to",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        },
+        {
+          "word": "break",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        },
+        {
+          "word": "the",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        },
+        {
+          "word": "frame",
+          "start": 88.0,
+          "end": 90.0,
+          "probability": 0.607
+        }
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 102.88,
+      "text": "sorrow is the only link finding my way losing my mind by my peace by my time by my soul back to day",
+      "avgLogprob": -0.366,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": "sorrow",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "is",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "the",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "only",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "link",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "finding",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "way",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "losing",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "mind",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "by",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "peace",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "by",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "time",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "by",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "soul",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "back",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "to",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        },
+        {
+          "word": "day",
+          "start": 90.0,
+          "end": 102.88,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 102.88,
+      "end": 114.24,
+      "text": "Take this water from my well take this water from my well hard to carry hard to breathe I gave away",
+      "avgLogprob": -0.366,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": "Take",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "this",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "water",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "from",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "well",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "take",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "this",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "water",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "from",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "my",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "well",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "hard",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "to",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "carry",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "hard",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "to",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "breathe",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "I",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "gave",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        },
+        {
+          "word": "away",
+          "start": 102.88,
+          "end": 114.24,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 114.24,
+      "end": 119.34,
+      "text": "But I should keep take this water from my will",
+      "avgLogprob": -0.454,
+      "compressionRatio": 1.789,
+      "noSpeechProbability": 0.599,
+      "words": [
+        {
+          "word": "But",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "I",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "should",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "keep",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "take",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "this",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "water",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "from",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "my",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        },
+        {
+          "word": "will",
+          "start": 114.24,
+          "end": 119.34,
+          "probability": 0.635
+        }
+      ]
+    },
+    {
+      "start": 120.42,
+      "end": 126.44,
+      "text": "Wash the dirt from my hands wash the dirt from my soul",
+      "avgLogprob": -0.454,
+      "compressionRatio": 1.789,
+      "noSpeechProbability": 0.599,
+      "words": [
+        {
+          "word": "Wash",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "the",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "dirt",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "from",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "my",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "hands",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "wash",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "the",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "dirt",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "from",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "my",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        },
+        {
+          "word": "soul",
+          "start": 120.42,
+          "end": 126.44,
+          "probability": 0.635
+        }
+      ]
+    },
+    {
+      "start": 126.94,
+      "end": 134.44,
+      "text": "Wash the dirt until I'm whole take this water from my will take this",
+      "avgLogprob": -0.454,
+      "compressionRatio": 1.789,
+      "noSpeechProbability": 0.599,
+      "words": [
+        {
+          "word": "Wash",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "the",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "dirt",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "until",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "I'm",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "whole",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "take",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "this",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "water",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "from",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "my",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "will",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "take",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        },
+        {
+          "word": "this",
+          "start": 126.94,
+          "end": 134.44,
+          "probability": 0.635
+        }
+      ]
+    },
+    {
+      "start": 135.0,
+      "end": 138.7,
+      "text": "Water from my well, hard to carry",
+      "avgLogprob": -0.434,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": "Water",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "from",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "my",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "well,",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "hard",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        },
+        {
+          "word": "carry",
+          "start": 135.0,
+          "end": 138.7,
+          "probability": 0.648
+        }
+      ]
+    },
+    {
+      "start": 138.7,
+      "end": 143.5,
+      "text": "Hard to breathe, I gave away what I should keep",
+      "avgLogprob": -0.434,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": "Hard",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "to",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "breathe,",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "I",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "gave",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "away",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "what",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "I",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "should",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        },
+        {
+          "word": "keep",
+          "start": 138.7,
+          "end": 143.5,
+          "probability": 0.648
+        }
+      ]
+    },
+    {
+      "start": 143.5,
+      "end": 147.8,
+      "text": "Take this water from my well",
+      "avgLogprob": -0.434,
+      "compressionRatio": 1.25,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": "Take",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        },
+        {
+          "word": "this",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        },
+        {
+          "word": "water",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        },
+        {
+          "word": "from",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        },
+        {
+          "word": "my",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        },
+        {
+          "word": "well",
+          "start": 143.5,
+          "end": 147.8,
+          "probability": 0.648
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.853,
+    "wordCount": 223,
+    "credibleWordCount": 223,
+    "segmentCount": 18,
+    "averageWordProbability": 0.693,
+    "vocalSeconds": 141.66,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

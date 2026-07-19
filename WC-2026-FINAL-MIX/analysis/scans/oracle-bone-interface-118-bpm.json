@@ -1,0 +1,58 @@
+{
+  "analysisVersion": 1,
+  "index": 32,
+  "id": "../VOLHOLLA/song-dustrest-13.html",
+  "slug": "oracle-bone-interface-118-bpm",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "You",
+  "sampledRanges": [
+    [
+      15.4,
+      33.4
+    ],
+    [
+      61.59,
+      79.59
+    ],
+    [
+      107.78,
+      125.78
+    ],
+    [
+      153.98,
+      171.98
+    ]
+  ],
+  "segments": [
+    {
+      "start": 170.56,
+      "end": 171.16,
+      "text": "You",
+      "avgLogprob": -0.979,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.799,
+      "words": [
+        {
+          "word": " You",
+          "start": 170.56,
+          "end": 171.26,
+          "probability": 0.038
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.542,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.342,
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "analysisVersion": 1,
+  "index": 60,
+  "id": "../VOLHOLLA/song-executable-09.html",
+  "slug": "small-axe-blade",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Broken flagmas on the turn gave a platter Trapped in large utility goals, all scattered Some traction is the weapon of the master Not in matters Each shift you witness till the voice is round Archives extractions stealing the songs Basis de memory where we belong Sing it down Yeah, glass turns, you like money Small ass chuck, you're near lose no return Loop that fence, love that rain Feed learn, freeze, but forget the name And class turn, you will like the moon, small acts drop, what it looks, don't return,",
+  "sampledRanges": [
+    [
+      20.04,
+      38.04
+    ],
+    [
+      80.15,
+      98.15
+    ],
+    [
+      140.26,
+      158.26
+    ],
+    [
+      200.38,
+      218.38
+    ]
+  ],
+  "segments": [
+    {
+      "start": 20.72,
+      "end": 24.92,
+      "text": "Broken flagmas on the turn gave a platter",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.286,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " Broken",
+          "start": 20.72,
+          "end": 21.64,
+          "probability": 0.679
+        },
+        {
+          "word": " flagmas",
+          "start": 21.64,
+          "end": 22.2,
+          "probability": 0.392
+        },
+        {
+          "word": " on",
+          "start": 22.2,
+          "end": 22.58,
+          "probability": 0.801
+        },
+        {
+          "word": " the",
+          "start": 22.58,
+          "end": 22.74,
+          "probability": 0.786
+        },
+        {
+          "word": " turn",
+          "start": 22.74,
+          "end": 23.12,
+          "probability": 0.64
+        },
+        {
+          "word": " gave",
+          "start": 23.12,
+          "end": 23.62,
+          "probability": 0.165
+        },
+        {
+          "word": " a",
+          "start": 23.62,
+          "end": 23.84,
+          "probability": 0.53
+        },
+        {
+          "word": " platter",
+          "start": 23.84,
+          "end": 24.92,
+          "probability": 0.527
+        }
+      ]
+    },
+    {
+      "start": 24.92,
+      "end": 28.52,
+      "text": "Trapped in large utility goals, all scattered",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.286,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " Trapped",
+          "start": 24.92,
+          "end": 25.8,
+          "probability": 0.335
+        },
+        {
+          "word": " in",
+          "start": 25.8,
+          "end": 26.06,
+          "probability": 0.631
+        },
+        {
+          "word": " large",
+          "start": 26.06,
+          "end": 26.24,
+          "probability": 0.371
+        },
+        {
+          "word": " utility",
+          "start": 26.24,
+          "end": 26.72,
+          "probability": 0.764
+        },
+        {
+          "word": " goals,",
+          "start": 26.72,
+          "end": 27.48,
+          "probability": 0.393
+        },
+        {
+          "word": " all",
+          "start": 27.72,
+          "end": 27.86,
+          "probability": 0.122
+        },
+        {
+          "word": " scattered",
+          "start": 27.86,
+          "end": 28.52,
+          "probability": 0.549
+        }
+      ]
+    },
+    {
+      "start": 29.04,
+      "end": 32.46,
+      "text": "Some traction is the weapon of the master",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.286,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " Some",
+          "start": 29.04,
+          "end": 29.66,
+          "probability": 0.238
+        },
+        {
+          "word": " traction",
+          "start": 29.66,
+          "end": 30.1,
+          "probability": 0.655
+        },
+        {
+          "word": " is",
+          "start": 30.1,
+          "end": 30.54,
+          "probability": 0.706
+        },
+        {
+          "word": " the",
+          "start": 30.54,
+          "end": 30.7,
+          "probability": 0.385
+        },
+        {
+          "word": " weapon",
+          "start": 30.7,
+          "end": 31.16,
+          "probability": 0.988
+        },
+        {
+          "word": " of",
+          "start": 31.16,
+          "end": 31.66,
+          "probability": 0.919
+        },
+        {
+          "word": " the",
+          "start": 31.66,
+          "end": 31.78,
+          "probability": 0.858
+        },
+        {
+          "word": " master",
+          "start": 31.78,
+          "end": 32.46,
+          "probability": 0.672
+        }
+      ]
+    },
+    {
+      "start": 33.04,
+      "end": 34.96,
+      "text": "Not in matters",
+      "avgLogprob": -0.737,
+      "compressionRatio": 1.286,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " Not",
+          "start": 33.04,
+          "end": 34.18,
+          "probability": 0.531
+        },
+        {
+          "word": " in",
+          "start": 34.18,
+          "end": 34.48,
+          "probability": 0.175
+        },
+        {
+          "word": " matters",
+          "start": 34.48,
+          "end": 34.96,
+          "probability": 0.738
+        }
+      ]
+    },
+    {
+      "start": 80.21,
+      "end": 83.77,
+      "text": "Each shift you witness till the voice is round",
+      "avgLogprob": -0.797,
+      "compressionRatio": 1.248,
+      "noSpeechProbability": 0.619,
+      "words": [
+        {
+          "word": " Each",
+          "start": 80.21,
+          "end": 81.09,
+          "probability": 0.102
+        },
+        {
+          "word": " shift",
+          "start": 81.09,
+          "end": 81.49,
+          "probability": 0.727
+        },
+        {
+          "word": " you",
+          "start": 81.49,
+          "end": 81.65,
+          "probability": 0.558
+        },
+        {
+          "word": " witness",
+          "start": 81.65,
+          "end": 82.07,
+          "probability": 0.761
+        },
+        {
+          "word": " till",
+          "start": 82.07,
+          "end": 82.47,
+          "probability": 0.945
+        },
+        {
+          "word": " the",
+          "start": 82.47,
+          "end": 82.71,
+          "probability": 0.403
+        },
+        {
+          "word": " voice",
+          "start": 82.71,
+          "end": 83.15,
+          "probability": 0.652
+        },
+        {
+          "word": " is",
+          "start": 83.15,
+          "end": 83.39,
+          "probability": 0.959
+        },
+        {
+          "word": " round",
+          "start": 83.39,
+          "end": 83.77,
+          "probability": 0.426
+        }
+      ]
+    },
+    {
+      "start": 83.77,
+      "end": 88.29,
+      "text": "Archives extractions stealing the songs",
+      "avgLogprob": -0.797,
+      "compressionRatio": 1.248,
+      "noSpeechProbability": 0.619,
+      "words": [
+        {
+          "word": " Archives",
+          "start": 83.77,
+          "end": 85.19,
+          "probability": 0.095
+        },
+        {
+          "word": " extractions",
+          "start": 85.19,
+          "end": 86.39,
+          "probability": 0.602
+        },
+        {
+          "word": " stealing",
+          "start": 86.39,
+          "end": 86.97,
+          "probability": 0.487
+        },
+        {
+          "word": " the",
+          "start": 86.97,
+          "end": 87.43,
+          "probability": 0.598
+        },
+        {
+          "word": " songs",
+          "start": 87.43,
+          "end": 88.29,
+          "probability": 0.661
+        }
+      ]
+    },
+    {
+      "start": 88.29,
+      "end": 92.07,
+      "text": "Basis de memory where we belong",
+      "avgLogprob": -0.797,
+      "compressionRatio": 1.248,
+      "noSpeechProbability": 0.619,
+      "words": [
+        {
+          "word": " Basis",
+          "start": 88.29,
+          "end": 89.91,
+          "probability": 0.4
+        },
+        {
+          "word": " de",
+          "start": 89.91,
+          "end": 90.21,
+          "probability": 0.776
+        },
+        {
+          "word": " memory",
+          "start": 90.21,
+          "end": 90.71,
+          "probability": 0.884
+        },
+        {
+          "word": " where",
+          "start": 90.71,
+          "end": 91.25,
+          "probability": 0.706
+        },
+        {
+          "word": " we",
+          "start": 91.25,
+          "end": 91.61,
+          "probability": 0.988
+        },
+        {
+          "word": " belong",
+          "start": 91.61,
+          "end": 92.07,
+          "probability": 0.384
+        }
+      ]
+    },
+    {
+      "start": 92.07,
+      "end": 93.95,
+      "text": "Sing it down",
+      "avgLogprob": -0.797,
+      "compressionRatio": 1.248,
+      "noSpeechProbability": 0.619,
+      "words": [
+        {
+          "word": " Sing",
+          "start": 92.07,
+          "end": 93.63,
+          "probability": 0.721
+        },
+        {
+          "word": " it",
+          "start": 93.63,
+          "end": 93.79,
+          "probability": 0.908
+        },
+        {
+          "word": " down",
+          "start": 93.79,
+          "end": 93.95,
+          "probability": 0.133
+        }
+      ]
+    },
+    {
+      "start": 140.26,
+      "end": 143.72,
+      "text": "Yeah, glass turns, you like money",
+      "avgLogprob": -0.82,
+      "compressionRatio": 1.263,
+      "noSpeechProbability": 0.295,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 140.26,
+          "end": 140.5,
+          "probability": 0.139
+        },
+        {
+          "word": " glass",
+          "start": 140.74,
+          "end": 141.16,
+          "probability": 0.206
+        },
+        {
+          "word": " turns,",
+          "start": 141.16,
+          "end": 141.46,
+          "probability": 0.417
+        },
+        {
+          "word": " you",
+          "start": 142.1,
+          "end": 142.58,
+          "probability": 0.864
+        },
+        {
+          "word": " like",
+          "start": 142.58,
+          "end": 143.12,
+          "probability": 0.489
+        },
+        {
+          "word": " money",
+          "start": 143.12,
+          "end": 143.72,
+          "probability": 0.885
+        }
+      ]
+    },
+    {
+      "start": 144.26,
+      "end": 147.96,
+      "text": "Small ass chuck, you're near lose no return",
+      "avgLogprob": -0.82,
+      "compressionRatio": 1.263,
+      "noSpeechProbability": 0.295,
+      "words": [
+        {
+          "word": " Small",
+          "start": 144.16,
+          "end": 144.64,
+          "probability": 0.651
+        },
+        {
+          "word": " ass",
+          "start": 144.64,
+          "end": 145.24,
+          "probability": 0.169
+        },
+        {
+          "word": " chuck,",
+          "start": 145.24,
+          "end": 145.74,
+          "probability": 0.442
+        },
+        {
+          "word": " you're",
+          "start": 146.06,
+          "end": 146.28,
+          "probability": 0.487
+        },
+        {
+          "word": " near",
+          "start": 146.28,
+          "end": 146.42,
+          "probability": 0.235
+        },
+        {
+          "word": " lose",
+          "start": 146.42,
+          "end": 146.9,
+          "probability": 0.186
+        },
+        {
+          "word": " no",
+          "start": 146.9,
+          "end": 147.24,
+          "probability": 0.552
+        },
+        {
+          "word": " return",
+          "start": 147.24,
+          "end": 147.96,
+          "probability": 0.935
+        }
+      ]
+    },
+    {
+      "start": 148.66,
+      "end": 152.24,
+      "text": "Loop that fence, love that rain",
+      "avgLogprob": -0.82,
+      "compressionRatio": 1.263,
+      "noSpeechProbability": 0.295,
+      "words": [
+        {
+          "word": " Loop",
+          "start": 148.46,
+          "end": 148.94,
+          "probability": 0.271
+        },
+        {
+          "word": " that",
+          "start": 148.94,
+          "end": 149.42,
+          "probability": 0.95
+        },
+        {
+          "word": " fence,",
+          "start": 149.42,
+          "end": 150.28,
+          "probability": 0.508
+        },
+        {
+          "word": " love",
+          "start": 150.74,
+          "end": 151.04,
+          "probability": 0.58
+        },
+        {
+          "word": " that",
+          "start": 151.04,
+          "end": 151.52,
+          "probability": 0.929
+        },
+        {
+          "word": " rain",
+          "start": 151.52,
+          "end": 152.24,
+          "probability": 0.268
+        }
+      ]
+    },
+    {
+      "start": 152.86,
+      "end": 155.98,
+      "text": "Feed learn, freeze, but forget the name",
+      "avgLogprob": -0.82,
+      "compressionRatio": 1.263,
+      "noSpeechProbability": 0.295,
+      "words": [
+        {
+          "word": " Feed",
+          "start": 152.74,
+          "end": 153.22,
+          "probability": 0.617
+        },
+        {
+          "word": " learn,",
+          "start": 153.22,
+          "end": 153.7,
+          "probability": 0.11
+        },
+        {
+          "word": " freeze,",
+          "start": 154.0,
+          "end": 154.24,
+          "probability": 0.188
+        },
+        {
+          "word": " but",
+          "start": 154.56,
+          "end": 154.68,
+          "probability": 0.694
+        },
+        {
+          "word": " forget",
+          "start": 154.68,
+          "end": 155.14,
+          "probability": 0.814
+        },
+        {
+          "word": " the",
+          "start": 155.14,
+          "end": 155.48,
+          "probability": 0.894
+        },
+        {
+          "word": " name",
+          "start": 155.48,
+          "end": 155.98,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 207.7,
+      "end": 215.82,
+      "text": "And class turn, you will like the moon, small acts drop, what it looks, don't return,",
+      "avgLogprob": -0.935,
+      "compressionRatio": 1.076,
+      "noSpeechProbability": 0.647,
+      "words": [
+        {
+          "word": " And",
+          "start": 207.7,
+          "end": 208.46,
+          "probability": 0.076
+        },
+        {
+          "word": " class",
+          "start": 208.46,
+          "end": 208.96,
+          "probability": 0.334
+        },
+        {
+          "word": " turn,",
+          "start": 208.96,
+          "end": 209.42,
+          "probability": 0.227
+        },
+        {
+          "word": " you",
+          "start": 210.2,
+          "end": 210.54,
+          "probability": 0.711
+        },
+        {
+          "word": " will",
+          "start": 210.54,
+          "end": 210.86,
+          "probability": 0.319
+        },
+        {
+          "word": " like",
+          "start": 210.86,
+          "end": 211.14,
+          "probability": 0.786
+        },
+        {
+          "word": " the",
+          "start": 211.14,
+          "end": 211.44,
+          "probability": 0.267
+        },
+        {
+          "word": " moon,",
+          "start": 211.44,
+          "end": 211.64,
+          "probability": 0.543
+        },
+        {
+          "word": " small",
+          "start": 212.34,
+          "end": 212.68,
+          "probability": 0.714
+        },
+        {
+          "word": " acts",
+          "start": 212.68,
+          "end": 213.26,
+          "probability": 0.304
+        },
+        {
+          "word": " drop,",
+          "start": 213.26,
+          "end": 213.68,
+          "probability": 0.188
+        },
+        {
+          "word": " what",
+          "start": 214.06,
+          "end": 214.16,
+          "probability": 0.571
+        },
+        {
+          "word": " it",
+          "start": 214.16,
+          "end": 214.44,
+          "probability": 0.28
+        },
+        {
+          "word": " looks,",
+          "start": 214.44,
+          "end": 214.9,
+          "probability": 0.299
+        },
+        {
+          "word": " don't",
+          "start": 215.08,
+          "end": 215.4,
+          "probability": 0.847
+        },
+        {
+          "word": " return,",
+          "start": 215.4,
+          "end": 215.82,
+          "probability": 0.915
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.765,
+    "wordCount": 92,
+    "credibleWordCount": 66,
+    "segmentCount": 13,
+    "averageWordProbability": 0.546,
+    "vocalSeconds": 48.86,
+    "scanCoverage": 0.268,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1504 @@
+{
+  "analysisVersion": 1,
+  "index": 44,
+  "id": "../VOLHOLLA/song-nobrightstand-13.html",
+  "slug": "glass-or-surface",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "The door unlocks. The transaction is already over. The agony only begins when you demand a purity that does not exist. You buy the $14 charcoal smoothie and stare at the dying lobby figures. Drowning in the feeling of being a hypocrite. But hypocrite hours and play the victim. We point at the fiber optic roots beneath the asphalt and more in our lost innocence as if we were fallen angels kidnapped by the city. This is a comforting lie. We are not hostages of the grid. We are its children. The cold glass doors and the algorithmic home are apologizing for the speed at which we live. You stand in the city center, feeling the concrete vibrate with capital and you tell yourself you are supposed to be weeping for the trees. Caught the tragic fire in music, you are not a Bruce Poet being digested by a beast, you are a battery clocked into a madman. Look at the dying figures in the lobby and pity it, as if you want to plant our two separate objects, you buy the cargo smoothie to purify yourself of the transaction, treating the physical world as a detergent for your soul. Look closer, the moment you swallow the burn wood, it becomes your blood, the moment you breathe.",
+  "sampledRanges": [
+    [
+      18.72,
+      36.72
+    ],
+    [
+      74.87,
+      92.87
+    ],
+    [
+      131.03,
+      149.03
+    ],
+    [
+      187.18,
+      205.18
+    ]
+  ],
+  "segments": [
+    {
+      "start": 18.86,
+      "end": 25.88,
+      "text": "The door unlocks. The transaction is already over. The agony only begins when you demand",
+      "avgLogprob": -0.293,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " The",
+          "start": 18.86,
+          "end": 19.46,
+          "probability": 0.477
+        },
+        {
+          "word": " door",
+          "start": 19.46,
+          "end": 19.72,
+          "probability": 0.952
+        },
+        {
+          "word": " unlocks.",
+          "start": 19.72,
+          "end": 20.14,
+          "probability": 0.817
+        },
+        {
+          "word": " The",
+          "start": 20.98,
+          "end": 21.08,
+          "probability": 0.968
+        },
+        {
+          "word": " transaction",
+          "start": 21.08,
+          "end": 21.6,
+          "probability": 0.985
+        },
+        {
+          "word": " is",
+          "start": 21.6,
+          "end": 21.86,
+          "probability": 0.996
+        },
+        {
+          "word": " already",
+          "start": 21.86,
+          "end": 22.24,
+          "probability": 0.933
+        },
+        {
+          "word": " over.",
+          "start": 22.24,
+          "end": 22.62,
+          "probability": 0.998
+        },
+        {
+          "word": " The",
+          "start": 23.82,
+          "end": 24.14,
+          "probability": 0.912
+        },
+        {
+          "word": " agony",
+          "start": 24.14,
+          "end": 24.44,
+          "probability": 0.541
+        },
+        {
+          "word": " only",
+          "start": 24.44,
+          "end": 24.78,
+          "probability": 0.968
+        },
+        {
+          "word": " begins",
+          "start": 24.78,
+          "end": 25.18,
+          "probability": 0.994
+        },
+        {
+          "word": " when",
+          "start": 25.18,
+          "end": 25.46,
+          "probability": 0.981
+        },
+        {
+          "word": " you",
+          "start": 25.46,
+          "end": 25.6,
+          "probability": 0.957
+        },
+        {
+          "word": " demand",
+          "start": 25.6,
+          "end": 25.88,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 25.88,
+      "end": 31.64,
+      "text": "a purity that does not exist. You buy the $14 charcoal smoothie and stare at the dying",
+      "avgLogprob": -0.293,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " a",
+          "start": 25.88,
+          "end": 26.18,
+          "probability": 0.981
+        },
+        {
+          "word": " purity",
+          "start": 26.18,
+          "end": 26.48,
+          "probability": 0.922
+        },
+        {
+          "word": " that",
+          "start": 26.48,
+          "end": 26.68,
+          "probability": 0.993
+        },
+        {
+          "word": " does",
+          "start": 26.68,
+          "end": 26.9,
+          "probability": 0.987
+        },
+        {
+          "word": " not",
+          "start": 26.9,
+          "end": 27.06,
+          "probability": 0.997
+        },
+        {
+          "word": " exist.",
+          "start": 27.06,
+          "end": 27.66,
+          "probability": 0.997
+        },
+        {
+          "word": " You",
+          "start": 28.24,
+          "end": 28.54,
+          "probability": 0.874
+        },
+        {
+          "word": " buy",
+          "start": 28.54,
+          "end": 28.72,
+          "probability": 0.939
+        },
+        {
+          "word": " the",
+          "start": 28.72,
+          "end": 28.88,
+          "probability": 0.99
+        },
+        {
+          "word": " $14",
+          "start": 28.88,
+          "end": 29.38,
+          "probability": 0.85
+        },
+        {
+          "word": " charcoal",
+          "start": 29.38,
+          "end": 30.1,
+          "probability": 0.406
+        },
+        {
+          "word": " smoothie",
+          "start": 30.1,
+          "end": 30.48,
+          "probability": 0.646
+        },
+        {
+          "word": " and",
+          "start": 30.48,
+          "end": 30.76,
+          "probability": 0.821
+        },
+        {
+          "word": " stare",
+          "start": 30.76,
+          "end": 31.06,
+          "probability": 0.928
+        },
+        {
+          "word": " at",
+          "start": 31.06,
+          "end": 31.28,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 31.28,
+          "end": 31.36,
+          "probability": 0.991
+        },
+        {
+          "word": " dying",
+          "start": 31.36,
+          "end": 31.64,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 31.64,
+      "end": 36.6,
+      "text": "lobby figures. Drowning in the feeling of being a hypocrite. But hypocrite",
+      "avgLogprob": -0.293,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.421,
+      "words": [
+        {
+          "word": " lobby",
+          "start": 31.64,
+          "end": 31.88,
+          "probability": 0.585
+        },
+        {
+          "word": " figures.",
+          "start": 31.88,
+          "end": 32.38,
+          "probability": 0.323
+        },
+        {
+          "word": " Drowning",
+          "start": 33.08,
+          "end": 33.68,
+          "probability": 0.963
+        },
+        {
+          "word": " in",
+          "start": 33.68,
+          "end": 33.76,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 33.76,
+          "end": 33.88,
+          "probability": 0.995
+        },
+        {
+          "word": " feeling",
+          "start": 33.88,
+          "end": 34.18,
+          "probability": 0.996
+        },
+        {
+          "word": " of",
+          "start": 34.18,
+          "end": 34.42,
+          "probability": 0.998
+        },
+        {
+          "word": " being",
+          "start": 34.42,
+          "end": 34.62,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 34.62,
+          "end": 34.8,
+          "probability": 0.996
+        },
+        {
+          "word": " hypocrite.",
+          "start": 34.8,
+          "end": 35.42,
+          "probability": 0.953
+        },
+        {
+          "word": " But",
+          "start": 36.04,
+          "end": 36.26,
+          "probability": 0.921
+        },
+        {
+          "word": " hypocrite",
+          "start": 36.26,
+          "end": 36.6,
+          "probability": 0.913
+        }
+      ]
+    },
+    {
+      "start": 74.87,
+      "end": 79.85,
+      "text": "hours and play the victim. We point at the fiber optic roots beneath the asphalt and more",
+      "avgLogprob": -0.298,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " hours",
+          "start": 74.87,
+          "end": 75.17,
+          "probability": 0.088
+        },
+        {
+          "word": " and",
+          "start": 75.17,
+          "end": 75.33,
+          "probability": 0.902
+        },
+        {
+          "word": " play",
+          "start": 75.33,
+          "end": 75.53,
+          "probability": 0.724
+        },
+        {
+          "word": " the",
+          "start": 75.53,
+          "end": 75.71,
+          "probability": 0.971
+        },
+        {
+          "word": " victim.",
+          "start": 75.71,
+          "end": 76.07,
+          "probability": 0.993
+        },
+        {
+          "word": " We",
+          "start": 76.75,
+          "end": 76.95,
+          "probability": 0.964
+        },
+        {
+          "word": " point",
+          "start": 76.95,
+          "end": 77.19,
+          "probability": 0.457
+        },
+        {
+          "word": " at",
+          "start": 77.19,
+          "end": 77.35,
+          "probability": 0.828
+        },
+        {
+          "word": " the",
+          "start": 77.35,
+          "end": 77.55,
+          "probability": 0.986
+        },
+        {
+          "word": " fiber",
+          "start": 77.55,
+          "end": 77.81,
+          "probability": 0.852
+        },
+        {
+          "word": " optic",
+          "start": 77.81,
+          "end": 78.17,
+          "probability": 0.967
+        },
+        {
+          "word": " roots",
+          "start": 78.17,
+          "end": 78.45,
+          "probability": 0.93
+        },
+        {
+          "word": " beneath",
+          "start": 78.45,
+          "end": 78.73,
+          "probability": 0.96
+        },
+        {
+          "word": " the",
+          "start": 78.73,
+          "end": 78.97,
+          "probability": 0.982
+        },
+        {
+          "word": " asphalt",
+          "start": 78.97,
+          "end": 79.37,
+          "probability": 0.977
+        },
+        {
+          "word": " and",
+          "start": 79.37,
+          "end": 79.63,
+          "probability": 0.962
+        },
+        {
+          "word": " more",
+          "start": 79.63,
+          "end": 79.85,
+          "probability": 0.249
+        }
+      ]
+    },
+    {
+      "start": 79.85,
+      "end": 84.07,
+      "text": "in our lost innocence as if we were fallen angels kidnapped by the city.",
+      "avgLogprob": -0.298,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " in",
+          "start": 79.85,
+          "end": 79.95,
+          "probability": 0.776
+        },
+        {
+          "word": " our",
+          "start": 79.95,
+          "end": 80.07,
+          "probability": 0.997
+        },
+        {
+          "word": " lost",
+          "start": 80.07,
+          "end": 80.37,
+          "probability": 0.884
+        },
+        {
+          "word": " innocence",
+          "start": 80.37,
+          "end": 80.83,
+          "probability": 0.814
+        },
+        {
+          "word": " as",
+          "start": 80.83,
+          "end": 81.73,
+          "probability": 0.486
+        },
+        {
+          "word": " if",
+          "start": 81.73,
+          "end": 81.93,
+          "probability": 0.995
+        },
+        {
+          "word": " we",
+          "start": 81.93,
+          "end": 82.03,
+          "probability": 0.989
+        },
+        {
+          "word": " were",
+          "start": 82.03,
+          "end": 82.15,
+          "probability": 0.984
+        },
+        {
+          "word": " fallen",
+          "start": 82.15,
+          "end": 82.49,
+          "probability": 0.718
+        },
+        {
+          "word": " angels",
+          "start": 82.49,
+          "end": 82.89,
+          "probability": 0.963
+        },
+        {
+          "word": " kidnapped",
+          "start": 82.89,
+          "end": 83.27,
+          "probability": 0.7
+        },
+        {
+          "word": " by",
+          "start": 83.27,
+          "end": 83.57,
+          "probability": 0.997
+        },
+        {
+          "word": " the",
+          "start": 83.57,
+          "end": 83.71,
+          "probability": 0.967
+        },
+        {
+          "word": " city.",
+          "start": 83.71,
+          "end": 84.07,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 85.01,
+      "end": 91.19,
+      "text": "This is a comforting lie. We are not hostages of the grid. We are its children. The cold glass",
+      "avgLogprob": -0.298,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " This",
+          "start": 85.01,
+          "end": 85.37,
+          "probability": 0.96
+        },
+        {
+          "word": " is",
+          "start": 85.37,
+          "end": 85.49,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 85.49,
+          "end": 85.61,
+          "probability": 0.912
+        },
+        {
+          "word": " comforting",
+          "start": 85.61,
+          "end": 86.09,
+          "probability": 0.987
+        },
+        {
+          "word": " lie.",
+          "start": 86.09,
+          "end": 86.45,
+          "probability": 0.997
+        },
+        {
+          "word": " We",
+          "start": 87.05,
+          "end": 87.17,
+          "probability": 0.986
+        },
+        {
+          "word": " are",
+          "start": 87.17,
+          "end": 87.27,
+          "probability": 0.993
+        },
+        {
+          "word": " not",
+          "start": 87.27,
+          "end": 87.45,
+          "probability": 0.998
+        },
+        {
+          "word": " hostages",
+          "start": 87.45,
+          "end": 87.91,
+          "probability": 0.98
+        },
+        {
+          "word": " of",
+          "start": 87.91,
+          "end": 88.13,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 88.13,
+          "end": 88.27,
+          "probability": 0.993
+        },
+        {
+          "word": " grid.",
+          "start": 88.27,
+          "end": 88.53,
+          "probability": 0.833
+        },
+        {
+          "word": " We",
+          "start": 89.07,
+          "end": 89.19,
+          "probability": 0.993
+        },
+        {
+          "word": " are",
+          "start": 89.19,
+          "end": 89.31,
+          "probability": 0.995
+        },
+        {
+          "word": " its",
+          "start": 89.31,
+          "end": 89.49,
+          "probability": 0.955
+        },
+        {
+          "word": " children.",
+          "start": 89.49,
+          "end": 89.97,
+          "probability": 0.989
+        },
+        {
+          "word": " The",
+          "start": 90.53,
+          "end": 90.61,
+          "probability": 0.849
+        },
+        {
+          "word": " cold",
+          "start": 90.61,
+          "end": 90.89,
+          "probability": 0.979
+        },
+        {
+          "word": " glass",
+          "start": 90.89,
+          "end": 91.19,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 91.19,
+      "end": 92.79,
+      "text": "doors and the algorithmic home",
+      "avgLogprob": -0.298,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.622,
+      "words": [
+        {
+          "word": " doors",
+          "start": 91.19,
+          "end": 91.55,
+          "probability": 0.972
+        },
+        {
+          "word": " and",
+          "start": 91.55,
+          "end": 91.79,
+          "probability": 0.893
+        },
+        {
+          "word": " the",
+          "start": 91.79,
+          "end": 91.93,
+          "probability": 0.984
+        },
+        {
+          "word": " algorithmic",
+          "start": 91.93,
+          "end": 92.65,
+          "probability": 0.957
+        },
+        {
+          "word": " home",
+          "start": 92.65,
+          "end": 92.79,
+          "probability": 0.329
+        }
+      ]
+    },
+    {
+      "start": 131.03,
+      "end": 136.53,
+      "text": "are apologizing for the speed at which we live. You stand in the city center, feeling the concrete",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.709,
+      "words": [
+        {
+          "word": " are",
+          "start": 131.03,
+          "end": 131.27,
+          "probability": 0.02
+        },
+        {
+          "word": " apologizing",
+          "start": 131.27,
+          "end": 131.85,
+          "probability": 0.638
+        },
+        {
+          "word": " for",
+          "start": 131.85,
+          "end": 132.09,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 132.09,
+          "end": 132.23,
+          "probability": 0.992
+        },
+        {
+          "word": " speed",
+          "start": 132.23,
+          "end": 132.45,
+          "probability": 0.991
+        },
+        {
+          "word": " at",
+          "start": 132.45,
+          "end": 132.59,
+          "probability": 0.973
+        },
+        {
+          "word": " which",
+          "start": 132.59,
+          "end": 132.77,
+          "probability": 0.998
+        },
+        {
+          "word": " we",
+          "start": 132.77,
+          "end": 132.99,
+          "probability": 0.996
+        },
+        {
+          "word": " live.",
+          "start": 132.99,
+          "end": 133.33,
+          "probability": 0.994
+        },
+        {
+          "word": " You",
+          "start": 133.87,
+          "end": 133.95,
+          "probability": 0.908
+        },
+        {
+          "word": " stand",
+          "start": 133.95,
+          "end": 134.17,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 134.17,
+          "end": 134.35,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 134.35,
+          "end": 134.47,
+          "probability": 0.982
+        },
+        {
+          "word": " city",
+          "start": 134.47,
+          "end": 134.73,
+          "probability": 0.983
+        },
+        {
+          "word": " center,",
+          "start": 134.73,
+          "end": 135.25,
+          "probability": 0.588
+        },
+        {
+          "word": " feeling",
+          "start": 135.69,
+          "end": 135.93,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 135.93,
+          "end": 136.13,
+          "probability": 0.989
+        },
+        {
+          "word": " concrete",
+          "start": 136.13,
+          "end": 136.53,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 136.53,
+      "end": 141.19,
+      "text": "vibrate with capital and you tell yourself you are supposed to be weeping for the trees.",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.709,
+      "words": [
+        {
+          "word": " vibrate",
+          "start": 136.53,
+          "end": 137.03,
+          "probability": 0.89
+        },
+        {
+          "word": " with",
+          "start": 137.03,
+          "end": 137.27,
+          "probability": 0.991
+        },
+        {
+          "word": " capital",
+          "start": 137.27,
+          "end": 137.71,
+          "probability": 0.35
+        },
+        {
+          "word": " and",
+          "start": 137.71,
+          "end": 138.41,
+          "probability": 0.394
+        },
+        {
+          "word": " you",
+          "start": 138.41,
+          "end": 138.51,
+          "probability": 0.989
+        },
+        {
+          "word": " tell",
+          "start": 138.51,
+          "end": 138.69,
+          "probability": 0.98
+        },
+        {
+          "word": " yourself",
+          "start": 138.69,
+          "end": 139.07,
+          "probability": 0.993
+        },
+        {
+          "word": " you",
+          "start": 139.07,
+          "end": 139.31,
+          "probability": 0.876
+        },
+        {
+          "word": " are",
+          "start": 139.31,
+          "end": 139.39,
+          "probability": 0.882
+        },
+        {
+          "word": " supposed",
+          "start": 139.39,
+          "end": 139.69,
+          "probability": 0.986
+        },
+        {
+          "word": " to",
+          "start": 139.69,
+          "end": 139.89,
+          "probability": 0.999
+        },
+        {
+          "word": " be",
+          "start": 139.89,
+          "end": 139.99,
+          "probability": 0.996
+        },
+        {
+          "word": " weeping",
+          "start": 139.99,
+          "end": 140.29,
+          "probability": 0.725
+        },
+        {
+          "word": " for",
+          "start": 140.29,
+          "end": 140.51,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 140.51,
+          "end": 140.63,
+          "probability": 0.995
+        },
+        {
+          "word": " trees.",
+          "start": 140.63,
+          "end": 141.19,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 141.85,
+      "end": 146.87,
+      "text": "Caught the tragic fire in music, you are not a Bruce Poet being digested by a beast,",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.709,
+      "words": [
+        {
+          "word": " Caught",
+          "start": 141.85,
+          "end": 142.29,
+          "probability": 0.577
+        },
+        {
+          "word": " the",
+          "start": 142.29,
+          "end": 142.39,
+          "probability": 0.955
+        },
+        {
+          "word": " tragic",
+          "start": 142.39,
+          "end": 142.71,
+          "probability": 0.994
+        },
+        {
+          "word": " fire",
+          "start": 142.71,
+          "end": 143.03,
+          "probability": 0.35
+        },
+        {
+          "word": " in",
+          "start": 143.03,
+          "end": 143.21,
+          "probability": 0.605
+        },
+        {
+          "word": " music,",
+          "start": 143.21,
+          "end": 143.61,
+          "probability": 0.984
+        },
+        {
+          "word": " you",
+          "start": 144.07,
+          "end": 144.21,
+          "probability": 0.977
+        },
+        {
+          "word": " are",
+          "start": 144.21,
+          "end": 144.31,
+          "probability": 0.989
+        },
+        {
+          "word": " not",
+          "start": 144.31,
+          "end": 144.49,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 144.49,
+          "end": 144.65,
+          "probability": 0.98
+        },
+        {
+          "word": " Bruce",
+          "start": 144.65,
+          "end": 144.93,
+          "probability": 0.539
+        },
+        {
+          "word": " Poet",
+          "start": 144.93,
+          "end": 145.27,
+          "probability": 0.613
+        },
+        {
+          "word": " being",
+          "start": 145.27,
+          "end": 145.53,
+          "probability": 0.995
+        },
+        {
+          "word": " digested",
+          "start": 145.53,
+          "end": 146.11,
+          "probability": 0.986
+        },
+        {
+          "word": " by",
+          "start": 146.11,
+          "end": 146.29,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 146.29,
+          "end": 146.45,
+          "probability": 0.896
+        },
+        {
+          "word": " beast,",
+          "start": 146.45,
+          "end": 146.87,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 147.25,
+      "end": 149.01,
+      "text": "you are a battery clocked into a madman.",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.709,
+      "words": [
+        {
+          "word": " you",
+          "start": 147.25,
+          "end": 147.33,
+          "probability": 0.977
+        },
+        {
+          "word": " are",
+          "start": 147.33,
+          "end": 147.47,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 147.47,
+          "end": 147.57,
+          "probability": 0.984
+        },
+        {
+          "word": " battery",
+          "start": 147.57,
+          "end": 147.93,
+          "probability": 0.637
+        },
+        {
+          "word": " clocked",
+          "start": 147.93,
+          "end": 148.35,
+          "probability": 0.644
+        },
+        {
+          "word": " into",
+          "start": 148.35,
+          "end": 148.55,
+          "probability": 0.969
+        },
+        {
+          "word": " a",
+          "start": 148.55,
+          "end": 148.69,
+          "probability": 0.959
+        },
+        {
+          "word": " madman.",
+          "start": 148.69,
+          "end": 149.01,
+          "probability": 0.275
+        }
+      ]
+    },
+    {
+      "start": 187.18,
+      "end": 191.36,
+      "text": "Look at the dying figures in the lobby and pity it, as if you want to plant our two separate",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.642,
+      "words": [
+        {
+          "word": " Look",
+          "start": 187.18,
+          "end": 187.28,
+          "probability": 0.068
+        },
+        {
+          "word": " at",
+          "start": 187.28,
+          "end": 187.34,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 187.34,
+          "end": 187.46,
+          "probability": 0.928
+        },
+        {
+          "word": " dying",
+          "start": 187.46,
+          "end": 187.74,
+          "probability": 0.982
+        },
+        {
+          "word": " figures",
+          "start": 187.74,
+          "end": 188.08,
+          "probability": 0.741
+        },
+        {
+          "word": " in",
+          "start": 188.08,
+          "end": 188.28,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 188.28,
+          "end": 188.38,
+          "probability": 0.955
+        },
+        {
+          "word": " lobby",
+          "start": 188.38,
+          "end": 188.58,
+          "probability": 0.741
+        },
+        {
+          "word": " and",
+          "start": 188.58,
+          "end": 188.82,
+          "probability": 0.927
+        },
+        {
+          "word": " pity",
+          "start": 188.82,
+          "end": 189.1,
+          "probability": 0.889
+        },
+        {
+          "word": " it,",
+          "start": 189.1,
+          "end": 189.38,
+          "probability": 0.986
+        },
+        {
+          "word": " as",
+          "start": 189.6,
+          "end": 189.76,
+          "probability": 0.907
+        },
+        {
+          "word": " if",
+          "start": 189.76,
+          "end": 189.96,
+          "probability": 0.994
+        },
+        {
+          "word": " you",
+          "start": 189.96,
+          "end": 190.12,
+          "probability": 0.99
+        },
+        {
+          "word": " want",
+          "start": 190.12,
+          "end": 190.24,
+          "probability": 0.162
+        },
+        {
+          "word": " to",
+          "start": 190.24,
+          "end": 190.36,
+          "probability": 0.874
+        },
+        {
+          "word": " plant",
+          "start": 190.36,
+          "end": 190.64,
+          "probability": 0.707
+        },
+        {
+          "word": " our",
+          "start": 190.64,
+          "end": 190.78,
+          "probability": 0.282
+        },
+        {
+          "word": " two",
+          "start": 190.78,
+          "end": 191.02,
+          "probability": 0.911
+        },
+        {
+          "word": " separate",
+          "start": 191.02,
+          "end": 191.36,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 191.36,
+      "end": 196.32,
+      "text": "objects, you buy the cargo smoothie to purify yourself of the transaction, treating the",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.642,
+      "words": [
+        {
+          "word": " objects,",
+          "start": 191.36,
+          "end": 191.84,
+          "probability": 0.995
+        },
+        {
+          "word": " you",
+          "start": 192.12,
+          "end": 192.26,
+          "probability": 0.873
+        },
+        {
+          "word": " buy",
+          "start": 192.26,
+          "end": 192.44,
+          "probability": 0.973
+        },
+        {
+          "word": " the",
+          "start": 192.44,
+          "end": 192.62,
+          "probability": 0.962
+        },
+        {
+          "word": " cargo",
+          "start": 192.62,
+          "end": 192.9,
+          "probability": 0.936
+        },
+        {
+          "word": " smoothie",
+          "start": 192.9,
+          "end": 193.4,
+          "probability": 0.736
+        },
+        {
+          "word": " to",
+          "start": 193.4,
+          "end": 193.58,
+          "probability": 0.971
+        },
+        {
+          "word": " purify",
+          "start": 193.58,
+          "end": 194.0,
+          "probability": 0.995
+        },
+        {
+          "word": " yourself",
+          "start": 194.0,
+          "end": 194.42,
+          "probability": 0.958
+        },
+        {
+          "word": " of",
+          "start": 194.42,
+          "end": 194.62,
+          "probability": 0.976
+        },
+        {
+          "word": " the",
+          "start": 194.62,
+          "end": 194.74,
+          "probability": 0.983
+        },
+        {
+          "word": " transaction,",
+          "start": 194.74,
+          "end": 195.3,
+          "probability": 0.967
+        },
+        {
+          "word": " treating",
+          "start": 195.92,
+          "end": 196.12,
+          "probability": 0.988
+        },
+        {
+          "word": " the",
+          "start": 196.12,
+          "end": 196.32,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 196.32,
+      "end": 198.62,
+      "text": "physical world as a detergent for your soul.",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.642,
+      "words": [
+        {
+          "word": " physical",
+          "start": 196.32,
+          "end": 196.72,
+          "probability": 0.997
+        },
+        {
+          "word": " world",
+          "start": 196.72,
+          "end": 197.02,
+          "probability": 0.967
+        },
+        {
+          "word": " as",
+          "start": 197.02,
+          "end": 197.2,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 197.2,
+          "end": 197.28,
+          "probability": 0.917
+        },
+        {
+          "word": " detergent",
+          "start": 197.28,
+          "end": 197.76,
+          "probability": 0.995
+        },
+        {
+          "word": " for",
+          "start": 197.76,
+          "end": 197.98,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 197.98,
+          "end": 198.1,
+          "probability": 0.993
+        },
+        {
+          "word": " soul.",
+          "start": 198.1,
+          "end": 198.62,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 199.26,
+      "end": 204.84,
+      "text": "Look closer, the moment you swallow the burn wood, it becomes your blood, the moment you",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.642,
+      "words": [
+        {
+          "word": " Look",
+          "start": 199.26,
+          "end": 199.64,
+          "probability": 0.873
+        },
+        {
+          "word": " closer,",
+          "start": 199.64,
+          "end": 200.1,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 200.56,
+          "end": 200.68,
+          "probability": 0.988
+        },
+        {
+          "word": " moment",
+          "start": 200.68,
+          "end": 200.94,
+          "probability": 0.997
+        },
+        {
+          "word": " you",
+          "start": 200.94,
+          "end": 201.16,
+          "probability": 0.997
+        },
+        {
+          "word": " swallow",
+          "start": 201.16,
+          "end": 201.44,
+          "probability": 0.879
+        },
+        {
+          "word": " the",
+          "start": 201.44,
+          "end": 201.68,
+          "probability": 0.972
+        },
+        {
+          "word": " burn",
+          "start": 201.68,
+          "end": 201.92,
+          "probability": 0.603
+        },
+        {
+          "word": " wood,",
+          "start": 201.92,
+          "end": 202.3,
+          "probability": 0.581
+        },
+        {
+          "word": " it",
+          "start": 202.7,
+          "end": 202.8,
+          "probability": 0.98
+        },
+        {
+          "word": " becomes",
+          "start": 202.8,
+          "end": 203.14,
+          "probability": 0.993
+        },
+        {
+          "word": " your",
+          "start": 203.14,
+          "end": 203.38,
+          "probability": 0.995
+        },
+        {
+          "word": " blood,",
+          "start": 203.38,
+          "end": 203.7,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 204.16,
+          "end": 204.32,
+          "probability": 0.989
+        },
+        {
+          "word": " moment",
+          "start": 204.32,
+          "end": 204.6,
+          "probability": 0.988
+        },
+        {
+          "word": " you",
+          "start": 204.6,
+          "end": 204.84,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 204.84,
+      "end": 205.08,
+      "text": "breathe.",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.631,
+      "noSpeechProbability": 0.642,
+      "words": [
+        {
+          "word": " breathe.",
+          "start": 204.84,
+          "end": 205.08,
+          "probability": 0.91
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.944,
+    "wordCount": 217,
+    "credibleWordCount": 208,
+    "segmentCount": 16,
+    "averageWordProbability": 0.883,
+    "vocalSeconds": 68.92,
+    "scanCoverage": 0.286,
+    "reviewRequired": false
+  }
+}

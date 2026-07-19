@@ -1,0 +1,1915 @@
+{
+  "analysisVersion": 1,
+  "index": 42,
+  "id": "../VOLHOLLA/song-nobrightstand-20.html",
+  "slug": "the-apex-of-convenience",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Wash your face with imported volcanic ash. You burn off the top layer of your skin with acid. You are trying to achieve a pure, muntouch surface. You are trying to make a mirror out of your own face. You use clinical psychology terms to cancel dinner. You test your friend that you are protecting your peace. You build a flawless, impenetrable... In the extracted essence of piston roots and fungi, you are attempting to biologically outsmart mortality. You still pull a muscle sleeping on your left side. You strap a silicone computer to your wrist. It monitors your pulse and tracks your rep cycles. It tells you that you are exhausted. Now you have the data to prove your suffering is statistically significant. You ask a plus I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.36,
+      "end": 23.44,
+      "text": "Wash your face with imported volcanic ash.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " Wash",
+          "start": 21.36,
+          "end": 21.52,
+          "probability": 0.405
+        },
+        {
+          "word": " your",
+          "start": 21.52,
+          "end": 21.7,
+          "probability": 0.98
+        },
+        {
+          "word": " face",
+          "start": 21.7,
+          "end": 21.9,
+          "probability": 0.999
+        },
+        {
+          "word": " with",
+          "start": 21.9,
+          "end": 22.14,
+          "probability": 0.998
+        },
+        {
+          "word": " imported",
+          "start": 22.14,
+          "end": 22.52,
+          "probability": 0.814
+        },
+        {
+          "word": " volcanic",
+          "start": 22.52,
+          "end": 22.88,
+          "probability": 0.963
+        },
+        {
+          "word": " ash.",
+          "start": 22.88,
+          "end": 23.44,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 23.68,
+      "end": 25.84,
+      "text": "You burn off the top layer of your skin with acid.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 23.68,
+          "end": 23.9,
+          "probability": 0.966
+        },
+        {
+          "word": " burn",
+          "start": 23.9,
+          "end": 24.06,
+          "probability": 0.979
+        },
+        {
+          "word": " off",
+          "start": 24.06,
+          "end": 24.26,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 24.26,
+          "end": 24.4,
+          "probability": 0.991
+        },
+        {
+          "word": " top",
+          "start": 24.4,
+          "end": 24.6,
+          "probability": 0.998
+        },
+        {
+          "word": " layer",
+          "start": 24.6,
+          "end": 24.84,
+          "probability": 0.999
+        },
+        {
+          "word": " of",
+          "start": 24.84,
+          "end": 25.02,
+          "probability": 0.995
+        },
+        {
+          "word": " your",
+          "start": 25.02,
+          "end": 25.14,
+          "probability": 0.994
+        },
+        {
+          "word": " skin",
+          "start": 25.14,
+          "end": 25.36,
+          "probability": 0.999
+        },
+        {
+          "word": " with",
+          "start": 25.36,
+          "end": 25.6,
+          "probability": 0.996
+        },
+        {
+          "word": " acid.",
+          "start": 25.6,
+          "end": 25.84,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 26.4,
+      "end": 28.9,
+      "text": "You are trying to achieve a pure, muntouch surface.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 26.4,
+          "end": 26.5,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 26.5,
+          "end": 26.6,
+          "probability": 0.966
+        },
+        {
+          "word": " trying",
+          "start": 26.6,
+          "end": 26.88,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 26.88,
+          "end": 27.08,
+          "probability": 0.998
+        },
+        {
+          "word": " achieve",
+          "start": 27.08,
+          "end": 27.3,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 27.3,
+          "end": 27.5,
+          "probability": 0.996
+        },
+        {
+          "word": " pure,",
+          "start": 27.5,
+          "end": 27.76,
+          "probability": 0.94
+        },
+        {
+          "word": " muntouch",
+          "start": 28.12,
+          "end": 28.46,
+          "probability": 0.574
+        },
+        {
+          "word": " surface.",
+          "start": 28.46,
+          "end": 28.9,
+          "probability": 0.83
+        }
+      ]
+    },
+    {
+      "start": 29.34,
+      "end": 31.4,
+      "text": "You are trying to make a mirror out of your own face.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 29.34,
+          "end": 29.44,
+          "probability": 0.991
+        },
+        {
+          "word": " are",
+          "start": 29.44,
+          "end": 29.56,
+          "probability": 0.989
+        },
+        {
+          "word": " trying",
+          "start": 29.56,
+          "end": 29.84,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 29.84,
+          "end": 30.0,
+          "probability": 0.998
+        },
+        {
+          "word": " make",
+          "start": 30.0,
+          "end": 30.14,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 30.14,
+          "end": 30.28,
+          "probability": 0.994
+        },
+        {
+          "word": " mirror",
+          "start": 30.28,
+          "end": 30.48,
+          "probability": 0.995
+        },
+        {
+          "word": " out",
+          "start": 30.48,
+          "end": 30.72,
+          "probability": 0.995
+        },
+        {
+          "word": " of",
+          "start": 30.72,
+          "end": 30.8,
+          "probability": 0.994
+        },
+        {
+          "word": " your",
+          "start": 30.8,
+          "end": 30.94,
+          "probability": 0.996
+        },
+        {
+          "word": " own",
+          "start": 30.94,
+          "end": 31.1,
+          "probability": 0.995
+        },
+        {
+          "word": " face.",
+          "start": 31.1,
+          "end": 31.4,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 31.98,
+      "end": 34.44,
+      "text": "You use clinical psychology terms to cancel dinner.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 31.98,
+          "end": 32.14,
+          "probability": 0.982
+        },
+        {
+          "word": " use",
+          "start": 32.14,
+          "end": 32.4,
+          "probability": 0.99
+        },
+        {
+          "word": " clinical",
+          "start": 32.4,
+          "end": 32.7,
+          "probability": 0.983
+        },
+        {
+          "word": " psychology",
+          "start": 32.7,
+          "end": 33.12,
+          "probability": 0.987
+        },
+        {
+          "word": " terms",
+          "start": 33.12,
+          "end": 33.66,
+          "probability": 0.972
+        },
+        {
+          "word": " to",
+          "start": 33.66,
+          "end": 33.86,
+          "probability": 0.999
+        },
+        {
+          "word": " cancel",
+          "start": 33.86,
+          "end": 34.14,
+          "probability": 0.994
+        },
+        {
+          "word": " dinner.",
+          "start": 34.14,
+          "end": 34.44,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 34.86,
+      "end": 36.96,
+      "text": "You test your friend that you are protecting your peace.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 34.86,
+          "end": 34.96,
+          "probability": 0.989
+        },
+        {
+          "word": " test",
+          "start": 34.96,
+          "end": 35.22,
+          "probability": 0.964
+        },
+        {
+          "word": " your",
+          "start": 35.22,
+          "end": 35.4,
+          "probability": 0.995
+        },
+        {
+          "word": " friend",
+          "start": 35.4,
+          "end": 35.64,
+          "probability": 0.992
+        },
+        {
+          "word": " that",
+          "start": 35.64,
+          "end": 35.78,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 35.78,
+          "end": 35.92,
+          "probability": 0.998
+        },
+        {
+          "word": " are",
+          "start": 35.92,
+          "end": 36.04,
+          "probability": 0.99
+        },
+        {
+          "word": " protecting",
+          "start": 36.04,
+          "end": 36.4,
+          "probability": 0.998
+        },
+        {
+          "word": " your",
+          "start": 36.4,
+          "end": 36.64,
+          "probability": 0.996
+        },
+        {
+          "word": " peace.",
+          "start": 36.64,
+          "end": 36.96,
+          "probability": 0.863
+        }
+      ]
+    },
+    {
+      "start": 37.42,
+      "end": 39.34,
+      "text": "You build a flawless, impenetrable...",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.68,
+      "noSpeechProbability": 0.403,
+      "words": [
+        {
+          "word": " You",
+          "start": 37.42,
+          "end": 37.5,
+          "probability": 0.991
+        },
+        {
+          "word": " build",
+          "start": 37.5,
+          "end": 37.72,
+          "probability": 0.991
+        },
+        {
+          "word": " a",
+          "start": 37.72,
+          "end": 37.86,
+          "probability": 0.987
+        },
+        {
+          "word": " flawless,",
+          "start": 37.86,
+          "end": 38.2,
+          "probability": 0.998
+        },
+        {
+          "word": " impenetrable...",
+          "start": 38.66,
+          "end": 39.34,
+          "probability": 0.836
+        }
+      ]
+    },
+    {
+      "start": 85.43,
+      "end": 89.37,
+      "text": "In the extracted essence of piston roots and fungi, you are attempting to biologically",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " In",
+          "start": 85.43,
+          "end": 85.49,
+          "probability": 0.133
+        },
+        {
+          "word": " the",
+          "start": 85.49,
+          "end": 85.57,
+          "probability": 0.871
+        },
+        {
+          "word": " extracted",
+          "start": 85.57,
+          "end": 85.99,
+          "probability": 0.943
+        },
+        {
+          "word": " essence",
+          "start": 85.99,
+          "end": 86.27,
+          "probability": 0.987
+        },
+        {
+          "word": " of",
+          "start": 86.27,
+          "end": 86.55,
+          "probability": 0.998
+        },
+        {
+          "word": " piston",
+          "start": 86.55,
+          "end": 86.75,
+          "probability": 0.546
+        },
+        {
+          "word": " roots",
+          "start": 86.75,
+          "end": 86.95,
+          "probability": 0.498
+        },
+        {
+          "word": " and",
+          "start": 86.95,
+          "end": 87.17,
+          "probability": 0.939
+        },
+        {
+          "word": " fungi,",
+          "start": 87.17,
+          "end": 87.51,
+          "probability": 0.815
+        },
+        {
+          "word": " you",
+          "start": 87.99,
+          "end": 88.09,
+          "probability": 0.994
+        },
+        {
+          "word": " are",
+          "start": 88.09,
+          "end": 88.23,
+          "probability": 0.954
+        },
+        {
+          "word": " attempting",
+          "start": 88.23,
+          "end": 88.53,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 88.53,
+          "end": 88.77,
+          "probability": 0.998
+        },
+        {
+          "word": " biologically",
+          "start": 88.77,
+          "end": 89.37,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 89.37,
+      "end": 90.37,
+      "text": "outsmart mortality.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " outsmart",
+          "start": 89.37,
+          "end": 89.85,
+          "probability": 0.917
+        },
+        {
+          "word": " mortality.",
+          "start": 89.85,
+          "end": 90.37,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 90.77,
+      "end": 92.97,
+      "text": "You still pull a muscle sleeping on your left side.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " You",
+          "start": 90.77,
+          "end": 90.93,
+          "probability": 0.988
+        },
+        {
+          "word": " still",
+          "start": 90.93,
+          "end": 91.15,
+          "probability": 0.988
+        },
+        {
+          "word": " pull",
+          "start": 91.15,
+          "end": 91.37,
+          "probability": 0.993
+        },
+        {
+          "word": " a",
+          "start": 91.37,
+          "end": 91.49,
+          "probability": 0.984
+        },
+        {
+          "word": " muscle",
+          "start": 91.49,
+          "end": 91.69,
+          "probability": 0.984
+        },
+        {
+          "word": " sleeping",
+          "start": 91.69,
+          "end": 92.07,
+          "probability": 0.961
+        },
+        {
+          "word": " on",
+          "start": 92.07,
+          "end": 92.25,
+          "probability": 0.998
+        },
+        {
+          "word": " your",
+          "start": 92.25,
+          "end": 92.39,
+          "probability": 0.997
+        },
+        {
+          "word": " left",
+          "start": 92.39,
+          "end": 92.57,
+          "probability": 0.998
+        },
+        {
+          "word": " side.",
+          "start": 92.57,
+          "end": 92.97,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 93.29,
+      "end": 95.17,
+      "text": "You strap a silicone computer to your wrist.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " You",
+          "start": 93.29,
+          "end": 93.37,
+          "probability": 0.989
+        },
+        {
+          "word": " strap",
+          "start": 93.37,
+          "end": 93.63,
+          "probability": 0.991
+        },
+        {
+          "word": " a",
+          "start": 93.63,
+          "end": 93.77,
+          "probability": 0.991
+        },
+        {
+          "word": " silicone",
+          "start": 93.77,
+          "end": 94.05,
+          "probability": 0.898
+        },
+        {
+          "word": " computer",
+          "start": 94.05,
+          "end": 94.51,
+          "probability": 0.98
+        },
+        {
+          "word": " to",
+          "start": 94.51,
+          "end": 94.71,
+          "probability": 0.996
+        },
+        {
+          "word": " your",
+          "start": 94.71,
+          "end": 94.83,
+          "probability": 0.998
+        },
+        {
+          "word": " wrist.",
+          "start": 94.83,
+          "end": 95.17,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 95.43,
+      "end": 97.43,
+      "text": "It monitors your pulse and tracks your rep cycles.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " It",
+          "start": 95.43,
+          "end": 95.47,
+          "probability": 0.981
+        },
+        {
+          "word": " monitors",
+          "start": 95.47,
+          "end": 95.79,
+          "probability": 0.999
+        },
+        {
+          "word": " your",
+          "start": 95.79,
+          "end": 96.07,
+          "probability": 0.997
+        },
+        {
+          "word": " pulse",
+          "start": 96.07,
+          "end": 96.27,
+          "probability": 0.988
+        },
+        {
+          "word": " and",
+          "start": 96.27,
+          "end": 96.45,
+          "probability": 0.987
+        },
+        {
+          "word": " tracks",
+          "start": 96.45,
+          "end": 96.69,
+          "probability": 0.945
+        },
+        {
+          "word": " your",
+          "start": 96.69,
+          "end": 96.87,
+          "probability": 0.995
+        },
+        {
+          "word": " rep",
+          "start": 96.87,
+          "end": 97.01,
+          "probability": 0.412
+        },
+        {
+          "word": " cycles.",
+          "start": 97.01,
+          "end": 97.43,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 97.83,
+      "end": 99.13,
+      "text": "It tells you that you are exhausted.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " It",
+          "start": 97.83,
+          "end": 97.91,
+          "probability": 0.992
+        },
+        {
+          "word": " tells",
+          "start": 97.91,
+          "end": 98.15,
+          "probability": 0.995
+        },
+        {
+          "word": " you",
+          "start": 98.15,
+          "end": 98.31,
+          "probability": 0.99
+        },
+        {
+          "word": " that",
+          "start": 98.31,
+          "end": 98.41,
+          "probability": 0.967
+        },
+        {
+          "word": " you",
+          "start": 98.41,
+          "end": 98.55,
+          "probability": 0.998
+        },
+        {
+          "word": " are",
+          "start": 98.55,
+          "end": 98.69,
+          "probability": 0.981
+        },
+        {
+          "word": " exhausted.",
+          "start": 98.69,
+          "end": 99.13,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 99.51,
+      "end": 102.35,
+      "text": "Now you have the data to prove your suffering is statistically significant.",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " Now",
+          "start": 99.51,
+          "end": 99.63,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 99.63,
+          "end": 99.77,
+          "probability": 0.981
+        },
+        {
+          "word": " have",
+          "start": 99.77,
+          "end": 99.91,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 99.91,
+          "end": 100.03,
+          "probability": 0.995
+        },
+        {
+          "word": " data",
+          "start": 100.03,
+          "end": 100.21,
+          "probability": 0.988
+        },
+        {
+          "word": " to",
+          "start": 100.21,
+          "end": 100.35,
+          "probability": 0.991
+        },
+        {
+          "word": " prove",
+          "start": 100.35,
+          "end": 100.53,
+          "probability": 0.961
+        },
+        {
+          "word": " your",
+          "start": 100.53,
+          "end": 100.73,
+          "probability": 0.978
+        },
+        {
+          "word": " suffering",
+          "start": 100.73,
+          "end": 101.07,
+          "probability": 0.997
+        },
+        {
+          "word": " is",
+          "start": 101.07,
+          "end": 101.23,
+          "probability": 0.994
+        },
+        {
+          "word": " statistically",
+          "start": 101.23,
+          "end": 101.67,
+          "probability": 0.999
+        },
+        {
+          "word": " significant.",
+          "start": 101.67,
+          "end": 102.35,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 102.77,
+      "end": 103.41,
+      "text": "You ask a plus",
+      "avgLogprob": -0.21,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.532,
+      "words": [
+        {
+          "word": " You",
+          "start": 102.77,
+          "end": 102.91,
+          "probability": 0.9
+        },
+        {
+          "word": " ask",
+          "start": 102.91,
+          "end": 103.09,
+          "probability": 0.973
+        },
+        {
+          "word": " a",
+          "start": 103.09,
+          "end": 103.21,
+          "probability": 0.977
+        },
+        {
+          "word": " plus",
+          "start": 103.21,
+          "end": 103.41,
+          "probability": 0.191
+        }
+      ]
+    },
+    {
+      "start": 213.57,
+      "end": 231.55,
+      "text": "I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't know what I'm talking about, I don't",
+      "avgLogprob": -0.14,
+      "compressionRatio": 15.204,
+      "noSpeechProbability": 0.614,
+      "words": [
+        {
+          "word": " I",
+          "start": 213.57,
+          "end": 213.65,
+          "probability": 0.025
+        },
+        {
+          "word": " don't",
+          "start": 213.65,
+          "end": 213.65,
+          "probability": 0.533
+        },
+        {
+          "word": " know",
+          "start": 213.65,
+          "end": 213.65,
+          "probability": 0.286
+        },
+        {
+          "word": " what",
+          "start": 213.65,
+          "end": 214.17,
+          "probability": 0.134
+        },
+        {
+          "word": " I'm",
+          "start": 214.17,
+          "end": 214.17,
+          "probability": 0.268
+        },
+        {
+          "word": " talking",
+          "start": 214.17,
+          "end": 214.17,
+          "probability": 0.188
+        },
+        {
+          "word": " about,",
+          "start": 214.17,
+          "end": 214.17,
+          "probability": 0.971
+        },
+        {
+          "word": " I",
+          "start": 214.17,
+          "end": 216.35,
+          "probability": 0.304
+        },
+        {
+          "word": " don't",
+          "start": 216.35,
+          "end": 216.49,
+          "probability": 0.593
+        },
+        {
+          "word": " know",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.726
+        },
+        {
+          "word": " what",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.537
+        },
+        {
+          "word": " I'm",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.797
+        },
+        {
+          "word": " talking",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.894
+        },
+        {
+          "word": " about,",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.619
+        },
+        {
+          "word": " don't",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.929
+        },
+        {
+          "word": " know",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.96
+        },
+        {
+          "word": " what",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.862
+        },
+        {
+          "word": " I'm",
+          "start": 216.49,
+          "end": 216.49,
+          "probability": 0.928
+        },
+        {
+          "word": " talking",
+          "start": 216.49,
+          "end": 216.97,
+          "probability": 0.979
+        },
+        {
+          "word": " about,",
+          "start": 216.97,
+          "end": 216.97,
+          "probability": 0.996
+        },
+        {
+          "word": " I",
+          "start": 216.97,
+          "end": 218.21,
+          "probability": 0.779
+        },
+        {
+          "word": " don't",
+          "start": 218.21,
+          "end": 218.21,
+          "probability": 0.981
+        },
+        {
+          "word": " know",
+          "start": 218.21,
+          "end": 218.33,
+          "probability": 0.981
+        },
+        {
+          "word": " what",
+          "start": 218.33,
+          "end": 218.63,
+          "probability": 0.899
+        },
+        {
+          "word": " I'm",
+          "start": 218.63,
+          "end": 219.27,
+          "probability": 0.942
+        },
+        {
+          "word": " talking",
+          "start": 219.27,
+          "end": 219.45,
+          "probability": 0.987
+        },
+        {
+          "word": " about,",
+          "start": 219.45,
+          "end": 219.45,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 219.45,
+          "end": 220.35,
+          "probability": 0.795
+        },
+        {
+          "word": " don't",
+          "start": 220.35,
+          "end": 220.39,
+          "probability": 0.988
+        },
+        {
+          "word": " know",
+          "start": 220.39,
+          "end": 220.85,
+          "probability": 0.987
+        },
+        {
+          "word": " what",
+          "start": 220.85,
+          "end": 221.29,
+          "probability": 0.898
+        },
+        {
+          "word": " I'm",
+          "start": 221.29,
+          "end": 221.69,
+          "probability": 0.951
+        },
+        {
+          "word": " talking",
+          "start": 221.69,
+          "end": 221.69,
+          "probability": 0.989
+        },
+        {
+          "word": " about,",
+          "start": 221.69,
+          "end": 221.73,
+          "probability": 0.997
+        },
+        {
+          "word": " I",
+          "start": 221.73,
+          "end": 221.73,
+          "probability": 0.799
+        },
+        {
+          "word": " don't",
+          "start": 221.73,
+          "end": 221.87,
+          "probability": 0.991
+        },
+        {
+          "word": " know",
+          "start": 221.87,
+          "end": 221.87,
+          "probability": 0.991
+        },
+        {
+          "word": " what",
+          "start": 221.87,
+          "end": 222.03,
+          "probability": 0.92
+        },
+        {
+          "word": " I'm",
+          "start": 222.03,
+          "end": 222.43,
+          "probability": 0.956
+        },
+        {
+          "word": " talking",
+          "start": 222.43,
+          "end": 222.43,
+          "probability": 0.991
+        },
+        {
+          "word": " about,",
+          "start": 222.43,
+          "end": 222.43,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 222.43,
+          "end": 222.43,
+          "probability": 0.809
+        },
+        {
+          "word": " don't",
+          "start": 222.43,
+          "end": 222.59,
+          "probability": 0.992
+        },
+        {
+          "word": " know",
+          "start": 222.59,
+          "end": 222.59,
+          "probability": 0.993
+        },
+        {
+          "word": " what",
+          "start": 222.59,
+          "end": 222.59,
+          "probability": 0.918
+        },
+        {
+          "word": " I'm",
+          "start": 222.59,
+          "end": 222.59,
+          "probability": 0.958
+        },
+        {
+          "word": " talking",
+          "start": 222.59,
+          "end": 222.59,
+          "probability": 0.99
+        },
+        {
+          "word": " about,",
+          "start": 222.59,
+          "end": 222.59,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 222.61,
+          "end": 222.85,
+          "probability": 0.815
+        },
+        {
+          "word": " don't",
+          "start": 222.85,
+          "end": 223.15,
+          "probability": 0.993
+        },
+        {
+          "word": " know",
+          "start": 223.15,
+          "end": 223.15,
+          "probability": 0.994
+        },
+        {
+          "word": " what",
+          "start": 223.15,
+          "end": 223.15,
+          "probability": 0.925
+        },
+        {
+          "word": " I'm",
+          "start": 223.15,
+          "end": 224.09,
+          "probability": 0.958
+        },
+        {
+          "word": " talking",
+          "start": 224.09,
+          "end": 224.09,
+          "probability": 0.991
+        },
+        {
+          "word": " about,",
+          "start": 224.09,
+          "end": 224.09,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 224.09,
+          "end": 224.67,
+          "probability": 0.818
+        },
+        {
+          "word": " don't",
+          "start": 224.67,
+          "end": 224.87,
+          "probability": 0.992
+        },
+        {
+          "word": " know",
+          "start": 224.87,
+          "end": 224.87,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 224.87,
+          "end": 225.23,
+          "probability": 0.933
+        },
+        {
+          "word": " I'm",
+          "start": 225.23,
+          "end": 225.65,
+          "probability": 0.963
+        },
+        {
+          "word": " talking",
+          "start": 225.65,
+          "end": 225.65,
+          "probability": 0.992
+        },
+        {
+          "word": " about,",
+          "start": 225.65,
+          "end": 225.65,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 225.65,
+          "end": 225.65,
+          "probability": 0.846
+        },
+        {
+          "word": " don't",
+          "start": 225.65,
+          "end": 225.65,
+          "probability": 0.993
+        },
+        {
+          "word": " know",
+          "start": 225.65,
+          "end": 225.65,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 225.65,
+          "end": 225.73,
+          "probability": 0.942
+        },
+        {
+          "word": " I'm",
+          "start": 225.73,
+          "end": 225.93,
+          "probability": 0.963
+        },
+        {
+          "word": " talking",
+          "start": 225.93,
+          "end": 225.93,
+          "probability": 0.992
+        },
+        {
+          "word": " about,",
+          "start": 225.93,
+          "end": 225.93,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 225.93,
+          "end": 226.43,
+          "probability": 0.847
+        },
+        {
+          "word": " don't",
+          "start": 226.43,
+          "end": 226.43,
+          "probability": 0.993
+        },
+        {
+          "word": " know",
+          "start": 226.43,
+          "end": 226.43,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 226.43,
+          "end": 226.47,
+          "probability": 0.943
+        },
+        {
+          "word": " I'm",
+          "start": 226.47,
+          "end": 226.91,
+          "probability": 0.965
+        },
+        {
+          "word": " talking",
+          "start": 226.91,
+          "end": 226.91,
+          "probability": 0.992
+        },
+        {
+          "word": " about,",
+          "start": 226.91,
+          "end": 226.91,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 226.91,
+          "end": 226.91,
+          "probability": 0.866
+        },
+        {
+          "word": " don't",
+          "start": 226.91,
+          "end": 226.91,
+          "probability": 0.992
+        },
+        {
+          "word": " know",
+          "start": 226.91,
+          "end": 226.91,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 226.91,
+          "end": 227.07,
+          "probability": 0.952
+        },
+        {
+          "word": " I'm",
+          "start": 227.07,
+          "end": 227.23,
+          "probability": 0.97
+        },
+        {
+          "word": " talking",
+          "start": 227.23,
+          "end": 227.23,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 227.23,
+          "end": 227.23,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 227.23,
+          "end": 227.43,
+          "probability": 0.864
+        },
+        {
+          "word": " don't",
+          "start": 227.43,
+          "end": 227.43,
+          "probability": 0.992
+        },
+        {
+          "word": " know",
+          "start": 227.43,
+          "end": 227.43,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 227.43,
+          "end": 227.51,
+          "probability": 0.959
+        },
+        {
+          "word": " I'm",
+          "start": 227.51,
+          "end": 227.51,
+          "probability": 0.97
+        },
+        {
+          "word": " talking",
+          "start": 227.51,
+          "end": 227.51,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 227.51,
+          "end": 227.51,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 227.51,
+          "end": 227.87,
+          "probability": 0.858
+        },
+        {
+          "word": " don't",
+          "start": 227.87,
+          "end": 227.87,
+          "probability": 0.991
+        },
+        {
+          "word": " know",
+          "start": 227.87,
+          "end": 227.87,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 227.87,
+          "end": 228.23,
+          "probability": 0.958
+        },
+        {
+          "word": " I'm",
+          "start": 228.23,
+          "end": 228.47,
+          "probability": 0.969
+        },
+        {
+          "word": " talking",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.867
+        },
+        {
+          "word": " don't",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 228.47,
+          "end": 228.47,
+          "probability": 0.966
+        },
+        {
+          "word": " I'm",
+          "start": 228.47,
+          "end": 228.49,
+          "probability": 0.972
+        },
+        {
+          "word": " talking",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.891
+        },
+        {
+          "word": " don't",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.991
+        },
+        {
+          "word": " know",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 228.49,
+          "end": 228.49,
+          "probability": 0.967
+        },
+        {
+          "word": " I'm",
+          "start": 228.49,
+          "end": 228.61,
+          "probability": 0.972
+        },
+        {
+          "word": " talking",
+          "start": 228.61,
+          "end": 228.61,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.61,
+          "end": 228.61,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.61,
+          "end": 228.61,
+          "probability": 0.875
+        },
+        {
+          "word": " don't",
+          "start": 228.61,
+          "end": 228.61,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 228.61,
+          "end": 228.61,
+          "probability": 0.996
+        },
+        {
+          "word": " what",
+          "start": 228.61,
+          "end": 228.75,
+          "probability": 0.968
+        },
+        {
+          "word": " I'm",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.971
+        },
+        {
+          "word": " talking",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.888
+        },
+        {
+          "word": " don't",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.973
+        },
+        {
+          "word": " I'm",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.973
+        },
+        {
+          "word": " talking",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.899
+        },
+        {
+          "word": " don't",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.975
+        },
+        {
+          "word": " I'm",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.972
+        },
+        {
+          "word": " talking",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.993
+        },
+        {
+          "word": " about,",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.898
+        },
+        {
+          "word": " don't",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 228.75,
+          "end": 228.75,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 228.75,
+          "end": 228.79,
+          "probability": 0.978
+        },
+        {
+          "word": " I'm",
+          "start": 228.79,
+          "end": 229.17,
+          "probability": 0.974
+        },
+        {
+          "word": " talking",
+          "start": 229.17,
+          "end": 229.17,
+          "probability": 0.992
+        },
+        {
+          "word": " about,",
+          "start": 229.17,
+          "end": 229.17,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 229.17,
+          "end": 229.55,
+          "probability": 0.887
+        },
+        {
+          "word": " don't",
+          "start": 229.55,
+          "end": 229.55,
+          "probability": 0.989
+        },
+        {
+          "word": " know",
+          "start": 229.55,
+          "end": 229.55,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 229.55,
+          "end": 230.01,
+          "probability": 0.979
+        },
+        {
+          "word": " I'm",
+          "start": 230.01,
+          "end": 230.35,
+          "probability": 0.973
+        },
+        {
+          "word": " talking",
+          "start": 230.35,
+          "end": 230.35,
+          "probability": 0.992
+        },
+        {
+          "word": " about,",
+          "start": 230.35,
+          "end": 230.35,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 230.35,
+          "end": 230.55,
+          "probability": 0.911
+        },
+        {
+          "word": " don't",
+          "start": 230.55,
+          "end": 231.03,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 231.03,
+          "end": 231.03,
+          "probability": 0.997
+        },
+        {
+          "word": " what",
+          "start": 231.03,
+          "end": 231.27,
+          "probability": 0.978
+        },
+        {
+          "word": " I'm",
+          "start": 231.27,
+          "end": 231.55,
+          "probability": 0.972
+        },
+        {
+          "word": " talking",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about,",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.999
+        },
+        {
+          "word": " I",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.9
+        },
+        {
+          "word": " don't",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 231.53,
+      "end": 231.53,
+      "text": "",
+      "avgLogprob": -0.126,
+      "compressionRatio": 21.96,
+      "noSpeechProbability": 0.797,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.96,
+    "wordCount": 128,
+    "credibleWordCount": 126,
+    "segmentCount": 15,
+    "averageWordProbability": 0.946,
+    "vocalSeconds": 31.08,
+    "scanCoverage": 0.253,
+    "reviewRequired": false
+  }
+}

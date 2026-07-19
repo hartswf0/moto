@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="WC 2026 FINAL MIX: an album browser, player, and reorderable 121-song program drawn from the VOLHOLLA archive." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:type" content="music.playlist" />
+  <meta property="og:site_name" content="VOLHOLLA" />
+  <meta property="og:title" content="WC 2026 FINAL MIX" />
+  <meta property="og:description" content="121 selections / 30 albums / one editable program" />
+  <meta property="og:url" content="https://hartswf0.github.io/moto/WC-2026-FINAL-MIX/" />
+  <meta property="og:image" content="https://hartswf0.github.io/moto/WC-2026-FINAL-MIX/sanctuary-after-the-breaking-ticket.png" />
+  <meta property="og:image:alt" content="WC 2026 FINAL MIX share ticket" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="WC 2026 FINAL MIX" />
+  <meta name="twitter:description" content="121 selections / 30 albums / one editable program" />
+  <meta name="twitter:image" content="https://hartswf0.github.io/moto/WC-2026-FINAL-MIX/sanctuary-after-the-breaking-ticket.png" />
+  <title>WC 2026 FINAL MIX</title>
+  <link rel="icon" type="image/png" href="./sanctuary-after-the-breaking-ticket.png" />
+  <link rel="stylesheet" href="./mix.css" />
+  <script src="./mix-manifest.js" defer></script>
+  <script src="./analysis-manifest.js" defer></script>
+  <script src="./mix.js" defer></script>
+</head>
+<body>
+  <main class="app" aria-label="WC 2026 FINAL MIX listening desk">
+    <section class="player" id="player" aria-label="Current player">
+      <a class="now-art" id="ticket-link" href="./sanctuary-after-the-breaking-ticket.png" aria-label="Open current song ticket">
+        <img id="now-preview" src="./previews/sanctuary-after-the-breaking-ticket--preview.webp" alt="" width="320" height="320" />
+        <span>TICKET</span>
+      </a>
+
+      <div class="deck">
+        <div class="deck-top">
+          <a class="hub" href="../index.html">MOTO / WC 2026</a>
+          <span class="context" id="context-readout">PLAYLIST / 121</span>
+          <button class="top-tool on" id="autoplay" type="button" aria-pressed="true">AUTO ON</button>
+          <button class="top-tool" id="shuffle" type="button" aria-pressed="false">SHUFFLE</button>
+          <button class="top-tool" id="reset-order" type="button">RESET ORDER</button>
+        </div>
+
+        <div class="now">
+          <div class="now-copy">
+            <span class="state" id="player-status">READY</span>
+            <h1 id="now-title">SANCTUARY AFTER THE BREAKING</h1>
+            <p><a id="now-album" href="../VOLHOLLA/brooklyn-omen.html">BROOKLYN OMEN</a> / <span id="now-position">001 / 121</span></p>
+          </div>
+          <a class="source-link" id="source-link" href="../VOLHOLLA/song-brooklynomen-29.html">SOURCE</a>
+        </div>
+
+        <div class="scrub">
+          <span id="elapsed">0:00</span>
+          <label class="scrub-bar" for="seek">
+            <span class="scrub-fill" id="scrub-fill"></span>
+            <input id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek through current track" />
+          </label>
+          <span id="duration">--:--</span>
+        </div>
+
+        <div class="transport">
+          <button id="previous" type="button" aria-label="Previous track">&larr; BACK</button>
+          <button class="primary" id="play" type="button" aria-label="Play">PLAY</button>
+          <button id="next" type="button" aria-label="Next track">NEXT &rarr;</button>
+          <button id="mute" type="button" aria-label="Mute audio" aria-pressed="false">VOL</button>
+        </div>
+      </div>
+    </section>
+
+    <nav class="mobile-tabs" aria-label="Workspace views">
+      <button class="active" type="button" data-mobile-panel="albums" aria-pressed="true">ALBUMS</button>
+      <button type="button" data-mobile-panel="songs" aria-pressed="false">SONGS</button>
+      <button type="button" data-mobile-panel="playlist" aria-pressed="false">PLAYLIST</button>
+    </nav>
+
+    <section class="workspace" aria-label="Mix workspace">
+      <section class="column mobile-active" data-panel="albums" aria-labelledby="albums-heading">
+        <header class="column-head">
+          <div>
+            <span class="column-kicker">SOURCES</span>
+            <h2 id="albums-heading">ALBUMS</h2>
+          </div>
+          <output id="album-count">30</output>
+        </header>
+        <div class="column-scroll" id="album-list"></div>
+      </section>
+
+      <section class="column" data-panel="songs" aria-labelledby="songs-heading">
+        <header class="column-head column-head-action">
+          <div>
+            <span class="column-kicker" id="songs-kicker">BROOKLYN OMEN</span>
+            <h2 id="songs-heading">SONGS</h2>
+          </div>
+          <button class="head-action" id="play-album" type="button">PLAY ALBUM</button>
+        </header>
+        <div class="column-scroll" id="song-list"></div>
+      </section>
+
+      <section class="column" data-panel="playlist" aria-labelledby="playlist-heading">
+        <header class="column-head column-head-action">
+          <div>
+            <select class="sort-select" id="playlist-sort" aria-label="Sort playlist using song analysis">
+              <option value="custom">CUSTOM ORDER</option>
+              <option value="drama">DRAMA ARC</option>
+              <option value="pace-up">PACE LOW TO HIGH</option>
+              <option value="pace-down">PACE HIGH TO LOW</option>
+              <option value="energy">ENERGY HIGH TO LOW</option>
+              <option value="bpm">BPM LOW TO HIGH</option>
+              <option value="lyrics">LYRICS FIRST</option>
+              <option value="instrumental">INSTRUMENTAL FIRST</option>
+            </select>
+            <h2 id="playlist-heading">PLAYLIST</h2>
+          </div>
+          <span class="head-actions">
+            <button class="head-action" id="reset-order-secondary" type="button">RESET</button>
+            <button class="head-action" id="play-playlist" type="button">PLAY ALL</button>
+          </span>
+        </header>
+        <ol class="column-scroll playlist-list" id="playlist-list"></ol>
+      </section>
+    </section>
+
+    <footer class="status-bar">
+      <span id="program-status">TIMESTAMP ORDER / SAVED LOCALLY</span>
+      <span id="program-count">121 TRACKS / 30 ALBUMS</span>
+    </footer>
+  </main>
+
+  <audio id="audio" preload="metadata"></audio>
+
+  <dialog class="analysis-dialog" id="analysis-dialog" aria-labelledby="analysis-title">
+    <article class="analysis-sheet">
+      <header class="analysis-head">
+        <span>TRACK ANALYSIS</span>
+        <button id="analysis-close" type="button" aria-label="Close analysis" title="Close">&times;</button>
+      </header>
+      <section class="analysis-current">
+        <img id="analysis-preview" src="./previews/sanctuary-after-the-breaking-ticket--preview.webp" alt="" width="320" height="320" />
+        <div>
+          <span class="analysis-state" id="analysis-vocal-status">UNPROCESSED</span>
+          <h2 id="analysis-title">SANCTUARY AFTER THE BREAKING</h2>
+          <p id="analysis-album">BROOKLYN OMEN</p>
+          <p id="analysis-vibes">ANALYSIS PENDING</p>
+        </div>
+      </section>
+      <dl class="analysis-metrics" id="analysis-metrics"></dl>
+      <section class="transcript-section">
+        <header>
+          <h3>TRANSCRIPT</h3>
+          <span id="transcript-confidence">PENDING</span>
+        </header>
+        <div class="transcript-copy" id="transcript-copy">Analysis pending.</div>
+      </section>
+    </article>
+  </dialog>
+
+  <template id="album-template">
+    <article class="album-card">
+      <button class="album-focus" type="button">
+        <span class="album-number"></span>
+        <img class="album-preview" alt="" width="320" height="320" loading="lazy" decoding="async" />
+        <span class="album-copy">
+          <span class="album-key"></span>
+          <strong class="album-title"></strong>
+          <span class="album-meta"></span>
+        </span>
+      </button>
+      <button class="album-play" type="button">PLAY ALBUM</button>
+    </article>
+  </template>
+
+  <template id="song-template">
+    <article class="song-card">
+      <span class="song-number"></span>
+      <img class="song-preview" alt="" width="320" height="320" loading="lazy" decoding="async" />
+      <button class="song-copy analysis-open" type="button">
+        <strong class="song-title"></strong>
+        <span class="song-meta"></span>
+      </button>
+      <span class="song-actions">
+        <button class="song-play" type="button">PLAY</button>
+        <a class="song-ticket">TICKET</a>
+      </span>
+    </article>
+  </template>
+
+  <template id="playlist-template">
+    <li class="playlist-card" draggable="true">
+      <span class="playlist-position"></span>
+      <img class="playlist-preview" alt="" width="320" height="320" loading="lazy" decoding="async" />
+      <button class="playlist-copy analysis-open" type="button">
+        <strong class="playlist-title"></strong>
+        <span class="playlist-meta"></span>
+      </button>
+      <span class="playlist-actions">
+        <button class="move-up" type="button" aria-label="Move track earlier">&uarr;</button>
+        <button class="playlist-play" type="button">PLAY</button>
+        <button class="move-down" type="button" aria-label="Move track later">&darr;</button>
+      </span>
+      <span class="drag-handle" aria-hidden="true">DRAG</span>
+    </li>
+  </template>
+
+  <noscript>This listening desk requires JavaScript.</noscript>
+</body>
+</html>

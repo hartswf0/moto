@@ -1,0 +1,630 @@
+{
+  "analysisVersion": 1,
+  "index": 100,
+  "id": "../VOLHOLLA/song-goleyakh-43.html",
+  "slug": "valley-of-the-dead-joe",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "is a ghost you cannot run the sun screams wait for the shadow to fall I'm cold to lead heavy, vengeance is a long fined blade, blood darkens the dry I got a lot to do I'll be on the plane Joohooo Joohooo I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I Are you rich or rich? Are you rich or rich?",
+  "sampledRanges": [
+    [
+      13.32,
+      31.32
+    ],
+    [
+      53.27,
+      71.27
+    ],
+    [
+      93.22,
+      111.22
+    ],
+    [
+      133.17,
+      151.17
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.08,
+      "end": 26.1,
+      "text": "is a ghost you cannot run the sun screams wait for the shadow to fall",
+      "avgLogprob": -0.571,
+      "compressionRatio": 1.062,
+      "noSpeechProbability": 0.663,
+      "words": [
+        {
+          "word": " is",
+          "start": 14.08,
+          "end": 15.36,
+          "probability": 0.085
+        },
+        {
+          "word": " a",
+          "start": 15.36,
+          "end": 15.52,
+          "probability": 0.842
+        },
+        {
+          "word": " ghost",
+          "start": 15.52,
+          "end": 15.98,
+          "probability": 0.993
+        },
+        {
+          "word": " you",
+          "start": 15.98,
+          "end": 16.28,
+          "probability": 0.929
+        },
+        {
+          "word": " cannot",
+          "start": 16.28,
+          "end": 16.8,
+          "probability": 0.442
+        },
+        {
+          "word": " run",
+          "start": 16.8,
+          "end": 18.04,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 18.04,
+          "end": 19.52,
+          "probability": 0.453
+        },
+        {
+          "word": " sun",
+          "start": 19.52,
+          "end": 20.18,
+          "probability": 0.9
+        },
+        {
+          "word": " screams",
+          "start": 20.18,
+          "end": 20.82,
+          "probability": 0.727
+        },
+        {
+          "word": " wait",
+          "start": 20.82,
+          "end": 22.38,
+          "probability": 0.897
+        },
+        {
+          "word": " for",
+          "start": 22.38,
+          "end": 23.56,
+          "probability": 0.977
+        },
+        {
+          "word": " the",
+          "start": 23.56,
+          "end": 23.78,
+          "probability": 0.985
+        },
+        {
+          "word": " shadow",
+          "start": 23.78,
+          "end": 24.2,
+          "probability": 0.948
+        },
+        {
+          "word": " to",
+          "start": 24.2,
+          "end": 24.54,
+          "probability": 0.994
+        },
+        {
+          "word": " fall",
+          "start": 24.54,
+          "end": 26.1,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 58.43,
+      "end": 70.17,
+      "text": "I'm cold to lead heavy, vengeance is a long fined blade, blood darkens the dry",
+      "avgLogprob": -0.656,
+      "compressionRatio": 1.04,
+      "noSpeechProbability": 0.693,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 58.43,
+          "end": 59.63,
+          "probability": 0.209
+        },
+        {
+          "word": " cold",
+          "start": 59.63,
+          "end": 60.13,
+          "probability": 0.937
+        },
+        {
+          "word": " to",
+          "start": 60.13,
+          "end": 60.73,
+          "probability": 0.087
+        },
+        {
+          "word": " lead",
+          "start": 60.73,
+          "end": 61.09,
+          "probability": 0.9
+        },
+        {
+          "word": " heavy,",
+          "start": 61.09,
+          "end": 61.95,
+          "probability": 0.861
+        },
+        {
+          "word": " vengeance",
+          "start": 62.61,
+          "end": 63.43,
+          "probability": 0.783
+        },
+        {
+          "word": " is",
+          "start": 63.43,
+          "end": 63.71,
+          "probability": 0.943
+        },
+        {
+          "word": " a",
+          "start": 63.71,
+          "end": 63.85,
+          "probability": 0.894
+        },
+        {
+          "word": " long",
+          "start": 63.85,
+          "end": 64.19,
+          "probability": 0.977
+        },
+        {
+          "word": " fined",
+          "start": 64.19,
+          "end": 64.83,
+          "probability": 0.335
+        },
+        {
+          "word": " blade,",
+          "start": 64.83,
+          "end": 65.21,
+          "probability": 0.986
+        },
+        {
+          "word": " blood",
+          "start": 66.13,
+          "end": 67.43,
+          "probability": 0.923
+        },
+        {
+          "word": " darkens",
+          "start": 67.43,
+          "end": 69.51,
+          "probability": 0.826
+        },
+        {
+          "word": " the",
+          "start": 69.51,
+          "end": 69.65,
+          "probability": 0.988
+        },
+        {
+          "word": " dry",
+          "start": 69.65,
+          "end": 70.17,
+          "probability": 0.939
+        }
+      ]
+    },
+    {
+      "start": 70.17,
+      "end": 71.25,
+      "text": "I got a lot to do",
+      "avgLogprob": -1.133,
+      "compressionRatio": 0.739,
+      "noSpeechProbability": 0.478,
+      "words": [
+        {
+          "word": " I",
+          "start": 70.17,
+          "end": 70.27,
+          "probability": 0.052
+        },
+        {
+          "word": " got",
+          "start": 70.27,
+          "end": 70.47,
+          "probability": 0.145
+        },
+        {
+          "word": " a",
+          "start": 70.47,
+          "end": 70.59,
+          "probability": 0.45
+        },
+        {
+          "word": " lot",
+          "start": 70.59,
+          "end": 70.71,
+          "probability": 0.195
+        },
+        {
+          "word": " to",
+          "start": 70.71,
+          "end": 70.93,
+          "probability": 0.63
+        },
+        {
+          "word": " do",
+          "start": 70.93,
+          "end": 71.25,
+          "probability": 0.716
+        }
+      ]
+    },
+    {
+      "start": 93.28,
+      "end": 95.66,
+      "text": "I'll be on the plane",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.341,
+      "noSpeechProbability": 0.596,
+      "words": [
+        {
+          "word": " I'll",
+          "start": 93.28,
+          "end": 93.72,
+          "probability": 0.053
+        },
+        {
+          "word": " be",
+          "start": 93.72,
+          "end": 93.84,
+          "probability": 0.443
+        },
+        {
+          "word": " on",
+          "start": 93.84,
+          "end": 94.06,
+          "probability": 0.525
+        },
+        {
+          "word": " the",
+          "start": 94.06,
+          "end": 94.3,
+          "probability": 0.847
+        },
+        {
+          "word": " plane",
+          "start": 94.3,
+          "end": 95.66,
+          "probability": 0.231
+        }
+      ]
+    },
+    {
+      "start": 101.04,
+      "end": 101.48,
+      "text": "Joohooo",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.341,
+      "noSpeechProbability": 0.596,
+      "words": [
+        {
+          "word": " Joohooo",
+          "start": 101.04,
+          "end": 101.48,
+          "probability": 0.275
+        }
+      ]
+    },
+    {
+      "start": 103.78,
+      "end": 104.22,
+      "text": "Joohooo",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.341,
+      "noSpeechProbability": 0.596,
+      "words": [
+        {
+          "word": " Joohooo",
+          "start": 103.78,
+          "end": 104.22,
+          "probability": 0.666
+        }
+      ]
+    },
+    {
+      "start": 105.66,
+      "end": 111.2,
+      "text": "I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I-I",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.341,
+      "noSpeechProbability": 0.596,
+      "words": [
+        {
+          "word": " I",
+          "start": 105.66,
+          "end": 106.1,
+          "probability": 0.047
+        },
+        {
+          "word": "-I",
+          "start": 106.1,
+          "end": 106.54,
+          "probability": 0.447
+        },
+        {
+          "word": "-I",
+          "start": 106.54,
+          "end": 106.96,
+          "probability": 0.987
+        },
+        {
+          "word": "-I",
+          "start": 106.96,
+          "end": 107.14,
+          "probability": 0.976
+        },
+        {
+          "word": "-I",
+          "start": 107.14,
+          "end": 107.3,
+          "probability": 0.877
+        },
+        {
+          "word": "-I",
+          "start": 107.3,
+          "end": 107.36,
+          "probability": 0.749
+        },
+        {
+          "word": "-I",
+          "start": 107.36,
+          "end": 107.46,
+          "probability": 0.694
+        },
+        {
+          "word": "-I",
+          "start": 107.46,
+          "end": 107.6,
+          "probability": 0.687
+        },
+        {
+          "word": "-I",
+          "start": 107.6,
+          "end": 107.74,
+          "probability": 0.687
+        },
+        {
+          "word": "-I",
+          "start": 107.74,
+          "end": 108.02,
+          "probability": 0.733
+        },
+        {
+          "word": "-I",
+          "start": 108.02,
+          "end": 108.04,
+          "probability": 0.826
+        },
+        {
+          "word": "-I",
+          "start": 108.04,
+          "end": 108.14,
+          "probability": 0.873
+        },
+        {
+          "word": "-I",
+          "start": 108.14,
+          "end": 108.14,
+          "probability": 0.904
+        },
+        {
+          "word": "-I",
+          "start": 108.14,
+          "end": 108.36,
+          "probability": 0.92
+        },
+        {
+          "word": "-I",
+          "start": 108.36,
+          "end": 108.36,
+          "probability": 0.927
+        },
+        {
+          "word": "-I",
+          "start": 108.36,
+          "end": 110.76,
+          "probability": 0.926
+        },
+        {
+          "word": "-I",
+          "start": 110.76,
+          "end": 110.76,
+          "probability": 0.933
+        },
+        {
+          "word": "-I",
+          "start": 110.76,
+          "end": 111.08,
+          "probability": 0.942
+        },
+        {
+          "word": "-I",
+          "start": 111.08,
+          "end": 111.08,
+          "probability": 0.939
+        },
+        {
+          "word": "-I",
+          "start": 111.08,
+          "end": 111.2,
+          "probability": 0.941
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.933
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.936
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.937
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.938
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.938
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.931
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.927
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.931
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.936
+        },
+        {
+          "word": "-I",
+          "start": 111.2,
+          "end": 111.2,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 133.17,
+      "end": 134.81,
+      "text": "Are you rich or rich?",
+      "avgLogprob": -0.165,
+      "compressionRatio": 12.053,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Are",
+          "start": 133.17,
+          "end": 133.27,
+          "probability": 0.022
+        },
+        {
+          "word": " you",
+          "start": 133.27,
+          "end": 133.45,
+          "probability": 0.938
+        },
+        {
+          "word": " rich",
+          "start": 133.45,
+          "end": 133.83,
+          "probability": 0.442
+        },
+        {
+          "word": " or",
+          "start": 133.83,
+          "end": 134.19,
+          "probability": 0.81
+        },
+        {
+          "word": " rich?",
+          "start": 134.19,
+          "end": 134.81,
+          "probability": 0.126
+        }
+      ]
+    },
+    {
+      "start": 137.19,
+      "end": 149.67,
+      "text": "Are you rich or rich?",
+      "avgLogprob": -0.165,
+      "compressionRatio": 12.053,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Are",
+          "start": 137.19,
+          "end": 137.25,
+          "probability": 0.144
+        },
+        {
+          "word": " you",
+          "start": 137.25,
+          "end": 138.49,
+          "probability": 0.958
+        },
+        {
+          "word": " rich",
+          "start": 138.49,
+          "end": 139.97,
+          "probability": 0.687
+        },
+        {
+          "word": " or",
+          "start": 139.97,
+          "end": 143.87,
+          "probability": 0.875
+        },
+        {
+          "word": " rich?",
+          "start": 143.87,
+          "end": 149.67,
+          "probability": 0.924
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.867,
+    "wordCount": 67,
+    "credibleWordCount": 59,
+    "segmentCount": 6,
+    "averageWordProbability": 0.778,
+    "vocalSeconds": 32.56,
+    "scanCoverage": 0.39,
+    "reviewRequired": false
+  }
+}

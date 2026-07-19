@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 75,
+  "id": "../VOLHOLLA/song-congregation-02.html",
+  "slug": "bamako-midnight-dialogue",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      13.35,
+      31.35
+    ],
+    [
+      53.39,
+      71.39
+    ],
+    [
+      93.42,
+      111.42
+    ],
+    [
+      133.46,
+      151.46
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.553,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.39,
+    "reviewRequired": true
+  }
+}

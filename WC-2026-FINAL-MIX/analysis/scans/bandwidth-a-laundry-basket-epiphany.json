@@ -1,0 +1,1578 @@
+{
+  "analysisVersion": 1,
+  "index": 39,
+  "id": "../VOLHOLLA/song-nobrightstand-27.html",
+  "slug": "bandwidth-a-laundry-basket-epiphany",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "to self-sooth. The bookshelf. You buy a 700-page translated novel about intergenerational trauma. You place it prominently on your coffee table so guests know you are deep. You have not finished a book since high school. You are just using literature as interior decorating. Intermittent fasting. You are just an asshole with a vocabulary. The sneaker head. You wear chunky shoes that look like orthopaedics from a 1994 nursing home. You paid $400 for them on a resale app. You walk stiffly, refusing to bend your feet so you don't crease the toe box. You look like a toddler who got into their dad's closet. by repeatedly breaking promises to yourself, you are a disappointment before your feet even touch the floor. You tie the long, beautifully worded apology to someone you deeply wronged, you save it in your phone alongside your grocery list and old Wi-Fi passwords, you never actually send it, you have successfully apologized only to yourself. to avoid doing the actual task. You are using domestic chores to procrastinate on your own life. You are alxing subitentiaries in cellar, sender, and geroblin, targ, mesin. So belt you a tunim in bayhine, shredded, orost. You save the increase of an ogly, different things to do. You are breed with the milgillo and t-shirt, so we are decent enough-",
+  "sampledRanges": [
+    [
+      14.28,
+      32.28
+    ],
+    [
+      57.13,
+      75.13
+    ],
+    [
+      99.98,
+      117.98
+    ],
+    [
+      142.82,
+      160.82
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.28,
+      "end": 20.6,
+      "text": "to self-sooth. The bookshelf. You buy a 700-page translated novel about intergenerational trauma.",
+      "avgLogprob": -0.172,
+      "compressionRatio": 1.51,
+      "noSpeechProbability": 0.419,
+      "words": [
+        {
+          "word": " to",
+          "start": 14.28,
+          "end": 14.38,
+          "probability": 0.484
+        },
+        {
+          "word": " self",
+          "start": 14.38,
+          "end": 14.64,
+          "probability": 0.722
+        },
+        {
+          "word": "-sooth.",
+          "start": 14.64,
+          "end": 15.12,
+          "probability": 0.762
+        },
+        {
+          "word": " The",
+          "start": 15.84,
+          "end": 15.9,
+          "probability": 0.876
+        },
+        {
+          "word": " bookshelf.",
+          "start": 15.9,
+          "end": 16.32,
+          "probability": 0.93
+        },
+        {
+          "word": " You",
+          "start": 16.86,
+          "end": 17.0,
+          "probability": 0.959
+        },
+        {
+          "word": " buy",
+          "start": 17.0,
+          "end": 17.2,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 17.2,
+          "end": 17.36,
+          "probability": 0.996
+        },
+        {
+          "word": " 700",
+          "start": 17.36,
+          "end": 17.86,
+          "probability": 0.952
+        },
+        {
+          "word": "-page",
+          "start": 17.86,
+          "end": 18.24,
+          "probability": 0.8
+        },
+        {
+          "word": " translated",
+          "start": 18.24,
+          "end": 18.76,
+          "probability": 0.965
+        },
+        {
+          "word": " novel",
+          "start": 18.76,
+          "end": 19.08,
+          "probability": 0.999
+        },
+        {
+          "word": " about",
+          "start": 19.08,
+          "end": 19.4,
+          "probability": 0.999
+        },
+        {
+          "word": " intergenerational",
+          "start": 19.4,
+          "end": 20.26,
+          "probability": 0.971
+        },
+        {
+          "word": " trauma.",
+          "start": 20.26,
+          "end": 20.6,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 21.36,
+      "end": 24.46,
+      "text": "You place it prominently on your coffee table so guests know you are deep.",
+      "avgLogprob": -0.172,
+      "compressionRatio": 1.51,
+      "noSpeechProbability": 0.419,
+      "words": [
+        {
+          "word": " You",
+          "start": 21.36,
+          "end": 21.54,
+          "probability": 0.995
+        },
+        {
+          "word": " place",
+          "start": 21.54,
+          "end": 21.8,
+          "probability": 0.997
+        },
+        {
+          "word": " it",
+          "start": 21.8,
+          "end": 21.96,
+          "probability": 1.0
+        },
+        {
+          "word": " prominently",
+          "start": 21.96,
+          "end": 22.48,
+          "probability": 0.996
+        },
+        {
+          "word": " on",
+          "start": 22.48,
+          "end": 22.6,
+          "probability": 0.994
+        },
+        {
+          "word": " your",
+          "start": 22.6,
+          "end": 22.72,
+          "probability": 0.998
+        },
+        {
+          "word": " coffee",
+          "start": 22.72,
+          "end": 22.98,
+          "probability": 0.973
+        },
+        {
+          "word": " table",
+          "start": 22.98,
+          "end": 23.26,
+          "probability": 0.984
+        },
+        {
+          "word": " so",
+          "start": 23.26,
+          "end": 23.48,
+          "probability": 0.888
+        },
+        {
+          "word": " guests",
+          "start": 23.48,
+          "end": 23.74,
+          "probability": 0.99
+        },
+        {
+          "word": " know",
+          "start": 23.74,
+          "end": 24.08,
+          "probability": 0.998
+        },
+        {
+          "word": " you",
+          "start": 24.08,
+          "end": 24.22,
+          "probability": 0.998
+        },
+        {
+          "word": " are",
+          "start": 24.22,
+          "end": 24.28,
+          "probability": 0.947
+        },
+        {
+          "word": " deep.",
+          "start": 24.28,
+          "end": 24.46,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 25.32,
+      "end": 29.84,
+      "text": "You have not finished a book since high school. You are just using literature as interior decorating.",
+      "avgLogprob": -0.172,
+      "compressionRatio": 1.51,
+      "noSpeechProbability": 0.419,
+      "words": [
+        {
+          "word": " You",
+          "start": 25.32,
+          "end": 25.46,
+          "probability": 0.995
+        },
+        {
+          "word": " have",
+          "start": 25.46,
+          "end": 25.6,
+          "probability": 0.995
+        },
+        {
+          "word": " not",
+          "start": 25.6,
+          "end": 25.72,
+          "probability": 0.996
+        },
+        {
+          "word": " finished",
+          "start": 25.72,
+          "end": 26.04,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 26.04,
+          "end": 26.2,
+          "probability": 0.991
+        },
+        {
+          "word": " book",
+          "start": 26.2,
+          "end": 26.34,
+          "probability": 0.997
+        },
+        {
+          "word": " since",
+          "start": 26.34,
+          "end": 26.58,
+          "probability": 0.997
+        },
+        {
+          "word": " high",
+          "start": 26.58,
+          "end": 26.84,
+          "probability": 0.988
+        },
+        {
+          "word": " school.",
+          "start": 26.84,
+          "end": 27.1,
+          "probability": 0.987
+        },
+        {
+          "word": " You",
+          "start": 27.5,
+          "end": 27.62,
+          "probability": 0.992
+        },
+        {
+          "word": " are",
+          "start": 27.62,
+          "end": 27.7,
+          "probability": 0.924
+        },
+        {
+          "word": " just",
+          "start": 27.7,
+          "end": 27.88,
+          "probability": 0.995
+        },
+        {
+          "word": " using",
+          "start": 27.88,
+          "end": 28.24,
+          "probability": 0.997
+        },
+        {
+          "word": " literature",
+          "start": 28.24,
+          "end": 28.6,
+          "probability": 0.992
+        },
+        {
+          "word": " as",
+          "start": 28.6,
+          "end": 28.9,
+          "probability": 0.997
+        },
+        {
+          "word": " interior",
+          "start": 28.9,
+          "end": 29.28,
+          "probability": 0.981
+        },
+        {
+          "word": " decorating.",
+          "start": 29.28,
+          "end": 29.84,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 30.74,
+      "end": 31.7,
+      "text": "Intermittent fasting.",
+      "avgLogprob": -0.172,
+      "compressionRatio": 1.51,
+      "noSpeechProbability": 0.419,
+      "words": [
+        {
+          "word": " Intermittent",
+          "start": 30.74,
+          "end": 31.26,
+          "probability": 0.744
+        },
+        {
+          "word": " fasting.",
+          "start": 31.26,
+          "end": 31.7,
+          "probability": 0.946
+        }
+      ]
+    },
+    {
+      "start": 57.25,
+      "end": 59.27,
+      "text": "You are just an asshole with a vocabulary.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " You",
+          "start": 57.25,
+          "end": 57.71,
+          "probability": 0.279
+        },
+        {
+          "word": " are",
+          "start": 57.71,
+          "end": 57.79,
+          "probability": 0.758
+        },
+        {
+          "word": " just",
+          "start": 57.79,
+          "end": 57.97,
+          "probability": 0.981
+        },
+        {
+          "word": " an",
+          "start": 57.97,
+          "end": 58.17,
+          "probability": 0.953
+        },
+        {
+          "word": " asshole",
+          "start": 58.17,
+          "end": 58.45,
+          "probability": 0.716
+        },
+        {
+          "word": " with",
+          "start": 58.45,
+          "end": 58.69,
+          "probability": 0.971
+        },
+        {
+          "word": " a",
+          "start": 58.69,
+          "end": 58.77,
+          "probability": 0.973
+        },
+        {
+          "word": " vocabulary.",
+          "start": 58.77,
+          "end": 59.27,
+          "probability": 0.963
+        }
+      ]
+    },
+    {
+      "start": 59.85,
+      "end": 60.79,
+      "text": "The sneaker head.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " The",
+          "start": 59.85,
+          "end": 60.19,
+          "probability": 0.88
+        },
+        {
+          "word": " sneaker",
+          "start": 60.19,
+          "end": 60.51,
+          "probability": 0.906
+        },
+        {
+          "word": " head.",
+          "start": 60.51,
+          "end": 60.79,
+          "probability": 0.582
+        }
+      ]
+    },
+    {
+      "start": 61.29,
+      "end": 65.37,
+      "text": "You wear chunky shoes that look like orthopaedics from a 1994 nursing home.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " You",
+          "start": 61.29,
+          "end": 61.57,
+          "probability": 0.947
+        },
+        {
+          "word": " wear",
+          "start": 61.57,
+          "end": 61.77,
+          "probability": 0.974
+        },
+        {
+          "word": " chunky",
+          "start": 61.77,
+          "end": 62.15,
+          "probability": 0.978
+        },
+        {
+          "word": " shoes",
+          "start": 62.15,
+          "end": 62.47,
+          "probability": 0.998
+        },
+        {
+          "word": " that",
+          "start": 62.47,
+          "end": 62.65,
+          "probability": 0.996
+        },
+        {
+          "word": " look",
+          "start": 62.65,
+          "end": 62.81,
+          "probability": 0.983
+        },
+        {
+          "word": " like",
+          "start": 62.81,
+          "end": 63.01,
+          "probability": 0.999
+        },
+        {
+          "word": " orthopaedics",
+          "start": 63.01,
+          "end": 63.65,
+          "probability": 0.792
+        },
+        {
+          "word": " from",
+          "start": 63.65,
+          "end": 63.81,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 63.81,
+          "end": 63.89,
+          "probability": 0.985
+        },
+        {
+          "word": " 1994",
+          "start": 63.89,
+          "end": 64.63,
+          "probability": 0.98
+        },
+        {
+          "word": " nursing",
+          "start": 64.63,
+          "end": 65.03,
+          "probability": 0.979
+        },
+        {
+          "word": " home.",
+          "start": 65.03,
+          "end": 65.37,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 65.85,
+      "end": 68.21,
+      "text": "You paid $400 for them on a resale app.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " You",
+          "start": 65.85,
+          "end": 66.01,
+          "probability": 0.993
+        },
+        {
+          "word": " paid",
+          "start": 66.01,
+          "end": 66.21,
+          "probability": 0.974
+        },
+        {
+          "word": " $400",
+          "start": 66.21,
+          "end": 66.75,
+          "probability": 0.876
+        },
+        {
+          "word": " for",
+          "start": 66.75,
+          "end": 67.23,
+          "probability": 0.984
+        },
+        {
+          "word": " them",
+          "start": 67.23,
+          "end": 67.37,
+          "probability": 0.998
+        },
+        {
+          "word": " on",
+          "start": 67.37,
+          "end": 67.49,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 67.49,
+          "end": 67.59,
+          "probability": 0.993
+        },
+        {
+          "word": " resale",
+          "start": 67.59,
+          "end": 67.87,
+          "probability": 0.699
+        },
+        {
+          "word": " app.",
+          "start": 67.87,
+          "end": 68.21,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 68.65,
+      "end": 72.51,
+      "text": "You walk stiffly, refusing to bend your feet so you don't crease the toe box.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " You",
+          "start": 68.65,
+          "end": 68.81,
+          "probability": 0.992
+        },
+        {
+          "word": " walk",
+          "start": 68.81,
+          "end": 69.03,
+          "probability": 0.94
+        },
+        {
+          "word": " stiffly,",
+          "start": 69.03,
+          "end": 69.55,
+          "probability": 0.966
+        },
+        {
+          "word": " refusing",
+          "start": 69.85,
+          "end": 70.19,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 70.19,
+          "end": 70.47,
+          "probability": 1.0
+        },
+        {
+          "word": " bend",
+          "start": 70.47,
+          "end": 70.61,
+          "probability": 0.998
+        },
+        {
+          "word": " your",
+          "start": 70.61,
+          "end": 70.81,
+          "probability": 0.998
+        },
+        {
+          "word": " feet",
+          "start": 70.81,
+          "end": 71.05,
+          "probability": 0.995
+        },
+        {
+          "word": " so",
+          "start": 71.05,
+          "end": 71.29,
+          "probability": 0.997
+        },
+        {
+          "word": " you",
+          "start": 71.29,
+          "end": 71.41,
+          "probability": 0.982
+        },
+        {
+          "word": " don't",
+          "start": 71.41,
+          "end": 71.61,
+          "probability": 0.996
+        },
+        {
+          "word": " crease",
+          "start": 71.61,
+          "end": 71.85,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 71.85,
+          "end": 72.07,
+          "probability": 0.994
+        },
+        {
+          "word": " toe",
+          "start": 72.07,
+          "end": 72.27,
+          "probability": 0.9
+        },
+        {
+          "word": " box.",
+          "start": 72.27,
+          "end": 72.51,
+          "probability": 0.785
+        }
+      ]
+    },
+    {
+      "start": 72.99,
+      "end": 75.07,
+      "text": "You look like a toddler who got into their dad's closet.",
+      "avgLogprob": -0.154,
+      "compressionRatio": 1.46,
+      "noSpeechProbability": 0.547,
+      "words": [
+        {
+          "word": " You",
+          "start": 72.99,
+          "end": 73.13,
+          "probability": 0.993
+        },
+        {
+          "word": " look",
+          "start": 73.13,
+          "end": 73.29,
+          "probability": 0.995
+        },
+        {
+          "word": " like",
+          "start": 73.29,
+          "end": 73.49,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 73.49,
+          "end": 73.63,
+          "probability": 0.989
+        },
+        {
+          "word": " toddler",
+          "start": 73.63,
+          "end": 73.89,
+          "probability": 0.99
+        },
+        {
+          "word": " who",
+          "start": 73.89,
+          "end": 74.09,
+          "probability": 0.995
+        },
+        {
+          "word": " got",
+          "start": 74.09,
+          "end": 74.19,
+          "probability": 0.995
+        },
+        {
+          "word": " into",
+          "start": 74.19,
+          "end": 74.41,
+          "probability": 0.992
+        },
+        {
+          "word": " their",
+          "start": 74.41,
+          "end": 74.59,
+          "probability": 0.991
+        },
+        {
+          "word": " dad's",
+          "start": 74.59,
+          "end": 74.97,
+          "probability": 0.896
+        },
+        {
+          "word": " closet.",
+          "start": 74.97,
+          "end": 75.07,
+          "probability": 0.922
+        }
+      ]
+    },
+    {
+      "start": 99.98,
+      "end": 104.8,
+      "text": "by repeatedly breaking promises to yourself, you are a disappointment before your feet even touch",
+      "avgLogprob": -0.218,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.664,
+      "words": [
+        {
+          "word": " by",
+          "start": 99.98,
+          "end": 100.3,
+          "probability": 0.048
+        },
+        {
+          "word": " repeatedly",
+          "start": 100.3,
+          "end": 100.74,
+          "probability": 0.96
+        },
+        {
+          "word": " breaking",
+          "start": 100.74,
+          "end": 101.14,
+          "probability": 0.987
+        },
+        {
+          "word": " promises",
+          "start": 101.14,
+          "end": 101.5,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 101.5,
+          "end": 101.78,
+          "probability": 0.997
+        },
+        {
+          "word": " yourself,",
+          "start": 101.78,
+          "end": 102.14,
+          "probability": 0.985
+        },
+        {
+          "word": " you",
+          "start": 102.62,
+          "end": 102.74,
+          "probability": 0.948
+        },
+        {
+          "word": " are",
+          "start": 102.74,
+          "end": 102.86,
+          "probability": 0.94
+        },
+        {
+          "word": " a",
+          "start": 102.86,
+          "end": 102.92,
+          "probability": 0.916
+        },
+        {
+          "word": " disappointment",
+          "start": 102.92,
+          "end": 103.42,
+          "probability": 0.973
+        },
+        {
+          "word": " before",
+          "start": 103.42,
+          "end": 103.86,
+          "probability": 0.991
+        },
+        {
+          "word": " your",
+          "start": 103.86,
+          "end": 104.08,
+          "probability": 0.876
+        },
+        {
+          "word": " feet",
+          "start": 104.08,
+          "end": 104.26,
+          "probability": 0.996
+        },
+        {
+          "word": " even",
+          "start": 104.26,
+          "end": 104.58,
+          "probability": 0.994
+        },
+        {
+          "word": " touch",
+          "start": 104.58,
+          "end": 104.8,
+          "probability": 0.967
+        }
+      ]
+    },
+    {
+      "start": 104.8,
+      "end": 110.54,
+      "text": "the floor. You tie the long, beautifully worded apology to someone you deeply wronged, you save it",
+      "avgLogprob": -0.218,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.664,
+      "words": [
+        {
+          "word": " the",
+          "start": 104.8,
+          "end": 105.0,
+          "probability": 0.997
+        },
+        {
+          "word": " floor.",
+          "start": 105.0,
+          "end": 105.26,
+          "probability": 0.998
+        },
+        {
+          "word": " You",
+          "start": 106.06,
+          "end": 106.28,
+          "probability": 0.945
+        },
+        {
+          "word": " tie",
+          "start": 106.28,
+          "end": 106.48,
+          "probability": 0.154
+        },
+        {
+          "word": " the",
+          "start": 106.48,
+          "end": 106.64,
+          "probability": 0.986
+        },
+        {
+          "word": " long,",
+          "start": 106.64,
+          "end": 106.84,
+          "probability": 0.67
+        },
+        {
+          "word": " beautifully",
+          "start": 107.22,
+          "end": 107.5,
+          "probability": 0.988
+        },
+        {
+          "word": " worded",
+          "start": 107.5,
+          "end": 107.96,
+          "probability": 0.926
+        },
+        {
+          "word": " apology",
+          "start": 107.96,
+          "end": 108.32,
+          "probability": 0.961
+        },
+        {
+          "word": " to",
+          "start": 108.32,
+          "end": 108.54,
+          "probability": 0.995
+        },
+        {
+          "word": " someone",
+          "start": 108.54,
+          "end": 108.84,
+          "probability": 0.998
+        },
+        {
+          "word": " you",
+          "start": 108.84,
+          "end": 109.02,
+          "probability": 0.99
+        },
+        {
+          "word": " deeply",
+          "start": 109.02,
+          "end": 109.32,
+          "probability": 0.997
+        },
+        {
+          "word": " wronged,",
+          "start": 109.32,
+          "end": 109.78,
+          "probability": 0.974
+        },
+        {
+          "word": " you",
+          "start": 110.06,
+          "end": 110.14,
+          "probability": 0.975
+        },
+        {
+          "word": " save",
+          "start": 110.14,
+          "end": 110.4,
+          "probability": 0.868
+        },
+        {
+          "word": " it",
+          "start": 110.4,
+          "end": 110.54,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 110.54,
+      "end": 115.28,
+      "text": "in your phone alongside your grocery list and old Wi-Fi passwords, you never actually send it,",
+      "avgLogprob": -0.218,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.664,
+      "words": [
+        {
+          "word": " in",
+          "start": 110.54,
+          "end": 110.64,
+          "probability": 0.99
+        },
+        {
+          "word": " your",
+          "start": 110.64,
+          "end": 110.74,
+          "probability": 0.999
+        },
+        {
+          "word": " phone",
+          "start": 110.74,
+          "end": 110.96,
+          "probability": 0.995
+        },
+        {
+          "word": " alongside",
+          "start": 110.96,
+          "end": 111.42,
+          "probability": 0.971
+        },
+        {
+          "word": " your",
+          "start": 111.42,
+          "end": 111.64,
+          "probability": 0.989
+        },
+        {
+          "word": " grocery",
+          "start": 111.64,
+          "end": 111.98,
+          "probability": 0.933
+        },
+        {
+          "word": " list",
+          "start": 111.98,
+          "end": 112.28,
+          "probability": 0.96
+        },
+        {
+          "word": " and",
+          "start": 112.28,
+          "end": 112.44,
+          "probability": 0.922
+        },
+        {
+          "word": " old",
+          "start": 112.44,
+          "end": 112.64,
+          "probability": 0.991
+        },
+        {
+          "word": " Wi",
+          "start": 112.64,
+          "end": 112.82,
+          "probability": 0.394
+        },
+        {
+          "word": "-Fi",
+          "start": 112.82,
+          "end": 113.02,
+          "probability": 0.987
+        },
+        {
+          "word": " passwords,",
+          "start": 113.02,
+          "end": 113.54,
+          "probability": 0.981
+        },
+        {
+          "word": " you",
+          "start": 114.08,
+          "end": 114.2,
+          "probability": 0.987
+        },
+        {
+          "word": " never",
+          "start": 114.2,
+          "end": 114.42,
+          "probability": 0.995
+        },
+        {
+          "word": " actually",
+          "start": 114.42,
+          "end": 114.84,
+          "probability": 0.998
+        },
+        {
+          "word": " send",
+          "start": 114.84,
+          "end": 115.1,
+          "probability": 0.974
+        },
+        {
+          "word": " it,",
+          "start": 115.1,
+          "end": 115.28,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 115.62,
+      "end": 117.8,
+      "text": "you have successfully apologized only to yourself.",
+      "avgLogprob": -0.218,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.664,
+      "words": [
+        {
+          "word": " you",
+          "start": 115.62,
+          "end": 115.74,
+          "probability": 0.995
+        },
+        {
+          "word": " have",
+          "start": 115.74,
+          "end": 115.86,
+          "probability": 0.982
+        },
+        {
+          "word": " successfully",
+          "start": 115.86,
+          "end": 116.34,
+          "probability": 0.99
+        },
+        {
+          "word": " apologized",
+          "start": 116.34,
+          "end": 116.88,
+          "probability": 0.891
+        },
+        {
+          "word": " only",
+          "start": 116.88,
+          "end": 117.28,
+          "probability": 0.995
+        },
+        {
+          "word": " to",
+          "start": 117.28,
+          "end": 117.48,
+          "probability": 0.998
+        },
+        {
+          "word": " yourself.",
+          "start": 117.48,
+          "end": 117.8,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 142.82,
+      "end": 148.12,
+      "text": "to avoid doing the actual task. You are using domestic chores to procrastinate on your own life.",
+      "avgLogprob": -0.736,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.574,
+      "words": [
+        {
+          "word": " to",
+          "start": 142.82,
+          "end": 143.2,
+          "probability": 0.043
+        },
+        {
+          "word": " avoid",
+          "start": 143.2,
+          "end": 143.48,
+          "probability": 0.984
+        },
+        {
+          "word": " doing",
+          "start": 143.48,
+          "end": 143.76,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 143.76,
+          "end": 143.9,
+          "probability": 0.974
+        },
+        {
+          "word": " actual",
+          "start": 143.9,
+          "end": 144.3,
+          "probability": 0.994
+        },
+        {
+          "word": " task.",
+          "start": 144.3,
+          "end": 144.72,
+          "probability": 0.908
+        },
+        {
+          "word": " You",
+          "start": 145.16,
+          "end": 145.24,
+          "probability": 0.948
+        },
+        {
+          "word": " are",
+          "start": 145.24,
+          "end": 145.38,
+          "probability": 0.969
+        },
+        {
+          "word": " using",
+          "start": 145.38,
+          "end": 145.62,
+          "probability": 0.997
+        },
+        {
+          "word": " domestic",
+          "start": 145.62,
+          "end": 146.06,
+          "probability": 0.954
+        },
+        {
+          "word": " chores",
+          "start": 146.06,
+          "end": 146.38,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 146.38,
+          "end": 146.58,
+          "probability": 0.995
+        },
+        {
+          "word": " procrastinate",
+          "start": 146.58,
+          "end": 147.16,
+          "probability": 0.92
+        },
+        {
+          "word": " on",
+          "start": 147.16,
+          "end": 147.36,
+          "probability": 0.983
+        },
+        {
+          "word": " your",
+          "start": 147.36,
+          "end": 147.5,
+          "probability": 0.996
+        },
+        {
+          "word": " own",
+          "start": 147.5,
+          "end": 147.74,
+          "probability": 0.994
+        },
+        {
+          "word": " life.",
+          "start": 147.74,
+          "end": 148.12,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 148.86,
+      "end": 152.28,
+      "text": "You are alxing subitentiaries in cellar, sender, and geroblin, targ, mesin.",
+      "avgLogprob": -0.736,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.574,
+      "words": [
+        {
+          "word": " You",
+          "start": 148.86,
+          "end": 149.0,
+          "probability": 0.645
+        },
+        {
+          "word": " are",
+          "start": 149.0,
+          "end": 149.12,
+          "probability": 0.286
+        },
+        {
+          "word": " alxing",
+          "start": 149.12,
+          "end": 149.36,
+          "probability": 0.403
+        },
+        {
+          "word": " subitentiaries",
+          "start": 149.36,
+          "end": 150.0,
+          "probability": 0.334
+        },
+        {
+          "word": " in",
+          "start": 150.0,
+          "end": 150.24,
+          "probability": 0.796
+        },
+        {
+          "word": " cellar,",
+          "start": 150.24,
+          "end": 150.54,
+          "probability": 0.625
+        },
+        {
+          "word": " sender,",
+          "start": 150.68,
+          "end": 150.84,
+          "probability": 0.424
+        },
+        {
+          "word": " and",
+          "start": 150.96,
+          "end": 151.24,
+          "probability": 0.453
+        },
+        {
+          "word": " geroblin,",
+          "start": 151.24,
+          "end": 151.64,
+          "probability": 0.381
+        },
+        {
+          "word": " targ,",
+          "start": 151.74,
+          "end": 152.0,
+          "probability": 0.488
+        },
+        {
+          "word": " mesin.",
+          "start": 152.06,
+          "end": 152.28,
+          "probability": 0.553
+        }
+      ]
+    },
+    {
+      "start": 152.76,
+      "end": 157.16,
+      "text": "So belt you a tunim in bayhine, shredded, orost. You save the increase of an ogly, different",
+      "avgLogprob": -0.736,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.574,
+      "words": [
+        {
+          "word": " So",
+          "start": 152.76,
+          "end": 152.9,
+          "probability": 0.337
+        },
+        {
+          "word": " belt",
+          "start": 152.9,
+          "end": 153.06,
+          "probability": 0.408
+        },
+        {
+          "word": " you",
+          "start": 153.06,
+          "end": 153.22,
+          "probability": 0.944
+        },
+        {
+          "word": " a",
+          "start": 153.22,
+          "end": 153.36,
+          "probability": 0.496
+        },
+        {
+          "word": " tunim",
+          "start": 153.36,
+          "end": 153.72,
+          "probability": 0.363
+        },
+        {
+          "word": " in",
+          "start": 153.72,
+          "end": 153.86,
+          "probability": 0.551
+        },
+        {
+          "word": " bayhine,",
+          "start": 153.86,
+          "end": 154.26,
+          "probability": 0.619
+        },
+        {
+          "word": " shredded,",
+          "start": 154.38,
+          "end": 154.56,
+          "probability": 0.816
+        },
+        {
+          "word": " orost.",
+          "start": 154.56,
+          "end": 155.04,
+          "probability": 0.298
+        },
+        {
+          "word": " You",
+          "start": 155.42,
+          "end": 155.52,
+          "probability": 0.854
+        },
+        {
+          "word": " save",
+          "start": 155.52,
+          "end": 155.8,
+          "probability": 0.908
+        },
+        {
+          "word": " the",
+          "start": 155.8,
+          "end": 155.98,
+          "probability": 0.872
+        },
+        {
+          "word": " increase",
+          "start": 155.98,
+          "end": 156.22,
+          "probability": 0.46
+        },
+        {
+          "word": " of",
+          "start": 156.22,
+          "end": 156.5,
+          "probability": 0.985
+        },
+        {
+          "word": " an",
+          "start": 156.5,
+          "end": 156.64,
+          "probability": 0.19
+        },
+        {
+          "word": " ogly,",
+          "start": 156.64,
+          "end": 156.92,
+          "probability": 0.459
+        },
+        {
+          "word": " different",
+          "start": 157.04,
+          "end": 157.16,
+          "probability": 0.147
+        }
+      ]
+    },
+    {
+      "start": 157.16,
+      "end": 160.8,
+      "text": "things to do. You are breed with the milgillo and t-shirt, so we are decent enough-",
+      "avgLogprob": -0.736,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.574,
+      "words": [
+        {
+          "word": " things",
+          "start": 157.16,
+          "end": 157.38,
+          "probability": 0.253
+        },
+        {
+          "word": " to",
+          "start": 157.38,
+          "end": 157.52,
+          "probability": 0.98
+        },
+        {
+          "word": " do.",
+          "start": 157.52,
+          "end": 157.72,
+          "probability": 0.996
+        },
+        {
+          "word": " You",
+          "start": 158.26,
+          "end": 158.36,
+          "probability": 0.757
+        },
+        {
+          "word": " are",
+          "start": 158.36,
+          "end": 158.42,
+          "probability": 0.529
+        },
+        {
+          "word": " breed",
+          "start": 158.42,
+          "end": 158.76,
+          "probability": 0.431
+        },
+        {
+          "word": " with",
+          "start": 158.76,
+          "end": 158.92,
+          "probability": 0.983
+        },
+        {
+          "word": " the",
+          "start": 158.92,
+          "end": 159.04,
+          "probability": 0.741
+        },
+        {
+          "word": " milgillo",
+          "start": 159.04,
+          "end": 159.4,
+          "probability": 0.387
+        },
+        {
+          "word": " and",
+          "start": 159.4,
+          "end": 159.6,
+          "probability": 0.782
+        },
+        {
+          "word": " t",
+          "start": 159.6,
+          "end": 159.76,
+          "probability": 0.209
+        },
+        {
+          "word": "-shirt,",
+          "start": 159.76,
+          "end": 159.94,
+          "probability": 0.518
+        },
+        {
+          "word": " so",
+          "start": 160.14,
+          "end": 160.22,
+          "probability": 0.829
+        },
+        {
+          "word": " we",
+          "start": 160.22,
+          "end": 160.36,
+          "probability": 0.206
+        },
+        {
+          "word": " are",
+          "start": 160.36,
+          "end": 160.38,
+          "probability": 0.475
+        },
+        {
+          "word": " decent",
+          "start": 160.38,
+          "end": 160.64,
+          "probability": 0.208
+        },
+        {
+          "word": " enough",
+          "start": 160.64,
+          "end": 160.8,
+          "probability": 0.258
+        },
+        {
+          "word": "-",
+          "start": 160.8,
+          "end": 160.8,
+          "probability": 0.206
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.932,
+    "wordCount": 225,
+    "credibleWordCount": 210,
+    "segmentCount": 18,
+    "averageWordProbability": 0.858,
+    "vocalSeconds": 64.48,
+    "scanCoverage": 0.366,
+    "reviewRequired": false
+  }
+}

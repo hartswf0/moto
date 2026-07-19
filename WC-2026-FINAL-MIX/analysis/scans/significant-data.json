@@ -1,0 +1,1920 @@
+{
+  "analysisVersion": 1,
+  "index": 38,
+  "id": "../VOLHOLLA/song-nobrightstand-30.html",
+  "slug": "significant-data",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "You achieve perfect, medically approved posture. You use it to type sounds good into a chat box. You wash your face with imported volcanic ash. You burn off the top layer of your skin with acid. You are trying to achieve a pure, untouched surface. You are trying to make a mirror out of your own face. You use clinical psychology terms. gently, in the dark. You are asked to prove you are not a robot. You identify the crosswalks in a grid of blurry photos. The algorithm is satisfied in grants you passage. You spend the rest of the day acting exactly like a machine. You buy expensive headphones to erase the world. They emit a counter-frequency to swallow the chaos. You sit on the subway and absolute. your accent and plays jazz. You stand in the blinding kitchen, shouting at a speaker. This is the absolute apex of human convenience. You switch all your applications to a black background. It is supposed to suit your strained retinus. You read unspeakable horrors until free in the morning, but you do it gently. In the dark, you are asked to prove you are not a robot. You identify Weeping on your left side, you strap a silicone computer to your wrist. It monitors your pulse and tracks your m cycles. It tells you that you are exhausted. Now you have the data to prove your suffering is statistically significant. You sprint hide or pours to Craywell getting the morning. All I have to end the one you treased have to do manifest. You pay the desert server farm to hold your memories.",
+  "sampledRanges": [
+    [
+      14.6,
+      32.6
+    ],
+    [
+      58.39,
+      76.39
+    ],
+    [
+      102.19,
+      120.19
+    ],
+    [
+      145.98,
+      163.98
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.92,
+      "end": 17.7,
+      "text": "You achieve perfect, medically approved posture.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 14.92,
+          "end": 15.36,
+          "probability": 0.157
+        },
+        {
+          "word": " achieve",
+          "start": 15.36,
+          "end": 15.6,
+          "probability": 0.355
+        },
+        {
+          "word": " perfect,",
+          "start": 15.6,
+          "end": 16.12,
+          "probability": 0.946
+        },
+        {
+          "word": " medically",
+          "start": 16.48,
+          "end": 16.82,
+          "probability": 0.992
+        },
+        {
+          "word": " approved",
+          "start": 16.82,
+          "end": 17.24,
+          "probability": 0.897
+        },
+        {
+          "word": " posture.",
+          "start": 17.24,
+          "end": 17.7,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 18.12,
+      "end": 20.28,
+      "text": "You use it to type sounds good into a chat box.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 18.12,
+          "end": 18.28,
+          "probability": 0.973
+        },
+        {
+          "word": " use",
+          "start": 18.28,
+          "end": 18.5,
+          "probability": 0.997
+        },
+        {
+          "word": " it",
+          "start": 18.5,
+          "end": 18.62,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 18.62,
+          "end": 18.68,
+          "probability": 0.997
+        },
+        {
+          "word": " type",
+          "start": 18.68,
+          "end": 18.88,
+          "probability": 0.985
+        },
+        {
+          "word": " sounds",
+          "start": 18.88,
+          "end": 19.22,
+          "probability": 0.944
+        },
+        {
+          "word": " good",
+          "start": 19.22,
+          "end": 19.44,
+          "probability": 0.993
+        },
+        {
+          "word": " into",
+          "start": 19.44,
+          "end": 19.7,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 19.7,
+          "end": 19.82,
+          "probability": 0.995
+        },
+        {
+          "word": " chat",
+          "start": 19.82,
+          "end": 20.04,
+          "probability": 0.97
+        },
+        {
+          "word": " box.",
+          "start": 20.04,
+          "end": 20.28,
+          "probability": 0.913
+        }
+      ]
+    },
+    {
+      "start": 20.9,
+      "end": 23.04,
+      "text": "You wash your face with imported volcanic ash.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 20.9,
+          "end": 21.02,
+          "probability": 0.984
+        },
+        {
+          "word": " wash",
+          "start": 21.02,
+          "end": 21.22,
+          "probability": 0.992
+        },
+        {
+          "word": " your",
+          "start": 21.22,
+          "end": 21.34,
+          "probability": 0.999
+        },
+        {
+          "word": " face",
+          "start": 21.34,
+          "end": 21.54,
+          "probability": 1.0
+        },
+        {
+          "word": " with",
+          "start": 21.54,
+          "end": 21.76,
+          "probability": 0.999
+        },
+        {
+          "word": " imported",
+          "start": 21.76,
+          "end": 22.16,
+          "probability": 0.979
+        },
+        {
+          "word": " volcanic",
+          "start": 22.16,
+          "end": 22.5,
+          "probability": 0.814
+        },
+        {
+          "word": " ash.",
+          "start": 22.5,
+          "end": 23.04,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 23.3,
+      "end": 25.4,
+      "text": "You burn off the top layer of your skin with acid.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 23.3,
+          "end": 23.46,
+          "probability": 0.992
+        },
+        {
+          "word": " burn",
+          "start": 23.46,
+          "end": 23.62,
+          "probability": 0.99
+        },
+        {
+          "word": " off",
+          "start": 23.62,
+          "end": 23.8,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 23.8,
+          "end": 23.92,
+          "probability": 0.998
+        },
+        {
+          "word": " top",
+          "start": 23.92,
+          "end": 24.14,
+          "probability": 0.999
+        },
+        {
+          "word": " layer",
+          "start": 24.14,
+          "end": 24.38,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 24.38,
+          "end": 24.58,
+          "probability": 0.998
+        },
+        {
+          "word": " your",
+          "start": 24.58,
+          "end": 24.68,
+          "probability": 0.997
+        },
+        {
+          "word": " skin",
+          "start": 24.68,
+          "end": 24.9,
+          "probability": 0.999
+        },
+        {
+          "word": " with",
+          "start": 24.9,
+          "end": 25.14,
+          "probability": 0.999
+        },
+        {
+          "word": " acid.",
+          "start": 25.14,
+          "end": 25.4,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 25.78,
+      "end": 28.1,
+      "text": "You are trying to achieve a pure, untouched surface.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 25.78,
+          "end": 25.88,
+          "probability": 0.992
+        },
+        {
+          "word": " are",
+          "start": 25.88,
+          "end": 25.98,
+          "probability": 0.976
+        },
+        {
+          "word": " trying",
+          "start": 25.98,
+          "end": 26.26,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 26.26,
+          "end": 26.42,
+          "probability": 0.999
+        },
+        {
+          "word": " achieve",
+          "start": 26.42,
+          "end": 26.7,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 26.7,
+          "end": 26.82,
+          "probability": 0.994
+        },
+        {
+          "word": " pure,",
+          "start": 26.82,
+          "end": 27.1,
+          "probability": 0.968
+        },
+        {
+          "word": " untouched",
+          "start": 27.4,
+          "end": 27.72,
+          "probability": 0.971
+        },
+        {
+          "word": " surface.",
+          "start": 27.72,
+          "end": 28.1,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 28.52,
+      "end": 30.54,
+      "text": "You are trying to make a mirror out of your own face.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 28.52,
+          "end": 28.62,
+          "probability": 0.993
+        },
+        {
+          "word": " are",
+          "start": 28.62,
+          "end": 28.72,
+          "probability": 0.993
+        },
+        {
+          "word": " trying",
+          "start": 28.72,
+          "end": 28.98,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 28.98,
+          "end": 29.14,
+          "probability": 0.999
+        },
+        {
+          "word": " make",
+          "start": 29.14,
+          "end": 29.26,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 29.26,
+          "end": 29.4,
+          "probability": 0.994
+        },
+        {
+          "word": " mirror",
+          "start": 29.4,
+          "end": 29.6,
+          "probability": 0.997
+        },
+        {
+          "word": " out",
+          "start": 29.6,
+          "end": 29.84,
+          "probability": 0.998
+        },
+        {
+          "word": " of",
+          "start": 29.84,
+          "end": 29.96,
+          "probability": 0.996
+        },
+        {
+          "word": " your",
+          "start": 29.96,
+          "end": 30.06,
+          "probability": 0.997
+        },
+        {
+          "word": " own",
+          "start": 30.06,
+          "end": 30.24,
+          "probability": 0.993
+        },
+        {
+          "word": " face.",
+          "start": 30.24,
+          "end": 30.54,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 30.98,
+      "end": 32.58,
+      "text": "You use clinical psychology terms.",
+      "avgLogprob": -0.111,
+      "compressionRatio": 1.663,
+      "noSpeechProbability": 0.71,
+      "words": [
+        {
+          "word": " You",
+          "start": 30.98,
+          "end": 31.18,
+          "probability": 0.983
+        },
+        {
+          "word": " use",
+          "start": 31.18,
+          "end": 31.4,
+          "probability": 0.992
+        },
+        {
+          "word": " clinical",
+          "start": 31.4,
+          "end": 31.68,
+          "probability": 0.986
+        },
+        {
+          "word": " psychology",
+          "start": 31.68,
+          "end": 32.32,
+          "probability": 0.985
+        },
+        {
+          "word": " terms.",
+          "start": 32.32,
+          "end": 32.58,
+          "probability": 0.336
+        }
+      ]
+    },
+    {
+      "start": 58.39,
+      "end": 63.21,
+      "text": "gently, in the dark. You are asked to prove you are not a robot. You identify the crosswalks",
+      "avgLogprob": -0.191,
+      "compressionRatio": 1.621,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": " gently,",
+          "start": 58.39,
+          "end": 58.73,
+          "probability": 0.049
+        },
+        {
+          "word": " in",
+          "start": 59.01,
+          "end": 59.13,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 59.13,
+          "end": 59.23,
+          "probability": 0.994
+        },
+        {
+          "word": " dark.",
+          "start": 59.23,
+          "end": 59.47,
+          "probability": 0.996
+        },
+        {
+          "word": " You",
+          "start": 59.93,
+          "end": 60.05,
+          "probability": 0.935
+        },
+        {
+          "word": " are",
+          "start": 60.05,
+          "end": 60.17,
+          "probability": 0.695
+        },
+        {
+          "word": " asked",
+          "start": 60.17,
+          "end": 60.39,
+          "probability": 0.982
+        },
+        {
+          "word": " to",
+          "start": 60.39,
+          "end": 60.53,
+          "probability": 0.996
+        },
+        {
+          "word": " prove",
+          "start": 60.53,
+          "end": 60.69,
+          "probability": 0.993
+        },
+        {
+          "word": " you",
+          "start": 60.69,
+          "end": 60.87,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 60.87,
+          "end": 60.97,
+          "probability": 0.952
+        },
+        {
+          "word": " not",
+          "start": 60.97,
+          "end": 61.13,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 61.13,
+          "end": 61.25,
+          "probability": 0.995
+        },
+        {
+          "word": " robot.",
+          "start": 61.25,
+          "end": 61.49,
+          "probability": 0.991
+        },
+        {
+          "word": " You",
+          "start": 61.89,
+          "end": 61.99,
+          "probability": 0.985
+        },
+        {
+          "word": " identify",
+          "start": 61.99,
+          "end": 62.39,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 62.39,
+          "end": 62.63,
+          "probability": 0.998
+        },
+        {
+          "word": " crosswalks",
+          "start": 62.63,
+          "end": 63.21,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 63.21,
+      "end": 67.35,
+      "text": "in a grid of blurry photos. The algorithm is satisfied in grants you passage. You spend",
+      "avgLogprob": -0.191,
+      "compressionRatio": 1.621,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": " in",
+          "start": 63.21,
+          "end": 63.27,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 63.27,
+          "end": 63.35,
+          "probability": 0.981
+        },
+        {
+          "word": " grid",
+          "start": 63.35,
+          "end": 63.49,
+          "probability": 0.947
+        },
+        {
+          "word": " of",
+          "start": 63.49,
+          "end": 63.63,
+          "probability": 0.998
+        },
+        {
+          "word": " blurry",
+          "start": 63.63,
+          "end": 63.83,
+          "probability": 0.994
+        },
+        {
+          "word": " photos.",
+          "start": 63.83,
+          "end": 64.25,
+          "probability": 0.998
+        },
+        {
+          "word": " The",
+          "start": 64.67,
+          "end": 64.77,
+          "probability": 0.99
+        },
+        {
+          "word": " algorithm",
+          "start": 64.77,
+          "end": 65.13,
+          "probability": 0.992
+        },
+        {
+          "word": " is",
+          "start": 65.13,
+          "end": 65.31,
+          "probability": 0.999
+        },
+        {
+          "word": " satisfied",
+          "start": 65.31,
+          "end": 65.77,
+          "probability": 0.949
+        },
+        {
+          "word": " in",
+          "start": 65.77,
+          "end": 65.95,
+          "probability": 0.9
+        },
+        {
+          "word": " grants",
+          "start": 65.95,
+          "end": 66.19,
+          "probability": 0.51
+        },
+        {
+          "word": " you",
+          "start": 66.19,
+          "end": 66.33,
+          "probability": 0.994
+        },
+        {
+          "word": " passage.",
+          "start": 66.33,
+          "end": 66.67,
+          "probability": 0.989
+        },
+        {
+          "word": " You",
+          "start": 67.03,
+          "end": 67.13,
+          "probability": 0.992
+        },
+        {
+          "word": " spend",
+          "start": 67.13,
+          "end": 67.35,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 67.35,
+      "end": 71.31,
+      "text": "the rest of the day acting exactly like a machine. You buy expensive headphones to erase",
+      "avgLogprob": -0.191,
+      "compressionRatio": 1.621,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": " the",
+          "start": 67.35,
+          "end": 67.51,
+          "probability": 0.999
+        },
+        {
+          "word": " rest",
+          "start": 67.51,
+          "end": 67.65,
+          "probability": 1.0
+        },
+        {
+          "word": " of",
+          "start": 67.65,
+          "end": 67.83,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 67.83,
+          "end": 67.91,
+          "probability": 0.998
+        },
+        {
+          "word": " day",
+          "start": 67.91,
+          "end": 68.07,
+          "probability": 0.997
+        },
+        {
+          "word": " acting",
+          "start": 68.07,
+          "end": 68.35,
+          "probability": 0.996
+        },
+        {
+          "word": " exactly",
+          "start": 68.35,
+          "end": 68.77,
+          "probability": 0.997
+        },
+        {
+          "word": " like",
+          "start": 68.77,
+          "end": 69.01,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 69.01,
+          "end": 69.11,
+          "probability": 0.998
+        },
+        {
+          "word": " machine.",
+          "start": 69.11,
+          "end": 69.37,
+          "probability": 0.998
+        },
+        {
+          "word": " You",
+          "start": 69.77,
+          "end": 69.87,
+          "probability": 0.97
+        },
+        {
+          "word": " buy",
+          "start": 69.87,
+          "end": 70.01,
+          "probability": 0.997
+        },
+        {
+          "word": " expensive",
+          "start": 70.01,
+          "end": 70.49,
+          "probability": 0.994
+        },
+        {
+          "word": " headphones",
+          "start": 70.49,
+          "end": 70.85,
+          "probability": 0.987
+        },
+        {
+          "word": " to",
+          "start": 70.85,
+          "end": 71.13,
+          "probability": 0.999
+        },
+        {
+          "word": " erase",
+          "start": 71.13,
+          "end": 71.31,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 71.31,
+      "end": 75.21,
+      "text": "the world. They emit a counter-frequency to swallow the chaos. You sit on the subway",
+      "avgLogprob": -0.191,
+      "compressionRatio": 1.621,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": " the",
+          "start": 71.31,
+          "end": 71.55,
+          "probability": 0.999
+        },
+        {
+          "word": " world.",
+          "start": 71.55,
+          "end": 71.81,
+          "probability": 0.998
+        },
+        {
+          "word": " They",
+          "start": 72.09,
+          "end": 72.19,
+          "probability": 0.977
+        },
+        {
+          "word": " emit",
+          "start": 72.19,
+          "end": 72.37,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 72.37,
+          "end": 72.49,
+          "probability": 0.948
+        },
+        {
+          "word": " counter",
+          "start": 72.49,
+          "end": 72.73,
+          "probability": 0.996
+        },
+        {
+          "word": "-frequency",
+          "start": 72.73,
+          "end": 73.19,
+          "probability": 0.816
+        },
+        {
+          "word": " to",
+          "start": 73.19,
+          "end": 73.39,
+          "probability": 0.997
+        },
+        {
+          "word": " swallow",
+          "start": 73.39,
+          "end": 73.63,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 73.63,
+          "end": 73.83,
+          "probability": 0.996
+        },
+        {
+          "word": " chaos.",
+          "start": 73.83,
+          "end": 74.09,
+          "probability": 0.978
+        },
+        {
+          "word": " You",
+          "start": 74.45,
+          "end": 74.55,
+          "probability": 0.988
+        },
+        {
+          "word": " sit",
+          "start": 74.55,
+          "end": 74.69,
+          "probability": 0.998
+        },
+        {
+          "word": " on",
+          "start": 74.69,
+          "end": 74.83,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 74.83,
+          "end": 74.95,
+          "probability": 0.991
+        },
+        {
+          "word": " subway",
+          "start": 74.95,
+          "end": 75.21,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 75.21,
+      "end": 75.71,
+      "text": "and absolute.",
+      "avgLogprob": -0.191,
+      "compressionRatio": 1.621,
+      "noSpeechProbability": 0.76,
+      "words": [
+        {
+          "word": " and",
+          "start": 75.21,
+          "end": 75.39,
+          "probability": 0.551
+        },
+        {
+          "word": " absolute.",
+          "start": 75.39,
+          "end": 75.71,
+          "probability": 0.823
+        }
+      ]
+    },
+    {
+      "start": 102.19,
+      "end": 105.79,
+      "text": "your accent and plays jazz. You stand in the blinding kitchen, shouting at a",
+      "avgLogprob": -0.258,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " your",
+          "start": 102.19,
+          "end": 102.31,
+          "probability": 0.128
+        },
+        {
+          "word": " accent",
+          "start": 102.31,
+          "end": 102.61,
+          "probability": 0.983
+        },
+        {
+          "word": " and",
+          "start": 102.61,
+          "end": 102.83,
+          "probability": 0.371
+        },
+        {
+          "word": " plays",
+          "start": 102.83,
+          "end": 103.05,
+          "probability": 0.319
+        },
+        {
+          "word": " jazz.",
+          "start": 103.05,
+          "end": 103.33,
+          "probability": 0.967
+        },
+        {
+          "word": " You",
+          "start": 103.83,
+          "end": 103.89,
+          "probability": 0.933
+        },
+        {
+          "word": " stand",
+          "start": 103.89,
+          "end": 104.13,
+          "probability": 0.978
+        },
+        {
+          "word": " in",
+          "start": 104.13,
+          "end": 104.29,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 104.29,
+          "end": 104.39,
+          "probability": 0.99
+        },
+        {
+          "word": " blinding",
+          "start": 104.39,
+          "end": 104.75,
+          "probability": 0.975
+        },
+        {
+          "word": " kitchen,",
+          "start": 104.75,
+          "end": 105.03,
+          "probability": 0.995
+        },
+        {
+          "word": " shouting",
+          "start": 105.37,
+          "end": 105.57,
+          "probability": 0.995
+        },
+        {
+          "word": " at",
+          "start": 105.57,
+          "end": 105.73,
+          "probability": 0.983
+        },
+        {
+          "word": " a",
+          "start": 105.73,
+          "end": 105.79,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 105.79,
+      "end": 109.71,
+      "text": "speaker. This is the absolute apex of human convenience. You switch all your",
+      "avgLogprob": -0.258,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " speaker.",
+          "start": 105.79,
+          "end": 106.07,
+          "probability": 0.991
+        },
+        {
+          "word": " This",
+          "start": 106.47,
+          "end": 106.59,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 106.59,
+          "end": 106.71,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 106.71,
+          "end": 106.85,
+          "probability": 0.996
+        },
+        {
+          "word": " absolute",
+          "start": 106.85,
+          "end": 107.23,
+          "probability": 0.979
+        },
+        {
+          "word": " apex",
+          "start": 107.23,
+          "end": 107.49,
+          "probability": 0.946
+        },
+        {
+          "word": " of",
+          "start": 107.49,
+          "end": 107.75,
+          "probability": 0.998
+        },
+        {
+          "word": " human",
+          "start": 107.75,
+          "end": 107.95,
+          "probability": 0.997
+        },
+        {
+          "word": " convenience.",
+          "start": 107.95,
+          "end": 108.45,
+          "probability": 0.974
+        },
+        {
+          "word": " You",
+          "start": 109.01,
+          "end": 109.13,
+          "probability": 0.99
+        },
+        {
+          "word": " switch",
+          "start": 109.13,
+          "end": 109.35,
+          "probability": 0.994
+        },
+        {
+          "word": " all",
+          "start": 109.35,
+          "end": 109.55,
+          "probability": 0.991
+        },
+        {
+          "word": " your",
+          "start": 109.55,
+          "end": 109.71,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 109.71,
+      "end": 113.11,
+      "text": "applications to a black background. It is supposed to suit your strained",
+      "avgLogprob": -0.258,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " applications",
+          "start": 109.71,
+          "end": 110.15,
+          "probability": 0.977
+        },
+        {
+          "word": " to",
+          "start": 110.15,
+          "end": 110.47,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 110.47,
+          "end": 110.59,
+          "probability": 0.999
+        },
+        {
+          "word": " black",
+          "start": 110.59,
+          "end": 110.75,
+          "probability": 0.929
+        },
+        {
+          "word": " background.",
+          "start": 110.75,
+          "end": 111.23,
+          "probability": 0.999
+        },
+        {
+          "word": " It",
+          "start": 111.67,
+          "end": 111.75,
+          "probability": 0.992
+        },
+        {
+          "word": " is",
+          "start": 111.75,
+          "end": 111.83,
+          "probability": 0.992
+        },
+        {
+          "word": " supposed",
+          "start": 111.83,
+          "end": 112.11,
+          "probability": 0.979
+        },
+        {
+          "word": " to",
+          "start": 112.11,
+          "end": 112.37,
+          "probability": 0.999
+        },
+        {
+          "word": " suit",
+          "start": 112.37,
+          "end": 112.53,
+          "probability": 0.869
+        },
+        {
+          "word": " your",
+          "start": 112.53,
+          "end": 112.73,
+          "probability": 0.997
+        },
+        {
+          "word": " strained",
+          "start": 112.73,
+          "end": 113.11,
+          "probability": 0.796
+        }
+      ]
+    },
+    {
+      "start": 113.11,
+      "end": 116.59,
+      "text": "retinus. You read unspeakable horrors until free in the morning, but you do it",
+      "avgLogprob": -0.258,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " retinus.",
+          "start": 113.11,
+          "end": 113.55,
+          "probability": 0.482
+        },
+        {
+          "word": " You",
+          "start": 113.69,
+          "end": 113.75,
+          "probability": 0.986
+        },
+        {
+          "word": " read",
+          "start": 113.75,
+          "end": 113.93,
+          "probability": 0.98
+        },
+        {
+          "word": " unspeakable",
+          "start": 113.93,
+          "end": 114.49,
+          "probability": 0.817
+        },
+        {
+          "word": " horrors",
+          "start": 114.49,
+          "end": 114.85,
+          "probability": 0.983
+        },
+        {
+          "word": " until",
+          "start": 114.85,
+          "end": 115.05,
+          "probability": 0.995
+        },
+        {
+          "word": " free",
+          "start": 115.05,
+          "end": 115.29,
+          "probability": 0.498
+        },
+        {
+          "word": " in",
+          "start": 115.29,
+          "end": 115.41,
+          "probability": 0.985
+        },
+        {
+          "word": " the",
+          "start": 115.41,
+          "end": 115.49,
+          "probability": 0.998
+        },
+        {
+          "word": " morning,",
+          "start": 115.49,
+          "end": 115.77,
+          "probability": 0.997
+        },
+        {
+          "word": " but",
+          "start": 116.07,
+          "end": 116.23,
+          "probability": 0.986
+        },
+        {
+          "word": " you",
+          "start": 116.23,
+          "end": 116.35,
+          "probability": 0.996
+        },
+        {
+          "word": " do",
+          "start": 116.35,
+          "end": 116.49,
+          "probability": 0.998
+        },
+        {
+          "word": " it",
+          "start": 116.49,
+          "end": 116.59,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 116.59,
+      "end": 120.17,
+      "text": "gently. In the dark, you are asked to prove you are not a robot. You identify",
+      "avgLogprob": -0.258,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.713,
+      "words": [
+        {
+          "word": " gently.",
+          "start": 116.59,
+          "end": 116.89,
+          "probability": 0.995
+        },
+        {
+          "word": " In",
+          "start": 117.23,
+          "end": 117.31,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 117.31,
+          "end": 117.41,
+          "probability": 0.995
+        },
+        {
+          "word": " dark,",
+          "start": 117.41,
+          "end": 117.69,
+          "probability": 0.994
+        },
+        {
+          "word": " you",
+          "start": 117.95,
+          "end": 118.07,
+          "probability": 0.992
+        },
+        {
+          "word": " are",
+          "start": 118.07,
+          "end": 118.17,
+          "probability": 0.929
+        },
+        {
+          "word": " asked",
+          "start": 118.17,
+          "end": 118.39,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 118.39,
+          "end": 118.53,
+          "probability": 0.998
+        },
+        {
+          "word": " prove",
+          "start": 118.53,
+          "end": 118.67,
+          "probability": 0.977
+        },
+        {
+          "word": " you",
+          "start": 118.67,
+          "end": 118.89,
+          "probability": 0.976
+        },
+        {
+          "word": " are",
+          "start": 118.89,
+          "end": 118.97,
+          "probability": 0.921
+        },
+        {
+          "word": " not",
+          "start": 118.97,
+          "end": 119.13,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 119.13,
+          "end": 119.23,
+          "probability": 0.999
+        },
+        {
+          "word": " robot.",
+          "start": 119.23,
+          "end": 119.51,
+          "probability": 0.988
+        },
+        {
+          "word": " You",
+          "start": 119.91,
+          "end": 120.01,
+          "probability": 0.949
+        },
+        {
+          "word": " identify",
+          "start": 120.01,
+          "end": 120.17,
+          "probability": 0.409
+        }
+      ]
+    },
+    {
+      "start": 145.98,
+      "end": 149.18,
+      "text": "Weeping on your left side, you strap a silicone computer to your wrist.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " Weeping",
+          "start": 145.98,
+          "end": 146.24,
+          "probability": 0.193
+        },
+        {
+          "word": " on",
+          "start": 146.24,
+          "end": 146.38,
+          "probability": 0.99
+        },
+        {
+          "word": " your",
+          "start": 146.38,
+          "end": 146.5,
+          "probability": 0.99
+        },
+        {
+          "word": " left",
+          "start": 146.5,
+          "end": 146.66,
+          "probability": 0.998
+        },
+        {
+          "word": " side,",
+          "start": 146.66,
+          "end": 147.12,
+          "probability": 0.961
+        },
+        {
+          "word": " you",
+          "start": 147.3,
+          "end": 147.4,
+          "probability": 0.965
+        },
+        {
+          "word": " strap",
+          "start": 147.4,
+          "end": 147.62,
+          "probability": 0.905
+        },
+        {
+          "word": " a",
+          "start": 147.62,
+          "end": 147.78,
+          "probability": 0.78
+        },
+        {
+          "word": " silicone",
+          "start": 147.78,
+          "end": 148.1,
+          "probability": 0.521
+        },
+        {
+          "word": " computer",
+          "start": 148.1,
+          "end": 148.54,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 148.54,
+          "end": 148.74,
+          "probability": 0.994
+        },
+        {
+          "word": " your",
+          "start": 148.74,
+          "end": 148.86,
+          "probability": 0.997
+        },
+        {
+          "word": " wrist.",
+          "start": 148.86,
+          "end": 149.18,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 149.5,
+      "end": 151.46,
+      "text": "It monitors your pulse and tracks your m cycles.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " It",
+          "start": 149.5,
+          "end": 149.56,
+          "probability": 0.979
+        },
+        {
+          "word": " monitors",
+          "start": 149.56,
+          "end": 149.9,
+          "probability": 0.999
+        },
+        {
+          "word": " your",
+          "start": 149.9,
+          "end": 150.12,
+          "probability": 0.997
+        },
+        {
+          "word": " pulse",
+          "start": 150.12,
+          "end": 150.32,
+          "probability": 0.854
+        },
+        {
+          "word": " and",
+          "start": 150.32,
+          "end": 150.52,
+          "probability": 0.92
+        },
+        {
+          "word": " tracks",
+          "start": 150.52,
+          "end": 150.76,
+          "probability": 0.981
+        },
+        {
+          "word": " your",
+          "start": 150.76,
+          "end": 150.98,
+          "probability": 0.99
+        },
+        {
+          "word": " m",
+          "start": 150.98,
+          "end": 151.1,
+          "probability": 0.275
+        },
+        {
+          "word": " cycles.",
+          "start": 151.1,
+          "end": 151.46,
+          "probability": 0.602
+        }
+      ]
+    },
+    {
+      "start": 151.88,
+      "end": 153.12,
+      "text": "It tells you that you are exhausted.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " It",
+          "start": 151.88,
+          "end": 151.98,
+          "probability": 0.984
+        },
+        {
+          "word": " tells",
+          "start": 151.98,
+          "end": 152.22,
+          "probability": 0.995
+        },
+        {
+          "word": " you",
+          "start": 152.22,
+          "end": 152.34,
+          "probability": 0.996
+        },
+        {
+          "word": " that",
+          "start": 152.34,
+          "end": 152.46,
+          "probability": 0.984
+        },
+        {
+          "word": " you",
+          "start": 152.46,
+          "end": 152.6,
+          "probability": 0.992
+        },
+        {
+          "word": " are",
+          "start": 152.6,
+          "end": 152.7,
+          "probability": 0.797
+        },
+        {
+          "word": " exhausted.",
+          "start": 152.7,
+          "end": 153.12,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 153.5,
+      "end": 156.28,
+      "text": "Now you have the data to prove your suffering is statistically significant.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " Now",
+          "start": 153.5,
+          "end": 153.64,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 153.64,
+          "end": 153.78,
+          "probability": 0.959
+        },
+        {
+          "word": " have",
+          "start": 153.78,
+          "end": 153.88,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 153.88,
+          "end": 154.02,
+          "probability": 0.965
+        },
+        {
+          "word": " data",
+          "start": 154.02,
+          "end": 154.2,
+          "probability": 0.996
+        },
+        {
+          "word": " to",
+          "start": 154.2,
+          "end": 154.32,
+          "probability": 0.999
+        },
+        {
+          "word": " prove",
+          "start": 154.32,
+          "end": 154.52,
+          "probability": 0.978
+        },
+        {
+          "word": " your",
+          "start": 154.52,
+          "end": 154.72,
+          "probability": 0.955
+        },
+        {
+          "word": " suffering",
+          "start": 154.72,
+          "end": 155.04,
+          "probability": 0.827
+        },
+        {
+          "word": " is",
+          "start": 155.04,
+          "end": 155.24,
+          "probability": 0.935
+        },
+        {
+          "word": " statistically",
+          "start": 155.24,
+          "end": 155.56,
+          "probability": 0.965
+        },
+        {
+          "word": " significant.",
+          "start": 155.56,
+          "end": 156.28,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 156.54,
+      "end": 158.48,
+      "text": "You sprint hide or pours to Craywell getting the morning.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " You",
+          "start": 156.54,
+          "end": 156.62,
+          "probability": 0.98
+        },
+        {
+          "word": " sprint",
+          "start": 156.62,
+          "end": 156.9,
+          "probability": 0.644
+        },
+        {
+          "word": " hide",
+          "start": 156.9,
+          "end": 157.12,
+          "probability": 0.566
+        },
+        {
+          "word": " or",
+          "start": 157.12,
+          "end": 157.24,
+          "probability": 0.212
+        },
+        {
+          "word": " pours",
+          "start": 157.24,
+          "end": 157.5,
+          "probability": 0.436
+        },
+        {
+          "word": " to",
+          "start": 157.5,
+          "end": 157.62,
+          "probability": 0.967
+        },
+        {
+          "word": " Craywell",
+          "start": 157.62,
+          "end": 157.9,
+          "probability": 0.29
+        },
+        {
+          "word": " getting",
+          "start": 157.9,
+          "end": 158.12,
+          "probability": 0.93
+        },
+        {
+          "word": " the",
+          "start": 158.12,
+          "end": 158.26,
+          "probability": 0.474
+        },
+        {
+          "word": " morning.",
+          "start": 158.26,
+          "end": 158.48,
+          "probability": 0.21
+        }
+      ]
+    },
+    {
+      "start": 158.88,
+      "end": 160.76,
+      "text": "All I have to end the one you treased have to do manifest.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " All",
+          "start": 158.88,
+          "end": 159.02,
+          "probability": 0.916
+        },
+        {
+          "word": " I",
+          "start": 159.02,
+          "end": 159.14,
+          "probability": 0.204
+        },
+        {
+          "word": " have",
+          "start": 159.14,
+          "end": 159.22,
+          "probability": 0.299
+        },
+        {
+          "word": " to",
+          "start": 159.22,
+          "end": 159.32,
+          "probability": 0.954
+        },
+        {
+          "word": " end",
+          "start": 159.32,
+          "end": 159.44,
+          "probability": 0.391
+        },
+        {
+          "word": " the",
+          "start": 159.44,
+          "end": 159.52,
+          "probability": 0.297
+        },
+        {
+          "word": " one",
+          "start": 159.52,
+          "end": 159.58,
+          "probability": 0.59
+        },
+        {
+          "word": " you",
+          "start": 159.58,
+          "end": 159.7,
+          "probability": 0.857
+        },
+        {
+          "word": " treased",
+          "start": 159.7,
+          "end": 159.98,
+          "probability": 0.396
+        },
+        {
+          "word": " have",
+          "start": 159.98,
+          "end": 160.12,
+          "probability": 0.539
+        },
+        {
+          "word": " to",
+          "start": 160.12,
+          "end": 160.3,
+          "probability": 0.972
+        },
+        {
+          "word": " do",
+          "start": 160.3,
+          "end": 160.42,
+          "probability": 0.917
+        },
+        {
+          "word": " manifest.",
+          "start": 160.42,
+          "end": 160.76,
+          "probability": 0.399
+        }
+      ]
+    },
+    {
+      "start": 161.2,
+      "end": 163.32,
+      "text": "You pay the desert server farm to hold your memories.",
+      "avgLogprob": -0.418,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.738,
+      "words": [
+        {
+          "word": " You",
+          "start": 161.2,
+          "end": 161.3,
+          "probability": 0.975
+        },
+        {
+          "word": " pay",
+          "start": 161.3,
+          "end": 161.44,
+          "probability": 0.992
+        },
+        {
+          "word": " the",
+          "start": 161.44,
+          "end": 161.58,
+          "probability": 0.989
+        },
+        {
+          "word": " desert",
+          "start": 161.58,
+          "end": 161.82,
+          "probability": 0.775
+        },
+        {
+          "word": " server",
+          "start": 161.82,
+          "end": 162.16,
+          "probability": 0.954
+        },
+        {
+          "word": " farm",
+          "start": 162.16,
+          "end": 162.5,
+          "probability": 0.57
+        },
+        {
+          "word": " to",
+          "start": 162.5,
+          "end": 162.64,
+          "probability": 0.994
+        },
+        {
+          "word": " hold",
+          "start": 162.64,
+          "end": 162.8,
+          "probability": 0.997
+        },
+        {
+          "word": " your",
+          "start": 162.8,
+          "end": 162.96,
+          "probability": 0.992
+        },
+        {
+          "word": " memories.",
+          "start": 162.96,
+          "end": 163.32,
+          "probability": 0.905
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.947,
+    "wordCount": 205,
+    "credibleWordCount": 193,
+    "segmentCount": 19,
+    "averageWordProbability": 0.89,
+    "vocalSeconds": 48.22,
+    "scanCoverage": 0.359,
+    "reviewRequired": false
+  }
+}

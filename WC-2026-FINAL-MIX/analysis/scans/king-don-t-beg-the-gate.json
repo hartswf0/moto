@@ -1,0 +1,1426 @@
+{
+  "analysisVersion": 1,
+  "index": 29,
+  "id": "../VOLHOLLA/song-unpatchedglitch-17.html",
+  "slug": "king-don-t-beg-the-gate",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Boy, get bass, bow down, bow down, old gay, new ass Yeah, crown top, more war boosts on a marble Soft hand probably's got loud and gullible Used to the heavy elephant A.I. What a clip got fed to the fee, well, why don't- Who's the worst, what a soft boy's preach If you scream destroy it but you're fading rise through it Fuck is you, if you wait to troll But the platform blew it Fuck is you, if you struggle God's fathers and my God dead, fuck is you If you call me fake cause I learned the threat, fuck is you What old says old key, old door You want the poor kid, no more quiet pure Hurry us out, but more leisure Nah, King got kids, King got bills King got deadlines, King got skills Can only permission from a stage, ma'am Fuckin' you! It's a poor get leverage and you call that pride. Fuckin' you! Can't no beg to gain. Can't kick that shit. Can't no craze a lot. Can't pick that shit. Still from the mud. Still built from the scar. Still made it thrown.",
+  "sampledRanges": [
+    [
+      20.29,
+      38.29
+    ],
+    [
+      81.15,
+      99.15
+    ],
+    [
+      142.0,
+      160.0
+    ],
+    [
+      202.86,
+      220.86
+    ]
+  ],
+  "segments": [
+    {
+      "start": 20.29,
+      "end": 24.53,
+      "text": "Boy, get bass, bow down, bow down, old gay, new ass",
+      "avgLogprob": -0.771,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.666,
+      "words": [
+        {
+          "word": " Boy,",
+          "start": 20.29,
+          "end": 20.63,
+          "probability": 0.025
+        },
+        {
+          "word": " get",
+          "start": 20.85,
+          "end": 20.91,
+          "probability": 0.835
+        },
+        {
+          "word": " bass,",
+          "start": 20.91,
+          "end": 21.25,
+          "probability": 0.39
+        },
+        {
+          "word": " bow",
+          "start": 21.59,
+          "end": 21.73,
+          "probability": 0.556
+        },
+        {
+          "word": " down,",
+          "start": 21.73,
+          "end": 21.97,
+          "probability": 0.961
+        },
+        {
+          "word": " bow",
+          "start": 22.23,
+          "end": 22.47,
+          "probability": 0.993
+        },
+        {
+          "word": " down,",
+          "start": 22.47,
+          "end": 22.87,
+          "probability": 0.996
+        },
+        {
+          "word": " old",
+          "start": 23.15,
+          "end": 23.37,
+          "probability": 0.641
+        },
+        {
+          "word": " gay,",
+          "start": 23.37,
+          "end": 23.65,
+          "probability": 0.447
+        },
+        {
+          "word": " new",
+          "start": 23.83,
+          "end": 24.03,
+          "probability": 0.785
+        },
+        {
+          "word": " ass",
+          "start": 24.03,
+          "end": 24.53,
+          "probability": 0.527
+        }
+      ]
+    },
+    {
+      "start": 24.53,
+      "end": 28.41,
+      "text": "Yeah, crown top, more war boosts on a marble",
+      "avgLogprob": -0.771,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.666,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 24.53,
+          "end": 25.25,
+          "probability": 0.235
+        },
+        {
+          "word": " crown",
+          "start": 25.83,
+          "end": 26.03,
+          "probability": 0.649
+        },
+        {
+          "word": " top,",
+          "start": 26.03,
+          "end": 26.41,
+          "probability": 0.779
+        },
+        {
+          "word": " more",
+          "start": 26.65,
+          "end": 26.75,
+          "probability": 0.527
+        },
+        {
+          "word": " war",
+          "start": 26.75,
+          "end": 27.19,
+          "probability": 0.11
+        },
+        {
+          "word": " boosts",
+          "start": 27.19,
+          "end": 27.83,
+          "probability": 0.532
+        },
+        {
+          "word": " on",
+          "start": 27.83,
+          "end": 27.93,
+          "probability": 0.948
+        },
+        {
+          "word": " a",
+          "start": 27.93,
+          "end": 28.03,
+          "probability": 0.588
+        },
+        {
+          "word": " marble",
+          "start": 28.03,
+          "end": 28.41,
+          "probability": 0.75
+        }
+      ]
+    },
+    {
+      "start": 28.41,
+      "end": 31.83,
+      "text": "Soft hand probably's got loud and gullible",
+      "avgLogprob": -0.771,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.666,
+      "words": [
+        {
+          "word": " Soft",
+          "start": 28.41,
+          "end": 29.33,
+          "probability": 0.276
+        },
+        {
+          "word": " hand",
+          "start": 29.33,
+          "end": 29.51,
+          "probability": 0.41
+        },
+        {
+          "word": " probably's",
+          "start": 29.51,
+          "end": 30.05,
+          "probability": 0.136
+        },
+        {
+          "word": " got",
+          "start": 30.05,
+          "end": 30.25,
+          "probability": 0.947
+        },
+        {
+          "word": " loud",
+          "start": 30.25,
+          "end": 30.67,
+          "probability": 0.8
+        },
+        {
+          "word": " and",
+          "start": 30.67,
+          "end": 31.03,
+          "probability": 0.516
+        },
+        {
+          "word": " gullible",
+          "start": 31.03,
+          "end": 31.83,
+          "probability": 0.497
+        }
+      ]
+    },
+    {
+      "start": 31.83,
+      "end": 34.55,
+      "text": "Used to the heavy elephant A.I.",
+      "avgLogprob": -0.771,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.666,
+      "words": [
+        {
+          "word": " Used",
+          "start": 31.83,
+          "end": 32.25,
+          "probability": 0.53
+        },
+        {
+          "word": " to",
+          "start": 32.25,
+          "end": 32.51,
+          "probability": 0.931
+        },
+        {
+          "word": " the",
+          "start": 32.51,
+          "end": 32.63,
+          "probability": 0.487
+        },
+        {
+          "word": " heavy",
+          "start": 32.63,
+          "end": 32.95,
+          "probability": 0.141
+        },
+        {
+          "word": " elephant",
+          "start": 32.95,
+          "end": 33.55,
+          "probability": 0.211
+        },
+        {
+          "word": " A",
+          "start": 33.55,
+          "end": 34.13,
+          "probability": 0.231
+        },
+        {
+          "word": ".I.",
+          "start": 34.13,
+          "end": 34.55,
+          "probability": 0.843
+        }
+      ]
+    },
+    {
+      "start": 34.95,
+      "end": 38.27,
+      "text": "What a clip got fed to the fee, well, why don't-",
+      "avgLogprob": -0.771,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.666,
+      "words": [
+        {
+          "word": " What",
+          "start": 34.95,
+          "end": 35.17,
+          "probability": 0.205
+        },
+        {
+          "word": " a",
+          "start": 35.17,
+          "end": 35.33,
+          "probability": 0.964
+        },
+        {
+          "word": " clip",
+          "start": 35.33,
+          "end": 35.59,
+          "probability": 0.9
+        },
+        {
+          "word": " got",
+          "start": 35.59,
+          "end": 36.01,
+          "probability": 0.92
+        },
+        {
+          "word": " fed",
+          "start": 36.01,
+          "end": 36.37,
+          "probability": 0.78
+        },
+        {
+          "word": " to",
+          "start": 36.37,
+          "end": 36.71,
+          "probability": 0.947
+        },
+        {
+          "word": " the",
+          "start": 36.71,
+          "end": 36.87,
+          "probability": 0.938
+        },
+        {
+          "word": " fee,",
+          "start": 36.87,
+          "end": 37.17,
+          "probability": 0.448
+        },
+        {
+          "word": " well,",
+          "start": 37.41,
+          "end": 37.55,
+          "probability": 0.632
+        },
+        {
+          "word": " why",
+          "start": 37.81,
+          "end": 37.99,
+          "probability": 0.944
+        },
+        {
+          "word": " don't",
+          "start": 37.99,
+          "end": 38.27,
+          "probability": 0.846
+        },
+        {
+          "word": "-",
+          "start": 38.27,
+          "end": 38.27,
+          "probability": 0.29
+        }
+      ]
+    },
+    {
+      "start": 81.73,
+      "end": 87.33,
+      "text": "Who's the worst, what a soft boy's preach If you scream destroy it but you're fading rise through it",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.635,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Who's",
+          "start": 81.73,
+          "end": 82.17,
+          "probability": 0.708
+        },
+        {
+          "word": " the",
+          "start": 82.17,
+          "end": 82.27,
+          "probability": 0.943
+        },
+        {
+          "word": " worst,",
+          "start": 82.27,
+          "end": 82.59,
+          "probability": 0.831
+        },
+        {
+          "word": " what",
+          "start": 82.77,
+          "end": 82.87,
+          "probability": 0.687
+        },
+        {
+          "word": " a",
+          "start": 82.87,
+          "end": 83.01,
+          "probability": 0.923
+        },
+        {
+          "word": " soft",
+          "start": 83.01,
+          "end": 83.27,
+          "probability": 0.809
+        },
+        {
+          "word": " boy's",
+          "start": 83.27,
+          "end": 83.91,
+          "probability": 0.601
+        },
+        {
+          "word": " preach",
+          "start": 83.91,
+          "end": 84.09,
+          "probability": 0.907
+        },
+        {
+          "word": " If",
+          "start": 84.09,
+          "end": 84.81,
+          "probability": 0.345
+        },
+        {
+          "word": " you",
+          "start": 84.81,
+          "end": 84.93,
+          "probability": 0.982
+        },
+        {
+          "word": " scream",
+          "start": 84.93,
+          "end": 85.15,
+          "probability": 0.836
+        },
+        {
+          "word": " destroy",
+          "start": 85.15,
+          "end": 85.53,
+          "probability": 0.745
+        },
+        {
+          "word": " it",
+          "start": 85.53,
+          "end": 85.83,
+          "probability": 0.981
+        },
+        {
+          "word": " but",
+          "start": 85.83,
+          "end": 85.89,
+          "probability": 0.444
+        },
+        {
+          "word": " you're",
+          "start": 85.89,
+          "end": 86.17,
+          "probability": 0.724
+        },
+        {
+          "word": " fading",
+          "start": 86.17,
+          "end": 86.47,
+          "probability": 0.425
+        },
+        {
+          "word": " rise",
+          "start": 86.47,
+          "end": 86.79,
+          "probability": 0.36
+        },
+        {
+          "word": " through",
+          "start": 86.79,
+          "end": 87.13,
+          "probability": 0.722
+        },
+        {
+          "word": " it",
+          "start": 87.13,
+          "end": 87.33,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 87.33,
+      "end": 91.17,
+      "text": "Fuck is you, if you wait to troll But the platform blew it",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.635,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Fuck",
+          "start": 87.33,
+          "end": 87.89,
+          "probability": 0.497
+        },
+        {
+          "word": " is",
+          "start": 87.89,
+          "end": 88.09,
+          "probability": 0.806
+        },
+        {
+          "word": " you,",
+          "start": 88.09,
+          "end": 88.27,
+          "probability": 0.943
+        },
+        {
+          "word": " if",
+          "start": 88.49,
+          "end": 88.69,
+          "probability": 0.944
+        },
+        {
+          "word": " you",
+          "start": 88.69,
+          "end": 88.85,
+          "probability": 0.997
+        },
+        {
+          "word": " wait",
+          "start": 88.85,
+          "end": 89.01,
+          "probability": 0.746
+        },
+        {
+          "word": " to",
+          "start": 89.01,
+          "end": 89.15,
+          "probability": 0.792
+        },
+        {
+          "word": " troll",
+          "start": 89.15,
+          "end": 89.49,
+          "probability": 0.127
+        },
+        {
+          "word": " But",
+          "start": 89.49,
+          "end": 89.75,
+          "probability": 0.332
+        },
+        {
+          "word": " the",
+          "start": 89.75,
+          "end": 89.91,
+          "probability": 0.945
+        },
+        {
+          "word": " platform",
+          "start": 89.91,
+          "end": 90.43,
+          "probability": 0.955
+        },
+        {
+          "word": " blew",
+          "start": 90.43,
+          "end": 90.95,
+          "probability": 0.412
+        },
+        {
+          "word": " it",
+          "start": 90.95,
+          "end": 91.17,
+          "probability": 0.888
+        }
+      ]
+    },
+    {
+      "start": 91.17,
+      "end": 95.59,
+      "text": "Fuck is you, if you struggle God's fathers and my God dead, fuck is you",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.635,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Fuck",
+          "start": 91.17,
+          "end": 91.71,
+          "probability": 0.834
+        },
+        {
+          "word": " is",
+          "start": 91.71,
+          "end": 91.93,
+          "probability": 0.99
+        },
+        {
+          "word": " you,",
+          "start": 91.93,
+          "end": 92.13,
+          "probability": 0.992
+        },
+        {
+          "word": " if",
+          "start": 92.37,
+          "end": 92.49,
+          "probability": 0.969
+        },
+        {
+          "word": " you",
+          "start": 92.49,
+          "end": 92.61,
+          "probability": 0.68
+        },
+        {
+          "word": " struggle",
+          "start": 92.61,
+          "end": 92.91,
+          "probability": 0.977
+        },
+        {
+          "word": " God's",
+          "start": 92.91,
+          "end": 93.77,
+          "probability": 0.51
+        },
+        {
+          "word": " fathers",
+          "start": 93.77,
+          "end": 93.77,
+          "probability": 0.393
+        },
+        {
+          "word": " and",
+          "start": 93.77,
+          "end": 94.09,
+          "probability": 0.316
+        },
+        {
+          "word": " my",
+          "start": 94.09,
+          "end": 94.37,
+          "probability": 0.846
+        },
+        {
+          "word": " God",
+          "start": 94.37,
+          "end": 94.53,
+          "probability": 0.622
+        },
+        {
+          "word": " dead,",
+          "start": 94.53,
+          "end": 94.85,
+          "probability": 0.159
+        },
+        {
+          "word": " fuck",
+          "start": 94.95,
+          "end": 95.15,
+          "probability": 0.936
+        },
+        {
+          "word": " is",
+          "start": 95.15,
+          "end": 95.35,
+          "probability": 0.986
+        },
+        {
+          "word": " you",
+          "start": 95.35,
+          "end": 95.59,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 95.59,
+      "end": 98.69,
+      "text": "If you call me fake cause I learned the threat, fuck is you",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.635,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " If",
+          "start": 95.59,
+          "end": 95.95,
+          "probability": 0.872
+        },
+        {
+          "word": " you",
+          "start": 95.95,
+          "end": 96.07,
+          "probability": 0.994
+        },
+        {
+          "word": " call",
+          "start": 96.07,
+          "end": 96.31,
+          "probability": 0.946
+        },
+        {
+          "word": " me",
+          "start": 96.31,
+          "end": 96.47,
+          "probability": 0.998
+        },
+        {
+          "word": " fake",
+          "start": 96.47,
+          "end": 96.75,
+          "probability": 0.832
+        },
+        {
+          "word": " cause",
+          "start": 96.75,
+          "end": 97.07,
+          "probability": 0.273
+        },
+        {
+          "word": " I",
+          "start": 97.07,
+          "end": 97.25,
+          "probability": 0.946
+        },
+        {
+          "word": " learned",
+          "start": 97.25,
+          "end": 97.45,
+          "probability": 0.454
+        },
+        {
+          "word": " the",
+          "start": 97.45,
+          "end": 97.63,
+          "probability": 0.369
+        },
+        {
+          "word": " threat,",
+          "start": 97.63,
+          "end": 97.89,
+          "probability": 0.765
+        },
+        {
+          "word": " fuck",
+          "start": 98.09,
+          "end": 98.25,
+          "probability": 0.967
+        },
+        {
+          "word": " is",
+          "start": 98.25,
+          "end": 98.43,
+          "probability": 0.976
+        },
+        {
+          "word": " you",
+          "start": 98.43,
+          "end": 98.69,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 142.0,
+      "end": 147.34,
+      "text": "What old says old key, old door You want the poor kid, no more quiet pure",
+      "avgLogprob": -0.585,
+      "compressionRatio": 1.483,
+      "noSpeechProbability": 0.63,
+      "words": [
+        {
+          "word": " What",
+          "start": 142.0,
+          "end": 142.12,
+          "probability": 0.071
+        },
+        {
+          "word": " old",
+          "start": 142.12,
+          "end": 142.44,
+          "probability": 0.112
+        },
+        {
+          "word": " says",
+          "start": 142.44,
+          "end": 142.92,
+          "probability": 0.621
+        },
+        {
+          "word": " old",
+          "start": 142.92,
+          "end": 143.38,
+          "probability": 0.705
+        },
+        {
+          "word": " key,",
+          "start": 143.38,
+          "end": 143.74,
+          "probability": 0.448
+        },
+        {
+          "word": " old",
+          "start": 144.02,
+          "end": 144.16,
+          "probability": 0.836
+        },
+        {
+          "word": " door",
+          "start": 144.16,
+          "end": 144.52,
+          "probability": 0.992
+        },
+        {
+          "word": " You",
+          "start": 144.52,
+          "end": 144.96,
+          "probability": 0.548
+        },
+        {
+          "word": " want",
+          "start": 144.96,
+          "end": 145.16,
+          "probability": 0.906
+        },
+        {
+          "word": " the",
+          "start": 145.16,
+          "end": 145.3,
+          "probability": 0.974
+        },
+        {
+          "word": " poor",
+          "start": 145.3,
+          "end": 145.6,
+          "probability": 0.993
+        },
+        {
+          "word": " kid,",
+          "start": 145.6,
+          "end": 145.98,
+          "probability": 0.955
+        },
+        {
+          "word": " no",
+          "start": 146.2,
+          "end": 146.32,
+          "probability": 0.488
+        },
+        {
+          "word": " more",
+          "start": 146.32,
+          "end": 146.44,
+          "probability": 0.39
+        },
+        {
+          "word": " quiet",
+          "start": 146.44,
+          "end": 146.8,
+          "probability": 0.424
+        },
+        {
+          "word": " pure",
+          "start": 146.8,
+          "end": 147.34,
+          "probability": 0.804
+        }
+      ]
+    },
+    {
+      "start": 147.34,
+      "end": 154.22,
+      "text": "Hurry us out, but more leisure Nah, King got kids, King got bills",
+      "avgLogprob": -0.585,
+      "compressionRatio": 1.483,
+      "noSpeechProbability": 0.63,
+      "words": [
+        {
+          "word": " Hurry",
+          "start": 147.34,
+          "end": 148.0,
+          "probability": 0.13
+        },
+        {
+          "word": " us",
+          "start": 148.0,
+          "end": 148.52,
+          "probability": 0.088
+        },
+        {
+          "word": " out,",
+          "start": 148.52,
+          "end": 148.76,
+          "probability": 0.957
+        },
+        {
+          "word": " but",
+          "start": 148.96,
+          "end": 149.06,
+          "probability": 0.885
+        },
+        {
+          "word": " more",
+          "start": 149.06,
+          "end": 149.5,
+          "probability": 0.923
+        },
+        {
+          "word": " leisure",
+          "start": 149.5,
+          "end": 150.08,
+          "probability": 0.415
+        },
+        {
+          "word": " Nah,",
+          "start": 150.08,
+          "end": 151.46,
+          "probability": 0.406
+        },
+        {
+          "word": " King",
+          "start": 152.04,
+          "end": 152.2,
+          "probability": 0.813
+        },
+        {
+          "word": " got",
+          "start": 152.2,
+          "end": 152.56,
+          "probability": 0.524
+        },
+        {
+          "word": " kids,",
+          "start": 152.56,
+          "end": 152.92,
+          "probability": 0.984
+        },
+        {
+          "word": " King",
+          "start": 153.12,
+          "end": 153.34,
+          "probability": 0.974
+        },
+        {
+          "word": " got",
+          "start": 153.34,
+          "end": 153.74,
+          "probability": 0.996
+        },
+        {
+          "word": " bills",
+          "start": 153.74,
+          "end": 154.22,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 154.22,
+      "end": 159.98,
+      "text": "King got deadlines, King got skills Can only permission from a stage, ma'am",
+      "avgLogprob": -0.585,
+      "compressionRatio": 1.483,
+      "noSpeechProbability": 0.63,
+      "words": [
+        {
+          "word": " King",
+          "start": 154.22,
+          "end": 154.82,
+          "probability": 0.946
+        },
+        {
+          "word": " got",
+          "start": 154.82,
+          "end": 155.26,
+          "probability": 0.992
+        },
+        {
+          "word": " deadlines,",
+          "start": 155.26,
+          "end": 155.84,
+          "probability": 0.937
+        },
+        {
+          "word": " King",
+          "start": 156.2,
+          "end": 156.4,
+          "probability": 0.991
+        },
+        {
+          "word": " got",
+          "start": 156.4,
+          "end": 156.76,
+          "probability": 0.997
+        },
+        {
+          "word": " skills",
+          "start": 156.76,
+          "end": 157.3,
+          "probability": 0.981
+        },
+        {
+          "word": " Can",
+          "start": 157.3,
+          "end": 157.82,
+          "probability": 0.754
+        },
+        {
+          "word": " only",
+          "start": 157.82,
+          "end": 158.04,
+          "probability": 0.994
+        },
+        {
+          "word": " permission",
+          "start": 158.04,
+          "end": 158.68,
+          "probability": 0.926
+        },
+        {
+          "word": " from",
+          "start": 158.68,
+          "end": 159.0,
+          "probability": 0.877
+        },
+        {
+          "word": " a",
+          "start": 159.0,
+          "end": 159.14,
+          "probability": 0.956
+        },
+        {
+          "word": " stage,",
+          "start": 159.14,
+          "end": 159.52,
+          "probability": 0.943
+        },
+        {
+          "word": " ma",
+          "start": 159.7,
+          "end": 159.8,
+          "probability": 0.382
+        },
+        {
+          "word": "'am",
+          "start": 159.8,
+          "end": 159.98,
+          "probability": 0.77
+        }
+      ]
+    },
+    {
+      "start": 203.94,
+      "end": 204.8,
+      "text": "Fuckin' you!",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Fuckin'",
+          "start": 203.94,
+          "end": 204.54,
+          "probability": 0.23
+        },
+        {
+          "word": " you!",
+          "start": 204.68,
+          "end": 204.8,
+          "probability": 0.419
+        }
+      ]
+    },
+    {
+      "start": 205.56,
+      "end": 207.92,
+      "text": "It's a poor get leverage and you call that pride.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " It's",
+          "start": 205.56,
+          "end": 206.16,
+          "probability": 0.786
+        },
+        {
+          "word": " a",
+          "start": 206.16,
+          "end": 206.22,
+          "probability": 0.737
+        },
+        {
+          "word": " poor",
+          "start": 206.22,
+          "end": 206.42,
+          "probability": 0.07
+        },
+        {
+          "word": " get",
+          "start": 206.42,
+          "end": 206.6,
+          "probability": 0.477
+        },
+        {
+          "word": " leverage",
+          "start": 206.6,
+          "end": 206.88,
+          "probability": 0.669
+        },
+        {
+          "word": " and",
+          "start": 206.88,
+          "end": 207.06,
+          "probability": 0.775
+        },
+        {
+          "word": " you",
+          "start": 207.06,
+          "end": 207.18,
+          "probability": 0.991
+        },
+        {
+          "word": " call",
+          "start": 207.18,
+          "end": 207.36,
+          "probability": 0.854
+        },
+        {
+          "word": " that",
+          "start": 207.36,
+          "end": 207.54,
+          "probability": 0.977
+        },
+        {
+          "word": " pride.",
+          "start": 207.54,
+          "end": 207.92,
+          "probability": 0.9
+        }
+      ]
+    },
+    {
+      "start": 208.58,
+      "end": 209.36,
+      "text": "Fuckin' you!",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Fuckin'",
+          "start": 208.58,
+          "end": 209.18,
+          "probability": 0.888
+        },
+        {
+          "word": " you!",
+          "start": 209.24,
+          "end": 209.36,
+          "probability": 0.896
+        }
+      ]
+    },
+    {
+      "start": 209.72,
+      "end": 210.64,
+      "text": "Can't no beg to gain.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 209.72,
+          "end": 209.96,
+          "probability": 0.402
+        },
+        {
+          "word": " no",
+          "start": 209.96,
+          "end": 209.96,
+          "probability": 0.222
+        },
+        {
+          "word": " beg",
+          "start": 209.96,
+          "end": 210.18,
+          "probability": 0.771
+        },
+        {
+          "word": " to",
+          "start": 210.18,
+          "end": 210.3,
+          "probability": 0.751
+        },
+        {
+          "word": " gain.",
+          "start": 210.3,
+          "end": 210.64,
+          "probability": 0.584
+        }
+      ]
+    },
+    {
+      "start": 211.18,
+      "end": 212.5,
+      "text": "Can't kick that shit.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 211.18,
+          "end": 211.54,
+          "probability": 0.864
+        },
+        {
+          "word": " kick",
+          "start": 211.54,
+          "end": 211.72,
+          "probability": 0.863
+        },
+        {
+          "word": " that",
+          "start": 211.72,
+          "end": 212.14,
+          "probability": 0.965
+        },
+        {
+          "word": " shit.",
+          "start": 212.14,
+          "end": 212.5,
+          "probability": 0.858
+        }
+      ]
+    },
+    {
+      "start": 212.76,
+      "end": 213.72,
+      "text": "Can't no craze a lot.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 212.76,
+          "end": 213.02,
+          "probability": 0.727
+        },
+        {
+          "word": " no",
+          "start": 213.02,
+          "end": 213.02,
+          "probability": 0.851
+        },
+        {
+          "word": " craze",
+          "start": 213.02,
+          "end": 213.36,
+          "probability": 0.583
+        },
+        {
+          "word": " a",
+          "start": 213.36,
+          "end": 213.42,
+          "probability": 0.773
+        },
+        {
+          "word": " lot.",
+          "start": 213.42,
+          "end": 213.72,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 214.24,
+      "end": 215.56,
+      "text": "Can't pick that shit.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Can't",
+          "start": 214.24,
+          "end": 214.64,
+          "probability": 0.989
+        },
+        {
+          "word": " pick",
+          "start": 214.64,
+          "end": 214.78,
+          "probability": 0.924
+        },
+        {
+          "word": " that",
+          "start": 214.78,
+          "end": 215.22,
+          "probability": 0.982
+        },
+        {
+          "word": " shit.",
+          "start": 215.22,
+          "end": 215.56,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 215.86,
+      "end": 216.78,
+      "text": "Still from the mud.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Still",
+          "start": 215.86,
+          "end": 215.98,
+          "probability": 0.926
+        },
+        {
+          "word": " from",
+          "start": 215.98,
+          "end": 216.32,
+          "probability": 0.522
+        },
+        {
+          "word": " the",
+          "start": 216.32,
+          "end": 216.46,
+          "probability": 0.873
+        },
+        {
+          "word": " mud.",
+          "start": 216.46,
+          "end": 216.78,
+          "probability": 0.372
+        }
+      ]
+    },
+    {
+      "start": 217.28,
+      "end": 218.64,
+      "text": "Still built from the scar.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Still",
+          "start": 217.28,
+          "end": 217.52,
+          "probability": 0.987
+        },
+        {
+          "word": " built",
+          "start": 217.52,
+          "end": 217.9,
+          "probability": 0.6
+        },
+        {
+          "word": " from",
+          "start": 217.9,
+          "end": 218.22,
+          "probability": 0.774
+        },
+        {
+          "word": " the",
+          "start": 218.22,
+          "end": 218.36,
+          "probability": 0.812
+        },
+        {
+          "word": " scar.",
+          "start": 218.36,
+          "end": 218.64,
+          "probability": 0.716
+        }
+      ]
+    },
+    {
+      "start": 218.94,
+      "end": 219.9,
+      "text": "Still made it thrown.",
+      "avgLogprob": -0.409,
+      "compressionRatio": 1.634,
+      "noSpeechProbability": 0.667,
+      "words": [
+        {
+          "word": " Still",
+          "start": 218.94,
+          "end": 219.06,
+          "probability": 0.983
+        },
+        {
+          "word": " made",
+          "start": 219.06,
+          "end": 219.4,
+          "probability": 0.987
+        },
+        {
+          "word": " it",
+          "start": 219.4,
+          "end": 219.54,
+          "probability": 0.805
+        },
+        {
+          "word": " thrown.",
+          "start": 219.54,
+          "end": 219.9,
+          "probability": 0.456
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.863,
+    "wordCount": 193,
+    "credibleWordCount": 171,
+    "segmentCount": 22,
+    "averageWordProbability": 0.715,
+    "vocalSeconds": 64.28,
+    "scanCoverage": 0.265,
+    "reviewRequired": false
+  }
+}

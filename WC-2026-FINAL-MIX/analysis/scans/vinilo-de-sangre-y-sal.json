@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 65,
+  "id": "../VOLHOLLA/song-blackwater-22.html",
+  "slug": "vinilo-de-sangre-y-sal",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      11.13,
+      29.13
+    ],
+    [
+      44.52,
+      62.52
+    ],
+    [
+      77.9,
+      95.9
+    ],
+    [
+      111.29,
+      129.29
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.57,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.458,
+    "reviewRequired": true
+  }
+}

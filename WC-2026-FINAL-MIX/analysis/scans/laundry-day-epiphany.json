@@ -1,0 +1,1254 @@
+{
+  "analysisVersion": 1,
+  "index": 46,
+  "id": "../VOLHOLLA/song-nobrightstand-05.html",
+  "slug": "laundry-day-epiphany",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "goes to nurse for using Android. The notes app you type one sentence, I am done begging. You do not send it, you reread it like scripture. Your friend charges you 341 for fries. You like the transaction to prove you are normal. You say that lands for me, nothing. You cross your arms in front of a brick wall, the brick wall believes in you You record your new idea while walking fast Later it sounds like a raccoon trapped inside a grand proposal A green owl threatens your family because you forgot how to say apple You react with the show attention, you saw nothing that I'd remain at the scene of the crime Respect you publish some thoughts on attention free people clap one is your mother one is a book one is you Your name hangs from your neck like a prize tag for your opinions opinions. Your name hangs from your neck like a price tag for your opinions. Your name hangs from your neck like a price tag for your opinions.",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.36,
+      "end": 23.06,
+      "text": "goes to nurse for using Android.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " goes",
+          "start": 21.36,
+          "end": 21.54,
+          "probability": 0.029
+        },
+        {
+          "word": " to",
+          "start": 21.54,
+          "end": 21.74,
+          "probability": 0.979
+        },
+        {
+          "word": " nurse",
+          "start": 21.74,
+          "end": 22.02,
+          "probability": 0.679
+        },
+        {
+          "word": " for",
+          "start": 22.02,
+          "end": 22.22,
+          "probability": 0.684
+        },
+        {
+          "word": " using",
+          "start": 22.22,
+          "end": 22.52,
+          "probability": 0.969
+        },
+        {
+          "word": " Android.",
+          "start": 22.52,
+          "end": 23.06,
+          "probability": 0.357
+        }
+      ]
+    },
+    {
+      "start": 24.08,
+      "end": 26.84,
+      "text": "The notes app you type one sentence, I am done begging.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " The",
+          "start": 24.08,
+          "end": 24.16,
+          "probability": 0.652
+        },
+        {
+          "word": " notes",
+          "start": 24.16,
+          "end": 24.48,
+          "probability": 0.569
+        },
+        {
+          "word": " app",
+          "start": 24.48,
+          "end": 24.74,
+          "probability": 0.77
+        },
+        {
+          "word": " you",
+          "start": 24.74,
+          "end": 24.86,
+          "probability": 0.736
+        },
+        {
+          "word": " type",
+          "start": 24.86,
+          "end": 25.08,
+          "probability": 0.97
+        },
+        {
+          "word": " one",
+          "start": 25.08,
+          "end": 25.3,
+          "probability": 0.668
+        },
+        {
+          "word": " sentence,",
+          "start": 25.3,
+          "end": 25.74,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 26.06,
+          "end": 26.12,
+          "probability": 0.558
+        },
+        {
+          "word": " am",
+          "start": 26.12,
+          "end": 26.24,
+          "probability": 0.927
+        },
+        {
+          "word": " done",
+          "start": 26.24,
+          "end": 26.48,
+          "probability": 0.978
+        },
+        {
+          "word": " begging.",
+          "start": 26.48,
+          "end": 26.84,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 27.64,
+      "end": 30.2,
+      "text": "You do not send it, you reread it like scripture.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " You",
+          "start": 27.64,
+          "end": 27.88,
+          "probability": 0.965
+        },
+        {
+          "word": " do",
+          "start": 27.88,
+          "end": 28.02,
+          "probability": 0.992
+        },
+        {
+          "word": " not",
+          "start": 28.02,
+          "end": 28.2,
+          "probability": 0.998
+        },
+        {
+          "word": " send",
+          "start": 28.2,
+          "end": 28.46,
+          "probability": 0.998
+        },
+        {
+          "word": " it,",
+          "start": 28.46,
+          "end": 28.72,
+          "probability": 0.998
+        },
+        {
+          "word": " you",
+          "start": 28.84,
+          "end": 28.94,
+          "probability": 0.99
+        },
+        {
+          "word": " reread",
+          "start": 28.94,
+          "end": 29.4,
+          "probability": 0.967
+        },
+        {
+          "word": " it",
+          "start": 29.4,
+          "end": 29.58,
+          "probability": 0.998
+        },
+        {
+          "word": " like",
+          "start": 29.58,
+          "end": 29.76,
+          "probability": 0.949
+        },
+        {
+          "word": " scripture.",
+          "start": 29.76,
+          "end": 30.2,
+          "probability": 0.588
+        }
+      ]
+    },
+    {
+      "start": 31.48,
+      "end": 34.12,
+      "text": "Your friend charges you 341 for fries.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " Your",
+          "start": 31.48,
+          "end": 31.92,
+          "probability": 0.946
+        },
+        {
+          "word": " friend",
+          "start": 31.92,
+          "end": 32.16,
+          "probability": 0.96
+        },
+        {
+          "word": " charges",
+          "start": 32.16,
+          "end": 32.56,
+          "probability": 0.987
+        },
+        {
+          "word": " you",
+          "start": 32.56,
+          "end": 32.78,
+          "probability": 0.985
+        },
+        {
+          "word": " 341",
+          "start": 32.78,
+          "end": 33.56,
+          "probability": 0.722
+        },
+        {
+          "word": " for",
+          "start": 33.56,
+          "end": 33.76,
+          "probability": 0.982
+        },
+        {
+          "word": " fries.",
+          "start": 33.76,
+          "end": 34.12,
+          "probability": 0.897
+        }
+      ]
+    },
+    {
+      "start": 34.62,
+      "end": 36.66,
+      "text": "You like the transaction to prove you are normal.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " You",
+          "start": 34.62,
+          "end": 34.74,
+          "probability": 0.992
+        },
+        {
+          "word": " like",
+          "start": 34.74,
+          "end": 34.92,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 34.92,
+          "end": 35.06,
+          "probability": 0.994
+        },
+        {
+          "word": " transaction",
+          "start": 35.06,
+          "end": 35.6,
+          "probability": 0.951
+        },
+        {
+          "word": " to",
+          "start": 35.6,
+          "end": 35.8,
+          "probability": 0.995
+        },
+        {
+          "word": " prove",
+          "start": 35.8,
+          "end": 36.02,
+          "probability": 0.995
+        },
+        {
+          "word": " you",
+          "start": 36.02,
+          "end": 36.22,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 36.22,
+          "end": 36.32,
+          "probability": 0.978
+        },
+        {
+          "word": " normal.",
+          "start": 36.32,
+          "end": 36.66,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 37.5,
+      "end": 39.24,
+      "text": "You say that lands for me, nothing.",
+      "avgLogprob": -0.294,
+      "compressionRatio": 1.503,
+      "noSpeechProbability": 0.743,
+      "words": [
+        {
+          "word": " You",
+          "start": 37.5,
+          "end": 37.7,
+          "probability": 0.992
+        },
+        {
+          "word": " say",
+          "start": 37.7,
+          "end": 37.96,
+          "probability": 0.629
+        },
+        {
+          "word": " that",
+          "start": 37.96,
+          "end": 38.14,
+          "probability": 0.859
+        },
+        {
+          "word": " lands",
+          "start": 38.14,
+          "end": 38.44,
+          "probability": 0.699
+        },
+        {
+          "word": " for",
+          "start": 38.44,
+          "end": 38.62,
+          "probability": 0.985
+        },
+        {
+          "word": " me,",
+          "start": 38.62,
+          "end": 38.82,
+          "probability": 0.999
+        },
+        {
+          "word": " nothing.",
+          "start": 39.04,
+          "end": 39.24,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 85.43,
+      "end": 88.75,
+      "text": "You cross your arms in front of a brick wall, the brick wall believes in you",
+      "avgLogprob": -0.265,
+      "compressionRatio": 1.566,
+      "noSpeechProbability": 0.365,
+      "words": [
+        {
+          "word": " You",
+          "start": 85.43,
+          "end": 85.51,
+          "probability": 0.245
+        },
+        {
+          "word": " cross",
+          "start": 85.51,
+          "end": 85.69,
+          "probability": 0.486
+        },
+        {
+          "word": " your",
+          "start": 85.69,
+          "end": 85.91,
+          "probability": 0.989
+        },
+        {
+          "word": " arms",
+          "start": 85.91,
+          "end": 86.17,
+          "probability": 0.991
+        },
+        {
+          "word": " in",
+          "start": 86.17,
+          "end": 86.35,
+          "probability": 0.985
+        },
+        {
+          "word": " front",
+          "start": 86.35,
+          "end": 86.51,
+          "probability": 0.997
+        },
+        {
+          "word": " of",
+          "start": 86.51,
+          "end": 86.67,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 86.67,
+          "end": 86.81,
+          "probability": 0.958
+        },
+        {
+          "word": " brick",
+          "start": 86.81,
+          "end": 87.01,
+          "probability": 0.998
+        },
+        {
+          "word": " wall,",
+          "start": 87.01,
+          "end": 87.23,
+          "probability": 0.935
+        },
+        {
+          "word": " the",
+          "start": 87.23,
+          "end": 87.37,
+          "probability": 0.916
+        },
+        {
+          "word": " brick",
+          "start": 87.37,
+          "end": 87.57,
+          "probability": 1.0
+        },
+        {
+          "word": " wall",
+          "start": 87.57,
+          "end": 87.83,
+          "probability": 0.99
+        },
+        {
+          "word": " believes",
+          "start": 87.83,
+          "end": 88.17,
+          "probability": 0.244
+        },
+        {
+          "word": " in",
+          "start": 88.17,
+          "end": 88.39,
+          "probability": 0.995
+        },
+        {
+          "word": " you",
+          "start": 88.39,
+          "end": 88.75,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 89.27,
+      "end": 91.49,
+      "text": "You record your new idea while walking fast",
+      "avgLogprob": -0.265,
+      "compressionRatio": 1.566,
+      "noSpeechProbability": 0.365,
+      "words": [
+        {
+          "word": " You",
+          "start": 89.15,
+          "end": 89.37,
+          "probability": 0.441
+        },
+        {
+          "word": " record",
+          "start": 89.37,
+          "end": 89.63,
+          "probability": 0.995
+        },
+        {
+          "word": " your",
+          "start": 89.63,
+          "end": 89.83,
+          "probability": 0.995
+        },
+        {
+          "word": " new",
+          "start": 89.83,
+          "end": 89.99,
+          "probability": 0.995
+        },
+        {
+          "word": " idea",
+          "start": 89.99,
+          "end": 90.37,
+          "probability": 0.991
+        },
+        {
+          "word": " while",
+          "start": 90.37,
+          "end": 90.61,
+          "probability": 0.995
+        },
+        {
+          "word": " walking",
+          "start": 90.61,
+          "end": 90.93,
+          "probability": 0.99
+        },
+        {
+          "word": " fast",
+          "start": 90.93,
+          "end": 91.49,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 91.49,
+      "end": 94.73,
+      "text": "Later it sounds like a raccoon trapped inside a grand proposal",
+      "avgLogprob": -0.265,
+      "compressionRatio": 1.566,
+      "noSpeechProbability": 0.365,
+      "words": [
+        {
+          "word": " Later",
+          "start": 91.49,
+          "end": 91.99,
+          "probability": 0.624
+        },
+        {
+          "word": " it",
+          "start": 91.99,
+          "end": 92.27,
+          "probability": 0.836
+        },
+        {
+          "word": " sounds",
+          "start": 92.27,
+          "end": 92.43,
+          "probability": 0.991
+        },
+        {
+          "word": " like",
+          "start": 92.43,
+          "end": 92.65,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 92.65,
+          "end": 92.79,
+          "probability": 0.981
+        },
+        {
+          "word": " raccoon",
+          "start": 92.79,
+          "end": 93.15,
+          "probability": 0.96
+        },
+        {
+          "word": " trapped",
+          "start": 93.15,
+          "end": 93.35,
+          "probability": 0.789
+        },
+        {
+          "word": " inside",
+          "start": 93.35,
+          "end": 93.83,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 93.83,
+          "end": 94.01,
+          "probability": 0.969
+        },
+        {
+          "word": " grand",
+          "start": 94.01,
+          "end": 94.19,
+          "probability": 0.591
+        },
+        {
+          "word": " proposal",
+          "start": 94.19,
+          "end": 94.73,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 95.41,
+      "end": 99.03,
+      "text": "A green owl threatens your family because you forgot how to say apple",
+      "avgLogprob": -0.265,
+      "compressionRatio": 1.566,
+      "noSpeechProbability": 0.365,
+      "words": [
+        {
+          "word": " A",
+          "start": 95.41,
+          "end": 95.85,
+          "probability": 0.955
+        },
+        {
+          "word": " green",
+          "start": 95.85,
+          "end": 96.07,
+          "probability": 0.9
+        },
+        {
+          "word": " owl",
+          "start": 96.07,
+          "end": 96.33,
+          "probability": 0.445
+        },
+        {
+          "word": " threatens",
+          "start": 96.33,
+          "end": 96.69,
+          "probability": 0.27
+        },
+        {
+          "word": " your",
+          "start": 96.69,
+          "end": 96.91,
+          "probability": 0.986
+        },
+        {
+          "word": " family",
+          "start": 96.91,
+          "end": 97.29,
+          "probability": 0.998
+        },
+        {
+          "word": " because",
+          "start": 97.29,
+          "end": 97.59,
+          "probability": 0.638
+        },
+        {
+          "word": " you",
+          "start": 97.59,
+          "end": 97.79,
+          "probability": 0.985
+        },
+        {
+          "word": " forgot",
+          "start": 97.79,
+          "end": 97.99,
+          "probability": 0.98
+        },
+        {
+          "word": " how",
+          "start": 97.99,
+          "end": 98.35,
+          "probability": 0.996
+        },
+        {
+          "word": " to",
+          "start": 98.35,
+          "end": 98.49,
+          "probability": 0.999
+        },
+        {
+          "word": " say",
+          "start": 98.49,
+          "end": 98.69,
+          "probability": 0.995
+        },
+        {
+          "word": " apple",
+          "start": 98.69,
+          "end": 99.03,
+          "probability": 0.508
+        }
+      ]
+    },
+    {
+      "start": 99.03,
+      "end": 103.41,
+      "text": "You react with the show attention, you saw nothing that I'd remain at the scene of the crime",
+      "avgLogprob": -0.265,
+      "compressionRatio": 1.566,
+      "noSpeechProbability": 0.365,
+      "words": [
+        {
+          "word": " You",
+          "start": 99.03,
+          "end": 99.57,
+          "probability": 0.94
+        },
+        {
+          "word": " react",
+          "start": 99.57,
+          "end": 99.89,
+          "probability": 0.785
+        },
+        {
+          "word": " with",
+          "start": 99.89,
+          "end": 100.09,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 100.09,
+          "end": 100.23,
+          "probability": 0.953
+        },
+        {
+          "word": " show",
+          "start": 100.23,
+          "end": 100.41,
+          "probability": 0.937
+        },
+        {
+          "word": " attention,",
+          "start": 100.41,
+          "end": 100.93,
+          "probability": 0.889
+        },
+        {
+          "word": " you",
+          "start": 101.11,
+          "end": 101.21,
+          "probability": 0.981
+        },
+        {
+          "word": " saw",
+          "start": 101.21,
+          "end": 101.41,
+          "probability": 0.995
+        },
+        {
+          "word": " nothing",
+          "start": 101.41,
+          "end": 101.79,
+          "probability": 0.996
+        },
+        {
+          "word": " that",
+          "start": 101.79,
+          "end": 102.01,
+          "probability": 0.951
+        },
+        {
+          "word": " I'd",
+          "start": 102.01,
+          "end": 102.27,
+          "probability": 0.482
+        },
+        {
+          "word": " remain",
+          "start": 102.27,
+          "end": 102.49,
+          "probability": 0.97
+        },
+        {
+          "word": " at",
+          "start": 102.49,
+          "end": 102.73,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 102.73,
+          "end": 102.81,
+          "probability": 0.986
+        },
+        {
+          "word": " scene",
+          "start": 102.81,
+          "end": 102.99,
+          "probability": 0.989
+        },
+        {
+          "word": " of",
+          "start": 102.99,
+          "end": 103.15,
+          "probability": 0.972
+        },
+        {
+          "word": " the",
+          "start": 103.15,
+          "end": 103.21,
+          "probability": 0.972
+        },
+        {
+          "word": " crime",
+          "start": 103.21,
+          "end": 103.41,
+          "probability": 0.754
+        }
+      ]
+    },
+    {
+      "start": 149.5,
+      "end": 155.5,
+      "text": "Respect you publish some thoughts on attention free people clap one is your mother one is a book one is you",
+      "avgLogprob": -0.286,
+      "compressionRatio": 1.43,
+      "noSpeechProbability": 0.729,
+      "words": [
+        {
+          "word": " Respect",
+          "start": 149.5,
+          "end": 149.98,
+          "probability": 0.221
+        },
+        {
+          "word": " you",
+          "start": 149.98,
+          "end": 150.46,
+          "probability": 0.452
+        },
+        {
+          "word": " publish",
+          "start": 150.46,
+          "end": 150.78,
+          "probability": 0.719
+        },
+        {
+          "word": " some",
+          "start": 150.78,
+          "end": 151.06,
+          "probability": 0.989
+        },
+        {
+          "word": " thoughts",
+          "start": 151.06,
+          "end": 151.28,
+          "probability": 0.975
+        },
+        {
+          "word": " on",
+          "start": 151.28,
+          "end": 151.44,
+          "probability": 0.994
+        },
+        {
+          "word": " attention",
+          "start": 151.44,
+          "end": 151.9,
+          "probability": 0.961
+        },
+        {
+          "word": " free",
+          "start": 151.9,
+          "end": 152.44,
+          "probability": 0.296
+        },
+        {
+          "word": " people",
+          "start": 152.44,
+          "end": 152.78,
+          "probability": 0.954
+        },
+        {
+          "word": " clap",
+          "start": 152.78,
+          "end": 153.06,
+          "probability": 0.904
+        },
+        {
+          "word": " one",
+          "start": 153.06,
+          "end": 153.3,
+          "probability": 0.735
+        },
+        {
+          "word": " is",
+          "start": 153.3,
+          "end": 153.48,
+          "probability": 0.972
+        },
+        {
+          "word": " your",
+          "start": 153.48,
+          "end": 153.58,
+          "probability": 0.993
+        },
+        {
+          "word": " mother",
+          "start": 153.58,
+          "end": 153.88,
+          "probability": 0.978
+        },
+        {
+          "word": " one",
+          "start": 153.88,
+          "end": 154.4,
+          "probability": 0.632
+        },
+        {
+          "word": " is",
+          "start": 154.4,
+          "end": 154.56,
+          "probability": 0.947
+        },
+        {
+          "word": " a",
+          "start": 154.56,
+          "end": 154.68,
+          "probability": 0.89
+        },
+        {
+          "word": " book",
+          "start": 154.68,
+          "end": 154.82,
+          "probability": 0.676
+        },
+        {
+          "word": " one",
+          "start": 154.82,
+          "end": 155.08,
+          "probability": 0.853
+        },
+        {
+          "word": " is",
+          "start": 155.08,
+          "end": 155.26,
+          "probability": 0.967
+        },
+        {
+          "word": " you",
+          "start": 155.26,
+          "end": 155.5,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 155.5,
+      "end": 158.82,
+      "text": "Your name hangs from your neck like a prize tag for your opinions",
+      "avgLogprob": -0.286,
+      "compressionRatio": 1.43,
+      "noSpeechProbability": 0.729,
+      "words": [
+        {
+          "word": " Your",
+          "start": 155.5,
+          "end": 156.04,
+          "probability": 0.213
+        },
+        {
+          "word": " name",
+          "start": 156.04,
+          "end": 156.22,
+          "probability": 0.988
+        },
+        {
+          "word": " hangs",
+          "start": 156.22,
+          "end": 156.58,
+          "probability": 0.985
+        },
+        {
+          "word": " from",
+          "start": 156.58,
+          "end": 156.72,
+          "probability": 0.987
+        },
+        {
+          "word": " your",
+          "start": 156.72,
+          "end": 156.86,
+          "probability": 0.995
+        },
+        {
+          "word": " neck",
+          "start": 156.86,
+          "end": 157.06,
+          "probability": 0.973
+        },
+        {
+          "word": " like",
+          "start": 157.06,
+          "end": 157.24,
+          "probability": 0.976
+        },
+        {
+          "word": " a",
+          "start": 157.24,
+          "end": 157.38,
+          "probability": 0.998
+        },
+        {
+          "word": " prize",
+          "start": 157.38,
+          "end": 157.66,
+          "probability": 0.553
+        },
+        {
+          "word": " tag",
+          "start": 157.66,
+          "end": 157.9,
+          "probability": 0.846
+        },
+        {
+          "word": " for",
+          "start": 157.9,
+          "end": 158.04,
+          "probability": 0.959
+        },
+        {
+          "word": " your",
+          "start": 158.04,
+          "end": 158.18,
+          "probability": 0.996
+        },
+        {
+          "word": " opinions",
+          "start": 158.18,
+          "end": 158.82,
+          "probability": 0.957
+        }
+      ]
+    },
+    {
+      "start": 213.85,
+      "end": 217.93,
+      "text": "opinions. Your name hangs from your neck like a price tag for your opinions. Your name",
+      "avgLogprob": -0.347,
+      "compressionRatio": 2.014,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " opinions.",
+          "start": 213.85,
+          "end": 214.23,
+          "probability": 0.094
+        },
+        {
+          "word": " Your",
+          "start": 214.91,
+          "end": 215.29,
+          "probability": 0.816
+        },
+        {
+          "word": " name",
+          "start": 215.29,
+          "end": 215.43,
+          "probability": 0.968
+        },
+        {
+          "word": " hangs",
+          "start": 215.43,
+          "end": 215.75,
+          "probability": 0.911
+        },
+        {
+          "word": " from",
+          "start": 215.75,
+          "end": 215.89,
+          "probability": 0.951
+        },
+        {
+          "word": " your",
+          "start": 215.89,
+          "end": 216.01,
+          "probability": 0.982
+        },
+        {
+          "word": " neck",
+          "start": 216.01,
+          "end": 216.15,
+          "probability": 0.975
+        },
+        {
+          "word": " like",
+          "start": 216.15,
+          "end": 216.37,
+          "probability": 0.912
+        },
+        {
+          "word": " a",
+          "start": 216.37,
+          "end": 216.51,
+          "probability": 0.974
+        },
+        {
+          "word": " price",
+          "start": 216.51,
+          "end": 216.71,
+          "probability": 0.711
+        },
+        {
+          "word": " tag",
+          "start": 216.71,
+          "end": 216.91,
+          "probability": 0.813
+        },
+        {
+          "word": " for",
+          "start": 216.91,
+          "end": 217.07,
+          "probability": 0.801
+        },
+        {
+          "word": " your",
+          "start": 217.07,
+          "end": 217.17,
+          "probability": 0.977
+        },
+        {
+          "word": " opinions.",
+          "start": 217.17,
+          "end": 217.51,
+          "probability": 0.985
+        },
+        {
+          "word": " Your",
+          "start": 217.67,
+          "end": 217.75,
+          "probability": 0.972
+        },
+        {
+          "word": " name",
+          "start": 217.75,
+          "end": 217.93,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 217.93,
+      "end": 220.43,
+      "text": "hangs from your neck like a price tag for your opinions.",
+      "avgLogprob": -0.347,
+      "compressionRatio": 2.014,
+      "noSpeechProbability": 0.847,
+      "words": [
+        {
+          "word": " hangs",
+          "start": 217.93,
+          "end": 218.19,
+          "probability": 0.963
+        },
+        {
+          "word": " from",
+          "start": 218.19,
+          "end": 218.41,
+          "probability": 0.997
+        },
+        {
+          "word": " your",
+          "start": 218.41,
+          "end": 218.53,
+          "probability": 0.994
+        },
+        {
+          "word": " neck",
+          "start": 218.53,
+          "end": 218.69,
+          "probability": 0.99
+        },
+        {
+          "word": " like",
+          "start": 218.69,
+          "end": 218.93,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 218.93,
+          "end": 219.11,
+          "probability": 0.994
+        },
+        {
+          "word": " price",
+          "start": 219.11,
+          "end": 219.33,
+          "probability": 0.995
+        },
+        {
+          "word": " tag",
+          "start": 219.33,
+          "end": 219.57,
+          "probability": 0.997
+        },
+        {
+          "word": " for",
+          "start": 219.57,
+          "end": 219.75,
+          "probability": 0.979
+        },
+        {
+          "word": " your",
+          "start": 219.75,
+          "end": 219.89,
+          "probability": 0.994
+        },
+        {
+          "word": " opinions.",
+          "start": 219.89,
+          "end": 220.43,
+          "probability": 0.992
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.936,
+    "wordCount": 150,
+    "credibleWordCount": 143,
+    "segmentCount": 13,
+    "averageWordProbability": 0.866,
+    "vocalSeconds": 39.54,
+    "scanCoverage": 0.253,
+    "reviewRequired": false
+  }
+}

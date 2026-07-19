@@ -1,0 +1,1406 @@
+{
+  "analysisVersion": 1,
+  "index": 57,
+  "id": "../VOLHOLLA/song-rootresidue-14.html",
+  "slug": "third-row-glory",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'ma keep on driving till we score Yeah, we win, yeah, we win Thank you, Mom, thank you, Mom Slide in door grinding, silverly shining Shaking up the orange slices in a plastic tub Every when do for the heat. Blue van flying down the 405. Keep the dream of the couple live. Oscar and Abu and the third row sea crushing. The grass with the cleats on our feet. Knees on quest with the slide indoor. Mama keep on driving till we score. Yeah we win. Yeah we win. Thank you mom. Now we gotta go, feel this green Best we've seen One for the y'all, so two for the heart Three for the woman who made the whole start Ready for the feel, ready for the eat Blue van flying down the 405 Keep the dream of the cup alive I'm scarring, I boo in a third row Seat crush in the grass But live Oscar and I boo in a third row sea Crushin' the grass with the cleats on our feet Me sunquests with the sliding dorm I'ma keep on driving till we score",
+  "sampledRanges": [
+    [
+      11.95,
+      29.95
+    ],
+    [
+      47.8,
+      65.8
+    ],
+    [
+      83.65,
+      101.65
+    ],
+    [
+      119.5,
+      137.5
+    ]
+  ],
+  "segments": [
+    {
+      "start": 11.95,
+      "end": 14.17,
+      "text": "I'ma keep on driving till we score",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " I'ma",
+          "start": 11.95,
+          "end": 12.15,
+          "probability": 0.329
+        },
+        {
+          "word": " keep",
+          "start": 12.15,
+          "end": 12.35,
+          "probability": 0.98
+        },
+        {
+          "word": " on",
+          "start": 12.35,
+          "end": 12.69,
+          "probability": 0.992
+        },
+        {
+          "word": " driving",
+          "start": 12.69,
+          "end": 13.11,
+          "probability": 0.967
+        },
+        {
+          "word": " till",
+          "start": 13.11,
+          "end": 13.51,
+          "probability": 0.38
+        },
+        {
+          "word": " we",
+          "start": 13.51,
+          "end": 13.77,
+          "probability": 0.979
+        },
+        {
+          "word": " score",
+          "start": 13.77,
+          "end": 14.17,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 14.17,
+      "end": 16.25,
+      "text": "Yeah, we win, yeah, we win",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 14.17,
+          "end": 14.53,
+          "probability": 0.571
+        },
+        {
+          "word": " we",
+          "start": 14.61,
+          "end": 14.73,
+          "probability": 0.992
+        },
+        {
+          "word": " win,",
+          "start": 14.73,
+          "end": 15.05,
+          "probability": 0.994
+        },
+        {
+          "word": " yeah,",
+          "start": 15.33,
+          "end": 15.67,
+          "probability": 0.917
+        },
+        {
+          "word": " we",
+          "start": 15.73,
+          "end": 15.89,
+          "probability": 0.992
+        },
+        {
+          "word": " win",
+          "start": 15.89,
+          "end": 16.25,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 16.25,
+      "end": 18.53,
+      "text": "Thank you, Mom, thank you, Mom",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 16.25,
+          "end": 16.79,
+          "probability": 0.783
+        },
+        {
+          "word": " you,",
+          "start": 16.79,
+          "end": 17.03,
+          "probability": 0.861
+        },
+        {
+          "word": " Mom,",
+          "start": 17.09,
+          "end": 17.25,
+          "probability": 0.411
+        },
+        {
+          "word": " thank",
+          "start": 17.55,
+          "end": 17.93,
+          "probability": 0.785
+        },
+        {
+          "word": " you,",
+          "start": 17.93,
+          "end": 18.21,
+          "probability": 0.988
+        },
+        {
+          "word": " Mom",
+          "start": 18.21,
+          "end": 18.53,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 19.63,
+      "end": 23.51,
+      "text": "Slide in door grinding, silverly shining",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " Slide",
+          "start": 19.51,
+          "end": 19.85,
+          "probability": 0.332
+        },
+        {
+          "word": " in",
+          "start": 19.85,
+          "end": 20.19,
+          "probability": 0.278
+        },
+        {
+          "word": " door",
+          "start": 20.19,
+          "end": 20.41,
+          "probability": 0.382
+        },
+        {
+          "word": " grinding,",
+          "start": 20.41,
+          "end": 21.19,
+          "probability": 0.98
+        },
+        {
+          "word": " silverly",
+          "start": 21.59,
+          "end": 22.65,
+          "probability": 0.399
+        },
+        {
+          "word": " shining",
+          "start": 22.65,
+          "end": 23.51,
+          "probability": 0.74
+        }
+      ]
+    },
+    {
+      "start": 24.11,
+      "end": 28.29,
+      "text": "Shaking up the orange slices in a plastic tub",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " Shaking",
+          "start": 24.11,
+          "end": 24.65,
+          "probability": 0.825
+        },
+        {
+          "word": " up",
+          "start": 24.65,
+          "end": 25.03,
+          "probability": 0.78
+        },
+        {
+          "word": " the",
+          "start": 25.03,
+          "end": 25.31,
+          "probability": 0.978
+        },
+        {
+          "word": " orange",
+          "start": 25.31,
+          "end": 25.81,
+          "probability": 0.923
+        },
+        {
+          "word": " slices",
+          "start": 25.81,
+          "end": 26.33,
+          "probability": 0.896
+        },
+        {
+          "word": " in",
+          "start": 26.33,
+          "end": 26.77,
+          "probability": 0.615
+        },
+        {
+          "word": " a",
+          "start": 26.77,
+          "end": 27.03,
+          "probability": 0.837
+        },
+        {
+          "word": " plastic",
+          "start": 27.03,
+          "end": 27.45,
+          "probability": 0.989
+        },
+        {
+          "word": " tub",
+          "start": 27.45,
+          "end": 28.29,
+          "probability": 0.941
+        }
+      ]
+    },
+    {
+      "start": 28.29,
+      "end": 29.89,
+      "text": "Every when do",
+      "avgLogprob": -0.586,
+      "compressionRatio": 1.388,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " Every",
+          "start": 28.29,
+          "end": 29.29,
+          "probability": 0.296
+        },
+        {
+          "word": " when",
+          "start": 29.29,
+          "end": 29.61,
+          "probability": 0.671
+        },
+        {
+          "word": " do",
+          "start": 29.61,
+          "end": 29.89,
+          "probability": 0.378
+        }
+      ]
+    },
+    {
+      "start": 47.8,
+      "end": 54.14,
+      "text": "for the heat. Blue van flying down the 405. Keep the dream of the couple live. Oscar and",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.471,
+      "noSpeechProbability": 0.905,
+      "words": [
+        {
+          "word": " for",
+          "start": 47.8,
+          "end": 48.16,
+          "probability": 0.011
+        },
+        {
+          "word": " the",
+          "start": 48.16,
+          "end": 48.34,
+          "probability": 0.935
+        },
+        {
+          "word": " heat.",
+          "start": 48.34,
+          "end": 48.68,
+          "probability": 0.651
+        },
+        {
+          "word": " Blue",
+          "start": 48.84,
+          "end": 48.96,
+          "probability": 0.736
+        },
+        {
+          "word": " van",
+          "start": 48.96,
+          "end": 49.26,
+          "probability": 0.652
+        },
+        {
+          "word": " flying",
+          "start": 49.26,
+          "end": 49.52,
+          "probability": 0.632
+        },
+        {
+          "word": " down",
+          "start": 49.52,
+          "end": 49.84,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 49.84,
+          "end": 50.1,
+          "probability": 0.625
+        },
+        {
+          "word": " 405.",
+          "start": 50.1,
+          "end": 51.22,
+          "probability": 0.838
+        },
+        {
+          "word": " Keep",
+          "start": 51.4,
+          "end": 51.58,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 51.58,
+          "end": 51.88,
+          "probability": 0.979
+        },
+        {
+          "word": " dream",
+          "start": 51.88,
+          "end": 52.2,
+          "probability": 0.959
+        },
+        {
+          "word": " of",
+          "start": 52.2,
+          "end": 52.38,
+          "probability": 0.53
+        },
+        {
+          "word": " the",
+          "start": 52.38,
+          "end": 52.48,
+          "probability": 0.955
+        },
+        {
+          "word": " couple",
+          "start": 52.48,
+          "end": 52.7,
+          "probability": 0.562
+        },
+        {
+          "word": " live.",
+          "start": 52.7,
+          "end": 53.38,
+          "probability": 0.329
+        },
+        {
+          "word": " Oscar",
+          "start": 53.5,
+          "end": 53.74,
+          "probability": 0.785
+        },
+        {
+          "word": " and",
+          "start": 53.74,
+          "end": 54.14,
+          "probability": 0.827
+        }
+      ]
+    },
+    {
+      "start": 54.14,
+      "end": 57.96,
+      "text": "Abu and the third row sea crushing. The grass with the cleats on our feet.",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.471,
+      "noSpeechProbability": 0.905,
+      "words": [
+        {
+          "word": " Abu",
+          "start": 54.14,
+          "end": 54.4,
+          "probability": 0.348
+        },
+        {
+          "word": " and",
+          "start": 54.4,
+          "end": 54.7,
+          "probability": 0.503
+        },
+        {
+          "word": " the",
+          "start": 54.7,
+          "end": 54.78,
+          "probability": 0.543
+        },
+        {
+          "word": " third",
+          "start": 54.78,
+          "end": 55.06,
+          "probability": 0.74
+        },
+        {
+          "word": " row",
+          "start": 55.06,
+          "end": 55.28,
+          "probability": 0.416
+        },
+        {
+          "word": " sea",
+          "start": 55.28,
+          "end": 55.58,
+          "probability": 0.511
+        },
+        {
+          "word": " crushing.",
+          "start": 55.58,
+          "end": 56.08,
+          "probability": 0.472
+        },
+        {
+          "word": " The",
+          "start": 56.36,
+          "end": 56.4,
+          "probability": 0.332
+        },
+        {
+          "word": " grass",
+          "start": 56.4,
+          "end": 56.58,
+          "probability": 0.867
+        },
+        {
+          "word": " with",
+          "start": 56.58,
+          "end": 56.84,
+          "probability": 0.898
+        },
+        {
+          "word": " the",
+          "start": 56.84,
+          "end": 56.94,
+          "probability": 0.94
+        },
+        {
+          "word": " cleats",
+          "start": 56.94,
+          "end": 57.28,
+          "probability": 0.827
+        },
+        {
+          "word": " on",
+          "start": 57.28,
+          "end": 57.4,
+          "probability": 0.996
+        },
+        {
+          "word": " our",
+          "start": 57.4,
+          "end": 57.62,
+          "probability": 0.989
+        },
+        {
+          "word": " feet.",
+          "start": 57.62,
+          "end": 57.96,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 58.34,
+      "end": 62.52,
+      "text": "Knees on quest with the slide indoor. Mama keep on driving till we score.",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.471,
+      "noSpeechProbability": 0.905,
+      "words": [
+        {
+          "word": " Knees",
+          "start": 58.34,
+          "end": 58.6,
+          "probability": 0.591
+        },
+        {
+          "word": " on",
+          "start": 58.6,
+          "end": 58.76,
+          "probability": 0.923
+        },
+        {
+          "word": " quest",
+          "start": 58.76,
+          "end": 59.04,
+          "probability": 0.603
+        },
+        {
+          "word": " with",
+          "start": 59.04,
+          "end": 59.3,
+          "probability": 0.938
+        },
+        {
+          "word": " the",
+          "start": 59.3,
+          "end": 59.38,
+          "probability": 0.909
+        },
+        {
+          "word": " slide",
+          "start": 59.38,
+          "end": 59.64,
+          "probability": 0.56
+        },
+        {
+          "word": " indoor.",
+          "start": 59.64,
+          "end": 60.18,
+          "probability": 0.272
+        },
+        {
+          "word": " Mama",
+          "start": 60.32,
+          "end": 60.42,
+          "probability": 0.538
+        },
+        {
+          "word": " keep",
+          "start": 60.42,
+          "end": 60.72,
+          "probability": 0.952
+        },
+        {
+          "word": " on",
+          "start": 60.72,
+          "end": 61.08,
+          "probability": 0.996
+        },
+        {
+          "word": " driving",
+          "start": 61.08,
+          "end": 61.5,
+          "probability": 0.975
+        },
+        {
+          "word": " till",
+          "start": 61.5,
+          "end": 61.9,
+          "probability": 0.381
+        },
+        {
+          "word": " we",
+          "start": 61.9,
+          "end": 62.18,
+          "probability": 0.984
+        },
+        {
+          "word": " score.",
+          "start": 62.18,
+          "end": 62.52,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 62.76,
+      "end": 65.62,
+      "text": "Yeah we win. Yeah we win. Thank you mom.",
+      "avgLogprob": -0.505,
+      "compressionRatio": 1.471,
+      "noSpeechProbability": 0.905,
+      "words": [
+        {
+          "word": " Yeah",
+          "start": 62.76,
+          "end": 62.9,
+          "probability": 0.878
+        },
+        {
+          "word": " we",
+          "start": 62.9,
+          "end": 63.12,
+          "probability": 0.389
+        },
+        {
+          "word": " win.",
+          "start": 63.12,
+          "end": 63.4,
+          "probability": 0.995
+        },
+        {
+          "word": " Yeah",
+          "start": 63.82,
+          "end": 64.1,
+          "probability": 0.877
+        },
+        {
+          "word": " we",
+          "start": 64.1,
+          "end": 64.28,
+          "probability": 0.956
+        },
+        {
+          "word": " win.",
+          "start": 64.28,
+          "end": 64.56,
+          "probability": 0.998
+        },
+        {
+          "word": " Thank",
+          "start": 64.92,
+          "end": 65.2,
+          "probability": 0.991
+        },
+        {
+          "word": " you",
+          "start": 65.2,
+          "end": 65.42,
+          "probability": 0.899
+        },
+        {
+          "word": " mom.",
+          "start": 65.42,
+          "end": 65.62,
+          "probability": 0.467
+        }
+      ]
+    },
+    {
+      "start": 83.65,
+      "end": 85.45,
+      "text": "Now we gotta go, feel this green",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Now",
+          "start": 83.65,
+          "end": 83.73,
+          "probability": 0.224
+        },
+        {
+          "word": " we",
+          "start": 83.73,
+          "end": 83.91,
+          "probability": 0.959
+        },
+        {
+          "word": " gotta",
+          "start": 83.91,
+          "end": 84.15,
+          "probability": 0.82
+        },
+        {
+          "word": " go,",
+          "start": 84.15,
+          "end": 84.47,
+          "probability": 0.983
+        },
+        {
+          "word": " feel",
+          "start": 84.69,
+          "end": 84.93,
+          "probability": 0.864
+        },
+        {
+          "word": " this",
+          "start": 84.93,
+          "end": 85.15,
+          "probability": 0.783
+        },
+        {
+          "word": " green",
+          "start": 85.15,
+          "end": 85.45,
+          "probability": 0.606
+        }
+      ]
+    },
+    {
+      "start": 85.45,
+      "end": 86.61,
+      "text": "Best we've seen",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Best",
+          "start": 85.45,
+          "end": 86.07,
+          "probability": 0.575
+        },
+        {
+          "word": " we've",
+          "start": 86.07,
+          "end": 86.43,
+          "probability": 0.575
+        },
+        {
+          "word": " seen",
+          "start": 86.43,
+          "end": 86.61,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 86.61,
+      "end": 89.09,
+      "text": "One for the y'all, so two for the heart",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " One",
+          "start": 86.61,
+          "end": 87.17,
+          "probability": 0.262
+        },
+        {
+          "word": " for",
+          "start": 87.17,
+          "end": 87.39,
+          "probability": 0.494
+        },
+        {
+          "word": " the",
+          "start": 87.39,
+          "end": 87.53,
+          "probability": 0.984
+        },
+        {
+          "word": " y",
+          "start": 87.53,
+          "end": 87.69,
+          "probability": 0.298
+        },
+        {
+          "word": "'all,",
+          "start": 87.69,
+          "end": 87.75,
+          "probability": 0.572
+        },
+        {
+          "word": " so",
+          "start": 87.77,
+          "end": 87.99,
+          "probability": 0.667
+        },
+        {
+          "word": " two",
+          "start": 87.99,
+          "end": 88.31,
+          "probability": 0.902
+        },
+        {
+          "word": " for",
+          "start": 88.31,
+          "end": 88.55,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 88.55,
+          "end": 88.69,
+          "probability": 0.998
+        },
+        {
+          "word": " heart",
+          "start": 88.69,
+          "end": 89.09,
+          "probability": 0.955
+        }
+      ]
+    },
+    {
+      "start": 89.09,
+      "end": 91.25,
+      "text": "Three for the woman who made the whole start",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Three",
+          "start": 89.09,
+          "end": 89.45,
+          "probability": 0.303
+        },
+        {
+          "word": " for",
+          "start": 89.45,
+          "end": 89.69,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 89.69,
+          "end": 89.83,
+          "probability": 0.997
+        },
+        {
+          "word": " woman",
+          "start": 89.83,
+          "end": 90.09,
+          "probability": 0.976
+        },
+        {
+          "word": " who",
+          "start": 90.09,
+          "end": 90.33,
+          "probability": 0.799
+        },
+        {
+          "word": " made",
+          "start": 90.33,
+          "end": 90.57,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 90.57,
+          "end": 90.85,
+          "probability": 0.877
+        },
+        {
+          "word": " whole",
+          "start": 90.85,
+          "end": 91.01,
+          "probability": 0.518
+        },
+        {
+          "word": " start",
+          "start": 91.01,
+          "end": 91.25,
+          "probability": 0.737
+        }
+      ]
+    },
+    {
+      "start": 91.25,
+      "end": 93.63,
+      "text": "Ready for the feel, ready for the eat",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Ready",
+          "start": 91.25,
+          "end": 91.61,
+          "probability": 0.856
+        },
+        {
+          "word": " for",
+          "start": 91.61,
+          "end": 91.97,
+          "probability": 0.958
+        },
+        {
+          "word": " the",
+          "start": 91.97,
+          "end": 92.13,
+          "probability": 0.997
+        },
+        {
+          "word": " feel,",
+          "start": 92.13,
+          "end": 92.41,
+          "probability": 0.437
+        },
+        {
+          "word": " ready",
+          "start": 92.41,
+          "end": 92.77,
+          "probability": 0.945
+        },
+        {
+          "word": " for",
+          "start": 92.77,
+          "end": 93.13,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 93.13,
+          "end": 93.33,
+          "probability": 0.993
+        },
+        {
+          "word": " eat",
+          "start": 93.33,
+          "end": 93.63,
+          "probability": 0.085
+        }
+      ]
+    },
+    {
+      "start": 93.63,
+      "end": 95.65,
+      "text": "Blue van flying down the 405",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Blue",
+          "start": 93.63,
+          "end": 93.93,
+          "probability": 0.851
+        },
+        {
+          "word": " van",
+          "start": 93.93,
+          "end": 94.23,
+          "probability": 0.583
+        },
+        {
+          "word": " flying",
+          "start": 94.23,
+          "end": 94.55,
+          "probability": 0.756
+        },
+        {
+          "word": " down",
+          "start": 94.55,
+          "end": 94.81,
+          "probability": 0.808
+        },
+        {
+          "word": " the",
+          "start": 94.81,
+          "end": 95.07,
+          "probability": 0.924
+        },
+        {
+          "word": " 405",
+          "start": 95.07,
+          "end": 95.65,
+          "probability": 0.853
+        }
+      ]
+    },
+    {
+      "start": 96.17,
+      "end": 98.29,
+      "text": "Keep the dream of the cup alive",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 96.17,
+          "end": 96.53,
+          "probability": 0.935
+        },
+        {
+          "word": " the",
+          "start": 96.53,
+          "end": 96.83,
+          "probability": 0.992
+        },
+        {
+          "word": " dream",
+          "start": 96.83,
+          "end": 97.17,
+          "probability": 0.989
+        },
+        {
+          "word": " of",
+          "start": 97.17,
+          "end": 97.37,
+          "probability": 0.842
+        },
+        {
+          "word": " the",
+          "start": 97.37,
+          "end": 97.47,
+          "probability": 0.979
+        },
+        {
+          "word": " cup",
+          "start": 97.47,
+          "end": 97.67,
+          "probability": 0.355
+        },
+        {
+          "word": " alive",
+          "start": 97.67,
+          "end": 98.29,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 98.29,
+      "end": 100.27,
+      "text": "I'm scarring, I boo in a third row",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 98.29,
+          "end": 98.63,
+          "probability": 0.282
+        },
+        {
+          "word": " scarring,",
+          "start": 98.63,
+          "end": 99.05,
+          "probability": 0.657
+        },
+        {
+          "word": " I",
+          "start": 99.05,
+          "end": 99.23,
+          "probability": 0.972
+        },
+        {
+          "word": " boo",
+          "start": 99.23,
+          "end": 99.45,
+          "probability": 0.483
+        },
+        {
+          "word": " in",
+          "start": 99.45,
+          "end": 99.67,
+          "probability": 0.796
+        },
+        {
+          "word": " a",
+          "start": 99.67,
+          "end": 99.77,
+          "probability": 0.581
+        },
+        {
+          "word": " third",
+          "start": 99.77,
+          "end": 99.99,
+          "probability": 0.947
+        },
+        {
+          "word": " row",
+          "start": 99.99,
+          "end": 100.27,
+          "probability": 0.835
+        }
+      ]
+    },
+    {
+      "start": 100.27,
+      "end": 101.57,
+      "text": "Seat crush in the grass",
+      "avgLogprob": -0.395,
+      "compressionRatio": 1.548,
+      "noSpeechProbability": 0.69,
+      "words": [
+        {
+          "word": " Seat",
+          "start": 100.27,
+          "end": 100.67,
+          "probability": 0.281
+        },
+        {
+          "word": " crush",
+          "start": 100.67,
+          "end": 100.83,
+          "probability": 0.577
+        },
+        {
+          "word": " in",
+          "start": 100.83,
+          "end": 101.21,
+          "probability": 0.422
+        },
+        {
+          "word": " the",
+          "start": 101.21,
+          "end": 101.37,
+          "probability": 0.425
+        },
+        {
+          "word": " grass",
+          "start": 101.37,
+          "end": 101.57,
+          "probability": 0.965
+        }
+      ]
+    },
+    {
+      "start": 119.5,
+      "end": 122.48,
+      "text": "But live Oscar and I boo in a third row sea",
+      "avgLogprob": -0.541,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.808,
+      "words": [
+        {
+          "word": " But",
+          "start": 119.5,
+          "end": 119.8,
+          "probability": 0.026
+        },
+        {
+          "word": " live",
+          "start": 119.8,
+          "end": 120.28,
+          "probability": 0.379
+        },
+        {
+          "word": " Oscar",
+          "start": 120.28,
+          "end": 120.66,
+          "probability": 0.567
+        },
+        {
+          "word": " and",
+          "start": 120.66,
+          "end": 121.04,
+          "probability": 0.718
+        },
+        {
+          "word": " I",
+          "start": 121.04,
+          "end": 121.14,
+          "probability": 0.299
+        },
+        {
+          "word": " boo",
+          "start": 121.14,
+          "end": 121.42,
+          "probability": 0.361
+        },
+        {
+          "word": " in",
+          "start": 121.42,
+          "end": 121.6,
+          "probability": 0.68
+        },
+        {
+          "word": " a",
+          "start": 121.6,
+          "end": 121.7,
+          "probability": 0.702
+        },
+        {
+          "word": " third",
+          "start": 121.7,
+          "end": 121.96,
+          "probability": 0.916
+        },
+        {
+          "word": " row",
+          "start": 121.96,
+          "end": 122.2,
+          "probability": 0.534
+        },
+        {
+          "word": " sea",
+          "start": 122.2,
+          "end": 122.48,
+          "probability": 0.282
+        }
+      ]
+    },
+    {
+      "start": 122.48,
+      "end": 124.86,
+      "text": "Crushin' the grass with the cleats on our feet",
+      "avgLogprob": -0.541,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.808,
+      "words": [
+        {
+          "word": " Crushin'",
+          "start": 122.48,
+          "end": 123.12,
+          "probability": 0.18
+        },
+        {
+          "word": " the",
+          "start": 123.28,
+          "end": 123.3,
+          "probability": 0.269
+        },
+        {
+          "word": " grass",
+          "start": 123.3,
+          "end": 123.52,
+          "probability": 0.978
+        },
+        {
+          "word": " with",
+          "start": 123.52,
+          "end": 123.76,
+          "probability": 0.937
+        },
+        {
+          "word": " the",
+          "start": 123.76,
+          "end": 123.86,
+          "probability": 0.94
+        },
+        {
+          "word": " cleats",
+          "start": 123.86,
+          "end": 124.2,
+          "probability": 0.978
+        },
+        {
+          "word": " on",
+          "start": 124.2,
+          "end": 124.36,
+          "probability": 0.973
+        },
+        {
+          "word": " our",
+          "start": 124.36,
+          "end": 124.54,
+          "probability": 0.938
+        },
+        {
+          "word": " feet",
+          "start": 124.54,
+          "end": 124.86,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 124.86,
+      "end": 127.08,
+      "text": "Me sunquests with the sliding dorm",
+      "avgLogprob": -0.541,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.808,
+      "words": [
+        {
+          "word": " Me",
+          "start": 124.86,
+          "end": 125.36,
+          "probability": 0.271
+        },
+        {
+          "word": " sunquests",
+          "start": 125.36,
+          "end": 125.94,
+          "probability": 0.488
+        },
+        {
+          "word": " with",
+          "start": 125.94,
+          "end": 126.2,
+          "probability": 0.978
+        },
+        {
+          "word": " the",
+          "start": 126.2,
+          "end": 126.32,
+          "probability": 0.804
+        },
+        {
+          "word": " sliding",
+          "start": 126.32,
+          "end": 126.68,
+          "probability": 0.547
+        },
+        {
+          "word": " dorm",
+          "start": 126.68,
+          "end": 127.08,
+          "probability": 0.884
+        }
+      ]
+    },
+    {
+      "start": 127.08,
+      "end": 129.48,
+      "text": "I'ma keep on driving till we score",
+      "avgLogprob": -0.541,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.808,
+      "words": [
+        {
+          "word": " I'ma",
+          "start": 127.08,
+          "end": 127.4,
+          "probability": 0.528
+        },
+        {
+          "word": " keep",
+          "start": 127.4,
+          "end": 127.64,
+          "probability": 0.995
+        },
+        {
+          "word": " on",
+          "start": 127.64,
+          "end": 128.06,
+          "probability": 0.99
+        },
+        {
+          "word": " driving",
+          "start": 128.06,
+          "end": 128.38,
+          "probability": 0.576
+        },
+        {
+          "word": " till",
+          "start": 128.38,
+          "end": 128.8,
+          "probability": 0.232
+        },
+        {
+          "word": " we",
+          "start": 128.8,
+          "end": 129.1,
+          "probability": 0.983
+        },
+        {
+          "word": " score",
+          "start": 129.1,
+          "end": 129.48,
+          "probability": 0.408
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.848,
+    "wordCount": 63,
+    "credibleWordCount": 56,
+    "segmentCount": 9,
+    "averageWordProbability": 0.747,
+    "vocalSeconds": 17.4,
+    "scanCoverage": 0.43,
+    "reviewRequired": false
+  }
+}

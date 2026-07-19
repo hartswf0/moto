@@ -1,0 +1,29 @@
+{
+  "analysisVersion": 1,
+  "index": 61,
+  "id": "../VOLHOLLA/song-executable-05.html",
+  "slug": "root-symmetry",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      0.0,
+      30.0
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.7,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

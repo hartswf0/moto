@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 7,
+  "id": "../VOLHOLLA/song-cypher-19.html",
+  "slug": "the-cypher-of-the-andes",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      12.48,
+      30.48
+    ],
+    [
+      49.92,
+      67.92
+    ],
+    [
+      87.37,
+      105.37
+    ],
+    [
+      124.81,
+      142.81
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.559,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.414,
+    "reviewRequired": true
+  }
+}

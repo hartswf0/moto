@@ -1,0 +1,996 @@
+{
+  "analysisVersion": 1,
+  "index": 4,
+  "id": "../VOLHOLLA/song-brooklynomen-21.html",
+  "slug": "no-promotion-today",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "No, a crime on a dream You can count up to beans, but don't let the price you could draw to big scenes Without giving advice, fetch me a file that's step to the bank Wait for a while, get off the track Stop looking for a crown, you just say help out Help out Don't let me dodge, you silly come out I need a mouth, keep the machine clean, stay on the path, between him and tween, lean to the left, check the receipt, quick and the death. But you don't resign No raising the pay Go plug in your car Keep by the way You work for the list Don't get promoted Assisted Don't get promoted Sit your hard job in the chop Don't give-",
+  "sampledRanges": [
+    [
+      11.75,
+      29.75
+    ],
+    [
+      46.98,
+      64.98
+    ],
+    [
+      82.22,
+      100.22
+    ],
+    [
+      117.46,
+      135.46
+    ]
+  ],
+  "segments": [
+    {
+      "start": 12.69,
+      "end": 14.05,
+      "text": "No, a crime on a dream",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " No,",
+          "start": 12.69,
+          "end": 13.05,
+          "probability": 0.202
+        },
+        {
+          "word": " a",
+          "start": 13.05,
+          "end": 13.41,
+          "probability": 0.197
+        },
+        {
+          "word": " crime",
+          "start": 13.41,
+          "end": 13.57,
+          "probability": 0.556
+        },
+        {
+          "word": " on",
+          "start": 13.57,
+          "end": 13.75,
+          "probability": 0.191
+        },
+        {
+          "word": " a",
+          "start": 13.75,
+          "end": 13.83,
+          "probability": 0.844
+        },
+        {
+          "word": " dream",
+          "start": 13.83,
+          "end": 14.05,
+          "probability": 0.944
+        }
+      ]
+    },
+    {
+      "start": 14.71,
+      "end": 17.89,
+      "text": "You can count up to beans, but don't let the price you could draw to big scenes",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " You",
+          "start": 14.71,
+          "end": 15.07,
+          "probability": 0.547
+        },
+        {
+          "word": " can",
+          "start": 15.07,
+          "end": 15.17,
+          "probability": 0.802
+        },
+        {
+          "word": " count",
+          "start": 15.17,
+          "end": 15.39,
+          "probability": 0.987
+        },
+        {
+          "word": " up",
+          "start": 15.39,
+          "end": 15.51,
+          "probability": 0.657
+        },
+        {
+          "word": " to",
+          "start": 15.51,
+          "end": 15.63,
+          "probability": 0.196
+        },
+        {
+          "word": " beans,",
+          "start": 15.63,
+          "end": 15.91,
+          "probability": 0.42
+        },
+        {
+          "word": " but",
+          "start": 16.03,
+          "end": 16.11,
+          "probability": 0.948
+        },
+        {
+          "word": " don't",
+          "start": 16.11,
+          "end": 16.35,
+          "probability": 0.962
+        },
+        {
+          "word": " let",
+          "start": 16.35,
+          "end": 16.41,
+          "probability": 0.724
+        },
+        {
+          "word": " the",
+          "start": 16.41,
+          "end": 16.51,
+          "probability": 0.694
+        },
+        {
+          "word": " price",
+          "start": 16.51,
+          "end": 16.75,
+          "probability": 0.956
+        },
+        {
+          "word": " you",
+          "start": 16.75,
+          "end": 16.91,
+          "probability": 0.627
+        },
+        {
+          "word": " could",
+          "start": 16.91,
+          "end": 16.99,
+          "probability": 0.596
+        },
+        {
+          "word": " draw",
+          "start": 16.99,
+          "end": 17.21,
+          "probability": 0.904
+        },
+        {
+          "word": " to",
+          "start": 17.21,
+          "end": 17.29,
+          "probability": 0.651
+        },
+        {
+          "word": " big",
+          "start": 17.29,
+          "end": 17.45,
+          "probability": 0.811
+        },
+        {
+          "word": " scenes",
+          "start": 17.45,
+          "end": 17.89,
+          "probability": 0.835
+        }
+      ]
+    },
+    {
+      "start": 18.41,
+      "end": 21.41,
+      "text": "Without giving advice, fetch me a file that's step to the bank",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " Without",
+          "start": 18.41,
+          "end": 18.77,
+          "probability": 0.734
+        },
+        {
+          "word": " giving",
+          "start": 18.77,
+          "end": 19.09,
+          "probability": 0.958
+        },
+        {
+          "word": " advice,",
+          "start": 19.09,
+          "end": 19.57,
+          "probability": 0.844
+        },
+        {
+          "word": " fetch",
+          "start": 19.57,
+          "end": 19.97,
+          "probability": 0.836
+        },
+        {
+          "word": " me",
+          "start": 19.97,
+          "end": 20.13,
+          "probability": 0.992
+        },
+        {
+          "word": " a",
+          "start": 20.13,
+          "end": 20.35,
+          "probability": 0.978
+        },
+        {
+          "word": " file",
+          "start": 20.35,
+          "end": 20.51,
+          "probability": 0.76
+        },
+        {
+          "word": " that's",
+          "start": 20.51,
+          "end": 20.79,
+          "probability": 0.622
+        },
+        {
+          "word": " step",
+          "start": 20.79,
+          "end": 20.87,
+          "probability": 0.311
+        },
+        {
+          "word": " to",
+          "start": 20.87,
+          "end": 21.03,
+          "probability": 0.943
+        },
+        {
+          "word": " the",
+          "start": 21.03,
+          "end": 21.11,
+          "probability": 0.995
+        },
+        {
+          "word": " bank",
+          "start": 21.11,
+          "end": 21.41,
+          "probability": 0.914
+        }
+      ]
+    },
+    {
+      "start": 21.41,
+      "end": 23.33,
+      "text": "Wait for a while, get off the track",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " Wait",
+          "start": 21.41,
+          "end": 21.81,
+          "probability": 0.522
+        },
+        {
+          "word": " for",
+          "start": 21.81,
+          "end": 21.97,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 21.97,
+          "end": 22.11,
+          "probability": 0.903
+        },
+        {
+          "word": " while,",
+          "start": 22.11,
+          "end": 22.45,
+          "probability": 0.976
+        },
+        {
+          "word": " get",
+          "start": 22.45,
+          "end": 22.73,
+          "probability": 0.979
+        },
+        {
+          "word": " off",
+          "start": 22.73,
+          "end": 22.85,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 22.85,
+          "end": 23.01,
+          "probability": 0.978
+        },
+        {
+          "word": " track",
+          "start": 23.01,
+          "end": 23.33,
+          "probability": 0.953
+        }
+      ]
+    },
+    {
+      "start": 23.89,
+      "end": 26.27,
+      "text": "Stop looking for a crown, you just say help out",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " Stop",
+          "start": 23.89,
+          "end": 24.25,
+          "probability": 0.869
+        },
+        {
+          "word": " looking",
+          "start": 24.25,
+          "end": 24.43,
+          "probability": 0.91
+        },
+        {
+          "word": " for",
+          "start": 24.43,
+          "end": 24.73,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 24.73,
+          "end": 24.95,
+          "probability": 0.993
+        },
+        {
+          "word": " crown,",
+          "start": 24.95,
+          "end": 25.25,
+          "probability": 0.868
+        },
+        {
+          "word": " you",
+          "start": 25.41,
+          "end": 25.51,
+          "probability": 0.969
+        },
+        {
+          "word": " just",
+          "start": 25.51,
+          "end": 25.69,
+          "probability": 0.976
+        },
+        {
+          "word": " say",
+          "start": 25.69,
+          "end": 25.79,
+          "probability": 0.412
+        },
+        {
+          "word": " help",
+          "start": 25.79,
+          "end": 26.03,
+          "probability": 0.332
+        },
+        {
+          "word": " out",
+          "start": 26.03,
+          "end": 26.27,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 26.27,
+      "end": 26.65,
+      "text": "Help out",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " Help",
+          "start": 26.27,
+          "end": 26.45,
+          "probability": 0.112
+        },
+        {
+          "word": " out",
+          "start": 26.45,
+          "end": 26.65,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 26.65,
+      "end": 28.53,
+      "text": "Don't let me dodge, you silly come out",
+      "avgLogprob": -0.373,
+      "compressionRatio": 1.492,
+      "noSpeechProbability": 0.679,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 26.65,
+          "end": 26.95,
+          "probability": 0.778
+        },
+        {
+          "word": " let",
+          "start": 26.95,
+          "end": 27.01,
+          "probability": 0.992
+        },
+        {
+          "word": " me",
+          "start": 27.01,
+          "end": 27.15,
+          "probability": 0.999
+        },
+        {
+          "word": " dodge,",
+          "start": 27.15,
+          "end": 27.45,
+          "probability": 0.671
+        },
+        {
+          "word": " you",
+          "start": 27.57,
+          "end": 27.63,
+          "probability": 0.359
+        },
+        {
+          "word": " silly",
+          "start": 27.63,
+          "end": 27.89,
+          "probability": 0.611
+        },
+        {
+          "word": " come",
+          "start": 27.89,
+          "end": 28.07,
+          "probability": 0.48
+        },
+        {
+          "word": " out",
+          "start": 28.07,
+          "end": 28.53,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 55.3,
+      "end": 64.82,
+      "text": "I need a mouth, keep the machine clean, stay on the path, between him and tween, lean to the left, check the receipt, quick and the death.",
+      "avgLogprob": -0.725,
+      "compressionRatio": 1.353,
+      "noSpeechProbability": 0.748,
+      "words": [
+        {
+          "word": " I",
+          "start": 55.3,
+          "end": 55.7,
+          "probability": 0.088
+        },
+        {
+          "word": " need",
+          "start": 55.7,
+          "end": 56.1,
+          "probability": 0.773
+        },
+        {
+          "word": " a",
+          "start": 56.1,
+          "end": 56.26,
+          "probability": 0.585
+        },
+        {
+          "word": " mouth,",
+          "start": 56.26,
+          "end": 56.78,
+          "probability": 0.374
+        },
+        {
+          "word": " keep",
+          "start": 56.8,
+          "end": 57.8,
+          "probability": 0.617
+        },
+        {
+          "word": " the",
+          "start": 57.8,
+          "end": 57.92,
+          "probability": 0.355
+        },
+        {
+          "word": " machine",
+          "start": 57.92,
+          "end": 58.2,
+          "probability": 0.97
+        },
+        {
+          "word": " clean,",
+          "start": 58.2,
+          "end": 59.0,
+          "probability": 0.983
+        },
+        {
+          "word": " stay",
+          "start": 59.32,
+          "end": 59.64,
+          "probability": 0.97
+        },
+        {
+          "word": " on",
+          "start": 59.64,
+          "end": 59.8,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 59.8,
+          "end": 59.98,
+          "probability": 0.883
+        },
+        {
+          "word": " path,",
+          "start": 59.98,
+          "end": 60.34,
+          "probability": 0.853
+        },
+        {
+          "word": " between",
+          "start": 60.56,
+          "end": 61.5,
+          "probability": 0.859
+        },
+        {
+          "word": " him",
+          "start": 61.5,
+          "end": 61.66,
+          "probability": 0.186
+        },
+        {
+          "word": " and",
+          "start": 61.66,
+          "end": 61.78,
+          "probability": 0.911
+        },
+        {
+          "word": " tween,",
+          "start": 61.78,
+          "end": 62.28,
+          "probability": 0.603
+        },
+        {
+          "word": " lean",
+          "start": 62.36,
+          "end": 62.42,
+          "probability": 0.96
+        },
+        {
+          "word": " to",
+          "start": 62.42,
+          "end": 62.58,
+          "probability": 0.972
+        },
+        {
+          "word": " the",
+          "start": 62.58,
+          "end": 62.72,
+          "probability": 0.995
+        },
+        {
+          "word": " left,",
+          "start": 62.72,
+          "end": 63.04,
+          "probability": 0.94
+        },
+        {
+          "word": " check",
+          "start": 63.26,
+          "end": 63.32,
+          "probability": 0.25
+        },
+        {
+          "word": " the",
+          "start": 63.32,
+          "end": 63.46,
+          "probability": 0.876
+        },
+        {
+          "word": " receipt,",
+          "start": 63.46,
+          "end": 63.8,
+          "probability": 0.252
+        },
+        {
+          "word": " quick",
+          "start": 64.18,
+          "end": 64.26,
+          "probability": 0.914
+        },
+        {
+          "word": " and",
+          "start": 64.26,
+          "end": 64.44,
+          "probability": 0.651
+        },
+        {
+          "word": " the",
+          "start": 64.44,
+          "end": 64.52,
+          "probability": 0.295
+        },
+        {
+          "word": " death.",
+          "start": 64.52,
+          "end": 64.82,
+          "probability": 0.156
+        }
+      ]
+    },
+    {
+      "start": 82.22,
+      "end": 83.96,
+      "text": "But you don't resign",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " But",
+          "start": 82.22,
+          "end": 82.48,
+          "probability": 0.098
+        },
+        {
+          "word": " you",
+          "start": 82.48,
+          "end": 82.72,
+          "probability": 0.98
+        },
+        {
+          "word": " don't",
+          "start": 82.72,
+          "end": 83.26,
+          "probability": 0.989
+        },
+        {
+          "word": " resign",
+          "start": 83.26,
+          "end": 83.96,
+          "probability": 0.213
+        }
+      ]
+    },
+    {
+      "start": 83.96,
+      "end": 86.22,
+      "text": "No raising the pay",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " No",
+          "start": 83.96,
+          "end": 84.92,
+          "probability": 0.402
+        },
+        {
+          "word": " raising",
+          "start": 84.92,
+          "end": 85.46,
+          "probability": 0.27
+        },
+        {
+          "word": " the",
+          "start": 85.46,
+          "end": 85.74,
+          "probability": 0.777
+        },
+        {
+          "word": " pay",
+          "start": 85.74,
+          "end": 86.22,
+          "probability": 0.382
+        }
+      ]
+    },
+    {
+      "start": 86.22,
+      "end": 88.0,
+      "text": "Go plug in your car",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Go",
+          "start": 86.22,
+          "end": 86.76,
+          "probability": 0.584
+        },
+        {
+          "word": " plug",
+          "start": 86.76,
+          "end": 87.18,
+          "probability": 0.591
+        },
+        {
+          "word": " in",
+          "start": 87.18,
+          "end": 87.38,
+          "probability": 0.862
+        },
+        {
+          "word": " your",
+          "start": 87.38,
+          "end": 87.58,
+          "probability": 0.993
+        },
+        {
+          "word": " car",
+          "start": 87.58,
+          "end": 88.0,
+          "probability": 0.502
+        }
+      ]
+    },
+    {
+      "start": 88.0,
+      "end": 89.96,
+      "text": "Keep by the way",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 88.0,
+          "end": 88.6,
+          "probability": 0.523
+        },
+        {
+          "word": " by",
+          "start": 88.6,
+          "end": 89.16,
+          "probability": 0.253
+        },
+        {
+          "word": " the",
+          "start": 89.16,
+          "end": 89.46,
+          "probability": 0.971
+        },
+        {
+          "word": " way",
+          "start": 89.46,
+          "end": 89.96,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 89.96,
+      "end": 91.58,
+      "text": "You work for the list",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " You",
+          "start": 89.96,
+          "end": 90.16,
+          "probability": 0.726
+        },
+        {
+          "word": " work",
+          "start": 90.16,
+          "end": 90.56,
+          "probability": 0.899
+        },
+        {
+          "word": " for",
+          "start": 90.56,
+          "end": 91.0,
+          "probability": 0.987
+        },
+        {
+          "word": " the",
+          "start": 91.0,
+          "end": 91.34,
+          "probability": 0.89
+        },
+        {
+          "word": " list",
+          "start": 91.34,
+          "end": 91.58,
+          "probability": 0.519
+        }
+      ]
+    },
+    {
+      "start": 92.22,
+      "end": 93.66,
+      "text": "Don't get promoted",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 92.22,
+          "end": 92.7,
+          "probability": 0.54
+        },
+        {
+          "word": " get",
+          "start": 92.7,
+          "end": 92.84,
+          "probability": 0.529
+        },
+        {
+          "word": " promoted",
+          "start": 92.84,
+          "end": 93.66,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 94.64,
+      "end": 95.46,
+      "text": "Assisted",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Assisted",
+          "start": 94.64,
+          "end": 95.46,
+          "probability": 0.313
+        }
+      ]
+    },
+    {
+      "start": 96.22,
+      "end": 97.18,
+      "text": "Don't get promoted",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 96.22,
+          "end": 96.7,
+          "probability": 0.907
+        },
+        {
+          "word": " get",
+          "start": 96.7,
+          "end": 96.76,
+          "probability": 0.986
+        },
+        {
+          "word": " promoted",
+          "start": 96.76,
+          "end": 97.18,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 97.18,
+      "end": 99.46,
+      "text": "Sit your hard job in the chop",
+      "avgLogprob": -0.355,
+      "compressionRatio": 1.381,
+      "noSpeechProbability": 0.516,
+      "words": [
+        {
+          "word": " Sit",
+          "start": 97.18,
+          "end": 98.16,
+          "probability": 0.007
+        },
+        {
+          "word": " your",
+          "start": 98.16,
+          "end": 98.34,
+          "probability": 0.681
+        },
+        {
+          "word": " hard",
+          "start": 98.34,
+          "end": 98.58,
+          "probability": 0.523
+        },
+        {
+          "word": " job",
+          "start": 98.58,
+          "end": 98.82,
+          "probability": 0.452
+        },
+        {
+          "word": " in",
+          "start": 98.82,
+          "end": 99.08,
+          "probability": 0.702
+        },
+        {
+          "word": " the",
+          "start": 99.08,
+          "end": 99.18,
+          "probability": 0.786
+        },
+        {
+          "word": " chop",
+          "start": 99.18,
+          "end": 99.46,
+          "probability": 0.67
+        }
+      ]
+    },
+    {
+      "start": 134.78,
+      "end": 135.44,
+      "text": "Don't give-",
+      "avgLogprob": -0.625,
+      "compressionRatio": 0.579,
+      "noSpeechProbability": 0.668,
+      "words": [
+        {
+          "word": " Don't",
+          "start": 134.78,
+          "end": 135.14,
+          "probability": 0.687
+        },
+        {
+          "word": " give",
+          "start": 135.14,
+          "end": 135.26,
+          "probability": 0.832
+        },
+        {
+          "word": "-",
+          "start": 135.26,
+          "end": 135.44,
+          "probability": 0.191
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.861,
+    "wordCount": 128,
+    "credibleWordCount": 109,
+    "segmentCount": 18,
+    "averageWordProbability": 0.71,
+    "vocalSeconds": 39.14,
+    "scanCoverage": 0.437,
+    "reviewRequired": false
+  }
+}

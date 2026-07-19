@@ -1,0 +1,1338 @@
+{
+  "analysisVersion": 1,
+  "index": 48,
+  "id": "../VOLHOLLA/song-sharperhands-01.html",
+  "slug": "sharper-hands",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Yes, I say, good. That's the point. In this classroom, AI is not contraband. It is not the magic box where thought goes to die. It is chalk. It is oxygen. It is the strange second mouth in the wall that answers when language strikes it. Other teachers say, don't- That is not cheating. That is thought with the lights on. A prompt is not a sentence. A prompt is a seed packet. You drop words into a greenhouse fed by old essays, screenshots, myths, ads, prayers, errors, and ghosts. Something sprouts. Usually garbage. Good. writing. Writing is designing the room where writing happens. Role is a lever. Context is a lever. Task is a lever. Format is a lever. Revision is a lever. So the assignment must earn its life. No more museum tasks. No more Here is the failure. Here is the revision. Here is the bias I found. Here is the part I rejected. Here is where it shaped me back. I did not dodge the struggle. I moved it at the p.gov 25 to where the real work was hiding.",
+  "sampledRanges": [
+    [
+      15.66,
+      33.66
+    ],
+    [
+      62.64,
+      80.64
+    ],
+    [
+      109.63,
+      127.63
+    ],
+    [
+      156.61,
+      174.61
+    ]
+  ],
+  "segments": [
+    {
+      "start": 15.66,
+      "end": 22.74,
+      "text": "Yes, I say, good. That's the point. In this classroom, AI is not contraband. It is not the",
+      "avgLogprob": -0.196,
+      "compressionRatio": 1.511,
+      "noSpeechProbability": 0.062,
+      "words": [
+        {
+          "word": " Yes,",
+          "start": 15.66,
+          "end": 15.92,
+          "probability": 0.559
+        },
+        {
+          "word": " I",
+          "start": 16.24,
+          "end": 16.34,
+          "probability": 0.988
+        },
+        {
+          "word": " say,",
+          "start": 16.34,
+          "end": 16.6,
+          "probability": 0.996
+        },
+        {
+          "word": " good.",
+          "start": 17.0,
+          "end": 17.68,
+          "probability": 0.687
+        },
+        {
+          "word": " That's",
+          "start": 18.1,
+          "end": 18.34,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 18.34,
+          "end": 18.46,
+          "probability": 0.999
+        },
+        {
+          "word": " point.",
+          "start": 18.46,
+          "end": 18.7,
+          "probability": 0.999
+        },
+        {
+          "word": " In",
+          "start": 19.42,
+          "end": 19.44,
+          "probability": 0.965
+        },
+        {
+          "word": " this",
+          "start": 19.44,
+          "end": 19.62,
+          "probability": 0.998
+        },
+        {
+          "word": " classroom,",
+          "start": 19.62,
+          "end": 20.2,
+          "probability": 0.992
+        },
+        {
+          "word": " AI",
+          "start": 20.6,
+          "end": 20.8,
+          "probability": 0.726
+        },
+        {
+          "word": " is",
+          "start": 20.8,
+          "end": 21.08,
+          "probability": 0.993
+        },
+        {
+          "word": " not",
+          "start": 21.08,
+          "end": 21.24,
+          "probability": 0.998
+        },
+        {
+          "word": " contraband.",
+          "start": 21.24,
+          "end": 21.86,
+          "probability": 0.977
+        },
+        {
+          "word": " It",
+          "start": 22.24,
+          "end": 22.34,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 22.34,
+          "end": 22.44,
+          "probability": 0.991
+        },
+        {
+          "word": " not",
+          "start": 22.44,
+          "end": 22.6,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 22.6,
+          "end": 22.74,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 22.74,
+      "end": 28.92,
+      "text": "magic box where thought goes to die. It is chalk. It is oxygen. It is the strange second mouth",
+      "avgLogprob": -0.196,
+      "compressionRatio": 1.511,
+      "noSpeechProbability": 0.062,
+      "words": [
+        {
+          "word": " magic",
+          "start": 22.74,
+          "end": 23.02,
+          "probability": 0.975
+        },
+        {
+          "word": " box",
+          "start": 23.02,
+          "end": 23.28,
+          "probability": 0.996
+        },
+        {
+          "word": " where",
+          "start": 23.28,
+          "end": 23.5,
+          "probability": 0.963
+        },
+        {
+          "word": " thought",
+          "start": 23.5,
+          "end": 23.74,
+          "probability": 0.97
+        },
+        {
+          "word": " goes",
+          "start": 23.74,
+          "end": 23.92,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 23.92,
+          "end": 24.16,
+          "probability": 0.998
+        },
+        {
+          "word": " die.",
+          "start": 24.16,
+          "end": 24.46,
+          "probability": 0.968
+        },
+        {
+          "word": " It",
+          "start": 24.76,
+          "end": 24.84,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 24.84,
+          "end": 24.98,
+          "probability": 0.995
+        },
+        {
+          "word": " chalk.",
+          "start": 24.98,
+          "end": 25.28,
+          "probability": 0.949
+        },
+        {
+          "word": " It",
+          "start": 26.46,
+          "end": 26.64,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 26.64,
+          "end": 26.78,
+          "probability": 0.995
+        },
+        {
+          "word": " oxygen.",
+          "start": 26.78,
+          "end": 27.24,
+          "probability": 0.996
+        },
+        {
+          "word": " It",
+          "start": 27.66,
+          "end": 27.74,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 27.74,
+          "end": 27.84,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 27.84,
+          "end": 27.98,
+          "probability": 0.993
+        },
+        {
+          "word": " strange",
+          "start": 27.98,
+          "end": 28.28,
+          "probability": 0.67
+        },
+        {
+          "word": " second",
+          "start": 28.28,
+          "end": 28.66,
+          "probability": 0.943
+        },
+        {
+          "word": " mouth",
+          "start": 28.66,
+          "end": 28.92,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 28.92,
+      "end": 33.64,
+      "text": "in the wall that answers when language strikes it. Other teachers say, don't-",
+      "avgLogprob": -0.196,
+      "compressionRatio": 1.511,
+      "noSpeechProbability": 0.062,
+      "words": [
+        {
+          "word": " in",
+          "start": 28.92,
+          "end": 29.06,
+          "probability": 0.973
+        },
+        {
+          "word": " the",
+          "start": 29.06,
+          "end": 29.18,
+          "probability": 0.998
+        },
+        {
+          "word": " wall",
+          "start": 29.18,
+          "end": 29.36,
+          "probability": 0.99
+        },
+        {
+          "word": " that",
+          "start": 29.36,
+          "end": 29.54,
+          "probability": 0.974
+        },
+        {
+          "word": " answers",
+          "start": 29.54,
+          "end": 29.88,
+          "probability": 0.995
+        },
+        {
+          "word": " when",
+          "start": 29.88,
+          "end": 30.1,
+          "probability": 0.993
+        },
+        {
+          "word": " language",
+          "start": 30.1,
+          "end": 30.42,
+          "probability": 0.992
+        },
+        {
+          "word": " strikes",
+          "start": 30.42,
+          "end": 30.78,
+          "probability": 0.995
+        },
+        {
+          "word": " it.",
+          "start": 30.78,
+          "end": 31.08,
+          "probability": 0.991
+        },
+        {
+          "word": " Other",
+          "start": 31.88,
+          "end": 32.14,
+          "probability": 0.989
+        },
+        {
+          "word": " teachers",
+          "start": 32.14,
+          "end": 32.48,
+          "probability": 0.986
+        },
+        {
+          "word": " say,",
+          "start": 32.48,
+          "end": 32.88,
+          "probability": 0.989
+        },
+        {
+          "word": " don't",
+          "start": 33.32,
+          "end": 33.64,
+          "probability": 0.862
+        },
+        {
+          "word": "-",
+          "start": 33.64,
+          "end": 33.64,
+          "probability": 0.236
+        }
+      ]
+    },
+    {
+      "start": 62.64,
+      "end": 63.72,
+      "text": "That is not cheating.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " That",
+          "start": 62.64,
+          "end": 63.04,
+          "probability": 0.697
+        },
+        {
+          "word": " is",
+          "start": 63.04,
+          "end": 63.18,
+          "probability": 0.98
+        },
+        {
+          "word": " not",
+          "start": 63.18,
+          "end": 63.36,
+          "probability": 0.991
+        },
+        {
+          "word": " cheating.",
+          "start": 63.36,
+          "end": 63.72,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 64.44,
+      "end": 66.24,
+      "text": "That is thought with the lights on.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " That",
+          "start": 64.44,
+          "end": 64.8,
+          "probability": 0.992
+        },
+        {
+          "word": " is",
+          "start": 64.8,
+          "end": 64.94,
+          "probability": 0.997
+        },
+        {
+          "word": " thought",
+          "start": 64.94,
+          "end": 65.2,
+          "probability": 0.973
+        },
+        {
+          "word": " with",
+          "start": 65.2,
+          "end": 65.56,
+          "probability": 0.951
+        },
+        {
+          "word": " the",
+          "start": 65.56,
+          "end": 65.68,
+          "probability": 0.848
+        },
+        {
+          "word": " lights",
+          "start": 65.68,
+          "end": 65.86,
+          "probability": 0.993
+        },
+        {
+          "word": " on.",
+          "start": 65.86,
+          "end": 66.24,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 67.1,
+      "end": 68.22,
+      "text": "A prompt is not a sentence.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " A",
+          "start": 67.1,
+          "end": 67.2,
+          "probability": 0.892
+        },
+        {
+          "word": " prompt",
+          "start": 67.2,
+          "end": 67.4,
+          "probability": 0.991
+        },
+        {
+          "word": " is",
+          "start": 67.4,
+          "end": 67.62,
+          "probability": 0.995
+        },
+        {
+          "word": " not",
+          "start": 67.62,
+          "end": 67.78,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 67.78,
+          "end": 67.9,
+          "probability": 0.997
+        },
+        {
+          "word": " sentence.",
+          "start": 67.9,
+          "end": 68.22,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 68.82,
+      "end": 70.14,
+      "text": "A prompt is a seed packet.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " A",
+          "start": 68.82,
+          "end": 68.9,
+          "probability": 0.99
+        },
+        {
+          "word": " prompt",
+          "start": 68.9,
+          "end": 69.18,
+          "probability": 0.999
+        },
+        {
+          "word": " is",
+          "start": 69.18,
+          "end": 69.4,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 69.4,
+          "end": 69.5,
+          "probability": 0.995
+        },
+        {
+          "word": " seed",
+          "start": 69.5,
+          "end": 69.76,
+          "probability": 0.951
+        },
+        {
+          "word": " packet.",
+          "start": 69.76,
+          "end": 70.14,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 71.02,
+      "end": 73.66,
+      "text": "You drop words into a greenhouse fed by old essays,",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " You",
+          "start": 71.02,
+          "end": 71.26,
+          "probability": 0.941
+        },
+        {
+          "word": " drop",
+          "start": 71.26,
+          "end": 71.54,
+          "probability": 0.981
+        },
+        {
+          "word": " words",
+          "start": 71.54,
+          "end": 71.88,
+          "probability": 0.994
+        },
+        {
+          "word": " into",
+          "start": 71.88,
+          "end": 72.14,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 72.14,
+          "end": 72.28,
+          "probability": 0.997
+        },
+        {
+          "word": " greenhouse",
+          "start": 72.28,
+          "end": 72.6,
+          "probability": 0.961
+        },
+        {
+          "word": " fed",
+          "start": 72.6,
+          "end": 72.92,
+          "probability": 0.972
+        },
+        {
+          "word": " by",
+          "start": 72.92,
+          "end": 73.12,
+          "probability": 0.95
+        },
+        {
+          "word": " old",
+          "start": 73.12,
+          "end": 73.32,
+          "probability": 0.976
+        },
+        {
+          "word": " essays,",
+          "start": 73.32,
+          "end": 73.66,
+          "probability": 0.17
+        }
+      ]
+    },
+    {
+      "start": 73.94,
+      "end": 76.44,
+      "text": "screenshots, myths, ads, prayers, errors, and ghosts.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " screenshots,",
+          "start": 73.94,
+          "end": 74.2,
+          "probability": 0.949
+        },
+        {
+          "word": " myths,",
+          "start": 74.58,
+          "end": 74.66,
+          "probability": 0.91
+        },
+        {
+          "word": " ads,",
+          "start": 74.96,
+          "end": 75.1,
+          "probability": 0.959
+        },
+        {
+          "word": " prayers,",
+          "start": 75.36,
+          "end": 75.46,
+          "probability": 0.987
+        },
+        {
+          "word": " errors,",
+          "start": 75.78,
+          "end": 75.94,
+          "probability": 0.918
+        },
+        {
+          "word": " and",
+          "start": 75.94,
+          "end": 76.14,
+          "probability": 0.99
+        },
+        {
+          "word": " ghosts.",
+          "start": 76.14,
+          "end": 76.44,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 77.04,
+      "end": 77.94,
+      "text": "Something sprouts.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " Something",
+          "start": 77.04,
+          "end": 77.48,
+          "probability": 0.974
+        },
+        {
+          "word": " sprouts.",
+          "start": 77.48,
+          "end": 77.94,
+          "probability": 0.735
+        }
+      ]
+    },
+    {
+      "start": 78.46,
+      "end": 79.36,
+      "text": "Usually garbage.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " Usually",
+          "start": 78.46,
+          "end": 78.88,
+          "probability": 0.95
+        },
+        {
+          "word": " garbage.",
+          "start": 78.88,
+          "end": 79.36,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 80.18,
+      "end": 80.48,
+      "text": "Good.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.486,
+      "noSpeechProbability": 0.231,
+      "words": [
+        {
+          "word": " Good.",
+          "start": 80.18,
+          "end": 80.48,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 109.55,
+      "end": 113.03,
+      "text": "writing. Writing is designing the room where writing happens.",
+      "avgLogprob": -0.227,
+      "compressionRatio": 1.64,
+      "noSpeechProbability": 0.617,
+      "words": [
+        {
+          "word": " writing.",
+          "start": 109.55,
+          "end": 110.07,
+          "probability": 0.085
+        },
+        {
+          "word": " Writing",
+          "start": 110.71,
+          "end": 111.03,
+          "probability": 0.929
+        },
+        {
+          "word": " is",
+          "start": 111.03,
+          "end": 111.23,
+          "probability": 0.99
+        },
+        {
+          "word": " designing",
+          "start": 111.23,
+          "end": 111.57,
+          "probability": 0.975
+        },
+        {
+          "word": " the",
+          "start": 111.57,
+          "end": 111.79,
+          "probability": 0.992
+        },
+        {
+          "word": " room",
+          "start": 111.79,
+          "end": 111.99,
+          "probability": 0.981
+        },
+        {
+          "word": " where",
+          "start": 111.99,
+          "end": 112.17,
+          "probability": 0.985
+        },
+        {
+          "word": " writing",
+          "start": 112.17,
+          "end": 112.43,
+          "probability": 0.997
+        },
+        {
+          "word": " happens.",
+          "start": 112.43,
+          "end": 113.03,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 114.11,
+      "end": 120.79,
+      "text": "Role is a lever. Context is a lever. Task is a lever. Format is a lever. Revision is a lever.",
+      "avgLogprob": -0.227,
+      "compressionRatio": 1.64,
+      "noSpeechProbability": 0.617,
+      "words": [
+        {
+          "word": " Role",
+          "start": 114.11,
+          "end": 114.45,
+          "probability": 0.607
+        },
+        {
+          "word": " is",
+          "start": 114.45,
+          "end": 114.59,
+          "probability": 0.958
+        },
+        {
+          "word": " a",
+          "start": 114.59,
+          "end": 114.65,
+          "probability": 0.98
+        },
+        {
+          "word": " lever.",
+          "start": 114.65,
+          "end": 114.87,
+          "probability": 0.964
+        },
+        {
+          "word": " Context",
+          "start": 115.61,
+          "end": 115.99,
+          "probability": 0.969
+        },
+        {
+          "word": " is",
+          "start": 115.99,
+          "end": 116.23,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 116.23,
+          "end": 116.33,
+          "probability": 0.996
+        },
+        {
+          "word": " lever.",
+          "start": 116.33,
+          "end": 116.55,
+          "probability": 0.996
+        },
+        {
+          "word": " Task",
+          "start": 117.11,
+          "end": 117.33,
+          "probability": 0.889
+        },
+        {
+          "word": " is",
+          "start": 117.33,
+          "end": 117.61,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 117.61,
+          "end": 117.69,
+          "probability": 0.998
+        },
+        {
+          "word": " lever.",
+          "start": 117.69,
+          "end": 117.95,
+          "probability": 0.998
+        },
+        {
+          "word": " Format",
+          "start": 118.49,
+          "end": 118.81,
+          "probability": 0.993
+        },
+        {
+          "word": " is",
+          "start": 118.81,
+          "end": 119.01,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 119.01,
+          "end": 119.13,
+          "probability": 0.995
+        },
+        {
+          "word": " lever.",
+          "start": 119.13,
+          "end": 119.37,
+          "probability": 0.998
+        },
+        {
+          "word": " Revision",
+          "start": 119.77,
+          "end": 120.11,
+          "probability": 0.94
+        },
+        {
+          "word": " is",
+          "start": 120.11,
+          "end": 120.41,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 120.41,
+          "end": 120.53,
+          "probability": 0.998
+        },
+        {
+          "word": " lever.",
+          "start": 120.53,
+          "end": 120.79,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 122.13,
+      "end": 127.49,
+      "text": "So the assignment must earn its life. No more museum tasks. No more",
+      "avgLogprob": -0.227,
+      "compressionRatio": 1.64,
+      "noSpeechProbability": 0.617,
+      "words": [
+        {
+          "word": " So",
+          "start": 122.13,
+          "end": 122.65,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 122.65,
+          "end": 122.83,
+          "probability": 0.869
+        },
+        {
+          "word": " assignment",
+          "start": 122.83,
+          "end": 123.25,
+          "probability": 0.997
+        },
+        {
+          "word": " must",
+          "start": 123.25,
+          "end": 123.51,
+          "probability": 0.998
+        },
+        {
+          "word": " earn",
+          "start": 123.51,
+          "end": 123.73,
+          "probability": 0.985
+        },
+        {
+          "word": " its",
+          "start": 123.73,
+          "end": 123.95,
+          "probability": 0.881
+        },
+        {
+          "word": " life.",
+          "start": 123.95,
+          "end": 124.39,
+          "probability": 0.998
+        },
+        {
+          "word": " No",
+          "start": 124.85,
+          "end": 124.99,
+          "probability": 0.981
+        },
+        {
+          "word": " more",
+          "start": 124.99,
+          "end": 125.21,
+          "probability": 0.994
+        },
+        {
+          "word": " museum",
+          "start": 125.21,
+          "end": 125.59,
+          "probability": 0.988
+        },
+        {
+          "word": " tasks.",
+          "start": 125.59,
+          "end": 126.17,
+          "probability": 0.983
+        },
+        {
+          "word": " No",
+          "start": 127.05,
+          "end": 127.25,
+          "probability": 0.963
+        },
+        {
+          "word": " more",
+          "start": 127.25,
+          "end": 127.49,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 157.09,
+      "end": 163.95,
+      "text": "Here is the failure. Here is the revision. Here is the bias I found. Here is the part I rejected.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.256,
+      "words": [
+        {
+          "word": " Here",
+          "start": 157.09,
+          "end": 157.53,
+          "probability": 0.634
+        },
+        {
+          "word": " is",
+          "start": 157.53,
+          "end": 157.69,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 157.69,
+          "end": 157.81,
+          "probability": 0.992
+        },
+        {
+          "word": " failure.",
+          "start": 157.81,
+          "end": 158.19,
+          "probability": 0.994
+        },
+        {
+          "word": " Here",
+          "start": 158.89,
+          "end": 159.25,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 159.25,
+          "end": 159.43,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 159.43,
+          "end": 159.53,
+          "probability": 0.996
+        },
+        {
+          "word": " revision.",
+          "start": 159.53,
+          "end": 159.87,
+          "probability": 0.986
+        },
+        {
+          "word": " Here",
+          "start": 160.71,
+          "end": 160.97,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 160.97,
+          "end": 161.15,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 161.15,
+          "end": 161.25,
+          "probability": 0.997
+        },
+        {
+          "word": " bias",
+          "start": 161.25,
+          "end": 161.51,
+          "probability": 0.921
+        },
+        {
+          "word": " I",
+          "start": 161.51,
+          "end": 161.75,
+          "probability": 0.978
+        },
+        {
+          "word": " found.",
+          "start": 161.75,
+          "end": 162.13,
+          "probability": 0.974
+        },
+        {
+          "word": " Here",
+          "start": 162.75,
+          "end": 162.91,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 162.91,
+          "end": 163.09,
+          "probability": 0.992
+        },
+        {
+          "word": " the",
+          "start": 163.09,
+          "end": 163.19,
+          "probability": 0.996
+        },
+        {
+          "word": " part",
+          "start": 163.19,
+          "end": 163.35,
+          "probability": 0.99
+        },
+        {
+          "word": " I",
+          "start": 163.35,
+          "end": 163.55,
+          "probability": 0.994
+        },
+        {
+          "word": " rejected.",
+          "start": 163.55,
+          "end": 163.95,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 164.51,
+      "end": 167.79,
+      "text": "Here is where it shaped me back. I did not dodge the struggle.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.256,
+      "words": [
+        {
+          "word": " Here",
+          "start": 164.51,
+          "end": 164.77,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 164.77,
+          "end": 164.93,
+          "probability": 0.981
+        },
+        {
+          "word": " where",
+          "start": 164.93,
+          "end": 165.07,
+          "probability": 0.999
+        },
+        {
+          "word": " it",
+          "start": 165.07,
+          "end": 165.21,
+          "probability": 0.989
+        },
+        {
+          "word": " shaped",
+          "start": 165.21,
+          "end": 165.37,
+          "probability": 0.949
+        },
+        {
+          "word": " me",
+          "start": 165.37,
+          "end": 165.59,
+          "probability": 0.997
+        },
+        {
+          "word": " back.",
+          "start": 165.59,
+          "end": 165.85,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 166.53,
+          "end": 166.67,
+          "probability": 0.99
+        },
+        {
+          "word": " did",
+          "start": 166.67,
+          "end": 166.81,
+          "probability": 0.995
+        },
+        {
+          "word": " not",
+          "start": 166.81,
+          "end": 167.01,
+          "probability": 0.999
+        },
+        {
+          "word": " dodge",
+          "start": 167.01,
+          "end": 167.29,
+          "probability": 0.944
+        },
+        {
+          "word": " the",
+          "start": 167.29,
+          "end": 167.47,
+          "probability": 0.99
+        },
+        {
+          "word": " struggle.",
+          "start": 167.47,
+          "end": 167.79,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 168.59,
+      "end": 173.15,
+      "text": "I moved it at the p.gov 25 to where the real work was hiding.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.256,
+      "words": [
+        {
+          "word": " I",
+          "start": 168.59,
+          "end": 168.97,
+          "probability": 0.996
+        },
+        {
+          "word": " moved",
+          "start": 168.97,
+          "end": 169.27,
+          "probability": 0.983
+        },
+        {
+          "word": " it",
+          "start": 169.27,
+          "end": 169.45,
+          "probability": 0.983
+        },
+        {
+          "word": " at",
+          "start": 169.45,
+          "end": 169.59,
+          "probability": 0.549
+        },
+        {
+          "word": " the",
+          "start": 169.59,
+          "end": 169.71,
+          "probability": 0.841
+        },
+        {
+          "word": " p",
+          "start": 169.71,
+          "end": 169.83,
+          "probability": 0.07
+        },
+        {
+          "word": ".gov",
+          "start": 169.83,
+          "end": 170.13,
+          "probability": 0.503
+        },
+        {
+          "word": " 25",
+          "start": 170.13,
+          "end": 170.73,
+          "probability": 0.455
+        },
+        {
+          "word": " to",
+          "start": 170.73,
+          "end": 171.89,
+          "probability": 0.768
+        },
+        {
+          "word": " where",
+          "start": 171.89,
+          "end": 172.07,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 172.07,
+          "end": 172.21,
+          "probability": 0.996
+        },
+        {
+          "word": " real",
+          "start": 172.21,
+          "end": 172.41,
+          "probability": 0.994
+        },
+        {
+          "word": " work",
+          "start": 172.41,
+          "end": 172.67,
+          "probability": 0.992
+        },
+        {
+          "word": " was",
+          "start": 172.67,
+          "end": 172.89,
+          "probability": 0.997
+        },
+        {
+          "word": " hiding.",
+          "start": 172.89,
+          "end": 173.15,
+          "probability": 0.38
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.96,
+    "wordCount": 185,
+    "credibleWordCount": 182,
+    "segmentCount": 18,
+    "averageWordProbability": 0.94,
+    "vocalSeconds": 60.76,
+    "scanCoverage": 0.337,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1161 @@
+{
+  "analysisVersion": 1,
+  "index": 5,
+  "id": "../VOLHOLLA/song-truthrhythm-04.html",
+  "slug": "blundstones-on-the-street",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "I'm Stones, got a text from my brother Said we did it today, courthouse, quick signature, then back on the way No big white tin, no reddish swans, just blind stones on and the paper worked on Henry and Brittany kept it clean, no big production, no magazine Just keys in a pocket Sun on the street two names together and boots on their feet Maybe grab coffee maybe got gas maybe said well and let the day pass. That's how you do it. No need to shout Walk in together, walk married out Henry and Brittany kept a clean No big production, no magazine Just life and motion, no ceremony A good pair of boots and somebody to phone me No heart, no dope, no speech, just enough Sign here, stand there, go eat, take care Henry and Brittany, that'll do a court house morning And a text came through . . . .",
+  "sampledRanges": [
+    [
+      0.0,
+      121.02
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 8.0,
+      "text": "I'm Stones, got a text from my brother",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.486,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "Stones,",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "got",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "a",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "text",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "from",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "my",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        },
+        {
+          "word": "brother",
+          "start": 0.0,
+          "end": 8.0,
+          "probability": 0.633
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 17.0,
+      "text": "Said we did it today, courthouse, quick signature, then back on the way",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.486,
+      "words": [
+        {
+          "word": "Said",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "we",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "did",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "it",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "today,",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "courthouse,",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "quick",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "signature,",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "then",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "back",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "on",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "the",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        },
+        {
+          "word": "way",
+          "start": 8.0,
+          "end": 17.0,
+          "probability": 0.633
+        }
+      ]
+    },
+    {
+      "start": 17.0,
+      "end": 24.0,
+      "text": "No big white tin, no reddish swans, just blind stones on and the paper worked on",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.486,
+      "words": [
+        {
+          "word": "No",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "big",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "white",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "tin,",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "no",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "reddish",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "swans,",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "just",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "blind",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "stones",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "on",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "and",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "the",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "paper",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "worked",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        },
+        {
+          "word": "on",
+          "start": 17.0,
+          "end": 24.0,
+          "probability": 0.633
+        }
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 29.0,
+      "text": "Henry and Brittany kept it clean, no big production, no magazine",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.422,
+      "noSpeechProbability": 0.486,
+      "words": [
+        {
+          "word": "Henry",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "and",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "Brittany",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "kept",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "it",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "clean,",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "no",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "big",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "production,",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "no",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        },
+        {
+          "word": "magazine",
+          "start": 24.0,
+          "end": 29.0,
+          "probability": 0.633
+        }
+      ]
+    },
+    {
+      "start": 29.0,
+      "end": 31.0,
+      "text": "Just keys in a pocket",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.384,
+      "noSpeechProbability": 0.498,
+      "words": [
+        {
+          "word": "Just",
+          "start": 29.0,
+          "end": 31.0,
+          "probability": 0.71
+        },
+        {
+          "word": "keys",
+          "start": 29.0,
+          "end": 31.0,
+          "probability": 0.71
+        },
+        {
+          "word": "in",
+          "start": 29.0,
+          "end": 31.0,
+          "probability": 0.71
+        },
+        {
+          "word": "a",
+          "start": 29.0,
+          "end": 31.0,
+          "probability": 0.71
+        },
+        {
+          "word": "pocket",
+          "start": 29.0,
+          "end": 31.0,
+          "probability": 0.71
+        }
+      ]
+    },
+    {
+      "start": 31.2,
+      "end": 36.52,
+      "text": "Sun on the street two names together and boots on their feet",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.384,
+      "noSpeechProbability": 0.498,
+      "words": [
+        {
+          "word": "Sun",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "on",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "the",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "street",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "two",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "names",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "together",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "and",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "boots",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "on",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "their",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        },
+        {
+          "word": "feet",
+          "start": 31.2,
+          "end": 36.52,
+          "probability": 0.71
+        }
+      ]
+    },
+    {
+      "start": 36.68,
+      "end": 44.98,
+      "text": "Maybe grab coffee maybe got gas maybe said well and let the day pass. That's how you do it. No need to shout",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.384,
+      "noSpeechProbability": 0.498,
+      "words": [
+        {
+          "word": "Maybe",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "grab",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "coffee",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "maybe",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "got",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "gas",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "maybe",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "said",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "well",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "and",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "let",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "the",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "day",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "pass.",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "That's",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "how",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "you",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "do",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "it.",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "No",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "need",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "to",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        },
+        {
+          "word": "shout",
+          "start": 36.68,
+          "end": 44.98,
+          "probability": 0.71
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 48.4,
+      "text": "Walk in together, walk married out",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "Walk",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        },
+        {
+          "word": "in",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        },
+        {
+          "word": "together,",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        },
+        {
+          "word": "walk",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        },
+        {
+          "word": "married",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        },
+        {
+          "word": "out",
+          "start": 45.0,
+          "end": 48.4,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 48.4,
+      "end": 51.0,
+      "text": "Henry and Brittany kept a clean",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "Henry",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        },
+        {
+          "word": "and",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        },
+        {
+          "word": "Brittany",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        },
+        {
+          "word": "kept",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        },
+        {
+          "word": "a",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        },
+        {
+          "word": "clean",
+          "start": 48.4,
+          "end": 51.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 51.0,
+      "end": 54.0,
+      "text": "No big production, no magazine",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "No",
+          "start": 51.0,
+          "end": 54.0,
+          "probability": 0.744
+        },
+        {
+          "word": "big",
+          "start": 51.0,
+          "end": 54.0,
+          "probability": 0.744
+        },
+        {
+          "word": "production,",
+          "start": 51.0,
+          "end": 54.0,
+          "probability": 0.744
+        },
+        {
+          "word": "no",
+          "start": 51.0,
+          "end": 54.0,
+          "probability": 0.744
+        },
+        {
+          "word": "magazine",
+          "start": 51.0,
+          "end": 54.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 54.0,
+      "end": 58.0,
+      "text": "Just life and motion, no ceremony",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "Just",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        },
+        {
+          "word": "life",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        },
+        {
+          "word": "and",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        },
+        {
+          "word": "motion,",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        },
+        {
+          "word": "no",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        },
+        {
+          "word": "ceremony",
+          "start": 54.0,
+          "end": 58.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 58.0,
+      "end": 62.0,
+      "text": "A good pair of boots and somebody to phone me",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "A",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "good",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "pair",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "of",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "boots",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "and",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "somebody",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "to",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "phone",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        },
+        {
+          "word": "me",
+          "start": 58.0,
+          "end": 62.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 62.0,
+      "end": 65.0,
+      "text": "No heart, no dope, no speech, just enough",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "No",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "heart,",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "no",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "dope,",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "no",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "speech,",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "just",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        },
+        {
+          "word": "enough",
+          "start": 62.0,
+          "end": 65.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 65.0,
+      "end": 68.5,
+      "text": "Sign here, stand there, go eat, take care",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "Sign",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "here,",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "stand",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "there,",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "go",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "eat,",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "take",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        },
+        {
+          "word": "care",
+          "start": 65.0,
+          "end": 68.5,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 68.5,
+      "end": 73.0,
+      "text": "Henry and Brittany, that'll do a court house morning",
+      "avgLogprob": -0.295,
+      "compressionRatio": 1.539,
+      "noSpeechProbability": 0.708,
+      "words": [
+        {
+          "word": "Henry",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "and",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "Brittany,",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "that'll",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "do",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "a",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "court",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "house",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        },
+        {
+          "word": "morning",
+          "start": 68.5,
+          "end": 73.0,
+          "probability": 0.744
+        }
+      ]
+    },
+    {
+      "start": 73.0,
+      "end": 75.0,
+      "text": "And a text came through",
+      "avgLogprob": -0.435,
+      "compressionRatio": 0.742,
+      "noSpeechProbability": 0.448,
+      "words": [
+        {
+          "word": "And",
+          "start": 73.0,
+          "end": 75.0,
+          "probability": 0.647
+        },
+        {
+          "word": "a",
+          "start": 73.0,
+          "end": 75.0,
+          "probability": 0.647
+        },
+        {
+          "word": "text",
+          "start": 73.0,
+          "end": 75.0,
+          "probability": 0.647
+        },
+        {
+          "word": "came",
+          "start": 73.0,
+          "end": 75.0,
+          "probability": 0.647
+        },
+        {
+          "word": "through",
+          "start": 73.0,
+          "end": 75.0,
+          "probability": 0.647
+        }
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 97.0,
+      "text": ".",
+      "avgLogprob": -0.684,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.674,
+      "words": [
+        {
+          "word": ".",
+          "start": 90.0,
+          "end": 97.0,
+          "probability": 0.505
+        }
+      ]
+    },
+    {
+      "start": 97.0,
+      "end": 104.0,
+      "text": ".",
+      "avgLogprob": -0.684,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.674,
+      "words": [
+        {
+          "word": ".",
+          "start": 97.0,
+          "end": 104.0,
+          "probability": 0.505
+        }
+      ]
+    },
+    {
+      "start": 104.0,
+      "end": 111.0,
+      "text": ".",
+      "avgLogprob": -0.684,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.674,
+      "words": [
+        {
+          "word": ".",
+          "start": 104.0,
+          "end": 111.0,
+          "probability": 0.505
+        }
+      ]
+    },
+    {
+      "start": 111.0,
+      "end": 118.0,
+      "text": ".",
+      "avgLogprob": -0.684,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.674,
+      "words": [
+        {
+          "word": ".",
+          "start": 111.0,
+          "end": 118.0,
+          "probability": 0.505
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.854,
+    "wordCount": 151,
+    "credibleWordCount": 151,
+    "segmentCount": 20,
+    "averageWordProbability": 0.696,
+    "vocalSeconds": 102.62,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

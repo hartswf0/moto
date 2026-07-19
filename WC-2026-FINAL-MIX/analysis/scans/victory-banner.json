@@ -1,0 +1,667 @@
+{
+  "analysisVersion": 1,
+  "index": 59,
+  "id": "../VOLHOLLA/song-queen-17.html",
+  "slug": "victory-banner",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "ar",
+  "text": "كتصفة تبلطي بلوات يدل عميا بطلات وشفيت ستواتة تسمى بكتماو ما حال بجرد قرد مس بطرات اتشفيد ستواتات أصمار كفات يرغفل مجاين تيطفى تبلات بقبرين بطلقات أصفى سلا ننو مكراوز تبلا تيبل رات يدل عرميا بطلاة وشفيد ستواتها تصمى كفات يرغفل مكاين ينت يتفى تبلا تبلا تبري شهدنا لارماء شهدنا لارماء شهدنا لارماء شهدنا لارماء شهدنا لارماء شهدنا لارماء شهدنا لارماء",
+  "sampledRanges": [
+    [
+      18.15,
+      36.15
+    ],
+    [
+      72.61,
+      90.61
+    ],
+    [
+      127.08,
+      145.08
+    ],
+    [
+      181.54,
+      199.54
+    ]
+  ],
+  "segments": [
+    {
+      "start": 18.41,
+      "end": 22.01,
+      "text": "كتصفة تبلطي بلوات",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " كتصفة",
+          "start": 18.41,
+          "end": 19.81,
+          "probability": 0.537
+        },
+        {
+          "word": " تبلطي",
+          "start": 19.81,
+          "end": 21.01,
+          "probability": 0.536
+        },
+        {
+          "word": " بلوات",
+          "start": 21.01,
+          "end": 22.01,
+          "probability": 0.672
+        }
+      ]
+    },
+    {
+      "start": 22.01,
+      "end": 23.99,
+      "text": "يدل عميا",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " يدل",
+          "start": 22.01,
+          "end": 23.17,
+          "probability": 0.546
+        },
+        {
+          "word": " عميا",
+          "start": 23.17,
+          "end": 23.99,
+          "probability": 0.56
+        }
+      ]
+    },
+    {
+      "start": 24.63,
+      "end": 26.65,
+      "text": "بطلات وشفيت",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " بطلات",
+          "start": 24.63,
+          "end": 25.65,
+          "probability": 0.593
+        },
+        {
+          "word": " وشفيت",
+          "start": 25.65,
+          "end": 26.65,
+          "probability": 0.424
+        }
+      ]
+    },
+    {
+      "start": 26.65,
+      "end": 29.43,
+      "text": "ستواتة تسمى",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " ستواتة",
+          "start": 26.65,
+          "end": 28.21,
+          "probability": 0.621
+        },
+        {
+          "word": " تسمى",
+          "start": 28.21,
+          "end": 29.43,
+          "probability": 0.608
+        }
+      ]
+    },
+    {
+      "start": 29.43,
+      "end": 31.39,
+      "text": "بكتماو",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " بكتماو",
+          "start": 29.43,
+          "end": 31.39,
+          "probability": 0.565
+        }
+      ]
+    },
+    {
+      "start": 31.39,
+      "end": 33.01,
+      "text": "ما حال",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " ما",
+          "start": 31.39,
+          "end": 32.27,
+          "probability": 0.499
+        },
+        {
+          "word": " حال",
+          "start": 32.27,
+          "end": 33.01,
+          "probability": 0.917
+        }
+      ]
+    },
+    {
+      "start": 33.87,
+      "end": 35.51,
+      "text": "بجرد قرد مس",
+      "avgLogprob": -0.829,
+      "compressionRatio": 1.423,
+      "noSpeechProbability": 0.769,
+      "words": [
+        {
+          "word": " بجرد",
+          "start": 33.87,
+          "end": 35.01,
+          "probability": 0.506
+        },
+        {
+          "word": " قرد",
+          "start": 35.01,
+          "end": 35.25,
+          "probability": 0.528
+        },
+        {
+          "word": " مس",
+          "start": 35.25,
+          "end": 35.51,
+          "probability": 0.267
+        }
+      ]
+    },
+    {
+      "start": 72.75,
+      "end": 75.13,
+      "text": "بطرات اتشفيد",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " بطرات",
+          "start": 72.75,
+          "end": 74.15,
+          "probability": 0.463
+        },
+        {
+          "word": " اتشفيد",
+          "start": 74.15,
+          "end": 75.13,
+          "probability": 0.332
+        }
+      ]
+    },
+    {
+      "start": 75.13,
+      "end": 77.35,
+      "text": "ستواتات أصمار",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " ستواتات",
+          "start": 75.13,
+          "end": 76.73,
+          "probability": 0.55
+        },
+        {
+          "word": " أصمار",
+          "start": 76.73,
+          "end": 77.35,
+          "probability": 0.423
+        }
+      ]
+    },
+    {
+      "start": 77.35,
+      "end": 79.71,
+      "text": "كفات يرغفل",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " كفات",
+          "start": 77.35,
+          "end": 78.41,
+          "probability": 0.703
+        },
+        {
+          "word": " يرغفل",
+          "start": 78.41,
+          "end": 79.71,
+          "probability": 0.561
+        }
+      ]
+    },
+    {
+      "start": 79.71,
+      "end": 81.95,
+      "text": "مجاين تيطفى",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " مجاين",
+          "start": 79.71,
+          "end": 80.63,
+          "probability": 0.4
+        },
+        {
+          "word": " تيطفى",
+          "start": 80.63,
+          "end": 81.95,
+          "probability": 0.497
+        }
+      ]
+    },
+    {
+      "start": 81.95,
+      "end": 84.27,
+      "text": "تبلات بقبرين",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " تبلات",
+          "start": 81.95,
+          "end": 83.15,
+          "probability": 0.476
+        },
+        {
+          "word": " بقبرين",
+          "start": 83.15,
+          "end": 84.27,
+          "probability": 0.346
+        }
+      ]
+    },
+    {
+      "start": 84.27,
+      "end": 86.81,
+      "text": "بطلقات أصفى",
+      "avgLogprob": -0.309,
+      "compressionRatio": 4.25,
+      "noSpeechProbability": 0.404,
+      "words": [
+        {
+          "word": " بطلقات",
+          "start": 84.27,
+          "end": 85.87,
+          "probability": 0.536
+        },
+        {
+          "word": " أصفى",
+          "start": 85.87,
+          "end": 86.81,
+          "probability": 0.938
+        }
+      ]
+    },
+    {
+      "start": 86.81,
+      "end": 90.59,
+      "text": "سلا ننو مكراوز",
+      "avgLogprob": -1.091,
+      "compressionRatio": 0.765,
+      "noSpeechProbability": 0.259,
+      "words": [
+        {
+          "word": " سلا",
+          "start": 86.81,
+          "end": 87.61,
+          "probability": 0.427
+        },
+        {
+          "word": " ننو",
+          "start": 87.61,
+          "end": 88.95,
+          "probability": 0.402
+        },
+        {
+          "word": " مكراوز",
+          "start": 88.95,
+          "end": 90.59,
+          "probability": 0.351
+        }
+      ]
+    },
+    {
+      "start": 127.66,
+      "end": 132.44,
+      "text": "تبلا تيبل رات يدل عرميا",
+      "avgLogprob": -0.74,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.867,
+      "words": [
+        {
+          "word": " تبلا",
+          "start": 127.66,
+          "end": 129.06,
+          "probability": 0.359
+        },
+        {
+          "word": " تيبل",
+          "start": 129.06,
+          "end": 129.8,
+          "probability": 0.326
+        },
+        {
+          "word": " رات",
+          "start": 129.8,
+          "end": 130.52,
+          "probability": 0.624
+        },
+        {
+          "word": " يدل",
+          "start": 130.52,
+          "end": 131.44,
+          "probability": 0.474
+        },
+        {
+          "word": " عرميا",
+          "start": 131.44,
+          "end": 132.44,
+          "probability": 0.554
+        }
+      ]
+    },
+    {
+      "start": 132.44,
+      "end": 137.08,
+      "text": "بطلاة وشفيد ستواتها تصمى",
+      "avgLogprob": -0.74,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.867,
+      "words": [
+        {
+          "word": " بطلاة",
+          "start": 132.44,
+          "end": 134.22,
+          "probability": 0.564
+        },
+        {
+          "word": " وشفيد",
+          "start": 134.22,
+          "end": 135.12,
+          "probability": 0.41
+        },
+        {
+          "word": " ستواتها",
+          "start": 135.12,
+          "end": 136.62,
+          "probability": 0.591
+        },
+        {
+          "word": " تصمى",
+          "start": 136.62,
+          "end": 137.32,
+          "probability": 0.588
+        }
+      ]
+    },
+    {
+      "start": 137.58,
+      "end": 141.08,
+      "text": "كفات يرغفل مكاين ينت يتفى",
+      "avgLogprob": -0.74,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.867,
+      "words": [
+        {
+          "word": " كفات",
+          "start": 137.58,
+          "end": 138.42,
+          "probability": 0.766
+        },
+        {
+          "word": " يرغفل",
+          "start": 138.42,
+          "end": 139.76,
+          "probability": 0.613
+        },
+        {
+          "word": " مكاين",
+          "start": 139.76,
+          "end": 140.54,
+          "probability": 0.369
+        },
+        {
+          "word": " ينت",
+          "start": 140.54,
+          "end": 140.98,
+          "probability": 0.458
+        },
+        {
+          "word": " يتفى",
+          "start": 140.98,
+          "end": 141.68,
+          "probability": 0.459
+        }
+      ]
+    },
+    {
+      "start": 141.8,
+      "end": 143.7,
+      "text": "تبلا تبلا تبري",
+      "avgLogprob": -0.74,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.867,
+      "words": [
+        {
+          "word": " تبلا",
+          "start": 141.8,
+          "end": 142.88,
+          "probability": 0.918
+        },
+        {
+          "word": " تبلا",
+          "start": 142.88,
+          "end": 143.22,
+          "probability": 0.711
+        },
+        {
+          "word": " تبري",
+          "start": 143.22,
+          "end": 143.7,
+          "probability": 0.587
+        }
+      ]
+    },
+    {
+      "start": 184.46,
+      "end": 187.26,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 184.46,
+          "end": 185.86,
+          "probability": 0.201
+        },
+        {
+          "word": " لارماء",
+          "start": 185.86,
+          "end": 187.26,
+          "probability": 0.385
+        }
+      ]
+    },
+    {
+      "start": 187.26,
+      "end": 190.0,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 187.26,
+          "end": 189.5,
+          "probability": 0.826
+        },
+        {
+          "word": " لارماء",
+          "start": 189.5,
+          "end": 190.0,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 190.0,
+      "end": 191.78,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 190.0,
+          "end": 190.66,
+          "probability": 0.953
+        },
+        {
+          "word": " لارماء",
+          "start": 190.66,
+          "end": 191.78,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 191.78,
+      "end": 196.08,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 191.78,
+          "end": 194.08,
+          "probability": 0.97
+        },
+        {
+          "word": " لارماء",
+          "start": 194.08,
+          "end": 196.08,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 196.08,
+      "end": 198.98,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 196.08,
+          "end": 198.72,
+          "probability": 0.965
+        },
+        {
+          "word": " لارماء",
+          "start": 198.72,
+          "end": 198.98,
+          "probability": 0.989
+        }
+      ]
+    },
+    {
+      "start": 198.98,
+      "end": 199.24,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 198.98,
+          "end": 198.98,
+          "probability": 0.948
+        },
+        {
+          "word": " لارماء",
+          "start": 198.98,
+          "end": 199.24,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 199.24,
+      "end": 199.52,
+      "text": "شهدنا لارماء",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": [
+        {
+          "word": " شهدنا",
+          "start": 199.24,
+          "end": 199.52,
+          "probability": 0.945
+        },
+        {
+          "word": " لارماء",
+          "start": 199.52,
+          "end": 199.52,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 199.52,
+      "end": 199.52,
+      "text": "",
+      "avgLogprob": -0.305,
+      "compressionRatio": 5.306,
+      "noSpeechProbability": 0.774,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "vocal-fragment",
+    "confidence": 0.515,
+    "wordCount": 3,
+    "credibleWordCount": 3,
+    "segmentCount": 1,
+    "averageWordProbability": 0.393,
+    "vocalSeconds": 3.78,
+    "scanCoverage": 0.294,
+    "reviewRequired": true
+  }
+}

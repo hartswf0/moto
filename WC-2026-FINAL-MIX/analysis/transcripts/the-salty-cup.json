@@ -1,0 +1,2327 @@
+{
+  "analysisVersion": 1,
+  "index": 2,
+  "id": "../VOLHOLLA/song-maquina-30.html",
+  "slug": "the-salty-cup",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Oh Oh Oh Oh Oh Oh Oh Oh Oh Oh The sky is feeling heavy Waves are hitting red Heart is moving Come with the tide Come with the tide Waiting for the weather Walking on the tide, gone with the tide, the tide Rusted middle gates, swinging slow and tired, orange glow Low and expired, sin is getting stuck inside Deep inside my tired eyes, those skies feeling heavy Waves are hitting reddy Hard is moving state Gone with the tide Gone with the tide Waiting for the weather Walking on the tide Gone Maybe it was different, maybe it was better Maybe it was gone in the tide Gone with the tide, waiting for the weather Walking on the tide, gone with the tide Gone with the tide, gone with the tide Gone with the tide I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm",
+  "sampledRanges": [
+    [
+      0.0,
+      263.18
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 0.0,
+          "end": 2.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 8.0,
+      "end": 10.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 8.0,
+          "end": 10.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 10.0,
+      "end": 12.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 10.0,
+          "end": 12.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 12.0,
+          "end": 14.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 16.0,
+          "end": 18.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 18.0,
+      "end": 20.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 18.0,
+          "end": 20.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 20.0,
+      "end": 22.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 20.0,
+          "end": 22.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 22.0,
+          "end": 24.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 24.0,
+          "end": 26.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 26.0,
+      "end": 28.0,
+      "text": "Oh",
+      "avgLogprob": -0.795,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.494,
+      "words": [
+        {
+          "word": "Oh",
+          "start": 26.0,
+          "end": 28.0,
+          "probability": 0.452
+        }
+      ]
+    },
+    {
+      "start": 28.0,
+      "end": 31.0,
+      "text": "The sky is feeling heavy",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "The",
+          "start": 28.0,
+          "end": 31.0,
+          "probability": 0.652
+        },
+        {
+          "word": "sky",
+          "start": 28.0,
+          "end": 31.0,
+          "probability": 0.652
+        },
+        {
+          "word": "is",
+          "start": 28.0,
+          "end": 31.0,
+          "probability": 0.652
+        },
+        {
+          "word": "feeling",
+          "start": 28.0,
+          "end": 31.0,
+          "probability": 0.652
+        },
+        {
+          "word": "heavy",
+          "start": 28.0,
+          "end": 31.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 32.0,
+      "end": 35.0,
+      "text": "Waves are hitting red",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "Waves",
+          "start": 32.0,
+          "end": 35.0,
+          "probability": 0.652
+        },
+        {
+          "word": "are",
+          "start": 32.0,
+          "end": 35.0,
+          "probability": 0.652
+        },
+        {
+          "word": "hitting",
+          "start": 32.0,
+          "end": 35.0,
+          "probability": 0.652
+        },
+        {
+          "word": "red",
+          "start": 32.0,
+          "end": 35.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "Heart is moving",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "Heart",
+          "start": 36.0,
+          "end": 38.0,
+          "probability": 0.652
+        },
+        {
+          "word": "is",
+          "start": 36.0,
+          "end": 38.0,
+          "probability": 0.652
+        },
+        {
+          "word": "moving",
+          "start": 36.0,
+          "end": 38.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "text": "Come with the tide",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "Come",
+          "start": 39.0,
+          "end": 41.0,
+          "probability": 0.652
+        },
+        {
+          "word": "with",
+          "start": 39.0,
+          "end": 41.0,
+          "probability": 0.652
+        },
+        {
+          "word": "the",
+          "start": 39.0,
+          "end": 41.0,
+          "probability": 0.652
+        },
+        {
+          "word": "tide",
+          "start": 39.0,
+          "end": 41.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "text": "Come with the tide",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "Come",
+          "start": 41.0,
+          "end": 43.0,
+          "probability": 0.652
+        },
+        {
+          "word": "with",
+          "start": 41.0,
+          "end": 43.0,
+          "probability": 0.652
+        },
+        {
+          "word": "the",
+          "start": 41.0,
+          "end": 43.0,
+          "probability": 0.652
+        },
+        {
+          "word": "tide",
+          "start": 41.0,
+          "end": 43.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "text": "Waiting for the weather",
+      "avgLogprob": -0.428,
+      "compressionRatio": 1.348,
+      "noSpeechProbability": 0.568,
+      "words": [
+        {
+          "word": "Waiting",
+          "start": 43.0,
+          "end": 45.0,
+          "probability": 0.652
+        },
+        {
+          "word": "for",
+          "start": 43.0,
+          "end": 45.0,
+          "probability": 0.652
+        },
+        {
+          "word": "the",
+          "start": 43.0,
+          "end": 45.0,
+          "probability": 0.652
+        },
+        {
+          "word": "weather",
+          "start": 43.0,
+          "end": 45.0,
+          "probability": 0.652
+        }
+      ]
+    },
+    {
+      "start": 45.0,
+      "end": 50.4,
+      "text": "Walking on the tide, gone with the tide, the tide",
+      "avgLogprob": -0.39,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.473,
+      "words": [
+        {
+          "word": "Walking",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "on",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "tide,",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "gone",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "with",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "tide,",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "the",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        },
+        {
+          "word": "tide",
+          "start": 45.0,
+          "end": 50.4,
+          "probability": 0.677
+        }
+      ]
+    },
+    {
+      "start": 50.4,
+      "end": 58.5,
+      "text": "Rusted middle gates, swinging slow and tired, orange glow",
+      "avgLogprob": -0.39,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.473,
+      "words": [
+        {
+          "word": "Rusted",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "middle",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "gates,",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "swinging",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "slow",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "and",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "tired,",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "orange",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        },
+        {
+          "word": "glow",
+          "start": 50.4,
+          "end": 58.5,
+          "probability": 0.677
+        }
+      ]
+    },
+    {
+      "start": 58.5,
+      "end": 65.0,
+      "text": "Low and expired, sin is getting stuck inside",
+      "avgLogprob": -0.39,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.473,
+      "words": [
+        {
+          "word": "Low",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "and",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "expired,",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "sin",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "is",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "getting",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "stuck",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        },
+        {
+          "word": "inside",
+          "start": 58.5,
+          "end": 65.0,
+          "probability": 0.677
+        }
+      ]
+    },
+    {
+      "start": 65.0,
+      "end": 73.5,
+      "text": "Deep inside my tired eyes, those skies feeling heavy",
+      "avgLogprob": -0.39,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.473,
+      "words": [
+        {
+          "word": "Deep",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "inside",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "my",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "tired",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "eyes,",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "those",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "skies",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "feeling",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        },
+        {
+          "word": "heavy",
+          "start": 65.0,
+          "end": 73.5,
+          "probability": 0.677
+        }
+      ]
+    },
+    {
+      "start": 73.5,
+      "end": 76.5,
+      "text": "Waves are hitting reddy",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Waves",
+          "start": 73.5,
+          "end": 76.5,
+          "probability": 0.697
+        },
+        {
+          "word": "are",
+          "start": 73.5,
+          "end": 76.5,
+          "probability": 0.697
+        },
+        {
+          "word": "hitting",
+          "start": 73.5,
+          "end": 76.5,
+          "probability": 0.697
+        },
+        {
+          "word": "reddy",
+          "start": 73.5,
+          "end": 76.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 77.5,
+      "end": 80.5,
+      "text": "Hard is moving state",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Hard",
+          "start": 77.5,
+          "end": 80.5,
+          "probability": 0.697
+        },
+        {
+          "word": "is",
+          "start": 77.5,
+          "end": 80.5,
+          "probability": 0.697
+        },
+        {
+          "word": "moving",
+          "start": 77.5,
+          "end": 80.5,
+          "probability": 0.697
+        },
+        {
+          "word": "state",
+          "start": 77.5,
+          "end": 80.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 80.5,
+      "end": 82.5,
+      "text": "Gone with the tide",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 80.5,
+          "end": 82.5,
+          "probability": 0.697
+        },
+        {
+          "word": "with",
+          "start": 80.5,
+          "end": 82.5,
+          "probability": 0.697
+        },
+        {
+          "word": "the",
+          "start": 80.5,
+          "end": 82.5,
+          "probability": 0.697
+        },
+        {
+          "word": "tide",
+          "start": 80.5,
+          "end": 82.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 82.5,
+      "end": 84.5,
+      "text": "Gone with the tide",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 82.5,
+          "end": 84.5,
+          "probability": 0.697
+        },
+        {
+          "word": "with",
+          "start": 82.5,
+          "end": 84.5,
+          "probability": 0.697
+        },
+        {
+          "word": "the",
+          "start": 82.5,
+          "end": 84.5,
+          "probability": 0.697
+        },
+        {
+          "word": "tide",
+          "start": 82.5,
+          "end": 84.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 84.5,
+      "end": 86.5,
+      "text": "Waiting for the weather",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Waiting",
+          "start": 84.5,
+          "end": 86.5,
+          "probability": 0.697
+        },
+        {
+          "word": "for",
+          "start": 84.5,
+          "end": 86.5,
+          "probability": 0.697
+        },
+        {
+          "word": "the",
+          "start": 84.5,
+          "end": 86.5,
+          "probability": 0.697
+        },
+        {
+          "word": "weather",
+          "start": 84.5,
+          "end": 86.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 86.5,
+      "end": 88.5,
+      "text": "Walking on the tide",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Walking",
+          "start": 86.5,
+          "end": 88.5,
+          "probability": 0.697
+        },
+        {
+          "word": "on",
+          "start": 86.5,
+          "end": 88.5,
+          "probability": 0.697
+        },
+        {
+          "word": "the",
+          "start": 86.5,
+          "end": 88.5,
+          "probability": 0.697
+        },
+        {
+          "word": "tide",
+          "start": 86.5,
+          "end": 88.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 88.5,
+      "end": 89.5,
+      "text": "Gone",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.489,
+      "noSpeechProbability": 0.433,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 88.5,
+          "end": 89.5,
+          "probability": 0.697
+        }
+      ]
+    },
+    {
+      "start": 90.0,
+      "end": 94.0,
+      "text": "Maybe it was different, maybe it was better",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Maybe",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "it",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "was",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "different,",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "maybe",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "it",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "was",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        },
+        {
+          "word": "better",
+          "start": 90.0,
+          "end": 94.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 94.0,
+      "end": 98.0,
+      "text": "Maybe it was gone in the tide",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Maybe",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "it",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "was",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "gone",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "in",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide",
+          "start": 94.0,
+          "end": 98.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 98.0,
+      "end": 102.0,
+      "text": "Gone with the tide, waiting for the weather",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "with",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide,",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "waiting",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "for",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        },
+        {
+          "word": "weather",
+          "start": 98.0,
+          "end": 102.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 102.0,
+      "end": 106.0,
+      "text": "Walking on the tide, gone with the tide",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Walking",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "on",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide,",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "gone",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "with",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide",
+          "start": 102.0,
+          "end": 106.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 106.0,
+      "end": 110.0,
+      "text": "Gone with the tide, gone with the tide",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "with",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide,",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "gone",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "with",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide",
+          "start": 106.0,
+          "end": 110.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 110.0,
+      "end": 114.0,
+      "text": "Gone with the tide",
+      "avgLogprob": -0.244,
+      "compressionRatio": 2.087,
+      "noSpeechProbability": 0.826,
+      "words": [
+        {
+          "word": "Gone",
+          "start": 110.0,
+          "end": 114.0,
+          "probability": 0.783
+        },
+        {
+          "word": "with",
+          "start": 110.0,
+          "end": 114.0,
+          "probability": 0.783
+        },
+        {
+          "word": "the",
+          "start": 110.0,
+          "end": 114.0,
+          "probability": 0.783
+        },
+        {
+          "word": "tide",
+          "start": 110.0,
+          "end": 114.0,
+          "probability": 0.783
+        }
+      ]
+    },
+    {
+      "start": 135.0,
+      "end": 165.0,
+      "text": "I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm",
+      "avgLogprob": -0.203,
+      "compressionRatio": 13.426,
+      "noSpeechProbability": 0.792,
+      "words": [
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "going",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "to",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "do",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "a",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "little",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "bit",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "of",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "the",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "same",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "thing,",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        },
+        {
+          "word": "I'm",
+          "start": 135.0,
+          "end": 165.0,
+          "probability": 0.816
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.833,
+    "wordCount": 95,
+    "credibleWordCount": 95,
+    "segmentCount": 27,
+    "averageWordProbability": 0.652,
+    "vocalSeconds": 77.5,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

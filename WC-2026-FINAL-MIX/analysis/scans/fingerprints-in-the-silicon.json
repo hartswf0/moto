@@ -1,0 +1,1994 @@
+{
+  "analysisVersion": 1,
+  "index": 50,
+  "id": "../VOLHOLLA/song-betterhands-04.html",
+  "slug": "fingerprints-in-the-silicon",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Suspicion lives in a sparkless paragraph Ain't nothing breathing that arrives without residue But the system talked about the heart of his rough draft Talked him that is wrong Messy processes a prosecutor looking for a guilty plea A dead syllabus wants a product A living assignment wants a fingerprint The algorithm didn't invent the shortcut It just put your laziness in a tr- The frequency, the real, heavy question is, what were you obeying? Use the machine sloppy, you're just a courier delivering a package. Use it deep, wrestle with it. You become an accomplice implicated in the text. To show the prom log is to show the moon before the skin healed over. The old schoolroom love goes labor. It loved the invisible struggle. The machine just made- Finishing the sentence that you didn't even understand Teasing you to plant their feet and say This blood is mine, this bone is borrowed, this path I rejected And this path rejected me, the screen is a mirror Not because it looks like you, but because it showed you exactly what you lacked the vocabulary the name Every hammer reshaped the hands clinging it A innocent hand is a fairy tale told by... from the screen less hypnotized. Step away from the chalkboard less innocent. The threat anchor the silicone will think for us. The threat is will swallow its thoughts because they mimic our cadence. I use the machine ain't a confession. It's the pro-law to your testimony and the testimony might still be a lie. It ain't about whether the tool opened his mouth. It's about whether you train your ear to hear the difference. The classroom...",
+  "sampledRanges": [
+    [
+      14.09,
+      32.09
+    ],
+    [
+      56.36,
+      74.36
+    ],
+    [
+      98.63,
+      116.63
+    ],
+    [
+      140.9,
+      158.9
+    ]
+  ],
+  "segments": [
+    {
+      "start": 14.57,
+      "end": 18.85,
+      "text": "Suspicion lives in a sparkless paragraph Ain't nothing breathing that arrives without residue",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.582,
+      "noSpeechProbability": 0.626,
+      "words": [
+        {
+          "word": " Suspicion",
+          "start": 14.57,
+          "end": 15.09,
+          "probability": 0.421
+        },
+        {
+          "word": " lives",
+          "start": 15.09,
+          "end": 15.33,
+          "probability": 0.942
+        },
+        {
+          "word": " in",
+          "start": 15.33,
+          "end": 15.51,
+          "probability": 0.915
+        },
+        {
+          "word": " a",
+          "start": 15.51,
+          "end": 15.61,
+          "probability": 0.839
+        },
+        {
+          "word": " sparkless",
+          "start": 15.61,
+          "end": 16.05,
+          "probability": 0.453
+        },
+        {
+          "word": " paragraph",
+          "start": 16.05,
+          "end": 16.51,
+          "probability": 0.984
+        },
+        {
+          "word": " Ain't",
+          "start": 16.51,
+          "end": 16.99,
+          "probability": 0.811
+        },
+        {
+          "word": " nothing",
+          "start": 16.99,
+          "end": 17.19,
+          "probability": 0.809
+        },
+        {
+          "word": " breathing",
+          "start": 17.19,
+          "end": 17.49,
+          "probability": 0.909
+        },
+        {
+          "word": " that",
+          "start": 17.49,
+          "end": 17.71,
+          "probability": 0.946
+        },
+        {
+          "word": " arrives",
+          "start": 17.71,
+          "end": 18.05,
+          "probability": 0.725
+        },
+        {
+          "word": " without",
+          "start": 18.05,
+          "end": 18.33,
+          "probability": 0.928
+        },
+        {
+          "word": " residue",
+          "start": 18.33,
+          "end": 18.85,
+          "probability": 0.961
+        }
+      ]
+    },
+    {
+      "start": 18.85,
+      "end": 21.13,
+      "text": "But the system talked about the heart of his rough draft",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.582,
+      "noSpeechProbability": 0.626,
+      "words": [
+        {
+          "word": " But",
+          "start": 18.85,
+          "end": 19.19,
+          "probability": 0.75
+        },
+        {
+          "word": " the",
+          "start": 19.19,
+          "end": 19.33,
+          "probability": 0.995
+        },
+        {
+          "word": " system",
+          "start": 19.33,
+          "end": 19.61,
+          "probability": 0.991
+        },
+        {
+          "word": " talked",
+          "start": 19.61,
+          "end": 19.83,
+          "probability": 0.378
+        },
+        {
+          "word": " about",
+          "start": 19.83,
+          "end": 20.11,
+          "probability": 0.275
+        },
+        {
+          "word": " the",
+          "start": 20.11,
+          "end": 20.39,
+          "probability": 0.502
+        },
+        {
+          "word": " heart",
+          "start": 20.39,
+          "end": 20.51,
+          "probability": 0.383
+        },
+        {
+          "word": " of",
+          "start": 20.51,
+          "end": 20.63,
+          "probability": 0.456
+        },
+        {
+          "word": " his",
+          "start": 20.63,
+          "end": 20.71,
+          "probability": 0.608
+        },
+        {
+          "word": " rough",
+          "start": 20.71,
+          "end": 20.87,
+          "probability": 0.94
+        },
+        {
+          "word": " draft",
+          "start": 20.87,
+          "end": 21.13,
+          "probability": 0.91
+        }
+      ]
+    },
+    {
+      "start": 21.13,
+      "end": 25.07,
+      "text": "Talked him that is wrong Messy processes a prosecutor looking for a guilty plea",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.582,
+      "noSpeechProbability": 0.626,
+      "words": [
+        {
+          "word": " Talked",
+          "start": 21.13,
+          "end": 21.67,
+          "probability": 0.288
+        },
+        {
+          "word": " him",
+          "start": 21.67,
+          "end": 21.73,
+          "probability": 0.842
+        },
+        {
+          "word": " that",
+          "start": 21.73,
+          "end": 21.83,
+          "probability": 0.938
+        },
+        {
+          "word": " is",
+          "start": 21.83,
+          "end": 21.99,
+          "probability": 0.818
+        },
+        {
+          "word": " wrong",
+          "start": 21.99,
+          "end": 22.25,
+          "probability": 0.786
+        },
+        {
+          "word": " Messy",
+          "start": 22.25,
+          "end": 22.75,
+          "probability": 0.873
+        },
+        {
+          "word": " processes",
+          "start": 22.75,
+          "end": 23.21,
+          "probability": 0.679
+        },
+        {
+          "word": " a",
+          "start": 23.21,
+          "end": 23.39,
+          "probability": 0.654
+        },
+        {
+          "word": " prosecutor",
+          "start": 23.39,
+          "end": 23.81,
+          "probability": 0.918
+        },
+        {
+          "word": " looking",
+          "start": 23.81,
+          "end": 24.15,
+          "probability": 0.943
+        },
+        {
+          "word": " for",
+          "start": 24.15,
+          "end": 24.37,
+          "probability": 0.942
+        },
+        {
+          "word": " a",
+          "start": 24.37,
+          "end": 24.51,
+          "probability": 0.555
+        },
+        {
+          "word": " guilty",
+          "start": 24.51,
+          "end": 24.67,
+          "probability": 0.985
+        },
+        {
+          "word": " plea",
+          "start": 24.67,
+          "end": 25.07,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 25.07,
+      "end": 28.43,
+      "text": "A dead syllabus wants a product A living assignment wants a fingerprint",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.582,
+      "noSpeechProbability": 0.626,
+      "words": [
+        {
+          "word": " A",
+          "start": 25.07,
+          "end": 25.39,
+          "probability": 0.93
+        },
+        {
+          "word": " dead",
+          "start": 25.39,
+          "end": 25.57,
+          "probability": 0.9
+        },
+        {
+          "word": " syllabus",
+          "start": 25.57,
+          "end": 25.95,
+          "probability": 0.72
+        },
+        {
+          "word": " wants",
+          "start": 25.95,
+          "end": 26.27,
+          "probability": 0.918
+        },
+        {
+          "word": " a",
+          "start": 26.27,
+          "end": 26.39,
+          "probability": 0.972
+        },
+        {
+          "word": " product",
+          "start": 26.39,
+          "end": 26.73,
+          "probability": 0.966
+        },
+        {
+          "word": " A",
+          "start": 26.73,
+          "end": 27.13,
+          "probability": 0.883
+        },
+        {
+          "word": " living",
+          "start": 27.13,
+          "end": 27.33,
+          "probability": 0.993
+        },
+        {
+          "word": " assignment",
+          "start": 27.33,
+          "end": 27.73,
+          "probability": 0.995
+        },
+        {
+          "word": " wants",
+          "start": 27.73,
+          "end": 28.05,
+          "probability": 0.908
+        },
+        {
+          "word": " a",
+          "start": 28.05,
+          "end": 28.17,
+          "probability": 0.978
+        },
+        {
+          "word": " fingerprint",
+          "start": 28.17,
+          "end": 28.43,
+          "probability": 0.934
+        }
+      ]
+    },
+    {
+      "start": 28.43,
+      "end": 32.07,
+      "text": "The algorithm didn't invent the shortcut It just put your laziness in a tr-",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.582,
+      "noSpeechProbability": 0.626,
+      "words": [
+        {
+          "word": " The",
+          "start": 28.43,
+          "end": 29.01,
+          "probability": 0.951
+        },
+        {
+          "word": " algorithm",
+          "start": 29.01,
+          "end": 29.27,
+          "probability": 0.972
+        },
+        {
+          "word": " didn't",
+          "start": 29.27,
+          "end": 29.75,
+          "probability": 0.991
+        },
+        {
+          "word": " invent",
+          "start": 29.75,
+          "end": 29.95,
+          "probability": 0.239
+        },
+        {
+          "word": " the",
+          "start": 29.95,
+          "end": 30.13,
+          "probability": 0.949
+        },
+        {
+          "word": " shortcut",
+          "start": 30.13,
+          "end": 30.51,
+          "probability": 0.719
+        },
+        {
+          "word": " It",
+          "start": 30.51,
+          "end": 30.87,
+          "probability": 0.816
+        },
+        {
+          "word": " just",
+          "start": 30.87,
+          "end": 31.01,
+          "probability": 0.993
+        },
+        {
+          "word": " put",
+          "start": 31.01,
+          "end": 31.19,
+          "probability": 0.706
+        },
+        {
+          "word": " your",
+          "start": 31.19,
+          "end": 31.35,
+          "probability": 0.96
+        },
+        {
+          "word": " laziness",
+          "start": 31.35,
+          "end": 31.75,
+          "probability": 0.99
+        },
+        {
+          "word": " in",
+          "start": 31.75,
+          "end": 31.95,
+          "probability": 0.886
+        },
+        {
+          "word": " a",
+          "start": 31.95,
+          "end": 32.05,
+          "probability": 0.62
+        },
+        {
+          "word": " tr",
+          "start": 32.05,
+          "end": 32.07,
+          "probability": 0.089
+        },
+        {
+          "word": "-",
+          "start": 32.07,
+          "end": 32.07,
+          "probability": 0.067
+        }
+      ]
+    },
+    {
+      "start": 56.58,
+      "end": 60.26,
+      "text": "The frequency, the real, heavy question is, what were you obeying?",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " The",
+          "start": 56.58,
+          "end": 57.0,
+          "probability": 0.098
+        },
+        {
+          "word": " frequency,",
+          "start": 57.0,
+          "end": 57.32,
+          "probability": 0.236
+        },
+        {
+          "word": " the",
+          "start": 57.36,
+          "end": 57.8,
+          "probability": 0.974
+        },
+        {
+          "word": " real,",
+          "start": 57.8,
+          "end": 58.08,
+          "probability": 0.985
+        },
+        {
+          "word": " heavy",
+          "start": 58.28,
+          "end": 58.46,
+          "probability": 0.948
+        },
+        {
+          "word": " question",
+          "start": 58.46,
+          "end": 58.8,
+          "probability": 0.962
+        },
+        {
+          "word": " is,",
+          "start": 58.8,
+          "end": 59.06,
+          "probability": 0.965
+        },
+        {
+          "word": " what",
+          "start": 59.3,
+          "end": 59.38,
+          "probability": 0.642
+        },
+        {
+          "word": " were",
+          "start": 59.38,
+          "end": 59.54,
+          "probability": 0.907
+        },
+        {
+          "word": " you",
+          "start": 59.54,
+          "end": 59.72,
+          "probability": 0.984
+        },
+        {
+          "word": " obeying?",
+          "start": 59.72,
+          "end": 60.26,
+          "probability": 0.844
+        }
+      ]
+    },
+    {
+      "start": 60.4,
+      "end": 63.22,
+      "text": "Use the machine sloppy, you're just a courier delivering a package.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " Use",
+          "start": 60.4,
+          "end": 60.5,
+          "probability": 0.898
+        },
+        {
+          "word": " the",
+          "start": 60.5,
+          "end": 60.6,
+          "probability": 0.991
+        },
+        {
+          "word": " machine",
+          "start": 60.6,
+          "end": 60.84,
+          "probability": 0.883
+        },
+        {
+          "word": " sloppy,",
+          "start": 60.84,
+          "end": 61.24,
+          "probability": 0.887
+        },
+        {
+          "word": " you're",
+          "start": 61.6,
+          "end": 61.72,
+          "probability": 0.581
+        },
+        {
+          "word": " just",
+          "start": 61.72,
+          "end": 61.86,
+          "probability": 0.996
+        },
+        {
+          "word": " a",
+          "start": 61.86,
+          "end": 62.0,
+          "probability": 0.888
+        },
+        {
+          "word": " courier",
+          "start": 62.0,
+          "end": 62.32,
+          "probability": 0.721
+        },
+        {
+          "word": " delivering",
+          "start": 62.32,
+          "end": 62.7,
+          "probability": 0.921
+        },
+        {
+          "word": " a",
+          "start": 62.7,
+          "end": 62.88,
+          "probability": 0.987
+        },
+        {
+          "word": " package.",
+          "start": 62.88,
+          "end": 63.22,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 63.48,
+      "end": 64.84,
+      "text": "Use it deep, wrestle with it.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " Use",
+          "start": 63.48,
+          "end": 63.7,
+          "probability": 0.982
+        },
+        {
+          "word": " it",
+          "start": 63.7,
+          "end": 63.84,
+          "probability": 0.91
+        },
+        {
+          "word": " deep,",
+          "start": 63.84,
+          "end": 64.0,
+          "probability": 0.97
+        },
+        {
+          "word": " wrestle",
+          "start": 64.26,
+          "end": 64.46,
+          "probability": 0.952
+        },
+        {
+          "word": " with",
+          "start": 64.46,
+          "end": 64.68,
+          "probability": 0.998
+        },
+        {
+          "word": " it.",
+          "start": 64.68,
+          "end": 64.84,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 65.02,
+      "end": 66.98,
+      "text": "You become an accomplice implicated in the text.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " You",
+          "start": 65.02,
+          "end": 65.1,
+          "probability": 0.988
+        },
+        {
+          "word": " become",
+          "start": 65.1,
+          "end": 65.34,
+          "probability": 0.274
+        },
+        {
+          "word": " an",
+          "start": 65.34,
+          "end": 65.52,
+          "probability": 0.815
+        },
+        {
+          "word": " accomplice",
+          "start": 65.52,
+          "end": 65.98,
+          "probability": 0.851
+        },
+        {
+          "word": " implicated",
+          "start": 65.98,
+          "end": 66.38,
+          "probability": 0.827
+        },
+        {
+          "word": " in",
+          "start": 66.38,
+          "end": 66.6,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 66.6,
+          "end": 66.7,
+          "probability": 0.995
+        },
+        {
+          "word": " text.",
+          "start": 66.7,
+          "end": 66.98,
+          "probability": 0.639
+        }
+      ]
+    },
+    {
+      "start": 67.24,
+      "end": 70.06,
+      "text": "To show the prom log is to show the moon before the skin healed over.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " To",
+          "start": 67.24,
+          "end": 67.32,
+          "probability": 0.962
+        },
+        {
+          "word": " show",
+          "start": 67.32,
+          "end": 67.46,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 67.46,
+          "end": 67.64,
+          "probability": 0.987
+        },
+        {
+          "word": " prom",
+          "start": 67.64,
+          "end": 67.8,
+          "probability": 0.489
+        },
+        {
+          "word": " log",
+          "start": 67.8,
+          "end": 68.08,
+          "probability": 0.294
+        },
+        {
+          "word": " is",
+          "start": 68.08,
+          "end": 68.22,
+          "probability": 0.429
+        },
+        {
+          "word": " to",
+          "start": 68.22,
+          "end": 68.34,
+          "probability": 0.981
+        },
+        {
+          "word": " show",
+          "start": 68.34,
+          "end": 68.5,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 68.5,
+          "end": 68.64,
+          "probability": 0.989
+        },
+        {
+          "word": " moon",
+          "start": 68.64,
+          "end": 68.84,
+          "probability": 0.963
+        },
+        {
+          "word": " before",
+          "start": 68.84,
+          "end": 69.12,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 69.12,
+          "end": 69.26,
+          "probability": 0.985
+        },
+        {
+          "word": " skin",
+          "start": 69.26,
+          "end": 69.44,
+          "probability": 0.95
+        },
+        {
+          "word": " healed",
+          "start": 69.44,
+          "end": 69.74,
+          "probability": 0.707
+        },
+        {
+          "word": " over.",
+          "start": 69.74,
+          "end": 70.06,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 70.3,
+      "end": 71.92,
+      "text": "The old schoolroom love goes labor.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " The",
+          "start": 70.3,
+          "end": 70.42,
+          "probability": 0.973
+        },
+        {
+          "word": " old",
+          "start": 70.42,
+          "end": 70.58,
+          "probability": 0.989
+        },
+        {
+          "word": " schoolroom",
+          "start": 70.58,
+          "end": 71.06,
+          "probability": 0.651
+        },
+        {
+          "word": " love",
+          "start": 71.06,
+          "end": 71.32,
+          "probability": 0.852
+        },
+        {
+          "word": " goes",
+          "start": 71.32,
+          "end": 71.56,
+          "probability": 0.79
+        },
+        {
+          "word": " labor.",
+          "start": 71.56,
+          "end": 71.92,
+          "probability": 0.757
+        }
+      ]
+    },
+    {
+      "start": 72.14,
+      "end": 73.36,
+      "text": "It loved the invisible struggle.",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " It",
+          "start": 72.14,
+          "end": 72.22,
+          "probability": 0.726
+        },
+        {
+          "word": " loved",
+          "start": 72.22,
+          "end": 72.42,
+          "probability": 0.683
+        },
+        {
+          "word": " the",
+          "start": 72.42,
+          "end": 72.6,
+          "probability": 0.98
+        },
+        {
+          "word": " invisible",
+          "start": 72.6,
+          "end": 72.94,
+          "probability": 0.98
+        },
+        {
+          "word": " struggle.",
+          "start": 72.94,
+          "end": 73.36,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 73.62,
+      "end": 74.34,
+      "text": "The machine just made-",
+      "avgLogprob": -0.324,
+      "compressionRatio": 1.569,
+      "noSpeechProbability": 0.722,
+      "words": [
+        {
+          "word": " The",
+          "start": 73.62,
+          "end": 73.68,
+          "probability": 0.972
+        },
+        {
+          "word": " machine",
+          "start": 73.68,
+          "end": 73.96,
+          "probability": 0.982
+        },
+        {
+          "word": " just",
+          "start": 73.96,
+          "end": 74.18,
+          "probability": 0.985
+        },
+        {
+          "word": " made",
+          "start": 74.18,
+          "end": 74.34,
+          "probability": 0.354
+        },
+        {
+          "word": "-",
+          "start": 74.34,
+          "end": 74.34,
+          "probability": 0.223
+        }
+      ]
+    },
+    {
+      "start": 98.65,
+      "end": 100.75,
+      "text": "Finishing the sentence that you didn't even understand",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " Finishing",
+          "start": 98.65,
+          "end": 99.09,
+          "probability": 0.621
+        },
+        {
+          "word": " the",
+          "start": 99.09,
+          "end": 99.27,
+          "probability": 0.968
+        },
+        {
+          "word": " sentence",
+          "start": 99.27,
+          "end": 99.47,
+          "probability": 0.432
+        },
+        {
+          "word": " that",
+          "start": 99.47,
+          "end": 99.69,
+          "probability": 0.585
+        },
+        {
+          "word": " you",
+          "start": 99.69,
+          "end": 99.79,
+          "probability": 0.993
+        },
+        {
+          "word": " didn't",
+          "start": 99.79,
+          "end": 100.01,
+          "probability": 0.993
+        },
+        {
+          "word": " even",
+          "start": 100.01,
+          "end": 100.19,
+          "probability": 0.96
+        },
+        {
+          "word": " understand",
+          "start": 100.19,
+          "end": 100.75,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 100.75,
+      "end": 102.45,
+      "text": "Teasing you to plant their feet and say",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " Teasing",
+          "start": 100.75,
+          "end": 101.25,
+          "probability": 0.233
+        },
+        {
+          "word": " you",
+          "start": 101.25,
+          "end": 101.43,
+          "probability": 0.803
+        },
+        {
+          "word": " to",
+          "start": 101.43,
+          "end": 101.57,
+          "probability": 0.936
+        },
+        {
+          "word": " plant",
+          "start": 101.57,
+          "end": 101.79,
+          "probability": 0.902
+        },
+        {
+          "word": " their",
+          "start": 101.79,
+          "end": 101.95,
+          "probability": 0.761
+        },
+        {
+          "word": " feet",
+          "start": 101.95,
+          "end": 102.13,
+          "probability": 0.888
+        },
+        {
+          "word": " and",
+          "start": 102.13,
+          "end": 102.25,
+          "probability": 0.935
+        },
+        {
+          "word": " say",
+          "start": 102.25,
+          "end": 102.45,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 102.45,
+      "end": 105.95,
+      "text": "This blood is mine, this bone is borrowed, this path I rejected",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " This",
+          "start": 102.45,
+          "end": 102.81,
+          "probability": 0.451
+        },
+        {
+          "word": " blood",
+          "start": 102.81,
+          "end": 103.07,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 103.07,
+          "end": 103.29,
+          "probability": 0.995
+        },
+        {
+          "word": " mine,",
+          "start": 103.29,
+          "end": 103.59,
+          "probability": 0.991
+        },
+        {
+          "word": " this",
+          "start": 103.75,
+          "end": 103.99,
+          "probability": 0.954
+        },
+        {
+          "word": " bone",
+          "start": 103.99,
+          "end": 104.23,
+          "probability": 0.986
+        },
+        {
+          "word": " is",
+          "start": 104.23,
+          "end": 104.43,
+          "probability": 0.992
+        },
+        {
+          "word": " borrowed,",
+          "start": 104.43,
+          "end": 104.73,
+          "probability": 0.607
+        },
+        {
+          "word": " this",
+          "start": 104.95,
+          "end": 105.15,
+          "probability": 0.881
+        },
+        {
+          "word": " path",
+          "start": 105.15,
+          "end": 105.39,
+          "probability": 0.996
+        },
+        {
+          "word": " I",
+          "start": 105.39,
+          "end": 105.59,
+          "probability": 0.558
+        },
+        {
+          "word": " rejected",
+          "start": 105.59,
+          "end": 105.95,
+          "probability": 0.347
+        }
+      ]
+    },
+    {
+      "start": 105.95,
+      "end": 108.43,
+      "text": "And this path rejected me, the screen is a mirror",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " And",
+          "start": 105.95,
+          "end": 106.35,
+          "probability": 0.442
+        },
+        {
+          "word": " this",
+          "start": 106.35,
+          "end": 106.53,
+          "probability": 0.998
+        },
+        {
+          "word": " path",
+          "start": 106.53,
+          "end": 106.73,
+          "probability": 0.999
+        },
+        {
+          "word": " rejected",
+          "start": 106.73,
+          "end": 107.11,
+          "probability": 0.934
+        },
+        {
+          "word": " me,",
+          "start": 107.11,
+          "end": 107.43,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 107.47,
+          "end": 107.59,
+          "probability": 0.91
+        },
+        {
+          "word": " screen",
+          "start": 107.59,
+          "end": 107.83,
+          "probability": 0.991
+        },
+        {
+          "word": " is",
+          "start": 107.83,
+          "end": 108.07,
+          "probability": 0.979
+        },
+        {
+          "word": " a",
+          "start": 108.07,
+          "end": 108.13,
+          "probability": 0.88
+        },
+        {
+          "word": " mirror",
+          "start": 108.13,
+          "end": 108.43,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 108.43,
+      "end": 112.89,
+      "text": "Not because it looks like you, but because it showed you exactly what you lacked the vocabulary the name",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " Not",
+          "start": 108.43,
+          "end": 108.77,
+          "probability": 0.924
+        },
+        {
+          "word": " because",
+          "start": 108.77,
+          "end": 109.03,
+          "probability": 0.995
+        },
+        {
+          "word": " it",
+          "start": 109.03,
+          "end": 109.19,
+          "probability": 0.996
+        },
+        {
+          "word": " looks",
+          "start": 109.19,
+          "end": 109.31,
+          "probability": 0.924
+        },
+        {
+          "word": " like",
+          "start": 109.31,
+          "end": 109.57,
+          "probability": 0.998
+        },
+        {
+          "word": " you,",
+          "start": 109.57,
+          "end": 109.85,
+          "probability": 0.995
+        },
+        {
+          "word": " but",
+          "start": 109.91,
+          "end": 110.13,
+          "probability": 0.967
+        },
+        {
+          "word": " because",
+          "start": 110.13,
+          "end": 110.37,
+          "probability": 0.988
+        },
+        {
+          "word": " it",
+          "start": 110.37,
+          "end": 110.53,
+          "probability": 0.994
+        },
+        {
+          "word": " showed",
+          "start": 110.53,
+          "end": 110.73,
+          "probability": 0.629
+        },
+        {
+          "word": " you",
+          "start": 110.73,
+          "end": 110.89,
+          "probability": 0.994
+        },
+        {
+          "word": " exactly",
+          "start": 110.89,
+          "end": 111.23,
+          "probability": 0.895
+        },
+        {
+          "word": " what",
+          "start": 111.23,
+          "end": 111.45,
+          "probability": 0.972
+        },
+        {
+          "word": " you",
+          "start": 111.45,
+          "end": 111.59,
+          "probability": 0.989
+        },
+        {
+          "word": " lacked",
+          "start": 111.59,
+          "end": 111.73,
+          "probability": 0.53
+        },
+        {
+          "word": " the",
+          "start": 111.73,
+          "end": 111.87,
+          "probability": 0.449
+        },
+        {
+          "word": " vocabulary",
+          "start": 111.87,
+          "end": 112.31,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 112.31,
+          "end": 112.61,
+          "probability": 0.27
+        },
+        {
+          "word": " name",
+          "start": 112.61,
+          "end": 112.89,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 112.89,
+      "end": 114.73,
+      "text": "Every hammer reshaped the hands clinging it",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " Every",
+          "start": 112.89,
+          "end": 113.29,
+          "probability": 0.761
+        },
+        {
+          "word": " hammer",
+          "start": 113.29,
+          "end": 113.49,
+          "probability": 0.526
+        },
+        {
+          "word": " reshaped",
+          "start": 113.49,
+          "end": 113.87,
+          "probability": 0.696
+        },
+        {
+          "word": " the",
+          "start": 113.87,
+          "end": 114.03,
+          "probability": 0.769
+        },
+        {
+          "word": " hands",
+          "start": 114.03,
+          "end": 114.23,
+          "probability": 0.671
+        },
+        {
+          "word": " clinging",
+          "start": 114.23,
+          "end": 114.55,
+          "probability": 0.719
+        },
+        {
+          "word": " it",
+          "start": 114.55,
+          "end": 114.73,
+          "probability": 0.902
+        }
+      ]
+    },
+    {
+      "start": 114.73,
+      "end": 116.61,
+      "text": "A innocent hand is a fairy tale told by...",
+      "avgLogprob": -0.242,
+      "compressionRatio": 1.639,
+      "noSpeechProbability": 0.538,
+      "words": [
+        {
+          "word": " A",
+          "start": 114.73,
+          "end": 114.95,
+          "probability": 0.481
+        },
+        {
+          "word": " innocent",
+          "start": 114.95,
+          "end": 115.23,
+          "probability": 0.992
+        },
+        {
+          "word": " hand",
+          "start": 115.23,
+          "end": 115.51,
+          "probability": 0.995
+        },
+        {
+          "word": " is",
+          "start": 115.51,
+          "end": 115.65,
+          "probability": 0.925
+        },
+        {
+          "word": " a",
+          "start": 115.65,
+          "end": 115.73,
+          "probability": 0.991
+        },
+        {
+          "word": " fairy",
+          "start": 115.73,
+          "end": 115.93,
+          "probability": 0.832
+        },
+        {
+          "word": " tale",
+          "start": 115.93,
+          "end": 116.17,
+          "probability": 0.936
+        },
+        {
+          "word": " told",
+          "start": 116.17,
+          "end": 116.35,
+          "probability": 0.583
+        },
+        {
+          "word": " by...",
+          "start": 116.35,
+          "end": 116.61,
+          "probability": 0.555
+        }
+      ]
+    },
+    {
+      "start": 140.9,
+      "end": 144.66,
+      "text": "from the screen less hypnotized. Step away from the chalkboard less innocent. The threat",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " from",
+          "start": 140.9,
+          "end": 141.08,
+          "probability": 0.056
+        },
+        {
+          "word": " the",
+          "start": 141.08,
+          "end": 141.22,
+          "probability": 0.946
+        },
+        {
+          "word": " screen",
+          "start": 141.22,
+          "end": 141.42,
+          "probability": 0.805
+        },
+        {
+          "word": " less",
+          "start": 141.42,
+          "end": 141.64,
+          "probability": 0.336
+        },
+        {
+          "word": " hypnotized.",
+          "start": 141.64,
+          "end": 142.44,
+          "probability": 0.914
+        },
+        {
+          "word": " Step",
+          "start": 142.48,
+          "end": 142.6,
+          "probability": 0.934
+        },
+        {
+          "word": " away",
+          "start": 142.6,
+          "end": 142.8,
+          "probability": 0.99
+        },
+        {
+          "word": " from",
+          "start": 142.8,
+          "end": 143.0,
+          "probability": 0.993
+        },
+        {
+          "word": " the",
+          "start": 143.0,
+          "end": 143.12,
+          "probability": 0.991
+        },
+        {
+          "word": " chalkboard",
+          "start": 143.12,
+          "end": 143.52,
+          "probability": 0.876
+        },
+        {
+          "word": " less",
+          "start": 143.52,
+          "end": 143.74,
+          "probability": 0.451
+        },
+        {
+          "word": " innocent.",
+          "start": 143.74,
+          "end": 144.14,
+          "probability": 0.981
+        },
+        {
+          "word": " The",
+          "start": 144.32,
+          "end": 144.46,
+          "probability": 0.959
+        },
+        {
+          "word": " threat",
+          "start": 144.46,
+          "end": 144.66,
+          "probability": 0.537
+        }
+      ]
+    },
+    {
+      "start": 144.66,
+      "end": 147.76,
+      "text": "anchor the silicone will think for us. The threat is will swallow its thoughts because",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " anchor",
+          "start": 144.66,
+          "end": 144.9,
+          "probability": 0.566
+        },
+        {
+          "word": " the",
+          "start": 144.9,
+          "end": 145.06,
+          "probability": 0.626
+        },
+        {
+          "word": " silicone",
+          "start": 145.06,
+          "end": 145.36,
+          "probability": 0.503
+        },
+        {
+          "word": " will",
+          "start": 145.36,
+          "end": 145.6,
+          "probability": 0.941
+        },
+        {
+          "word": " think",
+          "start": 145.6,
+          "end": 145.76,
+          "probability": 0.979
+        },
+        {
+          "word": " for",
+          "start": 145.76,
+          "end": 145.98,
+          "probability": 0.99
+        },
+        {
+          "word": " us.",
+          "start": 145.98,
+          "end": 146.14,
+          "probability": 0.991
+        },
+        {
+          "word": " The",
+          "start": 146.32,
+          "end": 146.38,
+          "probability": 0.977
+        },
+        {
+          "word": " threat",
+          "start": 146.38,
+          "end": 146.62,
+          "probability": 0.982
+        },
+        {
+          "word": " is",
+          "start": 146.62,
+          "end": 146.76,
+          "probability": 0.978
+        },
+        {
+          "word": " will",
+          "start": 146.76,
+          "end": 146.86,
+          "probability": 0.307
+        },
+        {
+          "word": " swallow",
+          "start": 146.86,
+          "end": 147.16,
+          "probability": 0.974
+        },
+        {
+          "word": " its",
+          "start": 147.16,
+          "end": 147.36,
+          "probability": 0.441
+        },
+        {
+          "word": " thoughts",
+          "start": 147.36,
+          "end": 147.44,
+          "probability": 0.285
+        },
+        {
+          "word": " because",
+          "start": 147.44,
+          "end": 147.76,
+          "probability": 0.812
+        }
+      ]
+    },
+    {
+      "start": 147.76,
+      "end": 151.42,
+      "text": "they mimic our cadence. I use the machine ain't a confession. It's the pro-law to your",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " they",
+          "start": 147.76,
+          "end": 147.96,
+          "probability": 0.985
+        },
+        {
+          "word": " mimic",
+          "start": 147.96,
+          "end": 148.16,
+          "probability": 0.994
+        },
+        {
+          "word": " our",
+          "start": 148.16,
+          "end": 148.36,
+          "probability": 0.531
+        },
+        {
+          "word": " cadence.",
+          "start": 148.36,
+          "end": 148.68,
+          "probability": 0.843
+        },
+        {
+          "word": " I",
+          "start": 148.92,
+          "end": 148.98,
+          "probability": 0.967
+        },
+        {
+          "word": " use",
+          "start": 148.98,
+          "end": 149.18,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 149.18,
+          "end": 149.32,
+          "probability": 0.929
+        },
+        {
+          "word": " machine",
+          "start": 149.32,
+          "end": 149.56,
+          "probability": 0.995
+        },
+        {
+          "word": " ain't",
+          "start": 149.56,
+          "end": 149.78,
+          "probability": 0.919
+        },
+        {
+          "word": " a",
+          "start": 149.78,
+          "end": 149.84,
+          "probability": 0.98
+        },
+        {
+          "word": " confession.",
+          "start": 149.84,
+          "end": 150.26,
+          "probability": 0.986
+        },
+        {
+          "word": " It's",
+          "start": 150.56,
+          "end": 150.72,
+          "probability": 0.957
+        },
+        {
+          "word": " the",
+          "start": 150.72,
+          "end": 150.78,
+          "probability": 0.88
+        },
+        {
+          "word": " pro",
+          "start": 150.78,
+          "end": 150.96,
+          "probability": 0.579
+        },
+        {
+          "word": "-law",
+          "start": 150.96,
+          "end": 151.14,
+          "probability": 0.373
+        },
+        {
+          "word": " to",
+          "start": 151.14,
+          "end": 151.28,
+          "probability": 0.852
+        },
+        {
+          "word": " your",
+          "start": 151.28,
+          "end": 151.42,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 151.42,
+      "end": 155.36,
+      "text": "testimony and the testimony might still be a lie. It ain't about whether the tool opened",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " testimony",
+          "start": 151.42,
+          "end": 151.84,
+          "probability": 0.889
+        },
+        {
+          "word": " and",
+          "start": 151.84,
+          "end": 152.32,
+          "probability": 0.507
+        },
+        {
+          "word": " the",
+          "start": 152.32,
+          "end": 152.44,
+          "probability": 0.988
+        },
+        {
+          "word": " testimony",
+          "start": 152.44,
+          "end": 152.82,
+          "probability": 0.996
+        },
+        {
+          "word": " might",
+          "start": 152.82,
+          "end": 153.12,
+          "probability": 0.983
+        },
+        {
+          "word": " still",
+          "start": 153.12,
+          "end": 153.36,
+          "probability": 0.995
+        },
+        {
+          "word": " be",
+          "start": 153.36,
+          "end": 153.52,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 153.52,
+          "end": 153.62,
+          "probability": 0.657
+        },
+        {
+          "word": " lie.",
+          "start": 153.62,
+          "end": 153.82,
+          "probability": 0.854
+        },
+        {
+          "word": " It",
+          "start": 154.08,
+          "end": 154.18,
+          "probability": 0.98
+        },
+        {
+          "word": " ain't",
+          "start": 154.18,
+          "end": 154.34,
+          "probability": 0.999
+        },
+        {
+          "word": " about",
+          "start": 154.34,
+          "end": 154.48,
+          "probability": 0.995
+        },
+        {
+          "word": " whether",
+          "start": 154.48,
+          "end": 154.76,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 154.76,
+          "end": 154.9,
+          "probability": 0.901
+        },
+        {
+          "word": " tool",
+          "start": 154.9,
+          "end": 155.08,
+          "probability": 0.988
+        },
+        {
+          "word": " opened",
+          "start": 155.08,
+          "end": 155.36,
+          "probability": 0.551
+        }
+      ]
+    },
+    {
+      "start": 155.36,
+      "end": 157.96,
+      "text": "his mouth. It's about whether you train your ear to hear the difference.",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " his",
+          "start": 155.36,
+          "end": 155.54,
+          "probability": 0.887
+        },
+        {
+          "word": " mouth.",
+          "start": 155.54,
+          "end": 155.74,
+          "probability": 0.998
+        },
+        {
+          "word": " It's",
+          "start": 156.04,
+          "end": 156.18,
+          "probability": 0.989
+        },
+        {
+          "word": " about",
+          "start": 156.18,
+          "end": 156.36,
+          "probability": 0.993
+        },
+        {
+          "word": " whether",
+          "start": 156.36,
+          "end": 156.62,
+          "probability": 0.996
+        },
+        {
+          "word": " you",
+          "start": 156.62,
+          "end": 156.76,
+          "probability": 0.995
+        },
+        {
+          "word": " train",
+          "start": 156.76,
+          "end": 156.98,
+          "probability": 0.525
+        },
+        {
+          "word": " your",
+          "start": 156.98,
+          "end": 157.14,
+          "probability": 0.928
+        },
+        {
+          "word": " ear",
+          "start": 157.14,
+          "end": 157.28,
+          "probability": 0.625
+        },
+        {
+          "word": " to",
+          "start": 157.28,
+          "end": 157.44,
+          "probability": 0.956
+        },
+        {
+          "word": " hear",
+          "start": 157.44,
+          "end": 157.54,
+          "probability": 0.928
+        },
+        {
+          "word": " the",
+          "start": 157.54,
+          "end": 157.66,
+          "probability": 0.997
+        },
+        {
+          "word": " difference.",
+          "start": 157.66,
+          "end": 157.96,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 158.26,
+      "end": 158.88,
+      "text": "The classroom...",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.743,
+      "noSpeechProbability": 0.773,
+      "words": [
+        {
+          "word": " The",
+          "start": 158.26,
+          "end": 158.34,
+          "probability": 0.923
+        },
+        {
+          "word": " classroom...",
+          "start": 158.34,
+          "end": 158.88,
+          "probability": 0.257
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.916,
+    "wordCount": 203,
+    "credibleWordCount": 192,
+    "segmentCount": 20,
+    "averageWordProbability": 0.825,
+    "vocalSeconds": 51.66,
+    "scanCoverage": 0.371,
+    "reviewRequired": false
+  }
+}

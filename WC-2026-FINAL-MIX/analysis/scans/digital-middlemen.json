@@ -1,0 +1,1698 @@
+{
+  "analysisVersion": 1,
+  "index": 33,
+  "id": "../VOLHOLLA/song-nobrightstand-41.html",
+  "slug": "digital-middlemen",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "You sell a masterclass for $900. You promise it will unlock infinite passive income. The course is a PDF that tells people to type please act like a marketing expert. You are a glorified librarian charging Ivy League tuition. Ten AI tools you need to survive the next five minutes. You raise $8 million in seed funding. Your pitch deck promises a revolutionary, autonomous, agentic workflow. Your entire product is just an open AI-IP key wrapped in a pastel web interface. You are a digital middleman reselling tap water in a slightly sleeker bottle. You automate your personal life with an LMM. crowd to tip you. You type a poorly spelled command into a text box. The server farm uses a swimming pool's worth of water to generate a response. The screen spits out a generic 5-paragraph essay. You lean back in your ergonomic chair, feeling like Oppenheimer. You did not split the atom, you just want a really expensive roulette. If your agent is out of the blue, appreciate your delumin' and plump of all. There's no situation where the world is going to end up. What's going on is going to help us to die. I hate that it hits him, how it doesn't talk to you. There's nothing there but you need to know when tech tech should be. It's what I have. My hands don't like what feel it's right.",
+  "sampledRanges": [
+    [
+      20.09,
+      38.09
+    ],
+    [
+      80.36,
+      98.36
+    ],
+    [
+      140.63,
+      158.63
+    ],
+    [
+      200.9,
+      218.9
+    ]
+  ],
+  "segments": [
+    {
+      "start": 20.47,
+      "end": 22.81,
+      "text": "You sell a masterclass for $900.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.531,
+      "words": [
+        {
+          "word": " You",
+          "start": 20.47,
+          "end": 21.03,
+          "probability": 0.575
+        },
+        {
+          "word": " sell",
+          "start": 21.03,
+          "end": 21.29,
+          "probability": 0.988
+        },
+        {
+          "word": " a",
+          "start": 21.29,
+          "end": 21.47,
+          "probability": 0.995
+        },
+        {
+          "word": " masterclass",
+          "start": 21.47,
+          "end": 21.99,
+          "probability": 0.922
+        },
+        {
+          "word": " for",
+          "start": 21.99,
+          "end": 22.29,
+          "probability": 0.994
+        },
+        {
+          "word": " $900.",
+          "start": 22.29,
+          "end": 22.81,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 23.53,
+      "end": 26.01,
+      "text": "You promise it will unlock infinite passive income.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.531,
+      "words": [
+        {
+          "word": " You",
+          "start": 23.53,
+          "end": 23.77,
+          "probability": 0.989
+        },
+        {
+          "word": " promise",
+          "start": 23.77,
+          "end": 24.11,
+          "probability": 0.992
+        },
+        {
+          "word": " it",
+          "start": 24.11,
+          "end": 24.29,
+          "probability": 0.994
+        },
+        {
+          "word": " will",
+          "start": 24.29,
+          "end": 24.41,
+          "probability": 0.966
+        },
+        {
+          "word": " unlock",
+          "start": 24.41,
+          "end": 24.71,
+          "probability": 0.995
+        },
+        {
+          "word": " infinite",
+          "start": 24.71,
+          "end": 25.17,
+          "probability": 0.956
+        },
+        {
+          "word": " passive",
+          "start": 25.17,
+          "end": 25.61,
+          "probability": 0.914
+        },
+        {
+          "word": " income.",
+          "start": 25.61,
+          "end": 26.01,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 26.59,
+      "end": 30.53,
+      "text": "The course is a PDF that tells people to type please act like a marketing expert.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.531,
+      "words": [
+        {
+          "word": " The",
+          "start": 26.59,
+          "end": 26.73,
+          "probability": 0.989
+        },
+        {
+          "word": " course",
+          "start": 26.73,
+          "end": 26.99,
+          "probability": 0.915
+        },
+        {
+          "word": " is",
+          "start": 26.99,
+          "end": 27.19,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 27.19,
+          "end": 27.29,
+          "probability": 0.993
+        },
+        {
+          "word": " PDF",
+          "start": 27.29,
+          "end": 27.65,
+          "probability": 0.96
+        },
+        {
+          "word": " that",
+          "start": 27.65,
+          "end": 27.87,
+          "probability": 0.996
+        },
+        {
+          "word": " tells",
+          "start": 27.87,
+          "end": 28.09,
+          "probability": 0.989
+        },
+        {
+          "word": " people",
+          "start": 28.09,
+          "end": 28.41,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 28.41,
+          "end": 28.59,
+          "probability": 0.999
+        },
+        {
+          "word": " type",
+          "start": 28.59,
+          "end": 28.81,
+          "probability": 0.983
+        },
+        {
+          "word": " please",
+          "start": 28.81,
+          "end": 29.11,
+          "probability": 0.204
+        },
+        {
+          "word": " act",
+          "start": 29.11,
+          "end": 29.39,
+          "probability": 0.952
+        },
+        {
+          "word": " like",
+          "start": 29.39,
+          "end": 29.59,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 29.59,
+          "end": 29.73,
+          "probability": 0.992
+        },
+        {
+          "word": " marketing",
+          "start": 29.73,
+          "end": 30.03,
+          "probability": 0.992
+        },
+        {
+          "word": " expert.",
+          "start": 30.03,
+          "end": 30.53,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 31.07,
+      "end": 33.95,
+      "text": "You are a glorified librarian charging Ivy League tuition.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.531,
+      "words": [
+        {
+          "word": " You",
+          "start": 31.07,
+          "end": 31.29,
+          "probability": 0.99
+        },
+        {
+          "word": " are",
+          "start": 31.29,
+          "end": 31.43,
+          "probability": 0.994
+        },
+        {
+          "word": " a",
+          "start": 31.43,
+          "end": 31.57,
+          "probability": 0.993
+        },
+        {
+          "word": " glorified",
+          "start": 31.57,
+          "end": 32.03,
+          "probability": 0.993
+        },
+        {
+          "word": " librarian",
+          "start": 32.03,
+          "end": 32.55,
+          "probability": 0.954
+        },
+        {
+          "word": " charging",
+          "start": 32.55,
+          "end": 32.99,
+          "probability": 0.904
+        },
+        {
+          "word": " Ivy",
+          "start": 32.99,
+          "end": 33.29,
+          "probability": 0.866
+        },
+        {
+          "word": " League",
+          "start": 33.29,
+          "end": 33.55,
+          "probability": 0.881
+        },
+        {
+          "word": " tuition.",
+          "start": 33.55,
+          "end": 33.95,
+          "probability": 0.829
+        }
+      ]
+    },
+    {
+      "start": 34.93,
+      "end": 37.73,
+      "text": "Ten AI tools you need to survive the next five minutes.",
+      "avgLogprob": -0.159,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.531,
+      "words": [
+        {
+          "word": " Ten",
+          "start": 34.93,
+          "end": 35.33,
+          "probability": 0.302
+        },
+        {
+          "word": " AI",
+          "start": 35.33,
+          "end": 35.51,
+          "probability": 0.849
+        },
+        {
+          "word": " tools",
+          "start": 35.51,
+          "end": 35.95,
+          "probability": 0.989
+        },
+        {
+          "word": " you",
+          "start": 35.95,
+          "end": 36.15,
+          "probability": 0.947
+        },
+        {
+          "word": " need",
+          "start": 36.15,
+          "end": 36.31,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 36.31,
+          "end": 36.45,
+          "probability": 0.999
+        },
+        {
+          "word": " survive",
+          "start": 36.45,
+          "end": 36.71,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 36.71,
+          "end": 36.95,
+          "probability": 0.987
+        },
+        {
+          "word": " next",
+          "start": 36.95,
+          "end": 37.09,
+          "probability": 0.998
+        },
+        {
+          "word": " five",
+          "start": 37.09,
+          "end": 37.47,
+          "probability": 0.9
+        },
+        {
+          "word": " minutes.",
+          "start": 37.47,
+          "end": 37.73,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 80.36,
+      "end": 82.44,
+      "text": "You raise $8 million in seed funding.",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " You",
+          "start": 80.36,
+          "end": 80.46,
+          "probability": 0.802
+        },
+        {
+          "word": " raise",
+          "start": 80.46,
+          "end": 80.64,
+          "probability": 0.933
+        },
+        {
+          "word": " $8",
+          "start": 80.64,
+          "end": 80.96,
+          "probability": 0.827
+        },
+        {
+          "word": " million",
+          "start": 80.96,
+          "end": 81.22,
+          "probability": 0.873
+        },
+        {
+          "word": " in",
+          "start": 81.22,
+          "end": 81.78,
+          "probability": 0.974
+        },
+        {
+          "word": " seed",
+          "start": 81.78,
+          "end": 82.0,
+          "probability": 0.768
+        },
+        {
+          "word": " funding.",
+          "start": 82.0,
+          "end": 82.44,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 82.84,
+      "end": 85.4,
+      "text": "Your pitch deck promises a revolutionary, autonomous,",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " Your",
+          "start": 82.84,
+          "end": 83.14,
+          "probability": 0.974
+        },
+        {
+          "word": " pitch",
+          "start": 83.14,
+          "end": 83.42,
+          "probability": 0.782
+        },
+        {
+          "word": " deck",
+          "start": 83.42,
+          "end": 83.58,
+          "probability": 0.957
+        },
+        {
+          "word": " promises",
+          "start": 83.58,
+          "end": 84.0,
+          "probability": 0.938
+        },
+        {
+          "word": " a",
+          "start": 84.0,
+          "end": 84.26,
+          "probability": 0.993
+        },
+        {
+          "word": " revolutionary,",
+          "start": 84.26,
+          "end": 84.7,
+          "probability": 0.889
+        },
+        {
+          "word": " autonomous,",
+          "start": 85.06,
+          "end": 85.4,
+          "probability": 0.953
+        }
+      ]
+    },
+    {
+      "start": 85.54,
+      "end": 86.24,
+      "text": "agentic workflow.",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " agentic",
+          "start": 85.54,
+          "end": 85.88,
+          "probability": 0.564
+        },
+        {
+          "word": " workflow.",
+          "start": 85.88,
+          "end": 86.24,
+          "probability": 0.943
+        }
+      ]
+    },
+    {
+      "start": 86.8,
+      "end": 89.52,
+      "text": "Your entire product is just an open AI-IP key",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " Your",
+          "start": 86.8,
+          "end": 87.16,
+          "probability": 0.993
+        },
+        {
+          "word": " entire",
+          "start": 87.16,
+          "end": 87.46,
+          "probability": 0.995
+        },
+        {
+          "word": " product",
+          "start": 87.46,
+          "end": 87.92,
+          "probability": 0.997
+        },
+        {
+          "word": " is",
+          "start": 87.92,
+          "end": 88.12,
+          "probability": 0.995
+        },
+        {
+          "word": " just",
+          "start": 88.12,
+          "end": 88.24,
+          "probability": 0.99
+        },
+        {
+          "word": " an",
+          "start": 88.24,
+          "end": 88.42,
+          "probability": 0.987
+        },
+        {
+          "word": " open",
+          "start": 88.42,
+          "end": 88.6,
+          "probability": 0.914
+        },
+        {
+          "word": " AI",
+          "start": 88.6,
+          "end": 88.8,
+          "probability": 0.862
+        },
+        {
+          "word": "-IP",
+          "start": 88.8,
+          "end": 89.22,
+          "probability": 0.199
+        },
+        {
+          "word": " key",
+          "start": 89.22,
+          "end": 89.52,
+          "probability": 0.705
+        }
+      ]
+    },
+    {
+      "start": 89.52,
+      "end": 91.08,
+      "text": "wrapped in a pastel web interface.",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " wrapped",
+          "start": 89.52,
+          "end": 89.76,
+          "probability": 0.676
+        },
+        {
+          "word": " in",
+          "start": 89.76,
+          "end": 89.92,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 89.92,
+          "end": 89.98,
+          "probability": 0.998
+        },
+        {
+          "word": " pastel",
+          "start": 89.98,
+          "end": 90.32,
+          "probability": 0.934
+        },
+        {
+          "word": " web",
+          "start": 90.32,
+          "end": 90.66,
+          "probability": 0.948
+        },
+        {
+          "word": " interface.",
+          "start": 90.66,
+          "end": 91.08,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 91.6,
+      "end": 93.8,
+      "text": "You are a digital middleman reselling tap water",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " You",
+          "start": 91.6,
+          "end": 91.88,
+          "probability": 0.991
+        },
+        {
+          "word": " are",
+          "start": 91.88,
+          "end": 92.0,
+          "probability": 0.984
+        },
+        {
+          "word": " a",
+          "start": 92.0,
+          "end": 92.08,
+          "probability": 0.997
+        },
+        {
+          "word": " digital",
+          "start": 92.08,
+          "end": 92.36,
+          "probability": 0.979
+        },
+        {
+          "word": " middleman",
+          "start": 92.36,
+          "end": 92.8,
+          "probability": 0.922
+        },
+        {
+          "word": " reselling",
+          "start": 92.8,
+          "end": 93.26,
+          "probability": 0.755
+        },
+        {
+          "word": " tap",
+          "start": 93.26,
+          "end": 93.52,
+          "probability": 0.983
+        },
+        {
+          "word": " water",
+          "start": 93.52,
+          "end": 93.8,
+          "probability": 0.782
+        }
+      ]
+    },
+    {
+      "start": 93.8,
+      "end": 95.04,
+      "text": "in a slightly sleeker bottle.",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " in",
+          "start": 93.8,
+          "end": 93.96,
+          "probability": 0.958
+        },
+        {
+          "word": " a",
+          "start": 93.96,
+          "end": 94.02,
+          "probability": 0.997
+        },
+        {
+          "word": " slightly",
+          "start": 94.02,
+          "end": 94.36,
+          "probability": 0.985
+        },
+        {
+          "word": " sleeker",
+          "start": 94.36,
+          "end": 94.72,
+          "probability": 0.861
+        },
+        {
+          "word": " bottle.",
+          "start": 94.72,
+          "end": 95.04,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 95.78,
+      "end": 98.1,
+      "text": "You automate your personal life with an LMM.",
+      "avgLogprob": -0.269,
+      "compressionRatio": 1.456,
+      "noSpeechProbability": 0.132,
+      "words": [
+        {
+          "word": " You",
+          "start": 95.78,
+          "end": 96.3,
+          "probability": 0.994
+        },
+        {
+          "word": " automate",
+          "start": 96.3,
+          "end": 96.58,
+          "probability": 0.991
+        },
+        {
+          "word": " your",
+          "start": 96.58,
+          "end": 96.82,
+          "probability": 0.997
+        },
+        {
+          "word": " personal",
+          "start": 96.82,
+          "end": 97.22,
+          "probability": 0.999
+        },
+        {
+          "word": " life",
+          "start": 97.22,
+          "end": 97.5,
+          "probability": 0.999
+        },
+        {
+          "word": " with",
+          "start": 97.5,
+          "end": 97.64,
+          "probability": 0.995
+        },
+        {
+          "word": " an",
+          "start": 97.64,
+          "end": 97.76,
+          "probability": 0.991
+        },
+        {
+          "word": " LMM.",
+          "start": 97.76,
+          "end": 98.1,
+          "probability": 0.75
+        }
+      ]
+    },
+    {
+      "start": 140.63,
+      "end": 146.15,
+      "text": "crowd to tip you. You type a poorly spelled command into a text box. The server farm uses",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.495,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " crowd",
+          "start": 140.63,
+          "end": 140.83,
+          "probability": 0.116
+        },
+        {
+          "word": " to",
+          "start": 140.83,
+          "end": 140.99,
+          "probability": 0.952
+        },
+        {
+          "word": " tip",
+          "start": 140.99,
+          "end": 141.21,
+          "probability": 0.973
+        },
+        {
+          "word": " you.",
+          "start": 141.21,
+          "end": 141.49,
+          "probability": 0.99
+        },
+        {
+          "word": " You",
+          "start": 141.87,
+          "end": 142.19,
+          "probability": 0.796
+        },
+        {
+          "word": " type",
+          "start": 142.19,
+          "end": 142.43,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 142.43,
+          "end": 142.55,
+          "probability": 0.974
+        },
+        {
+          "word": " poorly",
+          "start": 142.55,
+          "end": 142.83,
+          "probability": 0.994
+        },
+        {
+          "word": " spelled",
+          "start": 142.83,
+          "end": 143.13,
+          "probability": 0.966
+        },
+        {
+          "word": " command",
+          "start": 143.13,
+          "end": 143.57,
+          "probability": 0.363
+        },
+        {
+          "word": " into",
+          "start": 143.57,
+          "end": 143.87,
+          "probability": 0.986
+        },
+        {
+          "word": " a",
+          "start": 143.87,
+          "end": 143.97,
+          "probability": 0.997
+        },
+        {
+          "word": " text",
+          "start": 143.97,
+          "end": 144.19,
+          "probability": 0.961
+        },
+        {
+          "word": " box.",
+          "start": 144.19,
+          "end": 144.53,
+          "probability": 0.907
+        },
+        {
+          "word": " The",
+          "start": 145.15,
+          "end": 145.23,
+          "probability": 0.973
+        },
+        {
+          "word": " server",
+          "start": 145.23,
+          "end": 145.51,
+          "probability": 0.969
+        },
+        {
+          "word": " farm",
+          "start": 145.51,
+          "end": 145.89,
+          "probability": 0.912
+        },
+        {
+          "word": " uses",
+          "start": 145.89,
+          "end": 146.15,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 146.15,
+      "end": 150.47,
+      "text": "a swimming pool's worth of water to generate a response. The screen spits out a generic",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.495,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " a",
+          "start": 146.15,
+          "end": 146.33,
+          "probability": 0.915
+        },
+        {
+          "word": " swimming",
+          "start": 146.33,
+          "end": 146.55,
+          "probability": 0.984
+        },
+        {
+          "word": " pool's",
+          "start": 146.55,
+          "end": 146.97,
+          "probability": 0.846
+        },
+        {
+          "word": " worth",
+          "start": 146.97,
+          "end": 147.15,
+          "probability": 0.969
+        },
+        {
+          "word": " of",
+          "start": 147.15,
+          "end": 147.27,
+          "probability": 0.998
+        },
+        {
+          "word": " water",
+          "start": 147.27,
+          "end": 147.51,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 147.51,
+          "end": 147.69,
+          "probability": 0.992
+        },
+        {
+          "word": " generate",
+          "start": 147.69,
+          "end": 148.07,
+          "probability": 0.993
+        },
+        {
+          "word": " a",
+          "start": 148.07,
+          "end": 148.17,
+          "probability": 0.954
+        },
+        {
+          "word": " response.",
+          "start": 148.17,
+          "end": 148.55,
+          "probability": 0.997
+        },
+        {
+          "word": " The",
+          "start": 149.27,
+          "end": 149.37,
+          "probability": 0.992
+        },
+        {
+          "word": " screen",
+          "start": 149.37,
+          "end": 149.59,
+          "probability": 0.993
+        },
+        {
+          "word": " spits",
+          "start": 149.59,
+          "end": 149.93,
+          "probability": 0.934
+        },
+        {
+          "word": " out",
+          "start": 149.93,
+          "end": 150.09,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 150.09,
+          "end": 150.17,
+          "probability": 0.993
+        },
+        {
+          "word": " generic",
+          "start": 150.17,
+          "end": 150.47,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 150.47,
+      "end": 155.87,
+      "text": "5-paragraph essay. You lean back in your ergonomic chair, feeling like Oppenheimer. You did",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.495,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " 5",
+          "start": 150.47,
+          "end": 150.79,
+          "probability": 0.449
+        },
+        {
+          "word": "-paragraph",
+          "start": 150.79,
+          "end": 151.27,
+          "probability": 0.71
+        },
+        {
+          "word": " essay.",
+          "start": 151.27,
+          "end": 151.69,
+          "probability": 0.887
+        },
+        {
+          "word": " You",
+          "start": 152.03,
+          "end": 152.15,
+          "probability": 0.961
+        },
+        {
+          "word": " lean",
+          "start": 152.15,
+          "end": 152.31,
+          "probability": 0.97
+        },
+        {
+          "word": " back",
+          "start": 152.31,
+          "end": 152.57,
+          "probability": 0.996
+        },
+        {
+          "word": " in",
+          "start": 152.57,
+          "end": 152.73,
+          "probability": 0.905
+        },
+        {
+          "word": " your",
+          "start": 152.73,
+          "end": 152.83,
+          "probability": 0.997
+        },
+        {
+          "word": " ergonomic",
+          "start": 152.83,
+          "end": 153.27,
+          "probability": 0.951
+        },
+        {
+          "word": " chair,",
+          "start": 153.27,
+          "end": 153.57,
+          "probability": 0.994
+        },
+        {
+          "word": " feeling",
+          "start": 153.93,
+          "end": 154.21,
+          "probability": 0.993
+        },
+        {
+          "word": " like",
+          "start": 154.21,
+          "end": 154.47,
+          "probability": 0.993
+        },
+        {
+          "word": " Oppenheimer.",
+          "start": 154.47,
+          "end": 154.97,
+          "probability": 0.69
+        },
+        {
+          "word": " You",
+          "start": 155.55,
+          "end": 155.75,
+          "probability": 0.983
+        },
+        {
+          "word": " did",
+          "start": 155.75,
+          "end": 155.87,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 155.87,
+      "end": 158.55,
+      "text": "not split the atom, you just want a really expensive roulette.",
+      "avgLogprob": -0.28,
+      "compressionRatio": 1.495,
+      "noSpeechProbability": 0.732,
+      "words": [
+        {
+          "word": " not",
+          "start": 155.87,
+          "end": 156.03,
+          "probability": 0.993
+        },
+        {
+          "word": " split",
+          "start": 156.03,
+          "end": 156.29,
+          "probability": 0.871
+        },
+        {
+          "word": " the",
+          "start": 156.29,
+          "end": 156.47,
+          "probability": 0.997
+        },
+        {
+          "word": " atom,",
+          "start": 156.47,
+          "end": 156.71,
+          "probability": 0.982
+        },
+        {
+          "word": " you",
+          "start": 156.97,
+          "end": 157.05,
+          "probability": 0.97
+        },
+        {
+          "word": " just",
+          "start": 157.05,
+          "end": 157.23,
+          "probability": 0.997
+        },
+        {
+          "word": " want",
+          "start": 157.23,
+          "end": 157.47,
+          "probability": 0.549
+        },
+        {
+          "word": " a",
+          "start": 157.47,
+          "end": 157.57,
+          "probability": 0.856
+        },
+        {
+          "word": " really",
+          "start": 157.57,
+          "end": 157.79,
+          "probability": 0.994
+        },
+        {
+          "word": " expensive",
+          "start": 157.79,
+          "end": 158.23,
+          "probability": 0.996
+        },
+        {
+          "word": " roulette.",
+          "start": 158.23,
+          "end": 158.55,
+          "probability": 0.502
+        }
+      ]
+    },
+    {
+      "start": 200.9,
+      "end": 204.72,
+      "text": "If your agent is out of the blue, appreciate your delumin' and plump of all.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " If",
+          "start": 200.9,
+          "end": 200.96,
+          "probability": 0.115
+        },
+        {
+          "word": " your",
+          "start": 200.96,
+          "end": 201.04,
+          "probability": 0.719
+        },
+        {
+          "word": " agent",
+          "start": 201.04,
+          "end": 201.26,
+          "probability": 0.569
+        },
+        {
+          "word": " is",
+          "start": 201.26,
+          "end": 201.52,
+          "probability": 0.983
+        },
+        {
+          "word": " out",
+          "start": 201.52,
+          "end": 201.78,
+          "probability": 0.389
+        },
+        {
+          "word": " of",
+          "start": 201.78,
+          "end": 202.02,
+          "probability": 0.802
+        },
+        {
+          "word": " the",
+          "start": 202.02,
+          "end": 202.1,
+          "probability": 0.12
+        },
+        {
+          "word": " blue,",
+          "start": 202.1,
+          "end": 202.14,
+          "probability": 0.521
+        },
+        {
+          "word": " appreciate",
+          "start": 202.3,
+          "end": 202.68,
+          "probability": 0.851
+        },
+        {
+          "word": " your",
+          "start": 202.68,
+          "end": 203.06,
+          "probability": 0.615
+        },
+        {
+          "word": " delumin'",
+          "start": 203.06,
+          "end": 203.74,
+          "probability": 0.509
+        },
+        {
+          "word": " and",
+          "start": 204.1,
+          "end": 204.18,
+          "probability": 0.554
+        },
+        {
+          "word": " plump",
+          "start": 204.18,
+          "end": 204.44,
+          "probability": 0.337
+        },
+        {
+          "word": " of",
+          "start": 204.44,
+          "end": 204.54,
+          "probability": 0.168
+        },
+        {
+          "word": " all.",
+          "start": 204.54,
+          "end": 204.72,
+          "probability": 0.422
+        }
+      ]
+    },
+    {
+      "start": 205.22,
+      "end": 207.34,
+      "text": "There's no situation where the world is going to end up.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " There's",
+          "start": 205.22,
+          "end": 205.58,
+          "probability": 0.416
+        },
+        {
+          "word": " no",
+          "start": 205.58,
+          "end": 205.62,
+          "probability": 0.182
+        },
+        {
+          "word": " situation",
+          "start": 205.62,
+          "end": 205.88,
+          "probability": 0.208
+        },
+        {
+          "word": " where",
+          "start": 205.88,
+          "end": 206.3,
+          "probability": 0.399
+        },
+        {
+          "word": " the",
+          "start": 206.3,
+          "end": 206.72,
+          "probability": 0.515
+        },
+        {
+          "word": " world",
+          "start": 206.72,
+          "end": 206.86,
+          "probability": 0.35
+        },
+        {
+          "word": " is",
+          "start": 206.86,
+          "end": 207.02,
+          "probability": 0.712
+        },
+        {
+          "word": " going",
+          "start": 207.02,
+          "end": 207.14,
+          "probability": 0.056
+        },
+        {
+          "word": " to",
+          "start": 207.14,
+          "end": 207.24,
+          "probability": 0.66
+        },
+        {
+          "word": " end",
+          "start": 207.24,
+          "end": 207.26,
+          "probability": 0.65
+        },
+        {
+          "word": " up.",
+          "start": 207.26,
+          "end": 207.34,
+          "probability": 0.829
+        }
+      ]
+    },
+    {
+      "start": 208.54,
+      "end": 210.32,
+      "text": "What's going on is going to help us to die.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " What's",
+          "start": 208.54,
+          "end": 208.9,
+          "probability": 0.112
+        },
+        {
+          "word": " going",
+          "start": 208.9,
+          "end": 209.02,
+          "probability": 0.191
+        },
+        {
+          "word": " on",
+          "start": 209.02,
+          "end": 209.12,
+          "probability": 0.934
+        },
+        {
+          "word": " is",
+          "start": 209.12,
+          "end": 209.28,
+          "probability": 0.421
+        },
+        {
+          "word": " going",
+          "start": 209.28,
+          "end": 209.48,
+          "probability": 0.803
+        },
+        {
+          "word": " to",
+          "start": 209.48,
+          "end": 209.7,
+          "probability": 0.621
+        },
+        {
+          "word": " help",
+          "start": 209.7,
+          "end": 209.9,
+          "probability": 0.075
+        },
+        {
+          "word": " us",
+          "start": 209.9,
+          "end": 210.12,
+          "probability": 0.982
+        },
+        {
+          "word": " to",
+          "start": 210.12,
+          "end": 210.18,
+          "probability": 0.24
+        },
+        {
+          "word": " die.",
+          "start": 210.18,
+          "end": 210.32,
+          "probability": 0.794
+        }
+      ]
+    },
+    {
+      "start": 210.8,
+      "end": 213.24,
+      "text": "I hate that it hits him, how it doesn't talk to you.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " I",
+          "start": 210.8,
+          "end": 211.16,
+          "probability": 0.961
+        },
+        {
+          "word": " hate",
+          "start": 211.16,
+          "end": 211.38,
+          "probability": 0.849
+        },
+        {
+          "word": " that",
+          "start": 211.38,
+          "end": 211.56,
+          "probability": 0.099
+        },
+        {
+          "word": " it",
+          "start": 211.56,
+          "end": 211.8,
+          "probability": 0.633
+        },
+        {
+          "word": " hits",
+          "start": 211.8,
+          "end": 211.98,
+          "probability": 0.418
+        },
+        {
+          "word": " him,",
+          "start": 211.98,
+          "end": 212.2,
+          "probability": 0.477
+        },
+        {
+          "word": " how",
+          "start": 212.28,
+          "end": 212.38,
+          "probability": 0.632
+        },
+        {
+          "word": " it",
+          "start": 212.38,
+          "end": 212.5,
+          "probability": 0.767
+        },
+        {
+          "word": " doesn't",
+          "start": 212.5,
+          "end": 212.76,
+          "probability": 0.585
+        },
+        {
+          "word": " talk",
+          "start": 212.76,
+          "end": 212.92,
+          "probability": 0.389
+        },
+        {
+          "word": " to",
+          "start": 212.92,
+          "end": 213.1,
+          "probability": 0.916
+        },
+        {
+          "word": " you.",
+          "start": 213.1,
+          "end": 213.24,
+          "probability": 0.797
+        }
+      ]
+    },
+    {
+      "start": 213.34,
+      "end": 215.74,
+      "text": "There's nothing there but you need to know when tech tech should be.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " There's",
+          "start": 213.34,
+          "end": 213.56,
+          "probability": 0.455
+        },
+        {
+          "word": " nothing",
+          "start": 213.56,
+          "end": 213.68,
+          "probability": 0.128
+        },
+        {
+          "word": " there",
+          "start": 213.68,
+          "end": 213.84,
+          "probability": 0.633
+        },
+        {
+          "word": " but",
+          "start": 213.84,
+          "end": 214.0,
+          "probability": 0.498
+        },
+        {
+          "word": " you",
+          "start": 214.0,
+          "end": 214.22,
+          "probability": 0.815
+        },
+        {
+          "word": " need",
+          "start": 214.22,
+          "end": 214.42,
+          "probability": 0.384
+        },
+        {
+          "word": " to",
+          "start": 214.42,
+          "end": 214.62,
+          "probability": 0.736
+        },
+        {
+          "word": " know",
+          "start": 214.62,
+          "end": 214.78,
+          "probability": 0.429
+        },
+        {
+          "word": " when",
+          "start": 214.78,
+          "end": 214.9,
+          "probability": 0.709
+        },
+        {
+          "word": " tech",
+          "start": 214.9,
+          "end": 215.06,
+          "probability": 0.323
+        },
+        {
+          "word": " tech",
+          "start": 215.06,
+          "end": 215.28,
+          "probability": 0.601
+        },
+        {
+          "word": " should",
+          "start": 215.28,
+          "end": 215.54,
+          "probability": 0.275
+        },
+        {
+          "word": " be.",
+          "start": 215.54,
+          "end": 215.74,
+          "probability": 0.648
+        }
+      ]
+    },
+    {
+      "start": 216.08,
+      "end": 216.78,
+      "text": "It's what I have.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " It's",
+          "start": 216.08,
+          "end": 216.32,
+          "probability": 0.286
+        },
+        {
+          "word": " what",
+          "start": 216.32,
+          "end": 216.4,
+          "probability": 0.736
+        },
+        {
+          "word": " I",
+          "start": 216.4,
+          "end": 216.58,
+          "probability": 0.225
+        },
+        {
+          "word": " have.",
+          "start": 216.58,
+          "end": 216.78,
+          "probability": 0.37
+        }
+      ]
+    },
+    {
+      "start": 216.96,
+      "end": 218.76,
+      "text": "My hands don't like what feel it's right.",
+      "avgLogprob": -0.776,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.638,
+      "words": [
+        {
+          "word": " My",
+          "start": 216.96,
+          "end": 217.04,
+          "probability": 0.523
+        },
+        {
+          "word": " hands",
+          "start": 217.04,
+          "end": 217.32,
+          "probability": 0.836
+        },
+        {
+          "word": " don't",
+          "start": 217.32,
+          "end": 217.62,
+          "probability": 0.974
+        },
+        {
+          "word": " like",
+          "start": 217.62,
+          "end": 217.8,
+          "probability": 0.297
+        },
+        {
+          "word": " what",
+          "start": 217.8,
+          "end": 217.96,
+          "probability": 0.735
+        },
+        {
+          "word": " feel",
+          "start": 217.96,
+          "end": 218.3,
+          "probability": 0.163
+        },
+        {
+          "word": " it's",
+          "start": 218.3,
+          "end": 218.54,
+          "probability": 0.685
+        },
+        {
+          "word": " right.",
+          "start": 218.54,
+          "end": 218.76,
+          "probability": 0.501
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.902,
+    "wordCount": 236,
+    "credibleWordCount": 213,
+    "segmentCount": 24,
+    "averageWordProbability": 0.795,
+    "vocalSeconds": 62.8,
+    "scanCoverage": 0.268,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,928 @@
+{
+  "analysisVersion": 1,
+  "index": 17,
+  "id": "../VOLHOLLA/song-museumfloor-07.html",
+  "slug": "enough-is-a-country-2",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Three phones glowing, blue by the bed One says greatest, two say threat He bought the ceiling, then fit the sky One where the cameras made me disappear He said, bring me the country They said it's outside Said, tell it I'm busy Being televised, marble can't love you Clikes don't clap twice and still sleep in a rush, somewhere in my guard walks up the mall, drives some with nothing, and loses it all by losing the wanting, by parking the fiber pool I knew me with nothing Too much is too much I want to see a cheap ogle like rock And bankrupt the blood Too much is too much At times I'm some a Sealed cheap ogle like",
+  "sampledRanges": [
+    [
+      18.98,
+      36.98
+    ],
+    [
+      75.93,
+      93.93
+    ],
+    [
+      132.88,
+      150.88
+    ],
+    [
+      189.82,
+      207.82
+    ]
+  ],
+  "segments": [
+    {
+      "start": 18.98,
+      "end": 24.16,
+      "text": "Three phones glowing, blue by the bed",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.207,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " Three",
+          "start": 18.98,
+          "end": 20.02,
+          "probability": 0.105
+        },
+        {
+          "word": " phones",
+          "start": 20.02,
+          "end": 20.44,
+          "probability": 0.809
+        },
+        {
+          "word": " glowing,",
+          "start": 20.44,
+          "end": 20.98,
+          "probability": 0.239
+        },
+        {
+          "word": " blue",
+          "start": 21.84,
+          "end": 22.44,
+          "probability": 0.784
+        },
+        {
+          "word": " by",
+          "start": 22.44,
+          "end": 22.8,
+          "probability": 0.923
+        },
+        {
+          "word": " the",
+          "start": 22.8,
+          "end": 23.08,
+          "probability": 0.991
+        },
+        {
+          "word": " bed",
+          "start": 23.08,
+          "end": 24.16,
+          "probability": 0.903
+        }
+      ]
+    },
+    {
+      "start": 24.16,
+      "end": 28.82,
+      "text": "One says greatest, two say threat",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.207,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " One",
+          "start": 24.16,
+          "end": 24.78,
+          "probability": 0.421
+        },
+        {
+          "word": " says",
+          "start": 24.78,
+          "end": 25.08,
+          "probability": 0.985
+        },
+        {
+          "word": " greatest,",
+          "start": 25.08,
+          "end": 25.68,
+          "probability": 0.439
+        },
+        {
+          "word": " two",
+          "start": 26.62,
+          "end": 27.46,
+          "probability": 0.878
+        },
+        {
+          "word": " say",
+          "start": 27.46,
+          "end": 27.74,
+          "probability": 0.563
+        },
+        {
+          "word": " threat",
+          "start": 27.74,
+          "end": 28.82,
+          "probability": 0.51
+        }
+      ]
+    },
+    {
+      "start": 28.82,
+      "end": 36.9,
+      "text": "He bought the ceiling, then fit the sky",
+      "avgLogprob": -0.51,
+      "compressionRatio": 1.207,
+      "noSpeechProbability": 0.684,
+      "words": [
+        {
+          "word": " He",
+          "start": 28.82,
+          "end": 31.02,
+          "probability": 0.491
+        },
+        {
+          "word": " bought",
+          "start": 31.02,
+          "end": 33.9,
+          "probability": 0.83
+        },
+        {
+          "word": " the",
+          "start": 33.9,
+          "end": 34.26,
+          "probability": 0.982
+        },
+        {
+          "word": " ceiling,",
+          "start": 34.26,
+          "end": 35.12,
+          "probability": 0.894
+        },
+        {
+          "word": " then",
+          "start": 35.66,
+          "end": 35.86,
+          "probability": 0.724
+        },
+        {
+          "word": " fit",
+          "start": 35.86,
+          "end": 36.26,
+          "probability": 0.916
+        },
+        {
+          "word": " the",
+          "start": 36.26,
+          "end": 36.6,
+          "probability": 0.972
+        },
+        {
+          "word": " sky",
+          "start": 36.6,
+          "end": 36.9,
+          "probability": 0.917
+        }
+      ]
+    },
+    {
+      "start": 75.93,
+      "end": 79.63,
+      "text": "One where the cameras made me disappear",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " One",
+          "start": 75.93,
+          "end": 76.09,
+          "probability": 0.069
+        },
+        {
+          "word": " where",
+          "start": 76.09,
+          "end": 76.39,
+          "probability": 0.281
+        },
+        {
+          "word": " the",
+          "start": 76.39,
+          "end": 76.59,
+          "probability": 0.992
+        },
+        {
+          "word": " cameras",
+          "start": 76.59,
+          "end": 77.35,
+          "probability": 0.6
+        },
+        {
+          "word": " made",
+          "start": 77.35,
+          "end": 78.07,
+          "probability": 0.839
+        },
+        {
+          "word": " me",
+          "start": 78.07,
+          "end": 78.53,
+          "probability": 0.995
+        },
+        {
+          "word": " disappear",
+          "start": 78.53,
+          "end": 79.63,
+          "probability": 0.78
+        }
+      ]
+    },
+    {
+      "start": 79.63,
+      "end": 82.05,
+      "text": "He said, bring me the country",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " He",
+          "start": 79.63,
+          "end": 80.17,
+          "probability": 0.401
+        },
+        {
+          "word": " said,",
+          "start": 80.17,
+          "end": 80.43,
+          "probability": 0.994
+        },
+        {
+          "word": " bring",
+          "start": 80.43,
+          "end": 80.79,
+          "probability": 0.385
+        },
+        {
+          "word": " me",
+          "start": 80.79,
+          "end": 81.09,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 81.09,
+          "end": 81.29,
+          "probability": 0.983
+        },
+        {
+          "word": " country",
+          "start": 81.29,
+          "end": 82.05,
+          "probability": 0.856
+        }
+      ]
+    },
+    {
+      "start": 82.05,
+      "end": 83.93,
+      "text": "They said it's outside",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " They",
+          "start": 82.05,
+          "end": 82.73,
+          "probability": 0.804
+        },
+        {
+          "word": " said",
+          "start": 82.73,
+          "end": 83.11,
+          "probability": 0.992
+        },
+        {
+          "word": " it's",
+          "start": 83.11,
+          "end": 83.75,
+          "probability": 0.837
+        },
+        {
+          "word": " outside",
+          "start": 83.75,
+          "end": 84.22,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 84.47,
+      "end": 86.77,
+      "text": "Said, tell it I'm busy",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " Said,",
+          "start": 84.47,
+          "end": 85.05,
+          "probability": 0.104
+        },
+        {
+          "word": " tell",
+          "start": 85.33,
+          "end": 85.51,
+          "probability": 0.92
+        },
+        {
+          "word": " it",
+          "start": 85.51,
+          "end": 85.75,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 85.75,
+          "end": 86.01,
+          "probability": 0.826
+        },
+        {
+          "word": " busy",
+          "start": 86.01,
+          "end": 86.77,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 86.77,
+      "end": 91.67,
+      "text": "Being televised, marble can't love you",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " Being",
+          "start": 86.77,
+          "end": 87.73,
+          "probability": 0.773
+        },
+        {
+          "word": " televised,",
+          "start": 87.73,
+          "end": 89.25,
+          "probability": 0.853
+        },
+        {
+          "word": " marble",
+          "start": 89.65,
+          "end": 90.13,
+          "probability": 0.861
+        },
+        {
+          "word": " can't",
+          "start": 90.13,
+          "end": 90.77,
+          "probability": 0.948
+        },
+        {
+          "word": " love",
+          "start": 90.77,
+          "end": 91.13,
+          "probability": 0.913
+        },
+        {
+          "word": " you",
+          "start": 91.13,
+          "end": 91.67,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 91.67,
+      "end": 93.43,
+      "text": "Clikes don't clap twice",
+      "avgLogprob": -0.35,
+      "compressionRatio": 1.319,
+      "noSpeechProbability": 0.701,
+      "words": [
+        {
+          "word": " Clikes",
+          "start": 91.67,
+          "end": 92.29,
+          "probability": 0.437
+        },
+        {
+          "word": " don't",
+          "start": 92.29,
+          "end": 92.71,
+          "probability": 0.947
+        },
+        {
+          "word": " clap",
+          "start": 92.71,
+          "end": 92.93,
+          "probability": 0.902
+        },
+        {
+          "word": " twice",
+          "start": 92.93,
+          "end": 93.43,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 132.88,
+      "end": 138.24,
+      "text": "and still sleep in a rush, somewhere in my guard",
+      "avgLogprob": -0.534,
+      "compressionRatio": 1.395,
+      "noSpeechProbability": 0.736,
+      "words": [
+        {
+          "word": " and",
+          "start": 132.88,
+          "end": 133.68,
+          "probability": 0.018
+        },
+        {
+          "word": " still",
+          "start": 133.68,
+          "end": 133.98,
+          "probability": 0.628
+        },
+        {
+          "word": " sleep",
+          "start": 133.98,
+          "end": 134.4,
+          "probability": 0.449
+        },
+        {
+          "word": " in",
+          "start": 134.4,
+          "end": 134.98,
+          "probability": 0.869
+        },
+        {
+          "word": " a",
+          "start": 134.98,
+          "end": 135.2,
+          "probability": 0.929
+        },
+        {
+          "word": " rush,",
+          "start": 135.2,
+          "end": 136.12,
+          "probability": 0.925
+        },
+        {
+          "word": " somewhere",
+          "start": 136.26,
+          "end": 136.9,
+          "probability": 0.964
+        },
+        {
+          "word": " in",
+          "start": 136.9,
+          "end": 137.24,
+          "probability": 0.918
+        },
+        {
+          "word": " my",
+          "start": 137.24,
+          "end": 137.44,
+          "probability": 0.229
+        },
+        {
+          "word": " guard",
+          "start": 137.44,
+          "end": 138.24,
+          "probability": 0.586
+        }
+      ]
+    },
+    {
+      "start": 138.24,
+      "end": 145.22,
+      "text": "walks up the mall, drives some with nothing, and loses it all",
+      "avgLogprob": -0.534,
+      "compressionRatio": 1.395,
+      "noSpeechProbability": 0.736,
+      "words": [
+        {
+          "word": " walks",
+          "start": 138.24,
+          "end": 139.1,
+          "probability": 0.07
+        },
+        {
+          "word": " up",
+          "start": 139.1,
+          "end": 139.52,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 139.52,
+          "end": 139.84,
+          "probability": 0.824
+        },
+        {
+          "word": " mall,",
+          "start": 139.84,
+          "end": 140.58,
+          "probability": 0.789
+        },
+        {
+          "word": " drives",
+          "start": 141.0,
+          "end": 141.3,
+          "probability": 0.97
+        },
+        {
+          "word": " some",
+          "start": 141.3,
+          "end": 141.64,
+          "probability": 0.286
+        },
+        {
+          "word": " with",
+          "start": 141.64,
+          "end": 141.92,
+          "probability": 0.985
+        },
+        {
+          "word": " nothing,",
+          "start": 141.92,
+          "end": 142.42,
+          "probability": 0.982
+        },
+        {
+          "word": " and",
+          "start": 142.94,
+          "end": 143.42,
+          "probability": 0.982
+        },
+        {
+          "word": " loses",
+          "start": 143.42,
+          "end": 144.0,
+          "probability": 0.982
+        },
+        {
+          "word": " it",
+          "start": 144.0,
+          "end": 144.7,
+          "probability": 0.974
+        },
+        {
+          "word": " all",
+          "start": 144.7,
+          "end": 145.22,
+          "probability": 0.946
+        }
+      ]
+    },
+    {
+      "start": 145.22,
+      "end": 150.74,
+      "text": "by losing the wanting, by parking the fiber pool",
+      "avgLogprob": -0.534,
+      "compressionRatio": 1.395,
+      "noSpeechProbability": 0.736,
+      "words": [
+        {
+          "word": " by",
+          "start": 145.22,
+          "end": 145.76,
+          "probability": 0.549
+        },
+        {
+          "word": " losing",
+          "start": 145.76,
+          "end": 146.36,
+          "probability": 0.912
+        },
+        {
+          "word": " the",
+          "start": 146.36,
+          "end": 146.92,
+          "probability": 0.981
+        },
+        {
+          "word": " wanting,",
+          "start": 146.92,
+          "end": 147.78,
+          "probability": 0.892
+        },
+        {
+          "word": " by",
+          "start": 148.22,
+          "end": 148.44,
+          "probability": 0.953
+        },
+        {
+          "word": " parking",
+          "start": 148.44,
+          "end": 149.14,
+          "probability": 0.712
+        },
+        {
+          "word": " the",
+          "start": 149.14,
+          "end": 149.64,
+          "probability": 0.811
+        },
+        {
+          "word": " fiber",
+          "start": 149.64,
+          "end": 150.26,
+          "probability": 0.07
+        },
+        {
+          "word": " pool",
+          "start": 150.26,
+          "end": 150.74,
+          "probability": 0.393
+        }
+      ]
+    },
+    {
+      "start": 189.82,
+      "end": 194.5,
+      "text": "I knew me with nothing Too much is too much",
+      "avgLogprob": -0.637,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " I",
+          "start": 189.82,
+          "end": 190.2,
+          "probability": 0.115
+        },
+        {
+          "word": " knew",
+          "start": 190.2,
+          "end": 190.56,
+          "probability": 0.856
+        },
+        {
+          "word": " me",
+          "start": 190.56,
+          "end": 190.86,
+          "probability": 0.943
+        },
+        {
+          "word": " with",
+          "start": 190.86,
+          "end": 191.24,
+          "probability": 0.972
+        },
+        {
+          "word": " nothing",
+          "start": 191.24,
+          "end": 191.72,
+          "probability": 0.928
+        },
+        {
+          "word": " Too",
+          "start": 191.72,
+          "end": 192.62,
+          "probability": 0.832
+        },
+        {
+          "word": " much",
+          "start": 192.62,
+          "end": 193.0,
+          "probability": 0.999
+        },
+        {
+          "word": " is",
+          "start": 193.0,
+          "end": 193.52,
+          "probability": 0.954
+        },
+        {
+          "word": " too",
+          "start": 193.52,
+          "end": 193.82,
+          "probability": 0.975
+        },
+        {
+          "word": " much",
+          "start": 193.82,
+          "end": 194.5,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 194.5,
+      "end": 201.32,
+      "text": "I want to see a cheap ogle like rock And bankrupt the blood",
+      "avgLogprob": -0.637,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " I",
+          "start": 194.5,
+          "end": 194.92,
+          "probability": 0.09
+        },
+        {
+          "word": " want",
+          "start": 194.92,
+          "end": 195.38,
+          "probability": 0.609
+        },
+        {
+          "word": " to",
+          "start": 195.38,
+          "end": 195.9,
+          "probability": 0.963
+        },
+        {
+          "word": " see",
+          "start": 195.9,
+          "end": 196.4,
+          "probability": 0.67
+        },
+        {
+          "word": " a",
+          "start": 196.4,
+          "end": 196.84,
+          "probability": 0.796
+        },
+        {
+          "word": " cheap",
+          "start": 196.84,
+          "end": 197.18,
+          "probability": 0.551
+        },
+        {
+          "word": " ogle",
+          "start": 197.18,
+          "end": 197.9,
+          "probability": 0.494
+        },
+        {
+          "word": " like",
+          "start": 197.9,
+          "end": 198.42,
+          "probability": 0.443
+        },
+        {
+          "word": " rock",
+          "start": 198.42,
+          "end": 199.04,
+          "probability": 0.064
+        },
+        {
+          "word": " And",
+          "start": 199.04,
+          "end": 199.7,
+          "probability": 0.616
+        },
+        {
+          "word": " bankrupt",
+          "start": 199.7,
+          "end": 200.32,
+          "probability": 0.457
+        },
+        {
+          "word": " the",
+          "start": 200.32,
+          "end": 200.82,
+          "probability": 0.985
+        },
+        {
+          "word": " blood",
+          "start": 200.82,
+          "end": 201.32,
+          "probability": 0.114
+        }
+      ]
+    },
+    {
+      "start": 201.84,
+      "end": 205.5,
+      "text": "Too much is too much At times I'm some a",
+      "avgLogprob": -0.637,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " Too",
+          "start": 201.56,
+          "end": 202.0,
+          "probability": 0.922
+        },
+        {
+          "word": " much",
+          "start": 202.0,
+          "end": 202.4,
+          "probability": 0.999
+        },
+        {
+          "word": " is",
+          "start": 202.4,
+          "end": 202.82,
+          "probability": 0.994
+        },
+        {
+          "word": " too",
+          "start": 202.82,
+          "end": 203.2,
+          "probability": 0.992
+        },
+        {
+          "word": " much",
+          "start": 203.2,
+          "end": 203.92,
+          "probability": 0.999
+        },
+        {
+          "word": " At",
+          "start": 203.92,
+          "end": 204.3,
+          "probability": 0.488
+        },
+        {
+          "word": " times",
+          "start": 204.3,
+          "end": 204.7,
+          "probability": 0.985
+        },
+        {
+          "word": " I'm",
+          "start": 204.7,
+          "end": 205.04,
+          "probability": 0.908
+        },
+        {
+          "word": " some",
+          "start": 205.04,
+          "end": 205.24,
+          "probability": 0.221
+        },
+        {
+          "word": " a",
+          "start": 205.24,
+          "end": 205.5,
+          "probability": 0.46
+        }
+      ]
+    },
+    {
+      "start": 205.5,
+      "end": 207.74,
+      "text": "Sealed cheap ogle like",
+      "avgLogprob": -0.637,
+      "compressionRatio": 1.491,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " Sealed",
+          "start": 205.5,
+          "end": 206.14,
+          "probability": 0.217
+        },
+        {
+          "word": " cheap",
+          "start": 206.14,
+          "end": 206.48,
+          "probability": 0.189
+        },
+        {
+          "word": " ogle",
+          "start": 206.48,
+          "end": 207.3,
+          "probability": 0.986
+        },
+        {
+          "word": " like",
+          "start": 207.3,
+          "end": 207.74,
+          "probability": 0.892
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.872,
+    "wordCount": 121,
+    "credibleWordCount": 104,
+    "segmentCount": 16,
+    "averageWordProbability": 0.734,
+    "vocalSeconds": 70.14,
+    "scanCoverage": 0.282,
+    "reviewRequired": false
+  }
+}

@@ -1,0 +1,1742 @@
+{
+  "analysisVersion": 1,
+  "index": 108,
+  "id": "../VOLHOLLA/song-throne-06.html",
+  "slug": "highs-and-lows",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Heavy lawns dragging through the mud Grit underneath my fingernails I wake up then I choose to flood Body filling like it's built to iron scales Fighting ghosts in the room with no doors Spit my spirit out until it hits the floors Everything I see is shades of gray I don't need a map to find my way Hust, lows, taking all the blows Looking for my golden crown black and white is all I know watch the fever grow ring size seat to my own private war bell rings And I want it more stumbled to the left reach for what is left She had a grunt on the cross the white tie walk another lonely mile by polar vision in a friend nothing here is ever quite the same Ties, lows, taking all the blows I'm looking for my golden brown black and white It's all I know, watch the fever grow Maybe it's the weight, maybe it's the fate Everything I hate, falling off the plate Just let it break, I'll take the ache For heaven's sake, highs and lows Watch the fever grow Making all the blows, everything go high Cause we're a good buy I'm flying, I don't fallin' down Looking for my golden crown Black and white is all I know Wash the fever, bro Bo Bo Bo Bo Bo Let it go",
+  "sampledRanges": [
+    [
+      7.52,
+      25.52
+    ],
+    [
+      30.1,
+      48.1
+    ],
+    [
+      52.67,
+      70.67
+    ],
+    [
+      75.25,
+      93.25
+    ]
+  ],
+  "segments": [
+    {
+      "start": 7.76,
+      "end": 9.6,
+      "text": "Heavy lawns dragging through the mud",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Heavy",
+          "start": 7.76,
+          "end": 8.2,
+          "probability": 0.674
+        },
+        {
+          "word": " lawns",
+          "start": 8.2,
+          "end": 8.64,
+          "probability": 0.538
+        },
+        {
+          "word": " dragging",
+          "start": 8.64,
+          "end": 8.88,
+          "probability": 0.756
+        },
+        {
+          "word": " through",
+          "start": 8.88,
+          "end": 9.12,
+          "probability": 0.974
+        },
+        {
+          "word": " the",
+          "start": 9.12,
+          "end": 9.26,
+          "probability": 0.984
+        },
+        {
+          "word": " mud",
+          "start": 9.26,
+          "end": 9.6,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 9.6,
+      "end": 12.0,
+      "text": "Grit underneath my fingernails",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Grit",
+          "start": 9.6,
+          "end": 10.44,
+          "probability": 0.564
+        },
+        {
+          "word": " underneath",
+          "start": 10.44,
+          "end": 10.94,
+          "probability": 0.996
+        },
+        {
+          "word": " my",
+          "start": 10.94,
+          "end": 11.22,
+          "probability": 0.975
+        },
+        {
+          "word": " fingernails",
+          "start": 11.22,
+          "end": 12.0,
+          "probability": 0.859
+        }
+      ]
+    },
+    {
+      "start": 12.0,
+      "end": 13.58,
+      "text": "I wake up then I choose to flood",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " I",
+          "start": 12.0,
+          "end": 12.1,
+          "probability": 0.513
+        },
+        {
+          "word": " wake",
+          "start": 12.1,
+          "end": 12.26,
+          "probability": 0.845
+        },
+        {
+          "word": " up",
+          "start": 12.26,
+          "end": 12.5,
+          "probability": 0.997
+        },
+        {
+          "word": " then",
+          "start": 12.5,
+          "end": 12.7,
+          "probability": 0.439
+        },
+        {
+          "word": " I",
+          "start": 12.7,
+          "end": 12.82,
+          "probability": 0.979
+        },
+        {
+          "word": " choose",
+          "start": 12.82,
+          "end": 13.06,
+          "probability": 0.976
+        },
+        {
+          "word": " to",
+          "start": 13.06,
+          "end": 13.26,
+          "probability": 0.723
+        },
+        {
+          "word": " flood",
+          "start": 13.26,
+          "end": 13.58,
+          "probability": 0.296
+        }
+      ]
+    },
+    {
+      "start": 13.58,
+      "end": 16.26,
+      "text": "Body filling like it's built to iron scales",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Body",
+          "start": 13.58,
+          "end": 14.3,
+          "probability": 0.9
+        },
+        {
+          "word": " filling",
+          "start": 14.3,
+          "end": 14.66,
+          "probability": 0.405
+        },
+        {
+          "word": " like",
+          "start": 14.66,
+          "end": 14.94,
+          "probability": 0.921
+        },
+        {
+          "word": " it's",
+          "start": 14.94,
+          "end": 15.18,
+          "probability": 0.886
+        },
+        {
+          "word": " built",
+          "start": 15.18,
+          "end": 15.32,
+          "probability": 0.973
+        },
+        {
+          "word": " to",
+          "start": 15.32,
+          "end": 15.58,
+          "probability": 0.947
+        },
+        {
+          "word": " iron",
+          "start": 15.58,
+          "end": 15.82,
+          "probability": 0.828
+        },
+        {
+          "word": " scales",
+          "start": 15.82,
+          "end": 16.26,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 16.26,
+      "end": 17.96,
+      "text": "Fighting ghosts in the room with no doors",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Fighting",
+          "start": 16.26,
+          "end": 16.62,
+          "probability": 0.801
+        },
+        {
+          "word": " ghosts",
+          "start": 16.62,
+          "end": 16.88,
+          "probability": 0.639
+        },
+        {
+          "word": " in",
+          "start": 16.88,
+          "end": 17.06,
+          "probability": 0.984
+        },
+        {
+          "word": " the",
+          "start": 17.06,
+          "end": 17.12,
+          "probability": 0.694
+        },
+        {
+          "word": " room",
+          "start": 17.12,
+          "end": 17.32,
+          "probability": 0.845
+        },
+        {
+          "word": " with",
+          "start": 17.32,
+          "end": 17.5,
+          "probability": 0.955
+        },
+        {
+          "word": " no",
+          "start": 17.5,
+          "end": 17.66,
+          "probability": 0.999
+        },
+        {
+          "word": " doors",
+          "start": 17.66,
+          "end": 17.96,
+          "probability": 0.76
+        }
+      ]
+    },
+    {
+      "start": 17.96,
+      "end": 19.6,
+      "text": "Spit my spirit out until it hits the floors",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Spit",
+          "start": 17.96,
+          "end": 18.16,
+          "probability": 0.703
+        },
+        {
+          "word": " my",
+          "start": 18.16,
+          "end": 18.28,
+          "probability": 0.996
+        },
+        {
+          "word": " spirit",
+          "start": 18.28,
+          "end": 18.5,
+          "probability": 0.983
+        },
+        {
+          "word": " out",
+          "start": 18.5,
+          "end": 18.72,
+          "probability": 0.996
+        },
+        {
+          "word": " until",
+          "start": 18.72,
+          "end": 18.98,
+          "probability": 0.929
+        },
+        {
+          "word": " it",
+          "start": 18.98,
+          "end": 19.1,
+          "probability": 0.378
+        },
+        {
+          "word": " hits",
+          "start": 19.1,
+          "end": 19.24,
+          "probability": 0.462
+        },
+        {
+          "word": " the",
+          "start": 19.24,
+          "end": 19.36,
+          "probability": 0.991
+        },
+        {
+          "word": " floors",
+          "start": 19.36,
+          "end": 19.6,
+          "probability": 0.904
+        }
+      ]
+    },
+    {
+      "start": 19.6,
+      "end": 20.9,
+      "text": "Everything I see is shades of gray",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 19.6,
+          "end": 19.92,
+          "probability": 0.941
+        },
+        {
+          "word": " I",
+          "start": 19.92,
+          "end": 20.12,
+          "probability": 0.988
+        },
+        {
+          "word": " see",
+          "start": 20.12,
+          "end": 20.3,
+          "probability": 0.998
+        },
+        {
+          "word": " is",
+          "start": 20.3,
+          "end": 20.42,
+          "probability": 0.577
+        },
+        {
+          "word": " shades",
+          "start": 20.42,
+          "end": 20.6,
+          "probability": 0.567
+        },
+        {
+          "word": " of",
+          "start": 20.6,
+          "end": 20.72,
+          "probability": 0.791
+        },
+        {
+          "word": " gray",
+          "start": 20.72,
+          "end": 20.9,
+          "probability": 0.707
+        }
+      ]
+    },
+    {
+      "start": 20.9,
+      "end": 22.3,
+      "text": "I don't need a map to find my way",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " I",
+          "start": 20.9,
+          "end": 21.08,
+          "probability": 0.626
+        },
+        {
+          "word": " don't",
+          "start": 21.08,
+          "end": 21.22,
+          "probability": 0.997
+        },
+        {
+          "word": " need",
+          "start": 21.22,
+          "end": 21.34,
+          "probability": 0.998
+        },
+        {
+          "word": " a",
+          "start": 21.34,
+          "end": 21.44,
+          "probability": 0.582
+        },
+        {
+          "word": " map",
+          "start": 21.44,
+          "end": 21.54,
+          "probability": 0.994
+        },
+        {
+          "word": " to",
+          "start": 21.54,
+          "end": 21.7,
+          "probability": 0.991
+        },
+        {
+          "word": " find",
+          "start": 21.7,
+          "end": 21.84,
+          "probability": 0.984
+        },
+        {
+          "word": " my",
+          "start": 21.84,
+          "end": 22.0,
+          "probability": 0.994
+        },
+        {
+          "word": " way",
+          "start": 22.0,
+          "end": 22.3,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 22.3,
+      "end": 25.06,
+      "text": "Hust, lows, taking all the blows",
+      "avgLogprob": -0.364,
+      "compressionRatio": 1.523,
+      "noSpeechProbability": 0.525,
+      "words": [
+        {
+          "word": " Hust,",
+          "start": 22.3,
+          "end": 23.0,
+          "probability": 0.243
+        },
+        {
+          "word": " lows,",
+          "start": 23.3,
+          "end": 23.66,
+          "probability": 0.507
+        },
+        {
+          "word": " taking",
+          "start": 24.14,
+          "end": 24.32,
+          "probability": 0.803
+        },
+        {
+          "word": " all",
+          "start": 24.32,
+          "end": 24.58,
+          "probability": 0.434
+        },
+        {
+          "word": " the",
+          "start": 24.58,
+          "end": 24.76,
+          "probability": 0.962
+        },
+        {
+          "word": " blows",
+          "start": 24.76,
+          "end": 25.06,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 30.1,
+      "end": 37.28,
+      "text": "Looking for my golden crown black and white is all I know watch the fever grow ring size seat to my own private war bell rings",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.587,
+      "noSpeechProbability": 0.653,
+      "words": [
+        {
+          "word": " Looking",
+          "start": 30.1,
+          "end": 30.48,
+          "probability": 0.439
+        },
+        {
+          "word": " for",
+          "start": 30.48,
+          "end": 30.68,
+          "probability": 0.963
+        },
+        {
+          "word": " my",
+          "start": 30.68,
+          "end": 30.9,
+          "probability": 0.992
+        },
+        {
+          "word": " golden",
+          "start": 30.9,
+          "end": 31.26,
+          "probability": 0.804
+        },
+        {
+          "word": " crown",
+          "start": 31.26,
+          "end": 31.62,
+          "probability": 0.993
+        },
+        {
+          "word": " black",
+          "start": 31.62,
+          "end": 31.96,
+          "probability": 0.314
+        },
+        {
+          "word": " and",
+          "start": 31.96,
+          "end": 32.08,
+          "probability": 0.51
+        },
+        {
+          "word": " white",
+          "start": 32.08,
+          "end": 32.32,
+          "probability": 0.979
+        },
+        {
+          "word": " is",
+          "start": 32.32,
+          "end": 32.56,
+          "probability": 0.289
+        },
+        {
+          "word": " all",
+          "start": 32.56,
+          "end": 32.74,
+          "probability": 0.98
+        },
+        {
+          "word": " I",
+          "start": 32.74,
+          "end": 32.9,
+          "probability": 0.916
+        },
+        {
+          "word": " know",
+          "start": 32.9,
+          "end": 33.14,
+          "probability": 0.998
+        },
+        {
+          "word": " watch",
+          "start": 33.14,
+          "end": 33.56,
+          "probability": 0.139
+        },
+        {
+          "word": " the",
+          "start": 33.56,
+          "end": 33.66,
+          "probability": 0.612
+        },
+        {
+          "word": " fever",
+          "start": 33.66,
+          "end": 33.92,
+          "probability": 0.956
+        },
+        {
+          "word": " grow",
+          "start": 33.92,
+          "end": 34.38,
+          "probability": 0.965
+        },
+        {
+          "word": " ring",
+          "start": 34.38,
+          "end": 35.08,
+          "probability": 0.117
+        },
+        {
+          "word": " size",
+          "start": 35.08,
+          "end": 35.38,
+          "probability": 0.738
+        },
+        {
+          "word": " seat",
+          "start": 35.38,
+          "end": 35.64,
+          "probability": 0.854
+        },
+        {
+          "word": " to",
+          "start": 35.64,
+          "end": 35.82,
+          "probability": 0.928
+        },
+        {
+          "word": " my",
+          "start": 35.82,
+          "end": 35.96,
+          "probability": 0.998
+        },
+        {
+          "word": " own",
+          "start": 35.96,
+          "end": 36.16,
+          "probability": 0.993
+        },
+        {
+          "word": " private",
+          "start": 36.16,
+          "end": 36.44,
+          "probability": 0.483
+        },
+        {
+          "word": " war",
+          "start": 36.44,
+          "end": 36.68,
+          "probability": 0.371
+        },
+        {
+          "word": " bell",
+          "start": 36.68,
+          "end": 36.96,
+          "probability": 0.614
+        },
+        {
+          "word": " rings",
+          "start": 36.96,
+          "end": 37.28,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 37.28,
+      "end": 39.5,
+      "text": "And I want it more stumbled to the left reach for what is left",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.587,
+      "noSpeechProbability": 0.653,
+      "words": [
+        {
+          "word": " And",
+          "start": 37.28,
+          "end": 37.42,
+          "probability": 0.094
+        },
+        {
+          "word": " I",
+          "start": 37.42,
+          "end": 37.52,
+          "probability": 0.809
+        },
+        {
+          "word": " want",
+          "start": 37.52,
+          "end": 37.68,
+          "probability": 0.409
+        },
+        {
+          "word": " it",
+          "start": 37.68,
+          "end": 37.78,
+          "probability": 0.865
+        },
+        {
+          "word": " more",
+          "start": 37.78,
+          "end": 37.96,
+          "probability": 0.942
+        },
+        {
+          "word": " stumbled",
+          "start": 37.96,
+          "end": 38.14,
+          "probability": 0.65
+        },
+        {
+          "word": " to",
+          "start": 38.14,
+          "end": 38.44,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 38.44,
+          "end": 38.56,
+          "probability": 0.994
+        },
+        {
+          "word": " left",
+          "start": 38.56,
+          "end": 38.72,
+          "probability": 0.949
+        },
+        {
+          "word": " reach",
+          "start": 38.72,
+          "end": 38.94,
+          "probability": 0.833
+        },
+        {
+          "word": " for",
+          "start": 38.94,
+          "end": 39.1,
+          "probability": 0.964
+        },
+        {
+          "word": " what",
+          "start": 39.1,
+          "end": 39.24,
+          "probability": 0.928
+        },
+        {
+          "word": " is",
+          "start": 39.24,
+          "end": 39.36,
+          "probability": 0.787
+        },
+        {
+          "word": " left",
+          "start": 39.36,
+          "end": 39.5,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 39.5,
+      "end": 44.84,
+      "text": "She had a grunt on the cross the white tie walk another lonely mile by polar vision in a friend nothing here is ever quite the same",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.587,
+      "noSpeechProbability": 0.653,
+      "words": [
+        {
+          "word": " She",
+          "start": 39.5,
+          "end": 39.7,
+          "probability": 0.036
+        },
+        {
+          "word": " had",
+          "start": 39.7,
+          "end": 39.8,
+          "probability": 0.661
+        },
+        {
+          "word": " a",
+          "start": 39.8,
+          "end": 39.86,
+          "probability": 0.878
+        },
+        {
+          "word": " grunt",
+          "start": 39.86,
+          "end": 40.08,
+          "probability": 0.485
+        },
+        {
+          "word": " on",
+          "start": 40.08,
+          "end": 40.26,
+          "probability": 0.648
+        },
+        {
+          "word": " the",
+          "start": 40.26,
+          "end": 40.36,
+          "probability": 0.635
+        },
+        {
+          "word": " cross",
+          "start": 40.36,
+          "end": 40.5,
+          "probability": 0.538
+        },
+        {
+          "word": " the",
+          "start": 40.5,
+          "end": 40.66,
+          "probability": 0.9
+        },
+        {
+          "word": " white",
+          "start": 40.66,
+          "end": 40.82,
+          "probability": 0.964
+        },
+        {
+          "word": " tie",
+          "start": 40.82,
+          "end": 41.06,
+          "probability": 0.413
+        },
+        {
+          "word": " walk",
+          "start": 41.06,
+          "end": 41.28,
+          "probability": 0.783
+        },
+        {
+          "word": " another",
+          "start": 41.28,
+          "end": 41.56,
+          "probability": 0.983
+        },
+        {
+          "word": " lonely",
+          "start": 41.56,
+          "end": 41.86,
+          "probability": 0.952
+        },
+        {
+          "word": " mile",
+          "start": 41.86,
+          "end": 42.18,
+          "probability": 0.912
+        },
+        {
+          "word": " by",
+          "start": 42.18,
+          "end": 42.34,
+          "probability": 0.656
+        },
+        {
+          "word": " polar",
+          "start": 42.34,
+          "end": 42.62,
+          "probability": 0.561
+        },
+        {
+          "word": " vision",
+          "start": 42.62,
+          "end": 42.92,
+          "probability": 0.88
+        },
+        {
+          "word": " in",
+          "start": 42.92,
+          "end": 43.1,
+          "probability": 0.568
+        },
+        {
+          "word": " a",
+          "start": 43.1,
+          "end": 43.14,
+          "probability": 0.533
+        },
+        {
+          "word": " friend",
+          "start": 43.14,
+          "end": 43.38,
+          "probability": 0.573
+        },
+        {
+          "word": " nothing",
+          "start": 43.38,
+          "end": 43.68,
+          "probability": 0.718
+        },
+        {
+          "word": " here",
+          "start": 43.68,
+          "end": 43.88,
+          "probability": 0.889
+        },
+        {
+          "word": " is",
+          "start": 43.88,
+          "end": 44.04,
+          "probability": 0.463
+        },
+        {
+          "word": " ever",
+          "start": 44.04,
+          "end": 44.18,
+          "probability": 0.922
+        },
+        {
+          "word": " quite",
+          "start": 44.18,
+          "end": 44.38,
+          "probability": 0.962
+        },
+        {
+          "word": " the",
+          "start": 44.38,
+          "end": 44.56,
+          "probability": 0.978
+        },
+        {
+          "word": " same",
+          "start": 44.56,
+          "end": 44.84,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 44.84,
+      "end": 47.52,
+      "text": "Ties, lows, taking all the blows",
+      "avgLogprob": -0.484,
+      "compressionRatio": 1.587,
+      "noSpeechProbability": 0.653,
+      "words": [
+        {
+          "word": " Ties,",
+          "start": 44.84,
+          "end": 45.44,
+          "probability": 0.441
+        },
+        {
+          "word": " lows,",
+          "start": 45.62,
+          "end": 46.06,
+          "probability": 0.815
+        },
+        {
+          "word": " taking",
+          "start": 46.32,
+          "end": 46.7,
+          "probability": 0.834
+        },
+        {
+          "word": " all",
+          "start": 46.7,
+          "end": 47.0,
+          "probability": 0.86
+        },
+        {
+          "word": " the",
+          "start": 47.0,
+          "end": 47.16,
+          "probability": 0.967
+        },
+        {
+          "word": " blows",
+          "start": 47.16,
+          "end": 47.52,
+          "probability": 0.699
+        }
+      ]
+    },
+    {
+      "start": 52.67,
+      "end": 54.69,
+      "text": "I'm looking for my golden brown black and white",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 52.67,
+          "end": 52.85,
+          "probability": 0.11
+        },
+        {
+          "word": " looking",
+          "start": 52.85,
+          "end": 52.85,
+          "probability": 0.418
+        },
+        {
+          "word": " for",
+          "start": 52.85,
+          "end": 53.07,
+          "probability": 0.985
+        },
+        {
+          "word": " my",
+          "start": 53.07,
+          "end": 53.31,
+          "probability": 0.982
+        },
+        {
+          "word": " golden",
+          "start": 53.31,
+          "end": 53.65,
+          "probability": 0.355
+        },
+        {
+          "word": " brown",
+          "start": 53.65,
+          "end": 53.99,
+          "probability": 0.604
+        },
+        {
+          "word": " black",
+          "start": 53.99,
+          "end": 54.35,
+          "probability": 0.597
+        },
+        {
+          "word": " and",
+          "start": 54.35,
+          "end": 54.49,
+          "probability": 0.917
+        },
+        {
+          "word": " white",
+          "start": 54.49,
+          "end": 54.69,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 54.69,
+      "end": 56.67,
+      "text": "It's all I know, watch the fever grow",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " It's",
+          "start": 54.69,
+          "end": 54.99,
+          "probability": 0.602
+        },
+        {
+          "word": " all",
+          "start": 54.99,
+          "end": 55.11,
+          "probability": 0.99
+        },
+        {
+          "word": " I",
+          "start": 55.11,
+          "end": 55.25,
+          "probability": 0.961
+        },
+        {
+          "word": " know,",
+          "start": 55.25,
+          "end": 55.49,
+          "probability": 0.997
+        },
+        {
+          "word": " watch",
+          "start": 55.61,
+          "end": 55.93,
+          "probability": 0.853
+        },
+        {
+          "word": " the",
+          "start": 55.93,
+          "end": 56.05,
+          "probability": 0.947
+        },
+        {
+          "word": " fever",
+          "start": 56.05,
+          "end": 56.29,
+          "probability": 0.977
+        },
+        {
+          "word": " grow",
+          "start": 56.29,
+          "end": 56.67,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 56.67,
+      "end": 59.79,
+      "text": "Maybe it's the weight, maybe it's the fate",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Maybe",
+          "start": 56.67,
+          "end": 57.47,
+          "probability": 0.605
+        },
+        {
+          "word": " it's",
+          "start": 57.47,
+          "end": 57.85,
+          "probability": 0.975
+        },
+        {
+          "word": " the",
+          "start": 57.85,
+          "end": 57.97,
+          "probability": 0.975
+        },
+        {
+          "word": " weight,",
+          "start": 57.97,
+          "end": 58.27,
+          "probability": 0.783
+        },
+        {
+          "word": " maybe",
+          "start": 58.53,
+          "end": 59.05,
+          "probability": 0.97
+        },
+        {
+          "word": " it's",
+          "start": 59.05,
+          "end": 59.37,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 59.37,
+          "end": 59.47,
+          "probability": 0.995
+        },
+        {
+          "word": " fate",
+          "start": 59.47,
+          "end": 59.79,
+          "probability": 0.865
+        }
+      ]
+    },
+    {
+      "start": 59.79,
+      "end": 62.85,
+      "text": "Everything I hate, falling off the plate",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Everything",
+          "start": 59.79,
+          "end": 60.75,
+          "probability": 0.802
+        },
+        {
+          "word": " I",
+          "start": 60.75,
+          "end": 61.05,
+          "probability": 0.987
+        },
+        {
+          "word": " hate,",
+          "start": 61.05,
+          "end": 61.37,
+          "probability": 0.994
+        },
+        {
+          "word": " falling",
+          "start": 61.93,
+          "end": 62.15,
+          "probability": 0.794
+        },
+        {
+          "word": " off",
+          "start": 62.15,
+          "end": 62.37,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 62.37,
+          "end": 62.53,
+          "probability": 0.95
+        },
+        {
+          "word": " plate",
+          "start": 62.53,
+          "end": 62.85,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 62.85,
+      "end": 65.99,
+      "text": "Just let it break, I'll take the ache",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Just",
+          "start": 62.85,
+          "end": 63.63,
+          "probability": 0.878
+        },
+        {
+          "word": " let",
+          "start": 63.63,
+          "end": 63.95,
+          "probability": 0.989
+        },
+        {
+          "word": " it",
+          "start": 63.95,
+          "end": 64.07,
+          "probability": 0.998
+        },
+        {
+          "word": " break,",
+          "start": 64.07,
+          "end": 64.41,
+          "probability": 0.997
+        },
+        {
+          "word": " I'll",
+          "start": 64.69,
+          "end": 65.23,
+          "probability": 0.973
+        },
+        {
+          "word": " take",
+          "start": 65.23,
+          "end": 65.45,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 65.45,
+          "end": 65.69,
+          "probability": 0.991
+        },
+        {
+          "word": " ache",
+          "start": 65.69,
+          "end": 65.99,
+          "probability": 0.863
+        }
+      ]
+    },
+    {
+      "start": 65.99,
+      "end": 69.21,
+      "text": "For heaven's sake, highs and lows",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " For",
+          "start": 65.99,
+          "end": 66.71,
+          "probability": 0.304
+        },
+        {
+          "word": " heaven's",
+          "start": 66.71,
+          "end": 67.37,
+          "probability": 0.787
+        },
+        {
+          "word": " sake,",
+          "start": 67.37,
+          "end": 67.59,
+          "probability": 0.979
+        },
+        {
+          "word": " highs",
+          "start": 67.73,
+          "end": 68.61,
+          "probability": 0.83
+        },
+        {
+          "word": " and",
+          "start": 68.61,
+          "end": 68.83,
+          "probability": 0.987
+        },
+        {
+          "word": " lows",
+          "start": 68.83,
+          "end": 69.21,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 69.21,
+      "end": 70.65,
+      "text": "Watch the fever grow",
+      "avgLogprob": -0.234,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Watch",
+          "start": 69.21,
+          "end": 69.85,
+          "probability": 0.62
+        },
+        {
+          "word": " the",
+          "start": 69.85,
+          "end": 69.97,
+          "probability": 0.993
+        },
+        {
+          "word": " fever",
+          "start": 69.97,
+          "end": 70.25,
+          "probability": 0.998
+        },
+        {
+          "word": " grow",
+          "start": 70.25,
+          "end": 70.65,
+          "probability": 0.988
+        }
+      ]
+    },
+    {
+      "start": 75.25,
+      "end": 77.81,
+      "text": "Making all the blows, everything go high",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Making",
+          "start": 75.25,
+          "end": 75.37,
+          "probability": 0.009
+        },
+        {
+          "word": " all",
+          "start": 75.37,
+          "end": 75.57,
+          "probability": 0.66
+        },
+        {
+          "word": " the",
+          "start": 75.57,
+          "end": 75.71,
+          "probability": 0.981
+        },
+        {
+          "word": " blows,",
+          "start": 75.71,
+          "end": 76.17,
+          "probability": 0.9
+        },
+        {
+          "word": " everything",
+          "start": 76.67,
+          "end": 77.01,
+          "probability": 0.852
+        },
+        {
+          "word": " go",
+          "start": 77.01,
+          "end": 77.31,
+          "probability": 0.728
+        },
+        {
+          "word": " high",
+          "start": 77.31,
+          "end": 77.81,
+          "probability": 0.736
+        }
+      ]
+    },
+    {
+      "start": 77.81,
+      "end": 79.17,
+      "text": "Cause we're a good buy",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Cause",
+          "start": 77.81,
+          "end": 78.31,
+          "probability": 0.258
+        },
+        {
+          "word": " we're",
+          "start": 78.31,
+          "end": 78.53,
+          "probability": 0.949
+        },
+        {
+          "word": " a",
+          "start": 78.53,
+          "end": 78.67,
+          "probability": 0.659
+        },
+        {
+          "word": " good",
+          "start": 78.67,
+          "end": 78.79,
+          "probability": 0.499
+        },
+        {
+          "word": " buy",
+          "start": 78.79,
+          "end": 79.17,
+          "probability": 0.247
+        }
+      ]
+    },
+    {
+      "start": 79.17,
+      "end": 81.09,
+      "text": "I'm flying, I don't fallin' down",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 79.17,
+          "end": 79.71,
+          "probability": 0.809
+        },
+        {
+          "word": " flying,",
+          "start": 79.71,
+          "end": 79.95,
+          "probability": 0.957
+        },
+        {
+          "word": " I",
+          "start": 80.17,
+          "end": 80.19,
+          "probability": 0.269
+        },
+        {
+          "word": " don't",
+          "start": 80.19,
+          "end": 80.39,
+          "probability": 0.893
+        },
+        {
+          "word": " fallin'",
+          "start": 80.39,
+          "end": 80.77,
+          "probability": 0.783
+        },
+        {
+          "word": " down",
+          "start": 80.95,
+          "end": 81.09,
+          "probability": 0.993
+        }
+      ]
+    },
+    {
+      "start": 81.09,
+      "end": 82.57,
+      "text": "Looking for my golden crown",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Looking",
+          "start": 81.09,
+          "end": 81.41,
+          "probability": 0.524
+        },
+        {
+          "word": " for",
+          "start": 81.41,
+          "end": 81.65,
+          "probability": 0.976
+        },
+        {
+          "word": " my",
+          "start": 81.65,
+          "end": 81.89,
+          "probability": 0.99
+        },
+        {
+          "word": " golden",
+          "start": 81.89,
+          "end": 82.23,
+          "probability": 0.47
+        },
+        {
+          "word": " crown",
+          "start": 82.23,
+          "end": 82.57,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 82.57,
+      "end": 84.19,
+      "text": "Black and white is all I know",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Black",
+          "start": 82.57,
+          "end": 82.93,
+          "probability": 0.319
+        },
+        {
+          "word": " and",
+          "start": 82.93,
+          "end": 83.05,
+          "probability": 0.87
+        },
+        {
+          "word": " white",
+          "start": 83.05,
+          "end": 83.29,
+          "probability": 0.975
+        },
+        {
+          "word": " is",
+          "start": 83.29,
+          "end": 83.55,
+          "probability": 0.475
+        },
+        {
+          "word": " all",
+          "start": 83.55,
+          "end": 83.71,
+          "probability": 0.978
+        },
+        {
+          "word": " I",
+          "start": 83.71,
+          "end": 83.87,
+          "probability": 0.976
+        },
+        {
+          "word": " know",
+          "start": 83.87,
+          "end": 84.19,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 84.19,
+      "end": 85.29,
+      "text": "Wash the fever, bro",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Wash",
+          "start": 84.19,
+          "end": 84.51,
+          "probability": 0.486
+        },
+        {
+          "word": " the",
+          "start": 84.51,
+          "end": 84.61,
+          "probability": 0.657
+        },
+        {
+          "word": " fever,",
+          "start": 84.61,
+          "end": 84.85,
+          "probability": 0.857
+        },
+        {
+          "word": " bro",
+          "start": 85.09,
+          "end": 85.29,
+          "probability": 0.896
+        }
+      ]
+    },
+    {
+      "start": 86.43,
+      "end": 86.93,
+      "text": "Bo",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Bo",
+          "start": 86.43,
+          "end": 86.93,
+          "probability": 0.04
+        }
+      ]
+    },
+    {
+      "start": 87.73,
+      "end": 88.23,
+      "text": "Bo",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Bo",
+          "start": 87.73,
+          "end": 88.23,
+          "probability": 0.001
+        }
+      ]
+    },
+    {
+      "start": 88.23,
+      "end": 88.97,
+      "text": "Bo",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Bo",
+          "start": 88.23,
+          "end": 88.97,
+          "probability": 0.252
+        }
+      ]
+    },
+    {
+      "start": 89.53,
+      "end": 90.03,
+      "text": "Bo",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Bo",
+          "start": 89.53,
+          "end": 90.03,
+          "probability": 0.387
+        }
+      ]
+    },
+    {
+      "start": 90.03,
+      "end": 90.79,
+      "text": "Bo",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Bo",
+          "start": 90.03,
+          "end": 90.79,
+          "probability": 0.319
+        }
+      ]
+    },
+    {
+      "start": 90.79,
+      "end": 92.27,
+      "text": "Let it go",
+      "avgLogprob": -0.624,
+      "compressionRatio": 1.363,
+      "noSpeechProbability": 0.706,
+      "words": [
+        {
+          "word": " Let",
+          "start": 90.79,
+          "end": 91.67,
+          "probability": 0.532
+        },
+        {
+          "word": " it",
+          "start": 91.67,
+          "end": 91.81,
+          "probability": 0.966
+        },
+        {
+          "word": " go",
+          "start": 91.81,
+          "end": 92.27,
+          "probability": 0.989
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.891,
+    "wordCount": 230,
+    "credibleWordCount": 211,
+    "segmentCount": 32,
+    "averageWordProbability": 0.774,
+    "vocalSeconds": 67.22,
+    "scanCoverage": 0.643,
+    "reviewRequired": false
+  }
+}

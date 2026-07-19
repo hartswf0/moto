@@ -1,0 +1,388 @@
+{
+  "analysisVersion": 1,
+  "index": 70,
+  "id": "../VOLHOLLA/song-maquina-33.html",
+  "slug": "all-time-ticket (1)",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "he",
+  "text": "תביד ורואה חנו שר, היא אינה מבקשת יסבל, המדבר קורה בשמחה בליקול, את הסעי... כל טיפה של דם, חוסך את הרגע לא ראיבו, נושא מולף בחיך הכל הראיבו הרואה אפשר דפת את הפכדו ‫היא מיכולה איבו, ‫לא חמולף הכי חקלה איבו. ‫הרועה שאתה קצת את הבן.",
+  "sampledRanges": [
+    [
+      14.92,
+      32.92
+    ],
+    [
+      59.69,
+      77.69
+    ],
+    [
+      104.45,
+      122.45
+    ],
+    [
+      149.22,
+      167.22
+    ]
+  ],
+  "segments": [
+    {
+      "start": 16.12,
+      "end": 25.92,
+      "text": "תביד ורואה חנו שר, היא אינה מבקשת יסבל,",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.409,
+      "noSpeechProbability": 0.678,
+      "words": [
+        {
+          "word": " תביד",
+          "start": 16.12,
+          "end": 17.52,
+          "probability": 0.711
+        },
+        {
+          "word": " ורואה",
+          "start": 17.52,
+          "end": 18.92,
+          "probability": 0.613
+        },
+        {
+          "word": " חנו",
+          "start": 18.92,
+          "end": 19.9,
+          "probability": 0.586
+        },
+        {
+          "word": " שר,",
+          "start": 19.9,
+          "end": 20.58,
+          "probability": 0.473
+        },
+        {
+          "word": " היא",
+          "start": 21.58,
+          "end": 22.28,
+          "probability": 0.359
+        },
+        {
+          "word": " אינה",
+          "start": 22.28,
+          "end": 23.18,
+          "probability": 0.526
+        },
+        {
+          "word": " מבקשת",
+          "start": 23.18,
+          "end": 25.26,
+          "probability": 0.795
+        },
+        {
+          "word": " יסבל,",
+          "start": 25.26,
+          "end": 25.96,
+          "probability": 0.483
+        }
+      ]
+    },
+    {
+      "start": 27.86,
+      "end": 32.9,
+      "text": "המדבר קורה בשמחה בליקול, את הסעי...",
+      "avgLogprob": -0.67,
+      "compressionRatio": 1.409,
+      "noSpeechProbability": 0.678,
+      "words": [
+        {
+          "word": " המדבר",
+          "start": 27.86,
+          "end": 29.04,
+          "probability": 0.781
+        },
+        {
+          "word": " קורה",
+          "start": 29.04,
+          "end": 29.66,
+          "probability": 0.801
+        },
+        {
+          "word": " בשמחה",
+          "start": 29.66,
+          "end": 30.84,
+          "probability": 0.612
+        },
+        {
+          "word": " בליקול,",
+          "start": 30.84,
+          "end": 31.5,
+          "probability": 0.645
+        },
+        {
+          "word": " את",
+          "start": 31.76,
+          "end": 31.9,
+          "probability": 0.335
+        },
+        {
+          "word": " הסעי...",
+          "start": 31.9,
+          "end": 32.9,
+          "probability": 0.418
+        }
+      ]
+    },
+    {
+      "start": 104.45,
+      "end": 108.49,
+      "text": "כל טיפה של דם, חוסך את הרגע",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.481,
+      "noSpeechProbability": 0.412,
+      "words": [
+        {
+          "word": " כל",
+          "start": 104.45,
+          "end": 104.69,
+          "probability": 0.246
+        },
+        {
+          "word": " טיפה",
+          "start": 104.69,
+          "end": 105.55,
+          "probability": 0.883
+        },
+        {
+          "word": " של",
+          "start": 105.55,
+          "end": 105.85,
+          "probability": 0.917
+        },
+        {
+          "word": " דם,",
+          "start": 105.85,
+          "end": 106.21,
+          "probability": 0.647
+        },
+        {
+          "word": " חוסך",
+          "start": 106.47,
+          "end": 107.09,
+          "probability": 0.473
+        },
+        {
+          "word": " את",
+          "start": 107.09,
+          "end": 107.47,
+          "probability": 0.925
+        },
+        {
+          "word": " הרגע",
+          "start": 107.47,
+          "end": 108.49,
+          "probability": 0.85
+        }
+      ]
+    },
+    {
+      "start": 108.99,
+      "end": 117.23,
+      "text": "לא ראיבו, נושא מולף בחיך הכל הראיבו",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.481,
+      "noSpeechProbability": 0.412,
+      "words": [
+        {
+          "word": " לא",
+          "start": 108.53,
+          "end": 109.23,
+          "probability": 0.0
+        },
+        {
+          "word": " ראיבו,",
+          "start": 109.23,
+          "end": 111.37,
+          "probability": 0.463
+        },
+        {
+          "word": " נושא",
+          "start": 111.67,
+          "end": 112.61,
+          "probability": 0.532
+        },
+        {
+          "word": " מולף",
+          "start": 112.61,
+          "end": 113.55,
+          "probability": 0.456
+        },
+        {
+          "word": " בחיך",
+          "start": 113.55,
+          "end": 114.25,
+          "probability": 0.509
+        },
+        {
+          "word": " הכל",
+          "start": 114.25,
+          "end": 115.01,
+          "probability": 0.617
+        },
+        {
+          "word": " הראיבו",
+          "start": 115.01,
+          "end": 117.23,
+          "probability": 0.679
+        }
+      ]
+    },
+    {
+      "start": 117.23,
+      "end": 122.43,
+      "text": "הרואה אפשר דפת את הפכדו",
+      "avgLogprob": -0.727,
+      "compressionRatio": 1.481,
+      "noSpeechProbability": 0.412,
+      "words": [
+        {
+          "word": " הרואה",
+          "start": 117.23,
+          "end": 118.71,
+          "probability": 0.308
+        },
+        {
+          "word": " אפשר",
+          "start": 118.71,
+          "end": 119.09,
+          "probability": 0.612
+        },
+        {
+          "word": " דפת",
+          "start": 119.09,
+          "end": 119.99,
+          "probability": 0.795
+        },
+        {
+          "word": " את",
+          "start": 119.99,
+          "end": 120.37,
+          "probability": 0.937
+        },
+        {
+          "word": " הפכדו",
+          "start": 120.37,
+          "end": 122.43,
+          "probability": 0.569
+        }
+      ]
+    },
+    {
+      "start": 149.22,
+      "end": 163.14,
+      "text": "‫היא מיכולה איבו, ‫לא חמולף הכי חקלה איבו.",
+      "avgLogprob": -0.953,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.288,
+      "words": [
+        {
+          "word": " ‫היא",
+          "start": 149.22,
+          "end": 149.38,
+          "probability": 0.213
+        },
+        {
+          "word": " מיכולה",
+          "start": 149.38,
+          "end": 151.3,
+          "probability": 0.55
+        },
+        {
+          "word": " איבו,",
+          "start": 151.3,
+          "end": 157.22,
+          "probability": 0.275
+        },
+        {
+          "word": " ‫לא",
+          "start": 157.76,
+          "end": 158.24,
+          "probability": 0.676
+        },
+        {
+          "word": " חמולף",
+          "start": 158.24,
+          "end": 159.5,
+          "probability": 0.683
+        },
+        {
+          "word": " הכי",
+          "start": 159.5,
+          "end": 160.04,
+          "probability": 0.344
+        },
+        {
+          "word": " חקלה",
+          "start": 160.04,
+          "end": 161.4,
+          "probability": 0.375
+        },
+        {
+          "word": " איבו.",
+          "start": 161.4,
+          "end": 163.14,
+          "probability": 0.784
+        }
+      ]
+    },
+    {
+      "start": 163.66,
+      "end": 166.86,
+      "text": "‫הרועה שאתה קצת את הבן.",
+      "avgLogprob": -0.953,
+      "compressionRatio": 1.333,
+      "noSpeechProbability": 0.288,
+      "words": [
+        {
+          "word": " ‫הרועה",
+          "start": 163.66,
+          "end": 164.74,
+          "probability": 0.624
+        },
+        {
+          "word": " שאתה",
+          "start": 164.74,
+          "end": 165.46,
+          "probability": 0.537
+        },
+        {
+          "word": " קצת",
+          "start": 165.46,
+          "end": 165.98,
+          "probability": 0.406
+        },
+        {
+          "word": " את",
+          "start": 165.98,
+          "end": 166.32,
+          "probability": 0.821
+        },
+        {
+          "word": " הבן.",
+          "start": 166.32,
+          "end": 166.86,
+          "probability": 0.197
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.739,
+    "wordCount": 46,
+    "credibleWordCount": 38,
+    "segmentCount": 7,
+    "averageWordProbability": 0.566,
+    "vocalSeconds": 49.44,
+    "scanCoverage": 0.352,
+    "reviewRequired": false
+  }
+}

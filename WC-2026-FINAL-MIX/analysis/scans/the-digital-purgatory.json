@@ -1,0 +1,1596 @@
+{
+  "analysisVersion": 1,
+  "index": 113,
+  "id": "../VOLHOLLA/song-noservice-13.html",
+  "slug": "the-digital-purgatory",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I call your line, picture like a sink Service making me want to faint You read from a strip that is three years old Leave your mind issue, out in the cold If the question hard, you just drop the call See, he just hung up, no shame at all We penalize the culprits, you move like a ghost When I meet me, don't- Asking for numbers I die of last year I use what's out your people know get here. Give me my number Give me my number like cuz of London Give me my number give me my number now. I'm talking to a lit about with no brains Spending me in circles driving me insane when I finally get a human Boy now, I don't think be your failure. You refuse the refund. You think say you smart I'm taking this matter to the FCC's heart, hostage situation. You won't let me go We're holding my pin making the process slow Asking for numbers I dialed last year. I use WhatsApp. You people don't get it. Give me my number. Give me my number Keep your fake wait time we by passing your support report in the crime charge back initiated money coming back federal commission putting you on a track BBB complaint read a post's life your a war retrition, but I will survive",
+  "sampledRanges": [
+    [
+      7.88,
+      25.88
+    ],
+    [
+      31.51,
+      49.51
+    ],
+    [
+      55.14,
+      73.14
+    ],
+    [
+      78.78,
+      96.78
+    ]
+  ],
+  "segments": [
+    {
+      "start": 8.74,
+      "end": 11.22,
+      "text": "I call your line, picture like a sink",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " I",
+          "start": 8.74,
+          "end": 9.18,
+          "probability": 0.32
+        },
+        {
+          "word": " call",
+          "start": 9.18,
+          "end": 9.44,
+          "probability": 0.805
+        },
+        {
+          "word": " your",
+          "start": 9.44,
+          "end": 9.64,
+          "probability": 0.878
+        },
+        {
+          "word": " line,",
+          "start": 9.64,
+          "end": 10.02,
+          "probability": 0.889
+        },
+        {
+          "word": " picture",
+          "start": 10.26,
+          "end": 10.6,
+          "probability": 0.501
+        },
+        {
+          "word": " like",
+          "start": 10.6,
+          "end": 10.78,
+          "probability": 0.992
+        },
+        {
+          "word": " a",
+          "start": 10.78,
+          "end": 10.94,
+          "probability": 0.981
+        },
+        {
+          "word": " sink",
+          "start": 10.94,
+          "end": 11.22,
+          "probability": 0.604
+        }
+      ]
+    },
+    {
+      "start": 11.22,
+      "end": 13.26,
+      "text": "Service making me want to faint",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " Service",
+          "start": 11.22,
+          "end": 11.86,
+          "probability": 0.478
+        },
+        {
+          "word": " making",
+          "start": 11.86,
+          "end": 12.3,
+          "probability": 0.771
+        },
+        {
+          "word": " me",
+          "start": 12.3,
+          "end": 12.52,
+          "probability": 0.997
+        },
+        {
+          "word": " want",
+          "start": 12.52,
+          "end": 12.78,
+          "probability": 0.962
+        },
+        {
+          "word": " to",
+          "start": 12.78,
+          "end": 12.98,
+          "probability": 0.74
+        },
+        {
+          "word": " faint",
+          "start": 12.98,
+          "end": 13.26,
+          "probability": 0.66
+        }
+      ]
+    },
+    {
+      "start": 13.26,
+      "end": 15.76,
+      "text": "You read from a strip that is three years old",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " You",
+          "start": 13.26,
+          "end": 13.74,
+          "probability": 0.864
+        },
+        {
+          "word": " read",
+          "start": 13.74,
+          "end": 13.92,
+          "probability": 0.723
+        },
+        {
+          "word": " from",
+          "start": 13.92,
+          "end": 14.14,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 14.14,
+          "end": 14.3,
+          "probability": 0.922
+        },
+        {
+          "word": " strip",
+          "start": 14.3,
+          "end": 14.5,
+          "probability": 0.799
+        },
+        {
+          "word": " that",
+          "start": 14.5,
+          "end": 14.76,
+          "probability": 0.67
+        },
+        {
+          "word": " is",
+          "start": 14.76,
+          "end": 14.86,
+          "probability": 0.861
+        },
+        {
+          "word": " three",
+          "start": 14.86,
+          "end": 15.1,
+          "probability": 0.744
+        },
+        {
+          "word": " years",
+          "start": 15.1,
+          "end": 15.32,
+          "probability": 0.911
+        },
+        {
+          "word": " old",
+          "start": 15.32,
+          "end": 15.76,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 15.76,
+      "end": 17.9,
+      "text": "Leave your mind issue, out in the cold",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " Leave",
+          "start": 15.76,
+          "end": 16.22,
+          "probability": 0.728
+        },
+        {
+          "word": " your",
+          "start": 16.22,
+          "end": 16.38,
+          "probability": 0.649
+        },
+        {
+          "word": " mind",
+          "start": 16.38,
+          "end": 16.54,
+          "probability": 0.719
+        },
+        {
+          "word": " issue,",
+          "start": 16.54,
+          "end": 17.0,
+          "probability": 0.672
+        },
+        {
+          "word": " out",
+          "start": 17.3,
+          "end": 17.38,
+          "probability": 0.712
+        },
+        {
+          "word": " in",
+          "start": 17.38,
+          "end": 17.5,
+          "probability": 0.818
+        },
+        {
+          "word": " the",
+          "start": 17.5,
+          "end": 17.6,
+          "probability": 0.862
+        },
+        {
+          "word": " cold",
+          "start": 17.6,
+          "end": 17.9,
+          "probability": 0.775
+        }
+      ]
+    },
+    {
+      "start": 17.9,
+      "end": 20.18,
+      "text": "If the question hard, you just drop the call",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " If",
+          "start": 17.9,
+          "end": 18.38,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 18.38,
+          "end": 18.52,
+          "probability": 0.971
+        },
+        {
+          "word": " question",
+          "start": 18.52,
+          "end": 18.82,
+          "probability": 0.988
+        },
+        {
+          "word": " hard,",
+          "start": 18.82,
+          "end": 19.14,
+          "probability": 0.481
+        },
+        {
+          "word": " you",
+          "start": 19.26,
+          "end": 19.32,
+          "probability": 0.979
+        },
+        {
+          "word": " just",
+          "start": 19.32,
+          "end": 19.5,
+          "probability": 0.98
+        },
+        {
+          "word": " drop",
+          "start": 19.5,
+          "end": 19.7,
+          "probability": 0.748
+        },
+        {
+          "word": " the",
+          "start": 19.7,
+          "end": 19.9,
+          "probability": 0.992
+        },
+        {
+          "word": " call",
+          "start": 19.9,
+          "end": 20.18,
+          "probability": 0.624
+        }
+      ]
+    },
+    {
+      "start": 20.18,
+      "end": 22.52,
+      "text": "See, he just hung up, no shame at all",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " See,",
+          "start": 20.18,
+          "end": 20.54,
+          "probability": 0.857
+        },
+        {
+          "word": " he",
+          "start": 20.82,
+          "end": 20.92,
+          "probability": 0.991
+        },
+        {
+          "word": " just",
+          "start": 20.92,
+          "end": 21.16,
+          "probability": 0.994
+        },
+        {
+          "word": " hung",
+          "start": 21.16,
+          "end": 21.32,
+          "probability": 0.632
+        },
+        {
+          "word": " up,",
+          "start": 21.32,
+          "end": 21.58,
+          "probability": 0.995
+        },
+        {
+          "word": " no",
+          "start": 21.68,
+          "end": 21.78,
+          "probability": 0.988
+        },
+        {
+          "word": " shame",
+          "start": 21.78,
+          "end": 22.02,
+          "probability": 0.983
+        },
+        {
+          "word": " at",
+          "start": 22.02,
+          "end": 22.24,
+          "probability": 0.994
+        },
+        {
+          "word": " all",
+          "start": 22.24,
+          "end": 22.52,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 22.52,
+      "end": 24.92,
+      "text": "We penalize the culprits, you move like a ghost",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " We",
+          "start": 22.52,
+          "end": 22.82,
+          "probability": 0.759
+        },
+        {
+          "word": " penalize",
+          "start": 22.82,
+          "end": 23.24,
+          "probability": 0.455
+        },
+        {
+          "word": " the",
+          "start": 23.24,
+          "end": 23.36,
+          "probability": 0.973
+        },
+        {
+          "word": " culprits,",
+          "start": 23.36,
+          "end": 23.78,
+          "probability": 0.489
+        },
+        {
+          "word": " you",
+          "start": 23.96,
+          "end": 24.06,
+          "probability": 0.964
+        },
+        {
+          "word": " move",
+          "start": 24.06,
+          "end": 24.24,
+          "probability": 0.986
+        },
+        {
+          "word": " like",
+          "start": 24.24,
+          "end": 24.48,
+          "probability": 0.992
+        },
+        {
+          "word": " a",
+          "start": 24.48,
+          "end": 24.64,
+          "probability": 0.885
+        },
+        {
+          "word": " ghost",
+          "start": 24.64,
+          "end": 24.92,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 24.92,
+      "end": 25.86,
+      "text": "When I meet me, don't-",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.502,
+      "noSpeechProbability": 0.751,
+      "words": [
+        {
+          "word": " When",
+          "start": 24.92,
+          "end": 25.22,
+          "probability": 0.42
+        },
+        {
+          "word": " I",
+          "start": 25.22,
+          "end": 25.34,
+          "probability": 0.954
+        },
+        {
+          "word": " meet",
+          "start": 25.34,
+          "end": 25.5,
+          "probability": 0.374
+        },
+        {
+          "word": " me,",
+          "start": 25.5,
+          "end": 25.64,
+          "probability": 0.343
+        },
+        {
+          "word": " don't",
+          "start": 25.64,
+          "end": 25.84,
+          "probability": 0.674
+        },
+        {
+          "word": "-",
+          "start": 25.84,
+          "end": 25.86,
+          "probability": 0.141
+        }
+      ]
+    },
+    {
+      "start": 31.99,
+      "end": 37.51,
+      "text": "Asking for numbers I die of last year I use what's out your people know get here. Give me my number",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Asking",
+          "start": 31.99,
+          "end": 32.43,
+          "probability": 0.493
+        },
+        {
+          "word": " for",
+          "start": 32.43,
+          "end": 32.61,
+          "probability": 0.993
+        },
+        {
+          "word": " numbers",
+          "start": 32.61,
+          "end": 32.85,
+          "probability": 0.981
+        },
+        {
+          "word": " I",
+          "start": 32.85,
+          "end": 33.07,
+          "probability": 0.634
+        },
+        {
+          "word": " die",
+          "start": 33.07,
+          "end": 33.29,
+          "probability": 0.301
+        },
+        {
+          "word": " of",
+          "start": 33.29,
+          "end": 33.49,
+          "probability": 0.637
+        },
+        {
+          "word": " last",
+          "start": 33.49,
+          "end": 33.59,
+          "probability": 0.988
+        },
+        {
+          "word": " year",
+          "start": 33.59,
+          "end": 33.97,
+          "probability": 0.997
+        },
+        {
+          "word": " I",
+          "start": 33.97,
+          "end": 34.35,
+          "probability": 0.559
+        },
+        {
+          "word": " use",
+          "start": 34.35,
+          "end": 34.55,
+          "probability": 0.875
+        },
+        {
+          "word": " what's",
+          "start": 34.55,
+          "end": 34.99,
+          "probability": 0.558
+        },
+        {
+          "word": " out",
+          "start": 34.99,
+          "end": 35.11,
+          "probability": 0.229
+        },
+        {
+          "word": " your",
+          "start": 35.11,
+          "end": 35.29,
+          "probability": 0.484
+        },
+        {
+          "word": " people",
+          "start": 35.29,
+          "end": 35.57,
+          "probability": 0.993
+        },
+        {
+          "word": " know",
+          "start": 35.57,
+          "end": 35.77,
+          "probability": 0.644
+        },
+        {
+          "word": " get",
+          "start": 35.77,
+          "end": 35.99,
+          "probability": 0.745
+        },
+        {
+          "word": " here.",
+          "start": 35.99,
+          "end": 36.39,
+          "probability": 0.27
+        },
+        {
+          "word": " Give",
+          "start": 36.55,
+          "end": 36.77,
+          "probability": 0.921
+        },
+        {
+          "word": " me",
+          "start": 36.77,
+          "end": 36.95,
+          "probability": 0.997
+        },
+        {
+          "word": " my",
+          "start": 36.95,
+          "end": 37.17,
+          "probability": 0.991
+        },
+        {
+          "word": " number",
+          "start": 37.17,
+          "end": 37.51,
+          "probability": 0.968
+        }
+      ]
+    },
+    {
+      "start": 37.51,
+      "end": 39.83,
+      "text": "Give me my number like cuz of London",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Give",
+          "start": 37.51,
+          "end": 37.93,
+          "probability": 0.327
+        },
+        {
+          "word": " me",
+          "start": 37.93,
+          "end": 38.11,
+          "probability": 0.995
+        },
+        {
+          "word": " my",
+          "start": 38.11,
+          "end": 38.31,
+          "probability": 0.991
+        },
+        {
+          "word": " number",
+          "start": 38.31,
+          "end": 38.63,
+          "probability": 0.979
+        },
+        {
+          "word": " like",
+          "start": 38.63,
+          "end": 38.95,
+          "probability": 0.796
+        },
+        {
+          "word": " cuz",
+          "start": 38.95,
+          "end": 39.31,
+          "probability": 0.152
+        },
+        {
+          "word": " of",
+          "start": 39.31,
+          "end": 39.45,
+          "probability": 0.665
+        },
+        {
+          "word": " London",
+          "start": 39.45,
+          "end": 39.83,
+          "probability": 0.365
+        }
+      ]
+    },
+    {
+      "start": 40.89,
+      "end": 46.15,
+      "text": "Give me my number give me my number now. I'm talking to a lit about with no brains",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Give",
+          "start": 40.89,
+          "end": 41.33,
+          "probability": 0.793
+        },
+        {
+          "word": " me",
+          "start": 41.33,
+          "end": 41.53,
+          "probability": 0.995
+        },
+        {
+          "word": " my",
+          "start": 41.53,
+          "end": 41.71,
+          "probability": 0.991
+        },
+        {
+          "word": " number",
+          "start": 41.71,
+          "end": 42.13,
+          "probability": 0.98
+        },
+        {
+          "word": " give",
+          "start": 42.13,
+          "end": 42.49,
+          "probability": 0.328
+        },
+        {
+          "word": " me",
+          "start": 42.49,
+          "end": 42.65,
+          "probability": 0.995
+        },
+        {
+          "word": " my",
+          "start": 42.65,
+          "end": 42.85,
+          "probability": 0.988
+        },
+        {
+          "word": " number",
+          "start": 42.85,
+          "end": 43.23,
+          "probability": 0.972
+        },
+        {
+          "word": " now.",
+          "start": 43.23,
+          "end": 43.89,
+          "probability": 0.399
+        },
+        {
+          "word": " I'm",
+          "start": 44.01,
+          "end": 44.05,
+          "probability": 0.997
+        },
+        {
+          "word": " talking",
+          "start": 44.05,
+          "end": 44.25,
+          "probability": 0.962
+        },
+        {
+          "word": " to",
+          "start": 44.25,
+          "end": 44.49,
+          "probability": 0.926
+        },
+        {
+          "word": " a",
+          "start": 44.49,
+          "end": 44.67,
+          "probability": 0.356
+        },
+        {
+          "word": " lit",
+          "start": 44.67,
+          "end": 44.93,
+          "probability": 0.114
+        },
+        {
+          "word": " about",
+          "start": 44.93,
+          "end": 45.31,
+          "probability": 0.701
+        },
+        {
+          "word": " with",
+          "start": 45.31,
+          "end": 45.47,
+          "probability": 0.786
+        },
+        {
+          "word": " no",
+          "start": 45.47,
+          "end": 45.65,
+          "probability": 0.997
+        },
+        {
+          "word": " brains",
+          "start": 45.65,
+          "end": 46.15,
+          "probability": 0.536
+        }
+      ]
+    },
+    {
+      "start": 46.15,
+      "end": 49.37,
+      "text": "Spending me in circles driving me insane when I finally get a human",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.649,
+      "noSpeechProbability": 0.72,
+      "words": [
+        {
+          "word": " Spending",
+          "start": 46.15,
+          "end": 46.53,
+          "probability": 0.44
+        },
+        {
+          "word": " me",
+          "start": 46.53,
+          "end": 46.73,
+          "probability": 0.958
+        },
+        {
+          "word": " in",
+          "start": 46.73,
+          "end": 46.83,
+          "probability": 0.846
+        },
+        {
+          "word": " circles",
+          "start": 46.83,
+          "end": 47.25,
+          "probability": 0.99
+        },
+        {
+          "word": " driving",
+          "start": 47.25,
+          "end": 47.69,
+          "probability": 0.772
+        },
+        {
+          "word": " me",
+          "start": 47.69,
+          "end": 47.89,
+          "probability": 0.983
+        },
+        {
+          "word": " insane",
+          "start": 47.89,
+          "end": 48.21,
+          "probability": 0.92
+        },
+        {
+          "word": " when",
+          "start": 48.21,
+          "end": 48.45,
+          "probability": 0.926
+        },
+        {
+          "word": " I",
+          "start": 48.45,
+          "end": 48.55,
+          "probability": 0.988
+        },
+        {
+          "word": " finally",
+          "start": 48.55,
+          "end": 48.81,
+          "probability": 0.966
+        },
+        {
+          "word": " get",
+          "start": 48.81,
+          "end": 49.01,
+          "probability": 0.969
+        },
+        {
+          "word": " a",
+          "start": 49.01,
+          "end": 49.11,
+          "probability": 0.626
+        },
+        {
+          "word": " human",
+          "start": 49.11,
+          "end": 49.37,
+          "probability": 0.484
+        }
+      ]
+    },
+    {
+      "start": 55.14,
+      "end": 59.08,
+      "text": "Boy now, I don't think be your failure. You refuse the refund. You think say you smart",
+      "avgLogprob": -0.436,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.702,
+      "words": [
+        {
+          "word": " Boy",
+          "start": 55.14,
+          "end": 55.3,
+          "probability": 0.074
+        },
+        {
+          "word": " now,",
+          "start": 55.3,
+          "end": 55.56,
+          "probability": 0.892
+        },
+        {
+          "word": " I",
+          "start": 55.56,
+          "end": 55.78,
+          "probability": 0.852
+        },
+        {
+          "word": " don't",
+          "start": 55.78,
+          "end": 55.88,
+          "probability": 0.812
+        },
+        {
+          "word": " think",
+          "start": 55.88,
+          "end": 56.02,
+          "probability": 0.207
+        },
+        {
+          "word": " be",
+          "start": 56.02,
+          "end": 56.24,
+          "probability": 0.489
+        },
+        {
+          "word": " your",
+          "start": 56.24,
+          "end": 56.42,
+          "probability": 0.896
+        },
+        {
+          "word": " failure.",
+          "start": 56.42,
+          "end": 56.82,
+          "probability": 0.987
+        },
+        {
+          "word": " You",
+          "start": 57.02,
+          "end": 57.04,
+          "probability": 0.951
+        },
+        {
+          "word": " refuse",
+          "start": 57.04,
+          "end": 57.32,
+          "probability": 0.858
+        },
+        {
+          "word": " the",
+          "start": 57.32,
+          "end": 57.62,
+          "probability": 0.382
+        },
+        {
+          "word": " refund.",
+          "start": 57.62,
+          "end": 57.9,
+          "probability": 0.672
+        },
+        {
+          "word": " You",
+          "start": 58.18,
+          "end": 58.18,
+          "probability": 0.963
+        },
+        {
+          "word": " think",
+          "start": 58.18,
+          "end": 58.32,
+          "probability": 0.965
+        },
+        {
+          "word": " say",
+          "start": 58.32,
+          "end": 58.56,
+          "probability": 0.567
+        },
+        {
+          "word": " you",
+          "start": 58.56,
+          "end": 58.74,
+          "probability": 0.925
+        },
+        {
+          "word": " smart",
+          "start": 58.74,
+          "end": 59.08,
+          "probability": 0.64
+        }
+      ]
+    },
+    {
+      "start": 59.08,
+      "end": 63.74,
+      "text": "I'm taking this matter to the FCC's heart, hostage situation. You won't let me go",
+      "avgLogprob": -0.436,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.702,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 59.08,
+          "end": 59.48,
+          "probability": 0.713
+        },
+        {
+          "word": " taking",
+          "start": 59.48,
+          "end": 59.8,
+          "probability": 0.933
+        },
+        {
+          "word": " this",
+          "start": 59.8,
+          "end": 60.04,
+          "probability": 0.971
+        },
+        {
+          "word": " matter",
+          "start": 60.04,
+          "end": 60.28,
+          "probability": 0.967
+        },
+        {
+          "word": " to",
+          "start": 60.28,
+          "end": 60.48,
+          "probability": 0.99
+        },
+        {
+          "word": " the",
+          "start": 60.48,
+          "end": 60.6,
+          "probability": 0.937
+        },
+        {
+          "word": " FCC's",
+          "start": 60.6,
+          "end": 61.32,
+          "probability": 0.926
+        },
+        {
+          "word": " heart,",
+          "start": 61.32,
+          "end": 61.56,
+          "probability": 0.858
+        },
+        {
+          "word": " hostage",
+          "start": 61.66,
+          "end": 61.92,
+          "probability": 0.42
+        },
+        {
+          "word": " situation.",
+          "start": 61.92,
+          "end": 62.38,
+          "probability": 0.744
+        },
+        {
+          "word": " You",
+          "start": 62.68,
+          "end": 62.76,
+          "probability": 0.983
+        },
+        {
+          "word": " won't",
+          "start": 62.76,
+          "end": 62.92,
+          "probability": 0.988
+        },
+        {
+          "word": " let",
+          "start": 62.92,
+          "end": 63.1,
+          "probability": 0.996
+        },
+        {
+          "word": " me",
+          "start": 63.1,
+          "end": 63.28,
+          "probability": 0.999
+        },
+        {
+          "word": " go",
+          "start": 63.28,
+          "end": 63.74,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 63.74,
+      "end": 66.16,
+      "text": "We're holding my pin making the process slow",
+      "avgLogprob": -0.436,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.702,
+      "words": [
+        {
+          "word": " We're",
+          "start": 63.74,
+          "end": 64.12,
+          "probability": 0.562
+        },
+        {
+          "word": " holding",
+          "start": 64.12,
+          "end": 64.36,
+          "probability": 0.99
+        },
+        {
+          "word": " my",
+          "start": 64.36,
+          "end": 64.62,
+          "probability": 0.813
+        },
+        {
+          "word": " pin",
+          "start": 64.62,
+          "end": 64.84,
+          "probability": 0.53
+        },
+        {
+          "word": " making",
+          "start": 64.84,
+          "end": 65.16,
+          "probability": 0.862
+        },
+        {
+          "word": " the",
+          "start": 65.16,
+          "end": 65.3,
+          "probability": 0.471
+        },
+        {
+          "word": " process",
+          "start": 65.3,
+          "end": 65.66,
+          "probability": 0.984
+        },
+        {
+          "word": " slow",
+          "start": 65.66,
+          "end": 66.16,
+          "probability": 0.629
+        }
+      ]
+    },
+    {
+      "start": 66.16,
+      "end": 72.88,
+      "text": "Asking for numbers I dialed last year. I use WhatsApp. You people don't get it. Give me my number. Give me my number",
+      "avgLogprob": -0.436,
+      "compressionRatio": 1.579,
+      "noSpeechProbability": 0.702,
+      "words": [
+        {
+          "word": " Asking",
+          "start": 66.16,
+          "end": 66.7,
+          "probability": 0.545
+        },
+        {
+          "word": " for",
+          "start": 66.7,
+          "end": 66.88,
+          "probability": 0.995
+        },
+        {
+          "word": " numbers",
+          "start": 66.88,
+          "end": 67.12,
+          "probability": 0.995
+        },
+        {
+          "word": " I",
+          "start": 67.12,
+          "end": 67.32,
+          "probability": 0.564
+        },
+        {
+          "word": " dialed",
+          "start": 67.32,
+          "end": 67.76,
+          "probability": 0.95
+        },
+        {
+          "word": " last",
+          "start": 67.76,
+          "end": 67.88,
+          "probability": 0.906
+        },
+        {
+          "word": " year.",
+          "start": 67.88,
+          "end": 68.2,
+          "probability": 0.996
+        },
+        {
+          "word": " I",
+          "start": 68.4,
+          "end": 68.62,
+          "probability": 0.993
+        },
+        {
+          "word": " use",
+          "start": 68.62,
+          "end": 68.84,
+          "probability": 0.885
+        },
+        {
+          "word": " WhatsApp.",
+          "start": 68.84,
+          "end": 69.36,
+          "probability": 0.478
+        },
+        {
+          "word": " You",
+          "start": 69.54,
+          "end": 69.58,
+          "probability": 0.845
+        },
+        {
+          "word": " people",
+          "start": 69.58,
+          "end": 69.84,
+          "probability": 0.981
+        },
+        {
+          "word": " don't",
+          "start": 69.84,
+          "end": 70.12,
+          "probability": 0.656
+        },
+        {
+          "word": " get",
+          "start": 70.12,
+          "end": 70.3,
+          "probability": 0.995
+        },
+        {
+          "word": " it.",
+          "start": 70.3,
+          "end": 70.6,
+          "probability": 0.481
+        },
+        {
+          "word": " Give",
+          "start": 70.86,
+          "end": 71.06,
+          "probability": 0.863
+        },
+        {
+          "word": " me",
+          "start": 71.06,
+          "end": 71.26,
+          "probability": 0.996
+        },
+        {
+          "word": " my",
+          "start": 71.26,
+          "end": 71.46,
+          "probability": 0.992
+        },
+        {
+          "word": " number.",
+          "start": 71.46,
+          "end": 71.8,
+          "probability": 0.992
+        },
+        {
+          "word": " Give",
+          "start": 72.06,
+          "end": 72.2,
+          "probability": 0.912
+        },
+        {
+          "word": " me",
+          "start": 72.2,
+          "end": 72.38,
+          "probability": 0.995
+        },
+        {
+          "word": " my",
+          "start": 72.38,
+          "end": 72.58,
+          "probability": 0.995
+        },
+        {
+          "word": " number",
+          "start": 72.58,
+          "end": 72.88,
+          "probability": 0.991
+        }
+      ]
+    },
+    {
+      "start": 78.78,
+      "end": 86.9,
+      "text": "Keep your fake wait time we by passing your support report in the crime charge back initiated money coming back federal commission putting you on a track",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.566,
+      "words": [
+        {
+          "word": " Keep",
+          "start": 78.78,
+          "end": 79.0,
+          "probability": 0.307
+        },
+        {
+          "word": " your",
+          "start": 79.0,
+          "end": 79.16,
+          "probability": 0.945
+        },
+        {
+          "word": " fake",
+          "start": 79.16,
+          "end": 79.36,
+          "probability": 0.886
+        },
+        {
+          "word": " wait",
+          "start": 79.36,
+          "end": 79.62,
+          "probability": 0.667
+        },
+        {
+          "word": " time",
+          "start": 79.62,
+          "end": 80.06,
+          "probability": 0.84
+        },
+        {
+          "word": " we",
+          "start": 80.06,
+          "end": 80.3,
+          "probability": 0.269
+        },
+        {
+          "word": " by",
+          "start": 80.3,
+          "end": 80.48,
+          "probability": 0.351
+        },
+        {
+          "word": " passing",
+          "start": 80.48,
+          "end": 80.84,
+          "probability": 0.879
+        },
+        {
+          "word": " your",
+          "start": 80.84,
+          "end": 80.98,
+          "probability": 0.968
+        },
+        {
+          "word": " support",
+          "start": 80.98,
+          "end": 81.28,
+          "probability": 0.995
+        },
+        {
+          "word": " report",
+          "start": 81.28,
+          "end": 81.7,
+          "probability": 0.445
+        },
+        {
+          "word": " in",
+          "start": 81.7,
+          "end": 81.92,
+          "probability": 0.937
+        },
+        {
+          "word": " the",
+          "start": 81.92,
+          "end": 81.98,
+          "probability": 0.624
+        },
+        {
+          "word": " crime",
+          "start": 81.98,
+          "end": 82.28,
+          "probability": 0.958
+        },
+        {
+          "word": " charge",
+          "start": 82.28,
+          "end": 82.8,
+          "probability": 0.657
+        },
+        {
+          "word": " back",
+          "start": 82.8,
+          "end": 83.04,
+          "probability": 0.948
+        },
+        {
+          "word": " initiated",
+          "start": 83.04,
+          "end": 83.54,
+          "probability": 0.649
+        },
+        {
+          "word": " money",
+          "start": 83.54,
+          "end": 83.92,
+          "probability": 0.992
+        },
+        {
+          "word": " coming",
+          "start": 83.92,
+          "end": 84.2,
+          "probability": 0.979
+        },
+        {
+          "word": " back",
+          "start": 84.2,
+          "end": 84.66,
+          "probability": 0.998
+        },
+        {
+          "word": " federal",
+          "start": 84.66,
+          "end": 85.16,
+          "probability": 0.614
+        },
+        {
+          "word": " commission",
+          "start": 85.16,
+          "end": 85.58,
+          "probability": 0.833
+        },
+        {
+          "word": " putting",
+          "start": 85.58,
+          "end": 85.92,
+          "probability": 0.863
+        },
+        {
+          "word": " you",
+          "start": 85.92,
+          "end": 86.18,
+          "probability": 0.989
+        },
+        {
+          "word": " on",
+          "start": 86.18,
+          "end": 86.44,
+          "probability": 0.506
+        },
+        {
+          "word": " a",
+          "start": 86.44,
+          "end": 86.54,
+          "probability": 0.412
+        },
+        {
+          "word": " track",
+          "start": 86.54,
+          "end": 86.9,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 86.9,
+      "end": 91.68,
+      "text": "BBB complaint read a post's life your a war retrition, but I will survive",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.566,
+      "words": [
+        {
+          "word": " BBB",
+          "start": 86.9,
+          "end": 87.58,
+          "probability": 0.407
+        },
+        {
+          "word": " complaint",
+          "start": 87.58,
+          "end": 88.0,
+          "probability": 0.885
+        },
+        {
+          "word": " read",
+          "start": 88.0,
+          "end": 88.46,
+          "probability": 0.179
+        },
+        {
+          "word": " a",
+          "start": 88.46,
+          "end": 88.56,
+          "probability": 0.108
+        },
+        {
+          "word": " post's",
+          "start": 88.56,
+          "end": 88.94,
+          "probability": 0.416
+        },
+        {
+          "word": " life",
+          "start": 88.94,
+          "end": 89.2,
+          "probability": 0.497
+        },
+        {
+          "word": " your",
+          "start": 89.2,
+          "end": 89.6,
+          "probability": 0.629
+        },
+        {
+          "word": " a",
+          "start": 89.6,
+          "end": 89.74,
+          "probability": 0.369
+        },
+        {
+          "word": " war",
+          "start": 89.74,
+          "end": 89.94,
+          "probability": 0.523
+        },
+        {
+          "word": " retrition,",
+          "start": 89.94,
+          "end": 90.42,
+          "probability": 0.536
+        },
+        {
+          "word": " but",
+          "start": 90.5,
+          "end": 90.6,
+          "probability": 0.998
+        },
+        {
+          "word": " I",
+          "start": 90.6,
+          "end": 90.82,
+          "probability": 0.916
+        },
+        {
+          "word": " will",
+          "start": 90.82,
+          "end": 91.02,
+          "probability": 0.972
+        },
+        {
+          "word": " survive",
+          "start": 91.02,
+          "end": 91.68,
+          "probability": 0.996
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.887,
+    "wordCount": 164,
+    "credibleWordCount": 151,
+    "segmentCount": 10,
+    "averageWordProbability": 0.766,
+    "vocalSeconds": 46.96,
+    "scanCoverage": 0.618,
+    "reviewRequired": false
+  }
+}

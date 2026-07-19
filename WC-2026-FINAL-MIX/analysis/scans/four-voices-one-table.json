@@ -1,0 +1,3261 @@
+{
+  "analysisVersion": 1,
+  "index": 3,
+  "id": "../VOLHOLLA/song-brooklynomen-12.html",
+  "slug": "four-voices-one-table",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "Delicious life, very, very, very, very, very, very, very, very, very, very, very, very, very, Where is it? To where is it? This is in the night. This is in the night. There's in the mind, there's in the mind There's too can be breathing, can be So just to us, there will be there, there in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night I'm going to do a little bit more of this, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I Oh, yeah, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine",
+  "sampledRanges": [
+    [
+      21.27,
+      39.27
+    ],
+    [
+      85.1,
+      103.1
+    ],
+    [
+      148.92,
+      166.92
+    ],
+    [
+      212.74,
+      230.74
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.47,
+      "end": 27.95,
+      "text": "Delicious life, very, very, very, very, very,",
+      "avgLogprob": -0.996,
+      "compressionRatio": 3.1,
+      "noSpeechProbability": 0.534,
+      "words": [
+        {
+          "word": " Delicious",
+          "start": 21.47,
+          "end": 21.95,
+          "probability": 0.023
+        },
+        {
+          "word": " life,",
+          "start": 21.95,
+          "end": 22.43,
+          "probability": 0.053
+        },
+        {
+          "word": " very,",
+          "start": 22.85,
+          "end": 24.07,
+          "probability": 0.732
+        },
+        {
+          "word": " very,",
+          "start": 24.31,
+          "end": 24.91,
+          "probability": 0.982
+        },
+        {
+          "word": " very,",
+          "start": 25.03,
+          "end": 25.21,
+          "probability": 0.493
+        },
+        {
+          "word": " very,",
+          "start": 25.63,
+          "end": 27.27,
+          "probability": 0.65
+        },
+        {
+          "word": " very,",
+          "start": 27.27,
+          "end": 27.95,
+          "probability": 0.629
+        }
+      ]
+    },
+    {
+      "start": 28.05,
+      "end": 29.27,
+      "text": "very, very, very, very, very, very, very, very,",
+      "avgLogprob": -0.996,
+      "compressionRatio": 3.1,
+      "noSpeechProbability": 0.534,
+      "words": [
+        {
+          "word": " very,",
+          "start": 28.05,
+          "end": 28.05,
+          "probability": 0.367
+        },
+        {
+          "word": " very,",
+          "start": 28.13,
+          "end": 28.13,
+          "probability": 0.24
+        },
+        {
+          "word": " very,",
+          "start": 28.37,
+          "end": 28.37,
+          "probability": 0.255
+        },
+        {
+          "word": " very,",
+          "start": 28.47,
+          "end": 28.57,
+          "probability": 0.313
+        },
+        {
+          "word": " very,",
+          "start": 28.57,
+          "end": 28.97,
+          "probability": 0.413
+        },
+        {
+          "word": " very,",
+          "start": 29.01,
+          "end": 29.09,
+          "probability": 0.535
+        },
+        {
+          "word": " very,",
+          "start": 29.27,
+          "end": 29.27,
+          "probability": 0.631
+        },
+        {
+          "word": " very,",
+          "start": 29.27,
+          "end": 29.27,
+          "probability": 0.705
+        }
+      ]
+    },
+    {
+      "start": 29.27,
+      "end": 30.89,
+      "text": "Where is it?",
+      "avgLogprob": -0.668,
+      "compressionRatio": 1.6,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Where",
+          "start": 29.27,
+          "end": 29.51,
+          "probability": 0.017
+        },
+        {
+          "word": " is",
+          "start": 29.51,
+          "end": 30.69,
+          "probability": 0.446
+        },
+        {
+          "word": " it?",
+          "start": 30.69,
+          "end": 30.89,
+          "probability": 0.39
+        }
+      ]
+    },
+    {
+      "start": 31.15,
+      "end": 33.99,
+      "text": "To where is it?",
+      "avgLogprob": -0.668,
+      "compressionRatio": 1.6,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " To",
+          "start": 31.15,
+          "end": 31.83,
+          "probability": 0.347
+        },
+        {
+          "word": " where",
+          "start": 31.83,
+          "end": 32.89,
+          "probability": 0.375
+        },
+        {
+          "word": " is",
+          "start": 32.89,
+          "end": 33.53,
+          "probability": 0.759
+        },
+        {
+          "word": " it?",
+          "start": 33.53,
+          "end": 33.99,
+          "probability": 0.836
+        }
+      ]
+    },
+    {
+      "start": 34.13,
+      "end": 36.59,
+      "text": "This is in the night.",
+      "avgLogprob": -0.668,
+      "compressionRatio": 1.6,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " This",
+          "start": 34.13,
+          "end": 34.49,
+          "probability": 0.082
+        },
+        {
+          "word": " is",
+          "start": 34.49,
+          "end": 35.69,
+          "probability": 0.835
+        },
+        {
+          "word": " in",
+          "start": 35.69,
+          "end": 35.89,
+          "probability": 0.369
+        },
+        {
+          "word": " the",
+          "start": 35.89,
+          "end": 36.07,
+          "probability": 0.847
+        },
+        {
+          "word": " night.",
+          "start": 36.07,
+          "end": 36.59,
+          "probability": 0.219
+        }
+      ]
+    },
+    {
+      "start": 37.07,
+      "end": 39.25,
+      "text": "This is in the night.",
+      "avgLogprob": -0.668,
+      "compressionRatio": 1.6,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " This",
+          "start": 37.07,
+          "end": 37.71,
+          "probability": 0.912
+        },
+        {
+          "word": " is",
+          "start": 37.71,
+          "end": 38.59,
+          "probability": 0.977
+        },
+        {
+          "word": " in",
+          "start": 38.59,
+          "end": 38.89,
+          "probability": 0.692
+        },
+        {
+          "word": " the",
+          "start": 38.89,
+          "end": 38.91,
+          "probability": 0.994
+        },
+        {
+          "word": " night.",
+          "start": 38.91,
+          "end": 39.25,
+          "probability": 0.971
+        }
+      ]
+    },
+    {
+      "start": 85.56,
+      "end": 90.4,
+      "text": "There's in the mind, there's in the mind",
+      "avgLogprob": -0.61,
+      "compressionRatio": 1.434,
+      "noSpeechProbability": 0.325,
+      "words": [
+        {
+          "word": " There's",
+          "start": 85.56,
+          "end": 86.46,
+          "probability": 0.385
+        },
+        {
+          "word": " in",
+          "start": 86.46,
+          "end": 86.7,
+          "probability": 0.715
+        },
+        {
+          "word": " the",
+          "start": 86.7,
+          "end": 86.94,
+          "probability": 0.925
+        },
+        {
+          "word": " mind,",
+          "start": 86.94,
+          "end": 87.5,
+          "probability": 0.607
+        },
+        {
+          "word": " there's",
+          "start": 87.88,
+          "end": 89.24,
+          "probability": 0.783
+        },
+        {
+          "word": " in",
+          "start": 89.24,
+          "end": 89.48,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 89.48,
+          "end": 89.76,
+          "probability": 0.992
+        },
+        {
+          "word": " mind",
+          "start": 89.76,
+          "end": 90.4,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 90.4,
+      "end": 95.88,
+      "text": "There's too can be breathing, can be",
+      "avgLogprob": -0.61,
+      "compressionRatio": 1.434,
+      "noSpeechProbability": 0.325,
+      "words": [
+        {
+          "word": " There's",
+          "start": 90.4,
+          "end": 92.08,
+          "probability": 0.249
+        },
+        {
+          "word": " too",
+          "start": 92.08,
+          "end": 92.32,
+          "probability": 0.509
+        },
+        {
+          "word": " can",
+          "start": 92.32,
+          "end": 92.6,
+          "probability": 0.843
+        },
+        {
+          "word": " be",
+          "start": 92.6,
+          "end": 93.0,
+          "probability": 0.853
+        },
+        {
+          "word": " breathing,",
+          "start": 93.0,
+          "end": 94.52,
+          "probability": 0.668
+        },
+        {
+          "word": " can",
+          "start": 94.54,
+          "end": 95.42,
+          "probability": 0.813
+        },
+        {
+          "word": " be",
+          "start": 95.42,
+          "end": 95.88,
+          "probability": 0.946
+        }
+      ]
+    },
+    {
+      "start": 95.88,
+      "end": 102.32,
+      "text": "So just to us, there will be there, there",
+      "avgLogprob": -0.61,
+      "compressionRatio": 1.434,
+      "noSpeechProbability": 0.325,
+      "words": [
+        {
+          "word": " So",
+          "start": 95.88,
+          "end": 96.58,
+          "probability": 0.113
+        },
+        {
+          "word": " just",
+          "start": 96.58,
+          "end": 97.92,
+          "probability": 0.884
+        },
+        {
+          "word": " to",
+          "start": 97.92,
+          "end": 98.32,
+          "probability": 0.594
+        },
+        {
+          "word": " us,",
+          "start": 98.32,
+          "end": 98.72,
+          "probability": 0.966
+        },
+        {
+          "word": " there",
+          "start": 99.16,
+          "end": 99.7,
+          "probability": 0.867
+        },
+        {
+          "word": " will",
+          "start": 99.7,
+          "end": 100.78,
+          "probability": 0.57
+        },
+        {
+          "word": " be",
+          "start": 100.78,
+          "end": 101.18,
+          "probability": 0.997
+        },
+        {
+          "word": " there,",
+          "start": 101.18,
+          "end": 101.66,
+          "probability": 0.827
+        },
+        {
+          "word": " there",
+          "start": 101.86,
+          "end": 102.32,
+          "probability": 0.897
+        }
+      ]
+    },
+    {
+      "start": 148.92,
+      "end": 166.86,
+      "text": "in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night, in the night",
+      "avgLogprob": -0.094,
+      "compressionRatio": 26.966,
+      "noSpeechProbability": 0.64,
+      "words": [
+        {
+          "word": " in",
+          "start": 148.92,
+          "end": 149.1,
+          "probability": 0.027
+        },
+        {
+          "word": " the",
+          "start": 149.1,
+          "end": 149.16,
+          "probability": 0.641
+        },
+        {
+          "word": " night,",
+          "start": 149.16,
+          "end": 149.7,
+          "probability": 0.135
+        },
+        {
+          "word": " in",
+          "start": 150.08,
+          "end": 150.54,
+          "probability": 0.11
+        },
+        {
+          "word": " the",
+          "start": 150.54,
+          "end": 151.96,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 151.96,
+          "end": 152.66,
+          "probability": 0.966
+        },
+        {
+          "word": " in",
+          "start": 152.68,
+          "end": 153.24,
+          "probability": 0.657
+        },
+        {
+          "word": " the",
+          "start": 153.24,
+          "end": 154.8,
+          "probability": 0.971
+        },
+        {
+          "word": " night,",
+          "start": 154.8,
+          "end": 154.8,
+          "probability": 0.975
+        },
+        {
+          "word": " in",
+          "start": 154.8,
+          "end": 154.8,
+          "probability": 0.846
+        },
+        {
+          "word": " the",
+          "start": 154.8,
+          "end": 154.8,
+          "probability": 0.974
+        },
+        {
+          "word": " night,",
+          "start": 154.8,
+          "end": 155.62,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 155.62,
+          "end": 156.08,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 156.08,
+          "end": 156.08,
+          "probability": 0.972
+        },
+        {
+          "word": " night,",
+          "start": 156.08,
+          "end": 156.82,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 156.82,
+          "end": 156.82,
+          "probability": 0.946
+        },
+        {
+          "word": " the",
+          "start": 156.82,
+          "end": 157.24,
+          "probability": 0.957
+        },
+        {
+          "word": " night,",
+          "start": 157.24,
+          "end": 158.22,
+          "probability": 0.979
+        },
+        {
+          "word": " in",
+          "start": 158.5,
+          "end": 158.8,
+          "probability": 0.92
+        },
+        {
+          "word": " the",
+          "start": 158.8,
+          "end": 158.84,
+          "probability": 0.903
+        },
+        {
+          "word": " night,",
+          "start": 158.84,
+          "end": 158.84,
+          "probability": 0.948
+        },
+        {
+          "word": " in",
+          "start": 158.84,
+          "end": 158.84,
+          "probability": 0.907
+        },
+        {
+          "word": " the",
+          "start": 158.84,
+          "end": 159.38,
+          "probability": 0.874
+        },
+        {
+          "word": " night,",
+          "start": 159.38,
+          "end": 159.74,
+          "probability": 0.916
+        },
+        {
+          "word": " in",
+          "start": 159.8,
+          "end": 159.8,
+          "probability": 0.908
+        },
+        {
+          "word": " the",
+          "start": 159.8,
+          "end": 160.04,
+          "probability": 0.879
+        },
+        {
+          "word": " night,",
+          "start": 160.04,
+          "end": 160.04,
+          "probability": 0.927
+        },
+        {
+          "word": " in",
+          "start": 161.0,
+          "end": 161.0,
+          "probability": 0.909
+        },
+        {
+          "word": " the",
+          "start": 161.0,
+          "end": 161.0,
+          "probability": 0.891
+        },
+        {
+          "word": " night,",
+          "start": 161.0,
+          "end": 161.0,
+          "probability": 0.932
+        },
+        {
+          "word": " in",
+          "start": 161.0,
+          "end": 161.0,
+          "probability": 0.914
+        },
+        {
+          "word": " the",
+          "start": 161.0,
+          "end": 161.16,
+          "probability": 0.912
+        },
+        {
+          "word": " night,",
+          "start": 161.16,
+          "end": 161.16,
+          "probability": 0.941
+        },
+        {
+          "word": " in",
+          "start": 161.16,
+          "end": 161.72,
+          "probability": 0.919
+        },
+        {
+          "word": " the",
+          "start": 161.72,
+          "end": 162.46,
+          "probability": 0.921
+        },
+        {
+          "word": " night,",
+          "start": 162.46,
+          "end": 162.46,
+          "probability": 0.944
+        },
+        {
+          "word": " in",
+          "start": 162.56,
+          "end": 162.68,
+          "probability": 0.933
+        },
+        {
+          "word": " the",
+          "start": 162.68,
+          "end": 162.68,
+          "probability": 0.939
+        },
+        {
+          "word": " night,",
+          "start": 162.68,
+          "end": 162.68,
+          "probability": 0.952
+        },
+        {
+          "word": " in",
+          "start": 162.68,
+          "end": 162.68,
+          "probability": 0.94
+        },
+        {
+          "word": " the",
+          "start": 162.68,
+          "end": 162.86,
+          "probability": 0.944
+        },
+        {
+          "word": " night,",
+          "start": 162.86,
+          "end": 162.86,
+          "probability": 0.952
+        },
+        {
+          "word": " in",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.944
+        },
+        {
+          "word": " the",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.961
+        },
+        {
+          "word": " night,",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.962
+        },
+        {
+          "word": " in",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.953
+        },
+        {
+          "word": " the",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.971
+        },
+        {
+          "word": " night,",
+          "start": 162.96,
+          "end": 162.96,
+          "probability": 0.966
+        },
+        {
+          "word": " in",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.955
+        },
+        {
+          "word": " the",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.971
+        },
+        {
+          "word": " night,",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.972
+        },
+        {
+          "word": " in",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.958
+        },
+        {
+          "word": " the",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.981
+        },
+        {
+          "word": " night,",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.979
+        },
+        {
+          "word": " in",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.961
+        },
+        {
+          "word": " the",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.984
+        },
+        {
+          "word": " night,",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 163.0,
+          "end": 163.0,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 163.0,
+          "end": 163.24,
+          "probability": 0.987
+        },
+        {
+          "word": " night,",
+          "start": 163.24,
+          "end": 163.4,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.967
+        },
+        {
+          "word": " the",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.986
+        },
+        {
+          "word": " night,",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.986
+        },
+        {
+          "word": " in",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.988
+        },
+        {
+          "word": " night,",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.987
+        },
+        {
+          "word": " in",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 163.4,
+          "end": 163.4,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 163.4,
+          "end": 164.02,
+          "probability": 0.991
+        },
+        {
+          "word": " night,",
+          "start": 164.02,
+          "end": 164.02,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 164.02,
+          "end": 164.02,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 164.02,
+          "end": 164.02,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 164.02,
+          "end": 164.02,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 164.02,
+          "end": 164.86,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 164.86,
+          "end": 164.9,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 164.9,
+          "end": 165.16,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.988
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.99
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 165.16,
+          "end": 165.16,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 165.16,
+          "end": 165.26,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.97
+        },
+        {
+          "word": " the",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.989
+        },
+        {
+          "word": " night,",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.988
+        },
+        {
+          "word": " night,",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.989
+        },
+        {
+          "word": " in",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.987
+        },
+        {
+          "word": " night,",
+          "start": 166.4,
+          "end": 166.4,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.969
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.986
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.984
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.987
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.985
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.987
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.967
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.981
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.987
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.982
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.986
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.983
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.982
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.98
+        },
+        {
+          "word": " night,",
+          "start": 166.44,
+          "end": 166.44,
+          "probability": 0.985
+        },
+        {
+          "word": " in",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.98
+        },
+        {
+          "word": " night,",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.984
+        },
+        {
+          "word": " in",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.98
+        },
+        {
+          "word": " night,",
+          "start": 166.64,
+          "end": 166.64,
+          "probability": 0.984
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.978
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.982
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.979
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.982
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.963
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.977
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.964
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.979
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.98
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.98
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.979
+        },
+        {
+          "word": " night,",
+          "start": 166.68,
+          "end": 166.68,
+          "probability": 0.982
+        },
+        {
+          "word": " in",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.98
+        },
+        {
+          "word": " night,",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.981
+        },
+        {
+          "word": " in",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.965
+        },
+        {
+          "word": " the",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.979
+        },
+        {
+          "word": " night",
+          "start": 166.86,
+          "end": 166.86,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 166.86,
+      "end": 166.9,
+      "text": "I'm going to do a little bit more of this, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I'm going to do a little bit more, I",
+      "avgLogprob": -0.172,
+      "compressionRatio": 12.77,
+      "noSpeechProbability": 0.783,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 166.86,
+          "end": 166.88,
+          "probability": 0.132
+        },
+        {
+          "word": " going",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.07
+        },
+        {
+          "word": " to",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.889
+        },
+        {
+          "word": " do",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.048
+        },
+        {
+          "word": " a",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.154
+        },
+        {
+          "word": " little",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.161
+        },
+        {
+          "word": " bit",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.258
+        },
+        {
+          "word": " more",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.303
+        },
+        {
+          "word": " of",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.076
+        },
+        {
+          "word": " this,",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.211
+        },
+        {
+          "word": " I'm",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.318
+        },
+        {
+          "word": " going",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.58
+        },
+        {
+          "word": " to",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.953
+        },
+        {
+          "word": " do",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.475
+        },
+        {
+          "word": " a",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.354
+        },
+        {
+          "word": " little",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.705
+        },
+        {
+          "word": " bit",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.914
+        },
+        {
+          "word": " more,",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.762
+        },
+        {
+          "word": " I'm",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.718
+        },
+        {
+          "word": " going",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.943
+        },
+        {
+          "word": " to",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.992
+        },
+        {
+          "word": " do",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.895
+        },
+        {
+          "word": " a",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.905
+        },
+        {
+          "word": " little",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.968
+        },
+        {
+          "word": " bit",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.997
+        },
+        {
+          "word": " more,",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.936
+        },
+        {
+          "word": " I'm",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.931
+        },
+        {
+          "word": " going",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.982
+        },
+        {
+          "word": " to",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.994
+        },
+        {
+          "word": " do",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.943
+        },
+        {
+          "word": " a",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.948
+        },
+        {
+          "word": " little",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.983
+        },
+        {
+          "word": " bit",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.88,
+          "end": 166.88,
+          "probability": 0.959
+        },
+        {
+          "word": " I'm",
+          "start": 166.88,
+          "end": 166.9,
+          "probability": 0.961
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.99
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.956
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.965
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.988
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.964
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.965
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.963
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.971
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.99
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.965
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.968
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.971
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.975
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.99
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.968
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.969
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.974
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.977
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.991
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.967
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.971
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.979
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.982
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.991
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.97
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.971
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.979
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.983
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.97
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.973
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.983
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.973
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.975
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.982
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.985
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.974
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.976
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.984
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.985
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.973
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.975
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.982
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.986
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.975
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.977
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.983
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.986
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.975
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.977
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.983
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.987
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.974
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.976
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.986
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.976
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.976
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.983
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.988
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.973
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.977
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.989
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 1.0
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.972
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.974
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.988
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.973
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.974
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.979
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.989
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.994
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.97
+        },
+        {
+          "word": " I'm",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.976
+        },
+        {
+          "word": " going",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " do",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.978
+        },
+        {
+          "word": " a",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.989
+        },
+        {
+          "word": " little",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.993
+        },
+        {
+          "word": " bit",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.999
+        },
+        {
+          "word": " more,",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.971
+        },
+        {
+          "word": " I",
+          "start": 166.9,
+          "end": 166.9,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 166.88,
+      "end": 166.88,
+      "text": "",
+      "avgLogprob": -0.089,
+      "compressionRatio": 23.615,
+      "noSpeechProbability": 0.776,
+      "words": []
+    },
+    {
+      "start": 215.36,
+      "end": 230.2,
+      "text": "Oh, yeah, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine, I'm fine",
+      "avgLogprob": -0.111,
+      "compressionRatio": 18.6,
+      "noSpeechProbability": 0.615,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 215.36,
+          "end": 216.04,
+          "probability": 0.021
+        },
+        {
+          "word": " yeah,",
+          "start": 216.04,
+          "end": 216.72,
+          "probability": 0.233
+        },
+        {
+          "word": " I'm",
+          "start": 216.96,
+          "end": 217.16,
+          "probability": 0.547
+        },
+        {
+          "word": " fine,",
+          "start": 217.16,
+          "end": 217.58,
+          "probability": 0.348
+        },
+        {
+          "word": " I'm",
+          "start": 217.8,
+          "end": 219.74,
+          "probability": 0.453
+        },
+        {
+          "word": " fine,",
+          "start": 219.74,
+          "end": 220.34,
+          "probability": 0.848
+        },
+        {
+          "word": " I'm",
+          "start": 220.34,
+          "end": 221.12,
+          "probability": 0.759
+        },
+        {
+          "word": " fine,",
+          "start": 221.12,
+          "end": 221.12,
+          "probability": 0.991
+        },
+        {
+          "word": " I'm",
+          "start": 221.12,
+          "end": 221.88,
+          "probability": 0.882
+        },
+        {
+          "word": " fine,",
+          "start": 221.88,
+          "end": 221.88,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 221.88,
+          "end": 222.16,
+          "probability": 0.926
+        },
+        {
+          "word": " fine,",
+          "start": 222.16,
+          "end": 222.16,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 222.2,
+          "end": 222.56,
+          "probability": 0.932
+        },
+        {
+          "word": " fine,",
+          "start": 222.56,
+          "end": 223.3,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 223.3,
+          "end": 223.56,
+          "probability": 0.932
+        },
+        {
+          "word": " fine,",
+          "start": 223.56,
+          "end": 223.82,
+          "probability": 0.992
+        },
+        {
+          "word": " I'm",
+          "start": 223.82,
+          "end": 224.6,
+          "probability": 0.927
+        },
+        {
+          "word": " fine,",
+          "start": 224.6,
+          "end": 224.6,
+          "probability": 0.99
+        },
+        {
+          "word": " I'm",
+          "start": 224.6,
+          "end": 224.9,
+          "probability": 0.927
+        },
+        {
+          "word": " fine,",
+          "start": 224.9,
+          "end": 225.18,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 225.18,
+          "end": 225.36,
+          "probability": 0.932
+        },
+        {
+          "word": " fine,",
+          "start": 225.36,
+          "end": 226.04,
+          "probability": 0.988
+        },
+        {
+          "word": " I'm",
+          "start": 226.62,
+          "end": 227.1,
+          "probability": 0.934
+        },
+        {
+          "word": " fine,",
+          "start": 227.1,
+          "end": 227.1,
+          "probability": 0.989
+        },
+        {
+          "word": " I'm",
+          "start": 227.1,
+          "end": 227.7,
+          "probability": 0.943
+        },
+        {
+          "word": " fine,",
+          "start": 227.7,
+          "end": 227.7,
+          "probability": 0.992
+        },
+        {
+          "word": " I'm",
+          "start": 227.72,
+          "end": 227.72,
+          "probability": 0.951
+        },
+        {
+          "word": " fine,",
+          "start": 227.72,
+          "end": 227.72,
+          "probability": 0.993
+        },
+        {
+          "word": " I'm",
+          "start": 228.0,
+          "end": 228.0,
+          "probability": 0.956
+        },
+        {
+          "word": " fine,",
+          "start": 228.0,
+          "end": 228.0,
+          "probability": 0.994
+        },
+        {
+          "word": " I'm",
+          "start": 228.08,
+          "end": 228.08,
+          "probability": 0.963
+        },
+        {
+          "word": " fine,",
+          "start": 228.08,
+          "end": 228.08,
+          "probability": 0.995
+        },
+        {
+          "word": " I'm",
+          "start": 228.36,
+          "end": 228.36,
+          "probability": 0.966
+        },
+        {
+          "word": " fine,",
+          "start": 228.36,
+          "end": 228.36,
+          "probability": 0.996
+        },
+        {
+          "word": " I'm",
+          "start": 228.36,
+          "end": 229.12,
+          "probability": 0.968
+        },
+        {
+          "word": " fine,",
+          "start": 229.12,
+          "end": 229.56,
+          "probability": 0.997
+        },
+        {
+          "word": " I'm",
+          "start": 229.58,
+          "end": 230.12,
+          "probability": 0.969
+        },
+        {
+          "word": " fine,",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.997
+        },
+        {
+          "word": " I'm",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.971
+        },
+        {
+          "word": " fine,",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.997
+        },
+        {
+          "word": " I'm",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.972
+        },
+        {
+          "word": " fine,",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.12,
+          "end": 230.12,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.12,
+          "end": 230.18,
+          "probability": 0.971
+        },
+        {
+          "word": " fine,",
+          "start": 230.18,
+          "end": 230.18,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.18,
+          "end": 230.18,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.18,
+          "end": 230.18,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.18,
+          "end": 230.18,
+          "probability": 0.972
+        },
+        {
+          "word": " fine,",
+          "start": 230.18,
+          "end": 230.18,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.18,
+          "end": 230.2,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.972
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.971
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.971
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.973
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.972
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.977
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.977
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.974
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.998
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.977
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.978
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.976
+        },
+        {
+          "word": " fine,",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        },
+        {
+          "word": " I'm",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.975
+        },
+        {
+          "word": " fine",
+          "start": 230.2,
+          "end": 230.2,
+          "probability": 0.999
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.792,
+    "wordCount": 41,
+    "credibleWordCount": 35,
+    "segmentCount": 7,
+    "averageWordProbability": 0.684,
+    "vocalSeconds": 25.86,
+    "scanCoverage": 0.254,
+    "reviewRequired": false
+  }
+}

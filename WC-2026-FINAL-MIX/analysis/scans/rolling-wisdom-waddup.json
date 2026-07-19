@@ -1,0 +1,1042 @@
+{
+  "analysisVersion": 1,
+  "index": 68,
+  "id": "../VOLHOLLA/song-maquina-19.html",
+  "slug": "rolling-wisdom-waddup",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "me rolling, see me rolling, I appear and keep moving non-stop, but let's move moving here come the radio say, right in a viral page, warp speed on the green plastic wheels, wheels, wheels, breaking the seal, breaking the seal, the timeline is trembling now, Just a ride steady vibration stay alive Balancing a coat on the open road. Oh shit. What up? Oh shit? What up see me rolling see me rolling? I appear Tummin' a pixelated glow Easy and slow digital dirt on the spin and tie Said in a far low-stage cosmic confidence print Watch me when repetition is the only way I'll leave no doubt No explanation Oh shit what up oh shit what up see me roll and see me roll and I appear and keep moving on Stop a bullet smooth moving here come the radio sage right in a viral page",
+  "sampledRanges": [
+    [
+      9.28,
+      27.28
+    ],
+    [
+      37.13,
+      55.13
+    ],
+    [
+      64.98,
+      82.98
+    ],
+    [
+      92.82,
+      110.82
+    ]
+  ],
+  "segments": [
+    {
+      "start": 9.28,
+      "end": 16.38,
+      "text": "me rolling, see me rolling, I appear and keep moving non-stop, but let's move moving",
+      "avgLogprob": -0.57,
+      "compressionRatio": 1.669,
+      "noSpeechProbability": 0.804,
+      "words": [
+        {
+          "word": " me",
+          "start": 9.28,
+          "end": 9.44,
+          "probability": 0.005
+        },
+        {
+          "word": " rolling,",
+          "start": 9.44,
+          "end": 9.9,
+          "probability": 0.66
+        },
+        {
+          "word": " see",
+          "start": 10.08,
+          "end": 11.12,
+          "probability": 0.277
+        },
+        {
+          "word": " me",
+          "start": 11.12,
+          "end": 11.42,
+          "probability": 0.908
+        },
+        {
+          "word": " rolling,",
+          "start": 11.42,
+          "end": 11.88,
+          "probability": 0.938
+        },
+        {
+          "word": " I",
+          "start": 12.38,
+          "end": 12.7,
+          "probability": 0.826
+        },
+        {
+          "word": " appear",
+          "start": 12.7,
+          "end": 13.1,
+          "probability": 0.658
+        },
+        {
+          "word": " and",
+          "start": 13.1,
+          "end": 13.3,
+          "probability": 0.54
+        },
+        {
+          "word": " keep",
+          "start": 13.3,
+          "end": 13.4,
+          "probability": 0.986
+        },
+        {
+          "word": " moving",
+          "start": 13.4,
+          "end": 13.84,
+          "probability": 0.704
+        },
+        {
+          "word": " non",
+          "start": 13.84,
+          "end": 14.66,
+          "probability": 0.784
+        },
+        {
+          "word": "-stop,",
+          "start": 14.66,
+          "end": 14.96,
+          "probability": 0.84
+        },
+        {
+          "word": " but",
+          "start": 15.04,
+          "end": 15.2,
+          "probability": 0.218
+        },
+        {
+          "word": " let's",
+          "start": 15.2,
+          "end": 15.48,
+          "probability": 0.86
+        },
+        {
+          "word": " move",
+          "start": 15.48,
+          "end": 15.68,
+          "probability": 0.973
+        },
+        {
+          "word": " moving",
+          "start": 15.68,
+          "end": 16.38,
+          "probability": 0.838
+        }
+      ]
+    },
+    {
+      "start": 16.38,
+      "end": 22.3,
+      "text": "here come the radio say, right in a viral page, warp speed on the green plastic wheels,",
+      "avgLogprob": -0.57,
+      "compressionRatio": 1.669,
+      "noSpeechProbability": 0.804,
+      "words": [
+        {
+          "word": " here",
+          "start": 16.38,
+          "end": 16.68,
+          "probability": 0.526
+        },
+        {
+          "word": " come",
+          "start": 16.68,
+          "end": 16.94,
+          "probability": 0.331
+        },
+        {
+          "word": " the",
+          "start": 16.94,
+          "end": 17.1,
+          "probability": 0.956
+        },
+        {
+          "word": " radio",
+          "start": 17.1,
+          "end": 17.4,
+          "probability": 0.673
+        },
+        {
+          "word": " say,",
+          "start": 17.4,
+          "end": 18.12,
+          "probability": 0.263
+        },
+        {
+          "word": " right",
+          "start": 18.5,
+          "end": 18.76,
+          "probability": 0.453
+        },
+        {
+          "word": " in",
+          "start": 18.76,
+          "end": 18.96,
+          "probability": 0.838
+        },
+        {
+          "word": " a",
+          "start": 18.96,
+          "end": 19.08,
+          "probability": 0.484
+        },
+        {
+          "word": " viral",
+          "start": 19.08,
+          "end": 19.36,
+          "probability": 0.891
+        },
+        {
+          "word": " page,",
+          "start": 19.36,
+          "end": 19.92,
+          "probability": 0.996
+        },
+        {
+          "word": " warp",
+          "start": 20.04,
+          "end": 20.18,
+          "probability": 0.762
+        },
+        {
+          "word": " speed",
+          "start": 20.18,
+          "end": 20.5,
+          "probability": 0.992
+        },
+        {
+          "word": " on",
+          "start": 20.5,
+          "end": 20.78,
+          "probability": 0.959
+        },
+        {
+          "word": " the",
+          "start": 20.78,
+          "end": 20.9,
+          "probability": 0.863
+        },
+        {
+          "word": " green",
+          "start": 20.9,
+          "end": 21.18,
+          "probability": 0.969
+        },
+        {
+          "word": " plastic",
+          "start": 21.18,
+          "end": 21.72,
+          "probability": 0.975
+        },
+        {
+          "word": " wheels,",
+          "start": 21.72,
+          "end": 22.3,
+          "probability": 0.63
+        }
+      ]
+    },
+    {
+      "start": 22.52,
+      "end": 26.68,
+      "text": "wheels, wheels, breaking the seal, breaking the seal, the timeline is trembling now,",
+      "avgLogprob": -0.57,
+      "compressionRatio": 1.669,
+      "noSpeechProbability": 0.804,
+      "words": [
+        {
+          "word": " wheels,",
+          "start": 22.52,
+          "end": 22.86,
+          "probability": 0.684
+        },
+        {
+          "word": " wheels,",
+          "start": 23.02,
+          "end": 23.32,
+          "probability": 0.85
+        },
+        {
+          "word": " breaking",
+          "start": 23.5,
+          "end": 23.7,
+          "probability": 0.537
+        },
+        {
+          "word": " the",
+          "start": 23.7,
+          "end": 23.88,
+          "probability": 0.874
+        },
+        {
+          "word": " seal,",
+          "start": 23.88,
+          "end": 24.3,
+          "probability": 0.535
+        },
+        {
+          "word": " breaking",
+          "start": 24.48,
+          "end": 24.66,
+          "probability": 0.925
+        },
+        {
+          "word": " the",
+          "start": 24.66,
+          "end": 24.9,
+          "probability": 0.99
+        },
+        {
+          "word": " seal,",
+          "start": 24.9,
+          "end": 25.22,
+          "probability": 0.95
+        },
+        {
+          "word": " the",
+          "start": 25.36,
+          "end": 25.42,
+          "probability": 0.974
+        },
+        {
+          "word": " timeline",
+          "start": 25.42,
+          "end": 25.7,
+          "probability": 0.781
+        },
+        {
+          "word": " is",
+          "start": 25.7,
+          "end": 25.94,
+          "probability": 0.992
+        },
+        {
+          "word": " trembling",
+          "start": 25.94,
+          "end": 26.22,
+          "probability": 0.859
+        },
+        {
+          "word": " now,",
+          "start": 26.22,
+          "end": 26.68,
+          "probability": 0.969
+        }
+      ]
+    },
+    {
+      "start": 37.17,
+      "end": 43.13,
+      "text": "Just a ride steady vibration stay alive",
+      "avgLogprob": -0.565,
+      "compressionRatio": 1.342,
+      "noSpeechProbability": 0.787,
+      "words": [
+        {
+          "word": " Just",
+          "start": 37.17,
+          "end": 38.13,
+          "probability": 0.062
+        },
+        {
+          "word": " a",
+          "start": 38.13,
+          "end": 38.55,
+          "probability": 0.138
+        },
+        {
+          "word": " ride",
+          "start": 38.55,
+          "end": 39.09,
+          "probability": 0.894
+        },
+        {
+          "word": " steady",
+          "start": 39.09,
+          "end": 40.43,
+          "probability": 0.701
+        },
+        {
+          "word": " vibration",
+          "start": 40.43,
+          "end": 41.29,
+          "probability": 0.673
+        },
+        {
+          "word": " stay",
+          "start": 41.29,
+          "end": 42.21,
+          "probability": 0.836
+        },
+        {
+          "word": " alive",
+          "start": 42.21,
+          "end": 43.13,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 44.05,
+      "end": 55.09,
+      "text": "Balancing a coat on the open road. Oh shit. What up? Oh shit? What up see me rolling see me rolling? I appear",
+      "avgLogprob": -0.565,
+      "compressionRatio": 1.342,
+      "noSpeechProbability": 0.787,
+      "words": [
+        {
+          "word": " Balancing",
+          "start": 44.05,
+          "end": 44.77,
+          "probability": 0.556
+        },
+        {
+          "word": " a",
+          "start": 44.77,
+          "end": 45.35,
+          "probability": 0.59
+        },
+        {
+          "word": " coat",
+          "start": 45.35,
+          "end": 45.69,
+          "probability": 0.36
+        },
+        {
+          "word": " on",
+          "start": 45.69,
+          "end": 46.29,
+          "probability": 0.943
+        },
+        {
+          "word": " the",
+          "start": 46.29,
+          "end": 46.63,
+          "probability": 0.982
+        },
+        {
+          "word": " open",
+          "start": 46.63,
+          "end": 47.21,
+          "probability": 0.958
+        },
+        {
+          "word": " road.",
+          "start": 47.21,
+          "end": 47.95,
+          "probability": 0.54
+        },
+        {
+          "word": " Oh",
+          "start": 48.05,
+          "end": 48.35,
+          "probability": 0.982
+        },
+        {
+          "word": " shit.",
+          "start": 48.35,
+          "end": 48.69,
+          "probability": 0.745
+        },
+        {
+          "word": " What",
+          "start": 48.69,
+          "end": 49.17,
+          "probability": 0.987
+        },
+        {
+          "word": " up?",
+          "start": 49.17,
+          "end": 49.49,
+          "probability": 0.675
+        },
+        {
+          "word": " Oh",
+          "start": 49.75,
+          "end": 50.27,
+          "probability": 0.96
+        },
+        {
+          "word": " shit?",
+          "start": 50.27,
+          "end": 50.67,
+          "probability": 0.749
+        },
+        {
+          "word": " What",
+          "start": 51.05,
+          "end": 51.17,
+          "probability": 0.974
+        },
+        {
+          "word": " up",
+          "start": 51.17,
+          "end": 51.41,
+          "probability": 0.86
+        },
+        {
+          "word": " see",
+          "start": 51.41,
+          "end": 51.63,
+          "probability": 0.797
+        },
+        {
+          "word": " me",
+          "start": 51.63,
+          "end": 51.83,
+          "probability": 0.996
+        },
+        {
+          "word": " rolling",
+          "start": 51.83,
+          "end": 52.49,
+          "probability": 0.512
+        },
+        {
+          "word": " see",
+          "start": 52.49,
+          "end": 53.11,
+          "probability": 0.695
+        },
+        {
+          "word": " me",
+          "start": 53.11,
+          "end": 53.33,
+          "probability": 0.995
+        },
+        {
+          "word": " rolling?",
+          "start": 53.33,
+          "end": 54.01,
+          "probability": 0.898
+        },
+        {
+          "word": " I",
+          "start": 54.01,
+          "end": 54.69,
+          "probability": 0.899
+        },
+        {
+          "word": " appear",
+          "start": 54.69,
+          "end": 55.09,
+          "probability": 0.477
+        }
+      ]
+    },
+    {
+      "start": 64.98,
+      "end": 71.7,
+      "text": "Tummin' a pixelated glow Easy and slow digital dirt on the spin and tie",
+      "avgLogprob": -0.574,
+      "compressionRatio": 1.345,
+      "noSpeechProbability": 0.756,
+      "words": [
+        {
+          "word": " Tummin'",
+          "start": 64.98,
+          "end": 65.5,
+          "probability": 0.388
+        },
+        {
+          "word": " a",
+          "start": 65.72,
+          "end": 65.86,
+          "probability": 0.562
+        },
+        {
+          "word": " pixelated",
+          "start": 65.86,
+          "end": 67.14,
+          "probability": 0.966
+        },
+        {
+          "word": " glow",
+          "start": 67.14,
+          "end": 67.68,
+          "probability": 0.506
+        },
+        {
+          "word": " Easy",
+          "start": 67.68,
+          "end": 68.38,
+          "probability": 0.765
+        },
+        {
+          "word": " and",
+          "start": 68.38,
+          "end": 68.84,
+          "probability": 0.937
+        },
+        {
+          "word": " slow",
+          "start": 68.84,
+          "end": 69.22,
+          "probability": 0.995
+        },
+        {
+          "word": " digital",
+          "start": 69.22,
+          "end": 69.64,
+          "probability": 0.568
+        },
+        {
+          "word": " dirt",
+          "start": 69.64,
+          "end": 70.2,
+          "probability": 0.969
+        },
+        {
+          "word": " on",
+          "start": 70.2,
+          "end": 70.46,
+          "probability": 0.873
+        },
+        {
+          "word": " the",
+          "start": 70.46,
+          "end": 70.58,
+          "probability": 0.768
+        },
+        {
+          "word": " spin",
+          "start": 70.58,
+          "end": 70.82,
+          "probability": 0.377
+        },
+        {
+          "word": " and",
+          "start": 70.82,
+          "end": 71.26,
+          "probability": 0.395
+        },
+        {
+          "word": " tie",
+          "start": 71.26,
+          "end": 71.7,
+          "probability": 0.294
+        }
+      ]
+    },
+    {
+      "start": 71.7,
+      "end": 81.44,
+      "text": "Said in a far low-stage cosmic confidence print Watch me when repetition is the only way I'll leave no doubt",
+      "avgLogprob": -0.574,
+      "compressionRatio": 1.345,
+      "noSpeechProbability": 0.756,
+      "words": [
+        {
+          "word": " Said",
+          "start": 71.7,
+          "end": 72.22,
+          "probability": 0.267
+        },
+        {
+          "word": " in",
+          "start": 72.22,
+          "end": 72.6,
+          "probability": 0.789
+        },
+        {
+          "word": " a",
+          "start": 72.6,
+          "end": 72.84,
+          "probability": 0.898
+        },
+        {
+          "word": " far",
+          "start": 72.84,
+          "end": 73.18,
+          "probability": 0.397
+        },
+        {
+          "word": " low",
+          "start": 73.18,
+          "end": 73.48,
+          "probability": 0.876
+        },
+        {
+          "word": "-stage",
+          "start": 73.48,
+          "end": 73.82,
+          "probability": 0.493
+        },
+        {
+          "word": " cosmic",
+          "start": 73.82,
+          "end": 74.46,
+          "probability": 0.783
+        },
+        {
+          "word": " confidence",
+          "start": 74.46,
+          "end": 75.28,
+          "probability": 0.718
+        },
+        {
+          "word": " print",
+          "start": 75.28,
+          "end": 75.68,
+          "probability": 0.528
+        },
+        {
+          "word": " Watch",
+          "start": 75.68,
+          "end": 76.24,
+          "probability": 0.818
+        },
+        {
+          "word": " me",
+          "start": 76.24,
+          "end": 76.74,
+          "probability": 0.973
+        },
+        {
+          "word": " when",
+          "start": 76.74,
+          "end": 77.3,
+          "probability": 0.447
+        },
+        {
+          "word": " repetition",
+          "start": 77.3,
+          "end": 78.04,
+          "probability": 0.971
+        },
+        {
+          "word": " is",
+          "start": 78.04,
+          "end": 78.62,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 78.62,
+          "end": 78.84,
+          "probability": 0.997
+        },
+        {
+          "word": " only",
+          "start": 78.84,
+          "end": 79.22,
+          "probability": 0.998
+        },
+        {
+          "word": " way",
+          "start": 79.22,
+          "end": 79.62,
+          "probability": 0.999
+        },
+        {
+          "word": " I'll",
+          "start": 79.62,
+          "end": 79.98,
+          "probability": 0.952
+        },
+        {
+          "word": " leave",
+          "start": 79.98,
+          "end": 80.24,
+          "probability": 0.997
+        },
+        {
+          "word": " no",
+          "start": 80.24,
+          "end": 80.68,
+          "probability": 0.869
+        },
+        {
+          "word": " doubt",
+          "start": 80.68,
+          "end": 81.44,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 81.98,
+      "end": 82.76,
+      "text": "No explanation",
+      "avgLogprob": -0.574,
+      "compressionRatio": 1.345,
+      "noSpeechProbability": 0.756,
+      "words": [
+        {
+          "word": " No",
+          "start": 81.72,
+          "end": 82.16,
+          "probability": 0.522
+        },
+        {
+          "word": " explanation",
+          "start": 82.16,
+          "end": 82.76,
+          "probability": 0.217
+        }
+      ]
+    },
+    {
+      "start": 93.36,
+      "end": 103.22,
+      "text": "Oh shit what up oh shit what up see me roll and see me roll and I appear and keep moving on",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.509,
+      "noSpeechProbability": 0.726,
+      "words": [
+        {
+          "word": " Oh",
+          "start": 93.36,
+          "end": 94.2,
+          "probability": 0.145
+        },
+        {
+          "word": " shit",
+          "start": 94.2,
+          "end": 94.64,
+          "probability": 0.698
+        },
+        {
+          "word": " what",
+          "start": 94.64,
+          "end": 95.12,
+          "probability": 0.37
+        },
+        {
+          "word": " up",
+          "start": 95.12,
+          "end": 95.52,
+          "probability": 0.849
+        },
+        {
+          "word": " oh",
+          "start": 95.52,
+          "end": 96.2,
+          "probability": 0.276
+        },
+        {
+          "word": " shit",
+          "start": 96.2,
+          "end": 96.7,
+          "probability": 0.938
+        },
+        {
+          "word": " what",
+          "start": 96.7,
+          "end": 97.12,
+          "probability": 0.718
+        },
+        {
+          "word": " up",
+          "start": 97.12,
+          "end": 97.4,
+          "probability": 0.965
+        },
+        {
+          "word": " see",
+          "start": 97.4,
+          "end": 97.62,
+          "probability": 0.856
+        },
+        {
+          "word": " me",
+          "start": 97.62,
+          "end": 97.86,
+          "probability": 0.995
+        },
+        {
+          "word": " roll",
+          "start": 97.86,
+          "end": 98.2,
+          "probability": 0.518
+        },
+        {
+          "word": " and",
+          "start": 98.2,
+          "end": 98.76,
+          "probability": 0.338
+        },
+        {
+          "word": " see",
+          "start": 98.76,
+          "end": 99.12,
+          "probability": 0.973
+        },
+        {
+          "word": " me",
+          "start": 99.12,
+          "end": 99.38,
+          "probability": 0.994
+        },
+        {
+          "word": " roll",
+          "start": 99.38,
+          "end": 99.76,
+          "probability": 0.646
+        },
+        {
+          "word": " and",
+          "start": 99.76,
+          "end": 100.5,
+          "probability": 0.734
+        },
+        {
+          "word": " I",
+          "start": 100.5,
+          "end": 100.68,
+          "probability": 0.914
+        },
+        {
+          "word": " appear",
+          "start": 100.68,
+          "end": 101.14,
+          "probability": 0.795
+        },
+        {
+          "word": " and",
+          "start": 101.14,
+          "end": 101.44,
+          "probability": 0.913
+        },
+        {
+          "word": " keep",
+          "start": 101.44,
+          "end": 101.66,
+          "probability": 0.98
+        },
+        {
+          "word": " moving",
+          "start": 101.66,
+          "end": 102.64,
+          "probability": 0.832
+        },
+        {
+          "word": " on",
+          "start": 102.64,
+          "end": 103.22,
+          "probability": 0.335
+        }
+      ]
+    },
+    {
+      "start": 103.22,
+      "end": 109.94,
+      "text": "Stop a bullet smooth moving here come the radio sage right in a viral page",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.509,
+      "noSpeechProbability": 0.726,
+      "words": [
+        {
+          "word": " Stop",
+          "start": 103.22,
+          "end": 103.74,
+          "probability": 0.144
+        },
+        {
+          "word": " a",
+          "start": 103.74,
+          "end": 104.2,
+          "probability": 0.083
+        },
+        {
+          "word": " bullet",
+          "start": 104.2,
+          "end": 104.78,
+          "probability": 0.642
+        },
+        {
+          "word": " smooth",
+          "start": 104.78,
+          "end": 105.16,
+          "probability": 0.184
+        },
+        {
+          "word": " moving",
+          "start": 105.16,
+          "end": 106.16,
+          "probability": 0.331
+        },
+        {
+          "word": " here",
+          "start": 106.16,
+          "end": 106.68,
+          "probability": 0.813
+        },
+        {
+          "word": " come",
+          "start": 106.68,
+          "end": 106.96,
+          "probability": 0.813
+        },
+        {
+          "word": " the",
+          "start": 106.96,
+          "end": 107.1,
+          "probability": 0.921
+        },
+        {
+          "word": " radio",
+          "start": 107.1,
+          "end": 107.48,
+          "probability": 0.677
+        },
+        {
+          "word": " sage",
+          "start": 107.48,
+          "end": 108.08,
+          "probability": 0.239
+        },
+        {
+          "word": " right",
+          "start": 108.08,
+          "end": 108.72,
+          "probability": 0.694
+        },
+        {
+          "word": " in",
+          "start": 108.72,
+          "end": 109.0,
+          "probability": 0.964
+        },
+        {
+          "word": " a",
+          "start": 109.0,
+          "end": 109.1,
+          "probability": 0.874
+        },
+        {
+          "word": " viral",
+          "start": 109.1,
+          "end": 109.36,
+          "probability": 0.99
+        },
+        {
+          "word": " page",
+          "start": 109.36,
+          "end": 109.94,
+          "probability": 0.99
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.781,
+    "wordCount": 37,
+    "credibleWordCount": 28,
+    "segmentCount": 2,
+    "averageWordProbability": 0.679,
+    "vocalSeconds": 16.58,
+    "scanCoverage": 0.537,
+    "reviewRequired": false
+  }
+}

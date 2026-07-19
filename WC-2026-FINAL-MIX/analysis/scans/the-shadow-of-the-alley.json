@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 64,
+  "id": "../VOLHOLLA/song-blackwater-20.html",
+  "slug": "the-shadow-of-the-alley",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      12.59,
+      30.59
+    ],
+    [
+      50.36,
+      68.36
+    ],
+    [
+      88.12,
+      106.12
+    ],
+    [
+      125.89,
+      143.89
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.559,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.411,
+    "reviewRequired": true
+  }
+}

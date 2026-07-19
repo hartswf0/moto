@@ -1,0 +1,408 @@
+{
+  "analysisVersion": 1,
+  "index": 11,
+  "id": "../VOLHOLLA/song-blackwater-01.html",
+  "slug": "a-chinese-good-man-main-theme",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "jw",
+  "text": "1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1 tbh 1.5kg 1kg 1kg 1kg 1kg 1kg",
+  "sampledRanges": [
+    [
+      4.69,
+      64.94
+    ]
+  ],
+  "segments": [
+    {
+      "start": 11.05,
+      "end": 13.85,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 11.05,
+          "end": 12.45,
+          "probability": 0.136
+        },
+        {
+          "word": " tbh",
+          "start": 12.45,
+          "end": 13.85,
+          "probability": 0.227
+        }
+      ]
+    },
+    {
+      "start": 13.85,
+      "end": 13.85,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 13.85,
+      "end": 13.85,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 13.85,
+      "end": 13.85,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 13.85,
+      "end": 13.95,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 13.85,
+          "end": 13.93,
+          "probability": 0.773
+        },
+        {
+          "word": " tbh",
+          "start": 13.93,
+          "end": 13.95,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 13.95,
+      "end": 13.95,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 13.95,
+      "end": 13.95,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 13.95,
+      "end": 14.77,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 13.95,
+          "end": 13.95,
+          "probability": 0.893
+        },
+        {
+          "word": " tbh",
+          "start": 13.95,
+          "end": 14.77,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 14.77,
+      "end": 16.29,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 14.77,
+          "end": 14.77,
+          "probability": 0.906
+        },
+        {
+          "word": " tbh",
+          "start": 14.77,
+          "end": 16.29,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 16.29,
+      "end": 16.29,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 16.29,
+      "end": 20.29,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 16.29,
+          "end": 16.29,
+          "probability": 0.908
+        },
+        {
+          "word": " tbh",
+          "start": 16.29,
+          "end": 20.29,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 20.29,
+      "end": 26.91,
+      "text": "1 tbh",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": [
+        {
+          "word": " 1",
+          "start": 20.29,
+          "end": 20.29,
+          "probability": 0.908
+        },
+        {
+          "word": " tbh",
+          "start": 20.29,
+          "end": 26.91,
+          "probability": 0.978
+        }
+      ]
+    },
+    {
+      "start": 26.91,
+      "end": 26.91,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 26.91,
+      "end": 26.91,
+      "text": "",
+      "avgLogprob": -0.203,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.851,
+      "words": []
+    },
+    {
+      "start": 33.71,
+      "end": 36.09,
+      "text": "1.5kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1",
+          "start": 33.71,
+          "end": 35.11,
+          "probability": 0.018
+        },
+        {
+          "word": ".5kg",
+          "start": 35.11,
+          "end": 36.09,
+          "probability": 0.203
+        }
+      ]
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 36.09,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 36.09,
+      "end": 37.23,
+      "text": "1kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1kg",
+          "start": 36.09,
+          "end": 37.23,
+          "probability": 0.926
+        }
+      ]
+    },
+    {
+      "start": 37.23,
+      "end": 37.95,
+      "text": "1kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1kg",
+          "start": 37.23,
+          "end": 37.95,
+          "probability": 0.926
+        }
+      ]
+    },
+    {
+      "start": 37.95,
+      "end": 37.95,
+      "text": "",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": []
+    },
+    {
+      "start": 41.13,
+      "end": 42.53,
+      "text": "1kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1kg",
+          "start": 41.13,
+          "end": 42.53,
+          "probability": 0.93
+        }
+      ]
+    },
+    {
+      "start": 42.53,
+      "end": 42.75,
+      "text": "1kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1kg",
+          "start": 42.53,
+          "end": 42.75,
+          "probability": 0.929
+        }
+      ]
+    },
+    {
+      "start": 55.21,
+      "end": 56.61,
+      "text": "1kg",
+      "avgLogprob": -0.358,
+      "compressionRatio": 3.353,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " 1kg",
+          "start": 55.21,
+          "end": 56.61,
+          "probability": 0.928
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.649,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.786,
+    "reviewRequired": true
+  }
+}

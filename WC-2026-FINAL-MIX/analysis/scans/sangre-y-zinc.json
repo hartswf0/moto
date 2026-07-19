@@ -1,0 +1,1196 @@
+{
+  "analysisVersion": 1,
+  "index": 94,
+  "id": "../VOLHOLLA/song-concreto-04.html",
+  "slug": "sangre-y-zinc",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "pt",
+  "text": "Sim, jupe a gris, gotas que taladram e colchão Papas se fontam martes de abril, sim maletas, pero com uma mansión Mamá llorava, joelha entendia a la distância Só o frio de sozencia, 13 anos, demacia da carga Escribo rimas em um quaderno roto Rico suena em... Entrando entre o humo e o miedo Cresce esquivando balas e mentira A acelhado foi o único credo Um microfone emprestado cable espelado Em o suelo Cancerbero em misoído Buscando um pedaço de cielo Tenho hermanos que se perdieron em la ruta La selva não perdona, la fronteira É uma vontade Não somos cipras, não somos sombras, somos espalda que conclua o mundo Somos o segredo que nadie enombra desde o merendona hasta a costa La dignidade não tem preço, a esperança é a nossa resposta ao olvido e ao despreso Sua em um duro de sangria e a renda cadenas rotas E me engano, Elehor, Elehor.",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 21.86,
+      "end": 25.38,
+      "text": "Sim, jupe a gris, gotas que taladram e colchão",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Sim,",
+          "start": 21.86,
+          "end": 22.44,
+          "probability": 0.169
+        },
+        {
+          "word": " jupe",
+          "start": 22.44,
+          "end": 23.02,
+          "probability": 0.187
+        },
+        {
+          "word": " a",
+          "start": 23.02,
+          "end": 23.14,
+          "probability": 0.343
+        },
+        {
+          "word": " gris,",
+          "start": 23.14,
+          "end": 23.4,
+          "probability": 0.709
+        },
+        {
+          "word": " gotas",
+          "start": 23.82,
+          "end": 24.12,
+          "probability": 0.47
+        },
+        {
+          "word": " que",
+          "start": 24.12,
+          "end": 24.28,
+          "probability": 0.864
+        },
+        {
+          "word": " taladram",
+          "start": 24.28,
+          "end": 24.72,
+          "probability": 0.649
+        },
+        {
+          "word": " e",
+          "start": 24.72,
+          "end": 24.86,
+          "probability": 0.386
+        },
+        {
+          "word": " colchão",
+          "start": 24.86,
+          "end": 25.38,
+          "probability": 0.845
+        }
+      ]
+    },
+    {
+      "start": 25.38,
+      "end": 28.04,
+      "text": "Papas se fontam martes de abril, sim maletas,",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Papas",
+          "start": 25.38,
+          "end": 25.98,
+          "probability": 0.366
+        },
+        {
+          "word": " se",
+          "start": 25.98,
+          "end": 26.08,
+          "probability": 0.373
+        },
+        {
+          "word": " fontam",
+          "start": 26.08,
+          "end": 26.4,
+          "probability": 0.211
+        },
+        {
+          "word": " martes",
+          "start": 26.4,
+          "end": 26.76,
+          "probability": 0.854
+        },
+        {
+          "word": " de",
+          "start": 26.76,
+          "end": 26.88,
+          "probability": 0.987
+        },
+        {
+          "word": " abril,",
+          "start": 26.88,
+          "end": 27.22,
+          "probability": 0.951
+        },
+        {
+          "word": " sim",
+          "start": 27.5,
+          "end": 27.58,
+          "probability": 0.898
+        },
+        {
+          "word": " maletas,",
+          "start": 27.58,
+          "end": 28.04,
+          "probability": 0.926
+        }
+      ]
+    },
+    {
+      "start": 28.18,
+      "end": 29.48,
+      "text": "pero com uma mansión",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " pero",
+          "start": 28.18,
+          "end": 28.36,
+          "probability": 0.331
+        },
+        {
+          "word": " com",
+          "start": 28.36,
+          "end": 28.6,
+          "probability": 0.861
+        },
+        {
+          "word": " uma",
+          "start": 28.6,
+          "end": 28.82,
+          "probability": 0.67
+        },
+        {
+          "word": " mansión",
+          "start": 28.82,
+          "end": 29.48,
+          "probability": 0.508
+        }
+      ]
+    },
+    {
+      "start": 29.48,
+      "end": 32.22,
+      "text": "Mamá llorava, joelha entendia a la distância",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Mamá",
+          "start": 29.48,
+          "end": 30.24,
+          "probability": 0.511
+        },
+        {
+          "word": " llorava,",
+          "start": 30.24,
+          "end": 30.72,
+          "probability": 0.735
+        },
+        {
+          "word": " joelha",
+          "start": 31.04,
+          "end": 31.22,
+          "probability": 0.413
+        },
+        {
+          "word": " entendia",
+          "start": 31.22,
+          "end": 31.7,
+          "probability": 0.808
+        },
+        {
+          "word": " a",
+          "start": 31.7,
+          "end": 31.8,
+          "probability": 0.626
+        },
+        {
+          "word": " la",
+          "start": 31.8,
+          "end": 31.88,
+          "probability": 0.337
+        },
+        {
+          "word": " distância",
+          "start": 31.88,
+          "end": 32.22,
+          "probability": 0.432
+        }
+      ]
+    },
+    {
+      "start": 32.22,
+      "end": 35.5,
+      "text": "Só o frio de sozencia, 13 anos, demacia da carga",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Só",
+          "start": 32.22,
+          "end": 32.6,
+          "probability": 0.405
+        },
+        {
+          "word": " o",
+          "start": 32.6,
+          "end": 32.7,
+          "probability": 0.679
+        },
+        {
+          "word": " frio",
+          "start": 32.7,
+          "end": 33.08,
+          "probability": 0.554
+        },
+        {
+          "word": " de",
+          "start": 33.08,
+          "end": 33.22,
+          "probability": 0.734
+        },
+        {
+          "word": " sozencia,",
+          "start": 33.22,
+          "end": 33.76,
+          "probability": 0.452
+        },
+        {
+          "word": " 13",
+          "start": 33.88,
+          "end": 34.12,
+          "probability": 0.772
+        },
+        {
+          "word": " anos,",
+          "start": 34.12,
+          "end": 34.4,
+          "probability": 0.68
+        },
+        {
+          "word": " demacia",
+          "start": 34.58,
+          "end": 34.86,
+          "probability": 0.412
+        },
+        {
+          "word": " da",
+          "start": 34.86,
+          "end": 35.08,
+          "probability": 0.953
+        },
+        {
+          "word": " carga",
+          "start": 35.08,
+          "end": 35.5,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 35.5,
+      "end": 38.32,
+      "text": "Escribo rimas em um quaderno roto",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Escribo",
+          "start": 35.5,
+          "end": 36.46,
+          "probability": 0.699
+        },
+        {
+          "word": " rimas",
+          "start": 36.46,
+          "end": 36.82,
+          "probability": 0.642
+        },
+        {
+          "word": " em",
+          "start": 36.82,
+          "end": 37.0,
+          "probability": 0.705
+        },
+        {
+          "word": " um",
+          "start": 37.0,
+          "end": 37.14,
+          "probability": 0.993
+        },
+        {
+          "word": " quaderno",
+          "start": 37.14,
+          "end": 37.64,
+          "probability": 0.88
+        },
+        {
+          "word": " roto",
+          "start": 37.64,
+          "end": 38.32,
+          "probability": 0.962
+        }
+      ]
+    },
+    {
+      "start": 38.32,
+      "end": 39.34,
+      "text": "Rico suena em...",
+      "avgLogprob": -0.696,
+      "compressionRatio": 1.349,
+      "noSpeechProbability": 0.479,
+      "words": [
+        {
+          "word": " Rico",
+          "start": 38.32,
+          "end": 38.72,
+          "probability": 0.13
+        },
+        {
+          "word": " suena",
+          "start": 38.72,
+          "end": 39.08,
+          "probability": 0.664
+        },
+        {
+          "word": " em...",
+          "start": 39.08,
+          "end": 39.34,
+          "probability": 0.387
+        }
+      ]
+    },
+    {
+      "start": 85.43,
+      "end": 86.91,
+      "text": "Entrando entre o humo e o miedo",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Entrando",
+          "start": 85.43,
+          "end": 85.63,
+          "probability": 0.095
+        },
+        {
+          "word": " entre",
+          "start": 85.63,
+          "end": 85.89,
+          "probability": 0.954
+        },
+        {
+          "word": " o",
+          "start": 85.89,
+          "end": 86.07,
+          "probability": 0.319
+        },
+        {
+          "word": " humo",
+          "start": 86.07,
+          "end": 86.33,
+          "probability": 0.635
+        },
+        {
+          "word": " e",
+          "start": 86.33,
+          "end": 86.45,
+          "probability": 0.997
+        },
+        {
+          "word": " o",
+          "start": 86.45,
+          "end": 86.55,
+          "probability": 0.979
+        },
+        {
+          "word": " miedo",
+          "start": 86.55,
+          "end": 86.91,
+          "probability": 0.647
+        }
+      ]
+    },
+    {
+      "start": 87.43,
+      "end": 89.01,
+      "text": "Cresce esquivando balas e mentira",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Cresce",
+          "start": 87.17,
+          "end": 87.49,
+          "probability": 0.434
+        },
+        {
+          "word": " esquivando",
+          "start": 87.49,
+          "end": 87.99,
+          "probability": 0.984
+        },
+        {
+          "word": " balas",
+          "start": 87.99,
+          "end": 88.35,
+          "probability": 0.802
+        },
+        {
+          "word": " e",
+          "start": 88.35,
+          "end": 88.55,
+          "probability": 0.521
+        },
+        {
+          "word": " mentira",
+          "start": 88.55,
+          "end": 89.01,
+          "probability": 0.688
+        }
+      ]
+    },
+    {
+      "start": 89.01,
+      "end": 91.07,
+      "text": "A acelhado foi o único credo",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " A",
+          "start": 89.01,
+          "end": 89.31,
+          "probability": 0.149
+        },
+        {
+          "word": " acelhado",
+          "start": 89.31,
+          "end": 89.67,
+          "probability": 0.43
+        },
+        {
+          "word": " foi",
+          "start": 89.67,
+          "end": 89.87,
+          "probability": 0.319
+        },
+        {
+          "word": " o",
+          "start": 89.87,
+          "end": 90.01,
+          "probability": 0.67
+        },
+        {
+          "word": " único",
+          "start": 90.01,
+          "end": 90.33,
+          "probability": 0.978
+        },
+        {
+          "word": " credo",
+          "start": 90.33,
+          "end": 91.07,
+          "probability": 0.622
+        }
+      ]
+    },
+    {
+      "start": 91.07,
+      "end": 93.19,
+      "text": "Um microfone emprestado cable espelado",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Um",
+          "start": 91.07,
+          "end": 91.29,
+          "probability": 0.914
+        },
+        {
+          "word": " microfone",
+          "start": 91.29,
+          "end": 91.75,
+          "probability": 0.81
+        },
+        {
+          "word": " emprestado",
+          "start": 91.75,
+          "end": 92.35,
+          "probability": 0.693
+        },
+        {
+          "word": " cable",
+          "start": 92.35,
+          "end": 92.67,
+          "probability": 0.425
+        },
+        {
+          "word": " espelado",
+          "start": 92.67,
+          "end": 93.19,
+          "probability": 0.693
+        }
+      ]
+    },
+    {
+      "start": 93.19,
+      "end": 93.99,
+      "text": "Em o suelo",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Em",
+          "start": 93.19,
+          "end": 93.45,
+          "probability": 0.015
+        },
+        {
+          "word": " o",
+          "start": 93.45,
+          "end": 93.61,
+          "probability": 0.406
+        },
+        {
+          "word": " suelo",
+          "start": 93.61,
+          "end": 93.99,
+          "probability": 0.778
+        }
+      ]
+    },
+    {
+      "start": 93.99,
+      "end": 95.75,
+      "text": "Cancerbero em misoído",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Cancerbero",
+          "start": 93.99,
+          "end": 95.01,
+          "probability": 0.21
+        },
+        {
+          "word": " em",
+          "start": 95.01,
+          "end": 95.15,
+          "probability": 0.514
+        },
+        {
+          "word": " misoído",
+          "start": 95.15,
+          "end": 95.75,
+          "probability": 0.539
+        }
+      ]
+    },
+    {
+      "start": 95.75,
+      "end": 97.43,
+      "text": "Buscando um pedaço de cielo",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Buscando",
+          "start": 95.75,
+          "end": 96.35,
+          "probability": 0.856
+        },
+        {
+          "word": " um",
+          "start": 96.35,
+          "end": 96.57,
+          "probability": 0.951
+        },
+        {
+          "word": " pedaço",
+          "start": 96.57,
+          "end": 96.93,
+          "probability": 0.849
+        },
+        {
+          "word": " de",
+          "start": 96.93,
+          "end": 97.05,
+          "probability": 0.841
+        },
+        {
+          "word": " cielo",
+          "start": 97.05,
+          "end": 97.43,
+          "probability": 0.803
+        }
+      ]
+    },
+    {
+      "start": 97.43,
+      "end": 100.47,
+      "text": "Tenho hermanos que se perdieron em la ruta",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " Tenho",
+          "start": 97.43,
+          "end": 98.05,
+          "probability": 0.733
+        },
+        {
+          "word": " hermanos",
+          "start": 98.05,
+          "end": 98.75,
+          "probability": 0.898
+        },
+        {
+          "word": " que",
+          "start": 98.75,
+          "end": 99.09,
+          "probability": 0.226
+        },
+        {
+          "word": " se",
+          "start": 99.09,
+          "end": 99.23,
+          "probability": 0.994
+        },
+        {
+          "word": " perdieron",
+          "start": 99.23,
+          "end": 99.75,
+          "probability": 0.502
+        },
+        {
+          "word": " em",
+          "start": 99.75,
+          "end": 99.91,
+          "probability": 0.348
+        },
+        {
+          "word": " la",
+          "start": 99.91,
+          "end": 100.07,
+          "probability": 0.705
+        },
+        {
+          "word": " ruta",
+          "start": 100.07,
+          "end": 100.47,
+          "probability": 0.914
+        }
+      ]
+    },
+    {
+      "start": 100.47,
+      "end": 102.37,
+      "text": "La selva não perdona, la fronteira",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " La",
+          "start": 100.47,
+          "end": 100.73,
+          "probability": 0.35
+        },
+        {
+          "word": " selva",
+          "start": 100.73,
+          "end": 101.05,
+          "probability": 0.876
+        },
+        {
+          "word": " não",
+          "start": 101.05,
+          "end": 101.21,
+          "probability": 0.596
+        },
+        {
+          "word": " perdona,",
+          "start": 101.21,
+          "end": 101.67,
+          "probability": 0.821
+        },
+        {
+          "word": " la",
+          "start": 101.67,
+          "end": 101.87,
+          "probability": 0.324
+        },
+        {
+          "word": " fronteira",
+          "start": 101.87,
+          "end": 102.37,
+          "probability": 0.644
+        }
+      ]
+    },
+    {
+      "start": 102.37,
+      "end": 103.11,
+      "text": "É uma vontade",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.433,
+      "noSpeechProbability": 0.449,
+      "words": [
+        {
+          "word": " É",
+          "start": 102.37,
+          "end": 102.51,
+          "probability": 0.03
+        },
+        {
+          "word": " uma",
+          "start": 102.51,
+          "end": 102.71,
+          "probability": 0.787
+        },
+        {
+          "word": " vontade",
+          "start": 102.71,
+          "end": 103.11,
+          "probability": 0.469
+        }
+      ]
+    },
+    {
+      "start": 149.5,
+      "end": 154.4,
+      "text": "Não somos cipras, não somos sombras, somos espalda que conclua o mundo",
+      "avgLogprob": -0.577,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.397,
+      "words": [
+        {
+          "word": " Não",
+          "start": 149.5,
+          "end": 150.0,
+          "probability": 0.062
+        },
+        {
+          "word": " somos",
+          "start": 150.0,
+          "end": 150.3,
+          "probability": 0.92
+        },
+        {
+          "word": " cipras,",
+          "start": 150.3,
+          "end": 150.82,
+          "probability": 0.662
+        },
+        {
+          "word": " não",
+          "start": 151.1,
+          "end": 151.32,
+          "probability": 0.95
+        },
+        {
+          "word": " somos",
+          "start": 151.32,
+          "end": 151.6,
+          "probability": 0.996
+        },
+        {
+          "word": " sombras,",
+          "start": 151.6,
+          "end": 152.18,
+          "probability": 0.768
+        },
+        {
+          "word": " somos",
+          "start": 152.46,
+          "end": 152.78,
+          "probability": 0.829
+        },
+        {
+          "word": " espalda",
+          "start": 152.78,
+          "end": 153.34,
+          "probability": 0.675
+        },
+        {
+          "word": " que",
+          "start": 153.34,
+          "end": 153.5,
+          "probability": 0.894
+        },
+        {
+          "word": " conclua",
+          "start": 153.5,
+          "end": 153.98,
+          "probability": 0.593
+        },
+        {
+          "word": " o",
+          "start": 153.98,
+          "end": 154.1,
+          "probability": 0.865
+        },
+        {
+          "word": " mundo",
+          "start": 154.1,
+          "end": 154.4,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 154.4,
+      "end": 158.36,
+      "text": "Somos o segredo que nadie enombra desde o merendona hasta a costa",
+      "avgLogprob": -0.577,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.397,
+      "words": [
+        {
+          "word": " Somos",
+          "start": 154.4,
+          "end": 154.9,
+          "probability": 0.487
+        },
+        {
+          "word": " o",
+          "start": 154.9,
+          "end": 155.0,
+          "probability": 0.416
+        },
+        {
+          "word": " segredo",
+          "start": 155.0,
+          "end": 155.34,
+          "probability": 0.586
+        },
+        {
+          "word": " que",
+          "start": 155.34,
+          "end": 155.52,
+          "probability": 0.955
+        },
+        {
+          "word": " nadie",
+          "start": 155.52,
+          "end": 155.82,
+          "probability": 0.561
+        },
+        {
+          "word": " enombra",
+          "start": 155.82,
+          "end": 156.38,
+          "probability": 0.68
+        },
+        {
+          "word": " desde",
+          "start": 156.38,
+          "end": 156.72,
+          "probability": 0.422
+        },
+        {
+          "word": " o",
+          "start": 156.72,
+          "end": 156.92,
+          "probability": 0.713
+        },
+        {
+          "word": " merendona",
+          "start": 156.92,
+          "end": 157.36,
+          "probability": 0.666
+        },
+        {
+          "word": " hasta",
+          "start": 157.36,
+          "end": 157.6,
+          "probability": 0.543
+        },
+        {
+          "word": " a",
+          "start": 157.6,
+          "end": 157.7,
+          "probability": 0.547
+        },
+        {
+          "word": " costa",
+          "start": 157.7,
+          "end": 158.36,
+          "probability": 0.829
+        }
+      ]
+    },
+    {
+      "start": 158.36,
+      "end": 162.82,
+      "text": "La dignidade não tem preço, a esperança é a nossa resposta ao olvido e ao despreso",
+      "avgLogprob": -0.577,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.397,
+      "words": [
+        {
+          "word": " La",
+          "start": 158.36,
+          "end": 158.74,
+          "probability": 0.212
+        },
+        {
+          "word": " dignidade",
+          "start": 158.74,
+          "end": 159.16,
+          "probability": 0.991
+        },
+        {
+          "word": " não",
+          "start": 159.16,
+          "end": 159.38,
+          "probability": 0.972
+        },
+        {
+          "word": " tem",
+          "start": 159.38,
+          "end": 159.56,
+          "probability": 0.547
+        },
+        {
+          "word": " preço,",
+          "start": 159.56,
+          "end": 160.0,
+          "probability": 0.295
+        },
+        {
+          "word": " a",
+          "start": 160.06,
+          "end": 160.16,
+          "probability": 0.537
+        },
+        {
+          "word": " esperança",
+          "start": 160.16,
+          "end": 160.58,
+          "probability": 0.988
+        },
+        {
+          "word": " é",
+          "start": 160.58,
+          "end": 160.7,
+          "probability": 0.786
+        },
+        {
+          "word": " a",
+          "start": 160.7,
+          "end": 160.98,
+          "probability": 0.795
+        },
+        {
+          "word": " nossa",
+          "start": 160.98,
+          "end": 160.98,
+          "probability": 0.862
+        },
+        {
+          "word": " resposta",
+          "start": 160.98,
+          "end": 161.4,
+          "probability": 0.935
+        },
+        {
+          "word": " ao",
+          "start": 161.4,
+          "end": 161.66,
+          "probability": 0.907
+        },
+        {
+          "word": " olvido",
+          "start": 161.66,
+          "end": 162.0,
+          "probability": 0.645
+        },
+        {
+          "word": " e",
+          "start": 162.0,
+          "end": 162.12,
+          "probability": 0.956
+        },
+        {
+          "word": " ao",
+          "start": 162.12,
+          "end": 162.22,
+          "probability": 0.886
+        },
+        {
+          "word": " despreso",
+          "start": 162.22,
+          "end": 162.82,
+          "probability": 0.587
+        }
+      ]
+    },
+    {
+      "start": 162.82,
+      "end": 167.48,
+      "text": "Sua em um duro de sangria e a renda cadenas rotas",
+      "avgLogprob": -0.577,
+      "compressionRatio": 1.545,
+      "noSpeechProbability": 0.397,
+      "words": [
+        {
+          "word": " Sua",
+          "start": 162.82,
+          "end": 163.96,
+          "probability": 0.275
+        },
+        {
+          "word": " em",
+          "start": 163.96,
+          "end": 164.12,
+          "probability": 0.421
+        },
+        {
+          "word": " um",
+          "start": 164.12,
+          "end": 164.3,
+          "probability": 0.937
+        },
+        {
+          "word": " duro",
+          "start": 164.3,
+          "end": 164.54,
+          "probability": 0.517
+        },
+        {
+          "word": " de",
+          "start": 164.54,
+          "end": 164.94,
+          "probability": 0.272
+        },
+        {
+          "word": " sangria",
+          "start": 164.94,
+          "end": 165.52,
+          "probability": 0.686
+        },
+        {
+          "word": " e",
+          "start": 165.52,
+          "end": 165.84,
+          "probability": 0.502
+        },
+        {
+          "word": " a",
+          "start": 165.84,
+          "end": 165.84,
+          "probability": 0.414
+        },
+        {
+          "word": " renda",
+          "start": 165.84,
+          "end": 166.22,
+          "probability": 0.528
+        },
+        {
+          "word": " cadenas",
+          "start": 166.22,
+          "end": 166.92,
+          "probability": 0.423
+        },
+        {
+          "word": " rotas",
+          "start": 166.92,
+          "end": 167.48,
+          "probability": 0.969
+        }
+      ]
+    },
+    {
+      "start": 213.57,
+      "end": 216.13,
+      "text": "E me engano,",
+      "avgLogprob": -1.588,
+      "compressionRatio": 0.966,
+      "noSpeechProbability": 0.128,
+      "words": [
+        {
+          "word": " E",
+          "start": 213.57,
+          "end": 213.97,
+          "probability": 0.247
+        },
+        {
+          "word": " me",
+          "start": 213.97,
+          "end": 214.25,
+          "probability": 0.41
+        },
+        {
+          "word": " engano,",
+          "start": 214.25,
+          "end": 216.13,
+          "probability": 0.352
+        }
+      ]
+    },
+    {
+      "start": 217.49,
+      "end": 219.99,
+      "text": "Elehor, Elehor.",
+      "avgLogprob": -1.588,
+      "compressionRatio": 0.966,
+      "noSpeechProbability": 0.128,
+      "words": [
+        {
+          "word": " Elehor,",
+          "start": 217.49,
+          "end": 218.83,
+          "probability": 0.066
+        },
+        {
+          "word": " Elehor.",
+          "start": 218.83,
+          "end": 219.99,
+          "probability": 0.799
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.827,
+    "wordCount": 149,
+    "credibleWordCount": 127,
+    "segmentCount": 21,
+    "averageWordProbability": 0.64,
+    "vocalSeconds": 52.48,
+    "scanCoverage": 0.253,
+    "reviewRequired": false
+  }
+}

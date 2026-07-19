@@ -1,0 +1,2767 @@
+{
+  "analysisVersion": 1,
+  "index": 18,
+  "id": "../VOLHOLLA/song-sunfadedghosts-05.html",
+  "slug": "favela-footwork-circuit-1",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "One, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two You're not the master, don't you, Papi? Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Get down, boy! Oh, no! I had a lot of love for you guys. Yeah! Yeah! You're dumb as fuck! Yeah! You're a pie! Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up",
+  "sampledRanges": [
+    [
+      18.93,
+      36.93
+    ],
+    [
+      75.74,
+      93.74
+    ],
+    [
+      132.54,
+      150.54
+    ],
+    [
+      189.34,
+      207.34
+    ]
+  ],
+  "segments": [
+    {
+      "start": 18.93,
+      "end": 36.91,
+      "text": "One, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two, one, two",
+      "avgLogprob": -0.066,
+      "compressionRatio": 23.25,
+      "noSpeechProbability": 0.704,
+      "words": [
+        {
+          "word": " One,",
+          "start": 18.93,
+          "end": 19.15,
+          "probability": 0.006
+        },
+        {
+          "word": " two,",
+          "start": 19.27,
+          "end": 19.51,
+          "probability": 0.748
+        },
+        {
+          "word": " one,",
+          "start": 19.99,
+          "end": 20.13,
+          "probability": 0.314
+        },
+        {
+          "word": " two,",
+          "start": 20.13,
+          "end": 20.45,
+          "probability": 0.401
+        },
+        {
+          "word": " one,",
+          "start": 20.69,
+          "end": 20.69,
+          "probability": 0.885
+        },
+        {
+          "word": " two,",
+          "start": 20.69,
+          "end": 21.37,
+          "probability": 0.771
+        },
+        {
+          "word": " one,",
+          "start": 21.57,
+          "end": 21.57,
+          "probability": 0.911
+        },
+        {
+          "word": " two,",
+          "start": 21.57,
+          "end": 21.87,
+          "probability": 0.905
+        },
+        {
+          "word": " one,",
+          "start": 22.59,
+          "end": 22.97,
+          "probability": 0.92
+        },
+        {
+          "word": " two,",
+          "start": 23.05,
+          "end": 23.77,
+          "probability": 0.939
+        },
+        {
+          "word": " one,",
+          "start": 23.95,
+          "end": 23.95,
+          "probability": 0.936
+        },
+        {
+          "word": " two,",
+          "start": 24.15,
+          "end": 24.25,
+          "probability": 0.959
+        },
+        {
+          "word": " one,",
+          "start": 24.81,
+          "end": 24.81,
+          "probability": 0.945
+        },
+        {
+          "word": " two,",
+          "start": 25.15,
+          "end": 25.15,
+          "probability": 0.965
+        },
+        {
+          "word": " one,",
+          "start": 25.31,
+          "end": 25.31,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 25.51,
+          "end": 25.65,
+          "probability": 0.968
+        },
+        {
+          "word": " one,",
+          "start": 25.95,
+          "end": 26.13,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 26.13,
+          "end": 26.13,
+          "probability": 0.971
+        },
+        {
+          "word": " one,",
+          "start": 26.67,
+          "end": 26.73,
+          "probability": 0.952
+        },
+        {
+          "word": " two,",
+          "start": 26.95,
+          "end": 27.07,
+          "probability": 0.971
+        },
+        {
+          "word": " one,",
+          "start": 27.21,
+          "end": 27.21,
+          "probability": 0.953
+        },
+        {
+          "word": " two,",
+          "start": 27.41,
+          "end": 28.49,
+          "probability": 0.971
+        },
+        {
+          "word": " one,",
+          "start": 28.65,
+          "end": 28.65,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 28.87,
+          "end": 28.95,
+          "probability": 0.972
+        },
+        {
+          "word": " one,",
+          "start": 29.11,
+          "end": 29.11,
+          "probability": 0.953
+        },
+        {
+          "word": " two,",
+          "start": 29.31,
+          "end": 29.45,
+          "probability": 0.969
+        },
+        {
+          "word": " one,",
+          "start": 29.75,
+          "end": 30.09,
+          "probability": 0.952
+        },
+        {
+          "word": " two,",
+          "start": 30.09,
+          "end": 31.35,
+          "probability": 0.972
+        },
+        {
+          "word": " one,",
+          "start": 31.49,
+          "end": 31.49,
+          "probability": 0.953
+        },
+        {
+          "word": " two,",
+          "start": 31.71,
+          "end": 31.77,
+          "probability": 0.97
+        },
+        {
+          "word": " one,",
+          "start": 32.17,
+          "end": 32.17,
+          "probability": 0.953
+        },
+        {
+          "word": " two,",
+          "start": 32.17,
+          "end": 32.33,
+          "probability": 0.969
+        },
+        {
+          "word": " one,",
+          "start": 32.59,
+          "end": 32.59,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 32.61,
+          "end": 32.61,
+          "probability": 0.971
+        },
+        {
+          "word": " one,",
+          "start": 32.61,
+          "end": 32.61,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 32.61,
+          "end": 32.61,
+          "probability": 0.969
+        },
+        {
+          "word": " one,",
+          "start": 32.61,
+          "end": 32.61,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 32.67,
+          "end": 32.67,
+          "probability": 0.967
+        },
+        {
+          "word": " one,",
+          "start": 32.71,
+          "end": 32.85,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.965
+        },
+        {
+          "word": " one,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.966
+        },
+        {
+          "word": " one,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.965
+        },
+        {
+          "word": " one,",
+          "start": 33.03,
+          "end": 33.03,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 33.15,
+          "end": 33.21,
+          "probability": 0.966
+        },
+        {
+          "word": " one,",
+          "start": 33.21,
+          "end": 33.37,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 33.67,
+          "end": 33.67,
+          "probability": 0.961
+        },
+        {
+          "word": " one,",
+          "start": 33.67,
+          "end": 33.67,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 33.67,
+          "end": 33.69,
+          "probability": 0.961
+        },
+        {
+          "word": " one,",
+          "start": 33.69,
+          "end": 33.79,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 33.79,
+          "end": 33.79,
+          "probability": 0.961
+        },
+        {
+          "word": " one,",
+          "start": 33.83,
+          "end": 33.83,
+          "probability": 0.951
+        },
+        {
+          "word": " two,",
+          "start": 34.05,
+          "end": 34.19,
+          "probability": 0.958
+        },
+        {
+          "word": " one,",
+          "start": 34.19,
+          "end": 34.19,
+          "probability": 0.948
+        },
+        {
+          "word": " two,",
+          "start": 34.19,
+          "end": 34.19,
+          "probability": 0.961
+        },
+        {
+          "word": " one,",
+          "start": 34.19,
+          "end": 34.19,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 34.19,
+          "end": 34.19,
+          "probability": 0.955
+        },
+        {
+          "word": " one,",
+          "start": 34.19,
+          "end": 34.19,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 34.19,
+          "end": 34.27,
+          "probability": 0.958
+        },
+        {
+          "word": " one,",
+          "start": 34.35,
+          "end": 34.35,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 34.53,
+          "end": 34.63,
+          "probability": 0.957
+        },
+        {
+          "word": " one,",
+          "start": 34.77,
+          "end": 34.77,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 34.77,
+          "end": 34.77,
+          "probability": 0.956
+        },
+        {
+          "word": " one,",
+          "start": 34.77,
+          "end": 34.77,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 34.77,
+          "end": 34.77,
+          "probability": 0.953
+        },
+        {
+          "word": " one,",
+          "start": 34.77,
+          "end": 34.77,
+          "probability": 0.948
+        },
+        {
+          "word": " two,",
+          "start": 34.97,
+          "end": 35.17,
+          "probability": 0.949
+        },
+        {
+          "word": " one,",
+          "start": 35.17,
+          "end": 35.17,
+          "probability": 0.947
+        },
+        {
+          "word": " two,",
+          "start": 35.17,
+          "end": 35.17,
+          "probability": 0.95
+        },
+        {
+          "word": " one,",
+          "start": 35.17,
+          "end": 35.17,
+          "probability": 0.949
+        },
+        {
+          "word": " two,",
+          "start": 35.17,
+          "end": 35.17,
+          "probability": 0.946
+        },
+        {
+          "word": " one,",
+          "start": 35.87,
+          "end": 35.87,
+          "probability": 0.95
+        },
+        {
+          "word": " two,",
+          "start": 35.99,
+          "end": 36.09,
+          "probability": 0.946
+        },
+        {
+          "word": " one,",
+          "start": 36.09,
+          "end": 36.13,
+          "probability": 0.946
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.948
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.948
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.946
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.944
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.94
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.943
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.942
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.939
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.945
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.946
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.939
+        },
+        {
+          "word": " one,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.942
+        },
+        {
+          "word": " two,",
+          "start": 36.13,
+          "end": 36.13,
+          "probability": 0.939
+        },
+        {
+          "word": " one,",
+          "start": 36.59,
+          "end": 36.59,
+          "probability": 0.942
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.939
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.938
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.941
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.937
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.94
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.936
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.938
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.932
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.941
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.936
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.937
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.927
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.931
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.928
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.936
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.93
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.936
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.928
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.94
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.923
+        },
+        {
+          "word": " two,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.933
+        },
+        {
+          "word": " one,",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.92
+        },
+        {
+          "word": " two",
+          "start": 36.91,
+          "end": 36.91,
+          "probability": 0.933
+        }
+      ]
+    },
+    {
+      "start": 36.89,
+      "end": 36.89,
+      "text": "",
+      "avgLogprob": -0.17,
+      "compressionRatio": 13.525,
+      "noSpeechProbability": 0.794,
+      "words": []
+    },
+    {
+      "start": 75.74,
+      "end": 77.76,
+      "text": "You're not the master, don't you, Papi?",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " You're",
+          "start": 75.74,
+          "end": 76.1,
+          "probability": 0.08
+        },
+        {
+          "word": " not",
+          "start": 76.1,
+          "end": 76.32,
+          "probability": 0.118
+        },
+        {
+          "word": " the",
+          "start": 76.32,
+          "end": 76.5,
+          "probability": 0.17
+        },
+        {
+          "word": " master,",
+          "start": 76.5,
+          "end": 76.74,
+          "probability": 0.382
+        },
+        {
+          "word": " don't",
+          "start": 76.94,
+          "end": 77.38,
+          "probability": 0.552
+        },
+        {
+          "word": " you,",
+          "start": 77.38,
+          "end": 77.38,
+          "probability": 0.289
+        },
+        {
+          "word": " Papi?",
+          "start": 77.46,
+          "end": 77.76,
+          "probability": 0.576
+        }
+      ]
+    },
+    {
+      "start": 78.02,
+      "end": 78.66,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 78.02,
+          "end": 78.18,
+          "probability": 0.012
+        },
+        {
+          "word": " down,",
+          "start": 78.18,
+          "end": 78.4,
+          "probability": 0.147
+        },
+        {
+          "word": " boy!",
+          "start": 78.46,
+          "end": 78.66,
+          "probability": 0.254
+        }
+      ]
+    },
+    {
+      "start": 79.26,
+      "end": 79.58,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 79.26,
+          "end": 79.26,
+          "probability": 0.23
+        },
+        {
+          "word": " down,",
+          "start": 79.26,
+          "end": 79.32,
+          "probability": 0.813
+        },
+        {
+          "word": " boy!",
+          "start": 79.38,
+          "end": 79.58,
+          "probability": 0.949
+        }
+      ]
+    },
+    {
+      "start": 80.14,
+      "end": 80.58,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 80.14,
+          "end": 80.14,
+          "probability": 0.483
+        },
+        {
+          "word": " down,",
+          "start": 80.14,
+          "end": 80.24,
+          "probability": 0.947
+        },
+        {
+          "word": " boy!",
+          "start": 80.24,
+          "end": 80.58,
+          "probability": 0.969
+        }
+      ]
+    },
+    {
+      "start": 81.06,
+      "end": 81.94,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 81.06,
+          "end": 81.06,
+          "probability": 0.675
+        },
+        {
+          "word": " down,",
+          "start": 81.06,
+          "end": 81.5,
+          "probability": 0.948
+        },
+        {
+          "word": " boy!",
+          "start": 81.62,
+          "end": 81.94,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 82.04,
+      "end": 83.1,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 82.04,
+          "end": 82.26,
+          "probability": 0.751
+        },
+        {
+          "word": " down,",
+          "start": 82.26,
+          "end": 82.36,
+          "probability": 0.958
+        },
+        {
+          "word": " boy!",
+          "start": 82.62,
+          "end": 83.1,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 83.1,
+      "end": 83.76,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 83.1,
+          "end": 83.1,
+          "probability": 0.834
+        },
+        {
+          "word": " down,",
+          "start": 83.1,
+          "end": 83.1,
+          "probability": 0.97
+        },
+        {
+          "word": " boy!",
+          "start": 83.1,
+          "end": 83.76,
+          "probability": 0.976
+        }
+      ]
+    },
+    {
+      "start": 84.68,
+      "end": 84.98,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 84.68,
+          "end": 84.68,
+          "probability": 0.887
+        },
+        {
+          "word": " down,",
+          "start": 84.68,
+          "end": 84.82,
+          "probability": 0.975
+        },
+        {
+          "word": " boy!",
+          "start": 84.98,
+          "end": 84.98,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 86.16,
+      "end": 86.94,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 86.16,
+          "end": 86.56,
+          "probability": 0.916
+        },
+        {
+          "word": " down,",
+          "start": 86.56,
+          "end": 86.74,
+          "probability": 0.983
+        },
+        {
+          "word": " boy!",
+          "start": 86.88,
+          "end": 86.94,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 87.52,
+      "end": 87.94,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 87.52,
+          "end": 87.52,
+          "probability": 0.925
+        },
+        {
+          "word": " down,",
+          "start": 87.52,
+          "end": 87.66,
+          "probability": 0.982
+        },
+        {
+          "word": " boy!",
+          "start": 87.86,
+          "end": 87.94,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 88.2,
+      "end": 88.82,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 88.2,
+          "end": 88.46,
+          "probability": 0.928
+        },
+        {
+          "word": " down,",
+          "start": 88.46,
+          "end": 88.64,
+          "probability": 0.984
+        },
+        {
+          "word": " boy!",
+          "start": 88.72,
+          "end": 88.82,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 89.12,
+      "end": 89.78,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 89.12,
+          "end": 89.36,
+          "probability": 0.929
+        },
+        {
+          "word": " down,",
+          "start": 89.36,
+          "end": 89.54,
+          "probability": 0.986
+        },
+        {
+          "word": " boy!",
+          "start": 89.7,
+          "end": 89.78,
+          "probability": 0.986
+        }
+      ]
+    },
+    {
+      "start": 90.34,
+      "end": 90.74,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 90.34,
+          "end": 90.34,
+          "probability": 0.924
+        },
+        {
+          "word": " down,",
+          "start": 90.34,
+          "end": 90.48,
+          "probability": 0.985
+        },
+        {
+          "word": " boy!",
+          "start": 90.68,
+          "end": 90.74,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 91.98,
+      "end": 92.56,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 91.98,
+          "end": 92.2,
+          "probability": 0.932
+        },
+        {
+          "word": " down,",
+          "start": 92.2,
+          "end": 92.4,
+          "probability": 0.985
+        },
+        {
+          "word": " boy!",
+          "start": 92.56,
+          "end": 92.56,
+          "probability": 0.982
+        }
+      ]
+    },
+    {
+      "start": 92.56,
+      "end": 92.8,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 92.56,
+          "end": 92.74,
+          "probability": 0.931
+        },
+        {
+          "word": " down,",
+          "start": 92.74,
+          "end": 92.8,
+          "probability": 0.986
+        },
+        {
+          "word": " boy!",
+          "start": 92.8,
+          "end": 92.8,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 92.94,
+      "end": 93.4,
+      "text": "Get down, boy!",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": [
+        {
+          "word": " Get",
+          "start": 92.94,
+          "end": 92.94,
+          "probability": 0.92
+        },
+        {
+          "word": " down,",
+          "start": 92.94,
+          "end": 93.24,
+          "probability": 0.985
+        },
+        {
+          "word": " boy!",
+          "start": 93.4,
+          "end": 93.4,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 93.4,
+      "end": 93.4,
+      "text": "",
+      "avgLogprob": -0.327,
+      "compressionRatio": 4.281,
+      "noSpeechProbability": 0.483,
+      "words": []
+    },
+    {
+      "start": 133.38,
+      "end": 134.18,
+      "text": "Oh, no!",
+      "avgLogprob": -0.16,
+      "compressionRatio": 9.911,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 133.38,
+          "end": 133.94,
+          "probability": 0.083
+        },
+        {
+          "word": " no!",
+          "start": 133.94,
+          "end": 134.18,
+          "probability": 0.453
+        }
+      ]
+    },
+    {
+      "start": 134.64,
+      "end": 137.06,
+      "text": "I had a lot of love for you guys.",
+      "avgLogprob": -0.16,
+      "compressionRatio": 9.911,
+      "noSpeechProbability": 0.064,
+      "words": [
+        {
+          "word": " I",
+          "start": 134.64,
+          "end": 134.8,
+          "probability": 0.504
+        },
+        {
+          "word": " had",
+          "start": 134.8,
+          "end": 135.02,
+          "probability": 0.099
+        },
+        {
+          "word": " a",
+          "start": 135.02,
+          "end": 135.2,
+          "probability": 0.232
+        },
+        {
+          "word": " lot",
+          "start": 135.2,
+          "end": 135.36,
+          "probability": 0.168
+        },
+        {
+          "word": " of",
+          "start": 135.36,
+          "end": 135.54,
+          "probability": 0.912
+        },
+        {
+          "word": " love",
+          "start": 135.54,
+          "end": 135.94,
+          "probability": 0.756
+        },
+        {
+          "word": " for",
+          "start": 135.94,
+          "end": 136.3,
+          "probability": 0.4
+        },
+        {
+          "word": " you",
+          "start": 136.3,
+          "end": 136.58,
+          "probability": 0.138
+        },
+        {
+          "word": " guys.",
+          "start": 136.58,
+          "end": 137.06,
+          "probability": 0.199
+        }
+      ]
+    },
+    {
+      "start": 145.7,
+      "end": 146.18,
+      "text": "Yeah!",
+      "avgLogprob": -0.926,
+      "compressionRatio": 1.238,
+      "noSpeechProbability": 0.402,
+      "words": [
+        {
+          "word": " Yeah!",
+          "start": 145.7,
+          "end": 146.18,
+          "probability": 0.129
+        }
+      ]
+    },
+    {
+      "start": 146.44,
+      "end": 146.98,
+      "text": "Yeah!",
+      "avgLogprob": -0.926,
+      "compressionRatio": 1.238,
+      "noSpeechProbability": 0.402,
+      "words": [
+        {
+          "word": " Yeah!",
+          "start": 146.44,
+          "end": 146.98,
+          "probability": 0.167
+        }
+      ]
+    },
+    {
+      "start": 146.98,
+      "end": 148.04,
+      "text": "You're dumb as fuck!",
+      "avgLogprob": -0.926,
+      "compressionRatio": 1.238,
+      "noSpeechProbability": 0.402,
+      "words": [
+        {
+          "word": " You're",
+          "start": 146.98,
+          "end": 147.2,
+          "probability": 0.267
+        },
+        {
+          "word": " dumb",
+          "start": 147.2,
+          "end": 147.46,
+          "probability": 0.361
+        },
+        {
+          "word": " as",
+          "start": 147.46,
+          "end": 147.76,
+          "probability": 0.393
+        },
+        {
+          "word": " fuck!",
+          "start": 147.76,
+          "end": 148.04,
+          "probability": 0.351
+        }
+      ]
+    },
+    {
+      "start": 148.42,
+      "end": 148.66,
+      "text": "Yeah!",
+      "avgLogprob": -0.926,
+      "compressionRatio": 1.238,
+      "noSpeechProbability": 0.402,
+      "words": [
+        {
+          "word": " Yeah!",
+          "start": 148.42,
+          "end": 148.66,
+          "probability": 0.124
+        }
+      ]
+    },
+    {
+      "start": 149.22,
+      "end": 150.08,
+      "text": "You're a pie!",
+      "avgLogprob": -0.926,
+      "compressionRatio": 1.238,
+      "noSpeechProbability": 0.402,
+      "words": [
+        {
+          "word": " You're",
+          "start": 149.22,
+          "end": 149.74,
+          "probability": 0.469
+        },
+        {
+          "word": " a",
+          "start": 149.74,
+          "end": 149.78,
+          "probability": 0.246
+        },
+        {
+          "word": " pie!",
+          "start": 149.78,
+          "end": 150.08,
+          "probability": 0.343
+        }
+      ]
+    },
+    {
+      "start": 190.24,
+      "end": 207.32,
+      "text": "Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up Up",
+      "avgLogprob": -0.041,
+      "compressionRatio": 39.294,
+      "noSpeechProbability": 0.716,
+      "words": [
+        {
+          "word": " Up",
+          "start": 190.24,
+          "end": 190.56,
+          "probability": 0.016
+        },
+        {
+          "word": " Up",
+          "start": 190.56,
+          "end": 190.88,
+          "probability": 0.177
+        },
+        {
+          "word": " Up",
+          "start": 190.88,
+          "end": 192.9,
+          "probability": 0.982
+        },
+        {
+          "word": " Up",
+          "start": 192.9,
+          "end": 193.3,
+          "probability": 0.983
+        },
+        {
+          "word": " Up",
+          "start": 193.3,
+          "end": 194.02,
+          "probability": 0.984
+        },
+        {
+          "word": " Up",
+          "start": 194.02,
+          "end": 194.08,
+          "probability": 0.982
+        },
+        {
+          "word": " Up",
+          "start": 194.08,
+          "end": 194.3,
+          "probability": 0.981
+        },
+        {
+          "word": " Up",
+          "start": 194.3,
+          "end": 194.64,
+          "probability": 0.98
+        },
+        {
+          "word": " Up",
+          "start": 194.64,
+          "end": 194.64,
+          "probability": 0.978
+        },
+        {
+          "word": " Up",
+          "start": 194.64,
+          "end": 194.82,
+          "probability": 0.977
+        },
+        {
+          "word": " Up",
+          "start": 194.82,
+          "end": 194.82,
+          "probability": 0.976
+        },
+        {
+          "word": " Up",
+          "start": 194.82,
+          "end": 194.96,
+          "probability": 0.975
+        },
+        {
+          "word": " Up",
+          "start": 194.96,
+          "end": 195.02,
+          "probability": 0.974
+        },
+        {
+          "word": " Up",
+          "start": 195.02,
+          "end": 195.02,
+          "probability": 0.976
+        },
+        {
+          "word": " Up",
+          "start": 195.02,
+          "end": 195.02,
+          "probability": 0.975
+        },
+        {
+          "word": " Up",
+          "start": 195.02,
+          "end": 195.02,
+          "probability": 0.977
+        },
+        {
+          "word": " Up",
+          "start": 195.02,
+          "end": 195.06,
+          "probability": 0.976
+        },
+        {
+          "word": " Up",
+          "start": 195.06,
+          "end": 195.06,
+          "probability": 0.977
+        },
+        {
+          "word": " Up",
+          "start": 195.06,
+          "end": 195.08,
+          "probability": 0.976
+        },
+        {
+          "word": " Up",
+          "start": 195.08,
+          "end": 195.16,
+          "probability": 0.976
+        },
+        {
+          "word": " Up",
+          "start": 195.16,
+          "end": 195.16,
+          "probability": 0.978
+        },
+        {
+          "word": " Up",
+          "start": 195.16,
+          "end": 195.2,
+          "probability": 0.978
+        },
+        {
+          "word": " Up",
+          "start": 195.2,
+          "end": 195.2,
+          "probability": 0.98
+        },
+        {
+          "word": " Up",
+          "start": 195.2,
+          "end": 195.26,
+          "probability": 0.981
+        },
+        {
+          "word": " Up",
+          "start": 195.26,
+          "end": 195.26,
+          "probability": 0.983
+        },
+        {
+          "word": " Up",
+          "start": 195.26,
+          "end": 195.44,
+          "probability": 0.983
+        },
+        {
+          "word": " Up",
+          "start": 195.44,
+          "end": 195.44,
+          "probability": 0.984
+        },
+        {
+          "word": " Up",
+          "start": 195.44,
+          "end": 195.44,
+          "probability": 0.984
+        },
+        {
+          "word": " Up",
+          "start": 195.44,
+          "end": 195.48,
+          "probability": 0.985
+        },
+        {
+          "word": " Up",
+          "start": 195.48,
+          "end": 195.48,
+          "probability": 0.985
+        },
+        {
+          "word": " Up",
+          "start": 195.48,
+          "end": 195.48,
+          "probability": 0.985
+        },
+        {
+          "word": " Up",
+          "start": 195.48,
+          "end": 195.48,
+          "probability": 0.985
+        },
+        {
+          "word": " Up",
+          "start": 195.48,
+          "end": 195.48,
+          "probability": 0.986
+        },
+        {
+          "word": " Up",
+          "start": 195.48,
+          "end": 195.52,
+          "probability": 0.986
+        },
+        {
+          "word": " Up",
+          "start": 195.52,
+          "end": 195.52,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.52,
+          "end": 195.84,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.84,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.84,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.84,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.84,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.84,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.84,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 195.9,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 195.9,
+          "end": 196.56,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.56,
+          "end": 196.56,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.56,
+          "end": 196.56,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 196.56,
+          "end": 196.56,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.56,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 196.68,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 196.68,
+          "end": 197.8,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 197.8,
+          "end": 197.8,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 197.8,
+          "end": 197.8,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 197.8,
+          "end": 197.8,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 197.8,
+          "end": 197.8,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 197.8,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.7,
+          "end": 198.72,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 198.72,
+          "end": 198.72,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 198.72,
+          "end": 198.72,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 198.72,
+          "end": 198.72,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 198.72,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.5,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.5,
+          "end": 199.58,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.58,
+          "end": 199.58,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.58,
+          "end": 199.58,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.58,
+          "end": 199.58,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.58,
+          "end": 199.7,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 199.7,
+          "end": 199.7,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.7,
+          "end": 199.7,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.7,
+          "end": 199.7,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.7,
+          "end": 199.7,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.7,
+          "end": 199.82,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 199.82,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 199.82,
+          "end": 200.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 200.72,
+          "end": 200.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 200.72,
+          "end": 200.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 200.72,
+          "end": 200.78,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 200.78,
+          "end": 201.0,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 201.0,
+          "end": 201.0,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.0,
+          "end": 201.46,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.46,
+          "end": 201.48,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.48,
+          "end": 201.56,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.56,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 201.72,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 201.72,
+          "end": 203.86,
+          "probability": 0.986
+        },
+        {
+          "word": " Up",
+          "start": 203.86,
+          "end": 203.86,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 203.86,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.989
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.99
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.991
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.991
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.991
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.991
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.988
+        },
+        {
+          "word": " Up",
+          "start": 207.32,
+          "end": 207.32,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 207.3,
+      "end": 207.3,
+      "text": "",
+      "avgLogprob": -0.125,
+      "compressionRatio": 22.4,
+      "noSpeechProbability": 0.796,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "vocal-fragment",
+    "confidence": 0.47,
+    "wordCount": 10,
+    "credibleWordCount": 4,
+    "segmentCount": 5,
+    "averageWordProbability": 0.285,
+    "vocalSeconds": 3.18,
+    "scanCoverage": 0.283,
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,1486 @@
+{
+  "analysisVersion": 1,
+  "index": 51,
+  "id": "../VOLHOLLA/song-betterhands-07.html",
+  "slug": "the-prompt-log-brick",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "It's smaller top, baseline dirty, mouth go raw You call the cheer when the poor get a lever Call the poor brist when the wish do a braver Use the machine, room your fraud City automated by landlord's and guard Scan at the lock, bad dad the job Rent at Smaller while it finishes the rob Yeah, everything's gone it off. If the machine got bad by the crowd, then the crowd better get the speed. Now, turn to service, my let's off. baseline dirty, mouth gone raw, you call it G. I want to poor get a lever, call a poor rest when the rich do a grab up. You do not lazy, you do watched. Every tap Put a halo on the old plantation Call the whip personalization Show me the day, taste it Show me the Show me the worker inside the room Show me the cobalt Show me the Turn the crowd, better get the speed, now Turn to service, smile to talk Baseline dirty, mouth down raw You call the cheek on when the poor get a lever Call the Pope bless, when the rich do a clever Turn it up Turn it up",
+  "sampledRanges": [
+    [
+      10.08,
+      28.08
+    ],
+    [
+      40.31,
+      58.31
+    ],
+    [
+      70.54,
+      88.54
+    ],
+    [
+      100.77,
+      118.77
+    ]
+  ],
+  "segments": [
+    {
+      "start": 10.08,
+      "end": 13.46,
+      "text": "It's smaller top, baseline dirty, mouth go raw",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " It's",
+          "start": 10.08,
+          "end": 10.24,
+          "probability": 0.389
+        },
+        {
+          "word": " smaller",
+          "start": 10.24,
+          "end": 10.52,
+          "probability": 0.016
+        },
+        {
+          "word": " top,",
+          "start": 10.52,
+          "end": 11.06,
+          "probability": 0.356
+        },
+        {
+          "word": " baseline",
+          "start": 11.4,
+          "end": 11.82,
+          "probability": 0.822
+        },
+        {
+          "word": " dirty,",
+          "start": 11.82,
+          "end": 12.28,
+          "probability": 0.91
+        },
+        {
+          "word": " mouth",
+          "start": 12.54,
+          "end": 12.8,
+          "probability": 0.532
+        },
+        {
+          "word": " go",
+          "start": 12.8,
+          "end": 13.06,
+          "probability": 0.248
+        },
+        {
+          "word": " raw",
+          "start": 13.06,
+          "end": 13.46,
+          "probability": 0.67
+        }
+      ]
+    },
+    {
+      "start": 13.46,
+      "end": 15.7,
+      "text": "You call the cheer when the poor get a lever",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " You",
+          "start": 13.46,
+          "end": 13.88,
+          "probability": 0.516
+        },
+        {
+          "word": " call",
+          "start": 13.88,
+          "end": 14.12,
+          "probability": 0.92
+        },
+        {
+          "word": " the",
+          "start": 14.12,
+          "end": 14.28,
+          "probability": 0.57
+        },
+        {
+          "word": " cheer",
+          "start": 14.28,
+          "end": 14.5,
+          "probability": 0.176
+        },
+        {
+          "word": " when",
+          "start": 14.5,
+          "end": 14.76,
+          "probability": 0.92
+        },
+        {
+          "word": " the",
+          "start": 14.76,
+          "end": 14.86,
+          "probability": 0.977
+        },
+        {
+          "word": " poor",
+          "start": 14.86,
+          "end": 15.08,
+          "probability": 0.774
+        },
+        {
+          "word": " get",
+          "start": 15.08,
+          "end": 15.36,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 15.36,
+          "end": 15.44,
+          "probability": 0.864
+        },
+        {
+          "word": " lever",
+          "start": 15.44,
+          "end": 15.7,
+          "probability": 0.722
+        }
+      ]
+    },
+    {
+      "start": 15.7,
+      "end": 18.04,
+      "text": "Call the poor brist when the wish do a braver",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " Call",
+          "start": 15.7,
+          "end": 16.2,
+          "probability": 0.525
+        },
+        {
+          "word": " the",
+          "start": 16.2,
+          "end": 16.3,
+          "probability": 0.633
+        },
+        {
+          "word": " poor",
+          "start": 16.3,
+          "end": 16.52,
+          "probability": 0.553
+        },
+        {
+          "word": " brist",
+          "start": 16.52,
+          "end": 16.86,
+          "probability": 0.364
+        },
+        {
+          "word": " when",
+          "start": 16.86,
+          "end": 17.04,
+          "probability": 0.605
+        },
+        {
+          "word": " the",
+          "start": 17.04,
+          "end": 17.14,
+          "probability": 0.584
+        },
+        {
+          "word": " wish",
+          "start": 17.14,
+          "end": 17.34,
+          "probability": 0.711
+        },
+        {
+          "word": " do",
+          "start": 17.34,
+          "end": 17.48,
+          "probability": 0.558
+        },
+        {
+          "word": " a",
+          "start": 17.48,
+          "end": 17.6,
+          "probability": 0.958
+        },
+        {
+          "word": " braver",
+          "start": 17.6,
+          "end": 18.04,
+          "probability": 0.563
+        }
+      ]
+    },
+    {
+      "start": 18.04,
+      "end": 20.32,
+      "text": "Use the machine, room your fraud",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " Use",
+          "start": 18.04,
+          "end": 18.52,
+          "probability": 0.936
+        },
+        {
+          "word": " the",
+          "start": 18.52,
+          "end": 18.74,
+          "probability": 0.994
+        },
+        {
+          "word": " machine,",
+          "start": 18.74,
+          "end": 19.1,
+          "probability": 0.997
+        },
+        {
+          "word": " room",
+          "start": 19.52,
+          "end": 19.66,
+          "probability": 0.953
+        },
+        {
+          "word": " your",
+          "start": 19.66,
+          "end": 19.92,
+          "probability": 0.436
+        },
+        {
+          "word": " fraud",
+          "start": 19.92,
+          "end": 20.32,
+          "probability": 0.409
+        }
+      ]
+    },
+    {
+      "start": 20.32,
+      "end": 22.66,
+      "text": "City automated by landlord's and guard",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " City",
+          "start": 20.32,
+          "end": 20.84,
+          "probability": 0.885
+        },
+        {
+          "word": " automated",
+          "start": 20.84,
+          "end": 21.36,
+          "probability": 0.975
+        },
+        {
+          "word": " by",
+          "start": 21.36,
+          "end": 21.64,
+          "probability": 0.56
+        },
+        {
+          "word": " landlord's",
+          "start": 21.64,
+          "end": 22.24,
+          "probability": 0.592
+        },
+        {
+          "word": " and",
+          "start": 22.24,
+          "end": 22.28,
+          "probability": 0.47
+        },
+        {
+          "word": " guard",
+          "start": 22.28,
+          "end": 22.66,
+          "probability": 0.768
+        }
+      ]
+    },
+    {
+      "start": 22.66,
+      "end": 24.94,
+      "text": "Scan at the lock, bad dad the job",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " Scan",
+          "start": 22.66,
+          "end": 23.02,
+          "probability": 0.454
+        },
+        {
+          "word": " at",
+          "start": 23.02,
+          "end": 23.22,
+          "probability": 0.323
+        },
+        {
+          "word": " the",
+          "start": 23.22,
+          "end": 23.42,
+          "probability": 0.994
+        },
+        {
+          "word": " lock,",
+          "start": 23.42,
+          "end": 23.7,
+          "probability": 0.829
+        },
+        {
+          "word": " bad",
+          "start": 23.96,
+          "end": 24.2,
+          "probability": 0.491
+        },
+        {
+          "word": " dad",
+          "start": 24.2,
+          "end": 24.34,
+          "probability": 0.168
+        },
+        {
+          "word": " the",
+          "start": 24.34,
+          "end": 24.56,
+          "probability": 0.706
+        },
+        {
+          "word": " job",
+          "start": 24.56,
+          "end": 24.94,
+          "probability": 0.85
+        }
+      ]
+    },
+    {
+      "start": 24.94,
+      "end": 27.08,
+      "text": "Rent at Smaller while it finishes the rob",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " Rent",
+          "start": 24.94,
+          "end": 25.36,
+          "probability": 0.428
+        },
+        {
+          "word": " at",
+          "start": 25.36,
+          "end": 25.62,
+          "probability": 0.292
+        },
+        {
+          "word": " Smaller",
+          "start": 25.62,
+          "end": 25.94,
+          "probability": 0.477
+        },
+        {
+          "word": " while",
+          "start": 25.94,
+          "end": 26.2,
+          "probability": 0.791
+        },
+        {
+          "word": " it",
+          "start": 26.2,
+          "end": 26.24,
+          "probability": 0.62
+        },
+        {
+          "word": " finishes",
+          "start": 26.24,
+          "end": 26.66,
+          "probability": 0.992
+        },
+        {
+          "word": " the",
+          "start": 26.66,
+          "end": 26.86,
+          "probability": 0.955
+        },
+        {
+          "word": " rob",
+          "start": 26.86,
+          "end": 27.08,
+          "probability": 0.253
+        }
+      ]
+    },
+    {
+      "start": 27.08,
+      "end": 27.94,
+      "text": "Yeah, everything's gone",
+      "avgLogprob": -0.614,
+      "compressionRatio": 1.515,
+      "noSpeechProbability": 0.835,
+      "words": [
+        {
+          "word": " Yeah,",
+          "start": 27.08,
+          "end": 27.44,
+          "probability": 0.421
+        },
+        {
+          "word": " everything's",
+          "start": 27.58,
+          "end": 27.8,
+          "probability": 0.786
+        },
+        {
+          "word": " gone",
+          "start": 27.8,
+          "end": 27.94,
+          "probability": 0.62
+        }
+      ]
+    },
+    {
+      "start": 40.31,
+      "end": 47.09,
+      "text": "it off. If the machine got bad by the crowd, then the crowd better get the speed. Now, turn to service, my",
+      "avgLogprob": -0.646,
+      "compressionRatio": 1.53,
+      "noSpeechProbability": 0.833,
+      "words": [
+        {
+          "word": " it",
+          "start": 40.31,
+          "end": 40.47,
+          "probability": 0.04
+        },
+        {
+          "word": " off.",
+          "start": 40.47,
+          "end": 40.81,
+          "probability": 0.625
+        },
+        {
+          "word": " If",
+          "start": 41.01,
+          "end": 41.35,
+          "probability": 0.679
+        },
+        {
+          "word": " the",
+          "start": 41.35,
+          "end": 41.47,
+          "probability": 0.985
+        },
+        {
+          "word": " machine",
+          "start": 41.47,
+          "end": 41.85,
+          "probability": 0.984
+        },
+        {
+          "word": " got",
+          "start": 41.85,
+          "end": 42.21,
+          "probability": 0.969
+        },
+        {
+          "word": " bad",
+          "start": 42.21,
+          "end": 42.53,
+          "probability": 0.928
+        },
+        {
+          "word": " by",
+          "start": 42.53,
+          "end": 42.75,
+          "probability": 0.493
+        },
+        {
+          "word": " the",
+          "start": 42.75,
+          "end": 42.87,
+          "probability": 0.991
+        },
+        {
+          "word": " crowd,",
+          "start": 42.87,
+          "end": 43.19,
+          "probability": 0.118
+        },
+        {
+          "word": " then",
+          "start": 43.45,
+          "end": 43.61,
+          "probability": 0.717
+        },
+        {
+          "word": " the",
+          "start": 43.61,
+          "end": 43.71,
+          "probability": 0.733
+        },
+        {
+          "word": " crowd",
+          "start": 43.71,
+          "end": 43.95,
+          "probability": 0.93
+        },
+        {
+          "word": " better",
+          "start": 43.95,
+          "end": 44.21,
+          "probability": 0.978
+        },
+        {
+          "word": " get",
+          "start": 44.21,
+          "end": 44.41,
+          "probability": 0.971
+        },
+        {
+          "word": " the",
+          "start": 44.41,
+          "end": 44.53,
+          "probability": 0.717
+        },
+        {
+          "word": " speed.",
+          "start": 44.53,
+          "end": 44.75,
+          "probability": 0.57
+        },
+        {
+          "word": " Now,",
+          "start": 45.23,
+          "end": 45.41,
+          "probability": 0.798
+        },
+        {
+          "word": " turn",
+          "start": 45.77,
+          "end": 46.01,
+          "probability": 0.452
+        },
+        {
+          "word": " to",
+          "start": 46.01,
+          "end": 46.29,
+          "probability": 0.97
+        },
+        {
+          "word": " service,",
+          "start": 46.29,
+          "end": 46.71,
+          "probability": 0.703
+        },
+        {
+          "word": " my",
+          "start": 46.93,
+          "end": 47.09,
+          "probability": 0.371
+        }
+      ]
+    },
+    {
+      "start": 47.09,
+      "end": 53.09,
+      "text": "let's off. baseline dirty, mouth gone raw, you call it G. I want to poor get a lever, call a poor",
+      "avgLogprob": -0.646,
+      "compressionRatio": 1.53,
+      "noSpeechProbability": 0.833,
+      "words": [
+        {
+          "word": " let's",
+          "start": 47.09,
+          "end": 47.45,
+          "probability": 0.324
+        },
+        {
+          "word": " off.",
+          "start": 47.45,
+          "end": 47.63,
+          "probability": 0.847
+        },
+        {
+          "word": " baseline",
+          "start": 48.07,
+          "end": 48.37,
+          "probability": 0.549
+        },
+        {
+          "word": " dirty,",
+          "start": 48.37,
+          "end": 48.83,
+          "probability": 0.895
+        },
+        {
+          "word": " mouth",
+          "start": 49.21,
+          "end": 49.37,
+          "probability": 0.74
+        },
+        {
+          "word": " gone",
+          "start": 49.37,
+          "end": 49.65,
+          "probability": 0.73
+        },
+        {
+          "word": " raw,",
+          "start": 49.65,
+          "end": 49.97,
+          "probability": 0.917
+        },
+        {
+          "word": " you",
+          "start": 50.37,
+          "end": 50.45,
+          "probability": 0.8
+        },
+        {
+          "word": " call",
+          "start": 50.45,
+          "end": 50.67,
+          "probability": 0.758
+        },
+        {
+          "word": " it",
+          "start": 50.67,
+          "end": 50.85,
+          "probability": 0.703
+        },
+        {
+          "word": " G.",
+          "start": 50.85,
+          "end": 51.05,
+          "probability": 0.227
+        },
+        {
+          "word": " I",
+          "start": 51.15,
+          "end": 51.17,
+          "probability": 0.539
+        },
+        {
+          "word": " want",
+          "start": 51.17,
+          "end": 51.29,
+          "probability": 0.38
+        },
+        {
+          "word": " to",
+          "start": 51.29,
+          "end": 51.41,
+          "probability": 0.465
+        },
+        {
+          "word": " poor",
+          "start": 51.41,
+          "end": 51.65,
+          "probability": 0.211
+        },
+        {
+          "word": " get",
+          "start": 51.65,
+          "end": 51.89,
+          "probability": 0.631
+        },
+        {
+          "word": " a",
+          "start": 51.89,
+          "end": 52.01,
+          "probability": 0.78
+        },
+        {
+          "word": " lever,",
+          "start": 52.01,
+          "end": 52.29,
+          "probability": 0.259
+        },
+        {
+          "word": " call",
+          "start": 52.63,
+          "end": 52.77,
+          "probability": 0.551
+        },
+        {
+          "word": " a",
+          "start": 52.77,
+          "end": 52.87,
+          "probability": 0.387
+        },
+        {
+          "word": " poor",
+          "start": 52.87,
+          "end": 53.09,
+          "probability": 0.247
+        }
+      ]
+    },
+    {
+      "start": 53.09,
+      "end": 58.21,
+      "text": "rest when the rich do a grab up. You do not lazy, you do watched. Every tap",
+      "avgLogprob": -0.646,
+      "compressionRatio": 1.53,
+      "noSpeechProbability": 0.833,
+      "words": [
+        {
+          "word": " rest",
+          "start": 53.09,
+          "end": 53.37,
+          "probability": 0.188
+        },
+        {
+          "word": " when",
+          "start": 53.37,
+          "end": 53.59,
+          "probability": 0.473
+        },
+        {
+          "word": " the",
+          "start": 53.59,
+          "end": 53.71,
+          "probability": 0.411
+        },
+        {
+          "word": " rich",
+          "start": 53.71,
+          "end": 53.91,
+          "probability": 0.365
+        },
+        {
+          "word": " do",
+          "start": 53.91,
+          "end": 54.05,
+          "probability": 0.964
+        },
+        {
+          "word": " a",
+          "start": 54.05,
+          "end": 54.15,
+          "probability": 0.953
+        },
+        {
+          "word": " grab",
+          "start": 54.15,
+          "end": 54.41,
+          "probability": 0.39
+        },
+        {
+          "word": " up.",
+          "start": 54.41,
+          "end": 54.69,
+          "probability": 0.194
+        },
+        {
+          "word": " You",
+          "start": 54.93,
+          "end": 55.01,
+          "probability": 0.71
+        },
+        {
+          "word": " do",
+          "start": 55.01,
+          "end": 55.11,
+          "probability": 0.454
+        },
+        {
+          "word": " not",
+          "start": 55.11,
+          "end": 55.35,
+          "probability": 0.991
+        },
+        {
+          "word": " lazy,",
+          "start": 55.35,
+          "end": 55.81,
+          "probability": 0.876
+        },
+        {
+          "word": " you",
+          "start": 56.11,
+          "end": 56.21,
+          "probability": 0.98
+        },
+        {
+          "word": " do",
+          "start": 56.21,
+          "end": 56.41,
+          "probability": 0.569
+        },
+        {
+          "word": " watched.",
+          "start": 56.41,
+          "end": 57.05,
+          "probability": 0.293
+        },
+        {
+          "word": " Every",
+          "start": 57.49,
+          "end": 57.97,
+          "probability": 0.851
+        },
+        {
+          "word": " tap",
+          "start": 57.97,
+          "end": 58.21,
+          "probability": 0.78
+        }
+      ]
+    },
+    {
+      "start": 70.54,
+      "end": 72.96,
+      "text": "Put a halo on the old plantation",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Put",
+          "start": 70.54,
+          "end": 71.3,
+          "probability": 0.004
+        },
+        {
+          "word": " a",
+          "start": 71.3,
+          "end": 71.44,
+          "probability": 0.773
+        },
+        {
+          "word": " halo",
+          "start": 71.44,
+          "end": 71.68,
+          "probability": 0.703
+        },
+        {
+          "word": " on",
+          "start": 71.68,
+          "end": 71.92,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 71.92,
+          "end": 72.04,
+          "probability": 0.534
+        },
+        {
+          "word": " old",
+          "start": 72.04,
+          "end": 72.22,
+          "probability": 0.966
+        },
+        {
+          "word": " plantation",
+          "start": 72.22,
+          "end": 72.96,
+          "probability": 0.964
+        }
+      ]
+    },
+    {
+      "start": 72.96,
+      "end": 75.32,
+      "text": "Call the whip personalization",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Call",
+          "start": 72.96,
+          "end": 73.58,
+          "probability": 0.208
+        },
+        {
+          "word": " the",
+          "start": 73.58,
+          "end": 73.72,
+          "probability": 0.764
+        },
+        {
+          "word": " whip",
+          "start": 73.72,
+          "end": 73.9,
+          "probability": 0.369
+        },
+        {
+          "word": " personalization",
+          "start": 73.9,
+          "end": 75.32,
+          "probability": 0.636
+        }
+      ]
+    },
+    {
+      "start": 75.32,
+      "end": 78.7,
+      "text": "Show me the day, taste it",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Show",
+          "start": 75.32,
+          "end": 75.76,
+          "probability": 0.94
+        },
+        {
+          "word": " me",
+          "start": 75.76,
+          "end": 76.32,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 76.32,
+          "end": 76.9,
+          "probability": 0.949
+        },
+        {
+          "word": " day,",
+          "start": 76.9,
+          "end": 77.58,
+          "probability": 0.629
+        },
+        {
+          "word": " taste",
+          "start": 77.84,
+          "end": 78.34,
+          "probability": 0.559
+        },
+        {
+          "word": " it",
+          "start": 78.34,
+          "end": 78.7,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 78.7,
+      "end": 79.82,
+      "text": "Show me the",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Show",
+          "start": 78.7,
+          "end": 79.14,
+          "probability": 0.871
+        },
+        {
+          "word": " me",
+          "start": 79.14,
+          "end": 79.54,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 79.54,
+          "end": 79.82,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 79.82,
+      "end": 83.44,
+      "text": "Show me the worker inside the room",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Show",
+          "start": 79.82,
+          "end": 80.18,
+          "probability": 0.398
+        },
+        {
+          "word": " me",
+          "start": 80.18,
+          "end": 80.52,
+          "probability": 0.995
+        },
+        {
+          "word": " the",
+          "start": 80.52,
+          "end": 80.86,
+          "probability": 0.989
+        },
+        {
+          "word": " worker",
+          "start": 80.86,
+          "end": 81.34,
+          "probability": 0.839
+        },
+        {
+          "word": " inside",
+          "start": 81.34,
+          "end": 82.22,
+          "probability": 0.947
+        },
+        {
+          "word": " the",
+          "start": 82.22,
+          "end": 82.62,
+          "probability": 0.888
+        },
+        {
+          "word": " room",
+          "start": 82.62,
+          "end": 83.44,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 84.04,
+      "end": 87.38,
+      "text": "Show me the cobalt",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Show",
+          "start": 84.04,
+          "end": 84.86,
+          "probability": 0.981
+        },
+        {
+          "word": " me",
+          "start": 84.86,
+          "end": 85.44,
+          "probability": 0.999
+        },
+        {
+          "word": " the",
+          "start": 85.44,
+          "end": 86.08,
+          "probability": 0.993
+        },
+        {
+          "word": " cobalt",
+          "start": 86.08,
+          "end": 87.38,
+          "probability": 0.545
+        }
+      ]
+    },
+    {
+      "start": 87.38,
+      "end": 88.52,
+      "text": "Show me the",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.581,
+      "noSpeechProbability": 0.727,
+      "words": [
+        {
+          "word": " Show",
+          "start": 87.38,
+          "end": 87.74,
+          "probability": 0.542
+        },
+        {
+          "word": " me",
+          "start": 87.74,
+          "end": 88.24,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 88.24,
+          "end": 88.52,
+          "probability": 0.92
+        }
+      ]
+    },
+    {
+      "start": 100.77,
+      "end": 102.55,
+      "text": "Turn the crowd, better get the speed, now",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 100.77,
+          "end": 100.77,
+          "probability": 0.121
+        },
+        {
+          "word": " the",
+          "start": 100.77,
+          "end": 100.83,
+          "probability": 0.301
+        },
+        {
+          "word": " crowd,",
+          "start": 100.83,
+          "end": 101.11,
+          "probability": 0.602
+        },
+        {
+          "word": " better",
+          "start": 101.27,
+          "end": 101.35,
+          "probability": 0.332
+        },
+        {
+          "word": " get",
+          "start": 101.35,
+          "end": 101.57,
+          "probability": 0.854
+        },
+        {
+          "word": " the",
+          "start": 101.57,
+          "end": 101.67,
+          "probability": 0.767
+        },
+        {
+          "word": " speed,",
+          "start": 101.67,
+          "end": 101.91,
+          "probability": 0.763
+        },
+        {
+          "word": " now",
+          "start": 102.39,
+          "end": 102.55,
+          "probability": 0.363
+        }
+      ]
+    },
+    {
+      "start": 102.55,
+      "end": 104.95,
+      "text": "Turn to service, smile to talk",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 102.55,
+          "end": 103.11,
+          "probability": 0.282
+        },
+        {
+          "word": " to",
+          "start": 103.11,
+          "end": 103.43,
+          "probability": 0.911
+        },
+        {
+          "word": " service,",
+          "start": 103.43,
+          "end": 103.83,
+          "probability": 0.431
+        },
+        {
+          "word": " smile",
+          "start": 104.09,
+          "end": 104.25,
+          "probability": 0.474
+        },
+        {
+          "word": " to",
+          "start": 104.25,
+          "end": 104.47,
+          "probability": 0.293
+        },
+        {
+          "word": " talk",
+          "start": 104.47,
+          "end": 104.95,
+          "probability": 0.298
+        }
+      ]
+    },
+    {
+      "start": 104.95,
+      "end": 107.17,
+      "text": "Baseline dirty, mouth down raw",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Baseline",
+          "start": 104.95,
+          "end": 105.63,
+          "probability": 0.55
+        },
+        {
+          "word": " dirty,",
+          "start": 105.63,
+          "end": 105.95,
+          "probability": 0.979
+        },
+        {
+          "word": " mouth",
+          "start": 106.35,
+          "end": 106.55,
+          "probability": 0.795
+        },
+        {
+          "word": " down",
+          "start": 106.55,
+          "end": 106.77,
+          "probability": 0.151
+        },
+        {
+          "word": " raw",
+          "start": 106.77,
+          "end": 107.17,
+          "probability": 0.877
+        }
+      ]
+    },
+    {
+      "start": 107.17,
+      "end": 109.43,
+      "text": "You call the cheek on when the poor get a lever",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " You",
+          "start": 107.17,
+          "end": 107.59,
+          "probability": 0.828
+        },
+        {
+          "word": " call",
+          "start": 107.59,
+          "end": 107.85,
+          "probability": 0.915
+        },
+        {
+          "word": " the",
+          "start": 107.85,
+          "end": 108.01,
+          "probability": 0.658
+        },
+        {
+          "word": " cheek",
+          "start": 108.01,
+          "end": 108.19,
+          "probability": 0.267
+        },
+        {
+          "word": " on",
+          "start": 108.19,
+          "end": 108.35,
+          "probability": 0.318
+        },
+        {
+          "word": " when",
+          "start": 108.35,
+          "end": 108.47,
+          "probability": 0.952
+        },
+        {
+          "word": " the",
+          "start": 108.47,
+          "end": 108.57,
+          "probability": 0.97
+        },
+        {
+          "word": " poor",
+          "start": 108.57,
+          "end": 108.79,
+          "probability": 0.39
+        },
+        {
+          "word": " get",
+          "start": 108.79,
+          "end": 109.07,
+          "probability": 0.96
+        },
+        {
+          "word": " a",
+          "start": 109.07,
+          "end": 109.19,
+          "probability": 0.904
+        },
+        {
+          "word": " lever",
+          "start": 109.19,
+          "end": 109.43,
+          "probability": 0.264
+        }
+      ]
+    },
+    {
+      "start": 109.43,
+      "end": 111.67,
+      "text": "Call the Pope bless, when the rich do a clever",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Call",
+          "start": 109.43,
+          "end": 109.89,
+          "probability": 0.367
+        },
+        {
+          "word": " the",
+          "start": 109.89,
+          "end": 110.01,
+          "probability": 0.833
+        },
+        {
+          "word": " Pope",
+          "start": 110.01,
+          "end": 110.23,
+          "probability": 0.58
+        },
+        {
+          "word": " bless,",
+          "start": 110.23,
+          "end": 110.51,
+          "probability": 0.148
+        },
+        {
+          "word": " when",
+          "start": 110.75,
+          "end": 110.75,
+          "probability": 0.795
+        },
+        {
+          "word": " the",
+          "start": 110.75,
+          "end": 110.87,
+          "probability": 0.903
+        },
+        {
+          "word": " rich",
+          "start": 110.87,
+          "end": 111.05,
+          "probability": 0.378
+        },
+        {
+          "word": " do",
+          "start": 111.05,
+          "end": 111.19,
+          "probability": 0.948
+        },
+        {
+          "word": " a",
+          "start": 111.19,
+          "end": 111.31,
+          "probability": 0.953
+        },
+        {
+          "word": " clever",
+          "start": 111.31,
+          "end": 111.67,
+          "probability": 0.158
+        }
+      ]
+    },
+    {
+      "start": 112.65,
+      "end": 113.69,
+      "text": "Turn it up",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 112.65,
+          "end": 113.09,
+          "probability": 0.86
+        },
+        {
+          "word": " it",
+          "start": 113.09,
+          "end": 113.29,
+          "probability": 0.958
+        },
+        {
+          "word": " up",
+          "start": 113.29,
+          "end": 113.69,
+          "probability": 0.547
+        }
+      ]
+    },
+    {
+      "start": 114.89,
+      "end": 115.95,
+      "text": "Turn it up",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.528,
+      "noSpeechProbability": 0.625,
+      "words": [
+        {
+          "word": " Turn",
+          "start": 114.89,
+          "end": 115.33,
+          "probability": 0.231
+        },
+        {
+          "word": " it",
+          "start": 115.33,
+          "end": 115.53,
+          "probability": 0.668
+        },
+        {
+          "word": " up",
+          "start": 115.53,
+          "end": 115.95,
+          "probability": 0.817
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.828,
+    "wordCount": 80,
+    "credibleWordCount": 65,
+    "segmentCount": 14,
+    "averageWordProbability": 0.682,
+    "vocalSeconds": 30.38,
+    "scanCoverage": 0.5,
+    "reviewRequired": false
+  }
+}

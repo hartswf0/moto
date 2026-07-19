@@ -1,0 +1,1048 @@
+{
+  "analysisVersion": 1,
+  "index": 98,
+  "id": "../VOLHOLLA/song-goleyakh-02.html",
+  "slug": "anthropophagic-radio",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "The jungle is the street, the noble rescues on the plate. I swall the radio, broke in the valve, glowed with a ghost in a plastic hat. She is laughing at the gate, the fruit is rotting sweet, red, banana trees grow. It's a cold point, the sun is a cold point Drop the kayak, drop the kayak Green bus box, the parade is a funeral Marching through the televisions High art low mud, church bells ring for the machine Blood on the... Even and the trees grow in the factory Eat the world spit the gold The sun is a cold point The sun is a cold point Drop heat, call ya Drop heat, call ya It's permitted, everything is dying Burned Club, you see only the ashes Banana trees grow in the factory Banana trees grow in the factory",
+  "sampledRanges": [
+    [
+      9.86,
+      27.86
+    ],
+    [
+      39.45,
+      57.45
+    ],
+    [
+      69.03,
+      87.03
+    ],
+    [
+      98.62,
+      116.62
+    ]
+  ],
+  "segments": [
+    {
+      "start": 9.92,
+      "end": 19.92,
+      "text": "The jungle is the street, the noble rescues on the plate. I swall the radio, broke in the valve, glowed with a ghost in a plastic hat.",
+      "avgLogprob": -0.553,
+      "compressionRatio": 1.473,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " The",
+          "start": 9.92,
+          "end": 10.56,
+          "probability": 0.107
+        },
+        {
+          "word": " jungle",
+          "start": 10.56,
+          "end": 10.88,
+          "probability": 0.768
+        },
+        {
+          "word": " is",
+          "start": 10.88,
+          "end": 11.42,
+          "probability": 0.564
+        },
+        {
+          "word": " the",
+          "start": 11.42,
+          "end": 11.6,
+          "probability": 0.634
+        },
+        {
+          "word": " street,",
+          "start": 11.6,
+          "end": 11.92,
+          "probability": 0.932
+        },
+        {
+          "word": " the",
+          "start": 12.22,
+          "end": 12.74,
+          "probability": 0.147
+        },
+        {
+          "word": " noble",
+          "start": 12.74,
+          "end": 13.1,
+          "probability": 0.104
+        },
+        {
+          "word": " rescues",
+          "start": 13.1,
+          "end": 13.64,
+          "probability": 0.876
+        },
+        {
+          "word": " on",
+          "start": 13.64,
+          "end": 13.92,
+          "probability": 0.945
+        },
+        {
+          "word": " the",
+          "start": 13.92,
+          "end": 14.1,
+          "probability": 0.962
+        },
+        {
+          "word": " plate.",
+          "start": 14.1,
+          "end": 14.36,
+          "probability": 0.906
+        },
+        {
+          "word": " I",
+          "start": 14.56,
+          "end": 14.58,
+          "probability": 0.979
+        },
+        {
+          "word": " swall",
+          "start": 14.58,
+          "end": 14.94,
+          "probability": 0.568
+        },
+        {
+          "word": " the",
+          "start": 14.94,
+          "end": 15.16,
+          "probability": 0.976
+        },
+        {
+          "word": " radio,",
+          "start": 15.16,
+          "end": 15.68,
+          "probability": 0.959
+        },
+        {
+          "word": " broke",
+          "start": 16.22,
+          "end": 16.92,
+          "probability": 0.259
+        },
+        {
+          "word": " in",
+          "start": 16.92,
+          "end": 17.22,
+          "probability": 0.705
+        },
+        {
+          "word": " the",
+          "start": 17.22,
+          "end": 17.5,
+          "probability": 0.471
+        },
+        {
+          "word": " valve,",
+          "start": 17.5,
+          "end": 17.78,
+          "probability": 0.456
+        },
+        {
+          "word": " glowed",
+          "start": 18.02,
+          "end": 18.36,
+          "probability": 0.388
+        },
+        {
+          "word": " with",
+          "start": 18.36,
+          "end": 18.5,
+          "probability": 0.414
+        },
+        {
+          "word": " a",
+          "start": 18.5,
+          "end": 18.6,
+          "probability": 0.354
+        },
+        {
+          "word": " ghost",
+          "start": 18.6,
+          "end": 18.88,
+          "probability": 0.974
+        },
+        {
+          "word": " in",
+          "start": 18.88,
+          "end": 19.02,
+          "probability": 0.731
+        },
+        {
+          "word": " a",
+          "start": 19.02,
+          "end": 19.12,
+          "probability": 0.897
+        },
+        {
+          "word": " plastic",
+          "start": 19.12,
+          "end": 19.48,
+          "probability": 0.961
+        },
+        {
+          "word": " hat.",
+          "start": 19.48,
+          "end": 19.92,
+          "probability": 0.543
+        }
+      ]
+    },
+    {
+      "start": 20.4,
+      "end": 27.52,
+      "text": "She is laughing at the gate, the fruit is rotting sweet, red, banana trees grow.",
+      "avgLogprob": -0.553,
+      "compressionRatio": 1.473,
+      "noSpeechProbability": 0.724,
+      "words": [
+        {
+          "word": " She",
+          "start": 20.4,
+          "end": 20.52,
+          "probability": 0.968
+        },
+        {
+          "word": " is",
+          "start": 20.52,
+          "end": 20.7,
+          "probability": 0.968
+        },
+        {
+          "word": " laughing",
+          "start": 20.7,
+          "end": 21.08,
+          "probability": 0.954
+        },
+        {
+          "word": " at",
+          "start": 21.08,
+          "end": 21.36,
+          "probability": 0.983
+        },
+        {
+          "word": " the",
+          "start": 21.36,
+          "end": 21.5,
+          "probability": 0.484
+        },
+        {
+          "word": " gate,",
+          "start": 21.5,
+          "end": 21.76,
+          "probability": 0.966
+        },
+        {
+          "word": " the",
+          "start": 22.52,
+          "end": 22.58,
+          "probability": 0.919
+        },
+        {
+          "word": " fruit",
+          "start": 22.58,
+          "end": 22.88,
+          "probability": 0.98
+        },
+        {
+          "word": " is",
+          "start": 22.88,
+          "end": 23.16,
+          "probability": 0.998
+        },
+        {
+          "word": " rotting",
+          "start": 23.16,
+          "end": 23.54,
+          "probability": 0.891
+        },
+        {
+          "word": " sweet,",
+          "start": 23.54,
+          "end": 23.96,
+          "probability": 0.963
+        },
+        {
+          "word": " red,",
+          "start": 24.68,
+          "end": 25.1,
+          "probability": 0.904
+        },
+        {
+          "word": " banana",
+          "start": 26.02,
+          "end": 26.5,
+          "probability": 0.88
+        },
+        {
+          "word": " trees",
+          "start": 26.5,
+          "end": 27.14,
+          "probability": 0.97
+        },
+        {
+          "word": " grow.",
+          "start": 27.14,
+          "end": 27.52,
+          "probability": 0.135
+        }
+      ]
+    },
+    {
+      "start": 39.45,
+      "end": 42.91,
+      "text": "It's a cold point, the sun is a cold point",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " It's",
+          "start": 39.45,
+          "end": 39.85,
+          "probability": 0.421
+        },
+        {
+          "word": " a",
+          "start": 39.85,
+          "end": 40.01,
+          "probability": 0.494
+        },
+        {
+          "word": " cold",
+          "start": 40.01,
+          "end": 40.37,
+          "probability": 0.567
+        },
+        {
+          "word": " point,",
+          "start": 40.37,
+          "end": 40.77,
+          "probability": 0.47
+        },
+        {
+          "word": " the",
+          "start": 40.95,
+          "end": 41.03,
+          "probability": 0.821
+        },
+        {
+          "word": " sun",
+          "start": 41.03,
+          "end": 41.39,
+          "probability": 0.962
+        },
+        {
+          "word": " is",
+          "start": 41.39,
+          "end": 41.89,
+          "probability": 0.862
+        },
+        {
+          "word": " a",
+          "start": 41.89,
+          "end": 42.07,
+          "probability": 0.731
+        },
+        {
+          "word": " cold",
+          "start": 42.07,
+          "end": 42.39,
+          "probability": 0.992
+        },
+        {
+          "word": " point",
+          "start": 42.39,
+          "end": 42.91,
+          "probability": 0.951
+        }
+      ]
+    },
+    {
+      "start": 42.91,
+      "end": 46.73,
+      "text": "Drop the kayak, drop the kayak",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Drop",
+          "start": 42.91,
+          "end": 43.41,
+          "probability": 0.482
+        },
+        {
+          "word": " the",
+          "start": 43.41,
+          "end": 43.85,
+          "probability": 0.242
+        },
+        {
+          "word": " kayak,",
+          "start": 43.85,
+          "end": 44.69,
+          "probability": 0.159
+        },
+        {
+          "word": " drop",
+          "start": 44.69,
+          "end": 45.45,
+          "probability": 0.892
+        },
+        {
+          "word": " the",
+          "start": 45.45,
+          "end": 45.89,
+          "probability": 0.991
+        },
+        {
+          "word": " kayak",
+          "start": 45.89,
+          "end": 46.73,
+          "probability": 0.977
+        }
+      ]
+    },
+    {
+      "start": 46.73,
+      "end": 50.09,
+      "text": "Green bus box, the parade is a funeral",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Green",
+          "start": 46.73,
+          "end": 47.51,
+          "probability": 0.864
+        },
+        {
+          "word": " bus",
+          "start": 47.51,
+          "end": 48.15,
+          "probability": 0.091
+        },
+        {
+          "word": " box,",
+          "start": 48.15,
+          "end": 48.69,
+          "probability": 0.223
+        },
+        {
+          "word": " the",
+          "start": 48.97,
+          "end": 48.99,
+          "probability": 0.973
+        },
+        {
+          "word": " parade",
+          "start": 48.99,
+          "end": 49.33,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 49.33,
+          "end": 49.53,
+          "probability": 0.988
+        },
+        {
+          "word": " a",
+          "start": 49.53,
+          "end": 49.63,
+          "probability": 0.954
+        },
+        {
+          "word": " funeral",
+          "start": 49.63,
+          "end": 50.09,
+          "probability": 0.883
+        }
+      ]
+    },
+    {
+      "start": 50.81,
+      "end": 52.93,
+      "text": "Marching through the televisions",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Marching",
+          "start": 50.81,
+          "end": 51.61,
+          "probability": 0.904
+        },
+        {
+          "word": " through",
+          "start": 51.61,
+          "end": 51.87,
+          "probability": 0.947
+        },
+        {
+          "word": " the",
+          "start": 51.87,
+          "end": 52.05,
+          "probability": 0.98
+        },
+        {
+          "word": " televisions",
+          "start": 52.05,
+          "end": 52.93,
+          "probability": 0.949
+        }
+      ]
+    },
+    {
+      "start": 52.93,
+      "end": 56.79,
+      "text": "High art low mud, church bells ring for the machine",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " High",
+          "start": 52.93,
+          "end": 53.41,
+          "probability": 0.515
+        },
+        {
+          "word": " art",
+          "start": 53.41,
+          "end": 53.69,
+          "probability": 0.387
+        },
+        {
+          "word": " low",
+          "start": 53.69,
+          "end": 54.01,
+          "probability": 0.399
+        },
+        {
+          "word": " mud,",
+          "start": 54.01,
+          "end": 54.57,
+          "probability": 0.926
+        },
+        {
+          "word": " church",
+          "start": 54.71,
+          "end": 55.37,
+          "probability": 0.823
+        },
+        {
+          "word": " bells",
+          "start": 55.37,
+          "end": 55.65,
+          "probability": 0.954
+        },
+        {
+          "word": " ring",
+          "start": 55.65,
+          "end": 56.05,
+          "probability": 0.936
+        },
+        {
+          "word": " for",
+          "start": 56.05,
+          "end": 56.23,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 56.23,
+          "end": 56.35,
+          "probability": 0.994
+        },
+        {
+          "word": " machine",
+          "start": 56.35,
+          "end": 56.79,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 56.79,
+      "end": 57.43,
+      "text": "Blood on the...",
+      "avgLogprob": -0.638,
+      "compressionRatio": 1.479,
+      "noSpeechProbability": 0.741,
+      "words": [
+        {
+          "word": " Blood",
+          "start": 56.79,
+          "end": 57.23,
+          "probability": 0.471
+        },
+        {
+          "word": " on",
+          "start": 57.23,
+          "end": 57.37,
+          "probability": 0.978
+        },
+        {
+          "word": " the...",
+          "start": 57.37,
+          "end": 57.43,
+          "probability": 0.137
+        }
+      ]
+    },
+    {
+      "start": 69.03,
+      "end": 73.11,
+      "text": "Even and the trees grow in the factory",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " Even",
+          "start": 69.03,
+          "end": 69.69,
+          "probability": 0.064
+        },
+        {
+          "word": " and",
+          "start": 69.69,
+          "end": 69.99,
+          "probability": 0.21
+        },
+        {
+          "word": " the",
+          "start": 69.99,
+          "end": 70.15,
+          "probability": 0.383
+        },
+        {
+          "word": " trees",
+          "start": 70.15,
+          "end": 70.47,
+          "probability": 0.612
+        },
+        {
+          "word": " grow",
+          "start": 70.47,
+          "end": 70.89,
+          "probability": 0.852
+        },
+        {
+          "word": " in",
+          "start": 70.89,
+          "end": 71.47,
+          "probability": 0.977
+        },
+        {
+          "word": " the",
+          "start": 71.47,
+          "end": 71.87,
+          "probability": 0.906
+        },
+        {
+          "word": " factory",
+          "start": 71.87,
+          "end": 73.11,
+          "probability": 0.879
+        }
+      ]
+    },
+    {
+      "start": 74.03,
+      "end": 77.69,
+      "text": "Eat the world spit the gold",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " Eat",
+          "start": 74.03,
+          "end": 74.49,
+          "probability": 0.147
+        },
+        {
+          "word": " the",
+          "start": 74.49,
+          "end": 75.01,
+          "probability": 0.958
+        },
+        {
+          "word": " world",
+          "start": 75.01,
+          "end": 75.69,
+          "probability": 0.876
+        },
+        {
+          "word": " spit",
+          "start": 75.69,
+          "end": 76.39,
+          "probability": 0.551
+        },
+        {
+          "word": " the",
+          "start": 76.39,
+          "end": 76.85,
+          "probability": 0.994
+        },
+        {
+          "word": " gold",
+          "start": 76.85,
+          "end": 77.69,
+          "probability": 0.869
+        }
+      ]
+    },
+    {
+      "start": 77.69,
+      "end": 79.89,
+      "text": "The sun is a cold point",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " The",
+          "start": 77.69,
+          "end": 78.19,
+          "probability": 0.627
+        },
+        {
+          "word": " sun",
+          "start": 78.19,
+          "end": 78.53,
+          "probability": 0.808
+        },
+        {
+          "word": " is",
+          "start": 78.53,
+          "end": 78.93,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 78.93,
+          "end": 79.13,
+          "probability": 0.567
+        },
+        {
+          "word": " cold",
+          "start": 79.13,
+          "end": 79.49,
+          "probability": 0.404
+        },
+        {
+          "word": " point",
+          "start": 79.49,
+          "end": 79.89,
+          "probability": 0.719
+        }
+      ]
+    },
+    {
+      "start": 79.89,
+      "end": 81.95,
+      "text": "The sun is a cold point",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " The",
+          "start": 79.89,
+          "end": 80.13,
+          "probability": 0.725
+        },
+        {
+          "word": " sun",
+          "start": 80.13,
+          "end": 80.53,
+          "probability": 0.994
+        },
+        {
+          "word": " is",
+          "start": 80.53,
+          "end": 80.95,
+          "probability": 0.999
+        },
+        {
+          "word": " a",
+          "start": 80.95,
+          "end": 81.13,
+          "probability": 0.99
+        },
+        {
+          "word": " cold",
+          "start": 81.13,
+          "end": 81.47,
+          "probability": 0.986
+        },
+        {
+          "word": " point",
+          "start": 81.47,
+          "end": 81.95,
+          "probability": 0.992
+        }
+      ]
+    },
+    {
+      "start": 81.95,
+      "end": 83.89,
+      "text": "Drop heat, call ya",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " Drop",
+          "start": 81.95,
+          "end": 82.43,
+          "probability": 0.911
+        },
+        {
+          "word": " heat,",
+          "start": 82.43,
+          "end": 82.97,
+          "probability": 0.337
+        },
+        {
+          "word": " call",
+          "start": 83.29,
+          "end": 83.53,
+          "probability": 0.757
+        },
+        {
+          "word": " ya",
+          "start": 83.53,
+          "end": 83.89,
+          "probability": 0.609
+        }
+      ]
+    },
+    {
+      "start": 83.89,
+      "end": 86.01,
+      "text": "Drop heat, call ya",
+      "avgLogprob": -0.387,
+      "compressionRatio": 1.617,
+      "noSpeechProbability": 0.36,
+      "words": [
+        {
+          "word": " Drop",
+          "start": 83.89,
+          "end": 84.45,
+          "probability": 0.938
+        },
+        {
+          "word": " heat,",
+          "start": 84.45,
+          "end": 84.97,
+          "probability": 0.99
+        },
+        {
+          "word": " call",
+          "start": 85.31,
+          "end": 85.53,
+          "probability": 0.989
+        },
+        {
+          "word": " ya",
+          "start": 85.53,
+          "end": 86.01,
+          "probability": 0.985
+        }
+      ]
+    },
+    {
+      "start": 98.62,
+      "end": 106.4,
+      "text": "It's permitted, everything is dying Burned Club, you see only the ashes",
+      "avgLogprob": -0.631,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.682,
+      "words": [
+        {
+          "word": " It's",
+          "start": 98.62,
+          "end": 99.18,
+          "probability": 0.387
+        },
+        {
+          "word": " permitted,",
+          "start": 99.18,
+          "end": 99.18,
+          "probability": 0.667
+        },
+        {
+          "word": " everything",
+          "start": 99.74,
+          "end": 100.34,
+          "probability": 0.972
+        },
+        {
+          "word": " is",
+          "start": 100.34,
+          "end": 100.64,
+          "probability": 0.991
+        },
+        {
+          "word": " dying",
+          "start": 100.64,
+          "end": 101.12,
+          "probability": 0.908
+        },
+        {
+          "word": " Burned",
+          "start": 101.12,
+          "end": 102.36,
+          "probability": 0.742
+        },
+        {
+          "word": " Club,",
+          "start": 102.36,
+          "end": 102.52,
+          "probability": 0.08
+        },
+        {
+          "word": " you",
+          "start": 102.66,
+          "end": 102.74,
+          "probability": 0.732
+        },
+        {
+          "word": " see",
+          "start": 102.74,
+          "end": 102.96,
+          "probability": 0.763
+        },
+        {
+          "word": " only",
+          "start": 102.96,
+          "end": 103.36,
+          "probability": 0.259
+        },
+        {
+          "word": " the",
+          "start": 103.36,
+          "end": 103.76,
+          "probability": 0.852
+        },
+        {
+          "word": " ashes",
+          "start": 103.76,
+          "end": 106.4,
+          "probability": 0.984
+        }
+      ]
+    },
+    {
+      "start": 107.1,
+      "end": 114.68,
+      "text": "Banana trees grow in the factory Banana trees grow in the factory",
+      "avgLogprob": -0.631,
+      "compressionRatio": 1.398,
+      "noSpeechProbability": 0.682,
+      "words": [
+        {
+          "word": " Banana",
+          "start": 106.88,
+          "end": 107.44,
+          "probability": 0.152
+        },
+        {
+          "word": " trees",
+          "start": 107.44,
+          "end": 108.08,
+          "probability": 0.994
+        },
+        {
+          "word": " grow",
+          "start": 108.08,
+          "end": 108.56,
+          "probability": 0.842
+        },
+        {
+          "word": " in",
+          "start": 108.56,
+          "end": 109.16,
+          "probability": 0.98
+        },
+        {
+          "word": " the",
+          "start": 109.16,
+          "end": 109.58,
+          "probability": 0.984
+        },
+        {
+          "word": " factory",
+          "start": 109.58,
+          "end": 110.18,
+          "probability": 0.947
+        },
+        {
+          "word": " Banana",
+          "start": 110.18,
+          "end": 111.4,
+          "probability": 0.772
+        },
+        {
+          "word": " trees",
+          "start": 111.4,
+          "end": 112.04,
+          "probability": 0.993
+        },
+        {
+          "word": " grow",
+          "start": 112.04,
+          "end": 112.5,
+          "probability": 0.987
+        },
+        {
+          "word": " in",
+          "start": 112.5,
+          "end": 113.08,
+          "probability": 0.996
+        },
+        {
+          "word": " the",
+          "start": 113.08,
+          "end": 113.52,
+          "probability": 0.999
+        },
+        {
+          "word": " factory",
+          "start": 113.52,
+          "end": 114.68,
+          "probability": 0.873
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.878,
+    "wordCount": 141,
+    "credibleWordCount": 124,
+    "segmentCount": 16,
+    "averageWordProbability": 0.746,
+    "vocalSeconds": 65.8,
+    "scanCoverage": 0.51,
+    "reviewRequired": false
+  }
+}

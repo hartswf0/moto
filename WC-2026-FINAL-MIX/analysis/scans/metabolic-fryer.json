@@ -1,0 +1,988 @@
+{
+  "analysisVersion": 1,
+  "index": 115,
+  "id": "../VOLHOLLA/song-mallmezzanine-03.html",
+  "slug": "metabolic-fryer",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I'm going to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video",
+  "sampledRanges": [
+    [
+      21.36,
+      39.36
+    ],
+    [
+      85.43,
+      103.43
+    ],
+    [
+      149.5,
+      167.5
+    ],
+    [
+      213.57,
+      231.57
+    ]
+  ],
+  "segments": [
+    {
+      "start": 230.15,
+      "end": 231.55,
+      "text": "I'm going to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video about how to make a video",
+      "avgLogprob": -0.226,
+      "compressionRatio": 13.776,
+      "noSpeechProbability": 0.789,
+      "words": [
+        {
+          "word": " I'm",
+          "start": 230.15,
+          "end": 231.55,
+          "probability": 0.114
+        },
+        {
+          "word": " going",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.069
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.897
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.036
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.289
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.094
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.143
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.085
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.611
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.316
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.282
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.158
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.232
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.222
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.881
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.781
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.795
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.944
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.613
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.956
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.97
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.94
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.944
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.865
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.987
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.983
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.956
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.968
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.938
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.987
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.964
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.97
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.958
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.968
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.974
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.966
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.972
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.975
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.971
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.975
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.972
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.972
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.99
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.977
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.976
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.975
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.978
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.973
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.975
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.979
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.975
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.976
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.98
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.977
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.978
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.976
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.979
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.99
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.984
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.979
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.979
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.99
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.98
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.98
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.986
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.979
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.98
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.983
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.987
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.983
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.982
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.981
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.989
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.985
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.983
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.985
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.982
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.994
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.99
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.987
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.984
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.992
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.994
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.986
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " about",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.984
+        },
+        {
+          "word": " how",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        },
+        {
+          "word": " to",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.995
+        },
+        {
+          "word": " make",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.991
+        },
+        {
+          "word": " a",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.988
+        },
+        {
+          "word": " video",
+          "start": 231.55,
+          "end": 231.55,
+          "probability": 0.993
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.521,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.253,
+    "reviewRequired": true
+  }
+}

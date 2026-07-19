@@ -1,0 +1,41 @@
+{
+  "analysisVersion": 1,
+  "index": 16,
+  "id": "../VOLHOLLA/song-cypher-17.html",
+  "slug": "resistencia-ancestral-92-bpm",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      10.74,
+      28.74
+    ],
+    [
+      42.97,
+      60.97
+    ],
+    [
+      75.2,
+      93.2
+    ],
+    [
+      107.42,
+      125.42
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.573,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.473,
+    "reviewRequired": true
+  }
+}

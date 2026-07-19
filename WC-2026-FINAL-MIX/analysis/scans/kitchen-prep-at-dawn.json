@@ -1,0 +1,29 @@
+{
+  "analysisVersion": 1,
+  "index": 79,
+  "id": "../VOLHOLLA/song-congregation-09.html",
+  "slug": "kitchen-prep-at-dawn",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "",
+  "sampledRanges": [
+    [
+      3.26,
+      50.63
+    ]
+  ],
+  "segments": [],
+  "evidence": {
+    "status": "likely-instrumental",
+    "confidence": 0.653,
+    "wordCount": 0,
+    "credibleWordCount": 0,
+    "segmentCount": 0,
+    "averageWordProbability": 0.0,
+    "vocalSeconds": 0.0,
+    "scanCoverage": 0.806,
+    "reviewRequired": true
+  }
+}

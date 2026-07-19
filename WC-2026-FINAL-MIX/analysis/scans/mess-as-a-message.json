@@ -1,0 +1,892 @@
+{
+  "analysisVersion": 1,
+  "index": 103,
+  "id": "../VOLHOLLA/song-silence-06.html",
+  "slug": "mess-as-a-message",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "My mother's handshake in silence tearing through the lace to preach a lost here is place The birds don't sing out here anymore The birds don't sing out here anymore Just a win through the gate just a wait Oh, here's the floor, the dust, Silling on the dash, I heard soft film playing in the edge, life is just a big obscenity, nature is a scream, harsh pittilist and cream, I'm drowning in the stream, washed up face, Lord the birth, don't see nothing anymore No song, no song, no song, only the cold The birds don't sing out here anymore Just to communicate, just to wait Nothing but the weight Lord, the birds don't sing out here anymore",
+  "sampledRanges": [
+    [
+      13.08,
+      31.08
+    ],
+    [
+      52.33,
+      70.33
+    ],
+    [
+      91.58,
+      109.58
+    ],
+    [
+      130.82,
+      148.82
+    ]
+  ],
+  "segments": [
+    {
+      "start": 13.08,
+      "end": 19.14,
+      "text": "My mother's handshake in silence tearing through the lace to preach a lost here is place",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.672,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " My",
+          "start": 13.08,
+          "end": 13.54,
+          "probability": 0.648
+        },
+        {
+          "word": " mother's",
+          "start": 13.54,
+          "end": 14.04,
+          "probability": 0.957
+        },
+        {
+          "word": " handshake",
+          "start": 14.04,
+          "end": 14.48,
+          "probability": 0.686
+        },
+        {
+          "word": " in",
+          "start": 14.48,
+          "end": 14.74,
+          "probability": 0.397
+        },
+        {
+          "word": " silence",
+          "start": 14.74,
+          "end": 15.14,
+          "probability": 0.998
+        },
+        {
+          "word": " tearing",
+          "start": 15.14,
+          "end": 16.0,
+          "probability": 0.222
+        },
+        {
+          "word": " through",
+          "start": 16.0,
+          "end": 16.26,
+          "probability": 0.968
+        },
+        {
+          "word": " the",
+          "start": 16.26,
+          "end": 16.42,
+          "probability": 0.976
+        },
+        {
+          "word": " lace",
+          "start": 16.42,
+          "end": 16.58,
+          "probability": 0.418
+        },
+        {
+          "word": " to",
+          "start": 16.58,
+          "end": 16.76,
+          "probability": 0.389
+        },
+        {
+          "word": " preach",
+          "start": 16.76,
+          "end": 17.0,
+          "probability": 0.491
+        },
+        {
+          "word": " a",
+          "start": 17.0,
+          "end": 17.22,
+          "probability": 0.483
+        },
+        {
+          "word": " lost",
+          "start": 17.22,
+          "end": 17.46,
+          "probability": 0.709
+        },
+        {
+          "word": " here",
+          "start": 17.46,
+          "end": 17.86,
+          "probability": 0.132
+        },
+        {
+          "word": " is",
+          "start": 17.86,
+          "end": 18.38,
+          "probability": 0.225
+        },
+        {
+          "word": " place",
+          "start": 18.38,
+          "end": 19.14,
+          "probability": 0.949
+        }
+      ]
+    },
+    {
+      "start": 19.14,
+      "end": 22.26,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.672,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " The",
+          "start": 19.14,
+          "end": 19.88,
+          "probability": 0.577
+        },
+        {
+          "word": " birds",
+          "start": 19.88,
+          "end": 20.24,
+          "probability": 0.606
+        },
+        {
+          "word": " don't",
+          "start": 20.24,
+          "end": 20.6,
+          "probability": 0.995
+        },
+        {
+          "word": " sing",
+          "start": 20.6,
+          "end": 20.88,
+          "probability": 0.857
+        },
+        {
+          "word": " out",
+          "start": 20.88,
+          "end": 21.3,
+          "probability": 0.997
+        },
+        {
+          "word": " here",
+          "start": 21.3,
+          "end": 21.64,
+          "probability": 0.984
+        },
+        {
+          "word": " anymore",
+          "start": 21.64,
+          "end": 22.26,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 23.4,
+      "end": 26.52,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.672,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " The",
+          "start": 23.4,
+          "end": 24.12,
+          "probability": 0.74
+        },
+        {
+          "word": " birds",
+          "start": 24.12,
+          "end": 24.48,
+          "probability": 0.957
+        },
+        {
+          "word": " don't",
+          "start": 24.48,
+          "end": 24.84,
+          "probability": 0.998
+        },
+        {
+          "word": " sing",
+          "start": 24.84,
+          "end": 25.12,
+          "probability": 0.993
+        },
+        {
+          "word": " out",
+          "start": 25.12,
+          "end": 25.54,
+          "probability": 0.996
+        },
+        {
+          "word": " here",
+          "start": 25.54,
+          "end": 25.88,
+          "probability": 0.994
+        },
+        {
+          "word": " anymore",
+          "start": 25.88,
+          "end": 26.52,
+          "probability": 0.981
+        }
+      ]
+    },
+    {
+      "start": 27.46,
+      "end": 30.78,
+      "text": "Just a win through the gate just a wait",
+      "avgLogprob": -0.475,
+      "compressionRatio": 1.672,
+      "noSpeechProbability": 0.334,
+      "words": [
+        {
+          "word": " Just",
+          "start": 27.46,
+          "end": 28.18,
+          "probability": 0.802
+        },
+        {
+          "word": " a",
+          "start": 28.18,
+          "end": 28.36,
+          "probability": 0.463
+        },
+        {
+          "word": " win",
+          "start": 28.36,
+          "end": 28.62,
+          "probability": 0.324
+        },
+        {
+          "word": " through",
+          "start": 28.62,
+          "end": 28.94,
+          "probability": 0.888
+        },
+        {
+          "word": " the",
+          "start": 28.94,
+          "end": 29.14,
+          "probability": 0.989
+        },
+        {
+          "word": " gate",
+          "start": 29.14,
+          "end": 29.38,
+          "probability": 0.728
+        },
+        {
+          "word": " just",
+          "start": 29.38,
+          "end": 30.3,
+          "probability": 0.43
+        },
+        {
+          "word": " a",
+          "start": 30.3,
+          "end": 30.5,
+          "probability": 0.945
+        },
+        {
+          "word": " wait",
+          "start": 30.5,
+          "end": 30.78,
+          "probability": 0.487
+        }
+      ]
+    },
+    {
+      "start": 54.73,
+      "end": 63.35,
+      "text": "Oh, here's the floor, the dust, Silling on the dash, I heard soft film playing in the",
+      "avgLogprob": -0.674,
+      "compressionRatio": 1.452,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " Oh,",
+          "start": 54.73,
+          "end": 55.21,
+          "probability": 0.013
+        },
+        {
+          "word": " here's",
+          "start": 55.21,
+          "end": 55.69,
+          "probability": 0.425
+        },
+        {
+          "word": " the",
+          "start": 55.69,
+          "end": 55.83,
+          "probability": 0.687
+        },
+        {
+          "word": " floor,",
+          "start": 55.83,
+          "end": 56.49,
+          "probability": 0.08
+        },
+        {
+          "word": " the",
+          "start": 56.73,
+          "end": 57.83,
+          "probability": 0.245
+        },
+        {
+          "word": " dust,",
+          "start": 57.83,
+          "end": 59.89,
+          "probability": 0.836
+        },
+        {
+          "word": " Silling",
+          "start": 60.09,
+          "end": 60.49,
+          "probability": 0.385
+        },
+        {
+          "word": " on",
+          "start": 60.49,
+          "end": 60.75,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 60.75,
+          "end": 60.93,
+          "probability": 0.801
+        },
+        {
+          "word": " dash,",
+          "start": 60.93,
+          "end": 61.23,
+          "probability": 0.752
+        },
+        {
+          "word": " I",
+          "start": 61.25,
+          "end": 61.63,
+          "probability": 0.784
+        },
+        {
+          "word": " heard",
+          "start": 61.63,
+          "end": 61.83,
+          "probability": 0.939
+        },
+        {
+          "word": " soft",
+          "start": 61.83,
+          "end": 62.23,
+          "probability": 0.135
+        },
+        {
+          "word": " film",
+          "start": 62.23,
+          "end": 62.53,
+          "probability": 0.871
+        },
+        {
+          "word": " playing",
+          "start": 62.53,
+          "end": 62.91,
+          "probability": 0.822
+        },
+        {
+          "word": " in",
+          "start": 62.91,
+          "end": 63.19,
+          "probability": 0.958
+        },
+        {
+          "word": " the",
+          "start": 63.19,
+          "end": 63.35,
+          "probability": 0.98
+        }
+      ]
+    },
+    {
+      "start": 63.35,
+      "end": 68.31,
+      "text": "edge, life is just a big obscenity, nature is a scream, harsh pittilist and cream, I'm",
+      "avgLogprob": -0.674,
+      "compressionRatio": 1.452,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " edge,",
+          "start": 63.35,
+          "end": 63.65,
+          "probability": 0.56
+        },
+        {
+          "word": " life",
+          "start": 63.81,
+          "end": 63.93,
+          "probability": 0.255
+        },
+        {
+          "word": " is",
+          "start": 63.93,
+          "end": 64.09,
+          "probability": 0.964
+        },
+        {
+          "word": " just",
+          "start": 64.09,
+          "end": 64.21,
+          "probability": 0.995
+        },
+        {
+          "word": " a",
+          "start": 64.21,
+          "end": 64.39,
+          "probability": 0.919
+        },
+        {
+          "word": " big",
+          "start": 64.39,
+          "end": 64.57,
+          "probability": 0.797
+        },
+        {
+          "word": " obscenity,",
+          "start": 64.57,
+          "end": 65.31,
+          "probability": 0.93
+        },
+        {
+          "word": " nature",
+          "start": 65.51,
+          "end": 65.77,
+          "probability": 0.489
+        },
+        {
+          "word": " is",
+          "start": 65.77,
+          "end": 66.01,
+          "probability": 0.977
+        },
+        {
+          "word": " a",
+          "start": 66.01,
+          "end": 66.13,
+          "probability": 0.977
+        },
+        {
+          "word": " scream,",
+          "start": 66.13,
+          "end": 66.43,
+          "probability": 0.908
+        },
+        {
+          "word": " harsh",
+          "start": 66.65,
+          "end": 66.85,
+          "probability": 0.742
+        },
+        {
+          "word": " pittilist",
+          "start": 66.85,
+          "end": 67.37,
+          "probability": 0.293
+        },
+        {
+          "word": " and",
+          "start": 67.37,
+          "end": 67.53,
+          "probability": 0.814
+        },
+        {
+          "word": " cream,",
+          "start": 67.53,
+          "end": 67.81,
+          "probability": 0.464
+        },
+        {
+          "word": " I'm",
+          "start": 68.19,
+          "end": 68.31,
+          "probability": 0.972
+        }
+      ]
+    },
+    {
+      "start": 68.31,
+      "end": 70.27,
+      "text": "drowning in the stream, washed up face,",
+      "avgLogprob": -0.674,
+      "compressionRatio": 1.452,
+      "noSpeechProbability": 0.744,
+      "words": [
+        {
+          "word": " drowning",
+          "start": 68.31,
+          "end": 68.55,
+          "probability": 0.955
+        },
+        {
+          "word": " in",
+          "start": 68.55,
+          "end": 68.83,
+          "probability": 0.989
+        },
+        {
+          "word": " the",
+          "start": 68.83,
+          "end": 68.91,
+          "probability": 0.77
+        },
+        {
+          "word": " stream,",
+          "start": 68.91,
+          "end": 69.21,
+          "probability": 0.931
+        },
+        {
+          "word": " washed",
+          "start": 69.51,
+          "end": 69.73,
+          "probability": 0.813
+        },
+        {
+          "word": " up",
+          "start": 69.73,
+          "end": 69.95,
+          "probability": 0.957
+        },
+        {
+          "word": " face,",
+          "start": 69.95,
+          "end": 70.27,
+          "probability": 0.78
+        }
+      ]
+    },
+    {
+      "start": 91.58,
+      "end": 95.5,
+      "text": "Lord the birth, don't see nothing anymore",
+      "avgLogprob": -0.487,
+      "compressionRatio": 1.139,
+      "noSpeechProbability": 0.199,
+      "words": [
+        {
+          "word": " Lord",
+          "start": 91.58,
+          "end": 92.32,
+          "probability": 0.905
+        },
+        {
+          "word": " the",
+          "start": 92.32,
+          "end": 92.86,
+          "probability": 0.703
+        },
+        {
+          "word": " birth,",
+          "start": 92.86,
+          "end": 93.42,
+          "probability": 0.598
+        },
+        {
+          "word": " don't",
+          "start": 93.88,
+          "end": 94.08,
+          "probability": 0.894
+        },
+        {
+          "word": " see",
+          "start": 94.08,
+          "end": 94.3,
+          "probability": 0.33
+        },
+        {
+          "word": " nothing",
+          "start": 94.3,
+          "end": 94.58,
+          "probability": 0.285
+        },
+        {
+          "word": " anymore",
+          "start": 94.58,
+          "end": 95.5,
+          "probability": 0.931
+        }
+      ]
+    },
+    {
+      "start": 97.1,
+      "end": 103.6,
+      "text": "No song, no song, no song, only the cold",
+      "avgLogprob": -0.487,
+      "compressionRatio": 1.139,
+      "noSpeechProbability": 0.199,
+      "words": [
+        {
+          "word": " No",
+          "start": 97.1,
+          "end": 98.14,
+          "probability": 0.564
+        },
+        {
+          "word": " song,",
+          "start": 98.14,
+          "end": 98.62,
+          "probability": 0.756
+        },
+        {
+          "word": " no",
+          "start": 99.08,
+          "end": 99.22,
+          "probability": 0.924
+        },
+        {
+          "word": " song,",
+          "start": 99.22,
+          "end": 99.74,
+          "probability": 0.963
+        },
+        {
+          "word": " no",
+          "start": 99.74,
+          "end": 100.26,
+          "probability": 0.97
+        },
+        {
+          "word": " song,",
+          "start": 100.26,
+          "end": 101.16,
+          "probability": 0.974
+        },
+        {
+          "word": " only",
+          "start": 101.16,
+          "end": 102.0,
+          "probability": 0.656
+        },
+        {
+          "word": " the",
+          "start": 102.0,
+          "end": 102.44,
+          "probability": 0.826
+        },
+        {
+          "word": " cold",
+          "start": 102.44,
+          "end": 103.6,
+          "probability": 0.434
+        }
+      ]
+    },
+    {
+      "start": 131.38,
+      "end": 134.5,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " The",
+          "start": 131.38,
+          "end": 132.14,
+          "probability": 0.418
+        },
+        {
+          "word": " birds",
+          "start": 132.14,
+          "end": 132.52,
+          "probability": 0.855
+        },
+        {
+          "word": " don't",
+          "start": 132.52,
+          "end": 132.84,
+          "probability": 0.977
+        },
+        {
+          "word": " sing",
+          "start": 132.84,
+          "end": 133.12,
+          "probability": 0.962
+        },
+        {
+          "word": " out",
+          "start": 133.12,
+          "end": 133.5,
+          "probability": 0.777
+        },
+        {
+          "word": " here",
+          "start": 133.5,
+          "end": 133.88,
+          "probability": 0.985
+        },
+        {
+          "word": " anymore",
+          "start": 133.88,
+          "end": 134.5,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 135.44,
+      "end": 138.98,
+      "text": "Just to communicate, just to wait",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " Just",
+          "start": 135.44,
+          "end": 136.2,
+          "probability": 0.744
+        },
+        {
+          "word": " to",
+          "start": 136.2,
+          "end": 136.4,
+          "probability": 0.316
+        },
+        {
+          "word": " communicate,",
+          "start": 136.4,
+          "end": 137.24,
+          "probability": 0.33
+        },
+        {
+          "word": " just",
+          "start": 137.8,
+          "end": 138.32,
+          "probability": 0.988
+        },
+        {
+          "word": " to",
+          "start": 138.32,
+          "end": 138.48,
+          "probability": 0.994
+        },
+        {
+          "word": " wait",
+          "start": 138.48,
+          "end": 138.98,
+          "probability": 0.876
+        }
+      ]
+    },
+    {
+      "start": 140.14,
+      "end": 141.74,
+      "text": "Nothing but the weight",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " Nothing",
+          "start": 140.14,
+          "end": 140.9,
+          "probability": 0.724
+        },
+        {
+          "word": " but",
+          "start": 140.9,
+          "end": 141.16,
+          "probability": 0.931
+        },
+        {
+          "word": " the",
+          "start": 141.16,
+          "end": 141.38,
+          "probability": 0.563
+        },
+        {
+          "word": " weight",
+          "start": 141.38,
+          "end": 141.74,
+          "probability": 0.264
+        }
+      ]
+    },
+    {
+      "start": 142.82,
+      "end": 146.24,
+      "text": "Lord, the birds don't sing out here anymore",
+      "avgLogprob": -0.361,
+      "compressionRatio": 1.438,
+      "noSpeechProbability": 0.518,
+      "words": [
+        {
+          "word": " Lord,",
+          "start": 142.78,
+          "end": 143.16,
+          "probability": 0.644
+        },
+        {
+          "word": " the",
+          "start": 143.54,
+          "end": 143.7,
+          "probability": 0.986
+        },
+        {
+          "word": " birds",
+          "start": 143.7,
+          "end": 144.32,
+          "probability": 0.988
+        },
+        {
+          "word": " don't",
+          "start": 144.32,
+          "end": 144.82,
+          "probability": 0.948
+        },
+        {
+          "word": " sing",
+          "start": 144.82,
+          "end": 145.2,
+          "probability": 0.956
+        },
+        {
+          "word": " out",
+          "start": 145.2,
+          "end": 145.44,
+          "probability": 0.473
+        },
+        {
+          "word": " here",
+          "start": 145.44,
+          "end": 145.62,
+          "probability": 0.957
+        },
+        {
+          "word": " anymore",
+          "start": 145.62,
+          "end": 146.24,
+          "probability": 0.999
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.875,
+    "wordCount": 120,
+    "credibleWordCount": 105,
+    "segmentCount": 13,
+    "averageWordProbability": 0.739,
+    "vocalSeconds": 53.26,
+    "scanCoverage": 0.397,
+    "reviewRequired": false
+  }
+}

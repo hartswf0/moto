@@ -1,0 +1,1318 @@
+{
+  "analysisVersion": 1,
+  "index": 35,
+  "id": "../VOLHOLLA/song-nobrightstand-37.html",
+  "slug": "the-domestic-absurd",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "you say you are tired, you say you want a party. The bartender hands you a panic attack in a coupe glass. It says support local bookstores. Inside, Amazon returns. The work bestie, you trauma bond of her bad management. She leaves for another company. Now your grief is a LinkedIn update. The Pilates class, a woman named... The parking app, you download it on a sidewalk in the rain. It asks you to create an account, the meter watches like a cop with software. You stop saying unemployed, you say independent strategy. Your bank account says performance art. The shared notes list, milk eggs, paper towels, a relationship dying in bullet points. You had a heart... One table under a speaker, playing Duolipa like municipal law. The scented candle, the label says Hinokey Temple. It was made in New Jersey, you light it anyway. God clocks in. You need toothpaste, you leave with bins, socks, or lamp, and a seasonal depression fox made of felt. The group dinner split, you had soup direct had lamp.",
+  "sampledRanges": [
+    [
+      16.96,
+      34.96
+    ],
+    [
+      67.86,
+      85.86
+    ],
+    [
+      118.75,
+      136.75
+    ],
+    [
+      169.65,
+      187.65
+    ]
+  ],
+  "segments": [
+    {
+      "start": 16.96,
+      "end": 19.16,
+      "text": "you say you are tired, you say you want a party.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " you",
+          "start": 16.96,
+          "end": 17.04,
+          "probability": 0.203
+        },
+        {
+          "word": " say",
+          "start": 17.04,
+          "end": 17.22,
+          "probability": 0.588
+        },
+        {
+          "word": " you",
+          "start": 17.22,
+          "end": 17.36,
+          "probability": 0.966
+        },
+        {
+          "word": " are",
+          "start": 17.36,
+          "end": 17.44,
+          "probability": 0.897
+        },
+        {
+          "word": " tired,",
+          "start": 17.44,
+          "end": 17.86,
+          "probability": 0.993
+        },
+        {
+          "word": " you",
+          "start": 18.14,
+          "end": 18.2,
+          "probability": 0.954
+        },
+        {
+          "word": " say",
+          "start": 18.2,
+          "end": 18.4,
+          "probability": 0.986
+        },
+        {
+          "word": " you",
+          "start": 18.4,
+          "end": 18.52,
+          "probability": 0.996
+        },
+        {
+          "word": " want",
+          "start": 18.52,
+          "end": 18.66,
+          "probability": 0.993
+        },
+        {
+          "word": " a",
+          "start": 18.66,
+          "end": 18.78,
+          "probability": 0.5
+        },
+        {
+          "word": " party.",
+          "start": 18.78,
+          "end": 19.16,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 19.78,
+      "end": 21.94,
+      "text": "The bartender hands you a panic attack in a coupe glass.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " The",
+          "start": 19.78,
+          "end": 19.86,
+          "probability": 0.937
+        },
+        {
+          "word": " bartender",
+          "start": 19.86,
+          "end": 20.22,
+          "probability": 0.998
+        },
+        {
+          "word": " hands",
+          "start": 20.22,
+          "end": 20.48,
+          "probability": 0.927
+        },
+        {
+          "word": " you",
+          "start": 20.48,
+          "end": 20.64,
+          "probability": 0.997
+        },
+        {
+          "word": " a",
+          "start": 20.64,
+          "end": 20.74,
+          "probability": 0.991
+        },
+        {
+          "word": " panic",
+          "start": 20.74,
+          "end": 20.96,
+          "probability": 0.984
+        },
+        {
+          "word": " attack",
+          "start": 20.96,
+          "end": 21.24,
+          "probability": 0.997
+        },
+        {
+          "word": " in",
+          "start": 21.24,
+          "end": 21.44,
+          "probability": 0.773
+        },
+        {
+          "word": " a",
+          "start": 21.44,
+          "end": 21.5,
+          "probability": 0.982
+        },
+        {
+          "word": " coupe",
+          "start": 21.5,
+          "end": 21.62,
+          "probability": 0.079
+        },
+        {
+          "word": " glass.",
+          "start": 21.62,
+          "end": 21.94,
+          "probability": 0.941
+        }
+      ]
+    },
+    {
+      "start": 22.72,
+      "end": 24.28,
+      "text": "It says support local bookstores.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " It",
+          "start": 22.72,
+          "end": 22.8,
+          "probability": 0.963
+        },
+        {
+          "word": " says",
+          "start": 22.8,
+          "end": 22.98,
+          "probability": 0.992
+        },
+        {
+          "word": " support",
+          "start": 22.98,
+          "end": 23.38,
+          "probability": 0.366
+        },
+        {
+          "word": " local",
+          "start": 23.38,
+          "end": 23.7,
+          "probability": 0.946
+        },
+        {
+          "word": " bookstores.",
+          "start": 23.7,
+          "end": 24.28,
+          "probability": 0.932
+        }
+      ]
+    },
+    {
+      "start": 24.76,
+      "end": 26.06,
+      "text": "Inside, Amazon returns.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " Inside,",
+          "start": 24.76,
+          "end": 25.2,
+          "probability": 0.971
+        },
+        {
+          "word": " Amazon",
+          "start": 25.34,
+          "end": 25.62,
+          "probability": 0.977
+        },
+        {
+          "word": " returns.",
+          "start": 25.62,
+          "end": 26.06,
+          "probability": 0.949
+        }
+      ]
+    },
+    {
+      "start": 26.72,
+      "end": 29.06,
+      "text": "The work bestie, you trauma bond of her bad management.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " The",
+          "start": 26.72,
+          "end": 26.8,
+          "probability": 0.974
+        },
+        {
+          "word": " work",
+          "start": 26.8,
+          "end": 27.02,
+          "probability": 0.97
+        },
+        {
+          "word": " bestie,",
+          "start": 27.02,
+          "end": 27.52,
+          "probability": 0.769
+        },
+        {
+          "word": " you",
+          "start": 27.56,
+          "end": 27.64,
+          "probability": 0.836
+        },
+        {
+          "word": " trauma",
+          "start": 27.64,
+          "end": 27.9,
+          "probability": 0.366
+        },
+        {
+          "word": " bond",
+          "start": 27.9,
+          "end": 28.2,
+          "probability": 0.702
+        },
+        {
+          "word": " of",
+          "start": 28.2,
+          "end": 28.32,
+          "probability": 0.478
+        },
+        {
+          "word": " her",
+          "start": 28.32,
+          "end": 28.4,
+          "probability": 0.922
+        },
+        {
+          "word": " bad",
+          "start": 28.4,
+          "end": 28.58,
+          "probability": 0.962
+        },
+        {
+          "word": " management.",
+          "start": 28.58,
+          "end": 29.06,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 29.44,
+      "end": 30.74,
+      "text": "She leaves for another company.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " She",
+          "start": 29.44,
+          "end": 29.58,
+          "probability": 0.986
+        },
+        {
+          "word": " leaves",
+          "start": 29.58,
+          "end": 29.78,
+          "probability": 0.983
+        },
+        {
+          "word": " for",
+          "start": 29.78,
+          "end": 30.0,
+          "probability": 0.996
+        },
+        {
+          "word": " another",
+          "start": 30.0,
+          "end": 30.18,
+          "probability": 0.997
+        },
+        {
+          "word": " company.",
+          "start": 30.18,
+          "end": 30.74,
+          "probability": 0.999
+        }
+      ]
+    },
+    {
+      "start": 31.12,
+      "end": 32.58,
+      "text": "Now your grief is a LinkedIn update.",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " Now",
+          "start": 31.12,
+          "end": 31.24,
+          "probability": 0.988
+        },
+        {
+          "word": " your",
+          "start": 31.24,
+          "end": 31.38,
+          "probability": 0.823
+        },
+        {
+          "word": " grief",
+          "start": 31.38,
+          "end": 31.62,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 31.62,
+          "end": 31.84,
+          "probability": 0.988
+        },
+        {
+          "word": " a",
+          "start": 31.84,
+          "end": 31.92,
+          "probability": 0.976
+        },
+        {
+          "word": " LinkedIn",
+          "start": 31.92,
+          "end": 32.16,
+          "probability": 0.559
+        },
+        {
+          "word": " update.",
+          "start": 32.16,
+          "end": 32.58,
+          "probability": 0.987
+        }
+      ]
+    },
+    {
+      "start": 33.26,
+      "end": 34.94,
+      "text": "The Pilates class, a woman named...",
+      "avgLogprob": -0.273,
+      "compressionRatio": 1.507,
+      "noSpeechProbability": 0.253,
+      "words": [
+        {
+          "word": " The",
+          "start": 33.26,
+          "end": 33.66,
+          "probability": 0.927
+        },
+        {
+          "word": " Pilates",
+          "start": 33.66,
+          "end": 34.0,
+          "probability": 0.879
+        },
+        {
+          "word": " class,",
+          "start": 34.0,
+          "end": 34.36,
+          "probability": 0.555
+        },
+        {
+          "word": " a",
+          "start": 34.38,
+          "end": 34.62,
+          "probability": 0.753
+        },
+        {
+          "word": " woman",
+          "start": 34.62,
+          "end": 34.8,
+          "probability": 0.972
+        },
+        {
+          "word": " named...",
+          "start": 34.8,
+          "end": 34.94,
+          "probability": 0.593
+        }
+      ]
+    },
+    {
+      "start": 67.86,
+      "end": 70.7,
+      "text": "The parking app, you download it on a sidewalk in the rain.",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " The",
+          "start": 67.86,
+          "end": 68.22,
+          "probability": 0.179
+        },
+        {
+          "word": " parking",
+          "start": 68.22,
+          "end": 68.5,
+          "probability": 0.961
+        },
+        {
+          "word": " app,",
+          "start": 68.5,
+          "end": 68.84,
+          "probability": 0.987
+        },
+        {
+          "word": " you",
+          "start": 68.94,
+          "end": 69.02,
+          "probability": 0.988
+        },
+        {
+          "word": " download",
+          "start": 69.02,
+          "end": 69.36,
+          "probability": 0.989
+        },
+        {
+          "word": " it",
+          "start": 69.36,
+          "end": 69.54,
+          "probability": 0.995
+        },
+        {
+          "word": " on",
+          "start": 69.54,
+          "end": 69.68,
+          "probability": 0.988
+        },
+        {
+          "word": " a",
+          "start": 69.68,
+          "end": 69.76,
+          "probability": 0.987
+        },
+        {
+          "word": " sidewalk",
+          "start": 69.76,
+          "end": 70.08,
+          "probability": 0.988
+        },
+        {
+          "word": " in",
+          "start": 70.08,
+          "end": 70.32,
+          "probability": 0.981
+        },
+        {
+          "word": " the",
+          "start": 70.32,
+          "end": 70.42,
+          "probability": 0.99
+        },
+        {
+          "word": " rain.",
+          "start": 70.42,
+          "end": 70.7,
+          "probability": 0.941
+        }
+      ]
+    },
+    {
+      "start": 71.02,
+      "end": 74.42,
+      "text": "It asks you to create an account, the meter watches like a cop with software.",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " It",
+          "start": 71.02,
+          "end": 71.18,
+          "probability": 0.989
+        },
+        {
+          "word": " asks",
+          "start": 71.18,
+          "end": 71.48,
+          "probability": 0.973
+        },
+        {
+          "word": " you",
+          "start": 71.48,
+          "end": 71.68,
+          "probability": 0.997
+        },
+        {
+          "word": " to",
+          "start": 71.68,
+          "end": 71.74,
+          "probability": 0.996
+        },
+        {
+          "word": " create",
+          "start": 71.74,
+          "end": 71.92,
+          "probability": 0.996
+        },
+        {
+          "word": " an",
+          "start": 71.92,
+          "end": 72.06,
+          "probability": 0.992
+        },
+        {
+          "word": " account,",
+          "start": 72.06,
+          "end": 72.42,
+          "probability": 0.994
+        },
+        {
+          "word": " the",
+          "start": 72.68,
+          "end": 72.74,
+          "probability": 0.885
+        },
+        {
+          "word": " meter",
+          "start": 72.74,
+          "end": 72.98,
+          "probability": 0.916
+        },
+        {
+          "word": " watches",
+          "start": 72.98,
+          "end": 73.3,
+          "probability": 0.955
+        },
+        {
+          "word": " like",
+          "start": 73.3,
+          "end": 73.52,
+          "probability": 0.972
+        },
+        {
+          "word": " a",
+          "start": 73.52,
+          "end": 73.64,
+          "probability": 0.992
+        },
+        {
+          "word": " cop",
+          "start": 73.64,
+          "end": 73.82,
+          "probability": 0.644
+        },
+        {
+          "word": " with",
+          "start": 73.82,
+          "end": 73.98,
+          "probability": 0.921
+        },
+        {
+          "word": " software.",
+          "start": 73.98,
+          "end": 74.42,
+          "probability": 0.975
+        }
+      ]
+    },
+    {
+      "start": 75.22,
+      "end": 78.04,
+      "text": "You stop saying unemployed, you say independent strategy.",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " You",
+          "start": 75.22,
+          "end": 75.4,
+          "probability": 0.954
+        },
+        {
+          "word": " stop",
+          "start": 75.4,
+          "end": 75.62,
+          "probability": 0.957
+        },
+        {
+          "word": " saying",
+          "start": 75.62,
+          "end": 75.9,
+          "probability": 0.993
+        },
+        {
+          "word": " unemployed,",
+          "start": 75.9,
+          "end": 76.52,
+          "probability": 0.604
+        },
+        {
+          "word": " you",
+          "start": 76.9,
+          "end": 76.96,
+          "probability": 0.985
+        },
+        {
+          "word": " say",
+          "start": 76.96,
+          "end": 77.16,
+          "probability": 0.77
+        },
+        {
+          "word": " independent",
+          "start": 77.16,
+          "end": 77.34,
+          "probability": 0.889
+        },
+        {
+          "word": " strategy.",
+          "start": 77.34,
+          "end": 78.04,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 78.48,
+      "end": 80.26,
+      "text": "Your bank account says performance art.",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " Your",
+          "start": 78.48,
+          "end": 78.6,
+          "probability": 0.978
+        },
+        {
+          "word": " bank",
+          "start": 78.6,
+          "end": 78.82,
+          "probability": 0.997
+        },
+        {
+          "word": " account",
+          "start": 78.82,
+          "end": 79.08,
+          "probability": 0.796
+        },
+        {
+          "word": " says",
+          "start": 79.08,
+          "end": 79.32,
+          "probability": 0.791
+        },
+        {
+          "word": " performance",
+          "start": 79.32,
+          "end": 79.78,
+          "probability": 0.852
+        },
+        {
+          "word": " art.",
+          "start": 79.78,
+          "end": 80.26,
+          "probability": 0.953
+        }
+      ]
+    },
+    {
+      "start": 80.58,
+      "end": 83.0,
+      "text": "The shared notes list, milk eggs, paper towels,",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " The",
+          "start": 80.58,
+          "end": 80.66,
+          "probability": 0.977
+        },
+        {
+          "word": " shared",
+          "start": 80.66,
+          "end": 80.9,
+          "probability": 0.984
+        },
+        {
+          "word": " notes",
+          "start": 80.9,
+          "end": 81.14,
+          "probability": 0.941
+        },
+        {
+          "word": " list,",
+          "start": 81.14,
+          "end": 81.44,
+          "probability": 0.986
+        },
+        {
+          "word": " milk",
+          "start": 81.64,
+          "end": 81.76,
+          "probability": 0.908
+        },
+        {
+          "word": " eggs,",
+          "start": 81.76,
+          "end": 82.16,
+          "probability": 0.895
+        },
+        {
+          "word": " paper",
+          "start": 82.46,
+          "end": 82.66,
+          "probability": 0.995
+        },
+        {
+          "word": " towels,",
+          "start": 82.66,
+          "end": 83.0,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 83.12,
+      "end": 84.66,
+      "text": "a relationship dying in bullet points.",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " a",
+          "start": 83.12,
+          "end": 83.16,
+          "probability": 0.857
+        },
+        {
+          "word": " relationship",
+          "start": 83.16,
+          "end": 83.56,
+          "probability": 0.991
+        },
+        {
+          "word": " dying",
+          "start": 83.56,
+          "end": 83.94,
+          "probability": 0.21
+        },
+        {
+          "word": " in",
+          "start": 83.94,
+          "end": 84.12,
+          "probability": 0.38
+        },
+        {
+          "word": " bullet",
+          "start": 84.12,
+          "end": 84.32,
+          "probability": 0.986
+        },
+        {
+          "word": " points.",
+          "start": 84.32,
+          "end": 84.66,
+          "probability": 0.994
+        }
+      ]
+    },
+    {
+      "start": 85.16,
+      "end": 85.84,
+      "text": "You had a heart...",
+      "avgLogprob": -0.274,
+      "compressionRatio": 1.543,
+      "noSpeechProbability": 0.496,
+      "words": [
+        {
+          "word": " You",
+          "start": 85.16,
+          "end": 85.46,
+          "probability": 0.791
+        },
+        {
+          "word": " had",
+          "start": 85.46,
+          "end": 85.62,
+          "probability": 0.954
+        },
+        {
+          "word": " a",
+          "start": 85.62,
+          "end": 85.76,
+          "probability": 0.956
+        },
+        {
+          "word": " heart...",
+          "start": 85.76,
+          "end": 85.84,
+          "probability": 0.305
+        }
+      ]
+    },
+    {
+      "start": 118.75,
+      "end": 121.83,
+      "text": "One table under a speaker, playing Duolipa like municipal law.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " One",
+          "start": 118.75,
+          "end": 118.97,
+          "probability": 0.625
+        },
+        {
+          "word": " table",
+          "start": 118.97,
+          "end": 119.31,
+          "probability": 0.971
+        },
+        {
+          "word": " under",
+          "start": 119.31,
+          "end": 119.59,
+          "probability": 0.965
+        },
+        {
+          "word": " a",
+          "start": 119.59,
+          "end": 119.77,
+          "probability": 0.988
+        },
+        {
+          "word": " speaker,",
+          "start": 119.77,
+          "end": 120.05,
+          "probability": 0.993
+        },
+        {
+          "word": " playing",
+          "start": 120.25,
+          "end": 120.43,
+          "probability": 0.993
+        },
+        {
+          "word": " Duolipa",
+          "start": 120.43,
+          "end": 120.95,
+          "probability": 0.75
+        },
+        {
+          "word": " like",
+          "start": 120.95,
+          "end": 121.11,
+          "probability": 0.811
+        },
+        {
+          "word": " municipal",
+          "start": 121.11,
+          "end": 121.49,
+          "probability": 0.272
+        },
+        {
+          "word": " law.",
+          "start": 121.49,
+          "end": 121.83,
+          "probability": 0.99
+        }
+      ]
+    },
+    {
+      "start": 122.29,
+      "end": 124.81,
+      "text": "The scented candle, the label says Hinokey Temple.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " The",
+          "start": 122.29,
+          "end": 122.53,
+          "probability": 0.896
+        },
+        {
+          "word": " scented",
+          "start": 122.53,
+          "end": 122.91,
+          "probability": 0.886
+        },
+        {
+          "word": " candle,",
+          "start": 122.91,
+          "end": 123.27,
+          "probability": 0.619
+        },
+        {
+          "word": " the",
+          "start": 123.43,
+          "end": 123.49,
+          "probability": 0.99
+        },
+        {
+          "word": " label",
+          "start": 123.49,
+          "end": 123.71,
+          "probability": 0.983
+        },
+        {
+          "word": " says",
+          "start": 123.71,
+          "end": 123.99,
+          "probability": 0.99
+        },
+        {
+          "word": " Hinokey",
+          "start": 123.99,
+          "end": 124.47,
+          "probability": 0.432
+        },
+        {
+          "word": " Temple.",
+          "start": 124.47,
+          "end": 124.81,
+          "probability": 0.801
+        }
+      ]
+    },
+    {
+      "start": 125.23,
+      "end": 127.09,
+      "text": "It was made in New Jersey, you light it anyway.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " It",
+          "start": 125.23,
+          "end": 125.31,
+          "probability": 0.883
+        },
+        {
+          "word": " was",
+          "start": 125.31,
+          "end": 125.41,
+          "probability": 0.999
+        },
+        {
+          "word": " made",
+          "start": 125.41,
+          "end": 125.63,
+          "probability": 0.998
+        },
+        {
+          "word": " in",
+          "start": 125.63,
+          "end": 125.77,
+          "probability": 0.998
+        },
+        {
+          "word": " New",
+          "start": 125.77,
+          "end": 125.91,
+          "probability": 0.987
+        },
+        {
+          "word": " Jersey,",
+          "start": 125.91,
+          "end": 126.23,
+          "probability": 0.999
+        },
+        {
+          "word": " you",
+          "start": 126.35,
+          "end": 126.45,
+          "probability": 0.955
+        },
+        {
+          "word": " light",
+          "start": 126.45,
+          "end": 126.63,
+          "probability": 0.963
+        },
+        {
+          "word": " it",
+          "start": 126.63,
+          "end": 126.73,
+          "probability": 0.968
+        },
+        {
+          "word": " anyway.",
+          "start": 126.73,
+          "end": 127.09,
+          "probability": 0.966
+        }
+      ]
+    },
+    {
+      "start": 127.53,
+      "end": 128.27,
+      "text": "God clocks in.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " God",
+          "start": 127.53,
+          "end": 127.71,
+          "probability": 0.946
+        },
+        {
+          "word": " clocks",
+          "start": 127.71,
+          "end": 127.93,
+          "probability": 0.836
+        },
+        {
+          "word": " in.",
+          "start": 127.93,
+          "end": 128.27,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 128.85,
+      "end": 131.43,
+      "text": "You need toothpaste, you leave with bins, socks, or lamp,",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " You",
+          "start": 128.85,
+          "end": 128.95,
+          "probability": 0.973
+        },
+        {
+          "word": " need",
+          "start": 128.95,
+          "end": 129.09,
+          "probability": 0.997
+        },
+        {
+          "word": " toothpaste,",
+          "start": 129.09,
+          "end": 129.45,
+          "probability": 0.992
+        },
+        {
+          "word": " you",
+          "start": 129.73,
+          "end": 129.81,
+          "probability": 0.996
+        },
+        {
+          "word": " leave",
+          "start": 129.81,
+          "end": 130.01,
+          "probability": 0.994
+        },
+        {
+          "word": " with",
+          "start": 130.01,
+          "end": 130.21,
+          "probability": 0.99
+        },
+        {
+          "word": " bins,",
+          "start": 130.21,
+          "end": 130.45,
+          "probability": 0.888
+        },
+        {
+          "word": " socks,",
+          "start": 130.83,
+          "end": 130.89,
+          "probability": 0.8
+        },
+        {
+          "word": " or",
+          "start": 131.17,
+          "end": 131.25,
+          "probability": 0.633
+        },
+        {
+          "word": " lamp,",
+          "start": 131.25,
+          "end": 131.43,
+          "probability": 0.682
+        }
+      ]
+    },
+    {
+      "start": 131.79,
+      "end": 133.57,
+      "text": "and a seasonal depression fox made of felt.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " and",
+          "start": 131.79,
+          "end": 131.85,
+          "probability": 0.985
+        },
+        {
+          "word": " a",
+          "start": 131.85,
+          "end": 131.93,
+          "probability": 0.992
+        },
+        {
+          "word": " seasonal",
+          "start": 131.93,
+          "end": 132.27,
+          "probability": 0.998
+        },
+        {
+          "word": " depression",
+          "start": 132.27,
+          "end": 132.65,
+          "probability": 0.975
+        },
+        {
+          "word": " fox",
+          "start": 132.65,
+          "end": 132.99,
+          "probability": 0.636
+        },
+        {
+          "word": " made",
+          "start": 132.99,
+          "end": 133.25,
+          "probability": 0.99
+        },
+        {
+          "word": " of",
+          "start": 133.25,
+          "end": 133.37,
+          "probability": 0.505
+        },
+        {
+          "word": " felt.",
+          "start": 133.37,
+          "end": 133.57,
+          "probability": 0.921
+        }
+      ]
+    },
+    {
+      "start": 134.09,
+      "end": 136.37,
+      "text": "The group dinner split, you had soup direct had lamp.",
+      "avgLogprob": -0.33,
+      "compressionRatio": 1.482,
+      "noSpeechProbability": 0.168,
+      "words": [
+        {
+          "word": " The",
+          "start": 134.09,
+          "end": 134.27,
+          "probability": 0.993
+        },
+        {
+          "word": " group",
+          "start": 134.27,
+          "end": 134.45,
+          "probability": 0.863
+        },
+        {
+          "word": " dinner",
+          "start": 134.45,
+          "end": 134.67,
+          "probability": 0.735
+        },
+        {
+          "word": " split,",
+          "start": 134.67,
+          "end": 135.05,
+          "probability": 0.97
+        },
+        {
+          "word": " you",
+          "start": 135.19,
+          "end": 135.27,
+          "probability": 0.981
+        },
+        {
+          "word": " had",
+          "start": 135.27,
+          "end": 135.39,
+          "probability": 0.992
+        },
+        {
+          "word": " soup",
+          "start": 135.39,
+          "end": 135.63,
+          "probability": 0.841
+        },
+        {
+          "word": " direct",
+          "start": 135.63,
+          "end": 135.91,
+          "probability": 0.611
+        },
+        {
+          "word": " had",
+          "start": 135.91,
+          "end": 136.13,
+          "probability": 0.552
+        },
+        {
+          "word": " lamp.",
+          "start": 136.13,
+          "end": 136.37,
+          "probability": 0.341
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.939,
+    "wordCount": 176,
+    "credibleWordCount": 169,
+    "segmentCount": 22,
+    "averageWordProbability": 0.874,
+    "vocalSeconds": 44.32,
+    "scanCoverage": 0.313,
+    "reviewRequired": false
+  }
+}

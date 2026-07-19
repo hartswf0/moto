@@ -1,0 +1,1028 @@
+{
+  "analysisVersion": 1,
+  "index": 14,
+  "id": "../VOLHOLLA/song-throne-07.html",
+  "slug": "monochrome-anticipation",
+  "model": 512,
+  "modelName": "base",
+  "scope": "scan",
+  "language": "en",
+  "text": "I can't wait Four walls Chip paint on the floor body heat rising up high. I am pacing. I ain't waiting Sweep heat so get through the tape every minute is a heavy stone. I move left and I move I heard the scene, like the door I break the jaw, one and now I need it now The tension is a roll around my throat, wait for it, wait for it I can't wait, wait for it, wait for it Black boots on the canvas, no more talking, no more hiding If he piles of open wounds, I came out talking, I survived The shadows got longer while I stood alone My hands are shaking with the fever I can't wait for the build of rain I can't wait for the hurt I can't wait for the bell to ring",
+  "sampledRanges": [
+    [
+      10.22,
+      28.22
+    ],
+    [
+      40.87,
+      58.87
+    ],
+    [
+      71.53,
+      89.53
+    ],
+    [
+      102.18,
+      120.18
+    ]
+  ],
+  "segments": [
+    {
+      "start": 10.22,
+      "end": 11.66,
+      "text": "I can't wait",
+      "avgLogprob": -0.602,
+      "compressionRatio": 1.394,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " I",
+          "start": 10.22,
+          "end": 10.86,
+          "probability": 0.261
+        },
+        {
+          "word": " can't",
+          "start": 10.86,
+          "end": 11.36,
+          "probability": 0.75
+        },
+        {
+          "word": " wait",
+          "start": 11.36,
+          "end": 11.66,
+          "probability": 0.89
+        }
+      ]
+    },
+    {
+      "start": 12.82,
+      "end": 14.2,
+      "text": "Four walls",
+      "avgLogprob": -0.602,
+      "compressionRatio": 1.394,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Four",
+          "start": 12.82,
+          "end": 13.54,
+          "probability": 0.037
+        },
+        {
+          "word": " walls",
+          "start": 13.54,
+          "end": 14.2,
+          "probability": 0.974
+        }
+      ]
+    },
+    {
+      "start": 14.7,
+      "end": 20.96,
+      "text": "Chip paint on the floor body heat rising up high. I am pacing. I ain't waiting",
+      "avgLogprob": -0.602,
+      "compressionRatio": 1.394,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Chip",
+          "start": 14.7,
+          "end": 15.14,
+          "probability": 0.028
+        },
+        {
+          "word": " paint",
+          "start": 15.14,
+          "end": 15.6,
+          "probability": 0.503
+        },
+        {
+          "word": " on",
+          "start": 15.6,
+          "end": 15.94,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 15.94,
+          "end": 16.1,
+          "probability": 0.778
+        },
+        {
+          "word": " floor",
+          "start": 16.1,
+          "end": 16.44,
+          "probability": 0.99
+        },
+        {
+          "word": " body",
+          "start": 16.44,
+          "end": 17.24,
+          "probability": 0.248
+        },
+        {
+          "word": " heat",
+          "start": 17.24,
+          "end": 17.68,
+          "probability": 0.969
+        },
+        {
+          "word": " rising",
+          "start": 17.68,
+          "end": 18.04,
+          "probability": 0.647
+        },
+        {
+          "word": " up",
+          "start": 18.04,
+          "end": 18.44,
+          "probability": 0.983
+        },
+        {
+          "word": " high.",
+          "start": 18.44,
+          "end": 18.82,
+          "probability": 0.693
+        },
+        {
+          "word": " I",
+          "start": 18.82,
+          "end": 19.08,
+          "probability": 0.987
+        },
+        {
+          "word": " am",
+          "start": 19.08,
+          "end": 19.24,
+          "probability": 0.899
+        },
+        {
+          "word": " pacing.",
+          "start": 19.24,
+          "end": 19.76,
+          "probability": 0.08
+        },
+        {
+          "word": " I",
+          "start": 20.02,
+          "end": 20.36,
+          "probability": 0.982
+        },
+        {
+          "word": " ain't",
+          "start": 20.36,
+          "end": 20.48,
+          "probability": 0.687
+        },
+        {
+          "word": " waiting",
+          "start": 20.48,
+          "end": 20.96,
+          "probability": 0.913
+        }
+      ]
+    },
+    {
+      "start": 20.96,
+      "end": 28.02,
+      "text": "Sweep heat so get through the tape every minute is a heavy stone. I move left and I move",
+      "avgLogprob": -0.602,
+      "compressionRatio": 1.394,
+      "noSpeechProbability": 0.7,
+      "words": [
+        {
+          "word": " Sweep",
+          "start": 20.96,
+          "end": 21.76,
+          "probability": 0.303
+        },
+        {
+          "word": " heat",
+          "start": 21.76,
+          "end": 22.04,
+          "probability": 0.247
+        },
+        {
+          "word": " so",
+          "start": 22.04,
+          "end": 22.34,
+          "probability": 0.299
+        },
+        {
+          "word": " get",
+          "start": 22.34,
+          "end": 22.5,
+          "probability": 0.398
+        },
+        {
+          "word": " through",
+          "start": 22.5,
+          "end": 22.76,
+          "probability": 0.533
+        },
+        {
+          "word": " the",
+          "start": 22.76,
+          "end": 22.92,
+          "probability": 0.916
+        },
+        {
+          "word": " tape",
+          "start": 22.92,
+          "end": 23.22,
+          "probability": 0.912
+        },
+        {
+          "word": " every",
+          "start": 23.22,
+          "end": 24.08,
+          "probability": 0.663
+        },
+        {
+          "word": " minute",
+          "start": 24.08,
+          "end": 24.44,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 24.44,
+          "end": 24.82,
+          "probability": 0.63
+        },
+        {
+          "word": " a",
+          "start": 24.82,
+          "end": 24.94,
+          "probability": 0.989
+        },
+        {
+          "word": " heavy",
+          "start": 24.94,
+          "end": 25.26,
+          "probability": 0.975
+        },
+        {
+          "word": " stone.",
+          "start": 25.26,
+          "end": 25.82,
+          "probability": 0.731
+        },
+        {
+          "word": " I",
+          "start": 25.82,
+          "end": 26.5,
+          "probability": 0.982
+        },
+        {
+          "word": " move",
+          "start": 26.5,
+          "end": 26.8,
+          "probability": 0.633
+        },
+        {
+          "word": " left",
+          "start": 26.8,
+          "end": 27.2,
+          "probability": 0.972
+        },
+        {
+          "word": " and",
+          "start": 27.2,
+          "end": 27.56,
+          "probability": 0.9
+        },
+        {
+          "word": " I",
+          "start": 27.56,
+          "end": 27.7,
+          "probability": 0.992
+        },
+        {
+          "word": " move",
+          "start": 27.7,
+          "end": 28.02,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 40.87,
+      "end": 45.83,
+      "text": "I heard the scene, like the door I break the jaw, one and now I need it now",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.584,
+      "noSpeechProbability": 0.685,
+      "words": [
+        {
+          "word": " I",
+          "start": 40.87,
+          "end": 41.09,
+          "probability": 0.175
+        },
+        {
+          "word": " heard",
+          "start": 41.09,
+          "end": 41.19,
+          "probability": 0.096
+        },
+        {
+          "word": " the",
+          "start": 41.19,
+          "end": 41.39,
+          "probability": 0.861
+        },
+        {
+          "word": " scene,",
+          "start": 41.39,
+          "end": 41.77,
+          "probability": 0.836
+        },
+        {
+          "word": " like",
+          "start": 41.93,
+          "end": 42.83,
+          "probability": 0.681
+        },
+        {
+          "word": " the",
+          "start": 42.83,
+          "end": 42.99,
+          "probability": 0.757
+        },
+        {
+          "word": " door",
+          "start": 42.99,
+          "end": 43.27,
+          "probability": 0.924
+        },
+        {
+          "word": " I",
+          "start": 43.27,
+          "end": 43.55,
+          "probability": 0.171
+        },
+        {
+          "word": " break",
+          "start": 43.55,
+          "end": 43.69,
+          "probability": 0.943
+        },
+        {
+          "word": " the",
+          "start": 43.69,
+          "end": 43.81,
+          "probability": 0.916
+        },
+        {
+          "word": " jaw,",
+          "start": 43.81,
+          "end": 44.11,
+          "probability": 0.465
+        },
+        {
+          "word": " one",
+          "start": 44.33,
+          "end": 44.49,
+          "probability": 0.343
+        },
+        {
+          "word": " and",
+          "start": 44.49,
+          "end": 44.61,
+          "probability": 0.65
+        },
+        {
+          "word": " now",
+          "start": 44.61,
+          "end": 44.91,
+          "probability": 0.535
+        },
+        {
+          "word": " I",
+          "start": 44.91,
+          "end": 45.15,
+          "probability": 0.632
+        },
+        {
+          "word": " need",
+          "start": 45.15,
+          "end": 45.29,
+          "probability": 0.639
+        },
+        {
+          "word": " it",
+          "start": 45.29,
+          "end": 45.41,
+          "probability": 0.993
+        },
+        {
+          "word": " now",
+          "start": 45.41,
+          "end": 45.83,
+          "probability": 0.979
+        }
+      ]
+    },
+    {
+      "start": 46.47,
+      "end": 51.15,
+      "text": "The tension is a roll around my throat, wait for it, wait for it",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.584,
+      "noSpeechProbability": 0.685,
+      "words": [
+        {
+          "word": " The",
+          "start": 46.33,
+          "end": 46.61,
+          "probability": 0.257
+        },
+        {
+          "word": " tension",
+          "start": 46.61,
+          "end": 46.95,
+          "probability": 0.996
+        },
+        {
+          "word": " is",
+          "start": 46.95,
+          "end": 47.31,
+          "probability": 0.719
+        },
+        {
+          "word": " a",
+          "start": 47.31,
+          "end": 47.47,
+          "probability": 0.835
+        },
+        {
+          "word": " roll",
+          "start": 47.47,
+          "end": 47.65,
+          "probability": 0.214
+        },
+        {
+          "word": " around",
+          "start": 47.65,
+          "end": 48.03,
+          "probability": 0.697
+        },
+        {
+          "word": " my",
+          "start": 48.03,
+          "end": 48.25,
+          "probability": 0.965
+        },
+        {
+          "word": " throat,",
+          "start": 48.25,
+          "end": 48.61,
+          "probability": 0.417
+        },
+        {
+          "word": " wait",
+          "start": 49.15,
+          "end": 49.31,
+          "probability": 0.71
+        },
+        {
+          "word": " for",
+          "start": 49.31,
+          "end": 49.71,
+          "probability": 0.992
+        },
+        {
+          "word": " it,",
+          "start": 49.71,
+          "end": 49.95,
+          "probability": 0.984
+        },
+        {
+          "word": " wait",
+          "start": 50.29,
+          "end": 50.51,
+          "probability": 0.976
+        },
+        {
+          "word": " for",
+          "start": 50.51,
+          "end": 50.93,
+          "probability": 0.998
+        },
+        {
+          "word": " it",
+          "start": 50.93,
+          "end": 51.15,
+          "probability": 0.97
+        }
+      ]
+    },
+    {
+      "start": 52.09,
+      "end": 57.57,
+      "text": "I can't wait, wait for it, wait for it",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.584,
+      "noSpeechProbability": 0.685,
+      "words": [
+        {
+          "word": " I",
+          "start": 52.09,
+          "end": 52.65,
+          "probability": 0.745
+        },
+        {
+          "word": " can't",
+          "start": 52.65,
+          "end": 52.99,
+          "probability": 0.957
+        },
+        {
+          "word": " wait,",
+          "start": 52.99,
+          "end": 53.41,
+          "probability": 0.99
+        },
+        {
+          "word": " wait",
+          "start": 53.69,
+          "end": 55.75,
+          "probability": 0.989
+        },
+        {
+          "word": " for",
+          "start": 55.75,
+          "end": 56.13,
+          "probability": 0.993
+        },
+        {
+          "word": " it,",
+          "start": 56.13,
+          "end": 56.43,
+          "probability": 0.954
+        },
+        {
+          "word": " wait",
+          "start": 56.63,
+          "end": 56.95,
+          "probability": 0.992
+        },
+        {
+          "word": " for",
+          "start": 56.95,
+          "end": 57.37,
+          "probability": 0.998
+        },
+        {
+          "word": " it",
+          "start": 57.37,
+          "end": 57.57,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 71.59,
+      "end": 75.09,
+      "text": "Black boots on the canvas, no more talking, no more hiding",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " Black",
+          "start": 71.59,
+          "end": 72.19,
+          "probability": 0.325
+        },
+        {
+          "word": " boots",
+          "start": 72.19,
+          "end": 72.75,
+          "probability": 0.845
+        },
+        {
+          "word": " on",
+          "start": 72.75,
+          "end": 72.99,
+          "probability": 0.896
+        },
+        {
+          "word": " the",
+          "start": 72.99,
+          "end": 73.15,
+          "probability": 0.786
+        },
+        {
+          "word": " canvas,",
+          "start": 73.15,
+          "end": 73.47,
+          "probability": 0.561
+        },
+        {
+          "word": " no",
+          "start": 73.47,
+          "end": 73.77,
+          "probability": 0.864
+        },
+        {
+          "word": " more",
+          "start": 73.77,
+          "end": 73.91,
+          "probability": 0.968
+        },
+        {
+          "word": " talking,",
+          "start": 73.91,
+          "end": 74.25,
+          "probability": 0.923
+        },
+        {
+          "word": " no",
+          "start": 74.25,
+          "end": 74.57,
+          "probability": 0.969
+        },
+        {
+          "word": " more",
+          "start": 74.57,
+          "end": 74.79,
+          "probability": 0.998
+        },
+        {
+          "word": " hiding",
+          "start": 74.79,
+          "end": 75.09,
+          "probability": 0.831
+        }
+      ]
+    },
+    {
+      "start": 75.09,
+      "end": 78.31,
+      "text": "If he piles of open wounds, I came out talking, I survived",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " If",
+          "start": 75.09,
+          "end": 75.43,
+          "probability": 0.213
+        },
+        {
+          "word": " he",
+          "start": 75.43,
+          "end": 75.53,
+          "probability": 0.252
+        },
+        {
+          "word": " piles",
+          "start": 75.53,
+          "end": 75.83,
+          "probability": 0.519
+        },
+        {
+          "word": " of",
+          "start": 75.83,
+          "end": 75.99,
+          "probability": 0.219
+        },
+        {
+          "word": " open",
+          "start": 75.99,
+          "end": 76.31,
+          "probability": 0.943
+        },
+        {
+          "word": " wounds,",
+          "start": 76.31,
+          "end": 76.61,
+          "probability": 0.729
+        },
+        {
+          "word": " I",
+          "start": 76.73,
+          "end": 76.81,
+          "probability": 0.979
+        },
+        {
+          "word": " came",
+          "start": 76.81,
+          "end": 77.01,
+          "probability": 0.821
+        },
+        {
+          "word": " out",
+          "start": 77.01,
+          "end": 77.19,
+          "probability": 0.199
+        },
+        {
+          "word": " talking,",
+          "start": 77.19,
+          "end": 77.41,
+          "probability": 0.18
+        },
+        {
+          "word": " I",
+          "start": 77.67,
+          "end": 77.79,
+          "probability": 0.949
+        },
+        {
+          "word": " survived",
+          "start": 77.79,
+          "end": 78.31,
+          "probability": 0.844
+        }
+      ]
+    },
+    {
+      "start": 78.31,
+      "end": 81.47,
+      "text": "The shadows got longer while I stood alone",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " The",
+          "start": 78.31,
+          "end": 79.13,
+          "probability": 0.724
+        },
+        {
+          "word": " shadows",
+          "start": 79.13,
+          "end": 79.49,
+          "probability": 0.961
+        },
+        {
+          "word": " got",
+          "start": 79.49,
+          "end": 79.83,
+          "probability": 0.959
+        },
+        {
+          "word": " longer",
+          "start": 79.83,
+          "end": 80.25,
+          "probability": 0.859
+        },
+        {
+          "word": " while",
+          "start": 80.25,
+          "end": 80.61,
+          "probability": 0.902
+        },
+        {
+          "word": " I",
+          "start": 80.61,
+          "end": 80.77,
+          "probability": 0.99
+        },
+        {
+          "word": " stood",
+          "start": 80.77,
+          "end": 80.95,
+          "probability": 0.987
+        },
+        {
+          "word": " alone",
+          "start": 80.95,
+          "end": 81.47,
+          "probability": 0.829
+        }
+      ]
+    },
+    {
+      "start": 81.47,
+      "end": 83.53,
+      "text": "My hands are shaking with the fever",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " My",
+          "start": 81.47,
+          "end": 82.01,
+          "probability": 0.918
+        },
+        {
+          "word": " hands",
+          "start": 82.01,
+          "end": 82.23,
+          "probability": 0.734
+        },
+        {
+          "word": " are",
+          "start": 82.23,
+          "end": 82.35,
+          "probability": 0.883
+        },
+        {
+          "word": " shaking",
+          "start": 82.35,
+          "end": 82.71,
+          "probability": 0.989
+        },
+        {
+          "word": " with",
+          "start": 82.71,
+          "end": 83.05,
+          "probability": 0.928
+        },
+        {
+          "word": " the",
+          "start": 83.05,
+          "end": 83.17,
+          "probability": 0.896
+        },
+        {
+          "word": " fever",
+          "start": 83.17,
+          "end": 83.53,
+          "probability": 0.921
+        }
+      ]
+    },
+    {
+      "start": 84.21,
+      "end": 86.71,
+      "text": "I can't wait for the build of rain",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " I",
+          "start": 84.21,
+          "end": 84.81,
+          "probability": 0.849
+        },
+        {
+          "word": " can't",
+          "start": 84.81,
+          "end": 85.19,
+          "probability": 0.979
+        },
+        {
+          "word": " wait",
+          "start": 85.19,
+          "end": 85.47,
+          "probability": 0.994
+        },
+        {
+          "word": " for",
+          "start": 85.47,
+          "end": 85.81,
+          "probability": 0.985
+        },
+        {
+          "word": " the",
+          "start": 85.81,
+          "end": 85.99,
+          "probability": 0.988
+        },
+        {
+          "word": " build",
+          "start": 85.99,
+          "end": 86.27,
+          "probability": 0.415
+        },
+        {
+          "word": " of",
+          "start": 86.27,
+          "end": 86.53,
+          "probability": 0.684
+        },
+        {
+          "word": " rain",
+          "start": 86.53,
+          "end": 86.71,
+          "probability": 0.956
+        }
+      ]
+    },
+    {
+      "start": 87.43,
+      "end": 89.43,
+      "text": "I can't wait for the hurt",
+      "avgLogprob": -0.347,
+      "compressionRatio": 1.586,
+      "noSpeechProbability": 0.715,
+      "words": [
+        {
+          "word": " I",
+          "start": 87.43,
+          "end": 88.03,
+          "probability": 0.562
+        },
+        {
+          "word": " can't",
+          "start": 88.03,
+          "end": 88.39,
+          "probability": 0.996
+        },
+        {
+          "word": " wait",
+          "start": 88.39,
+          "end": 88.71,
+          "probability": 0.998
+        },
+        {
+          "word": " for",
+          "start": 88.71,
+          "end": 89.05,
+          "probability": 0.991
+        },
+        {
+          "word": " the",
+          "start": 89.05,
+          "end": 89.27,
+          "probability": 0.946
+        },
+        {
+          "word": " hurt",
+          "start": 89.27,
+          "end": 89.43,
+          "probability": 0.283
+        }
+      ]
+    },
+    {
+      "start": 116.18,
+      "end": 118.9,
+      "text": "I can't wait for the bell to ring",
+      "avgLogprob": -0.632,
+      "compressionRatio": 0.805,
+      "noSpeechProbability": 0.603,
+      "words": [
+        {
+          "word": " I",
+          "start": 116.18,
+          "end": 116.76,
+          "probability": 0.206
+        },
+        {
+          "word": " can't",
+          "start": 116.76,
+          "end": 117.34,
+          "probability": 0.926
+        },
+        {
+          "word": " wait",
+          "start": 117.34,
+          "end": 117.64,
+          "probability": 0.994
+        },
+        {
+          "word": " for",
+          "start": 117.64,
+          "end": 118.0,
+          "probability": 0.92
+        },
+        {
+          "word": " the",
+          "start": 118.0,
+          "end": 118.18,
+          "probability": 0.835
+        },
+        {
+          "word": " bell",
+          "start": 118.18,
+          "end": 118.44,
+          "probability": 0.226
+        },
+        {
+          "word": " to",
+          "start": 118.44,
+          "end": 118.62,
+          "probability": 0.988
+        },
+        {
+          "word": " ring",
+          "start": 118.62,
+          "end": 118.9,
+          "probability": 0.983
+        }
+      ]
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.882,
+    "wordCount": 141,
+    "credibleWordCount": 118,
+    "segmentCount": 14,
+    "averageWordProbability": 0.754,
+    "vocalSeconds": 50.42,
+    "scanCoverage": 0.494,
+    "reviewRequired": false
+  }
+}
