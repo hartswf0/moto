@@ -1,0 +1,571 @@
+{
+  "analysisVersion": 1,
+  "index": 59,
+  "id": "../VOLHOLLA/song-queen-17.html",
+  "slug": "victory-banner",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "ar",
+  "text": "تبلاتي بلوات يدل أميا بطلات عتش فيت ستواتها تسمى كفات يرغفل مقنين تيتفى تبلات بقبر بطلات قتصفى تبلاتي بلوات يدل أميا بطلات عتش فيت ستواتها تسمى باكة مال مهالي بجرد جرد مص طوال لدى سمعي دلقريت ونوطعي يأتي نافل اللهم كاله كاله فومك رزارين عشان فالج مكانيابي كوطى بيزائم كفومكانينت يلعنيع مركاته حونالت سلام نهنوه معا تبلت بل رات يدل عرميا بطرات اتشفيد ستواتات اسمع كفات يرغفل مجنين تيطفى تبلات بقبري بطلق تسفى سلا ننروم روزاري أنفالي اند مالد دعو فازم اش كهلو بلاي ونعطيار نجي تبلا تبلاك اسرى تبلا تبلا حتمت سنيت نشي مقانيا بيكوطاب بيا سائم قفومة قنية نت يلعن يا أماركات حونا الات سيلا نعوى نومة تبلا تيبن رات يدل أرميا بطلاة وطفى ستواته تصمع قفر تيرغفل مقعين تيتفار تبلد بقبرل وطلقه تصفع تبلد تيباً روا تيباً روا وطلقه تصمع قفر تيرغفل لديلار مقعين تيتفار تبلد بقبرل لديلار مطلقه كتصحة تبلا تيبن وارجل العرماء بطرات اوشفيلا زبوها تاتصحة سيجل العرماء سدل أرمى سدل أرمى سدل أرمى سدل أرمى سدل أرمى سدل أرمى سدل أرمى تبلت بلوعة",
+  "sampledRanges": [
+    [
+      0.0,
+      244.92
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "تبلاتي بلوات يدل أميا",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 6.0,
+      "end": 11.0,
+      "text": "بطلات عتش فيت ستواتها تسمى",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 11.0,
+      "end": 15.0,
+      "text": "كفات يرغفل مقنين تيتفى",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "text": "تبلات بقبر بطلات قتصفى",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 24.0,
+      "text": "تبلاتي بلوات يدل أميا",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 29.0,
+      "text": "بطلات عتش فيت ستواتها تسمى",
+      "avgLogprob": -0.439,
+      "compressionRatio": 2.193,
+      "noSpeechProbability": 0.811,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 35.96,
+      "text": "باكة مال مهالي بجرد جرد مص",
+      "avgLogprob": -1.052,
+      "compressionRatio": 1.303,
+      "noSpeechProbability": 0.45,
+      "words": []
+    },
+    {
+      "start": 35.96,
+      "end": 42.52,
+      "text": "طوال لدى سمعي دلقريت ونوطعي",
+      "avgLogprob": -1.052,
+      "compressionRatio": 1.303,
+      "noSpeechProbability": 0.45,
+      "words": []
+    },
+    {
+      "start": 42.52,
+      "end": 45.52,
+      "text": "يأتي نافل",
+      "avgLogprob": -1.052,
+      "compressionRatio": 1.303,
+      "noSpeechProbability": 0.45,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.5,
+      "text": "اللهم كاله",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 47.5,
+      "end": 52.0,
+      "text": "كاله فومك رزارين عشان فالج",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 55.0,
+      "text": "مكانيابي كوطى",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 59.5,
+      "text": "بيزائم كفومكانينت",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 59.5,
+      "end": 64.0,
+      "text": "يلعنيع مركاته حونالت",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "سلام نهنوه معا",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 70.5,
+      "text": "تبلت بل رات",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 70.5,
+      "end": 73.0,
+      "text": "يدل عرميا",
+      "avgLogprob": -0.879,
+      "compressionRatio": 1.676,
+      "noSpeechProbability": 0.92,
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 75.0,
+      "text": "بطرات اتشفيد",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 77.5,
+      "text": "ستواتات اسمع",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 77.5,
+      "end": 79.5,
+      "text": "كفات يرغفل",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 79.5,
+      "end": 82.0,
+      "text": "مجنين تيطفى",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 82.0,
+      "end": 84.0,
+      "text": "تبلات بقبري",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 87.0,
+      "text": "بطلق تسفى",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "text": "سلا ننروم",
+      "avgLogprob": -0.825,
+      "compressionRatio": 1.441,
+      "noSpeechProbability": 0.13,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 93.74,
+      "text": "روزاري أنفالي",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 93.74,
+      "end": 96.18,
+      "text": "اند مالد",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 96.18,
+      "end": 98.54,
+      "text": "دعو فازم اش",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 98.54,
+      "end": 100.52,
+      "text": "كهلو بلاي",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 100.52,
+      "end": 103.02,
+      "text": "ونعطيار نجي",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 103.02,
+      "end": 107.62,
+      "text": "تبلا تبلاك اسرى",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 107.62,
+      "end": 112.18,
+      "text": "تبلا تبلا حتمت سنيت نشي",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 112.18,
+      "end": 115.26,
+      "text": "مقانيا بيكوطاب",
+      "avgLogprob": -0.921,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.923,
+      "words": []
+    },
+    {
+      "start": 115.26,
+      "end": 119.76,
+      "text": "بيا سائم قفومة قنية نت",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 119.76,
+      "end": 124.52,
+      "text": "يلعن يا أماركات حونا الات",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 124.52,
+      "end": 128.26,
+      "text": "سيلا نعوى نومة",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 128.26,
+      "end": 130.74,
+      "text": "تبلا تيبن رات",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 130.74,
+      "end": 133.12,
+      "text": "يدل أرميا",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 133.12,
+      "end": 135.26,
+      "text": "بطلاة وطفى",
+      "avgLogprob": -1.057,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.305,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 137.5,
+      "text": "ستواته تصمع",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 137.5,
+      "end": 139.5,
+      "text": "قفر تيرغفل",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 139.5,
+      "end": 142.0,
+      "text": "مقعين تيتفار",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 144.0,
+      "text": "تبلد بقبرل",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 146.5,
+      "text": "وطلقه تصفع",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 146.5,
+      "end": 148.5,
+      "text": "تبلد تيباً روا",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 148.5,
+      "end": 151.5,
+      "text": "تيباً روا",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 151.5,
+      "end": 156.0,
+      "text": "وطلقه تصمع",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 156.0,
+      "end": 157.5,
+      "text": "قفر تيرغفل",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 157.5,
+      "end": 160.5,
+      "text": "لديلار مقعين تيتفار",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 160.5,
+      "end": 162.0,
+      "text": "تبلد بقبرل",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 162.0,
+      "end": 164.0,
+      "text": "لديلار مطلقه",
+      "avgLogprob": -0.675,
+      "compressionRatio": 2.258,
+      "noSpeechProbability": 0.657,
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 170.0,
+      "text": "كتصحة تبلا تيبن وارجل العرماء",
+      "avgLogprob": -1.051,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.445,
+      "words": []
+    },
+    {
+      "start": 170.0,
+      "end": 175.0,
+      "text": "بطرات اوشفيلا زبوها تاتصحة",
+      "avgLogprob": -1.051,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.445,
+      "words": []
+    },
+    {
+      "start": 175.0,
+      "end": 179.0,
+      "text": "سيجل العرماء",
+      "avgLogprob": -1.051,
+      "compressionRatio": 1.407,
+      "noSpeechProbability": 0.445,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 184.0,
+      "text": "سدل أرمى سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 184.0,
+      "end": 188.0,
+      "text": "سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 188.0,
+      "end": 193.0,
+      "text": "سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 193.0,
+      "end": 198.0,
+      "text": "سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 198.0,
+      "end": 202.0,
+      "text": "سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 202.0,
+      "end": 207.0,
+      "text": "سدل أرمى",
+      "avgLogprob": -0.391,
+      "compressionRatio": 3.964,
+      "noSpeechProbability": 0.817,
+      "words": []
+    },
+    {
+      "start": 225.0,
+      "end": 227.0,
+      "text": "تبلت بلوعة",
+      "avgLogprob": -1.167,
+      "compressionRatio": 0.731,
+      "noSpeechProbability": 0.599,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.668,
+    "wordCount": 84,
+    "credibleWordCount": 40,
+    "segmentCount": 31,
+    "averageWordProbability": 0.413,
+    "vocalSeconds": 96.52,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

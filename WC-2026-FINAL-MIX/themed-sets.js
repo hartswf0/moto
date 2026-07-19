@@ -1,0 +1,3391 @@
+window.WC_2026_THEMED_SETS = {
+  "version": 1,
+  "generatedAt": "2026-07-19T12:02:49.292130+00:00",
+  "sourceAnalysisGeneratedAt": "2026-07-19T10:24:29.875526+00:00",
+  "status": "editorial proposals / human listening review required",
+  "method": {
+    "discovery": "title-weighted transcript TF-IDF plus 7-topic NMF",
+    "sampling": "6 editorial seeds followed by 2 seed-centroid snowball rounds",
+    "sequencing": "beam search over energy arc, half/double-time BPM distance, album spacing, and vocal density",
+    "keyUse": "advisory only when both key estimates have at least 45% confidence"
+  },
+  "topicDiscovery": [
+    {
+      "id": "topic-1",
+      "topTerms": [
+        "room",
+        "machine",
+        "light",
+        "hands",
+        "world",
+        "cold",
+        "want",
+        "gets",
+        "look",
+        "better",
+        "soul",
+        "people"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-unpatchedglitch-11.html",
+          "title": "Mirror Mirror (Regal Mud)",
+          "weight": 0.2582
+        },
+        {
+          "id": "../VOLHOLLA/song-unpatchedglitch-05.html",
+          "title": "Crown of the Process",
+          "weight": 0.2575
+        },
+        {
+          "id": "../VOLHOLLA/song-unpatchedglitch-17.html",
+          "title": "King Don’t Beg the Gate",
+          "weight": 0.2369
+        },
+        {
+          "id": "../VOLHOLLA/song-betterhands-04.html",
+          "title": "Fingerprints in the Silicon",
+          "weight": 0.2293
+        },
+        {
+          "id": "../VOLHOLLA/song-unpatchedglitch-06.html",
+          "title": "Regal Slop",
+          "weight": 0.226
+        },
+        {
+          "id": "../VOLHOLLA/song-unpatchedglitch-15.html",
+          "title": "Velvet Gate Panic",
+          "weight": 0.2249
+        },
+        {
+          "id": "../VOLHOLLA/song-betterhands-10.html",
+          "title": "Visible Repair",
+          "weight": 0.2217
+        },
+        {
+          "id": "../VOLHOLLA/song-nobrightstand-13.html",
+          "title": "Glass or Surface",
+          "weight": 0.2014
+        }
+      ]
+    },
+    {
+      "id": "topic-2",
+      "topTerms": [
+        "cypher",
+        "cypher mixtape",
+        "mixtape",
+        "maquina cypher",
+        "ancestral",
+        "maquina",
+        "cypher cypher",
+        "bpm",
+        "concrete",
+        "stone",
+        "bronx",
+        "spirit"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-cypher-19.html",
+          "title": "The Cypher of the Andes",
+          "weight": 0.6223
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-04.html",
+          "title": "Atributos de Poder",
+          "weight": 0.6161
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-11.html",
+          "title": "Máquina de Cypher",
+          "weight": 0.5491
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-08.html",
+          "title": "La Máquina de Cypher Ancestral",
+          "weight": 0.5459
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-17.html",
+          "title": "Resistencia Ancestral (92 BPM)",
+          "weight": 0.4254
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-07.html",
+          "title": "Juicio en el Cypher",
+          "weight": 0.4025
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-18.html",
+          "title": "Stone and Concrete Spirit",
+          "weight": 0.3614
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-16.html",
+          "title": "Resiliencia Rítmica (Del Altiplano al Bronx)",
+          "weight": 0.3159
+        }
+      ]
+    },
+    {
+      "id": "topic-3",
+      "topTerms": [
+        "patchworld ingest",
+        "mall patchworld",
+        "patchworld",
+        "mall",
+        "ingest",
+        "mezzanine",
+        "ingest mezzanine",
+        "ingest ground",
+        "ground",
+        "choir",
+        "lost",
+        "going going"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-25.html",
+          "title": "Upper Macy Aura",
+          "weight": 0.6775
+        },
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-03.html",
+          "title": "Metabolic Fryer",
+          "weight": 0.6775
+        },
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-10.html",
+          "title": "Republic of Pose",
+          "weight": 0.6775
+        },
+        {
+          "id": "../VOLHOLLA/song-mallground-22.html",
+          "title": "Kiosk Republics",
+          "weight": 0.5796
+        },
+        {
+          "id": "../VOLHOLLA/song-mallground-26.html",
+          "title": "Lost Object Choir (SRC077)",
+          "weight": 0.4791
+        },
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-22.html",
+          "title": "Survival Taxonomy",
+          "weight": 0.2269
+        },
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-23.html",
+          "title": "The Atrium Covenant",
+          "weight": 0.162
+        },
+        {
+          "id": "../VOLHOLLA/song-museumfloor-07.html",
+          "title": "Enough Is a Country (2)",
+          "weight": 0.0216
+        }
+      ]
+    },
+    {
+      "id": "topic-4",
+      "topTerms": [
+        "usb legacy",
+        "usb",
+        "legacy",
+        "stadium",
+        "water light",
+        "love",
+        "sangre",
+        "water",
+        "light",
+        "light light",
+        "el",
+        "alive"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-usblegacy-21.html",
+          "title": "Tribal Stadium Catharsis",
+          "weight": 0.6122
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-03.html",
+          "title": "Chemical Ignition",
+          "weight": 0.6119
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-04.html",
+          "title": "Corazoncito (Stadium Love)",
+          "weight": 0.5976
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-23.html",
+          "title": "Water Light Finale",
+          "weight": 0.4771
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-11.html",
+          "title": "Óxido y Sangre (El Abrazo)",
+          "weight": 0.4099
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-22.html",
+          "title": "Water Light Alive",
+          "weight": 0.321
+        },
+        {
+          "id": "../VOLHOLLA/song-blackwater-22.html",
+          "title": "Vinilo de Sangre y Sal",
+          "weight": 0.1114
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-01.html",
+          "title": "Iron Into Dust",
+          "weight": 0.0929
+        }
+      ]
+    },
+    {
+      "id": "topic-5",
+      "topTerms": [
+        "going",
+        "bit going",
+        "little bit",
+        "going little",
+        "bit",
+        "little",
+        "going going",
+        "tide",
+        "maybe",
+        "gone",
+        "return",
+        "doing"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-executable-07.html",
+          "title": "Sharp Edge Logic",
+          "weight": 0.5817
+        },
+        {
+          "id": "../VOLHOLLA/song-maquina-30.html",
+          "title": "The Salty Cup",
+          "weight": 0.5724
+        },
+        {
+          "id": "../VOLHOLLA/song-congregation-01.html",
+          "title": "BPM Blues Bash",
+          "weight": 0.553
+        },
+        {
+          "id": "../VOLHOLLA/song-concreto-05.html",
+          "title": "Sueño Hondureño",
+          "weight": 0.5331
+        },
+        {
+          "id": "../VOLHOLLA/song-nobrightstand-06.html",
+          "title": "The Meat Suit Maintenance",
+          "weight": 0.5061
+        },
+        {
+          "id": "../VOLHOLLA/song-nobrightstand-24.html",
+          "title": "The Terms and Conditions of Living",
+          "weight": 0.4846
+        },
+        {
+          "id": "../VOLHOLLA/song-mallmezzanine-22.html",
+          "title": "Survival Taxonomy",
+          "weight": 0.4002
+        },
+        {
+          "id": "../VOLHOLLA/song-nobrightstand-20.html",
+          "title": "The Apex of Convenience",
+          "weight": 0.2024
+        }
+      ]
+    },
+    {
+      "id": "topic-6",
+      "topTerms": [
+        "dust",
+        "dust rest",
+        "rest",
+        "dust dust",
+        "void",
+        "frictionless",
+        "flow",
+        "non",
+        "tbc",
+        "bpm",
+        "tbc tbc",
+        "interface"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-dustrest-11.html",
+          "title": "Not a Mote of Dust",
+          "weight": 0.746
+        },
+        {
+          "id": "../VOLHOLLA/song-dustrest-16.html",
+          "title": "Frictionless Void",
+          "weight": 0.5562
+        },
+        {
+          "id": "../VOLHOLLA/song-dustrest-10.html",
+          "title": "Non-Abiding Flow",
+          "weight": 0.5158
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-01.html",
+          "title": "Iron Into Dust",
+          "weight": 0.4746
+        },
+        {
+          "id": "../VOLHOLLA/song-dustrest-13.html",
+          "title": "Oracle Bone Interface (118 BPM)",
+          "weight": 0.4703
+        },
+        {
+          "id": "../VOLHOLLA/song-dustrest-07.html",
+          "title": "Gu Xiao Huo Guan (Lonely Howl at the Fire Pass)",
+          "weight": 0.334
+        },
+        {
+          "id": "../VOLHOLLA/song-event-04.html",
+          "title": "Stratospheric Void Crossing",
+          "weight": 0.2056
+        },
+        {
+          "id": "../VOLHOLLA/song-maquina-15.html",
+          "title": "No Scatter",
+          "weight": 0.1583
+        }
+      ]
+    },
+    {
+      "id": "topic-7",
+      "topTerms": [
+        "el",
+        "en",
+        "que",
+        "en el",
+        "se",
+        "mi",
+        "para",
+        "los",
+        "sangre",
+        "por",
+        "gris",
+        "passinho"
+      ],
+      "topTracks": [
+        {
+          "id": "../VOLHOLLA/song-sunfadedghosts-08.html",
+          "title": "Passinho das Quadras",
+          "weight": 0.569
+        },
+        {
+          "id": "../VOLHOLLA/song-concreto-13.html",
+          "title": "Arquitectura Anti-Gris",
+          "weight": 0.5623
+        },
+        {
+          "id": "../VOLHOLLA/song-concreto-04.html",
+          "title": "Sangre y Zinc",
+          "weight": 0.4708
+        },
+        {
+          "id": "../VOLHOLLA/song-concreto-06.html",
+          "title": "The Knowledge Engine",
+          "weight": 0.4371
+        },
+        {
+          "id": "../VOLHOLLA/song-ghost-10.html",
+          "title": "GPU Azmari Flow",
+          "weight": 0.3223
+        },
+        {
+          "id": "../VOLHOLLA/song-cypher-07.html",
+          "title": "Juicio en el Cypher",
+          "weight": 0.3144
+        },
+        {
+          "id": "../VOLHOLLA/song-usblegacy-11.html",
+          "title": "Óxido y Sangre (El Abrazo)",
+          "weight": 0.253
+        },
+        {
+          "id": "../VOLHOLLA/song-sunfadedghosts-09.html",
+          "title": "Trilhos do Passinho",
+          "weight": 0.2453
+        }
+      ]
+    }
+  ],
+  "themes": [
+    {
+      "id": "systems-under-pressure",
+      "label": "SYSTEMS / PRESSURE",
+      "title": "Systems Under Pressure",
+      "thesis": "Human signals pushing through platforms, contracts, labor systems, and digital enclosure.",
+      "status": "editorial proposal / listening review required",
+      "durationSeconds": 3918.16,
+      "trackCount": 18,
+      "voiceCounts": {
+        "lyrics-detected": 15,
+        "vocal-fragment": 1,
+        "likely-instrumental": 2
+      },
+      "seedTrackIds": [
+        "../VOLHOLLA/song-nobrightstand-41.html",
+        "../VOLHOLLA/song-nobrightstand-24.html",
+        "../VOLHOLLA/song-silence-11.html",
+        "../VOLHOLLA/song-betterhands-04.html",
+        "../VOLHOLLA/song-mallground-22.html",
+        "../VOLHOLLA/song-event-03.html"
+      ],
+      "samplingRounds": [
+        {
+          "round": 0,
+          "method": "editorial seeds",
+          "trackIds": [
+            "../VOLHOLLA/song-nobrightstand-41.html",
+            "../VOLHOLLA/song-nobrightstand-24.html",
+            "../VOLHOLLA/song-silence-11.html",
+            "../VOLHOLLA/song-betterhands-04.html",
+            "../VOLHOLLA/song-mallground-22.html",
+            "../VOLHOLLA/song-event-03.html"
+          ]
+        },
+        {
+          "round": 1,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-noservice-13.html",
+            "../VOLHOLLA/song-betterhands-07.html",
+            "../VOLHOLLA/song-betterhands-10.html",
+            "../VOLHOLLA/song-executable-09.html",
+            "../VOLHOLLA/song-executable-07.html",
+            "../VOLHOLLA/song-noservice-10.html"
+          ]
+        },
+        {
+          "round": 2,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-sharperhands-01.html",
+            "../VOLHOLLA/song-unpatchedglitch-06.html",
+            "../VOLHOLLA/song-nobrightstand-20.html",
+            "../VOLHOLLA/song-unpatchedglitch-05.html",
+            "../VOLHOLLA/song-queen-11.html",
+            "../VOLHOLLA/song-maquina-35.html"
+          ]
+        }
+      ],
+      "order": [
+        "../VOLHOLLA/song-betterhands-04.html",
+        "../VOLHOLLA/song-maquina-35.html",
+        "../VOLHOLLA/song-executable-09.html",
+        "../VOLHOLLA/song-event-03.html",
+        "../VOLHOLLA/song-noservice-10.html",
+        "../VOLHOLLA/song-nobrightstand-20.html",
+        "../VOLHOLLA/song-mallground-22.html",
+        "../VOLHOLLA/song-silence-11.html",
+        "../VOLHOLLA/song-unpatchedglitch-06.html",
+        "../VOLHOLLA/song-betterhands-07.html",
+        "../VOLHOLLA/song-queen-11.html",
+        "../VOLHOLLA/song-nobrightstand-24.html",
+        "../VOLHOLLA/song-executable-07.html",
+        "../VOLHOLLA/song-unpatchedglitch-05.html",
+        "../VOLHOLLA/song-nobrightstand-41.html",
+        "../VOLHOLLA/song-noservice-13.html",
+        "../VOLHOLLA/song-betterhands-10.html",
+        "../VOLHOLLA/song-sharperhands-01.html"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "id": "../VOLHOLLA/song-betterhands-04.html",
+          "index": 50,
+          "title": "Fingerprints in the Silicon",
+          "album": "BETTER HANDS",
+          "durationSeconds": 194.12,
+          "bpm": 112.3,
+          "energyScore": 0.317,
+          "dramaScore": 0.414,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.87,
+          "reviewRequired": false,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "system",
+              "silicon",
+              "process",
+              "prompt",
+              "labor"
+            ],
+            "lexicalSimilarity": 0.0811,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/fingerprints-in-the-silicon.json",
+              "startSeconds": 19.44,
+              "excerpt": "But the system talked the boy to hide his rough draft, taught him that it's wrong.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": null
+        },
+        {
+          "position": 2,
+          "id": "../VOLHOLLA/song-maquina-35.html",
+          "index": 72,
+          "title": "طريق القوة (The Path of Power)",
+          "album": "MÁQUINA DE GUERRA",
+          "durationSeconds": 274.97,
+          "bpm": 117.5,
+          "energyScore": 0.394,
+          "dramaScore": 0.399,
+          "voiceStatus": "vocal-fragment",
+          "transcriptConfidence": 0.495,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "power"
+            ],
+            "lexicalSimilarity": 0.0242,
+            "neighborSimilarity": 0.0571,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-path-of-power.json",
+              "startSeconds": 0.0,
+              "excerpt": "Deep breath.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-betterhands-04.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 5.2,
+            "energyDelta": 0.077,
+            "note": "112 to 118 BPM; energy rises 8; key estimate is advisory."
+          }
+        },
+        {
+          "position": 3,
+          "id": "../VOLHOLLA/song-executable-09.html",
+          "index": 60,
+          "title": "Small Axe Blade",
+          "album": "Executable Infrastructure Dub",
+          "durationSeconds": 268.47,
+          "bpm": 112.3,
+          "energyScore": 0.487,
+          "dramaScore": 0.534,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.747,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "money",
+              "infrastructure"
+            ],
+            "lexicalSimilarity": 0.0357,
+            "neighborSimilarity": 0.1047,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/small-axe-blade.json",
+              "startSeconds": 140.0,
+              "excerpt": "Dead clouds turn, you like money",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-maquina-35.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 112.3,
+            "bpmDelta": 5.2,
+            "energyDelta": 0.093,
+            "note": "118 to 112 BPM; energy rises 9; key estimate is advisory."
+          }
+        },
+        {
+          "position": 4,
+          "id": "../VOLHOLLA/song-event-03.html",
+          "index": 105,
+          "title": "Steel & Static — The 2 AM Express",
+          "album": "EVENT HORIZON DISCOVERY",
+          "durationSeconds": 115.73,
+          "bpm": 129.2,
+          "energyScore": 0.381,
+          "dramaScore": 0.389,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.609,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-executable-09.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 16.9,
+            "energyDelta": -0.106,
+            "note": "112 to 129 BPM; energy releases 11; key estimate is advisory."
+          }
+        },
+        {
+          "position": 5,
+          "id": "../VOLHOLLA/song-noservice-10.html",
+          "index": 112,
+          "title": "Port-Out Ransom",
+          "album": "NO SERVICE",
+          "durationSeconds": 138.95,
+          "bpm": 129.2,
+          "energyScore": 0.593,
+          "dramaScore": 0.62,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.845,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "service",
+              "money"
+            ],
+            "lexicalSimilarity": 0.0471,
+            "neighborSimilarity": 0.0716,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/port-out-ransom.json",
+              "startSeconds": 67.48,
+              "excerpt": "My money has evaporated",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-event-03.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.212,
+            "note": "129 to 129 BPM; energy rises 21; key estimate is advisory."
+          }
+        },
+        {
+          "position": 6,
+          "id": "../VOLHOLLA/song-nobrightstand-20.html",
+          "index": 42,
+          "title": "The Apex of Convenience",
+          "album": "NO BRIGHT STAND",
+          "durationSeconds": 284.96,
+          "bpm": 129.2,
+          "energyScore": 0.641,
+          "dramaScore": 0.656,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.882,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "data",
+              "process",
+              "terms",
+              "convenience",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.0579,
+            "neighborSimilarity": 0.1956,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-apex-of-convenience.json",
+              "startSeconds": 31.84,
+              "excerpt": "You use clinical psychology terms to cancel dinner.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-noservice-10.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.048,
+            "note": "129 to 129 BPM; energy rises 5; key estimate is advisory."
+          }
+        },
+        {
+          "position": 7,
+          "id": "../VOLHOLLA/song-mallground-22.html",
+          "index": 119,
+          "title": "Kiosk Republics",
+          "album": "MALL PATCHWORLD INGEST (ground)",
+          "durationSeconds": 217.39,
+          "bpm": 123.0,
+          "energyScore": 0.623,
+          "dramaScore": 0.423,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.539,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-nobrightstand-20.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 6.2,
+            "energyDelta": -0.018,
+            "note": "129 to 123 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 8,
+          "id": "../VOLHOLLA/song-silence-11.html",
+          "index": 104,
+          "title": "The Transactional Truth",
+          "album": "SILENCE IN THE 757",
+          "durationSeconds": 137.09,
+          "bpm": 112.3,
+          "energyScore": 0.768,
+          "dramaScore": 0.651,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.781,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "money"
+            ],
+            "lexicalSimilarity": 0.0155,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/the-transactional-truth.json",
+              "startSeconds": 13.04,
+              "excerpt": "Cold calculated money never waited",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-mallground-22.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 112.3,
+            "bpmDelta": 10.7,
+            "energyDelta": 0.145,
+            "note": "123 to 112 BPM; energy rises 15; key estimate is advisory."
+          }
+        },
+        {
+          "position": 9,
+          "id": "../VOLHOLLA/song-unpatchedglitch-06.html",
+          "index": 26,
+          "title": "Regal Slop",
+          "album": "UNPATCHED GLITCH UNPAID GLITCH",
+          "durationSeconds": 281.24,
+          "bpm": 107.7,
+          "energyScore": 0.701,
+          "dramaScore": 0.412,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.818,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "labor",
+              "work",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.0386,
+            "neighborSimilarity": 0.1878,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/regal-slop.json",
+              "startSeconds": 72.0,
+              "excerpt": "Bow down to the labor",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-silence-11.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 107.7,
+            "bpmDelta": 4.6,
+            "energyDelta": -0.067,
+            "note": "112 to 108 BPM; energy releases 7; key estimate is advisory."
+          }
+        },
+        {
+          "position": 10,
+          "id": "../VOLHOLLA/song-betterhands-07.html",
+          "index": 51,
+          "title": "The Prompt Log Brick",
+          "album": "BETTER HANDS",
+          "durationSeconds": 143.96,
+          "bpm": 103.4,
+          "energyScore": 0.803,
+          "dramaScore": 0.489,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.81,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "prompt",
+              "service",
+              "transaction",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.115,
+            "neighborSimilarity": 0.1256,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-prompt-log-brick.json",
+              "startSeconds": 4.0,
+              "excerpt": "If the machine got that by the crawl,",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-unpatchedglitch-06.html",
+            "adjustedBpmFrom": 107.7,
+            "adjustedBpmTo": 103.4,
+            "bpmDelta": 4.3,
+            "energyDelta": 0.102,
+            "note": "108 to 103 BPM; energy rises 10; key estimate is advisory."
+          }
+        },
+        {
+          "position": 11,
+          "id": "../VOLHOLLA/song-queen-11.html",
+          "index": 58,
+          "title": "The Real Appetite",
+          "album": "QUEEN OF LIGHT",
+          "durationSeconds": 250.87,
+          "bpm": 99.4,
+          "energyScore": 0.77,
+          "dramaScore": 0.543,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.856,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "money"
+            ],
+            "lexicalSimilarity": 0.0172,
+            "neighborSimilarity": 0.171,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-real-appetite.json",
+              "startSeconds": 239.5,
+              "excerpt": "I need some corn, but I'm not gonna take away the money",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-betterhands-07.html",
+            "adjustedBpmFrom": 103.4,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 4.0,
+            "energyDelta": -0.033,
+            "note": "103 to 99 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 12,
+          "id": "../VOLHOLLA/song-nobrightstand-24.html",
+          "index": 40,
+          "title": "The Terms and Conditions of Living",
+          "album": "NO BRIGHT STAND",
+          "durationSeconds": 284.96,
+          "bpm": 99.4,
+          "energyScore": 0.829,
+          "dramaScore": 0.621,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.921,
+          "reviewRequired": false,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "terms",
+              "conditions",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.0461,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/the-terms-and-conditions-of-living.json",
+              "startSeconds": 11.0,
+              "excerpt": "You spend the next eight hours behaving exactly like a machine.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-queen-11.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.059,
+            "note": "99 to 99 BPM; energy rises 6; key estimate is advisory."
+          }
+        },
+        {
+          "position": 13,
+          "id": "../VOLHOLLA/song-executable-07.html",
+          "index": 62,
+          "title": "Sharp Edge Logic",
+          "album": "Executable Infrastructure Dub",
+          "durationSeconds": 280.13,
+          "bpm": 103.4,
+          "energyScore": 0.822,
+          "dramaScore": 0.521,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.859,
+          "reviewRequired": false,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "infrastructure"
+            ],
+            "lexicalSimilarity": 0.0204,
+            "neighborSimilarity": 0.1973,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/sharp-edge-logic.json",
+              "startSeconds": 0.0,
+              "excerpt": "I'm going to be a little bit more careful with the camera.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-nobrightstand-24.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 103.4,
+            "bpmDelta": 4.0,
+            "energyDelta": -0.007,
+            "note": "99 to 103 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 14,
+          "id": "../VOLHOLLA/song-unpatchedglitch-05.html",
+          "index": 25,
+          "title": "Crown of the Process",
+          "album": "UNPATCHED GLITCH UNPAID GLITCH",
+          "durationSeconds": 230.95,
+          "bpm": 117.5,
+          "energyScore": 0.843,
+          "dramaScore": 0.569,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.868,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "system",
+              "process",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.0335,
+            "neighborSimilarity": 0.1318,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/crown-of-the-process.json",
+              "startSeconds": 0.0,
+              "excerpt": "She got a crown and a makin', a crown that don't bend for the machine",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-executable-07.html",
+            "adjustedBpmFrom": 103.4,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 14.1,
+            "energyDelta": 0.021,
+            "note": "103 to 118 BPM; energy holds; review A to A."
+          }
+        },
+        {
+          "position": 15,
+          "id": "../VOLHOLLA/song-nobrightstand-41.html",
+          "index": 33,
+          "title": "Digital Middlemen",
+          "album": "NO BRIGHT STAND",
+          "durationSeconds": 269.12,
+          "bpm": 117.5,
+          "energyScore": 0.753,
+          "dramaScore": 0.523,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.853,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "data",
+              "digital",
+              "process",
+              "machine",
+              "power"
+            ],
+            "lexicalSimilarity": 0.0767,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/digital-middlemen.json",
+              "startSeconds": 0.0,
+              "excerpt": "You had laser eyes in your profile picture in 2021. You sold digital certificates of ugly monkeys. In",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-unpatchedglitch-05.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.09,
+            "note": "118 to 118 BPM; energy releases 9; key estimate is advisory."
+          }
+        },
+        {
+          "position": 16,
+          "id": "../VOLHOLLA/song-noservice-13.html",
+          "index": 113,
+          "title": "The Digital Purgatory",
+          "album": "NO SERVICE",
+          "durationSeconds": 116.47,
+          "bpm": 143.6,
+          "energyScore": 0.456,
+          "dramaScore": 0.514,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.814,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "digital",
+              "process",
+              "service",
+              "money",
+              "network"
+            ],
+            "lexicalSimilarity": 0.1076,
+            "neighborSimilarity": 0.1309,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-digital-purgatory.json",
+              "startSeconds": 11.4,
+              "excerpt": "Service making me want to faint",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-nobrightstand-41.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 143.6,
+            "bpmDelta": 26.1,
+            "energyDelta": -0.297,
+            "note": "118 to 144 BPM; energy releases 30; key estimate is advisory."
+          }
+        },
+        {
+          "position": 17,
+          "id": "../VOLHOLLA/song-betterhands-10.html",
+          "index": 52,
+          "title": "Visible Repair",
+          "album": "BETTER HANDS",
+          "durationSeconds": 215.02,
+          "bpm": 136.0,
+          "energyScore": 0.347,
+          "dramaScore": 0.611,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.867,
+          "reviewRequired": false,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "system",
+              "prompt",
+              "work",
+              "machine",
+              "repair"
+            ],
+            "lexicalSimilarity": 0.1016,
+            "neighborSimilarity": 0.1627,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/visible-repair.json",
+              "startSeconds": 11.0,
+              "excerpt": "Yes, good. That is the point. The shame is not the machine. The shame is the clean essay with no mud on it.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-noservice-13.html",
+            "adjustedBpmFrom": 143.6,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 7.6,
+            "energyDelta": -0.109,
+            "note": "144 to 136 BPM; energy releases 11; key estimate is advisory."
+          }
+        },
+        {
+          "position": 18,
+          "id": "../VOLHOLLA/song-sharperhands-01.html",
+          "index": 48,
+          "title": "Sharper Hands",
+          "album": "SHARPER HANDS",
+          "durationSeconds": 213.76,
+          "bpm": 136.0,
+          "energyScore": 0.117,
+          "dramaScore": 0.558,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.902,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "system",
+              "process",
+              "prompt",
+              "work",
+              "machine"
+            ],
+            "lexicalSimilarity": 0.1044,
+            "neighborSimilarity": 0.3115,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/sharper-hands.json",
+              "startSeconds": 13.12,
+              "excerpt": "a machine is wearing the student's face.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-betterhands-10.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.23,
+            "note": "136 to 136 BPM; energy releases 23; key estimate is advisory."
+          }
+        }
+      ]
+    },
+    {
+      "id": "home-is-a-signal",
+      "label": "HOME / REPAIR",
+      "title": "Home Is a Signal",
+      "thesis": "Domestic labor, kinship, grief, devotion, and repair moving from private rooms toward collective release.",
+      "status": "editorial proposal / listening review required",
+      "durationSeconds": 3761.73,
+      "trackCount": 18,
+      "voiceCounts": {
+        "lyrics-detected": 15,
+        "likely-instrumental": 3
+      },
+      "seedTrackIds": [
+        "../VOLHOLLA/song-brooklynomen-29.html",
+        "../VOLHOLLA/song-betterhands-13.html",
+        "../VOLHOLLA/song-betterhands-10.html",
+        "../VOLHOLLA/song-congregation-08.html",
+        "../VOLHOLLA/song-congregation-09.html",
+        "../VOLHOLLA/song-usblegacy-23.html"
+      ],
+      "samplingRounds": [
+        {
+          "round": 0,
+          "method": "editorial seeds",
+          "trackIds": [
+            "../VOLHOLLA/song-brooklynomen-29.html",
+            "../VOLHOLLA/song-betterhands-13.html",
+            "../VOLHOLLA/song-betterhands-10.html",
+            "../VOLHOLLA/song-congregation-08.html",
+            "../VOLHOLLA/song-congregation-09.html",
+            "../VOLHOLLA/song-usblegacy-23.html"
+          ]
+        },
+        {
+          "round": 1,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-usblegacy-22.html",
+            "../VOLHOLLA/song-nobrightstand-14.html",
+            "../VOLHOLLA/song-nobrightstand-27.html",
+            "../VOLHOLLA/song-rootresidue-06.html",
+            "../VOLHOLLA/song-museumfloor-04.html",
+            "../VOLHOLLA/song-queen-11.html"
+          ]
+        },
+        {
+          "round": 2,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-museumfloor-07.html",
+            "../VOLHOLLA/song-brooklynomen-12.html",
+            "../VOLHOLLA/song-sharperhands-01.html",
+            "../VOLHOLLA/song-abyssalcrown-11.html",
+            "../VOLHOLLA/song-silence-01.html",
+            "../VOLHOLLA/song-noservice-06.html"
+          ]
+        }
+      ],
+      "order": [
+        "../VOLHOLLA/song-museumfloor-04.html",
+        "../VOLHOLLA/song-betterhands-10.html",
+        "../VOLHOLLA/song-silence-01.html",
+        "../VOLHOLLA/song-museumfloor-07.html",
+        "../VOLHOLLA/song-usblegacy-23.html",
+        "../VOLHOLLA/song-noservice-06.html",
+        "../VOLHOLLA/song-nobrightstand-14.html",
+        "../VOLHOLLA/song-usblegacy-22.html",
+        "../VOLHOLLA/song-nobrightstand-27.html",
+        "../VOLHOLLA/song-brooklynomen-29.html",
+        "../VOLHOLLA/song-queen-11.html",
+        "../VOLHOLLA/song-betterhands-13.html",
+        "../VOLHOLLA/song-brooklynomen-12.html",
+        "../VOLHOLLA/song-abyssalcrown-11.html",
+        "../VOLHOLLA/song-rootresidue-06.html",
+        "../VOLHOLLA/song-congregation-08.html",
+        "../VOLHOLLA/song-sharperhands-01.html",
+        "../VOLHOLLA/song-congregation-09.html"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "id": "../VOLHOLLA/song-museumfloor-04.html",
+          "index": 15,
+          "title": "Enough Is a Country (1)",
+          "album": "MUSEUM FLOOR THINKING",
+          "durationSeconds": 284.96,
+          "bpm": 129.2,
+          "energyScore": 0.342,
+          "dramaScore": 0.447,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.838,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "room",
+              "light",
+              "enough",
+              "country",
+              "hunger"
+            ],
+            "lexicalSimilarity": 0.0741,
+            "neighborSimilarity": 0.0788,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/enough-is-a-country-1.json",
+              "startSeconds": 27.56,
+              "excerpt": "Had a room full of trophies, a room full of ties, a room full of people, paid acts of pride.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": null
+        },
+        {
+          "position": 2,
+          "id": "../VOLHOLLA/song-betterhands-10.html",
+          "index": 52,
+          "title": "Visible Repair",
+          "album": "BETTER HANDS",
+          "durationSeconds": 215.02,
+          "bpm": 136.0,
+          "energyScore": 0.347,
+          "dramaScore": 0.611,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.867,
+          "reviewRequired": false,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "house",
+              "room",
+              "hands",
+              "repair",
+              "water"
+            ],
+            "lexicalSimilarity": 0.0836,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/visible-repair.json",
+              "startSeconds": 0.0,
+              "excerpt": "You used AI? You used AI to make that? Like the pages still warm? Like the essay came back from a room it should not know?",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-museumfloor-04.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 6.8,
+            "energyDelta": 0.005,
+            "note": "129 to 136 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 3,
+          "id": "../VOLHOLLA/song-silence-01.html",
+          "index": 101,
+          "title": "Distance and Devotion",
+          "album": "SILENCE IN THE 757",
+          "durationSeconds": 128.78,
+          "bpm": 136.0,
+          "energyScore": 0.469,
+          "dramaScore": 0.515,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.834,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "home",
+              "room",
+              "devotion",
+              "water"
+            ],
+            "lexicalSimilarity": 0.0239,
+            "neighborSimilarity": 0.1211,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/distance-and-devotion.json",
+              "startSeconds": 27.0,
+              "excerpt": "That's the vessel through the choppy water, I ain't just a passenger",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-betterhands-10.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.122,
+            "note": "136 to 136 BPM; energy rises 12; key estimate is advisory."
+          }
+        },
+        {
+          "position": 4,
+          "id": "../VOLHOLLA/song-museumfloor-07.html",
+          "index": 17,
+          "title": "Enough Is a Country (2)",
+          "album": "MUSEUM FLOOR THINKING",
+          "durationSeconds": 255.28,
+          "bpm": 136.0,
+          "energyScore": 0.477,
+          "dramaScore": 0.444,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.837,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "room",
+              "enough",
+              "country",
+              "love"
+            ],
+            "lexicalSimilarity": 0.0578,
+            "neighborSimilarity": 0.1622,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/enough-is-a-country-2.json",
+              "startSeconds": 29.0,
+              "excerpt": "He bought the ceiling and fit the sky, cold it up and out, cycle it high, enough is enough.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-silence-01.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.008,
+            "note": "136 to 136 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 5,
+          "id": "../VOLHOLLA/song-usblegacy-23.html",
+          "index": 87,
+          "title": "Water Light Finale",
+          "album": "USB LEGACY",
+          "durationSeconds": 197.83,
+          "bpm": 117.5,
+          "energyScore": 0.436,
+          "dramaScore": 0.456,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.547,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "water",
+              "light"
+            ],
+            "lexicalSimilarity": 0.241,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-museumfloor-07.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 18.5,
+            "energyDelta": -0.041,
+            "note": "136 to 118 BPM; energy releases 4; key estimate is advisory."
+          }
+        },
+        {
+          "position": 6,
+          "id": "../VOLHOLLA/song-noservice-06.html",
+          "index": 111,
+          "title": "Honey on the Tongue",
+          "album": "NO SERVICE",
+          "durationSeconds": 168.53,
+          "bpm": 123.0,
+          "energyScore": 0.47,
+          "dramaScore": 0.503,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.804,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "home",
+              "light",
+              "love"
+            ],
+            "lexicalSimilarity": 0.0616,
+            "neighborSimilarity": 0.1446,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/honey-on-the-tongue.json",
+              "startSeconds": 41.0,
+              "excerpt": "I love the way look at me",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-23.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 5.5,
+            "energyDelta": 0.034,
+            "note": "118 to 123 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 7,
+          "id": "../VOLHOLLA/song-nobrightstand-14.html",
+          "index": 43,
+          "title": "Laundry Basket Politics",
+          "album": "NO BRIGHT STAND",
+          "durationSeconds": 270.0,
+          "bpm": 123.0,
+          "energyScore": 0.709,
+          "dramaScore": 0.629,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.773,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "house",
+              "laundry",
+              "basket",
+              "water",
+              "love"
+            ],
+            "lexicalSimilarity": 0.1361,
+            "neighborSimilarity": 0.0963,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/laundry-basket-politics.json",
+              "startSeconds": 45.0,
+              "excerpt": "You passed the Bible, pray about the devastating water consumption of the sacrifice of all.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-noservice-06.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.239,
+            "note": "123 to 123 BPM; energy rises 24; key estimate is advisory."
+          }
+        },
+        {
+          "position": 8,
+          "id": "../VOLHOLLA/song-usblegacy-22.html",
+          "index": 86,
+          "title": "Water Light Alive",
+          "album": "USB LEGACY",
+          "durationSeconds": 214.74,
+          "bpm": 117.5,
+          "energyScore": 0.73,
+          "dramaScore": 0.631,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.776,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "room",
+              "hands",
+              "water",
+              "light",
+              "alive"
+            ],
+            "lexicalSimilarity": 0.2533,
+            "neighborSimilarity": 0.2693,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/water-light-alive.json",
+              "startSeconds": 72.44,
+              "excerpt": "Breaking, coming to an end",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-nobrightstand-14.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 5.5,
+            "energyDelta": 0.021,
+            "note": "123 to 118 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 9,
+          "id": "../VOLHOLLA/song-nobrightstand-27.html",
+          "index": 39,
+          "title": "Bandwidth (A Laundry Basket Epiphany)",
+          "album": "NO BRIGHT STAND",
+          "durationSeconds": 196.53,
+          "bpm": 123.0,
+          "energyScore": 0.825,
+          "dramaScore": 0.539,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.862,
+          "reviewRequired": false,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "home",
+              "table",
+              "laundry",
+              "basket",
+              "domestic"
+            ],
+            "lexicalSimilarity": 0.146,
+            "neighborSimilarity": 0.0714,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/bandwidth-a-laundry-basket-epiphany.json",
+              "startSeconds": 21.52,
+              "excerpt": "You place it prominently on your coffee table so guests know you are deep.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-22.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 5.5,
+            "energyDelta": 0.095,
+            "note": "118 to 123 BPM; energy rises 9; key estimate is advisory."
+          }
+        },
+        {
+          "position": 10,
+          "id": "../VOLHOLLA/song-brooklynomen-29.html",
+          "index": 1,
+          "title": "Sanctuary After the Breaking",
+          "album": "BROOKLYN OMEN",
+          "durationSeconds": 284.96,
+          "bpm": 143.6,
+          "energyScore": 0.709,
+          "dramaScore": 0.512,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.853,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "house",
+              "kitchen",
+              "family",
+              "mother",
+              "father"
+            ],
+            "lexicalSimilarity": 0.1669,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/sanctuary-after-the-breaking.json",
+              "startSeconds": 0.0,
+              "excerpt": "Father, can you hear me, Lord, please look down and see me.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-nobrightstand-27.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 143.6,
+            "bpmDelta": 20.6,
+            "energyDelta": -0.116,
+            "note": "123 to 144 BPM; energy releases 12; key estimate is advisory."
+          }
+        },
+        {
+          "position": 11,
+          "id": "../VOLHOLLA/song-queen-11.html",
+          "index": 58,
+          "title": "The Real Appetite",
+          "album": "QUEEN OF LIGHT",
+          "durationSeconds": 250.87,
+          "bpm": 99.4,
+          "energyScore": 0.77,
+          "dramaScore": 0.543,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.856,
+          "reviewRequired": false,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "room",
+              "table",
+              "father",
+              "memory",
+              "light"
+            ],
+            "lexicalSimilarity": 0.1158,
+            "neighborSimilarity": 0.134,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-real-appetite.json",
+              "startSeconds": 0.0,
+              "excerpt": "White room is on a silver plate",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-brooklynomen-29.html",
+            "adjustedBpmFrom": 143.6,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 44.2,
+            "energyDelta": 0.061,
+            "note": "144 to 99 BPM; energy rises 6; key estimate is advisory."
+          }
+        },
+        {
+          "position": 12,
+          "id": "../VOLHOLLA/song-betterhands-13.html",
+          "index": 53,
+          "title": "Appliance Prayer",
+          "album": "BETTER HANDS",
+          "durationSeconds": 284.96,
+          "bpm": 92.3,
+          "energyScore": 0.732,
+          "dramaScore": 0.627,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.826,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "house",
+              "room",
+              "hands",
+              "prayer",
+              "light"
+            ],
+            "lexicalSimilarity": 0.1094,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/appliance-prayer.json",
+              "startSeconds": 30.72,
+              "excerpt": "In a house that's breathing even when we're frozen by the year",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-queen-11.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 92.3,
+            "bpmDelta": 7.1,
+            "energyDelta": -0.038,
+            "note": "99 to 92 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 13,
+          "id": "../VOLHOLLA/song-brooklynomen-12.html",
+          "index": 3,
+          "title": "Four Voices One Table",
+          "album": "BROOKLYN OMEN",
+          "durationSeconds": 283.93,
+          "bpm": 172.3,
+          "energyScore": 0.305,
+          "dramaScore": 0.478,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.799,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "table",
+              "light"
+            ],
+            "lexicalSimilarity": 0.0619,
+            "neighborSimilarity": 0.1803,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/four-voices-one-table.json",
+              "startSeconds": 225.0,
+              "excerpt": "There's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, there's a light, th",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-betterhands-13.html",
+            "adjustedBpmFrom": 92.3,
+            "adjustedBpmTo": 86.2,
+            "bpmDelta": 6.1,
+            "energyDelta": -0.427,
+            "note": "92 to 86 BPM; energy releases 43; key estimate is advisory."
+          }
+        },
+        {
+          "position": 14,
+          "id": "../VOLHOLLA/song-abyssalcrown-11.html",
+          "index": 22,
+          "title": "Camera Roll Grief",
+          "album": "THE ABYSSAL CROWN",
+          "durationSeconds": 35.85,
+          "bpm": 95.7,
+          "energyScore": 0.397,
+          "dramaScore": 0.579,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.7,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "grief"
+            ],
+            "lexicalSimilarity": 0.1059,
+            "neighborSimilarity": 0.012,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-brooklynomen-12.html",
+            "adjustedBpmFrom": 86.2,
+            "adjustedBpmTo": 95.7,
+            "bpmDelta": 9.5,
+            "energyDelta": 0.092,
+            "note": "86 to 96 BPM; energy rises 9; key estimate is advisory."
+          }
+        },
+        {
+          "position": 15,
+          "id": "../VOLHOLLA/song-rootresidue-06.html",
+          "index": 55,
+          "title": "Living Room Queen",
+          "album": "ROOT AND RESIDUE",
+          "durationSeconds": 280.82,
+          "bpm": 112.3,
+          "energyScore": 0.3,
+          "dramaScore": 0.448,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.823,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "home",
+              "room",
+              "table",
+              "mother",
+              "love"
+            ],
+            "lexicalSimilarity": 0.1232,
+            "neighborSimilarity": 0.0528,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/living-room-queen.json",
+              "startSeconds": 77.2,
+              "excerpt": "Home",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-abyssalcrown-11.html",
+            "adjustedBpmFrom": 95.7,
+            "adjustedBpmTo": 112.3,
+            "bpmDelta": 16.6,
+            "energyDelta": -0.097,
+            "note": "96 to 112 BPM; energy releases 10; key estimate is advisory."
+          }
+        },
+        {
+          "position": 16,
+          "id": "../VOLHOLLA/song-congregation-08.html",
+          "index": 78,
+          "title": "Homebound Loop",
+          "album": "THE GREAT CONGREGATION",
+          "durationSeconds": 136.12,
+          "bpm": 123.0,
+          "energyScore": 0.196,
+          "dramaScore": 0.416,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.865,
+          "reviewRequired": false,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "home",
+              "mother",
+              "father",
+              "child"
+            ],
+            "lexicalSimilarity": 0.1259,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/homebound-loop.json",
+              "startSeconds": 0.0,
+              "excerpt": "All dust in my child lungs, dead paths and the highway heat,",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-rootresidue-06.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 10.7,
+            "energyDelta": -0.104,
+            "note": "112 to 123 BPM; energy releases 10; key estimate is advisory."
+          }
+        },
+        {
+          "position": 17,
+          "id": "../VOLHOLLA/song-sharperhands-01.html",
+          "index": 48,
+          "title": "Sharper Hands",
+          "album": "SHARPER HANDS",
+          "durationSeconds": 213.76,
+          "bpm": 136.0,
+          "energyScore": 0.117,
+          "dramaScore": 0.558,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.902,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "room",
+              "hands",
+              "repair",
+              "light"
+            ],
+            "lexicalSimilarity": 0.0507,
+            "neighborSimilarity": 0.2367,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/sharper-hands.json",
+              "startSeconds": 81.96,
+              "excerpt": "Cut the branch, move the light, name the mold, stake the stem, plant again.",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-congregation-08.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 13.0,
+            "energyDelta": -0.079,
+            "note": "123 to 136 BPM; energy releases 8; key estimate is advisory."
+          }
+        },
+        {
+          "position": 18,
+          "id": "../VOLHOLLA/song-congregation-09.html",
+          "index": 79,
+          "title": "Kitchen Prep at Dawn",
+          "album": "THE GREAT CONGREGATION",
+          "durationSeconds": 58.79,
+          "bpm": 136.0,
+          "energyScore": 0.049,
+          "dramaScore": 0.385,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.653,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "kitchen"
+            ],
+            "lexicalSimilarity": 0.1039,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-sharperhands-01.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.068,
+            "note": "136 to 136 BPM; energy releases 7; key estimate is advisory."
+          }
+        }
+      ]
+    },
+    {
+      "id": "borderless-cypher",
+      "label": "BORDERLESS CYPHER",
+      "title": "Borderless Cypher",
+      "thesis": "Ancestral rhythm, migration, language, and neighborhood movement crossing the Andes, Atlantic, and city blocks.",
+      "status": "editorial proposal / listening review required",
+      "durationSeconds": 3339.46,
+      "trackCount": 18,
+      "voiceCounts": {
+        "likely-instrumental": 10,
+        "lyrics-detected": 8
+      },
+      "seedTrackIds": [
+        "../VOLHOLLA/song-cypher-19.html",
+        "../VOLHOLLA/song-sunfadedghosts-05.html",
+        "../VOLHOLLA/song-sunfadedghosts-06.html",
+        "../VOLHOLLA/song-sunfadedghosts-08.html",
+        "../VOLHOLLA/song-congregation-10.html",
+        "../VOLHOLLA/song-ghost-10.html"
+      ],
+      "samplingRounds": [
+        {
+          "round": 0,
+          "method": "editorial seeds",
+          "trackIds": [
+            "../VOLHOLLA/song-cypher-19.html",
+            "../VOLHOLLA/song-sunfadedghosts-05.html",
+            "../VOLHOLLA/song-sunfadedghosts-06.html",
+            "../VOLHOLLA/song-sunfadedghosts-08.html",
+            "../VOLHOLLA/song-congregation-10.html",
+            "../VOLHOLLA/song-ghost-10.html"
+          ]
+        },
+        {
+          "round": 1,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-cypher-16.html",
+            "../VOLHOLLA/song-cypher-18.html",
+            "../VOLHOLLA/song-concreto-04.html",
+            "../VOLHOLLA/song-blackwater-22.html",
+            "../VOLHOLLA/song-usblegacy-11.html",
+            "../VOLHOLLA/song-concreto-13.html"
+          ]
+        },
+        {
+          "round": 2,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-usblegacy-04.html",
+            "../VOLHOLLA/song-usblegacy-21.html",
+            "../VOLHOLLA/song-truthrhythm-04.html",
+            "../VOLHOLLA/song-maquina-34.html",
+            "../VOLHOLLA/song-dustrest-10.html",
+            "../VOLHOLLA/song-globalstadium-10.html"
+          ]
+        }
+      ],
+      "order": [
+        "../VOLHOLLA/song-cypher-16.html",
+        "../VOLHOLLA/song-globalstadium-10.html",
+        "../VOLHOLLA/song-cypher-18.html",
+        "../VOLHOLLA/song-maquina-34.html",
+        "../VOLHOLLA/song-cypher-19.html",
+        "../VOLHOLLA/song-blackwater-22.html",
+        "../VOLHOLLA/song-dustrest-10.html",
+        "../VOLHOLLA/song-congregation-10.html",
+        "../VOLHOLLA/song-sunfadedghosts-06.html",
+        "../VOLHOLLA/song-concreto-13.html",
+        "../VOLHOLLA/song-sunfadedghosts-05.html",
+        "../VOLHOLLA/song-usblegacy-04.html",
+        "../VOLHOLLA/song-sunfadedghosts-08.html",
+        "../VOLHOLLA/song-truthrhythm-04.html",
+        "../VOLHOLLA/song-ghost-10.html",
+        "../VOLHOLLA/song-usblegacy-11.html",
+        "../VOLHOLLA/song-concreto-04.html",
+        "../VOLHOLLA/song-usblegacy-21.html"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "id": "../VOLHOLLA/song-cypher-16.html",
+          "index": 92,
+          "title": "Resiliencia Rítmica (Del Altiplano al Bronx)",
+          "album": "CYPHER MIXTAPE",
+          "durationSeconds": 114.71,
+          "bpm": 89.1,
+          "energyScore": 0.253,
+          "dramaScore": 0.531,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.611,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "cypher",
+              "altiplano",
+              "bronx"
+            ],
+            "lexicalSimilarity": 0.1876,
+            "neighborSimilarity": 0.1686,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": null
+        },
+        {
+          "position": 2,
+          "id": "../VOLHOLLA/song-globalstadium-10.html",
+          "index": 10,
+          "title": "Ten on the Back (2)",
+          "album": "GLOBAL STADIUM SUNSHINE",
+          "durationSeconds": 194.63,
+          "bpm": 99.4,
+          "energyScore": 0.304,
+          "dramaScore": 0.457,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.781,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "stadium",
+              "street"
+            ],
+            "lexicalSimilarity": 0.0708,
+            "neighborSimilarity": 0.0447,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/ten-on-the-back-2.json",
+              "startSeconds": 78.18,
+              "excerpt": "The stadium rolls like a wave",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-cypher-16.html",
+            "adjustedBpmFrom": 89.1,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 10.3,
+            "energyDelta": 0.051,
+            "note": "89 to 99 BPM; energy rises 5; key estimate is advisory."
+          }
+        },
+        {
+          "position": 3,
+          "id": "../VOLHOLLA/song-cypher-18.html",
+          "index": 93,
+          "title": "Stone and Concrete Spirit",
+          "album": "CYPHER MIXTAPE",
+          "durationSeconds": 99.29,
+          "bpm": 99.4,
+          "energyScore": 0.518,
+          "dramaScore": 0.575,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.634,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "cypher",
+              "concrete"
+            ],
+            "lexicalSimilarity": 0.195,
+            "neighborSimilarity": 0.1794,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-globalstadium-10.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.214,
+            "note": "99 to 99 BPM; energy rises 21; key estimate is advisory."
+          }
+        },
+        {
+          "position": 4,
+          "id": "../VOLHOLLA/song-maquina-34.html",
+          "index": 71,
+          "title": "اتقان المحارب (Warrior's Mastery)",
+          "album": "MÁQUINA DE GUERRA",
+          "durationSeconds": 178.52,
+          "bpm": 103.4,
+          "energyScore": 0.501,
+          "dramaScore": 0.427,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.801,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "warrior"
+            ],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 0.0103,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/warrior-s-mastery.json",
+              "startSeconds": 0.0,
+              "excerpt": "تيبّن أعاق",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-cypher-18.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 103.4,
+            "bpmDelta": 4.0,
+            "energyDelta": -0.017,
+            "note": "99 to 103 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 5,
+          "id": "../VOLHOLLA/song-cypher-19.html",
+          "index": 7,
+          "title": "The Cypher of the Andes",
+          "album": "CYPHER MIXTAPE",
+          "durationSeconds": 174.01,
+          "bpm": 95.7,
+          "energyScore": 0.576,
+          "dramaScore": 0.56,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.559,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "cypher",
+              "andes"
+            ],
+            "lexicalSimilarity": 0.1656,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-maquina-34.html",
+            "adjustedBpmFrom": 103.4,
+            "adjustedBpmTo": 95.7,
+            "bpmDelta": 7.7,
+            "energyDelta": 0.075,
+            "note": "103 to 96 BPM; energy rises 7; key estimate is advisory."
+          }
+        },
+        {
+          "position": 6,
+          "id": "../VOLHOLLA/song-blackwater-22.html",
+          "index": 65,
+          "title": "Vinilo de Sangre y Sal",
+          "album": "BLACK WATER RUN",
+          "durationSeconds": 157.11,
+          "bpm": 112.3,
+          "energyScore": 0.633,
+          "dramaScore": 0.411,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.57,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "sangre"
+            ],
+            "lexicalSimilarity": 0.1659,
+            "neighborSimilarity": 0.0,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-cypher-19.html",
+            "adjustedBpmFrom": 95.7,
+            "adjustedBpmTo": 112.3,
+            "bpmDelta": 16.6,
+            "energyDelta": 0.057,
+            "note": "96 to 112 BPM; energy rises 6; key estimate is advisory."
+          }
+        },
+        {
+          "position": 7,
+          "id": "../VOLHOLLA/song-dustrest-10.html",
+          "index": 12,
+          "title": "Non-Abiding Flow",
+          "album": "WHERE CAN DUST REST",
+          "durationSeconds": 206.19,
+          "bpm": 123.0,
+          "energyScore": 0.564,
+          "dramaScore": 0.456,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.544,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "flow"
+            ],
+            "lexicalSimilarity": 0.1352,
+            "neighborSimilarity": 0.0196,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-blackwater-22.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 10.7,
+            "energyDelta": -0.069,
+            "note": "112 to 123 BPM; energy releases 7; key estimate is advisory."
+          }
+        },
+        {
+          "position": 8,
+          "id": "../VOLHOLLA/song-congregation-10.html",
+          "index": 80,
+          "title": "Malian Pulse",
+          "album": "THE GREAT CONGREGATION",
+          "durationSeconds": 144.89,
+          "bpm": 123.0,
+          "energyScore": 0.531,
+          "dramaScore": 0.446,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.753,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "pulse",
+              "street"
+            ],
+            "lexicalSimilarity": 0.0667,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/malian-pulse.json",
+              "startSeconds": 18.0,
+              "excerpt": "I am street, road to many keys, travel in the morning and listen to the morning and songs, do stories, do tell you all the thoughts of the moon",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-dustrest-10.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.033,
+            "note": "123 to 123 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 9,
+          "id": "../VOLHOLLA/song-sunfadedghosts-06.html",
+          "index": 19,
+          "title": "Lisbon Kuduro Voltage",
+          "album": "SUN-FADED GHOSTS",
+          "durationSeconds": 249.01,
+          "bpm": 117.5,
+          "energyScore": 0.802,
+          "dramaScore": 0.614,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.529,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "kuduro",
+              "voltage"
+            ],
+            "lexicalSimilarity": 0.1779,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-congregation-10.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 5.5,
+            "energyDelta": 0.271,
+            "note": "123 to 118 BPM; energy rises 27; key estimate is advisory."
+          }
+        },
+        {
+          "position": 10,
+          "id": "../VOLHOLLA/song-concreto-13.html",
+          "index": 97,
+          "title": "Arquitectura Anti-Gris",
+          "album": "CONCRETO",
+          "durationSeconds": 170.71,
+          "bpm": 117.5,
+          "energyScore": 0.829,
+          "dramaScore": 0.671,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.816,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "barrio"
+            ],
+            "lexicalSimilarity": 0.0283,
+            "neighborSimilarity": 0.1734,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/arquitectura-anti-gris.json",
+              "startSeconds": 0.0,
+              "excerpt": "la bota golpea al cemento, latas de spray agita al pigmento, tengo el plano, tengo el mando, no pinto cara, estoy reprogramando, ehi gris intenta volver, pero el color es la hierro de un rey en el barrio, soy el disay de la",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-sunfadedghosts-06.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.027,
+            "note": "118 to 118 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 11,
+          "id": "../VOLHOLLA/song-sunfadedghosts-05.html",
+          "index": 18,
+          "title": "Favela Footwork Circuit (1)",
+          "album": "SUN-FADED GHOSTS",
+          "durationSeconds": 254.68,
+          "bpm": 129.2,
+          "energyScore": 0.719,
+          "dramaScore": 0.692,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.648,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "favela"
+            ],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/favela-footwork-circuit-1.json",
+              "startSeconds": 30.0,
+              "excerpt": "One, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, one, ",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-concreto-13.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 11.7,
+            "energyDelta": -0.11,
+            "note": "118 to 129 BPM; energy releases 11; key estimate is advisory."
+          }
+        },
+        {
+          "position": 12,
+          "id": "../VOLHOLLA/song-usblegacy-04.html",
+          "index": 83,
+          "title": "Corazoncito (Stadium Love)",
+          "album": "USB LEGACY",
+          "durationSeconds": 174.47,
+          "bpm": 129.2,
+          "energyScore": 0.349,
+          "dramaScore": 0.64,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.559,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "stadium"
+            ],
+            "lexicalSimilarity": 0.168,
+            "neighborSimilarity": 0.0913,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-sunfadedghosts-05.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.37,
+            "note": "129 to 129 BPM; energy releases 37; key estimate is advisory."
+          }
+        },
+        {
+          "position": 13,
+          "id": "../VOLHOLLA/song-sunfadedghosts-08.html",
+          "index": 20,
+          "title": "Passinho das Quadras",
+          "album": "SUN-FADED GHOSTS",
+          "durationSeconds": 218.55,
+          "bpm": 136.0,
+          "energyScore": 0.467,
+          "dramaScore": 0.526,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.764,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "passinho"
+            ],
+            "lexicalSimilarity": 0.0432,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/passinho-das-quadras.json",
+              "startSeconds": 0.0,
+              "excerpt": "Bóndam y estoy como mandando las údidas pasiones en la boca",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-04.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 6.8,
+            "energyDelta": 0.118,
+            "note": "129 to 136 BPM; energy rises 12; key estimate is advisory."
+          }
+        },
+        {
+          "position": 14,
+          "id": "../VOLHOLLA/song-truthrhythm-04.html",
+          "index": 5,
+          "title": "Blundstones on the Street",
+          "album": "TRUTH TO THE RHYTHM",
+          "durationSeconds": 121.02,
+          "bpm": 143.6,
+          "energyScore": 0.694,
+          "dramaScore": 0.561,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.854,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "rhythm",
+              "street"
+            ],
+            "lexicalSimilarity": 0.0921,
+            "neighborSimilarity": 0.0358,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/blundstones-on-the-street.json",
+              "startSeconds": 31.2,
+              "excerpt": "Sun on the street two names together and boots on their feet",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-sunfadedghosts-08.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 143.6,
+            "bpmDelta": 7.6,
+            "energyDelta": 0.227,
+            "note": "136 to 144 BPM; energy rises 23; key estimate is advisory."
+          }
+        },
+        {
+          "position": 15,
+          "id": "../VOLHOLLA/song-ghost-10.html",
+          "index": 121,
+          "title": "GPU Azmari Flow",
+          "album": "GHOST IN THE WIRES",
+          "durationSeconds": 256.21,
+          "bpm": 152.0,
+          "energyScore": 0.652,
+          "dramaScore": 0.499,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.722,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "flow"
+            ],
+            "lexicalSimilarity": 0.0364,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/gpu-azmari-flow.json",
+              "startSeconds": 0.0,
+              "excerpt": "Ia vărebăre, Ia vărebăre, ce mă ce?",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-truthrhythm-04.html",
+            "adjustedBpmFrom": 143.6,
+            "adjustedBpmTo": 152.0,
+            "bpmDelta": 8.4,
+            "energyDelta": -0.042,
+            "note": "144 to 152 BPM; energy releases 4; key estimate is advisory."
+          }
+        },
+        {
+          "position": 16,
+          "id": "../VOLHOLLA/song-usblegacy-11.html",
+          "index": 84,
+          "title": "Óxido y Sangre (El Abrazo)",
+          "album": "USB LEGACY",
+          "durationSeconds": 176.01,
+          "bpm": 78.3,
+          "energyScore": 0.351,
+          "dramaScore": 0.565,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.558,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "sangre"
+            ],
+            "lexicalSimilarity": 0.157,
+            "neighborSimilarity": 0.0842,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-ghost-10.html",
+            "adjustedBpmFrom": 76.0,
+            "adjustedBpmTo": 78.3,
+            "bpmDelta": 2.3,
+            "energyDelta": -0.301,
+            "note": "76 to 78 BPM; energy releases 30; key estimate is advisory."
+          }
+        },
+        {
+          "position": 17,
+          "id": "../VOLHOLLA/song-concreto-04.html",
+          "index": 94,
+          "title": "Sangre y Zinc",
+          "album": "CONCRETO",
+          "durationSeconds": 284.96,
+          "bpm": 89.1,
+          "energyScore": 0.17,
+          "dramaScore": 0.48,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.742,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "barrio",
+              "sangre",
+              "zinc"
+            ],
+            "lexicalSimilarity": 0.0704,
+            "neighborSimilarity": 0.2063,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/sangre-y-zinc.json",
+              "startSeconds": 83.32,
+              "excerpt": "Barrio, gente pra va",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-11.html",
+            "adjustedBpmFrom": 78.3,
+            "adjustedBpmTo": 89.1,
+            "bpmDelta": 10.8,
+            "energyDelta": -0.181,
+            "note": "78 to 89 BPM; energy releases 18; review A# to A#."
+          }
+        },
+        {
+          "position": 18,
+          "id": "../VOLHOLLA/song-usblegacy-21.html",
+          "index": 85,
+          "title": "Tribal Stadium Catharsis",
+          "album": "USB LEGACY",
+          "durationSeconds": 164.49,
+          "bpm": 123.0,
+          "energyScore": 0.268,
+          "dramaScore": 0.515,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.565,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "stadium"
+            ],
+            "lexicalSimilarity": 0.1867,
+            "neighborSimilarity": 0.0752,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-concreto-04.html",
+            "adjustedBpmFrom": 89.1,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 33.9,
+            "energyDelta": 0.098,
+            "note": "89 to 123 BPM; energy rises 10; key estimate is advisory."
+          }
+        }
+      ]
+    },
+    {
+      "id": "pressure-to-release",
+      "label": "PRESSURE / RELEASE",
+      "title": "Pressure to Release",
+      "thesis": "A late-room arc from compressed tension through impact, survival, and a controlled cathartic landing.",
+      "status": "editorial proposal / listening review required",
+      "durationSeconds": 3644.92,
+      "trackCount": 18,
+      "voiceCounts": {
+        "likely-instrumental": 8,
+        "lyrics-detected": 10
+      },
+      "seedTrackIds": [
+        "../VOLHOLLA/song-neon-05.html",
+        "../VOLHOLLA/song-unpatchedglitch-17.html",
+        "../VOLHOLLA/song-usblegacy-03.html",
+        "../VOLHOLLA/song-concreto-13.html",
+        "../VOLHOLLA/song-noservice-10.html",
+        "../VOLHOLLA/song-mallmezzanine-22.html"
+      ],
+      "samplingRounds": [
+        {
+          "round": 0,
+          "method": "editorial seeds",
+          "trackIds": [
+            "../VOLHOLLA/song-neon-05.html",
+            "../VOLHOLLA/song-unpatchedglitch-17.html",
+            "../VOLHOLLA/song-usblegacy-03.html",
+            "../VOLHOLLA/song-concreto-13.html",
+            "../VOLHOLLA/song-noservice-10.html",
+            "../VOLHOLLA/song-mallmezzanine-22.html"
+          ]
+        },
+        {
+          "round": 1,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-usblegacy-22.html",
+            "../VOLHOLLA/song-usblegacy-23.html",
+            "../VOLHOLLA/song-blackwater-20.html",
+            "../VOLHOLLA/song-unpatchedglitch-15.html",
+            "../VOLHOLLA/song-queen-17.html",
+            "../VOLHOLLA/song-blackwater-01.html"
+          ]
+        },
+        {
+          "round": 2,
+          "method": "TF-IDF seed-centroid snowball",
+          "trackIds": [
+            "../VOLHOLLA/song-throne-04.html",
+            "../VOLHOLLA/song-blackwater-22.html",
+            "../VOLHOLLA/song-abyssalcrown-17.html",
+            "../VOLHOLLA/song-event-03.html",
+            "../VOLHOLLA/song-queen-11.html",
+            "../VOLHOLLA/song-brooklynomen-12.html"
+          ]
+        }
+      ],
+      "order": [
+        "../VOLHOLLA/song-usblegacy-23.html",
+        "../VOLHOLLA/song-throne-04.html",
+        "../VOLHOLLA/song-event-03.html",
+        "../VOLHOLLA/song-blackwater-20.html",
+        "../VOLHOLLA/song-noservice-10.html",
+        "../VOLHOLLA/song-unpatchedglitch-15.html",
+        "../VOLHOLLA/song-blackwater-01.html",
+        "../VOLHOLLA/song-usblegacy-22.html",
+        "../VOLHOLLA/song-blackwater-22.html",
+        "../VOLHOLLA/song-queen-11.html",
+        "../VOLHOLLA/song-abyssalcrown-17.html",
+        "../VOLHOLLA/song-concreto-13.html",
+        "../VOLHOLLA/song-usblegacy-03.html",
+        "../VOLHOLLA/song-neon-05.html",
+        "../VOLHOLLA/song-unpatchedglitch-17.html",
+        "../VOLHOLLA/song-mallmezzanine-22.html",
+        "../VOLHOLLA/song-brooklynomen-12.html",
+        "../VOLHOLLA/song-queen-17.html"
+      ],
+      "tracks": [
+        {
+          "position": 1,
+          "id": "../VOLHOLLA/song-usblegacy-23.html",
+          "index": 87,
+          "title": "Water Light Finale",
+          "album": "USB LEGACY",
+          "durationSeconds": 197.83,
+          "bpm": 117.5,
+          "energyScore": 0.436,
+          "dramaScore": 0.456,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.547,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "water",
+              "light"
+            ],
+            "lexicalSimilarity": 0.2759,
+            "neighborSimilarity": 0.2161,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": null
+        },
+        {
+          "position": 2,
+          "id": "../VOLHOLLA/song-throne-04.html",
+          "index": 107,
+          "title": "Gritty Mat Struggle",
+          "album": "THRONE OF ASH",
+          "durationSeconds": 141.08,
+          "bpm": 129.2,
+          "energyScore": 0.393,
+          "dramaScore": 0.48,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.86,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "static",
+              "survival",
+              "struggle",
+              "blood",
+              "light"
+            ],
+            "lexicalSimilarity": 0.143,
+            "neighborSimilarity": 0.0958,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/gritty-mat-struggle.json",
+              "startSeconds": 17.0,
+              "excerpt": "Blood drips on the new beat",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-23.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 11.7,
+            "energyDelta": -0.043,
+            "note": "118 to 129 BPM; energy releases 4; key estimate is advisory."
+          }
+        },
+        {
+          "position": 3,
+          "id": "../VOLHOLLA/song-event-03.html",
+          "index": 105,
+          "title": "Steel & Static — The 2 AM Express",
+          "album": "EVENT HORIZON DISCOVERY",
+          "durationSeconds": 115.73,
+          "bpm": 129.2,
+          "energyScore": 0.381,
+          "dramaScore": 0.389,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.609,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "steel",
+              "static"
+            ],
+            "lexicalSimilarity": 0.23,
+            "neighborSimilarity": 0.0,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-throne-04.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.012,
+            "note": "129 to 129 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 4,
+          "id": "../VOLHOLLA/song-blackwater-20.html",
+          "index": 64,
+          "title": "The Shadow of the Alley",
+          "album": "BLACK WATER RUN",
+          "durationSeconds": 175.36,
+          "bpm": 136.0,
+          "energyScore": 0.514,
+          "dramaScore": 0.351,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.559,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "water",
+              "shadow"
+            ],
+            "lexicalSimilarity": 0.1518,
+            "neighborSimilarity": 0.0035,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-event-03.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 136.0,
+            "bpmDelta": 6.8,
+            "energyDelta": 0.133,
+            "note": "129 to 136 BPM; energy rises 13; key estimate is advisory."
+          }
+        },
+        {
+          "position": 5,
+          "id": "../VOLHOLLA/song-noservice-10.html",
+          "index": 112,
+          "title": "Port-Out Ransom",
+          "album": "NO SERVICE",
+          "durationSeconds": 138.95,
+          "bpm": 129.2,
+          "energyScore": 0.593,
+          "dramaScore": 0.62,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.845,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "ransom"
+            ],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/port-out-ransom.json",
+              "startSeconds": 80.6,
+              "excerpt": "Holding my number for ransom",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-blackwater-20.html",
+            "adjustedBpmFrom": 136.0,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 6.8,
+            "energyDelta": 0.079,
+            "note": "136 to 129 BPM; energy rises 8; key estimate is advisory."
+          }
+        },
+        {
+          "position": 6,
+          "id": "../VOLHOLLA/song-unpatchedglitch-15.html",
+          "index": 28,
+          "title": "Velvet Gate Panic",
+          "album": "UNPATCHED GLITCH UNPAID GLITCH",
+          "durationSeconds": 268.05,
+          "bpm": 123.0,
+          "energyScore": 0.568,
+          "dramaScore": 0.428,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.836,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "panic",
+              "survival",
+              "struggle",
+              "crown",
+              "king"
+            ],
+            "lexicalSimilarity": 0.0898,
+            "neighborSimilarity": 0.1317,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/velvet-gate-panic.json",
+              "startSeconds": 9.92,
+              "excerpt": "Slop king, illness, crowned slightly cooked Face full of crumbs, but the ledger got booked",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-noservice-10.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 6.2,
+            "energyDelta": -0.025,
+            "note": "129 to 123 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 7,
+          "id": "../VOLHOLLA/song-blackwater-01.html",
+          "index": 11,
+          "title": "A Chinese Good Man (Main Theme)",
+          "album": "BLACK WATER RUN",
+          "durationSeconds": 76.67,
+          "bpm": 123.0,
+          "energyScore": 0.703,
+          "dramaScore": 0.469,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.649,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "water"
+            ],
+            "lexicalSimilarity": 0.0382,
+            "neighborSimilarity": 0.0285,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-unpatchedglitch-15.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 123.0,
+            "bpmDelta": 0.0,
+            "energyDelta": 0.135,
+            "note": "123 to 123 BPM; energy rises 14; key estimate is advisory."
+          }
+        },
+        {
+          "position": 8,
+          "id": "../VOLHOLLA/song-usblegacy-22.html",
+          "index": 86,
+          "title": "Water Light Alive",
+          "album": "USB LEGACY",
+          "durationSeconds": 214.74,
+          "bpm": 117.5,
+          "energyScore": 0.73,
+          "dramaScore": 0.631,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.776,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "water",
+              "light",
+              "alive",
+              "night"
+            ],
+            "lexicalSimilarity": 0.2197,
+            "neighborSimilarity": 0.1213,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/water-light-alive.json",
+              "startSeconds": 68.44,
+              "excerpt": "Learning how to be a friend all night",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-blackwater-01.html",
+            "adjustedBpmFrom": 123.0,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 5.5,
+            "energyDelta": 0.027,
+            "note": "123 to 118 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 9,
+          "id": "../VOLHOLLA/song-blackwater-22.html",
+          "index": 65,
+          "title": "Vinilo de Sangre y Sal",
+          "album": "BLACK WATER RUN",
+          "durationSeconds": 157.11,
+          "bpm": 112.3,
+          "energyScore": 0.633,
+          "dramaScore": 0.411,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.57,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "water"
+            ],
+            "lexicalSimilarity": 0.0409,
+            "neighborSimilarity": 0.267,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-22.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 112.3,
+            "bpmDelta": 5.2,
+            "energyDelta": -0.097,
+            "note": "118 to 112 BPM; energy releases 10; key estimate is advisory."
+          }
+        },
+        {
+          "position": 10,
+          "id": "../VOLHOLLA/song-queen-11.html",
+          "index": 58,
+          "title": "The Real Appetite",
+          "album": "QUEEN OF LIGHT",
+          "durationSeconds": 250.87,
+          "bpm": 99.4,
+          "energyScore": 0.77,
+          "dramaScore": 0.543,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.856,
+          "reviewRequired": false,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "blood",
+              "light"
+            ],
+            "lexicalSimilarity": 0.0616,
+            "neighborSimilarity": 0.0981,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/the-real-appetite.json",
+              "startSeconds": 37.8,
+              "excerpt": "Give me the blood, give me the flesh",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-blackwater-22.html",
+            "adjustedBpmFrom": 112.3,
+            "adjustedBpmTo": 99.4,
+            "bpmDelta": 12.9,
+            "energyDelta": 0.137,
+            "note": "112 to 99 BPM; energy rises 14; key estimate is advisory."
+          }
+        },
+        {
+          "position": 11,
+          "id": "../VOLHOLLA/song-abyssalcrown-17.html",
+          "index": 23,
+          "title": "The North Borders Breath",
+          "album": "THE ABYSSAL CROWN",
+          "durationSeconds": 238.98,
+          "bpm": 107.7,
+          "energyScore": 0.892,
+          "dramaScore": 0.606,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.532,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "crown"
+            ],
+            "lexicalSimilarity": 0.0449,
+            "neighborSimilarity": 0.0931,
+            "basis": "snowball neighbor",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-queen-11.html",
+            "adjustedBpmFrom": 99.4,
+            "adjustedBpmTo": 107.7,
+            "bpmDelta": 8.3,
+            "energyDelta": 0.122,
+            "note": "99 to 108 BPM; energy rises 12; key estimate is advisory."
+          }
+        },
+        {
+          "position": 12,
+          "id": "../VOLHOLLA/song-concreto-13.html",
+          "index": 97,
+          "title": "Arquitectura Anti-Gris",
+          "album": "CONCRETO",
+          "durationSeconds": 170.71,
+          "bpm": 117.5,
+          "energyScore": 0.829,
+          "dramaScore": 0.671,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.816,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/arquitectura-anti-gris.json",
+              "startSeconds": 0.0,
+              "excerpt": "la bota golpea al cemento, latas de spray agita al pigmento, tengo el plano, tengo el mando, no pinto cara, estoy reprogramando, ehi gris intenta volver, pero el color es la hierro de un rey en el barrio, soy el disay de la",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-abyssalcrown-17.html",
+            "adjustedBpmFrom": 107.7,
+            "adjustedBpmTo": 117.5,
+            "bpmDelta": 9.8,
+            "energyDelta": -0.063,
+            "note": "108 to 118 BPM; energy releases 6; key estimate is advisory."
+          }
+        },
+        {
+          "position": 13,
+          "id": "../VOLHOLLA/song-usblegacy-03.html",
+          "index": 82,
+          "title": "Chemical Ignition",
+          "album": "USB LEGACY",
+          "durationSeconds": 191.15,
+          "bpm": 129.2,
+          "energyScore": 0.859,
+          "dramaScore": 0.615,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.55,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "ignition"
+            ],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-concreto-13.html",
+            "adjustedBpmFrom": 117.5,
+            "adjustedBpmTo": 129.2,
+            "bpmDelta": 11.7,
+            "energyDelta": 0.03,
+            "note": "118 to 129 BPM; energy holds; key estimate is advisory."
+          }
+        },
+        {
+          "position": 14,
+          "id": "../VOLHOLLA/song-neon-05.html",
+          "index": 9,
+          "title": "Abyssal Transmission",
+          "album": "NEON PUDDLES",
+          "durationSeconds": 270.37,
+          "bpm": 143.6,
+          "energyScore": 0.984,
+          "dramaScore": 0.585,
+          "voiceStatus": "likely-instrumental",
+          "transcriptConfidence": 0.524,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [],
+            "lexicalSimilarity": 0.0,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": null
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-usblegacy-03.html",
+            "adjustedBpmFrom": 129.2,
+            "adjustedBpmTo": 143.6,
+            "bpmDelta": 14.4,
+            "energyDelta": 0.125,
+            "note": "129 to 144 BPM; energy rises 12; key estimate is advisory."
+          }
+        },
+        {
+          "position": 15,
+          "id": "../VOLHOLLA/song-unpatchedglitch-17.html",
+          "index": 29,
+          "title": "King Don’t Beg the Gate",
+          "album": "UNPATCHED GLITCH UNPAID GLITCH",
+          "durationSeconds": 271.58,
+          "bpm": 152.0,
+          "energyScore": 0.814,
+          "dramaScore": 0.554,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.809,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "panic",
+              "struggle",
+              "power",
+              "crown",
+              "king"
+            ],
+            "lexicalSimilarity": 0.1029,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/king-don-t-beg-the-gate.json",
+              "startSeconds": 10.0,
+              "excerpt": "You scared we got eyes, King from the mud",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-neon-05.html",
+            "adjustedBpmFrom": 143.6,
+            "adjustedBpmTo": 152.0,
+            "bpmDelta": 8.4,
+            "energyDelta": -0.17,
+            "note": "144 to 152 BPM; energy releases 17; key estimate is advisory."
+          }
+        },
+        {
+          "position": 16,
+          "id": "../VOLHOLLA/song-mallmezzanine-22.html",
+          "index": 116,
+          "title": "Survival Taxonomy",
+          "album": "MALL PATCHWORLD INGEST (mezzanine)",
+          "durationSeconds": 236.89,
+          "bpm": 152.0,
+          "energyScore": 0.371,
+          "dramaScore": 0.581,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.72,
+          "reviewRequired": true,
+          "samplingRound": 0,
+          "evidence": {
+            "matchedTerms": [
+              "survival"
+            ],
+            "lexicalSimilarity": 0.0421,
+            "neighborSimilarity": 1.0,
+            "basis": "editorial seed",
+            "transcript": {
+              "path": "./analysis/transcripts/survival-taxonomy.json",
+              "startSeconds": 0.0,
+              "excerpt": "Music",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-unpatchedglitch-17.html",
+            "adjustedBpmFrom": 76.0,
+            "adjustedBpmTo": 76.0,
+            "bpmDelta": 0.0,
+            "energyDelta": -0.443,
+            "note": "76 to 76 BPM; energy releases 44; key estimate is advisory."
+          }
+        },
+        {
+          "position": 17,
+          "id": "../VOLHOLLA/song-brooklynomen-12.html",
+          "index": 3,
+          "title": "Four Voices One Table",
+          "album": "BROOKLYN OMEN",
+          "durationSeconds": 283.93,
+          "bpm": 172.3,
+          "energyScore": 0.305,
+          "dramaScore": 0.478,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.799,
+          "reviewRequired": true,
+          "samplingRound": 2,
+          "evidence": {
+            "matchedTerms": [
+              "light",
+              "night"
+            ],
+            "lexicalSimilarity": 0.0759,
+            "neighborSimilarity": 0.1341,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/four-voices-one-table.json",
+              "startSeconds": 147.0,
+              "excerpt": "Please, in the night",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-mallmezzanine-22.html",
+            "adjustedBpmFrom": 76.0,
+            "adjustedBpmTo": 86.2,
+            "bpmDelta": 10.2,
+            "energyDelta": -0.066,
+            "note": "76 to 86 BPM; energy releases 7; key estimate is advisory."
+          }
+        },
+        {
+          "position": 18,
+          "id": "../VOLHOLLA/song-queen-17.html",
+          "index": 59,
+          "title": "የድል አርማ (Victory Banner)",
+          "album": "QUEEN OF LIGHT",
+          "durationSeconds": 244.92,
+          "bpm": 103.4,
+          "energyScore": 0.199,
+          "dramaScore": 0.467,
+          "voiceStatus": "lyrics-detected",
+          "transcriptConfidence": 0.668,
+          "reviewRequired": true,
+          "samplingRound": 1,
+          "evidence": {
+            "matchedTerms": [
+              "light",
+              "victory",
+              "banner"
+            ],
+            "lexicalSimilarity": 0.0307,
+            "neighborSimilarity": 0.0,
+            "basis": "snowball neighbor",
+            "transcript": {
+              "path": "./analysis/transcripts/victory-banner.json",
+              "startSeconds": 0.0,
+              "excerpt": "تبلاتي بلوات يدل أميا",
+              "machineDraft": true
+            }
+          },
+          "transitionFromPrevious": {
+            "fromId": "../VOLHOLLA/song-brooklynomen-12.html",
+            "adjustedBpmFrom": 86.2,
+            "adjustedBpmTo": 103.4,
+            "bpmDelta": 17.2,
+            "energyDelta": -0.106,
+            "note": "86 to 103 BPM; energy releases 11; key estimate is advisory."
+          }
+        }
+      ]
+    }
+  ]
+};

@@ -1,0 +1,292 @@
+{
+  "analysisVersion": 1,
+  "index": 81,
+  "id": "../VOLHOLLA/song-usblegacy-01.html",
+  "slug": "iron-into-dust",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Go slow, fight, fight, Just a small motion, form a fire, watch a creep, silent heat, steady ill frame against the tide Red dust, heavy trucks, my engine starts to weep We keep saying I'm back to dust I'm back to dust I'm back to dust I'm back to dust Slow, slow, slow I'm back to dust Back to dust, back to dust Them sheep, the members Cold and bust, again on the floor Opened up Polish geese turned no more real small Waiting for the flow, crumb skin Who's in everything with it? Turnin' thin, sharp teeth Slow my, slow my, slow my, slow my I am back to dust, I am back to dust, I am back to dust I take since time It takes its toll Oxygen, eating the soul Burning without a flame Forget my name, forget the frame Come on, be row, be row, slow, slow Slow, slow, slow, slow, slow Slow, slow, slow, slow Don't get it on slow, fast, slow, fast, slow, fast I am back just back to dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust",
+  "sampledRanges": [
+    [
+      0.0,
+      189.2
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 23.68,
+      "text": "Go slow, fight, fight,",
+      "avgLogprob": -1.093,
+      "compressionRatio": 0.957,
+      "noSpeechProbability": 0.568,
+      "words": []
+    },
+    {
+      "start": 23.68,
+      "end": 34.68,
+      "text": "Just a small motion, form a fire, watch a creep, silent heat, steady ill frame against the tide",
+      "avgLogprob": -0.851,
+      "compressionRatio": 1.145,
+      "noSpeechProbability": 0.695,
+      "words": []
+    },
+    {
+      "start": 34.68,
+      "end": 44.68,
+      "text": "Red dust, heavy trucks, my engine starts to weep",
+      "avgLogprob": -0.789,
+      "compressionRatio": 0.857,
+      "noSpeechProbability": 0.697,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 48.0,
+      "text": "We keep saying",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 48.0,
+      "end": 57.0,
+      "text": "I'm back to dust",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 59.0,
+      "text": "I'm back to dust",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 59.0,
+      "end": 61.0,
+      "text": "I'm back to dust",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 61.0,
+      "end": 62.0,
+      "text": "I'm back to dust",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 62.0,
+      "end": 65.0,
+      "text": "Slow, slow, slow",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 72.0,
+      "text": "I'm back to dust",
+      "avgLogprob": -0.414,
+      "compressionRatio": 2.231,
+      "noSpeechProbability": 0.511,
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 75.68,
+      "text": "Back to dust, back to dust",
+      "avgLogprob": -0.711,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.526,
+      "words": []
+    },
+    {
+      "start": 75.68,
+      "end": 79.92,
+      "text": "Them sheep, the members",
+      "avgLogprob": -0.711,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.526,
+      "words": []
+    },
+    {
+      "start": 79.92,
+      "end": 82.88,
+      "text": "Cold and bust, again on the floor",
+      "avgLogprob": -0.711,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.526,
+      "words": []
+    },
+    {
+      "start": 82.88,
+      "end": 87.32,
+      "text": "Opened up Polish geese turned no more real small",
+      "avgLogprob": -0.711,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.526,
+      "words": []
+    },
+    {
+      "start": 87.32,
+      "end": 89.96,
+      "text": "Waiting for the flow, crumb skin",
+      "avgLogprob": -0.711,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.526,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "Who's in everything with it?",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 92.0,
+      "end": 94.0,
+      "text": "Turnin' thin, sharp teeth",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 94.0,
+      "end": 102.0,
+      "text": "Slow my, slow my, slow my, slow my",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 102.0,
+      "end": 106.0,
+      "text": "I am back to dust, I am back to dust, I am back to dust",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 106.0,
+      "end": 108.0,
+      "text": "I take since time",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 108.0,
+      "end": 110.0,
+      "text": "It takes its toll",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 110.0,
+      "end": 112.0,
+      "text": "Oxygen, eating the soul",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "text": "Burning without a flame",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 116.0,
+      "text": "Forget my name, forget the frame",
+      "avgLogprob": -0.345,
+      "compressionRatio": 1.679,
+      "noSpeechProbability": 0.343,
+      "words": []
+    },
+    {
+      "start": 116.0,
+      "end": 122.0,
+      "text": "Come on, be row, be row, slow, slow",
+      "avgLogprob": -0.668,
+      "compressionRatio": 2.486,
+      "noSpeechProbability": 0.687,
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 132.0,
+      "text": "Slow, slow, slow, slow, slow",
+      "avgLogprob": -0.668,
+      "compressionRatio": 2.486,
+      "noSpeechProbability": 0.687,
+      "words": []
+    },
+    {
+      "start": 132.0,
+      "end": 134.0,
+      "text": "Slow, slow, slow, slow",
+      "avgLogprob": -0.668,
+      "compressionRatio": 2.486,
+      "noSpeechProbability": 0.687,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 140.2,
+      "text": "Don't get it on slow, fast, slow, fast, slow, fast",
+      "avgLogprob": -0.123,
+      "compressionRatio": 10.292,
+      "noSpeechProbability": 0.298,
+      "words": []
+    },
+    {
+      "start": 140.2,
+      "end": 170.2,
+      "text": "I am back just back to dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust, dust",
+      "avgLogprob": -0.068,
+      "compressionRatio": 18.75,
+      "noSpeechProbability": 0.374,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.799,
+    "wordCount": 160,
+    "credibleWordCount": 156,
+    "segmentCount": 27,
+    "averageWordProbability": 0.581,
+    "vocalSeconds": 133.64,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "analysisVersion": 1,
+  "index": 103,
+  "id": "../VOLHOLLA/song-silence-06.html",
+  "slug": "mess-as-a-message",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Small box, heavy wood grain, silver handles reflected in the rain, empty pews staring back like glass eyes. My mother's hands shaking silence, tearing through the lace, the preacher lost his place. The birds don't sing out here anymore. The birds don't sing out here anymore. Just to win to the game, just to wait Nothing but to wait, Lord The birds don't sing out here anymore Don't stop No song, no song, only the love does Cilling on the dash, I heard soft film playing in the edge Life is just a big obscenity, nature is a scream, harsh pittedly sincreen I'm drowning in the stream, washed up, face down in the sand I'ma fell right out of my hand I breathed until my lungs turned black You never gave them back The birds don't sing out here anymore The birds don't sing out here anymore Just to gain from the gate Just to wake But the way Lord the birth don't seem I've lived anymore No song, no song, no song, only the cold Maybe the message is the message, maybe the wreck is the way I'm looking for merch in the ruins I'm looking for light in the grave Give me a reason to stay Give me a reason Give me a reason The birds don't sing out here anymore The birds don't sing out here anymore Just a thing for the gate, just a wait Nothing but the wait, Lord, the birds don't seem actually anymore The 700 and 57 is quiet tonight, the Bronx is quiet tonight Empty sky, empty sky, empty sky, not today, not ever again, amen You",
+  "sampledRanges": [
+    [
+      0.0,
+      181.53
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 7.6,
+      "text": "Small box, heavy wood grain, silver handles reflected in the rain, empty",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 7.6,
+      "end": 10.0,
+      "text": "pews staring back like glass eyes.",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 10.0,
+      "end": 16.72,
+      "text": "My mother's hands shaking silence, tearing through the lace, the",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 16.72,
+      "end": 18.8,
+      "text": "preacher lost his place.",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 18.8,
+      "end": 22.8,
+      "text": "The birds don't sing out here anymore.",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 22.8,
+      "end": 27.2,
+      "text": "The birds don't sing out here anymore.",
+      "avgLogprob": -0.544,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.72,
+      "words": []
+    },
+    {
+      "start": 27.2,
+      "end": 32.2,
+      "text": "Just to win to the game, just to wait",
+      "avgLogprob": -0.449,
+      "compressionRatio": 1.217,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 32.2,
+      "end": 36.2,
+      "text": "Nothing but to wait, Lord",
+      "avgLogprob": -0.449,
+      "compressionRatio": 1.217,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 36.2,
+      "end": 41.2,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.449,
+      "compressionRatio": 1.217,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 42.2,
+      "end": 44.2,
+      "text": "Don't stop",
+      "avgLogprob": -0.449,
+      "compressionRatio": 1.217,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 60.0,
+      "text": "No song, no song, only the love does",
+      "avgLogprob": -0.419,
+      "compressionRatio": 1.474,
+      "noSpeechProbability": 0.715,
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 64.0,
+      "text": "Cilling on the dash, I heard soft film playing in the edge",
+      "avgLogprob": -0.419,
+      "compressionRatio": 1.474,
+      "noSpeechProbability": 0.715,
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "Life is just a big obscenity, nature is a scream, harsh pittedly sincreen",
+      "avgLogprob": -0.419,
+      "compressionRatio": 1.474,
+      "noSpeechProbability": 0.715,
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 72.0,
+      "text": "I'm drowning in the stream, washed up, face down in the sand",
+      "avgLogprob": -0.419,
+      "compressionRatio": 1.474,
+      "noSpeechProbability": 0.715,
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 73.68,
+      "text": "I'ma fell right out of my hand",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 73.68,
+      "end": 75.64,
+      "text": "I breathed until my lungs turned black",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 75.64,
+      "end": 76.96,
+      "text": "You never gave them back",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 76.96,
+      "end": 81.24,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 81.24,
+      "end": 85.24,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 85.24,
+      "end": 87.32,
+      "text": "Just to gain from the gate",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 87.32,
+      "end": 89.84,
+      "text": "Just to wake",
+      "avgLogprob": -0.458,
+      "compressionRatio": 1.591,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 97.0,
+      "text": "But the way Lord the birth don't seem I've lived anymore",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.631,
+      "words": []
+    },
+    {
+      "start": 98.0,
+      "end": 105.0,
+      "text": "No song, no song, no song, only the cold",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.631,
+      "words": []
+    },
+    {
+      "start": 113.0,
+      "end": 117.0,
+      "text": "Maybe the message is the message, maybe the wreck is the way",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.631,
+      "words": []
+    },
+    {
+      "start": 117.0,
+      "end": 119.0,
+      "text": "I'm looking for merch in the ruins",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 119.0,
+      "end": 121.0,
+      "text": "I'm looking for light in the grave",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 121.0,
+      "end": 123.0,
+      "text": "Give me a reason to stay",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 123.0,
+      "end": 125.0,
+      "text": "Give me a reason",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 125.0,
+      "end": 127.0,
+      "text": "Give me a reason",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 127.0,
+      "end": 131.0,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 135.0,
+      "text": "The birds don't sing out here anymore",
+      "avgLogprob": -0.146,
+      "compressionRatio": 1.855,
+      "noSpeechProbability": 0.33,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 140.0,
+      "text": "Just a thing for the gate, just a wait",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.547,
+      "noSpeechProbability": 0.638,
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 148.0,
+      "text": "Nothing but the wait, Lord, the birds don't seem actually anymore",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.547,
+      "noSpeechProbability": 0.638,
+      "words": []
+    },
+    {
+      "start": 148.0,
+      "end": 155.0,
+      "text": "The 700 and 57 is quiet tonight, the Bronx is quiet tonight",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.547,
+      "noSpeechProbability": 0.638,
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 163.0,
+      "text": "Empty sky, empty sky, empty sky, not today, not ever again, amen",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.547,
+      "noSpeechProbability": 0.638,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "You",
+      "avgLogprob": -0.895,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.774,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.839,
+    "wordCount": 274,
+    "credibleWordCount": 274,
+    "segmentCount": 35,
+    "averageWordProbability": 0.665,
+    "vocalSeconds": 152.04,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

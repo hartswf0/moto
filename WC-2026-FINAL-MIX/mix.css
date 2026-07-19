@@ -349,7 +349,7 @@ button { cursor: pointer; }
 .sort-select {
   display: block;
   width: 148px;
-  height: 24px;
+  height: 30px;
   padding: 0 22px 0 5px;
   border: 1px solid var(--ink);
   background: var(--paper);
@@ -471,6 +471,7 @@ button { cursor: pointer; }
 button.song-copy,
 button.playlist-copy {
   width: 100%;
+  min-height: 44px;
   padding: 4px 0;
   border: 0;
   background: transparent;
@@ -604,6 +605,10 @@ button.playlist-copy:focus-visible {
 
 .playlist-card.dragging { opacity: 0.35; }
 .playlist-card.drop-ready { outline: 5px solid var(--ink); outline-offset: -7px; }
+.playlist-card.set-locked .drag-handle { cursor: default; }
+.playlist-card.set-locked .playlist-actions { grid-template-columns: minmax(78px, 1fr); }
+.playlist-card.set-locked .move-up,
+.playlist-card.set-locked .move-down { display: none; }
 
 .playlist-card.reorder-pulse { animation: reorder-pulse 300ms ease-out; }
 
@@ -901,6 +906,15 @@ noscript {
   .playlist-actions { grid-template-columns: 38px 42px 38px; }
   .playlist-actions button { min-height: 42px; font-size: 0.55rem; }
   .album-title, .song-title, .playlist-title { font-size: 0.72rem; }
+}
+
+@media (max-width: 350px) {
+  .column-head { gap: 4px; padding-left: 8px; }
+  .column-head h2 { font-size: 0.94rem; white-space: nowrap; }
+  .head-actions .head-action { min-width: 72px; }
+  .head-actions .head-action:first-child { min-width: 60px; }
+  .playlist-card.set-locked { grid-template-columns: 25px 64px minmax(0, 1fr) 78px; }
+  .playlist-card.set-locked .playlist-actions { grid-template-columns: 78px; }
 }
 
 @media (max-height: 680px) and (max-width: 780px) {

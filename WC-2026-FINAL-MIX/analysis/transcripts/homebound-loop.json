@@ -1,0 +1,256 @@
+{
+  "analysisVersion": 1,
+  "index": 78,
+  "id": "../VOLHOLLA/song-congregation-08.html",
+  "slug": "homebound-loop",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "All dust in my child lungs, dead paths and the highway heat, Walking through the brambles where I hide, Trying hard to find a better place to be But I can't feel good weight Tugging at my sleeve I have to believe Oh, I'm going home Oh, I'm going home Across the Jordan River, I am going home Yes, I'm going home, going home, going home Pale skin and the rain falls down London street lights watch me shake Nothing in my pockets but a silver hope Wondering how much more that I can take And I can feel the ground Crying for my soul to make me whole Oh I'm going home Oh I I'm going home, cross the Jordan River, I am going home Yes, I'm going home, going home, going home I see my mother, see my father, I see the people Oh, gathered around, oh, I'm going home, oh, I'm going home Across the Jordan River, I'm going home Yes, I'm going home, going home, going home Thank you very much.",
+  "sampledRanges": [
+    [
+      0.0,
+      136.12
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 22.0,
+      "text": "All dust in my child lungs, dead paths and the highway heat,",
+      "avgLogprob": -0.59,
+      "compressionRatio": 1.12,
+      "noSpeechProbability": 0.367,
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 27.0,
+      "text": "Walking through the brambles where I hide,",
+      "avgLogprob": -0.59,
+      "compressionRatio": 1.12,
+      "noSpeechProbability": 0.367,
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 30.0,
+      "text": "Trying hard to find a better place to be",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 31.0,
+      "end": 34.0,
+      "text": "But I can't feel good weight",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "Tugging at my sleeve",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 40.0,
+      "text": "I have to believe",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "text": "Oh, I'm going home",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "text": "Oh, I'm going home",
+      "avgLogprob": -0.304,
+      "compressionRatio": 1.339,
+      "noSpeechProbability": 0.233,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 50.0,
+      "text": "Across the Jordan River, I am going home",
+      "avgLogprob": -0.25,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.29,
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 57.0,
+      "text": "Yes, I'm going home, going home, going home",
+      "avgLogprob": -0.25,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.29,
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 63.0,
+      "text": "Pale skin and the rain falls down",
+      "avgLogprob": -0.25,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.29,
+      "words": []
+    },
+    {
+      "start": 63.0,
+      "end": 68.0,
+      "text": "London street lights watch me shake",
+      "avgLogprob": -0.25,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.29,
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 73.0,
+      "text": "Nothing in my pockets but a silver hope",
+      "avgLogprob": -0.25,
+      "compressionRatio": 1.437,
+      "noSpeechProbability": 0.29,
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 77.0,
+      "text": "Wondering how much more that I can take",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.302,
+      "words": []
+    },
+    {
+      "start": 77.0,
+      "end": 80.0,
+      "text": "And I can feel the ground",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.302,
+      "words": []
+    },
+    {
+      "start": 80.0,
+      "end": 87.0,
+      "text": "Crying for my soul to make me whole",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.302,
+      "words": []
+    },
+    {
+      "start": 87.0,
+      "end": 89.0,
+      "text": "Oh I'm going home",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.302,
+      "words": []
+    },
+    {
+      "start": 89.0,
+      "end": 90.0,
+      "text": "Oh I",
+      "avgLogprob": -0.314,
+      "compressionRatio": 1.265,
+      "noSpeechProbability": 0.302,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 97.0,
+      "text": "I'm going home, cross the Jordan River, I am going home",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.357,
+      "words": []
+    },
+    {
+      "start": 97.0,
+      "end": 105.0,
+      "text": "Yes, I'm going home, going home, going home",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.357,
+      "words": []
+    },
+    {
+      "start": 105.0,
+      "end": 112.0,
+      "text": "I see my mother, see my father, I see the people",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.609,
+      "noSpeechProbability": 0.357,
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 118.0,
+      "text": "Oh, gathered around, oh, I'm going home, oh, I'm going home",
+      "avgLogprob": -0.402,
+      "compressionRatio": 1.788,
+      "noSpeechProbability": 0.272,
+      "words": []
+    },
+    {
+      "start": 118.0,
+      "end": 123.0,
+      "text": "Across the Jordan River, I'm going home",
+      "avgLogprob": -0.402,
+      "compressionRatio": 1.788,
+      "noSpeechProbability": 0.272,
+      "words": []
+    },
+    {
+      "start": 123.0,
+      "end": 135.0,
+      "text": "Yes, I'm going home, going home, going home",
+      "avgLogprob": -0.402,
+      "compressionRatio": 1.788,
+      "noSpeechProbability": 0.272,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 137.0,
+      "text": "Thank you very much.",
+      "avgLogprob": -1.219,
+      "compressionRatio": 0.714,
+      "noSpeechProbability": 0.598,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.865,
+    "wordCount": 171,
+    "credibleWordCount": 171,
+    "segmentCount": 24,
+    "averageWordProbability": 0.719,
+    "vocalSeconds": 132.0,
+    "scanCoverage": 1.0,
+    "reviewRequired": false
+  }
+}

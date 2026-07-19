@@ -1,0 +1,436 @@
+{
+  "analysisVersion": 1,
+  "index": 111,
+  "id": "../VOLHOLLA/song-noservice-06.html",
+  "slug": "honey-on-the-tongue",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "You're low, dustier, road to the village, sun is the pillow Your head rests on my shoulder, driving slow We move through the dark grass The windows down This is our golden hour Sweet black or neon, the tongue This is our golden hour Stay on I love the way look at me I love the way Look at me, I love the way you look at me Just you and I Under these clouds Whoa, that's it Radio is playing A song from 94 Mama used to understand This tune, now inside the church door It's all King Drone It freckles true to valley Deep and wide You have not yet left too high This is our golden hour Sweet like on the undertone This is our golden hour And now, stay young I love the way you look at me I love the way you look at me I love the way you look at me Oh, just you and I Oh, under these clouds Shake the chord, the rhythm takes us home You decide where to find trees grow I found the bees, I found the light I found the home, right here, tonight This is our golden hour Sweet like only on the tongue This is our golden hour Stay young I love the way you look at me I love the way you look at me I love the way you look at me Lay the sun in 17, 17, 17 We all know safe and sound on this ground You",
+  "sampledRanges": [
+    [
+      0.0,
+      168.53
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "You're low, dustier, road to the village, sun is the pillow",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.169,
+      "noSpeechProbability": 0.53,
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 27.0,
+      "text": "Your head rests on my shoulder, driving slow",
+      "avgLogprob": -0.647,
+      "compressionRatio": 1.169,
+      "noSpeechProbability": 0.53,
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 29.0,
+      "text": "We move through the dark grass",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 30.0,
+      "end": 31.0,
+      "text": "The windows down",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "Sweet black or neon, the tongue",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 37.0,
+      "end": 39.0,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 39.0,
+      "end": 41.0,
+      "text": "Stay on",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 41.0,
+      "end": 43.0,
+      "text": "I love the way look at me",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 43.0,
+      "end": 45.0,
+      "text": "I love the way",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.544,
+      "noSpeechProbability": 0.534,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 50.0,
+      "text": "Look at me, I love the way you look at me",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 53.0,
+      "text": "Just you and I",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "text": "Under these clouds",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 63.0,
+      "end": 65.0,
+      "text": "Whoa, that's it",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 66.0,
+      "end": 69.0,
+      "text": "Radio is playing",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 69.0,
+      "end": 71.0,
+      "text": "A song from 94",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 73.0,
+      "text": "Mama used to understand",
+      "avgLogprob": -0.405,
+      "compressionRatio": 1.215,
+      "noSpeechProbability": 0.846,
+      "words": []
+    },
+    {
+      "start": 73.0,
+      "end": 75.0,
+      "text": "This tune, now inside the church door",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 76.0,
+      "text": "It's all King Drone",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 76.0,
+      "end": 78.0,
+      "text": "It freckles true to valley",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 78.0,
+      "end": 79.0,
+      "text": "Deep and wide",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 79.0,
+      "end": 82.0,
+      "text": "You have not yet left too high",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 83.0,
+      "end": 86.0,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 88.0,
+      "text": "Sweet like on the undertone",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 88.0,
+      "end": 90.0,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.444,
+      "noSpeechProbability": 0.822,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 93.4,
+      "text": "And now, stay young",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 93.4,
+      "end": 96.0,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 96.0,
+      "end": 98.6,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 98.6,
+      "end": 100.8,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 100.8,
+      "end": 105.2,
+      "text": "Oh, just you and I",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 106.2,
+      "end": 110.2,
+      "text": "Oh, under these clouds",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 114.8,
+      "end": 117.6,
+      "text": "Shake the chord, the rhythm takes us home",
+      "avgLogprob": -0.432,
+      "compressionRatio": 1.787,
+      "noSpeechProbability": 0.837,
+      "words": []
+    },
+    {
+      "start": 117.6,
+      "end": 120.02,
+      "text": "You decide where to find trees grow",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 120.02,
+      "end": 122.64,
+      "text": "I found the bees, I found the light",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 122.64,
+      "end": 125.28,
+      "text": "I found the home, right here, tonight",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 125.28,
+      "end": 127.72,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 127.72,
+      "end": 130.52,
+      "text": "Sweet like only on the tongue",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 130.52,
+      "end": 132.96,
+      "text": "This is our golden hour",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 132.96,
+      "end": 134.96,
+      "text": "Stay young",
+      "avgLogprob": -0.622,
+      "compressionRatio": 1.636,
+      "noSpeechProbability": 0.618,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 137.0,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.381,
+      "compressionRatio": 1.725,
+      "noSpeechProbability": 0.556,
+      "words": []
+    },
+    {
+      "start": 137.0,
+      "end": 139.0,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.381,
+      "compressionRatio": 1.725,
+      "noSpeechProbability": 0.556,
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 143.0,
+      "text": "I love the way you look at me",
+      "avgLogprob": -0.381,
+      "compressionRatio": 1.725,
+      "noSpeechProbability": 0.556,
+      "words": []
+    },
+    {
+      "start": 143.0,
+      "end": 149.0,
+      "text": "Lay the sun in 17, 17, 17",
+      "avgLogprob": -0.381,
+      "compressionRatio": 1.725,
+      "noSpeechProbability": 0.556,
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 155.0,
+      "text": "We all know safe and sound on this ground",
+      "avgLogprob": -0.381,
+      "compressionRatio": 1.725,
+      "noSpeechProbability": 0.556,
+      "words": []
+    },
+    {
+      "start": 165.0,
+      "end": 167.0,
+      "text": "You",
+      "avgLogprob": -0.911,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.689,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.804,
+    "wordCount": 138,
+    "credibleWordCount": 138,
+    "segmentCount": 23,
+    "averageWordProbability": 0.591,
+    "vocalSeconds": 81.36,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

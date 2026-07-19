@@ -1,0 +1,634 @@
+{
+  "analysisVersion": 1,
+  "index": 49,
+  "id": "../VOLHOLLA/song-betterhands-01.html",
+  "slug": "better-hands",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "I feel like I dropped to the top, man. Well, I need to wear it, but I wear it. I might be living in that mate. I'm real nigga. Better hands, make the coffee. Better hands, sweat the floor. Better hands, pack the boxes. That arrived at your door. Better hands, get in the bar cold. Better hands, punch the clock. Better hands, talk to the machine. How to tighten the lock. Better hands, better hands, who did the future replace? Better hands, better hands, who's finger prints got it raced Concrete walls keepin' count, the algorithm calculated sweat turns in the data Nothing but a digit now, muscle fibers go and cold Plastic skin is takin' over steel teeth by and deep, wages buried in the graph Bet a hands made to coffee, better hands swept the floor Better hands packed the boxes, that arrived at your door Better hands getting a bar cold, better hands punched the clock Better hands taught the machine, how to tighten the lock Better hands, better hands who did the future replace Better hands, better hands whose fingerprints got erased Automation did not free the hand, it trained the hand to disappear He made the hand fast, a cleaner, que out of cheaper As visible to the person being served It took the mother's hand off the stove And put it on the time clock It took the workers hand off the tool And put it under the scanner It took the students hand off the page And put it in the plume It took the hardest hand off the instrument And put it inside the grid Then it sent low, no hands But the hands were there Under the table behind the counter Inside the warehouse on a night ship And the sample and the training data In the wool post flickering like static Solace in the factory hall Old tools like the rust you blood On the sensor shadows moving on the line Ticket class keep the score Everything is perfectly efficient Until nobody is left alive Better hands made the coffee, better hands swept the floor, better hands cracked the boxes That arrived at your door, better hands getting a ball cold, better hands pushed the clock, better hands taught the machine How to tighten the lock, better hands, better hands who did the future Better hands, better hands, who's finger prints got erased? Better hands made the coffee, better hands swept the floor, better hands packed the boxes That arrived at your door, better hands getting a bar cold, better hands pushed the clock, better hands taught the machine Loud and tight in the lock, better hands, better hands wanted the future replaced, better hands, better hands, who's finger prints got erased? That I hate made the coffee Better hands from the floor, better hands pack the boxes That'll pop that your floor, better hands get in the vocal Better hands push the clock, better hands toward the machine Out of tie in the lock, better hands, better hands Who in the future replace? Better hands, better hands, who's think the prince got his race? Better he's made the coffee, better he's left the floor, better he's packed the boxes, that are what that you know, better he's getting the ball cold, better he's punched the clock, better he's caught the... I'm a marshy out of tight in the lot Better hands, better hands, who did the future replace Better hands, better hands, who's finger prints got it wasted",
+  "sampledRanges": [
+    [
+      0.0,
+      235.68
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "I feel like I dropped to the top, man.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 4.0,
+      "end": 7.0,
+      "text": "Well, I need to wear it, but I wear it.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 7.0,
+      "end": 9.0,
+      "text": "I might be living in that mate.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 9.0,
+      "end": 12.0,
+      "text": "I'm real nigga.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 14.0,
+      "text": "Better hands, make the coffee.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 15.0,
+      "text": "Better hands, sweat the floor.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "text": "Better hands, pack the boxes.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "text": "That arrived at your door.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 21.0,
+      "text": "Better hands, get in the bar cold.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 21.0,
+      "end": 22.0,
+      "text": "Better hands, punch the clock.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "Better hands, talk to the machine.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "text": "How to tighten the lock.",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "Better hands, better hands, who did the future replace?",
+      "avgLogprob": -0.268,
+      "compressionRatio": 1.915,
+      "noSpeechProbability": 0.576,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 32.6,
+      "text": "Better hands, better hands, who's finger prints got it raced",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.42,
+      "noSpeechProbability": 0.545,
+      "words": []
+    },
+    {
+      "start": 35.0,
+      "end": 39.5,
+      "text": "Concrete walls keepin' count, the algorithm calculated sweat turns in the data",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.42,
+      "noSpeechProbability": 0.545,
+      "words": []
+    },
+    {
+      "start": 39.5,
+      "end": 42.5,
+      "text": "Nothing but a digit now, muscle fibers go and cold",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.42,
+      "noSpeechProbability": 0.545,
+      "words": []
+    },
+    {
+      "start": 42.5,
+      "end": 45.0,
+      "text": "Plastic skin is takin' over steel teeth",
+      "avgLogprob": -0.579,
+      "compressionRatio": 1.42,
+      "noSpeechProbability": 0.545,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.7,
+      "text": "by and deep, wages buried in the graph",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 47.7,
+      "end": 51.0,
+      "text": "Bet a hands made to coffee, better hands swept the floor",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 51.0,
+      "end": 54.2,
+      "text": "Better hands packed the boxes, that arrived at your door",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 54.2,
+      "end": 58.0,
+      "text": "Better hands getting a bar cold, better hands punched the clock",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 61.0,
+      "text": "Better hands taught the machine, how to tighten the lock",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 61.0,
+      "end": 64.0,
+      "text": "Better hands, better hands who did the future replace",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "Better hands, better hands whose fingerprints got erased",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 70.0,
+      "end": 74.0,
+      "text": "Automation did not free the hand, it trained the hand to disappear",
+      "avgLogprob": -0.367,
+      "compressionRatio": 2.004,
+      "noSpeechProbability": 0.796,
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 77.16,
+      "text": "He made the hand fast, a cleaner, que out of cheaper",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 77.16,
+      "end": 79.56,
+      "text": "As visible to the person being served",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 79.56,
+      "end": 81.4,
+      "text": "It took the mother's hand off the stove",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 81.4,
+      "end": 83.08,
+      "text": "And put it on the time clock",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 83.08,
+      "end": 85.08,
+      "text": "It took the workers hand off the tool",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 85.08,
+      "end": 86.52,
+      "text": "And put it under the scanner",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 86.52,
+      "end": 88.68,
+      "text": "It took the students hand off the page",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 88.68,
+      "end": 89.88,
+      "text": "And put it in the plume",
+      "avgLogprob": -0.471,
+      "compressionRatio": 1.795,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 92.24,
+      "text": "It took the hardest hand off the instrument",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 92.24,
+      "end": 94.24,
+      "text": "And put it inside the grid",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 94.24,
+      "end": 96.48,
+      "text": "Then it sent low, no hands",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 96.48,
+      "end": 97.68,
+      "text": "But the hands were there",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 97.68,
+      "end": 99.52,
+      "text": "Under the table behind the counter",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 99.52,
+      "end": 101.68,
+      "text": "Inside the warehouse on a night ship",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 101.68,
+      "end": 103.52,
+      "text": "And the sample and the training data",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 103.52,
+      "end": 106.32,
+      "text": "In the wool post flickering like static",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 106.32,
+      "end": 108.16,
+      "text": "Solace in the factory hall",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 108.16,
+      "end": 109.92,
+      "text": "Old tools like the rust you blood",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 109.92,
+      "end": 112.24,
+      "text": "On the sensor shadows moving on the line",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 112.24,
+      "end": 113.52,
+      "text": "Ticket class keep the score",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 113.52,
+      "end": 115.52,
+      "text": "Everything is perfectly efficient",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 115.52,
+      "end": 117.76,
+      "text": "Until nobody is left alive",
+      "avgLogprob": -0.392,
+      "compressionRatio": 1.668,
+      "noSpeechProbability": 0.849,
+      "words": []
+    },
+    {
+      "start": 117.76,
+      "end": 123.76,
+      "text": "Better hands made the coffee, better hands swept the floor, better hands cracked the boxes",
+      "avgLogprob": -0.279,
+      "compressionRatio": 1.952,
+      "noSpeechProbability": 0.702,
+      "words": []
+    },
+    {
+      "start": 123.76,
+      "end": 130.76,
+      "text": "That arrived at your door, better hands getting a ball cold, better hands pushed the clock, better hands taught the machine",
+      "avgLogprob": -0.279,
+      "compressionRatio": 1.952,
+      "noSpeechProbability": 0.702,
+      "words": []
+    },
+    {
+      "start": 130.76,
+      "end": 134.76,
+      "text": "How to tighten the lock, better hands, better hands who did the future",
+      "avgLogprob": -0.279,
+      "compressionRatio": 1.952,
+      "noSpeechProbability": 0.702,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 139.0,
+      "text": "Better hands, better hands, who's finger prints got erased?",
+      "avgLogprob": -0.323,
+      "compressionRatio": 2.268,
+      "noSpeechProbability": 0.818,
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 147.0,
+      "text": "Better hands made the coffee, better hands swept the floor, better hands packed the boxes",
+      "avgLogprob": -0.323,
+      "compressionRatio": 2.268,
+      "noSpeechProbability": 0.818,
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 154.0,
+      "text": "That arrived at your door, better hands getting a bar cold, better hands pushed the clock, better hands taught the machine",
+      "avgLogprob": -0.323,
+      "compressionRatio": 2.268,
+      "noSpeechProbability": 0.818,
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 163.0,
+      "text": "Loud and tight in the lock, better hands, better hands wanted the future replaced, better hands, better hands, who's finger prints got erased?",
+      "avgLogprob": -0.323,
+      "compressionRatio": 2.268,
+      "noSpeechProbability": 0.818,
+      "words": []
+    },
+    {
+      "start": 165.0,
+      "end": 180.0,
+      "text": "That I hate made the coffee",
+      "avgLogprob": -1.0,
+      "compressionRatio": 0.818,
+      "noSpeechProbability": 0.597,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 183.26,
+      "text": "Better hands from the floor, better hands pack the boxes",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 183.26,
+      "end": 186.98,
+      "text": "That'll pop that your floor, better hands get in the vocal",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 186.98,
+      "end": 190.34,
+      "text": "Better hands push the clock, better hands toward the machine",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 190.34,
+      "end": 193.34,
+      "text": "Out of tie in the lock, better hands, better hands",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 193.34,
+      "end": 195.1,
+      "text": "Who in the future replace?",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 195.1,
+      "end": 198.54,
+      "text": "Better hands, better hands, who's think the prince got his race?",
+      "avgLogprob": -0.568,
+      "compressionRatio": 1.969,
+      "noSpeechProbability": 0.437,
+      "words": []
+    },
+    {
+      "start": 210.0,
+      "end": 218.64,
+      "text": "Better he's made the coffee, better he's left the floor, better he's packed the boxes,",
+      "avgLogprob": -0.704,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.771,
+      "words": []
+    },
+    {
+      "start": 218.64,
+      "end": 223.92,
+      "text": "that are what that you know, better he's getting the ball cold, better he's punched the clock,",
+      "avgLogprob": -0.704,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.771,
+      "words": []
+    },
+    {
+      "start": 223.92,
+      "end": 224.92,
+      "text": "better he's caught the...",
+      "avgLogprob": -0.704,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.771,
+      "words": []
+    },
+    {
+      "start": 225.0,
+      "end": 227.0,
+      "text": "I'm a marshy out of tight in the lot",
+      "avgLogprob": -0.569,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.696,
+      "words": []
+    },
+    {
+      "start": 227.0,
+      "end": 230.0,
+      "text": "Better hands, better hands, who did the future replace",
+      "avgLogprob": -0.569,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.696,
+      "words": []
+    },
+    {
+      "start": 230.0,
+      "end": 235.0,
+      "text": "Better hands, better hands, who's finger prints got it wasted",
+      "avgLogprob": -0.569,
+      "compressionRatio": 1.5,
+      "noSpeechProbability": 0.696,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.833,
+    "wordCount": 321,
+    "credibleWordCount": 321,
+    "segmentCount": 38,
+    "averageWordProbability": 0.652,
+    "vocalSeconds": 119.02,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

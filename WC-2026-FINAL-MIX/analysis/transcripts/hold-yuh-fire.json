@@ -1,0 +1,877 @@
+{
+  "analysisVersion": 1,
+  "index": 66,
+  "id": "../VOLHOLLA/song-maquina-11.html",
+  "slug": "hold-yuh-fire",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Go, step now, mm-hmm, cool and easy. Small things make some people lose their mind, watch them run in while and out of time. And hit the sea wall from start to call Steer firm even when the tempers rise Feel the saltier in your hear Moving slow, don't let go Hold the line, take your time Hold your fire, don't you get too hot Pulled on the spot Hold your fire, sugar breeze blowing Saft on the under-off Hold your fire Rocking steady with a popcorn Strong where you belong Hold your fire Deep beer's ruling like a mountain road Drop the heavy load Ween condes miles Dear for a while Hot covers cling while the neighbors laugh Peek a betta pie Feel saltier in your here Move in slow Don't let go Pull the line Tear your time Pull the fire Don't you get too hot Pull down the spot Pull The fire show debris blowing After the under-off All your fire Rocking steady with the popcorn Strong where you belong All your fire Whizdom in the rhythm Come in the spirit Strengthen the silence Listen, can you hear it? Style is the discipline Sweetness is the win All your fire Don't you get too hot Cool down the spot All the fire show got breeze blowing Soft and the anger off All the fire Rocking steady with a bat burn Strong where you belong All your fire All your fire Don't you get too hot Pull down the spot All your fire Sugar breeze blowing Soft and the anger up All your fire Lucky instead of you With a puff Born stronger You belong All your fire Don't you get too hot Pull down the spot All your fire sugar breeze blowing soft and the anger up all your fire But instead of with a puff, burn strong, we are you below All your fire, don't check to hold on to spot all your fire sugar breeze blowing soft under under all your fire rock instead you read up up born strong we are you belong You belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you Like you more than you think I'm more You know me, you know me, you know me You know me, you know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me You know me, you know me",
+  "sampledRanges": [
+    [
+      0.0,
+      266.8
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 20.0,
+      "text": "Go, step now, mm-hmm, cool and easy.",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.204,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 20.0,
+      "end": 26.0,
+      "text": "Small things make some people lose their mind, watch them run in while and out of time.",
+      "avgLogprob": -0.575,
+      "compressionRatio": 1.204,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "And hit the sea wall from start to call",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 32.0,
+      "text": "Steer firm even when the tempers rise",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 32.0,
+      "end": 35.0,
+      "text": "Feel the saltier in your hear",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 35.0,
+      "end": 38.0,
+      "text": "Moving slow, don't let go",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 41.0,
+      "text": "Hold the line, take your time",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 41.0,
+      "end": 45.0,
+      "text": "Hold your fire, don't you get too hot",
+      "avgLogprob": -0.353,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.676,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 46.48,
+      "text": "Pulled on the spot",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 46.48,
+      "end": 48.8,
+      "text": "Hold your fire, sugar breeze blowing",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 48.8,
+      "end": 51.12,
+      "text": "Saft on the under-off",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 51.12,
+      "end": 52.64,
+      "text": "Hold your fire",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 52.64,
+      "end": 54.88,
+      "text": "Rocking steady with a popcorn",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 54.88,
+      "end": 59.56,
+      "text": "Strong where you belong",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 59.56,
+      "end": 62.12,
+      "text": "Hold your fire",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 62.12,
+      "end": 65.56,
+      "text": "Deep beer's ruling like a mountain road",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 65.56,
+      "end": 67.28,
+      "text": "Drop the heavy load",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 67.28,
+      "end": 68.88,
+      "text": "Ween condes miles",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 68.88,
+      "end": 70.36,
+      "text": "Dear for a while",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 70.36,
+      "end": 73.44,
+      "text": "Hot covers cling while the neighbors laugh",
+      "avgLogprob": -0.623,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.755,
+      "words": []
+    },
+    {
+      "start": 73.44,
+      "end": 74.94,
+      "text": "Peek a betta pie",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 74.94,
+      "end": 77.94,
+      "text": "Feel saltier in your here",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 77.94,
+      "end": 79.44,
+      "text": "Move in slow",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 79.44,
+      "end": 80.94,
+      "text": "Don't let go",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 80.94,
+      "end": 82.44,
+      "text": "Pull the line",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 82.44,
+      "end": 83.94,
+      "text": "Tear your time",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 83.94,
+      "end": 86.44,
+      "text": "Pull the fire",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 86.44,
+      "end": 87.94,
+      "text": "Don't you get too hot",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 87.94,
+      "end": 89.44,
+      "text": "Pull down the spot",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 89.44,
+      "end": 89.94,
+      "text": "Pull",
+      "avgLogprob": -0.52,
+      "compressionRatio": 1.402,
+      "noSpeechProbability": 0.589,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 91.84,
+      "text": "The fire show debris blowing",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 91.84,
+      "end": 94.24,
+      "text": "After the under-off",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 94.24,
+      "end": 95.72,
+      "text": "All your fire",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 95.72,
+      "end": 97.96,
+      "text": "Rocking steady with the popcorn",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 97.96,
+      "end": 102.68,
+      "text": "Strong where you belong",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 102.68,
+      "end": 105.16,
+      "text": "All your fire",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 105.16,
+      "end": 107.24,
+      "text": "Whizdom in the rhythm",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 107.24,
+      "end": 108.76,
+      "text": "Come in the spirit",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 108.76,
+      "end": 110.36,
+      "text": "Strengthen the silence",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 110.36,
+      "end": 111.8,
+      "text": "Listen, can you hear it?",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 111.8,
+      "end": 113.36,
+      "text": "Style is the discipline",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 113.36,
+      "end": 115.0,
+      "text": "Sweetness is the win",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 115.0,
+      "end": 118.0,
+      "text": "All your fire",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 118.0,
+      "end": 119.6,
+      "text": "Don't you get too hot",
+      "avgLogprob": -0.511,
+      "compressionRatio": 1.573,
+      "noSpeechProbability": 0.798,
+      "words": []
+    },
+    {
+      "start": 119.6,
+      "end": 121.6,
+      "text": "Cool down the spot",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 121.6,
+      "end": 123.6,
+      "text": "All the fire show got breeze blowing",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 123.6,
+      "end": 125.6,
+      "text": "Soft and the anger off",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 125.6,
+      "end": 127.6,
+      "text": "All the fire",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 127.6,
+      "end": 129.6,
+      "text": "Rocking steady with a bat burn",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 129.6,
+      "end": 133.6,
+      "text": "Strong where you belong",
+      "avgLogprob": -0.591,
+      "compressionRatio": 1.327,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 140.0,
+      "text": "All your fire",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 140.0,
+      "end": 142.0,
+      "text": "All your fire",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 144.0,
+      "text": "Don't you get too hot",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 146.0,
+      "text": "Pull down the spot",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 146.0,
+      "end": 147.0,
+      "text": "All your fire",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 148.0,
+      "text": "Sugar breeze blowing",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 148.0,
+      "end": 150.0,
+      "text": "Soft and the anger up",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 150.0,
+      "end": 152.0,
+      "text": "All your fire",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 152.0,
+      "end": 153.0,
+      "text": "Lucky instead of you",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 154.0,
+      "text": "With a puff",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 155.0,
+      "text": "Born stronger",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 158.0,
+      "text": "You belong",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 158.0,
+      "end": 161.0,
+      "text": "All your fire",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 161.0,
+      "end": 163.0,
+      "text": "Don't you get too hot",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 164.0,
+      "text": "Pull down the spot",
+      "avgLogprob": -0.342,
+      "compressionRatio": 1.853,
+      "noSpeechProbability": 0.845,
+      "words": []
+    },
+    {
+      "start": 164.0,
+      "end": 169.8,
+      "text": "All your fire sugar breeze blowing soft and the anger up all your fire",
+      "avgLogprob": -0.832,
+      "compressionRatio": 1.36,
+      "noSpeechProbability": 0.608,
+      "words": []
+    },
+    {
+      "start": 169.8,
+      "end": 174.2,
+      "text": "But instead of with a puff, burn strong, we are you below",
+      "avgLogprob": -0.832,
+      "compressionRatio": 1.36,
+      "noSpeechProbability": 0.608,
+      "words": []
+    },
+    {
+      "start": 177.0,
+      "end": 180.0,
+      "text": "All your fire, don't check",
+      "avgLogprob": -0.832,
+      "compressionRatio": 1.36,
+      "noSpeechProbability": 0.608,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 186.32,
+      "text": "to hold on to spot all your fire sugar breeze blowing soft under under",
+      "avgLogprob": -0.327,
+      "compressionRatio": 10.321,
+      "noSpeechProbability": 0.823,
+      "words": []
+    },
+    {
+      "start": 186.32,
+      "end": 194.96,
+      "text": "all your fire rock instead you read up up born strong we are you belong",
+      "avgLogprob": -0.327,
+      "compressionRatio": 10.321,
+      "noSpeechProbability": 0.823,
+      "words": []
+    },
+    {
+      "start": 194.96,
+      "end": 224.96,
+      "text": "You belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you belong, you",
+      "avgLogprob": -0.09,
+      "compressionRatio": 30.724,
+      "noSpeechProbability": 0.883,
+      "words": []
+    },
+    {
+      "start": 225.0,
+      "end": 226.42,
+      "text": "Like you more than you think I'm more",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 226.42,
+      "end": 228.08,
+      "text": "You know me, you know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 228.08,
+      "end": 230.32,
+      "text": "You know me, you know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 230.32,
+      "end": 231.92,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 231.92,
+      "end": 233.62,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 233.62,
+      "end": 234.92,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 234.92,
+      "end": 236.02,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 236.02,
+      "end": 237.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 237.72,
+      "end": 239.12,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 239.12,
+      "end": 239.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 239.72,
+      "end": 240.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 240.72,
+      "end": 241.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 241.72,
+      "end": 242.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 242.72,
+      "end": 243.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 243.72,
+      "end": 244.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 244.72,
+      "end": 245.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 245.72,
+      "end": 246.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 246.72,
+      "end": 247.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 247.72,
+      "end": 248.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 248.72,
+      "end": 249.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 249.72,
+      "end": 250.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 250.72,
+      "end": 251.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    },
+    {
+      "start": 251.72,
+      "end": 252.72,
+      "text": "You know me, you know me",
+      "avgLogprob": -0.332,
+      "compressionRatio": 10.583,
+      "noSpeechProbability": 0.788,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.798,
+    "wordCount": 159,
+    "credibleWordCount": 159,
+    "segmentCount": 27,
+    "averageWordProbability": 0.579,
+    "vocalSeconds": 88.7,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

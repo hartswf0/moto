@@ -1,0 +1,409 @@
+{
+  "analysisVersion": 1,
+  "index": 102,
+  "id": "../VOLHOLLA/song-silence-02.html",
+  "slug": "e-b-i-t-d-a-ft-pharrell",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Check, yeah, you hear that population 1, 2, 3, that's good, legend, looking lovely Paper trellis long, notebook in my direction Clear, I see the vision, focus, look the fortress Great, I break, stacking up the server plus a club in on a cell phone I see a phone with smile and fidgets, moving, dancing on the desktop spreadsheet Heavy, walkers with the healthy, earnings be for interest, taxes, de-classiation and amortization Call a deputant, deputant, deputant, earnings be for interest, taxes Deep appreciation in the modernization Call it every day Every day Every day Count it up Count it up Count it up Flat it down Flat it down Every day Boardroom, silk and leather Heavy mahogany, sick and chug on a god of lie Paid and full zero balance Keep the change, cap of rain is running through the rain Proviget, cropella Spinning like a summer fan that works Up with the skies just a sillon now I came, I saw, I conquered Cash flow, consistent Erning before interest, taxes, depreciation in the modernization Call it Epida, Epida, Epida Erning before interest Taxis, deep appreciation and the modernization Call it Epida, Epida, Epida, Canada Epida, Epida, Fatty, Nair, Fatty, Nair Epida, click, click, click The machine is humming, pop the corp, the bubbles keep on coming Everything is gross, everything is net Life is such a win, what would I ever fret? Earnings be for interest, taxes, deep appreciation in the modernization Call it every day, every day, every day Earnings be for interest, taxes, deep appreciation in the modernization Call it every day, every day, every day, every day, town and town Look at the margin, you're probably no toes. We out. Be with the Abidda.",
+  "sampledRanges": [
+    [
+      0.0,
+      144.47
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "text": "Check, yeah, you hear that population 1, 2, 3, that's good, legend, looking lovely",
+      "avgLogprob": -0.618,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.61,
+      "words": []
+    },
+    {
+      "start": 11.0,
+      "end": 18.0,
+      "text": "Paper trellis long, notebook in my direction Clear, I see the vision, focus, look the fortress",
+      "avgLogprob": -0.618,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.61,
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 23.0,
+      "text": "Great, I break, stacking up the server plus a club in on a cell phone",
+      "avgLogprob": -0.618,
+      "compressionRatio": 1.436,
+      "noSpeechProbability": 0.61,
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 29.0,
+      "text": "I see a phone with smile and fidgets, moving, dancing on the desktop spreadsheet",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.519,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 38.0,
+      "text": "Heavy, walkers with the healthy, earnings be for interest, taxes, de-classiation and amortization",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.519,
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 45.0,
+      "text": "Call a deputant, deputant, deputant, earnings be for interest, taxes",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.647,
+      "noSpeechProbability": 0.519,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.1,
+      "text": "Deep appreciation in the modernization",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 47.1,
+      "end": 48.5,
+      "text": "Call it every day",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 48.5,
+      "end": 49.7,
+      "text": "Every day",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 49.7,
+      "end": 50.3,
+      "text": "Every day",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 50.3,
+      "end": 51.3,
+      "text": "Count it up",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 51.3,
+      "end": 52.5,
+      "text": "Count it up",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 52.5,
+      "end": 53.5,
+      "text": "Count it up",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 53.5,
+      "end": 54.8,
+      "text": "Flat it down",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 54.8,
+      "end": 57.0,
+      "text": "Flat it down",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 60.0,
+      "text": "Every day",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 60.0,
+      "end": 61.8,
+      "text": "Boardroom, silk and leather",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 61.8,
+      "end": 64.6,
+      "text": "Heavy mahogany, sick and chug on a god of lie",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 64.6,
+      "end": 66.6,
+      "text": "Paid and full zero balance",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 66.6,
+      "end": 69.0,
+      "text": "Keep the change, cap of rain is running through the rain",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 69.0,
+      "end": 70.4,
+      "text": "Proviget, cropella",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 70.4,
+      "end": 72.0,
+      "text": "Spinning like a summer fan that works",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 72.0,
+      "end": 74.0,
+      "text": "Up with the skies just a sillon now",
+      "avgLogprob": -0.611,
+      "compressionRatio": 1.698,
+      "noSpeechProbability": 0.383,
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 76.0,
+      "text": "I came, I saw, I conquered",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.451,
+      "noSpeechProbability": 0.338,
+      "words": []
+    },
+    {
+      "start": 76.0,
+      "end": 78.5,
+      "text": "Cash flow, consistent",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.451,
+      "noSpeechProbability": 0.338,
+      "words": []
+    },
+    {
+      "start": 78.5,
+      "end": 84.0,
+      "text": "Erning before interest, taxes, depreciation in the modernization",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.451,
+      "noSpeechProbability": 0.338,
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 87.5,
+      "text": "Call it Epida, Epida, Epida",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.451,
+      "noSpeechProbability": 0.338,
+      "words": []
+    },
+    {
+      "start": 87.5,
+      "end": 90.0,
+      "text": "Erning before interest",
+      "avgLogprob": -0.526,
+      "compressionRatio": 1.451,
+      "noSpeechProbability": 0.338,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 93.36,
+      "text": "Taxis, deep appreciation and the modernization",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 93.36,
+      "end": 97.6,
+      "text": "Call it Epida, Epida, Epida, Canada",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 97.6,
+      "end": 102.32,
+      "text": "Epida, Epida, Fatty, Nair, Fatty, Nair",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 102.32,
+      "end": 107.28,
+      "text": "Epida, click, click, click",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 107.28,
+      "end": 110.4,
+      "text": "The machine is humming, pop the corp, the bubbles keep on coming",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 110.4,
+      "end": 112.64,
+      "text": "Everything is gross, everything is net",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 112.64,
+      "end": 115.6,
+      "text": "Life is such a win, what would I ever fret?",
+      "avgLogprob": -0.613,
+      "compressionRatio": 1.682,
+      "noSpeechProbability": 0.627,
+      "words": []
+    },
+    {
+      "start": 115.6,
+      "end": 120.98,
+      "text": "Earnings be for interest, taxes, deep appreciation in the modernization",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.441,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 120.98,
+      "end": 124.68,
+      "text": "Call it every day, every day, every day",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.441,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 124.68,
+      "end": 130.22,
+      "text": "Earnings be for interest, taxes, deep appreciation in the modernization",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.441,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 130.22,
+      "end": 134.9,
+      "text": "Call it every day, every day, every day, every day, town and town",
+      "avgLogprob": -0.421,
+      "compressionRatio": 2.441,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 141.0,
+      "text": "Look at the margin, you're probably no toes.",
+      "avgLogprob": -1.0,
+      "compressionRatio": 0.947,
+      "noSpeechProbability": 0.575,
+      "words": []
+    },
+    {
+      "start": 141.0,
+      "end": 142.0,
+      "text": "We out.",
+      "avgLogprob": -1.0,
+      "compressionRatio": 0.947,
+      "noSpeechProbability": 0.575,
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 144.0,
+      "text": "Be with the Abidda.",
+      "avgLogprob": -1.0,
+      "compressionRatio": 0.947,
+      "noSpeechProbability": 0.575,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.786,
+    "wordCount": 289,
+    "credibleWordCount": 289,
+    "segmentCount": 42,
+    "averageWordProbability": 0.554,
+    "vocalSeconds": 143.9,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

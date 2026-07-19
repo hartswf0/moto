@@ -1,0 +1,526 @@
+{
+  "analysisVersion": 1,
+  "index": 35,
+  "id": "../VOLHOLLA/song-nobrightstand-37.html",
+  "slug": "the-domestic-absurd",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "The app asks you to be authentic. You photograph your laptop, your knee, and the same mug you have been pretending as a personality. The QR menu, you scan the code. The code opens a PDF. The PDF asks for cookies. You are starving in a restaurant. The Esprit Smartini, you say you are tired, you say you want a party. The bartender hands you a panic attack in a coup glass. It says support local bookstores. Inside, Amazon returns. The work-bestie you trauma bond over bad management, she leaves for another company. Now your grief is a LinkedIn update. The Pilates class, a woman named Claire, charges you $40 to make your legs shake under museum lighting. You say, sorry, this is long. It is nine minutes, it is chapters. The listener ages. The traitor Joe's orchid. You buy it because you are becoming the kind of person who owns an orchid. It dies of proximity to you. The notes up poem, you write, my mother was the first country. Then add maybe too much, then order wings. The microdose, you take mushrooms to answer emails with more compassion. You still write per my last email. You post two wine glasses, everyone knows. No one asks, the glasses do the labor of intimacy. The parking app, you download it on a sidewalk in the rain. It asks you to create an account, the meter watches like a cop with software. You stop saying unemployed, you say independent strategy, your bank account says performance art, the shared notes list, milk eggs, paper towels, a relationship dying in bullet points. You had a hard day you buy a candle called salted rain, now your apartment smells like a yacht of water. The airport bar, it is 7.12 a.m., a man in cargo shorts orders a double whisky, nobody judges him. The airport is international waters for the soul. The quarking phone booth, you enter a tiny glass coffin to say can everyone see my screen. You pay $8 to look verified by a mall cup inside your phone. The vision board, you glue a beach, a house, a jawline, a ceramic bowl. The glue understands you best. The brunch reservation, six people, 11 texts, three dietary restrictions. One table under a speaker playing Duolipa like municipal law. The scented candle, the label says, Hinokey Temple, it was made in New Jersey, you light it anyway. God clocks in. You need toothpaste, you leave with bins, socks, a lamp, and a seasonal depression fox made a felt. The group dinner splashed. you had soup direct had lamb. The bill arrives and becomes a hostage situation. The Mo alcohol no gluten no escape a woman named Sage rings a bowl at your childhood. The algorithm again it shows you a woman making soup in a stone kitchen in rural France. You buy a ladle you live above a vape shop. Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah! Yeah!",
+  "sampledRanges": [
+    [
+      0.0,
+      230.06
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "The app asks you to be authentic.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "text": "You photograph your laptop, your knee, and the same mug you have been pretending as a personality.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 8.0,
+      "end": 12.0,
+      "text": "The QR menu, you scan the code. The code opens a PDF.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 15.0,
+      "text": "The PDF asks for cookies. You are starving in a restaurant.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "text": "The Esprit Smartini, you say you are tired, you say you want a party.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 22.0,
+      "text": "The bartender hands you a panic attack in a coup glass.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 24.0,
+      "text": "It says support local bookstores.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 26.0,
+      "text": "Inside, Amazon returns.",
+      "avgLogprob": -0.19,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.531,
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 31.0,
+      "text": "The work-bestie you trauma bond over bad management, she leaves for another company.",
+      "avgLogprob": -0.246,
+      "compressionRatio": 1.418,
+      "noSpeechProbability": 0.514,
+      "words": []
+    },
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "text": "Now your grief is a LinkedIn update.",
+      "avgLogprob": -0.246,
+      "compressionRatio": 1.418,
+      "noSpeechProbability": 0.514,
+      "words": []
+    },
+    {
+      "start": 33.0,
+      "end": 38.0,
+      "text": "The Pilates class, a woman named Claire, charges you $40 to make your legs shake under museum lighting.",
+      "avgLogprob": -0.246,
+      "compressionRatio": 1.418,
+      "noSpeechProbability": 0.514,
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "You say, sorry, this is long. It is nine minutes, it is chapters.",
+      "avgLogprob": -0.246,
+      "compressionRatio": 1.418,
+      "noSpeechProbability": 0.514,
+      "words": []
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "The listener ages. The traitor Joe's orchid.",
+      "avgLogprob": -0.246,
+      "compressionRatio": 1.418,
+      "noSpeechProbability": 0.514,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 48.44,
+      "text": "You buy it because you are becoming the kind of person who owns an orchid.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 48.44,
+      "end": 50.44,
+      "text": "It dies of proximity to you.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 50.44,
+      "end": 53.96,
+      "text": "The notes up poem, you write, my mother was the first country.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 53.96,
+      "end": 56.52,
+      "text": "Then add maybe too much, then order wings.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 56.52,
+      "end": 60.12,
+      "text": "The microdose, you take mushrooms to answer emails with more compassion.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 60.12,
+      "end": 62.44,
+      "text": "You still write per my last email.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 62.44,
+      "end": 64.92,
+      "text": "You post two wine glasses, everyone knows.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 64.92,
+      "end": 67.96,
+      "text": "No one asks, the glasses do the labor of intimacy.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 67.96,
+      "end": 70.92,
+      "text": "The parking app, you download it on a sidewalk in the rain.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 70.92,
+      "end": 74.92,
+      "text": "It asks you to create an account, the meter watches like a cop with software.",
+      "avgLogprob": -0.166,
+      "compressionRatio": 1.721,
+      "noSpeechProbability": 0.478,
+      "words": []
+    },
+    {
+      "start": 74.92,
+      "end": 84.92,
+      "text": "You stop saying unemployed, you say independent strategy, your bank account says performance art, the shared notes list, milk eggs, paper towels, a relationship dying in bullet points.",
+      "avgLogprob": -0.262,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 84.92,
+      "end": 89.92,
+      "text": "You had a hard day you buy a candle called salted rain, now your apartment smells like a yacht of water.",
+      "avgLogprob": -0.262,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.369,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 97.0,
+      "text": "The airport bar, it is 7.12 a.m., a man in cargo shorts orders a double whisky, nobody judges him.",
+      "avgLogprob": -0.2,
+      "compressionRatio": 1.531,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 97.0,
+      "end": 104.0,
+      "text": "The airport is international waters for the soul. The quarking phone booth, you enter a tiny glass coffin to say can everyone see my screen.",
+      "avgLogprob": -0.2,
+      "compressionRatio": 1.531,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 104.0,
+      "end": 112.0,
+      "text": "You pay $8 to look verified by a mall cup inside your phone. The vision board, you glue a beach, a house, a jawline, a ceramic bowl.",
+      "avgLogprob": -0.2,
+      "compressionRatio": 1.531,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 112.0,
+      "end": 114.0,
+      "text": "The glue understands you best.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 116.0,
+      "text": "The brunch reservation, six people,",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 116.0,
+      "end": 118.0,
+      "text": "11 texts, three dietary restrictions.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 118.0,
+      "end": 122.0,
+      "text": "One table under a speaker playing Duolipa like municipal law.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 122.0,
+      "end": 124.0,
+      "text": "The scented candle, the label says,",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 124.0,
+      "end": 126.0,
+      "text": "Hinokey Temple, it was made in New Jersey,",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 126.0,
+      "end": 127.0,
+      "text": "you light it anyway.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 127.0,
+      "end": 128.0,
+      "text": "God clocks in.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 130.0,
+      "text": "You need toothpaste, you leave with bins,",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 130.0,
+      "end": 134.0,
+      "text": "socks, a lamp, and a seasonal depression fox made a felt.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 134.0,
+      "end": 136.0,
+      "text": "The group dinner splashed.",
+      "avgLogprob": -0.261,
+      "compressionRatio": 1.517,
+      "noSpeechProbability": 0.746,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 139.08,
+      "text": "you had soup direct had lamb. The bill arrives and becomes a hostage situation.",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.42,
+      "words": []
+    },
+    {
+      "start": 139.96,
+      "end": 144.92,
+      "text": "The Mo alcohol no gluten no escape a woman named Sage rings a bowl at your childhood.",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.42,
+      "words": []
+    },
+    {
+      "start": 144.92,
+      "end": 149.64,
+      "text": "The algorithm again it shows you a woman making soup in a stone kitchen in rural France.",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.42,
+      "words": []
+    },
+    {
+      "start": 149.64,
+      "end": 154.84,
+      "text": "You buy a ladle you live above a vape shop.",
+      "avgLogprob": -0.313,
+      "compressionRatio": 1.513,
+      "noSpeechProbability": 0.42,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 182.0,
+      "end": 184.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 184.0,
+      "end": 186.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 186.0,
+      "end": 188.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 188.0,
+      "end": 190.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 190.0,
+      "end": 192.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 192.0,
+      "end": 194.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 194.0,
+      "end": 196.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 196.0,
+      "end": 198.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 198.0,
+      "end": 200.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 200.0,
+      "end": 204.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    },
+    {
+      "start": 204.0,
+      "end": 208.0,
+      "text": "Yeah!",
+      "avgLogprob": -0.383,
+      "compressionRatio": 4.176,
+      "noSpeechProbability": 0.74,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.902,
+    "wordCount": 416,
+    "credibleWordCount": 416,
+    "segmentCount": 40,
+    "averageWordProbability": 0.796,
+    "vocalSeconds": 132.88,
+    "scanCoverage": 1.0,
+    "reviewRequired": false
+  }
+}

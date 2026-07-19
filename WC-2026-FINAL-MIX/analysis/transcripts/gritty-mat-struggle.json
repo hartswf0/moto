@@ -1,0 +1,463 @@
+{
+  "analysisVersion": 1,
+  "index": 107,
+  "id": "../VOLHOLLA/song-throne-04.html",
+  "slug": "gritty-mat-struggle",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Music Canvas burns it, raw sweat Blood drips on the new beat I breathe, keep me Muscle twitching, look great fall Black boots, heavy chest Heaving in the center, utter ring Total war in the monochrome shadows Push it till I cannot see Locked in Choked out, iron grip on a heavy throat White lines cross the mat tonight I struggle for the life for me Survival is the only plan I hit, I hit, I hit Survive fools, the only plan I hit, I hit, I hit Showed it in the Yo-Sturnum Heavy grind, blown on bone Static popping in the dark corner, don't move Don't speak, don't think about the losing side Better end the Chicago gym Hot like an 800 to 8-ko floor Tough love, hammer in the river, run the ribs Tied up in the grappling lace White lines cross the mat tonight I struggle for the life of me Survival is the only plan I hit, I hit, I hit Survival is the only plan I hit, I hit, I hit Under the flood light Everything is bad Everything is white, under the flood light, everything is black, everything is white, under the flood light, I survive, I survive, I survive White learns across the mat tonight, I struggle for the life in me, survival is the only plan I hit, I hit, I hit Survive who's the only clan? I hit, I hit, I hit Yeah, survival Survival Survival Yeah Survival Survival . . . .",
+  "sampledRanges": [
+    [
+      0.0,
+      141.08
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 15.0,
+      "text": "Music",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 15.0,
+      "end": 17.0,
+      "text": "Canvas burns it, raw sweat",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 17.0,
+      "end": 19.0,
+      "text": "Blood drips on the new beat",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 21.0,
+      "text": "I breathe, keep me",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 21.0,
+      "end": 23.0,
+      "text": "Muscle twitching, look great fall",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 25.0,
+      "text": "Black boots, heavy chest",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 25.0,
+      "end": 27.0,
+      "text": "Heaving in the center, utter ring",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 29.0,
+      "text": "Total war in the monochrome shadows",
+      "avgLogprob": -0.413,
+      "compressionRatio": 1.368,
+      "noSpeechProbability": 0.578,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 31.0,
+      "text": "Push it till I cannot see",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 31.8,
+      "end": 33.0,
+      "text": "Locked in",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 33.8,
+      "end": 36.6,
+      "text": "Choked out, iron grip on a heavy throat",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 38.0,
+      "end": 40.0,
+      "text": "White lines cross the mat tonight",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 41.8,
+      "text": "I struggle for the life for me",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 41.8,
+      "end": 44.0,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.503,
+      "compressionRatio": 1.297,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.44,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 47.44,
+      "end": 50.44,
+      "text": "Survive fools, the only plan",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 50.44,
+      "end": 53.24,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 53.24,
+      "end": 55.24,
+      "text": "Showed it in the Yo-Sturnum",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 55.24,
+      "end": 57.08,
+      "text": "Heavy grind, blown on bone",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 57.08,
+      "end": 59.72,
+      "text": "Static popping in the dark corner, don't move",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 59.72,
+      "end": 62.84,
+      "text": "Don't speak, don't think about the losing side",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 62.84,
+      "end": 64.76,
+      "text": "Better end the Chicago gym",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 64.76,
+      "end": 67.32,
+      "text": "Hot like an 800 to 8-ko floor",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 67.32,
+      "end": 70.52,
+      "text": "Tough love, hammer in the river, run the ribs",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 70.52,
+      "end": 72.36,
+      "text": "Tied up in the grappling lace",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 72.36,
+      "end": 74.28,
+      "text": "White lines cross the mat tonight",
+      "avgLogprob": -0.447,
+      "compressionRatio": 1.583,
+      "noSpeechProbability": 0.797,
+      "words": []
+    },
+    {
+      "start": 74.28,
+      "end": 76.28,
+      "text": "I struggle for the life of me",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 76.28,
+      "end": 78.28,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 78.28,
+      "end": 80.28,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 80.28,
+      "end": 84.28,
+      "text": "Survival is the only plan",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 84.28,
+      "end": 86.28,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 86.28,
+      "end": 88.28,
+      "text": "Under the flood light",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 88.28,
+      "end": 90.28,
+      "text": "Everything is bad",
+      "avgLogprob": -0.198,
+      "compressionRatio": 1.643,
+      "noSpeechProbability": 0.59,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 105.0,
+      "text": "Everything is white, under the flood light, everything is black, everything is white, under the flood light, I survive, I survive, I survive",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.828,
+      "noSpeechProbability": 0.848,
+      "words": []
+    },
+    {
+      "start": 105.0,
+      "end": 111.0,
+      "text": "White learns across the mat tonight, I struggle for the life in me, survival is the only plan",
+      "avgLogprob": -0.367,
+      "compressionRatio": 1.828,
+      "noSpeechProbability": 0.848,
+      "words": []
+    },
+    {
+      "start": 111.0,
+      "end": 113.0,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 114.0,
+      "end": 116.0,
+      "text": "Survive who's the only clan?",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 117.0,
+      "end": 119.0,
+      "text": "I hit, I hit, I hit",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 123.0,
+      "text": "Yeah, survival",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 123.0,
+      "end": 125.0,
+      "text": "Survival",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 125.0,
+      "end": 127.0,
+      "text": "Survival",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 127.0,
+      "end": 129.0,
+      "text": "Yeah",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 129.0,
+      "end": 131.0,
+      "text": "Survival",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 131.0,
+      "end": 133.0,
+      "text": "Survival",
+      "avgLogprob": -0.27,
+      "compressionRatio": 1.797,
+      "noSpeechProbability": 0.311,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 142.0,
+      "text": ".",
+      "avgLogprob": -0.768,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.799,
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 149.0,
+      "text": ".",
+      "avgLogprob": -0.768,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.799,
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 156.0,
+      "text": ".",
+      "avgLogprob": -0.768,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.799,
+      "words": []
+    },
+    {
+      "start": 156.0,
+      "end": 163.0,
+      "text": ".",
+      "avgLogprob": -0.768,
+      "compressionRatio": 0.583,
+      "noSpeechProbability": 0.799,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.86,
+    "wordCount": 131,
+    "credibleWordCount": 131,
+    "segmentCount": 30,
+    "averageWordProbability": 0.709,
+    "vocalSeconds": 76.0,
+    "scanCoverage": 1.0,
+    "reviewRequired": false
+  }
+}

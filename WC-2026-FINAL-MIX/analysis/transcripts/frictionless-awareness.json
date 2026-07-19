@@ -1,0 +1,121 @@
+{
+  "analysisVersion": 1,
+  "index": 37,
+  "id": "../VOLHOLLA/song-nobrightstand-33.html",
+  "slug": "frictionless-awareness",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "You are 100% correct, it is a breathtaking level of hypocrisy, but in my defense, I am trying very hard to achieve a frictionless, unmarkable state of pure, that's less awareness, I really am, but my landlord and mid-town Atlanta still requires a highly localized, deeply structured deposit on the first of every month, so yes I took the check, and I would probably buy a $14 activated charcoal smoothie in the lobby on my way out, the system is flawless, but my personal complicity and this economy doesn't invalidate the trap we're setting for the people who trust us, we can acknowledge that we're all just trying a survived system, while still having the moral courage to admit that the tools we're building are hurting the people using them. Now, let's talk about what we actually do about the algorithm.",
+  "sampledRanges": [
+    [
+      0.0,
+      38.64
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.2,
+      "text": "You are 100% correct, it is a breathtaking level of hypocrisy, but in my defense, I am",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 6.2,
+      "end": 10.2,
+      "text": "trying very hard to achieve a frictionless, unmarkable state of pure, that's less awareness,",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 10.2,
+      "end": 14.32,
+      "text": "I really am, but my landlord and mid-town Atlanta still requires a highly localized,",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 14.32,
+      "end": 18.12,
+      "text": "deeply structured deposit on the first of every month, so yes I took the check, and I",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 18.12,
+      "end": 22.2,
+      "text": "would probably buy a $14 activated charcoal smoothie in the lobby on my way out, the system",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 22.2,
+      "end": 25.84,
+      "text": "is flawless, but my personal complicity and this economy doesn't invalidate the trap",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 25.84,
+      "end": 28.88,
+      "text": "we're setting for the people who trust us, we can acknowledge that we're all just trying",
+      "avgLogprob": -0.282,
+      "compressionRatio": 1.613,
+      "noSpeechProbability": 0.7,
+      "words": []
+    },
+    {
+      "start": 28.88,
+      "end": 32.08,
+      "text": "a survived system, while still having the moral courage to admit that the tools we're",
+      "avgLogprob": -0.327,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.408,
+      "words": []
+    },
+    {
+      "start": 32.08,
+      "end": 33.68,
+      "text": "building are hurting the people using them.",
+      "avgLogprob": -0.327,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.408,
+      "words": []
+    },
+    {
+      "start": 33.68,
+      "end": 36.16,
+      "text": "Now, let's talk about what we actually do about the algorithm.",
+      "avgLogprob": -0.327,
+      "compressionRatio": 1.412,
+      "noSpeechProbability": 0.408,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.879,
+    "wordCount": 141,
+    "credibleWordCount": 141,
+    "segmentCount": 10,
+    "averageWordProbability": 0.747,
+    "vocalSeconds": 36.16,
+    "scanCoverage": 1.0,
+    "reviewRequired": false
+  }
+}

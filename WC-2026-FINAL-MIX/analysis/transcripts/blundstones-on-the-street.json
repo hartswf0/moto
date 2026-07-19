@@ -23,56 +23,7 @@
       "avgLogprob": -0.458,
       "compressionRatio": 1.422,
       "noSpeechProbability": 0.486,
-      "words": [
-        {
-          "word": "I'm",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "Stones,",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "got",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "a",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "text",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "from",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "my",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        },
-        {
-          "word": "brother",
-          "start": 0.0,
-          "end": 8.0,
-          "probability": 0.633
-        }
-      ]
+      "words": []
     },
     {
       "start": 8.0,
@@ -81,86 +32,7 @@
       "avgLogprob": -0.458,
       "compressionRatio": 1.422,
       "noSpeechProbability": 0.486,
-      "words": [
-        {
-          "word": "Said",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "we",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "did",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "it",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "today,",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "courthouse,",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "quick",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "signature,",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "then",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "back",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "on",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "the",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        },
-        {
-          "word": "way",
-          "start": 8.0,
-          "end": 17.0,
-          "probability": 0.633
-        }
-      ]
+      "words": []
     },
     {
       "start": 17.0,
@@ -169,104 +41,7 @@
       "avgLogprob": -0.458,
       "compressionRatio": 1.422,
       "noSpeechProbability": 0.486,
-      "words": [
-        {
-          "word": "No",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "big",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "white",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "tin,",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "no",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "reddish",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "swans,",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "just",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "blind",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "stones",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "on",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "and",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "the",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "paper",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "worked",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        },
-        {
-          "word": "on",
-          "start": 17.0,
-          "end": 24.0,
-          "probability": 0.633
-        }
-      ]
+      "words": []
     },
     {
       "start": 24.0,
@@ -275,74 +50,7 @@
       "avgLogprob": -0.458,
       "compressionRatio": 1.422,
       "noSpeechProbability": 0.486,
-      "words": [
-        {
-          "word": "Henry",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "and",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "Brittany",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "kept",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "it",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "clean,",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "no",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "big",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "production,",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "no",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        },
-        {
-          "word": "magazine",
-          "start": 24.0,
-          "end": 29.0,
-          "probability": 0.633
-        }
-      ]
+      "words": []
     },
     {
       "start": 29.0,
@@ -351,38 +59,7 @@
       "avgLogprob": -0.342,
       "compressionRatio": 1.384,
       "noSpeechProbability": 0.498,
-      "words": [
-        {
-          "word": "Just",
-          "start": 29.0,
-          "end": 31.0,
-          "probability": 0.71
-        },
-        {
-          "word": "keys",
-          "start": 29.0,
-          "end": 31.0,
-          "probability": 0.71
-        },
-        {
-          "word": "in",
-          "start": 29.0,
-          "end": 31.0,
-          "probability": 0.71
-        },
-        {
-          "word": "a",
-          "start": 29.0,
-          "end": 31.0,
-          "probability": 0.71
-        },
-        {
-          "word": "pocket",
-          "start": 29.0,
-          "end": 31.0,
-          "probability": 0.71
-        }
-      ]
+      "words": []
     },
     {
       "start": 31.2,
@@ -391,80 +68,7 @@
       "avgLogprob": -0.342,
       "compressionRatio": 1.384,
       "noSpeechProbability": 0.498,
-      "words": [
-        {
-          "word": "Sun",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "on",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "the",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "street",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "two",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "names",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "together",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "and",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "boots",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "on",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "their",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        },
-        {
-          "word": "feet",
-          "start": 31.2,
-          "end": 36.52,
-          "probability": 0.71
-        }
-      ]
+      "words": []
     },
     {
       "start": 36.68,
@@ -473,146 +77,7 @@
       "avgLogprob": -0.342,
       "compressionRatio": 1.384,
       "noSpeechProbability": 0.498,
-      "words": [
-        {
-          "word": "Maybe",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "grab",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "coffee",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "maybe",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "got",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "gas",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "maybe",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "said",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "well",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "and",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "let",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "the",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "day",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "pass.",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "That's",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "how",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "you",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "do",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "it.",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "No",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "need",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "to",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        },
-        {
-          "word": "shout",
-          "start": 36.68,
-          "end": 44.98,
-          "probability": 0.71
-        }
-      ]
+      "words": []
     },
     {
       "start": 45.0,
@@ -621,44 +86,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "Walk",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        },
-        {
-          "word": "in",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        },
-        {
-          "word": "together,",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        },
-        {
-          "word": "walk",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        },
-        {
-          "word": "married",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        },
-        {
-          "word": "out",
-          "start": 45.0,
-          "end": 48.4,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 48.4,
@@ -667,44 +95,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "Henry",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        },
-        {
-          "word": "and",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        },
-        {
-          "word": "Brittany",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        },
-        {
-          "word": "kept",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        },
-        {
-          "word": "a",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        },
-        {
-          "word": "clean",
-          "start": 48.4,
-          "end": 51.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 51.0,
@@ -713,38 +104,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "No",
-          "start": 51.0,
-          "end": 54.0,
-          "probability": 0.744
-        },
-        {
-          "word": "big",
-          "start": 51.0,
-          "end": 54.0,
-          "probability": 0.744
-        },
-        {
-          "word": "production,",
-          "start": 51.0,
-          "end": 54.0,
-          "probability": 0.744
-        },
-        {
-          "word": "no",
-          "start": 51.0,
-          "end": 54.0,
-          "probability": 0.744
-        },
-        {
-          "word": "magazine",
-          "start": 51.0,
-          "end": 54.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 54.0,
@@ -753,44 +113,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "Just",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        },
-        {
-          "word": "life",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        },
-        {
-          "word": "and",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        },
-        {
-          "word": "motion,",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        },
-        {
-          "word": "no",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        },
-        {
-          "word": "ceremony",
-          "start": 54.0,
-          "end": 58.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 58.0,
@@ -799,68 +122,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "A",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "good",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "pair",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "of",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "boots",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "and",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "somebody",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "to",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "phone",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        },
-        {
-          "word": "me",
-          "start": 58.0,
-          "end": 62.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 62.0,
@@ -869,56 +131,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "No",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "heart,",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "no",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "dope,",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "no",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "speech,",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "just",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        },
-        {
-          "word": "enough",
-          "start": 62.0,
-          "end": 65.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 65.0,
@@ -927,56 +140,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "Sign",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "here,",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "stand",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "there,",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "go",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "eat,",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "take",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        },
-        {
-          "word": "care",
-          "start": 65.0,
-          "end": 68.5,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 68.5,
@@ -985,62 +149,7 @@
       "avgLogprob": -0.295,
       "compressionRatio": 1.539,
       "noSpeechProbability": 0.708,
-      "words": [
-        {
-          "word": "Henry",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "and",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "Brittany,",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "that'll",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "do",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "a",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "court",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "house",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        },
-        {
-          "word": "morning",
-          "start": 68.5,
-          "end": 73.0,
-          "probability": 0.744
-        }
-      ]
+      "words": []
     },
     {
       "start": 73.0,
@@ -1049,38 +158,7 @@
       "avgLogprob": -0.435,
       "compressionRatio": 0.742,
       "noSpeechProbability": 0.448,
-      "words": [
-        {
-          "word": "And",
-          "start": 73.0,
-          "end": 75.0,
-          "probability": 0.647
-        },
-        {
-          "word": "a",
-          "start": 73.0,
-          "end": 75.0,
-          "probability": 0.647
-        },
-        {
-          "word": "text",
-          "start": 73.0,
-          "end": 75.0,
-          "probability": 0.647
-        },
-        {
-          "word": "came",
-          "start": 73.0,
-          "end": 75.0,
-          "probability": 0.647
-        },
-        {
-          "word": "through",
-          "start": 73.0,
-          "end": 75.0,
-          "probability": 0.647
-        }
-      ]
+      "words": []
     },
     {
       "start": 90.0,
@@ -1089,14 +167,7 @@
       "avgLogprob": -0.684,
       "compressionRatio": 0.583,
       "noSpeechProbability": 0.674,
-      "words": [
-        {
-          "word": ".",
-          "start": 90.0,
-          "end": 97.0,
-          "probability": 0.505
-        }
-      ]
+      "words": []
     },
     {
       "start": 97.0,
@@ -1105,14 +176,7 @@
       "avgLogprob": -0.684,
       "compressionRatio": 0.583,
       "noSpeechProbability": 0.674,
-      "words": [
-        {
-          "word": ".",
-          "start": 97.0,
-          "end": 104.0,
-          "probability": 0.505
-        }
-      ]
+      "words": []
     },
     {
       "start": 104.0,
@@ -1121,14 +185,7 @@
       "avgLogprob": -0.684,
       "compressionRatio": 0.583,
       "noSpeechProbability": 0.674,
-      "words": [
-        {
-          "word": ".",
-          "start": 104.0,
-          "end": 111.0,
-          "probability": 0.505
-        }
-      ]
+      "words": []
     },
     {
       "start": 111.0,
@@ -1137,14 +194,7 @@
       "avgLogprob": -0.684,
       "compressionRatio": 0.583,
       "noSpeechProbability": 0.674,
-      "words": [
-        {
-          "word": ".",
-          "start": 111.0,
-          "end": 118.0,
-          "probability": 0.505
-        }
-      ]
+      "words": []
     }
   ],
   "evidence": {

@@ -1,0 +1,418 @@
+{
+  "analysisVersion": 1,
+  "index": 101,
+  "id": "../VOLHOLLA/song-silence-01.html",
+  "slug": "distance-and-devotion",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "That beat three hung, we prayed, then we played, blessed. Hallelujah! Too far they are so small, look at the gap, I measure the distance and deck it's either vista from the peak of the mountain, that stood in the quiet stand, singing hymns with my handstand. Now they ain't get dragged on the dotted line, but I keep the faith in the pocket of my coat. That's the vessel through the choppy water, I ain't just a passenger Watching the shore fading out, until it is a doubt or no horizon He is the driver, I am in the back seat Count my mouth, so far ahead of the pack So far ahead of the pack, got you the wheel, now the road is wide I don't look back, so far ahead of the pack So far ahead of the pack Two lanes, one soul, I am chasing the prize But the glory as his competition is the lonely game I find the comfort in the scriptures, hook in the book, reap the truth Shout the dawn of noise, severing golden with tarnish But the spirit stays polished like a diamond, I see the finish line It is moving with me, they're planting, they're gasping I am breathing, he's the inner spirit, step after step I ain't walking on the surface, why they see getting the mud at the end And the driver, I am in the backseat Count my mouth, so far ahead of the pack So far ahead of the pack, got you to be on that road is wide I don't look back, so far ahead of the pack, so far ahead of the pack Nailed down, stand up, check the rear view mirror, nothing but grace Nothing but space, I am untouchable because he touch me first I am unreachable because I am already home, if you see B3, bo- I'm in the room, mixing the homie with your heavy sample The quiet, moving to testimony, I am the witness To the greatest, one, two, ten years gone Still the king of the mountain, I don't brag, I just testify The view is better from the front, let them talk, let them plot I am coupled by the blood in the base, running in the race But I finished before I'd even started Here's the driver, I am in the back seat Counting my mouth, so far ahead of the pack So far ahead of the pack, got you to be on out of roaders' wire I don't look back, so far ahead of the pack So far, so far, so far, got it the wheel. Amen, back is gone, we win every time, amen.",
+  "sampledRanges": [
+    [
+      0.0,
+      128.78
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 11.0,
+      "text": "That beat three hung, we prayed, then we played, blessed.",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 11.0,
+      "end": 14.0,
+      "text": "Hallelujah!",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "Too far they are so small, look at the gap, I measure the distance and deck it's either",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 22.0,
+      "text": "vista from the peak of the mountain, that stood in the quiet stand, singing hymns with my",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 23.0,
+      "text": "handstand.",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 23.0,
+      "end": 26.0,
+      "text": "Now they ain't get dragged on the dotted line, but I keep the faith in the pocket of",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 26.0,
+      "end": 27.0,
+      "text": "my coat.",
+      "avgLogprob": -0.504,
+      "compressionRatio": 1.564,
+      "noSpeechProbability": 0.395,
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 29.64,
+      "text": "That's the vessel through the choppy water, I ain't just a passenger",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 29.64,
+      "end": 33.0,
+      "text": "Watching the shore fading out, until it is a doubt or no horizon",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 33.0,
+      "end": 36.44,
+      "text": "He is the driver, I am in the back seat",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 36.44,
+      "end": 38.6,
+      "text": "Count my mouth, so far ahead of the pack",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 38.6,
+      "end": 41.64,
+      "text": "So far ahead of the pack, got you the wheel, now the road is wide",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 41.64,
+      "end": 43.8,
+      "text": "I don't look back, so far ahead of the pack",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 43.8,
+      "end": 45.0,
+      "text": "So far ahead of the pack",
+      "avgLogprob": -0.383,
+      "compressionRatio": 1.799,
+      "noSpeechProbability": 0.479,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.76,
+      "text": "Two lanes, one soul, I am chasing the prize",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 47.76,
+      "end": 50.16,
+      "text": "But the glory as his competition is the lonely game",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 50.16,
+      "end": 53.16,
+      "text": "I find the comfort in the scriptures, hook in the book, reap the truth",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 53.16,
+      "end": 55.72,
+      "text": "Shout the dawn of noise, severing golden with tarnish",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 55.72,
+      "end": 58.56,
+      "text": "But the spirit stays polished like a diamond, I see the finish line",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 58.56,
+      "end": 61.48,
+      "text": "It is moving with me, they're planting, they're gasping",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 61.48,
+      "end": 64.44,
+      "text": "I am breathing, he's the inner spirit, step after step",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 64.44,
+      "end": 68.64,
+      "text": "I ain't walking on the surface, why they see getting the mud at the end",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 68.64,
+      "end": 70.72,
+      "text": "And the driver, I am in the backseat",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 70.72,
+      "end": 72.84,
+      "text": "Count my mouth, so far ahead of the pack",
+      "avgLogprob": -0.416,
+      "compressionRatio": 1.748,
+      "noSpeechProbability": 0.594,
+      "words": []
+    },
+    {
+      "start": 72.84,
+      "end": 75.96,
+      "text": "So far ahead of the pack, got you to be on that road is wide",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 75.96,
+      "end": 79.36,
+      "text": "I don't look back, so far ahead of the pack, so far ahead of the pack",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 79.36,
+      "end": 82.72,
+      "text": "Nailed down, stand up, check the rear view mirror, nothing but grace",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 82.72,
+      "end": 85.76,
+      "text": "Nothing but space, I am untouchable because he touch me first",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 85.76,
+      "end": 88.68,
+      "text": "I am unreachable because I am already home, if you see",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 88.68,
+      "end": 89.92,
+      "text": "B3, bo-",
+      "avgLogprob": -0.386,
+      "compressionRatio": 1.751,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 92.12,
+      "text": "I'm in the room, mixing the homie with your heavy sample",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 92.12,
+      "end": 94.24,
+      "text": "The quiet, moving to testimony, I am the witness",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 94.24,
+      "end": 96.64,
+      "text": "To the greatest, one, two, ten years gone",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 96.64,
+      "end": 99.36,
+      "text": "Still the king of the mountain, I don't brag, I just testify",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 99.36,
+      "end": 102.08,
+      "text": "The view is better from the front, let them talk, let them plot",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 102.08,
+      "end": 104.48,
+      "text": "I am coupled by the blood in the base, running in the race",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 104.48,
+      "end": 106.32,
+      "text": "But I finished before I'd even started",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 108.32,
+      "end": 110.24,
+      "text": "Here's the driver, I am in the back seat",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 110.24,
+      "end": 112.32,
+      "text": "Counting my mouth, so far ahead of the pack",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 112.32,
+      "end": 115.36,
+      "text": "So far ahead of the pack, got you to be on out of roaders' wire",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 115.36,
+      "end": 117.52,
+      "text": "I don't look back, so far ahead of the pack",
+      "avgLogprob": -0.41,
+      "compressionRatio": 1.846,
+      "noSpeechProbability": 0.821,
+      "words": []
+    },
+    {
+      "start": 117.52,
+      "end": 122.32,
+      "text": "So far, so far, so far, got it the wheel.",
+      "avgLogprob": -0.487,
+      "compressionRatio": 1.132,
+      "noSpeechProbability": 0.105,
+      "words": []
+    },
+    {
+      "start": 122.32,
+      "end": 127.52,
+      "text": "Amen, back is gone, we win every time, amen.",
+      "avgLogprob": -0.487,
+      "compressionRatio": 1.132,
+      "noSpeechProbability": 0.105,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.834,
+    "wordCount": 334,
+    "credibleWordCount": 334,
+    "segmentCount": 32,
+    "averageWordProbability": 0.655,
+    "vocalSeconds": 99.92,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

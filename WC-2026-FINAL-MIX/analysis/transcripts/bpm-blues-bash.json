@@ -1,0 +1,265 @@
+{
+  "analysisVersion": 1,
+  "index": 74,
+  "id": "../VOLHOLLA/song-congregation-01.html",
+  "slug": "bpm-blues-bash",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Music Stumble down those basement stairs Counts and dusty coats go went outside Bringing in my throat Shadows move like summer glasses, heavy glass of rye Losing all my love, tears in every eye Everything we had is just a scratching sound Spinning around I'm in line, grateful to break down, break my heart again Drop the pain into the ground, look back to you I said break my heart again, crackle through the lines Walking through the first I came, I saw, I fell Dropping through the floor Stabbing in my head, shaking every door Little dips, a jagged trench, bleeding on the What's me? Maybe I'll stay, maybe I'll never look back Everything we have is just a scratching sound Spinning round and round, wait for the breakdown Break my heart again, drop the pain into the ring Looking back to you, I said break my heart again Crackle through the walls, walking through the fires Cut the vocal short, believe me in the grit, take his rise is higher, drowning every bit, low sub-shaking walls, found me in the dark, broken spirit gone, lost the seven spot, Break my heart again, chop the pain into it and run Looping back to you, I said break my heart again Crackle through the woods, walking through the fires I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm",
+  "sampledRanges": [
+    [
+      0.0,
+      194.26
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.0,
+      "text": "Music",
+      "avgLogprob": -0.858,
+      "compressionRatio": 1.135,
+      "noSpeechProbability": 0.483,
+      "words": []
+    },
+    {
+      "start": 4.0,
+      "end": 22.0,
+      "text": "Stumble down those basement stairs Counts and dusty coats go went outside Bringing in my throat",
+      "avgLogprob": -0.858,
+      "compressionRatio": 1.135,
+      "noSpeechProbability": 0.483,
+      "words": []
+    },
+    {
+      "start": 22.0,
+      "end": 28.0,
+      "text": "Shadows move like summer glasses, heavy glass of rye",
+      "avgLogprob": -0.465,
+      "compressionRatio": 1.299,
+      "noSpeechProbability": 0.506,
+      "words": []
+    },
+    {
+      "start": 28.0,
+      "end": 34.0,
+      "text": "Losing all my love, tears in every eye",
+      "avgLogprob": -0.465,
+      "compressionRatio": 1.299,
+      "noSpeechProbability": 0.506,
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 42.0,
+      "text": "Everything we had is just a scratching sound",
+      "avgLogprob": -0.465,
+      "compressionRatio": 1.299,
+      "noSpeechProbability": 0.506,
+      "words": []
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "Spinning around",
+      "avgLogprob": -0.465,
+      "compressionRatio": 1.299,
+      "noSpeechProbability": 0.506,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 51.0,
+      "text": "I'm in line, grateful to break down, break my heart again",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.752,
+      "words": []
+    },
+    {
+      "start": 51.0,
+      "end": 57.0,
+      "text": "Drop the pain into the ground, look back to you",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.752,
+      "words": []
+    },
+    {
+      "start": 57.0,
+      "end": 63.0,
+      "text": "I said break my heart again, crackle through the lines",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.752,
+      "words": []
+    },
+    {
+      "start": 63.0,
+      "end": 65.0,
+      "text": "Walking through the first",
+      "avgLogprob": -0.523,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.752,
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 78.42,
+      "text": "I came, I saw, I fell Dropping through the floor",
+      "avgLogprob": -0.588,
+      "compressionRatio": 1.207,
+      "noSpeechProbability": 0.681,
+      "words": []
+    },
+    {
+      "start": 78.42,
+      "end": 88.62,
+      "text": "Stabbing in my head, shaking every door Little dips, a jagged trench, bleeding on the",
+      "avgLogprob": -0.588,
+      "compressionRatio": 1.207,
+      "noSpeechProbability": 0.681,
+      "words": []
+    },
+    {
+      "start": 88.62,
+      "end": 90.62,
+      "text": "What's me?",
+      "avgLogprob": -1.12,
+      "compressionRatio": 0.556,
+      "noSpeechProbability": 0.537,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 97.0,
+      "text": "Maybe I'll stay, maybe I'll never look back",
+      "avgLogprob": -0.329,
+      "compressionRatio": 1.372,
+      "noSpeechProbability": 0.748,
+      "words": []
+    },
+    {
+      "start": 97.0,
+      "end": 103.0,
+      "text": "Everything we have is just a scratching sound",
+      "avgLogprob": -0.329,
+      "compressionRatio": 1.372,
+      "noSpeechProbability": 0.748,
+      "words": []
+    },
+    {
+      "start": 103.0,
+      "end": 109.0,
+      "text": "Spinning round and round, wait for the breakdown",
+      "avgLogprob": -0.329,
+      "compressionRatio": 1.372,
+      "noSpeechProbability": 0.748,
+      "words": []
+    },
+    {
+      "start": 109.0,
+      "end": 115.0,
+      "text": "Break my heart again, drop the pain into the ring",
+      "avgLogprob": -0.329,
+      "compressionRatio": 1.372,
+      "noSpeechProbability": 0.748,
+      "words": []
+    },
+    {
+      "start": 115.0,
+      "end": 120.0,
+      "text": "Looking back to you, I said break my heart again",
+      "avgLogprob": -0.472,
+      "compressionRatio": 1.198,
+      "noSpeechProbability": 0.5,
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 127.0,
+      "text": "Crackle through the walls, walking through the fires",
+      "avgLogprob": -0.472,
+      "compressionRatio": 1.198,
+      "noSpeechProbability": 0.5,
+      "words": []
+    },
+    {
+      "start": 134.0,
+      "end": 135.0,
+      "text": "Cut the",
+      "avgLogprob": -0.472,
+      "compressionRatio": 1.198,
+      "noSpeechProbability": 0.5,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 144.0,
+      "text": "vocal short, believe me in the grit, take his rise is higher, drowning every bit,",
+      "avgLogprob": -0.512,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.795,
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 157.0,
+      "text": "low sub-shaking walls, found me in the dark, broken spirit gone, lost the seven spot,",
+      "avgLogprob": -0.512,
+      "compressionRatio": 1.392,
+      "noSpeechProbability": 0.795,
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 163.0,
+      "text": "Break my heart again, chop the pain into it and run",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.378,
+      "noSpeechProbability": 0.625,
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 169.0,
+      "text": "Looping back to you, I said break my heart again",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.378,
+      "noSpeechProbability": 0.625,
+      "words": []
+    },
+    {
+      "start": 169.0,
+      "end": 175.0,
+      "text": "Crackle through the woods, walking through the fires",
+      "avgLogprob": -0.426,
+      "compressionRatio": 1.378,
+      "noSpeechProbability": 0.625,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 194.25,
+      "text": "I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm going to do a little bit of the same thing, I'm",
+      "avgLogprob": -0.206,
+      "compressionRatio": 13.426,
+      "noSpeechProbability": 0.693,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.817,
+    "wordCount": 152,
+    "credibleWordCount": 152,
+    "segmentCount": 18,
+    "averageWordProbability": 0.618,
+    "vocalSeconds": 122.62,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

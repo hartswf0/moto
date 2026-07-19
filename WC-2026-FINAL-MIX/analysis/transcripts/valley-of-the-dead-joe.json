@@ -1,0 +1,211 @@
+{
+  "analysisVersion": 1,
+  "index": 100,
+  "id": "../VOLHOLLA/song-goleyakh-43.html",
+  "slug": "valley-of-the-dead-joe",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Run through the jagged red stone, broken boots on the burning floor. Fear is a ghost you can't outrun. The sun screams, wait, for the shadow to fall. Job, but can't catch your flame Job, the fighter is your prey High above the valley of the day It's so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so Death has a face like a mountain Joe The can cause a danger The fire is your friend I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh I'll find a way... To... To... To... To... The wind is a scream that there's a grey silence I wish I had lived, I knew the rest of the world You",
+  "sampledRanges": [
+    [
+      0.0,
+      184.46
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 12.0,
+      "text": "Run through the jagged red stone, broken boots on the burning floor.",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.242,
+      "noSpeechProbability": 0.288,
+      "words": []
+    },
+    {
+      "start": 12.0,
+      "end": 19.0,
+      "text": "Fear is a ghost you can't outrun.",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.242,
+      "noSpeechProbability": 0.288,
+      "words": []
+    },
+    {
+      "start": 19.0,
+      "end": 27.0,
+      "text": "The sun screams, wait, for the shadow to fall.",
+      "avgLogprob": -0.288,
+      "compressionRatio": 1.242,
+      "noSpeechProbability": 0.288,
+      "words": []
+    },
+    {
+      "start": 27.0,
+      "end": 40.0,
+      "text": "Job, but can't catch your flame Job, the fighter is your prey",
+      "avgLogprob": -0.633,
+      "compressionRatio": 1.133,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 40.0,
+      "end": 45.0,
+      "text": "High above the valley of the day",
+      "avgLogprob": -0.633,
+      "compressionRatio": 1.133,
+      "noSpeechProbability": 0.52,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 75.0,
+      "text": "It's so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so, so",
+      "avgLogprob": -0.13,
+      "compressionRatio": 22.35,
+      "noSpeechProbability": 0.675,
+      "words": []
+    },
+    {
+      "start": 75.0,
+      "end": 78.52,
+      "text": "Death has a face like a mountain",
+      "avgLogprob": -1.001,
+      "compressionRatio": 1.078,
+      "noSpeechProbability": 0.539,
+      "words": []
+    },
+    {
+      "start": 79.52,
+      "end": 81.52,
+      "text": "Joe",
+      "avgLogprob": -1.001,
+      "compressionRatio": 1.078,
+      "noSpeechProbability": 0.539,
+      "words": []
+    },
+    {
+      "start": 81.52,
+      "end": 85.52,
+      "text": "The can cause a danger",
+      "avgLogprob": -1.001,
+      "compressionRatio": 1.078,
+      "noSpeechProbability": 0.539,
+      "words": []
+    },
+    {
+      "start": 87.24,
+      "end": 89.24,
+      "text": "The fire is your friend",
+      "avgLogprob": -1.001,
+      "compressionRatio": 1.078,
+      "noSpeechProbability": 0.539,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 120.0,
+      "text": "I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I'll be with you, I",
+      "avgLogprob": -0.117,
+      "compressionRatio": 20.212,
+      "noSpeechProbability": 0.67,
+      "words": []
+    },
+    {
+      "start": 120.0,
+      "end": 135.0,
+      "text": "Oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh, oh",
+      "avgLogprob": -0.09,
+      "compressionRatio": 26.235,
+      "noSpeechProbability": 0.55,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 143.0,
+      "text": "I'll find a way...",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 143.0,
+      "end": 147.0,
+      "text": "To...",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 151.0,
+      "text": "To...",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 151.0,
+      "end": 154.0,
+      "text": "To...",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 157.0,
+      "text": "To...",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 163.0,
+      "text": "The wind is a scream that there's a grey silence",
+      "avgLogprob": -0.691,
+      "compressionRatio": 1.282,
+      "noSpeechProbability": 0.75,
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 173.0,
+      "text": "I wish I had lived, I knew the rest of the world",
+      "avgLogprob": -0.832,
+      "compressionRatio": 0.941,
+      "noSpeechProbability": 0.563,
+      "words": []
+    },
+    {
+      "start": 180.0,
+      "end": 182.0,
+      "text": "You",
+      "avgLogprob": -0.98,
+      "compressionRatio": 0.273,
+      "noSpeechProbability": 0.743,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.782,
+    "wordCount": 96,
+    "credibleWordCount": 96,
+    "segmentCount": 17,
+    "averageWordProbability": 0.545,
+    "vocalSeconds": 96.52,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

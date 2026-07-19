@@ -1,0 +1,391 @@
+{
+  "analysisVersion": 1,
+  "index": 113,
+  "id": "../VOLHOLLA/song-noservice-13.html",
+  "slug": "the-digital-purgatory",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Please hold for one of our rude representatives I don't wait for one hour Leave him up then I call your line Pitch it like a sink Service making me want to faint You read from a strip that is three years old Leave him out of the cold If the question hardly just drop the cold See he just hung up no shame at all We penalize the culprits You move like a ghost Well I made me the one way pay for the host Hostage situation you won't let me go We're holding my pain, making the process slow Asking for numbers I die of last year I use WhatsApp, you people know get air Give me my number, give me my number Like her is a blender Give me my number, give me my number Now I'm talking to Lee about with no brains, spinning me in circles, driving me insane when I finally get a human, he starts his pre-talk trying to confuse me, so I'm the one to walk do you blame the customer for eastern failure, I'm a rhuboy now I don't feeble your failure, you refuse the refund you think say you smart, I'm taking this matter to the FCC's heart hostage situation, you won't let me go withholding my pain, making the process slow asking for numbers I dialed last year I use WhatsApp, you people know get in give me my number, give me my number I like her as a blunder, give me my number, give me my number Keep your dead network, keep your fake wait time We by passing your support, reporting a crime Charge back initiated money coming back Federal commission putting you on a track BBB complaint, reddit post is live Your reward but I will survive.",
+  "sampledRanges": [
+    [
+      0.0,
+      116.47
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.22,
+      "text": "Please hold for one of our rude representatives",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 3.22,
+      "end": 5.38,
+      "text": "I don't wait for one hour",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 5.38,
+      "end": 6.38,
+      "text": "Leave him up then",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 6.38,
+      "end": 10.1,
+      "text": "I call your line",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 10.1,
+      "end": 11.4,
+      "text": "Pitch it like a sink",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 11.4,
+      "end": 13.5,
+      "text": "Service making me want to faint",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 13.5,
+      "end": 15.9,
+      "text": "You read from a strip that is three years old",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 15.9,
+      "end": 18.1,
+      "text": "Leave him out of the cold",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 18.1,
+      "end": 20.3,
+      "text": "If the question hardly just drop the cold",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 20.3,
+      "end": 22.5,
+      "text": "See he just hung up no shame at all",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 22.5,
+      "end": 24.0,
+      "text": "We penalize the culprits",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 24.0,
+      "end": 25.0,
+      "text": "You move like a ghost",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 25.0,
+      "end": 27.3,
+      "text": "Well I made me the one way pay for the host",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 27.3,
+      "end": 29.5,
+      "text": "Hostage situation you won't let me go",
+      "avgLogprob": -0.497,
+      "compressionRatio": 1.66,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 29.5,
+      "end": 31.96,
+      "text": "We're holding my pain, making the process slow",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 31.96,
+      "end": 34.14,
+      "text": "Asking for numbers I die of last year",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 34.14,
+      "end": 36.5,
+      "text": "I use WhatsApp, you people know get air",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 36.5,
+      "end": 38.68,
+      "text": "Give me my number, give me my number",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 38.68,
+      "end": 40.0,
+      "text": "Like her is a blender",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 41.1,
+      "end": 43.54,
+      "text": "Give me my number, give me my number",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 43.54,
+      "end": 44.94,
+      "text": "Now I'm talking to Lee",
+      "avgLogprob": -0.481,
+      "compressionRatio": 1.62,
+      "noSpeechProbability": 0.503,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 48.28,
+      "text": "about with no brains, spinning me in circles, driving me insane",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 48.28,
+      "end": 50.76,
+      "text": "when I finally get a human, he starts his pre-talk",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 50.76,
+      "end": 52.76,
+      "text": "trying to confuse me, so I'm the one to walk",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 52.76,
+      "end": 55.56,
+      "text": "do you blame the customer for eastern failure, I'm a rhuboy now",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 55.56,
+      "end": 58.04,
+      "text": "I don't feeble your failure, you refuse the refund",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 58.04,
+      "end": 61.48,
+      "text": "you think say you smart, I'm taking this matter to the FCC's heart",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 61.48,
+      "end": 63.8,
+      "text": "hostage situation, you won't let me go",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 63.8,
+      "end": 66.28,
+      "text": "withholding my pain, making the process slow",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 66.28,
+      "end": 68.36,
+      "text": "asking for numbers I dialed last year",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 68.36,
+      "end": 70.84,
+      "text": "I use WhatsApp, you people know get in",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 70.84,
+      "end": 72.92,
+      "text": "give me my number, give me my number",
+      "avgLogprob": -0.339,
+      "compressionRatio": 1.706,
+      "noSpeechProbability": 0.756,
+      "words": []
+    },
+    {
+      "start": 72.92,
+      "end": 77.72,
+      "text": "I like her as a blunder, give me my number, give me my number",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 77.72,
+      "end": 80.2,
+      "text": "Keep your dead network, keep your fake wait time",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 80.2,
+      "end": 82.6,
+      "text": "We by passing your support, reporting a crime",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 82.6,
+      "end": 84.88,
+      "text": "Charge back initiated money coming back",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 84.88,
+      "end": 87.16,
+      "text": "Federal commission putting you on a track",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 87.16,
+      "end": 89.44,
+      "text": "BBB complaint, reddit post is live",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 89.44,
+      "end": 90.04,
+      "text": "Your reward",
+      "avgLogprob": -0.478,
+      "compressionRatio": 1.541,
+      "noSpeechProbability": 0.464,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "but I will survive.",
+      "avgLogprob": -0.632,
+      "compressionRatio": 0.704,
+      "noSpeechProbability": 0.588,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.814,
+    "wordCount": 199,
+    "credibleWordCount": 199,
+    "segmentCount": 29,
+    "averageWordProbability": 0.612,
+    "vocalSeconds": 62.96,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

@@ -10,6 +10,14 @@
   const analysis = window.WC_2026_AUDIO_ANALYSIS || { tracks: [], suggestedOrder: [] };
   const analysisById = new Map((analysis.tracks || []).map((record) => [record.id, record]));
   const canonicalOrder = rawTracks.map((track) => track.id);
+  const setManifest = window.WC_2026_THEMED_SETS || { themes: [] };
+  const themedSets = (setManifest.themes || []).filter((set) => (
+    Array.isArray(set.order)
+    && set.order.length > 0
+    && new Set(set.order).size === set.order.length
+    && set.order.every((id) => trackById.has(id))
+  ));
+  const setById = new Map(themedSets.map((set) => [set.id, set]));
   const sortLabels = {
     custom: "CUSTOM ORDER",
     drama: "DRAMA ARC",
@@ -26,6 +34,8 @@
 
   const state = {
     playlist: restored.playlist,
+    activeSet: restored.activeSet,
+    playingSet: restored.playingSet,
     activeAlbum: restored.activeAlbum,
     currentId: restored.currentId,
     context: restored.context,
@@ -64,6 +74,7 @@
     resetOrder: document.getElementById("reset-order"),
     resetOrderSecondary: document.getElementById("reset-order-secondary"),
     playlistSort: document.getElementById("playlist-sort"),
+    playlistHeading: document.getElementById("playlist-heading"),
     playAlbum: document.getElementById("play-album"),
     playPlaylist: document.getElementById("play-playlist"),
     albumCount: document.getElementById("album-count"),
@@ -90,6 +101,18 @@
 
   let statusTimer = 0;
   let analysisRequestToken = 0;
+
+  if (themedSets.length) {
+    const group = document.createElement("optgroup");
+    group.label = "THEMED DJ SETS";
+    themedSets.forEach((set) => {
+      const option = document.createElement("option");
+      option.value = `set:${set.id}`;
+      option.textContent = `SET / ${set.label} / ${Math.round(set.durationSeconds / 60)} MIN`;
+      group.append(option);
+    });
+    refs.playlistSort.append(group);
+  }
 
   function buildAlbums(tracks) {
     const records = new Map();
@@ -124,6 +147,7 @@
   function restoreState() {
     const fallback = {
       playlist: canonicalOrder.slice(),
+      activeSet: "",
       activeAlbum: albums[0]?.key || "",
       currentId: canonicalOrder[0],
       context: "playlist",
@@ -136,11 +160,19 @@
     const playlist = validPlaylist(saved.order) ? saved.order.slice() : fallback.playlist;
     const activeAlbum = albumByKey.has(saved.activeAlbum) ? saved.activeAlbum : fallback.activeAlbum;
     const currentId = trackById.has(saved.currentId) ? saved.currentId : playlist[0];
+    const activeSet = setById.has(saved.activeSet) ? saved.activeSet : "";
+    const playingSet = setById.has(saved.playingSet) ? saved.playingSet : activeSet;
+    const allowedContext = saved.context === "album" || (saved.context === "set" && playingSet);
+    const context = allowedContext ? saved.context : "playlist";
+    const setOrder = playingSet ? setById.get(playingSet).order : [];
+    const restoredCurrentId = context === "set" && !setOrder.includes(currentId) ? setOrder[0] : currentId;
     return {
       playlist,
+      activeSet,
+      playingSet,
       activeAlbum,
-      currentId,
-      context: saved.context === "album" ? "album" : "playlist",
+      currentId: restoredCurrentId,
+      context,
       autoplay: typeof saved.autoplay === "boolean" ? saved.autoplay : true,
       shuffle: typeof saved.shuffle === "boolean" ? saved.shuffle : false,
       sortMode: Object.hasOwn(sortLabels, saved.sortMode) ? saved.sortMode : "custom",
@@ -150,8 +182,10 @@
 
   function saveState() {
     safeStorage(() => localStorage.setItem(STORAGE_KEY, JSON.stringify({
-      version: 2,
+      version: 3,
       order: state.playlist,
+      activeSet: state.activeSet,
+      playingSet: state.playingSet,
       activeAlbum: state.activeAlbum,
       currentId: state.currentId,
       context: state.context,
@@ -171,10 +205,25 @@
     return trackById.get(state.currentId) || trackById.get(state.playlist[0]) || rawTracks[0];
   }
 
+  function activeSetRecord() {
+    return setById.get(state.activeSet) || null;
+  }
+
+  function playingSetRecord() {
+    return setById.get(state.playingSet) || null;
+  }
+
+  function playlistDisplayIds() {
+    return activeSetRecord()?.order || state.playlist;
+  }
+
   function activeQueue() {
     if (state.context === "album") {
       const album = albumByKey.get(currentTrack().albumKey) || albumByKey.get(state.activeAlbum);
       return album?.tracks || [];
+    }
+    if (state.context === "set") {
+      return (playingSetRecord()?.order || []).map((id) => trackById.get(id)).filter(Boolean);
     }
     return state.playlist.map((id) => trackById.get(id)).filter(Boolean);
   }
@@ -188,6 +237,8 @@
   }
 
   function programLabel() {
+    const set = activeSetRecord();
+    if (set) return `${set.label} / ${Math.round(set.durationSeconds / 60)} MIN / REVIEW PROPOSAL`;
     if (orderIsCanonical()) return "TIMESTAMP ORDER / SAVED LOCALLY";
     return `${sortLabels[state.sortMode] || sortLabels.custom} / SAVED LOCALLY`;
   }
@@ -240,7 +291,13 @@
     const track = currentTrack();
     const queue = activeQueue();
     const index = Math.max(0, queue.findIndex((item) => item.id === track.id));
-    const contextLabel = state.context === "album" ? track.album : "PLAYLIST";
+    const set = activeSetRecord();
+    const playingSet = playingSetRecord();
+    const contextLabel = state.context === "album"
+      ? track.album
+      : state.context === "set"
+        ? playingSet?.label || "DJ SET"
+        : "PLAYLIST";
     animateCurrent();
     refs.nowPreview.src = track.preview || track.artwork;
     refs.nowPreview.alt = `${track.title} isolated ticket artwork`;
@@ -251,13 +308,16 @@
     refs.album.href = track.albumPage;
     refs.source.href = track.songPage;
     refs.position.textContent = `${String(index + 1).padStart(2, "0")} / ${queue.length}`;
-    refs.context.textContent = `${state.context === "album" ? "ALBUM" : "PLAYLIST"} / ${contextLabel} / ${queue.length}`;
+    const contextType = state.context === "album" ? "ALBUM" : state.context === "set" ? "SET" : "PLAYLIST";
+    refs.context.textContent = `${contextType} / ${contextLabel} / ${queue.length}`;
     refs.autoplay.textContent = state.autoplay ? "AUTO ON" : "AUTO OFF";
     refs.autoplay.classList.toggle("on", state.autoplay);
     refs.autoplay.setAttribute("aria-pressed", String(state.autoplay));
     refs.shuffle.classList.toggle("on", state.shuffle);
     refs.shuffle.setAttribute("aria-pressed", String(state.shuffle));
-    refs.programCount.textContent = `${state.playlist.length} TRACKS / ${albums.length} ALBUMS`;
+    refs.programCount.textContent = set
+      ? `${set.trackCount} TRACKS / ${Math.round(set.durationSeconds / 60)} MIN`
+      : `${state.playlist.length} TRACKS / ${albums.length} ALBUMS`;
     updateMediaSession(track);
   }
 
@@ -326,9 +386,14 @@
   function renderPlaylist({ pulseId = "" } = {}) {
     const scrollTop = refs.playlistList.scrollTop;
     const fragment = document.createDocumentFragment();
-    state.playlist.forEach((id, index) => {
+    const set = activeSetRecord();
+    const displayIds = playlistDisplayIds();
+    const setTrackById = new Map((set?.tracks || []).map((item) => [item.id, item]));
+    displayIds.forEach((id, index) => {
       const track = trackById.get(id);
       const card = refs.playlistTemplate.content.firstElementChild.cloneNode(true);
+      card.draggable = !set;
+      card.classList.toggle("set-locked", !!set);
       card.dataset.trackId = id;
       card.classList.toggle("now-playing", id === state.currentId && !!audio.src);
       card.classList.toggle("reorder-pulse", id === pulseId);
@@ -337,33 +402,45 @@
       image.src = track.preview;
       image.alt = "";
       card.querySelector(".playlist-title").textContent = track.title;
-      card.querySelector(".playlist-meta").textContent = analysisLine(track, true);
+      const meta = card.querySelector(".playlist-meta");
+      const transition = setTrackById.get(id)?.transitionFromPrevious?.note;
+      meta.textContent = transition ? `${analysisLine(track, true)} / ${transition}` : analysisLine(track, true);
+      if (transition) meta.title = transition;
       const analysisOpen = card.querySelector(".analysis-open");
       analysisOpen.setAttribute("aria-label", `Open analysis for ${track.title}`);
       analysisOpen.addEventListener("click", () => openAnalysis(track.id));
       const play = card.querySelector(".playlist-play");
       play.textContent = id === state.currentId && !audio.paused ? "PAUSE" : "PLAY";
-      play.setAttribute("aria-label", `Play ${track.title} in playlist context`);
+      play.setAttribute("aria-label", `Play ${track.title} in ${set ? "themed set" : "playlist"} context`);
       play.addEventListener("click", () => {
         if (id === state.currentId && !audio.paused) pauseAudio();
-        else playTrack(id, "playlist", true);
+        else playTrack(id, set ? "set" : "playlist", true);
       });
       const up = card.querySelector(".move-up");
       const down = card.querySelector(".move-down");
-      up.disabled = index === 0;
-      down.disabled = index === state.playlist.length - 1;
-      up.addEventListener("click", () => movePlaylist(id, -1));
-      down.addEventListener("click", () => movePlaylist(id, 1));
-      card.addEventListener("dragstart", (event) => startDrag(event, id, card));
-      card.addEventListener("dragover", (event) => dragOver(event, id, card));
-      card.addEventListener("dragleave", () => card.classList.remove("drop-ready"));
-      card.addEventListener("drop", (event) => dropTrack(event, id));
-      card.addEventListener("dragend", clearDrag);
+      up.disabled = !!set || index === 0;
+      down.disabled = !!set || index === displayIds.length - 1;
+      if (set) {
+        up.hidden = true;
+        down.hidden = true;
+        card.querySelector(".drag-handle").textContent = "SET";
+      } else {
+        up.addEventListener("click", () => movePlaylist(id, -1));
+        down.addEventListener("click", () => movePlaylist(id, 1));
+        card.addEventListener("dragstart", (event) => startDrag(event, id, card));
+        card.addEventListener("dragover", (event) => dragOver(event, id, card));
+        card.addEventListener("dragleave", () => card.classList.remove("drop-ready"));
+        card.addEventListener("drop", (event) => dropTrack(event, id));
+        card.addEventListener("dragend", clearDrag);
+      }
       fragment.append(card);
     });
     refs.playlistList.replaceChildren(fragment);
     refs.playlistList.scrollTop = scrollTop;
-    refs.playlistSort.value = state.sortMode;
+    refs.playlistSort.value = set ? `set:${set.id}` : state.sortMode;
+    refs.playlistHeading.textContent = set ? `${set.trackCount} TRACK SET` : "PLAYLIST";
+    refs.resetOrderSecondary.textContent = set ? "ALL TRACKS" : "RESET";
+    refs.playPlaylist.textContent = set ? "PLAY SET" : "PLAY ALL";
   }
 
   function renderWorkspace(options) {
@@ -447,9 +524,12 @@
 
   function applyAnalysisSort(mode) {
     if (!Object.hasOwn(sortLabels, mode)) return;
+    state.activeSet = "";
     if (mode === "custom") {
       state.sortMode = "custom";
       saveState();
+      renderPlaylist();
+      updatePlayer();
       announce("Custom order active");
       return;
     }
@@ -490,6 +570,17 @@
     announce(`${sortLabels[mode]} applied`);
   }
 
+  function selectThemedSet(id) {
+    const set = setById.get(id);
+    if (!set) return;
+    state.activeSet = id;
+    saveState();
+    renderPlaylist();
+    updatePlayer();
+    refs.playlistList.scrollTop = 0;
+    announce(`${set.title} loaded / ${Math.round(set.durationSeconds / 60)} minutes`);
+  }
+
   function setMobilePanel(panel, save = true) {
     state.mobilePanel = panel;
     document.querySelectorAll("[data-mobile-panel]").forEach((button) => {
@@ -523,16 +614,19 @@
   }
 
   function playPlaylist() {
-    if (!state.playlist.length) return;
-    playTrack(state.playlist[0], "playlist", true);
+    const queue = playlistDisplayIds();
+    if (!queue.length) return;
+    const set = activeSetRecord();
+    playTrack(queue[0], set ? "set" : "playlist", true);
     setMobilePanel("playlist");
-    announce("Playing custom playlist");
+    announce(set ? `Playing ${set.title}` : "Playing custom playlist");
   }
 
   function playTrack(id, context, autoplay) {
     const track = trackById.get(id);
     if (!track) return;
-    state.context = context === "album" ? "album" : "playlist";
+    state.context = context === "album" ? "album" : context === "set" && activeSetRecord() ? "set" : "playlist";
+    if (state.context === "set") state.playingSet = state.activeSet;
     state.currentId = id;
     if (state.context === "album") state.activeAlbum = track.albumKey;
     state.attemptedFallback = false;
@@ -572,6 +666,7 @@
   }
 
   function movePlaylist(id, delta) {
+    if (activeSetRecord()) return;
     const index = state.playlist.indexOf(id);
     const target = index + delta;
     if (index < 0 || target < 0 || target >= state.playlist.length) return;
@@ -587,6 +682,7 @@
   }
 
   function reorderPlaylist(sourceId, targetId) {
+    if (activeSetRecord()) return;
     if (sourceId === targetId) return;
     const next = state.playlist.filter((id) => id !== sourceId);
     const targetIndex = next.indexOf(targetId);
@@ -633,6 +729,14 @@
   }
 
   function resetOrder() {
+    if (activeSetRecord()) {
+      state.activeSet = "";
+      saveState();
+      renderPlaylist();
+      updatePlayer();
+      announce("All tracks restored");
+      return;
+    }
     if (orderIsCanonical()) {
       announce("Playlist already in timestamp order");
       return;
@@ -709,7 +813,11 @@
   refs.next.addEventListener("click", () => nextTrack(false));
   refs.resetOrder.addEventListener("click", resetOrder);
   refs.resetOrderSecondary.addEventListener("click", resetOrder);
-  refs.playlistSort.addEventListener("change", () => applyAnalysisSort(refs.playlistSort.value));
+  refs.playlistSort.addEventListener("change", () => {
+    const value = refs.playlistSort.value;
+    if (value.startsWith("set:")) selectThemedSet(value.slice(4));
+    else applyAnalysisSort(value);
+  });
   refs.analysisClose.addEventListener("click", () => refs.analysisDialog.close());
   refs.analysisDialog.addEventListener("click", (event) => {
     if (event.target === refs.analysisDialog) refs.analysisDialog.close();

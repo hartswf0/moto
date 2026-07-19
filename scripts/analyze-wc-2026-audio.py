@@ -26,6 +26,7 @@ FEATURE_DIR = ANALYSIS_DIR / "features"
 SCAN_DIR = ANALYSIS_DIR / "scans"
 TRANSCRIPT_DIR = ANALYSIS_DIR / "transcripts"
 OUTPUT_JSON = ANALYSIS_DIR / "analysis-manifest.json"
+OUTPUT_REPORT = ANALYSIS_DIR / "analysis-report.md"
 OUTPUT_JS = MIX_DIR / "analysis-manifest.js"
 ANALYSIS_VERSION = 1
 SAMPLE_RATE = 22050
@@ -222,17 +223,6 @@ def compact_segment(segment: dict[str, Any]) -> dict[str, Any]:
         }
         for word in segment.get("words", [])
     ]
-    if not words and str(segment.get("text", "")).strip():
-        probability = float(np.clip(math.exp(finite(segment.get("avg_logprob"), -2.0)), 0.0, 1.0))
-        words = [
-            {
-                "word": token,
-                "start": rounded(segment.get("start"), 2),
-                "end": rounded(segment.get("end"), 2),
-                "probability": rounded(probability, 3),
-            }
-            for token in re.findall(r"\S+", str(segment.get("text", "")))
-        ]
     return {
         "start": rounded(segment.get("start"), 2),
         "end": rounded(segment.get("end"), 2),
@@ -252,7 +242,17 @@ def transcription_evidence(segments: list[dict[str, Any]], duration: float, scan
         and segment["noSpeechProbability"] <= 0.75
         and segment["text"]
     ]
-    words = [word for segment in credible_segments for word in segment["words"] if re.search(r"\w", word["word"], re.UNICODE)]
+    words = []
+    for segment in credible_segments:
+        if segment["words"]:
+            words.extend(word for word in segment["words"] if re.search(r"\w", word["word"], re.UNICODE))
+            continue
+        probability = float(np.clip(math.exp(segment["avgLogprob"]), 0.0, 1.0))
+        words.extend(
+            {"word": token, "probability": probability}
+            for token in re.findall(r"\S+", segment["text"])
+            if re.search(r"\w", token, re.UNICODE)
+        )
     credible_words = [word for word in words if word["probability"] >= 0.35]
     average_probability = finite(np.mean([word["probability"] for word in words]), 0.0) if words else 0.0
     vocal_seconds = sum(max(0.0, segment["end"] - segment["start"]) for segment in credible_segments)
@@ -537,6 +537,29 @@ def assign_suggested_order(records: list[dict[str, Any]]) -> list[str]:
     return [record["id"] for record in sequence]
 
 
+def validate_analysis(payload: dict[str, Any], manifest: dict[str, Any]) -> None:
+    expected_ids = [track["songPage"] for track in manifest["tracks"]]
+    records = payload["tracks"]
+    actual_ids = [record["id"] for record in records]
+    if actual_ids != expected_ids:
+        raise RuntimeError("Analysis records no longer match canonical track identity and order.")
+    if any(not record.get("features") for record in records):
+        raise RuntimeError("One or more tracks are missing full-track acoustic features.")
+    if any(record["features"]["bpm"] <= 0 for record in records):
+        raise RuntimeError("One or more BPM estimates are invalid.")
+    suggested = payload["suggestedOrder"]
+    if len(suggested) != len(expected_ids) or set(suggested) != set(expected_ids):
+        raise RuntimeError("Suggested order must be an exact canonical-ID permutation.")
+    if sum(payload["voiceCounts"].values()) != len(expected_ids):
+        raise RuntimeError("Voice classification counts must cover every track exactly once.")
+    if "unprocessed" in payload["voiceCounts"]:
+        raise RuntimeError("Compiled analysis still contains unprocessed tracks.")
+    for record in records:
+        transcript_path = record["voice"].get("transcriptPath")
+        if transcript_path and not (MIX_DIR / transcript_path.removeprefix("./")).exists():
+            raise RuntimeError(f"Missing transcript for mix track {record['index']}: {transcript_path}")
+
+
 def compile_analysis(manifest: dict[str, Any]) -> dict[str, Any]:
     records: list[dict[str, Any]] = []
     for track in manifest["tracks"]:
@@ -546,6 +569,10 @@ def compile_analysis(manifest: dict[str, Any]) -> dict[str, Any]:
         feature = json.loads(feature_file.read_text(encoding="utf-8")) if feature_file.exists() else None
         scan = json.loads(scan_file.read_text(encoding="utf-8")) if scan_file.exists() else None
         transcript = json.loads(transcript_file.read_text(encoding="utf-8")) if transcript_file.exists() else None
+        if transcript and transcript.get("scope") == "full" and any(segment.get("words") for segment in transcript.get("segments", [])):
+            for segment in transcript.get("segments", []):
+                segment["words"] = []
+            write_json(transcript_file, transcript)
         evidence_source = transcript or scan
         voice = {
             "status": "unprocessed",
@@ -595,6 +622,7 @@ def compile_analysis(manifest: dict[str, Any]) -> dict[str, Any]:
         "suggestedOrder": suggested_order,
         "tracks": records,
     }
+    validate_analysis(payload, manifest)
     write_json(OUTPUT_JSON, payload)
     OUTPUT_JS.write_text(
         "window.WC_2026_AUDIO_ANALYSIS = "
@@ -602,9 +630,103 @@ def compile_analysis(manifest: dict[str, Any]) -> dict[str, Any]:
         + ";\n",
         encoding="utf-8",
     )
+    write_report(payload)
     print(f"Compiled {payload['analyzedCount']}/{payload['trackCount']} analyzed tracks.", flush=True)
     print(f"Voice evidence: {counts}", flush=True)
     return payload
+
+
+def markdown_cell(value: Any) -> str:
+    return str(value).replace("|", "\\|").replace("\n", " ")
+
+
+def write_report(payload: dict[str, Any]) -> None:
+    records = payload["tracks"]
+    lines = [
+        "# WC 2026 Audio Analysis",
+        "",
+        f"Generated from {payload['trackCount']} canonical mix tracks.",
+        "",
+        "## Evidence Summary",
+        "",
+        f"- Lyrics detected: {payload['voiceCounts'].get('lyrics-detected', 0)}",
+        f"- Likely instrumental: {payload['voiceCounts'].get('likely-instrumental', 0)}",
+        f"- Vocal fragment: {payload['voiceCounts'].get('vocal-fragment', 0)}",
+        f"- Human review required: {sum(record['voice']['reviewRequired'] for record in records)}",
+        "",
+        "`Likely instrumental` means distributed Whisper scans found insufficient credible words. It is not proof that no chant, sample, or processed vocal exists.",
+        "",
+        "## Likely Instrumentals",
+        "",
+        "| Mix | Track | Album | Confidence | BPM | Role |",
+        "| ---: | --- | --- | ---: | ---: | --- |",
+    ]
+    for record in records:
+        if record["voice"]["status"] != "likely-instrumental":
+            continue
+        lines.append(
+            f"| {record['index']:03d} | {markdown_cell(record['title'])} | {markdown_cell(record['album'])} | "
+            f"{round(record['voice']['confidence'] * 100)}% | {round(record['features']['bpm'])} | {record['editorial']['dramaticRole']} |"
+        )
+
+    lines.extend([
+        "",
+        "## Vocal Fragments",
+        "",
+        "| Mix | Track | Album | Credible words | Confidence |",
+        "| ---: | --- | --- | ---: | ---: |",
+    ])
+    for record in records:
+        if record["voice"]["status"] != "vocal-fragment":
+            continue
+        lines.append(
+            f"| {record['index']:03d} | {markdown_cell(record['title'])} | {markdown_cell(record['album'])} | "
+            f"{record['voice'].get('credibleWordCount', 0)} | {round(record['voice']['confidence'] * 100)}% |"
+        )
+
+    lines.extend([
+        "",
+        "## Lyric Drafts",
+        "",
+        "| Mix | Track | Language | Word confidence | Review | Transcript |",
+        "| ---: | --- | --- | ---: | --- | --- |",
+    ])
+    for record in records:
+        if record["voice"]["status"] != "lyrics-detected":
+            continue
+        slug = record["features"]["slug"]
+        review = "yes" if record["voice"]["reviewRequired"] else "no"
+        lines.append(
+            f"| {record['index']:03d} | {markdown_cell(record['title'])} | {record['voice'].get('language', 'unknown')} | "
+            f"{round(record['voice'].get('averageWordProbability', 0) * 100)}% | {review} | [JSON](./transcripts/{slug}.json) |"
+        )
+
+    for heading, field in (("Drama", "dramaScore"), ("Pace", "paceScore"), ("Energy", "energyScore")):
+        lines.extend([
+            "",
+            f"## Top {heading}",
+            "",
+            "| Rank | Mix | Track | Score | BPM |",
+            "| ---: | ---: | --- | ---: | ---: |",
+        ])
+        ranked = sorted(records, key=lambda record: record["editorial"][field], reverse=True)[:15]
+        for rank, record in enumerate(ranked, start=1):
+            lines.append(
+                f"| {rank} | {record['index']:03d} | {markdown_cell(record['title'])} | "
+                f"{round(record['editorial'][field] * 100)} | {round(record['features']['bpm'])} |"
+            )
+
+    lines.extend([
+        "",
+        "## Method",
+        "",
+        "- BPM, dynamics, onset density, spectral brightness, low-end ratio, and energy shape are measured from complete tracks with librosa.",
+        "- Pace, energy, drama, tone, vibe, and dramatic role are corpus-relative editorial heuristics.",
+        "- Whisper base multilingual scans four distributed regions, then full-transcribes tracks with at least three credible words.",
+        "- Every transcript is a machine draft. Low word confidence and all instrumental decisions remain human-review items.",
+        "",
+    ])
+    OUTPUT_REPORT.write_text("\n".join(lines), encoding="utf-8")
 
 
 def main() -> int:

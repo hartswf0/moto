@@ -1,0 +1,337 @@
+{
+  "analysisVersion": 1,
+  "index": 80,
+  "id": "../VOLHOLLA/song-congregation-10.html",
+  "slug": "malian-pulse",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "Music I am street, road to many keys, travel in the morning and listen to the morning and songs, do stories, do tell you all the thoughts of the moon Makashati love that made a drum stop, the people walk, the giant spirit starts to wake, feed the thirsty dead, shake forces high, on the sky No more time for us to wipe, and show us the inner mother red, can you hear the story's dead? I find the song, I find the song He beat the ground, I find the song For the happy day, I find the day From it to the light, from it to the light Blue-eat hot street, walking on a heavy beat Long the night of Paris rain, Bama cuisines in my vein At bus, slough piss, looking at the different fish Babos roly through the sand, the dogs stop The people walk, a giant spirit start to wick Feed the tasty desert shake, voices hide On the sky, no more time for us to watch It's your what I know, but I'm well I've got you here to do it stand I hear the sound, I find the sound Deep in the drum, I find the sound Pulling everything in front of the knife Pulling through the light All the food that I eat Now the food is the youthful of the root We're not home, no value I'm going to go to heaven I'm going to go to heaven I'm going to go to heaven I'm going to go to heaven I'm going to go to heaven I'm going to go to heaven I'm going to go to heaven Find the sound, and be the ground Don't even have any day, find the night And pray for the good of the night",
+  "sampledRanges": [
+    [
+      0.0,
+      144.89
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 18.0,
+      "text": "Music",
+      "avgLogprob": -1.313,
+      "compressionRatio": 0.385,
+      "noSpeechProbability": 0.583,
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 29.0,
+      "text": "I am street, road to many keys, travel in the morning and listen to the morning and songs, do stories, do tell you all the thoughts of the moon",
+      "avgLogprob": -0.722,
+      "compressionRatio": 1.665,
+      "noSpeechProbability": 0.646,
+      "words": []
+    },
+    {
+      "start": 29.0,
+      "end": 39.0,
+      "text": "Makashati love that made a drum stop, the people walk, the giant spirit starts to wake, feed the thirsty dead, shake forces high, on the sky",
+      "avgLogprob": -0.722,
+      "compressionRatio": 1.665,
+      "noSpeechProbability": 0.646,
+      "words": []
+    },
+    {
+      "start": 39.0,
+      "end": 45.0,
+      "text": "No more time for us to wipe, and show us the inner mother red, can you hear the story's dead?",
+      "avgLogprob": -0.722,
+      "compressionRatio": 1.665,
+      "noSpeechProbability": 0.646,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "text": "I find the song, I find the song",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 47.0,
+      "end": 50.0,
+      "text": "He beat the ground, I find the song",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 52.0,
+      "text": "For the happy day, I find the day",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 52.0,
+      "end": 55.0,
+      "text": "From it to the light, from it to the light",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 58.0,
+      "text": "Blue-eat hot street, walking on a heavy beat",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 58.0,
+      "end": 61.0,
+      "text": "Long the night of Paris rain, Bama cuisines in my vein",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 61.0,
+      "end": 65.0,
+      "text": "At bus, slough piss, looking at the different fish",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 68.0,
+      "text": "Babos roly through the sand, the dogs stop",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 71.0,
+      "text": "The people walk, a giant spirit start to wick",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 74.0,
+      "text": "Feed the tasty desert shake, voices hide",
+      "avgLogprob": -0.649,
+      "compressionRatio": 1.739,
+      "noSpeechProbability": 0.828,
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 77.0,
+      "text": "On the sky, no more time for us to watch",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 77.0,
+      "end": 79.0,
+      "text": "It's your what I know, but I'm well",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 79.0,
+      "end": 81.0,
+      "text": "I've got you here to do it stand",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 81.0,
+      "end": 84.0,
+      "text": "I hear the sound, I find the sound",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 84.0,
+      "end": 86.0,
+      "text": "Deep in the drum, I find the sound",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 86.0,
+      "end": 89.0,
+      "text": "Pulling everything in front of the knife",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 89.0,
+      "end": 90.0,
+      "text": "Pulling through the light",
+      "avgLogprob": -0.683,
+      "compressionRatio": 1.557,
+      "noSpeechProbability": 0.546,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 92.0,
+      "text": "All the food that I eat",
+      "avgLogprob": -1.245,
+      "compressionRatio": 1.156,
+      "noSpeechProbability": 0.379,
+      "words": []
+    },
+    {
+      "start": 114.62,
+      "end": 117.02,
+      "text": "Now the food is the youthful of the root",
+      "avgLogprob": -1.245,
+      "compressionRatio": 1.156,
+      "noSpeechProbability": 0.379,
+      "words": []
+    },
+    {
+      "start": 117.02,
+      "end": 119.02,
+      "text": "We're not home, no value",
+      "avgLogprob": -1.245,
+      "compressionRatio": 1.156,
+      "noSpeechProbability": 0.379,
+      "words": []
+    },
+    {
+      "start": 119.02,
+      "end": 121.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 121.02,
+      "end": 123.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 123.02,
+      "end": 125.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 125.02,
+      "end": 127.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 127.02,
+      "end": 129.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 129.02,
+      "end": 131.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 131.02,
+      "end": 133.02,
+      "text": "I'm going to go to heaven",
+      "avgLogprob": -0.488,
+      "compressionRatio": 5.324,
+      "noSpeechProbability": 0.292,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 137.0,
+      "text": "Find the sound, and be the ground",
+      "avgLogprob": -0.84,
+      "compressionRatio": 1.271,
+      "noSpeechProbability": 0.56,
+      "words": []
+    },
+    {
+      "start": 137.0,
+      "end": 139.0,
+      "text": "Don't even have any day, find the night",
+      "avgLogprob": -0.84,
+      "compressionRatio": 1.271,
+      "noSpeechProbability": 0.56,
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 141.0,
+      "text": "And pray for the good of the night",
+      "avgLogprob": -0.84,
+      "compressionRatio": 1.271,
+      "noSpeechProbability": 0.56,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.753,
+    "wordCount": 151,
+    "credibleWordCount": 151,
+    "segmentCount": 13,
+    "averageWordProbability": 0.484,
+    "vocalSeconds": 49.0,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

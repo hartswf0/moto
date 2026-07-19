@@ -1,0 +1,337 @@
+{
+  "analysisVersion": 1,
+  "index": 99,
+  "id": "../VOLHOLLA/song-goleyakh-36.html",
+  "slug": "the-nomad-s-razor",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "en",
+  "text": "I'm moving through the heat, leaving cope and haggin' half a fire behind. Salt sand bit a bite of when it turns to dust My boots are heavy with the secrets of the road The horizon is a razor Then, shall I see the eye card glow Fading into morning light Cold, dry, nothing here is mine This is the desert one, spirit of the normal soul underneath the heavy star Looking for a way to feel the whole desert one, desert one Cactus shadow goes to shape ahead the creek of windows The wind is hollow like a broken path ancient Old telling me to wait my fingers trace The cobblest dreams stay intact Worn out by the miles The cake drumrolls in the ground D-D-Slow Circling full for a holy sound, the rattle of the shaker's snails, his stay, waiting for the scature rings, the desert line, the spirit of the normal man's toll, underneath the heavy star, Looking for a way to feel Hold, doesn't know how, doesn't know how Maybe I lost, maybe I found, maybe I'm just a ghost, I'm holding ground I came with nothing, I saw the fire, I left this chain The flying shame flies This is the death of one The spirit of the know best of all In the evil head you stop Looking for a way to feel the hope There's a mark There's a mark Just don't take the time And it's a holiday ever It's a holiday It never ends, it's slow but Take it out, no matter what",
+  "sampledRanges": [
+    [
+      0.0,
+      226.58
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 18.0,
+      "text": "I'm moving through the heat, leaving cope and haggin' half a fire behind.",
+      "avgLogprob": -1.082,
+      "compressionRatio": 1.014,
+      "noSpeechProbability": 0.496,
+      "words": []
+    },
+    {
+      "start": 18.0,
+      "end": 22.7,
+      "text": "Salt sand bit a bite of when it turns to dust",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 22.7,
+      "end": 26.2,
+      "text": "My boots are heavy with the secrets of the road",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 26.2,
+      "end": 30.0,
+      "text": "The horizon is a razor",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 30.0,
+      "end": 36.0,
+      "text": "Then, shall I see the eye card glow",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 36.0,
+      "end": 39.0,
+      "text": "Fading into morning light",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 39.0,
+      "end": 45.0,
+      "text": "Cold, dry, nothing here is mine",
+      "avgLogprob": -0.403,
+      "compressionRatio": 1.382,
+      "noSpeechProbability": 0.471,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 51.8,
+      "text": "This is the desert one, spirit of the normal soul underneath the heavy star",
+      "avgLogprob": -0.627,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.639,
+      "words": []
+    },
+    {
+      "start": 51.8,
+      "end": 58.2,
+      "text": "Looking for a way to feel the whole desert one, desert one",
+      "avgLogprob": -0.627,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.639,
+      "words": []
+    },
+    {
+      "start": 64.2,
+      "end": 68.6,
+      "text": "Cactus shadow goes to shape ahead the creek of windows",
+      "avgLogprob": -0.627,
+      "compressionRatio": 1.465,
+      "noSpeechProbability": 0.639,
+      "words": []
+    },
+    {
+      "start": 68.6,
+      "end": 72.6,
+      "text": "The wind is hollow like a broken path ancient",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 73.6,
+      "end": 76.6,
+      "text": "Old telling me to wait my fingers trace",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 76.6,
+      "end": 79.6,
+      "text": "The cobblest dreams stay intact",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 79.6,
+      "end": 81.6,
+      "text": "Worn out by the miles",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 81.6,
+      "end": 83.6,
+      "text": "The cake drumrolls in the ground",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 85.6,
+      "end": 88.6,
+      "text": "D-D-Slow",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 88.6,
+      "end": 89.6,
+      "text": "Circling full",
+      "avgLogprob": -0.557,
+      "compressionRatio": 1.336,
+      "noSpeechProbability": 0.666,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 101.08,
+      "text": "for a holy sound, the rattle of the shaker's snails, his stay, waiting for the scature rings,",
+      "avgLogprob": -0.779,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 101.08,
+      "end": 107.72,
+      "text": "the desert line, the spirit of the normal man's toll, underneath the heavy star,",
+      "avgLogprob": -0.779,
+      "compressionRatio": 1.426,
+      "noSpeechProbability": 0.692,
+      "words": []
+    },
+    {
+      "start": 107.72,
+      "end": 115.88,
+      "text": "Looking for a way to feel Hold, doesn't know how, doesn't know how",
+      "avgLogprob": -0.583,
+      "compressionRatio": 1.473,
+      "noSpeechProbability": 0.237,
+      "words": []
+    },
+    {
+      "start": 119.24,
+      "end": 127.48,
+      "text": "Maybe I lost, maybe I found, maybe I'm just a ghost, I'm holding ground",
+      "avgLogprob": -0.583,
+      "compressionRatio": 1.473,
+      "noSpeechProbability": 0.237,
+      "words": []
+    },
+    {
+      "start": 128.44,
+      "end": 135.0,
+      "text": "I came with nothing, I saw the fire, I left this chain",
+      "avgLogprob": -0.583,
+      "compressionRatio": 1.473,
+      "noSpeechProbability": 0.237,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 142.0,
+      "text": "The flying shame flies",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 142.0,
+      "end": 144.0,
+      "text": "This is the death of one",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 144.0,
+      "end": 147.0,
+      "text": "The spirit of the know best of all",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 149.0,
+      "text": "In the evil head you stop",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 152.0,
+      "text": "Looking for a way to feel the hope",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 152.0,
+      "end": 154.0,
+      "text": "There's a mark",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 154.0,
+      "end": 157.0,
+      "text": "There's a mark",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 159.0,
+      "text": "Just don't take the time",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 161.0,
+      "text": "And it's a holiday ever",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 161.0,
+      "end": 163.0,
+      "text": "It's a holiday",
+      "avgLogprob": -0.628,
+      "compressionRatio": 1.57,
+      "noSpeechProbability": 0.779,
+      "words": []
+    },
+    {
+      "start": 163.0,
+      "end": 167.4,
+      "text": "It never ends, it's slow but",
+      "avgLogprob": -0.98,
+      "compressionRatio": 0.903,
+      "noSpeechProbability": 0.412,
+      "words": []
+    },
+    {
+      "start": 167.4,
+      "end": 175.0,
+      "text": "Take it out, no matter what",
+      "avgLogprob": -0.98,
+      "compressionRatio": 0.903,
+      "noSpeechProbability": 0.412,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.78,
+    "wordCount": 211,
+    "credibleWordCount": 198,
+    "segmentCount": 24,
+    "averageWordProbability": 0.541,
+    "vocalSeconds": 133.28,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}

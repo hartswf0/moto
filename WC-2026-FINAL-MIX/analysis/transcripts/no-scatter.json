@@ -1,0 +1,508 @@
+{
+  "analysisVersion": 1,
+  "index": 67,
+  "id": "../VOLHOLLA/song-maquina-15.html",
+  "slug": "no-scatter",
+  "model": 512,
+  "modelName": "base",
+  "scope": "full",
+  "language": "yo",
+  "text": "Uza biobadi, inofis katawani presha planti Uza biobadi Ino ni toto me dem no yawai Uza biobadi Nambada wa bifu yawu, Uza biobadi Shab sens, betapas tu majfas Strikku, don't body up yawu yawu Chana de tadeung, naithlafis walu pese main Waste more, observe the road before you enter Make your room, make your team, make your move No be ever stone you see you throw back This is the never sleep My days very calm D&D start to creep I know I am Who's I be your buddy? You know me, it's got that when you press your plenty Who's I be your buddy? You know me, talk to me, damn know your way Who's I be your buddy? My brother, why be for you? You know who's I be your buddy? Shops and better fast, too much fast Overdy, overdy Kodaswaka, talks more than ladies or shoes Please pay for everybody Activize the mini biggest noise Save energy, keep your league, keep your work Precious guardian, dance eva-ching Disit in ae bai sli Bain dis veri kaw Di yandis da to kri Bainu ae ae Buzabi o badi Inafis kata wa ni fresh off lenti Buzabi o badi Inau ni tokum e dem no yawi Buzabi o badi Banba da watri fawri yamu sabi ova di Chapsen menta paskumat fa Ova di, ova di Ova di 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc 1 tbc",
+  "sampledRanges": [
+    [
+      0.0,
+      157.52
+    ]
+  ],
+  "timedOutRanges": [],
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.72,
+      "text": "Uza biobadi, inofis katawani presha planti Uza biobadi",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 6.72,
+      "end": 11.32,
+      "text": "Ino ni toto me dem no yawai Uza biobadi",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 11.32,
+      "end": 13.84,
+      "text": "Nambada wa bifu yawu, Uza biobadi",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 13.84,
+      "end": 16.92,
+      "text": "Shab sens, betapas tu majfas",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 17.92,
+      "end": 20.72,
+      "text": "Strikku, don't body up yawu yawu",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 20.72,
+      "end": 26.12,
+      "text": "Chana de tadeung, naithlafis walu pese main",
+      "avgLogprob": -1.102,
+      "compressionRatio": 1.49,
+      "noSpeechProbability": 0.468,
+      "words": []
+    },
+    {
+      "start": 26.12,
+      "end": 30.12,
+      "text": "Waste more, observe the road before you enter",
+      "avgLogprob": -0.701,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.588,
+      "words": []
+    },
+    {
+      "start": 30.12,
+      "end": 32.12,
+      "text": "Make your room, make your team, make your move",
+      "avgLogprob": -0.701,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.588,
+      "words": []
+    },
+    {
+      "start": 32.12,
+      "end": 35.12,
+      "text": "No be ever stone you see you throw back",
+      "avgLogprob": -0.701,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.588,
+      "words": []
+    },
+    {
+      "start": 35.12,
+      "end": 40.12,
+      "text": "This is the never sleep",
+      "avgLogprob": -0.701,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.588,
+      "words": []
+    },
+    {
+      "start": 40.12,
+      "end": 44.12,
+      "text": "My days very calm",
+      "avgLogprob": -0.701,
+      "compressionRatio": 1.45,
+      "noSpeechProbability": 0.588,
+      "words": []
+    },
+    {
+      "start": 45.0,
+      "end": 50.0,
+      "text": "D&D start to creep",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 50.0,
+      "end": 55.0,
+      "text": "I know I am",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 55.0,
+      "end": 56.0,
+      "text": "Who's I be your buddy?",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 56.0,
+      "end": 59.0,
+      "text": "You know me, it's got that when you press your plenty",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 59.0,
+      "end": 61.0,
+      "text": "Who's I be your buddy?",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 61.0,
+      "end": 64.0,
+      "text": "You know me, talk to me, damn know your way",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 64.0,
+      "end": 65.0,
+      "text": "Who's I be your buddy?",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 65.0,
+      "end": 68.0,
+      "text": "My brother, why be for you? You know who's I be your buddy?",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 68.0,
+      "end": 71.0,
+      "text": "Shops and better fast, too much fast",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 71.0,
+      "end": 74.0,
+      "text": "Overdy, overdy",
+      "avgLogprob": -0.404,
+      "compressionRatio": 1.839,
+      "noSpeechProbability": 0.598,
+      "words": []
+    },
+    {
+      "start": 74.0,
+      "end": 77.84,
+      "text": "Kodaswaka, talks more than ladies or shoes",
+      "avgLogprob": -1.081,
+      "compressionRatio": 1.314,
+      "noSpeechProbability": 0.377,
+      "words": []
+    },
+    {
+      "start": 77.84,
+      "end": 80.14,
+      "text": "Please pay for everybody",
+      "avgLogprob": -1.081,
+      "compressionRatio": 1.314,
+      "noSpeechProbability": 0.377,
+      "words": []
+    },
+    {
+      "start": 80.14,
+      "end": 82.66,
+      "text": "Activize the mini biggest noise",
+      "avgLogprob": -1.081,
+      "compressionRatio": 1.314,
+      "noSpeechProbability": 0.377,
+      "words": []
+    },
+    {
+      "start": 82.66,
+      "end": 86.16,
+      "text": "Save energy, keep your league, keep your work",
+      "avgLogprob": -1.081,
+      "compressionRatio": 1.314,
+      "noSpeechProbability": 0.377,
+      "words": []
+    },
+    {
+      "start": 86.16,
+      "end": 89.84,
+      "text": "Precious guardian, dance eva-ching",
+      "avgLogprob": -1.081,
+      "compressionRatio": 1.314,
+      "noSpeechProbability": 0.377,
+      "words": []
+    },
+    {
+      "start": 90.0,
+      "end": 94.6,
+      "text": "Disit in ae bai sli",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 94.6,
+      "end": 99.6,
+      "text": "Bain dis veri kaw",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 99.6,
+      "end": 104.4,
+      "text": "Di yandis da to kri",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 104.4,
+      "end": 108.8,
+      "text": "Bainu ae ae",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 108.8,
+      "end": 110.4,
+      "text": "Buzabi o badi",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 110.4,
+      "end": 113.4,
+      "text": "Inafis kata wa ni fresh off lenti",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 113.4,
+      "end": 115.0,
+      "text": "Buzabi o badi",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 115.0,
+      "end": 118.0,
+      "text": "Inau ni tokum e dem no yawi",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 118.0,
+      "end": 119.6,
+      "text": "Buzabi o badi",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.518,
+      "noSpeechProbability": 0.296,
+      "words": []
+    },
+    {
+      "start": 119.6,
+      "end": 122.12,
+      "text": "Banba da watri fawri yamu sabi ova di",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.118,
+      "noSpeechProbability": 0.295,
+      "words": []
+    },
+    {
+      "start": 122.12,
+      "end": 124.4,
+      "text": "Chapsen menta paskumat fa",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.118,
+      "noSpeechProbability": 0.295,
+      "words": []
+    },
+    {
+      "start": 124.4,
+      "end": 126.9,
+      "text": "Ova di, ova di",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.118,
+      "noSpeechProbability": 0.295,
+      "words": []
+    },
+    {
+      "start": 128.0,
+      "end": 129.3,
+      "text": "Ova di",
+      "avgLogprob": -1.042,
+      "compressionRatio": 1.118,
+      "noSpeechProbability": 0.295,
+      "words": []
+    },
+    {
+      "start": 135.0,
+      "end": 137.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 137.0,
+      "end": 139.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 139.0,
+      "end": 141.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 141.0,
+      "end": 143.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 143.0,
+      "end": 145.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 145.0,
+      "end": 147.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 147.0,
+      "end": 149.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 149.0,
+      "end": 151.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 151.0,
+      "end": 153.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 153.0,
+      "end": 155.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 155.0,
+      "end": 157.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 157.0,
+      "end": 159.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 159.0,
+      "end": 161.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    },
+    {
+      "start": 161.0,
+      "end": 163.0,
+      "text": "1 tbc",
+      "avgLogprob": -0.254,
+      "compressionRatio": 4.882,
+      "noSpeechProbability": 0.698,
+      "words": []
+    }
+  ],
+  "evidence": {
+    "status": "lyrics-detected",
+    "confidence": 0.755,
+    "wordCount": 187,
+    "credibleWordCount": 159,
+    "segmentCount": 33,
+    "averageWordProbability": 0.489,
+    "vocalSeconds": 101.04,
+    "scanCoverage": 1.0,
+    "reviewRequired": true
+  }
+}
