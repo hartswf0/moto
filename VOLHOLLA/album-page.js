@@ -2784,6 +2784,81 @@
         ["OP2 Pair", "Launch with IN THE MIDDLE for the desert-to-solar companion deck." ]
       ]
     },
+    polliwog: {
+      key: "polliwog",
+      pageSlug: "polliwog-station",
+      basePath: "../POLIWOG STATION/",
+      label: "POLLIWOG STATION",
+      subtitle: "Frog-platform radio / terrapin drift / banjo-and-static transmissions",
+      accentA: "#d43b28",
+      accentB: "#91a64b",
+      coverImage: "../POLIWOG STATION/5c80a040-f32e-4b4f-851b-6a9efd0658f5.png",
+      defaultTrackArt: "../POLIWOG STATION/8a1971f0-cc2f-4029-b07c-be60df9c739e.png",
+      trackArtByIndex: {
+        0: "../POLIWOG STATION/5c80a040-f32e-4b4f-851b-6a9efd0658f5.png",
+        1: "../POLIWOG STATION/8f4b0d11-91e9-4b0f-ae38-84edb30937bc.png",
+        2: "../POLIWOG STATION/8a1971f0-cc2f-4029-b07c-be60df9c739e.png",
+        3: "../POLIWOG STATION/895ffe64-6f54-4edf-a52b-43e36238857e.png",
+        4: "../POLIWOG STATION/d6ca7c6d-146c-4e9e-a925-88c0f718c125.png",
+        5: "../POLIWOG STATION/0ffb2db9-192c-44cd-bb26-01b3de88b5ba.png"
+      },
+      hallKey: "polliwog",
+      op2Key: "polliwog",
+      op2Pair: "river",
+      files: [
+        "Polliwog Station - Banshee Summer Fever - Treblo (1).ogg",
+        "Polliwog Station - Banshee Summer Fever - Treblo.ogg",
+        "Polliwog Station - Bluest Ocean Building - Treblo.ogg",
+        "Polliwog Station - Brown Water Mystery - Treblo.ogg",
+        "Polliwog Station - Brown Water Silver Moss - Treblo.ogg",
+        "Polliwog Station - Chinchilla Cheetah Phase - Treblo.ogg",
+        "Polliwog Station - Cicada Strategy - Treblo.ogg",
+        "Polliwog Station - Code Keeper Wide Delay - Treblo.ogg",
+        "Polliwog Station - Grass Season Transformation - Treblo.ogg",
+        "Polliwog Station - Interchange Rain - Treblo.ogg",
+        "Polliwog Station - Lion's Den in the Water - Treblo.ogg",
+        "Polliwog Station - London Static Memory - Treblo.ogg",
+        "Polliwog Station - Long Distance Echoes - Treblo.ogg",
+        "Polliwog Station - Maschine Revolution - Treblo.ogg",
+        "Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo.ogg",
+        "Polliwog Station - Phil's Revolution Revolution - Treblo.ogg",
+        "Polliwog Station - Polliwog Evolution - Treblo.ogg",
+        "Polliwog Station - Polliwog Station - Treblo (1).ogg",
+        "Polliwog Station - Polliwog Station - Treblo (2).ogg",
+        "Polliwog Station - Polliwog Station - Treblo.ogg",
+        "Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo.ogg",
+        "Polliwog Station - Polliwog Station Block Party Transmission - Treblo.ogg",
+        "Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo.ogg",
+        "Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo.ogg",
+        "Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo.ogg",
+        "Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo.ogg",
+        "Polliwog Station - Porch Lights & Plywood - Treblo.ogg",
+        "Polliwog Station - Prophetic Valley Line - Treblo.ogg",
+        "Polliwog Station - Revolution Passenger - Treblo.ogg",
+        "Polliwog Station - Sacred Harp Terrapin - Treblo.ogg",
+        "Polliwog Station - Spontaneous Peloton Crossroads - Treblo.ogg",
+        "Polliwog Station - Stagnant Station (Dragonflies) - Treblo.ogg",
+        "Polliwog Station - Stagnant Station Flow - Treblo.ogg",
+        "Polliwog Station - Teapot & Tequila Pavement - Treblo.ogg",
+        "Polliwog Station - Teapot Prophecies - Treblo.ogg",
+        "Polliwog Station - Terrapin Drift - Treblo.ogg",
+        "Polliwog Station - The Hollow Square Convention - Treblo.ogg",
+        "Polliwog Station - The Lion and the Fan - Treblo.ogg",
+        "Polliwog Station - The Lion's Den Front Line - Treblo.ogg",
+        "Polliwog Station - The Plan Revolution - Treblo.ogg",
+        "Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo.ogg",
+        "Polliwog Station - Tizita Phantom Steel - Treblo.ogg",
+        "Polliwog Station - Velvet Spiders in the Ditch - Treblo.ogg",
+        "Polliwog Station - Victory Lap (Sample Logic) - Treblo.ogg",
+        "Polliwog Station - Watershed Pluriversal - Treblo.ogg",
+        "Polliwog Station - Wet Boots Drag - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Frog-platform radio / terrapin drift / banjo-and-static transmissions"],
+        ["Use", "Standalone album portal, Hall route, radio catalog, and direct song links."],
+        ["OP2 Pair", "Launch with RIVER BANK WAITING for the marsh-to-platform companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2866,6 +2941,7 @@
         .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, "")
         .replace(/^in the middle\s*-\s*/i, "")
     .replace(/^marea memory\s*-\s*/i, "")
+    .replace(/^polliwog station\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -3041,6 +3117,7 @@
     if (raw === "paperglasses" || raw === "paper" || raw === "glasses" || raw === "wonder" || raw === "paper-glasses-electric-wonder" || raw === "paper_glasses_electric_wonder" || raw === "paper glasses electric wonder" || raw === "pgew") return "paperglasses";
     if (raw === "inthemiddle" || raw === "middle" || raw === "in-the-middle" || raw === "in_the_middle" || raw === "in the middle" || raw === "itm") return "inthemiddle";
     if (raw === "mareamemory" || raw === "marea" || raw === "memory" || raw === "marea-memory" || raw === "marea_memory" || raw === "marea memory" || raw === "mm") return "mareamemory";
+    if (raw === "polliwog" || raw === "polliwogstation" || raw === "polliwog-station" || raw === "polliwog_station" || raw === "polliwog station" || raw === "frogstation") return "polliwog";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

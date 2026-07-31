@@ -295,6 +295,7 @@
         { key: 'paperglasses', label: 'PGEW' },
         { key: 'inthemiddle', label: 'MID' },
         { key: 'mareamemory', label: 'MAREA' },
+        { key: 'polliwog', label: 'FROG' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -397,6 +398,8 @@
             ? 'paperglasses'
           : raw === 'mareamemory' || raw === 'marea' || raw === 'memory' || raw === 'marea-memory' || raw === 'marea_memory' || raw === 'marea memory' || raw === 'mm'
             ? 'mareamemory'
+          : raw === 'polliwog' || raw === 'polliwogstation' || raw === 'polliwog-station' || raw === 'polliwog_station' || raw === 'polliwog station' || raw === 'frogstation'
+            ? 'polliwog'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

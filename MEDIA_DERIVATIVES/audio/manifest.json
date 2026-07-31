@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:49:44.263Z",
+  "generatedAt": "2026-07-31T17:30:03.451Z",
   "outputRoot": "MEDIA_DERIVATIVES/audio",
   "profiles": {
     "stream": {
@@ -4840,6 +4840,1156 @@
         "preview": {
           "mp3": "MEDIA_DERIVATIVES/audio/MAREA MEMORY/Marea Memory - Viscous Ontological Solar Engine - Treblo--preview.mp3",
           "bytes": 180498,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo (1).ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo (1).ogg",
+      "durationSeconds": 197.236813,
+      "sourceBitRate": 95687,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo (1)--stream.mp3",
+          "bytes": 3156888,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo (1)--fallback.mp3",
+          "bytes": 1578465,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo (1)--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo.ogg",
+      "durationSeconds": 197.236813,
+      "sourceBitRate": 95687,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo--stream.mp3",
+          "bytes": 3156888,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo--fallback.mp3",
+          "bytes": 1578465,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Banshee Summer Fever - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Bluest Ocean Building - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Bluest Ocean Building - Treblo.ogg",
+      "durationSeconds": 168.118979,
+      "sourceBitRate": 96188,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Bluest Ocean Building - Treblo--stream.mp3",
+          "bytes": 2690864,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Bluest Ocean Building - Treblo--fallback.mp3",
+          "bytes": 1345453,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Bluest Ocean Building - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Brown Water Mystery - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Brown Water Mystery - Treblo.ogg",
+      "durationSeconds": 167.840333,
+      "sourceBitRate": 99673,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Mystery - Treblo--stream.mp3",
+          "bytes": 2686266,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Mystery - Treblo--fallback.mp3",
+          "bytes": 1343154,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Mystery - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Brown Water Silver Moss - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Brown Water Silver Moss - Treblo.ogg",
+      "durationSeconds": 200.208958,
+      "sourceBitRate": 99251,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Silver Moss - Treblo--stream.mp3",
+          "bytes": 3204536,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Silver Moss - Treblo--fallback.mp3",
+          "bytes": 1602289,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Brown Water Silver Moss - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Chinchilla Cheetah Phase - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Chinchilla Cheetah Phase - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 96468,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Chinchilla Cheetah Phase - Treblo--stream.mp3",
+          "bytes": 4560395,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Chinchilla Cheetah Phase - Treblo--fallback.mp3",
+          "bytes": 2280219,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Chinchilla Cheetah Phase - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Cicada Strategy - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Cicada Strategy - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 104403,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Cicada Strategy - Treblo--stream.mp3",
+          "bytes": 4560395,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Cicada Strategy - Treblo--fallback.mp3",
+          "bytes": 2280219,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Cicada Strategy - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Code Keeper Wide Delay - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Code Keeper Wide Delay - Treblo.ogg",
+      "durationSeconds": 225.565146,
+      "sourceBitRate": 102787,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Code Keeper Wide Delay - Treblo--stream.mp3",
+          "bytes": 3609956,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Code Keeper Wide Delay - Treblo--fallback.mp3",
+          "bytes": 1804999,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Code Keeper Wide Delay - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Grass Season Transformation - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Grass Season Transformation - Treblo.ogg",
+      "durationSeconds": 160.317083,
+      "sourceBitRate": 99788,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Grass Season Transformation - Treblo--stream.mp3",
+          "bytes": 2565894,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Grass Season Transformation - Treblo--fallback.mp3",
+          "bytes": 1282968,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Grass Season Transformation - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Interchange Rain - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Interchange Rain - Treblo.ogg",
+      "durationSeconds": 282.175396,
+      "sourceBitRate": 97406,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Interchange Rain - Treblo--stream.mp3",
+          "bytes": 4515674,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Interchange Rain - Treblo--fallback.mp3",
+          "bytes": 2257858,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Interchange Rain - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Lion's Den in the Water - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Lion's Den in the Water - Treblo.ogg",
+      "durationSeconds": 274.187729,
+      "sourceBitRate": 95944,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Lion's Den in the Water - Treblo--stream.mp3",
+          "bytes": 4387778,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Lion's Den in the Water - Treblo--fallback.mp3",
+          "bytes": 2193910,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Lion's Den in the Water - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - London Static Memory - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - London Static Memory - Treblo.ogg",
+      "durationSeconds": 189.620667,
+      "sourceBitRate": 105869,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - London Static Memory - Treblo--stream.mp3",
+          "bytes": 3034844,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - London Static Memory - Treblo--fallback.mp3",
+          "bytes": 1517443,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - London Static Memory - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Long Distance Echoes - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Long Distance Echoes - Treblo.ogg",
+      "durationSeconds": 218.738479,
+      "sourceBitRate": 102478,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Long Distance Echoes - Treblo--stream.mp3",
+          "bytes": 3500869,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Long Distance Echoes - Treblo--fallback.mp3",
+          "bytes": 1750456,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Long Distance Echoes - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Maschine Revolution - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Maschine Revolution - Treblo.ogg",
+      "durationSeconds": 177.453396,
+      "sourceBitRate": 101400,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Maschine Revolution - Treblo--stream.mp3",
+          "bytes": 2840075,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Maschine Revolution - Treblo--fallback.mp3",
+          "bytes": 1420059,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Maschine Revolution - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo.ogg",
+      "durationSeconds": 248.460021,
+      "sourceBitRate": 116109,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo--stream.mp3",
+          "bytes": 3976506,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo--fallback.mp3",
+          "bytes": 1988274,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Phil's Revolution Revolution - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Phil's Revolution Revolution - Treblo.ogg",
+      "durationSeconds": 251.432188,
+      "sourceBitRate": 93586,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Phil's Revolution Revolution - Treblo--stream.mp3",
+          "bytes": 4023736,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Phil's Revolution Revolution - Treblo--fallback.mp3",
+          "bytes": 2011889,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Phil's Revolution Revolution - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Evolution - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Evolution - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 94601,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Evolution - Treblo--stream.mp3",
+          "bytes": 4560395,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Evolution - Treblo--fallback.mp3",
+          "bytes": 2280219,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Evolution - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (1).ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (1).ogg",
+      "durationSeconds": 138.16525,
+      "sourceBitRate": 93364,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (1)--stream.mp3",
+          "bytes": 2211465,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (1)--fallback.mp3",
+          "bytes": 1105754,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (1)--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (2).ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (2).ogg",
+      "durationSeconds": 179.821833,
+      "sourceBitRate": 100983,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (2)--stream.mp3",
+          "bytes": 2878110,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (2)--fallback.mp3",
+          "bytes": 1439076,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo (2)--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo.ogg",
+      "durationSeconds": 204.481438,
+      "sourceBitRate": 99291,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo--stream.mp3",
+          "bytes": 3272663,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo--fallback.mp3",
+          "bytes": 1636353,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo.ogg",
+      "durationSeconds": 240.147292,
+      "sourceBitRate": 102582,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo--stream.mp3",
+          "bytes": 3843177,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo--fallback.mp3",
+          "bytes": 1921610,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo.ogg",
+      "durationSeconds": 58.242167,
+      "sourceBitRate": 93519,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo--stream.mp3",
+          "bytes": 932927,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo--fallback.mp3",
+          "bytes": 466485,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo.ogg",
+      "durationSeconds": 196.540208,
+      "sourceBitRate": 100773,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo--stream.mp3",
+          "bytes": 3145603,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo--fallback.mp3",
+          "bytes": 1572823,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo.ogg",
+      "durationSeconds": 174.620563,
+      "sourceBitRate": 99365,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo--stream.mp3",
+          "bytes": 2794936,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo--fallback.mp3",
+          "bytes": 1397489,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Station Block Party Transmission - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Station Block Party Transmission - Treblo.ogg",
+      "durationSeconds": 116.988646,
+      "sourceBitRate": 92191,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Block Party Transmission - Treblo--stream.mp3",
+          "bytes": 1872918,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Block Party Transmission - Treblo--fallback.mp3",
+          "bytes": 936480,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Station Block Party Transmission - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo.ogg",
+      "durationSeconds": 210.890146,
+      "sourceBitRate": 102878,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo--stream.mp3",
+          "bytes": 3375063,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo--fallback.mp3",
+          "bytes": 1687553,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Porch Lights & Plywood - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Porch Lights & Plywood - Treblo.ogg",
+      "durationSeconds": 152.933125,
+      "sourceBitRate": 100668,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Porch Lights & Plywood - Treblo--stream.mp3",
+          "bytes": 2448030,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Porch Lights & Plywood - Treblo--fallback.mp3",
+          "bytes": 1224036,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Porch Lights & Plywood - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Prophetic Valley Line - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Prophetic Valley Line - Treblo.ogg",
+      "durationSeconds": 201.880792,
+      "sourceBitRate": 100160,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Prophetic Valley Line - Treblo--stream.mp3",
+          "bytes": 3231285,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Prophetic Valley Line - Treblo--fallback.mp3",
+          "bytes": 1615664,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Prophetic Valley Line - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Revolution Passenger - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Revolution Passenger - Treblo.ogg",
+      "durationSeconds": 284.961792,
+      "sourceBitRate": 93883,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Revolution Passenger - Treblo--stream.mp3",
+          "bytes": 4560395,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Revolution Passenger - Treblo--fallback.mp3",
+          "bytes": 2280219,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Revolution Passenger - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Sacred Harp Terrapin - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Sacred Harp Terrapin - Treblo.ogg",
+      "durationSeconds": 198.908646,
+      "sourceBitRate": 99456,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Sacred Harp Terrapin - Treblo--stream.mp3",
+          "bytes": 3183638,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Sacred Harp Terrapin - Treblo--fallback.mp3",
+          "bytes": 1591840,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Sacred Harp Terrapin - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Spontaneous Peloton Crossroads - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Spontaneous Peloton Crossroads - Treblo.ogg",
+      "durationSeconds": 173.32025,
+      "sourceBitRate": 97929,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Spontaneous Peloton Crossroads - Treblo--stream.mp3",
+          "bytes": 2774038,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Spontaneous Peloton Crossroads - Treblo--fallback.mp3",
+          "bytes": 1387040,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Spontaneous Peloton Crossroads - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Stagnant Station (Dragonflies) - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Stagnant Station (Dragonflies) - Treblo.ogg",
+      "durationSeconds": 262.717083,
+      "sourceBitRate": 102054,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station (Dragonflies) - Treblo--stream.mp3",
+          "bytes": 4204294,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station (Dragonflies) - Treblo--fallback.mp3",
+          "bytes": 2102168,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station (Dragonflies) - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Stagnant Station Flow - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Stagnant Station Flow - Treblo.ogg",
+      "durationSeconds": 166.214938,
+      "sourceBitRate": 101139,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station Flow - Treblo--stream.mp3",
+          "bytes": 2660353,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station Flow - Treblo--fallback.mp3",
+          "bytes": 1330198,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Stagnant Station Flow - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Teapot & Tequila Pavement - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Teapot & Tequila Pavement - Treblo.ogg",
+      "durationSeconds": 240.054396,
+      "sourceBitRate": 101055,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot & Tequila Pavement - Treblo--stream.mp3",
+          "bytes": 3841923,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot & Tequila Pavement - Treblo--fallback.mp3",
+          "bytes": 1920983,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot & Tequila Pavement - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Teapot Prophecies - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Teapot Prophecies - Treblo.ogg",
+      "durationSeconds": 198.351354,
+      "sourceBitRate": 100713,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot Prophecies - Treblo--stream.mp3",
+          "bytes": 3174443,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot Prophecies - Treblo--fallback.mp3",
+          "bytes": 1587243,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Teapot Prophecies - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Terrapin Drift - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Terrapin Drift - Treblo.ogg",
+      "durationSeconds": 209.729146,
+      "sourceBitRate": 104334,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Terrapin Drift - Treblo--stream.mp3",
+          "bytes": 3356673,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Terrapin Drift - Treblo--fallback.mp3",
+          "bytes": 1678358,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Terrapin Drift - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - The Hollow Square Convention - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - The Hollow Square Convention - Treblo.ogg",
+      "durationSeconds": 72.452771,
+      "sourceBitRate": 94623,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Hollow Square Convention - Treblo--stream.mp3",
+          "bytes": 1160297,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Hollow Square Convention - Treblo--fallback.mp3",
+          "bytes": 580170,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Hollow Square Convention - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - The Lion and the Fan - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - The Lion and the Fan - Treblo.ogg",
+      "durationSeconds": 262.438438,
+      "sourceBitRate": 98736,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion and the Fan - Treblo--stream.mp3",
+          "bytes": 4200114,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion and the Fan - Treblo--fallback.mp3",
+          "bytes": 2100078,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion and the Fan - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - The Lion's Den Front Line - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - The Lion's Den Front Line - Treblo.ogg",
+      "durationSeconds": 161.756708,
+      "sourceBitRate": 100640,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion's Den Front Line - Treblo--stream.mp3",
+          "bytes": 2588882,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion's Den Front Line - Treblo--fallback.mp3",
+          "bytes": 1294462,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Lion's Den Front Line - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - The Plan Revolution - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - The Plan Revolution - Treblo.ogg",
+      "durationSeconds": 240.890313,
+      "sourceBitRate": 97588,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Plan Revolution - Treblo--stream.mp3",
+          "bytes": 3855298,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Plan Revolution - Treblo--fallback.mp3",
+          "bytes": 1927670,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Plan Revolution - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo.ogg",
+      "durationSeconds": 272.330146,
+      "sourceBitRate": 101902,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo--stream.mp3",
+          "bytes": 4358103,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo--fallback.mp3",
+          "bytes": 2179073,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Tizita Phantom Steel - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Tizita Phantom Steel - Treblo.ogg",
+      "durationSeconds": 115.827646,
+      "sourceBitRate": 98477,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Tizita Phantom Steel - Treblo--stream.mp3",
+          "bytes": 1854110,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Tizita Phantom Steel - Treblo--fallback.mp3",
+          "bytes": 927076,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Tizita Phantom Steel - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Velvet Spiders in the Ditch - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Velvet Spiders in the Ditch - Treblo.ogg",
+      "durationSeconds": 252.360979,
+      "sourceBitRate": 91282,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Velvet Spiders in the Ditch - Treblo--stream.mp3",
+          "bytes": 4038782,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Velvet Spiders in the Ditch - Treblo--fallback.mp3",
+          "bytes": 2019412,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Velvet Spiders in the Ditch - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Victory Lap (Sample Logic) - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Victory Lap (Sample Logic) - Treblo.ogg",
+      "durationSeconds": 197.794083,
+      "sourceBitRate": 106564,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Victory Lap (Sample Logic) - Treblo--stream.mp3",
+          "bytes": 3165665,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Victory Lap (Sample Logic) - Treblo--fallback.mp3",
+          "bytes": 1582854,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Victory Lap (Sample Logic) - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Watershed Pluriversal - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Watershed Pluriversal - Treblo.ogg",
+      "durationSeconds": 192.035542,
+      "sourceBitRate": 99835,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Watershed Pluriversal - Treblo--stream.mp3",
+          "bytes": 3073714,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Watershed Pluriversal - Treblo--fallback.mp3",
+          "bytes": 1536878,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Watershed Pluriversal - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo.ogg": {
+      "source": "POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo.ogg",
+      "durationSeconds": 207.314271,
+      "sourceBitRate": 103117,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo--stream.mp3",
+          "bytes": 3318221,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo--fallback.mp3",
+          "bytes": 1659132,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo--preview.mp3",
+          "bytes": 180497,
           "bitrate": "48k",
           "previewSeconds": 30
         }

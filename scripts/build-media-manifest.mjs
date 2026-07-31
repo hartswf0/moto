@@ -8,6 +8,7 @@ const ROOT = process.cwd();
 const IMAGE_MANIFEST_FILE = path.join(ROOT, "MEDIA_DERIVATIVES", "images", "manifest.json");
 const AUDIO_MANIFEST_FILE = path.join(ROOT, "MEDIA_DERIVATIVES", "audio", "manifest.json");
 const OUT_FILE = path.join(ROOT, "VOLHOLLA", "media-manifest.json");
+const ALL_TIME_OUT_FILE = path.join(ROOT, "VOLHOLLA", "all-time-manifest.js");
 
 function imageEntryFor(items, relativePath) {
   if (!relativePath) return null;
@@ -67,7 +68,9 @@ async function main() {
   }
 
   await ensureDir(path.dirname(OUT_FILE));
-  await fs.writeFile(OUT_FILE, JSON.stringify(out, null, 2));
+  const json = JSON.stringify(out, null, 2);
+  await fs.writeFile(OUT_FILE, json);
+  await fs.writeFile(ALL_TIME_OUT_FILE, `window.ALL_TIME_EMBEDDED_MANIFEST = ${json};\n`);
   process.stdout.write(`Built media manifest for ${albums.length} albums.\n`);
 }
 

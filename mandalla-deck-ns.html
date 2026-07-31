@@ -282,6 +282,7 @@
         { key: 'paperglasses', label: 'PGEW' },
         { key: 'inthemiddle', label: 'MID' },
         { key: 'mareamemory', label: 'MAREA' },
+        { key: 'polliwog', label: 'FROG' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -380,6 +381,8 @@
             ? 'paperglasses'
           : raw === 'mareamemory' || raw === 'marea' || raw === 'memory' || raw === 'marea-memory' || raw === 'marea_memory' || raw === 'marea memory' || raw === 'mm'
             ? 'mareamemory'
+          : raw === 'polliwog' || raw === 'polliwogstation' || raw === 'polliwog-station' || raw === 'polliwog_station' || raw === 'polliwog station' || raw === 'frogstation'
+            ? 'polliwog'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'

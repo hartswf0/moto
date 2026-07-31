@@ -50,6 +50,7 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `paperglasses`
 - `inthemiddle`
 - `mareamemory`
+- `polliwog`
 
 ### Single Mandalla
 
@@ -84,7 +85,7 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, and `mareamemory` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, `mareamemory`, and `polliwog` currently use `.ogg`.
 
 ## Media Derivatives
 

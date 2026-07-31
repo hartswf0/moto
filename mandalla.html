@@ -1980,6 +1980,62 @@
                     "Marea Memory - Viscous Ontological Solar Engine - Treblo.ogg"
                   ]
             },
+            polliwog: {
+                key: 'polliwog',
+                label: 'POLLIWOG STATION',
+                shortLabel: 'FROG',
+                libraryParam: 'polliwog',
+                op2Pair: 'river',
+                basePath: 'POLIWOG STATION/',
+                files: [
+                    "Polliwog Station - Banshee Summer Fever - Treblo (1).ogg",
+                    "Polliwog Station - Banshee Summer Fever - Treblo.ogg",
+                    "Polliwog Station - Bluest Ocean Building - Treblo.ogg",
+                    "Polliwog Station - Brown Water Mystery - Treblo.ogg",
+                    "Polliwog Station - Brown Water Silver Moss - Treblo.ogg",
+                    "Polliwog Station - Chinchilla Cheetah Phase - Treblo.ogg",
+                    "Polliwog Station - Cicada Strategy - Treblo.ogg",
+                    "Polliwog Station - Code Keeper Wide Delay - Treblo.ogg",
+                    "Polliwog Station - Grass Season Transformation - Treblo.ogg",
+                    "Polliwog Station - Interchange Rain - Treblo.ogg",
+                    "Polliwog Station - Lion's Den in the Water - Treblo.ogg",
+                    "Polliwog Station - London Static Memory - Treblo.ogg",
+                    "Polliwog Station - Long Distance Echoes - Treblo.ogg",
+                    "Polliwog Station - Maschine Revolution - Treblo.ogg",
+                    "Polliwog Station - Music Box Lullaby (For Eleanor) - Treblo.ogg",
+                    "Polliwog Station - Phil's Revolution Revolution - Treblo.ogg",
+                    "Polliwog Station - Polliwog Evolution - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station - Treblo (1).ogg",
+                    "Polliwog Station - Polliwog Station - Treblo (2).ogg",
+                    "Polliwog Station - Polliwog Station - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station Addis Resonance Suite - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station Block Party Transmission - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station — Bioacoustic Terrapin - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station — Sacred Harp Terrapin - Treblo.ogg",
+                    "Polliwog Station - Polliwog Station — Sanshin Terrapin - Treblo.ogg",
+                    "Polliwog Station - Polliwog Victory Lap (J1 Station) - Treblo.ogg",
+                    "Polliwog Station - Porch Lights & Plywood - Treblo.ogg",
+                    "Polliwog Station - Prophetic Valley Line - Treblo.ogg",
+                    "Polliwog Station - Revolution Passenger - Treblo.ogg",
+                    "Polliwog Station - Sacred Harp Terrapin - Treblo.ogg",
+                    "Polliwog Station - Spontaneous Peloton Crossroads - Treblo.ogg",
+                    "Polliwog Station - Stagnant Station (Dragonflies) - Treblo.ogg",
+                    "Polliwog Station - Stagnant Station Flow - Treblo.ogg",
+                    "Polliwog Station - Teapot & Tequila Pavement - Treblo.ogg",
+                    "Polliwog Station - Teapot Prophecies - Treblo.ogg",
+                    "Polliwog Station - Terrapin Drift - Treblo.ogg",
+                    "Polliwog Station - The Hollow Square Convention - Treblo.ogg",
+                    "Polliwog Station - The Lion and the Fan - Treblo.ogg",
+                    "Polliwog Station - The Lion's Den Front Line - Treblo.ogg",
+                    "Polliwog Station - The Plan Revolution - Treblo.ogg",
+                    "Polliwog Station - The Stagnant Surface Mud (Devil Hole) - Treblo.ogg",
+                    "Polliwog Station - Tizita Phantom Steel - Treblo.ogg",
+                    "Polliwog Station - Velvet Spiders in the Ditch - Treblo.ogg",
+                    "Polliwog Station - Victory Lap (Sample Logic) - Treblo.ogg",
+                    "Polliwog Station - Watershed Pluriversal - Treblo.ogg",
+                    "Polliwog Station - Wet Boots Drag - Treblo.ogg"
+                ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2785,6 +2841,7 @@
                 .replace(/^paper glasses,\s*electric wonder\s*-\s*/i, '')
                 .replace(/^in the middle\s*-\s*/i, '')
                 .replace(/^marea memory\s*-\s*/i, '')
+                .replace(/^polliwog station\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
@@ -2840,6 +2897,7 @@
             if (v === 'paperglasses' || v === 'paper' || v === 'glasses' || v === 'wonder' || v === 'paper-glasses-electric-wonder' || v === 'paper_glasses_electric_wonder' || v === 'paper glasses electric wonder' || v === 'pgew') return 'paperglasses';
             if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
             if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
+            if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
