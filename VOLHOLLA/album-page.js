@@ -2859,6 +2859,45 @@
         ["OP2 Pair", "Launch with RIVER BANK WAITING for the marsh-to-platform companion deck."]
       ]
     },
+    lastweekaugust: {
+      key: "lastweekaugust",
+      pageSlug: "last-week-of-august",
+      basePath: "../THE LAST WEEK OF AUGUST/",
+      label: "LAST WEEK OF AUGUST",
+      subtitle: "Backlot radio / rendered surf / human-loop transmissions",
+      accentA: "#ed3f70",
+      accentB: "#8fa63f",
+      coverImage: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+      defaultTrackArt: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+      trackArtByIndex: {
+        0: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+        1: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+        2: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+        3: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+        4: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+        5: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+        6: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+        7: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png"
+      },
+      hallKey: "lastweekaugust",
+      op2Key: "lastweekaugust",
+      op2Pair: "polliwog",
+      files: [
+        "Last Week of August - Clean the Words - Treblo.ogg",
+        "Last Week of August - Flinch at the Machine - Treblo.ogg",
+        "Last Week of August - Human in the Loop - Treblo.ogg",
+        "Last Week of August - Leave the Breath In - Treblo.ogg",
+        "Last Week of August - Render Beach - Treblo.ogg",
+        "Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+        "Last Week of August - Static and Surf - Treblo.ogg",
+        "Last Week of August - Sterile Tongues - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Backlot radio / rendered surf / human-loop transmissions"],
+        ["Use", "Standalone album portal, Hall route, radio catalog, and direct song links."],
+        ["OP2 Pair", "Launch with POLLIWOG STATION for the frog-radio companion deck."]
+      ]
+    },
     emptyfields: {
       key: "emptyfields",
       pageSlug: "empty-are-the-fields",
@@ -2942,6 +2981,7 @@
         .replace(/^in the middle\s*-\s*/i, "")
     .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^polliwog station\s*-\s*/i, "")
+    .replace(/^last week of august\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -3118,6 +3158,7 @@
     if (raw === "inthemiddle" || raw === "middle" || raw === "in-the-middle" || raw === "in_the_middle" || raw === "in the middle" || raw === "itm") return "inthemiddle";
     if (raw === "mareamemory" || raw === "marea" || raw === "memory" || raw === "marea-memory" || raw === "marea_memory" || raw === "marea memory" || raw === "mm") return "mareamemory";
     if (raw === "polliwog" || raw === "polliwogstation" || raw === "polliwog-station" || raw === "polliwog_station" || raw === "polliwog station" || raw === "frogstation") return "polliwog";
+    if (raw === "lastweekaugust" || raw === "lastweek" || raw === "august" || raw === "last-week-of-august" || raw === "last_week_of_august" || raw === "last week of august" || raw === "lwoa") return "lastweekaugust";
     if (raw === "queen" || raw === "queen-of-light" || raw === "queen_of_light" || raw === "queen of light" || raw === "qol") return "queen";
     return raw;
   }

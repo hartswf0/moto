@@ -288,6 +288,12 @@
       color: var(--paper);
     }
 
+    .mini:disabled,
+    .beat-play:disabled {
+      cursor: not-allowed;
+      opacity: 0.35;
+    }
+
     .play-control {
       border-width: 2px;
     }
@@ -857,6 +863,55 @@
       gap: 6px;
     }
 
+    .source-rating {
+      gap: 3px;
+    }
+
+    .source-rating .star-btn {
+      min-height: 34px;
+      font-size: 1rem;
+      border-width: 1px;
+    }
+
+    .score-dock {
+      border: 2px solid currentColor;
+      background: var(--paper);
+      color: var(--ink);
+      margin: 0 -16px 0 -10px;
+      padding: 3px;
+      display: grid;
+      gap: 3px;
+    }
+
+    .score-dock .select {
+      min-height: 34px;
+      height: 34px;
+      border: 2px solid var(--ink);
+      padding: 0 9px;
+      font-size: 0.68rem;
+      font-weight: 950;
+      letter-spacing: 0.04em;
+    }
+
+    .score-dock .rating-rail {
+      gap: 3px;
+    }
+
+    .score-dock .star-btn {
+      min-height: 40px;
+      height: 40px;
+      border-width: 2px;
+      font-size: 1.08rem;
+    }
+
+    .unit:hover .score-dock,
+    .unit.active .score-dock,
+    .unit.selected .score-dock {
+      border-color: var(--paper);
+      background: var(--paper);
+      color: var(--ink);
+    }
+
     .star-btn {
       min-height: 48px;
       border: 2px solid var(--ink);
@@ -897,6 +952,27 @@
       color: inherit;
     }
 
+    .unit:hover .score-dock .select,
+    .unit.active .score-dock .select,
+    .unit.selected .score-dock .select,
+    .unit:hover .score-dock .star-btn,
+    .unit.active .score-dock .star-btn,
+    .unit.selected .score-dock .star-btn {
+      border-color: var(--ink);
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    .unit:hover .score-dock .star-btn.on,
+    .unit.active .score-dock .star-btn.on,
+    .unit.selected .score-dock .star-btn.on,
+    .unit:hover .score-dock .star-btn:hover,
+    .unit.active .score-dock .star-btn:hover,
+    .unit.selected .score-dock .star-btn:hover {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
     .toolbar {
       border: 2px solid var(--ink);
       padding: 8px;
@@ -904,6 +980,128 @@
       display: grid;
       gap: 8px;
       background: var(--paper);
+    }
+
+    .compact-strip {
+      min-height: 42px;
+      border: 2px solid var(--ink);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: stretch;
+      overflow-x: auto;
+      overflow-y: visible;
+      background: var(--paper);
+      scrollbar-width: none;
+      position: sticky;
+      top: 0;
+      z-index: 12;
+    }
+
+    .compact-strip::-webkit-scrollbar {
+      display: none;
+    }
+
+    .compact-strip .mini,
+    .compact-strip .select,
+    .memory-pill,
+    .define-toggle summary {
+      min-height: 38px;
+      height: 38px;
+      flex: 0 0 auto;
+      border: 0;
+      border-right: 1px solid var(--ink);
+      font-size: 0.6rem;
+      padding: 0 8px;
+    }
+
+    .compact-strip .select {
+      width: auto;
+      max-width: 116px;
+    }
+
+    .memory-pill {
+      min-width: 43px;
+      background: var(--paper);
+      color: var(--ink);
+      cursor: pointer;
+      text-transform: uppercase;
+      font-weight: 950;
+      white-space: nowrap;
+    }
+
+    .memory-pill:hover,
+    .memory-pill.active {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .memory-pill:disabled {
+      cursor: not-allowed;
+      opacity: 0.28;
+    }
+
+    .strip-label {
+      min-width: 50px;
+      padding: 0 8px;
+      display: inline-flex;
+      align-items: center;
+      border-right: 1px solid var(--ink);
+      background: var(--ink);
+      color: var(--paper);
+      text-transform: uppercase;
+      font-size: 0.58rem;
+      font-weight: 950;
+      letter-spacing: 0.06em;
+      white-space: nowrap;
+    }
+
+    .define-toggle {
+      flex: 0 0 auto;
+      position: relative;
+    }
+
+    .define-toggle summary {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      list-style: none;
+      text-transform: uppercase;
+      font-weight: 950;
+    }
+
+    .define-toggle summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .define-popover {
+      position: fixed;
+      top: calc(var(--header-h) + 86px);
+      right: 12px;
+      z-index: 80;
+      width: min(250px, calc(100vw - 24px));
+      border: 3px solid var(--ink);
+      background: var(--paper);
+      padding: 8px;
+      display: grid;
+      gap: 7px;
+      box-shadow: 6px 6px 0 var(--ink);
+    }
+
+    .define-popover label {
+      display: grid;
+      gap: 3px;
+      text-transform: uppercase;
+      font-size: 0.58rem;
+      font-weight: 950;
+    }
+
+    .define-popover input {
+      min-height: 36px;
+      width: 100%;
+      border: 1px solid var(--ink);
+      background: var(--paper);
+      padding: 0 7px;
+      font-weight: 900;
     }
 
     .grab-banner {
@@ -1055,7 +1253,45 @@
       font-weight: 950;
       letter-spacing: 0.05em;
       font-size: 0.82rem;
+      cursor: default;
+    }
+
+    .beat-select {
+      min-width: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      padding: 0;
+      text-align: left;
+      display: grid;
+      gap: 3px;
       cursor: pointer;
+    }
+
+    .beat-play {
+      min-width: 46px;
+      min-height: 34px;
+      border: 1px solid currentColor;
+      background: transparent;
+      color: inherit;
+      font-size: 0.68rem;
+      font-weight: 950;
+      cursor: pointer;
+    }
+
+    .beat-play:hover,
+    .beat.active .beat-play {
+      background: var(--ink);
+      color: var(--paper);
+    }
+
+    .beat.active .beat-play {
+      border-color: var(--paper);
+    }
+
+    .beat.active .beat-play:hover {
+      background: var(--paper);
+      color: var(--ink);
     }
 
     .beat-name {
@@ -1101,7 +1337,7 @@
       padding: 7px;
       text-transform: uppercase;
       overflow: hidden;
-      cursor: pointer;
+      cursor: default;
       position: relative;
     }
 
@@ -1126,7 +1362,8 @@
       min-width: 0;
     }
 
-    .block:hover {
+    .block:hover,
+    .block.now-playing {
       background: var(--ink);
       color: var(--paper);
     }
@@ -1615,7 +1852,8 @@
         list.findIndex((other) => other.url === candidate.url) === index
       );
       const STORAGE_KEY = "allTimeInstrument.v3";
-      const beats = [
+      const RATING_STORAGE_KEY = "allTimeInstrument.ratingMemory.v1";
+      const DEFAULT_BEATS = [
         { id: "unassigned", label: "Unassigned", target: 0 },
         { id: "CH00", label: "CH00 Release", target: 30 },
         { id: "CH01", label: "CH01 Field", target: 180 },
@@ -1625,6 +1863,7 @@
         { id: "CH05", label: "CH05 Belief", target: 301 },
         { id: "CH06", label: "CH06 Residue", target: 165 }
       ];
+      let beats = DEFAULT_BEATS.map((beat) => ({ ...beat }));
       const scale = { pxPerSecond: 0.36, fudge: 1.0, minBlock: 42, maxBlock: 170, minBeat: 105, maxBeat: 360 };
 
       const els = {
@@ -1670,6 +1909,10 @@
       let isScrubbing = false;
       let autoplayEnabled = true;
       let shuffleEnabled = false;
+      let ratingMemory = {};
+      let keepRatingFilter = "all";
+      let keepSort = "manual";
+      let playbackScope = { type: "keeps", value: "all", label: "All Keeps" };
       let statusTimer = 0;
       let longPressTimer = 0;
       let longPressTrackId = "";
@@ -1754,7 +1997,8 @@
       }
 
       function stars(item) {
-        return Math.max(0, Math.min(5, Number(item?.stars) || 0));
+        const remembered = item?.id ? ratingMemory[item.id]?.stars : undefined;
+        return Math.max(0, Math.min(5, Number(remembered ?? item?.stars) || 0));
       }
 
       function starText(item) {
@@ -1769,6 +2013,7 @@
       function originLabel() {
         if (playOrigin === "source") return "album";
         if (playOrigin === "beats") return "beats";
+        if (playOrigin === "ratings") return "ratings";
         return "keeps";
       }
 
@@ -1776,8 +2021,43 @@
         return build.slice().sort((a, b) => a.order - b.order);
       }
 
+      function ratingUpdatedAt(item) {
+        return Number(new Date(ratingMemory[item?.id]?.updatedAt || 0)) || 0;
+      }
+
+      function visibleBuild() {
+        let list = sortedBuild();
+        if (keepRatingFilter !== "all") {
+          const wanted = Number(keepRatingFilter);
+          list = list.filter((item) => stars(item) === wanted);
+        }
+        if (keepSort === "rating-desc") list.sort((a, b) => stars(b) - stars(a) || a.order - b.order);
+        if (keepSort === "rating-asc") list.sort((a, b) => stars(a) - stars(b) || a.order - b.order);
+        if (keepSort === "recent") list.sort((a, b) => ratingUpdatedAt(b) - ratingUpdatedAt(a) || a.order - b.order);
+        if (keepSort === "title") list.sort((a, b) => a.title.localeCompare(b.title));
+        if (keepSort === "album") list.sort((a, b) => a.albumLabel.localeCompare(b.albumLabel) || a.title.localeCompare(b.title));
+        return list;
+      }
+
+      function ratingItems(rating) {
+        const wanted = Number(rating);
+        return tracks.filter((track) => stars(track) === wanted);
+      }
+
+      function queueItems(scope = playbackScope) {
+        if (scope.type === "rating") return ratingItems(scope.value);
+        if (scope.type === "beat") return sortedBuild().filter((item) => (item.beat || "unassigned") === scope.value);
+        if (scope.type === "keeps") return visibleBuild();
+        return sortedBuild();
+      }
+
+      function setPlaybackScope(type, value, label) {
+        playbackScope = { type, value: String(value ?? ""), label: label || "Queue" };
+      }
+
       function currentItem() {
-        return sortedBuild()[currentIndex] || sortedBuild()[0] || null;
+        const queue = queueItems();
+        return queue[currentIndex] || queue[0] || sortedBuild()[0] || null;
       }
 
       function keptFor(trackId) {
@@ -1907,6 +2187,7 @@
 
       function save() {
         try {
+          localStorage.setItem(RATING_STORAGE_KEY, JSON.stringify(ratingMemory));
           localStorage.setItem(STORAGE_KEY, JSON.stringify({
             activeAlbum,
             activeBeat,
@@ -1915,7 +2196,18 @@
             playOrigin,
             autoplayEnabled,
             shuffleEnabled,
-            build: sortedBuild().map(({ id, order, stars, beat, runtime, notes }) => ({ id, order, stars, beat, runtime, notes }))
+            keepRatingFilter,
+            keepSort,
+            playbackScope,
+            beatDefinitions: beats.map(({ id, label, target }) => ({ id, label, target })),
+            build: sortedBuild().map((item) => ({
+              id: item.id,
+              order: item.order,
+              stars: stars(item),
+              beat: item.beat,
+              runtime: item.runtime,
+              notes: item.notes
+            }))
           }));
         } catch {
           // localStorage may be blocked
@@ -1924,6 +2216,8 @@
 
       function restore() {
         try {
+          const storedRatings = JSON.parse(localStorage.getItem(RATING_STORAGE_KEY) || "{}");
+          if (storedRatings && typeof storedRatings === "object" && !Array.isArray(storedRatings)) ratingMemory = storedRatings;
           const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
           if (raw.activeAlbum) activeAlbum = raw.activeAlbum;
           if (raw.activeBeat) activeBeat = raw.activeBeat;
@@ -1931,14 +2225,37 @@
           if (typeof raw.playOrigin === "string") playOrigin = raw.playOrigin;
           if (typeof raw.autoplayEnabled === "boolean") autoplayEnabled = raw.autoplayEnabled;
           if (typeof raw.shuffleEnabled === "boolean") shuffleEnabled = raw.shuffleEnabled;
+          if (["all", "0", "1", "2", "3", "4", "5"].includes(String(raw.keepRatingFilter))) keepRatingFilter = String(raw.keepRatingFilter);
+          if (["manual", "rating-desc", "rating-asc", "recent", "title", "album"].includes(raw.keepSort)) keepSort = raw.keepSort;
+          if (raw.playbackScope && ["keeps", "rating", "beat"].includes(raw.playbackScope.type)) {
+            playbackScope = {
+              type: raw.playbackScope.type,
+              value: String(raw.playbackScope.value ?? "all"),
+              label: String(raw.playbackScope.label || "Queue")
+            };
+          }
+          if (Array.isArray(raw.beatDefinitions)) {
+            beats = DEFAULT_BEATS.map((fallback) => {
+              const stored = raw.beatDefinitions.find((beat) => beat.id === fallback.id);
+              return stored ? {
+                id: fallback.id,
+                label: String(stored.label || fallback.label).slice(0, 48),
+                target: Math.max(0, Math.min(7200, Number(stored.target) || 0))
+              } : { ...fallback };
+            });
+          }
           if (!Array.isArray(raw.build)) return;
           build = raw.build.map((item) => {
             const base = findTrackByAnyId(item.id);
             if (!base) return null;
+            const legacyStars = Math.max(0, Math.min(5, Number(item.stars) || 0));
+            if (!ratingMemory[base.id] && legacyStars) {
+              ratingMemory[base.id] = { stars: legacyStars, updatedAt: new Date().toISOString() };
+            }
             return {
               ...base,
               order: Number.isFinite(Number(item.order)) ? Number(item.order) : 0,
-              stars: Number.isFinite(Number(item.stars)) ? Number(item.stars) : 0,
+              stars: stars(base),
               beat: typeof item.beat === "string" ? item.beat : "unassigned",
               runtime: Number.isFinite(Number(item.runtime)) ? Number(item.runtime) : base.runtime,
               notes: typeof item.notes === "string" ? item.notes : ""
@@ -1946,11 +2263,12 @@
           }).filter(Boolean);
           normalizeOrder();
           if (raw.nowItemId) {
-            const nextIndex = sortedBuild().findIndex((item) => trackMatchesLegacyId(item, raw.nowItemId));
+            const nextIndex = queueItems().findIndex((item) => trackMatchesLegacyId(item, raw.nowItemId));
             if (nextIndex >= 0) currentIndex = nextIndex;
           }
-          currentIndex = Math.max(0, Math.min(currentIndex, Math.max(0, build.length - 1)));
+          currentIndex = Math.max(0, Math.min(currentIndex, Math.max(0, queueItems().length - 1)));
           nowItem = currentItem();
+          save();
         } catch {
           // ignore malformed state
         }
@@ -1982,7 +2300,7 @@
           render({ snap: false });
           return true;
         }
-        build.push({ ...track, order: build.length, stars: 0, beat: beatId, notes: "", keptAt: new Date().toISOString() });
+        build.push({ ...track, order: build.length, stars: stars(track), beat: beatId, notes: "", keptAt: new Date().toISOString() });
         normalizeOrder();
         rememberPlacement(track.id, beatId && beatId !== "unassigned" ? `moved to ${beatLabel(beatId)}` : "moved to keeps");
         save();
@@ -1996,7 +2314,7 @@
         const list = sortedBuild();
         const targetIndex = list.findIndex((item) => item.id === targetId);
         const insertAt = targetIndex < 0 ? list.length : targetIndex;
-        list.splice(insertAt, 0, { ...track, order: insertAt, stars: 0, beat: activeBeat, notes: "", keptAt: new Date().toISOString() });
+        list.splice(insertAt, 0, { ...track, order: insertAt, stars: stars(track), beat: activeBeat, notes: "", keptAt: new Date().toISOString() });
         build = list;
         normalizeOrder();
         rememberPlacement(track.id, "inserted in keeps");
@@ -2006,7 +2324,10 @@
       }
 
       function loadAlbum() {
-        build = sourceTracks().map((track, index) => ({ ...track, order: index, stars: 0, beat: activeBeat, notes: "" }));
+        build = sourceTracks().map((track, index) => ({ ...track, order: index, stars: stars(track), beat: activeBeat, notes: "" }));
+        keepRatingFilter = "all";
+        keepSort = "manual";
+        setPlaybackScope("keeps", "all", "All Keeps");
         currentIndex = 0;
         nowItem = currentItem();
         save();
@@ -2018,7 +2339,7 @@
         let added = 0;
         visible.forEach((track) => {
           if (keptFor(track.id)) return;
-          build.push({ ...track, order: build.length, stars: 0, beat: activeBeat, notes: "", keptAt: new Date().toISOString() });
+          build.push({ ...track, order: build.length, stars: stars(track), beat: activeBeat, notes: "", keptAt: new Date().toISOString() });
           added += 1;
         });
         normalizeOrder();
@@ -2067,11 +2388,16 @@
 
       function setRating(id, rating) {
         const item = build.find((candidate) => candidate.id === id);
-        if (!item) return;
-        item.stars = Math.max(0, Math.min(5, Number(rating) || 0));
+        const track = findTrackByAnyId(id);
+        if (!item && !track) return;
+        const requested = Math.max(0, Math.min(5, Number(rating) || 0));
+        const value = stars(item || track) === requested ? 0 : requested;
+        ratingMemory[(item || track).id] = { stars: value, updatedAt: new Date().toISOString() };
+        if (item) item.stars = value;
+        if (track) track.stars = value;
         save();
         render({ snap: false });
-        status(`${item.title} rated ${item.stars}/5`, 1200);
+        status(value ? `${(item || track).title} rated ${value}/5 — remembered` : `${(item || track).title} rating cleared`, 1600);
       }
 
       function setNote(id, note) {
@@ -2083,6 +2409,7 @@
 
       function clearBuild() {
         build = [];
+        setPlaybackScope("keeps", "all", "All Keeps");
         currentIndex = 0;
         nowItem = null;
         heldPayload = null;
@@ -2094,6 +2421,66 @@
         audio.load();
         save();
         render();
+        status("Keeps cleared. Rating memory preserved.", 2200);
+      }
+
+      function setKeepRatingFilter(value) {
+        keepRatingFilter = ["all", "0", "1", "2", "3", "4", "5"].includes(String(value)) ? String(value) : "all";
+        setPlaybackScope("keeps", "view", "Keeps View");
+        currentIndex = 0;
+        save();
+        render({ snap: false });
+      }
+
+      function setKeepSort(value) {
+        keepSort = ["manual", "rating-desc", "rating-asc", "recent", "title", "album"].includes(value) ? value : "manual";
+        setPlaybackScope("keeps", "view", "Keeps View");
+        currentIndex = 0;
+        save();
+        render({ snap: false });
+      }
+
+      function playQueue(type, value, label) {
+        setPlaybackScope(type, value, label);
+        const list = queueItems();
+        if (!list.length) {
+          status(`${label} is empty`, 1600);
+          return false;
+        }
+        currentIndex = 0;
+        playOrigin = type === "beat" ? "beats" : type === "rating" ? "ratings" : "keeps";
+        nowItem = list[0];
+        save();
+        playObject(nowItem, true);
+        status(`Playing ${label} — ${list.length} songs`, 1900);
+        return true;
+      }
+
+      function playRating(rating) {
+        const value = Number(rating);
+        return playQueue("rating", value, `${value}★ Memory`);
+      }
+
+      function playBeat(beatId) {
+        const beat = beats.find((candidate) => candidate.id === beatId);
+        if (!beat) return false;
+        activeBeat = beat.id;
+        return playQueue("beat", beat.id, beat.label);
+      }
+
+      function playKeepsView() {
+        return playQueue("keeps", "view", keepRatingFilter === "all" ? "Keeps View" : `${keepRatingFilter}★ Keeps`);
+      }
+
+      function setBeatDefinition(beatId, field, value) {
+        const beat = beats.find((candidate) => candidate.id === beatId);
+        if (!beat) return;
+        if (field === "label") beat.label = String(value || DEFAULT_BEATS.find((item) => item.id === beatId)?.label || beatId).trim().slice(0, 48);
+        if (field === "target") beat.target = Math.max(0, Math.min(7200, Number(value) || 0));
+        if (playbackScope.type === "beat" && playbackScope.value === beat.id) playbackScope.label = beat.label;
+        save();
+        render({ snap: false });
+        status(`${beat.id} definition saved`, 1200);
       }
 
       function assignBeat(id, beatId) {
@@ -2130,15 +2517,20 @@
       }
 
       function addCurrentItemToActiveBeat() {
+        return addCurrentItemToBeat(activeBeat);
+      }
+
+      function addCurrentItemToBeat(beatId) {
         const item = nowItem || currentItem() || sourceTracks()[0] || tracks[0];
         if (!item) return false;
-        const targetBeat = activeBeat && activeBeat !== "unassigned" ? activeBeat : "CH00";
+        const requestedBeat = beats.some((beat) => beat.id === beatId) ? beatId : activeBeat;
+        const targetBeat = requestedBeat && requestedBeat !== "unassigned" ? requestedBeat : "CH00";
         activeBeat = targetBeat;
         const existing = keptFor(item.id);
         if (existing) {
           existing.beat = targetBeat;
         } else {
-          build.push({ ...item, order: build.length, stars: 0, beat: targetBeat, notes: "", keptAt: new Date().toISOString() });
+          build.push({ ...item, order: build.length, stars: stars(item), beat: targetBeat, notes: "", keptAt: new Date().toISOString() });
           normalizeOrder();
         }
         rememberPlacement(item.id, `placed in ${beatLabel(targetBeat)}`);
@@ -2165,7 +2557,7 @@
         const slot = sortedBuild().findIndex((candidate) => candidate.id === id) + 1;
         const message = `${delta < 0 ? "moved earlier" : "moved later"} -> slot ${String(slot).padStart(2, "0")}`;
         rememberPlacement(id, message);
-        currentIndex = Math.max(0, list.findIndex((candidate) => candidate.id === nowItem?.id));
+        currentIndex = Math.max(0, queueItems().findIndex((candidate) => candidate.id === nowItem?.id));
         save();
         render({ snap: false });
         status(`${item.title} ${message}`, 1800);
@@ -2193,7 +2585,7 @@
         const slotNumber = next + 1;
         const message = `${delta < 0 ? "moved earlier" : "moved later"} -> slot ${String(slotNumber).padStart(2, "0")}`;
         rememberPlacement(item.id, message);
-        currentIndex = Math.max(0, list.findIndex((candidate) => candidate.id === nowItem?.id));
+        currentIndex = Math.max(0, queueItems().findIndex((candidate) => candidate.id === nowItem?.id));
         save();
         render({ snap: false });
         status(`${item.title} ${message}`, 1800);
@@ -2214,7 +2606,7 @@
         const slot = sortedBuild().findIndex((candidate) => candidate.id === id) + 1;
         const message = `${to < from ? "moved earlier" : "moved later"} -> slot ${String(slot).padStart(2, "0")}`;
         rememberPlacement(id, message);
-        currentIndex = Math.max(0, list.findIndex((candidate) => candidate.id === nowItem?.id));
+        currentIndex = Math.max(0, queueItems().findIndex((candidate) => candidate.id === nowItem?.id));
         save();
         render({ snap: false });
         status(`${item.title} ${message}`, 1800);
@@ -2306,7 +2698,18 @@
       }
 
       function setCurrent(id, autoplay, origin = "keeps") {
-        const index = sortedBuild().findIndex((item) => item.id === id);
+        const item = build.find((candidate) => candidate.id === id);
+        if (origin === "beats" && item) {
+          const beat = beats.find((candidate) => candidate.id === (item.beat || "unassigned"));
+          setPlaybackScope("beat", beat?.id || "unassigned", beat?.label || "Unassigned");
+        } else {
+          setPlaybackScope("keeps", "view", "Keeps View");
+          if (!queueItems().some((candidate) => candidate.id === id)) {
+            keepRatingFilter = "all";
+            keepSort = "manual";
+          }
+        }
+        const index = queueItems().findIndex((candidate) => candidate.id === id);
         if (index < 0) return;
         currentIndex = index;
         playOrigin = origin;
@@ -2351,6 +2754,7 @@
           audio.src = src;
           audio.load();
         }
+        save();
         render();
         renderNow(item);
         snapNowPlaying({ force: true });
@@ -2369,8 +2773,10 @@
       }
 
       function next() {
-        const list = sortedBuild();
+        const list = queueItems();
         if (!list.length) return;
+        const liveIndex = list.findIndex((item) => item.id === nowItem?.id);
+        currentIndex = liveIndex >= 0 ? liveIndex : -1;
         if (shuffleEnabled && list.length > 1) {
           let nextIndex = currentIndex;
           while (nextIndex === currentIndex) nextIndex = Math.floor(Math.random() * list.length);
@@ -2383,14 +2789,15 @@
       }
 
       function prev() {
-        const list = sortedBuild();
+        const list = queueItems();
         if (!list.length) return;
         if (audio.currentTime > 3) {
           audio.currentTime = 0;
           renderNow();
           return;
         }
-        currentIndex = currentIndex > 0 ? currentIndex - 1 : list.length - 1;
+        const liveIndex = list.findIndex((item) => item.id === nowItem?.id);
+        currentIndex = liveIndex > 0 ? liveIndex - 1 : list.length - 1;
         nowItem = currentItem();
         loadCurrent(true);
       }
@@ -2568,6 +2975,9 @@
                       <div class="stars">${kept ? starText(kept) : ""}</div>
                     </div>
                     <div class="unit-meta">${escapeHtml(track.albumLabel)} / ${runtime(kept || track) === null ? "runtime --" : fmt(runtime(kept || track))}</div>
+                    <div class="rating-rail source-rating" aria-label="Remembered rating for ${escapeHtml(track.title)}">
+                      ${[1, 2, 3, 4, 5].map((value) => `<button class="star-btn ${value <= stars(kept || track) ? "on" : ""}" type="button" data-action="rate-star" data-track="${track.id}" data-rating="${value}" title="Remember ${value} stars" aria-label="Rate ${escapeHtml(track.title)} ${value} stars"><span>${value <= stars(kept || track) ? "★" : "☆"}</span></button>`).join("")}
+                    </div>
                     <div class="chips">
                       <span class="chip">${kept ? "Kept" : "Source"}</span>
                       ${kept ? `<span class="chip hot"><span>In Keeps</span></span>` : ""}
@@ -2591,9 +3001,38 @@
       }
 
       function renderBuild() {
-        const list = sortedBuild();
+        const list = visibleBuild();
+        const totalKeeps = sortedBuild().length;
+        const manualOrder = keepSort === "manual" && keepRatingFilter === "all";
         return h`
           ${grabBanner("keeps")}
+          <div class="compact-strip" aria-label="Keeps rating filter, sort, and playback">
+            <span class="strip-label">★ ${tracks.filter((track) => stars(track) > 0).length}</span>
+            ${[5, 4, 3, 2, 1].map((rating) => {
+              const count = ratingItems(rating).length;
+              if (!count) return "";
+              const active = playbackScope.type === "rating" && Number(playbackScope.value) === rating;
+              return `<button class="memory-pill ${active ? "active" : ""}" type="button" data-action="play-rating" data-rating="${rating}" title="Play all ${rating}★ songs" aria-label="Play all ${rating} star songs">${rating}★ ${count}</button>`;
+            }).join("")}
+            <select class="select" data-action="keep-rating-filter" aria-label="Filter Keeps by rating" title="Filter Keeps">
+              <option value="all" ${keepRatingFilter === "all" ? "selected" : ""}>Filter: all</option>
+              <option value="5" ${keepRatingFilter === "5" ? "selected" : ""}>Filter: 5★</option>
+              <option value="4" ${keepRatingFilter === "4" ? "selected" : ""}>Filter: 4★</option>
+              <option value="3" ${keepRatingFilter === "3" ? "selected" : ""}>Filter: 3★</option>
+              <option value="2" ${keepRatingFilter === "2" ? "selected" : ""}>Filter: 2★</option>
+              <option value="1" ${keepRatingFilter === "1" ? "selected" : ""}>Filter: 1★</option>
+              <option value="0" ${keepRatingFilter === "0" ? "selected" : ""}>Filter: unrated</option>
+            </select>
+            <select class="select" data-action="keep-sort" aria-label="Sort Keeps" title="Sort Keeps">
+              <option value="manual" ${keepSort === "manual" ? "selected" : ""}>Sort: manual</option>
+              <option value="rating-desc" ${keepSort === "rating-desc" ? "selected" : ""}>Sort: ★ high</option>
+              <option value="rating-asc" ${keepSort === "rating-asc" ? "selected" : ""}>Sort: ★ low</option>
+              <option value="recent" ${keepSort === "recent" ? "selected" : ""}>Sort: recent</option>
+              <option value="title" ${keepSort === "title" ? "selected" : ""}>Sort: title</option>
+              <option value="album" ${keepSort === "album" ? "selected" : ""}>Sort: album</option>
+            </select>
+            <button class="mini primary" type="button" data-action="play-keeps-view" ${list.length ? "" : "disabled"} title="Play current filtered view">▶ ${list.length}</button>
+          </div>
           <div class="toolbar">
             <div class="toolbar-title">
               <span>Target Beat</span>
@@ -2606,15 +3045,15 @@
           <div class="socket-zone ${snapClass("keep:intake")}" data-drop-keep="end">
             <div class="socket-label"><span>Drop song blocks here</span><span>Songs -> Keeps</span></div>
           </div>
-          ${list.length ? "" : `<div class="empty">No kept songs yet. Add one song, drop a song block, or keep the whole album.</div>`}
+          ${list.length ? "" : `<div class="empty">${totalKeeps ? "No keeps match this rating filter." : "No kept songs yet. Add one song, drop a song block, or keep the whole album."}</div>`}
           ${list.map((item, index) => {
             const playing = nowItem?.id === item.id && !!audio.src;
             const moveClass = lastMove.id === item.id ? `moved-${lastMove.direction}` : "";
             const itemId = escapeHtml(item.id);
             return h`
           <div class="slot-row ${playing ? "now-slot" : ""} ${heldClass("keep", item.id)}" data-slot-track="${itemId}" data-drop-track="${itemId}">
-            <button class="slot-num" type="button" data-action="slot-target" data-track="${itemId}">${String(index + 1).padStart(2, "0")}</button>
-            <article class="unit ${index === currentIndex ? "active" : ""} ${playing ? "now-playing" : ""} ${moveClass} ${snapClass(`keep:${item.id}`)} ${heldClass("keep", item.id)}" data-keep-id="${itemId}" data-drop-track="${itemId}">
+            <button class="slot-num" type="button" data-action="${manualOrder ? "slot-target" : "play-build"}" data-context="keeps" data-track="${itemId}" aria-label="${manualOrder ? `Place at slot ${index + 1}` : `Play ${escapeHtml(item.title)}`}">${String(index + 1).padStart(2, "0")}</button>
+            <article class="unit ${nowItem?.id === item.id ? "active" : ""} ${playing ? "now-playing" : ""} ${moveClass} ${snapClass(`keep:${item.id}`)} ${heldClass("keep", item.id)}" data-keep-id="${itemId}" data-drop-track="${itemId}">
             <div class="unit-body">
               <div class="song-shell">
                 <div class="thumb">${artHtml(item)}</div>
@@ -2637,25 +3076,25 @@
                   </div>
                 </div>
               </div>
-              <div class="move-rail">
+              ${manualOrder ? `<div class="move-rail">
                 <button class="mini move-btn" type="button" data-action="move-slot-earlier" data-slot="${index}" data-track="${itemId}" aria-label="Move slot ${index + 1} earlier"><span class="move-icon">↑</span><span class="move-word">Earlier</span></button>
                 <button class="drag-handle" type="button" draggable="true" data-action="grab-keep" data-track="${itemId}" data-drag-track="${itemId}" aria-label="Grab block for movement">${heldPayload?.kind === "keep" && heldPayload?.id === item.id ? "Grabbed" : "Grab"}</button>
                 <button class="mini move-btn" type="button" data-action="move-slot-later" data-slot="${index}" data-track="${itemId}" aria-label="Move slot ${index + 1} later"><span class="move-icon">↓</span><span class="move-word">Later</span></button>
-              </div>
+              </div>` : `<div class="hint">Filtered/sorted view — switch to All + Manual to rearrange</div>`}
               <div class="unit-ops media-ops">
                 <button class="mini play-control ${playing ? "is-playing" : ""}" type="button" data-action="play-build" data-context="keeps" data-track="${itemId}">${playing && !audio.paused ? "Pause" : "Play"}</button>
                 <button class="mini" type="button" data-action="assign-active" data-track="${itemId}">Beat</button>
                 <button class="mini" type="button" data-action="confirm-cut" data-track="${itemId}">Cut</button>
               </div>
-              <div class="unit-ops">
+              <div class="score-dock" aria-label="Beat and rating for ${escapeHtml(item.title)}">
                 <select class="select" data-action="assign-beat" data-track="${itemId}" aria-label="Beat for ${escapeHtml(item.title)}">
                   ${beats.map((beat) => `<option value="${beat.id}" ${beat.id === item.beat ? "selected" : ""}>${escapeHtml(beat.label)}</option>`).join("")}
                 </select>
                 <div class="rating-rail" aria-label="Rating for ${escapeHtml(item.title)}">
                   ${[1, 2, 3, 4, 5].map((value) => `<button class="star-btn ${value <= stars(item) ? "on" : ""}" type="button" data-action="rate-star" data-track="${itemId}" data-rating="${value}" title="${value} stars" aria-label="Rate ${escapeHtml(item.title)} ${value} stars"><span>${value <= stars(item) ? "★" : "☆"}</span></button>`).join("")}
                 </div>
-                <input class="note-input" data-action="note" data-track="${itemId}" placeholder="Cue note" value="${escapeHtml(item.notes || "")}" aria-label="Cue note for ${escapeHtml(item.title)}" />
               </div>
+              <input class="note-input" data-action="note" data-track="${itemId}" placeholder="Cue note" value="${escapeHtml(item.notes || "")}" aria-label="Cue note for ${escapeHtml(item.title)}" />
               <button class="transclusion-row ${lastPlacement.id === item.id ? "hot" : ""}" type="button" data-action="reveal-track" data-track="${itemId}">← ${escapeHtml(placementText(item.id, "from songs"))}</button>
             </div>
           </article>
@@ -2677,16 +3116,45 @@
 
       function renderBeats() {
         const list = sortedBuild();
-        return grabBanner("beats") + beats.map((beat) => {
+        const currentBeat = beats.find((beat) => beat.id === activeBeat) || beats[0];
+        const currentAssigned = list.filter((item) => (item.beat || "unassigned") === currentBeat.id);
+        const currentTotal = currentAssigned.reduce((sum, item) => sum + (runtime(item) || 0), 0);
+        const desk = h`
+          ${grabBanner("beats")}
+          <div class="compact-strip" aria-label="Beat filter, playback, and definition">
+            <span class="strip-label">Beat</span>
+            <select class="select" data-action="beat-picker" aria-label="Choose active Beat" title="Choose Beat">
+              ${beats.map((beat) => `<option value="${beat.id}" ${beat.id === currentBeat.id ? "selected" : ""}>${escapeHtml(beat.label)} · ${list.filter((item) => (item.beat || "unassigned") === beat.id).length}</option>`).join("")}
+            </select>
+            <button class="mini primary" type="button" data-action="play-beat" data-beat="${currentBeat.id}" ${currentAssigned.length ? "" : "disabled"} title="Play this Beat queue">▶ ${currentAssigned.length}</button>
+            <button class="mini" type="button" data-action="add-current-beat" data-beat="${currentBeat.id}" title="Add now playing to this Beat">+ Now</button>
+            <details class="define-toggle">
+              <summary>Define</summary>
+              <div class="define-popover">
+                <label>Beat name
+                  <input data-action="beat-label" data-beat="${currentBeat.id}" value="${escapeHtml(currentBeat.label)}" maxlength="48" aria-label="Name for ${escapeHtml(currentBeat.id)}" />
+                </label>
+                <label>Target seconds
+                  <input type="number" min="0" max="7200" step="1" data-action="beat-target" data-beat="${currentBeat.id}" value="${currentBeat.target}" aria-label="Target seconds for ${escapeHtml(currentBeat.id)}" />
+                </label>
+                <div class="hint">${currentAssigned.length} songs · ${fmt(currentTotal)}${currentBeat.target ? ` / ${fmt(currentBeat.target)}` : ""} · saved automatically</div>
+              </div>
+            </details>
+          </div>
+        `;
+        return desk + beats.map((beat) => {
           const assigned = list.filter((item) => (item.beat || "unassigned") === beat.id);
           const total = assigned.reduce((sum, item) => sum + (runtime(item) || 0), 0);
           const delta = beat.target ? beat.target - total : 0;
           const status = beat.target ? (delta >= 0 ? `${fmt(delta)} open` : `${fmt(Math.abs(delta))} over`) : `${assigned.length} songs`;
           return h`
             <section class="beat ${beat.id === activeBeat ? "active" : ""} ${snapClass(`beat:${beat.id}`)}">
-              <div class="beat-head" data-action="select-beat" data-beat="${beat.id}">
-                <span class="beat-name">${escapeHtml(beat.label)}</span>
-                <span class="beat-stat">${beat.target ? `${fmt(total)} / ${fmt(beat.target)} / ${status}` : status}</span>
+              <div class="beat-head">
+                <button class="beat-select" type="button" data-action="select-beat" data-beat="${beat.id}">
+                  <span class="beat-name">${escapeHtml(beat.label)}</span>
+                  <span class="beat-stat">${beat.target ? `${fmt(total)} / ${fmt(beat.target)} / ${status}` : status}</span>
+                </button>
+                <button class="beat-play" type="button" data-action="play-beat" data-beat="${beat.id}" ${assigned.length ? "" : "disabled"} aria-label="Play ${escapeHtml(beat.label)}">▶ ${assigned.length}</button>
               </div>
               <div class="beat-body socket-zone" style="--beat-h:${beatHeight(beat.target)}px" data-drop-beat="${beat.id}">
                 <div class="socket-label"><span>${heldPayload ? "Click to place held block" : "Beat socket"}</span><span>${escapeHtml(status)}</span></div>
@@ -2695,7 +3163,7 @@
                     <span class="block-thumb">${artHtml(item)}</span>
                     <span class="block-copy">
                       <span class="block-title">${nowItem?.id === item.id && !audio.paused ? "▮▮ " : "▶ "}${escapeHtml(item.title)}</span>
-                      <span class="block-meta">${escapeHtml(item.albumLabel)} / from keeps / ${runtime(item) === null ? "runtime --" : fmt(runtime(item))} / ${starText(item)}${nowItem?.id === item.id && audio.src ? " / now playing" : ""}</span>
+                      <span class="block-meta">${escapeHtml(item.albumLabel)} / ${runtime(item) === null ? "runtime --" : fmt(runtime(item))} / ${starText(item)}</span>
                     </span>
                   </button>
                 `).join("") : `<div class="empty">No songs assigned.</div>`}
@@ -2707,17 +3175,21 @@
 
       function exportPayload() {
         return {
-          version: "all-time-project-v1",
+          version: "all-time-project-v2",
           title: "All-Time build",
           exportedAt: new Date().toISOString(),
           activeAlbum,
           activeBeat,
+          keepView: { rating: keepRatingFilter, sort: keepSort },
+          beatDefinitions: beats.map(({ id, label, target }) => ({ id, label, target })),
+          ratingMemory: Object.entries(ratingMemory).map(([id, entry]) => ({ id, stars: Number(entry.stars) || 0, updatedAt: entry.updatedAt || null })),
           playback: {
             nowItemId: nowItem?.id || currentItem()?.id || "",
             currentIndex,
             origin: playOrigin,
             autoplay: autoplayEnabled,
-            shuffle: shuffleEnabled
+            shuffle: shuffleEnabled,
+            scope: playbackScope
           },
           songs: sortedBuild().map((item, index) => ({
             id: item.id,
@@ -3435,8 +3907,8 @@
         els.workspace.innerHTML = [
           column("albums", "Albums", album ? album.label : "Choose source", renderAlbums()),
           column("songs", "Songs", album ? `${album.label} / ${sourceTracks().length} songs` : "No album", renderSongs()),
-          column("keeps", "Keeps", `${sortedBuild().length} kept`, renderBuild()),
-          column("beats", "Beats", `${beats.length} containers`, renderBeats()),
+          column("keeps", "Keeps", `${visibleBuild().length}/${sortedBuild().length} shown / ${tracks.filter((track) => stars(track) > 0).length} rated`, renderBuild()),
+          column("beats", "Beats", `${beats.length} playable queues / ${beatLabel(activeBeat)}`, renderBeats()),
           column("shares", "Exports", "Current / channels / data", renderShares())
         ].join("");
         renderNow();
@@ -3464,12 +3936,15 @@
         }
         const duration = currentDuration(item);
         const inBuild = sortedBuild().findIndex((candidate) => candidate.id === item.id);
-        const position = inBuild >= 0 ? `${String(inBuild + 1).padStart(2, "0")}/${sortedBuild().length}` : "source";
+        const queue = queueItems();
+        const queueIndex = queue.findIndex((candidate) => candidate.id === item.id);
+        const position = playOrigin === "source" || queueIndex < 0 ? "source" : `${String(queueIndex + 1).padStart(2, "0")}/${queue.length}`;
         const playing = !audio.paused && !!audio.src;
-        els.state.textContent = playing ? `Playing ${originLabel()} ${position}` : audio.src ? `Paused ${originLabel()} ${position}` : `Ready ${originLabel()} ${position}`;
+        const queueName = playOrigin === "source" ? "Album" : playbackScope.label;
+        els.state.textContent = playing ? `Playing ${queueName} ${position}` : audio.src ? `Paused ${queueName} ${position}` : `Ready ${queueName} ${position}`;
         els.time.textContent = audio.src ? `${fmt(audio.currentTime)} / ${fmt(duration)}` : duration === null ? "runtime --" : fmt(duration);
         els.title.textContent = item.title;
-        els.meta.textContent = `${item.albumLabel} / ${beatLabel(item.beat || activeBeat)} / ${inBuild >= 0 ? `${stars(item)}/5` : "source"} / from ${originLabel()}`;
+        els.meta.textContent = `${item.albumLabel} / ${beatLabel(item.beat || activeBeat)} / ${stars(item)}/5 remembered / ${queueName}`;
         els.play.textContent = playing ? "▮▮ Pause" : audio.src ? "▶ Resume" : "▶ Play";
         els.autoplay.classList.toggle("on", autoplayEnabled);
         els.autoplay.textContent = autoplayEnabled ? "Autoplay On" : "Autoplay";
@@ -3555,15 +4030,37 @@
       function importPayload(payload) {
         const importedSongs = Array.isArray(payload?.songs) ? payload.songs : Array.isArray(payload?.keeps) ? payload.keeps : [];
         const playback = payload?.playback || {};
+        if (Array.isArray(payload?.ratingMemory)) {
+          payload.ratingMemory.forEach((entry) => {
+            const base = findTrackByAnyId(entry.id);
+            if (!base) return;
+            ratingMemory[base.id] = {
+              stars: Math.max(0, Math.min(5, Number(entry.stars) || 0)),
+              updatedAt: entry.updatedAt || new Date().toISOString()
+            };
+          });
+        }
+        if (Array.isArray(payload?.beatDefinitions)) {
+          beats = DEFAULT_BEATS.map((fallback) => {
+            const incoming = payload.beatDefinitions.find((beat) => beat.id === fallback.id);
+            return incoming ? {
+              id: fallback.id,
+              label: String(incoming.label || fallback.label).slice(0, 48),
+              target: Math.max(0, Math.min(7200, Number(incoming.target) || 0))
+            } : { ...fallback };
+          });
+        }
         const nextBuild = importedSongs.map((entry, index) => {
           const base = findTrackByAnyId(entry.id)
             || tracks.find((track) => entry.audio && track.audio === entry.audio)
             || tracks.find((track) => track.title === (entry.songName || entry.title) && (!entry.albumKey || track.albumKey === entry.albumKey));
           if (!base) return null;
+          const importedRating = Math.max(0, Math.min(5, Number(entry.rating ?? entry.stars) || 0));
+          if (importedRating && !ratingMemory[base.id]) ratingMemory[base.id] = { stars: importedRating, updatedAt: new Date().toISOString() };
           return {
             ...base,
             order: Number.isFinite(Number(entry.order)) ? Number(entry.order) - 1 : index,
-            stars: Number.isFinite(Number(entry.rating ?? entry.stars)) ? Number(entry.rating ?? entry.stars) : 0,
+            stars: stars(base) || importedRating,
             beat: typeof entry.beat === "string" ? entry.beat : "unassigned",
             runtime: Number.isFinite(Number(entry.durationSeconds ?? entry.runtime)) ? Number(entry.durationSeconds ?? entry.runtime) : base.runtime,
             notes: typeof entry.notes === "string" ? entry.notes : ""
@@ -3574,9 +4071,14 @@
         normalizeOrder();
         activeAlbum = payload.activeAlbum && albums.some((album) => album.key === payload.activeAlbum) ? payload.activeAlbum : build[0].albumKey;
         activeBeat = payload.activeBeat || activeBeat;
+        if (payload.keepView) {
+          if (["all", "0", "1", "2", "3", "4", "5"].includes(String(payload.keepView.rating))) keepRatingFilter = String(payload.keepView.rating);
+          if (["manual", "rating-desc", "rating-asc", "recent", "title", "album"].includes(payload.keepView.sort)) keepSort = payload.keepView.sort;
+        }
         autoplayEnabled = typeof playback.autoplay === "boolean" ? playback.autoplay : autoplayEnabled;
         shuffleEnabled = typeof playback.shuffle === "boolean" ? playback.shuffle : shuffleEnabled;
-        const restoredIndex = playback.nowItemId ? sortedBuild().findIndex((item) => trackMatchesLegacyId(item, playback.nowItemId)) : -1;
+        if (playback.scope && ["keeps", "rating", "beat"].includes(playback.scope.type)) playbackScope = playback.scope;
+        const restoredIndex = playback.nowItemId ? queueItems().findIndex((item) => trackMatchesLegacyId(item, playback.nowItemId)) : -1;
         currentIndex = restoredIndex >= 0 ? restoredIndex : 0;
         nowItem = currentItem();
         playOrigin = playback.origin || "keeps";
@@ -3635,12 +4137,16 @@
         const actions = {
           "select-album": () => selectAlbum(control.dataset.album),
           "select-beat": () => selectBeat(control.dataset.beat),
+          "play-rating": () => playRating(control.dataset.rating),
+          "play-keeps-view": () => playKeepsView(),
+          "play-beat": () => playBeat(control.dataset.beat),
           "load-album": () => loadAlbum(),
           "keep-open-album": () => keepOpenAlbum(),
           "add-track": () => addTrack(track()),
           "add-to-active": () => addTrack(track(), activeBeat),
           "add-current": () => addCurrentItem(),
           "add-current-active": () => addCurrentItemToActiveBeat(),
+          "add-current-beat": () => addCurrentItemToBeat(control.dataset.beat),
           "beat-source": () => beatSource(control.dataset.track),
           "play-source": () => toggleSource(control.dataset.track),
           "play-build": () => toggleBuild(control.dataset.track, control.dataset.context || "keeps"),
@@ -3696,6 +4202,7 @@
       els.workspace.addEventListener("click", (event) => {
         const control = event.target.closest("[data-action]");
         if (control && els.workspace.contains(control)) {
+          if (control.matches("select, input, textarea")) return;
           event.preventDefault();
           event.stopPropagation();
           runAction(control);
@@ -3857,6 +4364,11 @@
         const action = control.dataset.action;
         if (action === "assign-beat") assignBeat(control.dataset.track, control.value);
         if (action === "note") setNote(control.dataset.track, control.value);
+        if (action === "keep-rating-filter") setKeepRatingFilter(control.value);
+        if (action === "keep-sort") setKeepSort(control.value);
+        if (action === "beat-picker") selectBeat(control.value);
+        if (action === "beat-label") setBeatDefinition(control.dataset.beat, "label", control.value);
+        if (action === "beat-target") setBeatDefinition(control.dataset.beat, "target", control.value);
       });
 
       els.workspace.addEventListener("input", (event) => {

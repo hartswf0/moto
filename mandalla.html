@@ -2036,6 +2036,24 @@
                     "Polliwog Station - Wet Boots Drag - Treblo.ogg"
                 ]
             },
+            lastweekaugust: {
+                key: 'lastweekaugust',
+                label: 'LAST WEEK OF AUGUST',
+                shortLabel: 'AUGUST',
+                libraryParam: 'lastweekaugust',
+                op2Pair: 'polliwog',
+                basePath: 'THE LAST WEEK OF AUGUST/',
+                files: [
+                    "Last Week of August - Clean the Words - Treblo.ogg",
+                    "Last Week of August - Flinch at the Machine - Treblo.ogg",
+                    "Last Week of August - Human in the Loop - Treblo.ogg",
+                    "Last Week of August - Leave the Breath In - Treblo.ogg",
+                    "Last Week of August - Render Beach - Treblo.ogg",
+                    "Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+                    "Last Week of August - Static and Surf - Treblo.ogg",
+                    "Last Week of August - Sterile Tongues - Treblo.ogg"
+                ]
+            },
             sunfadedghosts: {
                 key: 'sunfadedghosts',
                 label: 'SUN-FADED GHOSTS',
@@ -2842,6 +2860,7 @@
                 .replace(/^in the middle\s*-\s*/i, '')
                 .replace(/^marea memory\s*-\s*/i, '')
                 .replace(/^polliwog station\s*-\s*/i, '')
+                .replace(/^last week of august\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^sun-faded ghosts?\s*-\s*/i, '')
                 .replace(/^empty are the fields\s*-\s*/i, '')
@@ -2898,6 +2917,7 @@
             if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
             if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
             if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
+            if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
             if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
             if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
             if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

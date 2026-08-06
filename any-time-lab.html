@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Any-Time Lab: search the MOTO archive, audition evidence, and build reversible DJ sets." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Any-Time Lab</title>
+  <link rel="stylesheet" href="./any-time-lab.css" />
+  <script src="./VOLHOLLA/all-time-manifest.js" defer></script>
+  <script src="./VOLHOLLA/any-time-intelligence.js" defer></script>
+  <script src="./any-time-lab.js" defer></script>
+</head>
+<body>
+  <main class="app" aria-label="Any-Time set laboratory">
+    <section class="player" id="player" aria-label="Current track">
+      <a class="now-art" id="now-art-link" href="./any-time.html" aria-label="Open original Any-Time">
+        <span class="art-mark">AT</span>
+        <img id="now-art" alt="" hidden />
+        <span class="art-label">LAB</span>
+      </a>
+
+      <div class="deck">
+        <div class="deck-top">
+          <a class="hub" href="./index.html">MOTO / ANY-TIME</a>
+          <span class="context" id="context-readout">LIBRARY / 1,165</span>
+          <button class="top-tool" id="add-current" type="button" title="Add current track" aria-label="Add current track">+</button>
+          <button class="top-tool" id="undo" type="button" title="Undo set edit" aria-label="Undo set edit" disabled>↶</button>
+          <a class="top-tool classic-link" href="./any-time.html">CLASSIC</a>
+        </div>
+
+        <div class="now">
+          <div class="now-copy">
+            <span class="state" id="player-state">READY</span>
+            <h1 id="now-title">ANY-TIME LAB</h1>
+            <p id="now-meta">SEARCH / AUDITION / BUILD</p>
+          </div>
+          <button class="inspect-current" id="inspect-current" type="button" title="Inspect current track" aria-label="Inspect current track" disabled>…</button>
+        </div>
+
+        <div class="scrub">
+          <span id="elapsed">0:00</span>
+          <input id="seek" type="range" min="0" max="1000" value="0" step="1" disabled aria-label="Seek through current track" />
+          <span id="duration">--:--</span>
+        </div>
+
+        <div class="transport">
+          <button id="previous" type="button" title="Previous track" aria-label="Previous track">←</button>
+          <button class="primary" id="play" type="button" aria-label="Play">▶ PLAY</button>
+          <button id="next" type="button" title="Next track" aria-label="Next track">→</button>
+          <button id="play-set" type="button">PLAY SET</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="thinking" aria-label="Search and filter controls">
+      <div class="query-line">
+        <div class="modes" role="group" aria-label="Search mode">
+          <button class="mode active" type="button" data-mode="all" aria-pressed="true">ALL</button>
+          <button class="mode" type="button" data-mode="words" aria-pressed="false">WORDS</button>
+          <button class="mode" type="button" data-mode="themes" aria-pressed="false">THEME</button>
+          <button class="mode" type="button" data-mode="tempo" aria-pressed="false">TEMPO</button>
+          <button class="mode" type="button" data-mode="genre" aria-pressed="false">GENRE</button>
+        </div>
+        <label class="search-box" for="search">
+          <span aria-hidden="true">⌕</span>
+          <input id="search" type="search" autocomplete="off" spellcheck="false" placeholder="SEARCH TITLE, ALBUM, SIGNAL, OR LYRICS" />
+          <button id="clear-search" type="button" title="Clear search" aria-label="Clear search">×</button>
+        </label>
+        <button class="coverage" id="coverage" type="button">INDEX 1,165 / BPM 121 / WORDS 82</button>
+      </div>
+
+      <div class="filters" aria-label="Library filters">
+        <select id="album-filter" aria-label="Filter by album"><option value="">ALL ALBUMS</option></select>
+        <select id="genre-filter" aria-label="Filter by genre signal"><option value="">ALL GENRE SIGNALS</option></select>
+        <select id="vocal-filter" aria-label="Filter by voice status">
+          <option value="">ALL VOICE STATES</option>
+          <option value="lyrics-detected">LYRICS DETECTED</option>
+          <option value="likely-instrumental">LIKELY INSTRUMENTAL</option>
+          <option value="vocal-fragment">VOCAL / SAMPLE</option>
+          <option value="unknown">VOICE UNKNOWN</option>
+        </select>
+        <select id="theme-filter" aria-label="Filter by theme"><option value="">ALL THEMES</option></select>
+        <label class="bpm-field"><span>BPM</span><input id="bpm-min" type="number" min="40" max="220" step="1" placeholder="MIN" aria-label="Minimum BPM" /></label>
+        <label class="bpm-field"><span>TO</span><input id="bpm-max" type="number" min="40" max="220" step="1" placeholder="MAX" aria-label="Maximum BPM" /></label>
+        <select id="sort" aria-label="Sort results">
+          <option value="relevance">RELEVANCE</option>
+          <option value="bpm-up">BPM LOW → HIGH</option>
+          <option value="bpm-down">BPM HIGH → LOW</option>
+          <option value="energy">ENERGY HIGH → LOW</option>
+          <option value="album">ALBUM</option>
+          <option value="title">TITLE</option>
+        </select>
+        <button id="reset-filters" type="button" title="Reset filters" aria-label="Reset filters">RESET</button>
+      </div>
+    </section>
+
+    <nav class="mobile-tabs" aria-label="Workspace views">
+      <button class="active" type="button" data-mobile-panel="discover" aria-pressed="true">DISCOVER</button>
+      <button type="button" data-mobile-panel="set" aria-pressed="false">SET <span id="mobile-set-count">0</span></button>
+    </nav>
+
+    <section class="workspace">
+      <section class="column mobile-active" data-panel="discover" aria-labelledby="results-heading">
+        <header class="column-head">
+          <div>
+            <span class="column-kicker" id="result-scope">ALL FIELDS</span>
+            <h2 id="results-heading">DISCOVER</h2>
+          </div>
+          <output id="result-count">0 / 1,111</output>
+        </header>
+        <ol class="column-scroll result-list" id="results"></ol>
+        <button class="load-more" id="load-more" type="button" hidden>SHOW MORE</button>
+      </section>
+
+      <section class="column set-column" data-panel="set" aria-labelledby="set-heading">
+        <header class="column-head set-head">
+          <div>
+            <span class="column-kicker" id="set-runtime">0:00 / EMPTY</span>
+            <h2 id="set-heading">CURRENT SET</h2>
+          </div>
+          <span class="head-actions">
+            <button id="export-set" type="button">EXPORT</button>
+            <button id="clear-set" type="button">CLEAR</button>
+          </span>
+        </header>
+
+        <section class="set-diagnostics" aria-label="Set diagnostics">
+          <div class="metric"><span>TRACKS</span><strong id="metric-tracks">0</strong></div>
+          <div class="metric"><span>BPM</span><strong id="metric-bpm">—</strong></div>
+          <div class="metric"><span>VOICE</span><strong id="metric-voice">—</strong></div>
+          <div class="metric"><span>FLAGS</span><strong id="metric-flags">0</strong></div>
+          <div class="energy-arc" id="energy-arc" aria-label="Set energy arc"></div>
+        </section>
+
+        <ol class="column-scroll set-list" id="set-list"></ol>
+      </section>
+    </section>
+
+    <footer class="status-bar">
+      <span id="status">READY</span>
+      <span id="coverage-readout">TITLE 1,111 / BPM 121 / WORDS 82</span>
+    </footer>
+  </main>
+
+  <audio id="audio" preload="metadata"></audio>
+
+  <dialog class="detail-dialog" id="detail-dialog" aria-labelledby="detail-title">
+    <article class="detail-sheet">
+      <header class="detail-head">
+        <span>TRACK EVIDENCE</span>
+        <button id="detail-close" type="button" title="Close" aria-label="Close">×</button>
+      </header>
+      <section class="detail-current">
+        <img id="detail-art" alt="" width="320" height="320" />
+        <div>
+          <span class="detail-state" id="detail-state">INDEXED</span>
+          <h2 id="detail-title">TRACK</h2>
+          <p id="detail-album">ALBUM</p>
+          <div class="detail-actions">
+            <button class="primary" id="detail-play" type="button">▶ PLAY</button>
+            <button id="detail-add" type="button">+ ADD</button>
+            <a id="detail-source">SOURCE</a>
+          </div>
+        </div>
+      </section>
+      <dl class="detail-metrics" id="detail-metrics"></dl>
+      <section class="evidence-section">
+        <header><h3>MATCH EVIDENCE</h3><span id="detail-confidence">VISIBLE FIELDS</span></header>
+        <div class="evidence-list" id="detail-evidence"></div>
+      </section>
+      <section class="transcript-section">
+        <header><h3>TRANSCRIPT DRAFT</h3><span id="transcript-state">NOT INDEXED</span></header>
+        <pre id="transcript-copy">No transcript indexed.</pre>
+      </section>
+      <section class="related-section">
+        <header><h3>RELATED TRACKS</h3><span>LIVE NEIGHBORS</span></header>
+        <div id="related-tracks"></div>
+      </section>
+    </article>
+  </dialog>
+</body>
+</html>

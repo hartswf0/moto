@@ -1405,6 +1405,7 @@
     .replace(/^in the middle\s*-\s*/i, "")
     .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^polliwog station\s*-\s*/i, "")
+    .replace(/^last week of august\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
         .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
@@ -3614,6 +3615,37 @@
         ]
       },
       {
+        key: "lastweekaugust",
+        label: "LAST WEEK OF AUGUST",
+        pageSlug: "last-week-of-august",
+        description: "Backlot radio / rendered surf / human-loop transmissions",
+        accentA: "#ed3f70",
+        accentB: "#8fa63f",
+        coverImage: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+        defaultTrackArt: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+        trackArtByIndex: {
+          0: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+          1: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+          2: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+          3: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+          4: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+          5: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+          6: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+          7: "../THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png"
+        },
+        basePath: "../THE LAST WEEK OF AUGUST/",
+        files: [
+          "Last Week of August - Clean the Words - Treblo.ogg",
+          "Last Week of August - Flinch at the Machine - Treblo.ogg",
+          "Last Week of August - Human in the Loop - Treblo.ogg",
+          "Last Week of August - Leave the Breath In - Treblo.ogg",
+          "Last Week of August - Render Beach - Treblo.ogg",
+          "Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+          "Last Week of August - Static and Surf - Treblo.ogg",
+          "Last Week of August - Sterile Tongues - Treblo.ogg"
+        ]
+      },
+      {
         key: "blackwater",
         label: "BLACK WATER RUN",
         pageSlug: "black-water-run",
@@ -3877,6 +3909,8 @@
             ? "mareamemory"
           : requestedRaw === "polliwog" || requestedRaw === "polliwogstation" || requestedRaw === "polliwog-station" || requestedRaw === "polliwog_station" || requestedRaw === "polliwog station" || requestedRaw === "frogstation"
             ? "polliwog"
+          : requestedRaw === "lastweekaugust" || requestedRaw === "lastweek" || requestedRaw === "august" || requestedRaw === "last-week-of-august" || requestedRaw === "last_week_of_august" || requestedRaw === "last week of august" || requestedRaw === "lwoa"
+            ? "lastweekaugust"
           : requestedRaw === "middle" || requestedRaw === "inthemiddle" || requestedRaw === "in-the-middle" || requestedRaw === "in_the_middle" || requestedRaw === "in the middle" || requestedRaw === "itm"
             ? "inthemiddle"
           : requestedRaw;

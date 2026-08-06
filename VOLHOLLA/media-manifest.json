@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T17:41:15.471Z",
+  "generatedAt": "2026-08-06T05:11:55.327Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -25260,6 +25260,565 @@
                 "bytes": 180497,
                 "bitrate": "48k",
                 "previewSeconds": 30
+              }
+            }
+          }
+        }
+      ]
+    },
+    "lastweekaugust": {
+      "key": "lastweekaugust",
+      "label": "LAST WEEK OF AUGUST",
+      "subtitle": "Backlot radio / rendered surf / human-loop transmissions",
+      "pageSlug": "last-week-of-august",
+      "hallKey": "lastweekaugust",
+      "op2Key": "lastweekaugust",
+      "op2Pair": "polliwog",
+      "accentA": "#ed3f70",
+      "accentB": "#8fa63f",
+      "cover": {
+        "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.jpg",
+            "webpBytes": 78734,
+            "jpegBytes": 120316,
+            "webpQuality": 53,
+            "jpegQScale": 10
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.jpg",
+            "webpBytes": 379596,
+            "jpegBytes": 470586,
+            "webpQuality": 50,
+            "jpegQScale": 8
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.jpg",
+            "webpBytes": 127954,
+            "jpegBytes": 206624,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.jpg",
+            "webpBytes": 80356,
+            "jpegBytes": 112589,
+            "webpQuality": 53,
+            "jpegQScale": 8
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.jpg",
+            "webpBytes": 368062,
+            "jpegBytes": 494769,
+            "webpQuality": 55,
+            "jpegQScale": 6
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.jpg",
+            "webpBytes": 109058,
+            "jpegBytes": 169584,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Clean the Words",
+          "file": "Last Week of August - Clean the Words - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-01.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo.ogg",
+            "durationSeconds": 161.292313,
+            "sourceBitRate": 100815,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--stream.mp3",
+                "bytes": 2581776,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--fallback.mp3",
+                "bytes": 1290909,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.jpg",
+                "webpBytes": 78734,
+                "jpegBytes": 120316,
+                "webpQuality": 53,
+                "jpegQScale": 10
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.jpg",
+                "webpBytes": 379596,
+                "jpegBytes": 470586,
+                "webpQuality": 50,
+                "jpegQScale": 8
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.jpg",
+                "webpBytes": 127954,
+                "jpegBytes": 206624,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Flinch at the Machine",
+          "file": "Last Week of August - Flinch at the Machine - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-02.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo.ogg",
+            "durationSeconds": 193.893125,
+            "sourceBitRate": 96049,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--stream.mp3",
+                "bytes": 3103390,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--fallback.mp3",
+                "bytes": 1551716,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.jpg",
+                "webpBytes": 80356,
+                "jpegBytes": 112589,
+                "webpQuality": 53,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.jpg",
+                "webpBytes": 368062,
+                "jpegBytes": 494769,
+                "webpQuality": 55,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.jpg",
+                "webpBytes": 109058,
+                "jpegBytes": 169584,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Human in the Loop",
+          "file": "Last Week of August - Human in the Loop - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-03.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo.ogg",
+            "durationSeconds": 224.589917,
+            "sourceBitRate": 97476,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--stream.mp3",
+                "bytes": 3594492,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--fallback.mp3",
+                "bytes": 1797267,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--thumb.jpg",
+                "webpBytes": 77490,
+                "jpegBytes": 121711,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--cover.jpg",
+                "webpBytes": 261372,
+                "jpegBytes": 450986,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--share.jpg",
+                "webpBytes": 73382,
+                "jpegBytes": 146711,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Leave the Breath In",
+          "file": "Last Week of August - Leave the Breath In - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-04.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo.ogg",
+            "durationSeconds": 217.949,
+            "sourceBitRate": 95371,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--stream.mp3",
+                "bytes": 3488330,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--fallback.mp3",
+                "bytes": 1744186,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.jpg",
+                "webpBytes": 78734,
+                "jpegBytes": 120316,
+                "webpQuality": 53,
+                "jpegQScale": 10
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.jpg",
+                "webpBytes": 379596,
+                "jpegBytes": 470586,
+                "webpQuality": 50,
+                "jpegQScale": 8
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.jpg",
+                "webpBytes": 127954,
+                "jpegBytes": 206624,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Render Beach",
+          "file": "Last Week of August - Render Beach - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-05.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo.ogg",
+            "durationSeconds": 197.933396,
+            "sourceBitRate": 100230,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--stream.mp3",
+                "bytes": 3167755,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--fallback.mp3",
+                "bytes": 1583899,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.jpg",
+                "webpBytes": 80356,
+                "jpegBytes": 112589,
+                "webpQuality": 53,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.jpg",
+                "webpBytes": 368062,
+                "jpegBytes": 494769,
+                "webpQuality": 55,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.jpg",
+                "webpBytes": 109058,
+                "jpegBytes": 169584,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Reverb on the Dashboard",
+          "file": "Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-06.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+            "durationSeconds": 136.864917,
+            "sourceBitRate": 98320,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--stream.mp3",
+                "bytes": 2190985,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--fallback.mp3",
+                "bytes": 1095514,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--thumb.jpg",
+                "webpBytes": 77490,
+                "jpegBytes": 121711,
+                "webpQuality": 73,
+                "jpegQScale": 6
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--cover.jpg",
+                "webpBytes": 261372,
+                "jpegBytes": 450986,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_10 AM--share.jpg",
+                "webpBytes": 73382,
+                "jpegBytes": 146711,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Static and Surf",
+          "file": "Last Week of August - Static and Surf - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-07.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo.ogg",
+            "durationSeconds": 172.019938,
+            "sourceBitRate": 100660,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--stream.mp3",
+                "bytes": 2753140,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--fallback.mp3",
+                "bytes": 1376591,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--thumb.jpg",
+                "webpBytes": 78734,
+                "jpegBytes": 120316,
+                "webpQuality": 53,
+                "jpegQScale": 10
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--cover.jpg",
+                "webpBytes": 379596,
+                "jpegBytes": 470586,
+                "webpQuality": 50,
+                "jpegQScale": 8
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 12_59_45 AM--share.jpg",
+                "webpBytes": 127954,
+                "jpegBytes": 206624,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Sterile Tongues",
+          "file": "Last Week of August - Sterile Tongues - Treblo.ogg",
+          "source": "THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-lastweekaugust-08.html",
+          "audio": {
+            "source": "THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo.ogg",
+            "durationSeconds": 151.354167,
+            "sourceBitRate": 110012,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--stream.mp3",
+                "bytes": 2422534,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--fallback.mp3",
+                "bytes": 1211288,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--thumb.jpg",
+                "webpBytes": 80356,
+                "jpegBytes": 112589,
+                "webpQuality": 53,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--cover.jpg",
+                "webpBytes": 368062,
+                "jpegBytes": 494769,
+                "webpQuality": 55,
+                "jpegQScale": 6
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.jpg",
+                "webpBytes": 109058,
+                "jpegBytes": 169584,
+                "webpQuality": 76,
+                "jpegQScale": 5
               }
             }
           }

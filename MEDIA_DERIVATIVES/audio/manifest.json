@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T17:30:03.451Z",
+  "generatedAt": "2026-08-06T05:09:57.772Z",
   "outputRoot": "MEDIA_DERIVATIVES/audio",
   "profiles": {
     "stream": {
@@ -5989,6 +5989,206 @@
         },
         "preview": {
           "mp3": "MEDIA_DERIVATIVES/audio/POLIWOG STATION/Polliwog Station - Wet Boots Drag - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo.ogg",
+      "durationSeconds": 161.292313,
+      "sourceBitRate": 100815,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--stream.mp3",
+          "bytes": 2581776,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--fallback.mp3",
+          "bytes": 1290909,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Clean the Words - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo.ogg",
+      "durationSeconds": 193.893125,
+      "sourceBitRate": 96049,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--stream.mp3",
+          "bytes": 3103390,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--fallback.mp3",
+          "bytes": 1551716,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Flinch at the Machine - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo.ogg",
+      "durationSeconds": 224.589917,
+      "sourceBitRate": 97476,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--stream.mp3",
+          "bytes": 3594492,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--fallback.mp3",
+          "bytes": 1797267,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Human in the Loop - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo.ogg",
+      "durationSeconds": 217.949,
+      "sourceBitRate": 95371,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--stream.mp3",
+          "bytes": 3488330,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--fallback.mp3",
+          "bytes": 1744186,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Leave the Breath In - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo.ogg",
+      "durationSeconds": 197.933396,
+      "sourceBitRate": 100230,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--stream.mp3",
+          "bytes": 3167755,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--fallback.mp3",
+          "bytes": 1583899,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Render Beach - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+      "durationSeconds": 136.864917,
+      "sourceBitRate": 98320,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--stream.mp3",
+          "bytes": 2190985,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--fallback.mp3",
+          "bytes": 1095514,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Reverb on the Dashboard - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo.ogg",
+      "durationSeconds": 172.019938,
+      "sourceBitRate": 100660,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--stream.mp3",
+          "bytes": 2753140,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--fallback.mp3",
+          "bytes": 1376591,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Static and Surf - Treblo--preview.mp3",
+          "bytes": 180497,
+          "bitrate": "48k",
+          "previewSeconds": 30
+        }
+      }
+    },
+    "THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo.ogg": {
+      "source": "THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo.ogg",
+      "durationSeconds": 151.354167,
+      "sourceBitRate": 110012,
+      "derivatives": {
+        "stream": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--stream.mp3",
+          "bytes": 2422534,
+          "bitrate": "128k",
+          "previewSeconds": null
+        },
+        "fallback": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--fallback.mp3",
+          "bytes": 1211288,
+          "bitrate": "64k",
+          "previewSeconds": null
+        },
+        "preview": {
+          "mp3": "MEDIA_DERIVATIVES/audio/THE LAST WEEK OF AUGUST/Last Week of August - Sterile Tongues - Treblo--preview.mp3",
           "bytes": 180497,
           "bitrate": "48k",
           "previewSeconds": 30

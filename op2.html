@@ -1594,6 +1594,23 @@
                     "Polliwog Station - Wet Boots Drag - Treblo.ogg"
                 ]
             },
+            lastweekaugust: {
+                key: 'lastweekaugust',
+                label: 'LAST WEEK OF AUGUST',
+                short: 'AUGUST',
+                basePath: 'THE LAST WEEK OF AUGUST/',
+                logic: 'Backlot August Relay',
+                files: [
+                    "Last Week of August - Clean the Words - Treblo.ogg",
+                    "Last Week of August - Flinch at the Machine - Treblo.ogg",
+                    "Last Week of August - Human in the Loop - Treblo.ogg",
+                    "Last Week of August - Leave the Breath In - Treblo.ogg",
+                    "Last Week of August - Render Beach - Treblo.ogg",
+                    "Last Week of August - Reverb on the Dashboard - Treblo.ogg",
+                    "Last Week of August - Static and Surf - Treblo.ogg",
+                    "Last Week of August - Sterile Tongues - Treblo.ogg"
+                ]
+            },
             crossroads: {
                 key: 'crossroads',
                 label: 'CROSSROADS AND CROWN',
@@ -2299,6 +2316,7 @@
                 .replace(/^in the middle\s*-\s*/i, '')
                 .replace(/^marea memory\s*-\s*/i, '')
                 .replace(/^polliwog station\s*-\s*/i, '')
+                .replace(/^last week of august\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
@@ -2367,6 +2385,7 @@
             if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
             if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
             if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
+            if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
             if (v === 'river-bank-waiting' || v === 'river_bank_waiting' || v === 'rbw') return 'river';
             if (v === 'crossroads-and-crown' || v === 'crossroads_and_crown' || v === 'cac') return 'crossroads';
             if (v === 'solar-reveries' || v === 'solar_reveries' || v === 'solar') return 'solar';

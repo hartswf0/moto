@@ -283,6 +283,7 @@
         { key: 'inthemiddle', label: 'MID' },
         { key: 'mareamemory', label: 'MAREA' },
         { key: 'polliwog', label: 'FROG' },
+        { key: 'lastweekaugust', label: 'AUG' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -383,6 +384,8 @@
             ? 'mareamemory'
           : raw === 'polliwog' || raw === 'polliwogstation' || raw === 'polliwog-station' || raw === 'polliwog_station' || raw === 'polliwog station' || raw === 'frogstation'
             ? 'polliwog'
+          : raw === 'lastweekaugust' || raw === 'lastweek' || raw === 'august' || raw === 'last-week-of-august' || raw === 'last_week_of_august' || raw === 'last week of august' || raw === 'lwoa'
+            ? 'lastweekaugust'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'

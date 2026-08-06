@@ -553,6 +553,7 @@
     { key:'inthemiddle', label:'In The Middle' },
     { key:'mareamemory', label:'Marea Memory' },
     { key:'polliwog', label:'Polliwog Station' },
+    { key:'lastweekaugust', label:'Last Week of August' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -609,6 +610,8 @@
     { id:'it-mm', label:'In The Middle × Marea Memory', a:'inthemiddle', b:'mareamemory' },
     { id:'frog-river', label:'Polliwog Station × River Bank Waiting', a:'polliwog', b:'river' },
     { id:'river-frog', label:'River Bank Waiting × Polliwog Station', a:'river', b:'polliwog' },
+    { id:'aug-frog', label:'Last Week of August × Polliwog Station', a:'lastweekaugust', b:'polliwog' },
+    { id:'frog-aug', label:'Polliwog Station × Last Week of August', a:'polliwog', b:'lastweekaugust' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -661,6 +664,7 @@
     if (v === 'inthemiddle' || v === 'middle' || v === 'in-the-middle' || v === 'in_the_middle' || v === 'in the middle' || v === 'itm') return 'inthemiddle';
     if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
     if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
+    if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
     if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';
