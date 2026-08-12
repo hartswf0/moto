@@ -52,8 +52,10 @@ Static audio playground + shield jukebox for GitHub Pages.
 - `mareamemory`
 - `polliwog`
 - `lastweekaugust`
-- `southernnoise` (Side A)
-- `coatvectors` (Side B)
+- `southernnoise` — A Million Little Souls
+- `coatvectors` — Coat of Many 808s
+- `kudzucontact` — Kudzu Contact Gospel
+- `neonbutterfly` — Neon Butterfly Dreams
 
 ### Single Mandalla
 
@@ -88,7 +90,7 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, `mareamemory`, `polliwog`, `lastweekaugust`, `southernnoise`, and `coatvectors` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, `mareamemory`, `polliwog`, `lastweekaugust`, `southernnoise`, `coatvectors`, `kudzucontact`, and `neonbutterfly` currently use `.ogg`.
 
 ## Media Derivatives
 

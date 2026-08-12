@@ -554,8 +554,10 @@
     { key:'mareamemory', label:'Marea Memory' },
     { key:'polliwog', label:'Polliwog Station' },
     { key:'lastweekaugust', label:'Last Week of August' },
-    { key:'southernnoise', label:'Southern Noise Catharsis · Side A' },
-    { key:'coatvectors', label:'Coat of Many Vectors · Side B' },
+    { key:'southernnoise', label:'A Million Little Souls' },
+    { key:'coatvectors', label:'Coat of Many 808s' },
+    { key:'kudzucontact', label:'Kudzu Contact Gospel' },
+    { key:'neonbutterfly', label:'Neon Butterfly Dreams' },
     { key:'noservice', label:'No Service' },
     { key:'clinical', label:'Clinical' },
     { key:'concreto', label:'Concreto' },
@@ -614,8 +616,10 @@
     { id:'river-frog', label:'River Bank Waiting × Polliwog Station', a:'river', b:'polliwog' },
     { id:'aug-frog', label:'Last Week of August × Polliwog Station', a:'lastweekaugust', b:'polliwog' },
     { id:'frog-aug', label:'Polliwog Station × Last Week of August', a:'polliwog', b:'lastweekaugust' },
-    { id:'snc-vectors', label:'Southern Noise Catharsis × Coat of Many Vectors', a:'southernnoise', b:'coatvectors' },
-    { id:'vectors-snc', label:'Coat of Many Vectors × Southern Noise Catharsis', a:'coatvectors', b:'southernnoise' },
+    { id:'souls-808s', label:'A Million Little Souls × Coat of Many 808s', a:'southernnoise', b:'coatvectors' },
+    { id:'808s-souls', label:'Coat of Many 808s × A Million Little Souls', a:'coatvectors', b:'southernnoise' },
+    { id:'kudzu-neon', label:'Kudzu Contact Gospel × Neon Butterfly Dreams', a:'kudzucontact', b:'neonbutterfly' },
+    { id:'neon-kudzu', label:'Neon Butterfly Dreams × Kudzu Contact Gospel', a:'neonbutterfly', b:'kudzucontact' },
     { id:'ca-cl', label:'Cathedral × Clinical', a:'cathedral', b:'clinical' },
     { id:'th-gl', label:'Throne × Glass', a:'throne', b:'glass' },
     { id:'gl-ev', label:'Glass × Event', a:'glass', b:'event' },
@@ -669,8 +673,10 @@
     if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
     if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
     if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
-    if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'southern_noise_catharsis' || v === 'southern noise catharsis' || v === 'snc') return 'southernnoise';
-    if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat_of_many_vectors' || v === 'coat of many vectors' || v === 'comv') return 'coatvectors';
+    if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
+    if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
+    if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';
+    if (v === 'neonbutterfly' || v === 'neon' || v === 'butterfly' || v === 'neon-butterfly-dreams' || v === 'nbd') return 'neonbutterfly';
     if (v === 'sunfadedghosts' || v === 'sun-faded-ghosts' || v === 'sun_faded_ghosts' || v === 'sun faded ghosts' || v === 'sunfaded' || v === 'sfg') return 'sunfadedghosts';
     if (v === 'emptyfields' || v === 'empty' || v === 'empty-are-the-fields' || v === 'empty_are_the_fields' || v === 'empty are the fields' || v === 'eatf') return 'emptyfields';
     if (v === 'weedfield' || v === 'weed' || v === 'weed-choked-field' || v === 'weed_choked_field' || v === 'the weed-choked field' || v === 'the-weed-choked-field' || v === 'wcf') return 'weedfield';

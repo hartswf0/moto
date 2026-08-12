@@ -284,8 +284,10 @@
         { key: 'mareamemory', label: 'MAREA' },
         { key: 'polliwog', label: 'FROG' },
         { key: 'lastweekaugust', label: 'AUG' },
-        { key: 'southernnoise', label: 'SNC' },
-        { key: 'coatvectors', label: 'VECT' },
+        { key: 'southernnoise', label: 'SOULS' },
+        { key: 'coatvectors', label: '808S' },
+        { key: 'kudzucontact', label: 'KUDZU' },
+        { key: 'neonbutterfly', label: 'NEON' },
         { key: 'silence', label: '757' },
         { key: 'noservice', label: 'NOSVC' },
         { key: 'clinical', label: 'CLIN' },
@@ -392,6 +394,10 @@
             ? 'southernnoise'
           : raw === 'coatvectors' || raw === 'coat' || raw === 'vectors' || raw === 'coat-of-many-vectors' || raw === 'coat_of_many_vectors' || raw === 'coat of many vectors' || raw === 'comv'
             ? 'coatvectors'
+          : raw === 'kudzucontact' || raw === 'kudzu' || raw === 'kudzu-contact-gospel' || raw === 'kcg'
+            ? 'kudzucontact'
+          : raw === 'neonbutterfly' || raw === 'neon' || raw === 'butterfly' || raw === 'neon-butterfly-dreams' || raw === 'nbd'
+            ? 'neonbutterfly'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'sunfadedghosts' || raw === 'sun-faded-ghosts' || raw === 'sun_faded_ghosts' || raw === 'sun faded ghosts' || raw === 'sunfaded' || raw === 'sfg'
