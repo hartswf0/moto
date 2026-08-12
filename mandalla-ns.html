@@ -297,6 +297,8 @@
         { key: 'mareamemory', label: 'MAREA' },
         { key: 'polliwog', label: 'FROG' },
         { key: 'lastweekaugust', label: 'AUG' },
+        { key: 'southernnoise', label: 'SNC' },
+        { key: 'coatvectors', label: 'VECT' },
         { key: 'river', label: 'RIVER' },
         { key: 'volholla', label: 'VOL' }
       ];
@@ -403,6 +405,10 @@
             ? 'polliwog'
           : raw === 'lastweekaugust' || raw === 'lastweek' || raw === 'august' || raw === 'last-week-of-august' || raw === 'last_week_of_august' || raw === 'last week of august' || raw === 'lwoa'
             ? 'lastweekaugust'
+          : raw === 'southernnoise' || raw === 'southern' || raw === 'noise' || raw === 'catharsis' || raw === 'southern-noise-catharsis' || raw === 'southern_noise_catharsis' || raw === 'southern noise catharsis' || raw === 'snc'
+            ? 'southernnoise'
+          : raw === 'coatvectors' || raw === 'coat' || raw === 'vectors' || raw === 'coat-of-many-vectors' || raw === 'coat_of_many_vectors' || raw === 'coat of many vectors' || raw === 'comv'
+            ? 'coatvectors'
           : raw === 'inthemiddle' || raw === 'middle' || raw === 'in-the-middle' || raw === 'in_the_middle' || raw === 'in the middle' || raw === 'itm'
             ? 'inthemiddle'
           : raw === 'emptyfields' || raw === 'empty' || raw === 'empty-are-the-fields' || raw === 'empty_are_the_fields' || raw === 'empty are the fields' || raw === 'eatf'

@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-08-06T05:11:55.327Z",
+  "generatedAt": "2026-08-12T03:13:10.882Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -25817,6 +25817,4540 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
                 "jpeg": "MEDIA_DERIVATIVES/images/THE LAST WEEK OF AUGUST/ChatGPT Image Aug 6, 2026, 01_00_00 AM--share.jpg",
                 "webpBytes": 109058,
                 "jpegBytes": 169584,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "southernnoise": {
+      "key": "southernnoise",
+      "label": "SOUTHERN NOISE CATHARSIS",
+      "subtitle": "Side A · roadside gospel / Appalachian portals / human static",
+      "pageSlug": "southern-noise-catharsis",
+      "hallKey": "southernnoise",
+      "op2Key": "southernnoise",
+      "op2Pair": "coatvectors",
+      "accentA": "#ef3f88",
+      "accentB": "#a4d63f",
+      "cover": {
+        "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+            "webpBytes": 56520,
+            "jpegBytes": 93310,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+            "webpBytes": 180774,
+            "jpegBytes": 278937,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+            "webpBytes": 48454,
+            "jpegBytes": 86557,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+            "webpBytes": 47038,
+            "jpegBytes": 77727,
+            "webpQuality": 78,
+            "jpegQScale": 4
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+            "webpBytes": 157980,
+            "jpegBytes": 239479,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+            "webpBytes": 41588,
+            "jpegBytes": 71970,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Admission to the Glow",
+          "file": "Southern Noise Catharsis - Admission to the Glow - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Admission to the Glow - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-01.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Admission to the Glow - Treblo.ogg",
+            "durationSeconds": 175.967333,
+            "sourceBitRate": 94973,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Admission to the Glow - Treblo--stream.mp3",
+                "bytes": 2816670,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Admission to the Glow - Treblo--fallback.mp3",
+                "bytes": 1408356,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Admission to the Glow - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Ain't Nobody Quite the Same",
+          "file": "Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-02.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo.ogg",
+            "durationSeconds": 208.568146,
+            "sourceBitRate": 95163,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo--stream.mp3",
+                "bytes": 3338283,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo--fallback.mp3",
+                "bytes": 1669163,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Ain't Nobody Quite the Same - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Appalachian Abduction",
+          "file": "Southern Noise Catharsis - Appalachian Abduction - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Appalachian Abduction - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-03.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Appalachian Abduction - Treblo.ogg",
+            "durationSeconds": 172.112813,
+            "sourceBitRate": 102305,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Appalachian Abduction - Treblo--stream.mp3",
+                "bytes": 2754812,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Appalachian Abduction - Treblo--fallback.mp3",
+                "bytes": 1377427,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Appalachian Abduction - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "California Broke and Golden",
+          "file": "Southern Noise Catharsis - California Broke and Golden - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - California Broke and Golden - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-04.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - California Broke and Golden - Treblo.ogg",
+            "durationSeconds": 250.131854,
+            "sourceBitRate": 101015,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - California Broke and Golden - Treblo--stream.mp3",
+                "bytes": 4003256,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - California Broke and Golden - Treblo--fallback.mp3",
+                "bytes": 2001649,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - California Broke and Golden - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Coldest Little Doorway",
+          "file": "Southern Noise Catharsis - Coldest Little Doorway - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coldest Little Doorway - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-05.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coldest Little Doorway - Treblo.ogg",
+            "durationSeconds": 191.524688,
+            "sourceBitRate": 95612,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coldest Little Doorway - Treblo--stream.mp3",
+                "bytes": 3065355,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coldest Little Doorway - Treblo--fallback.mp3",
+                "bytes": 1532699,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coldest Little Doorway - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "County Code 409",
+          "file": "Southern Noise Catharsis - County Code 409 - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - County Code 409 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-06.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - County Code 409 - Treblo.ogg",
+            "durationSeconds": 159.899125,
+            "sourceBitRate": 96433,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - County Code 409 - Treblo--stream.mp3",
+                "bytes": 2559207,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - County Code 409 - Treblo--fallback.mp3",
+                "bytes": 1279625,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - County Code 409 - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Definitely Worth Your Time (1)",
+          "file": "Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1).ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-07.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1).ogg",
+            "durationSeconds": 194.171771,
+            "sourceBitRate": 98082,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1)--stream.mp3",
+                "bytes": 3107569,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1)--fallback.mp3",
+                "bytes": 1553806,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo (1)--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Definitely Worth Your Time",
+          "file": "Southern Noise Catharsis - Definitely Worth Your Time - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-08.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo.ogg",
+            "durationSeconds": 209.404063,
+            "sourceBitRate": 105019,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo--stream.mp3",
+                "bytes": 3351657,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo--fallback.mp3",
+                "bytes": 1675850,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Eternity's Faster",
+          "file": "Southern Noise Catharsis - Eternity's Faster - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Eternity's Faster - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-09.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Eternity's Faster - Treblo.ogg",
+            "durationSeconds": 169.465729,
+            "sourceBitRate": 97194,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Eternity's Faster - Treblo--stream.mp3",
+                "bytes": 2712598,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Eternity's Faster - Treblo--fallback.mp3",
+                "bytes": 1356320,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Eternity's Faster - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "First Contact Curbside",
+          "file": "Southern Noise Catharsis - First Contact Curbside - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - First Contact Curbside - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-10.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - First Contact Curbside - Treblo.ogg",
+            "durationSeconds": 178.985917,
+            "sourceBitRate": 101239,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - First Contact Curbside - Treblo--stream.mp3",
+                "bytes": 2864735,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - First Contact Curbside - Treblo--fallback.mp3",
+                "bytes": 1432389,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - First Contact Curbside - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Forwarding Address  Butterfly",
+          "file": "Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-11.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo.ogg",
+            "durationSeconds": 246.555979,
+            "sourceBitRate": 94340,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo--stream.mp3",
+                "bytes": 3945995,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo--fallback.mp3",
+                "bytes": 1973019,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Forwarding Address_ Butterfly - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Fractured Gospel Machine",
+          "file": "Southern Noise Catharsis - Fractured Gospel Machine - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Fractured Gospel Machine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-12.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Fractured Gospel Machine - Treblo.ogg",
+            "durationSeconds": 217.484604,
+            "sourceBitRate": 94508,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Fractured Gospel Machine - Treblo--stream.mp3",
+                "bytes": 3480807,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Fractured Gospel Machine - Treblo--fallback.mp3",
+                "bytes": 1740425,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Fractured Gospel Machine - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Grandma Already Knew About the Portal",
+          "file": "Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-13.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo.ogg",
+            "durationSeconds": 232.577583,
+            "sourceBitRate": 98938,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo--stream.mp3",
+                "bytes": 3722387,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo--fallback.mp3",
+                "bytes": 1861215,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Grandma Already Knew About the Portal - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Harp and a Broken Telephone Line",
+          "file": "Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-14.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo.ogg",
+            "durationSeconds": 225.518708,
+            "sourceBitRate": 98671,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo--stream.mp3",
+                "bytes": 3609120,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo--fallback.mp3",
+                "bytes": 1804581,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Harp and a Broken Telephone Line - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "I Never Met the Average Person",
+          "file": "Southern Noise Catharsis - I Never Met the Average Person - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Never Met the Average Person - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-15.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Never Met the Average Person - Treblo.ogg",
+            "durationSeconds": 238.150375,
+            "sourceBitRate": 97505,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Never Met the Average Person - Treblo--stream.mp3",
+                "bytes": 3811412,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Never Met the Average Person - Treblo--fallback.mp3",
+                "bytes": 1905727,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Never Met the Average Person - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "I Remember Being a Butterfly (1)",
+          "file": "Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1).ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-16.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1).ogg",
+            "durationSeconds": 200.580479,
+            "sourceBitRate": 101310,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1)--stream.mp3",
+                "bytes": 3210387,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1)--fallback.mp3",
+                "bytes": 1605215,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo (1)--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "I Remember Being a Butterfly",
+          "file": "Southern Noise Catharsis - I Remember Being a Butterfly - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-17.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo.ogg",
+            "durationSeconds": 243.955354,
+            "sourceBitRate": 99394,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo--stream.mp3",
+                "bytes": 3904199,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo--fallback.mp3",
+                "bytes": 1952121,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - I Remember Being a Butterfly - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "Keep On Driving",
+          "file": "Southern Noise Catharsis - Keep On Driving - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Keep On Driving - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-18.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Keep On Driving - Treblo.ogg",
+            "durationSeconds": 264.156708,
+            "sourceBitRate": 97372,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Keep On Driving - Treblo--stream.mp3",
+                "bytes": 4227282,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Keep On Driving - Treblo--fallback.mp3",
+                "bytes": 2113662,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Keep On Driving - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "Last Normal Afternoon",
+          "file": "Southern Noise Catharsis - Last Normal Afternoon - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Last Normal Afternoon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-19.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Last Normal Afternoon - Treblo.ogg",
+            "durationSeconds": 197.794083,
+            "sourceBitRate": 96344,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Last Normal Afternoon - Treblo--stream.mp3",
+                "bytes": 3165665,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Last Normal Afternoon - Treblo--fallback.mp3",
+                "bytes": 1582854,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Last Normal Afternoon - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Love You Long Past the Walls",
+          "file": "Southern Noise Catharsis - Love You Long Past the Walls - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You Long Past the Walls - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-20.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You Long Past the Walls - Treblo.ogg",
+            "durationSeconds": 225.379396,
+            "sourceBitRate": 99949,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You Long Past the Walls - Treblo--stream.mp3",
+                "bytes": 3607030,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You Long Past the Walls - Treblo--fallback.mp3",
+                "bytes": 1803536,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You Long Past the Walls - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "Mountain Metamorphosis",
+          "file": "Southern Noise Catharsis - Mountain Metamorphosis - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Mountain Metamorphosis - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-21.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Mountain Metamorphosis - Treblo.ogg",
+            "durationSeconds": 216.741563,
+            "sourceBitRate": 102504,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Mountain Metamorphosis - Treblo--stream.mp3",
+                "bytes": 3468686,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Mountain Metamorphosis - Treblo--fallback.mp3",
+                "bytes": 1734364,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Mountain Metamorphosis - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "Neon Surf-Cumbia Noir",
+          "file": "Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-22.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo.ogg",
+            "durationSeconds": 236.107,
+            "sourceBitRate": 98611,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo--stream.mp3",
+                "bytes": 3778812,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo--fallback.mp3",
+                "bytes": 1889427,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Neon Surf-Cumbia Noir - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "People Like You Can't Dance",
+          "file": "Southern Noise Catharsis - People Like You Can't Dance - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Can't Dance - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-23.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Can't Dance - Treblo.ogg",
+            "durationSeconds": 161.849604,
+            "sourceBitRate": 98766,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Can't Dance - Treblo--stream.mp3",
+                "bytes": 2590554,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Can't Dance - Treblo--fallback.mp3",
+                "bytes": 1295298,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Can't Dance - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "Room Fourteen (Never Rented)",
+          "file": "Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-24.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo.ogg",
+            "durationSeconds": 174.156167,
+            "sourceBitRate": 99515,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo--stream.mp3",
+                "bytes": 2787412,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo--fallback.mp3",
+                "bytes": 1393727,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Room Fourteen (Never Rented) - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "Seventy Years Out of Time",
+          "file": "Southern Noise Catharsis - Seventy Years Out of Time - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Seventy Years Out of Time - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-25.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Seventy Years Out of Time - Treblo.ogg",
+            "durationSeconds": 192.360625,
+            "sourceBitRate": 100993,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Seventy Years Out of Time - Treblo--stream.mp3",
+                "bytes": 3078730,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Seventy Years Out of Time - Treblo--fallback.mp3",
+                "bytes": 1539386,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Seventy Years Out of Time - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "Sweet Violence",
+          "file": "Southern Noise Catharsis - Sweet Violence - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Sweet Violence - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-26.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Sweet Violence - Treblo.ogg",
+            "durationSeconds": 161.153,
+            "sourceBitRate": 97792,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Sweet Violence - Treblo--stream.mp3",
+                "bytes": 2579269,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Sweet Violence - Treblo--fallback.mp3",
+                "bytes": 1289656,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Sweet Violence - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "The Butterfly Psalm",
+          "file": "Southern Noise Catharsis - The Butterfly Psalm - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Butterfly Psalm - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-27.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Butterfly Psalm - Treblo.ogg",
+            "durationSeconds": 185.626833,
+            "sourceBitRate": 108323,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Butterfly Psalm - Treblo--stream.mp3",
+                "bytes": 2970896,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Butterfly Psalm - Treblo--fallback.mp3",
+                "bytes": 1485469,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Butterfly Psalm - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "The Coat (Ain't Me) (1)",
+          "file": "Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1).ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-28.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1).ogg",
+            "durationSeconds": 268.057667,
+            "sourceBitRate": 99710,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1)--stream.mp3",
+                "bytes": 4289976,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1)--fallback.mp3",
+                "bytes": 2145009,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo (1)--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "The Coat (Ain't Me)",
+          "file": "Southern Noise Catharsis - The Coat (Ain't Me) - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-29.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo.ogg",
+            "durationSeconds": 268.057667,
+            "sourceBitRate": 99710,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo--stream.mp3",
+                "bytes": 4289976,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo--fallback.mp3",
+                "bytes": 2145009,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Coat (Ain't Me) - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "The Mothership Has a Two-Drink Minimum",
+          "file": "Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-30.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo.ogg",
+            "durationSeconds": 211.215208,
+            "sourceBitRate": 98989,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo--stream.mp3",
+                "bytes": 3380496,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo--fallback.mp3",
+                "bytes": 1690269,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Mothership Has a Two-Drink Minimum - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "The Numbers in the Kudzu Vine",
+          "file": "Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-31.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo.ogg",
+            "durationSeconds": 251.014229,
+            "sourceBitRate": 90202,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo--stream.mp3",
+                "bytes": 4017048,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo--fallback.mp3",
+                "bytes": 2008545,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Numbers in the Kudzu Vine - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "The Road They Didn't Map",
+          "file": "Southern Noise Catharsis - The Road They Didn't Map - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Road They Didn't Map - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-32.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Road They Didn't Map - Treblo.ogg",
+            "durationSeconds": 167.608146,
+            "sourceBitRate": 107093,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Road They Didn't Map - Treblo--stream.mp3",
+                "bytes": 2682923,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Road They Didn't Map - Treblo--fallback.mp3",
+                "bytes": 1341483,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Road They Didn't Map - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "Three Lights Over Sevierville",
+          "file": "Southern Noise Catharsis - Three Lights Over Sevierville - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Three Lights Over Sevierville - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-33.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Three Lights Over Sevierville - Treblo.ogg",
+            "durationSeconds": 213.351458,
+            "sourceBitRate": 99886,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Three Lights Over Sevierville - Treblo--stream.mp3",
+                "bytes": 3414769,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Three Lights Over Sevierville - Treblo--fallback.mp3",
+                "bytes": 1707406,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Three Lights Over Sevierville - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "Trance on the Gravel Road",
+          "file": "Southern Noise Catharsis - Trance on the Gravel Road - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Trance on the Gravel Road - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-34.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Trance on the Gravel Road - Treblo.ogg",
+            "durationSeconds": 260.952354,
+            "sourceBitRate": 94610,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Trance on the Gravel Road - Treblo--stream.mp3",
+                "bytes": 4176291,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Trance on the Gravel Road - Treblo--fallback.mp3",
+                "bytes": 2088167,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Trance on the Gravel Road - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "Tuesday Night, Right on Time",
+          "file": "Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-35.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo.ogg",
+            "durationSeconds": 226.772583,
+            "sourceBitRate": 99877,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo--stream.mp3",
+                "bytes": 3629182,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo--fallback.mp3",
+                "bytes": 1814612,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Tuesday Night, Right on Time - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "West Coast Harp Noir",
+          "file": "Southern Noise Catharsis - West Coast Harp Noir - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - West Coast Harp Noir - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-southernnoise-36.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - West Coast Harp Noir - Treblo.ogg",
+            "durationSeconds": 227.42275,
+            "sourceBitRate": 97109,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - West Coast Harp Noir - Treblo--stream.mp3",
+                "bytes": 3639631,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - West Coast Harp Noir - Treblo--fallback.mp3",
+                "bytes": 1819837,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - West Coast Harp Noir - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        }
+      ]
+    },
+    "coatvectors": {
+      "key": "coatvectors",
+      "label": "COAT OF MANY VECTORS",
+      "subtitle": "Side B · algorithm gospel / vector fracture / alien dance noise",
+      "pageSlug": "coat-of-many-vectors",
+      "hallKey": "coatvectors",
+      "op2Key": "coatvectors",
+      "op2Pair": "southernnoise",
+      "accentA": "#a4d63f",
+      "accentB": "#ef3f88",
+      "cover": {
+        "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+            "webpBytes": 77874,
+            "jpegBytes": 101017,
+            "webpQuality": 73,
+            "jpegQScale": 8
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+            "webpBytes": 251502,
+            "jpegBytes": 426772,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+            "webpBytes": 77326,
+            "jpegBytes": 147930,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "defaultTrackArt": {
+        "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+        "derivatives": {
+          "thumb": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+            "webpBytes": 71480,
+            "jpegBytes": 108367,
+            "webpQuality": 78,
+            "jpegQScale": 8
+          },
+          "cover": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+            "webpBytes": 173828,
+            "jpegBytes": 406651,
+            "webpQuality": 80,
+            "jpegQScale": 4
+          },
+          "share": {
+            "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+            "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+            "webpBytes": 64328,
+            "jpegBytes": 153018,
+            "webpQuality": 76,
+            "jpegQScale": 5
+          }
+        }
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "A Million Little Me's",
+          "file": "Southern Noise Catharsis - A Million Little Me's - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - A Million Little Me's - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-01.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - A Million Little Me's - Treblo.ogg",
+            "durationSeconds": 221.246229,
+            "sourceBitRate": 93585,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - A Million Little Me's - Treblo--stream.mp3",
+                "bytes": 3540993,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - A Million Little Me's - Treblo--fallback.mp3",
+                "bytes": 1770518,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - A Million Little Me's - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 2,
+          "title": "Catastrophic Elegance   Math Dance",
+          "file": "Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-02.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo.ogg",
+            "durationSeconds": 195.611417,
+            "sourceBitRate": 101719,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo--stream.mp3",
+                "bytes": 3130975,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo--fallback.mp3",
+                "bytes": 1565509,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Catastrophic Elegance _ Math Dance - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 3,
+          "title": "Circular Fracture",
+          "file": "Southern Noise Catharsis - Circular Fracture - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Circular Fracture - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-03.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Circular Fracture - Treblo.ogg",
+            "durationSeconds": 181.81875,
+            "sourceBitRate": 101123,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Circular Fracture - Treblo--stream.mp3",
+                "bytes": 2909874,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Circular Fracture - Treblo--fallback.mp3",
+                "bytes": 1454958,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Circular Fracture - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 4,
+          "title": "Cloudland Grid",
+          "file": "Southern Noise Catharsis - Cloudland Grid - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cloudland Grid - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-04.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cloudland Grid - Treblo.ogg",
+            "durationSeconds": 207.732229,
+            "sourceBitRate": 102007,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cloudland Grid - Treblo--stream.mp3",
+                "bytes": 3324908,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cloudland Grid - Treblo--fallback.mp3",
+                "bytes": 1662475,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cloudland Grid - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 5,
+          "title": "Coat of Many 808s",
+          "file": "Southern Noise Catharsis - Coat of Many 808s - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many 808s - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-05.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many 808s - Treblo.ogg",
+            "durationSeconds": 199.837438,
+            "sourceBitRate": 100227,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many 808s - Treblo--stream.mp3",
+                "bytes": 3198266,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many 808s - Treblo--fallback.mp3",
+                "bytes": 1599154,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many 808s - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 6,
+          "title": "Coat of Many Vectors (1)",
+          "file": "Southern Noise Catharsis - Coat of Many Vectors - Treblo (1).ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-06.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo (1).ogg",
+            "durationSeconds": 266.385833,
+            "sourceBitRate": 106901,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo (1)--stream.mp3",
+                "bytes": 4263226,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo (1)--fallback.mp3",
+                "bytes": 2131634,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo (1)--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 7,
+          "title": "Coat of Many Vectors",
+          "file": "Southern Noise Catharsis - Coat of Many Vectors - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-07.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo.ogg",
+            "durationSeconds": 185.812583,
+            "sourceBitRate": 97974,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo--stream.mp3",
+                "bytes": 2973822,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo--fallback.mp3",
+                "bytes": 1486932,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Coat of Many Vectors - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 8,
+          "title": "Cold Chain Collapse",
+          "file": "Southern Noise Catharsis - Cold Chain Collapse - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cold Chain Collapse - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-08.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cold Chain Collapse - Treblo.ogg",
+            "durationSeconds": 212.236896,
+            "sourceBitRate": 96171,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cold Chain Collapse - Treblo--stream.mp3",
+                "bytes": 3396797,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cold Chain Collapse - Treblo--fallback.mp3",
+                "bytes": 1698420,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Cold Chain Collapse - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 9,
+          "title": "Define Delete",
+          "file": "Southern Noise Catharsis - Define Delete - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Define Delete - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-09.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Define Delete - Treblo.ogg",
+            "durationSeconds": 229.976938,
+            "sourceBitRate": 98404,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Define Delete - Treblo--stream.mp3",
+                "bytes": 3680591,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Define Delete - Treblo--fallback.mp3",
+                "bytes": 1840317,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Define Delete - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 10,
+          "title": "Definitely Worth Your Time (Party Mix)",
+          "file": "Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-10.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo.ogg",
+            "durationSeconds": 168.954896,
+            "sourceBitRate": 99670,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo--stream.mp3",
+                "bytes": 2704238,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo--fallback.mp3",
+                "bytes": 1352140,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Definitely Worth Your Time (Party Mix) - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 11,
+          "title": "Don't Click That",
+          "file": "Southern Noise Catharsis - Don't Click That - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Don't Click That - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-11.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Don't Click That - Treblo.ogg",
+            "durationSeconds": 150.239625,
+            "sourceBitRate": 95480,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Don't Click That - Treblo--stream.mp3",
+                "bytes": 2404980,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Don't Click That - Treblo--fallback.mp3",
+                "bytes": 1202511,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Don't Click That - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 12,
+          "title": "Get Unlucky",
+          "file": "Southern Noise Catharsis - Get Unlucky - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Get Unlucky - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-12.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Get Unlucky - Treblo.ogg",
+            "durationSeconds": 142.762792,
+            "sourceBitRate": 103332,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Get Unlucky - Treblo--stream.mp3",
+                "bytes": 2285025,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Get Unlucky - Treblo--fallback.mp3",
+                "bytes": 1142534,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Get Unlucky - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 13,
+          "title": "Intergalactic Saturday Night",
+          "file": "Southern Noise Catharsis - Intergalactic Saturday Night - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Intergalactic Saturday Night - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-13.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Intergalactic Saturday Night - Treblo.ogg",
+            "durationSeconds": 166.029188,
+            "sourceBitRate": 94038,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Intergalactic Saturday Night - Treblo--stream.mp3",
+                "bytes": 2657427,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Intergalactic Saturday Night - Treblo--fallback.mp3",
+                "bytes": 1328735,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Intergalactic Saturday Night - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 14,
+          "title": "Let That Feed Rest",
+          "file": "Southern Noise Catharsis - Let That Feed Rest - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Let That Feed Rest - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-14.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Let That Feed Rest - Treblo.ogg",
+            "durationSeconds": 138.211688,
+            "sourceBitRate": 87515,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Let That Feed Rest - Treblo--stream.mp3",
+                "bytes": 2212301,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Let That Feed Rest - Treblo--fallback.mp3",
+                "bytes": 1106172,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Let That Feed Rest - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 15,
+          "title": "Love You In The Feedback",
+          "file": "Southern Noise Catharsis - Love You In The Feedback - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You In The Feedback - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-15.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You In The Feedback - Treblo.ogg",
+            "durationSeconds": 156.416125,
+            "sourceBitRate": 99210,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You In The Feedback - Treblo--stream.mp3",
+                "bytes": 2503618,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You In The Feedback - Treblo--fallback.mp3",
+                "bytes": 1251830,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Love You In The Feedback - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 16,
+          "title": "My Algorithm Needs Jesus",
+          "file": "Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-16.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo.ogg",
+            "durationSeconds": 154.372771,
+            "sourceBitRate": 92404,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo--stream.mp3",
+                "bytes": 2471017,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo--fallback.mp3",
+                "bytes": 1235530,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - My Algorithm Needs Jesus - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 17,
+          "title": "Nobody Needed Me to Make",
+          "file": "Southern Noise Catharsis - Nobody Needed Me to Make - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Nobody Needed Me to Make - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-17.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Nobody Needed Me to Make - Treblo.ogg",
+            "durationSeconds": 252.546729,
+            "sourceBitRate": 104712,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Nobody Needed Me to Make - Treblo--stream.mp3",
+                "bytes": 4041708,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Nobody Needed Me to Make - Treblo--fallback.mp3",
+                "bytes": 2020875,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Nobody Needed Me to Make - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 18,
+          "title": "None of 'Em Got My Knees",
+          "file": "Southern Noise Catharsis - None of 'Em Got My Knees - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - None of 'Em Got My Knees - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-18.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - None of 'Em Got My Knees - Treblo.ogg",
+            "durationSeconds": 181.075708,
+            "sourceBitRate": 96150,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - None of 'Em Got My Knees - Treblo--stream.mp3",
+                "bytes": 2898172,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - None of 'Em Got My Knees - Treblo--fallback.mp3",
+                "bytes": 1449107,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - None of 'Em Got My Knees - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 19,
+          "title": "People Like You Do Not Report This Memory",
+          "file": "Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-19.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo.ogg",
+            "durationSeconds": 261.834729,
+            "sourceBitRate": 102684,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo--stream.mp3",
+                "bytes": 4190501,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo--fallback.mp3",
+                "bytes": 2095272,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - People Like You Do Not Report This Memory - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 20,
+          "title": "Something Sees You Too",
+          "file": "Southern Noise Catharsis - Something Sees You Too - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Something Sees You Too - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-20.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Something Sees You Too - Treblo.ogg",
+            "durationSeconds": 284.961792,
+            "sourceBitRate": 101013,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Something Sees You Too - Treblo--stream.mp3",
+                "bytes": 4560395,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Something Sees You Too - Treblo--fallback.mp3",
+                "bytes": 2280219,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Something Sees You Too - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 21,
+          "title": "Standardize the Rot",
+          "file": "Southern Noise Catharsis - Standardize the Rot - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Standardize the Rot - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-21.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Standardize the Rot - Treblo.ogg",
+            "durationSeconds": 220.921167,
+            "sourceBitRate": 89651,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Standardize the Rot - Treblo--stream.mp3",
+                "bytes": 3535559,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Standardize the Rot - Treblo--fallback.mp3",
+                "bytes": 1767801,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Standardize the Rot - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 22,
+          "title": "THE PORTAL TAKES APPLE PAY",
+          "file": "Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-22.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo.ogg",
+            "durationSeconds": 201.741479,
+            "sourceBitRate": 96354,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo--stream.mp3",
+                "bytes": 3228777,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo--fallback.mp3",
+                "bytes": 1614410,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - THE PORTAL TAKES APPLE PAY - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 23,
+          "title": "The Ceiling Shape",
+          "file": "Southern Noise Catharsis - The Ceiling Shape - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Ceiling Shape - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-23.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Ceiling Shape - Treblo.ogg",
+            "durationSeconds": 271.726417,
+            "sourceBitRate": 98600,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Ceiling Shape - Treblo--stream.mp3",
+                "bytes": 4348490,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Ceiling Shape - Treblo--fallback.mp3",
+                "bytes": 2174266,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Ceiling Shape - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 24,
+          "title": "The Hollow Square Has Five Sides",
+          "file": "Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-24.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo.ogg",
+            "durationSeconds": 170.951813,
+            "sourceBitRate": 98771,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo--stream.mp3",
+                "bytes": 2736421,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo--fallback.mp3",
+                "bytes": 1368232,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Hollow Square Has Five Sides - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 25,
+          "title": "The Jerk Becomes Math",
+          "file": "Southern Noise Catharsis - The Jerk Becomes Math - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Jerk Becomes Math - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-25.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Jerk Becomes Math - Treblo.ogg",
+            "durationSeconds": 134.357167,
+            "sourceBitRate": 88291,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Jerk Becomes Math - Treblo--stream.mp3",
+                "bytes": 2150861,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Jerk Becomes Math - Treblo--fallback.mp3",
+                "bytes": 1075452,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Jerk Becomes Math - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 26,
+          "title": "The Other Point Three (1)",
+          "file": "Southern Noise Catharsis - The Other Point Three - Treblo (1).ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-26.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo (1).ogg",
+            "durationSeconds": 202.066563,
+            "sourceBitRate": 96295,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo (1)--stream.mp3",
+                "bytes": 3234211,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo (1)--fallback.mp3",
+                "bytes": 1617127,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo (1)--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 27,
+          "title": "The Other Point Three",
+          "file": "Southern Noise Catharsis - The Other Point Three - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-27.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo.ogg",
+            "durationSeconds": 223.243146,
+            "sourceBitRate": 106478,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo--stream.mp3",
+                "bytes": 3572758,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo--fallback.mp3",
+                "bytes": 1786400,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Other Point Three - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 28,
+          "title": "The Song You Must Not Hear",
+          "file": "Southern Noise Catharsis - The Song You Must Not Hear - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Song You Must Not Hear - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-28.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Song You Must Not Hear - Treblo.ogg",
+            "durationSeconds": 212.283333,
+            "sourceBitRate": 96821,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Song You Must Not Hear - Treblo--stream.mp3",
+                "bytes": 3397633,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Song You Must Not Hear - Treblo--fallback.mp3",
+                "bytes": 1698838,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - The Song You Must Not Hear - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 29,
+          "title": "Vector Abduction",
+          "file": "Southern Noise Catharsis - Vector Abduction - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Vector Abduction - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-29.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Vector Abduction - Treblo.ogg",
+            "durationSeconds": 192.174854,
+            "sourceBitRate": 99129,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Vector Abduction - Treblo--stream.mp3",
+                "bytes": 3075804,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Vector Abduction - Treblo--fallback.mp3",
+                "bytes": 1537923,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Vector Abduction - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 30,
+          "title": "We Were Onboarded",
+          "file": "Southern Noise Catharsis - We Were Onboarded - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We Were Onboarded - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-30.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We Were Onboarded - Treblo.ogg",
+            "durationSeconds": 182.97975,
+            "sourceBitRate": 107482,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We Were Onboarded - Treblo--stream.mp3",
+                "bytes": 2928683,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We Were Onboarded - Treblo--fallback.mp3",
+                "bytes": 1464363,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We Were Onboarded - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 31,
+          "title": "We're All Going Through",
+          "file": "Southern Noise Catharsis - We're All Going Through - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We're All Going Through - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-31.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We're All Going Through - Treblo.ogg",
+            "durationSeconds": 241.168958,
+            "sourceBitRate": 96246,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We're All Going Through - Treblo--stream.mp3",
+                "bytes": 3859896,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We're All Going Through - Treblo--fallback.mp3",
+                "bytes": 1929969,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - We're All Going Through - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 32,
+          "title": "What Crossed Over",
+          "file": "Southern Noise Catharsis - What Crossed Over - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What Crossed Over - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-32.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What Crossed Over - Treblo.ogg",
+            "durationSeconds": 229.9305,
+            "sourceBitRate": 103173,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What Crossed Over - Treblo--stream.mp3",
+                "bytes": 3679755,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What Crossed Over - Treblo--fallback.mp3",
+                "bytes": 1839899,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What Crossed Over - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--thumb.jpg",
+                "webpBytes": 56520,
+                "jpegBytes": 93310,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--cover.jpg",
+                "webpBytes": 180774,
+                "jpegBytes": 278937,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_04_17 PM--share.jpg",
+                "webpBytes": 48454,
+                "jpegBytes": 86557,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 33,
+          "title": "What the Body Lets You Learn",
+          "file": "Southern Noise Catharsis - What the Body Lets You Learn - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What the Body Lets You Learn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-33.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What the Body Lets You Learn - Treblo.ogg",
+            "durationSeconds": 276.277521,
+            "sourceBitRate": 97201,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What the Body Lets You Learn - Treblo--stream.mp3",
+                "bytes": 4421215,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What the Body Lets You Learn - Treblo--fallback.mp3",
+                "bytes": 2210629,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - What the Body Lets You Learn - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--thumb.jpg",
+                "webpBytes": 47038,
+                "jpegBytes": 77727,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--cover.jpg",
+                "webpBytes": 157980,
+                "jpegBytes": 239479,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_07 PM--share.jpg",
+                "webpBytes": 41588,
+                "jpegBytes": 71970,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 34,
+          "title": "Wings Outside the Seam",
+          "file": "Southern Noise Catharsis - Wings Outside the Seam - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings Outside the Seam - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-34.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings Outside the Seam - Treblo.ogg",
+            "durationSeconds": 238.011042,
+            "sourceBitRate": 97845,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings Outside the Seam - Treblo--stream.mp3",
+                "bytes": 3809323,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings Outside the Seam - Treblo--fallback.mp3",
+                "bytes": 1904683,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings Outside the Seam - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--thumb.jpg",
+                "webpBytes": 57676,
+                "jpegBytes": 92362,
+                "webpQuality": 78,
+                "jpegQScale": 4
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--cover.jpg",
+                "webpBytes": 174790,
+                "jpegBytes": 268169,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_05_21 PM--share.jpg",
+                "webpBytes": 49368,
+                "jpegBytes": 87090,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 35,
+          "title": "Wings on the Screen",
+          "file": "Southern Noise Catharsis - Wings on the Screen - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings on the Screen - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-35.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings on the Screen - Treblo.ogg",
+            "durationSeconds": 165.657667,
+            "sourceBitRate": 100710,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings on the Screen - Treblo--stream.mp3",
+                "bytes": 2651576,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings on the Screen - Treblo--fallback.mp3",
+                "bytes": 1325809,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Wings on the Screen - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--thumb.jpg",
+                "webpBytes": 71480,
+                "jpegBytes": 108367,
+                "webpQuality": 78,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--cover.jpg",
+                "webpBytes": 173828,
+                "jpegBytes": 406651,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 09_21_39 PM--share.jpg",
+                "webpBytes": 64328,
+                "jpegBytes": 153018,
+                "webpQuality": 76,
+                "jpegQScale": 5
+              }
+            }
+          }
+        },
+        {
+          "index": 36,
+          "title": "Your Previous Life Has 4.8 Stars",
+          "file": "Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo.ogg",
+          "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-coatvectors-36.html",
+          "audio": {
+            "source": "SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo.ogg",
+            "durationSeconds": 168.629813,
+            "sourceBitRate": 99174,
+            "derivatives": {
+              "stream": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo--stream.mp3",
+                "bytes": 2699223,
+                "bitrate": "128k",
+                "previewSeconds": null
+              },
+              "fallback": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo--fallback.mp3",
+                "bytes": 1349633,
+                "bitrate": "64k",
+                "previewSeconds": null
+              },
+              "preview": {
+                "mp3": "MEDIA_DERIVATIVES/audio/SOUTHERN NOISE CATHARSIS/Southern Noise Catharsis - Your Previous Life Has 4.8 Stars - Treblo--preview.mp3",
+                "bytes": 180497,
+                "bitrate": "48k",
+                "previewSeconds": 30
+              }
+            }
+          },
+          "art": {
+            "source": "SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM.png",
+            "derivatives": {
+              "thumb": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--thumb.jpg",
+                "webpBytes": 77874,
+                "jpegBytes": 101017,
+                "webpQuality": 73,
+                "jpegQScale": 8
+              },
+              "cover": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--cover.jpg",
+                "webpBytes": 251502,
+                "jpegBytes": 426772,
+                "webpQuality": 80,
+                "jpegQScale": 4
+              },
+              "share": {
+                "webp": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.webp",
+                "jpeg": "MEDIA_DERIVATIVES/images/SOUTHERN NOISE CATHARSIS/ChatGPT Image Aug 11, 2026, 08_55_43 PM--share.jpg",
+                "webpBytes": 77326,
+                "jpegBytes": 147930,
                 "webpQuality": 76,
                 "jpegQScale": 5
               }

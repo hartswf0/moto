@@ -54,6 +54,7 @@ export function titleFromFilename(file) {
     .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^polliwog station\s*-\s*/i, "")
     .replace(/^last week of august\s*-\s*/i, "")
+    .replace(/^southern noise catharsis\s*-\s*/i, "")
     .replace(/^\d{1,2}[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
     .replace(/^(?:canyon fog and silver strings|chiptune crossroads|crown on|piassa state of mind|remix of the burn of being|the sad god)\s*-\s*/i, "")
