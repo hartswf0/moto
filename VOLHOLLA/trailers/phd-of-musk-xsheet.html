@@ -1,0 +1,455 @@
+<title>PhD of Musk X-Sheet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --ground:#EDE9DF; --surface:#F6F3EC; --surface-2:#E4DFD2;
+  --ink:#14161A; --ink-2:#55524A; --ink-3:#817C70;
+  --rule:#CFC9BA; --rule-blue:#9FBCC6;
+  --blue:#2F6FB5; --blue-soft:#8FB3DA; --blue-faint:#D3DEEC;
+  --ochre:#B5811A; --red:#AE382A;
+  --hatch:rgba(174,56,42,.16);
+}
+@media (prefers-color-scheme:dark){
+  :root:where(:not([data-theme="light"])){
+    color-scheme:dark;
+    --ground:#15171C; --surface:#1D2027; --surface-2:#252932;
+    --ink:#F0EDE4; --ink-2:#A8A497; --ink-3:#7C7869;
+    --rule:#31353E; --rule-blue:#3A5560;
+    --blue:#4A87CE; --blue-soft:#3C6394; --blue-faint:#243346;
+    --ochre:#C08D2E; --red:#C94F42;
+    --hatch:rgba(201,79,66,.22);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#15171C; --surface:#1D2027; --surface-2:#252932;
+  --ink:#F0EDE4; --ink-2:#A8A497; --ink-3:#7C7869;
+  --rule:#31353E; --rule-blue:#3A5560;
+  --blue:#4A87CE; --blue-soft:#3C6394; --blue-faint:#243346;
+  --ochre:#C08D2E; --red:#C94F42;
+  --hatch:rgba(201,79,66,.22);
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);
+  font-family:"Newsreader",Georgia,serif;font-size:16px;line-height:1.6;margin:0;
+  -webkit-font-smoothing:antialiased}
+.mono{font-family:"JetBrains Mono",ui-monospace,Menlo,monospace}
+h1,h2,h3,.disp{font-family:"Archivo Narrow","Helvetica Neue",Arial,sans-serif;
+  font-weight:700;letter-spacing:.005em;text-wrap:balance;margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+.rail{max-width:66ch}
+.lbl{font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:500}
+</style>
+<script>
+const BARS=[[0, 0.82, 0, "INTRO", null, 0.0, 0.0364, 0.0, 0.0, 0.92, 1085, 2, 2], [1, 3.15, 56, "INTRO", 1, 0.0, 0.0505, 0.0, 0.0, 0.933, 1412, 2, 2], [2, 5.47, 112, "INTRO", 2, 0.0, 0.0605, 0.0, 0.0, 0.949, 1429, 2, 2], [3, 7.8, 168, "INTRO", 3, 0.184, 0.0792, 0.0, 0.358, 0.951, 2290, 3, 4], [4, 10.13, 224, "A1", 4, 0.702, 0.1754, 0.857, 0.63, 0.929, 2194, 5, 7], [5, 12.46, 280, "A1", 5, 0.75, 0.1782, 0.861, 0.636, 0.924, 2371, 5, 7], [6, 14.78, 336, "A1", 6, 0.858, 0.1783, 0.875, 0.743, 0.928, 2214, 5, 7], [7, 17.11, 392, "A1", 7, 0.832, 0.1783, 0.865, 0.724, 0.928, 2298, 5, 7], [8, 19.44, 448, "A1", 8, 0.783, 0.1832, 0.92, 0.619, 0.928, 1899, 5, 7], [9, 21.77, 504, "A1", 9, 0.801, 0.1757, 0.866, 0.744, 0.931, 2240, 5, 7], [10, 24.09, 560, "A1", 10, 0.873, 0.1773, 0.861, 0.819, 0.927, 2497, 5, 7], [11, 26.42, 616, "A1", 11, 0.637, 0.1668, 0.763, 0.606, 0.928, 2288, 4, 7], [12, 28.75, 672, "A2", 12, 0.898, 0.1785, 0.88, 0.721, 0.948, 1816, 5, 7], [13, 31.08, 728, "A2", 13, 0.887, 0.1918, 0.969, 0.735, 0.943, 1751, 5, 7], [14, 33.41, 784, "A2", 14, 0.913, 0.186, 0.916, 0.756, 0.944, 1785, 5, 7], [15, 35.73, 840, "A2", 15, 1.0, 0.1812, 0.916, 1.0, 0.951, 2088, 5, 7], [16, 38.06, 896, "A2", 16, 0.92, 0.1808, 0.913, 0.854, 0.947, 2001, 5, 7], [17, 40.39, 952, "A2", 17, 0.985, 0.1844, 0.924, 0.903, 0.951, 1842, 5, 7], [18, 42.72, 1008, "A2", 18, 0.876, 0.181, 0.902, 0.761, 0.947, 1822, 5, 7], [19, 45.05, 1064, "A2", 19, 0.864, 0.1594, 0.593, 0.863, 0.953, 1954, 5, 7], [20, 47.37, 1120, "B1", 20, 0.658, 0.1359, 0.351, 0.589, 0.906, 1745, 4, 7], [21, 49.7, 1176, "B1", 21, 0.85, 0.138, 0.37, 0.83, 0.907, 2074, 5, 7], [22, 52.03, 1232, "B1", 22, 0.843, 0.1411, 0.391, 0.736, 0.914, 1853, 5, 7], [23, 54.36, 1288, "B1", 23, 0.814, 0.1343, 0.347, 0.761, 0.891, 2079, 5, 7], [24, 56.69, 1344, "B1", 24, 0.958, 0.144, 0.423, 0.843, 0.953, 2092, 5, 7], [25, 59.01, 1400, "B1", 25, 1.0, 0.1415, 0.383, 1.0, 0.957, 2129, 5, 7], [26, 61.34, 1456, "B1", 26, 0.885, 0.1379, 0.329, 0.873, 0.956, 2259, 5, 7], [27, 63.67, 1512, "B1", 27, 0.857, 0.165, 0.676, 0.786, 0.933, 2196, 5, 7], [28, 66.0, 1568, "A3", 28, 0.865, 0.1798, 0.914, 0.753, 0.917, 2072, 5, 7], [29, 68.32, 1624, "A3", 29, 0.847, 0.178, 0.901, 0.74, 0.919, 1904, 5, 7], [30, 70.65, 1680, "A3", 30, 0.882, 0.1795, 0.919, 0.869, 0.927, 2164, 5, 7], [31, 72.98, 1736, "A3", 31, 0.851, 0.1763, 0.855, 0.838, 0.928, 2193, 5, 7], [32, 75.31, 1792, "A3", 32, 0.759, 0.1782, 0.9, 0.715, 0.937, 2272, 5, 7], [33, 77.64, 1848, "A3", 33, 0.843, 0.1784, 0.886, 0.757, 0.925, 1901, 5, 7], [34, 79.96, 1904, "A3", 34, 0.885, 0.1825, 0.899, 0.817, 0.924, 2262, 5, 7], [35, 82.29, 1960, "A3", 35, 0.504, 0.1662, 0.764, 0.478, 0.936, 2280, 4, 7], [36, 84.62, 2016, "A4", 36, 0.963, 0.1748, 0.848, 0.93, 0.947, 2004, 5, 7], [37, 86.95, 2072, "A4", 37, 0.984, 0.1765, 0.86, 1.0, 0.943, 2175, 5, 7], [38, 89.28, 2128, "A4", 38, 0.82, 0.1773, 0.874, 0.774, 0.948, 1864, 5, 7], [39, 91.6, 2184, "A4", 39, 0.855, 0.1721, 0.823, 0.85, 0.947, 2000, 5, 7], [40, 93.93, 2240, "A4", 40, 0.93, 0.1806, 0.894, 0.799, 0.949, 1657, 5, 7], [41, 96.26, 2296, "A4", 41, 1.0, 0.1808, 0.898, 0.946, 0.94, 2041, 5, 7], [42, 98.59, 2352, "A4", 42, 0.934, 0.1769, 0.872, 0.836, 0.946, 1787, 5, 7], [43, 100.91, 2408, "A4", 43, 0.829, 0.1561, 0.596, 0.85, 0.955, 1902, 5, 7], [44, 103.24, 2464, "B2", 44, 0.742, 0.1425, 0.412, 0.639, 0.913, 1738, 5, 7], [45, 105.57, 2520, "B2", 45, 0.842, 0.1369, 0.382, 0.876, 0.909, 2123, 5, 7], [46, 107.9, 2576, "B2", 46, 0.927, 0.141, 0.392, 0.799, 0.914, 1884, 5, 7], [47, 110.22, 2632, "B2", 47, 0.783, 0.1347, 0.368, 0.768, 0.895, 2073, 5, 7], [48, 112.55, 2688, "B2", 48, 0.995, 0.1429, 0.413, 0.893, 0.944, 2083, 5, 7], [49, 114.88, 2744, "B2", 49, 1.0, 0.142, 0.387, 1.0, 0.958, 2142, 5, 7], [50, 117.21, 2800, "B2", 50, 0.928, 0.1403, 0.339, 0.916, 0.962, 2279, 5, 7], [51, 119.54, 2856, "B2", 51, 0.831, 0.1653, 0.727, 0.688, 0.884, 1866, 5, 7], [52, 121.86, 2912, "C", 52, 0.838, 0.1792, 1.0, 0.752, 0.762, 2060, 5, 7], [53, 124.19, 2968, "C", 53, 0.769, 0.1768, 0.918, 0.648, 0.751, 1882, 5, 7], [54, 126.52, 3024, "C", 54, 0.863, 0.1785, 0.972, 0.683, 0.747, 1825, 5, 7], [55, 128.85, 3080, "C", 55, 0.81, 0.1747, 0.873, 0.664, 0.753, 2084, 5, 7], [56, 131.18, 3136, "C", 56, 0.835, 0.1753, 1.0, 0.657, 0.696, 1623, 5, 7], [57, 133.5, 3192, "C", 57, 0.824, 0.1741, 0.987, 0.655, 0.702, 1587, 5, 7], [58, 135.83, 3248, "D", 58, 0.088, 0.1492, 0.645, 0.078, 0.84, 1527, 2, 2], [59, 138.16, 3304, "D", 59, 0.0, 0.1464, 0.655, 0.04, 0.828, 1317, 2, 2], [60, 140.49, 3360, "D", 60, 0.031, 0.1482, 0.664, 0.059, 0.816, 1409, 2, 2], [61, 142.81, 3416, "D", null, 0.056, 0.1516, 0.64, 0.072, 0.827, 1584, 2, 2], [62, 145.14, 3472, "D", null, 0.004, 0.1462, 0.649, 0.032, 0.831, 1294, 2, 2], [63, 147.47, 3528, "D", null, 0.026, 0.1535, 0.714, 0.038, 0.815, 1304, 2, 2], [64, 149.8, 3584, "D", null, 0.062, 0.1514, 0.628, 0.034, 0.803, 1510, 2, 2], [65, 152.13, 3640, "D", null, 0.076, 0.1535, 0.727, 0.044, 0.826, 1322, 2, 2], [66, 154.45, 3696, "E", null, 0.31, 0.176, 1.0, 0.131, 0.814, 1436, 3, 4], [67, 156.78, 3752, "E", null, 0.315, 0.1729, 0.958, 0.112, 0.828, 1647, 3, 4], [68, 159.11, 3808, "E", null, 0.301, 0.1714, 0.984, 0.113, 0.819, 1412, 3, 4], [69, 161.44, 3864, "E", null, 0.296, 0.1787, 1.0, 0.08, 0.86, 1424, 3, 4], [70, 163.77, 3920, "F", null, 0.681, 0.18, 0.948, 0.677, 0.933, 2094, 4, 7], [71, 166.09, 3976, "F", null, 0.695, 0.1806, 0.931, 0.618, 0.937, 1897, 4, 7], [72, 168.42, 4032, "F", null, 0.726, 0.1764, 0.895, 0.667, 0.942, 1912, 5, 7], [73, 170.75, 4088, "F", null, 0.694, 0.1808, 0.925, 0.683, 0.941, 2165, 4, 7], [74, 173.08, 4144, "F", null, 0.767, 0.1753, 0.904, 0.705, 0.937, 1824, 5, 7], [75, 175.41, 4200, "F", null, 0.711, 0.1747, 0.93, 0.646, 0.931, 1702, 5, 7], [76, 177.73, 4256, "G", null, 0.13, 0.1472, 0.631, 0.197, 0.914, 2853, 2, 2], [77, 180.06, 4312, "G", null, 0.228, 0.1361, 0.662, 0.162, 0.944, 2056, 3, 4], [78, 182.39, 4368, "G", null, 0.209, 0.1358, 0.665, 0.142, 0.942, 2065, 3, 4], [79, 184.72, 4424, "G", null, 0.197, 0.1384, 0.692, 0.125, 0.937, 1855, 3, 4], [80, 187.04, 4480, "G", null, 0.209, 0.1411, 0.74, 0.146, 0.955, 1850, 3, 4], [81, 189.37, 4536, "G", null, 0.223, 0.1436, 0.752, 0.164, 0.949, 1894, 3, 4], [82, 191.7, 4592, "G", null, 0.299, 0.1395, 0.773, 0.239, 0.943, 1644, 3, 4], [83, 194.03, 4648, "G", null, 0.216, 0.1365, 0.705, 0.19, 0.949, 1874, 3, 4], [84, 196.35, 4704, "G", null, 0.196, 0.1375, 0.719, 0.164, 0.946, 1876, 3, 4], [85, 198.68, 4760, "G", null, 0.238, 0.1414, 0.765, 0.207, 0.957, 1916, 3, 4], [86, 201.01, 4816, "G", null, 0.283, 0.1415, 0.781, 0.265, 0.94, 1746, 3, 4], [87, 203.34, 4872, "G", null, 0.313, 0.1434, 0.803, 0.273, 0.946, 1733, 3, 4], [88, 205.67, 4928, "G", null, 0.29, 0.1439, 0.804, 0.244, 0.944, 1664, 3, 4], [89, 207.99, 4984, "G", null, 0.307, 0.1416, 0.8, 0.271, 0.952, 1699, 3, 4], [90, 210.32, 5040, "G", null, 0.281, 0.1407, 0.797, 0.197, 0.949, 1625, 3, 4], [91, 212.65, 5096, "G", null, 0.306, 0.1414, 0.795, 0.233, 0.939, 1707, 3, 4], [92, 214.98, 5152, "G", null, 0.277, 0.143, 0.823, 0.203, 0.948, 1669, 3, 4], [93, 217.31, 5208, "G", null, 0.289, 0.1409, 0.799, 0.217, 0.949, 1671, 3, 4], [94, 219.63, 5264, "G", null, 0.326, 0.1419, 0.837, 0.232, 0.951, 1680, 3, 4], [95, 221.96, 5320, "G", null, 0.302, 0.1425, 0.81, 0.223, 0.948, 1637, 3, 4], [96, 224.29, 5376, "G", null, 0.302, 0.141, 0.788, 0.219, 0.95, 1681, 3, 4], [97, 226.62, 5432, "G", null, 0.272, 0.1444, 0.824, 0.196, 0.95, 1704, 3, 4], [98, 228.94, 5488, "G", null, 0.297, 0.1453, 0.838, 0.191, 0.938, 1662, 3, 4], [99, 231.27, 5544, "G", null, 0.309, 0.1471, 0.854, 0.224, 0.942, 1686, 3, 4], [100, 233.6, 5600, "G", null, 0.299, 0.1447, 0.823, 0.212, 0.945, 1634, 3, 4], [101, 235.93, 5656, "G", null, 0.279, 0.1454, 0.823, 0.179, 0.95, 1639, 3, 4], [102, 238.26, 5712, "G", null, 0.304, 0.1496, 0.862, 0.2, 0.955, 1669, 3, 4], [103, 240.58, 5768, "G", null, 0.252, 0.1469, 0.814, 0.175, 0.949, 1833, 3, 4], [104, 242.91, 5824, "G", null, 0.264, 0.1442, 0.798, 0.198, 0.948, 1878, 3, 4], [105, 245.24, 5880, "G", null, 0.291, 0.1371, 0.725, 0.256, 0.957, 1865, 3, 4], [106, 247.57, 5936, "G", null, 0.335, 0.1358, 0.965, 0.156, 0.949, 1409, 3, 4], [107, 249.9, 5992, "G", null, 0.062, 0.1096, 0.639, 0.0, 0.934, 1225, 2, 2]];
+const SECS=[["INTRO", 0, 3, 0.817, 10.128, 0, 224, 0.0566, 0.046, 0.0, 0.089, 0.938, 1554, "no drums, no low end; ambience only. Onset first appears bar 3."], ["A1", 4, 11, 10.128, 28.751, 224, 672, 0.1766, 0.779, 0.858, 0.69, 0.928, 2250, "full band enters. Kick+bass+hats. Verse timbre 1."], ["A2", 12, 19, 28.751, 47.374, 672, 1120, 0.1804, 0.918, 0.876, 0.824, 0.948, 1882, "full band, verse timbre 2 (A1~A2 = -0.19: genuinely different bed)."], ["B1", 20, 27, 47.374, 65.996, 1120, 1568, 0.1422, 0.858, 0.409, 0.802, 0.927, 2053, "HOOK. Low band gated out (0.35 vs 0.90). Hats+lead only. Weightless."], ["A3", 28, 35, 65.996, 84.619, 1568, 2016, 0.1774, 0.804, 0.88, 0.746, 0.927, 2131, "full band, repeat of verse timbre 1 (A1~A3 = 0.89)."], ["A4", 36, 43, 84.619, 103.242, 2016, 2464, 0.1744, 0.914, 0.833, 0.873, 0.947, 1929, "full band, repeat of verse timbre 2 (A2~A4 = 0.98). Brightest bars of song."], ["B2", 44, 51, 103.242, 121.865, 2464, 2912, 0.1432, 0.881, 0.428, 0.822, 0.922, 2023, "HOOK repeat. Near-identical to B1 (0.99). Low band gated out again."], ["C", 52, 57, 121.865, 135.832, 2912, 3248, 0.1764, 0.823, 0.958, 0.677, 0.735, 1844, "low band at maximum; centre-ratio drops 0.945 -> 0.75. Lead steps out or widens."], ["D", 58, 65, 135.832, 154.454, 3248, 3696, 0.15, 0.043, 0.665, 0.05, 0.823, 1408, "BREAKDOWN. Hats gone (high 0.03-0.08), onset ~0. Emptiest 18.6s in the song."], ["E", 66, 69, 154.454, 163.766, 3696, 3920, 0.1748, 0.305, 0.985, 0.109, 0.83, 1480, "BUILD. Kick returns at full (low 0.96-1.00), hats still absent."], ["F", 70, 75, 163.766, 177.733, 3920, 4256, 0.178, 0.712, 0.922, 0.666, 0.937, 1932, "full band return. Shares timbre with C (0.81)."], ["G", 76, 107, 177.733, 252.223, 4256, 6048, 0.1409, 0.262, 0.778, 0.197, 0.946, 1769, "NEW MOVEMENT. Unlike every earlier section (all cosines negative; vs A4 = -0.82). Dark (centroid 1650 vs 2200), hat-less (high 0.12-0.27), centred lead present (0.94-0.96), RMS ~60% of verse. 32 bars / 74s."]];
+</script>
+<style>
+/* ---- masthead ---- */
+.mast{border-bottom:2px solid var(--ink);padding:34px 0 18px;margin-bottom:0}
+.mast-top{display:flex;justify-content:space-between;align-items:baseline;gap:24px;flex-wrap:wrap;margin-bottom:18px}
+.mast h1{font-size:clamp(30px,5.2vw,50px);line-height:1.02;text-transform:uppercase;letter-spacing:-.01em}
+.mast h1 em{font-style:normal;color:var(--ochre)}
+.mast-meta{display:flex;gap:26px;flex-wrap:wrap}
+.mast-meta div{display:flex;flex-direction:column;gap:3px}
+.mast-meta b{font-family:"JetBrains Mono",monospace;font-size:15px;font-weight:500;
+  font-variant-numeric:tabular-nums;color:var(--ink)}
+.deck{font-size:18.5px;line-height:1.55;color:var(--ink-2);max-width:60ch;margin:0}
+
+/* ---- finding ---- */
+.finding{display:grid;grid-template-columns:auto 1fr;gap:0 26px;align-items:start;
+  padding:24px 26px;margin:26px 0 34px;background:var(--surface);
+  border-left:4px solid var(--ochre);border-top:1px solid var(--rule);
+  border-right:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.finding .big{font-family:"Archivo Narrow",sans-serif;font-weight:700;font-size:58px;
+  line-height:.86;color:var(--ochre);font-variant-numeric:tabular-nums}
+.finding .big small{display:block;font-size:11px;letter-spacing:.13em;color:var(--ink-3);
+  font-family:"JetBrains Mono",monospace;font-weight:500;margin-top:8px;line-height:1.4}
+.finding p{margin:0 0 10px}
+.finding p:last-child{margin-bottom:0}
+.finding strong{font-weight:500;background:linear-gradient(transparent 62%,var(--blue-faint) 62%)}
+
+section{padding:36px 0;border-top:1px solid var(--rule)}
+section h2{font-size:13px;text-transform:uppercase;letter-spacing:.16em;color:var(--ink-3);
+  margin-bottom:6px}
+section .h2sub{font-family:"Archivo Narrow",sans-serif;font-weight:600;font-size:27px;
+  line-height:1.15;margin:0 0 16px;letter-spacing:-.005em}
+p{margin:0 0 14px}
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-top">
+      <h1>The PhD of Musk<br><em>Exposure Sheet</em></h1>
+      <div class="mast-meta mono">
+        <div><span class="lbl">Tempo</span><b>103.10 BPM</b></div>
+        <div><span class="lbl">Meter</span><b>4/4 · 108 bars</b></div>
+        <div><span class="lbl">Runtime</span><b>4:11.29</b></div>
+        <div><span class="lbl">Downbeat</span><b>0.817 s</b></div>
+      </div>
+    </div>
+    <p class="deck">Measured bar map for THE CHAPEL RING track 34, cross-checked against
+    the 60-block SCENT VECTOR cartoon treatment. Everything below is derived from the
+    audio &mdash; onset envelope, band gating, and bar-synchronous timbre similarity &mdash;
+    not from the lyric sheet.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="finding">
+    <div class="big">1:1<small>BLOCK N<br>= BAR N</small></div>
+    <div>
+      <p>The treatment is <strong>already locked to the song's bar grid</strong>. Every one of
+      the script's six section boundaries &mdash; blocks 4, 20, 28, 44, 52 and 58 &mdash; falls
+      on a boundary the audio analysis found independently. Six for six. One block is one bar
+      is 2.328 seconds.</p>
+      <p>That is not a coincidence to admire, it is a constraint to exploit: the storyboard
+      needs no re-timing. But it stops at block 60, and <strong>the song has 108 bars</strong>.
+      The iris-out lands at 2:23 with 1:48 of music still playing.</p>
+    </div>
+  </div>
+</div>
+<style>
+.strip-wrap{background:var(--surface);border:1px solid var(--rule);padding:20px 18px 12px;
+  overflow-x:auto}
+.strip-wrap svg{display:block;min-width:900px;width:100%;height:auto}
+.legend{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px;align-items:center}
+.legend span{display:inline-flex;align-items:center;gap:7px;font-family:"JetBrains Mono",monospace;
+  font-size:11px;color:var(--ink-2)}
+.swatch{width:15px;height:11px;display:inline-block;border:1px solid var(--rule)}
+#tip{position:fixed;pointer-events:none;opacity:0;transition:opacity .1s;z-index:50;
+  background:var(--ink);color:var(--ground);font-family:"JetBrains Mono",monospace;font-size:11px;
+  line-height:1.5;padding:8px 10px;white-space:pre;box-shadow:0 3px 14px rgba(0,0,0,.28)}
+</style>
+
+<section id="arrangement">
+ <div class="wrap">
+  <h2>Arrangement</h2>
+  <p class="h2sub">What the music does, bar by bar &mdash; and where the storyboard stops</p>
+  <p class="rail">Bar heights are RMS. The three lanes beneath are band gates: <b class="mono">LOW</b> is
+  kick and bass (20&ndash;180&nbsp;Hz), <b class="mono">HIGH</b> is hats and air (2&ndash;8&nbsp;kHz),
+  <b class="mono">LEAD</b> is how centred the lead element sits in the stereo field. Read them together
+  and the song's machinery is obvious: the bass drops out under both hooks, the hats vanish
+  entirely in the breakdown, and the lead steps out of the centre exactly once.</p>
+  <div class="strip-wrap"><svg id="strip" viewBox="0 0 1124 300" role="img"
+    aria-label="Bar-by-bar arrangement of The PhD of Musk showing energy, band gating and storyboard coverage"></svg></div>
+  <div class="legend">
+    <span><i class="swatch" style="background:var(--blue)"></i>bar energy / band level</span>
+    <span><i class="swatch" style="background:var(--ochre)"></i>storyboarded &mdash; blocks 1&ndash;60</span>
+    <span><i class="swatch" id="lg-gap"></i>no storyboard &mdash; 48 bars</span>
+  </div>
+ </div>
+</section>
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+ const S=document.getElementById('strip'), NS='http://www.w3.org/2000/svg';
+ const X0=58, X1=1116, W=X1-X0, BW=W/108, RW=BW-1.6;
+ const el=(n,a)=>{const e=document.createElementNS(NS,n);for(const k in a)e.setAttribute(k,a[k]);return e;};
+ const defs=el('defs',{});
+ defs.innerHTML='<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">'+
+   '<rect width="6" height="6" fill="var(--surface)"/><line x1="0" y1="0" x2="0" y2="6" stroke="var(--red)" stroke-width="2.4"/></pattern>';
+ S.appendChild(defs);
+ const maxR=Math.max(...BARS.map(b=>b[6]));
+ const LEAD_MIN=Math.min(...BARS.map(b=>b[9])), LEAD_MAX=Math.max(...BARS.map(b=>b[9]));
+ const TOP=22, BH=108;                     // energy plot
+ const LANE=[{y:150,k:7,n:'LOW'},{y:166,k:8,n:'HIGH'},{y:182,k:9,n:'LEAD'}];
+ const COV=206, COVH=17;
+ // lane labels
+ LANE.forEach(L=>{const t=el('text',{x:X0-8,y:L.y+9.5,'text-anchor':'end',
+   fill:'var(--ink-3)','font-family':'JetBrains Mono, monospace','font-size':'9.5',
+   'letter-spacing':'.1em'});t.textContent=L.n;S.appendChild(t);});
+ [['ENERGY',TOP+BH-2],['SCRIPT',COV+12.5]].forEach(([n,y])=>{
+   const t=el('text',{x:X0-8,y:y,'text-anchor':'end',fill:'var(--ink-3)',
+   'font-family':'JetBrains Mono, monospace','font-size':'9.5','letter-spacing':'.1em'});
+   t.textContent=n;S.appendChild(t);});
+ // baseline
+ S.appendChild(el('line',{x1:X0,y1:TOP+BH,x2:X1,y2:TOP+BH,stroke:'var(--rule)','stroke-width':1}));
+ BARS.forEach(b=>{
+   const x=X0+b[0]*BW;
+   const h=Math.max(1.5,(b[6]/maxR)*BH);
+   S.appendChild(el('rect',{x:x.toFixed(2),y:(TOP+BH-h).toFixed(2),width:RW.toFixed(2),
+     height:h.toFixed(2),fill:'var(--blue)',rx:1.5}));
+   LANE.forEach(L=>{
+     let v=b[L.k];
+     if(L.k===9) v=(v-LEAD_MIN)/(LEAD_MAX-LEAD_MIN);   // centre-ratio spans 0.69-0.96 only
+     v=Math.max(0,Math.min(1,v));
+     S.appendChild(el('rect',{x:x.toFixed(2),y:L.y,width:RW.toFixed(2),height:12,
+       fill:'var(--blue)','fill-opacity':(0.08+0.92*v).toFixed(3),rx:1}));
+   });
+   S.appendChild(el('rect',{x:x.toFixed(2),y:COV,width:RW.toFixed(2),height:COVH,
+     fill:b[4]!==null?'var(--ochre)':'url(#hatch)',
+     stroke:b[4]!==null?'none':'var(--red)','stroke-width':b[4]!==null?0:.6,rx:1}));
+   // hit target
+   const hit=el('rect',{x:x.toFixed(2),y:TOP-8,width:BW.toFixed(2),height:COV+COVH-TOP+10,
+     fill:'transparent'});
+   hit.addEventListener('pointerenter',e=>{
+     const T=document.getElementById('tip');
+     T.textContent='bar '+b[0]+'   '+fmt(b[1])+'   frame '+b[2]+'\n'+b[3]+
+       (b[4]!==null?'   block '+String(b[4]).padStart(2,'0'):'   NO BLOCK')+
+       '\nlow '+b[7].toFixed(2)+'  high '+b[8].toFixed(2)+'  lead '+b[9].toFixed(3)+
+       '\nkeys '+b[11]+'   planes '+b[12];
+     T.style.opacity=1;
+   });
+   hit.addEventListener('pointermove',e=>{const T=document.getElementById('tip');
+     T.style.left=Math.min(e.clientX+14,innerWidth-215)+'px';T.style.top=(e.clientY+16)+'px';});
+   hit.addEventListener('pointerleave',()=>{document.getElementById('tip').style.opacity=0;});
+   S.appendChild(hit);
+ });
+ function fmt(t){const m=Math.floor(t/60),s=t-m*60;return m+':'+(s<10?'0':'')+s.toFixed(2);}
+ // section rules + labels
+ const lastEnd=[0,0];
+ SECS.forEach((s,i)=>{
+   const x=X0+s[1]*BW, xe=X0+(s[2]+1)*BW;
+   S.appendChild(el('line',{x1:x,y1:TOP-31,x2:x,y2:COV+COVH+4,stroke:'var(--rule-blue)',
+     'stroke-width':1,'stroke-dasharray':'2 3'}));
+   const w=s[0].length*7.2+8;
+   const row=(x<lastEnd[0])?1:0;
+   const t=el('text',{x:x+3,y:(row?TOP-14:TOP-27),fill:'var(--ink-2)',
+     'font-family':'Archivo Narrow, sans-serif',
+     'font-size':'11','font-weight':'700','letter-spacing':'.06em'});
+   t.textContent=s[0];S.appendChild(t);
+   lastEnd[row]=x+w;
+   const n=el('text',{x:(x+xe)/2,y:COV+COVH+18,'text-anchor':'middle',fill:'var(--ink-3)',
+     'font-family':'JetBrains Mono, monospace','font-size':'9'});
+   n.textContent=(s[2]-s[1]+1)+'bar';
+   if(xe-x>34) S.appendChild(n);
+ });
+ S.appendChild(el('line',{x1:X0,y1:COV+COVH+4,x2:X1,y2:COV+COVH+4,stroke:'var(--rule)','stroke-width':1}));
+ // time axis
+ for(let m=0;m<=4;m++){
+   const t=m*60, bar=(t-0.817)/2.32787;
+   if(bar<0) continue;
+   const x=X0+Math.max(0,bar)*BW;
+   S.appendChild(el('line',{x1:x,y1:262,x2:x,y2:268,stroke:'var(--ink-3)','stroke-width':1}));
+   const l=el('text',{x:x,y:282,'text-anchor':'middle',fill:'var(--ink-3)',
+     'font-family':'JetBrains Mono, monospace','font-size':'10'});
+   l.textContent=m+':00';S.appendChild(l);
+ }
+ S.appendChild(el('line',{x1:X0,y1:262,x2:X1,y2:262,stroke:'var(--rule)','stroke-width':1}));
+ // legend gap swatch
+ const g=document.getElementById('lg-gap');
+ g.style.background='repeating-linear-gradient(45deg,var(--surface) 0 2px,var(--red) 2px 4px)';
+})();
+</script>
+<style>
+table{border-collapse:collapse;width:100%;font-family:"JetBrains Mono",monospace;font-size:12px;
+  font-variant-numeric:tabular-nums}
+th{text-align:left;font-weight:500;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--ink-3);padding:0 10px 7px;border-bottom:1.5px solid var(--ink);white-space:nowrap}
+td{padding:6px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+.sectbl td:nth-child(-n+4){white-space:nowrap}
+.sectbl td:last-child{font-family:"Newsreader",serif;font-size:14px;line-height:1.45;color:var(--ink-2)}
+.tag{display:inline-block;padding:1px 6px;font-size:10px;letter-spacing:.06em;
+  border:1px solid currentColor;font-weight:500}
+.t-full{color:var(--blue)} .t-gate{color:var(--ochre)} .t-empty{color:var(--ink-3)} .t-new{color:var(--red)}
+.scroller{max-height:520px;overflow:auto;border:1px solid var(--rule);background:var(--surface)}
+.scroller table{font-size:11.5px}
+.scroller th{position:sticky;top:0;background:var(--surface);z-index:2;padding:9px 9px 8px}
+.scroller td{padding:4px 9px}
+.xrow-gap{background:var(--hatch)}
+.mini{display:inline-block;height:8px;background:var(--blue);vertical-align:middle;min-width:1px}
+.conform{display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);margin:18px 0 6px}
+.conform div{background:var(--surface);padding:13px 15px}
+.conform b{display:block;font-family:"JetBrains Mono",monospace;font-size:19px;font-weight:500;
+  color:var(--ink);margin-top:5px;font-variant-numeric:tabular-nums}
+ol.proto{counter-reset:p;list-style:none;padding:0;margin:0;max-width:70ch}
+ol.proto li{counter-increment:p;position:relative;padding:0 0 18px 46px;margin:0}
+ol.proto li::before{content:counter(p,decimal-leading-zero);position:absolute;left:0;top:1px;
+  font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--ochre);font-weight:700;
+  letter-spacing:.06em}
+ol.proto b{font-family:"Archivo Narrow",sans-serif;font-size:17px;font-weight:600;display:block;
+  margin-bottom:3px}
+pre{background:var(--surface);border:1px solid var(--rule);padding:16px 18px;overflow-x:auto;
+  font-family:"JetBrains Mono",monospace;font-size:11.5px;line-height:1.65;margin:0;color:var(--ink-2)}
+pre b{color:var(--ink);font-weight:500}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+@media(max-width:760px){.two{grid-template-columns:1fr;gap:22px}}
+.opt{border-top:2px solid var(--ink);padding-top:12px}
+.opt h4{font-family:"Archivo Narrow",sans-serif;font-size:18px;font-weight:600;margin:0 0 6px}
+.opt .rec{color:var(--ochre);font-family:"JetBrains Mono",monospace;font-size:10px;
+  letter-spacing:.12em;font-weight:700}
+</style>
+
+<section>
+ <div class="wrap">
+  <h2>Sections</h2>
+  <p class="h2sub">Twelve measured sections, ten of which the script already knows about</p>
+  <table class="sectbl"><thead><tr>
+    <th>ID</th><th>Bars</th><th>Time</th><th>Frames</th><th>State</th><th>Blocks</th><th>What it does</th>
+  </tr></thead><tbody id="sectbody"></tbody></table>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Conform</h2>
+  <p class="h2sub">Put the song on an integer frame grid before a single drawing is made</p>
+  <p class="rail">At 103.10&nbsp;BPM a beat is 13.967 frames at 24&nbsp;fps &mdash; not an integer, so a
+  bar-locked board drifts. By the last bar the error reaches 14.5 frames, over half a second.
+  Slow the master by <b class="mono">0.235%</b> and every beat becomes exactly 14 frames.
+  The stretch is far below the threshold of audibility and it makes every downbeat land on a
+  whole frame for the entire song.</p>
+  <div class="conform">
+    <div><span class="lbl">Stretch ratio</span><b>1.002361&times;</b></div>
+    <div><span class="lbl">Conformed tempo</span><b>102.8571</b></div>
+    <div><span class="lbl">Frames / beat</span><b>14</b></div>
+    <div><span class="lbl">Frames / bar</span><b>56</b></div>
+    <div><span class="lbl">Frames / 8-bar</span><b>448</b></div>
+    <div><span class="lbl">Total frames</span><b>6048</b></div>
+  </div>
+  <p class="rail" style="margin-top:16px">One block gets 56 frames. On twos that is 28 drawings for a
+  complete anticipation&ndash;action&ndash;impact&ndash;hold&ndash;settle cycle &mdash; which is exactly
+  one gag, which is exactly how the treatment is already written.</p>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Exposure sheet</h2>
+  <p class="h2sub">All 108 bars, with block assignment and per-bar budget</p>
+  <p class="rail"><b class="mono">KEYS</b> and <b class="mono">PLANES</b> are budgets derived from the
+  measured onset density of that bar: how many key poses the music will actually carry, and how many
+  multiplane layers should be in motion. Sparse bars get holds and two planes; dense bars carry five
+  keys and the full seven-plane stack. Hatched rows have no block written for them.</p>
+  <div class="scroller"><table><thead><tr>
+    <th>BAR</th><th>TIME</th><th>FRAME</th><th>SEC</th><th>BLOCK</th>
+    <th>LOW</th><th>HIGH</th><th>LEAD</th><th>KEYS</th><th>PL</th><th style="width:88px">ENERGY</th>
+  </tr></thead><tbody id="xsheet"></tbody></table></div>
+ </div>
+</section>
+
+<script>
+(function(){
+ const STATE={INTRO:['t-empty','sparse'],A1:['t-full','full band'],A2:['t-full','full band'],
+  B1:['t-gate','bass gated'],A3:['t-full','full band'],A4:['t-full','full band'],
+  B2:['t-gate','bass gated'],C:['t-full','lead out'],D:['t-empty','breakdown'],
+  E:['t-empty','build'],F:['t-full','full band'],G:['t-new','new']};
+ const BLK={INTRO:'01–03',A1:'04–11',A2:'12–19',B1:'20–27',A3:'28–35',A4:'36–43',B2:'44–51',
+  C:'52–57',D:'58–60 +5 empty',E:'—',F:'—',G:'—'};
+ const fmt=t=>{const m=Math.floor(t/60),s=t-m*60;return m+':'+(s<10?'0':'')+s.toFixed(2);};
+ document.getElementById('sectbody').innerHTML=SECS.map(s=>{
+   const st=STATE[s[0]]||['t-empty','—'];
+   return '<tr><td><b>'+s[0]+'</b></td><td>'+s[1]+'–'+s[2]+'</td><td>'+fmt(s[3])+'</td>'+
+   '<td>'+s[5]+'–'+s[6]+'</td><td><span class="tag '+st[0]+'">'+st[1]+'</span></td>'+
+   '<td>'+BLK[s[0]]+'</td><td>'+s[13]+'</td></tr>';}).join('');
+ const maxR=Math.max(...BARS.map(b=>b[6]));
+ document.getElementById('xsheet').innerHTML=BARS.map(b=>{
+   const gap=b[4]===null;
+   return '<tr class="'+(gap?'xrow-gap':'')+'"><td>'+String(b[0]).padStart(3,'0')+'</td>'+
+   '<td>'+fmt(b[1])+'</td><td>'+b[2]+'</td><td>'+b[3]+'</td>'+
+   '<td>'+(gap?'<span style="color:var(--red)">— none —</span>':'<b>'+String(b[4]).padStart(2,'0')+'</b>')+'</td>'+
+   '<td>'+b[7].toFixed(2)+'</td><td>'+b[8].toFixed(2)+'</td><td>'+b[9].toFixed(3)+'</td>'+
+   '<td>'+b[11]+'</td><td>'+b[12]+'</td>'+
+   '<td><i class="mini" style="width:'+(b[6]/maxR*82).toFixed(1)+'px"></i></td></tr>';}).join('');
+})();
+</script>
+<section>
+ <div class="wrap">
+  <h2>The gap</h2>
+  <p class="h2sub">48 bars &mdash; 1 minute 52 &mdash; with nothing written for them</p>
+  <p class="rail">Blocks 1&ndash;60 cover bars 1&ndash;60. The song runs to bar 107. Bar 61 begins at
+  <b class="mono">2:22.8</b>; the track ends at <b class="mono">4:11.3</b>. The current OUTRO
+  (blocks 58&ndash;60, &ldquo;You brought concepts / I brought hunger / Guess which one found
+  dinner&rdquo;) lands inside the breakdown &mdash; the emptiest 18 seconds in the song, hats gone,
+  onset near zero. As a place to drop the punchline that is superb. As a place to iris out it is
+  45% too early.</p>
+  <p class="rail">The back half is not filler. Section <b class="mono">G</b> &mdash; bars 76&ndash;107,
+  74 seconds &mdash; is timbrally unlike every earlier section in the song (cosine similarity to the
+  verse bed is &minus;0.82). It is darker, the hats are gone, and a centred lead runs all the way
+  through it. Whatever it is, it is a whole third movement the treatment never saw.</p>
+  <div class="two" style="margin-top:26px">
+   <div class="opt">
+    <span class="rec">RECOMMENDED</span>
+    <h4>Extend, don't redistribute</h4>
+    <p>Keep block&nbsp;N&nbsp;=&nbsp;bar&nbsp;N exactly as written and author 47 new bars. The treatment
+    already carries the grammar for it: blocks 44&ndash;51 are explicit REPRISE variants of 20&ndash;27,
+    so the reprise logic is established. D/E/F (bars 58&ndash;75) become the climax the breakdown is
+    obviously built for, and G becomes a wordless 32-bar coda &mdash; the one stretch where the film
+    can stop making jokes and just follow the nose.</p>
+   </div>
+   <div class="opt">
+    <h4>Or cut the song</h4>
+    <p>Edit the master to end at bar 60 for a 2:25 video. Bars 58&ndash;65 are already a breakdown,
+    so an ending built there needs only a tail, not a fabricated fade. This is the cheap option and it
+    is not a bad one &mdash; but it throws away the strongest structural gift the track offers, which is
+    that the breakdown arrives <em>before</em> the ending rather than at it.</p>
+   </div>
+  </div>
+  <p class="rail" style="margin-top:24px"><b>Do not</b> spread 60 blocks evenly across 108 bars. That
+  puts 1.8 bars under each gag, destroys the 1:1 lock, and moves all six section boundaries off the
+  music. The alignment is the asset; stretching it is the one move that spends it for nothing.</p>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Reasoning protocol</h2>
+  <p class="h2sub">The order a model should work in, and what to check at each step</p>
+  <ol class="proto">
+   <li><b>Take the grid as given, not as a variable.</b> Bar <span class="mono">n</span> starts at frame
+   <span class="mono">56n</span> in conformed time. Never re-derive tempo, never re-time a block that
+   already has a bar. If a proposed gag does not fit 56 frames, cut the gag, not the bar.</li>
+   <li><b>Read the bar's measured state before writing its action.</b> Each row carries LOW, HIGH, LEAD,
+   KEYS and PLANES. A bar with LOW&nbsp;&lt;&nbsp;0.45 has no bass under it &mdash; that is where weight
+   gags fail and float gags land. A bar with HIGH&nbsp;&lt;&nbsp;0.10 has no hats &mdash; fast cutting
+   there reads as noise; hold instead.</li>
+   <li><b>Respect the section's identity, not just its energy.</b> A2 and A4 are the same bed (0.98).
+   B1 and B2 are the same bed (0.99). Anything staged on B1 has a guaranteed rhyme available at B2
+   sixteen bars later, and the treatment already uses it. G rhymes with nothing, so it must not
+   reprise &mdash; it is the one section that has to introduce.</li>
+   <li><b>Author the 47 missing bars against the same schema.</b> Every new block needs the fields the
+   existing 60 have: a CINEOSIS operation, a physical action, keys, and a multiplane assignment. Then
+   check it against the budget in its row rather than against taste.</li>
+   <li><b>Keep the running gags on a schedule, not a whim.</b> The bent blade of grass, the sardine tin,
+   the fishbone grin and the nose-as-compass are the film's only continuity. Place each recurrence on a
+   named bar and verify the spacing is legible &mdash; a callback closer than 8 bars reads as a
+   continuity error, further than 32 reads as a new object.</li>
+   <li><b>Validate the whole board before rendering anything.</b> Every bar 0&ndash;107 has exactly one
+   block; no block spans a section boundary; total frames equals 6048; every gag's key count is at or
+   under its row's budget. Any failure is a board error, not a rendering problem.</li>
+  </ol>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <h2>Machine contract</h2>
+  <p class="h2sub">The shape a downstream model receives</p>
+  <p class="rail">The full 108-bar table ships as JSON alongside this sheet at
+  <span class="mono">VOLHOLLA/trailers/phd-of-musk.orchestration.json</span>. Every bar carries its
+  measured state and its budget, so a model can reason over the row instead of guessing at the music.</p>
+  <pre><b>{ "song": {</b>
+    "bpm_measured": 103.10,  "bar_s": 2.32787,  "downbeat_s": 0.817,  "bars": 108,
+    "conform": { "stretch_ratio": 1.002361, "frames_per_bar": 56, "total_frames": 6048 }
+  <b>},
+  "sections": [</b> { "id", "bar_in", "bar_out", "t_in", "frame_in",
+                  "rms", "onset_norm", "low_norm", "high_norm",
+                  "centre_ratio", "centroid_hz", "desc" } <b>],
+  "bars": [</b> { "bar": 20,          "t": 47.37,      "frame_in": 1120,
+              "section": "B1",    "block": 20,     "script_section": "HOOK I",
+              "low": 0.35,        "high": 0.59,    "centre": 0.906,
+              "key_budget": 4,    "multiplane_layers": 7 } <b>]
+}</b></pre>
+  <p class="rail" style="margin-top:18px"><span class="lbl">Method</span><br>
+  Tempo from spectral-flux onset autocorrelation; downbeat by phase search over the flux envelope.
+  Section boundaries from a checkerboard-kernel novelty curve on a bar-synchronous log-mel
+  self-similarity matrix, confirmed against low- and high-band gating. <b>LEAD</b> is the ratio of
+  mid-channel to mid-plus-side energy in the 250&ndash;3800&nbsp;Hz band &mdash; it detects a centred
+  lead element, not specifically a voice. Section C's drop to 0.735 means the lead leaves the centre
+  there; whether it stops or merely widens is the one thing on this sheet that wants a human ear.</p>
+ </div>
+</section>
+
+<footer style="border-top:2px solid var(--ink);padding:22px 0 42px;margin-top:8px">
+ <div class="wrap" style="display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap">
+  <span class="lbl">THE CHAPEL RING &middot; TRACK 34 OF 42 &middot; SCENT VECTOR TREATMENT</span>
+  <span class="lbl">108 BARS &middot; 6048 FRAMES &middot; 60 BLOCKS PLACED &middot; 47 OPEN</span>
+ </div>
+</footer>
