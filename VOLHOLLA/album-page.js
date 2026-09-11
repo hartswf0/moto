@@ -2906,7 +2906,7 @@
       subtitle: "Meskerem calendars / movable zeros / one-sun transmissions",
       accentA: "#f47a16",
       accentB: "#8b5a24",
-      coverImage: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+      coverImage: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
       defaultTrackArt: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
       trackArtByIndex: {
         0: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
@@ -2928,9 +2928,7 @@
         16: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
         17: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
         18: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
-        19: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
-        20: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
-        21: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png"
+        19: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png"
       },
       hallKey: "whowrotesun",
       op2Key: "whowrotesun",
@@ -2938,7 +2936,6 @@
       files: [
         "Who Wrote Down the Sun - Addis Add This - Treblo.ogg",
         "Who Wrote Down the Sun - Before Rome Lay the Roots - Treblo.ogg",
-        "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo (1).ogg",
         "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo.ogg",
         "Who Wrote Down the Sun - Meskerem (Nine-Eleven) - Treblo.ogg",
         "Who Wrote Down the Sun - Meskerem One - Treblo.ogg",
@@ -2954,7 +2951,6 @@
         "Who Wrote Down the Sun - መስከረም አንድ (Meskerem One) - Treblo.ogg",
         "Who Wrote Down the Sun - ቆጠራውን እንደገና ጀምር - Treblo.ogg",
         "Who Wrote Down the Sun - አንድ ፀሐይ _ One Sun - Treblo.ogg",
-        "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo (1).ogg",
         "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo.ogg",
         "Who Wrote Down the Sun - ጊሩን መልሺው - Treblo.ogg",
         "Who Wrote Down the Sun - ጊዜን መልስ (Rewind the Time) - Treblo.ogg"
