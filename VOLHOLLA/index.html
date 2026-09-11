@@ -1406,6 +1406,7 @@
     .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^polliwog station\s*-\s*/i, "")
     .replace(/^last week of august\s*-\s*/i, "")
+    .replace(/^who wrote down the sun\s*-\s*/i, "")
     .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
         .replace(/^empty are the fields\s*-\s*/i, "")
@@ -3647,6 +3648,65 @@
         ]
       },
       {
+        key: "whowrotesun",
+        label: "WHO WROTE DOWN THE SUN",
+        pageSlug: "who-wrote-down-the-sun",
+        description: "Meskerem calendars / movable zeros / one-sun transmissions",
+        accentA: "#f47a16",
+        accentB: "#8b5a24",
+        coverImage: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        defaultTrackArt: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        trackArtByIndex: {
+          0: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          1: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          2: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          3: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          4: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          5: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          6: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          7: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          8: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          9: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          10: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          11: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          12: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          13: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          14: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          15: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          16: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          17: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          18: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+          19: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+          20: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+          21: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png"
+        },
+        basePath: "../WHO WROTE DOWN THE SUN/",
+        files: [
+          "Who Wrote Down the Sun - Addis Add This - Treblo.ogg",
+          "Who Wrote Down the Sun - Before Rome Lay the Roots - Treblo.ogg",
+          "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo (1).ogg",
+          "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo.ogg",
+          "Who Wrote Down the Sun - Meskerem (Nine-Eleven) - Treblo.ogg",
+          "Who Wrote Down the Sun - Meskerem One - Treblo.ogg",
+          "Who Wrote Down the Sun - One Sun, Many Zeros - Treblo.ogg",
+          "Who Wrote Down the Sun - Same Morning - Treblo.ogg",
+          "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo (1).ogg",
+          "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo.ogg",
+          "Who Wrote Down the Sun - Two Clocks - Treblo.ogg",
+          "Who Wrote Down the Sun - Two Names One Sun - Treblo.ogg",
+          "Who Wrote Down the Sun - Zero & Meskerem - Treblo.ogg",
+          "Who Wrote Down the Sun - መልካም አዲስ ዓመት (Happy New Year) - Treblo.ogg",
+          "Who Wrote Down the Sun - መስከረም አንድ (Meskerem 1) - Treblo.ogg",
+          "Who Wrote Down the Sun - መስከረም አንድ (Meskerem One) - Treblo.ogg",
+          "Who Wrote Down the Sun - ቆጠራውን እንደገና ጀምር - Treblo.ogg",
+          "Who Wrote Down the Sun - አንድ ፀሐይ _ One Sun - Treblo.ogg",
+          "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo (1).ogg",
+          "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo.ogg",
+          "Who Wrote Down the Sun - ጊሩን መልሺው - Treblo.ogg",
+          "Who Wrote Down the Sun - ጊዜን መልስ (Rewind the Time) - Treblo.ogg"
+        ]
+      },
+      {
         key: "southernnoise",
         label: "A MILLION LITTLE SOULS",
         pageSlug: "a-million-little-souls",
@@ -4116,6 +4176,8 @@
             ? "polliwog"
           : requestedRaw === "lastweekaugust" || requestedRaw === "lastweek" || requestedRaw === "august" || requestedRaw === "last-week-of-august" || requestedRaw === "last_week_of_august" || requestedRaw === "last week of august" || requestedRaw === "lwoa"
             ? "lastweekaugust"
+          : requestedRaw === "whowrotesun" || requestedRaw === "who-wrote-down-the-sun" || requestedRaw === "who_wrote_down_the_sun" || requestedRaw === "who wrote down the sun" || requestedRaw === "wrote-down-the-sun"
+            ? "whowrotesun"
           : requestedRaw === "southernnoise" || requestedRaw === "southern" || requestedRaw === "noise" || requestedRaw === "catharsis" || requestedRaw === "southern-noise-catharsis" || requestedRaw === "a-million-little-souls" || requestedRaw === "souls" || requestedRaw === "snc"
             ? "southernnoise"
           : requestedRaw === "coatvectors" || requestedRaw === "coat" || requestedRaw === "vectors" || requestedRaw === "coat-of-many-vectors" || requestedRaw === "coat-of-many-808s" || requestedRaw === "808s" || requestedRaw === "comv"

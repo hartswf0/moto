@@ -1611,6 +1611,37 @@
                     "Last Week of August - Sterile Tongues - Treblo.ogg"
                 ]
             },
+            whowrotesun: {
+                key: 'whowrotesun',
+                label: 'WHO WROTE DOWN THE SUN',
+                short: 'SUN',
+                basePath: 'WHO WROTE DOWN THE SUN/',
+                logic: 'Movable Zero Relay',
+                files: [
+                    "Who Wrote Down the Sun - Addis Add This - Treblo.ogg",
+                    "Who Wrote Down the Sun - Before Rome Lay the Roots - Treblo.ogg",
+                    "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo (1).ogg",
+                    "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo.ogg",
+                    "Who Wrote Down the Sun - Meskerem (Nine-Eleven) - Treblo.ogg",
+                    "Who Wrote Down the Sun - Meskerem One - Treblo.ogg",
+                    "Who Wrote Down the Sun - One Sun, Many Zeros - Treblo.ogg",
+                    "Who Wrote Down the Sun - Same Morning - Treblo.ogg",
+                    "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo (1).ogg",
+                    "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo.ogg",
+                    "Who Wrote Down the Sun - Two Clocks - Treblo.ogg",
+                    "Who Wrote Down the Sun - Two Names One Sun - Treblo.ogg",
+                    "Who Wrote Down the Sun - Zero & Meskerem - Treblo.ogg",
+                    "Who Wrote Down the Sun - መልካም አዲስ ዓመት (Happy New Year) - Treblo.ogg",
+                    "Who Wrote Down the Sun - መስከረም አንድ (Meskerem 1) - Treblo.ogg",
+                    "Who Wrote Down the Sun - መስከረም አንድ (Meskerem One) - Treblo.ogg",
+                    "Who Wrote Down the Sun - ቆጠራውን እንደገና ጀምር - Treblo.ogg",
+                    "Who Wrote Down the Sun - አንድ ፀሐይ _ One Sun - Treblo.ogg",
+                    "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo (1).ogg",
+                    "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo.ogg",
+                    "Who Wrote Down the Sun - ጊሩን መልሺው - Treblo.ogg",
+                    "Who Wrote Down the Sun - ጊዜን መልስ (Rewind the Time) - Treblo.ogg"
+                ]
+            },
             southernnoise: {
                 key: "southernnoise",
                 label: "A MILLION LITTLE SOULS",
@@ -2425,6 +2456,7 @@
                 .replace(/^marea memory\s*-\s*/i, '')
                 .replace(/^polliwog station\s*-\s*/i, '')
                 .replace(/^last week of august\s*-\s*/i, '')
+                .replace(/^who wrote down the sun\s*-\s*/i, '')
                 .replace(/^southern noise catharsis\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
@@ -2495,6 +2527,7 @@
             if (v === 'mareamemory' || v === 'marea' || v === 'memory' || v === 'marea-memory' || v === 'marea_memory' || v === 'marea memory' || v === 'mm') return 'mareamemory';
             if (v === 'polliwog' || v === 'polliwogstation' || v === 'polliwog-station' || v === 'polliwog_station' || v === 'polliwog station' || v === 'frogstation') return 'polliwog';
             if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
+            if (v === 'whowrotesun' || v === 'who-wrote-down-the-sun' || v === 'who_wrote_down_the_sun' || v === 'who wrote down the sun' || v === 'wrote-down-the-sun') return 'whowrotesun';
             if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
             if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
             if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';

@@ -2594,6 +2594,68 @@
         "Last Week of August - Sterile Tongues - Treblo.ogg"
       ]
     },
+    whowrotesun: {
+      key: "whowrotesun",
+      pageSlug: "who-wrote-down-the-sun",
+      basePath: "../WHO WROTE DOWN THE SUN/",
+      label: "WHO WROTE DOWN THE SUN",
+      subtitle: "Meskerem calendars / movable zeros / one-sun transmissions",
+      accentA: "#f47a16",
+      accentB: "#8b5a24",
+      coverImage: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+      defaultTrackArt: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+      trackArtByIndex: {
+        0: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        1: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        2: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        3: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        4: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        5: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        6: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        7: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        8: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        9: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        10: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        11: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        12: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        13: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        14: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        15: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        16: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        17: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        18: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png",
+        19: "../WHO WROTE DOWN THE SUN/image-gen-2(20260911-223735).png",
+        20: "../WHO WROTE DOWN THE SUN/image-gen-7(20260911-222926).png",
+        21: "../WHO WROTE DOWN THE SUN/image-gen-4(20260911-223738).png"
+      },
+      hallKey: "whowrotesun",
+      op2Key: "whowrotesun",
+      op2Pair: "lastweekaugust",
+      files: [
+        "Who Wrote Down the Sun - Addis Add This - Treblo.ogg",
+        "Who Wrote Down the Sun - Before Rome Lay the Roots - Treblo.ogg",
+        "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo (1).ogg",
+        "Who Wrote Down the Sun - Enkutatash in the Cold - Treblo.ogg",
+        "Who Wrote Down the Sun - Meskerem (Nine-Eleven) - Treblo.ogg",
+        "Who Wrote Down the Sun - Meskerem One - Treblo.ogg",
+        "Who Wrote Down the Sun - One Sun, Many Zeros - Treblo.ogg",
+        "Who Wrote Down the Sun - Same Morning - Treblo.ogg",
+        "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo (1).ogg",
+        "Who Wrote Down the Sun - Same Sun, Different Zero - Treblo.ogg",
+        "Who Wrote Down the Sun - Two Clocks - Treblo.ogg",
+        "Who Wrote Down the Sun - Two Names One Sun - Treblo.ogg",
+        "Who Wrote Down the Sun - Zero & Meskerem - Treblo.ogg",
+        "Who Wrote Down the Sun - መልካም አዲስ ዓመት (Happy New Year) - Treblo.ogg",
+        "Who Wrote Down the Sun - መስከረም አንድ (Meskerem 1) - Treblo.ogg",
+        "Who Wrote Down the Sun - መስከረም አንድ (Meskerem One) - Treblo.ogg",
+        "Who Wrote Down the Sun - ቆጠራውን እንደገና ጀምር - Treblo.ogg",
+        "Who Wrote Down the Sun - አንድ ፀሐይ _ One Sun - Treblo.ogg",
+        "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo (1).ogg",
+        "Who Wrote Down the Sun - ዐሥራ ሦስቱ ወራት - Treblo.ogg",
+        "Who Wrote Down the Sun - ጊሩን መልሺው - Treblo.ogg",
+        "Who Wrote Down the Sun - ጊዜን መልስ (Rewind the Time) - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -2890,6 +2952,7 @@
     .replace(/^marea memory\s*-\s*/i, "")
     .replace(/^polliwog station\s*-\s*/i, "")
       .replace(/^last week of august\s*-\s*/i, "")
+      .replace(/^who wrote down the sun\s*-\s*/i, "")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
@@ -3048,6 +3111,9 @@
     }
     if (raw === "lastweekaugust" || raw === "lastweek" || raw === "august" || raw === "last-week-of-august" || raw === "last_week_of_august" || raw === "last week of august" || raw === "lwoa") {
       return "lastweekaugust";
+    }
+    if (raw === "whowrotesun" || raw === "who-wrote-down-the-sun" || raw === "who_wrote_down_the_sun" || raw === "who wrote down the sun" || raw === "wrote-down-the-sun") {
+      return "whowrotesun";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";
