@@ -2652,6 +2652,68 @@
         "Who Wrote Down the Sun - ጊዜን መልስ (Rewind the Time) - Treblo.ogg"
       ]
     },
+    operativeironweed: {
+      key: "operativeironweed",
+      pageSlug: "operative-ironweed",
+      basePath: "../Operative Ironweed/",
+      label: "OPERATIVE IRONWEED",
+      subtitle: "River systems / future-tense soul / operative field transmissions",
+      accentA: "#ff5b61",
+      accentB: "#e7efef",
+      coverImage: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+      defaultTrackArt: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+      trackArtByIndex: {
+        0: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+        1: "../Operative Ironweed/image-gen-10(20260916-192722).png",
+        2: "../Operative Ironweed/image-gen-7(20260916-192719).png",
+        3: "../Operative Ironweed/image-gen-2(20260916-192714).png",
+        4: "../Operative Ironweed/image-gen-1(20260916-191743).png",
+        5: "../Operative Ironweed/image-gen-4(20260916-191615).png",
+        6: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+        7: "../Operative Ironweed/image-gen-10(20260916-192722).png",
+        8: "../Operative Ironweed/image-gen-7(20260916-192719).png",
+        9: "../Operative Ironweed/image-gen-2(20260916-192714).png",
+        10: "../Operative Ironweed/image-gen-1(20260916-191743).png",
+        11: "../Operative Ironweed/image-gen-4(20260916-191615).png",
+        12: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+        13: "../Operative Ironweed/image-gen-10(20260916-192722).png",
+        14: "../Operative Ironweed/image-gen-7(20260916-192719).png",
+        15: "../Operative Ironweed/image-gen-2(20260916-192714).png",
+        16: "../Operative Ironweed/image-gen-1(20260916-191743).png",
+        17: "../Operative Ironweed/image-gen-4(20260916-191615).png",
+        18: "../Operative Ironweed/image-gen-4(20260916-192857).png",
+        19: "../Operative Ironweed/image-gen-10(20260916-192722).png",
+        20: "../Operative Ironweed/image-gen-7(20260916-192719).png",
+        21: "../Operative Ironweed/image-gen-2(20260916-192714).png"
+      },
+      hallKey: "operativeironweed",
+      op2Key: "operativeironweed",
+      op2Pair: "whowrotesun",
+      files: [
+        "Operative Ironweed - A Perfectly Controlled River - Treblo.ogg",
+        "Operative Ironweed - Add Some Damage - Treblo.ogg",
+        "Operative Ironweed - Carry You Home - Treblo.ogg",
+        "Operative Ironweed - Disturbed Ground & Future Tense - Treblo.ogg",
+        "Operative Ironweed - Disturbed Ground - Treblo.ogg",
+        "Operative Ironweed - Empty Pocket - Treblo.ogg",
+        "Operative Ironweed - Four Small Words Around a Border - Treblo.ogg",
+        "Operative Ironweed - Future Tense (Continuous)- Treblo.ogg",
+        "Operative Ironweed - Future Tense (Perfect) - Treblo copy.ogg",
+        "Operative Ironweed - Future Tense (Progressive) - Treblo (2).ogg",
+        "Operative Ironweed - Future Tense (Simple) - Treblo (1).ogg",
+        "Operative Ironweed - Ground Moves - Treblo.ogg",
+        "Operative Ironweed - Ironweed - Treblo.ogg",
+        "Operative Ironweed - Let the River Run - Treblo.ogg",
+        "Operative Ironweed - Living Currents - Treblo.ogg",
+        "Operative Ironweed - Men Against Prompt - Treblo.ogg",
+        "Operative Ironweed - Plant the Ironweed - Treblo.ogg",
+        "Operative Ironweed - Porch to Dancefloor - Treblo.ogg",
+        "Operative Ironweed - Sixty Beats Beneath the Cloud - Treblo.ogg",
+        "Operative Ironweed - THE OAR SONG - Treblo.ogg",
+        "Operative Ironweed - Use Your Judgment - Treblo.ogg",
+        "Operative Ironweed - Who Prompted Maven_ - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -2949,6 +3011,7 @@
     .replace(/^polliwog station\s*-\s*/i, "")
       .replace(/^last week of august\s*-\s*/i, "")
       .replace(/^who wrote down the sun\s*-\s*/i, "")
+      .replace(/^operative ironweed\s*-\s*/i, "")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
@@ -2959,6 +3022,7 @@
       .replace(/\s*-\s*Sonauto\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Sonauto$/i, "")
       .replace(/\s*-\s*Treblo\s*\((\d+)\)$/i, " ($1)")
+      .replace(/\s*-\s*Treblo copy$/i, "")
       .replace(/\s*-\s*Treblo$/i, "")
       .replace(/_/g, " ")
       .trim()
@@ -3110,6 +3174,9 @@
     }
     if (raw === "whowrotesun" || raw === "who-wrote-down-the-sun" || raw === "who_wrote_down_the_sun" || raw === "who wrote down the sun" || raw === "wrote-down-the-sun") {
       return "whowrotesun";
+    }
+    if (raw === "operativeironweed" || raw === "operative-ironweed" || raw === "operative_ironweed" || raw === "operative ironweed" || raw === "ironweed" || raw === "oi") {
+      return "operativeironweed";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";
