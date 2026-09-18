@@ -56,6 +56,7 @@ export function titleFromFilename(file) {
     .replace(/^last week of august\s*-\s*/i, "")
     .replace(/^who wrote down the sun\s*-\s*/i, "")
     .replace(/^operative ironweed\s*-\s*/i, "")
+    .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
     .replace(/^southern noise catharsis\s*-\s*/i, "")
     .replace(/^\d{1,2}[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")

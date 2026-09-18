@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T22:18:51.911Z",
+  "generatedAt": "2026-09-18T20:38:54.820Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -26492,6 +26492,117 @@
           },
           "art": {
             "source": "Operative Ironweed/image-gen-2(20260916-192714).png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "madfarmer": {
+      "key": "madfarmer",
+      "label": "THE MAD FARMER'S HYMNAL",
+      "subtitle": "Barcode fields / agrarian hymns / resurrection beyond the grid",
+      "pageSlug": "mad-farmers-hymnal",
+      "hallKey": "madfarmer",
+      "op2Key": "madfarmer",
+      "op2Pair": "operativeironweed",
+      "accentA": "#91a76b",
+      "accentB": "#e8dfbf",
+      "cover": {
+        "source": "The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Past the Grid",
+          "file": "The Mad Farmer's Hymnal - Past the Grid - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Past the Grid - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-01.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Past the Grid - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/Barcode Fields_ A Frog’s Perspective.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Practice Resurrection",
+          "file": "The Mad Farmer's Hymnal - Practice Resurrection - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Practice Resurrection - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-02.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Practice Resurrection - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer’s Barcode Hymnal(4).png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Skin-Contact Envy on Oiled Walnut",
+          "file": "The Mad Farmer's Hymnal - Skin-Contact Envy on Oiled Walnut - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Skin-Contact Envy on Oiled Walnut - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-03.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Skin-Contact Envy on Oiled Walnut - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer’s Barcode Hymnal(5).png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Soil and Sawdust Resurrection",
+          "file": "The Mad Farmer's Hymnal - Soil and Sawdust Resurrection - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Soil and Sawdust Resurrection - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-04.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - Soil and Sawdust Resurrection - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/image-gen-3(20260918-133053).png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "The Mad Farmer's Hymn",
+          "file": "The Mad Farmer's Hymnal - The Mad Farmer's Hymn - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - The Mad Farmer's Hymn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-05.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - The Mad Farmer's Hymn - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "You Can't Algorithm the Dark",
+          "file": "The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg",
+          "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-madfarmer-06.html",
+          "audio": {
+            "source": "The Mad Farmer's Hymnal/The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "The Mad Farmer's Hymnal/Barcode Fields_ A Frog’s Perspective.png",
             "derivatives": {}
           }
         }

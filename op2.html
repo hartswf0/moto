@@ -1671,6 +1671,21 @@
                     "Operative Ironweed - Who Prompted Maven_ - Treblo.ogg"
                 ]
             },
+            madfarmer: {
+                key: 'madfarmer',
+                label: "THE MAD FARMER'S HYMNAL",
+                short: 'HYMNAL',
+                basePath: "The Mad Farmer's Hymnal/",
+                logic: 'Resurrection Field Relay',
+                files: [
+                    "The Mad Farmer's Hymnal - Past the Grid - Treblo.ogg",
+                    "The Mad Farmer's Hymnal - Practice Resurrection - Treblo.ogg",
+                    "The Mad Farmer's Hymnal - Skin-Contact Envy on Oiled Walnut - Treblo.ogg",
+                    "The Mad Farmer's Hymnal - Soil and Sawdust Resurrection - Treblo.ogg",
+                    "The Mad Farmer's Hymnal - The Mad Farmer's Hymn - Treblo.ogg",
+                    "The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg"
+                ]
+            },
             southernnoise: {
                 key: "southernnoise",
                 label: "A MILLION LITTLE SOULS",
@@ -2487,6 +2502,7 @@
                 .replace(/^last week of august\s*-\s*/i, '')
                 .replace(/^who wrote down the sun\s*-\s*/i, '')
                 .replace(/^operative ironweed\s*-\s*/i, '')
+                .replace(/^the mad farmer's hymnal\s*-\s*/i, '')
                 .replace(/^southern noise catharsis\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
@@ -2560,6 +2576,7 @@
             if (v === 'lastweekaugust' || v === 'lastweek' || v === 'august' || v === 'last-week-of-august' || v === 'last_week_of_august' || v === 'last week of august' || v === 'lwoa') return 'lastweekaugust';
             if (v === 'whowrotesun' || v === 'who-wrote-down-the-sun' || v === 'who_wrote_down_the_sun' || v === 'who wrote down the sun' || v === 'wrote-down-the-sun') return 'whowrotesun';
             if (v === 'operativeironweed' || v === 'operative-ironweed' || v === 'operative_ironweed' || v === 'operative ironweed' || v === 'ironweed' || v === 'oi') return 'operativeironweed';
+            if (v === 'madfarmer' || v === 'mad-farmers-hymnal' || v === 'mad_farmers_hymnal' || v === "the mad farmer's hymnal" || v === 'mad farmer' || v === 'hymnal') return 'madfarmer';
             if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
             if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
             if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';

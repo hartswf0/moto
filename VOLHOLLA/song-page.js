@@ -2714,6 +2714,36 @@
         "Operative Ironweed - Who Prompted Maven_ - Treblo.ogg"
       ]
     },
+    madfarmer: {
+      key: "madfarmer",
+      pageSlug: "mad-farmers-hymnal",
+      basePath: "../The Mad Farmer's Hymnal/",
+      label: "THE MAD FARMER'S HYMNAL",
+      subtitle: "Barcode fields / agrarian hymns / resurrection beyond the grid",
+      accentA: "#91a76b",
+      accentB: "#e8dfbf",
+      coverImage: "../The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+      defaultTrackArt: "../The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+      trackArtByIndex: {
+        0: "../The Mad Farmer's Hymnal/Barcode Fields_ A Frog’s Perspective.png",
+        1: "../The Mad Farmer's Hymnal/The Mad Farmer’s Barcode Hymnal(4).png",
+        2: "../The Mad Farmer's Hymnal/The Mad Farmer’s Barcode Hymnal(5).png",
+        3: "../The Mad Farmer's Hymnal/image-gen-3(20260918-133053).png",
+        4: "../The Mad Farmer's Hymnal/image-gen-8(20260918-133058).png",
+        5: "../The Mad Farmer's Hymnal/Barcode Fields_ A Frog’s Perspective.png"
+      },
+      hallKey: "madfarmer",
+      op2Key: "madfarmer",
+      op2Pair: "operativeironweed",
+      files: [
+        "The Mad Farmer's Hymnal - Past the Grid - Treblo.ogg",
+        "The Mad Farmer's Hymnal - Practice Resurrection - Treblo.ogg",
+        "The Mad Farmer's Hymnal - Skin-Contact Envy on Oiled Walnut - Treblo.ogg",
+        "The Mad Farmer's Hymnal - Soil and Sawdust Resurrection - Treblo.ogg",
+        "The Mad Farmer's Hymnal - The Mad Farmer's Hymn - Treblo.ogg",
+        "The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3012,6 +3042,7 @@
       .replace(/^last week of august\s*-\s*/i, "")
       .replace(/^who wrote down the sun\s*-\s*/i, "")
       .replace(/^operative ironweed\s*-\s*/i, "")
+      .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
@@ -3177,6 +3208,9 @@
     }
     if (raw === "operativeironweed" || raw === "operative-ironweed" || raw === "operative_ironweed" || raw === "operative ironweed" || raw === "ironweed" || raw === "oi") {
       return "operativeironweed";
+    }
+    if (raw === "madfarmer" || raw === "mad-farmers-hymnal" || raw === "mad_farmers_hymnal" || raw === "the mad farmer's hymnal" || raw === "mad farmer" || raw === "hymnal") {
+      return "madfarmer";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";
