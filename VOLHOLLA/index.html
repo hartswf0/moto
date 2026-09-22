@@ -1409,6 +1409,8 @@
     .replace(/^who wrote down the sun\s*-\s*/i, "")
     .replace(/^operative ironweed\s*-\s*/i, "")
     .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
+    .replace(/^what broke the machine\s*-\s*/i, "")
+    .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
     .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
         .replace(/^empty are the fields\s*-\s*/i, "")
@@ -3792,6 +3794,35 @@
         ]
       },
       {
+        key: "brokemachine",
+        label: "WHAT BROKE THE MACHINE",
+        pageSlug: "what-broke-the-machine",
+        description: "Broken synths / stress-test soul / last-exit transmissions",
+        accentA: "#ee7768",
+        accentB: "#8c9b78",
+        coverImage: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        defaultTrackArt: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        trackArtByIndex: {
+          0: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+          1: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+          2: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+          3: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+          4: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+          5: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+          6: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png"
+        },
+        basePath: "../WHAT BROKE THE MACHINE/",
+        files: [
+          "What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+          "What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+          "What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+          "What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+          "What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+          "What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+          "What Broke the Machine - Unauthorized Stress Test - Treblo.ogg"
+        ]
+      },
+      {
         key: "southernnoise",
         label: "A MILLION LITTLE SOULS",
         pageSlug: "a-million-little-souls",
@@ -4267,6 +4298,8 @@
             ? "operativeironweed"
           : requestedRaw === "madfarmer" || requestedRaw === "mad-farmers-hymnal" || requestedRaw === "mad_farmers_hymnal" || requestedRaw === "the mad farmer's hymnal" || requestedRaw === "mad farmer" || requestedRaw === "hymnal"
             ? "madfarmer"
+          : requestedRaw === "brokemachine" || requestedRaw === "what-broke-the-machine" || requestedRaw === "what_broke_the_machine" || requestedRaw === "what broke the machine" || requestedRaw === "broken machine" || requestedRaw === "machine broke"
+            ? "brokemachine"
           : requestedRaw === "southernnoise" || requestedRaw === "southern" || requestedRaw === "noise" || requestedRaw === "catharsis" || requestedRaw === "southern-noise-catharsis" || requestedRaw === "a-million-little-souls" || requestedRaw === "souls" || requestedRaw === "snc"
             ? "southernnoise"
           : requestedRaw === "coatvectors" || requestedRaw === "coat" || requestedRaw === "vectors" || requestedRaw === "coat-of-many-vectors" || requestedRaw === "coat-of-many-808s" || requestedRaw === "808s" || requestedRaw === "comv"

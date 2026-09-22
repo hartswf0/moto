@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:38:54.820Z",
+  "generatedAt": "2026-09-22T17:41:41.887Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -26603,6 +26603,132 @@
           },
           "art": {
             "source": "The Mad Farmer's Hymnal/Barcode Fields_ A Frog’s Perspective.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "brokemachine": {
+      "key": "brokemachine",
+      "label": "WHAT BROKE THE MACHINE",
+      "subtitle": "Broken synths / stress-test soul / last-exit transmissions",
+      "pageSlug": "what-broke-the-machine",
+      "hallKey": "brokemachine",
+      "op2Key": "brokemachine",
+      "op2Pair": "madfarmer",
+      "accentA": "#ee7768",
+      "accentB": "#8c9b78",
+      "cover": {
+        "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Beyond the Last Exit",
+          "file": "What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-01.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Dry Voice for the Ride",
+          "file": "What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-02.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Gravity Cathedral",
+          "file": "What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-03.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Nine Chambers / One Blueprint",
+          "file": "What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-04.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Sonic Coin in the Void",
+          "file": "What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-05.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Souvenir of the Slick",
+          "file": "What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-06.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Unauthorized Stress Test",
+          "file": "What Broke the Machine - Unauthorized Stress Test - Treblo.ogg",
+          "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Unauthorized Stress Test - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brokemachine-07.html",
+          "audio": {
+            "source": "WHAT BROKE THE MACHINE/What Broke the Machine - Unauthorized Stress Test - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
             "derivatives": {}
           }
         }

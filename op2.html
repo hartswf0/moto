@@ -1686,6 +1686,22 @@
                     "The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg"
                 ]
             },
+            brokemachine: {
+                key: 'brokemachine',
+                label: 'WHAT BROKE THE MACHINE',
+                short: 'BROKE',
+                basePath: 'WHAT BROKE THE MACHINE/',
+                logic: 'Unauthorized Stress Relay',
+                files: [
+                    "What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+                    "What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+                    "What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+                    "What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+                    "What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+                    "What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+                    "What Broke the Machine - Unauthorized Stress Test - Treblo.ogg"
+                ]
+            },
             southernnoise: {
                 key: "southernnoise",
                 label: "A MILLION LITTLE SOULS",
@@ -2503,6 +2519,8 @@
                 .replace(/^who wrote down the sun\s*-\s*/i, '')
                 .replace(/^operative ironweed\s*-\s*/i, '')
                 .replace(/^the mad farmer's hymnal\s*-\s*/i, '')
+                .replace(/^what broke the machine\s*-\s*/i, '')
+                .replace(/Nine Chambers _ One Blueprint/i, 'Nine Chambers / One Blueprint')
                 .replace(/^southern noise catharsis\s*-\s*/i, '')
                 .replace(/^\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
@@ -2577,6 +2595,7 @@
             if (v === 'whowrotesun' || v === 'who-wrote-down-the-sun' || v === 'who_wrote_down_the_sun' || v === 'who wrote down the sun' || v === 'wrote-down-the-sun') return 'whowrotesun';
             if (v === 'operativeironweed' || v === 'operative-ironweed' || v === 'operative_ironweed' || v === 'operative ironweed' || v === 'ironweed' || v === 'oi') return 'operativeironweed';
             if (v === 'madfarmer' || v === 'mad-farmers-hymnal' || v === 'mad_farmers_hymnal' || v === "the mad farmer's hymnal" || v === 'mad farmer' || v === 'hymnal') return 'madfarmer';
+            if (v === 'brokemachine' || v === 'what-broke-the-machine' || v === 'what_broke_the_machine' || v === 'what broke the machine' || v === 'broken machine' || v === 'machine broke') return 'brokemachine';
             if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
             if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
             if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';

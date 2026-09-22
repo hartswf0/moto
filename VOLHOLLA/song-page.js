@@ -2744,6 +2744,38 @@
         "The Mad Farmer's Hymnal - You Can't Algorithm the Dark - Treblo.ogg"
       ]
     },
+    brokemachine: {
+      key: "brokemachine",
+      pageSlug: "what-broke-the-machine",
+      basePath: "../WHAT BROKE THE MACHINE/",
+      label: "WHAT BROKE THE MACHINE",
+      subtitle: "Broken synths / stress-test soul / last-exit transmissions",
+      accentA: "#ee7768",
+      accentB: "#8c9b78",
+      coverImage: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+      defaultTrackArt: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+      trackArtByIndex: {
+        0: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        1: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+        2: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        3: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+        4: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png",
+        5: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_30 AM.png",
+        6: "../WHAT BROKE THE MACHINE/ChatGPT Image Sep 21, 2026, 09_34_40 AM.png"
+      },
+      hallKey: "brokemachine",
+      op2Key: "brokemachine",
+      op2Pair: "madfarmer",
+      files: [
+        "What Broke the Machine - Beyond the Last Exit - Treblo.ogg",
+        "What Broke the Machine - Dry Voice for the Ride - Treblo.ogg",
+        "What Broke the Machine - Gravity Cathedral - Treblo.ogg",
+        "What Broke the Machine - Nine Chambers _ One Blueprint - Treblo.ogg",
+        "What Broke the Machine - Sonic Coin in the Void - Treblo.ogg",
+        "What Broke the Machine - Souvenir of the Slick - Treblo.ogg",
+        "What Broke the Machine - Unauthorized Stress Test - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3043,6 +3075,8 @@
       .replace(/^who wrote down the sun\s*-\s*/i, "")
       .replace(/^operative ironweed\s*-\s*/i, "")
       .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
+      .replace(/^what broke the machine\s*-\s*/i, "")
+      .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
@@ -3211,6 +3245,9 @@
     }
     if (raw === "madfarmer" || raw === "mad-farmers-hymnal" || raw === "mad_farmers_hymnal" || raw === "the mad farmer's hymnal" || raw === "mad farmer" || raw === "hymnal") {
       return "madfarmer";
+    }
+    if (raw === "brokemachine" || raw === "what-broke-the-machine" || raw === "what_broke_the_machine" || raw === "what broke the machine" || raw === "broken machine" || raw === "machine broke") {
+      return "brokemachine";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";

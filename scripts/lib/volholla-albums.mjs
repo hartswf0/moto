@@ -57,6 +57,8 @@ export function titleFromFilename(file) {
     .replace(/^who wrote down the sun\s*-\s*/i, "")
     .replace(/^operative ironweed\s*-\s*/i, "")
     .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
+    .replace(/^what broke the machine\s*-\s*/i, "")
+    .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
     .replace(/^southern noise catharsis\s*-\s*/i, "")
     .replace(/^\d{1,2}[_\s-]+/, "")
     .replace(/^the d\.c\.\s*pocket\s*&\s*afro-funk\s*-\s*/i, "")
