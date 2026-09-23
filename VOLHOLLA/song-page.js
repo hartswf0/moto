@@ -2776,6 +2776,73 @@
         "What Broke the Machine - Unauthorized Stress Test - Treblo.ogg"
       ]
     },
+    coldrun: {
+      key: "coldrun",
+      pageSlug: "down-in-the-cold-run",
+      basePath: "../DOWN IN THE COLD RUN/",
+      label: "DOWN IN THE COLD RUN",
+      subtitle: "Trout-town soul / cold-current songs / municipal river radio",
+      accentA: "#65c4cf",
+      accentB: "#d9c487",
+      coverImage: "../DOWN IN THE COLD RUN/Cold Current, Quiet Frog.png",
+      defaultTrackArt: "../DOWN IN THE COLD RUN/Cold Current, Quiet Frog.png",
+      hallKey: "coldrun",
+      op2Key: "coldrun",
+      op2Pair: "siltwire",
+      files: [
+        "Down in the Cold Run - A Little Slack (What It Do_) - Treblo.ogg",
+        "Down in the Cold Run - Bucket of Blue - Treblo.ogg",
+        "Down in the Cold Run - Goodbye Little Trout - Treblo.ogg",
+        "Down in the Cold Run - Little Fish, Big Doo - Treblo.ogg",
+        "Down in the Cold Run - O CATFISH (The Municipal Docket) - Treblo.ogg",
+        "Down in the Cold Run - One Stray Bubble - Treblo.ogg",
+        "Down in the Cold Run - Run Riffle Run - Treblo.ogg",
+        "Down in the Cold Run - Score the Fish - Treblo.ogg",
+        "Down in the Cold Run - Sold by the Splash - Treblo.ogg",
+        "Down in the Cold Run - The Secret Curriculum (Watch the School) - Treblo.ogg",
+        "Down in the Cold Run - Trout Town - Treblo (1).ogg",
+        "Down in the Cold Run - Trout Town - Treblo.ogg",
+        "Down in the Cold Run - Trout Town Charter - Treblo.ogg",
+        "Down in the Cold Run - Trout Town Splash - Treblo.ogg",
+        "Down in the Cold Run - Trouttown Coming Through - Treblo.ogg",
+        "Down in the Cold Run - Walk the Road, Doo-Da-Doo - Treblo.ogg",
+        "Down in the Cold Run - Watch the Plank - Treblo.ogg",
+        "Down in the Cold Run - What It Do - Treblo.ogg",
+        "Down in the Cold Run - What It Do_ - Treblo (1).ogg",
+        "Down in the Cold Run - What It Do_ - Treblo.ogg"
+      ]
+    },
+    siltwire: {
+      key: "siltwire",
+      pageSlug: "silt-wire-and-mountain-current",
+      basePath: "../SILT, WIRE, AND MOUNTAIN CURRENT/",
+      label: "SILT, WIRE & MOUNTAIN CURRENT",
+      subtitle: "Cobalt current / courthouse eddies / mountain-wire transmissions",
+      accentA: "#0c4d9c",
+      accentB: "#f2b928",
+      coverImage: "../SILT, WIRE, AND MOUNTAIN CURRENT/Cobalt frog and copper mountain wire.png",
+      defaultTrackArt: "../SILT, WIRE, AND MOUNTAIN CURRENT/Cobalt frog and copper mountain wire.png",
+      hallKey: "siltwire",
+      op2Key: "siltwire",
+      op2Pair: "coldrun",
+      files: [
+        "Silt, Wire & Mountain Current - m0 Blue Ridge Over the Wire - Treblo.ogg",
+        "m0 Silt, Wire & Mountain Current - Gospel Under Water - Treblo.ogg",
+        "m0 Silt, Wire & Mountain Current - The Room That Repeats Slower - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Weather Ahead for Finley m0 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Trouttown Working Day -  m1 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Lost & Found (Under the Courthouse Eddy) m2 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Swim Against the Current -m3a  - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Upstream_ Main Street to the Rise-m3b - Treblo.ogg",
+        "Silt, Wire & Mountain Current - The Bell (Hold in the Current) - m4 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Stay in the Current - m5 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - Pool Cue (Brusque Bounce) - m6 - Treblo.ogg",
+        "Silt, Wire & Mountain Current - E2-1  Dead-Water Docket - Treblo.ogg",
+        "Silt, Wire & Mountain Current - E2-2 Permit at the Dam - Treblo.ogg",
+        "Silt, Wire & Mountain Current - E2-3  The Current Returns (the rush) - Treblo.ogg",
+        "Silt, Wire & Mountain Current - E2-4 Silt Bench - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3076,6 +3143,11 @@
       .replace(/^operative ironweed\s*-\s*/i, "")
       .replace(/^the mad farmer's hymnal\s*-\s*/i, "")
       .replace(/^what broke the machine\s*-\s*/i, "")
+      .replace(/^down in the cold run\s*-\s*/i, "")
+      .replace(/^m0\s+silt, wire & mountain current\s*-\s*/i, "")
+      .replace(/^silt, wire & mountain current\s*-\s*/i, "")
+      .replace(/What It Do_/gi, "What It Do")
+      .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
       .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
         .replace(/^\d{1,2}[_\s-]+/, "")
@@ -3089,6 +3161,9 @@
       .replace(/\s*-\s*Treblo\s*\((\d+)\)$/i, " ($1)")
       .replace(/\s*-\s*Treblo copy$/i, "")
       .replace(/\s*-\s*Treblo$/i, "")
+      .replace(/^E2-\d+\s+/i, "")
+      .replace(/^m0\s+/i, "")
+      .replace(/\s*-?\s*m\d+[a-z]?\s*$/i, "")
       .replace(/_/g, " ")
       .trim()
       .normalize("NFC");
@@ -3248,6 +3323,12 @@
     }
     if (raw === "brokemachine" || raw === "what-broke-the-machine" || raw === "what_broke_the_machine" || raw === "what broke the machine" || raw === "broken machine" || raw === "machine broke") {
       return "brokemachine";
+    }
+    if (raw === "coldrun" || raw === "down-in-the-cold-run" || raw === "down_in_the_cold_run" || raw === "down in the cold run" || raw === "cold run" || raw === "trout town") {
+      return "coldrun";
+    }
+    if (raw === "siltwire" || raw === "silt-wire-and-mountain-current" || raw === "silt_wire_and_mountain_current" || raw === "silt wire and mountain current" || raw === "silt, wire & mountain current" || raw === "mountain current") {
+      return "siltwire";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";
