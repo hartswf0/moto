@@ -61,6 +61,8 @@ export function titleFromFilename(file) {
     .replace(/^down in the cold run\s*-\s*/i, "")
     .replace(/^m0\s+silt, wire & mountain current\s*-\s*/i, "")
     .replace(/^silt, wire & mountain current\s*-\s*/i, "")
+    .replace(/^staccato sting\s*-\s*/i, "")
+    .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
     .replace(/What It Do_/gi, "What It Do")
     .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
     .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")

@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-09-23T23:16:25.232Z",
+  "generatedAt": "2026-09-29T17:14:41.538Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -27156,6 +27156,477 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           "songPage": "VOLHOLLA/song-siltwire-15.html",
           "audio": {
             "source": "SILT, WIRE, AND MOUNTAIN CURRENT/Silt, Wire & Mountain Current - E2-4 Silt Bench - Treblo.ogg",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "staccatosting": {
+      "key": "staccatosting",
+      "label": "STACCATO STING",
+      "subtitle": "Bone-dry pocket / blade-space rhythm / rain-collision transmissions",
+      "pageSlug": "staccato-sting",
+      "hallKey": "staccatosting",
+      "op2Key": "staccatosting",
+      "op2Pair": "brokemachine",
+      "accentA": "#b75b32",
+      "accentB": "#2d5f63",
+      "cover": {
+        "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Bone-Dry Pocket",
+          "file": "Staccato Sting - Bone-Dry Pocket - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Bone-Dry Pocket - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-01.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Bone-Dry Pocket - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Caribbean Bone Void",
+          "file": "Staccato Sting - Caribbean Bone Void - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Caribbean Bone Void - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-02.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Caribbean Bone Void - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Cook Ding",
+          "file": "Staccato Sting - Cook Ding - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Cook Ding - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-03.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Cook Ding - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Effortless Edge",
+          "file": "Staccato Sting - Effortless Edge - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Effortless Edge - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-04.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Effortless Edge - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Glide Through the Gaps",
+          "file": "Staccato Sting - Glide Through the Gaps - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Glide Through the Gaps - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-05.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Glide Through the Gaps - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Hack the Bone",
+          "file": "Staccato Sting - Hack the Bone - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Hack the Bone - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-06.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Hack the Bone - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Mulberry Blade · Addis Solution",
+          "file": "Staccato Sting - Mulberry Blade · Addis Solution - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Mulberry Blade · Addis Solution - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-07.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Mulberry Blade · Addis Solution - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Nineteen Summers",
+          "file": "Staccato Sting - Nineteen Summers - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Nineteen Summers - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-08.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Nineteen Summers - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "No Thickness",
+          "file": "Staccato Sting - No Thickness - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - No Thickness - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-09.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - No Thickness - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Nobody Saves You",
+          "file": "Staccato Sting - Nobody Saves You - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Nobody Saves You - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-10.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Nobody Saves You - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Parable in Ash",
+          "file": "Staccato Sting - Parable in Ash - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Parable in Ash - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-11.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Parable in Ash - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Rainydayz Collision",
+          "file": "Staccato Sting - Rainydayz Collision - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Rainydayz Collision - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-12.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Rainydayz Collision - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "SPACES IN BETWEEN / 游刃",
+          "file": "Staccato Sting - SPACES IN BETWEEN __ 游刃 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - SPACES IN BETWEEN __ 游刃 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-13.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - SPACES IN BETWEEN __ 游刃 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Six Zones of the Blade",
+          "file": "Staccato Sting - Six Zones of the Blade - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Six Zones of the Blade - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-14.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Six Zones of the Blade - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "THE WET JOINT",
+          "file": "Staccato Sting - THE WET JOINT - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - THE WET JOINT - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-15.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - THE WET JOINT - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Tea Before It Gets Cold",
+          "file": "Staccato Sting - Tea Before It Gets Cold - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Tea Before It Gets Cold - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-16.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Tea Before It Gets Cold - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "The Hollow and the Spider",
+          "file": "Staccato Sting - The Hollow and the Spider - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - The Hollow and the Spider - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-17.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - The Hollow and the Spider - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "The Raindayz Collision (雨日对撞)",
+          "file": "Staccato Sting - The Raindayz Collision (雨日对撞) - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - The Raindayz Collision (雨日对撞) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-18.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - The Raindayz Collision (雨日对撞) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Violins and Vengeance",
+          "file": "Staccato Sting - Violins and Vengeance - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Violins and Vengeance - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-19.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Violins and Vengeance - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Zero Thickness Blade",
+          "file": "Staccato Sting - Zero Thickness Blade - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - Zero Thickness Blade - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-20.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - Zero Thickness Blade - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "刀解披头",
+          "file": "Staccato Sting - 刀解披头 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 刀解披头 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-21.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 刀解披头 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "刃如初",
+          "file": "Staccato Sting - 刃如初 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 刃如初 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-22.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 刃如初 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "游刃有余 (REMIX) (1)",
+          "file": "Staccato Sting - 游刃有余 (REMIX) - Treblo (1).ogg",
+          "source": "STACCATO STING/Staccato Sting - 游刃有余 (REMIX) - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-23.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 游刃有余 (REMIX) - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "游刃有余",
+          "file": "Staccato Sting - 游刃有余 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 游刃有余 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-24.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 游刃有余 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "灰白裂隙",
+          "file": "Staccato Sting - 灰白裂隙 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 灰白裂隙 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-25.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 灰白裂隙 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "無厚入有間",
+          "file": "Staccato Sting - 無厚入有間 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 無厚入有間 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-26.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 無厚入有間 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 27,
+          "title": "空境十九载",
+          "file": "Staccato Sting - 空境十九载 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 空境十九载 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-27.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 空境十九载 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 28,
+          "title": "缝合之间",
+          "file": "Staccato Sting - 缝合之间 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 缝合之间 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-28.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 缝合之间 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 29,
+          "title": "解牛·无厚",
+          "file": "Staccato Sting - 解牛·无厚 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 解牛·无厚 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-29.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 解牛·无厚 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 30,
+          "title": "雨日对撞",
+          "file": "Staccato Sting - 雨日对撞 - Treblo.ogg",
+          "source": "STACCATO STING/Staccato Sting - 雨日对撞 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-staccatosting-30.html",
+          "audio": {
+            "source": "STACCATO STING/Staccato Sting - 雨日对撞 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
             "derivatives": {}
           }
         }

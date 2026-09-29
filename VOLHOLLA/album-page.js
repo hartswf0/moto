@@ -3177,6 +3177,89 @@
         ["OP2 Pair", "Launch with DOWN IN THE COLD RUN for the full watershed relay."]
       ]
     },
+    staccatosting: {
+      key: "staccatosting",
+      pageSlug: "staccato-sting",
+      basePath: "../STACCATO STING/",
+      label: "STACCATO STING",
+      subtitle: "Bone-dry pocket / blade-space rhythm / rain-collision transmissions",
+      accentA: "#b75b32",
+      accentB: "#2d5f63",
+      coverImage: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+      defaultTrackArt: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+      trackArtByIndex: {
+        0: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        1: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        2: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        3: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        4: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        5: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        6: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        7: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        8: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        9: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        10: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        11: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        12: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        13: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        14: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        15: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        16: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        17: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        18: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        19: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        20: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        21: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        22: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        23: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        24: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        25: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        26: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+        27: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_05 PM.png",
+        28: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_37 PM.png",
+        29: "../STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png"
+      },
+      hallKey: "staccatosting",
+      op2Key: "staccatosting",
+      op2Pair: "brokemachine",
+      files: [
+        "Staccato Sting - Bone-Dry Pocket - Treblo.ogg",
+        "Staccato Sting - Caribbean Bone Void - Treblo.ogg",
+        "Staccato Sting - Cook Ding - Treblo.ogg",
+        "Staccato Sting - Effortless Edge - Treblo.ogg",
+        "Staccato Sting - Glide Through the Gaps - Treblo.ogg",
+        "Staccato Sting - Hack the Bone - Treblo.ogg",
+        "Staccato Sting - Mulberry Blade · Addis Solution - Treblo.ogg",
+        "Staccato Sting - Nineteen Summers - Treblo.ogg",
+        "Staccato Sting - No Thickness - Treblo.ogg",
+        "Staccato Sting - Nobody Saves You - Treblo.ogg",
+        "Staccato Sting - Parable in Ash - Treblo.ogg",
+        "Staccato Sting - Rainydayz Collision - Treblo.ogg",
+        "Staccato Sting - SPACES IN BETWEEN __ 游刃 - Treblo.ogg",
+        "Staccato Sting - Six Zones of the Blade - Treblo.ogg",
+        "Staccato Sting - THE WET JOINT - Treblo.ogg",
+        "Staccato Sting - Tea Before It Gets Cold - Treblo.ogg",
+        "Staccato Sting - The Hollow and the Spider - Treblo.ogg",
+        "Staccato Sting - The Raindayz Collision (雨日对撞) - Treblo.ogg",
+        "Staccato Sting - Violins and Vengeance - Treblo.ogg",
+        "Staccato Sting - Zero Thickness Blade - Treblo.ogg",
+        "Staccato Sting - 刀解披头 - Treblo.ogg",
+        "Staccato Sting - 刃如初 - Treblo.ogg",
+        "Staccato Sting - 游刃有余 (REMIX) - Treblo (1).ogg",
+        "Staccato Sting - 游刃有余 - Treblo.ogg",
+        "Staccato Sting - 灰白裂隙 - Treblo.ogg",
+        "Staccato Sting - 無厚入有間 - Treblo.ogg",
+        "Staccato Sting - 空境十九载 - Treblo.ogg",
+        "Staccato Sting - 缝合之间 - Treblo.ogg",
+        "Staccato Sting - 解牛·无厚 - Treblo.ogg",
+        "Staccato Sting - 雨日对撞 - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "Bone-dry pocket / blade-space rhythm / rain-collision radio"],
+        ["Use", "Standalone album portal, Hall route, radio catalog, and direct song links."],
+        ["OP2 Pair", "Launch with WHAT BROKE THE MACHINE for a blade-and-bone stress relay."]
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3508,6 +3591,8 @@
     .replace(/^down in the cold run\s*-\s*/i, "")
     .replace(/^m0\s+silt, wire & mountain current\s*-\s*/i, "")
     .replace(/^silt, wire & mountain current\s*-\s*/i, "")
+    .replace(/^staccato sting\s*-\s*/i, "")
+    .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
     .replace(/What It Do_/gi, "What It Do")
     .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
     .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
@@ -3699,6 +3784,7 @@
     if (raw === "brokemachine" || raw === "what-broke-the-machine" || raw === "what_broke_the_machine" || raw === "what broke the machine" || raw === "broken machine" || raw === "machine broke") return "brokemachine";
     if (raw === "coldrun" || raw === "down-in-the-cold-run" || raw === "down_in_the_cold_run" || raw === "down in the cold run" || raw === "cold run" || raw === "trout town") return "coldrun";
     if (raw === "siltwire" || raw === "silt-wire-and-mountain-current" || raw === "silt_wire_and_mountain_current" || raw === "silt wire and mountain current" || raw === "silt, wire & mountain current" || raw === "mountain current") return "siltwire";
+    if (raw === "staccatosting" || raw === "staccato-sting" || raw === "staccato_sting" || raw === "staccato sting" || raw === "sting") return "staccatosting";
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") return "southernnoise";
     if (raw === "coatvectors" || raw === "coat" || raw === "vectors" || raw === "coat-of-many-vectors" || raw === "coat_of_many_vectors" || raw === "coat of many vectors" || raw === "coat-of-many-808s" || raw === "coat of many 808s" || raw === "808s" || raw === "comv") return "coatvectors";
     if (raw === "kudzucontact" || raw === "kudzu" || raw === "kudzu-contact-gospel" || raw === "kudzu contact gospel" || raw === "kcg") return "kudzucontact";

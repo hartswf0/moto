@@ -1755,6 +1755,45 @@
                     "Silt, Wire & Mountain Current - E2-4 Silt Bench - Treblo.ogg"
                 ]
             },
+            staccatosting: {
+                key: 'staccatosting',
+                label: 'STACCATO STING',
+                short: 'STING',
+                basePath: 'STACCATO STING/',
+                logic: 'Blade Space Relay',
+                files: [
+                    "Staccato Sting - Bone-Dry Pocket - Treblo.ogg",
+                    "Staccato Sting - Caribbean Bone Void - Treblo.ogg",
+                    "Staccato Sting - Cook Ding - Treblo.ogg",
+                    "Staccato Sting - Effortless Edge - Treblo.ogg",
+                    "Staccato Sting - Glide Through the Gaps - Treblo.ogg",
+                    "Staccato Sting - Hack the Bone - Treblo.ogg",
+                    "Staccato Sting - Mulberry Blade · Addis Solution - Treblo.ogg",
+                    "Staccato Sting - Nineteen Summers - Treblo.ogg",
+                    "Staccato Sting - No Thickness - Treblo.ogg",
+                    "Staccato Sting - Nobody Saves You - Treblo.ogg",
+                    "Staccato Sting - Parable in Ash - Treblo.ogg",
+                    "Staccato Sting - Rainydayz Collision - Treblo.ogg",
+                    "Staccato Sting - SPACES IN BETWEEN __ 游刃 - Treblo.ogg",
+                    "Staccato Sting - Six Zones of the Blade - Treblo.ogg",
+                    "Staccato Sting - THE WET JOINT - Treblo.ogg",
+                    "Staccato Sting - Tea Before It Gets Cold - Treblo.ogg",
+                    "Staccato Sting - The Hollow and the Spider - Treblo.ogg",
+                    "Staccato Sting - The Raindayz Collision (雨日对撞) - Treblo.ogg",
+                    "Staccato Sting - Violins and Vengeance - Treblo.ogg",
+                    "Staccato Sting - Zero Thickness Blade - Treblo.ogg",
+                    "Staccato Sting - 刀解披头 - Treblo.ogg",
+                    "Staccato Sting - 刃如初 - Treblo.ogg",
+                    "Staccato Sting - 游刃有余 (REMIX) - Treblo (1).ogg",
+                    "Staccato Sting - 游刃有余 - Treblo.ogg",
+                    "Staccato Sting - 灰白裂隙 - Treblo.ogg",
+                    "Staccato Sting - 無厚入有間 - Treblo.ogg",
+                    "Staccato Sting - 空境十九载 - Treblo.ogg",
+                    "Staccato Sting - 缝合之间 - Treblo.ogg",
+                    "Staccato Sting - 解牛·无厚 - Treblo.ogg",
+                    "Staccato Sting - 雨日对撞 - Treblo.ogg"
+                ]
+            },
             southernnoise: {
                 key: "southernnoise",
                 label: "A MILLION LITTLE SOULS",
@@ -2576,6 +2615,8 @@
                 .replace(/^down in the cold run\s*-\s*/i, '')
                 .replace(/^m0\s+silt, wire & mountain current\s*-\s*/i, '')
                 .replace(/^silt, wire & mountain current\s*-\s*/i, '')
+                .replace(/^staccato sting\s*-\s*/i, '')
+                .replace(/SPACES IN BETWEEN __ 游刃/i, 'SPACES IN BETWEEN / 游刃')
                 .replace(/What It Do_/gi, 'What It Do')
                 .replace(/Upstream_ Main Street to the Rise/i, 'Upstream: Main Street to the Rise')
                 .replace(/Nine Chambers _ One Blueprint/i, 'Nine Chambers / One Blueprint')
@@ -2659,6 +2700,7 @@
             if (v === 'brokemachine' || v === 'what-broke-the-machine' || v === 'what_broke_the_machine' || v === 'what broke the machine' || v === 'broken machine' || v === 'machine broke') return 'brokemachine';
             if (v === 'coldrun' || v === 'down-in-the-cold-run' || v === 'down_in_the_cold_run' || v === 'down in the cold run' || v === 'cold run' || v === 'trout town') return 'coldrun';
             if (v === 'siltwire' || v === 'silt-wire-and-mountain-current' || v === 'silt_wire_and_mountain_current' || v === 'silt wire and mountain current' || v === 'silt, wire & mountain current' || v === 'mountain current') return 'siltwire';
+            if (v === 'staccatosting' || v === 'staccato-sting' || v === 'staccato_sting' || v === 'staccato sting' || v === 'sting') return 'staccatosting';
             if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
             if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
             if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';
