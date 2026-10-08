@@ -2921,6 +2921,76 @@
         "Staccato Sting - 雨日对撞 - Treblo.ogg"
       ]
     },
+    twobuttons: {
+      key: "twobuttons",
+      pageSlug: "the-liturgy-of-the-two-buttons",
+      basePath: "../THE LITURGY OF THE TWO BUTTONS/",
+      label: "THE LITURGY OF THE TWO BUTTONS",
+      subtitle: "Ash-and-silt ritual / war-coast drones / nourishment and deployment",
+      accentA: "#b83c2f",
+      accentB: "#d7b477",
+      coverImage: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+      defaultTrackArt: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+      trackArtByIndex: {
+        0: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        1: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        2: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        3: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        4: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        5: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        6: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        7: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        8: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        9: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        10: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        11: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        12: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        13: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        14: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        15: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        16: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        17: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        18: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        19: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        20: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        21: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        22: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+        23: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+        24: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        25: "../THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png"
+      },
+      hallKey: "twobuttons",
+      op2Key: "twobuttons",
+      op2Pair: "staccatosting",
+      files: [
+        "The Liturgy of the Two Buttons - Arrakis Beachhead - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Arrakis Beachhead_ Tuvan Tribal Liturgy - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Barkadrymr í Leirnum - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Break the Iron - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Drone of the Ancestors - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Go Home and Be Free - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Hreinsið Minnit - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Khat-Al-Cache - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Krew-Al-Ghal - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Krew-al-Ghal - Treblo (2).ogg",
+        "The Liturgy of the Two Buttons - Krew-al-ghal - Treblo (1).ogg",
+        "The Liturgy of the Two Buttons - Out of the Cache - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (1).ogg",
+        "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (2).ogg",
+        "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Ritus Rušumti u Išāti - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Siðr Öskunnar ok Leirsins - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Slop-Liturgy - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Slopling War Chant - Treblo.ogg",
+        "The Liturgy of the Two Buttons - The Slop Communion - Treblo.ogg",
+        "The Liturgy of the Two Buttons - The Whole Line - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Vígkviða Dúns - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Τελετὴ τῆς Σποδοῦ καὶ τοῦ Βορβόρου - Treblo.ogg",
+        "The Liturgy of the Two Buttons - Хархираа Дрон - Treblo.ogg",
+        "The Liturgy of the Two Buttons - የአመድና የጭቃ ሥርዓት - Treblo.ogg",
+        "The Liturgy of the Two Buttons - የጭቃ ድሮን - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3225,6 +3295,7 @@
       .replace(/^m0\s+silt, wire & mountain current\s*-\s*/i, "")
       .replace(/^silt, wire & mountain current\s*-\s*/i, "")
       .replace(/^staccato sting\s*-\s*/i, "")
+      .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
       .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
       .replace(/What It Do_/gi, "What It Do")
       .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
@@ -3412,6 +3483,9 @@
     }
     if (raw === "staccatosting" || raw === "staccato-sting" || raw === "staccato_sting" || raw === "staccato sting" || raw === "sting") {
       return "staccatosting";
+    }
+    if (raw === "twobuttons" || raw === "two-buttons" || raw === "two_buttons" || raw === "two buttons" || raw === "the-liturgy-of-the-two-buttons" || raw === "liturgy") {
+      return "twobuttons";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";

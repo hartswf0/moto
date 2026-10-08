@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-09-29T17:14:41.538Z",
+  "generatedAt": "2026-10-08T15:48:21.376Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -27627,6 +27627,417 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           },
           "art": {
             "source": "STACCATO STING/ChatGPT Image Sep 29, 2026, 12_46_52 PM.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "twobuttons": {
+      "key": "twobuttons",
+      "label": "THE LITURGY OF THE TWO BUTTONS",
+      "subtitle": "Ash-and-silt ritual / war-coast drones / nourishment and deployment",
+      "pageSlug": "the-liturgy-of-the-two-buttons",
+      "hallKey": "twobuttons",
+      "op2Key": "twobuttons",
+      "op2Pair": "staccatosting",
+      "accentA": "#b83c2f",
+      "accentB": "#d7b477",
+      "cover": {
+        "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Arrakis Beachhead",
+          "file": "The Liturgy of the Two Buttons - Arrakis Beachhead - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Arrakis Beachhead - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-01.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Arrakis Beachhead - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Arrakis Beachhead  Tuvan Tribal Liturgy",
+          "file": "The Liturgy of the Two Buttons - Arrakis Beachhead_ Tuvan Tribal Liturgy - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Arrakis Beachhead_ Tuvan Tribal Liturgy - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-02.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Arrakis Beachhead_ Tuvan Tribal Liturgy - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Barkadrymr í Leirnum",
+          "file": "The Liturgy of the Two Buttons - Barkadrymr í Leirnum - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Barkadrymr í Leirnum - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-03.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Barkadrymr í Leirnum - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Break the Iron",
+          "file": "The Liturgy of the Two Buttons - Break the Iron - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Break the Iron - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-04.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Break the Iron - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Drone of the Ancestors",
+          "file": "The Liturgy of the Two Buttons - Drone of the Ancestors - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Drone of the Ancestors - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-05.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Drone of the Ancestors - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Go Home and Be Free",
+          "file": "The Liturgy of the Two Buttons - Go Home and Be Free - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Go Home and Be Free - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-06.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Go Home and Be Free - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Hreinsið Minnit",
+          "file": "The Liturgy of the Two Buttons - Hreinsið Minnit - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Hreinsið Minnit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-07.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Hreinsið Minnit - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Khat-Al-Cache",
+          "file": "The Liturgy of the Two Buttons - Khat-Al-Cache - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Khat-Al-Cache - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-08.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Khat-Al-Cache - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Krew-Al-Ghal",
+          "file": "The Liturgy of the Two Buttons - Krew-Al-Ghal - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-Al-Ghal - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-09.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-Al-Ghal - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Krew-al-Ghal (2)",
+          "file": "The Liturgy of the Two Buttons - Krew-al-Ghal - Treblo (2).ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-al-Ghal - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-10.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-al-Ghal - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Krew-al-ghal (1)",
+          "file": "The Liturgy of the Two Buttons - Krew-al-ghal - Treblo (1).ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-al-ghal - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-11.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Krew-al-ghal - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Out of the Cache",
+          "file": "The Liturgy of the Two Buttons - Out of the Cache - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Out of the Cache - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-12.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Out of the Cache - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Ritual of the Ash and Silt (1)",
+          "file": "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (1).ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-13.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Ritual of the Ash and Silt (2)",
+          "file": "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (2).ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-14.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Ritual of the Ash and Silt",
+          "file": "The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-15.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritual of the Ash and Silt - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Ritus Rušumti u Išāti",
+          "file": "The Liturgy of the Two Buttons - Ritus Rušumti u Išāti - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritus Rušumti u Išāti - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-16.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Ritus Rušumti u Išāti - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Siðr Öskunnar ok Leirsins",
+          "file": "The Liturgy of the Two Buttons - Siðr Öskunnar ok Leirsins - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Siðr Öskunnar ok Leirsins - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-17.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Siðr Öskunnar ok Leirsins - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Slop-Liturgy",
+          "file": "The Liturgy of the Two Buttons - Slop-Liturgy - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Slop-Liturgy - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-18.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Slop-Liturgy - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Slopling War Chant",
+          "file": "The Liturgy of the Two Buttons - Slopling War Chant - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Slopling War Chant - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-19.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Slopling War Chant - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "The Slop Communion",
+          "file": "The Liturgy of the Two Buttons - The Slop Communion - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - The Slop Communion - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-20.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - The Slop Communion - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "The Whole Line",
+          "file": "The Liturgy of the Two Buttons - The Whole Line - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - The Whole Line - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-21.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - The Whole Line - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Vígkviða Dúns",
+          "file": "The Liturgy of the Two Buttons - Vígkviða Dúns - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Vígkviða Dúns - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-22.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Vígkviða Dúns - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Τελετὴ τῆς Σποδοῦ καὶ τοῦ Βορβόρου",
+          "file": "The Liturgy of the Two Buttons - Τελετὴ τῆς Σποδοῦ καὶ τοῦ Βορβόρου - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Τελετὴ τῆς Σποδοῦ καὶ τοῦ Βορβόρου - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-23.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Τελετὴ τῆς Σποδοῦ καὶ τοῦ Βορβόρου - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Хархираа Дрон",
+          "file": "The Liturgy of the Two Buttons - Хархираа Дрон - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Хархираа Дрон - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-24.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - Хархираа Дрон - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_44_21 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "የአመድና የጭቃ ሥርዓት",
+          "file": "The Liturgy of the Two Buttons - የአመድና የጭቃ ሥርዓት - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - የአመድና የጭቃ ሥርዓት - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-25.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - የአመድና የጭቃ ሥርዓት - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_24 AM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "የጭቃ ድሮን",
+          "file": "The Liturgy of the Two Buttons - የጭቃ ድሮን - Treblo.ogg",
+          "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - የጭቃ ድሮን - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-twobuttons-26.html",
+          "audio": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/The Liturgy of the Two Buttons - የጭቃ ድሮን - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "THE LITURGY OF THE TWO BUTTONS/ChatGPT Image Oct 8, 2026, 11_43_38 AM.png",
             "derivatives": {}
           }
         }
