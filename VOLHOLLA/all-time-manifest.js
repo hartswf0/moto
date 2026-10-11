@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-10-11T00:18:21.324Z",
+  "generatedAt": "2026-10-11T19:12:35.621Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -30000,6 +30000,387 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           },
           "art": {
             "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "daehoned": {
+      "key": "daehoned",
+      "label": "D-A-E · HONED FOR FILM",
+      "subtitle": "24 cinematic cues / wonder, fracture, motion, return / an otherworldly exit",
+      "pageSlug": "dae-honed-for-film",
+      "hallKey": "daehoned",
+      "op2Key": "daehoned",
+      "op2Pair": "daefivestar",
+      "accentA": "#91a8ad",
+      "accentB": "#e25a87",
+      "cover": {
+        "source": "DAE STILL OPEN/dae-still-open-01.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "DAE STILL OPEN/dae-still-open-01.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Chicha Surf & Boreal Glitch Workshop (1)",
+          "file": "D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo (1).ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-daehoned-01.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Cedar Tank Splash",
+          "file": "D-A-E (Still Open) - Cedar Tank Splash - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Cedar Tank Splash - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-02.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Cedar Tank Splash - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Cedar and Cassette",
+          "file": "D-A-E (Still Open) - Cedar and Cassette - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Cedar and Cassette - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-03.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Cedar and Cassette - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Amazonian Surf Reverb & Bothnian Birch Snap",
+          "file": "D-A-E (Still Open) - Amazonian Surf Reverb & Bothnian Birch Snap - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Amazonian Surf Reverb & Bothnian Birch Snap - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-04.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Amazonian Surf Reverb & Bothnian Birch Snap - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Chicha Surf & Boreal Glitch Workshop",
+          "file": "D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-05.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Cold Current Paddle",
+          "file": "D-A-E (Still Open) - Cold Current Paddle - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Cold Current Paddle - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-06.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Cold Current Paddle - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Compass Spin in Heavy Fog",
+          "file": "D-A-E (Still Open) - Compass Spin in Heavy Fog - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Compass Spin in Heavy Fog - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-07.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Compass Spin in Heavy Fog - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Feather Rustle Dub",
+          "file": "D-A-E (Still Open) - Feather Rustle Dub - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Feather Rustle Dub - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-08.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Feather Rustle Dub - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Jerry's Mutron & Solar Wind Boogie",
+          "file": "D-A-E (Still Open) - Jerry's Mutron & Solar Wind Boogie - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Jerry's Mutron & Solar Wind Boogie - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-09.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Jerry's Mutron & Solar Wind Boogie - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Preparation & Drift",
+          "file": "D-A-E (Still Open) - Preparation & Drift - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Preparation & Drift - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-10.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Preparation & Drift - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Rusty Carnivals & Barnacled Porch Stride",
+          "file": "D-A-E (Still Open) - Rusty Carnivals & Barnacled Porch Stride - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Rusty Carnivals & Barnacled Porch Stride - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-11.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Rusty Carnivals & Barnacled Porch Stride - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Odin Above the Breakers",
+          "file": "D-A-E (Still Open) - Odin Above the Breakers - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Odin Above the Breakers - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-12.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Odin Above the Breakers - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Paddle Meets Current (1)",
+          "file": "D-A-E (Still Open) - Paddle Meets Current - Treblo (1).ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Paddle Meets Current - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-daehoned-13.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Paddle Meets Current - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Plastic Beach Flotsam",
+          "file": "D-A-E (Still Open) - Plastic Beach Flotsam - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Plastic Beach Flotsam - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-14.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Plastic Beach Flotsam - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Salvaged Room, Traveling Light",
+          "file": "D-A-E (Still Open) - Salvaged Room, Traveling Light - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Salvaged Room, Traveling Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-15.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Salvaged Room, Traveling Light - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Kingston Rocksteady & Coastal Workshop Soul",
+          "file": "D-A-E (Still Open) - Kingston Rocksteady & Coastal Workshop Soul - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Kingston Rocksteady & Coastal Workshop Soul - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-16.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Kingston Rocksteady & Coastal Workshop Soul - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Conquerors of the Useless",
+          "file": "D-A-E (Still Open) - Conquerors of the Useless - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Conquerors of the Useless - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-17.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Conquerors of the Useless - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Salvaged Timber",
+          "file": "D-A-E (Still Open) - Salvaged Timber - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Salvaged Timber - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-18.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Salvaged Timber - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Slide Carousel at Blue Hour",
+          "file": "D-A-E (Still Open) - Slide Carousel at Blue Hour - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Slide Carousel at Blue Hour - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-19.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Slide Carousel at Blue Hour - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Solar Wind Boogie",
+          "file": "D-A-E (Still Open) - Solar Wind Boogie - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Solar Wind Boogie - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-20.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Solar Wind Boogie - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Swamp Fuzz & The Outlaw Resonator Stomp",
+          "file": "D-A-E (Still Open) - Swamp Fuzz & The Outlaw Resonator Stomp - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Swamp Fuzz & The Outlaw Resonator Stomp - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-21.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Swamp Fuzz & The Outlaw Resonator Stomp - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Snowbound Umeå Cabin",
+          "file": "D-A-E (Still Open) - Snowbound Umeå Cabin - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Snowbound Umeå Cabin - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-22.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Snowbound Umeå Cabin - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-01.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "The Geezer's Stride",
+          "file": "D-A-E (Still Open) - The Geezer's Stride - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - The Geezer's Stride - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-23.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - The Geezer's Stride - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/DAE-still-open.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Wai Lana Layover (Anakena Tuning)",
+          "file": "D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg",
+          "source": "DAE STILL OPEN/D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-daehoned-24.html",
+          "audio": {
+            "source": "DAE STILL OPEN/D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "DAE STILL OPEN/dae-still-open-02.png",
             "derivatives": {}
           }
         }

@@ -3283,6 +3283,72 @@
         "D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg"
       ]
     },
+    daehoned: {
+      key: "daehoned",
+      pageSlug: "dae-honed-for-film",
+      basePath: "../DAE STILL OPEN/",
+      label: "D-A-E · HONED FOR FILM",
+      subtitle: "24 cinematic cues / wonder, fracture, motion, return / an otherworldly exit",
+      accentA: "#91a8ad",
+      accentB: "#e25a87",
+      coverImage: "../DAE STILL OPEN/dae-still-open-01.png",
+      defaultTrackArt: "../DAE STILL OPEN/dae-still-open-01.png",
+      trackArtByIndex: {
+        0: "../DAE STILL OPEN/dae-still-open-01.png",
+        1: "../DAE STILL OPEN/DAE-still-open.png",
+        2: "../DAE STILL OPEN/dae-still-open-02.png",
+        3: "../DAE STILL OPEN/dae-still-open-01.png",
+        4: "../DAE STILL OPEN/DAE-still-open.png",
+        5: "../DAE STILL OPEN/dae-still-open-02.png",
+        6: "../DAE STILL OPEN/dae-still-open-01.png",
+        7: "../DAE STILL OPEN/DAE-still-open.png",
+        8: "../DAE STILL OPEN/dae-still-open-02.png",
+        9: "../DAE STILL OPEN/dae-still-open-01.png",
+        10: "../DAE STILL OPEN/DAE-still-open.png",
+        11: "../DAE STILL OPEN/dae-still-open-02.png",
+        12: "../DAE STILL OPEN/dae-still-open-01.png",
+        13: "../DAE STILL OPEN/DAE-still-open.png",
+        14: "../DAE STILL OPEN/dae-still-open-02.png",
+        15: "../DAE STILL OPEN/dae-still-open-01.png",
+        16: "../DAE STILL OPEN/DAE-still-open.png",
+        17: "../DAE STILL OPEN/dae-still-open-02.png",
+        18: "../DAE STILL OPEN/dae-still-open-01.png",
+        19: "../DAE STILL OPEN/DAE-still-open.png",
+        20: "../DAE STILL OPEN/dae-still-open-02.png",
+        21: "../DAE STILL OPEN/dae-still-open-01.png",
+        22: "../DAE STILL OPEN/DAE-still-open.png",
+        23: "../DAE STILL OPEN/dae-still-open-02.png"
+      },
+      hallKey: "daehoned",
+      op2Key: "daehoned",
+      op2Pair: "daefivestar",
+      files: [
+        "D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo (1).ogg",
+        "D-A-E (Still Open) - Cedar Tank Splash - Treblo.ogg",
+        "D-A-E (Still Open) - Cedar and Cassette - Treblo.ogg",
+        "D-A-E (Still Open) - Amazonian Surf Reverb & Bothnian Birch Snap - Treblo.ogg",
+        "D-A-E (Still Open) - Chicha Surf & Boreal Glitch Workshop - Treblo.ogg",
+        "D-A-E (Still Open) - Cold Current Paddle - Treblo.ogg",
+        "D-A-E (Still Open) - Compass Spin in Heavy Fog - Treblo.ogg",
+        "D-A-E (Still Open) - Feather Rustle Dub - Treblo.ogg",
+        "D-A-E (Still Open) - Jerry's Mutron & Solar Wind Boogie - Treblo.ogg",
+        "D-A-E (Still Open) - Preparation & Drift - Treblo.ogg",
+        "D-A-E (Still Open) - Rusty Carnivals & Barnacled Porch Stride - Treblo.ogg",
+        "D-A-E (Still Open) - Odin Above the Breakers - Treblo.ogg",
+        "D-A-E (Still Open) - Paddle Meets Current - Treblo (1).ogg",
+        "D-A-E (Still Open) - Plastic Beach Flotsam - Treblo.ogg",
+        "D-A-E (Still Open) - Salvaged Room, Traveling Light - Treblo.ogg",
+        "D-A-E (Still Open) - Kingston Rocksteady & Coastal Workshop Soul - Treblo.ogg",
+        "D-A-E (Still Open) - Conquerors of the Useless - Treblo.ogg",
+        "D-A-E (Still Open) - Salvaged Timber - Treblo.ogg",
+        "D-A-E (Still Open) - Slide Carousel at Blue Hour - Treblo.ogg",
+        "D-A-E (Still Open) - Solar Wind Boogie - Treblo.ogg",
+        "D-A-E (Still Open) - Swamp Fuzz & The Outlaw Resonator Stomp - Treblo.ogg",
+        "D-A-E (Still Open) - Snowbound Umeå Cabin - Treblo.ogg",
+        "D-A-E (Still Open) - The Geezer's Stride - Treblo.ogg",
+        "D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3785,6 +3851,9 @@
     }
     if (raw === "daefivestar" || raw === "dae-five-star" || raw === "dae-five-star-cut" || raw === "dae-still-open-five-star-cut" || raw === "dae 5 star" || raw === "dae 5★") {
       return "daefivestar";
+    }
+    if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") {
+      return "daehoned";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";
