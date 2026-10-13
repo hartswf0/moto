@@ -64,6 +64,8 @@ export function titleFromFilename(file) {
     .replace(/^staccato sting\s*-\s*/i, "")
     .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
     .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
+    .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, "")
+    .replace(/^the enshittification lullaby\s*-\s*/i, "")
     .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
     .replace(/What It Do_/gi, "What It Do")
     .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")

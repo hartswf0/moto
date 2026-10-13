@@ -3349,6 +3349,68 @@
         "D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg"
       ]
     },
+    hoodtrapgrief: {
+      key: "hoodtrapgrief",
+      pageSlug: "infinite-hoodtrap-loop-of-hitsville-grief",
+      basePath: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/",
+      label: "INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF",
+      subtitle: "22 transmissions / civic rot, porch-light mercy, and the beat that outlives the machine",
+      accentA: "#55c45d",
+      accentB: "#ff5a12",
+      coverImage: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+      defaultTrackArt: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+      trackArtByIndex: {
+        0: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-9(20261013-153944).png",
+        1: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+        2: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        3: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-2(20261013-153933).png",
+        4: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        5: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        6: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        7: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+        8: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        9: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-2(20261013-153933).png",
+        10: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        11: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        12: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+        13: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        14: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+        15: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        16: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        17: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-7(20261013-153940).png",
+        18: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-9(20261013-153944).png",
+        19: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-10(20261013-153514).png",
+        20: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-4(20261013-153936).png",
+        21: "../INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/image-gen-9(20261013-153944).png"
+      },
+      hallKey: "hoodtrapgrief",
+      op2Key: "hoodtrapgrief",
+      op2Pair: "brokemachine",
+      files: [
+        "The Enshittification Lullaby - The Uninterrupted Hum - Treblo.ogg",
+        "The Enshittification Lullaby - Cadence Carries the Crowd - Treblo.ogg",
+        "The Enshittification Lullaby - Sixteen Pads Full Strike - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - The Benchmark Lounge - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - Show Me the Work - Treblo.ogg",
+        "The Enshittification Lullaby - Cadastral Design - Treblo.ogg",
+        "The Enshittification Lullaby - Off the Registry - Treblo.ogg",
+        "The Enshittification Lullaby - Platform Sovereign - Treblo.ogg",
+        "The Enshittification Lullaby - Who Pays The Pipes - Treblo.ogg",
+        "The Enshittification Lullaby - Optimal For Whom - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - Not Your Ombudsman - Treblo.ogg",
+        "The Enshittification Lullaby - The Ditch and the Apparatus - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - Controlled Necrosis - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - The Diagnostic Autopsy - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - The Necro-Yield Shuffle - Treblo.ogg",
+        "The Enshittification Lullaby - Giant Pile of Shit - Treblo.ogg",
+        "The Enshittification Lullaby - Palace of Shit - Treblo.ogg",
+        "The Enshittification Lullaby - The State Can't Tame the Forest - Treblo.ogg",
+        "The Enshittification Lullaby - Three Steps Left - Treblo.ogg",
+        "The Enshittification Lullaby - Vertebrae of Copper - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - Roses on the Gate - Treblo.ogg",
+        "Infinite Hoodtrap Loop of Hitsville Grief - Somebody Leave the Porch Light On - Treblo.ogg"
+      ]
+    },
     southernnoise: {
       key: "southernnoise",
       pageSlug: "a-million-little-souls",
@@ -3655,6 +3717,8 @@
       .replace(/^staccato sting\s*-\s*/i, "")
       .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
       .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
+      .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, "")
+      .replace(/^the enshittification lullaby\s*-\s*/i, "")
       .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
       .replace(/What It Do_/gi, "What It Do")
       .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
@@ -3854,6 +3918,9 @@
     }
     if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") {
       return "daehoned";
+    }
+    if (raw === "hoodtrapgrief" || raw === "hoodtrap" || raw === "hitsville-grief" || raw === "infinite-hoodtrap-loop-of-hitsville-grief" || raw === "enshittification lullaby") {
+      return "hoodtrapgrief";
     }
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") {
       return "southernnoise";

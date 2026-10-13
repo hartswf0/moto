@@ -2008,6 +2008,37 @@
                     "D-A-E (Still Open) - Wai Lana Layover (Anakena Tuning) - Treblo.ogg"
                 ]
             },
+            hoodtrapgrief: {
+                key: "hoodtrapgrief",
+                label: "INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF",
+                short: "HOODTRAP",
+                basePath: "INFINITE HOODTRAP LOOP OF HITSVILLE GRIEF/",
+                logic: "Civic Grief Relay",
+                files: [
+                    "The Enshittification Lullaby - The Uninterrupted Hum - Treblo.ogg",
+                    "The Enshittification Lullaby - Cadence Carries the Crowd - Treblo.ogg",
+                    "The Enshittification Lullaby - Sixteen Pads Full Strike - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - The Benchmark Lounge - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - Show Me the Work - Treblo.ogg",
+                    "The Enshittification Lullaby - Cadastral Design - Treblo.ogg",
+                    "The Enshittification Lullaby - Off the Registry - Treblo.ogg",
+                    "The Enshittification Lullaby - Platform Sovereign - Treblo.ogg",
+                    "The Enshittification Lullaby - Who Pays The Pipes - Treblo.ogg",
+                    "The Enshittification Lullaby - Optimal For Whom - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - Not Your Ombudsman - Treblo.ogg",
+                    "The Enshittification Lullaby - The Ditch and the Apparatus - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - Controlled Necrosis - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - The Diagnostic Autopsy - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - The Necro-Yield Shuffle - Treblo.ogg",
+                    "The Enshittification Lullaby - Giant Pile of Shit - Treblo.ogg",
+                    "The Enshittification Lullaby - Palace of Shit - Treblo.ogg",
+                    "The Enshittification Lullaby - The State Can't Tame the Forest - Treblo.ogg",
+                    "The Enshittification Lullaby - Three Steps Left - Treblo.ogg",
+                    "The Enshittification Lullaby - Vertebrae of Copper - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - Roses on the Gate - Treblo.ogg",
+                    "Infinite Hoodtrap Loop of Hitsville Grief - Somebody Leave the Porch Light On - Treblo.ogg"
+                ]
+            },
             southernnoise: {
                 key: "southernnoise",
                 label: "A MILLION LITTLE SOULS",
@@ -2832,6 +2863,8 @@
                 .replace(/^staccato sting\s*-\s*/i, '')
                 .replace(/^the liturgy of the two buttons\s*-\s*/i, '')
                 .replace(/^d-a-e \(still open\)\s*-\s*/i, '')
+                .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, '')
+                .replace(/^the enshittification lullaby\s*-\s*/i, '')
                 .replace(/SPACES IN BETWEEN __ 游刃/i, 'SPACES IN BETWEEN / 游刃')
                 .replace(/What It Do_/gi, 'What It Do')
                 .replace(/Upstream_ Main Street to the Rise/i, 'Upstream: Main Street to the Rise')
@@ -2921,6 +2954,7 @@
             if (v === 'daestillopen' || v === 'dae-still-open' || v === 'dae_still_open' || v === 'dae still open' || v === 'd-a-e still open' || v === 'dae') return 'daestillopen';
             if (v === 'daefivestar' || v === 'dae-five-star' || v === 'dae-five-star-cut' || v === 'dae-still-open-five-star-cut' || v === 'dae 5 star' || v === 'dae 5★') return 'daefivestar';
             if (v === 'daehoned' || v === 'dae-honed' || v === 'dae-honed-for-film' || v === 'dae film' || v === 'dae soundtrack') return 'daehoned';
+            if (v === 'hoodtrapgrief' || v === 'hoodtrap' || v === 'hitsville-grief' || v === 'infinite-hoodtrap-loop-of-hitsville-grief' || v === 'enshittification lullaby') return 'hoodtrapgrief';
             if (v === 'southernnoise' || v === 'southern' || v === 'noise' || v === 'catharsis' || v === 'southern-noise-catharsis' || v === 'a-million-little-souls' || v === 'souls' || v === 'snc') return 'southernnoise';
             if (v === 'coatvectors' || v === 'coat' || v === 'vectors' || v === 'coat-of-many-vectors' || v === 'coat-of-many-808s' || v === '808s' || v === 'comv') return 'coatvectors';
             if (v === 'kudzucontact' || v === 'kudzu' || v === 'kudzu-contact-gospel' || v === 'kcg') return 'kudzucontact';
