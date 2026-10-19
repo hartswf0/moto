@@ -64,6 +64,8 @@ export function titleFromFilename(file) {
     .replace(/^staccato sting\s*-\s*/i, "")
     .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
     .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
+    .replace(/^rented room\s*-\s*/i, "")
+    .replace(/^(SECO|TIERRA) _ (CANYON|GALLOP)/i, "$1 / $2")
     .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, "")
     .replace(/^the enshittification lullaby\s*-\s*/i, "")
     .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")

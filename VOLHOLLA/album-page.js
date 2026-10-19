@@ -3711,6 +3711,110 @@
         ["OP2 Pair", "Launch beside the Five-Star Cut to compare the film sequence with the broader keeper pool."]
       ]
     },
+    rentedroom: {
+      key: "rentedroom",
+      pageSlug: "rented-room",
+      basePath: "../RENTED ROOM/",
+      label: "RENTED ROOM",
+      subtitle: "40 desert transmissions / borrowed shelter, interlocking light, and the road beyond the door",
+      accentA: "#f0a45d",
+      accentB: "#6978be",
+      coverImage: "../RENTED ROOM/Frog at the Desert Motel.png",
+      defaultTrackArt: "../RENTED ROOM/Frog at the Desert Motel.png",
+      trackArtByIndex: {
+        0: "../RENTED ROOM/Frog at the Open Desert Door.png",
+        1: "../RENTED ROOM/Frog at the Open Desert Door.png",
+        2: "../RENTED ROOM/Frog at the Open Desert Door.png",
+        3: "../RENTED ROOM/Frog at the Open Desert Door.png",
+        4: "../RENTED ROOM/Frog at the Open Desert Door.png",
+        5: "../RENTED ROOM/Frog by the Dune-Filled Window.png",
+        6: "../RENTED ROOM/Frog by the Dune-Filled Window.png",
+        7: "../RENTED ROOM/Frog by the Dune-Filled Window.png",
+        8: "../RENTED ROOM/Frog by the Dune-Filled Window.png",
+        9: "../RENTED ROOM/Frog by the Dune-Filled Window.png",
+        10: "../RENTED ROOM/Jade Frog Shrine in the Desert.png",
+        11: "../RENTED ROOM/Jade Frog Shrine in the Desert.png",
+        12: "../RENTED ROOM/Jade Frog Shrine in the Desert.png",
+        13: "../RENTED ROOM/Jade Frog Shrine in the Desert.png",
+        14: "../RENTED ROOM/Jade Frog Shrine in the Desert.png",
+        15: "../RENTED ROOM/Thermal Frog at the Motel Door.png",
+        16: "../RENTED ROOM/Thermal Frog at the Motel Door.png",
+        17: "../RENTED ROOM/Thermal Frog at the Motel Door.png",
+        18: "../RENTED ROOM/Thermal Frog at the Motel Door.png",
+        19: "../RENTED ROOM/Thermal Frog at the Motel Door.png",
+        20: "../RENTED ROOM/Rented Room at the Frog Motel.png",
+        21: "../RENTED ROOM/Rented Room at the Frog Motel.png",
+        22: "../RENTED ROOM/Rented Room at the Frog Motel.png",
+        23: "../RENTED ROOM/Rented Room at the Frog Motel.png",
+        24: "../RENTED ROOM/Rented Room at the Frog Motel.png",
+        25: "../RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+        26: "../RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+        27: "../RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+        28: "../RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+        29: "../RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+        30: "../RENTED ROOM/Jade Frog at the Desert Motel.png",
+        31: "../RENTED ROOM/Jade Frog at the Desert Motel.png",
+        32: "../RENTED ROOM/Jade Frog at the Desert Motel.png",
+        33: "../RENTED ROOM/Jade Frog at the Desert Motel.png",
+        34: "../RENTED ROOM/Jade Frog at the Desert Motel.png",
+        35: "../RENTED ROOM/Frog at the Desert Motel.png",
+        36: "../RENTED ROOM/Frog at the Desert Motel.png",
+        37: "../RENTED ROOM/Frog at the Desert Motel.png",
+        38: "../RENTED ROOM/Frog at the Desert Motel.png",
+        39: "../RENTED ROOM/Frog at the Desert Motel.png"
+      },
+      hallKey: "rentedroom",
+      op2Key: "rentedroom",
+      op2Pair: "daehoned",
+      files: [
+        "Rented Room - The Room Is Ready - Treblo.ogg",
+        "Rented Room - Early Light, Open Gate - Treblo.ogg",
+        "Rented Room - The Latch and the Light - Treblo.ogg",
+        "Rented Room - One Bare Bulb Above - Treblo.ogg",
+        "Rented Room - Always Noon - Treblo.ogg",
+        "Rented Room - High Noon in the Ténéré - Treblo.ogg",
+        "Rented Room - Courtyard of Sand - Treblo.ogg",
+        "Rented Room - Sitio Para Ti - Treblo.ogg",
+        "Rented Room - Addis Poolside 1984 - Treblo.ogg",
+        "Rented Room - Softly Slow - Treblo.ogg",
+        "Rented Room - Two Notes and a Wind - Treblo.ogg",
+        "Rented Room - Five Beats, Three and Two - Treblo.ogg",
+        "Rented Room - Two Guitars Across Desert and Equator - Treblo.ogg",
+        "Rented Room - Tierra Gallop - Treblo.ogg",
+        "Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo (1).ogg",
+        "Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo.ogg",
+        "Rented Room - SECO _ CANYON — Interlocking Light - Treblo (1).ogg",
+        "Rented Room - SECO _ CANYON — Interlocking Light - Treblo.ogg",
+        "Rented Room - Borrowed Coupe - Treblo.ogg",
+        "Rented Room - Borrowed Coupe Waltz - Treblo.ogg",
+        "Rented Room - Burton Barn Thai-Funk & West Texas Horizon - Treblo.ogg",
+        "Rented Room - Sunset Strip Baroque & Blue-Jean Wall - Treblo.ogg",
+        "Rented Room - Tarhatazed Pursuit - Treblo.ogg",
+        "Rented Room - Low E Underneath the Road - Treblo.ogg",
+        "Rented Room - Pylon Matrix - Treblo.ogg",
+        "Rented Room - Salt Flat Pressure - Treblo.ogg",
+        "Rented Room - No Way Out of the Basin - Treblo.ogg",
+        "Rented Room - Past the Exit - Treblo.ogg",
+        "Rented Room - Another Identical Run - Treblo.ogg",
+        "Rented Room - Returns With a Different Hand - Treblo.ogg",
+        "Rented Room - Perpetual Quadraphonic Desert Time Loop - Treblo.ogg",
+        "Rented Room - Sixteen Steps, Empty Hands - Treblo.ogg",
+        "Rented Room - Six O'Clock, Forever - Treblo.ogg",
+        "Rented Room - The Horizon Keeps Its Place - Treblo.ogg",
+        "Rented Room - Tizita Mirage - Treblo.ogg",
+        "Rented Room - Gold Breaks Through - Treblo.ogg",
+        "Rented Room - Two Broke Lovers in a Desert Town - Treblo.ogg",
+        "Rented Room - Waltz for the Broke and Beautiful - Treblo.ogg",
+        "Rented Room - A Reason to Live - Treblo.ogg",
+        "Rented Room - The Lamp Keeps Burning - Treblo.ogg"
+      ],
+      notes: [
+        ["Concept", "A temporary room in an endless landscape: desert guitar, borrowed motion, hard noon, motel dusk, and the small human lights that make a place inhabitable."],
+        ["Sequence", "Arrival and shelter open into courtyard rhythm, interlocking guitar forms, the borrowed car and pursuit, a tightening road loop, then dusk, mirage, lovers, and the lamp that refuses to go out."],
+        ["Form", "Recurring gallops, canyon studies, waltzes, and return journeys behave like views of the same road from neighboring rooms."],
+        ["OP2 Pair", "Launch beside D-A-E · Honed for Film for a long-road, open-horizon double feature."]
+      ]
+    },
     hoodtrapgrief: {
       key: "hoodtrapgrief",
       pageSlug: "infinite-hoodtrap-loop-of-hitsville-grief",
@@ -4113,6 +4217,8 @@
     .replace(/^staccato sting\s*-\s*/i, "")
     .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
     .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
+    .replace(/^rented room\s*-\s*/i, "")
+    .replace(/^(SECO|TIERRA) _ (CANYON|GALLOP)/i, "$1 / $2")
     .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, "")
     .replace(/^the enshittification lullaby\s*-\s*/i, "")
     .replace(/SPACES IN BETWEEN __ 游刃/i, "SPACES IN BETWEEN / 游刃")
@@ -4312,6 +4418,7 @@
     if (raw === "daestillopen" || raw === "dae-still-open" || raw === "dae_still_open" || raw === "dae still open" || raw === "d-a-e still open" || raw === "dae") return "daestillopen";
     if (raw === "daefivestar" || raw === "dae-five-star" || raw === "dae-five-star-cut" || raw === "dae-still-open-five-star-cut" || raw === "dae 5 star" || raw === "dae 5★") return "daefivestar";
     if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") return "daehoned";
+    if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") return "rentedroom";
     if (raw === "hoodtrapgrief" || raw === "hoodtrap" || raw === "hitsville-grief" || raw === "infinite-hoodtrap-loop-of-hitsville-grief" || raw === "enshittification lullaby") return "hoodtrapgrief";
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") return "southernnoise";
     if (raw === "coatvectors" || raw === "coat" || raw === "vectors" || raw === "coat-of-many-vectors" || raw === "coat_of_many_vectors" || raw === "coat of many vectors" || raw === "coat-of-many-808s" || raw === "coat of many 808s" || raw === "808s" || raw === "comv") return "coatvectors";

@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-10-13T18:55:31.354Z",
+  "generatedAt": "2026-10-19T22:42:00.336Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -30381,6 +30381,627 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           },
           "art": {
             "source": "DAE STILL OPEN/dae-still-open-02.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "rentedroom": {
+      "key": "rentedroom",
+      "label": "RENTED ROOM",
+      "subtitle": "40 desert transmissions / borrowed shelter, interlocking light, and the road beyond the door",
+      "pageSlug": "rented-room",
+      "hallKey": "rentedroom",
+      "op2Key": "rentedroom",
+      "op2Pair": "daehoned",
+      "accentA": "#f0a45d",
+      "accentB": "#6978be",
+      "cover": {
+        "source": "RENTED ROOM/Frog at the Desert Motel.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "RENTED ROOM/Frog at the Desert Motel.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "The Room Is Ready",
+          "file": "Rented Room - The Room Is Ready - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - The Room Is Ready - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-01.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - The Room Is Ready - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Open Desert Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Early Light, Open Gate",
+          "file": "Rented Room - Early Light, Open Gate - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Early Light, Open Gate - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-02.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Early Light, Open Gate - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Open Desert Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "The Latch and the Light",
+          "file": "Rented Room - The Latch and the Light - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - The Latch and the Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-03.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - The Latch and the Light - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Open Desert Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "One Bare Bulb Above",
+          "file": "Rented Room - One Bare Bulb Above - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - One Bare Bulb Above - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-04.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - One Bare Bulb Above - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Open Desert Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Always Noon",
+          "file": "Rented Room - Always Noon - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Always Noon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-05.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Always Noon - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Open Desert Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "High Noon in the Ténéré",
+          "file": "Rented Room - High Noon in the Ténéré - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - High Noon in the Ténéré - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-06.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - High Noon in the Ténéré - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog by the Dune-Filled Window.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Courtyard of Sand",
+          "file": "Rented Room - Courtyard of Sand - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Courtyard of Sand - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-07.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Courtyard of Sand - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog by the Dune-Filled Window.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Sitio Para Ti",
+          "file": "Rented Room - Sitio Para Ti - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Sitio Para Ti - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-08.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Sitio Para Ti - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog by the Dune-Filled Window.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Addis Poolside 1984",
+          "file": "Rented Room - Addis Poolside 1984 - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Addis Poolside 1984 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-09.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Addis Poolside 1984 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog by the Dune-Filled Window.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Softly Slow",
+          "file": "Rented Room - Softly Slow - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Softly Slow - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-10.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Softly Slow - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog by the Dune-Filled Window.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Two Notes and a Wind",
+          "file": "Rented Room - Two Notes and a Wind - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Two Notes and a Wind - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-11.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Two Notes and a Wind - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog Shrine in the Desert.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Five Beats, Three and Two",
+          "file": "Rented Room - Five Beats, Three and Two - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Five Beats, Three and Two - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-12.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Five Beats, Three and Two - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog Shrine in the Desert.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Two Guitars Across Desert and Equator",
+          "file": "Rented Room - Two Guitars Across Desert and Equator - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Two Guitars Across Desert and Equator - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-13.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Two Guitars Across Desert and Equator - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog Shrine in the Desert.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Tierra Gallop",
+          "file": "Rented Room - Tierra Gallop - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Tierra Gallop - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-14.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Tierra Gallop - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog Shrine in the Desert.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "TIERRA / GALLOP — Wood, Wire, Pulse (1)",
+          "file": "Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo (1).ogg",
+          "source": "RENTED ROOM/Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-15.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog Shrine in the Desert.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "TIERRA / GALLOP — Wood, Wire, Pulse",
+          "file": "Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-16.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - TIERRA _ GALLOP — Wood, Wire, Pulse - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Thermal Frog at the Motel Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "SECO / CANYON — Interlocking Light (1)",
+          "file": "Rented Room - SECO _ CANYON — Interlocking Light - Treblo (1).ogg",
+          "source": "RENTED ROOM/Rented Room - SECO _ CANYON — Interlocking Light - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-17.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - SECO _ CANYON — Interlocking Light - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Thermal Frog at the Motel Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "SECO / CANYON — Interlocking Light",
+          "file": "Rented Room - SECO _ CANYON — Interlocking Light - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - SECO _ CANYON — Interlocking Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-18.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - SECO _ CANYON — Interlocking Light - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Thermal Frog at the Motel Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Borrowed Coupe",
+          "file": "Rented Room - Borrowed Coupe - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Borrowed Coupe - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-19.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Borrowed Coupe - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Thermal Frog at the Motel Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Borrowed Coupe Waltz",
+          "file": "Rented Room - Borrowed Coupe Waltz - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Borrowed Coupe Waltz - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-20.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Borrowed Coupe Waltz - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Thermal Frog at the Motel Door.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Burton Barn Thai-Funk & West Texas Horizon",
+          "file": "Rented Room - Burton Barn Thai-Funk & West Texas Horizon - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Burton Barn Thai-Funk & West Texas Horizon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-21.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Burton Barn Thai-Funk & West Texas Horizon - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Rented Room at the Frog Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Sunset Strip Baroque & Blue-Jean Wall",
+          "file": "Rented Room - Sunset Strip Baroque & Blue-Jean Wall - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Sunset Strip Baroque & Blue-Jean Wall - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-22.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Sunset Strip Baroque & Blue-Jean Wall - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Rented Room at the Frog Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Tarhatazed Pursuit",
+          "file": "Rented Room - Tarhatazed Pursuit - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Tarhatazed Pursuit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-23.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Tarhatazed Pursuit - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Rented Room at the Frog Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Low E Underneath the Road",
+          "file": "Rented Room - Low E Underneath the Road - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Low E Underneath the Road - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-24.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Low E Underneath the Road - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Rented Room at the Frog Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "Pylon Matrix",
+          "file": "Rented Room - Pylon Matrix - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Pylon Matrix - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-25.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Pylon Matrix - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Rented Room at the Frog Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "Salt Flat Pressure",
+          "file": "Rented Room - Salt Flat Pressure - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Salt Flat Pressure - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-26.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Salt Flat Pressure - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 27,
+          "title": "No Way Out of the Basin",
+          "file": "Rented Room - No Way Out of the Basin - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - No Way Out of the Basin - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-27.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - No Way Out of the Basin - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 28,
+          "title": "Past the Exit",
+          "file": "Rented Room - Past the Exit - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Past the Exit - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-28.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Past the Exit - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 29,
+          "title": "Another Identical Run",
+          "file": "Rented Room - Another Identical Run - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Another Identical Run - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-29.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Another Identical Run - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 30,
+          "title": "Returns With a Different Hand",
+          "file": "Rented Room - Returns With a Different Hand - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Returns With a Different Hand - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-30.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Returns With a Different Hand - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Cosmic Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 31,
+          "title": "Perpetual Quadraphonic Desert Time Loop",
+          "file": "Rented Room - Perpetual Quadraphonic Desert Time Loop - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Perpetual Quadraphonic Desert Time Loop - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-31.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Perpetual Quadraphonic Desert Time Loop - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 32,
+          "title": "Sixteen Steps, Empty Hands",
+          "file": "Rented Room - Sixteen Steps, Empty Hands - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Sixteen Steps, Empty Hands - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-32.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Sixteen Steps, Empty Hands - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 33,
+          "title": "Six O'Clock, Forever",
+          "file": "Rented Room - Six O'Clock, Forever - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Six O'Clock, Forever - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-33.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Six O'Clock, Forever - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 34,
+          "title": "The Horizon Keeps Its Place",
+          "file": "Rented Room - The Horizon Keeps Its Place - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - The Horizon Keeps Its Place - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-34.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - The Horizon Keeps Its Place - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 35,
+          "title": "Tizita Mirage",
+          "file": "Rented Room - Tizita Mirage - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Tizita Mirage - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-35.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Tizita Mirage - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Jade Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 36,
+          "title": "Gold Breaks Through",
+          "file": "Rented Room - Gold Breaks Through - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Gold Breaks Through - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-36.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Gold Breaks Through - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 37,
+          "title": "Two Broke Lovers in a Desert Town",
+          "file": "Rented Room - Two Broke Lovers in a Desert Town - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Two Broke Lovers in a Desert Town - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-37.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Two Broke Lovers in a Desert Town - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 38,
+          "title": "Waltz for the Broke and Beautiful",
+          "file": "Rented Room - Waltz for the Broke and Beautiful - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - Waltz for the Broke and Beautiful - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-38.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - Waltz for the Broke and Beautiful - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 39,
+          "title": "A Reason to Live",
+          "file": "Rented Room - A Reason to Live - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - A Reason to Live - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-39.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - A Reason to Live - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 40,
+          "title": "The Lamp Keeps Burning",
+          "file": "Rented Room - The Lamp Keeps Burning - Treblo.ogg",
+          "source": "RENTED ROOM/Rented Room - The Lamp Keeps Burning - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-rentedroom-40.html",
+          "audio": {
+            "source": "RENTED ROOM/Rented Room - The Lamp Keeps Burning - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "RENTED ROOM/Frog at the Desert Motel.png",
             "derivatives": {}
           }
         }
