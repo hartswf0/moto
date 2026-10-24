@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:42:00.336Z",
+  "generatedAt": "2026-10-24T18:02:34.935Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -31002,6 +31002,192 @@
           },
           "art": {
             "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "stagnant": {
+      "key": "stagnant",
+      "label": "STAGNANT SUPERSTITION",
+      "subtitle": "11 transmissions / unfinished structures, inherited myths, and the courage to change course",
+      "pageSlug": "stagnant-superstition",
+      "hallKey": "stagnant",
+      "op2Key": "stagnant",
+      "op2Pair": "rentedroom",
+      "accentA": "#f5b51b",
+      "accentB": "#ef4d2f",
+      "cover": {
+        "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Half Built and Proud",
+          "file": "Stagnant Superstition - Half Built and Proud - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Half Built and Proud - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-01.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Half Built and Proud - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Hands On The Steering Wheel",
+          "file": "Stagnant Superstition - Hands On The Steering Wheel - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Hands On The Steering Wheel - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-02.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Hands On The Steering Wheel - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Dropped Relay",
+          "file": "Stagnant Superstition - Dropped Relay - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Dropped Relay - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-03.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Dropped Relay - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Shifting Riverbeds",
+          "file": "Stagnant Superstition - Shifting Riverbeds - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Shifting Riverbeds - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-04.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Shifting Riverbeds - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Shifting Riverbeds & Bolt-Cutter Canons",
+          "file": "Stagnant Superstition - Shifting Riverbeds & Bolt-Cutter Canons - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Shifting Riverbeds & Bolt-Cutter Canons - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-05.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Shifting Riverbeds & Bolt-Cutter Canons - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Torch Pass & Ferris Wheel Hex",
+          "file": "Stagnant Superstition - Torch Pass & Ferris Wheel Hex - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Torch Pass & Ferris Wheel Hex - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-06.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Torch Pass & Ferris Wheel Hex - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Remembering The Game",
+          "file": "Stagnant Superstition - Remembering The Game - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-07.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Remembering The Game & Catapult Choirs",
+          "file": "Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-08.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Remembering The Game & Catapult Choirs (1)",
+          "file": "Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo (1).ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-stagnant-09.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Catapults Over Ivory Towers",
+          "file": "Stagnant Superstition - Catapults Over Ivory Towers - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - Catapults Over Ivory Towers - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-10.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - Catapults Over Ivory Towers - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "It Could Just As Well Be Otherwise",
+          "file": "Stagnant Superstition - It Could Just As Well Be Otherwise - Treblo.ogg",
+          "source": "Stagnant Superstition/Stagnant Superstition - It Could Just As Well Be Otherwise - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-stagnant-11.html",
+          "audio": {
+            "source": "Stagnant Superstition/Stagnant Superstition - It Could Just As Well Be Otherwise - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png",
             "derivatives": {}
           }
         }

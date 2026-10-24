@@ -3815,6 +3815,46 @@
         ["OP2 Pair", "Launch beside D-A-E · Honed for Film for a long-road, open-horizon double feature."]
       ]
     },
+    stagnant: {
+      key: "stagnant",
+      pageSlug: "stagnant-superstition",
+      basePath: "../Stagnant Superstition/",
+      label: "STAGNANT SUPERSTITION",
+      subtitle: "11 transmissions / unfinished structures, inherited myths, and the courage to change course",
+      accentA: "#f5b51b",
+      accentB: "#ef4d2f",
+      coverImage: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+      defaultTrackArt: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+      trackArtByIndex: {
+        0: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        1: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        2: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        3: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_31 PM.png",
+        4: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+        5: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+        6: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+        7: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_48 PM.png",
+        8: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png",
+        9: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png",
+        10: "../Stagnant Superstition/ChatGPT Image Oct 24, 2026, 01_59_57 PM.png"
+      },
+      hallKey: "stagnant",
+      op2Key: "stagnant",
+      op2Pair: "rentedroom",
+      files: [
+        "Stagnant Superstition - Half Built and Proud - Treblo.ogg",
+        "Stagnant Superstition - Hands On The Steering Wheel - Treblo.ogg",
+        "Stagnant Superstition - Dropped Relay - Treblo.ogg",
+        "Stagnant Superstition - Shifting Riverbeds - Treblo.ogg",
+        "Stagnant Superstition - Shifting Riverbeds & Bolt-Cutter Canons - Treblo.ogg",
+        "Stagnant Superstition - Torch Pass & Ferris Wheel Hex - Treblo.ogg",
+        "Stagnant Superstition - Remembering The Game - Treblo.ogg",
+        "Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo.ogg",
+        "Stagnant Superstition - Remembering The Game & Catapult Choirs - Treblo (1).ogg",
+        "Stagnant Superstition - Catapults Over Ivory Towers - Treblo.ogg",
+        "Stagnant Superstition - It Could Just As Well Be Otherwise - Treblo.ogg"
+      ]
+    },
     hoodtrapgrief: {
       key: "hoodtrapgrief",
       pageSlug: "infinite-hoodtrap-loop-of-hitsville-grief",
@@ -4419,6 +4459,7 @@
     if (raw === "daefivestar" || raw === "dae-five-star" || raw === "dae-five-star-cut" || raw === "dae-still-open-five-star-cut" || raw === "dae 5 star" || raw === "dae 5★") return "daefivestar";
     if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") return "daehoned";
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") return "rentedroom";
+    if (raw === "stagnant" || raw === "stagnant-superstition" || raw === "stagnant_superstition" || raw === "stagnant superstition" || raw === "cool radio") return "stagnant";
     if (raw === "hoodtrapgrief" || raw === "hoodtrap" || raw === "hitsville-grief" || raw === "infinite-hoodtrap-loop-of-hitsville-grief" || raw === "enshittification lullaby") return "hoodtrapgrief";
     if (raw === "southernnoise" || raw === "southern" || raw === "noise" || raw === "catharsis" || raw === "southern-noise-catharsis" || raw === "southern_noise_catharsis" || raw === "southern noise catharsis" || raw === "a-million-little-souls" || raw === "a million little souls" || raw === "souls" || raw === "snc") return "southernnoise";
     if (raw === "coatvectors" || raw === "coat" || raw === "vectors" || raw === "coat-of-many-vectors" || raw === "coat_of_many_vectors" || raw === "coat of many vectors" || raw === "coat-of-many-808s" || raw === "coat of many 808s" || raw === "808s" || raw === "comv") return "coatvectors";
