@@ -65,6 +65,8 @@ export function titleFromFilename(file) {
     .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
     .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
     .replace(/^rented room\s*-\s*/i, "")
+    .replace(/^yеgеllе tеzеtа\s*-\s*/i, "")
+    .replace(/^12_15(?=\s|$)/i, "12:15")
     .replace(/^stagnant superstition\s*-\s*/i, "")
     .replace(/^(SECO|TIERRA) _ (CANYON|GALLOP)/i, "$1 / $2")
     .replace(/^infinite hoodtrap loop of hitsville grief\s*-\s*/i, "")

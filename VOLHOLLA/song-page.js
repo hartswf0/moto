@@ -3447,6 +3447,80 @@
         "Rented Room - The Lamp Keeps Burning - Treblo.ogg"
       ]
     },
+    yegelle: {
+      key: "yegelle",
+      pageSlug: "yegelle-tezeta",
+      basePath: "../Yеgеllе Tеzеtа/",
+      label: "YEGELLE TEZETA",
+      subtitle: "28 transmissions / cool-radio memory, Addis afterglow, and amphibian lounge time",
+      accentA: "#d8961e",
+      accentB: "#48652f",
+      coverImage: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+      defaultTrackArt: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+      trackArtByIndex: {
+        0: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        1: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        2: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        3: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        4: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        5: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        6: "../Yеgеllе Tеzеtа/Frog Bandleader, Vibraphone, and Heart Cake.png",
+        7: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        8: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        9: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        10: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        11: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        12: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        13: "../Yеgеllе Tеzеtа/Frog, Fern, and Walking Stick.png",
+        14: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        15: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        16: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        17: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        18: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        19: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        20: "../Yеgеllе Tеzеtа/Frog in the Amber Lounge.png",
+        21: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        22: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        23: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        24: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        25: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        26: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png",
+        27: "../Yеgеllе Tеzеtа/Frog Fisher and Floating Cake.png"
+      },
+      hallKey: "yegelle",
+      op2Key: "yegelle",
+      op2Pair: "rentedroom",
+      files: [
+        "Yеgеllе Tеzеtа - Bajo el Sol de Verano - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Tizita Machine - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Cypher in the Spotlight - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Cypher - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Botanical Sunday - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Memory of Yesterday's Love - Treblo.ogg",
+        "Yеgеllе Tеzеtа - January Song Search - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Shepherd's Bush Falsetto - Treblo.ogg",
+        "Yеgеllе Tеzеtа - 12_15 - Treblo.ogg",
+        "Yеgеllе Tеzеtа - All The Things I Can't Afford - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Tavern Wall Echoes - Treblo.ogg",
+        "Yеgеllе Tеzеtа - White Spotlight Cypher - Treblo.ogg",
+        "Yеgеllе Tеzеtа - የምሥራች! - Treblo.ogg",
+        "Yеgеllе Tеzеtа - ዘፈኑም ስህተት ነው - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Child Running Wild - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Patience In The Cassette Deck - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Rocket-USA - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Superfly Horn & Trunk Sub - Treblo.ogg",
+        "Yеgеllе Tеzеtа - ሻንጣውን አስቀምጥ - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Two Inches To The Left - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Four Voices, One Room - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Concrete Circle Percussion - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Daydream - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Addis on the Beltline - Treblo.ogg",
+        "Yеgеllе Tеzеtа - የደመና ገደል ሻንጣና የተሳሳተው ቅኝት - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Modular Tonal Lego - Treblo.ogg",
+        "Yеgеllе Tеzеtа - Yègellé Tezeta - Treblo.ogg",
+        "Yеgеllе Tеzеtа - 12_15 a.m. - Treblo.ogg"
+      ]
+    },
     stagnant: {
       key: "stagnant",
       pageSlug: "stagnant-superstition",
@@ -4061,6 +4135,9 @@
     }
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") {
       return "rentedroom";
+    }
+    if (raw === "yegelle" || raw === "yegelle-tezeta" || raw === "yegelle_tezeta" || raw === "yegelle tezeta" || raw === "tezeta") {
+      return "yegelle";
     }
     if (raw === "stagnant" || raw === "stagnant-superstition" || raw === "stagnant_superstition" || raw === "stagnant superstition" || raw === "cool radio") {
       return "stagnant";
