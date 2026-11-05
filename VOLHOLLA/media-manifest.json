@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T22:08:32.326Z",
+  "generatedAt": "2026-11-05T22:39:13.145Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -31002,6 +31002,768 @@
           },
           "art": {
             "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "firstwintera": {
+      "key": "firstwintera",
+      "label": "SOMEONE WROTE MY FIRST WINTER · A SIDE",
+      "subtitle": "26 transmissions / borrowed cold, mood machines, and the soul learning its first weather",
+      "pageSlug": "someone-wrote-my-first-winter-a-side",
+      "hallKey": "firstwintera",
+      "op2Key": "firstwintera",
+      "op2Pair": "firstwinterb",
+      "accentA": "#2452b8",
+      "accentB": "#ff4a24",
+      "cover": {
+        "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "U-Roy – Wake The Town And Carry Them Across",
+          "file": "Someone Wrote My First Winter - U-Roy – Wake The Town And Carry Them Across - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - U-Roy – Wake The Town And Carry Them Across - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-01.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - U-Roy – Wake The Town And Carry Them Across - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "21 M◊◊N WATER",
+          "file": "Someone Wrote My First Winter - 21 M◊◊N WATER - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 21 M◊◊N WATER - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-02.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 21 M◊◊N WATER - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Horn",
+          "file": "Someone Wrote My First Winter - Horn - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Horn - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-03.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Horn - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Days Have No Numbers",
+          "file": "Someone Wrote My First Winter - Days Have No Numbers - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Days Have No Numbers - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-04.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Days Have No Numbers - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Byegone",
+          "file": "Someone Wrote My First Winter - Byegone - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Byegone - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-05.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Byegone - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "The Technology of Mood",
+          "file": "Someone Wrote My First Winter - The Technology of Mood - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Technology of Mood - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-06.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Technology of Mood - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "I Need $",
+          "file": "Someone Wrote My First Winter - I Need $ - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - I Need $ - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-07.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - I Need $ - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Wild Heart",
+          "file": "Someone Wrote My First Winter - Wild Heart - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Wild Heart - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-08.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Wild Heart - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "The Answer System",
+          "file": "Someone Wrote My First Winter - The Answer System - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Answer System - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-09.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Answer System - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Cobalt Frog, Borrowed Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Hymnostic",
+          "file": "Someone Wrote My First Winter - Hymnostic - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Hymnostic - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-10.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Hymnostic - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "All My Goodness to Show",
+          "file": "Someone Wrote My First Winter - All My Goodness to Show - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - All My Goodness to Show - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-11.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - All My Goodness to Show - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Not Text, But Texture",
+          "file": "Someone Wrote My First Winter - Not Text, But Texture - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Not Text, But Texture - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-12.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Not Text, But Texture - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Tizita",
+          "file": "Someone Wrote My First Winter - Tizita - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Tizita - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-13.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Tizita - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "21 M ◊ ◊ N WATER",
+          "file": "Someone Wrote My First Winter - 21 M ◊ ◊ N WATER - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 21 M ◊ ◊ N WATER - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-14.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 21 M ◊ ◊ N WATER - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "The Inhale Archive",
+          "file": "Someone Wrote My First Winter - The Inhale Archive - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Inhale Archive - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-15.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - The Inhale Archive - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Fasola",
+          "file": "Someone Wrote My First Winter - Fasola - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Fasola - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-16.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Fasola - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "We Find God",
+          "file": "Someone Wrote My First Winter - We Find God - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - We Find God - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-17.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - We Find God - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Heart Is Stone",
+          "file": "Someone Wrote My First Winter - Heart Is Stone - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Heart Is Stone - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-18.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Heart Is Stone - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Returns a Winter Photograph.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Final Wall of the Labyrinth",
+          "file": "Someone Wrote My First Winter - Final Wall of the Labyrinth - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Final Wall of the Labyrinth - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-19.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Final Wall of the Labyrinth - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "22",
+          "file": "Someone Wrote My First Winter - 22 - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 22 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-20.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - 22 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Weight Off Me",
+          "file": "Someone Wrote My First Winter - Weight Off Me - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Weight Off Me - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-21.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Weight Off Me - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Piece of My Soul",
+          "file": "Someone Wrote My First Winter - Piece of My Soul - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Piece of My Soul - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-22.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Piece of My Soul - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Until the Day I Die",
+          "file": "Someone Wrote My First Winter - Until the Day I Die - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Until the Day I Die - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-23.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Until the Day I Die - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Before Anyone Answers",
+          "file": "Someone Wrote My First Winter - Before Anyone Answers - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Before Anyone Answers - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-24.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Before Anyone Answers - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "Teach You What I Can Do",
+          "file": "Someone Wrote My First Winter - Teach You What I Can Do - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Teach You What I Can Do - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-25.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Teach You What I Can Do - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 26,
+          "title": "Tamashek Dreams",
+          "file": "Someone Wrote My First Winter - Tamashek Dreams - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Tamashek Dreams - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwintera-26.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (A Side)/Someone Wrote My First Winter - Tamashek Dreams - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (A Side)/Frog Calibrates a Tadpole’s First Winter.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "firstwinterb": {
+      "key": "firstwinterb",
+      "label": "SOMEONE WROTE MY FIRST WINTER · B SIDE",
+      "subtitle": "22 transmissions / frost memory, human relays, and the canon waking beneath the ice",
+      "pageSlug": "someone-wrote-my-first-winter-b-side",
+      "hallKey": "firstwinterb",
+      "op2Key": "firstwinterb",
+      "op2Pair": "firstwintera",
+      "accentA": "#173f8f",
+      "accentB": "#70b44a",
+      "cover": {
+        "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Mother Nature",
+          "file": "Someone Wrote My First Winter - Mother Nature - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Mother Nature - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-01.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Mother Nature - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Cold Grits: It's Your Thing",
+          "file": "Someone Wrote My First Winter - Cold Grits_ It's Your Thing - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Cold Grits_ It's Your Thing - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-02.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Cold Grits_ It's Your Thing - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Feet",
+          "file": "Someone Wrote My First Winter - Feet - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Feet - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-03.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Feet - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Love Is Blind",
+          "file": "Someone Wrote My First Winter - Love Is Blind - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Love Is Blind - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-04.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Love Is Blind - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Spectral Morning",
+          "file": "Someone Wrote My First Winter - Spectral Morning - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Spectral Morning - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-05.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Spectral Morning - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Human Compute Network",
+          "file": "Someone Wrote My First Winter - Human Compute Network - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Human Compute Network - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-06.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Human Compute Network - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Four Operators at the House of Dust",
+          "file": "Someone Wrote My First Winter - Four Operators at the House of Dust - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Four Operators at the House of Dust - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-07.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Four Operators at the House of Dust - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Don't Cry",
+          "file": "Someone Wrote My First Winter - Don't Cry - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Don't Cry - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-08.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Don't Cry - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Emerald frog beneath summer ice.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "The Archive That Can Run",
+          "file": "Someone Wrote My First Winter - The Archive That Can Run - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - The Archive That Can Run - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-09.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - The Archive That Can Run - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Memory Trance",
+          "file": "Someone Wrote My First Winter - Memory Trance - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Memory Trance - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-10.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Memory Trance - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Dionne",
+          "file": "Someone Wrote My First Winter - Dionne - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Dionne - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-11.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Dionne - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Two Words in a Calibrated Room",
+          "file": "Someone Wrote My First Winter - Two Words in a Calibrated Room - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Two Words in a Calibrated Room - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-12.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Two Words in a Calibrated Room - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Hailu Mergia",
+          "file": "Someone Wrote My First Winter - Hailu Mergia - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Hailu Mergia - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-13.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Hailu Mergia - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Open For Ya",
+          "file": "Someone Wrote My First Winter - Open For Ya - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Open For Ya - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-14.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Open For Ya - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Imidiwin",
+          "file": "Someone Wrote My First Winter - Imidiwin - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Imidiwin - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-15.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Imidiwin - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog Transmits a Frost Memory.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Woodland Canon",
+          "file": "Someone Wrote My First Winter - Woodland Canon - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Woodland Canon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-16.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Woodland Canon - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Silkymoon Light",
+          "file": "Someone Wrote My First Winter - Silkymoon Light - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Silkymoon Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-17.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Silkymoon Light - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Mapping the Canon",
+          "file": "Someone Wrote My First Winter - Mapping the Canon - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Mapping the Canon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-18.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Mapping the Canon - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Blind Node Relay",
+          "file": "Someone Wrote My First Winter - Blind Node Relay - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Blind Node Relay - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-19.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Blind Node Relay - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Missing Three Rows",
+          "file": "Someone Wrote My First Winter - Missing Three Rows - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Missing Three Rows - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-20.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Missing Three Rows - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "00000 Million",
+          "file": "Someone Wrote My First Winter - 00000 Million - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - 00000 Million - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-21.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - 00000 Million - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Reed and Wire",
+          "file": "Someone Wrote My First Winter - Reed and Wire - Treblo.ogg",
+          "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Reed and Wire - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-firstwinterb-22.html",
+          "audio": {
+            "source": "Someone Wrote My First Winter (B Side)/Someone Wrote My First Winter - Reed and Wire - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Someone Wrote My First Winter (B Side)/Frog and Tadpole Behind Winter Glass.png",
             "derivatives": {}
           }
         }
