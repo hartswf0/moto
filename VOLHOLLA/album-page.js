@@ -3815,6 +3815,116 @@
         ["OP2 Pair", "Launch beside D-A-E · Honed for Film for a long-road, open-horizon double feature."]
       ]
     },
+    brutesenate: {
+      key: "brutesenate",
+      pageSlug: "et-tu-brute",
+      basePath: "../Et tu, Brute/",
+      label: "ET TU, BRUTE?",
+      subtitle: "14 transmissions / shadow coups, subterranean dreams, and the dagger in the Senate",
+      accentA: "#b16e28",
+      accentB: "#f0c267",
+      coverImage: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+      defaultTrackArt: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+      trackArtByIndex: {
+        0: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+        1: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+        2: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+        3: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+        4: "../Et tu, Brute/Glistening Frog on Amber Radio.png",
+        5: "../Et tu, Brute/03_The_Last_Supper_Club.png",
+        6: "../Et tu, Brute/03_The_Last_Supper_Club.png",
+        7: "../Et tu, Brute/03_The_Last_Supper_Club.png",
+        8: "../Et tu, Brute/03_The_Last_Supper_Club.png",
+        9: "../Et tu, Brute/03_The_Last_Supper_Club.png",
+        10: "../Et tu, Brute/09_The_Shadow_Coup.png",
+        11: "../Et tu, Brute/09_The_Shadow_Coup.png",
+        12: "../Et tu, Brute/09_The_Shadow_Coup.png",
+        13: "../Et tu, Brute/09_The_Shadow_Coup.png"
+      },
+      hallKey: "brutesenate",
+      op2Key: "brutesenate",
+      op2Pair: "boxback",
+      files: [
+        "Et tu, Brute_ - Amen - Treblo.ogg",
+        "Et tu, Brute_ - Blown-Out Sanctuary - Treblo (1).ogg",
+        "Et tu, Brute_ - Brutus - Treblo (2).ogg",
+        "Et tu, Brute_ - El Sueño De La Divina - Treblo.ogg",
+        "Et tu, Brute_ - Heavy Weather in the Boiler Room - Treblo.ogg",
+        "Et tu, Brute_ - I'm God - Treblo.ogg",
+        "Et tu, Brute_ - Reversed Heavens & Blown-Out Mud - Treblo.ogg",
+        "Et tu, Brute_ - Selah - Treblo.ogg",
+        "Et tu, Brute_ - Sirens, Part 2 - Treblo.ogg",
+        "Et tu, Brute_ - Subterranean Dreams - Treblo.ogg",
+        "Et tu, Brute_ - The Dagger in the Senate - Treblo.ogg",
+        "Et tu, Brute_ - The Shaolin Shadow - Treblo.ogg",
+        "Et tu, Brute_ - Weight Off - Treblo.ogg",
+        "Et tu, Brute_ - Wheel of Fate - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "shadow coups, subterranean dreams, and the dagger in the Senate"],
+        ["Art", "3 frog-radio and boxback studies move through the sequence as visual chapters."],
+        ["OP2 Pair", "Launch with ET TU, BRUTE? · BOXBACK as the companion transmission."]
+      ]
+    },
+    boxback: {
+      key: "boxback",
+      pageSlug: "et-tu-brute-boxback",
+      basePath: "../Et tu, Brute (BOXBACK)/",
+      label: "ET TU, BRUTE? · BOXBACK",
+      subtitle: "18 transmissions / corrugated paradoxes, Jansport dub, and the universal boxback",
+      accentA: "#de5a2b",
+      accentB: "#23a6b8",
+      coverImage: "../Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+      defaultTrackArt: "../Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+      trackArtByIndex: {
+        0: "../Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+        1: "../Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+        2: "../Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+        3: "../Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+        4: "../Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+        5: "../Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+        6: "../Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+        7: "../Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+        8: "../Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+        9: "../Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+        10: "../Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+        11: "../Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+        12: "../Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+        13: "../Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+        14: "../Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+        15: "../Et tu, Brute (BOXBACK)/Refugee of the Boxback.png",
+        16: "../Et tu, Brute (BOXBACK)/Refugee of the Boxback.png",
+        17: "../Et tu, Brute (BOXBACK)/Refugee of the Boxback.png"
+      },
+      hallKey: "boxback",
+      op2Key: "boxback",
+      op2Pair: "brutesenate",
+      files: [
+        "Et tu, Brute_ - ALL BOX - Treblo.ogg",
+        "Et tu, Brute_ - Boxes - Treblo (1).ogg",
+        "Et tu, Brute_ - Boxes - Treblo (2).ogg",
+        "Et tu, Brute_ - Boxes - Treblo (3).ogg",
+        "Et tu, Brute_ - Boxes - Treblo.ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (8).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (9).ogg",
+        "Et tu, Brute_ - Boxes On My Back (The Jansport Dub) - Treblo.ogg",
+        "Et tu, Brute_ - Boxes on My Back (Voidout Protocol) - Treblo.ogg",
+        "Et tu, Brute_ - Chiral Cargo & The Rope-Not-Stick Choir - Treblo.ogg",
+        "Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+        "Et tu, Brute_ - Schrodinger's Jansport - Treblo.ogg",
+        "Et tu, Brute_ - The Paradox Unboxing - Treblo.ogg",
+        "Et tu, Brute_ - The Universal Boxback - Treblo.ogg",
+        "Et tu, Brute_ - The Whole Package - Treblo.ogg",
+        "Et tu, Brute_ - Trap-Tox & Cardboard - Treblo.ogg",
+        "Et tu, Brute_ - What's In The Box (Pandora's Vocoder) - Treblo.ogg",
+        "Et tu, Brute_ - Wittgenstein's Backpack - Treblo.ogg"
+      ],
+      notes: [
+        ["Mode", "corrugated paradoxes, Jansport dub, and the universal boxback"],
+        ["Art", "6 frog-radio and boxback studies move through the sequence as visual chapters."],
+        ["OP2 Pair", "Launch with ET TU, BRUTE? as the companion transmission."]
+      ]
+    },
     etubrute: {
       key: "etubrute",
       pageSlug: "et-tu-brute-beats",
@@ -4787,6 +4897,8 @@
     if (raw === "daefivestar" || raw === "dae-five-star" || raw === "dae-five-star-cut" || raw === "dae-still-open-five-star-cut" || raw === "dae 5 star" || raw === "dae 5★") return "daefivestar";
     if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") return "daehoned";
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") return "rentedroom";
+    if (raw === "brutesenate" || raw === "brute-senate" || raw === "shadow coup" || raw === "dagger in the senate") return "brutesenate";
+    if (raw === "boxback" || raw === "box-back" || raw === "universal boxback" || raw === "et tu brute boxback") return "boxback";
     if (raw === "etubrute" || raw === "et-tu-brute" || raw === "et tu brute" || raw === "et tu brute beats" || raw === "brute beats") return "etubrute";
     if (raw === "boxesback" || raw === "boxes-back" || raw === "boxes on my back" || raw === "box on the back" || raw === "et tu brute boxes") return "boxesback";
     if (raw === "firstwintera" || raw === "first-winter-a" || raw === "someone-wrote-my-first-winter-a-side" || raw === "first winter a" || raw === "winter a") return "firstwintera";

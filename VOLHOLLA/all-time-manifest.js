@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-11-07T21:33:50.215Z",
+  "generatedAt": "2026-11-07T22:00:26.561Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -31002,6 +31002,528 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           },
           "art": {
             "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "brutesenate": {
+      "key": "brutesenate",
+      "label": "ET TU, BRUTE?",
+      "subtitle": "14 transmissions / shadow coups, subterranean dreams, and the dagger in the Senate",
+      "pageSlug": "et-tu-brute",
+      "hallKey": "brutesenate",
+      "op2Key": "brutesenate",
+      "op2Pair": "boxback",
+      "accentA": "#b16e28",
+      "accentB": "#f0c267",
+      "cover": {
+        "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Amen",
+          "file": "Et tu, Brute_ - Amen - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Amen - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-01.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Amen - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Blown-Out Sanctuary (1)",
+          "file": "Et tu, Brute_ - Blown-Out Sanctuary - Treblo (1).ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Blown-Out Sanctuary - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-02.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Blown-Out Sanctuary - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Brutus (2)",
+          "file": "Et tu, Brute_ - Brutus - Treblo (2).ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Brutus - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-03.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Brutus - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "El Sueño De La Divina",
+          "file": "Et tu, Brute_ - El Sueño De La Divina - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - El Sueño De La Divina - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-04.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - El Sueño De La Divina - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Heavy Weather in the Boiler Room",
+          "file": "Et tu, Brute_ - Heavy Weather in the Boiler Room - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Heavy Weather in the Boiler Room - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-05.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Heavy Weather in the Boiler Room - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/Glistening Frog on Amber Radio.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "I'm God",
+          "file": "Et tu, Brute_ - I'm God - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - I'm God - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-06.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - I'm God - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/03_The_Last_Supper_Club.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Reversed Heavens & Blown-Out Mud",
+          "file": "Et tu, Brute_ - Reversed Heavens & Blown-Out Mud - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Reversed Heavens & Blown-Out Mud - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-07.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Reversed Heavens & Blown-Out Mud - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/03_The_Last_Supper_Club.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Selah",
+          "file": "Et tu, Brute_ - Selah - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Selah - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-08.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Selah - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/03_The_Last_Supper_Club.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Sirens, Part 2",
+          "file": "Et tu, Brute_ - Sirens, Part 2 - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Sirens, Part 2 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-09.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Sirens, Part 2 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/03_The_Last_Supper_Club.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Subterranean Dreams",
+          "file": "Et tu, Brute_ - Subterranean Dreams - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Subterranean Dreams - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-10.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Subterranean Dreams - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/03_The_Last_Supper_Club.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "The Dagger in the Senate",
+          "file": "Et tu, Brute_ - The Dagger in the Senate - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - The Dagger in the Senate - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-11.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - The Dagger in the Senate - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/09_The_Shadow_Coup.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "The Shaolin Shadow",
+          "file": "Et tu, Brute_ - The Shaolin Shadow - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - The Shaolin Shadow - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-12.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - The Shaolin Shadow - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/09_The_Shadow_Coup.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Weight Off",
+          "file": "Et tu, Brute_ - Weight Off - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Weight Off - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-13.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Weight Off - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/09_The_Shadow_Coup.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Wheel of Fate",
+          "file": "Et tu, Brute_ - Wheel of Fate - Treblo.ogg",
+          "source": "Et tu, Brute/Et tu, Brute_ - Wheel of Fate - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-brutesenate-14.html",
+          "audio": {
+            "source": "Et tu, Brute/Et tu, Brute_ - Wheel of Fate - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute/09_The_Shadow_Coup.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "boxback": {
+      "key": "boxback",
+      "label": "ET TU, BRUTE? · BOXBACK",
+      "subtitle": "18 transmissions / corrugated paradoxes, Jansport dub, and the universal boxback",
+      "pageSlug": "et-tu-brute-boxback",
+      "hallKey": "boxback",
+      "op2Key": "boxback",
+      "op2Pair": "brutesenate",
+      "accentA": "#de5a2b",
+      "accentB": "#23a6b8",
+      "cover": {
+        "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "ALL BOX",
+          "file": "Et tu, Brute_ - ALL BOX - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - ALL BOX - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-01.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - ALL BOX - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Boxes (1)",
+          "file": "Et tu, Brute_ - Boxes - Treblo (1).ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-boxback-02.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Boxes (2)",
+          "file": "Et tu, Brute_ - Boxes - Treblo (2).ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-boxback-03.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Boxes (3)",
+          "file": "Et tu, Brute_ - Boxes - Treblo (3).ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (3).ogg",
+          "songPage": "VOLHOLLA/song-boxback-04.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo (3).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Boxes",
+          "file": "Et tu, Brute_ - Boxes - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-05.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Boxes on My Back (8)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (8).ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back - Treblo (8).ogg",
+          "songPage": "VOLHOLLA/song-boxback-06.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back - Treblo (8).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Boxes on My Back (9)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (9).ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back - Treblo (9).ogg",
+          "songPage": "VOLHOLLA/song-boxback-07.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back - Treblo (9).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Boxes On My Back (The Jansport Dub)",
+          "file": "Et tu, Brute_ - Boxes On My Back (The Jansport Dub) - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes On My Back (The Jansport Dub) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-08.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes On My Back (The Jansport Dub) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Boxes on My Back (Voidout Protocol)",
+          "file": "Et tu, Brute_ - Boxes on My Back (Voidout Protocol) - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back (Voidout Protocol) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-09.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Boxes on My Back (Voidout Protocol) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Boxback lumbar brace flat-lay.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Chiral Cargo & The Rope-Not-Stick Choir",
+          "file": "Et tu, Brute_ - Chiral Cargo & The Rope-Not-Stick Choir - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Chiral Cargo & The Rope-Not-Stick Choir - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-10.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Chiral Cargo & The Rope-Not-Stick Choir - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Corrugated Sky",
+          "file": "Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-11.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Schrodinger's Jansport",
+          "file": "Et tu, Brute_ - Schrodinger's Jansport - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Schrodinger's Jansport - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-12.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Schrodinger's Jansport - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Corrugated Mask With Shipping Boxes.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Paradox Unboxing",
+          "file": "Et tu, Brute_ - The Paradox Unboxing - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Paradox Unboxing - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-13.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Paradox Unboxing - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "The Universal Boxback",
+          "file": "Et tu, Brute_ - The Universal Boxback - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Universal Boxback - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-14.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Universal Boxback - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "The Whole Package",
+          "file": "Et tu, Brute_ - The Whole Package - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Whole Package - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-15.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - The Whole Package - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Neon Frog on the Back Porch.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Trap-Tox & Cardboard",
+          "file": "Et tu, Brute_ - Trap-Tox & Cardboard - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Trap-Tox & Cardboard - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-16.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Trap-Tox & Cardboard - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Refugee of the Boxback.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "What's In The Box (Pandora's Vocoder)",
+          "file": "Et tu, Brute_ - What's In The Box (Pandora's Vocoder) - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - What's In The Box (Pandora's Vocoder) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-17.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - What's In The Box (Pandora's Vocoder) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Refugee of the Boxback.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Wittgenstein's Backpack",
+          "file": "Et tu, Brute_ - Wittgenstein's Backpack - Treblo.ogg",
+          "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Wittgenstein's Backpack - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxback-18.html",
+          "audio": {
+            "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Wittgenstein's Backpack - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et tu, Brute (BOXBACK)/Refugee of the Boxback.png",
             "derivatives": {}
           }
         }
