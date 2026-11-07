@@ -399,7 +399,7 @@
         : state.mode === "themes"
           ? [["THEME", track.search.theme, 9], ["SIGNAL", track.search.signal, 7], ["TITLE", track.search.title, 6], ["WORDS", track.search.transcript, 4]]
           : state.mode === "genre"
-            ? [["GENRE", track.search.genre, 10], ["SIGNAL", track.search.signal, 7], ["TITLE", track.search.title, 4]]
+            ? [["GENRE", track.search.genre, 10], ["SIGNAL", track.search.signal, 7]]
             : [["TITLE", track.search.title, 12], ["ALBUM", track.search.album, 8], ["SIGNAL", track.search.signal, 7], ["GENRE", track.search.genre, 7], ["THEME", track.search.theme, 6], ["WORDS", track.search.transcript, 5]];
 
       for (const token of queryTokens) {
