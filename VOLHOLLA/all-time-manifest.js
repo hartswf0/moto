@@ -1,5 +1,5 @@
 window.ALL_TIME_EMBEDDED_MANIFEST = {
-  "generatedAt": "2026-11-05T22:39:13.145Z",
+  "generatedAt": "2026-11-07T21:33:50.215Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
@@ -31002,6 +31002,618 @@ window.ALL_TIME_EMBEDDED_MANIFEST = {
           },
           "art": {
             "source": "RENTED ROOM/Frog at the Desert Motel.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "etubrute": {
+      "key": "etubrute",
+      "label": "ET TU, BRUTE? · BEATS",
+      "subtitle": "13 transmissions / ritual drums, cathedral dub, and the knife inside the chorus",
+      "pageSlug": "et-tu-brute-beats",
+      "hallKey": "etubrute",
+      "op2Key": "etubrute",
+      "op2Pair": "boxesback",
+      "accentA": "#78654a",
+      "accentB": "#b59d72",
+      "cover": {
+        "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "BUH-BOX   -CK! (80 Voices as Drum Kit)",
+          "file": "Et tu, Brute_ - BUH-BOX _ -CK! (80 Voices as Drum Kit) - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - BUH-BOX _ -CK! (80 Voices as Drum Kit) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-01.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - BUH-BOX _ -CK! (80 Voices as Drum Kit) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Brutus (1)",
+          "file": "Et tu, Brute_ - Brutus - Treblo (1).ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Brutus - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-etubrute-02.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Brutus - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Brutus",
+          "file": "Et tu, Brute_ - Brutus - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Brutus - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-03.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Brutus - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Cathedral Dub Vigil",
+          "file": "Et tu, Brute_ - Cathedral Dub Vigil - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Cathedral Dub Vigil - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-04.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Cathedral Dub Vigil - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Choral-First Motorik",
+          "file": "Et tu, Brute_ - Choral-First Motorik - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Choral-First Motorik - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-05.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Choral-First Motorik - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Echoes of the Black Chapel",
+          "file": "Et tu, Brute_ - Echoes of the Black Chapel - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Echoes of the Black Chapel - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-06.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Echoes of the Black Chapel - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Grand Opera Chorus & Dub-Mud Catacomb",
+          "file": "Et tu, Brute_ - Grand Opera Chorus & Dub-Mud Catacomb - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Grand Opera Chorus & Dub-Mud Catacomb - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-07.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Grand Opera Chorus & Dub-Mud Catacomb - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Purple Haze Junction",
+          "file": "Et tu, Brute_ - Purple Haze Junction - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Purple Haze Junction - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-08.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Purple Haze Junction - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Ritual Drums & Sacred Choirs",
+          "file": "Et tu, Brute_ - Ritual Drums & Sacred Choirs - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Ritual Drums & Sacred Choirs - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-09.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Ritual Drums & Sacred Choirs - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Steppe Telegraph & The 6,500-Voice Lavender Shanty",
+          "file": "Et tu, Brute_ - Steppe Telegraph & The 6,500-Voice Lavender Shanty - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Steppe Telegraph & The 6,500-Voice Lavender Shanty - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-10.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - Steppe Telegraph & The 6,500-Voice Lavender Shanty - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "The Ancient-Chant Singularity",
+          "file": "Et tu, Brute_ - The Ancient-Chant Singularity - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Ancient-Chant Singularity - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-11.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Ancient-Chant Singularity - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "The Cathedral of Tape Echo",
+          "file": "Et tu, Brute_ - The Cathedral of Tape Echo - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Cathedral of Tape Echo - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-12.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Cathedral of Tape Echo - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Knife I Carry",
+          "file": "Et tu, Brute_ - The Knife I Carry - Treblo.ogg",
+          "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Knife I Carry - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-etubrute-13.html",
+          "audio": {
+            "source": "Et Tu, Brute (beats)/Et tu, Brute_ - The Knife I Carry - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
+    "boxesback": {
+      "key": "boxesback",
+      "label": "ET TU, BRUTE · BOXES ON MY BACK",
+      "subtitle": "25 transmissions / hollow-square field engines, heavy-load choruses, and boxes carried home",
+      "pageSlug": "et-tu-brute-boxes-on-my-back",
+      "hallKey": "boxesback",
+      "op2Key": "boxesback",
+      "op2Pair": "etubrute",
+      "accentA": "#315f8c",
+      "accentB": "#c38a3d",
+      "cover": {
+        "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Blown-Out Sanctuary",
+          "file": "Et tu, Brute_ - Blown-Out Sanctuary - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Blown-Out Sanctuary - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-01.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Blown-Out Sanctuary - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Boxes On My Back (4)",
+          "file": "Et tu, Brute_ - Boxes On My Back - Treblo (4).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes On My Back - Treblo (4).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-02.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes On My Back - Treblo (4).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "Boxes on My Back (1)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (1).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-03.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "Boxes on My Back (2)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (2).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-04.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Boxes on My Back (3)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (3).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (3).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-05.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (3).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Boxes on My Back (5)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (5).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (5).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-06.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (5).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Boxes on My Back (6)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (6).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (6).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-07.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (6).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "Boxes on My Back (7)",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo (7).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (7).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-08.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo (7).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Boxes on My Back",
+          "file": "Et tu, Brute_ - Boxes on My Back - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-09.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Boxes on My Back - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Brutus Never Learned to Read",
+          "file": "Et tu, Brute_ - Brutus Never Learned to Read - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus Never Learned to Read - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-10.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus Never Learned to Read - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Brutus Protocol",
+          "file": "Et tu, Brute_ - Brutus Protocol - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus Protocol - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-11.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus Protocol - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "Brutus in the Basement",
+          "file": "Et tu, Brute_ - Brutus in the Basement - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus in the Basement - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-12.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Brutus in the Basement - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "Capsae in Tergo Meo",
+          "file": "Et tu, Brute_ - Capsae in Tergo Meo - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Capsae in Tergo Meo - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-13.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Capsae in Tergo Meo - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Cathedral of Static",
+          "file": "Et tu, Brute_ - Cathedral of Static - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Cathedral of Static - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-14.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Cathedral of Static - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Fa Sol La Mi (1)",
+          "file": "Et tu, Brute_ - Fa Sol La Mi - Treblo (1).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Fa Sol La Mi - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-15.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Fa Sol La Mi - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Fa Sol La Mi",
+          "file": "Et tu, Brute_ - Fa Sol La Mi - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Fa Sol La Mi - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-16.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Fa Sol La Mi - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Four-Wall Hollow Square",
+          "file": "Et tu, Brute_ - Four-Wall Hollow Square - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Four-Wall Hollow Square - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-17.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Four-Wall Hollow Square - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "HUNH! (92 BPM Field Clock)",
+          "file": "Et tu, Brute_ - HUNH! (92 BPM Field Clock) - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - HUNH! (92 BPM Field Clock) - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-18.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - HUNH! (92 BPM Field Clock) - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Heavy Load Chorus",
+          "file": "Et tu, Brute_ - Heavy Load Chorus - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Heavy Load Chorus - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-19.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Heavy Load Chorus - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Hollow Square Roar (1)",
+          "file": "Et tu, Brute_ - Hollow Square Roar - Treblo (1).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo (1).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-20.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo (1).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "Hollow Square Roar (2)",
+          "file": "Et tu, Brute_ - Hollow Square Roar - Treblo (2).ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo (2).ogg",
+          "songPage": "VOLHOLLA/song-boxesback-21.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo (2).ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Hollow Square Roar",
+          "file": "Et tu, Brute_ - Hollow Square Roar - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-22.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "Hollow Square Roar-Brute",
+          "file": "Et tu, Brute_ - Hollow Square Roar-Brute - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar-Brute - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-23.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Hollow Square Roar-Brute - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 24,
+          "title": "Parchman Hollow Square",
+          "file": "Et tu, Brute_ - Parchman Hollow Square - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Parchman Hollow Square - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-24.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - Parchman Hollow Square - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 25,
+          "title": "The Presto Disc & The Hollow-Square Field Engine",
+          "file": "Et tu, Brute_ - The Presto Disc & The Hollow-Square Field Engine - Treblo.ogg",
+          "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - The Presto Disc & The Hollow-Square Field Engine - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-boxesback-25.html",
+          "audio": {
+            "source": "Et Tu, Brute (Box on the back)/Et tu, Brute_ - The Presto Disc & The Hollow-Square Field Engine - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
             "derivatives": {}
           }
         }

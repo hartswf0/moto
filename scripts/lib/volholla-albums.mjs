@@ -65,6 +65,7 @@ export function titleFromFilename(file) {
     .replace(/^the liturgy of the two buttons\s*-\s*/i, "")
     .replace(/^d-a-e \(still open\)\s*-\s*/i, "")
     .replace(/^rented room\s*-\s*/i, "")
+    .replace(/^et tu, brute_?\s*-\s*/i, "")
     .replace(/^someone wrote my first winter\s*-\s*/i, "")
     .replace(/^yеgеllе tеzеtа\s*-\s*/i, "")
     .replace(/^12_15(?=\s|$)/i, "12:15")

@@ -3447,6 +3447,118 @@
         "Rented Room - The Lamp Keeps Burning - Treblo.ogg"
       ]
     },
+    etubrute: {
+      key: "etubrute",
+      pageSlug: "et-tu-brute-beats",
+      basePath: "../Et Tu, Brute (beats)/",
+      label: "ET TU, BRUTE? · BEATS",
+      subtitle: "13 transmissions / ritual drums, cathedral dub, and the knife inside the chorus",
+      accentA: "#78654a",
+      accentB: "#b59d72",
+      coverImage: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+      defaultTrackArt: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+      trackArtByIndex: {
+        0: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        1: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        2: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        3: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        4: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        5: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        6: "../Et Tu, Brute (beats)/Moss-Green Frog on a Radio Dial.png",
+        7: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+        8: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+        9: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+        10: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+        11: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png",
+        12: "../Et Tu, Brute (beats)/Halftone frog on twin radio grilles.png"
+      },
+      hallKey: "etubrute",
+      op2Key: "etubrute",
+      op2Pair: "boxesback",
+      files: [
+        "Et tu, Brute_ - BUH-BOX _ -CK! (80 Voices as Drum Kit) - Treblo.ogg",
+        "Et tu, Brute_ - Brutus - Treblo (1).ogg",
+        "Et tu, Brute_ - Brutus - Treblo.ogg",
+        "Et tu, Brute_ - Cathedral Dub Vigil - Treblo.ogg",
+        "Et tu, Brute_ - Choral-First Motorik - Treblo.ogg",
+        "Et tu, Brute_ - Echoes of the Black Chapel - Treblo.ogg",
+        "Et tu, Brute_ - Grand Opera Chorus & Dub-Mud Catacomb - Treblo.ogg",
+        "Et tu, Brute_ - Purple Haze Junction - Treblo.ogg",
+        "Et tu, Brute_ - Ritual Drums & Sacred Choirs - Treblo.ogg",
+        "Et tu, Brute_ - Steppe Telegraph & The 6,500-Voice Lavender Shanty - Treblo.ogg",
+        "Et tu, Brute_ - The Ancient-Chant Singularity - Treblo.ogg",
+        "Et tu, Brute_ - The Cathedral of Tape Echo - Treblo.ogg",
+        "Et tu, Brute_ - The Knife I Carry - Treblo.ogg"
+      ]
+    },
+    boxesback: {
+      key: "boxesback",
+      pageSlug: "et-tu-brute-boxes-on-my-back",
+      basePath: "../Et Tu, Brute (Box on the back)/",
+      label: "ET TU, BRUTE · BOXES ON MY BACK",
+      subtitle: "25 transmissions / hollow-square field engines, heavy-load choruses, and boxes carried home",
+      accentA: "#315f8c",
+      accentB: "#c38a3d",
+      coverImage: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+      defaultTrackArt: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+      trackArtByIndex: {
+        0: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        1: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        2: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        3: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        4: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        5: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        6: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        7: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        8: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        9: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        10: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        11: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        12: "../Et Tu, Brute (Box on the back)/Cobalt frog with box on back.png",
+        13: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        14: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        15: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        16: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        17: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        18: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        19: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        20: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        21: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        22: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        23: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png",
+        24: "../Et Tu, Brute (Box on the back)/Charcoal Frog with Cobalt Strap.png"
+      },
+      hallKey: "boxesback",
+      op2Key: "boxesback",
+      op2Pair: "etubrute",
+      files: [
+        "Et tu, Brute_ - Blown-Out Sanctuary - Treblo.ogg",
+        "Et tu, Brute_ - Boxes On My Back - Treblo (4).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (1).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (2).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (3).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (5).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (6).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo (7).ogg",
+        "Et tu, Brute_ - Boxes on My Back - Treblo.ogg",
+        "Et tu, Brute_ - Brutus Never Learned to Read - Treblo.ogg",
+        "Et tu, Brute_ - Brutus Protocol - Treblo.ogg",
+        "Et tu, Brute_ - Brutus in the Basement - Treblo.ogg",
+        "Et tu, Brute_ - Capsae in Tergo Meo - Treblo.ogg",
+        "Et tu, Brute_ - Cathedral of Static - Treblo.ogg",
+        "Et tu, Brute_ - Fa Sol La Mi - Treblo (1).ogg",
+        "Et tu, Brute_ - Fa Sol La Mi - Treblo.ogg",
+        "Et tu, Brute_ - Four-Wall Hollow Square - Treblo.ogg",
+        "Et tu, Brute_ - HUNH! (92 BPM Field Clock) - Treblo.ogg",
+        "Et tu, Brute_ - Heavy Load Chorus - Treblo.ogg",
+        "Et tu, Brute_ - Hollow Square Roar - Treblo (1).ogg",
+        "Et tu, Brute_ - Hollow Square Roar - Treblo (2).ogg",
+        "Et tu, Brute_ - Hollow Square Roar - Treblo.ogg",
+        "Et tu, Brute_ - Hollow Square Roar-Brute - Treblo.ogg",
+        "Et tu, Brute_ - Parchman Hollow Square - Treblo.ogg",
+        "Et tu, Brute_ - The Presto Disc & The Hollow-Square Field Engine - Treblo.ogg"
+      ]
+    },
     firstwintera: {
       key: "firstwintera",
       pageSlug: "someone-wrote-my-first-winter-a-side",
@@ -4267,6 +4379,12 @@
     }
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") {
       return "rentedroom";
+    }
+    if (raw === "etubrute" || raw === "et-tu-brute" || raw === "et tu brute" || raw === "et tu brute beats" || raw === "brute beats") {
+      return "etubrute";
+    }
+    if (raw === "boxesback" || raw === "boxes-back" || raw === "boxes on my back" || raw === "box on the back" || raw === "et tu brute boxes") {
+      return "boxesback";
     }
     if (raw === "firstwintera" || raw === "first-winter-a" || raw === "someone-wrote-my-first-winter-a-side" || raw === "first winter a" || raw === "winter a") {
       return "firstwintera";
