@@ -185,6 +185,7 @@ function songPageHtml(album, trackIndex, manifestAlbum) {
       </div>
     </div>
   </main>
+  <script src="./scion-video-art.js?v=1"></script>
   <script src="./song-page.js?v=${escapeHtml(album.key)}-${album.files.length}"></script>
 </body>
 </html>
