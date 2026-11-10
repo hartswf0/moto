@@ -136,3 +136,15 @@ Two fixes on the same beat had failed, so per doctrine §11 the hypothesis chang
 Regressions fixed in the same round:
 * **34.75 s pop.** The camera jumped from the follow (x 1200) to 1060 at b64, and the laundry was created at b64. Now the camera is continuous (1200 → 900, eased) and the laundry line exists from b40, entering by parallax.
 * **60.83 s (b112) jump.** The laundry changed line and boxes were created while the camera was mid-tween. It is now a **clean cut on the b112 frame with a framing change**: a wide storm framing (camera 900 → 820, she walks out left) cuts to the field framing (camera = 0.6·her + 0.4·house).
+
+## Critic round 5 (final pass for this film)
+
+The critic measured the *rendered* file. There was no camera move: a 13-frame cross-dissolve (127.92–128.45 s), a static close, a hard cut back at 132.54 s, and double-exposed captions during the dissolve. Perceived failures: the bundle's lid ring; a fist read as a knob; her face level, looking out; the caption bar cutting her head.
+
+| condition | repair (the reveal is one function, `reveal_push`, from b232 to the end) | measured on the rendered mp4 (`tests/test_push.py`, written to `push-tests.json`) |
+|---|---|---|
+| 1. A real multiplane push, no dissolve | two layers scaled about one anchor (760, 440): **near** (her + baby, `near_layer`, drawn oversized so it has no edges in frame) 0.45 → 1.0 over b233–236.5; **far** (blurred exterior, house glow) 1.0 → 1.10; focus racks (far blur 4 → 16). The near veil parts b232–233.5. No `Image.blend` between shots | the scale factor is estimated from pixels for each region (frame A warped about the anchor, minimum error vs frame B); see the report for near, far and ratio; max consecutive-frame diff inside the reveal |
+| 2. One caption per frame, her head clear | captions at the bottom for the whole reveal; no second render is blended | caption-text row clusters per frame b200–262 |
+| 3. No knob, ring or fist bead | fist removed; the hood is cloth only; the doorway-shot bundle is one soft silhouette (no box or rim) | perceptual |
+| 4. Face tilted ≥ 15° | `HER_TH` = 40°, with a lowered-eyelid arc | PCA of her rim-light pixels on the held close frame |
+| 5. Hold to the end of the phrase | the close holds from b236.5 to the film's end, and the title appears over it at b246; no cut back | max diff inside the reveal (no cut) |

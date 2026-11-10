@@ -654,6 +654,91 @@ def close_push(b, t):
     return Image.blend(med, close, k)
 
 
+PUSH = {"anchor": (760.0, 440.0), "b0": 233.0, "b1": 236.5, "near": (0.45, 1.0), "far": (1.0, 1.10)}
+HER_TH = math.radians(40)          # her face normal: 40 deg below horizontal, toward the baby
+
+
+def push_scales(b):
+    k = ease(seg(b, PUSH["b0"], PUSH["b1"])); tail = seg(b, PUSH["b1"], 262)
+    sn = lerp(*PUSH["near"], k) * (1 + 0.04 * tail); sf = lerp(*PUSH["far"], k) * (1 + 0.01 * tail)
+    return sn, sf
+
+
+def _scale_about(im, s, P, offset=(0, 0)):
+    """Scale image content by s about screen point P. offset = where the layer's (0,0) sits inside im."""
+    inv = (1 / s, 0, P[0] - P[0] / s + offset[0], 0, 1 / s, P[1] - P[1] / s + offset[1])
+    return im.transform((W, H), Image.AFFINE, inv, resample=Image.BICUBIC)
+
+
+def near_layer(b):
+    """Her (inclined profile, shoulder, cradling arms) and the swaddled baby, drawn on an oversized canvas so the
+    layer has no edges inside the frame at any push scale."""
+    OX, OY = W, H
+    L = Image.new("RGBA", (W * 3, H * 3), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
+    o = lambda p: (p[0] + OX, p[1] + OY)
+    INKC = (28, 20, 24, 255); CLOTH = (78, 60, 66, 255); FOLD = (150, 118, 112, 255); RIM = (255, 214, 150, 255)
+    hc, hr = (300.0, 250.0), 140.0
+    her_poly, her_face, her_eye = baby_face_profile(hc, hr, HER_TH)
+    d.polygon([o(p) for p in her_poly], fill=INKC)
+    # head-wrap on the back/top of her head, neck, shoulder and body falling away out of frame (bottom-left)
+    n = (math.cos(HER_TH), math.sin(HER_TH))
+    d.polygon([o((hc[0] - 170, hc[1] - 10)), o((hc[0] - 40, hc[1] - 190)), o((hc[0] + 60, hc[1] - 165)), o((hc[0] - 40, hc[1] + 20))], fill=INKC)
+    d.polygon([o((hc[0] - 120, hc[1] + 70)), o((hc[0] + 70, hc[1] + 120)), o((hc[0] + 120, 760)), o((hc[0] + 200, 1400)),
+               o((-900, 1400)), o((-900, hc[1] + 80))], fill=INKC)
+    d.line([o(p) for p in her_face], fill=RIM, width=4, joint="curve")
+    d.line([o(p) for p in her_eye], fill=RIM, width=3, joint="curve")          # lowered eyelid, looking down at the baby
+    c, r, th = CLOSE["baby_c"], CLOSE["baby_r"], CLOSE["baby_th"]
+    body = [(c[0] - 40, c[1] + 40), (c[0] + 60, c[1] - 70), (c[0] + 250, c[1] - 40), (c[0] + 420, c[1] + 60), (c[0] + 470, c[1] + 180),
+            (c[0] + 380, c[1] + 300), (c[0] + 60, c[1] + 300), (c[0] - 80, c[1] + 200)]
+    d.polygon([o(p) for p in body], fill=CLOTH)
+    for (p0, p1, p2) in [((c[0] + 40, c[1] + 230), (c[0] + 200, c[1] + 70), (c[0] + 330, c[1] - 30)),
+                         ((c[0] + 150, c[1] + 290), (c[0] + 300, c[1] + 150), (c[0] + 440, c[1] + 90))]:
+        d.line([o(p0), o(p1), o(p2)], fill=FOLD, width=6, joint="curve")
+    d.polygon([o((c[0] + 10, c[1] + 120)), o((c[0] + 170, c[1] + 40)), o((c[0] + 120, c[1] + 160))], fill=(92, 72, 78, 255))
+    hood = [(c[0] + math.cos(math.radians(a_)) * r * 1.28, c[1] + math.sin(math.radians(a_)) * r * 1.28) for a_ in range(-60, 120, 6)]
+    d.line([o(p) for p in hood], fill=CLOTH, width=40, joint="curve")                     # hood: cloth only, no ring line
+    poly, face, eye = baby_face_profile(c, r, th)
+    d.polygon([o(p) for p in poly], fill=INKC)
+    d.line([o(p) for p in face], fill=RIM, width=5, joint="curve")
+    d.line([o(p) for p in eye], fill=RIM, width=3, joint="curve")
+    # her cradling arms: large near shapes under the bundle, running out of frame
+    d.line([o((-900, 760)), o((300, 690)), o((700, 800))], fill=INKC, width=140, joint="curve")
+    d.line([o((540, 780)), o((900, 730)), o((1120, 800))], fill=INKC, width=110, joint="curve")
+    d.ellipse([o((1060, 740))[0], o((1060, 740))[1], o((1180, 860))[0], o((1180, 860))[1]], fill=INKC)      # her far hand under the feet
+    return L, (OX, OY)
+
+
+def reveal_push(b, t):
+    """Round 5: the fog parts (b232-233.5), then the camera pushes through depth (b233-236.5). Near layer scales 0.45 -> 1.0,
+    the far world 1.0 -> 1.10, both about PUSH['anchor']; focus racks to the near plane (far blur 4 -> 16)."""
+    a = assets()
+    sn, sf = push_scales(b); P = PUSH["anchor"]
+    k = ease(seg(b, PUSH["b0"], PUSH["b1"]))
+    far = exterior(b, t, hide_woman=True).filter(ImageFilter.GaussianBlur(lerp(4, 16, k)))
+    far = Image.blend(far, Image.new("RGBA", (W, H), (40, 30, 40, 255)), 0.25 * k)
+    far = _scale_about(far, sf, P)
+    blit_center(far, a["glow_big"].resize((520, 520)), P[0] + (580 - P[0]) * sf, P[1] + (250 - P[1]) * sf)
+    L, off = near_layer(b)
+    out = far
+    out.alpha_composite(_scale_about(L, sn, P, off))
+    # the near pollen veil (z ~ 1.2) parts around the baby at b232.6-235
+    kf = ease(seg(b, 232.0, 233.5))
+    if kf < 1:
+        f = a["fog"].slab(3, t * 40, 0, 0.97, (236, 214, 206), contrast=1.4, floor=0.75)
+        m = Image.new("L", (W, H), 255); dm = ImageDraw.Draw(m)
+        bc = (P[0] + (CLOSE["baby_c"][0] - P[0]) * sn, P[1] + (CLOSE["baby_c"][1] - P[1]) * sn)
+        gap = 40 + 620 * kf
+        dm.ellipse([bc[0] - gap * 1.3, bc[1] - gap, bc[0] + gap * 1.3, bc[1] + gap], fill=0)
+        m = m.filter(ImageFilter.GaussianBlur(40))
+        f.putalpha(Image.fromarray((np.asarray(f.split()[3], np.float32) * np.asarray(m, np.float32) / 255).astype(np.uint8)))
+        out.alpha_composite(f)
+    if CAPTIONS:
+        draw_message(out, b, (W / 2, H - 60))           # captions at the BOTTOM for the whole reveal: her head stays clear
+    if b >= 246:
+        title(out, ["THE WHOLE", "PACKAGE"], b, 246, y0=40)
+    return out
+
+
 def render_frame(f):
     t = f / FPS; b = B(t)
     assets()
@@ -666,10 +751,8 @@ def render_frame(f):
             pass
     elif 150 <= b < 191:
         im = interior(b, t)
-    elif 232 <= b < 235.5:
-        im = closeup(b, t)
-    elif 235.5 <= b < 244:
-        im = close_push(b, t)
+    elif b >= 232:
+        im = reveal_push(b, t)        # round 5: one continuous multiplane push to the end of the film (no dissolve, no cut)
     else:
         im = exterior(b, t)
         if b < 150 or b >= 191:

@@ -1,6 +1,6 @@
 {
  "film": "the-universal-boxback",
- "revision": "r4",
+ "revision": "r5",
  "grid": {
   "period": 0.4614285829991442,
   "offset": 0.045678572874893,
@@ -86,7 +86,7 @@
    "pass": true,
    "frame": 4076,
    "err_on_px": 0.0,
-   "err_prev_frame_px": 49.5
+   "err_prev_frame_px": 23.2
   },
   {
    "test": "C2 every row changed (116.5 s vs 122.5 s)",
@@ -295,7 +295,7 @@
    "pass": true,
    "accumulation": 0.1583,
    "best_earlier": "plato",
-   "best_earlier_value": 0.1119
+   "best_earlier_value": 0.1124
   },
   {
    "test": "D4 house slots return exactly by 140 s",
@@ -317,7 +317,7 @@
   {
    "test": "F1 151.5-160 s: all content y <= 700",
    "pass": true,
-   "max_y_px": 698.9
+   "max_y_px": 659.8
   },
   {
    "test": "G1 149.75-150.25 s: max box overlap <= 10 %",
@@ -356,7 +356,33 @@
    "pass": true,
    "beam_7_px": 12.7,
    "footer_px": 14.1
+  },
+  {
+   "test": "M1 every 4 s window after 140 s moves less than the 132-136 s peak",
+   "pass": false,
+   "peak_132_136": 7.923,
+   "windows": {
+    "140-144": 0.138,
+    "144-148": 0.0,
+    "148-152": 2.277,
+    "152-156": 9.159,
+    "156-160": 9.131,
+    "160-164": 2.968,
+    "164-168": 1.794,
+    "168-172": 1.222
+   }
+  },
+  {
+   "test": "M2 rendered pixels: no lit pixel within 8 px of an edge after 7.5 s (every 4th frame)",
+   "pass": true,
+   "frames_checked": 981,
+   "hits": []
+  },
+  {
+   "test": "M3 conveyor loop stays >= 8 px clear of the stack",
+   "pass": true,
+   "min_gap_px": 11.5
   }
  ],
- "all_pass": true
+ "all_pass": false
 }

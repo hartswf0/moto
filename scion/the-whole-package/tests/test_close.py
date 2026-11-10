@@ -35,9 +35,10 @@ rho = np.convolve(np.array(rho), np.ones(3) / 3, mode="valid")
 d2 = np.diff(rho, 2); sig = [np.sign(v) for v in d2 if abs(v) >= 0.25]
 changes = sum(1 for i in range(1, len(sig)) if sig[i] != sig[i - 1])
 rec("(5) >= 3 distinct contour changes on the face edge at 360 px (captions masked)", changes >= 3, {"curvature_sign_changes": int(changes), "samples": len(rho)})
-hp, hface, _ = film.baby_face_profile(C["her_c"], C["her_r"], math.radians(28))
+HC, HR = (300.0, 250.0), 140.0
+hp, hface, _ = film.baby_face_profile(HC, HR, film.HER_TH)
 inframe = any(0 <= x < W and 0 <= y < H for x, y in hface)
-hn = (math.cos(math.radians(28)), math.sin(math.radians(28))); to_b = (c[0] - C["her_c"][0], c[1] - C["her_c"][1])
+hn = (math.cos(film.HER_TH), math.sin(film.HER_TH)); to_b = (c[0] - HC[0], c[1] - HC[1])
 facing = (hn[0] * to_b[0] + hn[1] * to_b[1]) > 0
 rec("(4) her profile in frame and inclined toward the baby", inframe and facing, {"her_face_points_in_frame": sum(1 for x, y in hface if 0 <= x < W and 0 <= y < H), "faces_baby": facing})
 json.dump({"suite": "close-round4", "results": res, "all_pass": ok_all}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "close-tests.json"), "w"), indent=1)

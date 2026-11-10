@@ -92,9 +92,9 @@ def woman(dst, x, y, s, pose="stand", face=1, phase=0.0, box=False, head_turn=0.
         b0 = P([(-34, -124)])[0]; b1 = P([(-8, -84)])[0]
         d.rectangle([min(b0[0], b1[0]), b0[1], max(b0[0], b1[0]), b1[1]], fill=KRAFT_D + (alpha,), outline=c, width=int(2 * sc))
     if baby:
-        q = P([(26, -100)])[0]; r = 9 * sc
-        d.rectangle([q[0] - r * 1.2, q[1] - r, q[0] + r * 1.2, q[1] + r * 0.9], fill=KRAFT + (alpha,), outline=c, width=int(2 * sc))
-        hb = P([(26, -112)])[0]; rr = 5.5 * sc; d.ellipse([hb[0] - rr, hb[1] - rr, hb[0] + rr, hb[1] + rr], fill=c)
+        # round 5: a small swaddled bundle in her arms - one soft silhouette, no box, no rim, no knob
+        q0 = P([(10, -108)])[0]; q1 = P([(40, -90)])[0]
+        d.ellipse([min(q0[0], q1[0]), q0[1], max(q0[0], q1[0]), q1[1]], fill=c)
     im = im.resize((im.width // ss, im.height // ss), Image.LANCZOS)
     from engine import _ac
     _ac(dst, im, x - ox / ss, y - oy / ss)

@@ -9,3 +9,9 @@ the-whole-package/*.mp4
 the-whole-package/*.jpg
 the-universal-boxback/*.mp4
 the-universal-boxback/*.jpg
+
+# jelly-cut drafts
+jelly-cuts/*/*.mp4
+jelly-cuts/*/*.jpg
+jelly-cuts/out/
+jelly-cuts/**/__pycache__/

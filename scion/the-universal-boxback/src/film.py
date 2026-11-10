@@ -127,7 +127,7 @@ def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
     u = min(1, max(0, (b - b0) / span))
     P = np.zeros((N, 2)); ang = np.zeros(N)
     for j in range(N):
-        i, k = j % 10, (1.5 if j < 10 else 1.0)        # still 3:2, half the speed: the release is not a second climax
+        i, k = j % 10, (0.75 if j < 10 else 0.5)       # still 3:2, a quarter of the proof speed: no second climax
         th = -math.pi / 2 + i * 2 * math.pi / 10 + k * 2 * math.pi * u + spin
         rx, ry = REL_A if j < 10 else REL_B
         P[j] = (REL_C[0] + rx * math.cos(th), REL_C[1] + ry * math.sin(th)); ang[j] = th
