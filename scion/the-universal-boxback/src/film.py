@@ -179,7 +179,7 @@ def relock_ring(b):
     return ring(72, spin=2 * math.pi * (b - 148) / 16)
 
 
-LANE_C, LANE_R = (640.0, 420.0), (585.0, 262.0)     # outside the stack footprint, inside the safe area
+LANE_C, LANE_R = (640.0, 420.0), (570.0, 262.0)     # outside the stack footprint, inside the safe area
 LANE_W = 2 * math.pi / 80                             # one lap per 80 beats: 20 slots, a departure every 4 beats
 
 

@@ -1,6 +1,6 @@
 {
  "film": "the-universal-boxback",
- "revision": "r3",
+ "revision": "r4",
  "grid": {
   "period": 0.4614285829991442,
   "offset": 0.045678572874893,
@@ -190,7 +190,7 @@
    "test": "C4 the stop shows on the b77 frame (pixel change >> hold)",
    "pass": true,
    "frame": 854,
-   "mean_abs_diff_stop": 9.399,
+   "mean_abs_diff_stop": 9.49,
    "mean_abs_diff_hold": 0.0
   },
   {
@@ -293,9 +293,9 @@
   {
    "test": "D3 accumulation coverage exceeds every earlier section",
    "pass": true,
-   "accumulation": 0.1554,
+   "accumulation": 0.1583,
    "best_earlier": "plato",
-   "best_earlier_value": 0.1078
+   "best_earlier_value": 0.1119
   },
   {
    "test": "D4 house slots return exactly by 140 s",
@@ -317,7 +317,7 @@
   {
    "test": "F1 151.5-160 s: all content y <= 700",
    "pass": true,
-   "max_y_px": 696.9
+   "max_y_px": 698.9
   },
   {
    "test": "G1 149.75-150.25 s: max box overlap <= 10 %",
@@ -325,6 +325,37 @@
    "max_overlap": 0.0,
    "pair": null,
    "frame": null
+  },
+  {
+   "test": "H1a making 73-110 s: max box overlap <= 10 %",
+   "pass": true,
+   "max_overlap": 0.0,
+   "at": null
+  },
+  {
+   "test": "H1b making 73-110 s: no box enters a label / card area",
+   "pass": true,
+   "hits": []
+  },
+  {
+   "test": "H1c making 73-110 s: every box >= 8 px from the frame edges",
+   "pass": true,
+   "min_edge_px": 10.0
+  },
+  {
+   "test": "H2 film-wide: boxes >= 8 px inside the side / bottom edges (top too, except scripted exits)",
+   "pass": true,
+   "min_edge_px": 10.0,
+   "at": [
+    14,
+    81.25
+   ]
+  },
+  {
+   "test": "H3 beam numeral and footer >= 12 px tall at 360 px",
+   "pass": true,
+   "beam_7_px": 12.7,
+   "footer_px": 14.1
   }
  ],
  "all_pass": true

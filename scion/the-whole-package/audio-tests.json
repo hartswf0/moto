@@ -5,7 +5,7 @@
  "results": [
   {
    "test": "pan toward arm b137-139",
-   "pan": 0.38,
+   "pan": 0.384,
    "pass": true
   },
   {
@@ -15,7 +15,7 @@
   },
   {
    "test": "L/R correlation over proof",
-   "corr": 0.957,
+   "corr": 0.952,
    "pass": true
   }
  ],
