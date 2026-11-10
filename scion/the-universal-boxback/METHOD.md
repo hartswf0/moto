@@ -65,7 +65,7 @@ These are **structural**: computed from the trajectories, not tracked from the p
 * All boxes, points, trails and cards are drawn in code.
 * Two title/end plates are motion-blurred crops of the producer's own BOXBACK art (`source-ledger.json`).
 * Bells and key clicks are synthesised (`score.py`) in the song's measured key (A♭ major / F minor) and mixed at −10 dB under the unaltered song.
-* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**. The r2 repairs are applied (`index.html`), and re-review is pending.
+* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**; the r2 repairs are applied. Critic round 2: the **proof passes** and the **film is "reference stronger"** (conditions 3–6 met; the largest gap is the 122–140 s stall); the r3 repairs are applied. Re-review is pending.
 
 ### r2 rows (after critic round 1)
 
@@ -78,3 +78,12 @@ These are **structural**: computed from the trajectories, not tracked from the p
 | Stop as an event | the song stops | b77 | the freeze was identical to the hold | dim, glow off, STOP on the b77 frame (pixel test C4) | — |
 | LIFO un-making / lowest-first gather | dissolving and re-forming without collisions | b32–48 | clumps | top rows rise first, straight up; the ring fills from the lowest slot (both 0.000) | blended flights |
 | Point capture | moving from free Lissajous paths into a locked ring | b144–148 | clumps at the re-lock; phase search alone barely helped (173 → 154 bad frames) | the boxes collapse to points, blend onto the locked ring, then regrow on the RE-LOCK star b148 | more phase search |
+
+### r3 rows (after critic round 2)
+
+| technique | applies when | proof | observed failure (critic) | repair | rejected |
+|---|---|---|---|---|---|
+| Accumulation | the finished form must become the densest passage | b266–302 | a 39-beat stall: only shimmer moved, and coverage stayed 4–12% throughout | rigid row cards at 3:2 (odd/even rows) under an accumulating envelope, with filled echo copies; rows re-align every 8 beats; envelope 0 at b302 | box-by-box jitter (would overlap) |
+| Fit-to-safe text | any caption or card | whole film | "THE ARRANGEMENT IS THE THING" clipped | every text is measured and shrunk to fit 40–1240; a text log feeds test E1 | hand-tuned sizes |
+| Frame-bounded rings | rings near the frame edge | b328–348 | content on row 719 | release ellipses 600×280 / 500×220 centred on y 380 (max y 696.9) | moving the house |
+| Open as points | leaving a packed form | b324–328 | the beam lay across six boxes | collapse to points, travel, regrow (the re-lock vocabulary) | staggered flights |
