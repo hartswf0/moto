@@ -65,7 +65,7 @@ These are **structural**: computed from the trajectories, not tracked from the p
 * All boxes, points, trails and cards are drawn in code.
 * Two title/end plates are motion-blurred crops of the producer's own BOXBACK art (`source-ledger.json`).
 * Bells and key clicks are synthesised (`score.py`) in the song's measured key (A♭ major / F minor) and mixed at −10 dB under the unaltered song.
-* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**; the r2 repairs are applied. Critic round 2: the **proof passes** and the **film is "reference stronger"** (conditions 3–6 met; the largest gap is the 122–140 s stall); the r3 repairs are applied. Critic round 3: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 7 met); the Making section is repaired in r4. Critic round 4: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 6 met); the r5 repairs are applied, and the check is pending.
+* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**; the r2 repairs are applied. Critic round 2: the **proof passes** and the **film is "reference stronger"** (conditions 3–6 met; the largest gap is the 122–140 s stall); the r3 repairs are applied. Critic round 3: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 7 met); the Making section is repaired in r4. Critic round 4: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 6 met); the r5 repairs are applied. Critic round 5: the **proof passes**; the film is **inconclusive (leaning fail)**, with only the motion shape left; the r6 repairs are applied, and the final check is pending.
 
 ### r2 rows (after critic round 1)
 
@@ -103,3 +103,11 @@ These are **structural**: computed from the trajectories, not tracked from the p
 | In-frame entries | boxes appear or disappear | b32–48, b348–368 | boxes clipped at the top edge on entry and exit | rise to the safe top and fade; fade in at the safe top; nothing crosses the frame edge (test M2, rendered pixels) | entry from off-frame |
 | Outline flashes | a landing must be marked without hiding the label | landings, rain, home | rings drawn over the box numbers | a rectangle outline outside the box face | central rings |
 | One layer at a time | boxes ↔ constellation | b304–306, b322–324, b369–372 | points drawn over the faces | boxes fade out first, then the points come up; reversed on the way back | crossfade |
+
+### r6 rows (after critic round 5): motion shape, measured on the rendered mp4
+
+| technique | applies when | proof | observed failure (critic) | repair | rejected |
+|---|---|---|---|---|---|
+| Kinetic peak | the densest passage must also be the most kinetic | b266–302 | the accumulation peaked at 7.05 against the proof's 10.2 | rows at 3:2 per 4 beats, slides of 340 px, 2 bright echoes at a 0.5-beat lag BEHIND the faces; 132–136 s = 14.535 vs max 11.679 elsewhere (K1) | dense echo trains (they smear consecutive frames and LOWER the motion: 12 echoes → 7.8); echoes in the glow layer (they wash out the labels) |
+| Decay, not stop | a passage after the climax | b325–355 | flat 4.7 then a cut to 0.4 at 161 s | ring phase = 1 − exp(−t/9 beats), continuing through the fade; 1 s motion 151–161 s strictly decreasing, last 17% of first (K2) | linear slow-down |
+| Constellation under the title | the bookend starts at frame 1 | b1–16 | the film opened on a blurred photo | the end form's points fade in under the red title | — |

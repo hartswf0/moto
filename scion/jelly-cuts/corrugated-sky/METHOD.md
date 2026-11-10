@@ -1,5 +1,7 @@
 # Corrugated Sky · JELLY CUT
 
+**Round 1 (independent critic): proof reference stronger, film reference stronger. r2 applies the repairs; re-review pending.**
+
 A second cut of *Corrugated Sky* (BOXBACK track 11; the accepted SCION 02 Reiniger film). This time the film goes into the contaminant-jelly water. **The Jelly Orchestra plays the song.** Each jelly is one sound role, and each one gathers a film. The BOXBACK film is one of those films, and a counter-archive of public-domain home movies and industrials drifts through the water as flecks that rhyme with the house.
 
 * Film: `corrugated-sky-jelly.mp4` (2:26, 1280×720, 24 fps, the unaltered song)
@@ -24,18 +26,31 @@ The house in Bradbury's story keeps serving a family that is gone. Here a whole 
    A film condenses by **per-dot allegiance on a Bayer schedule**. Dot *k* is in the picture iff *c ≥ θₖ*, otherwise it is a drifting fleck. Release runs the same schedule backwards. Far films are inked darker: fog is an ink colour, not a transparency.
 3. **Cards:** title, cast and gathering labels with source, timecode and rights. Text only.
 
-## Characters (named by register and habitat, after WYGWYL's `cast.json`)
-| jelly (rig) | sound | name | wants | gathers |
-|---|---|---|---|---|
-| sentinel | kick | THE SENTINEL OF THE SILT FLOOR | to keep the house's clock | an alarm clock |
-| celluloid ×2 | snare | THE CELLULOID TWINS OF THE KITCHEN | the table set | a cup, a pan |
-| doodle ×2 | hats | THE DOODLE SPARKS OF THE RAIN LINE | to fall | an umbrella, a cloud |
-| mantle | sub | THE SEWER CREATURE UNDER THE FLOOR | the house to stand | a door |
-| glass | choir | THE GLASS MOON OF THE PORCH | to keep the light on | a stove, a lamp, a bulb |
-| filmbell | bed | THE FILM BELL OF THE WALL | the family's film back | **Corrugated Sky** (waking, gate, fire, rain) |
-| medusa | call | THE AFTERLIGHT MEDUSA AT THE GATE | an answer, then to let go | the dog, a hand letting go, the dog again |
+## Characters: every film is a performance by the jelly that holds it (r2)
+Round 1's critic found that the jellies did not perform the films. A medusa "gathered" the dog only in its label, and the jelly meant to hold the house film was off screen during every bloom. **The cause:** films were placed beside jellies the camera might not show.
 
-A film's centre follows its gatherer's projected screen position, averaged over the last 0.6 s from the capture's own metadata. **The gathering is the jelly's act**, not a layout.
+**The r2 fix:** the real Orchestra jellies are **directed** (`direct.json`, written by `build_cut.py`, which also writes the compositor timeline, so the two cannot drift apart). Each held film is a performance:
+
+1. **attention:** at least 1.5 s before the picture condenses, its jelly turns toward the camera and comes forward. It pulses twice a beat.
+2. **gesture and resistance:** the picture condenses *hanging from the jelly's bell*, under its projected position. It moves when the jelly moves. While it holds the picture the jelly pulses on every beat.
+3. **changed state:** at the release the jelly goes somewhere else for at least 2 bars, and its extra pulses stop.
+
+| jelly (rig) | sound | name | holds |
+|---|---|---|---|
+| sentinel | kick | THE SENTINEL OF THE SILT FLOOR | nothing: it keeps the house's clock in the lower left, all song, with a halo on every kick |
+| celluloid ×2 | snare | THE CELLULOID TWINS OF THE KITCHEN | a NASA cup; *Interior of a House* (Andrews) |
+| doodle | hats | THE DOODLE SPARKS OF THE RAIN LINE | *Twilight after the Rain* (MacGilvary, 1906) |
+| mantle | sub | THE SEWER CREATURE UNDER THE FLOOR | a survivor sitting still in the snow (*Survival Stresses*, 1961), then a door opened (*Straight Talk*) |
+| glass | choir | THE GLASS MOON OF THE PORCH | the family portrait (*Father, Mother, and Boy*, Medford, 1841), then a lamp being checked (*Anthracite*, MSHA) |
+| filmbell | bed | THE FILM BELL OF THE WALL | **Corrugated Sky**: the house waking, the gate, the fire, the rain |
+| medusa | call | THE AFTERLIGHT MEDUSA AT THE GATE | *Young Girl and Dog* (Moran, 1890). At the let-go it **releases them into the gate film's dog**. Later it keeps *Dogs on the Hearth* (Weir, 1887) |
+
+## What the layer now means (Ernst / Mouris)
+The counter-archive answers the film; it does not illustrate it:
+- **The hybrid that causes the next.** At the let-go (84.83 s), the Afterlight Medusa lets the painted girl and dog go, and their flecks stream into the silhouette dog at the gate. The jelly lets the dog go *with* the girl, and the archive becomes the film.
+- **One motif, changed function.** The painted dog returns at the end as a dog kept by a hearth. It is no longer let go; it is kept.
+- **The answer to the fire.** The house burns, and a 1961 government survival film supplies someone who survived, sitting still outside. Bradbury's house was the aftermath of a bomb; the civil-defence era's own footage answers it.
+- **The light.** The Glass Moon wants to keep the light on, and it is the one that holds the lamp being checked.
 
 ## Grammar borrowed from the mixed-media swarms (bolas `paeleo/scion/swarms.json`)
 | swarm | rule | used as |
@@ -52,12 +67,28 @@ A film's centre follows its gatherer's projected screen position, averaged over 
 - PAELEO handmade kits (`paeleo/handmade/kit/archive-dog`, `archive-door`)
 - WYGWYL atlas laws
 
-## Rights (unknown is not permission)
-Only footage whose own record says `public_domain` is used:
-- the secondhand-motion shots, with rights from `paeleo/handmade/kit/found-frames.json`;
-- the PAELEO kits, with `source.json` `rights_statement`.
+## Rights (unknown is not permission), r2
+Every source now carries a stated **basis** in `source-ledger.json`. Sources whose basis the record does not state were **dropped rather than guessed**:
+- This Is Coffee
+- Don't Be Afraid
+- Frigidaire Imperial Line
+- the Amateur Film New Jersey home movie
+- the Summers 1941 amateur film
+- Light Of Your Life
+- Top Of The Cloud
+- Door to Heaven
 
-No cineosis-lab clip, no WarGames and nothing unrecorded is used. The Orchestra, the rigs, the song and the film are the producer's own work. See `source-ledger.json`.
+Kept:
+
+| source | basis |
+|---|---|
+| NASA Ames LunarBioLab clip | US government work (NASA) |
+| *Anthracite* (archive.org gov.msha) | probable US government work |
+| *Survival Stresses* (archive.org hmdvid, NLM historical audiovisuals) | probable US government work |
+| *Straight Talk* (archive.org gov.ntis) | probable US government work |
+| Smithsonian Open Access paintings and prints | CC0 (record access: CC0) |
+
+For each "probable US government work" source, the producer is **not verified from here**, and the ledger says so. The Orchestra, rigs, song and film are the producer's own work.
 
 ## Invariants
 | invariant | how | status |

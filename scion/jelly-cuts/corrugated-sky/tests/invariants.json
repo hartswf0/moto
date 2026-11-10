@@ -1,73 +1,269 @@
 {
  "results": [
   {
-   "test": "orchestra pulse within +-1 frame of its role onset",
-   "pass": true,
+   "test": "orchestra pulse within +-1 frame of every role onset",
+   "pass": false,
    "detail": {
     "onsets": 1498,
-    "locked": 1498,
-    "worst_frames": 0.519
+    "locked": 1495,
+    "worst_frames": 1.377
    }
   },
   {
-   "test": "every drawn source ledgered public_domain or producer's own",
-   "pass": true,
+   "test": "each bloom: its jelly is in frame within 15% of frame width of the picture",
+   "pass": false,
    "detail": {
-    "sources": [
-     "alarm-clock",
-     "cloud",
-     "coffee-cup",
-     "dog",
-     "door",
-     "film",
-     "frying-pan",
-     "hand",
-     "lantern",
-     "light-bulb",
-     "stove",
-     "umbrella"
-    ],
-    "bad": []
-   }
-  },
-  {
-   "test": "every PD source has an archive URL",
-   "pass": true,
-   "detail": {
-    "pd_sources": 11
-   }
-  },
-  {
-   "test": "dot law: at most 8 ink levels in a condensed film",
-   "pass": true,
-   "detail": {
-    "levels": 7
-   }
-  },
-  {
-   "test": "two deliberate holds >= 4 s",
-   "pass": true,
-   "detail": {
-    "gate_hold_s": 13,
-    "title_hold_s": 4.1
-   }
-  },
-  {
-   "test": "archive dog recurs with a changed role",
-   "pass": true,
-   "detail": {
-    "appearances": [
+    "worst_px": [
      [
-      66,
-      77
+      "THE FILM BELL holds CORRUGATED SKY: the house wakes",
+      104.0
      ],
      [
-      134,
-      145.6
+      "THE GLASS MOON holds Father, Mother, and Boy",
+      102.8
+     ],
+     [
+      "THE AFTERLIGHT MEDUSA holds Young Girl and Dog",
+      64.8
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the gate",
+      101.1
+     ],
+     [
+      "THE GLASS MOON holds a lamp checked",
+      125.6
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the fire",
+      104.6
+     ],
+     [
+      "THE SEWER CREATURE holds a door opened",
+      271.5
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the rain",
+      102.2
      ]
+    ]
+   }
+  },
+  {
+   "test": "attention: the jelly moves or speeds up >=0.5 s before the picture condenses",
+   "pass": true,
+   "detail": {
+    "(label, base/s, attention/s, moved px)": [
+     [
+      "THE CELLULOID TWIN holds a cup",
+      1.07,
+      5.0,
+      178.3
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the house wakes",
+      0.36,
+      3.33,
+      233.6
+     ],
+     [
+      "THE CELLULOID TWIN holds Interior of a House",
+      0.36,
+      3.75,
+      146.9
+     ],
+     [
+      "THE GLASS MOON holds Father, Mother, and Boy",
+      0.71,
+      5.0,
+      188.6
+     ],
+     [
+      "THE AFTERLIGHT MEDUSA holds Young Girl and Dog",
+      0.36,
+      3.75,
+      193.1
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the gate",
+      0.0,
+      4.44,
+      308.0
+     ],
+     [
+      "THE GLASS MOON holds a lamp checked",
+      0.36,
+      5.0,
+      327.6
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the fire",
+      0.36,
+      4.44,
+      296.6
+     ],
+     [
+      "THE SEWER CREATURE holds a survivor, sitting still",
+      1.07,
+      3.75,
+      363.2
+     ],
+     [
+      "THE SEWER CREATURE holds a door opened",
+      2.14,
+      5.0,
+      249.2
+     ],
+     [
+      "THE DOODLE SPARK holds Twilight after the Rain",
+      1.07,
+      5.0,
+      109.5
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the rain",
+      0.36,
+      5.0,
+      279.2
+     ],
+     [
+      "THE AFTERLIGHT MEDUSA holds Dogs on the Hearth",
+      0.36,
+      3.75,
+      281.6
+     ]
+    ]
+   }
+  },
+  {
+   "test": "changed state: rate or place differs for 2 bars after the release",
+   "pass": true,
+   "detail": {
+    "(label, hold/s, after/s, shift px)": [
+     [
+      "THE CELLULOID TWIN holds a cup",
+      2.33,
+      0.71,
+      275.1
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the house wakes",
+      2.33,
+      0.0,
+      339.4
+     ],
+     [
+      "THE CELLULOID TWIN holds Interior of a House",
+      3.0,
+      1.07,
+      147.8
+     ],
+     [
+      "THE GLASS MOON holds Father, Mother, and Boy",
+      2.33,
+      0.71,
+      428.8
+     ],
+     [
+      "THE AFTERLIGHT MEDUSA holds Young Girl and Dog",
+      2.67,
+      0.36,
+      101.1
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the gate",
+      2.33,
+      0.36,
+      415.5
+     ],
+     [
+      "THE GLASS MOON holds a lamp checked",
+      2.33,
+      0.71,
+      100.6
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the fire",
+      2.33,
+      0.36,
+      310.0
+     ],
+     [
+      "THE SEWER CREATURE holds a survivor, sitting still",
+      2.33,
+      3.57,
+      57.2
+     ],
+     [
+      "THE SEWER CREATURE holds a door opened",
+      2.33,
+      1.43,
+      619.2
+     ],
+     [
+      "THE DOODLE SPARK holds Twilight after the Rain",
+      2.67,
+      0.0,
+      106.8
+     ],
+     [
+      "THE FILM BELL holds CORRUGATED SKY: the rain",
+      2.33,
+      0.0,
+      425.9
+     ],
+     [
+      "THE AFTERLIGHT MEDUSA holds Dogs on the Hearth",
+      2.33,
+      0.0,
+      421.5
+     ]
+    ]
+   }
+  },
+  {
+   "test": "labels never collide with each other or a title plate (every frame)",
+   "pass": true,
+   "detail": {
+    "collisions_at": []
+   }
+  },
+  {
+   "test": "cut subjects fill >= 25% of their picture box",
+   "pass": true,
+   "detail": {
+    "survivor": 0.368,
+    "door": 0.313
+   }
+  },
+  {
+   "test": "every drawn source: public_domain/CC0/own, with a stated basis",
+   "pass": true,
+   "detail": {
+    "survivor": "public_domain",
+    "twilight": "CC0",
+    "interior": "CC0",
+    "lantern": "public_domain",
+    "cup": "public_domain",
+    "hearth": "CC0",
+    "family": "CC0",
+    "film": "producer's own work",
+    "door": "public_domain",
+    "girl_dog": "CC0"
+   }
+  },
+  {
+   "test": "the let-go: released flecks stream to the gate film's dog",
+   "pass": true,
+   "detail": {
+    "release_s": 84.833,
+    "stream_k_at_+1.5s": 0.926,
+    "target": [
+     785,
+     473
     ]
    }
   }
  ],
- "all_pass": true
+ "all_pass": false
 }

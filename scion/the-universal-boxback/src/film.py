@@ -75,8 +75,8 @@ F_ROWS = [[0, 1, 2, 3], [4, 5, 6, 8], [9, 13, BEAM], [14, 15, 16, 17], [10, 11, 
 
 
 ROW_OF = {j: r for r, y in ROWY.items() for j in range(N) if abs(SLOT_F[j][1] - y) < 1}
-ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 294.0, 302.0, 230.0
-ECHO_N, ECHO_LAG, ECHO_FILL = 2, 0.5, 0.6    # r6: few, bright, far-apart echoes (dense echoes smear and lower the motion)
+ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 294.0, 302.0, 340.0
+ECHO_N, ECHO_LAG, ECHO_FILL = 2, 0.5, 1.0    # r6: few, bright, far-apart echoes (dense echoes smear and lower the motion)
 TRAIL_ACC = 0
 ACC_CYC = 4.0          # r6: rows cycle 3 and 2 times per 4 beats (was per 8): the peak must be the most kinetic passage
 
@@ -401,7 +401,7 @@ def state(b):
         dx = row_offsets(b)
         for j in range(N):
             P[j] = (F_ARR[j][0] + dx[ROW_OF[j]], F_ARR[j][1])
-        gl[:] = 0.55 + 0.25 * math.exp(-5 * (b % 1)) + 0.4 * acc_env(b)
+        gl[:] = 0.55 + 0.25 * math.exp(-5 * (b % 1)) + 0.1 * acc_env(b)
         if 304 <= b < 324:
             if b < 316:
                 face[:] = 1 - ease((b - 304) / 1); gl[:] = 0.55 + 0.35 * ease((b - 305) / 1)
@@ -422,7 +422,7 @@ def state(b):
             r0 = RAIN[j]
             if b < r0:
                 P[j] = Pr[j]; rotd[j] = math.degrees(ang[j]) + 90
-                face[j] = math.exp(-(b - 348) / 2.5); gl[j] = 0.6 * face[j]
+                face[j] = math.exp(-(b - 348) / 2.5) * (1 - ease((b - 352) / 2.5)); gl[j] = 0.6 * face[j]   # gone before the rain
             else:
                 u = min(1, (b - r0) / 1.25)
                 P[j] = (SLOT_F[j][0], SAFE_TOP + (SLOT_F[j][1] - SAFE_TOP) * ein(u))
@@ -581,17 +581,18 @@ def render_frame(f):
             blit(layer, spr, tuple(P[j]), rotd[j], sx * sc[j], sc[j], face[j])
         else:
             blit(layer, a["box"][j], tuple(P[j]), rotd[j], sc[j], None, face[j])
-    im.alpha_composite(layer)
     if ACC_B0 <= b < ACC_B1 and acc_env(b) > 0.02:
         e = acc_env(b)
+        ed = ImageDraw.Draw(im)                       # echoes BEHIND the box faces: labels stay clear
         for k in range(ECHO_N, 0, -1):                # echoes of the rows at past phases (Whitney accumulation)
             Pk = state(b - k * ECHO_LAG)[0]
             al = e * (1 - k / (ECHO_N + 1))
             for j in range(N):
                 col = WARM if ROW_OF[j] % 2 else COOL
                 cs = corners(Pk[j], 0, box_w(j, b), box_h(j))
-                gd.polygon(cs, fill=tuple(int(v * al * ECHO_FILL) for v in col))
-                gd.line(cs + [cs[0]], fill=tuple(int(v * al * 0.8) for v in col), width=2)
+                ed.polygon(cs, fill=tuple(int(6 + v * al * ECHO_FILL) for v in col) + (255,))
+                ed.line(cs + [cs[0]], fill=tuple(int(6 + v * al * 0.9) for v in col) + (255,), width=2)
+    im.alpha_composite(layer)
     for j in range(N):
         w, h = box_w(j, b) * sc[j], box_h(j) * sc[j]
         col = np.array(RED, float) if j == MARK_A else (np.array(YEL, float) if j == MARK_B else (WARM if j < 10 else COOL))
