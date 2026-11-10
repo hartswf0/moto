@@ -1,0 +1,73 @@
+{
+ "results": [
+  {
+   "test": "orchestra pulse within +-1 frame of its role onset",
+   "pass": true,
+   "detail": {
+    "onsets": 1498,
+    "locked": 1498,
+    "worst_frames": 0.519
+   }
+  },
+  {
+   "test": "every drawn source ledgered public_domain or producer's own",
+   "pass": true,
+   "detail": {
+    "sources": [
+     "alarm-clock",
+     "cloud",
+     "coffee-cup",
+     "dog",
+     "door",
+     "film",
+     "frying-pan",
+     "hand",
+     "lantern",
+     "light-bulb",
+     "stove",
+     "umbrella"
+    ],
+    "bad": []
+   }
+  },
+  {
+   "test": "every PD source has an archive URL",
+   "pass": true,
+   "detail": {
+    "pd_sources": 11
+   }
+  },
+  {
+   "test": "dot law: at most 8 ink levels in a condensed film",
+   "pass": true,
+   "detail": {
+    "levels": 7
+   }
+  },
+  {
+   "test": "two deliberate holds >= 4 s",
+   "pass": true,
+   "detail": {
+    "gate_hold_s": 13,
+    "title_hold_s": 4.1
+   }
+  },
+  {
+   "test": "archive dog recurs with a changed role",
+   "pass": true,
+   "detail": {
+    "appearances": [
+     [
+      66,
+      77
+     ],
+     [
+      134,
+      145.6
+     ]
+    ]
+   }
+  }
+ ],
+ "all_pass": true
+}

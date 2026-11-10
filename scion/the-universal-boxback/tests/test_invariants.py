@@ -211,6 +211,19 @@ for q in range(int(73 * 4), int(110 * 4) + 1):
             dy = abs(P[i][1] - P[j][1]) - (film.box_h(i) + film.box_h(j)) / 2
             gap = min(gap, max(dx, dy))
 check("M3 conveyor loop stays >= 8 px clear of the stack", gap >= 8, min_gap_px=round(gap, 1))
-json.dump({"film": "the-universal-boxback", "revision": "r5", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
+
+# ===== critic round 5: motion shape, measured on the RENDERED mp4 (greyscale mean |frame - previous|) =====
+import motion_mp4 as MM
+MP4 = os.path.join(HERE, "..", "the-universal-boxback.mp4")
+if os.path.exists(MP4):
+    d_ = MM.per_frame(MP4); w4 = MM.windows(d_, 4); w1 = MM.windows(d_, 1)
+    acc_peak = max(w4[30:35])                        # 120-140 s windows
+    outside = {f"{4*k}-{4*k+4}": v for k, v in enumerate(w4) if not (30 <= k <= 34)}
+    check("K1 (mp4) every 4 s window outside 122-140 s is below the accumulation peak", max(outside.values()) < acc_peak,
+          accumulation_peak=acc_peak, max_outside=max(outside.values()), at=max(outside, key=outside.get), windows_4s=w4)
+    rel = w1[151:162]
+    check("K2 (mp4) release 151-161 s: strictly decreasing 1 s motion, last <= 50 % of the first", all(b_ < a_ for a_, b_ in zip(rel, rel[1:])) and rel[-1] <= 0.5 * rel[0],
+          windows_1s_151_161=rel)
+json.dump({"film": "the-universal-boxback", "revision": "r6", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
           open(os.path.join(HERE, "invariants.json"), "w"), indent=1, default=str)
 sys.exit(0 if all(r["pass"] for r in R) else 1)

@@ -76,6 +76,8 @@ F_ROWS = [[0, 1, 2, 3], [4, 5, 6, 8], [9, 13, BEAM], [14, 15, 16, 17], [10, 11, 
 
 ROW_OF = {j: r for r, y in ROWY.items() for j in range(N) if abs(SLOT_F[j][1] - y) < 1}
 ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 294.0, 302.0, 230.0
+ECHO_N, ECHO_LAG, ECHO_FILL = 2, 0.5, 0.6    # r6: few, bright, far-apart echoes (dense echoes smear and lower the motion)
+TRAIL_ACC = 0
 ACC_CYC = 4.0          # r6: rows cycle 3 and 2 times per 4 beats (was per 8): the peak must be the most kinetic passage
 
 
@@ -407,11 +409,11 @@ def state(b):
                 face[:] = ease((b - 323) / 1); gl[:] = 0.9 - 0.4 * ease((b - 322) / 1)
     elif b < 348:
         # open the house the way the re-lock captures the bank: collapse to points, travel, regrow on the ring
-        k = ease((b - 324.8) / 2.2)
+        k = ease((b - 324.8) / 1.7)
         Pr, ang = ellipse_ring(b)
         P = F_ARR * (1 - k) + Pr * k
         rotd = (np.degrees(ang) + 90) * k
-        sc[:] = 1 - 0.95 * ease((b - 324) / 0.8) if b < 327 else 0.05 + 0.95 * ease((b - 327) / 1.0)
+        sc[:] = 1 - 0.95 * ease((b - 324) / 0.8) if b < 326.5 else 0.05 + 0.95 * ease((b - 326.5) / 0.7)
         gl[:] = 0.85
     elif b < RAIN_END + 1e-9 or b < 400:
         # the field lifts away (b348-354.9) while turning, then the house rains back row by row
@@ -538,7 +540,7 @@ def trail_len(b):
     if 80 <= b < 112: return 10
     if 112 <= b < 160: return int(10 + 26 * min(1, (b - 112) / 16)) if b < 144 else int(36 - 26 * ease((b - 144) / 16))
     if 160 <= b < 238: return 8
-    if ACC_B0 <= b < ACC_B1: return int(6 + 30 * acc_env(b))
+    if ACC_B0 <= b < ACC_B1: return int(TRAIL_ACC * acc_env(b))
     return 0
 
 
@@ -582,13 +584,13 @@ def render_frame(f):
     im.alpha_composite(layer)
     if ACC_B0 <= b < ACC_B1 and acc_env(b) > 0.02:
         e = acc_env(b)
-        for k in range(8, 0, -1):                     # echoes of the rows at past phases (Whitney accumulation)
-            Pk = state(b - k * 0.125)[0]
-            al = e * (1 - k / 9)
+        for k in range(ECHO_N, 0, -1):                # echoes of the rows at past phases (Whitney accumulation)
+            Pk = state(b - k * ECHO_LAG)[0]
+            al = e * (1 - k / (ECHO_N + 1))
             for j in range(N):
                 col = WARM if ROW_OF[j] % 2 else COOL
                 cs = corners(Pk[j], 0, box_w(j, b), box_h(j))
-                gd.polygon(cs, fill=tuple(int(v * al * 0.28) for v in col))
+                gd.polygon(cs, fill=tuple(int(v * al * ECHO_FILL) for v in col))
                 gd.line(cs + [cs[0]], fill=tuple(int(v * al * 0.8) for v in col), width=2)
     for j in range(N):
         w, h = box_w(j, b) * sc[j], box_h(j) * sc[j]
