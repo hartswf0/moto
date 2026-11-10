@@ -5,7 +5,17 @@
 - **Round 2:** proof and film both reference stronger, with "not worth watching beyond the original."
 - **r3:** changed the staging model per §11.
 - **Round 3:** proof and film both reference stronger ("not yet worth watching as its own work").
-- **r4:** applies the user's direction and the critic's repairs. Re-review is pending.
+- **r4:** applies the user's direction and the critic's repairs.
+- **Round 4:** proof and film both reference stronger ("watchable, but much of it plays like a slideshow").
+- **r4b, the final pass:**
+  - the painting is kept fully in frame beside the gate, and its flecks travel into the dog's body over 84.8–87 s;
+  - blooms are lifted above the caption band, and crops centre the defining element (the Moran dog, the fire);
+  - the memory tentacles are a crown of twelve above the bell, red, turning silver one per release, so they are distinct from the light bars;
+  - the medusa dips toward the memory before the family and girl blooms;
+  - holds are shorter (house 10–16.5 s, girl 56.5–64.5 s, fire 108–115.5 s);
+  - arrivals vary: surfacing, caught, or pulled in (the girl's flecks are pulled in across 36–55 s).
+
+  The film is published with whatever verdict the next check gives.
 
 A second cut of *Corrugated Sky* (BOXBACK track 11; the accepted SCION 02 Reiniger film), set in the contaminant-jelly water. The Jelly Orchestra plays the song: each jelly is one of its sounds. **One of them is the character:**
 

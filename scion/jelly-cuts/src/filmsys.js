@@ -56,7 +56,7 @@ export function makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL) {
     for (const F of films) { const [b0, b1] = F.f.bloom; if (b1 <= b0) continue; const w = ease((t - b0 + 1.0) / 1.0) * (1 - ease((t - b1) / 1.0)); if (w > wcam) { wcam = w; best = F; } }
     if (best && wcam > 0) {
       const A = anchor(best, t), tl = TL * (A.j === hero ? 1 : .6) * (A.j.root.scale.x || 1);
-      let uTop = A.c.distanceTo(A.j.pos) + A.bellR * 1.12, uBot = -A.h / 2, half = A.w / 2 + (best.f.extra_half || 0); uBot -= (uTop - uBot) * .19;   // keep the caption band clear
+      let uTop = A.c.distanceTo(A.j.pos) + A.bellR * 1.12 + (A.j === hero ? TL * 1.1 : 0), uBot = -A.h / 2, half = A.w / 2 + (best.f.extra_half || 0); uBot -= (uTop - uBot) * .19;   // keep the caption band clear
       const top = A.c.clone().addScaledVector(A.u, uTop), bot = A.c.clone().addScaledVector(A.u, uBot);
       const T = top.clone().add(bot).multiplyScalar(.5).addScaledVector(A.r, (best.f.extra_half || 0) * .5), hgt = (uTop - uBot) * (best.f.frame ?? 1.02), wid = half * 2 * 1.1;
       const tf = Math.tan(cam.fov * Math.PI / 360), D = Math.max(hgt / (2 * tf), wid / (2 * tf * cam.aspect));

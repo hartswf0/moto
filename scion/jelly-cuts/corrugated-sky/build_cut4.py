@@ -42,7 +42,7 @@ for fid, src, att, cond, bloom, rel, width, lab, cred in PLAN:
     bank.append(b)
     f = {"id": fid, "bank": fid, "by": H, "t": [att, live_end], "condense": list(cond), "bloom": list(bloom), "release": rel, "width": width, "label": lab, "credit": cred, "full_t0": full_t0}
     if fid == "girl_dog":   # kept small beside the gate, on screen, until the let-go
-        f.update(keep={"t0": 64.8, "width": 1.7, "dx": 3.7, "dy": 0.6}, letgo=LETGO, letgo_end=LETGO + 2.2, release_to="gate", target=[0.72, 0.70], release=LETGO)
+        f.update(keep={"t0": 64.8, "width": 1.7, "dx": 3.7, "dy": 0.6}, letgo=LETGO, letgo_end=LETGO + 2.2, release_to="gate", target=[0.68, 0.55], release=LETGO)
     if fid == "gate": f["extra_half"] = 2.6
     f["mode"] = MODE[fid]
     films.append(f)
