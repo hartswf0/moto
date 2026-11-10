@@ -184,7 +184,24 @@ def target_point(name, t):
     return None
 
 
+def scene_c(f, t):
+    c0, c1 = f["condense"]; rel = f["release"]
+    if not (f["t"][0] <= t <= f["t"][1]): return -1
+    c = ease((t - c0) / max(.01, c1 - c0)) if t >= c0 else -1
+    if t > rel: c = 0 if f.get("memory") else 1 - ease((t - rel) / 2.0) * 1.3
+    return c
+
+
 def label_boxes(t, d=None):
+    if CFG.get("scene_films") is not None:
+        d = d or ImageDraw.Draw(Image.new("RGB", (1, 1))); fm, fs = font(FONT_M, 26), font(FONT_M, 19)
+        if title_plates(t, d): return []
+        cands = [f for f in CFG["scene_films"] if scene_c(f, t) > 0.55 and not (f.get("memory") and t > f["release"])]
+        if not cands: return []
+        f = max(cands, key=lambda f: f["t"][0]); lab = "THE AFTERLIGHT MEDUSA remembers " + f["label"]
+        tw = max(d.textlength(lab, font=fm), d.textlength(f["credit"], font=fs)); x0 = (W - tw) / 2 - 8
+        return [((x0, H - 82, x0 + tw + 16, H - 22), lab, f["credit"])]
+
     """the label layout for frame t (shared by the renderer and the test): one label per condensed film, under its
     picture; on a collision it tries above, then is dropped (the earlier label in the timeline keeps its place)."""
     fm, fs = font(FONT_M, 24), font(FONT_M, 18)
@@ -265,7 +282,7 @@ def render(fidx):
             x, y, r = jelly(CFG["kick_flash"]["key"], t, window=0.0)
             ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov); R = r * 1.9
             for k, a in ((1.0, 0.35), (0.72, 0.65), (0.45, 1.0)):
-                v = int(150 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
+                v = int(200 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
             base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(6)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
@@ -296,22 +313,24 @@ def render(fidx):
             d.text((70, 50), "THE CAST · each jelly is one sound of the song", font=fc, fill=(240, 163, 90))
             for name, want in card["members"]:
                 d.text((70, y), name, font=fc, fill=(236, 240, 238)); d.text((70, y + 27), want, font=fw, fill=(176, 190, 186)); y += 60
-    fm, fs = font(FONT_M, 24), font(FONT_M, 18)
+    big = CFG.get("scene_films") is not None; fm, fs = font(FONT_M, 26 if big else 24), font(FONT_M, 19 if big else 18)
     for b, lab, cr in label_boxes(t, d):
-        d.rectangle(b, fill=(6, 10, 10)); d.text((b[0] + 6, b[1] + 4), lab, font=fm, fill=(240, 163, 90)); d.text((b[0] + 6, b[1] + 32), cr, font=fs, fill=(196, 206, 202))
+        d.rectangle(b, fill=(6, 10, 10)); d.text((b[0] + 8, b[1] + 4), lab, font=fm, fill=(240, 163, 90)); d.text((b[0] + 8, b[1] + 34), cr, font=fs, fill=(196, 206, 202))
     return np.asarray(base, np.uint8).tobytes()
 
 
 def init(cfgp):
     global CFG, META, KEYS, KICKS
     CFG = json.load(open(cfgp))
-    for k, v in CFG["sources"].items():
+    for k, v in CFG.get("sources", {}).items():
         SRC[k] = FilmClock(v["npy"]) if v["kind"] == "film" else (Still(v["image"]) if v["kind"] == "still" else load_frames(v["frames"], v.get("masks"), v.get("cut", False)))
     for mp in sorted(x for x in os.listdir(CFG["orch_dir"]) if x.startswith("meta_")):
         for m in json.load(open(os.path.join(CFG["orch_dir"], mp))):
             META[m["f"]] = m["jel"]
     if META:
         f0 = next(iter(META)); KEYS = {row[6]: i for i, row in enumerate(META[f0])}
+    if CFG.get("scene_films") is not None and META:
+        pass
     cast = json.load(open(os.path.join(os.path.dirname(cfgp), "cast.json")))
     KICKS = np.array(sorted(e[0] for e in cast["roles"]["kick"]))
 

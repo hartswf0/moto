@@ -1,0 +1,86 @@
+{
+ "films": [
+  {
+   "id": "house",
+   "source": {
+    "kind": "film",
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+   },
+   "gw": 128,
+   "src_t0": 6.0,
+   "dur": 18.799999999999997
+  },
+  {
+   "id": "family",
+   "source": {
+    "kind": "still",
+    "image": "/home/user/hartswf0/bolas/paeleo/handmade/49-open-content-atelier/sources/media/SAAM-1981.172.33_1.jpg"
+   },
+   "gw": 96,
+   "src_t0": 0.0,
+   "dur": 16.2
+  },
+  {
+   "id": "girl_dog",
+   "source": {
+    "kind": "still",
+    "image": "/home/user/hartswf0/bolas/paeleo/handmade/49-open-content-atelier/sources/media/SAAM-1939.4.1_1.jpg"
+   },
+   "gw": 96,
+   "src_t0": 0.0,
+   "dur": 34.53333333333333
+  },
+  {
+   "id": "gate",
+   "source": {
+    "kind": "film",
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+   },
+   "gw": 128,
+   "src_t0": 71.0,
+   "dur": 21.2
+  },
+  {
+   "id": "fire",
+   "source": {
+    "kind": "film",
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+   },
+   "gw": 128,
+   "src_t0": 99.5,
+   "dur": 21.100000000000005
+  },
+  {
+   "id": "survivor",
+   "source": {
+    "kind": "shot",
+    "frames": "/home/user/hartswf0/bolas/paeleo/handmade/53-civic-footage/sources/seated/frames",
+    "masks": "/home/user/hartswf0/bolas/paeleo/handmade/53-civic-footage/sources/seated/masks.json",
+    "cut": true
+   },
+   "gw": 72,
+   "src_t0": 0.0,
+   "dur": 11.899999999999988
+  },
+  {
+   "id": "rain",
+   "source": {
+    "kind": "film",
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+   },
+   "gw": 128,
+   "src_t0": 128.1,
+   "dur": 10.799999999999994
+  },
+  {
+   "id": "hearth",
+   "source": {
+    "kind": "still",
+    "image": "/home/user/hartswf0/bolas/paeleo/handmade/49-open-content-atelier/sources/media/SAAM-1972.84.86_1.jpg"
+   },
+   "gw": 96,
+   "src_t0": 0.0,
+   "dur": 8.44999999999997
+  }
+ ]
+}

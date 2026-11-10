@@ -1,0 +1,234 @@
+{
+ "results": [
+  {
+   "test": "bloom: holder fully in frame and >=90% uncovered by its film (mask pass, every sampled bloom frame)",
+   "pass": true,
+   "detail": {
+    "frames": 453,
+    "in_frame": 453,
+    "min_uncovered": 0.968,
+    "failing": []
+   }
+  },
+  {
+   "test": "moves first: pulse rate rises or it travels >=40 px before condensing",
+   "pass": true,
+   "detail": {
+    "(id, base/s, attention/s, moved px)": [
+     [
+      "house",
+      0.53,
+      3.75,
+      313.4
+     ],
+     [
+      "family",
+      0.53,
+      5.0,
+      325.9
+     ],
+     [
+      "girl_dog",
+      0.53,
+      5.0,
+      155.5
+     ],
+     [
+      "gate",
+      2.11,
+      5.0,
+      253.7
+     ],
+     [
+      "fire",
+      0.53,
+      5.0,
+      111.5
+     ],
+     [
+      "survivor",
+      2.63,
+      4.29,
+      2221.3
+     ],
+     [
+      "rain",
+      2.11,
+      5.0,
+      644.5
+     ],
+     [
+      "hearth",
+      2.63,
+      5.0,
+      36449.1
+     ]
+    ]
+   }
+  },
+  {
+   "test": "changed state: >20% position (of frame) or size, before the bloom vs 2 bars after the release",
+   "pass": true,
+   "detail": {
+    "(id, dpos, dsize)": [
+     [
+      "house",
+      0.422,
+      0.261
+     ],
+     [
+      "family",
+      0.613,
+      0.008
+     ],
+     [
+      "girl_dog",
+      0.239,
+      0.085
+     ],
+     [
+      "gate",
+      0.373,
+      0.297
+     ],
+     [
+      "fire",
+      0.175,
+      0.312
+     ],
+     [
+      "survivor",
+      1.801,
+      2.667
+     ],
+     [
+      "rain",
+      0.857,
+      1.06
+     ],
+     [
+      "hearth",
+      0.395,
+      0.034
+     ]
+    ]
+   }
+  },
+  {
+   "test": "let-go: the painting's fleck centroid travels into the gate's dog (84.8-86.0 s)",
+   "pass": true,
+   "detail": {
+    "start_dist_px@320": 86.8,
+    "closest_px@320": 4.2,
+    "track": [
+     [
+      84.67,
+      157.62936436884513,
+      65.29095792300805,
+      1117
+     ],
+     [
+      84.83,
+      156.81071098799632,
+      65.95290858725762,
+      1083
+     ],
+     [
+      85.0,
+      159.0842207163601,
+      71.35043562439496,
+      1033
+     ],
+     [
+      85.17,
+      164.5049180327869,
+      86.57049180327868,
+      915
+     ],
+     [
+      85.33,
+      171.45319465081724,
+      106.30609212481427,
+      673
+     ],
+     [
+      85.5,
+      178.81896551724137,
+      127.83836206896552,
+      464
+     ],
+     [
+      85.67,
+      183.45698924731184,
+      139.40322580645162,
+      186
+     ],
+     [
+      85.83,
+      187.83636363636364,
+      149.85454545454544,
+      55
+     ],
+     [
+      86.0,
+      189.0,
+      150.0,
+      35
+     ],
+     [
+      86.17,
+      189.5,
+      149.0,
+      40
+     ]
+    ]
+   }
+  },
+  {
+   "test": "sentinel fully in frame (centre +- projected radius), every frame",
+   "pass": true,
+   "detail": {
+    "frames": 3498,
+    "out": []
+   }
+  },
+  {
+   "test": ">=3 jellies besides the sentinel pulse locked to their onsets (r>0.3)",
+   "pass": true,
+   "detail": {
+    "snare0": 0.988,
+    "snare1": 0.981,
+    "hat0": 0.953,
+    "hat1": 0.957,
+    "bass0": 0.996,
+    "choir0": 0.996,
+    "bed0": 0.997,
+    "call0": 0.271
+   }
+  },
+  {
+   "test": "survivor: >=300 px tall, centred, for >=3 s",
+   "pass": false,
+   "detail": {
+    "longest_s": 2.33,
+    "samples": 31
+   }
+  },
+  {
+   "test": "hearth: >=300 px tall, centred, for >=3 s",
+   "pass": true,
+   "detail": {
+    "longest_s": 3.67,
+    "samples": 23
+   }
+  },
+  {
+   "test": "clutter: at most one label at a time and none during a title (every frame)",
+   "pass": true,
+   "detail": {
+    "bad_at": []
+   }
+  }
+ ],
+ "all_pass": false
+}
