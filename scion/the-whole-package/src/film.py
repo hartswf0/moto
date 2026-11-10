@@ -88,11 +88,11 @@ def camera(b):
     if b < 96:
         return {"x": lerp(1060, 900, seg(b, 64, 96)), "y": 0.0}
     if b < 112:
-        return {"x": lerp(900, 460, seg(b, 96, 111)), "y": 0.0}
+        return {"x": lerp(900, 725, seg(b, 96, 111)), "y": 0.0}
     if b < 130:
         # midpoint between her and the house: both her and the light stay in frame from b112
         wx = woman_path(b)[0]; mid = (wx + HOUSE_X) / 2
-        return {"x": lerp(lerp(900, 460, 1.0), mid, ease(seg(b, 111, 112))), "y": 0.0}
+        return {"x": lerp(725, mid, ease(seg(b, 111, 112))), "y": 0.0}
     if b < 140:
         return {"x": 1020 + 14 * math.sin((b - 130) * 0.7), "y": 0.0}     # drift while she is lost
     if b < 150:
@@ -181,6 +181,7 @@ def draw_message(dst, b, pos):
         else: lines[-1] = cand
     shown = n; lh = 92
     y = 26 if pos[1] < H / 2 else H - 26 - lh * len(lines)
+    alpha = min(alpha, clamp(u / 0.25))
     band = Image.new("RGBA", (W, lh * len(lines) + 24), (18, 14, 10, int(190 * alpha)))
     dst.alpha_composite(band, (0, int(y - 12)))
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dl = ImageDraw.Draw(layer)
@@ -356,7 +357,7 @@ def exterior(b, t, hide_woman=False):
         d = ImageDraw.Draw(L)
         C.grass_strip(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), seed=2, dens=110 if 112 <= b < 130 else 50)
         if 130 <= b < 150:   # a near clump in front of the reaching arm
-            C.grass_clump(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), wx=1095, tall=520)
+            C.grass_clump(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), wx=1062, tall=560)
     items.append((1.5, grass))
 
     # composite back to front with depth fog slabs
@@ -415,52 +416,69 @@ def exterior(b, t, hide_woman=False):
 
 # ------------------------------------------------------------------ interior (b150-191)
 def interior(b, t):
+    """Sealed room as three planes: back wall (k 0.4), her (k 1.0), near box-wall flaps + dust (k 2.2).
+    A slow push (b150-191) plus a breath on every beat moves the planes against each other."""
     a = assets()
     pulse = 0.5 + 0.5 * math.cos((b % 1) * 2 * math.pi) if 175 <= b < 191 else 0.5
+    breath = 0.5 + 0.5 * math.cos((b % 1) * 2 * math.pi)
     dim = 1.0 if b < 175 else 0.72 + 0.28 * pulse
-    base = np.zeros((H, W, 3), np.float32)
-    yy, xx = np.mgrid[0:H, 0:W]
+    push = 0.10 * seg(b, 150, 191) + 0.018 * breath
+    drift = 46 * math.sin((b - 150) * math.pi / 20)
     cx, cy = 900, 230
+    # --- back plane
+    yy, xx = np.mgrid[0:H, 0:W]
     d2 = ((xx - cx) / 700.0) ** 2 + ((yy - cy) / 500.0) ** 2
     lightk = np.exp(-d2 * 1.6)[..., None]
     wall = np.array([120, 84, 48], np.float32); hot = np.array([255, 196, 116], np.float32)
     base = (wall * 0.55 + (hot - wall * 0.55) * lightk) * dim
-    # corrugation
     base *= (1 - 0.06 * (np.sin(xx / 3.2) > 0.6))[..., None]
-    im = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), "RGB").convert("RGBA")
-    d = ImageDraw.Draw(im)
-    # window slit with fog pressing outside, closed by boxes sliding in (b150-158)
+    back = Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), "RGB").convert("RGBA")
+    d = ImageDraw.Draw(back)
     wx0, wy0, wx1, wy1 = 160, 150, 420, 330
     close = ease(seg(b, 152, 158))
     fogpatch = a["fog"].slab(2, t * 30, 0, 0.95, FOG_GOLD, contrast=1.8, floor=0.5).crop((wx0, wy0, wx1, wy1))
-    im.alpha_composite(fogpatch, (wx0, wy0))
-    for k, (dx) in enumerate((0, 1)):
-        cover = int((wx1 - wx0) / 2 * close)
-        if k == 0: d.rectangle([wx0, wy0, wx0 + cover, wy1], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=3)
-        else: d.rectangle([wx1 - cover, wy0, wx1, wy1], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=3)
-    # tape across seams on beats
-    for i, bt in enumerate((154, 156, 158, 160, 162, 164)):
+    back.alpha_composite(fogpatch, (wx0, wy0))
+    cover = int((wx1 - wx0) / 2 * close)
+    d.rectangle([wx0, wy0, wx0 + cover, wy1], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=3)
+    d.rectangle([wx1 - cover, wy0, wx1, wy1], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=3)
+    for i_, bt in enumerate((154, 156, 158, 160, 162, 164)):          # tape on the seams of the window and walls
         if b >= bt:
-            y = 140 + i * 70; k = clamp((b - bt) / 0.5)
-            d.line([(0, y), (W * k, y + 20)], fill=(212, 184, 126, 230), width=16)
-    # floor box she sits on
-    d.rectangle([560, 520, 860, 720], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=4)
+            kk = clamp((b - bt) / 0.5)
+            sx0, sy0 = [(wx0 - 20, wy0 + 30), (wx0 - 20, wy1 - 30), (40, 470), (980, 120), (1040, 480), (520, 90)][i_]
+            d.line([(sx0, sy0), (sx0 + 300 * kk, sy0 + 26 * kk)], fill=(212, 184, 126, 235), width=18)
+    g = a["glow_big"]; sc = 1.0 + (0.35 * pulse if 175 <= b < 191 else 0)
+    gi = g.resize((int(g.width * sc), int(g.height * sc))); blit_center(back, gi, cx, cy)
+    # --- her plane
+    mid = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dm = ImageDraw.Draw(mid)
+    dm.rectangle([560, 520, 860, 760], fill=(150, 110, 66, 255), outline=(70, 50, 30, 255), width=4)
     arch = 0.0
     if 175 <= b < 191:
         u = b % 1; arch = max(0, math.sin(u * math.pi)) * (0.6 if int(b) % 2 == 0 else 0.3)
-    hand = C.woman(im, 700, 530, 2.4, pose="sit", face=1, arch=arch, color=(36, 22, 18))
-    # the house's arms hold her hands (from upper right)
+    hand = C.woman(mid, 700, 530, 2.4, pose="sit", face=1, arch=arch, color=(36, 22, 18))
     if b >= 160:
         k = ease(seg(b, 160, 164))
-        for j, off in enumerate((0, 40)):
+        for j_, off in enumerate((0, 40)):
             tip = (lerp(W + 60, hand[0] + 30 + off, k), lerp(120 + off, hand[1] - 6 + off * 0.3, k))
-            d.line([(W + 80, 100 + off * 2), ((W + tip[0]) / 2, tip[1] - 90), tip], fill=(150, 112, 70, 255), width=22, joint="curve")
-            d.ellipse([tip[0] - 16, tip[1] - 12, tip[0] + 16, tip[1] + 12], fill=(214, 176, 120, 255), outline=(70, 50, 30, 255), width=3)
-    # the eye-light inside: pulses with the beat in labour
-    g = a["glow_big"]; sc = 1.0 + (0.35 * pulse if 175 <= b < 191 else 0)
-    gi = g.resize((int(g.width * sc), int(g.height * sc))); blit_center(im, gi, cx, cy)
-    draw_message(im, b, (W / 2 + 120, 610 if b < 175 else 90))
-    return im
+            dm.line([(W + 80, 100 + off * 2), ((W + tip[0]) / 2, tip[1] - 90), tip], fill=(150, 112, 70, 255), width=22, joint="curve")
+            dm.ellipse([tip[0] - 16, tip[1] - 12, tip[0] + 16, tip[1] + 12], fill=(214, 176, 120, 255), outline=(70, 50, 30, 255), width=3)
+    # --- near plane: the box walls' torn flap edges and pollen dust that got in
+    near = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dn = ImageDraw.Draw(near)
+    dn.polygon([(-40, -20), (150, -20), (120, 140), (170, 300), (110, 470), (160, 760), (-40, 760)], fill=(70, 46, 26, 255))
+    dn.polygon([(W + 40, -20), (W - 120, -20), (W - 90, 200), (W - 150, 420), (W - 100, 760), (W + 40, 760)], fill=(70, 46, 26, 255))
+    for xx_ in range(-30, 150, 9): dn.line([(xx_, -20), (xx_ - 10, 760)], fill=(84, 58, 34, 255), width=2)
+    rnd = random.Random(9)
+    for i_ in range(40):
+        x0_ = rnd.uniform(0, W); y0_ = rnd.uniform(0, H); ph = rnd.uniform(0, 6)
+        px = (x0_ + t * 9 + 20 * math.sin(t * 0.4 + ph)) % W; py = (y0_ + 12 * math.sin(t * 0.7 + ph)) % H
+        r = rnd.uniform(2, 5); dn.ellipse([px - r, py - r, px + r, py + r], fill=(255, 220, 140, 150))
+    out = Image.new("RGBA", (W, H), (0, 0, 0, 255))
+    for L_, kk in ((back, 0.4), (mid, 1.0), (near, 2.2)):
+        z = 1 + push * kk; dx = drift * kk
+        # affine inverse: scale about centre then shift
+        inv = (1 / z, 0, W / 2 - (W / 2 + dx) / z, 0, 1 / z, H / 2 - (H / 2) / z)
+        out.alpha_composite(L_.transform((W, H), Image.AFFINE, inv, resample=Image.BILINEAR))
+    draw_message(out, b, (W / 2, 610 if b < 175 else 90))
+    return out
 
 
 # ------------------------------------------------------------------ title (Touki Bouki: red, tracked, over a motion-blurred plate)
@@ -503,17 +521,17 @@ def closeup(b, t):
     # the package: an open box, and in it a swaddled baby (head, bundle, one raised fist) - pure silhouette
     d = ImageDraw.Draw(bg)
     px, py = x + 30 * s, y - 104 * s
-    SILB = (30, 22, 26, 255)
-    d.rectangle([px - 70, py - 10, px + 70, py + 60], fill=(176, 134, 84, 255), outline=SILB, width=5)
-    d.polygon([(px - 70, py - 10), (px - 104, py - 44), (px - 40, py - 44), (px - 10, py - 10)], fill=(150, 110, 66, 255), outline=SILB)
-    d.polygon([(px + 70, py - 10), (px + 104, py - 44), (px + 40, py - 44), (px + 10, py - 10)], fill=(150, 110, 66, 255), outline=SILB)
-    d.ellipse([px - 58, py - 46, px + 46, py + 6], fill=SILB)             # swaddled body
-    d.ellipse([px + 26, py - 64, px + 72, py - 18], fill=SILB)            # head
-    d.line([(px - 6, py - 40), (px - 18, py - 78)], fill=SILB, width=12)  # raised arm
-    d.ellipse([px - 30, py - 92, px - 8, py - 70], fill=SILB)             # fist
+    SILB = (30, 22, 26, 255); Z = 1.4
+    d.rectangle([px - 70 * Z, py - 10 * Z, px + 70 * Z, py + 60 * Z], fill=(176, 134, 84, 255), outline=SILB, width=5)
+    d.polygon([(px - 70 * Z, py - 10 * Z), (px - 104 * Z, py - 44 * Z), (px - 40 * Z, py - 44 * Z), (px - 10 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
+    d.polygon([(px + 70 * Z, py - 10 * Z), (px + 104 * Z, py - 44 * Z), (px + 40 * Z, py - 44 * Z), (px + 10 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
+    d.ellipse([px - 58 * Z, py - 46 * Z, px + 46 * Z, py + 6 * Z], fill=SILB)             # swaddled body
+    d.ellipse([px + 26 * Z, py - 64 * Z, px + 72 * Z, py - 18 * Z], fill=SILB)            # head
+    d.line([(px - 6 * Z, py - 40 * Z), (px - 18 * Z, py - 78 * Z)], fill=SILB, width=12)  # raised arm
+    d.ellipse([px - 30 * Z, py - 92 * Z, px - 8 * Z, py - 70 * Z], fill=SILB)             # fist
     lab = a["package"].img
     li = lab.resize((int(lab.width * 1.1), int(lab.height * 1.1)))
-    _ac(bg, li, px - li.width / 2, py + 14)                                # the label stays ON the box
+    _ac(bg, li, px - li.width / 2, py + 22)                                # the label stays ON the box
     # a near fog plane (z 1.2) parts over the baby at b233-235
     k = ease(seg(b, 232.6, 235))
     if k < 1:
@@ -574,15 +592,44 @@ def cues():
         Q.append((16 + k, "step", 4.6, -0.2, 0.35))
     for k in range(8): Q.append((113.5 + k * 2, "step", 4.2, 0.0, 0.5))
     Q += [(116, "rustle", 1.5, -0.5, 0.8), (121, "flap", 2.7, 0.0, 0.9), (123, "flap", 2.7, 0.2, 0.7), (127.5, "knock", 2.0, 0.4, 0.6),
-          (136, "whir", 3.4, 0.8, 0.8), (139, "chime", 3.4, 0.4, 1.0), (144, "door", 6.0, 0.0, 0.9), (149.2, "door", 6.0, 0.0, 1.0)]
+          (139, "chime", 3.4, 0.25, 1.0), (144, "door", 6.0, 0.0, 0.9), (149.2, "door", 6.0, 0.0, 1.0)]
     for i, bt in enumerate((154, 156, 158, 160, 162, 164)):
         Q.append((bt, "tape", 2.0, -0.6 + i * 0.25, 0.8))
+    # the arm's servo, chopped into 0.3-beat grains, each panned by where the hand is on screen at that beat
+    for k in range(10):
+        bb = 136.2 + k * 0.28
+        Q.append((bb, "whirgrain", 3.0, arm_pan(bb), 1.4))
     Q.append((152, "slide", 2.5, -0.5, 0.7))
     for k in range(16): Q.append((175 + k, "heart", 2.5, 0.0, 0.6 if k % 2 == 0 else 0.4))
     Q += [(200, "flapopen", 6.0, 0.2, 0.6), (208, "door", 6.0, 0.0, 0.6), (216, "chime", 6.0, 0.0, 0.9), (191, "bell", 30.0, -0.3, 0.7)]
     for i in range(12): Q.append((232 + i * 0.8, "pip", 14.0, -0.7 + i * 0.12, 0.35))
     Q.append((2, "hit", 1.0, 0.0, 0.9)); Q.append((3, "hit", 1.0, 0.0, 0.9)); Q.append((246, "hit", 1.0, 0.0, 0.8)); Q.append((247, "hit", 1.0, 0.0, 0.8))
     return Q
+
+
+def arm_tip_x(b):
+    """Screen x of the house's hand (same geometry as exterior/arm, solved without drawing)."""
+    cam = camera(b); hp = proj(HOUSE_X, GROUND, HOUSE_Z, cam)
+    pvx, pvy = assets()["house_pv"]
+    root_x = hp[0] - pvx + 300
+    wx, wz = woman_path(b)[0], woman_path(b)[1]
+    hand_x = proj(wx, GROUND, wz, cam)[0] + 50
+    k = ease(seg(b, 136, 138.6))
+    return lerp(root_x + 40, hand_x, k)
+
+
+def arm_pan(b):
+    return clamp(1.5 * (arm_tip_x(b) / W * 2 - 1), -1, 1)
+
+
+def song_gain(b):
+    """Ducking under the hush: -9 dB through suspend (b134-136.5), -6 dB while the hand reaches, back on HERE (b139)."""
+    def ramp(x, a, c): return clamp((x - a) / (c - a))
+    if b < 133.8 or b >= 139.3: return 1.0
+    if b < 134.2: return lerp(1.0, 0.355, ramp(b, 133.8, 134.2))
+    if b < 136.5: return 0.355
+    if b < 138.6: return 0.5
+    return lerp(0.5, 1.0, ramp(b, 138.6, 139.3))
 
 
 def storm_curve(b):

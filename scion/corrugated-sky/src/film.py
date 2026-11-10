@@ -41,7 +41,7 @@ HFLOOR = 560         # house floor (cross-section)
 
 # ---------------------------------------------------------------- palette (backlight schedule)
 PAL = [(0, (250, 186, 118), (255, 234, 186)), (60, (250, 196, 128), (255, 238, 196)), (68, (255, 222, 156), (255, 248, 220)),
-       (108, (255, 214, 150), (255, 240, 205)), (116, (34, 40, 86), (150, 104, 134)), (204, (30, 36, 80), (140, 96, 128)),
+       (108, (255, 214, 150), (255, 240, 205)), (116, (54, 62, 116), (172, 128, 160)), (204, (50, 58, 108), (164, 120, 152)),
        (210, (90, 26, 20), (230, 110, 40)), (290, (120, 24, 12), (255, 150, 50)), (298, (104, 112, 122), (186, 192, 194)),
        (400, (96, 104, 114), (178, 184, 188))]
 
@@ -296,7 +296,7 @@ def fore_leaves(st, b, side=0, sway=1.0):
                 st.poly("fore", [(c[0] - 2, c[1]), (c[0] + sgn * side2 * ln * 0.3 + sgn * ln * 0.6, c[1] - ln * 0.5 + side2 * ln * 0.4), (c[0] + 2, c[1] + 3)])
 
 
-def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0):
+def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0, fence_right=True):
     """Garden gate: left post (climbing post with pegs), right post, two thin bars, a light gap everywhere else."""
     st.rect("mid", x - 6, top - 26, x + 6, ground)
     st.ellipse("mid", x, top - 34, 10, 10)
@@ -313,11 +313,11 @@ def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0):
         xx = x + 6 + w * k / 4
         st.rect("mid", xx - 1.5, top + 4, xx + 1.5, ground - 50)
     # fence to both sides
-    for fx in list(range(370, int(x) - 30, 34)) + list(range(int(rx) + 40, W + 30, 34)):
+    for fx in list(range(370, int(x) - 30, 34)) + (list(range(int(rx) + 40, W + 30, 34)) if fence_right else []):
         st.rect("mid", fx - 3, ground - 70, fx + 3, ground)
         st.poly("mid", [(fx - 3, ground - 70), (fx, ground - 80), (fx + 3, ground - 70)])
     st.rect("mid", 370, ground - 56, x - 6, ground - 52)
-    st.rect("mid", rx + 5, ground - 56, W, ground - 52)
+    if fence_right: st.rect("mid", rx + 5, ground - 56, W, ground - 52)
     return pegs
 
 
@@ -346,9 +346,10 @@ def west_wall(st, b, holes_lit=(1, 1, 1, 1), ball=True, x_shift=0):
         r = wall_root(rig, (root[0] + x_shift, root[1]), pose, face)
         Wd = rig.fk(r, pose, face=face, tag="-wall")
         ps = rig.polys(Wd, face=face)
+        if holes_lit[i] <= 0.02:
+            continue  # empty: the figure is out of the wall, the place is solid black
         st.polys("mid", ps, 0)
-        if holes_lit[i]:
-            st.polys("paint", ps, int(255 * holes_lit[i]))
+        st.polys("paint", ps, int(255 * min(1, holes_lit[i])))
     if ball:
         st.ellipse("mid", 425 + x_shift, 330, 13, 13, 0)
         st.ellipse("paint", 425 + x_shift, 330, 13, 13, 255)
@@ -505,7 +506,7 @@ def sc_night(b):
     st = Stage(b)
     st.poly("far", [(0, FLOOR), (0, 540), (300, 500), (600, 520), (900, 470), (W, 500), (W, FLOOR)])
     st.ellipse("paint", 1080, 120, 34, 34)  # moon
-    holes = (1, 1, 1, 1)
+    holes = tuple(1 - clamp((b - (120 + 4 * i)) / 1.5) for i in range(4))   # each place goes empty as its figure steps out
     west_wall(st, b, holes_lit=holes, ball=b < 140)
     gate_open = clamp((b - 150) / 0.6) * (1 - clamp((b - 155) / 0.4))
     gate(st, x=GATE_NIGHT, open_amt=gate_open)
@@ -565,6 +566,8 @@ def sc_night(b):
 
 # ---------------------------------------------------------------- PROOF: the gate
 PROOF_M = (668.0, 455.0)
+RETURN_GATE = 860
+RETURN_DOG = (1180, FLOOR - 70)
 GATE_NIGHT = 1060  # where hand and paw meet, above the gate top (light gap)
 
 
@@ -621,34 +624,43 @@ def proof_state(b):
     else:
         pel = (600, 498)
         tg = {"hand_f": (hold_post, True), "foot_n": ((622, FLOOR - 108), True), "foot_f": ((622, FLOOR - 72), True)}
-        head = 0
+        head, hprof, torso = 14, "fwd", 4
         prof = {"hand_f": "grip", "hand_n": "grip"}
+        # looking: head AND shoulders turn together; the head is a replacement profile (fwd = to the dog, back = to the mother)
+        LOOK_DOG = (24, "fwd", 12)
+        LOOK_MOM = (-22, "back", -8)
         if b < 188:
-            # hesitate: near hand still grips the post; head turns to the dog, back to the mother, to the dog
             tg["hand_n"] = ((x - 7, 500), True)
-            head = held(b, [(184, 0), (185, -26), (186, 22), (187, -26)])
+            head, hprof, torso = held(b, [(184, (14, "fwd", 4)), (185, LOOK_MOM), (186, LOOK_DOG), (187, LOOK_MOM), (187.75, LOOK_DOG)])
         elif b < 190:
             u = ease(clamp((b - 188) / 1.5))
             tg["hand_n"] = (lerp2((x - 7, 500), PROOF_M, u), False)
-            prof["hand_n"] = "offer"; head = -20
-        elif b < 198:
+            prof["hand_n"] = "offer"; head, hprof, torso = LOOK_DOG
+        elif b < 198.5:
             tg["hand_n"] = (PROOF_M, True)
-            prof["hand_n"] = "offer" if b < 190.5 else "grip"; head = -20
-            if 196 <= b: head = held(b, [(196, 28), (197, -20)])   # the mother's call: she looks back, then at the dog
+            prof["hand_n"] = "offer"; head, hprof, torso = LOOK_DOG
+            if 196 <= b < 197.5: head, hprof, torso = LOOK_MOM   # the mother's call: she looks back at her
+        elif b < 199.0:
+            # 1) she opens her hand (spread fingers + wrist turn) while it is still where the paw rests
+            tg["hand_n"] = (PROOF_M, True)
+            prof["hand_n"] = "open"; head, hprof, torso = LOOK_DOG
+            S["wrist"] = 55
         elif b < 200:
-            # she lets go: the hand opens first (replacement profile), then withdraws
-            u = ease(clamp((b - 198.5) / 1.5))
-            tg["hand_n"] = (lerp2(PROOF_M, (x - 7, 500), u), u == 0)
-            prof["hand_n"] = "open"; head = -20 if b < 199 else 10
+            # 2) her arm pulls back; the dog's paw is still up (it folds only from b199.6)
+            u = ease(clamp((b - 199.0) / 0.8))
+            tg["hand_n"] = (lerp2(PROOF_M, (x - 7, 500), u), u >= 1)
+            prof["hand_n"] = "open"; head, hprof, torso = LOOK_MOM if b >= 199.5 else LOOK_DOG
+            S["wrist"] = 55 * (1 - u)
         else:
-            # climbs down (reverse of the climb, 1 hold per beat)
+            # climbs down, two-thirds of a beat per hold, then walks back to the wall
             K = list(reversed(girl_climb(b)[1:]))
-            i = min(len(K) - 1, int(b - 200)); j = min(len(K) - 1, i + 1)
-            u = ease(clamp((b - (200 + i)) / 0.5))
+            step = 0.66
+            i = min(len(K) - 1, int((b - 200) / step)); j = min(len(K) - 1, i + 1)
+            u = ease(clamp((b - (200 + i * step)) / (step * 0.6)))
             A, Bk = K[i], K[j]
-            if b - 200 >= len(K) - 1:
-                k = clamp((b - 206.5) / 1.5)
-                S["girl"] = dict(root=(lerp(592, 500, k), None), pose=walk(b * math.pi) if k > 0 else stand(), face=-1 if k > 0 else 1,
+            if b - 200 >= (len(K) - 1) * step:
+                k = clamp((b - 204.0) / 3.6)
+                S["girl"] = dict(root=(lerp(592, 372, k), None), pose=walk(b * math.pi) if 0 < k < 1 else stand(), face=-1,
                                  profile={"hand_n": "open", "hand_f": "open"}, contacts={}, head=0)
             else:
                 pel = lerp2(A[1], Bk[1], u)
@@ -657,26 +669,44 @@ def proof_state(b):
                     if ta == tb: tg[n] = (ta, True)
                     else:
                         mid = lerp2(ta, tb, u); tg[n] = ((mid[0] + (-10 if n.startswith("hand") else 8) * math.sin(math.pi * u), mid[1] - (12 if n.startswith("hand") else 3) * math.sin(math.pi * u)), u >= 1)
-                S["girl"] = dict(root=pel, targets=tg, profile={"hand_n": "grip", "hand_f": "grip"}, head=10)
+                S["girl"] = dict(root=pel, targets=tg, profile={"hand_n": "grip", "hand_f": "grip"}, head=-10, hprof="back")
         if "girl" not in S:
-            S["girl"] = dict(root=pel, targets=tg, profile=prof, head=head)
+            S["girl"] = dict(root=pel, targets=tg, profile=prof, head=head, hprof=hprof, torso=torso, wrist=S.pop("wrist", 0))
     # ---- dog (outside the gate, facing left toward her)
     dx = 960
     if b < 188:
         p = dog_stand(wag=12 * math.sin(b * 4)); p["head"] = -20 if b >= 185 else 0
         S["dog"] = dict(root=(dx, None), pose=p, face=-1)
-    elif b < 200:
-        rise = ease(clamp((b - 188) / 1.6)) if b < 198.6 else 1 - ease(clamp((b - 198.6) / 1.2))
-        p = dog_stand(wag=24 * math.sin(b * 6) if 190.5 <= b < 198 else 0)
+    elif b < 201:
+        rise = ease(clamp((b - 188) / 1.6)) if b < 199.6 else 1 - ease(clamp((b - 199.6) / 1.2))
+        p = dog_stand(wag=24 * math.sin(b * 6) if 190.5 <= b < 198.5 else 0)
         p["spine"] = -65 * rise
         p["hthigh_n"] = -18 * rise; p["hthigh_f"] = -10 * rise; p["hshin_n"] = 20 + 10 * rise; p["hshin_f"] = 20 + 10 * rise
         p["neck"] = 30 * rise; p["head"] = -10 * rise
-        paw_target = PROOF_M if 190 <= b < 198.6 else None
+        paw_target = paw_point() if 190 <= b < 199.6 else None
         S["dog"] = dict(root=(lerp(dx, 792, rise), None), pose=p, face=-1, paw=paw_target, rise=rise)
     else:
         p = dog_stand(wag=-10); p["head"] = -24; p["neck"] = -10
         S["dog"] = dict(root=(dx, None), pose=p, face=-1)
     return S
+
+
+_PAW = []
+
+
+def paw_point():
+    """Where the paw rests: on the girl's open palm (offer profile) while her hand is held out at PROOF_M."""
+    if not _PAW:
+        G_ = dict(root=(600, 498), targets={"hand_f": ((633, 506), True), "foot_n": ((622, FLOOR - 108), True), "foot_f": ((622, FLOOR - 72), True),
+                                             "hand_n": (PROOF_M, True)}, profile={"hand_n": "offer"}, head=24, hprof="fwd", torso=12)
+        r, p, f = solve_girl(G_, log=False)
+        Wd = GIRL.fk(r, p, check=False)
+        o, a, _ = Wd["hand_n"]
+        k = GIRL.scale
+        c = (o[0] + math.cos(math.radians(a)) * 10 * k + math.sin(math.radians(a)) * 6 * k,
+             o[1] + math.sin(math.radians(a)) * 10 * k - math.cos(math.radians(a)) * 6 * k)
+        _PAW.append(c)
+    return _PAW[0]
 
 
 def held(b, keys):
@@ -686,7 +716,7 @@ def held(b, keys):
     return v
 
 
-def solve_girl(G_):
+def solve_girl(G_, log=True):
     """Apply contacts with two-bone IK; record contact residuals for pinned holds."""
     g = GIRL
     pose = dict(stand())
@@ -697,7 +727,7 @@ def solve_girl(G_):
         p = dict(G_["pose"]); p["head"] = G_.get("head", 0)
         return r, p, face
     p = pose; p["head"] = G_.get("head", 0)
-    p["torso"] = 4
+    p["torso"] = G_.get("torso", 4)
     Wd = g.fk(root, p, check=False)
     k = g.scale
     for side in ("n", "f"):
@@ -712,13 +742,14 @@ def solve_girl(G_):
             d1, d2, reach = ik_pick(o, pa, base, l1, l2, tgt, lim1, lim2)
             p[f"{b1}_{side}"] = d1; p[f"{b2}_{side}"] = d2
             if limb == "foot": p[f"foot_{side}"] = -d1 - d2 * 0.6 if False else clamp(-(d1 + d2) * 0.5, -30, 40)
-    Wd = g.fk(root, p, tag="-proof")
+    p["hand_n"] = G_.get("wrist", 0)
+    Wd = g.fk(root, p, tag="-proof", check=log)
     for side in ("n", "f"):
         for limb, end_bone in (("hand", "fore"), ("foot", "shin")):
             name = f"{limb}_{side}"
             if name in G_["targets"] and G_["targets"][name][1]:
                 e = Wd[f"{end_bone}_{side}"][2]; t = G_["targets"][name][0]
-                CONTACT_LOG.append(("girl", name, math.hypot(e[0] - t[0], e[1] - t[1])))
+                if log: CONTACT_LOG.append(("girl", name, math.hypot(e[0] - t[0], e[1] - t[1])))
     return root, p, 1
 
 
@@ -746,18 +777,22 @@ def sc_gate(b, proof_only=False):
     st = Stage(b)
     st.poly("far", [(0, FLOOR), (0, 540), (300, 500), (600, 520), (900, 470), (W, 500), (W, FLOOR)])
     st.ellipse("paint", 1080, 120, 34, 34)
-    west_wall(st, b, ball=False, x_shift=-230, holes_lit=(0.6, 0.6, 0.6, 0.6))
+    west_wall(st, b, ball=False, x_shift=-230, holes_lit=(0, 0, 0, 0))
     gate(st)
     lawn(st, b)
     S = proof_state(b)
     r, p, face = solve_girl(S["girl"])
-    draw_rig(st, GIRL, r, p, face=face, profile=S["girl"].get("profile"), tag="-proof")
+    prof = dict(S["girl"].get("profile") or {}); prof["head"] = S["girl"].get("hprof", "fwd")
+    draw_rig(st, GIRL, r, p, face=face, profile=prof, tag="-proof")
     r, p, face = solve_dog(S["dog"])
     draw_rig(st, DOG, r, p, face=face, tag="-proof")
     # the mother, by the wall, calls at b196 (arm up)
-    mp = dict(stand(), upper_n=-150 if 196 <= b < 199 else 6, fore_n=-20)
-    mr = legs_to_floor(MOM, (420, FLOOR - 100), mp, FLOOR, 1)
-    draw_rig(st, MOM, mr, mp, face=1, tag="-proof")
+    if b < 205:
+        mp = dict(stand(), upper_n=-150 if 196 <= b < 199 else 6, fore_n=-20); mx, mf = 420, 1
+    else:
+        k = clamp((b - 205) / 3); mx = lerp(420, 300, k); mp = walk(b * math.pi); mf = -1
+    mr = legs_to_floor(MOM, (mx, FLOOR - 100), mp, FLOOR, mf)
+    draw_rig(st, MOM, mr, mp, face=mf, tag="-proof")
     fore_leaves(st, b, 0, 0.5)
     bg = backdrop(b, glow=((1080, 120), 160, (220, 210, 240), 0.35))
     return st.compose(bg, far_tint=0.35)
@@ -849,13 +884,17 @@ def sc_fire(b):
 def sc_return(b):
     """In the fire light the family walks back into the wall, each into its own lit place."""
     st = Stage(b)
-    west_wall(st, b)
-    gate(st, x=GATE_NIGHT)
+    lit = tuple(clamp((b - (266 + i * 3 + 2.6)) / 0.6) for i in range(4))   # each place lights as its figure is absorbed
+    # the house burns behind the wall: flame tongues rise over the wall top
+    for k, fx in enumerate((90, 200, 310, 420, 520)):
+        flame(st, fx, WALL_TOP + 20, 170 + 40 * math.sin(k * 1.7), b, 11 + k)
+    west_wall(st, b, holes_lit=lit)
+    gate(st, x=RETURN_GATE, fence_right=False)
     lawn(st, b)
     fam = family_wall_poses()
     for i, (rig, root0, pose0, face0, who) in enumerate(fam):
         b0 = 266 + i * 3
-        homes = [610, 700, 790, 870]
+        homes = [590, 660, 730, 800]
         if b >= b0 + 3:
             continue  # absorbed: the lit hole is all that is left
         if b < b0:
@@ -872,10 +911,9 @@ def sc_return(b):
         draw_rig(st, rig, r, pose, face=face, tag="-return")
     # the dog outside the gate
     p = dog_stand(wag=-20); p["head"] = -20
-    r = legs_to_floor(DOG, (1170, FLOOR - 70), p, FLOOR, -1)
+    r = legs_to_floor(DOG, RETURN_DOG, p, FLOOR, -1)
     draw_rig(st, DOG, r, p, face=-1, tag="-return")
-    flame(st, 1250, FLOOR, 240, b, 3); flame(st, 960, 300, 0, b, 5)
-    return st.compose(backdrop(b, glow=((1100, 520), 360, (255, 170, 60), 0.9)), far_tint=0.6)
+    return st.compose(backdrop(b, glow=((300, 260), 420, (255, 170, 60), 0.9)), far_tint=0.6)
 
 
 def sc_rain(b):

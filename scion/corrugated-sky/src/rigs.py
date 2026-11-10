@@ -161,15 +161,28 @@ def human(who, kind="girl", scale=1.0):
     if kind == "boy":
         extra = [[(r * 1.6, -r * 1.1), (r * 2.2, -r * 0.2), (r * 1.9, r * 0.5), (r * 1.4, r * 1.4), (r * 2.0, r * 1.8), (r * 2.25, r * 0.9)]]  # cap
     head_up = [neck, head, nose] + extra
-    bones.append(Bone("head", "torso", r * 0.2, 0, (-40, 40), head_up, at=1.0, z=3))
+    head_back = [[(x, -y) for x, y in poly] for poly in head_up]   # replacement profile: the head turned the other way
+    bones.append(Bone("head", "torso", r * 0.2, 0, (-40, 40), head_up, at=1.0, z=3, profiles={"fwd": head_up, "back": head_back}))
     for side, z0 in (("f", 0), ("n", 5)):
         bones.append(Bone("upper_" + side, "torso", UA, 180, (-200, 60), [taper(UA, 11 if big else 8, 9 if big else 7)],
                           at=0.92, z=z0))
         bones.append(Bone("fore_" + side, "upper_" + side, FA, 0, (-155, 2), [taper(FA, 9 if big else 7, 7 if big else 5)], z=z0))
         hs = 1.25 if big else 1.0
-        open_h = [[(0, -4 * hs), (11 * hs, -5 * hs), (13 * hs, -2 * hs), (11 * hs, 1 * hs), (6 * hs, 2 * hs), (8 * hs, 6 * hs), (5 * hs, 7 * hs), (0, 4 * hs)]]
+        # open: palm + four spread fingers + thumb, each separated by light (reads as an opened hand at phone size)
+        palm = [(0, -4 * hs), (7 * hs, -5 * hs), (8 * hs, 4 * hs), (0, 4 * hs)]
+        fan = [palm]
+        for k, a in enumerate((-50, -22, 4, 30)):
+            ca, sa = math.cos(math.radians(a)), math.sin(math.radians(a))
+            bx, by = 7 * hs, (-4 + 2.6 * k) * hs
+            L = 13 * hs
+            fan.append([(bx - 1.2 * sa * hs, by + 1.2 * ca * hs), (bx + L * ca - 1.0 * sa * hs, by + L * sa + 1.0 * ca * hs),
+                        (bx + L * ca + 1.0 * sa * hs, by + L * sa - 1.0 * ca * hs), (bx + 1.2 * sa * hs, by - 1.2 * ca * hs)])
+        fan.append([(2 * hs, 4 * hs), (6 * hs, 15 * hs), (8.5 * hs, 14 * hs), (5 * hs, 3.5 * hs)])  # thumb, apart
+        open_h = fan
         grip = [circle(5 * hs, 0, 5.5 * hs, 10)]
-        offer = [[(0, -4 * hs), (12 * hs, -6 * hs), (14 * hs, -3 * hs), (12 * hs, 0), (4 * hs, 1 * hs), (7 * hs, 7 * hs), (4 * hs, 8 * hs), (0, 4 * hs)]]
+        # offer: flat palm up, fingers together, thumb separated from the fingers by a V of light
+        offer = [[(0, -4 * hs), (16 * hs, -5 * hs), (18 * hs, -2.5 * hs), (16 * hs, 0.5 * hs), (5 * hs, 1 * hs), (0, 2 * hs)],
+                 [(2 * hs, 3.5 * hs), (9 * hs, 8.5 * hs), (7.5 * hs, 10.5 * hs), (0.5 * hs, 5.5 * hs)]]
         bones.append(Bone("hand_" + side, "fore_" + side, 10 * hs, 0, (-70, 70), open_h,
                           profiles={"open": open_h, "grip": grip, "offer": offer}, z=z0))
         bones.append(Bone("thigh_" + side, None, TH, 90, (-125, 40), [taper(TH, 13 if big else 10, 10 if big else 8)], z=z0 + 1))

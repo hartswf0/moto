@@ -53,6 +53,7 @@ def make(kind, seed):
     if kind == "heart": return mix(tone(70, 45, 0.25, 0.08), np.concatenate([np.zeros(int(0.18 * SR)), tone(65, 42, 0.2, 0.07) * 0.7]))
     if kind == "flapopen": return lowpass(noise(0.6, 0.25, seed, 0.03), 1800) * 1.2
     if kind == "bell": return mix(tone(523, 523, 4, 2.0) * 0.5, tone(784, 784, 3.5, 1.6) * 0.3, tone(1046, 1046, 3, 1.2) * 0.2)
+    if kind == "whirgrain": return tone(340, 420, 0.32, 0.5, "saw", 0.02) * 0.5
     if kind == "pip": return tone(1760, 1760, 0.15, 0.06) * 0.4
     if kind == "hit": return mix(tone(120, 50, 0.4, 0.15), noise(0.06, 0.02, seed) * 0.4)
     raise ValueError(kind)
@@ -67,7 +68,7 @@ def render(cues, T, dur, storm_curve, Bfn, out_wav):
         s = lowpass(s, fc) * g / (1 + 0.12 * z)
         st = int(T(b) * SR)
         if st < 0 or st >= n: continue
-        e = min(n, st + len(s)); th = (pan + 1) * np.pi / 4
+        e = min(n, st + len(s)); th = (pan + 1) * np.pi / 4      # equal-power pan, full range
         L[st:e] += s[:e - st] * np.cos(th); R[st:e] += s[:e - st] * np.sin(th)
     # wind bed: band-limited noise, amplitude & brightness from the storm curve (control rate 100 Hz)
     rng = np.random.default_rng(3)
