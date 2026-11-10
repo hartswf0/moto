@@ -1,5 +1,6 @@
 {
  "film": "the-universal-boxback",
+ "revision": "r2",
  "grid": {
   "period": 0.4614285829991442,
   "offset": 0.045678572874893,
@@ -10,59 +11,235 @@
  },
  "results": [
   {
-   "test": "proof phase ratio A:B = 3:2",
+   "test": "P1 proof phase ratio A:B = 3:2",
    "pass": true,
-   "measured": 1.5,
    "laps_A": 3.0,
    "laps_B": 2.0
   },
   {
-   "test": "reunion at b52",
+   "test": "P2 reunion at b52",
    "pass": true,
    "max_angle_err_rad": 0.0
   },
   {
-   "test": "reunion at b72",
+   "test": "P2 reunion at b72",
    "pass": true,
    "max_angle_err_rad": 2.220446049250313e-15
   },
   {
-   "test": "nine interference passes on even beats",
+   "test": "P3 nine interference passes on even beats",
    "pass": true,
    "max_angle_err_rad": 2.220446049250313e-15
   },
   {
-   "test": "proof: non-pair separation >= 60 px",
+   "test": "P4 proof non-pair separation >= 60 px",
    "pass": true,
    "min_px": 66.56
   },
   {
-   "test": "rational lock closes (16-beat period)",
+   "test": "C1a release 164-169.85 s: max box overlap <= 10 %",
    "pass": true,
-   "max_err_px": 1.3642420526593924e-12
+   "max_overlap": 0.0,
+   "pair": null,
+   "frame": null
   },
   {
-   "test": "detuned drift does not close",
+   "test": "C1b the house rains back row by row (each row lands before the next starts)",
    "pass": true,
-   "max_err_px": 331.5
+   "rows": [
+    [
+     356.95,
+     356.15,
+     356.55,
+     357.35
+    ],
+    [
+     359.4,
+     358.6,
+     359.0,
+     359.8
+    ],
+    [
+     361.45,
+     361.85,
+     361.05
+    ],
+    [
+     363.9,
+     363.1,
+     363.5,
+     364.3
+    ],
+    [
+     365.95,
+     365.55,
+     366.35
+    ],
+    [
+     367.6,
+     368.0
+    ]
+   ]
   },
   {
-   "test": "beam refused by row 3 until the re-phase",
+   "test": "C1c last box lands ON the b368 frame (nearest frame), not after",
    "pass": true,
-   "frames_in_row": 0
+   "frame": 4076,
+   "err_on_px": 0.0,
+   "err_prev_frame_px": 49.5
   },
   {
-   "test": "after the re-phase the house is plan F",
+   "test": "C2 every row changed (116.5 s vs 122.5 s)",
    "pass": true,
-   "max_err_px": 2.997
+   "at_116_5": {
+    "1": [
+     505,
+     595,
+     685,
+     775
+    ],
+    "2": [
+     505,
+     595,
+     685,
+     775
+    ],
+    "3": [
+     460,
+     550,
+     640,
+     730,
+     820
+    ],
+    "4": [
+     460,
+     550,
+     640,
+     730,
+     820
+    ],
+    "5": [
+     837
+    ]
+   },
+   "at_122_5": {
+    "1": [
+     459,
+     547,
+     728,
+     820
+    ],
+    "2": [
+     463,
+     553,
+     730,
+     817
+    ],
+    "3": [
+     459,
+     638,
+     818
+    ],
+    "5": [
+     552,
+     643,
+     731
+    ],
+    "4": [
+     502,
+     594,
+     686,
+     778
+    ],
+    "6": [
+     597,
+     684
+    ]
+   }
   },
   {
-   "test": "final house == opening end form (eps 0.5 px)",
+   "test": "C2b after the re-phase the house is the end form F",
+   "pass": true
+  },
+  {
+   "test": "C2c Plato section: max box overlap <= 10 %",
+   "pass": true,
+   "max_overlap": 0.0251,
+   "pair": [
+    2,
+    6
+   ],
+   "frame": 2940
+  },
+  {
+   "test": "C3 marker A passes 12 o'clock 3x, marker B 2x (b52-72)",
+   "pass": true,
+   "A": 3,
+   "B": 2
+  },
+  {
+   "test": "C3b per-beat sampling can count it (A moves 54 deg per beat < 180)",
+   "pass": true,
+   "A_deg_per_beat": [
+    270,
+    324,
+    18,
+    72,
+    126,
+    180
+   ]
+  },
+  {
+   "test": "C4 the stop shows on the b77 frame (pixel change >> hold)",
+   "pass": true,
+   "frame": 854,
+   "mean_abs_diff_stop": 8.109,
+   "mean_abs_diff_hold": 0.0
+  },
+  {
+   "test": "C6 dissolve 16.3-18.7 s: max box overlap <= 10 %",
+   "pass": true,
+   "max_overlap": 0.0,
+   "pair": null,
+   "frame": null
+  },
+  {
+   "test": "C6 re-lock 70.0-71.5 s: max box overlap <= 10 %",
+   "pass": true,
+   "max_overlap": 0.0,
+   "pair": null,
+   "frame": null
+  },
+  {
+   "test": "C6b lock / unlock / re-lock stars on whole beats",
+   "pass": true,
+   "beats": {
+    "lock": 96.0,
+    "unlock": 112.0,
+    "relock": 148.0
+   }
+  },
+  {
+   "test": "B1 final house == opening end form (eps 0.5 px)",
    "pass": true,
    "max_err_px": 0.0
   },
   {
-   "test": "making starts at the first step (lower rows land first)",
+   "test": "B2 both bookends are the constellation (faces off, points on)",
+   "pass": true
+  },
+  {
+   "test": "B3 rational lock closes in 16 beats; detuned drift does not",
+   "pass": true,
+   "lock_err_px": 1.3642420526593924e-12,
+   "drift_err_px": 373.3
+  },
+  {
+   "test": "B4 beam refused by row 3 until the house is re-planned",
+   "pass": true
+  },
+  {
+   "test": "B5 making starts at the first step (lower rows land first)",
    "pass": true
   }
  ],

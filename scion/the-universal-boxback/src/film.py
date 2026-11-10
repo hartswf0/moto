@@ -539,14 +539,14 @@ def render_frame(f):
 def captions(d, b, a):
     cap = a["f_cap"]
 
-    def c(text, b0, b1, y=18, col=(255, 255, 255)):
+    def c(text, b0, b1, y=18, col=(255, 255, 255), x=640):
         if b0 <= b < b1:
             al = min(1, (b - b0) / 0.25, (b1 - b) / 0.25)
-            spaced(d, (640, y), text, cap, col + (int(255 * al),), track=0.12)
+            spaced(d, (x, y), text, cap, col + (int(255 * al),), track=0.12)
     c("THE END FORM", 16, 31.5)
     c("FROM THE END", 32, 47.5)
-    c("3 : 2", 48, 77)
-    c("STOP", 77, 80, col=RED)
+    c("3 : 2", 48, 77, y=630, x=1140)
+    c("STOP", 77, 80, y=630, x=1140, col=RED)
     c("LOCK", 84, 111.5)
     c("UNLOCK · DRIFT", 112, 143.5)
     c("RE-LOCK", 144, 159.5)

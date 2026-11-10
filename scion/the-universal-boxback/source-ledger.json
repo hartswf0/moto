@@ -1,5 +1,5 @@
 {
- "box_0": {
+ "box_0_tint": {
   "kind": "procedural",
   "note": "corrugated box 0 drawn in code",
   "rights": "original"
@@ -49,7 +49,7 @@
   "note": "corrugated box 9 drawn in code",
   "rights": "original"
  },
- "box_10": {
+ "box_10_tint": {
   "kind": "procedural",
   "note": "corrugated box 10 drawn in code",
   "rights": "original"
@@ -99,6 +99,11 @@
   "note": "corrugated box 19 drawn in code",
   "rights": "original"
  },
+ "box_7_tint": {
+  "kind": "procedural",
+  "note": "corrugated box 7 drawn in code",
+  "rights": "original"
+ },
  "plate_title": {
   "kind": "album-art-plate (motion-blurred)",
   "source": "Et tu, Brute (BOXBACK)/Boxback climb under sodium light.png",
@@ -107,17 +112,6 @@
    300,
    1254,
    1005
-  ],
-  "rights": "producer's own BOXBACK album artwork (hartswf0/moto)"
- },
- "plate_end": {
-  "kind": "album-art-plate (motion-blurred)",
-  "source": "Et tu, Brute (BOXBACK)/Boxback Mountain Frog Warehouse.png",
-  "crop_box_px": [
-   0,
-   200,
-   1254,
-   905
   ],
   "rights": "producer's own BOXBACK album artwork (hartswf0/moto)"
  }

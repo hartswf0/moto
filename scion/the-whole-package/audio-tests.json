@@ -1,16 +1,16 @@
 {
  "suite": "audio",
- "source": "proof_remux.mp4",
- "clip_start_beat": 110.0,
+ "source": "the-whole-package.mp4",
+ "clip_start_beat": null,
  "results": [
   {
    "test": "pan toward arm b136.2-137.2",
-   "pan": 0.391,
+   "pan": 0.392,
    "pass": true
   },
   {
    "test": "hush dip b134.4-136.4 vs b131.5-133.5",
-   "db": -6.71,
+   "db": -6.73,
    "pass": true
   },
   {
