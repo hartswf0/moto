@@ -1,0 +1,81 @@
+{
+ "suite": "constraints",
+ "results": [
+  {
+   "test": "reachable (600, 380)",
+   "pass": true,
+   "detail": {
+    "len": 0.0,
+    "pins": 0.0,
+    "attach": 0.0
+   }
+  },
+  {
+   "test": "reachable (620, 420)",
+   "pass": true,
+   "detail": {
+    "len": 0.0,
+    "pins": 0.0,
+    "attach": 0.0
+   }
+  },
+  {
+   "test": "reachable (585, 350)",
+   "pass": true,
+   "detail": {
+    "len": 0.0,
+    "pins": 0.0,
+    "attach": 0.0
+   }
+  },
+  {
+   "test": "reachable (640, 440)",
+   "pass": true,
+   "detail": {
+    "len": 0.0,
+    "pins": 0.0,
+    "attach": 0.0
+   }
+  },
+  {
+   "test": "reachable (560, 470)",
+   "pass": true,
+   "detail": {
+    "len": 0.0,
+    "pins": 0.0,
+    "attach": 0.0
+   }
+  },
+  {
+   "test": "unreachable (900, 300) flagged",
+   "pass": true,
+   "detail": {
+    "attach_residual": 177.99,
+    "solvable": false
+   }
+  },
+  {
+   "test": "unreachable (500, 100) flagged",
+   "pass": true,
+   "detail": {
+    "attach_residual": 148.93,
+    "solvable": false
+   }
+  },
+  {
+   "test": "stability under 1px drags",
+   "pass": true,
+   "detail": {
+    "max_joint_jump_px": 5.751
+   }
+  },
+  {
+   "test": "elbow below shoulder-hand line",
+   "pass": true,
+   "detail": {
+    "violations": 0
+   }
+  }
+ ],
+ "all_pass": true
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wittgenstein's Backpack · Operator</title>
+<meta name="description" content="Cut-paper music video for ET TU, BRUTE? · BOXBACK track 18 — operator page: preview, revision, critic verdict, next blocking failure, artifacts.">
+<style>
+  :root { --paper:#ece2ca; --ink:#1c1612; --kraft:#be9868; --red:#8c2226; --muted:#5b4e40; --card:#f6f0e2; --line:#cdbb98; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper:#1b1713; --ink:#efe6d4; --kraft:#c9a273; --red:#e0595d; --muted:#b5a68f; --card:#25201a; --line:#4a3f32; } }
+  :root[data-theme="dark"] { --paper:#1b1713; --ink:#efe6d4; --kraft:#c9a273; --red:#e0595d; --muted:#b5a68f; --card:#25201a; --line:#4a3f32; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 Georgia, "DejaVu Serif", serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  .kicker { font:700 12px/1 system-ui, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+  h1 { font-size:clamp(28px,6vw,46px); line-height:1.05; margin:6px 0 4px; }
+  h2 { font-size:20px; margin:28px 0 8px; border-bottom:2px solid var(--ink); padding-bottom:4px; }
+  .sub { color:var(--muted); margin:0 0 14px; }
+  video { width:100%; display:block; background:#000; border:3px solid var(--ink); box-shadow:6px 8px 0 rgba(0,0,0,.25); }
+  .play { display:inline-block; margin:12px 0 0; padding:10px 16px; background:var(--ink); color:var(--paper); font:700 15px system-ui, sans-serif; text-decoration:none; border:0; border-radius:3px; cursor:pointer; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px 14px; border-radius:2px; }
+  .card h3 { margin:0 0 6px; font:700 12px/1.2 system-ui, sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .verdict { font-size:22px; font-weight:700; }
+  .bad { color:var(--red); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { font:700 12px system-ui, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  .scroll { overflow-x:auto; }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  a { color:var(--red); }
+  code { font-size:13px; }
+  footer { color:var(--muted); font-size:13px; margin:32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">SCION · operator page · ET TU, BRUTE? · BOXBACK · track 18</div>
+  <h1>Wittgenstein's Backpack</h1>
+  <p class="sub">A cut-paper music video: an engraved dignitary, a beetle, a box that becomes his head, a head that becomes a door, and a Sketchpad interlude where the body solves its own constraints.</p>
+
+  <video id="v" src="./wittgensteins-backpack.mp4" controls playsinline preload="metadata" poster="./poster.jpg"></video>
+  <button class="play" onclick="document.getElementById('v').play()">▶ Play the film</button>
+  <a class="play" href="./proof.mp4" style="background:var(--kraft);color:var(--ink)">▶ Hard-proof clip (11 s)</a>
+
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3><div>r4: proof r3 accepted, followed by one whole-film repair pass (Sketchpad legibility, lineup close-ups, parade events, soft plates, ending jig). 128.01 BPM grid, 3:00, 1280×720 / 24 fps.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict ">Proof: PASS · Film: reference stronger*</div><div>Proof r3: a difference image of f101→f103 below the neck shows no change (measured). *The full-film verdict was given on the pre-repair cut. The repaired cut has <b>not</b> been re-reviewed.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>An independent re-review of the repaired full cut. Known remaining weaknesses: the slow climb and empty wall after the fall (0:50–1:04), and the ENTER vignette (2:19), which is still a small figure on a photo.</div></div>
+    <div class="card"><h3>Accepted checkpoint</h3><div>Proof scene r3 (accepted by critic round 3a): <a href="./proof.mp4">proof.mp4</a>. The source is committed, so every frame is reproducible with <code>src/render.py</code>.</div></div>
+  </div>
+
+  <h2>Critic tribunal (independent agents, frame-cited)</h2>
+  <div class="scroll"><table>
+    <tr><th>round</th><th>clip</th><th>verdict</th><th>largest gap → repair</th></tr>
+    <tr><td>1</td><td>proof r1</td><td class="bad">reference stronger</td><td>leaping box ≠ landing head → same asset, in front, continuous scale</td></tr>
+    <tr><td>2</td><td>proof r2</td><td class="bad">reference stronger</td><td>body read as a different puppet at f102 → lock lean, only the far arm moves</td></tr>
+    <tr><td>3a</td><td>proof r3</td><td><b>PASS</b></td><td>full-frame flash read as a glitch → local starburst (applied)</td></tr>
+    <tr><td>3b</td><td>full film (pre-repair)</td><td class="bad">reference stronger</td><td>static Sketchpad and parade on full-energy music → type 3×, beat pulse, parade events (applied, not re-reviewed)</td></tr>
+  </table></div>
+
+  <h2>Measured invariants</h2>
+  <div class="scroll"><table>
+    <tr><th>invariant</th><th>evidence</th><th>result</th></tr>
+    <tr><td>Gag events on the 128.01 BPM grid</td><td>grid fitted to low-band onsets; critic frame counts</td><td>86% of kicks within ±28 ms; proof events within 1 frame (critic r2)</td></tr>
+    <tr><td>Bone lengths exact, feet pinned (Sketchpad scene)</td><td><a href="./solver-trace.json">solver-trace.json</a></td><td>max length error 0.0 px · max pin error 0.0 px</td></tr>
+    <tr><td>Out of reach ⇒ UNSOLVABLE, nothing stretched</td><td>trace b210–218</td><td>flagged on screen with live residual</td></tr>
+    <tr><td>Stability: 1 px drag ⇒ &lt; 6 px joint move</td><td><a href="./constraint-tests.json">constraint-tests.json</a>, JS tests</td><td>5.75 px (pass)</td></tr>
+  </table></div>
+
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="./constraint.html">Constraint editor</a>: drag the hand onto the door handle with both feet planted, and run the unit tests in the page</li>
+    <li><a href="./source-ledger.json">Source ledger</a>: every cut fragment, its source artwork, crop box and rights state</li>
+    <li><a href="./sfx-cues.json">SFX cue sheet</a>: every synthesised impact by beat, time and frame</li>
+    <li><a href="./METHOD.md">Production record</a>: thesis, invariants, method library (technique → failure → repair → rejected)</li>
+    <li><a href="./critic-notes.md">Critic notes</a>: unedited verdicts with frame citations</li>
+    <li>Three alternate final beats: <a href="./endings/ending_A.mp4">A: must pack</a> · <a href="./endings/ending_B.mp4">B: the word walks out</a> · <a href="./endings/ending_C.mp4">C: the box is empty</a> (<a href="./ALTERNATE-ENDINGS.md">notes</a>)</li>
+    <li><a href="./src/">Source</a>: <code>engine.py</code> (cutout primitives), <code>cast.py</code> (rig and fragments), <code>film.py</code> (timeline), <code>constraints.py</code> (solver), <code>render.py</code></li>
+    <li><a href="../../VOLHOLLA/song-boxback-18.html">Song page</a></li>
+  </ul>
+
+  <footer>Inspired by the 1974 BBC cutout demonstration / Python collage interludes, and by Sketchpad (1963). This is not a claim that either artist wrote or endorsed it. Picture is drawn in code or cut from the producer's own BOXBACK artwork; no third-party images. Song: Treblo.</footer>
+</main>
+</body>
+</html>
