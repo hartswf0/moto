@@ -598,7 +598,7 @@ def cues():
     # the arm's servo, chopped into 0.3-beat grains, each panned by where the hand is on screen at that beat
     for k in range(10):
         bb = 136.2 + k * 0.28
-        Q.append((bb, "whirgrain", 3.0, arm_pan(bb), 1.4))
+        Q.append((bb, "whirgrain", 3.0, arm_pan(bb), 4.0))
     Q.append((152, "slide", 2.5, -0.5, 0.7))
     for k in range(16): Q.append((175 + k, "heart", 2.5, 0.0, 0.6 if k % 2 == 0 else 0.4))
     Q += [(200, "flapopen", 6.0, 0.2, 0.6), (208, "door", 6.0, 0.0, 0.6), (216, "chime", 6.0, 0.0, 0.9), (191, "bell", 30.0, -0.3, 0.7)]
@@ -623,11 +623,11 @@ def arm_pan(b):
 
 
 def song_gain(b):
-    """Ducking under the hush: -9 dB through suspend (b134-136.5), -6 dB while the hand reaches, back on HERE (b139)."""
+    """Ducking under the hush: -9 dB through suspend and the hand's first approach (b134-137.6), -6 dB to b138.6, back on HERE (b139.3)."""
     def ramp(x, a, c): return clamp((x - a) / (c - a))
     if b < 133.8 or b >= 139.3: return 1.0
     if b < 134.2: return lerp(1.0, 0.355, ramp(b, 133.8, 134.2))
-    if b < 136.5: return 0.355
+    if b < 137.6: return 0.355
     if b < 138.6: return 0.5
     return lerp(0.5, 1.0, ramp(b, 138.6, 139.3))
 

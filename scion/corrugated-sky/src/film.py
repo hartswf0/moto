@@ -98,8 +98,10 @@ class Stage:
         self.b = b
         self.m = {k: Image.new("L", (W * SS, H * SS), 0) for k in ("far", "mid", "paint", "fore")}
         self.d = {k: ImageDraw.Draw(v) for k, v in self.m.items()}
+        self.xf = None
 
     def poly(self, layer, pts, val=255):
+        if self.xf: pts = [self.xf(p) for p in pts]
         if len(pts) >= 3:
             self.d[layer].polygon([(x * SS, y * SS) for x, y in pts], fill=val)
 
@@ -107,12 +109,17 @@ class Stage:
         for p in ps: self.poly(layer, p, val)
 
     def rect(self, layer, x0, y0, x1, y1, val=255):
+        if self.xf:
+            return self.poly(layer, [(x0, y0), (x1, y0), (x1, y1), (x0, y1)], val)
         self.d[layer].rectangle([x0 * SS, y0 * SS, x1 * SS, y1 * SS], fill=val)
 
     def ellipse(self, layer, cx, cy, rx, ry, val=255):
+        if self.xf:
+            c = self.xf((cx, cy)); e = self.xf((cx, cy + ry)); ry = max(0.5, abs(e[1] - c[1])); cx, cy = c
         self.d[layer].ellipse([(cx - rx) * SS, (cy - ry) * SS, (cx + rx) * SS, (cy + ry) * SS], fill=val)
 
     def line(self, layer, pts, w, val=255):
+        if self.xf: pts = [self.xf(p) for p in pts]
         self.d[layer].line([(x * SS, y * SS) for x, y in pts], fill=val, width=max(1, int(w * SS)))
 
     def text(self, layer, s, center, size, val=0, fontpath=FONT_SERIF, spacing=0):
@@ -800,22 +807,49 @@ def sc_gate(b, proof_only=False):
 
 # ---------------------------------------------------------------- fire
 def flame(st, x, y, h, b, seed, layer="mid"):
-    rnd = random.Random(seed)
-    ph = int(b * 4 + seed) % 4  # four replacement profiles cycled on quarter beats
-    w = h * 0.42
-    pts = [(x - w, y)]
-    n = 5
-    for i in range(n):
-        tx = x - w + (2 * w) * (i + 0.5) / n
-        th = h * (0.55 + 0.45 * ((i * 7 + ph * 3 + seed) % 5) / 4)
-        pts += [(tx - w / n * 0.4, y - th * 0.5), (tx + (ph - 1.5) * 3, y - th), (tx + w / n * 0.4, y - th * 0.5)]
-    pts += [(x + w, y)]
-    st.poly(layer, pts)
+    """Cut-paper fire: 3-5 curved, tapering tongues; a new cut every pose (12 fps), so the fire is never the same twice."""
+    if h <= 1: return
+    pose_i = int((OFF + b * PER) * 12)            # one new replacement per 12-fps pose
+    rnd = random.Random(seed * 1000 + pose_i)
+    n = 3 + seed % 3
+    w = h * 0.36
+    for k in range(n):
+        bx = x - w + 2 * w * (k + 0.5) / n + rnd.uniform(-4, 4)
+        hh = h * rnd.uniform(0.55, 1.0) * (1.0 if k in (n // 2,) else 0.85)
+        bw = 2 * w / n * rnd.uniform(0.8, 1.15)
+        sway = rnd.uniform(-0.35, 0.35) * hh
+        ph = rnd.uniform(0, 6.28)
+        left, right = [], []
+        for t_i in range(13):
+            t = t_i / 12
+            cx = bx + sway * math.sin(t * math.pi * 1.4 + ph) * t
+            cy = y - hh * t
+            half = bw / 2 * (1 - t) ** 0.85
+            left.append((cx - half, cy)); right.append((cx + half, cy))
+        st.poly(layer, left + [(bx + sway * math.sin(math.pi * 1.4 + ph), y - hh)] + right[::-1])
+
+
+def smoke(st, b, x0, y0, n=5):
+    """Separate curling puffs (light gaps between them), each a knot of small discs, rising and widening."""
+    for k in range(n):
+        age = (b * 0.35 + k / n) % 1
+        cx = x0 + k * 70 + 60 * age; cy = y0 - 260 * age
+        r = 14 + 26 * age
+        for q in range(5):
+            a = q * 72 + k * 40 + age * 90
+            st.ellipse("far", cx + r * 0.9 * math.cos(math.radians(a)), cy + r * 0.6 * math.sin(math.radians(a)), r * 0.62, r * 0.55)
 
 
 def sc_fire(b):
     st = Stage(b)
-    collapse = clamp((b - 280) / 14)
+    collapse = clamp((b - 280) / 12)
+    if collapse > 0:
+        c = collapse ** 1.4
+        def xf(p, c=c):
+            # the shell sinks toward the floor and leans; the ridge goes first
+            yy = HFLOOR + 12 - (HFLOOR + 12 - p[1]) * (1 - 0.72 * c)
+            return (p[0] + (HFLOOR - p[1]) * 0.35 * c, yy + (0 if p[1] > 380 else 60 * c * c))
+        st.xf = xf
     rooms = house_cross_section(st, b) if b < 292 else None
     if rooms:
         kit, liv = rooms["kitchen"], rooms["living"]
@@ -849,6 +883,7 @@ def sc_fire(b):
             if b >= b0:
                 h = min(1, (b - b0) / 2) * (60 + 20 * i % 50) * (1 + 0.6 * clamp((b - 260) / 20))
                 flame(st, fx, fy, h, b, i * 13)
+        st.xf = None
     else:
         # ruins
         for k in range(6):
@@ -860,7 +895,7 @@ def sc_fire(b):
             b0 = 280 + k * 1.5
             if b < b0: continue
             u = b - b0
-            x = 340 + k * 80; y = 240 + 120 * u * u * 6
+            x = 340 + k * 80; y = 240 + 260 * u * u
             if y < HFLOOR:
                 ang = (k % 2 * 2 - 1) * 40 * u
                 pts = corrugated_edge(-50, 50, 0, 8, 6) + [(50, 10), (-50, 10)]
@@ -873,9 +908,7 @@ def sc_fire(b):
     for s, b0, b1 in labels:
         banner(st, s, b, b0, b1)
     if b >= 292:
-        smoke = [(lerp(400, 300, (b - 292) / 4) + k * 160, 300 - (b - 292) * 20 - k * 30) for k in range(4)]
-        for sx, sy in smoke:
-            st.ellipse("far", sx, sy, 90, 50)
+        smoke(st, b, 360, 470, n=6)
     fore_leaves(st, b, 1, 2.0)
     glow = ((640, 470), 420, (255, 190, 80), clamp((b - 218) / 20) * (1 - clamp((b - 292) / 4)))
     return st.compose(backdrop(b, glow=glow), far_tint=0.6)

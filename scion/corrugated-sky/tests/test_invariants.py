@@ -58,6 +58,66 @@ for b in [184 + 0.25 * k for k in range(60)]:
     if ov > worst_ov: worst_ov, at = ov, b
 check("silhouettes do not merge (girl vs dog, b184-199)", worst_ov < 0.015, {"max_overlap_fraction": round(float(worst_ov), 4), "at_beat": at})
 
+# ---- 5 the choice to let go (b198.5): her hand opens while the paw has not moved; her arm pulls back >= 2 frames before the paw folds
+import numpy as np
+def qbeat(f): return film.B(film.frame_time_on_twos(f) / film.FPS)
+f0, f1 = int(film.T(197.5) * film.FPS), int(film.T(202) * film.FPS)
+P = film.paw_point()
+F_open = F_arm = F_paw = None; paw_at_open = None
+for f in range(f0, f1):
+    b = qbeat(f); S = film.proof_state(b)
+    prof = (S["girl"].get("profile") or {}).get("hand_n")
+    r, p, face = film.solve_girl(S["girl"], log=False)
+    Wg = film.GIRL.fk(r, p, check=False)
+    dr, dp, df = film.solve_dog(S["dog"]); Wd = film.DOG.fk(dr, dp, face=df, check=False)
+    paw = Wd["fpaw_n"][2]; hand = Wg["fore_n"][2]
+    if F_open is None and prof == "open": F_open = f; paw_at_open = math.dist(paw, P)
+    if F_open is not None and F_arm is None and math.dist(hand, film.PROOF_M) > 1.0: F_arm = f
+    if F_open is not None and F_paw is None and math.dist(paw, P) > 1.0: F_paw = f
+check("let-go order: open -> arm back -> paw folds (>= 2 frames)", F_open is not None and paw_at_open < 1.0 and F_open < F_arm and F_paw - F_arm >= 2,
+      {"frame_open": F_open, "paw_offset_at_open_px": round(paw_at_open, 3) if paw_at_open is not None else None, "frame_arm_back": F_arm, "frame_paw_folds": F_paw})
+# hand contour change at the open, measured at phone size (360 px wide), including the 1.55x proof push-in
+def hand_mask(b, scale):
+    S = film.proof_state(b); r, p, face = film.solve_girl(S["girl"], log=False)
+    W_ = film.GIRL.fk(r, p, check=False)
+    prof = dict(S["girl"].get("profile") or {})
+    polys = [poly for poly in film.GIRL.polys({"hand_n": W_["hand_n"]} | {k: v for k, v in W_.items() if k != "hand_n"}, prof) ]
+    o, a, _ = W_["hand_n"]; bone = film.GIRL.by["hand_n"]
+    shp = bone.profiles.get(prof.get("hand_n"), bone.shape)
+    m = Image.new("1", (360, 203), 0); d = ImageDraw.Draw(m)
+    z = 1.55; cx0 = 660 - 1280 / z / 2; cy0 = 500 - 720 / z / 2
+    for poly in shp:
+        pts = [rigs._rot((x * film.GIRL.scale, y * film.GIRL.scale), a) for x, y in poly]
+        d.polygon([((o[0] + q[0] - cx0) * z * scale, (o[1] + q[1] - cy0) * z * scale) for q in pts], fill=1)
+    return np.array(m)
+before = hand_mask(198.4, 360 / 1280); after = hand_mask(198.6, 360 / 1280)
+x = before ^ after; ys, xs = np.nonzero(x)
+span = max(xs.max() - xs.min(), ys.max() - ys.min()) + 1 if len(xs) else 0
+check("hand contour visibly opens at 360 px (changed region >= 6 px)", span >= 6, {"changed_px_area": int(x.sum()), "changed_span_px": int(span)})
+
+# ---- 6 the return (116 s): the dog is its own connected black region, legs + tail visible, sharing no pixels with gate or flames
+b = film.B(116.0)
+other = film.Stage(b)
+for k, fx in enumerate((90, 200, 310, 420, 520)):
+    film.flame(other, fx, film.WALL_TOP + 20, 170 + 40 * math.sin(k * 1.7), b, 11 + k)
+film.gate(other, x=film.RETURN_GATE, fence_right=False)
+om = np.array(other.m["mid"].resize((film.W, film.H))) > 127
+p = film.dog_stand(wag=-20); p["head"] = -20
+r = film.legs_to_floor(film.DOG, film.RETURN_DOG, p, film.FLOOR, -1)
+Wd = film.DOG.fk(r, p, face=-1, check=False)
+dm_img = Image.new("L", (film.W, film.H), 0); dd = ImageDraw.Draw(dm_img)
+for poly in film.DOG.polys(Wd, face=-1): dd.polygon(poly, fill=255)
+from PIL import ImageFilter
+dil = np.array(dm_img.filter(ImageFilter.MaxFilter(5))) > 127
+dm = np.array(dm_img) > 127
+shared = int((dil & om).sum())
+seed = tuple(int(v) for v in Wd["spine"][0]); ff = dm_img.copy(); ImageDraw.floodfill(ff, seed, 128)
+one_region = int((np.array(ff) == 255).sum()) == 0
+ends = {n: Wd[n][2] for n in ("hshin_n", "hshin_f", "fpaw_n", "fpaw_f", "tail")}
+visible = all(0 <= e[0] < film.W and 0 <= e[1] < film.H and not om[int(e[1]), int(e[0])] for e in ends.values())
+check("return 116 s: dog is a separate single region, 4 legs + tail visible", shared == 0 and one_region and visible,
+      {"beat": round(b, 2), "pixels_shared_within_2px_with_gate_or_flames": shared, "single_region": one_region, "leg_tail_ends": {k: [round(v[0]), round(v[1])] for k, v in ends.items()}})
+
 out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "invariants.json")
 json.dump({"suite": "corrugated-sky invariants", "results": res, "all_pass": all(r["pass"] for r in res)}, open(out, "w"), indent=1)
 sys.exit(0 if all(r["pass"] for r in res) else 1)
