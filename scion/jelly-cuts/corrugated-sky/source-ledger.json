@@ -22,34 +22,12 @@
    "basis": "own work"
   },
   {
-   "id": "src:cup",
-   "title": "Biologist Caye Johnson Explains How NASA Searched for Life from the Moon (NASA Ames)",
-   "url": "https://images.nasa.gov/details/ARC-20190708-AAV3208-LunarBioLab-JohnsonNarration-NASAWeb-24fps",
-   "rights": "public_domain",
-   "basis": "US government work (NASA media); record: contaminant-jelly paeleo/handmade/kit/found-frames.json"
-  },
-  {
-   "id": "src:lantern",
-   "title": "Anthracite: Pre-Shift Examinations of Underground Mines (MSHA)",
-   "url": "https://archive.org/details/gov.msha.dvd614",
-   "rights": "public_domain",
-   "basis": "probable US government work: archive.org gov.msha collection (Mine Safety and Health Administration); producer not verified from here"
-  },
-  {
    "id": "src:survivor",
    "title": "Survival Stresses (1961)",
    "url": "https://archive.org/details/hmdvid-101704143",
    "timecode": "5.0-9.0 s",
    "rights": "public_domain",
    "basis": "probable US government work: archive.org hmdvid (US National Library of Medicine historical audiovisuals); producer not verified from here"
-  },
-  {
-   "id": "src:door",
-   "title": "Straight Talk (1992)",
-   "url": "https://archive.org/details/gov.ntis.ava19144vnb1",
-   "timecode": "5.0-7.5 s",
-   "rights": "public_domain",
-   "basis": "probable US government work: archive.org gov.ntis collection (National Technical Information Service); producer not verified from here"
   },
   {
    "id": "src:girl_dog",
@@ -66,23 +44,16 @@
    "basis": "Smithsonian Open Access CC0 (record access: CC0)"
   },
   {
-   "id": "src:interior",
-   "title": "Interior of a House, Eliphalet Fraser Andrews, n.d. (SAAM 1916.6.39)",
-   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1916.6.39_1.jpg",
-   "rights": "CC0",
-   "basis": "Smithsonian Open Access CC0 (record access: CC0)"
+   "id": "src:lamp",
+   "title": "Anthracite: Pre-Shift Examinations of Underground Mines (MSHA)",
+   "url": "https://archive.org/details/gov.msha.dvd614",
+   "rights": "public_domain",
+   "basis": "probable US government work: archive.org gov.msha collection (Mine Safety and Health Administration); producer not verified from here"
   },
   {
-   "id": "src:twilight",
-   "title": "Twilight after the Rain, Norwood MacGilvary, 1906 (SAAM 1913.3.3)",
-   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1913.3.3_2.jpg",
-   "rights": "CC0",
-   "basis": "Smithsonian Open Access CC0 (record access: CC0)"
-  },
-  {
-   "id": "src:hearth",
-   "title": "Dogs on the Hearth no. 1, J. Alden Weir, 1887 (SAAM 1972.84.86)",
-   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1972.84.86_1.jpg",
+   "id": "src:boy_dog",
+   "title": "Boy with Dog, unidentified artist (SAAM 1981.172.31)",
+   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1981.172.31_1.jpg",
    "rights": "CC0",
    "basis": "Smithsonian Open Access CC0 (record access: CC0)"
   }
@@ -93,454 +64,53 @@
    "in": [
     "src:song"
    ],
-   "out": "cast",
-   "params": "cast_song.py: librosa band onsets + HPSS"
+   "out": "cast"
   },
   {
-   "op": "render-orchestra",
+   "op": "halftone-bank",
+   "in": [
+    "src:film",
+    "src:family",
+    "src:girl_dog",
+    "src:lamp",
+    "src:survivor",
+    "src:boy_dog"
+   ],
+   "out": "bank",
+   "params": "build_bank.py: 8 levels, Bayer pass (flecks in transit)"
+  },
+  {
+   "op": "full-res-bloom-frames",
+   "in": [
+    "src:film",
+    "src:family",
+    "src:girl_dog",
+    "src:lamp",
+    "src:survivor",
+    "src:boy_dog"
+   ],
+   "out": "full",
+   "params": "build_full.py: same crops; shown at the bloom (dot law suspended, the user's call)"
+  },
+  {
+   "op": "render-orchestra+films-in-scene",
    "in": [
     "cast",
+    "bank",
+    "full",
     "src:orchestra",
-    "direct"
+    "direct",
+    "scene"
    ],
-   "out": "layer:orchestra",
-   "params": "orchestra.html deterministic clock; stage directions direct.json (attention, hold, changed state); shots [0,1,0,4]"
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:cup"
-   ],
-   "out": "cut:0",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:0"
-   ],
-   "out": "layer:0",
-   "params": {
-    "held_by": "snare0",
-    "t": [
-     15.0,
-     30.5
-    ],
-    "condense": [
-     16.6,
-     19.0
-    ],
-    "bloom": [
-     0,
-     0
-    ],
-    "release": 28.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:film"
-   ],
-   "out": "cut:1",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:1"
-   ],
-   "out": "layer:1",
-   "params": {
-    "held_by": "bed0",
-    "t": [
-     18.5,
-     46.5
-    ],
-    "condense": [
-     20.2,
-     22.6
-    ],
-    "bloom": [
-     23.4,
-     43.0
-    ],
-    "release": 44.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:interior"
-   ],
-   "out": "cut:2",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:2"
-   ],
-   "out": "layer:2",
-   "params": {
-    "held_by": "snare1",
-    "t": [
-     29.0,
-     48.5
-    ],
-    "condense": [
-     30.6,
-     33.0
-    ],
-    "bloom": [
-     0,
-     0
-    ],
-    "release": 46.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:family"
-   ],
-   "out": "cut:3",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:3"
-   ],
-   "out": "layer:3",
-   "params": {
-    "held_by": "choir0",
-    "t": [
-     45.0,
-     59.5
-    ],
-    "condense": [
-     46.6,
-     49.0
-    ],
-    "bloom": [
-     49.6,
-     56.0
-    ],
-    "release": 57.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:girl_dog"
-   ],
-   "out": "cut:4",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:4"
-   ],
-   "out": "layer:4",
-   "params": {
-    "held_by": "call0",
-    "t": [
-     57.5,
-     87.33333333333333
-    ],
-    "condense": [
-     59.1,
-     61.5
-    ],
-    "bloom": [
-     62.2,
-     69.5
-    ],
-    "release": 84.83333333333333,
-    "release_to": "gate_dog"
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:film"
-   ],
-   "out": "cut:5",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:5"
-   ],
-   "out": "layer:5",
-   "params": {
-    "held_by": "bed0",
-    "t": [
-     71.5,
-     92.3
-    ],
-    "condense": [
-     73.2,
-     75.4
-    ],
-    "bloom": [
-     76.0,
-     89.0
-    ],
-    "release": 89.8,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:lantern"
-   ],
-   "out": "cut:6",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:6"
-   ],
-   "out": "layer:6",
-   "params": {
-    "held_by": "choir0",
-    "t": [
-     92.0,
-     105.1
-    ],
-    "condense": [
-     93.6,
-     96.0
-    ],
-    "bloom": [
-     96.6,
-     101.6
-    ],
-    "release": 102.6,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:film"
-   ],
-   "out": "cut:7",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:7"
-   ],
-   "out": "layer:7",
-   "params": {
-    "held_by": "bed0",
-    "t": [
-     100.5,
-     126.5
-    ],
-    "condense": [
-     102.2,
-     104.6
-    ],
-    "bloom": [
-     105.4,
-     123.0
-    ],
-    "release": 124.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "mask-cut",
-   "in": [
-    "src:survivor"
-   ],
-   "out": "cut:8",
-   "params": "SAM polygon; outside the mask is not drawn"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:8"
-   ],
-   "out": "layer:8",
-   "params": {
-    "held_by": "bass0",
-    "t": [
-     106.0,
-     125.0
-    ],
-    "condense": [
-     107.6,
-     110.0
-    ],
-    "bloom": [
-     0,
-     0
-    ],
-    "release": 122.5,
-    "release_to": null
-   }
-  },
-  {
-   "op": "mask-cut",
-   "in": [
-    "src:door"
-   ],
-   "out": "cut:9",
-   "params": "SAM polygon; outside the mask is not drawn"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:9"
-   ],
-   "out": "layer:9",
-   "params": {
-    "held_by": "bass0",
-    "t": [
-     126.2,
-     136.9
-    ],
-    "condense": [
-     127.8,
-     129.6
-    ],
-    "bloom": [
-     130.2,
-     133.4
-    ],
-    "release": 134.4,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:twilight"
-   ],
-   "out": "cut:10",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:10"
-   ],
-   "out": "layer:10",
-   "params": {
-    "held_by": "hat0",
-    "t": [
-     126.0,
-     143.5
-    ],
-    "condense": [
-     127.6,
-     130.0
-    ],
-    "bloom": [
-     0,
-     0
-    ],
-    "release": 141.0,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:film"
-   ],
-   "out": "cut:11",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:11"
-   ],
-   "out": "layer:11",
-   "params": {
-    "held_by": "bed0",
-    "t": [
-     131.0,
-     144.1
-    ],
-    "condense": [
-     132.6,
-     134.6
-    ],
-    "bloom": [
-     135.0,
-     141.0
-    ],
-    "release": 141.6,
-    "release_to": null
-   }
-  },
-  {
-   "op": "frame",
-   "in": [
-    "src:hearth"
-   ],
-   "out": "cut:12",
-   "params": "whole frame / whole painting"
-  },
-  {
-   "op": "halftone-fleck",
-   "in": [
-    "cut:12"
-   ],
-   "out": "layer:12",
-   "params": {
-    "held_by": "call0",
-    "t": [
-     134.0,
-     148.1
-    ],
-    "condense": [
-     135.6,
-     138.0
-    ],
-    "bloom": [
-     0,
-     0
-    ],
-    "release": 145.6,
-    "release_to": null
-   }
+   "out": "layer:scene"
   },
   {
    "op": "composite",
    "in": [
-    "layer:orchestra",
-    "layer:0",
-    "layer:1",
-    "layer:2",
-    "layer:3",
-    "layer:4",
-    "layer:5",
-    "layer:6",
-    "layer:7",
-    "layer:8",
-    "layer:9",
-    "layer:10",
-    "layer:11",
-    "layer:12"
+    "layer:scene"
    ],
-   "out": "corrugated-sky-jelly.mp4"
+   "out": "corrugated-sky-jelly.mp4",
+   "params": "labels, titles, kick halo, onset halos"
   }
  ],
  "dropped": {
@@ -554,6 +124,7 @@
    "Light Of Your Life",
    "Top Of The Cloud",
    "Door to Heaven (1941)"
-  ]
+  ],
+  "r3": "fewer films, each staged: cup, interior, lantern, door, twilight dropped from the cut (still cleared, unused)"
  }
 }

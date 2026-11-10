@@ -1,0 +1,239 @@
+{
+ "films": [
+  {
+   "id": "house",
+   "bank": "house",
+   "by": "call0",
+   "t": [
+    5.8,
+    19.5
+   ],
+   "condense": [
+    7.4,
+    9.4
+   ],
+   "bloom": [
+    10.0,
+    16.5
+   ],
+   "release": 17.3,
+   "width": 5.6,
+   "label": "the house wakes",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 7.4,
+   "mode": "surface"
+  },
+  {
+   "id": "family",
+   "bank": "family",
+   "by": "call0",
+   "t": [
+    18.5,
+    33.0
+   ],
+   "condense": [
+    20.5,
+    22.5
+   ],
+   "bloom": [
+    23.0,
+    30.0
+   ],
+   "release": 30.8,
+   "width": 3.4,
+   "label": "a family, 1841",
+   "credit": "Samuel Medford \u00b7 Father, Mother, and Boy \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 18.5,
+   "mode": "caught"
+  },
+  {
+   "id": "girl_dog",
+   "bank": "girl_dog",
+   "by": "call0",
+   "t": [
+    36.0,
+    87.03333333333333
+   ],
+   "condense": [
+    50.5,
+    55.5
+   ],
+   "bloom": [
+    56.5,
+    64.5
+   ],
+   "release": 84.83333333333333,
+   "width": 3.8,
+   "label": "a girl and her dog",
+   "credit": "Percy Moran \u00b7 Young Girl and Dog, 1890 \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 36.0,
+   "keep": {
+    "t0": 64.8,
+    "width": 1.7,
+    "dx": 3.7,
+    "dy": 0.6
+   },
+   "letgo": 84.83333333333333,
+   "letgo_end": 87.03333333333333,
+   "release_to": "gate",
+   "target": [
+    0.68,
+    0.55
+   ],
+   "mode": "pulled"
+  },
+  {
+   "id": "gate",
+   "bank": "gate",
+   "by": "call0",
+   "t": [
+    71.0,
+    92.0
+   ],
+   "condense": [
+    73.2,
+    75.2
+   ],
+   "bloom": [
+    75.8,
+    89.0
+   ],
+   "release": 89.8,
+   "width": 5.0,
+   "label": "the gate",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 73.2,
+   "extra_half": 2.6,
+   "mode": "surface"
+  },
+  {
+   "id": "lamp",
+   "bank": "lamp",
+   "by": "call0",
+   "t": [
+    90.8,
+    100.2
+   ],
+   "condense": [
+    92.0,
+    93.2
+   ],
+   "bloom": [
+    93.6,
+    97.4
+   ],
+   "release": 98.0,
+   "width": 4.2,
+   "label": "a lamp, checked",
+   "credit": "Anthracite: Pre-Shift Examinations \u00b7 MSHA \u00b7 US government work",
+   "full_t0": 90.8,
+   "mode": "caught"
+  },
+  {
+   "id": "fire",
+   "bank": "fire",
+   "by": "call0",
+   "t": [
+    104.5,
+    118.5
+   ],
+   "condense": [
+    106.0,
+    107.5
+   ],
+   "bloom": [
+    108.0,
+    115.5
+   ],
+   "release": 116.3,
+   "width": 5.6,
+   "label": "the fire",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 106.0,
+   "mode": "surface"
+  },
+  {
+   "id": "survivor",
+   "bank": "survivor",
+   "by": "call0",
+   "t": [
+    117.8,
+    129.4
+   ],
+   "condense": [
+    119.2,
+    120.4
+   ],
+   "bloom": [
+    120.8,
+    126.6
+   ],
+   "release": 127.2,
+   "width": 5.4,
+   "label": "someone who stayed outside",
+   "credit": "Survival Stresses, 1961 \u00b7 US government work",
+   "full_t0": 117.8,
+   "mode": "pulled"
+  },
+  {
+   "id": "rain",
+   "bank": "rain",
+   "by": "call0",
+   "t": [
+    127.6,
+    138.39999999999998
+   ],
+   "condense": [
+    128.8,
+    130.0
+   ],
+   "bloom": [
+    130.4,
+    135.6
+   ],
+   "release": 136.2,
+   "width": 5.6,
+   "label": "the rain",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 128.8,
+   "mode": "surface"
+  },
+  {
+   "id": "boy_dog",
+   "bank": "boy_dog",
+   "by": "call0",
+   "t": [
+    136.0,
+    145.73
+   ],
+   "condense": [
+    137.0,
+    138.0
+   ],
+   "bloom": [
+    138.4,
+    144.4
+   ],
+   "release": 145.0,
+   "width": 3.4,
+   "label": "a child and a dog, kept",
+   "credit": "Unidentified \u00b7 Boy with Dog \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 136.0,
+   "mode": "caught"
+  }
+ ],
+ "hero": {
+  "k": "call0",
+  "scale": 1.7,
+  "bell": "#e8342a",
+  "rim": "#ffb27a"
+ },
+ "scale": [
+  {
+   "k": "call0",
+   "t0": 86.63333333333333,
+   "t1": 87.83333333333333,
+   "to": 0.72
+  }
+ ]
+}

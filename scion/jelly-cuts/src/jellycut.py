@@ -24,7 +24,7 @@ BAYER8 = np.array([[0, 32, 8, 40, 2, 34, 10, 42], [48, 16, 56, 24, 50, 18, 58, 2
 FONT_D = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
 FONT_M = "/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Bold.ttf"
 RED = (242, 56, 44); WATER = (14, 18, 17); INK = (243, 230, 200)
-CFG = None; SRC = {}; META = {}; KEYS = {}; KICKS = []
+CFG = None; SRC = {}; META = {}; KEYS = {}; KICKS = []; HALOS = {}
 
 
 def ease(u):
@@ -67,8 +67,7 @@ class Still:
     def __init__(self, path, size=(240, 180)):
         im = Image.open(path).convert("L"); im.thumbnail((size[0] * 2, size[1] * 2)); self.im = im
     def at(self, tau):
-        w, h = self.im.size; z = 1.0 + 0.05 * math.sin(tau * 0.25); cw, ch = w / z, h / z
-        x0 = (w - cw) * (0.5 + 0.4 * math.sin(tau * 0.17)); y0 = (h - ch) * (0.5 + 0.4 * math.cos(tau * 0.13))
+        w, h = self.im.size; cw, ch = w, h; x0 = y0 = 0
         c = self.im.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize((200, int(200 * h / w)), Image.BILINEAR)
         return np.asarray(c, np.float32) / 255, None
 
@@ -184,17 +183,60 @@ def target_point(name, t):
     return None
 
 
+def scene_c(f, t):
+    c0, c1 = f["condense"]; rel = f["release"]
+    if not (f["t"][0] <= t <= f["t"][1]): return -1
+    c = ease((t - c0) / max(.01, c1 - c0)) if t >= c0 else -1
+    if t > rel: c = 0 if f.get("memory") else 1 - ease((t - rel) / 2.0) * 1.3
+    return c
+
+
 def label_boxes(t, d=None):
+    if CFG.get("scene_films") is not None:
+        d = d or ImageDraw.Draw(Image.new("RGB", (1, 1))); fm, fs = font(FONT_M, 26), font(FONT_M, 19)
+        if title_plates(t, d): return []
+        cands = [f for f in CFG["scene_films"] if scene_c(f, t) > 0.55 and not (f.get("memory") and t > f["release"])]
+        if not cands: return []
+        f = max(cands, key=lambda f: f["t"][0]); lab = "THE AFTERLIGHT MEDUSA remembers " + f["label"]
+        tw = max(d.textlength(lab, font=fm), d.textlength(f["credit"], font=fs)); x0 = (W - tw) / 2 - 8
+        return [((x0, H - 82, x0 + tw + 16, H - 22), lab, f["credit"])]
+
     """the label layout for frame t (shared by the renderer and the test): one label per condensed film, under its
     picture; on a collision it tries above, then is dropped (the earlier label in the timeline keeps its place)."""
     fm, fs = font(FONT_M, 24), font(FONT_M, 18)
     d = d or ImageDraw.Draw(Image.new("RGB", (1, 1)))
     placed = []; plates = [p for p in title_plates(t, d)]
     fboxes = {}
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if st and st[0] > 0.3:
             c, wpx, (cx, cy), _, _ = st; hh = wpx * ev.get("aspect", 0.75); fboxes[i] = (cx - wpx / 2, cy - hh / 2, cx + wpx / 2, cy + hh / 2)
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if not st: continue
@@ -265,8 +307,21 @@ def render(fidx):
             x, y, r = jelly(CFG["kick_flash"]["key"], t, window=0.0)
             ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov); R = r * 1.9
             for k, a in ((1.0, 0.35), (0.72, 0.65), (0.45, 1.0)):
-                v = int(150 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
+                v = int(270 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
             base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(6)))
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if not st: continue
@@ -296,24 +351,33 @@ def render(fidx):
             d.text((70, 50), "THE CAST · each jelly is one sound of the song", font=fc, fill=(240, 163, 90))
             for name, want in card["members"]:
                 d.text((70, y), name, font=fc, fill=(236, 240, 238)); d.text((70, y + 27), want, font=fw, fill=(176, 190, 186)); y += 60
-    fm, fs = font(FONT_M, 24), font(FONT_M, 18)
+    big = CFG.get("scene_films") is not None; fm, fs = font(FONT_M, 26 if big else 24), font(FONT_M, 19 if big else 18)
     for b, lab, cr in label_boxes(t, d):
-        d.rectangle(b, fill=(6, 10, 10)); d.text((b[0] + 6, b[1] + 4), lab, font=fm, fill=(240, 163, 90)); d.text((b[0] + 6, b[1] + 32), cr, font=fs, fill=(196, 206, 202))
+        d.rectangle(b, fill=(6, 10, 10)); d.text((b[0] + 8, b[1] + 4), lab, font=fm, fill=(240, 163, 90)); d.text((b[0] + 8, b[1] + 34), cr, font=fs, fill=(196, 206, 202))
     return np.asarray(base, np.uint8).tobytes()
 
 
 def init(cfgp):
     global CFG, META, KEYS, KICKS
     CFG = json.load(open(cfgp))
-    for k, v in CFG["sources"].items():
+    for k, v in CFG.get("sources", {}).items():
         SRC[k] = FilmClock(v["npy"]) if v["kind"] == "film" else (Still(v["image"]) if v["kind"] == "still" else load_frames(v["frames"], v.get("masks"), v.get("cut", False)))
     for mp in sorted(x for x in os.listdir(CFG["orch_dir"]) if x.startswith("meta_")):
         for m in json.load(open(os.path.join(CFG["orch_dir"], mp))):
             META[m["f"]] = m["jel"]
     if META:
         f0 = next(iter(META)); KEYS = {row[6]: i for i, row in enumerate(META[f0])}
+    if CFG.get("scene_films") is not None and META:
+        pass
     cast = json.load(open(os.path.join(os.path.dirname(cfgp), "cast.json")))
     KICKS = np.array(sorted(e[0] for e in cast["roles"]["kick"]))
+    global HALOS
+    if CFG.get("halos") and META:
+        N = {"snare": 2, "hat": 2, "bass": 1, "choir": 1, "bed": 1}
+        for role, n in N.items():
+            evs = sorted(e[0] for e in cast["roles"][role])
+            for k in range(n):
+                HALOS[f"{role}{k}"] = np.array([t for q, t in enumerate(sorted(e[0] for e in cast["roles"][role])) if q % n == k])
 
 
 def main():
