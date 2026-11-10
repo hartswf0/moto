@@ -93,10 +93,11 @@ def camera(b):
         # midpoint between her and the house: both her and the light stay in frame from b112
         wx = woman_path(b)[0]; mid = 0.6 * wx + 0.4 * HOUSE_X
         return {"x": lerp(640, mid, ease(seg(b, 111, 112))), "y": 0.0}
-    if b < 140:
-        return {"x": 1020 + 14 * math.sin((b - 130) * 0.7), "y": 0.0}     # drift while she is lost
+    if b < 140:   # drift while she is lost, settling so she is centred and the house stands beside her (round 2)
+        # cam >= 1094 keeps the z 2.0 box stack (world 830-988) clear of her (solved from the projection)
+        return {"x": lerp(1000, 1100, ease(seg(b, 130, 135))) + 6 * math.sin((b - 130) * 0.7) * (1 - seg(b, 135, 136)), "y": 0.0}
     if b < 150:
-        return {"x": lerp(1020, 1180, seg(b, 140, 146)), "y": 0.0}
+        return {"x": lerp(1100, 1180, seg(b, 140, 146)), "y": 0.0}
     return {"x": lerp(1080, 1180, seg(b, 191, 240)), "y": 0.0}
 
 
@@ -120,9 +121,11 @@ def fog_state(b):
     if b < 136.5:
         return "suspend", lambda z: 0.02 + 0.9 * clamp((z - 4.6) / 1.0) + 0.55 * clamp((z - 2.6) / 1.0)
     if b < 150:
-        k = ease(seg(b, 139, 143))   # local reveal: the house is right there
-        k2 = ease(seg(b, 137, 139))     # the hand arrives: the fog around her thins first, the house later
-        return "reveal", lambda z: lerp(0.02 + 0.9 * clamp((z - 4.6) / 1.0) + 0.55 * (1 - k2) * clamp((z - 2.6) / 1.0), 0.02 + 0.06 * clamp((z - 7) / 6), k)
+        k = ease(seg(b, 139, 143))   # local reveal of the far world
+        k2 = ease(seg(b, 137, 139))     # the fog in front of her thins: faint-to-crisp on HERE
+        kh = ease(seg(b, 136.6, 137.3))  # round 2: the house body clears as its arm comes out of it
+        return "reveal", lambda z: lerp(0.02 + 0.9 * (1 - kh) * clamp((z - 4.6) / 1.0) * clamp((7.5 - z) / 1.5) + 0.9 * clamp((z - 7.5) / 1.0)
+                                        + 0.55 * (1 - k2) * clamp((z - 2.6) / 1.0), 0.02 + 0.06 * clamp((z - 7) / 6), k)
     if b < 191:
         return "suspend", lambda z: 0.09
     zc = lerp(1.0, 70, ease(seg(b, 191, 228)))         # dawn: clears near-to-far
@@ -307,57 +310,12 @@ def exterior(b, t, hide_woman=False):
                     C.box_face(d, x0, y1 - 64 * s, x0 + 70 * s, y1, 30 + k); k += 1
         items.append((2.0, boxes))
 
-        def arm(L):
-            if b < 136: return
-            d = ImageDraw.Draw(L)
-            k = ease(seg(b, 136, 138.6))
-            if b >= 139: k = 1
-            hx, hy = A.get("_hand", (W / 2, H / 2))
-            hp = proj(HOUSE_X, GROUND, HOUSE_Z, cam); pvx, pvy = A["house_pv"]
-            root = (hp[0] - pvx + 300, hp[1] - pvy + 150)          # out of the house's middle box, right of the door
-            target = (hx + 34, hy - 6)
-            # shoulder rises out of the house, elbow arcs over, wrist comes down to her hand
-            sh = (root[0] + 40, root[1] - 70)
-            el = (lerp(sh[0], target[0], 0.5) + 30, min(sh[1], target[1]) - 120)
-            pts = [root, sh, el, target]
-            # grow along the chain as k goes 0 -> 1
-            L_ = [math.dist(pts[i_], pts[i_ + 1]) for i_ in range(3)]; tot = sum(L_) * k
-            chain = [root]
-            for i_ in range(3):
-                if tot <= 0: break
-                u = min(1, tot / L_[i_]); q = (lerp(pts[i_][0], pts[i_ + 1][0], u), lerp(pts[i_][1], pts[i_ + 1][1], u))
-                chain.append(q); tot -= L_[i_]
-            DK = (78, 52, 30, 255); LT = (196, 150, 96, 255)
-            for i_ in range(len(chain) - 1):
-                p_, q_ = chain[i_], chain[i_ + 1]; w_ = [40, 34, 28][i_]
-                d.line([p_, q_], fill=DK, width=w_)
-                for m_ in range(4):
-                    u = (m_ + 0.5) / 4; m = (lerp(p_[0], q_[0], u), lerp(p_[1], q_[1], u))
-                    ang = math.atan2(q_[1] - p_[1], q_[0] - p_[0]) + math.pi / 2
-                    d.line([(m[0] - math.cos(ang) * w_ * 0.5, m[1] - math.sin(ang) * w_ * 0.5),
-                            (m[0] + math.cos(ang) * w_ * 0.5, m[1] + math.sin(ang) * w_ * 0.5)], fill=LT, width=3)
-                d.ellipse([q_[0] - w_ * 0.6, q_[1] - w_ * 0.6, q_[0] + w_ * 0.6, q_[1] + w_ * 0.6], fill=DK, outline=LT, width=3)
-            tip = chain[-1]
-            if k > 0.7:
-                # an open cardboard hand: palm, four fingers, thumb (reads in pure silhouette)
-                hs = 1.8
-                ang = math.atan2(tip[1] - chain[-2][1], tip[0] - chain[-2][0]) if len(chain) > 1 else math.pi
-                def R(px, py):
-                    return (tip[0] + (px * math.cos(ang) - py * math.sin(ang)) * hs, tip[1] + (px * math.sin(ang) + py * math.cos(ang)) * hs)
-                palm = [R(0, -14), R(26, -16), R(30, 14), R(0, 14)]
-                d.polygon(palm, fill=(214, 168, 110, 255), outline=DK)
-                for fy in (-12, -4, 4, 12):
-                    d.line([R(28, fy * 1.1), R(52, fy * 1.5)], fill=(214, 168, 110, 255), width=9)
-                d.line([R(8, 14), R(22, 32)], fill=(214, 168, 110, 255), width=9)
-            A["_tip"] = tip
-            A["_tip_x"] = tip[0]
-        items.append((3.0, arm))
     # foreground grass
     def grass(L):
         d = ImageDraw.Draw(L)
         C.grass_strip(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), seed=2, dens=110 if 112 <= b < 130 else 50)
         if 130 <= b < 150:   # a near clump in front of the reaching arm
-            C.grass_clump(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), wx=1062, tall=560)
+            C.grass_clump(d, cam["x"], STALK_Z, t, wind, (30, 36, 26, 255), wx=STALK_WX, tall=320)
     items.append((1.5, grass))
 
     # composite back to front with depth fog slabs
@@ -405,8 +363,8 @@ def exterior(b, t, hide_woman=False):
                 gi = A["glow_big"].copy(); gi.putalpha(gi.split()[3].point(lambda v: int(v * k))); blit_center(canvas, gi, cx, cy)
         else:
             blit_center(canvas, A["glow_mid"], cx, cy)
-    if "_tip" in A and 136 <= b < 140:
-        tip = A["_tip"]; g = A["glow_small"].copy(); g.putalpha(g.split()[3].point(lambda v: int(v * 0.45))); blit_center(canvas, g, tip[0], tip[1])
+    if 136.6 <= b < 149.2:
+        draw_reach(ImageDraw.Draw(canvas), b)            # near plane ARM_Z: drawn after fog and focus, over the stalk
     if b >= 191 and "_eye" in A:
         cx, cy, er = A["_eye"]; soft = 1 - 0.6 * seg(b, 232, 256)
         gi = A["glow_mid"].copy(); gi.putalpha(gi.split()[3].point(lambda v: int(v * soft))); blit_center(canvas, gi, cx, cy)
@@ -511,24 +469,38 @@ def title(im, lines, b, b0, size=150, track=0.38, y0=None, alpha=1.0):
         y += lh
 
 
+def baby_geometry(x, y, s):
+    """Shapes of the baby in the box (screen px) and her head circle, for drawing and for the separation test."""
+    Z = 1.7; px, py = x + 62 * s, y - 92 * s
+    g = {"px": px, "py": py, "Z": Z,
+         "box": [px - 60 * Z, py - 10 * Z, px + 60 * Z, py + 50 * Z],
+         "body": [px - 50 * Z, py - 40 * Z, px + 40 * Z, py + 4 * Z],
+         "head": [px + 22 * Z, py - 62 * Z, px + 62 * Z, py - 22 * Z],
+         "arm": [(px + 2 * Z, py - 34 * Z), (px + 6 * Z, py - 72 * Z)],
+         "fist": [px - 4 * Z, py - 88 * Z, px + 16 * Z, py - 68 * Z]}
+    hc = (x + (8 + 2 * 0.5) * s, y - 134 * s)
+    g["her_head"] = (hc[0], hc[1], 9 * s)                 # centre, radius
+    g["her_face_tip"] = (x + (8 + 2 * 0.5 + 13) * s, y - 133 * s)
+    return g
+
+
 def closeup(b, t):
     """Dawn close-up: near plane z = 1.9 holds the package; the world behind is out of focus (focus schedule)."""
     a = assets()
     bg = exterior(b, t, hide_woman=True).filter(ImageFilter.GaussianBlur(7))
     s = 2.7
     x, y = 540, 790
-    C.woman(bg, x, y, s, pose="stand", face=1, baby=True, color=(30, 22, 26), head_turn=1.5)
+    C.woman(bg, x, y, s, pose="hold", face=1, baby=False, color=(30, 22, 26), head_turn=0.5)
     # the package: an open box, and in it a swaddled baby (head, bundle, one raised fist) - pure silhouette
     d = ImageDraw.Draw(bg)
-    px, py = x + 30 * s, y - 104 * s
-    SILB = (30, 22, 26, 255); Z = 1.4
-    d.rectangle([px - 70 * Z, py - 10 * Z, px + 70 * Z, py + 60 * Z], fill=(176, 134, 84, 255), outline=SILB, width=5)
-    d.polygon([(px - 70 * Z, py - 10 * Z), (px - 104 * Z, py - 44 * Z), (px - 40 * Z, py - 44 * Z), (px - 10 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
-    d.polygon([(px + 70 * Z, py - 10 * Z), (px + 104 * Z, py - 44 * Z), (px + 40 * Z, py - 44 * Z), (px + 10 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
-    d.ellipse([px - 58 * Z, py - 46 * Z, px + 46 * Z, py + 6 * Z], fill=SILB)             # swaddled body
-    d.ellipse([px + 26 * Z, py - 64 * Z, px + 72 * Z, py - 18 * Z], fill=SILB)            # head
-    d.line([(px - 6 * Z, py - 40 * Z), (px - 18 * Z, py - 78 * Z)], fill=SILB, width=12)  # raised arm
-    d.ellipse([px - 30 * Z, py - 92 * Z, px - 8 * Z, py - 70 * Z], fill=SILB)             # fist
+    G_ = baby_geometry(x, y, s); px, py, Z = G_["px"], G_["py"], G_["Z"]
+    SILB = (30, 22, 26, 255)
+    d.rectangle(G_["box"], fill=(176, 134, 84, 255), outline=SILB, width=5)
+    d.polygon([(px + 60 * Z, py - 10 * Z), (px + 92 * Z, py - 40 * Z), (px + 40 * Z, py - 40 * Z), (px + 14 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
+    d.ellipse(G_["body"], fill=SILB)                                   # swaddled body
+    d.ellipse(G_["head"], fill=SILB)                                   # head
+    d.line(G_["arm"], fill=SILB, width=int(9 * Z))                     # raised arm
+    d.ellipse(G_["fist"], fill=SILB)                                   # fist
     lab = a["package"].img
     li = lab.resize((int(lab.width * 1.1), int(lab.height * 1.1)))
     _ac(bg, li, px - li.width / 2, py + 22)                                # the label stays ON the box
@@ -543,7 +515,7 @@ def closeup(b, t):
         f.putalpha(Image.fromarray((np.asarray(f.split()[3], np.float32) * np.asarray(m, np.float32) / 255).astype(np.uint8)))
         bg.alpha_composite(f)
     # morning light on them
-    blit_center(bg, a["glow_big"], px + 40, py - 60)
+    blit_center(bg, a["glow_mid"], px + 150, py - 230)
     draw_message(bg, b, (W / 2 + 200, 80))
     return bg
 
@@ -597,7 +569,7 @@ def cues():
         Q.append((bt, "tape", 2.0, -0.6 + i * 0.25, 0.8))
     # the arm's servo, chopped into 0.3-beat grains, each panned by where the hand is on screen at that beat
     for k in range(10):
-        bb = 136.2 + k * 0.28
+        bb = 137.0 + k * 0.25
         Q.append((bb, "whirgrain", 3.0, arm_pan(bb), 4.0))
     Q.append((152, "slide", 2.5, -0.5, 0.7))
     for k in range(16): Q.append((175 + k, "heart", 2.5, 0.0, 0.6 if k % 2 == 0 else 0.4))
@@ -607,15 +579,77 @@ def cues():
     return Q
 
 
+ARM_Z, STALK_Z, STALK_WX = 1.3, 1.5, 1112.0      # the arm is the nearest plane in the shot; the stalk sits under it
+ARM_DRAWN_AFTER_FOG = True
+HAND = dict(palm=(30, 22), finger_len=36, finger_w=10, spread=(-33, -11, 11, 33), thumb=78)
+
+
+def her_hand_screen(b):
+    """Her reaching hand in screen px - same formula as cast.woman(pose='reach')."""
+    wx, wz, pose, face, ph, ex = woman_path(b)
+    cam = camera(b); p = proj(wx, GROUND, wz, cam); s = F / wz * 1.25
+    ang = math.radians(10 + 70 * ex.get("reach", 0.0)); sh = (4, -118)
+    e = (sh[0] + 30 * math.sin(ang), sh[1] + 30 * math.cos(ang)); h = (e[0] + 30 * math.sin(ang * 1.1), e[1] + 30 * math.cos(ang * 1.1))
+    return (p[0] + face * h[0] * s, p[1] + h[1] * s)
+
+
+def reach_geometry(b):
+    """Root on the house's middle box (inside its silhouette), elbow above, wrist at her hand. Grows over b136.6-138.6."""
+    cam = camera(b); hp = proj(HOUSE_X, GROUND, HOUSE_Z, cam); pvx, pvy = assets()["house_pv"]
+    root = (hp[0] - pvx + 340, hp[1] - pvy + 190)          # on the middle row's right box
+    hx, hy = her_hand_screen(min(b, 139.9))
+    tip_end = (hx + 30, hy - 4)
+    elbow = (root[0] + 20, min(root[1], tip_end[1]) - 120)
+    k = ease(seg(b, 136.6, 138.6))
+    pts = [root, elbow, tip_end]
+    L_ = [math.dist(pts[0], pts[1]), math.dist(pts[1], pts[2])]; tot = sum(L_) * k
+    chain = [root]
+    for i_ in range(2):
+        if tot <= 0: break
+        u = min(1, tot / L_[i_]); chain.append((lerp(pts[i_][0], pts[i_ + 1][0], u), lerp(pts[i_][1], pts[i_ + 1][1], u))); tot -= L_[i_]
+    return {"root": root, "elbow": elbow, "chain": chain, "tip": chain[-1], "k": k, "house_box": (hp[0] - pvx, hp[1] - pvy, hp[0] - pvx + 420, hp[1] - pvy + 360)}
+
+
+def draw_hand(d, tip, ang, fill, edge):
+    """Open cardboard hand: palm + four separated fingers + thumb, crisp. ang = pointing direction (rad)."""
+    P = HAND; c, s_ = math.cos(ang), math.sin(ang)
+    R = lambda u, v: (tip[0] + u * c - v * s_, tip[1] + u * s_ + v * c)
+    pw, ph = P["palm"]
+    d.ellipse([tip[0] - pw, tip[1] - pw, tip[0] + pw, tip[1] + pw], fill=fill, outline=edge, width=3)
+    for sp in P["spread"]:
+        a2 = ang + math.radians(sp)
+        b0 = (tip[0] + math.cos(a2) * pw * 0.7, tip[1] + math.sin(a2) * pw * 0.7)
+        b1 = (tip[0] + math.cos(a2) * (pw + P["finger_len"]), tip[1] + math.sin(a2) * (pw + P["finger_len"]))
+        d.line([b0, b1], fill=edge, width=P["finger_w"] + 4); d.line([b0, b1], fill=fill, width=P["finger_w"])
+        r = P["finger_w"] / 2; d.ellipse([b1[0] - r, b1[1] - r, b1[0] + r, b1[1] + r], fill=fill)
+    a3 = ang + math.radians(P["thumb"])
+    t1 = (tip[0] + math.cos(a3) * (pw + 22), tip[1] + math.sin(a3) * (pw + 22))
+    d.line([tip, t1], fill=edge, width=P["finger_w"] + 4); d.line([tip, t1], fill=fill, width=P["finger_w"])
+
+
+def draw_reach(d, b):
+    g = reach_geometry(b); ch = g["chain"]
+    DK = (64, 42, 24, 255); LT = (200, 156, 100, 255); PALM = (222, 178, 118, 255)
+    for i_ in range(len(ch) - 1):
+        p_, q_ = ch[i_], ch[i_ + 1]; w_ = [44, 34][i_]
+        d.line([p_, q_], fill=DK, width=w_)
+        ang = math.atan2(q_[1] - p_[1], q_[0] - p_[0]) + math.pi / 2
+        for m_ in range(5):
+            u = (m_ + 0.5) / 5; m = (lerp(p_[0], q_[0], u), lerp(p_[1], q_[1], u))
+            d.line([(m[0] - math.cos(ang) * w_ * 0.5, m[1] - math.sin(ang) * w_ * 0.5), (m[0] + math.cos(ang) * w_ * 0.5, m[1] + math.sin(ang) * w_ * 0.5)], fill=LT, width=3)
+    rr = 30; r0 = ch[0]
+    d.rectangle([r0[0] - rr, r0[1] - rr, r0[0] + rr, r0[1] + rr], fill=DK, outline=LT, width=4)   # the socket box on the house
+    if len(ch) > 2:
+        e = ch[1]; d.ellipse([e[0] - 24, e[1] - 24, e[0] + 24, e[1] + 24], fill=DK, outline=LT, width=4)
+    if g["k"] > 0.55 and len(ch) > 1:
+        ang = math.atan2(ch[-1][1] - ch[-2][1], ch[-1][0] - ch[-2][0])
+        draw_hand(d, ch[-1], ang, PALM, DK)
+
+
 def arm_tip_x(b):
-    """Screen x of the house's hand (same geometry as exterior/arm, solved without drawing)."""
-    cam = camera(b); hp = proj(HOUSE_X, GROUND, HOUSE_Z, cam)
-    pvx, pvy = assets()["house_pv"]
-    root_x = hp[0] - pvx + 300
-    wx, wz = woman_path(b)[0], woman_path(b)[1]
-    hand_x = proj(wx, GROUND, wz, cam)[0] + 50
-    k = ease(seg(b, 136, 138.6))
-    return lerp(root_x + 40, hand_x, k)
+    """Screen x of the arm's servo: the elbow joint while the forearm extends (the motor lives in the joint, in the house)."""
+    g = reach_geometry(b); ch = g["chain"]
+    return ch[1][0] if len(ch) > 1 else ch[0][0]
 
 
 def arm_pan(b):

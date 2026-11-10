@@ -177,12 +177,13 @@ def human(who, kind="girl", scale=1.0):
             L = 13 * hs
             fan.append([(bx - 1.2 * sa * hs, by + 1.2 * ca * hs), (bx + L * ca - 1.0 * sa * hs, by + L * sa + 1.0 * ca * hs),
                         (bx + L * ca + 1.0 * sa * hs, by + L * sa - 1.0 * ca * hs), (bx + 1.2 * sa * hs, by - 1.2 * ca * hs)])
-        fan.append([(2 * hs, 4 * hs), (6 * hs, 15 * hs), (8.5 * hs, 14 * hs), (5 * hs, 3.5 * hs)])  # thumb, apart
+        fan.append([(1.5 * hs, 1.5 * hs), (6 * hs, 15 * hs), (8.5 * hs, 14 * hs), (5.5 * hs, 1.5 * hs)])  # thumb, rooted inside the palm
         open_h = fan
         grip = [circle(5 * hs, 0, 5.5 * hs, 10)]
         # offer: flat palm up, fingers together, thumb separated from the fingers by a V of light
-        offer = [[(0, -4 * hs), (16 * hs, -5 * hs), (18 * hs, -2.5 * hs), (16 * hs, 0.5 * hs), (5 * hs, 1 * hs), (0, 2 * hs)],
-                 [(2 * hs, 3.5 * hs), (9 * hs, 8.5 * hs), (7.5 * hs, 10.5 * hs), (0.5 * hs, 5.5 * hs)]]
+        offer = [[(0, -4 * hs), (16 * hs, -5 * hs), (18 * hs, -2.5 * hs), (16 * hs, 0.5 * hs), (6.5 * hs, 1 * hs),   # fingers' underside
+                  (4.2 * hs, 2.2 * hs),                                                                       # bottom of the V notch (stops at the palm)
+                  (9 * hs, 8.5 * hs), (7.5 * hs, 10.5 * hs), (0.5 * hs, 5.5 * hs), (0, 2 * hs)]]              # thumb, joined at its base
         bones.append(Bone("hand_" + side, "fore_" + side, 10 * hs, 0, (-70, 70), open_h,
                           profiles={"open": open_h, "grip": grip, "offer": offer}, z=z0))
         bones.append(Bone("thigh_" + side, None, TH, 90, (-125, 40), [taper(TH, 13 if big else 10, 10 if big else 8)], z=z0 + 1))
@@ -205,9 +206,9 @@ def dog(who="dog", scale=1.0):
     tail = [(0, -2.5), (22, -4), (38, -1), (22, 2.5), (0, 3)]
     bones.append(Bone("tail", None, 38, 200, (-70, 70), [tail], offset=(-8, -6), z=1))
     for side, z0 in (("f", 0), ("n", 6)):
-        bones.append(Bone("hthigh_" + side, None, 28, 100, (-100, 50), [taper(28, 14, 8)], z=z0))
+        bones.append(Bone("hthigh_" + side, None, 28, 100, (-100, 50), [taper(28, 13, 7)], offset=((-16, -2) if side == "f" else (0, 0)), z=z0))
         bones.append(Bone("hshin_" + side, "hthigh_" + side, 30, 20, (-10, 120), [taper(30, 6, 4.5)], z=z0))
-        bones.append(Bone("fleg_" + side, "spine", 28, 85, (-160, 60), [taper(28, 9, 6)], at=0.9, z=z0))
+        bones.append(Bone("fleg_" + side, "spine", 28, 85, (-160, 60), [taper(28, 9, 6)], at=(0.7 if side == "f" else 0.92), z=z0))
         bones.append(Bone("fpaw_" + side, "fleg_" + side, 26, 0, (-130, 30), [taper(26, 6, 5)], z=z0))
     return Rig(who, bones, scale)
 
@@ -240,15 +241,16 @@ def walk(phase, stride=24):
 
 
 def dog_stand(wag=0.0):
-    return {"spine": 0, "neck": 0, "head": 0, "tail": wag, "hthigh_n": 0, "hshin_n": 20, "hthigh_f": 6, "hshin_f": 20,
-            "fleg_n": 0, "fpaw_n": 0, "fleg_f": 4, "fpaw_f": 0}
+    # near and far legs splayed apart so four separate leg plates read in silhouette
+    return {"spine": 0, "neck": 0, "head": 0, "tail": wag, "hthigh_n": -10, "hshin_n": 22, "hthigh_f": 14, "hshin_f": 16,
+            "fleg_n": -14, "fpaw_n": 2, "fleg_f": 12, "fpaw_f": -4}
 
 
 def dog_walk(phase, wag=0.0):
     s = math.sin(phase)
     p = dog_stand(wag)
-    p.update({"hthigh_n": 18 * s, "hthigh_f": -18 * s, "hshin_n": 20 + 12 * max(0, math.sin(phase + 1)),
-              "hshin_f": 20 + 12 * max(0, math.sin(phase + 1 + math.pi)), "fleg_n": -20 * s, "fleg_f": 20 * s,
+    p.update({"hthigh_n": -10 + 16 * s, "hthigh_f": 14 - 16 * s, "hshin_n": 20 + 12 * max(0, math.sin(phase + 1)),
+              "hshin_f": 20 + 12 * max(0, math.sin(phase + 1 + math.pi)), "fleg_n": -14 - 16 * s, "fleg_f": 12 + 16 * s,
               "fpaw_n": -max(0, 30 * math.sin(phase + 1.5)), "fpaw_f": -max(0, 30 * math.sin(phase + 1.5 + math.pi)),
               "spine": 2 * math.sin(phase * 2)})
     return p
