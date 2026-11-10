@@ -240,16 +240,16 @@
    "test": "every drawn source: public_domain/CC0/own, with a stated basis",
    "pass": true,
    "detail": {
-    "film": "producer's own work",
-    "twilight": "CC0",
-    "family": "CC0",
-    "cup": "public_domain",
-    "girl_dog": "CC0",
-    "door": "public_domain",
-    "survivor": "public_domain",
-    "hearth": "CC0",
     "interior": "CC0",
-    "lantern": "public_domain"
+    "family": "CC0",
+    "lantern": "public_domain",
+    "girl_dog": "CC0",
+    "survivor": "public_domain",
+    "door": "public_domain",
+    "twilight": "CC0",
+    "cup": "public_domain",
+    "hearth": "CC0",
+    "film": "producer's own work"
    }
   },
   {
@@ -262,6 +262,15 @@
      785,
      478
     ]
+   }
+  },
+  {
+   "test": "sentinel brightness swings >= 15% on every kick (rendered proof crop, p90)",
+   "pass": true,
+   "detail": {
+    "kicks": 94,
+    "min_swing": 0.181,
+    "median": 0.439
    }
   }
  ],

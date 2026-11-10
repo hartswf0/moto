@@ -98,7 +98,7 @@ add("twilight", "hat0", 126.0, (127.6, 130.0), None, 141.0, (0.8, 0.85), (0.6, 0
 add("film", "bed0", 131.0, (132.6, 134.6), (135.0, 141.0), 141.6, (0.0, -0.5), (-0.5, 0.45), 300, 700, label="CORRUGATED SKY: the rain", credit="SCION 02 Reiniger", aspect=GA, dim=0.3)
 add("hearth", "call0", 134.0, (135.6, 138.0), None, 145.6, (0.7, 0.6), (0.62, -0.3), 220, label="Dogs on the Hearth", credit="J. Alden Weir, 1887 · SAAM · CC0", extra_pulses=True)
 # the sentinel keeps the house's clock in frame, lower left, for the whole song
-direct.append({"k": "kick0", "t0": 0.0, "t1": 146.0, "sx": -0.78, "sy": -0.62, "dist": 12.0, "ramp": 0.01, "out": 0.5, "w": 1.0})
+direct.append({"k": "kick0", "t0": 0.0, "t1": 146.0, "sx": -0.78, "sy": -0.62, "dist": 12.0, "ramp": 0.01, "out": 0.5, "w": 1.0, "lock": True})
 # keep the others clear of the titles (first 8 s and last 4 s)
 for k in ["snare0", "snare1", "hat0", "hat1", "bass0", "choir0", "bed0", "call0"]:
     direct.append({"k": k, "t0": 0.0, "t1": 8.0, "sx": 0.0, "sy": -0.95, "dist": 16, "ramp": 0.01, "out": 1.5, "w": 0.85})

@@ -84,8 +84,8 @@ if "--video" in sys.argv:
     V = np.frombuffer(raw, np.uint8).reshape(-1, 720, 1280); swings = []
     for tk in J.KICKS:
         if not (t0 + 0.3 < tk < t0 + len(V) / FPS - 0.3): continue
-        f = int(round((tk - t0) * FPS)); x, y, r = J.jelly("kick0", tk, window=0.0); R = int(max(24, r * 1.6))
-        crop = lambda k: V[k, max(0, int(y) - R):int(y) + R, max(0, int(x) - R):int(x) + R].astype(float)
+        f = int(round((tk - t0) * FPS)); x, y, r = J.jelly("kick0", tk, window=0.0); RR = int(max(24, r * 1.6))
+        crop = lambda k: V[k, max(0, int(y) - RR):int(y) + RR, max(0, int(x) - RR):int(x) + RR].astype(float)
         pre = min(np.percentile(crop(k), 90) for k in (f - 2, f - 1)); peak = max(np.percentile(crop(k), 90) for k in (f, f + 1))
         swings.append((peak - pre) / max(1, pre))
     check("sentinel brightness swings >= 15% on every kick (rendered proof crop, p90)", len(swings) and min(swings) >= 0.15,
