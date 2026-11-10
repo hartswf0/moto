@@ -1,0 +1,49 @@
+{
+ "suite": "corrugated-sky invariants",
+ "results": [
+  {
+   "test": "proof: joint limits respected (every frame b176-208)",
+   "pass": true,
+   "detail": {
+    "violations": [],
+    "frames": 327
+   }
+  },
+  {
+   "test": "proof: pinned contacts residual < 1 px",
+   "pass": true,
+   "detail": {
+    "n_pinned_samples": 1084,
+    "worst": [
+     "girl",
+     "hand_f",
+     0.7767
+    ]
+   }
+  },
+  {
+   "test": "film: joint limits respected (every 6th frame)",
+   "pass": true,
+   "detail": {
+    "frames": 583,
+    "violations": []
+   }
+  },
+  {
+   "test": "pinned joints never detach",
+   "pass": true,
+   "detail": {
+    "max_pin_gap_px": 1.1368683772161603e-13
+   }
+  },
+  {
+   "test": "silhouettes do not merge (girl vs dog, b184-199)",
+   "pass": true,
+   "detail": {
+    "max_overlap_fraction": 0.0116,
+    "at_beat": 198.0
+   }
+  }
+ ],
+ "all_pass": true
+}

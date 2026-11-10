@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Corrugated Sky · Operator</title>
+<meta name="description" content="Shadow-theatre music video for ET TU, BRUTE? · BOXBACK track 11: operator page with preview, revision, critic verdict, next blocking failure and artifacts.">
+<style>
+  :root { --paper:#ece2ca; --ink:#1c1612; --kraft:#be9868; --red:#8c2226; --muted:#5b4e40; --card:#f6f0e2; --line:#cdbb98; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper:#1b1713; --ink:#efe6d4; --kraft:#c9a273; --red:#e0595d; --muted:#b5a68f; --card:#25201a; --line:#4a3f32; } }
+  :root[data-theme="dark"] { --paper:#1b1713; --ink:#efe6d4; --kraft:#c9a273; --red:#e0595d; --muted:#b5a68f; --card:#25201a; --line:#4a3f32; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 Georgia, "DejaVu Serif", serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  .kicker { font:700 12px/1 system-ui, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+  h1 { font-size:clamp(28px,6vw,46px); line-height:1.05; margin:6px 0 4px; }
+  h2 { font-size:20px; margin:28px 0 8px; border-bottom:2px solid var(--ink); padding-bottom:4px; }
+  .sub { color:var(--muted); margin:0 0 14px; }
+  video { width:100%; display:block; background:#000; border:3px solid var(--ink); box-shadow:6px 8px 0 rgba(0,0,0,.25); }
+  .play { display:inline-block; margin:12px 0 0; padding:10px 16px; background:var(--ink); color:var(--paper); font:700 15px system-ui, sans-serif; text-decoration:none; border:0; border-radius:3px; cursor:pointer; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px 14px; border-radius:2px; }
+  .card h3 { margin:0 0 6px; font:700 12px/1.2 system-ui, sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .verdict { font-size:22px; font-weight:700; }
+  .bad { color:var(--red); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { font:700 12px system-ui, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  .scroll { overflow-x:auto; }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  a { color:var(--red); }
+  code { font-size:13px; }
+  footer { color:var(--muted); font-size:13px; margin:32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">SCION 02 · Reiniger · operator page · ET TU, BRUTE? · BOXBACK · track 11</div>
+  <h1>Corrugated Sky</h1>
+  <p class="sub">Shadow theatre for a cardboard house that keeps its family's day after the family is gone. They are lit places in a black wall; at night they step out of their own light. The proof: a girl climbs the garden gate, offers her hand to the dog shut outside, and lets go.</p>
+
+  <video id="v" src="./corrugated-sky.mp4" controls playsinline preload="metadata" poster="./poster.jpg"></video>
+  <button class="play" onclick="document.getElementById('v').play()">▶ Play the film</button>
+  <a class="play" href="./proof.mp4" style="background:var(--kraft);color:var(--ink)">▶ Hard-proof clip: the gate</a>
+
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3><div>r1: first full cut. 140.84 BPM grid (beat 0.426 s, offset 0.300 s); poses on twos (12 fps), shown at 24 fps; 2:26, 1280×720.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">pending independent review</div><div>No critic has seen this film yet. The builder's own contact-sheet checks are not a verdict.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Independent review of the proof (b176–208) against the Reiniger bar: hands and thumbs distinguishable, no detached limbs, no merged blobs, stable support, readable with colour removed.</div></div>
+    <div class="card"><h3>Accepted checkpoint</h3><div>None accepted yet. The source is reproducible from <code>src/render.py</code>.</div></div>
+  </div>
+
+  <h2>Measured invariants</h2>
+  <div class="scroll"><table>
+    <tr><th>invariant</th><th>evidence</th><th>result</th></tr>
+    <tr><td>Joint-angle limits never exceeded</td><td><a href="./invariants.json">invariants.json</a></td><td>pass: 0 violations (proof, every frame; film, every 6th frame)</td></tr>
+    <tr><td>Pinned holds (gate and paw on hand) &lt; 1 px</td><td>1,084 pinned samples in the proof</td><td>pass: worst 0.78 px</td></tr>
+    <tr><td>Pinned joints never detach</td><td>FK pin check</td><td>pass: 1e-13 px</td></tr>
+    <tr><td>Girl and dog do not merge (overlap &lt; 1.5%)</td><td>mask overlap b184–199</td><td>pass: max 1.2%, at the paw-to-hand contact (b198)</td></tr>
+  </table></div>
+
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="./METHOD.md">Production record</a>: thesis, invariants, method library</li>
+    <li><a href="./source-ledger.json">Source ledger</a>: every picture element is procedural; the song is the producer's own</li>
+    <li><a href="./sfx-cues.json">SFX cue sheet</a>: synthesised house bells, plates, chime, call, crackle, rain</li>
+    <li><a href="./src/">Source</a>: <code>rigs.py</code> (bones, limits, profiles, IK), <code>film.py</code> (timeline), <code>render.py</code></li>
+    <li><a href="../../VOLHOLLA/song-boxback-11.html">Song page</a></li>
+  </ul>
+
+  <footer>After Lotte Reiniger's silhouette films (lineage, not endorsement). Theme after Ray Bradbury's "There Will Come Soft Rains"; no text from the story or its poem is used. Song: Treblo.</footer>
+</main>
+</body>
+</html>

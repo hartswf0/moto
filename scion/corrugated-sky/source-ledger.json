@@ -1,0 +1,103 @@
+{
+ "audio": {
+  "source": "Et tu, Brute (BOXBACK)/Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+  "rights": "producer's own Treblo track (unaltered under the SFX)"
+ },
+ "picture": [
+  {
+   "id": "girl rig (19 bones, hand profiles open/grip/offer)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "boy rig",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "mother rig",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "father rig",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "dog rig (15 bones)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "house cross-section (corrugated roof)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "house arms (2-bone IK)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "table, chairs, stove, toaster, clock",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "garden gate + fence",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "west wall with the family's lit places",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "flames (4 replacement profiles)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "fern fronds",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "rain, ripples, smoke",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "banners (the house's voice, text cut out)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  },
+  {
+   "id": "title card lettering (Inter ExtraBold, system font)",
+   "kind": "procedural-silhouette",
+   "made_in": "src/rigs.py or src/film.py",
+   "rights": "original procedural drawing made for this video; no third-party or album-art pixels"
+  }
+ ],
+ "text": {
+  "house_announcements": "original lines written for this film",
+  "vision": "themes after Ray Bradbury, 'There Will Come Soft Rains' (1950); no sentences or the Teasdale poem are quoted"
+ },
+ "sfx": "synthesised in src/sfx.py (no samples)"
+}

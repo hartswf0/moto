@@ -1,0 +1,70 @@
+{
+ "film": "the-universal-boxback",
+ "grid": {
+  "period": 0.4614285829991442,
+  "offset": 0.045678572874893,
+  "bpm": 130.03095649172494,
+  "kick_alignment": 0.5632183908045977,
+  "method": "grid search on low-band onsets; offset refined to all onsets (\u00b15% beat)",
+  "onset_alignment_5pct": 0.4074074074074074
+ },
+ "results": [
+  {
+   "test": "proof phase ratio A:B = 3:2",
+   "pass": true,
+   "measured": 1.5,
+   "laps_A": 3.0,
+   "laps_B": 2.0
+  },
+  {
+   "test": "reunion at b52",
+   "pass": true,
+   "max_angle_err_rad": 0.0
+  },
+  {
+   "test": "reunion at b72",
+   "pass": true,
+   "max_angle_err_rad": 2.220446049250313e-15
+  },
+  {
+   "test": "nine interference passes on even beats",
+   "pass": true,
+   "max_angle_err_rad": 2.220446049250313e-15
+  },
+  {
+   "test": "proof: non-pair separation >= 60 px",
+   "pass": true,
+   "min_px": 66.56
+  },
+  {
+   "test": "rational lock closes (16-beat period)",
+   "pass": true,
+   "max_err_px": 1.3642420526593924e-12
+  },
+  {
+   "test": "detuned drift does not close",
+   "pass": true,
+   "max_err_px": 331.5
+  },
+  {
+   "test": "beam refused by row 3 until the re-phase",
+   "pass": true,
+   "frames_in_row": 0
+  },
+  {
+   "test": "after the re-phase the house is plan F",
+   "pass": true,
+   "max_err_px": 2.997
+  },
+  {
+   "test": "final house == opening end form (eps 0.5 px)",
+   "pass": true,
+   "max_err_px": 0.0
+  },
+  {
+   "test": "making starts at the first step (lower rows land first)",
+   "pass": true
+  }
+ ],
+ "all_pass": true
+}

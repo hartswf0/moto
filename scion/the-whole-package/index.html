@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Whole Package · Operator</title>
+<meta name="description" content="Multiplane music video for ET TU, BRUTE? · BOXBACK track 15. Operator page: preview, revision, critic verdict, next blocking failure, artifacts.">
+<style>
+  :root { --paper:#f1ead8; --ink:#1b1820; --red:#f2382c; --gold:#b88a2a; --muted:#5d5648; --card:#faf5e8; --line:#d8cdb2; }
+  @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --paper:#15130f; --ink:#efe8d8; --red:#ff5a4c; --gold:#e0b452; --muted:#b0a68f; --card:#211d17; --line:#3d3628; } }
+  :root[data-theme="dark"] { --paper:#15130f; --ink:#efe8d8; --red:#ff5a4c; --gold:#e0b452; --muted:#b0a68f; --card:#211d17; --line:#3d3628; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 Georgia, "DejaVu Serif", serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  .kicker { font:700 12px/1.3 system-ui, sans-serif; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+  h1 { font:800 clamp(34px,8vw,60px)/1 system-ui, "Inter", sans-serif; letter-spacing:.18em; color:var(--red); margin:8px 0 6px; text-transform:uppercase; }
+  h2 { font-size:20px; margin:28px 0 8px; border-bottom:2px solid var(--ink); padding-bottom:4px; }
+  .sub { color:var(--muted); margin:0 0 14px; max-width:64ch; }
+  video { width:100%; display:block; background:#000; border:3px solid var(--ink); }
+  .play { display:inline-block; margin:12px 8px 0 0; padding:10px 16px; background:var(--ink); color:var(--paper); font:700 15px system-ui, sans-serif; text-decoration:none; border:0; border-radius:3px; cursor:pointer; }
+  .play.alt { background:var(--gold); color:#1b1820; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px 14px; }
+  .card h3 { margin:0 0 6px; font:700 12px/1.2 system-ui, sans-serif; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); }
+  .verdict { font-size:22px; font-weight:700; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { font:700 12px system-ui, sans-serif; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); }
+  .scroll { overflow-x:auto; }
+  a { color:var(--red); }
+  footer { color:var(--muted); font-size:13px; margin:32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">SCION 05 · multiplane · ET TU, BRUTE? · BOXBACK · track 15</div>
+  <h1>The Whole<br>Package</h1>
+  <p class="sub">A house of boxes with one warm light for an eye. A pollen storm that would kill her. The fog lies about distance, and the near hand is the truth.</p>
+
+  <video id="v" src="./the-whole-package.mp4" controls playsinline preload="metadata" poster="./poster.jpg"></video>
+  <button class="play" onclick="document.getElementById('v').play()">▶ Play the film</button>
+  <a class="play alt" href="./proof.mp4">▶ Proof scene (b110–150)</a>
+
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3><div>r1: first full cut on the 110.445 BPM grid, 2:31, 1280×720 / 24 fps, 11 glass planes, 4 fog states.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Pending independent review</div><div>No critic has watched this film yet. Builder self-checks are not approval.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Independent review of the proof (b110–150) against the SCION 05 bar: near/far relationships persist; fog is not uniform; her silhouette is readable exactly when needed; sound spatialises the reveal.</div></div>
+    <div class="card"><h3>Accepted checkpoint</h3><div>None yet. Every frame is reproducible from <code>src/</code>.</div></div>
+  </div>
+
+  <h2>Proof scene</h2>
+  <div class="scroll"><table>
+    <tr><th>beat</th><th>event</th><th>fog</th></tr>
+    <tr><td>112</td><td>FOLLOW MY LIGHT.: the house's light, a halo far off</td><td>lure</td></tr>
+    <tr><td>113.5–130</td><td>she passes behind grass (z 1.5), laundry (z 2.7, ≈b120) and boxes (z 2.0, ≈b127)</td><td>lure</td></tr>
+    <tr><td>130–134</td><td>the light goes out; I CANNOT SEE YOU.; she looks left and right</td><td>obscure</td></tr>
+    <tr><td>134–136.5</td><td>motes stop and the wind drops to silence</td><td>suspend</td></tr>
+    <tr><td>136–139</td><td>a nearer hand (z 3.0) reaches out of the fog; HERE.; their hands meet at b139</td><td>reveal</td></tr>
+  </table></div>
+
+  <h2>Measured invariants</h2>
+  <div class="scroll"><table>
+    <tr><th>invariant</th><th>result</th></tr>
+    <tr><td>Parallax ratio = depth ratio, all plane pairs, every moving frame</td><td>pass: 2,356 frames, max relative error 5e-11</td></tr>
+    <tr><td>Fog optical depth non-decreasing with distance</td><td>pass: 515 frames</td></tr>
+    <tr><td>Obscure state is depth-shaped</td><td>pass: α at the arm 0.76 vs at her 0.97</td></tr>
+    <tr><td>Suspend beat is silent</td><td>wind bed −49 dB at b135 (SFX stem)</td></tr>
+  </table></div>
+
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="./METHOD.md">Production record</a>: thesis, primitives, proof table, method library</li>
+    <li><a href="./multiplane-tests.json">Multiplane test report</a></li>
+    <li><a href="./source-ledger.json">Source ledger</a> · <a href="./sfx-cues.json">depth SFX cue sheet</a> (beat, z, pan, gain)</li>
+    <li><a href="./src/">Source</a>: <code>mp.py</code> (planes, fog, focus), <code>film.py</code> (timeline and fog states), <code>cast.py</code>, <code>sfx3d.py</code></li>
+    <li><a href="../../VOLHOLLA/song-boxback-15.html">Song page</a> · <a href="../wittgensteins-backpack/index.html">Wittgenstein's Backpack</a></li>
+  </ul>
+
+  <footer>Swarm lineage: Yuri Norstein's multiplane practice. Theme after Nnedi Okorafor's "Mother of Invention" (theme only: no text or names used). This is not a claim that either wrote or endorsed it. Picture is drawn in code, plus one fragment of the producer's own BOXBACK art. Song: Treblo.</footer>
+</main>
+</body>
+</html>

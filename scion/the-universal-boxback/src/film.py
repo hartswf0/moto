@@ -88,6 +88,7 @@ def ring(b, b0=52.0, span=20.0, R=R_RING, sep=60.0, cx=CX, cy=CY, floor=36.0, sq
     return P, ang
 
 
+BANK_PH = json.load(open(os.path.join(os.path.dirname(__file__), "bank_phases.json")))
 RATIOS = [(1, 1), (1, 2), (2, 3), (3, 2), (3, 4), (4, 3), (1, 3), (2, 1), (5, 4), (4, 5)]
 
 
@@ -100,10 +101,10 @@ def bank(b, detune=0.0, amp=1.0, cyc=16.0, b0=80.0):
     ring0, _ = ring(b0, b0=52, span=20)            # the bank starts from the reunited ring
     for j in range(N):
         a, c = RATIOS[j % 10]
-        d = 0.0 if j < 10 else math.pi / 2
+        dx, dy = BANK_PH["dx"][j], BANK_PH["dy"][j]          # searched per-box phases (phase_search.py)
         fa = a * (1 + detune * eps[j]); fc = c * (1 - detune * eps[j] * 0.7)
-        x = math.sin(fa * phi + d) * 380 * amp
-        y = math.sin(fc * phi + d * 0.5) * 230 * amp
+        x = math.sin(fa * phi + dx) * 380 * amp
+        y = math.sin(fc * phi + dy) * 230 * amp
         P[j] = (CX + x, CY + y)   # centred figure; continuity with the ring is a blend in state()
     return P
 
@@ -118,9 +119,17 @@ def detune_at(b):
 
 def amp_at(b):
     # sparse -> dense: the bank widens as the development section grows
-    if b < 96: return 0.35 + 0.35 * ease((b - 80) / 16)
-    if b < 144: return 0.7 + 0.25 * ease((b - 96) / 16)
-    return 0.95
+    if b < 96: return 0.55 + 0.3 * ease((b - 80) / 16)
+    if b < 144: return 0.85 + 0.15 * ease((b - 96) / 16)
+    return 1.0
+
+
+def bank_scale(b):
+    """in the oscillator bank the boxes become ornaments: small, so the figure (not the boxes) reads."""
+    if b < 80 or b >= 160: return 1.0
+    if b < 84: return 1 - 0.55 * ease((b - 80) / 4)
+    if b < 148: return 0.45
+    return 0.45 + 0.55 * ease((b - 148) / 12)
 
 
 def field(b):
@@ -138,8 +147,8 @@ def field(b):
         for j in range(N):
             i = j % 10; k = 3 if j < 10 else 2
             a = -math.pi / 2 + i * 2 * math.pi / 10 + k * th
-            r = 330 if j < 10 else 300
-            R[j] = (CX + r * math.cos(a), CY + 0.6 * r * math.sin(a))
+            rx, ry = (575, 318) if j < 10 else (515, 282)   # orbit OUTSIDE the house being built
+            R[j] = (640 + rx * math.cos(a), 400 + ry * math.sin(a))
         k0 = ease((b - 160) / 4)
         R0, _ = ring(72, b0=52, span=20)
         P = R0 * (1 - k0) + R * k0
@@ -201,6 +210,7 @@ def state(b):
             k = ease((b - 80) / 4)
             P = R0 * (1 - k) + P * k
         rotd[:] = (b - 80) * 22 * np.array([1 if j < 10 else -1 for j in range(N)])
+        sc[:] = bank_scale(b)
         if b < 84:
             _, ang80 = ring(80)
             rr = np.degrees(ang80) + 90
@@ -425,13 +435,14 @@ def render_frame(f):
                     spr = a["box_red"] if 242 <= b < 262 else a["box"][j]; sx = wd / 264
                 else:
                     spr = a["beam_fold"]; sx = wd / 110
-                blit(layer, spr, tuple(P[j]), rotd[j], sx, 1.0, face)
+                blit(layer, spr, tuple(P[j]), rotd[j], sx * sc[j], sc[j], face)
             else:
                 blit(layer, a["box"][j], tuple(P[j]), rotd[j], sc[j], None, face)
     im = im.convert("RGBA"); im.alpha_composite(layer)
     # corner points (the arrangement) + reunion flashes
     for j in range(N):
         w, h = (beam_width(b), 40) if j == BEAM else (84, 56)
+        w, h = w * sc[j], h * sc[j]
         col = WARM if j < 10 else COOL
         if j == BEAM and 242 <= b < 262: col = np.array(RED, float)
         br = gl[j] * (1.0 if face > 0.3 else 1.4)
@@ -521,7 +532,7 @@ def end_card(im, b, a):
 def build_events():
     ev = []
     R0, _ = ring(52)
-    ev.append({"b": 48.0, "kind": "reunion", "where": [tuple(R0[i]) for i in range(10)]})
+    ev.append({"b": 52.0, "kind": "reunion", "where": [tuple(R0[i]) for i in range(10)]})
     for m in range(1, 10):
         b = 52 + 2 * m
         P, _ = ring(b)

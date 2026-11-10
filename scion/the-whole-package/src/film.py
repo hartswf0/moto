@@ -151,7 +151,7 @@ MESSAGES = [(40, 47, "POLLEN COUNT: HIGH."), (52, 59, "COME INSIDE SOON."), (64,
             (72, 79, "STORM IN TWO HOURS."), (80, 87, "THEY HAVE CLOSED THEIR DOORS."), (88, 95, "STAY CLOSE TO ME."),
             (112, 119, "FOLLOW MY LIGHT."), (131, 136, "I CANNOT SEE YOU."), (138, 143, "HERE."),
             (151, 158, "SEALING."), (166, 174, "THE AIR INSIDE IS CLEAN."), (176, 183, "BREATHE WITH ME."),
-            (184, 190, "AGAIN. WITH ME."), (216, 223, "HANDLE WITH CARE.")]
+            (184, 190, "AGAIN. WITH ME."), (233, 238, "HANDLE WITH CARE."), (238.5, 243.5, "WELCOME, SMALL ONE.")]
 
 
 def message(b):
@@ -457,6 +457,27 @@ def title(im, lines, b, b0, size=150, track=0.38, y0=None, alpha=1.0):
         y += lh
 
 
+def closeup(b, t):
+    """Dawn close-up: near plane z = 1.9 holds the package; the world behind is out of focus (focus schedule)."""
+    a = assets()
+    bg = exterior(b, t).filter(ImageFilter.GaussianBlur(7))
+    s = 2.7
+    x, y = 540, 790
+    C.woman(bg, x, y, s, pose="stand", face=1, baby=True, color=(30, 22, 26), head_turn=1.5)
+    # the package in her arms: the box carries the producer's HANDLE WITH CARE label
+    px, py = x + 26 * s, y - 100 * s
+    lab = a["package"].img
+    k = 1 + 0.04 * math.sin((b - 232) * math.pi)
+    li = lab.resize((int(lab.width * 2.0 * k), int(lab.height * 2.0 * k)))
+    _ac(bg, li, px - li.width / 2, py - li.height / 2 + 18)
+    d = ImageDraw.Draw(bg); hr = 15                                      # the baby's head above the box rim
+    d.ellipse([px - hr, py - li.height / 2 - 2 * hr + 14, px + hr, py - li.height / 2 + 14], fill=(30, 22, 26, 255))
+    # morning light on them
+    blit_center(bg, a["glow_big"], px + 40, py - 60)
+    draw_message(bg, b, (W / 2 + 200, 80))
+    return bg
+
+
 def render_frame(f):
     t = f / FPS; b = B(t)
     assets()
@@ -469,6 +490,8 @@ def render_frame(f):
             pass
     elif 150 <= b < 191:
         im = interior(b, t)
+    elif 232 <= b < 244:
+        im = closeup(b, t)
     else:
         im = exterior(b, t)
         if b < 150 or b >= 191:
