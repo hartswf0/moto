@@ -13,10 +13,9 @@ export function makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL) {
   // ---- the character: red, 1.7x, twelve thick memory tentacles
   const hero = J(SPEC.hero.k); hero.sz *= SPEC.hero.scale; hero.rig.group.scale.multiplyScalar(SPEC.hero.scale);
   hero.root.traverse(o => { const m = o.material; if (m && m.uniforms) { if (m.uniforms.uBellColor) m.uniforms.uBellColor.value = new THREE.Color(SPEC.hero.bell); if (m.uniforms.uRimColor) m.uniforms.uRimColor.value = new THREE.Color(SPEC.hero.rim); } });
-  const tentGroup = new THREE.Group(); hero.root.add(tentGroup); const tents = [];
-  const TL = 1.0 * SPEC.hero.scale * .6, TR = .06 * SPEC.hero.scale;
-  for (let i = 0; i < 12; i++) { const a = i / 12 * Math.PI * 2, rr = .62 * hero.sz * .9, pts = []; for (let s = 0; s <= 10; s++) pts.push(new THREE.Vector3(Math.cos(a) * rr * (1 - s * .03), -s / 10 * TL, Math.sin(a) * rr * (1 - s * .03)));
-    const mesh = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 24, TR, 6, false), new THREE.MeshBasicMaterial({color: 0xd9822b, fog: true})); tentGroup.add(mesh); tents.push({mesh, a}); }
+  const tents = [], TL = .75, TR = .045;
+  for (let i = 0; i < 12; i++) { const pts = []; for (let q = 0; q <= 10; q++) pts.push(new THREE.Vector3(Math.sin(q * .6 + i) * .06, -q / 10 * TL, 0));
+    const mesh = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts), 20, TR, 6, false), new THREE.MeshBasicMaterial({color: 0x6a2a20, fog: true})); scene.add(mesh); tents.push(mesh); }
   // ---- films
   const films = SPEC.films.map((f, fi) => {
     const m = BANK[f.bank], gw = m.gw, gh = m.gh, N = gw * gh, data = bins[f.bank];
@@ -35,7 +34,7 @@ export function makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL) {
   const _r = new THREE.Vector3(), _u = new THREE.Vector3(), _fw = new THREE.Vector3(), CPOS = new THREE.Vector3(), CLOOK = new THREE.Vector3();
   const condOf = (f, t) => { const [c0, c1] = f.condense; let c = t >= c0 ? ease((t - c0) / Math.max(.01, c1 - c0)) : -1; if (t > f.release && !f.keep) c = 1 - ease((t - f.release) / 2.0) * 1.3; return c; };
   const resOf = (f, t) => { const [b0, b1] = f.bloom; let w = b1 > b0 ? ease((t - b0) / .7) * (1 - ease((t - b1 + .7) / .7)) : 0;
-    if (f.keep && t >= f.keep.t0) w = t < f.letgo ? Math.max(w, ease((t - f.keep.t0) / .4)) : 1 - ease((t - f.letgo) / .5); return w; };
+    if (f.keep && t >= f.keep.t0) w = t < f.letgo ? Math.max(w, ease((t - f.keep.t0) / .4)) : 1 - Math.min(1, (t - f.letgo) / (f.letgo_end - f.letgo - .2)); return w; };
   function widthOf(f, t) { if (f.keep && t >= f.keep.t0 - .8) { const u = ease((t - f.keep.t0 + .8) / .8); return f.width + (f.keep.width - f.width) * u; } return f.width; }
   function anchor(F, t) {
     const j = J(F.f.by), bellR = j.sz * .95 * (j.root.scale.x || 1);
@@ -47,16 +46,19 @@ export function makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL) {
   }
   function update(t) {
     // the hero's memory tentacles: silver for every memory let go, swaying with the pulse
-    const lit = SPEC.films.filter(f => f.by === SPEC.hero.k && t > (f.letgo ?? f.release) + .3).length;
-    tents.forEach((T, i) => { T.mesh.material.color.set(i < lit ? 0xf4f7fb : 0xd9822b); T.mesh.rotation.set(Math.sin(t * 1.3 + i) * .12, 0, Math.cos(t * 1.1 + i * .7) * .12); });
+    const lit = SPEC.films.filter(f => f.by === SPEC.hero.k && t > (f.letgo_end ?? f.release) + .2).length;
+    { cam.getWorldDirection(_fw); _r.crossVectors(_fw, cam.up).normalize(); _u.crossVectors(_r, _fw).normalize(); const bR = hero.sz * .95 * (hero.root.scale.x || 1);
+      tents.forEach((m, i) => { const ang = (-75 + i * (150 / 11)) * Math.PI / 180;   // a crown of twelve, counted left to right, pointing out of the top of the bell
+        m.position.copy(hero.pos).addScaledVector(_r, Math.sin(ang) * bR * .92).addScaledVector(_u, Math.cos(ang) * bR * .92); m.quaternion.copy(cam.quaternion); m.rotateZ(Math.PI - ang + Math.sin(t * 1.4 + i) * .05);
+        m.material.color.set(i < lit ? 0xd8f0ff : 0x5a221a); m.visible = true; }); }
     // camera framing solve for the active bloom
     let wcam = 0, best = null;
     for (const F of films) { const [b0, b1] = F.f.bloom; if (b1 <= b0) continue; const w = ease((t - b0 + 1.0) / 1.0) * (1 - ease((t - b1) / 1.0)); if (w > wcam) { wcam = w; best = F; } }
     if (best && wcam > 0) {
       const A = anchor(best, t), tl = TL * (A.j === hero ? 1 : .6) * (A.j.root.scale.x || 1);
-      let uTop = A.c.distanceTo(A.j.pos) + Math.max(A.bellR * 1.3, A.bellR * .4 + .2), uBot = -A.h / 2 - Math.max(0, tl - (A.c.distanceTo(A.j.pos) + A.h / 2)) * 0, half = A.w / 2 + (best.f.extra_half || 0);
+      let uTop = A.c.distanceTo(A.j.pos) + A.bellR * 1.12, uBot = -A.h / 2, half = A.w / 2 + (best.f.extra_half || 0); uBot -= (uTop - uBot) * .19;   // keep the caption band clear
       const top = A.c.clone().addScaledVector(A.u, uTop), bot = A.c.clone().addScaledVector(A.u, uBot);
-      const T = top.clone().add(bot).multiplyScalar(.5).addScaledVector(A.r, (best.f.extra_half || 0) * .5), hgt = (uTop - uBot) * (best.f.frame ?? 1.08), wid = half * 2 * 1.1;
+      const T = top.clone().add(bot).multiplyScalar(.5).addScaledVector(A.r, (best.f.extra_half || 0) * .5), hgt = (uTop - uBot) * (best.f.frame ?? 1.02), wid = half * 2 * 1.1;
       const tf = Math.tan(cam.fov * Math.PI / 360), D = Math.max(hgt / (2 * tf), wid / (2 * tf * cam.aspect));
       const dir = cam.position.clone().sub(T); dir.y *= .35; dir.normalize(); CPOS.copy(T).addScaledVector(dir, D); CLOOK.copy(T);
       const P0 = cam.position.clone(), L0 = cam.position.clone().add(cam.getWorldDirection(new THREE.Vector3()).multiplyScalar(10));
@@ -78,8 +80,9 @@ export function makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL) {
         const q = d[base + i], k3 = i * 3;
         if (q === 255 || !dotsOn) { F.pos[k3 + 1] = -9999; continue; }
         const gx = (x / (F.gw - 1) - .5) * W, gy = (.5 - y / (F.gh - 1)) * Hh, inpic = c >= F.th[i]; let px = gx, py = gy, pz = .02;
-        if (!inpic) { const a = F.r1[i] * 6.283 + t * .3 * (F.r2[i] - .5), R = scat * (.35 + .65 * F.r2[i]); px = gx + Math.cos(a) * R; py = gy + Math.sin(a) * R * .7; pz = Math.sin(a * 1.7) * R * .5; }
-        if (tgt) { const st = F.r1[i] * .45, kk = ease((lk - st) / (1 - .45)); if (lk > 1.05 + F.r2[i] * .2) { F.pos[k3 + 1] = -9999; continue; }
+        if (!inpic) { const a = F.r1[i] * 6.283 + t * .3 * (F.r2[i] - .5), R = scat * (.35 + .65 * F.r2[i]), far = Math.max(0, 1 - Math.max(0, c)); px = gx + Math.cos(a) * R; py = gy + Math.sin(a) * R * .7; pz = Math.sin(a * 1.7) * R * .5;
+          if (f.mode === 'surface') py -= 6 * far * (.5 + F.r2[i]); else if (f.mode === 'caught') px += (F.r1[i] - .5) * 2 + 9 * far * Math.sin(t * .9 + F.r2[i] * 3); else if (f.mode === 'pulled') { px += 10 * far * (.4 + F.r1[i]); py += 3 * far * (F.r2[i] - .3); } }
+        if (tgt) { const st = F.r1[i] * .25, kk = ease((lk - st) / (1 - .25)); if (lk > 1.08 + F.r2[i] * .15) { F.pos[k3 + 1] = -9999; continue; }
           const arc = Math.sin(kk * Math.PI) * 1.2; px += (tgt.x + (F.r1[i] - .5) * .5 - px) * kk; py += (tgt.y + (F.r2[i] - .5) * .3 - py) * kk + arc; pz += (tgt.z - pz) * kk; }
         F.pos[k3] = px; F.pos[k3 + 1] = py; F.pos[k3 + 2] = pz;
         const lv = .42 + .58 * (q / 7), s = inpic ? 1 : .72; F.col[k3] = INK.r * lv * s; F.col[k3 + 1] = INK.g * lv * s; F.col[k3 + 2] = INK.b * lv * s;

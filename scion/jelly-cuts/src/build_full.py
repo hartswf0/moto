@@ -8,7 +8,7 @@ for f in spec["films"]:
     d = os.path.join(out, f["id"]); os.makedirs(d, exist_ok=True); s = f["source"]; crop = f.get("crop")
     n = int(round(f["dur"] * 12))
     if s["kind"] == "film":
-        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{f['src_t0']:.3f}", "-t", f"{f['dur']:.3f}", "-i", s["mp4"], "-vf", "fps=12,scale=640:360", "-q:v", "4", os.path.join(d, "f%04d.jpg")], check=True)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{f['src_t0']:.3f}", "-t", f"{f['dur']:.3f}", "-i", s["mp4"], "-vf", ("fps=12," + (f"crop=iw*{crop[2]-crop[0]}:ih*{crop[3]-crop[1]}:iw*{crop[0]}:ih*{crop[1]}," if crop else "") + "scale=640:-2"), "-q:v", "4", os.path.join(d, "f%04d.jpg")], check=True)
         n = len(os.listdir(d)); files = sorted(os.listdir(d)); [os.rename(os.path.join(d, x), os.path.join(d, f"f{i:04d}.jpg")) for i, x in enumerate(files)]
     elif s["kind"] == "still":
         im = Image.open(s["image"]).convert("RGB")

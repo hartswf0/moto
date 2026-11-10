@@ -6,7 +6,7 @@
    "by": "call0",
    "t": [
     5.8,
-    24.599999999999998
+    19.5
    ],
    "condense": [
     7.4,
@@ -14,70 +14,73 @@
    ],
    "bloom": [
     10.0,
-    21.6
+    16.5
    ],
-   "release": 22.4,
+   "release": 17.3,
    "width": 5.6,
    "label": "the house wakes",
    "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
-   "full_t0": 7.4
+   "full_t0": 7.4,
+   "mode": "surface"
   },
   {
    "id": "family",
    "bank": "family",
    "by": "call0",
    "t": [
-    23.5,
-    40.0
+    18.5,
+    33.0
    ],
    "condense": [
-    25.5,
-    27.5
+    20.5,
+    22.5
    ],
    "bloom": [
-    28.0,
-    37.0
+    23.0,
+    30.0
    ],
-   "release": 37.8,
+   "release": 30.8,
    "width": 3.4,
    "label": "a family, 1841",
    "credit": "Samuel Medford \u00b7 Father, Mother, and Boy \u00b7 SAAM \u00b7 CC0",
-   "full_t0": 23.5
+   "full_t0": 18.5,
+   "mode": "caught"
   },
   {
    "id": "girl_dog",
    "bank": "girl_dog",
    "by": "call0",
    "t": [
-    43.5,
+    36.0,
     87.03333333333333
    ],
    "condense": [
-    51.5,
+    50.5,
     55.5
    ],
    "bloom": [
-    56.0,
-    70.6
+    56.5,
+    64.5
    ],
    "release": 84.83333333333333,
-   "width": 3.6,
+   "width": 3.8,
    "label": "a girl and her dog",
    "credit": "Percy Moran \u00b7 Young Girl and Dog, 1890 \u00b7 SAAM \u00b7 CC0",
-   "full_t0": 43.5,
+   "full_t0": 36.0,
    "keep": {
-    "t0": 70.8,
-    "width": 1.9,
-    "dx": 4.0,
-    "dy": 0.8
+    "t0": 64.8,
+    "width": 1.7,
+    "dx": 3.7,
+    "dy": 0.6
    },
    "letgo": 84.83333333333333,
-   "letgo_end": 86.63333333333333,
+   "letgo_end": 87.03333333333333,
    "release_to": "gate",
    "target": [
-    0.71,
-    0.76
-   ]
+    0.72,
+    0.7
+   ],
+   "mode": "pulled"
   },
   {
    "id": "gate",
@@ -100,7 +103,8 @@
    "label": "the gate",
    "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
    "full_t0": 73.2,
-   "extra_half": 2.3
+   "extra_half": 2.6,
+   "mode": "surface"
   },
   {
    "id": "lamp",
@@ -122,29 +126,31 @@
    "width": 4.2,
    "label": "a lamp, checked",
    "credit": "Anthracite: Pre-Shift Examinations \u00b7 MSHA \u00b7 US government work",
-   "full_t0": 90.8
+   "full_t0": 90.8,
+   "mode": "caught"
   },
   {
    "id": "fire",
    "bank": "fire",
    "by": "call0",
    "t": [
-    98.6,
-    119.8
+    104.5,
+    118.5
    ],
    "condense": [
-    100.6,
-    102.6
+    106.0,
+    107.5
    ],
    "bloom": [
-    103.2,
-    116.8
+    108.0,
+    115.5
    ],
-   "release": 117.6,
+   "release": 116.3,
    "width": 5.6,
    "label": "the fire",
    "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
-   "full_t0": 100.6
+   "full_t0": 106.0,
+   "mode": "surface"
   },
   {
    "id": "survivor",
@@ -166,7 +172,8 @@
    "width": 5.4,
    "label": "someone who stayed outside",
    "credit": "Survival Stresses, 1961 \u00b7 US government work",
-   "full_t0": 117.8
+   "full_t0": 117.8,
+   "mode": "pulled"
   },
   {
    "id": "rain",
@@ -188,7 +195,8 @@
    "width": 5.6,
    "label": "the rain",
    "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
-   "full_t0": 128.8
+   "full_t0": 128.8,
+   "mode": "surface"
   },
   {
    "id": "boy_dog",
@@ -210,7 +218,8 @@
    "width": 3.4,
    "label": "a child and a dog, kept",
    "credit": "Unidentified \u00b7 Boy with Dog \u00b7 SAAM \u00b7 CC0",
-   "full_t0": 136.0
+   "full_t0": 136.0,
+   "mode": "caught"
   }
  ],
  "hero": {
