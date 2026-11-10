@@ -2,16 +2,16 @@
  "results": [
   {
    "test": "orchestra pulse within +-1 frame of every role onset",
-   "pass": false,
+   "pass": true,
    "detail": {
     "onsets": 1498,
-    "locked": 1495,
-    "worst_frames": 1.377
+    "locked": 1498,
+    "worst_frames": 0.519
    }
   },
   {
    "test": "each bloom: its jelly is in frame within 15% of frame width of the picture",
-   "pass": false,
+   "pass": true,
    "detail": {
     "worst_px": [
      [
@@ -20,7 +20,7 @@
      ],
      [
       "THE GLASS MOON holds Father, Mother, and Boy",
-      102.8
+      103.2
      ],
      [
       "THE AFTERLIGHT MEDUSA holds Young Girl and Dog",
@@ -28,7 +28,7 @@
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the gate",
-      101.1
+      101.3
      ],
      [
       "THE GLASS MOON holds a lamp checked",
@@ -36,11 +36,11 @@
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the fire",
-      104.6
+      104.8
      ],
      [
       "THE SEWER CREATURE holds a door opened",
-      271.5
+      118.2
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the rain",
@@ -57,8 +57,8 @@
      [
       "THE CELLULOID TWIN holds a cup",
       1.07,
-      5.0,
-      178.3
+      3.75,
+      173.9
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the house wakes",
@@ -88,13 +88,13 @@
       "THE FILM BELL holds CORRUGATED SKY: the gate",
       0.0,
       4.44,
-      308.0
+      305.1
      ],
      [
       "THE GLASS MOON holds a lamp checked",
       0.36,
       5.0,
-      327.6
+      326.9
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the fire",
@@ -106,13 +106,13 @@
       "THE SEWER CREATURE holds a survivor, sitting still",
       1.07,
       3.75,
-      363.2
+      358.9
      ],
      [
       "THE SEWER CREATURE holds a door opened",
-      2.14,
-      5.0,
-      249.2
+      1.07,
+      3.75,
+      399.7
      ],
      [
       "THE DOODLE SPARK holds Twilight after the Rain",
@@ -144,43 +144,43 @@
       "THE CELLULOID TWIN holds a cup",
       2.33,
       0.71,
-      275.1
+      277.4
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the house wakes",
       2.33,
       0.0,
-      339.4
+      339.7
      ],
      [
       "THE CELLULOID TWIN holds Interior of a House",
-      3.0,
+      2.67,
       1.07,
-      147.8
+      160.6
      ],
      [
       "THE GLASS MOON holds Father, Mother, and Boy",
       2.33,
       0.71,
-      428.8
+      429.0
      ],
      [
       "THE AFTERLIGHT MEDUSA holds Young Girl and Dog",
       2.67,
       0.36,
-      101.1
+      100.7
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the gate",
       2.33,
       0.36,
-      415.5
+      413.6
      ],
      [
       "THE GLASS MOON holds a lamp checked",
       2.33,
       0.71,
-      100.6
+      98.9
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the fire",
@@ -191,20 +191,20 @@
      [
       "THE SEWER CREATURE holds a survivor, sitting still",
       2.33,
-      3.57,
-      57.2
+      1.07,
+      120.6
      ],
      [
       "THE SEWER CREATURE holds a door opened",
       2.33,
-      1.43,
-      619.2
+      1.07,
+      534.5
      ],
      [
       "THE DOODLE SPARK holds Twilight after the Rain",
-      2.67,
+      2.33,
       0.0,
-      106.8
+      139.2
      ],
      [
       "THE FILM BELL holds CORRUGATED SKY: the rain",
@@ -240,16 +240,16 @@
    "test": "every drawn source: public_domain/CC0/own, with a stated basis",
    "pass": true,
    "detail": {
-    "survivor": "public_domain",
-    "twilight": "CC0",
-    "interior": "CC0",
-    "lantern": "public_domain",
-    "cup": "public_domain",
-    "hearth": "CC0",
-    "family": "CC0",
     "film": "producer's own work",
+    "twilight": "CC0",
+    "family": "CC0",
+    "cup": "public_domain",
+    "girl_dog": "CC0",
     "door": "public_domain",
-    "girl_dog": "CC0"
+    "survivor": "public_domain",
+    "hearth": "CC0",
+    "interior": "CC0",
+    "lantern": "public_domain"
    }
   },
   {
@@ -260,10 +260,10 @@
     "stream_k_at_+1.5s": 0.926,
     "target": [
      785,
-     473
+     478
     ]
    }
   }
  ],
- "all_pass": false
+ "all_pass": true
 }
