@@ -1,0 +1,23 @@
+{
+ "suite": "audio",
+ "source": "the-whole-package.mp4",
+ "clip_start_beat": null,
+ "results": [
+  {
+   "test": "pan toward arm b137-139",
+   "pan": 0.384,
+   "pass": true
+  },
+  {
+   "test": "hush dip b134.4-136.4 vs b131.5-133.5",
+   "db": -7.1,
+   "pass": true
+  },
+  {
+   "test": "L/R correlation over proof",
+   "corr": 0.952,
+   "pass": true
+  }
+ ],
+ "all_pass": true
+}

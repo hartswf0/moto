@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sketchpad Constraint Editor</title>
+<style>
+  :root { --bg:#03140a; --ink:#5aff8c; --dim:#2a8c50; --bad:#ff5a50; --text:#c8ffd8; }
+  html,body { margin:0; background:var(--bg); color:var(--text); font:14px/1.45 ui-monospace, "JetBrains Mono", Menlo, monospace; }
+  header { padding:14px 16px 6px; }
+  h1 { font-size:16px; margin:0 0 4px; color:var(--ink); letter-spacing:.04em; }
+  p { margin:4px 0; color:#9fd8b2; max-width:70ch; }
+  a { color:var(--ink); }
+  .wrap { padding:0 16px 16px; }
+  canvas { width:100%; max-width:960px; aspect-ratio:16/9; display:block; background:var(--bg); border:1px solid #0f3a22; touch-action:none; cursor:crosshair; }
+  .dash { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:6px 14px; max-width:960px; margin-top:8px; }
+  .dash div { border-left:2px solid var(--dim); padding:2px 8px; }
+  .dash b { display:block; color:var(--ink); font-weight:700; font-variant-numeric:tabular-nums; }
+  .status { margin-top:8px; font-weight:700; color:var(--ink); }
+  .status.bad { color:var(--bad); }
+  .row { display:flex; gap:8px; flex-wrap:wrap; margin-top:10px; }
+  button { background:transparent; color:var(--ink); border:1px solid var(--dim); padding:6px 10px; font:inherit; border-radius:4px; cursor:pointer; }
+  button:hover { border-color:var(--ink); }
+  #tests { white-space:pre-wrap; color:#9fd8b2; margin-top:8px; max-width:960px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>SKETCHPAD // CONSTRAINT MODE</h1>
+  <p>Drag the hand anywhere, or the ◆ handle on the door. Both feet stay pinned and every bone keeps its length. The body works out the pose, and the elbow takes the branch that stays below the shoulder–hand line. If the target is out of reach, the page says UNSOLVABLE and stretches nothing. Relations: <i>supported-on</i> (feet → floor pins), <i>held-by</i> (hand → handle, once you drop the hand on it), <i>attached-to</i> (handle → door edge).</p>
+  <p><a href="./index.html">← operator page</a></p>
+</header>
+<div class="wrap">
+  <canvas id="c" width="1280" height="720" aria-label="Constraint editor canvas"></canvas>
+  <div class="dash" id="dash"></div>
+  <div class="status" id="status">—</div>
+  <div class="row"><button id="reset">Reset</button><button id="run">Run unit tests</button><button id="snd">Sound: on</button></div>
+  <div id="tests"></div>
+</div>
+<script src="./constraint-solver.js"></script>
+<script>
+const S = window.Sketch, cv = document.getElementById("c"), ctx = cv.getContext("2d");
+const PEL = [520, 466], PN = [540, 644], PF = [492, 644];
+const HINGE = [600, 300], DW = 120, DH = 220; // hinge on the near edge
+let doorOpen = 0, target = [600, 430], prev = null, drag = null, held = false, sound = true, lastSolv = true, ac = null;
+const handle = () => [HINGE[0] + DW * Math.cos(70 * doorOpen * Math.PI / 180) - 14, HINGE[1] + 120];
+function blip(f, d = 0.08) {
+  if (!sound) return; try { ac = ac || new AudioContext(); const o = ac.createOscillator(), g = ac.createGain();
+    o.type = "square"; o.frequency.value = f; g.gain.setValueAtTime(0.06, ac.currentTime); g.gain.exponentialRampToValueAtTime(0.0001, ac.currentTime + d);
+    o.connect(g).connect(ac.destination); o.start(); o.stop(ac.currentTime + d); } catch (e) {} }
+function solve() { const b = S.solveReach(PEL, PN, PF, target, { prev, maxLean: 22 }); prev = b; return b; }
+function draw() {
+  const b = solve(), r = b.residuals, G = "#5aff8c", D = "#2a8c50", R = "#ff5a50";
+  ctx.fillStyle = "#03140a"; ctx.fillRect(0, 0, 1280, 720);
+  ctx.lineWidth = 2; ctx.strokeStyle = D; ctx.beginPath(); ctx.moveTo(300, 644); ctx.lineTo(1000, 644); ctx.stroke();
+  const wv = DW * Math.cos(70 * doorOpen * Math.PI / 180);
+  ctx.strokeStyle = G; ctx.strokeRect(HINGE[0], HINGE[1], wv, DH); ctx.fillStyle = D; ctx.fillRect(HINGE[0] - 4, HINGE[1], 4, DH);
+  const h = handle(); ctx.beginPath(); ctx.moveTo(h[0], h[1] - 9); ctx.lineTo(h[0] + 9, h[1]); ctx.lineTo(h[0], h[1] + 9); ctx.lineTo(h[0] - 9, h[1]); ctx.closePath(); ctx.stroke();
+  for (const p of [PN, PF]) { ctx.beginPath(); ctx.moveTo(p[0], p[1]); ctx.lineTo(p[0] - 9, p[1] + 14); ctx.lineTo(p[0] + 9, p[1] + 14); ctx.closePath(); ctx.stroke(); }
+  ctx.lineWidth = 3; ctx.strokeStyle = G;
+  for (const [a, c] of [["pelvis", "neck"], ["shoulder", "elbow"], ["elbow", "hand"], ["hip", "knee_n"], ["knee_n", "ankle_n"], ["hip", "knee_f"], ["knee_f", "ankle_f"]]) {
+    ctx.beginPath(); ctx.moveTo(...b[a]); ctx.lineTo(...b[c]); ctx.stroke(); }
+  ctx.lineWidth = 2;
+  for (const k of ["pelvis", "neck", "shoulder", "elbow", "hand", "knee_n", "knee_f", "ankle_n", "ankle_f"]) { ctx.beginPath(); ctx.arc(...b[k], 5, 0, 7); ctx.fillStyle = "#03140a"; ctx.fill(); ctx.stroke(); }
+  ctx.beginPath(); ctx.arc(b.neck[0], b.neck[1] - 30, 26, 0, 7); ctx.stroke();
+  ctx.strokeStyle = b.solvable ? G : R; ctx.lineWidth = 1; ctx.setLineDash([5, 5]); ctx.beginPath(); ctx.moveTo(...b.hand); ctx.lineTo(...target); ctx.stroke(); ctx.setLineDash([]);
+  ctx.strokeStyle = "#dcffe6"; ctx.lineWidth = 2; ctx.beginPath(); ctx.moveTo(target[0] - 16, target[1]); ctx.lineTo(target[0] + 16, target[1]); ctx.moveTo(target[0], target[1] - 16); ctx.lineTo(target[0], target[1] + 16); ctx.stroke();
+  if (held) { ctx.fillStyle = G; ctx.font = "18px monospace"; ctx.fillText("held-by", h[0] + 14, h[1] - 20); }
+  const rows = [["|hand − target|", r.attach.toFixed(2) + " px"], ["|ankle_n − pin|", r.pin_n.toFixed(2) + " px"], ["|ankle_f − pin|", r.pin_f.toFixed(2) + " px"],
+    ["max |len − rest|", r.length_max.toExponential(1) + " px"], ["elbow branch", b.elbow_bend > 0 ? "+" : "−"], ["lean", b.lean.toFixed(1) + "°"], ["door open", Math.round(doorOpen * 100) + "%"]];
+  document.getElementById("dash").innerHTML = rows.map(([k, v]) => `<div>${k}<b>${v}</b></div>`).join("");
+  const st = document.getElementById("status");
+  st.textContent = b.solvable ? "SOLVED — all constraints hold" : "UNSOLVABLE — target out of reach; no joint stretched, no teleport";
+  st.className = "status" + (b.solvable ? "" : " bad");
+  if (b.solvable !== lastSolv) blip(b.solvable ? 1200 : 220, 0.14); lastSolv = b.solvable;
+}
+function pt(e) { const r = cv.getBoundingClientRect(); return [(e.clientX - r.left) * 1280 / r.width, (e.clientY - r.top) * 720 / r.height]; }
+cv.addEventListener("pointerdown", (e) => { const p = pt(e), h = handle();
+  if (held && Math.hypot(p[0] - h[0], p[1] - h[1]) < 30) drag = "door";
+  else if (!held && Math.hypot(p[0] - h[0], p[1] - h[1]) < 20 && Math.hypot(p[0] - prev.hand[0], p[1] - prev.hand[1]) > 30) drag = "door";
+  else drag = "hand";
+  cv.setPointerCapture(e.pointerId); move(e); });
+function move(e) { if (!drag) return; const p = pt(e);
+  if (drag === "door") { doorOpen = Math.max(0, Math.min(1, Math.acos(Math.max(-1, Math.min(1, (p[0] + 14 - HINGE[0]) / DW))) * 180 / Math.PI / 70)); if (held) target = handle(); }
+  else { held = false; target = p; }
+  draw(); }
+cv.addEventListener("pointermove", move);
+cv.addEventListener("pointerup", () => { if (drag === "hand") { const h = handle(); if (Math.hypot(target[0] - h[0], target[1] - h[1]) < 24 && prev.solvable) { held = true; target = h; blip(1500); } } drag = null; draw(); });
+document.getElementById("reset").onclick = () => { doorOpen = 0; target = [600, 430]; prev = null; held = false; draw(); };
+document.getElementById("snd").onclick = (e) => { sound = !sound; e.target.textContent = "Sound: " + (sound ? "on" : "off"); };
+document.getElementById("run").onclick = () => {
+  const out = [], P = [500, 520], N = [520, 698], F = [470, 698]; let ok = true;
+  for (const t of [[600, 380], [620, 420], [585, 350], [640, 440], [560, 470]]) { const r = S.solveReach(P, N, F, t).residuals;
+    const pass = r.length_max < 1e-6 && r.pin_n < 1e-6 && r.attach < 0.5; ok &= pass; out.push(`${pass ? "PASS" : "FAIL"} reachable ${t}  attach=${r.attach.toFixed(4)}`); }
+  for (const t of [[900, 300], [500, 100]]) { const b = S.solveReach(P, N, F, t); const pass = !b.solvable && b.residuals.length_max < 1e-6; ok &= pass;
+    out.push(`${pass ? "PASS" : "FAIL"} unreachable ${t} flagged  residual=${b.residuals.attach.toFixed(1)} px`); }
+  let pv = null, worst = 0; for (let i = 0; i < 90; i++) { const b = S.solveReach(P, N, F, [560 + i, 470 - 0.8 * i], { prev: pv, maxLean: 30 });
+    if (pv) for (const k of ["pelvis", "neck", "shoulder", "elbow", "hand"]) worst = Math.max(worst, Math.hypot(b[k][0] - pv[k][0], b[k][1] - pv[k][1])); pv = b; }
+  ok &= worst < 6; out.push(`${worst < 6 ? "PASS" : "FAIL"} stability: max joint jump ${worst.toFixed(2)} px per 1 px drag (limit 6)`);
+  document.getElementById("tests").textContent = out.join("\n") + `\n${ok ? "ALL PASS" : "FAILURES"}`; };
+draw();
+</script>
+</body>
+</html>

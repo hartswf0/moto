@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jelly Cuts · Operator</title>
+<meta name="description" content="BOXBACK films recut into the contaminant-jelly water: the Jelly Orchestra plays the song, the film is one of the films the jellies gather, and a public-domain counter-archive drifts through as flecks.">
+<style>
+  :root { --bg:#070d0d; --card:#0f1717; --ink:#e6edf3; --mute:#8293a4; --gold:#f0a35a; --red:#f2382c; --line:#1f2d2c; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#eef1ee; --card:#fbfcfb; --ink:#101615; --mute:#4f5f5c; --gold:#a35a12; --red:#c8261c; --line:#cfd8d5; } }
+  :root[data-theme="light"] { --bg:#eef1ee; --card:#fbfcfb; --ink:#101615; --mute:#4f5f5c; --gold:#a35a12; --red:#c8261c; --line:#cfd8d5; }
+  * { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 Georgia, serif; }
+  main { max-width:980px; margin:0 auto; padding:20px 16px 48px; }
+  .k { font:600 12px/1 ui-monospace, Menlo, monospace; letter-spacing:.16em; text-transform:uppercase; color:var(--gold); }
+  h1 { font:800 clamp(36px,9vw,80px)/.95 Inter, "DejaVu Sans", sans-serif; letter-spacing:.16em; color:var(--red); margin:12px 0; text-transform:uppercase; }
+  h2 { font:700 18px/1.2 ui-monospace, Menlo, monospace; letter-spacing:.1em; text-transform:uppercase; margin:28px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  video { width:100%; display:block; background:#000; border:1px solid var(--line); }
+  .btn { display:inline-block; margin:10px 8px 0 0; padding:9px 14px; background:var(--gold); color:#0b1413; font:700 14px system-ui, sans-serif; border-radius:3px; text-decoration:none; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:10px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px; }
+  .card h3 { margin:0 0 6px; font:600 11px ui-monospace, Menlo, monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--mute); }
+  ul { padding-left:20px; } a { color:var(--gold); } footer { color:var(--mute); font-size:13px; margin-top:28px; }
+</style>
+</head>
+<body><main>
+  <div class="k">jelly cuts · BOXBACK × contaminant-jelly</div>
+  <h1>Corrugated<br>Sky · Jelly</h1>
+  <p>The Jelly Orchestra plays the song. Each jelly is one sound, named for a register and a habitat, and each one gathers a film. <i>Corrugated Sky</i> is the film the Film Bell holds. A counter-archive drifts through as halftone flecks, each one held by a jelly: US government films (a cup, a lamp being checked, a survivor sitting in the snow, a door) and Smithsonian CC0 paintings (a family portrait, a girl and her dog, a hearth, the twilight after the rain). At the gate, the medusa lets the painted dog go into the film's dog.</p>
+  <video src="corrugated-sky/corrugated-sky-jelly.mp4" poster="corrugated-sky/poster.jpg" controls playsinline preload="metadata"></video>
+  <a class="btn" href="corrugated-sky/corrugated-sky-jelly.mp4">▶ The jelly cut (2:26)</a><a class="btn" href="corrugated-sky/proof.mp4" style="background:var(--card);color:var(--ink);border:1px solid var(--line)">▶ Hard proof (29 s)</a>
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3>r2: the jellies now perform their films (stage directions), subjects are mask-cut, rights bases are stated</div>
+    <div class="card"><h3>Decisive critic verdict</h3>Round 1: reference stronger / reference stronger. Repairs applied; re-review pending.</div>
+    <div class="card"><h3>Next blocking failure</h3>Independent re-review of r2: do the jellies read as holding their films without the labels?</div>
+    <div class="card"><h3>Next films</h3>Wittgenstein's Backpack, The Whole Package, The Universal Boxback: only after this proof passes</div>
+  </div>
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="corrugated-sky/METHOD.md">Method</a>: thesis, characters, laws, borrowed swarm grammar, rights</li>
+    <li><a href="corrugated-sky/source-ledger.json">Provenance graph</a>: every source and operation</li>
+    <li><a href="corrugated-sky/tests/invariants.json">Invariants</a>: orchestra pulse lock, dot law, rights</li>
+    <li><a href="corrugated-sky/cast.json">The cast</a>: the song as role onsets</li>
+    <li><a href="src/">Pipeline source</a></li>
+  </ul>
+  <footer>The Jelly Orchestra and rigs are from hartswf0/contaminant-jelly; the dot law is from WYGWYL (hartswf0/butterfly-halfworld). Archive: US government works and Smithsonian CC0 only, each with a stated rights basis in the ledger. Song: Treblo, unaltered.</footer>
+</main></body></html>

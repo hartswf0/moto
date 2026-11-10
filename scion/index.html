@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOXBACK Scion Films</title>
+<meta name="description" content="Four music videos for ET TU, BRUTE? · BOXBACK, each made by one SCION swarm from the PAELEO bolas operator.">
+<style>
+  :root { --bg:#0d0c0b; --card:#17140f; --ink:#efe6d4; --mute:#a89a84; --red:#f2382c; --line:#2c261e; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#ece2ca; --card:#f6f0e2; --ink:#1c1612; --mute:#5b4e40; --red:#c8261c; --line:#cdbb98; } }
+  :root[data-theme="light"] { --bg:#ece2ca; --card:#f6f0e2; --ink:#1c1612; --mute:#5b4e40; --red:#c8261c; --line:#cdbb98; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 Georgia, "DejaVu Serif", serif; }
+  main { max-width:1100px; margin:0 auto; padding:20px 16px 48px; }
+  .kicker { font:700 12px/1 ui-monospace, Menlo, monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--mute); }
+  h1 { font:800 clamp(40px,10vw,96px)/.9 "Inter", "DejaVu Sans Condensed", "Arial Narrow", sans-serif; letter-spacing:.18em; color:var(--red); margin:14px 0 12px; text-transform:uppercase; }
+  .lede { max-width:62ch; color:var(--ink); }
+  .films { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,480px),1fr)); gap:22px; margin-top:28px; }
+  .film { background:var(--card); border:1px solid var(--line); padding:12px; }
+  .film video { width:100%; aspect-ratio:16/9; display:block; background:#000; }
+  .film h2 { font:800 22px/1.1 "Inter", "DejaVu Sans Condensed", sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--red); margin:12px 0 4px; }
+  .meta { font:12px/1.5 ui-monospace, Menlo, monospace; color:var(--mute); margin:0 0 8px; }
+  .film p { margin:6px 0; }
+  .links { display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .links a { font:700 13px system-ui, sans-serif; color:var(--ink); border:1px solid var(--line); padding:7px 10px; text-decoration:none; border-radius:3px; }
+  .links a:hover { border-color:var(--red); }
+  .verdict { font:700 12px ui-monospace, Menlo, monospace; color:var(--red); }
+  footer { margin-top:36px; color:var(--mute); font-size:13px; max-width:70ch; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">ET TU, BRUTE? · BOXBACK · PAELEO SCION slate</div>
+  <h1>The House<br>That Boxes<br>Built</h1>
+  <p class="lede">Four BOXBACK tracks, four houses, four swarms. Each film is made by one SCION swarm from the <a href="https://hartswf0.github.io/bolas/paeleo/scion/">PAELEO bolas operator</a>, with a proof scene built first and an independent critic it had to answer to. On the song and album pages, these films now play in the artwork slot, locked to the music.</p>
+  <section class="films" id="films"></section>
+  <footer>Vision texts, used as theme only, never quoted: Ray Bradbury, "There Will Come Soft Rains"; Nnedi Okorafor, "Mother of Invention"; "The House That Language Built" cards (Aristotle, <i>Metaphysics</i> VII.7; Plato, <i>Statesman</i> 259e). Swarm names are lineages, not endorsements. Picture is drawn in code or cut from the producer's own BOXBACK artwork. Songs: Treblo.</footer>
+</main>
+<script>
+const FILMS = [
+  { slug: "wittgensteins-backpack", title: "Wittgenstein's Backpack", track: "Track 18", swarm: "SCION 01 Gilliam · 08 Sutherland", text: "Wittgenstein: the beetle in the box", song: "../VOLHOLLA/song-boxback-18.html",
+    line: "An engraved dignitary's head becomes the box, and the box becomes a door. A Sketchpad body solves its own constraints." },
+  { slug: "corrugated-sky", title: "Corrugated Sky", track: "Track 11", swarm: "SCION 02 Reiniger", text: "after Bradbury, “There Will Come Soft Rains”", song: "../VOLHOLLA/song-boxback-11.html",
+    line: "A cardboard house keeps serving a family that is only silhouettes on its wall." },
+  { slug: "the-whole-package", title: "The Whole Package", track: "Track 15", swarm: "SCION 05 Norstein", text: "after Okorafor, “Mother of Invention”", song: "../VOLHOLLA/song-boxback-15.html",
+    line: "A house of boxes carries a mother through a pollen storm, plane by plane." },
+  { slug: "the-universal-boxback", title: "The Universal Boxback", track: "Track 14", swarm: "SCION 06 Whitney", text: "The House That Language Built: Aristotle and Plato", song: "../VOLHOLLA/song-boxback-14.html",
+    line: "A house is composed backward from its finished form as harmonic motion. One rejected beam re-phases everything." },
+];
+document.getElementById("films").innerHTML = FILMS.map(f => `
+  <article class="film">
+    <video src="./${f.slug}/${f.slug}.mp4" poster="./${f.slug}/poster.jpg" controls playsinline preload="none"></video>
+    <h2>${f.title}</h2>
+    <div class="meta">${f.track} · ${f.swarm} · ${f.text}</div>
+    <p>${f.line}</p>
+    <div class="links"><a href="./${f.slug}/index.html">Operator page</a><a href="./${f.slug}/proof.mp4">Proof scene</a><a href="${f.song}">Song page (video in the art slot)</a></div>
+  </article>`).join("");
+</script>
+</body>
+</html>

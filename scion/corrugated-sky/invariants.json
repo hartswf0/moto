@@ -1,0 +1,131 @@
+{
+ "suite": "corrugated-sky invariants",
+ "results": [
+  {
+   "test": "proof: joint limits respected (every frame b176-208)",
+   "pass": true,
+   "detail": {
+    "violations": [],
+    "frames": 326
+   }
+  },
+  {
+   "test": "proof: pinned contacts residual < 1 px",
+   "pass": true,
+   "detail": {
+    "n_pinned_samples": 1027,
+    "worst": [
+     "girl",
+     "hand_f",
+     0.9577
+    ]
+   }
+  },
+  {
+   "test": "film: joint limits respected (every 6th frame)",
+   "pass": true,
+   "detail": {
+    "frames": 583,
+    "violations": []
+   }
+  },
+  {
+   "test": "pinned joints never detach",
+   "pass": true,
+   "detail": {
+    "max_pin_gap_px": 1.1368683772161603e-13
+   }
+  },
+  {
+   "test": "silhouettes do not merge (girl vs dog, b184-199)",
+   "pass": true,
+   "detail": {
+    "max_overlap_fraction": 0.0087,
+    "at_beat": 196.0
+   }
+  },
+  {
+   "test": "let-go order: open -> arm back -> paw folds (>= 2 frames)",
+   "pass": true,
+   "detail": {
+    "frame_open": 2036,
+    "paw_offset_at_open_px": 0.0,
+    "frame_arm_back": 2042,
+    "frame_paw_folds": 2048
+   }
+  },
+  {
+   "test": "hand contour visibly opens at 360 px (changed region >= 6 px)",
+   "pass": true,
+   "detail": {
+    "changed_px_area": 136,
+    "changed_span_px": 21
+   }
+  },
+  {
+   "test": "return set (geometry): dog is a separate single region, 4 legs + tail visible",
+   "pass": true,
+   "detail": {
+    "beat": 271.89,
+    "pixels_shared_within_2px_with_gate_or_flames": 0,
+    "single_region": true,
+    "leg_tail_ends": {
+     "hshin_n": [
+      1229,
+      631
+     ],
+     "hshin_f": [
+      1274,
+      613
+     ],
+     "fpaw_n": [
+      1051,
+      632
+     ],
+     "fpaw_f": [
+      1115,
+      637
+     ],
+     "tail": [
+      1273,
+      535
+     ]
+    }
+   }
+  },
+  {
+   "test": "thumb joined: hand + thumb one connected component (every grasp frame)",
+   "pass": true,
+   "detail": {
+    "max_components": 1
+   }
+  },
+  {
+   "test": "dog in threshold: separate shape, >=3 px gap, 4 legs + tail (return, rain 132 s, night 60-62.5 s)",
+   "pass": true,
+   "detail": {
+    "frames": 63,
+    "failures": [],
+    "sample": [
+     {
+      "t": 121.791,
+      "touching_px_within_3px": 0,
+      "one_shape": true,
+      "leg_runs_at_floor-26": 4,
+      "tail_visible": true,
+      "ok": true
+     },
+     {
+      "t": 132.0,
+      "touching_px_within_3px": 0,
+      "one_shape": true,
+      "leg_runs_at_floor-26": 4,
+      "tail_visible": true,
+      "ok": true
+     }
+    ]
+   }
+  }
+ ],
+ "all_pass": true
+}

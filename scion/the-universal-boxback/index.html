@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Universal Boxback · Operator</title>
+<meta name="description" content="Harmonic-motion music video for ET TU, BRUTE? · BOXBACK track 14, SCION 06 (Whitney) x The House That Language Built.">
+<style>
+  :root { --bg:#0a0b0e; --ink:#ecebe6; --red:#f2382c; --muted:#9a9aa2; --card:#14161b; --line:#2a2d35; --kraft:#c89b62; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f3f1ec; --ink:#16171a; --muted:#5d5d66; --card:#fbfaf7; --line:#d6d3cb; } }
+  :root[data-theme="light"] { --bg:#f3f1ec; --ink:#16171a; --muted:#5d5d66; --card:#fbfaf7; --line:#d6d3cb; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, -apple-system, "Inter", sans-serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  .kicker { font:700 12px/1.3 ui-monospace, Menlo, monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+  h1 { font-size:clamp(30px,7vw,54px); line-height:1; margin:8px 0 6px; letter-spacing:.18em; color:var(--red); font-weight:900; }
+  h2 { font-size:18px; letter-spacing:.08em; text-transform:uppercase; margin:28px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .sub { color:var(--muted); margin:0 0 14px; max-width:70ch; }
+  video { width:100%; display:block; background:#000; border:1px solid var(--line); }
+  .play { display:inline-block; margin:12px 8px 0 0; padding:10px 16px; background:var(--red); color:#fff; font:700 15px system-ui; text-decoration:none; border:0; border-radius:3px; cursor:pointer; }
+  .play.alt { background:var(--kraft); color:#111; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px 14px; }
+  .card h3 { margin:0 0 6px; font:700 11px/1.2 ui-monospace, monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  .verdict { font-size:20px; font-weight:800; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { font:700 11px ui-monospace, monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  code { font-size:12px; word-break:break-word; }
+  .scroll { overflow-x:auto; }
+  img { max-width:100%; display:block; border:1px solid var(--line); }
+  a { color:var(--red); }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  footer { color:var(--muted); font-size:13px; margin:32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">SCION 06 · Whitney, harmonic motion · ET TU, BRUTE? · BOXBACK · track 14</div>
+  <h1>THE UNIVERSAL BOXBACK</h1>
+  <p class="sub">Twenty corrugated boxes form one oscillator bank. The house is shown finished first and then made backward, from its end form down to its first step (Aristotle). At the climax the architect's direction fails against the builder's report, and the revised direction re-phases the whole house (Plato).</p>
+  <video id="v" src="./the-universal-boxback.mp4" controls playsinline preload="metadata" poster="./poster.jpg"></video>
+  <button class="play" onclick="document.getElementById('v').play()">▶ Play the film</button>
+  <a class="play alt" href="./proof.mp4">▶ 3:2 proof clip (16 s)</a>
+
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3><div>r6 (accepted at critic round 6). r6: motion-shape pass after critic round 5. All 40 invariants pass. 173.5 s, 1280×720, 24 fps, 130.03 BPM grid.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 6: PROOF PASS · FILM PASS (8 of 8 conditions)</div><div>A fresh independent critic measured the following. Red box 0 makes 3.04 laps and yellow box 10 makes 1.96 over b52–72, and all motion stops on b72. The 3:2 accumulation is the film's densest and most kinetic window (14.50, against a next-best of 11.03). Its return by 139.5 s is near-exact (mean difference 0.38). The release decays monotonically from 7.77 to 0.95 per second. Nothing lit sits within 8 px of an edge after 7.5 s. The landing falls 0.02 s from b368. Rounds 1–5 were reference stronger. No critic heard the audio; sound is measured only.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Accepted. The last critic named this open gap: motion is exactly 0 from about 140 to 148 s (an 8 s freeze), then jumps from 2.62 to 8.02 at 151 s. Repair condition: per 0.5 s window from 139.5 to 151 s, no window is 0 and none exceeds 1.5× the window before it. Minor: ring labels turn upside down (6/9), and the accumulation's echo copies sit flush against the real boxes.</div></div>
+    <div class="card"><h3>Accepted checkpoint</h3><div>Proof mechanics accepted in critic round 1 (3:2 measured). Every frame is reproducible from <code>src/render.py</code>.</div></div>
+  </div>
+
+  <h2>Score</h2>
+  <div class="scroll"><table>
+    <tr><th>beats</th><th>passage</th></tr>
+    <tr><td>0–16</td><td>Title: red letter-spaced caps over a motion-blurred plate (slate style)</td></tr>
+    <tr><td>16–32</td><td>The end form: the finished house as a constellation of corner points</td></tr>
+    <tr><td>32–48</td><td>Backward: top row first, each box materialises and rises out; then they drop into the ring, lowest slot first</td></tr>
+    <tr><td>48–76</td><td><b>Proof</b>: A laps 3, B laps 2 over b52–72. The rings separate, A passes B nine times (one pass every 2 beats), then they approach and reunite</td></tr>
+    <tr><td>77–80</td><td>The song stops: the field dims, the glow goes off, STOP</td></tr>
+    <tr><td>80–160</td><td>Oscillator bank: LOCK star at b96, UNLOCK at b112 (detuned drift), then capture as points onto the locked ring and the RE-LOCK star at b148</td></tr>
+    <tr><td>160–238</td><td>Making starts at the first step: one box lands every 4 beats, foundation first</td></tr>
+    <tr><td>238–264</td><td>The architect directs; the beam lands on the roof and is refused; the architect re-plans the whole house step by step (lift the roof, open the door, beam in, new roof). The house is F at b264</td></tr>
+    <tr><td>264–304</td><td>The house breathes in a 3:2 micro-orbit</td></tr>
+    <tr><td>304–324</td><td>Breakdown: the faces fade, and the house reads from its corner points alone</td></tr>
+    <tr><td>324–368</td><td>3:2 on the wide ellipses, the field lifts away, then the house rains back row by row; the last box lands on b368. The faces then fade back to the constellation</td></tr>
+  </table></div>
+
+  <h2>Measured invariants (r6)</h2>
+  <p class="sub">These are computed from the closed-form trajectories, except C4, D3, E1, H1b, M1, M2, K1 and K2, which use rendered pixels, text boxes or the mp4.</p>
+  <div class="scroll"><table><tr><th>test</th><th>result</th><th>value</th></tr><tr><td>P1 proof phase ratio A:B = 3:2</td><td>PASS</td><td><code>{"laps_A": 3.0, "laps_B": 2.0}</code></td></tr><tr><td>P2 reunion at b52</td><td>PASS</td><td><code>{"max_angle_err_rad": 0.0}</code></td></tr><tr><td>P2 reunion at b72</td><td>PASS</td><td><code>{"max_angle_err_rad": 2.220446049250313e-15}</code></td></tr><tr><td>P3 nine interference passes on even beats</td><td>PASS</td><td><code>{"max_angle_err_rad": 2.220446049250313e-15}</code></td></tr><tr><td>P4 proof non-pair separation >= 60 px</td><td>PASS</td><td><code>{"min_px": 66.56}</code></td></tr><tr><td>C1a release 164-169.85 s: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "pair": null, "frame": null}</code></td></tr><tr><td>C1b the house rains back row by row (each row lands before the next starts)</td><td>PASS</td><td><code>{"rows": [[356.95, 356.15, 356.55, 357.35], [359.4, 358.6, 359.0, 359.8], [361.45, 361.85, 361.05], [363.9, 363.1, 363.5, 364.3], [365.95, 365.55, 366.35], [367.6, 368.0]]}</code></td></tr><tr><td>C1c last box lands ON the b368 frame (nearest frame), not after</td><td>PASS</td><td><code>{"frame": 4076, "err_on_px": 0.0, "err_prev_frame_px": 23.2}</code></td></tr><tr><td>C2 every row changed (116.5 s vs 122.5 s)</td><td>PASS</td><td><code>{"at_116_5": {"1": [505, 595, 685, 775], "2": [505, 595, 685, 775], "3": [460, 550, 640, 730, 820], "4": [460, 550, 640, 730, 820], "5": [837]}, "at_122_5": {"1": [460, 550, 730, 820], "2": [460, 550, 730, 820], "3": [460, 640, 820], "5": [</code></td></tr><tr><td>C2b after the re-phase the house is the end form F</td><td>PASS</td><td><code>{}</code></td></tr><tr><td>C2c Plato section: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "pair": null, "frame": null}</code></td></tr><tr><td>C3 marker A passes 12 o'clock 3x, marker B 2x (b52-72)</td><td>PASS</td><td><code>{"A": 3, "B": 2}</code></td></tr><tr><td>C3b per-beat sampling can count it (A moves 54 deg per beat < 180)</td><td>PASS</td><td><code>{"A_deg_per_beat": [270, 324, 18, 72, 126, 180]}</code></td></tr><tr><td>C4 the stop shows on the b77 frame (pixel change >> hold)</td><td>PASS</td><td><code>{"frame": 854, "mean_abs_diff_stop": 9.49, "mean_abs_diff_hold": 0.0}</code></td></tr><tr><td>C6 dissolve 16.3-18.7 s: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "pair": null, "frame": null}</code></td></tr><tr><td>C6 re-lock 70.0-71.5 s: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "pair": null, "frame": null}</code></td></tr><tr><td>C6b lock / unlock / re-lock stars on whole beats</td><td>PASS</td><td><code>{"beats": {"lock": 96.0, "unlock": 112.0, "relock": 148.0}}</code></td></tr><tr><td>B1 final house == opening end form (eps 0.5 px)</td><td>PASS</td><td><code>{"max_err_px": 0.0}</code></td></tr><tr><td>B2 both bookends are the constellation (faces off, points on)</td><td>PASS</td><td><code>{}</code></td></tr><tr><td>B3 rational lock closes in 16 beats; detuned drift does not</td><td>PASS</td><td><code>{"lock_err_px": 1.3642420526593924e-12, "drift_err_px": 373.3}</code></td></tr><tr><td>B4 beam refused by row 3 until the house is re-planned</td><td>PASS</td><td><code>{}</code></td></tr><tr><td>B5 making starts at the first step (lower rows land first)</td><td>PASS</td><td><code>{}</code></td></tr><tr><td>D1 122-140 s: >=8 boxes move >=15 px on >=50 % of beats</td><td>PASS</td><td><code>{"fraction_of_beats": 0.842, "boxes_moving_per_beat": [0, 0, 0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 0, 0, 0]}</code></td></tr><tr><td>D2 accumulation phase relation odd:even rows = 3:2</td><td>PASS</td><td><code>{"zero_crossings_row1": 54, "zero_crossings_row2": 36}</code></td></tr><tr><td>D3 accumulation coverage exceeds every earlier section</td><td>PASS</td><td><code>{"accumulation": 0.1857, "best_earlier": "plato", "best_earlier_value": 0.1124}</code></td></tr><tr><td>D4 house slots return exactly by 140 s</td><td>PASS</td><td><code>{"max_err_px": 0.0}</code></td></tr><tr><td>E1 all text within x = 40..1240</td><td>PASS</td><td><code>{"texts_checked": 1454, "unique": 49, "violations": []}</code></td></tr><tr><td>E2 ARCH/BLDR tags and A×3/B×2 legend >= 12 px tall at 360 px</td><td>PASS</td><td><code>{"height_at_360_px": 12.9}</code></td></tr><tr><td>F1 151.5-160 s: all content y <= 700</td><td>PASS</td><td><code>{"max_y_px": 657.4}</code></td></tr><tr><td>G1 149.75-150.25 s: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "pair": null, "frame": null}</code></td></tr><tr><td>H1a making 73-110 s: max box overlap <= 10 %</td><td>PASS</td><td><code>{"max_overlap": 0.0, "at": null}</code></td></tr><tr><td>H1b making 73-110 s: no box enters a label / card area</td><td>PASS</td><td><code>{"hits": []}</code></td></tr><tr><td>H1c making 73-110 s: every box >= 8 px from the frame edges</td><td>PASS</td><td><code>{"min_edge_px": 10.0}</code></td></tr><tr><td>H2 film-wide: boxes >= 8 px inside the side / bottom edges (top too, except scripted exits)</td><td>PASS</td><td><code>{"min_edge_px": 10.0, "at": [14, 81.25]}</code></td></tr><tr><td>H3 beam numeral and footer >= 12 px tall at 360 px</td><td>PASS</td><td><code>{"beam_7_px": 12.7, "footer_px": 14.1}</code></td></tr><tr><td>M1 every 4 s window after 140 s moves less than the 132-136 s peak</td><td>PASS</td><td><code>{"peak_132_136": 14.163, "windows": {"140-144": 0.138, "144-148": 0.0, "148-152": 2.927, "152-156": 6.32, "156-160": 4.679, "160-164": 1.381, "164-168": 1.794, "168-172": 1.222}}</code></td></tr><tr><td>M2 rendered pixels: no lit pixel within 8 px of an edge after 7.5 s (every 4th frame)</td><td>PASS</td><td><code>{"frames_checked": 981, "hits": []}</code></td></tr><tr><td>M3 conveyor loop stays >= 8 px clear of the stack</td><td>PASS</td><td><code>{"min_gap_px": 11.5}</code></td></tr><tr><td>K1 (mp4) every 4 s window outside 122-140 s is below the accumulation peak</td><td>PASS</td><td><code>{"accumulation_peak": 14.535, "max_outside": 11.679, "at": "28-32", "windows_4s": [4.32, 3.844, 0.0, 0.372, 1.594, 0.653, 11.41, 11.679, 3.556, 3.604, 3.952, 4.446, 4.747, 4.543, 4.567, 4.608, 3.722, 2.885, 2.392, 4.503, 4.06, 3.554, 2.972,</code></td></tr><tr><td>K2 (mp4) release 151-161 s: strictly decreasing 1 s motion, last <= 50 % of the first</td><td>PASS</td><td><code>{"windows_1s_151_161": [8.562, 7.67, 6.782, 5.852, 5.535, 5.062, 4.79, 4.565, 4.202, 3.482, 1.447]}</code></td></tr></table></div>
+
+  <h2>Motion per 4 s window (rendered mp4, greyscale mean |Δframe|)</h2>
+  <div class="scroll"><table><tr><th>window</th><th>motion</th></tr><tr><td>0–4 s</td><td>4.32</td></tr><tr><td>4–8 s</td><td>3.844</td></tr><tr><td>8–12 s</td><td>0.0</td></tr><tr><td>12–16 s</td><td>0.372</td></tr><tr><td>16–20 s</td><td>1.594</td></tr><tr><td>20–24 s</td><td>0.653</td></tr><tr><td>24–28 s</td><td>11.41</td></tr><tr><td>28–32 s</td><td>11.679</td></tr><tr><td>32–36 s</td><td>3.556</td></tr><tr><td>36–40 s</td><td>3.604</td></tr><tr><td>40–44 s</td><td>3.952</td></tr><tr><td>44–48 s</td><td>4.446</td></tr><tr><td>48–52 s</td><td>4.747</td></tr><tr><td>52–56 s</td><td>4.543</td></tr><tr><td>56–60 s</td><td>4.567</td></tr><tr><td>60–64 s</td><td>4.608</td></tr><tr><td>64–68 s</td><td>3.722</td></tr><tr><td>68–72 s</td><td>2.885</td></tr><tr><td>72–76 s</td><td>2.392</td></tr><tr><td>76–80 s</td><td>4.503</td></tr><tr><td>80–84 s</td><td>4.06</td></tr><tr><td>84–88 s</td><td>3.554</td></tr><tr><td>88–92 s</td><td>2.972</td></tr><tr><td>92–96 s</td><td>2.497</td></tr><tr><td>96–100 s</td><td>2.148</td></tr><tr><td>100–104 s</td><td>1.502</td></tr><tr><td>104–108 s</td><td>1.103</td></tr><tr><td>108–112 s</td><td>0.625</td></tr><tr><td>112–116 s</td><td>0.289</td></tr><tr><td>116–120 s</td><td>1.704</td></tr><tr><td>120–124 s</td><td>1.718</td></tr><tr><td>124–128 s</td><td>7.639</td></tr><tr><td>128–132 s</td><td>10.061</td></tr><tr><td>132–136 s</td><td>14.535</td></tr><tr><td>136–140 s</td><td>8.671</td></tr><tr><td>140–144 s</td><td>0.202</td></tr><tr><td>144–148 s</td><td>0.0</td></tr><tr><td>148–152 s</td><td>3.209</td></tr><tr><td>152–156 s</td><td>6.46</td></tr><tr><td>156–160 s</td><td>4.655</td></tr><tr><td>160–164 s</td><td>1.396</td></tr><tr><td>164–168 s</td><td>1.929</td></tr><tr><td>168–172 s</td><td>1.037</td></tr></table></div>
+
+  <h2>Coverage per section (lit pixels, max channel &gt; 40)</h2>
+  <div class="scroll"><table><tr><th>section</th><th>mean</th><th>max</th></tr><tr><td>end form</td><td>3.5%</td><td>3.5%</td></tr><tr><td>backward</td><td>4.8%</td><td>10.0%</td></tr><tr><td>proof</td><td>10.7%</td><td>12.7%</td></tr><tr><td>lock</td><td>3.8%</td><td>8.8%</td></tr><tr><td>drift</td><td>6.9%</td><td>10.3%</td></tr><tr><td>re-lock</td><td>4.0%</td><td>6.6%</td></tr><tr><td>making</td><td>8.5%</td><td>10.0%</td></tr><tr><td>plato</td><td>11.2%</td><td>12.8%</td></tr><tr><td>accumulation</td><td>18.6%</td><td>30.4%</td></tr><tr><td>points</td><td>4.6%</td><td>11.2%</td></tr><tr><td>release</td><td>8.1%</td><td>9.7%</td></tr><tr><td>rain</td><td>5.3%</td><td>9.4%</td></tr></table></div>
+
+  <h2>Critic round 5 → r6 repairs</h2>
+  <div class="scroll"><table><tr><th>#</th><th>finding</th><th>repair</th></tr>
+  <tr><td>1</td><td>The accumulation (7.05) moved less than the proof ring (10.2)</td><td>The proof is untouched. The accumulation rows now cycle 3 and 2 times per 4 beats (was per 8), the slide amplitude is 340 px, and two bright echoes at a 0.5-beat lag are drawn behind the faces. The 132–136 s window is 14.535 against a maximum of 11.679 anywhere else (proof, 28–32 s). The return at b302 is still exact.</td></tr>
+  <tr><td>2</td><td>Release flat, then a sudden stop</td><td>The ring's phase decays as exp(−t/9 beats) from b325 and runs on into the fade. 1 s windows from 151 to 161 s: 8.562, 7.67, 6.782, 5.852, 5.535, 5.062, 4.79, 4.565, 4.202, 3.482, 1.447, strictly decreasing, with the last at 17% of the first.</td></tr>
+  <tr><td>3</td><td>Opening is not the constellation</td><td>The end form's corner points fade in under the title from b1.</td></tr>
+  </table></div>
+
+  <h2>Critic round 4 → r5 repairs</h2>
+  <div class="scroll"><table><tr><th>#</th><th>finding</th><th>repair</th></tr>
+  <tr><td>1</td><td>Release outshines the 3:2 peak (motion 20.1 vs 11.0)</td><td>The release ring keeps 3:2 but runs at 0.75 : 0.5 laps on smaller ellipses with no trails, then decays to a stop and fades in place. Every 4 s window after 140 s is at most 6.5 against the peak's 7.9 (test M1).</td></tr>
+  <tr><td>2</td><td>Content touching the top edge</td><td>Nothing enters or leaves through the frame any more. The un-making rises to the safe top and fades; the gather and the rain fade in at the safe top. No lit pixel within 8 px of an edge after 7.5 s, measured on 981 rendered frames (test M2).</td></tr>
+  <tr><td>3</td><td>Flashes covering labels; constellation over faces; beam on box 19</td><td>Landing flashes are outlines outside the box. Boxes fade out before the points come up, and points dim before the boxes return. The refused beam stops 22 px short of the roof.</td></tr>
+  <tr><td>4</td><td>Conveyor not as described</td><td>The description is corrected: it is an elliptical loop around the stack (570×262 on y 420), passing below row 1 and above the roof, and reading as an arc once most boxes have landed. Measured clearance from the stack: at least 11.5 px (test M3).</td></tr>
+  </table></div>
+
+  <h2>Critic round 3 → r4 repairs</h2>
+  <div class="scroll"><table><tr><th>#</th><th>finding</th><th>repair</th></tr>
+  <tr><td>1</td><td>Making (73–110 s) uncontrolled: overlaps, boxes crossing the stack, boxes over FIRST STEP, edge clipping</td><td>One conveyor lane (an ellipse 570×262 on y 420) outside the stack footprint and inside the safe area, with 20 slots and one lap per 80 beats. Each box leaves from the top of the lane on its departure beat, crosses a free band at y 240, and drops straight down into its slot. Boxes ride upright, and the ring-to-lane change is made as points. Sampled every 0.25 s: max overlap 0.000, no label hits, min edge 10.0 px.</td></tr>
+  <tr><td>2</td><td>BEAM 7 tag and footer 3–4 px tall</td><td>The beam is a full-height box with a face-filling "7" (12.7 px at 360). The footer is now "BOXBACK · 14/18" at 66 px (14.1 px at 360).</td></tr>
+  <tr><td>3</td><td>Ring 6 px from the sides; black at 163–164 s</td><td>The release rings are narrowed: film-wide, every box is at least 10 px inside the sides and bottom. The house-to-come stays as faint dots while the field is away.</td></tr>
+  </table></div>
+
+  <h2>Critic round 2 → r3 repairs</h2>
+  <div class="scroll"><table><tr><th>#</th><th>finding</th><th>repair</th></tr>
+  <tr><td>1</td><td>122–140 s stall; no sparse→dense arc</td><td>3:2 ACCUMULATION: rows slide as rigid cards, odd rows at 3 and even rows at 2 cycles per 8 beats, under an accumulating envelope (peak b292, closed b302), with filled echo copies. On 79% of beats at least 8 boxes move at least 15 px. Coverage is 15.5% mean (23.6% peak) against at most 10.8% earlier. The slots are exact by 140 s.</td></tr>
+  <tr><td>2</td><td>Card wider than the frame</td><td>Every text item is measured and shrunk to fit x = 40–1240. 1454 drawn texts were checked (49 unique), with 0 violations.</td></tr>
+  <tr><td>3</td><td>Ring off the bottom</td><td>The release rings are 600×280 and 500×220, centred on y 380. Max content y is 696.9.</td></tr>
+  <tr><td>4</td><td>Beam collision at 150 s</td><td>The house opens as points: it collapses, travels and regrows on the ring. Overlap is 0.000.</td></tr>
+  <tr><td>5</td><td>Tags and legend 4 px tall</td><td>Now 60 px, which is 12.9 px tall at 360 px width.</td></tr>
+  </table></div>
+
+  <h2>Critic round 1 → r2 repairs</h2>
+  <div class="scroll"><table><tr><th>#</th><th>finding</th><th>repair</th></tr><tr><td>1</td><td>Release pile-up, 164–169.85 s</td><td>The field lifts away, then the house rains back row by row with vertical drops (foundation first). Max overlap 0.000; the last box lands on frame 4076 = b368.</td></tr><tr><td>2</td><td>Plato reads as a ripple</td><td>Plan P0 is now a doorless block with a flat roof. Refused at the roof, the architect directs LIFT ROOF · OPEN DOOR → BEAM 7 → ROW 3 → ROOF → NEW PLAN, and every row changes. The propagation wave is kept.</td></tr><tr><td>3</td><td>3:2 not countable</td><td>Box 0 is red (A), box 10 is yellow (B), with a 12-o'clock tick and an A×3 / B×2 legend.</td></tr><tr><td>4</td><td>Dead freeze at b77</td><td>On the b77 frame the field dims, the glow goes off, and STOP replaces 3:2. Pixel change 8.1 vs 0.0.</td></tr><tr><td>5</td><td>Opening not a constellation; early title cuts</td><td>The end form opens and closes as corner points. The plate jump-cuts and words land on beat frames.</td></tr><tr><td>6</td><td>Clumps; no phase marker</td><td>The un-making is LIFO vertical rises and the gather fills lowest slots first (0.000 overlap). The re-lock captures the boxes as points onto the locked ring (0.000). LOCK / UNLOCK / RE-LOCK stars land on b96, b112 and b148.</td></tr><tr><td>7</td><td>Phone text; late flashes</td><td>Section labels 66 px white (3×), cards 60 px on solid black, box numbers fill the face (2×). Flashes land on the nearest frame.</td></tr></table></div>
+
+  <h2>Phase visualiser</h2>
+  <img src="./phase-visualiser.png" alt="Unwrapped phase of A and B in the proof; locked versus detuned Lissajous traces">
+
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="./tests/invariants.json">invariants.json</a> · <a href="./tests/test_invariants.py">test_invariants.py</a></li>
+    <li><a href="./src/bank_phases.json">bank_phases.json</a>: the constrained phase search (seed 2026, 4000 iterations)</li>
+    <li><a href="./source-ledger.json">Source ledger</a> · <a href="./sfx-cues.json">SFX cue sheet</a> (tuned bells in A♭ pentatonic on the event list)</li>
+    <li><a href="./METHOD.md">Production record</a> · <a href="./src/">Source</a> (<code>film.py</code> parametric score, <code>score.py</code>, <code>render.py</code>)</li>
+    <li><a href="../../VOLHOLLA/song-boxback-14.html">Song page</a></li>
+  </ul>
+  <footer>The SCION 06 lineage refers to John Whitney's harmonic computer motion. This is not a claim that he wrote or endorsed it. Vision texts: the producer's "The House That Language Built" cards (Aristotle 01, Plato 02). Picture: drawn in code, plus two motion-blurred plates from the producer's own BOXBACK art. Song: Treblo, unaltered.</footer>
+</main>
+</body>
+</html>

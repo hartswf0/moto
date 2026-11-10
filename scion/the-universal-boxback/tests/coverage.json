@@ -1,0 +1,50 @@
+{
+ "end form": {
+  "mean": 0.0346,
+  "max": 0.0351
+ },
+ "backward": {
+  "mean": 0.0482,
+  "max": 0.0999
+ },
+ "proof": {
+  "mean": 0.1067,
+  "max": 0.1268
+ },
+ "lock": {
+  "mean": 0.038,
+  "max": 0.0878
+ },
+ "drift": {
+  "mean": 0.0687,
+  "max": 0.1026
+ },
+ "re-lock": {
+  "mean": 0.0404,
+  "max": 0.0659
+ },
+ "making": {
+  "mean": 0.0849,
+  "max": 0.0998
+ },
+ "plato": {
+  "mean": 0.1124,
+  "max": 0.1275
+ },
+ "accumulation": {
+  "mean": 0.1857,
+  "max": 0.3038
+ },
+ "points": {
+  "mean": 0.0463,
+  "max": 0.1115
+ },
+ "release": {
+  "mean": 0.0811,
+  "max": 0.0971
+ },
+ "rain": {
+  "mean": 0.0528,
+  "max": 0.0942
+ }
+}
