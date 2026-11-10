@@ -1,0 +1,80 @@
+{
+ "video": "corrugated-sky-jelly.mp4",
+ "t0": 0.0,
+ "frames": 3497,
+ "sentinel": {
+  "kicks": 464,
+  "min_swing": 0.028,
+  "median_swing": 0.155
+ },
+ "orchestra_r": {
+  "snare0": {
+   "r": 0.441,
+   "frames_in_view": 3497
+  },
+  "snare1": {
+   "r": 0.457,
+   "frames_in_view": 3497
+  },
+  "hat0": {
+   "r": 0.31,
+   "frames_in_view": 3497
+  },
+  "hat1": {
+   "r": 0.335,
+   "frames_in_view": 3497
+  },
+  "bass0": {
+   "r": 0.273,
+   "frames_in_view": 3497
+  },
+  "choir0": {
+   "r": 0.263,
+   "frames_in_view": 3497
+  },
+  "bed0": {
+   "r": 0.23,
+   "frames_in_view": 3497
+  }
+ },
+ "jellies_r_gt_0.3": 4,
+ "longest_still_s": 0.5,
+ "bloom_height": {
+  "house": {
+   "t": 15.8,
+   "picture_height_frac": 0.386
+  },
+  "family": {
+   "t": 32.5,
+   "picture_height_frac": 0.539
+  },
+  "girl_dog": {
+   "t": 63.3,
+   "picture_height_frac": 0.569
+  },
+  "gate": {
+   "t": 82.4,
+   "picture_height_frac": 0.549
+  },
+  "lamp": {
+   "t": 95.5,
+   "picture_height_frac": 0.518
+  },
+  "fire": {
+   "t": 110.0,
+   "picture_height_frac": 0.247
+  },
+  "survivor": {
+   "t": 123.7,
+   "picture_height_frac": 0.588
+  },
+  "rain": {
+   "t": 133.0,
+   "picture_height_frac": 0.446
+  },
+  "boy_dog": {
+   "t": 141.4,
+   "picture_height_frac": 0.486
+  }
+ }
+}
