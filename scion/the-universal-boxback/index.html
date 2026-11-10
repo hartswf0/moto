@@ -45,9 +45,9 @@
 
   <h2>Status</h2>
   <div class="grid">
-    <div class="card"><h3>Current revision</h3><div>r6: motion-shape pass after critic round 5. All 40 invariants pass. 173.5 s, 1280×720, 24 fps, 130.03 BPM grid.</div></div>
-    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 5: proof PASS · film inconclusive (leaning fail)</div><div>Round 5 found conditions 3–6 met; only the motion shape was left. r6 makes the 3:2 accumulation the most kinetic passage and turns the release into a monotone decay, both measured on the rendered mp4. <b>The final check is pending.</b> (Rounds 1–4: proof pass, film reference stronger.)</div></div>
-    <div class="card"><h3>Next blocking failure</h3><div>An independent check of r5. Known residuals: brief crossings inside the free oscillator bank (b84–144); box numbers are 2× larger than r1, short of 3×.</div></div>
+    <div class="card"><h3>Current revision</h3><div>r6 (accepted at critic round 6). r6: motion-shape pass after critic round 5. All 40 invariants pass. 173.5 s, 1280×720, 24 fps, 130.03 BPM grid.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 6: PROOF PASS · FILM PASS (8 of 8 conditions)</div><div>A fresh independent critic measured the following. Red box 0 makes 3.04 laps and yellow box 10 makes 1.96 over b52–72, and all motion stops on b72. The 3:2 accumulation is the film's densest and most kinetic window (14.50, against a next-best of 11.03). Its return by 139.5 s is near-exact (mean difference 0.38). The release decays monotonically from 7.77 to 0.95 per second. Nothing lit sits within 8 px of an edge after 7.5 s. The landing falls 0.02 s from b368. Rounds 1–5 were reference stronger. No critic heard the audio; sound is measured only.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Accepted. The last critic named this open gap: motion is exactly 0 from about 140 to 148 s (an 8 s freeze), then jumps from 2.62 to 8.02 at 151 s. Repair condition: per 0.5 s window from 139.5 to 151 s, no window is 0 and none exceeds 1.5× the window before it. Minor: ring labels turn upside down (6/9), and the accumulation's echo copies sit flush against the real boxes.</div></div>
     <div class="card"><h3>Accepted checkpoint</h3><div>Proof mechanics accepted in critic round 1 (3:2 measured). Every frame is reproducible from <code>src/render.py</code>.</div></div>
   </div>
 
