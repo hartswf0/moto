@@ -307,7 +307,7 @@ def render(fidx):
             x, y, r = jelly(CFG["kick_flash"]["key"], t, window=0.0)
             ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov); R = r * 1.9
             for k, a in ((1.0, 0.35), (0.72, 0.65), (0.45, 1.0)):
-                v = int(200 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
+                v = int(270 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
             base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(6)))
     # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
     if CFG.get("halos"):

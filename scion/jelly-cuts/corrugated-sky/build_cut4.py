@@ -72,7 +72,7 @@ json.dump({"direct": direct, "extra": {H: extra}}, open(os.path.join(HERE, "dire
 cards = [{"kind": "title", "t": [0.3, 5.4], "lines": ["CORRUGATED", "SKY"], "sub": "JELLY CUT · the Afterlight Medusa remembers", "y": 190},
          {"kind": "title", "t": [144.6, 145.73], "lines": ["CORRUGATED", "SKY"], "sub": "archive: US government work · Smithsonian CC0", "y": 200}]
 cfg = {"id": "corrugated-sky", "audio": "/home/user/moto/Et tu, Brute (BOXBACK)/Et tu, Brute_ - Corrugated Sky - Treblo.ogg", "orch_dir": "/home/user/moto/scion/jelly-cuts/work/orch4",
-       "sources": {}, "films": [], "scene_films": films, "cards": cards, "letgo": LETGO, "kick_flash": {"key": "kick0"}, "halos": 120, "bpm": BPM, "offset": OFF}
+       "sources": {}, "films": [], "scene_films": films, "cards": cards, "letgo": LETGO, "kick_flash": {"key": "kick0"}, "halos": 160, "bpm": BPM, "offset": OFF}
 json.dump(cfg, open(os.path.join(HERE, "jellycut.json"), "w"), indent=1)
 LED = json.load(open(os.path.join(HERE, "source-ledger.json")))
 add = {"src:lamp": {"id": "src:lamp", "title": "Anthracite: Pre-Shift Examinations of Underground Mines (MSHA)", "url": "https://archive.org/details/gov.msha.dvd614", "rights": "public_domain",

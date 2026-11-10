@@ -1,9 +1,11 @@
-# Corrugated Sky · JELLY CUT (r3)
+# Corrugated Sky · JELLY CUT (r4)
 
 **Critic rounds**
 - **Round 1:** proof and film both reference stronger.
 - **Round 2:** proof and film both reference stronger, with "not worth watching beyond the original."
-- **r3:** changes the staging model per §11. Re-review is pending.
+- **r3:** changed the staging model per §11.
+- **Round 3:** proof and film both reference stronger ("not yet worth watching as its own work").
+- **r4:** applies the user's direction and the critic's repairs. Re-review is pending.
 
 A second cut of *Corrugated Sky* (BOXBACK track 11; the accepted SCION 02 Reiniger film), set in the contaminant-jelly water. The Jelly Orchestra plays the song: each jelly is one of its sounds. **One of them is the character:**
 
@@ -20,6 +22,26 @@ At the gate, as the girl's hand opens, the medusa lets the painted dog go. Its f
 * Tests:
   - `python3 -I tests/test_r3.py <orch_dir> <orch_dir>` checks the mask passes and metadata;
   - `tests/sentinel_video.py <video> <t0>` checks the rendered frames.
+
+
+## The user's call (r4): flecks in transit only
+The user decided: **"Flecks in transit only."**
+- A memory still travels and condenses as halftone flecks under the WYGWYL dot law.
+- At its **bloom** it resolves to the **full-resolution picture**: large, centred and readable, with its holder framed above it.
+- At the peak, recognisable archive takes priority over the strict dot law.
+
+The law being **deliberately suspended at the bloom** is WYGWYL's *dot law* (hartswf0/butterfly-halfworld, `wygwyl/README.md`, "THE LAWS" §1: 8 ink levels, one ordered halftone pass, no alpha). The suspension applies only at the bloom. The cross-fade into and out of the picture is the one alpha the film now uses (`filmsys.js`, `pic` plane). Everywhere else the law holds.
+
+## r4 repairs
+| critic's condition | r4 |
+|---|---|
+| legibility at 360 px | the bloom shows the real picture; the crops are chosen so the subject fills it; the closing memory is *Boy with Dog* (SAAM, CC0), a silhouette of a child and a begging dog, chosen over the hearth etching, which did not read cold |
+| let-go | the painting is **kept** small beside the gate, on screen, until 84.83 s; then its flecks leave the picture and land in the gate's dog over 1.8 s, along an arc |
+| a unique holder | the medusa is red and 1.7× larger, with twelve thick memory tentacles; one turns silver for every memory it has let go |
+| close the circle | ends on the medusa holding the boy and dog (bloom 138.4–144.4 s); the title follows the hold |
+| pacing and the choice | no stretch between memories is over 6 s; rhythms vary (slow gathering for the painting, a short lamp, the painting kept beside the gate, the final hold); the choice at the let-go reads without captions: rapid pulses (four a beat), then the picture breaks into flecks that travel to the dog, then a tentacle turns silver and the medusa shrinks to 72% |
+| the orchestra read on the mp4 | each jelly gets a soft halo on its own onsets in the composite; measured on the mp4 |
+| numbers | from r4 on, every reported number is measured on the decoded final mp4 (`tests/test_mp4.py`). Jelly positions from the capture metadata only say where to look |
 
 ## Why r3 changed the staging model
 Rounds 1 and 2 failed for the same reason: you could not see a jelly hold its film. The films were 2D boxes composited over a 3D orchestra whose camera and jellies the compositor did not control, so ownership could not be staged. The r2 position metric passed while the picture failed.
