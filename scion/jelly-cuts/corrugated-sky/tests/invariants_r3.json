@@ -4,9 +4,9 @@
    "test": "bloom: holder fully in frame and >=90% uncovered by its film (mask pass, every sampled bloom frame)",
    "pass": true,
    "detail": {
-    "frames": 453,
-    "in_frame": 453,
-    "min_uncovered": 0.968,
+    "frames": 458,
+    "in_frame": 458,
+    "min_uncovered": 0.964,
     "failing": []
    }
   },
@@ -48,20 +48,20 @@
      [
       "survivor",
       2.63,
-      4.29,
-      2221.3
+      5.0,
+      1825.6
      ],
      [
       "rain",
       2.11,
-      5.0,
-      644.5
+      3.33,
+      1211.8
      ],
      [
       "hearth",
       2.63,
       5.0,
-      36449.1
+      35475.9
      ]
     ]
    }
@@ -93,23 +93,23 @@
      ],
      [
       "fire",
-      0.175,
-      0.312
+      0.307,
+      0.391
      ],
      [
       "survivor",
-      1.801,
-      2.667
+      1.813,
+      2.821
      ],
      [
       "rain",
-      0.857,
-      1.06
+      1.173,
+      63.0
      ],
      [
       "hearth",
-      0.395,
-      0.034
+      0.393,
+      0.098
      ]
     ]
    }
@@ -203,15 +203,15 @@
     "bass0": 0.996,
     "choir0": 0.996,
     "bed0": 0.997,
-    "call0": 0.271
+    "call0": 0.276
    }
   },
   {
    "test": "survivor: >=300 px tall, centred, for >=3 s",
-   "pass": false,
+   "pass": true,
    "detail": {
-    "longest_s": 2.33,
-    "samples": 31
+    "longest_s": 3.83,
+    "samples": 36
    }
   },
   {
@@ -230,5 +230,5 @@
    }
   }
  ],
- "all_pass": false
+ "all_pass": true
 }
