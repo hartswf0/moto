@@ -133,6 +133,51 @@ check("F1 151.5-160 s: all content y <= 700", ymax <= 700, max_y_px=round(ymax, 
 # G1 no overlap > 10 % at 149.75-150.25 s (the house opening)
 wo = max_overlap_window(149.75, 150.25)
 check("G1 149.75-150.25 s: max box overlap <= 10 %", wo[0] <= 0.10, max_overlap=round(wo[0], 4), pair=wo[1], frame=wo[2])
-json.dump({"film": "the-universal-boxback", "revision": "r3", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
+
+# ===== critic round 3 =====
+# H1 the making section (73-110 s, every 0.25 s): no overlap > 10 %, no box in a label area, >= 8 px from every edge
+film.TEXT_LOG = []
+worst, pair_w, edge_min, label_hits = 0.0, None, 1e9, []
+for q in range(int(73 * 4), int(110 * 4) + 1):
+    t_ = q / 4.0; f = int(round(t_ * 24)); b = fb(f)
+    film.TEXT_LOG.clear(); film.render_frame(f)
+    rects = [(x0 - 4, y0 - 4, x1 + 4, y1 + 4) for (_, x0, y0, x1, y1) in film.TEXT_LOG]
+    P, r, sc, gl, face = film.state(b)
+    ws = [film.box_w(j, b) * sc[j] for j in range(20)]; hs = [film.box_h(j) * sc[j] for j in range(20)]
+    w, pr = geom.max_overlap(P, r, ws, hs)
+    if w > worst: worst, pair_w = w, (pr, round(t_, 2))
+    for j in range(20):
+        cs = film.corners(P[j], r[j], ws[j], hs[j])
+        xs, ys = [c[0] for c in cs], [c[1] for c in cs]
+        edge_min = min(edge_min, min(xs), min(ys), 1280 - max(xs), 720 - max(ys))
+        for (a0, b0, a1, b1) in rects:
+            if min(xs) < a1 and max(xs) > a0 and min(ys) < b1 and max(ys) > b0: label_hits.append((j, t_))
+film.TEXT_LOG = None
+check("H1a making 73-110 s: max box overlap <= 10 %", worst <= 0.10, max_overlap=round(worst, 4), at=pair_w)
+check("H1b making 73-110 s: no box enters a label / card area", not label_hits, hits=label_hits[:5])
+check("H1c making 73-110 s: every box >= 8 px from the frame edges", edge_min >= 8, min_edge_px=round(edge_min, 1))
+# H2 film-wide: boxes stay >= 8 px inside the side and bottom edges (the scripted exits through the top edge
+#    - un-making b32-48, lift and rain b348-368 - are exempt from the top-edge rule only)
+emin, where = 1e9, None
+for q in range(int(16 * 4 / 1), int(film.DUR * 4)):
+    t_ = q / 4.0; b = fb(int(round(t_ * 24)))
+    if b < 16: continue
+    P, r, sc, gl, face = film.state(b)
+    for j in range(20):
+        if face[j] <= 0.01: continue
+        cs = film.corners(P[j], r[j], film.box_w(j, b) * sc[j], film.box_h(j) * sc[j])
+        xs, ys = [c[0] for c in cs], [c[1] for c in cs]
+        if max(ys) < 0: continue                       # fully off the top: scripted exit
+        top_exempt = (32 <= b < 48) or (348 <= b < 368)
+        d = min(min(xs), 1280 - max(xs), 720 - max(ys), 1e9 if top_exempt else min(ys))
+        if d < emin: emin, where = d, (j, round(t_, 2))
+check("H2 film-wide: boxes >= 8 px inside the side / bottom edges (top too, except scripted exits)", emin >= 8, min_edge_px=round(emin, 1), at=where)
+# H3 the BEAM 7 tag and the footer are >= 12 px tall at 360 px width
+a_ = film.assets()
+beam_label_px = a_["box"][film.BEAM].img.getbbox()   # sprite size; the numeral is measured below
+fb7 = film.font(film.FONT_STENCIL, 56 * 1.12).getbbox("7"); ffoot = a_["f_cap"].getbbox("BOXBACK")
+check("H3 beam numeral and footer >= 12 px tall at 360 px", min(fb7[3] - fb7[1], ffoot[3] - ffoot[1]) * 360 / 1280 >= 12,
+      beam_7_px=round((fb7[3] - fb7[1]) * 360 / 1280, 1), footer_px=round((ffoot[3] - ffoot[1]) * 360 / 1280, 1))
+json.dump({"film": "the-universal-boxback", "revision": "r4", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
           open(os.path.join(HERE, "invariants.json"), "w"), indent=1, default=str)
 sys.exit(0 if all(r["pass"] for r in R) else 1)

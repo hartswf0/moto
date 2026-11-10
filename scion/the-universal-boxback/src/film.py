@@ -96,7 +96,7 @@ def box_w(j, b=None):
 
 
 def box_h(j):
-    return 40.0 if j == BEAM else BH
+    return BH
 
 
 # ------------------------------------------------------------------ the 3:2 ring and the wide release ellipses
@@ -116,7 +116,7 @@ def ring(b, b0=52.0, span=20.0, R=R_RING, sep=60.0, floor=36.0, squash=0.80, spi
 
 
 ELL_A, ELL_B, ELL_C = (600.0, 330.0), (500.0, 260.0), (640.0, 400.0)       # making orbit (encloses the house)
-REL_A, REL_B, REL_C = (600.0, 280.0), (500.0, 220.0), (640.0, 380.0)       # release rings: inside y <= 700
+REL_A, REL_B, REL_C = (560.0, 280.0), (460.0, 220.0), (640.0, 380.0)       # release rings: inside y <= 700
 
 
 def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
@@ -169,7 +169,9 @@ def bank_scale(b):
     if b < 147: return 0.05
     if b < 148: return 0.05 + 0.40 * ease((b - 147) / 1.0)      # ... and regrow on the locked ring for b148
     if b < 160: return 0.45
-    return 0.45 + 0.55 * ease((b - 160) / 4)
+    if b < 161: return 0.45 - 0.40 * ease(b - 160)          # collapse to points again ...
+    if b < 163: return 0.05
+    return 0.05 + 0.95 * ease(b - 163)                        # ... regrow on the lane by b164
 
 
 def relock_ring(b):
@@ -177,15 +179,33 @@ def relock_ring(b):
     return ring(72, spin=2 * math.pi * (b - 148) / 16)
 
 
+LANE_C, LANE_R = (640.0, 420.0), (585.0, 262.0)     # outside the stack footprint, inside the safe area
+LANE_W = 2 * math.pi / 80                             # one lap per 80 beats: 20 slots, a departure every 4 beats
+
+
+def depart_beat(j):
+    """box j leaves the lane at the top of the lane on this beat (the beam's turn is the Plato direction)."""
+    return land_beat(MAKE_ORDER.index(j)) - 2 if j in MAKE_ORDER else land_beat(len(MAKE_ORDER)) - 2
+
+
 def making_orbit(b):
-    u = (b - 164) / 32.0
     P = np.zeros((N, 2))
     for j in range(N):
-        i, k = j % 10, (3 if j < 10 else 2)
-        a = -math.pi / 2 + i * 2 * math.pi / 10 + k * 2 * math.pi * u
-        rx, ry = ELL_A if j < 10 else ELL_B
-        P[j] = (ELL_C[0] + rx * math.cos(a), ELL_C[1] + ry * math.sin(a))
+        th = -math.pi / 2 + LANE_W * (b - depart_beat(j))
+        P[j] = (LANE_C[0] + LANE_R[0] * math.cos(th), LANE_C[1] + LANE_R[1] * math.sin(th))
     return P
+
+
+LANE_TOP_Y, BAND_Y = LANE_C[1] - LANE_R[1], 240.0
+
+
+def land_path(j, u):
+    """from the top of the lane: down into the free band, across to the slot's x, straight down into the slot
+    (bottom-up order means the column above the slot is still empty)."""
+    sx, sy = SLOT_P0[j]
+    if u < 0.15: return lerp2((640, LANE_TOP_Y), (640, BAND_Y), ease(u / 0.15))
+    if u < 0.55: return lerp2((640, BAND_Y), (sx, BAND_Y), ease((u - 0.15) / 0.4))
+    return lerp2((sx, BAND_Y), (sx, sy), ease((u - 0.55) / 0.45))
 
 
 def field(b):
@@ -194,10 +214,10 @@ def field(b):
     if b < 147:                       # capture (as points): bank -> locked ring
         k = ease((b - 144) / 3)
         return bank(b, detune_at(b), amp_at(b)) * (1 - k) + relock_ring(b)[0] * k
-    if b <= 160:
+    if b <= 161:
         return relock_ring(b)[0]
-    if b < 164:
-        k = ease((b - 160) / 4)
+    if b < 163:                       # carried as points from the ring onto the lane
+        k = ease((b - 161) / 2)
         return relock_ring(b)[0] * (1 - k) + making_orbit(b) * k
     return making_orbit(b)
 
@@ -221,7 +241,7 @@ def flight(p0, p1, u, bulge=90.0, sign=1):
     return np.asarray(p0, float) + d * u + nrm * bulge * sign * math.sin(math.pi * u)
 
 
-def land_beat(k): return 164 + 4 * k
+def land_beat(k): return 166 + 4 * k        # 19 boxes: b166 ... b238
 
 
 # --- schedules -----------------------------------------------------------------------------------
@@ -279,8 +299,8 @@ def beam_plato(b, bp0):
     if b < 240: return bp0
     if b < 241.2: return lerp2(bp0, (bp0[0], HOVER[1]), ease((b - 240) / 1.2))  # directed: up the left side ...
     if b < 241.7: return lerp2((bp0[0], HOVER[1]), HOVER, ease((b - 241.2) / 0.5))  # ... over the house ...
-    if b < 242: return lerp2(HOVER, (640, 302), ein((b - 241.7) / 0.3))           # ... down onto the roof ...
-    if b < 243.5: return lerp2((640, 302), HOVER, eout((b - 242) / 1.5))         # ... refused: rebound
+    if b < 242: return lerp2(HOVER, (640, 290), ein((b - 241.7) / 0.3))           # ... down onto the roof ...
+    if b < 243.5: return lerp2((640, 290), HOVER, eout((b - 242) / 1.5))         # ... refused: rebound
     if b < 256.5: return (HOVER[0], HOVER[1] + 5 * math.sin((b - 243.5) * math.pi))
     if b < 258: return lerp2(HOVER, SLOT_F[BEAM], ein((b - 256.5) / 1.5))        # drops into the cleared row
     return SLOT_F[BEAM]
@@ -330,18 +350,15 @@ def state(b):
     elif b < 238:
         Fd = field(b)
         sc[:] = bank_scale(b)
-        rot = (b - 80) * 22 * np.array([1 if j < 10 else -1 for j in range(N)])
-        if b < 164:
-            k3 = ease((b - 160) / 4)
-            rot = (np.degrees(relock_ring(b)[1]) + 90) * (1 - k3) + rot * k3
+        # boxes ride the lane upright; the ring's tangent turn unwinds while they are points (b160-163)
+        k3 = ease((b - 160) / 3)
+        rot = (np.degrees(relock_ring(b)[1]) + 90) * (1 - k3)
         for k, j in enumerate(MAKE_ORDER):
             lb = land_beat(k)
             if b >= lb:
-                P[j] = P0_ARR[j]; rotd[j] = 0; gl[j] = 0.5 + 0.5 * math.exp(-4 * (b - lb))
+                P[j] = P0_ARR[j]; rotd[j] = 0; gl[j] = 0.5 + 0.5 * math.exp(-4 * (b - lb)); sc[j] = 1.0
             elif b >= lb - 2:
-                u = (b - (lb - 2)) / 2
-                P[j] = flight(field(lb - 2)[j], P0_ARR[j], u, 70, 1 if k % 2 else -1)
-                rotd[j] = ((lb - 2 - 80) * 22 * (1 if j < 10 else -1)) % 360 * (1 - ease(u)); gl[j] = 1.0
+                P[j] = land_path(j, (b - (lb - 2)) / 2); rotd[j] = 0; gl[j] = 1.0; sc[j] = 1.0
             else:
                 P[j] = Fd[j]; rotd[j] = rot[j]
         P[BEAM] = Fd[BEAM]; rotd[BEAM] = rot[BEAM]
@@ -350,7 +367,7 @@ def state(b):
             if j != BEAM: P[j] = plato_pos(j, b)
         bp0 = field(238)[BEAM]
         P[BEAM] = beam_plato(b, bp0)
-        if b < 240: rotd[BEAM] = ((238 - 80) * 22) % 360 * (1 - ease((b - 238) / 2))
+        if b < 240: rotd[BEAM] = 0.0
         elif 242 <= b < 243.5: rotd[BEAM] = 8 * math.sin(b * 40) * (1 - (b - 242) / 1.5)
         if 242 <= b < 243.5:
             for j in (19, 15, 16, 17):              # the roof it hit shudders
@@ -397,7 +414,7 @@ def state(b):
 
 
 # ------------------------------------------------------------------ sprites
-def box_sprite(j, w=84, h=56, label=None, cool=False, tint=None):
+def box_sprite(j, w=84, h=56, label=None, cool=False, tint=None, big=False):
     ss = 3
     W_, H_ = int(w * ss), int(h * ss)
     im = Image.new("RGBA", (W_ + 8, H_ + 8), (0, 0, 0, 0))
@@ -410,7 +427,7 @@ def box_sprite(j, w=84, h=56, label=None, cool=False, tint=None):
         d.line([(x, 4), (x, 4 + H_)], fill=flute + (130,), width=ss)
     d.rectangle([4, 4, 4 + W_, 4 + H_], outline=(30, 18, 10, 255), width=2 * ss)
     txt = label if label is not None else str(j)
-    f = font(FONT_STENCIL, (h * 0.86 if label is None else h * 0.62) * ss)    # r2: numbers fill the face
+    f = font(FONT_STENCIL, (h * 1.12 if big else (h * 0.86 if label is None else h * 0.62)) * ss)    # numbers fill the face
     bb = d.textbbox((0, 0), txt, font=f)
     d.text((4 + (W_ - (bb[2] - bb[0])) / 2 - bb[0], 4 + (H_ - (bb[3] - bb[1])) / 2 - bb[1]), txt, font=f,
            fill=(255, 255, 255, 255) if tint else (20, 12, 6, 255))
@@ -428,12 +445,12 @@ def assets():
         A = {}
         A["box"] = []
         for j in range(N):
-            if j == BEAM: A["box"].append(box_sprite(j, 264, 40, "BEAM 7"))
+            if j == BEAM: A["box"].append(box_sprite(j, 264, 56, "7", big=True))
             elif j == MARK_A: A["box"].append(box_sprite(j, tint=RED))
             elif j == MARK_B: A["box"].append(box_sprite(j, tint=(214, 176, 0)))
             else: A["box"].append(box_sprite(j, cool=j >= 10))
-        A["beam_fold"] = box_sprite(BEAM, 110, 40, "7")
-        A["box_red"] = box_sprite(BEAM, 264, 40, "BEAM 7", tint=(200, 40, 30))
+        A["beam_fold"] = box_sprite(BEAM, 110, 56, "7", big=True)
+        A["box_red"] = box_sprite(BEAM, 264, 56, "7", tint=(200, 40, 30), big=True)
 
         def plate(name, box):
             im = _src(name).crop(box).resize((1600, 900))
@@ -565,6 +582,11 @@ def render_frame(f):
         for (x, y) in corners(P[j], rotd[j], w, h):
             r = 3.2 * br
             gd.ellipse([x - r, y - r, x + r, y + r], fill=tuple(int(min(255, v * br)) for v in col))
+    if 348 <= b < 368:                  # the house it will become stays faintly in view while the field is away
+        for j in range(N):
+            if b < RAIN[j] + 1.25:
+                for (x, y) in corners(F_ARR[j], 0, box_w(j, b), box_h(j)):
+                    gd.ellipse([x - 2.6, y - 2.6, x + 2.6, y + 2.6], fill=(70, 62, 52))
     for be in EVENTS:
         db = b - be["b"]
         if 0 <= db < 1.2:
@@ -647,7 +669,7 @@ def title_frame(b, t):
     if b >= 4: spaced(d, (640, 170), "THE", a["f_title"], RED + (255,), track=0.6)
     if b >= 6: spaced(d, (640, 290), "UNIVERSAL", a["f_title"], RED + (255,), track=0.32)
     if b >= 8: spaced(d, (640, 410), "BOXBACK", a["f_title"], RED + (255,), track=0.5)
-    if b >= 10: spaced(d, (640, 590), "ET TU, BRUTE? · BOXBACK · 14 / 18", a["f_small"], (240, 236, 226, 255), track=0.3)
+    if b >= 10: spaced(d, (640, 560), "BOXBACK · 14/18", a["f_cap"], (240, 236, 226, 255), track=0.12)
     return im.convert("RGB")
 
 
@@ -656,7 +678,7 @@ def end_card(im, b, a):
     if k <= 0: return
     d = ImageDraw.Draw(im)
     spaced(d, (640, 70), "THE UNIVERSAL BOXBACK", a["f_end"], RED + (int(255 * k),), track=0.3)
-    spaced(d, (640, 660), "ET TU, BRUTE? · BOXBACK · 14 / 18", a["f_small"], (230, 230, 220, int(255 * k)), track=0.3)
+    spaced(d, (640, 628), "BOXBACK · 14/18", a["f_cap"], (230, 230, 220, int(255 * k)), track=0.12)
 
 
 # ------------------------------------------------------------------ events (picture + sound share one list)
