@@ -418,6 +418,33 @@ export function makeColloquy({ seed = 1, delta = .05, omega = .6, Lmin = .3, Lma
 
 Each row gets a `@test`, for example: shot 4's B must land on C in the frames; shot 8's success rate must fall while it's lit.
 
+### B5a · Cineulation: the sim is the cinema
+
+The film is not staged separately from the sim. **The live simulation plays as cinema**, and the exported film is a deterministic recording (fixed seed and clock) of that same live run.
+
+- **Cinema is the default view.** Controls are hidden until one tap or key reveals them. The frame is letterboxed and full-bleed, and darkness is the stage.
+- **An auto-director cuts on sim events.** Camera grammar is bound to state:
+
+  | Sim event | Shot |
+  |---|---|
+  | scan | wide plan |
+  | contact | two-shot along beam B |
+  | phaselock | push to mirror b |
+  | commit | bar Z turning |
+  | consolidate | hold on the memory glow |
+  | visitor torch | cut to the stranger |
+
+  Minimum and maximum shot durations stop it from thrashing.
+- **Sound comes from state:** the female tones, the male drive hum, and the chords when satisfaction drops.
+- **The visitor's torch can intervene at any time.** The director answers it.
+- `@test`:
+  - cuts per minute stay within range;
+  - every cut lands within 1 frame of a sim event;
+  - no control is visible in cinema mode;
+  - on a phone, the scene is uncovered.
+
+The shot plan above is what one seeded run is expected to produce, not a script the run is forced to follow.
+
 ## B6 · Delivery contract
 
 - `bonus/colloquy.html` + `bonus/colloquy/*`: the sim, optics, sound and staging.
