@@ -149,7 +149,7 @@ def make_village():
         d.polygon([(x - 8, y0), (x + bw / 2, y0 - rnd.randint(24, 40)), (x + bw + 8, y0)], fill=(48, 42, 56))
         for j in range(rnd.randint(1, 2)):
             wx = x + 12 + j * 38; wy = y0 + 18
-            wins.append((wx, wy, wx + 16, wy + 18))
+            wins.append((wx, wy, wx + 24, wy + 26))
         x += bw + rnd.randint(30, 90)
     return im, wins, s
 
@@ -203,6 +203,22 @@ def grass_strip(d, cam_x, z, t, wind, color, seed=1, dens=60, tall=340):
                 for kk in range(6):
                     an = kk / 6 * 6.283; q = (top[0] + math.cos(an) * rr * 1.5, top[1] + math.sin(an) * rr * 1.5)
                     d.ellipse([q[0] - rr, q[1] - rr, q[0] + rr, q[1] + rr], fill=color)
+
+
+def grass_clump(d, cam_x, z, t, wind, color, wx, tall=420):
+    s = F / z
+    sx = W / 2 + (wx - cam_x) / z * F
+    base = H + 10
+    for k in range(9):
+        hh = tall * s / 2 * (0.6 + 0.4 * ((k * 37) % 10) / 10)
+        bend = wind * 20 * s / 4 * math.sin(t * 2.0 + k * 0.5) + (k - 4) * 9 * s / 4
+        x0 = sx + (k - 4) * 6 * s / 4
+        d.line([(x0, base), (x0 + bend * 0.35, base - hh * 0.55), (x0 + bend, base - hh)], fill=color, width=max(3, int(3 * s / 2)), joint="curve")
+        if k % 2 == 0:
+            rr = 4 * s / 4; top = (x0 + bend, base - hh)
+            for kk in range(6):
+                an = kk / 6 * 6.283; q = (top[0] + math.cos(an) * rr * 1.5, top[1] + math.sin(an) * rr * 1.5)
+                d.ellipse([q[0] - rr, q[1] - rr, q[0] + rr, q[1] + rr], fill=color)
 
 
 def make_package():

@@ -45,7 +45,7 @@ def assets():
         A["hills_near"] = C.make_hills(18, 8, (92, 104, 82), 160, 460)
         A["package"] = C.make_package()
         A["glow_big"] = glow(160, C.WARM, 0.9); A["glow_mid"] = glow(70, C.WARM, 1.0); A["glow_small"] = glow(26, (255, 236, 200), 1.0)
-        A["mono"] = font(FONT_MONO, 26); A["mono_big"] = font(FONT_MONO, 40)
+        A["mono"] = font(FONT_MONO, 26); A["mono_big"] = font(FONT_MONO, 40); A["cap"] = font(FONT_TITLE, 80)
     return A
 
 
@@ -81,14 +81,18 @@ def woman_path(b):
 def camera(b):
     if b < 16:   # title: racing pan (motion-blurred plate)
         return {"x": lerp(-1200, 2400, b / 16), "y": 0.0}
+    if b < 40:
+        return {"x": -200.0, "y": 0.0}                # she walks across a held frame; the windows shut behind her
     if b < 64:
-        wx = woman_path(b)[0]; return {"x": wx + 220, "y": 0.0}
+        wx = woman_path(b)[0]; return {"x": lerp(-200, wx + 220, ease(seg(b, 40, 44))), "y": 0.0}
     if b < 96:
         return {"x": lerp(1060, 900, seg(b, 64, 96)), "y": 0.0}
     if b < 112:
         return {"x": lerp(900, 460, seg(b, 96, 111)), "y": 0.0}
     if b < 130:
-        wx = woman_path(b)[0]; return {"x": wx + 120, "y": 0.0}
+        # midpoint between her and the house: both her and the light stay in frame from b112
+        wx = woman_path(b)[0]; mid = (wx + HOUSE_X) / 2
+        return {"x": lerp(lerp(900, 460, 1.0), mid, ease(seg(b, 111, 112))), "y": 0.0}
     if b < 140:
         return {"x": 1020 + 14 * math.sin((b - 130) * 0.7), "y": 0.0}     # drift while she is lost
     if b < 150:
@@ -168,14 +172,23 @@ def draw_message(dst, b, pos):
     a = A
     n = int(len(txt) * clamp(u / 0.8))                   # types on over ~1 beat
     alpha = clamp((L - u) / 0.6)
-    f = a["mono_big"]
+    f = a["cap"]
     d = ImageDraw.Draw(dst)
-    bb = d.textbbox((0, 0), txt, font=f)
-    x = pos[0] - (bb[2] - bb[0]) / 2; y = pos[1]
+    words = txt.split(); lines = [""]
+    for w_ in words:                                   # wrap to <= 1100 px
+        cand = (lines[-1] + " " + w_).strip()
+        if d.textlength(cand, font=f) > 1100 and lines[-1]: lines.append(w_)
+        else: lines[-1] = cand
+    shown = n; lh = 92
+    y = 26 if pos[1] < H / 2 else H - 26 - lh * len(lines)
+    band = Image.new("RGBA", (W, lh * len(lines) + 24), (18, 14, 10, int(190 * alpha)))
+    dst.alpha_composite(band, (0, int(y - 12)))
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); dl = ImageDraw.Draw(layer)
-    dl.text((x, y), txt[:n], font=f, fill=(255, 226, 170, int(255 * alpha)))
-    halo = layer.filter(ImageFilter.GaussianBlur(6))
-    dst.alpha_composite(halo); dst.alpha_composite(layer)
+    for i, ln in enumerate(lines):
+        part = ln[:max(0, shown)]; shown -= len(ln) + 1
+        x = (W - d.textlength(ln, font=f)) / 2
+        dl.text((x, y + i * lh), part, font=f, fill=(255, 238, 206, int(255 * alpha)))
+    dst.alpha_composite(layer)
 
 
 # ------------------------------------------------------------------ exterior frame compositor
@@ -186,7 +199,7 @@ def plate_item(img, s, world_x0, z, cam, wy=GROUND, anchor_bottom=True):
     return sx, sy - img.height if anchor_bottom else sy
 
 
-def exterior(b, t):
+def exterior(b, t, hide_woman=False):
     a = assets()
     cam = camera(b)
     state, sigma = fog_state(b)
@@ -247,7 +260,7 @@ def exterior(b, t):
     items.append((HOUSE_Z, house))
 
     # woman
-    if b < 149.2 or b >= 210:
+    if (b < 149.2 or b >= 210) and not hide_woman:
         if b < 149.2:
             wx, wz, pose, face, phase, ex = woman_path(b)
         else:
@@ -269,7 +282,7 @@ def exterior(b, t):
     if 64 <= b < 150:
         def laundry(L):
             d = ImageDraw.Draw(L)
-            for k, (lx, lz) in enumerate(([(560, 3.3)] if b < 112 else [(520, 2.7)])):
+            for k, (lx, lz) in enumerate(([(560, 3.3)] if b < 112 else [(530, 2.7)])):
                 p0 = proj(lx, GROUND - 190, lz, cam); p1 = proj(lx + 360, GROUND - 190, lz, cam)
                 s = F / lz
                 d.line([p0, p1], fill=(40, 34, 30, 255), width=max(2, int(s)))
@@ -285,7 +298,7 @@ def exterior(b, t):
         def boxes(L):
             d = ImageDraw.Draw(L)
             z = 2.0; s = F / z
-            p = proj(820, GROUND, z, cam)
+            p = proj(830, GROUND, z, cam)
             k = 0
             for row in range(3):
                 for col in range(2 - row // 2):
@@ -296,31 +309,54 @@ def exterior(b, t):
         def arm(L):
             if b < 136: return
             d = ImageDraw.Draw(L)
-            k = ease(seg(b, 136, 138.5))
+            k = ease(seg(b, 136, 138.6))
             if b >= 139: k = 1
             hx, hy = A.get("_hand", (W / 2, H / 2))
-            tip = (lerp(W + 260, hx + 30, k), lerp(140, hy - 2, k))
-            base = (W + 220, 40)
-            elbow = (lerp(base[0], tip[0], 0.5) + 60, lerp(base[1], tip[1], 0.5) - 70)
-            DK = (96, 66, 40, 255); LT = (186, 142, 90, 255)
-            for p_, q_, w_ in ((base, elbow, 46), (elbow, tip, 34)):
+            hp = proj(HOUSE_X, GROUND, HOUSE_Z, cam); pvx, pvy = A["house_pv"]
+            root = (hp[0] - pvx + 300, hp[1] - pvy + 150)          # out of the house's middle box, right of the door
+            target = (hx + 34, hy - 6)
+            # shoulder rises out of the house, elbow arcs over, wrist comes down to her hand
+            sh = (root[0] + 40, root[1] - 70)
+            el = (lerp(sh[0], target[0], 0.5) + 30, min(sh[1], target[1]) - 120)
+            pts = [root, sh, el, target]
+            # grow along the chain as k goes 0 -> 1
+            L_ = [math.dist(pts[i_], pts[i_ + 1]) for i_ in range(3)]; tot = sum(L_) * k
+            chain = [root]
+            for i_ in range(3):
+                if tot <= 0: break
+                u = min(1, tot / L_[i_]); q = (lerp(pts[i_][0], pts[i_ + 1][0], u), lerp(pts[i_][1], pts[i_ + 1][1], u))
+                chain.append(q); tot -= L_[i_]
+            DK = (78, 52, 30, 255); LT = (196, 150, 96, 255)
+            for i_ in range(len(chain) - 1):
+                p_, q_ = chain[i_], chain[i_ + 1]; w_ = [40, 34, 28][i_]
                 d.line([p_, q_], fill=DK, width=w_)
-                n = 5
-                for i in range(n):
-                    u = (i + 0.5) / n; m = (lerp(p_[0], q_[0], u), lerp(p_[1], q_[1], u))
-                    d.line([(m[0] - w_ * 0.45, m[1] - w_ * 0.2), (m[0] + w_ * 0.45, m[1] + w_ * 0.2)], fill=LT, width=4)   # box seams
-            d.ellipse([elbow[0] - 30, elbow[1] - 30, elbow[0] + 30, elbow[1] + 30], fill=DK, outline=LT, width=4)
-            # cardboard hand: palm + three fingers, open toward her
-            px, py = tip
-            d.ellipse([px - 26, py - 20, px + 26, py + 20], fill=(206, 160, 104, 255), outline=DK, width=4)
-            for j in range(3):
-                d.line([(px - 14, py - 10 + j * 10), (px - 40, py - 14 + j * 12)], fill=(206, 160, 104, 255), width=11)
+                for m_ in range(4):
+                    u = (m_ + 0.5) / 4; m = (lerp(p_[0], q_[0], u), lerp(p_[1], q_[1], u))
+                    ang = math.atan2(q_[1] - p_[1], q_[0] - p_[0]) + math.pi / 2
+                    d.line([(m[0] - math.cos(ang) * w_ * 0.5, m[1] - math.sin(ang) * w_ * 0.5),
+                            (m[0] + math.cos(ang) * w_ * 0.5, m[1] + math.sin(ang) * w_ * 0.5)], fill=LT, width=3)
+                d.ellipse([q_[0] - w_ * 0.6, q_[1] - w_ * 0.6, q_[0] + w_ * 0.6, q_[1] + w_ * 0.6], fill=DK, outline=LT, width=3)
+            tip = chain[-1]
+            if k > 0.7:
+                # an open cardboard hand: palm, four fingers, thumb (reads in pure silhouette)
+                hs = 1.25
+                ang = math.atan2(tip[1] - chain[-2][1], tip[0] - chain[-2][0]) if len(chain) > 1 else math.pi
+                def R(px, py):
+                    return (tip[0] + (px * math.cos(ang) - py * math.sin(ang)) * hs, tip[1] + (px * math.sin(ang) + py * math.cos(ang)) * hs)
+                palm = [R(0, -14), R(26, -16), R(30, 14), R(0, 14)]
+                d.polygon(palm, fill=(214, 168, 110, 255), outline=DK)
+                for fy in (-12, -4, 4, 12):
+                    d.line([R(28, fy * 1.1), R(52, fy * 1.5)], fill=(214, 168, 110, 255), width=9)
+                d.line([R(8, 14), R(22, 32)], fill=(214, 168, 110, 255), width=9)
             A["_tip"] = tip
+            A["_tip_x"] = tip[0]
         items.append((3.0, arm))
     # foreground grass
     def grass(L):
         d = ImageDraw.Draw(L)
         C.grass_strip(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), seed=2, dens=110 if 112 <= b < 130 else 50)
+        if 130 <= b < 150:   # a near clump in front of the reaching arm
+            C.grass_clump(d, cam["x"], 1.5, t, wind, (30, 36, 26, 255), wx=1095, tall=520)
     items.append((1.5, grass))
 
     # composite back to front with depth fog slabs
@@ -368,8 +404,8 @@ def exterior(b, t):
                 gi = A["glow_big"].copy(); gi.putalpha(gi.split()[3].point(lambda v: int(v * k))); blit_center(canvas, gi, cx, cy)
         else:
             blit_center(canvas, A["glow_mid"], cx, cy)
-    if "_tip" in A and 136 <= b < 144:
-        tip = A["_tip"]; blit_center(canvas, A["glow_small"], tip[0], tip[1])
+    if "_tip" in A and 136 <= b < 140:
+        tip = A["_tip"]; g = A["glow_small"].copy(); g.putalpha(g.split()[3].point(lambda v: int(v * 0.45))); blit_center(canvas, g, tip[0], tip[1])
     if b >= 191 and "_eye" in A:
         cx, cy, er = A["_eye"]; soft = 1 - 0.6 * seg(b, 232, 256)
         gi = A["glow_mid"].copy(); gi.putalpha(gi.split()[3].point(lambda v: int(v * soft))); blit_center(canvas, gi, cx, cy)
@@ -460,18 +496,34 @@ def title(im, lines, b, b0, size=150, track=0.38, y0=None, alpha=1.0):
 def closeup(b, t):
     """Dawn close-up: near plane z = 1.9 holds the package; the world behind is out of focus (focus schedule)."""
     a = assets()
-    bg = exterior(b, t).filter(ImageFilter.GaussianBlur(7))
+    bg = exterior(b, t, hide_woman=True).filter(ImageFilter.GaussianBlur(7))
     s = 2.7
     x, y = 540, 790
     C.woman(bg, x, y, s, pose="stand", face=1, baby=True, color=(30, 22, 26), head_turn=1.5)
-    # the package in her arms: the box carries the producer's HANDLE WITH CARE label
-    px, py = x + 26 * s, y - 100 * s
+    # the package: an open box, and in it a swaddled baby (head, bundle, one raised fist) - pure silhouette
+    d = ImageDraw.Draw(bg)
+    px, py = x + 30 * s, y - 104 * s
+    SILB = (30, 22, 26, 255)
+    d.rectangle([px - 70, py - 10, px + 70, py + 60], fill=(176, 134, 84, 255), outline=SILB, width=5)
+    d.polygon([(px - 70, py - 10), (px - 104, py - 44), (px - 40, py - 44), (px - 10, py - 10)], fill=(150, 110, 66, 255), outline=SILB)
+    d.polygon([(px + 70, py - 10), (px + 104, py - 44), (px + 40, py - 44), (px + 10, py - 10)], fill=(150, 110, 66, 255), outline=SILB)
+    d.ellipse([px - 58, py - 46, px + 46, py + 6], fill=SILB)             # swaddled body
+    d.ellipse([px + 26, py - 64, px + 72, py - 18], fill=SILB)            # head
+    d.line([(px - 6, py - 40), (px - 18, py - 78)], fill=SILB, width=12)  # raised arm
+    d.ellipse([px - 30, py - 92, px - 8, py - 70], fill=SILB)             # fist
     lab = a["package"].img
-    k = 1 + 0.04 * math.sin((b - 232) * math.pi)
-    li = lab.resize((int(lab.width * 2.0 * k), int(lab.height * 2.0 * k)))
-    _ac(bg, li, px - li.width / 2, py - li.height / 2 + 18)
-    d = ImageDraw.Draw(bg); hr = 15                                      # the baby's head above the box rim
-    d.ellipse([px - hr, py - li.height / 2 - 2 * hr + 14, px + hr, py - li.height / 2 + 14], fill=(30, 22, 26, 255))
+    li = lab.resize((int(lab.width * 1.1), int(lab.height * 1.1)))
+    _ac(bg, li, px - li.width / 2, py + 14)                                # the label stays ON the box
+    # a near fog plane (z 1.2) parts over the baby at b233-235
+    k = ease(seg(b, 232.6, 235))
+    if k < 1:
+        f = a["fog"].slab(3, t * 40, 0, 0.97, (236, 214, 206), contrast=1.4, floor=0.75)
+        m = Image.new("L", (W, H), 255); dm = ImageDraw.Draw(m)
+        gap = 40 + 520 * k
+        dm.ellipse([px - gap * 1.3, py - gap, px + gap * 1.3, py + gap], fill=0)
+        m = m.filter(ImageFilter.GaussianBlur(40))
+        f.putalpha(Image.fromarray((np.asarray(f.split()[3], np.float32) * np.asarray(m, np.float32) / 255).astype(np.uint8)))
+        bg.alpha_composite(f)
     # morning light on them
     blit_center(bg, a["glow_big"], px + 40, py - 60)
     draw_message(bg, b, (W / 2 + 200, 80))
