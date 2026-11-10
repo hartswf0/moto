@@ -1,0 +1,541 @@
+{
+ "id": "corrugated-sky",
+ "audio": "/home/user/moto/Et tu, Brute (BOXBACK)/Et tu, Brute_ - Corrugated Sky - Treblo.ogg",
+ "orch_dir": "/home/user/moto/scion/jelly-cuts/work/orch",
+ "sources": {
+  "film": {
+   "kind": "film",
+   "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+  },
+  "alarm-clock": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/alarm-clock-sam/frames"
+  },
+  "coffee-cup": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/coffee-cup-sam/frames"
+  },
+  "frying-pan": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/frying-pan-sam/frames"
+  },
+  "stove": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/stove-sam/frames"
+  },
+  "dog": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/dog-sam/frames"
+  },
+  "door": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/door-sam/frames"
+  },
+  "umbrella": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/umbrella-sam/frames"
+  },
+  "light-bulb": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/light-bulb-sam/frames"
+  },
+  "lantern": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/lantern-sam/frames"
+  },
+  "cloud": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/cloud-sam/frames"
+  },
+  "hand": {
+   "kind": "shot",
+   "frames": "/home/user/secondhand-motion/shots/hand-sam/frames"
+  }
+ },
+ "films": [
+  {
+   "src": "alarm-clock",
+   "by": 6,
+   "t": [
+    14,
+    30
+   ],
+   "condense": [
+    15,
+    18
+   ],
+   "bloom": [
+    19,
+    23
+   ],
+   "size": 260,
+   "bloom_size": 520,
+   "label": "THE SENTINEL gathers an alarm clock",
+   "credit": "This Is Coffee (1961) \u00b7 public domain"
+  },
+  {
+   "src": "film",
+   "by": 1,
+   "t": [
+    20,
+    52
+   ],
+   "condense": [
+    21,
+    25
+   ],
+   "bloom": [
+    28,
+    44
+   ],
+   "size": 300,
+   "bloom_size": 720,
+   "label": "THE FILM BELL blooms the house waking",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "dim": 0.4,
+   "aspect": 0.5625,
+   "offset": [
+    -160,
+    -40
+   ],
+   "pitch": 4.0,
+   "bloom_pitch_add": 0.4,
+   "fog": 0.25
+  },
+  {
+   "src": "coffee-cup",
+   "by": 7,
+   "t": [
+    30,
+    50
+   ],
+   "condense": [
+    31,
+    34
+   ],
+   "bloom": [
+    0,
+    0
+   ],
+   "size": 230,
+   "bloom_size": 230,
+   "label": "THE CELLULOID TWINS gathers a cup",
+   "credit": "Biologist Caye Johnson Explains How NASA Searched for Life from the Moon \u00b7 public domain"
+  },
+  {
+   "src": "frying-pan",
+   "by": 8,
+   "t": [
+    34,
+    52
+   ],
+   "condense": [
+    35,
+    38
+   ],
+   "bloom": [
+    0,
+    0
+   ],
+   "size": 220,
+   "bloom_size": 220,
+   "label": "THE CELLULOID TWINS gathers a pan",
+   "credit": "Don't Be Afraid (1953) \u00b7 public domain"
+  },
+  {
+   "src": "stove",
+   "by": 3,
+   "t": [
+    44,
+    64
+   ],
+   "condense": [
+    45,
+    48
+   ],
+   "bloom": [
+    49,
+    53
+   ],
+   "size": 240,
+   "bloom_size": 520,
+   "label": "THE GLASS MOON gathers a stove",
+   "credit": "[Frigidaire Imperial Line] (1956) \u00b7 public domain"
+  },
+  {
+   "src": "dog",
+   "by": 2,
+   "t": [
+    66,
+    77
+   ],
+   "condense": [
+    67,
+    70
+   ],
+   "bloom": [
+    70.5,
+    73.5
+   ],
+   "size": 260,
+   "bloom_size": 520,
+   "label": "THE AFTERLIGHT MEDUSA gathers a dog",
+   "credit": "Amateur Film New Jersey C \u00b7 public domain"
+  },
+  {
+   "src": "film",
+   "by": 1,
+   "t": [
+    72.5,
+    92.5
+   ],
+   "condense": [
+    73.5,
+    75.5
+   ],
+   "bloom": [
+    76,
+    89
+   ],
+   "size": 320,
+   "bloom_size": 820,
+   "label": "THE FILM BELL blooms the gate",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "dim": 0.5,
+   "aspect": 0.5625,
+   "offset": [
+    -160,
+    -40
+   ],
+   "pitch": 4.0,
+   "bloom_pitch_add": 0.4,
+   "fog": 0.25
+  },
+  {
+   "src": "hand",
+   "by": 2,
+   "t": [
+    88,
+    100
+   ],
+   "condense": [
+    89,
+    92
+   ],
+   "bloom": [
+    92.5,
+    95.5
+   ],
+   "size": 240,
+   "bloom_size": 520,
+   "label": "THE AFTERLIGHT MEDUSA gathers a hand letting go",
+   "credit": "Door to Heaven (1941) \u00b7 public domain"
+  },
+  {
+   "src": "lantern",
+   "by": 3,
+   "t": [
+    94,
+    112
+   ],
+   "condense": [
+    95,
+    98
+   ],
+   "bloom": [
+    100,
+    104
+   ],
+   "size": 240,
+   "bloom_size": 520,
+   "label": "THE GLASS MOON gathers a lamp",
+   "credit": "Anthracite: Pre-Shift Examinations of Underground Mines \u00b7 public domain"
+  },
+  {
+   "src": "film",
+   "by": 1,
+   "t": [
+    100,
+    128
+   ],
+   "condense": [
+    101,
+    104
+   ],
+   "bloom": [
+    106,
+    124
+   ],
+   "size": 280,
+   "bloom_size": 720,
+   "label": "THE FILM BELL blooms the fire",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "dim": 0.4,
+   "aspect": 0.5625,
+   "offset": [
+    -160,
+    -40
+   ],
+   "pitch": 4.0,
+   "bloom_pitch_add": 0.4,
+   "fog": 0.25
+  },
+  {
+   "src": "light-bulb",
+   "by": 3,
+   "t": [
+    112,
+    126
+   ],
+   "condense": [
+    113,
+    116
+   ],
+   "bloom": [
+    0,
+    0
+   ],
+   "size": 220,
+   "bloom_size": 220,
+   "label": "THE GLASS MOON gathers a bulb",
+   "credit": "Light Of Your Life \u00b7 public domain"
+  },
+  {
+   "src": "door",
+   "by": 0,
+   "t": [
+    116,
+    130
+   ],
+   "condense": [
+    117,
+    120
+   ],
+   "bloom": [
+    121,
+    124
+   ],
+   "size": 240,
+   "bloom_size": 520,
+   "label": "THE SEWER CREATURE gathers a door",
+   "credit": "Straight Talk \u00b7 public domain"
+  },
+  {
+   "src": "umbrella",
+   "by": 4,
+   "t": [
+    124,
+    140
+   ],
+   "condense": [
+    125,
+    128
+   ],
+   "bloom": [
+    129,
+    133
+   ],
+   "size": 250,
+   "bloom_size": 520,
+   "label": "THE DOODLE SPARKS gathers an umbrella",
+   "credit": "Amateur film: Summers collection, San Francisco, 1941 \u00b7 public domain"
+  },
+  {
+   "src": "cloud",
+   "by": 5,
+   "t": [
+    126,
+    142
+   ],
+   "condense": [
+    127,
+    130
+   ],
+   "bloom": [
+    0,
+    0
+   ],
+   "size": 260,
+   "bloom_size": 260,
+   "label": "THE DOODLE SPARKS gathers a cloud",
+   "credit": "Top Of The Cloud - Time Lapse \u00b7 public domain"
+  },
+  {
+   "src": "film",
+   "by": 1,
+   "t": [
+    128,
+    145.7
+   ],
+   "condense": [
+    129,
+    132
+   ],
+   "bloom": [
+    133,
+    141
+   ],
+   "size": 280,
+   "bloom_size": 720,
+   "label": "THE FILM BELL blooms the rain",
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "dim": 0.4,
+   "aspect": 0.5625,
+   "offset": [
+    -160,
+    -40
+   ],
+   "pitch": 4.0,
+   "bloom_pitch_add": 0.4,
+   "fog": 0.25
+  }
+ ],
+ "cards": [
+  {
+   "kind": "title",
+   "t": [
+    0.3,
+    7.6
+   ],
+   "lines": [
+    "CORRUGATED",
+    "SKY"
+   ],
+   "sub": "JELLY CUT \u00b7 BOXBACK 11 \u00b7 THE JELLY ORCHESTRA",
+   "y": 190
+  },
+  {
+   "kind": "cast",
+   "t": [
+    8,
+    15.5
+   ],
+   "members": [
+    [
+     "THE SENTINEL OF THE SILT FLOOR",
+     "the kick \u00b7 keeps the house's clock"
+    ],
+    [
+     "THE CELLULOID TWINS OF THE KITCHEN",
+     "the snare \u00b7 want the table set"
+    ],
+    [
+     "THE DOODLE SPARKS OF THE RAIN LINE",
+     "the hats \u00b7 want to fall"
+    ],
+    [
+     "THE SEWER CREATURE UNDER THE FLOOR",
+     "the sub \u00b7 wants the house to stand"
+    ],
+    [
+     "THE GLASS MOON OF THE PORCH",
+     "the choir \u00b7 wants to keep the light on"
+    ],
+    [
+     "THE FILM BELL OF THE WALL",
+     "the bed \u00b7 holds the family's film, wants it back"
+    ],
+    [
+     "THE AFTERLIGHT MEDUSA AT THE GATE",
+     "the call \u00b7 wants an answer, then to let go"
+    ]
+   ]
+  },
+  {
+   "kind": "title",
+   "t": [
+    141.6,
+    145.7
+   ],
+   "lines": [
+    "CORRUGATED",
+    "SKY"
+   ],
+   "sub": "archive: public domain \u00b7 archive.org, NASA",
+   "y": 200
+  }
+ ],
+ "ledger": {
+  "alarm-clock": {
+   "title": "This Is Coffee (1961)",
+   "url": "https://archive.org/details/ThisisCo1961",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/alarm-clock-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "coffee-cup": {
+   "title": "Biologist Caye Johnson Explains How NASA Searched for Life from the Moon",
+   "url": "https://images.nasa.gov/details/ARC-20190708-AAV3208-LunarBioLab-JohnsonNarration-NASAWeb-24fps",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/coffee-cup-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "frying-pan": {
+   "title": "Don't Be Afraid (1953)",
+   "url": "https://archive.org/details/DontBeAf1953",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/frying-pan-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "stove": {
+   "title": "[Frigidaire Imperial Line] (1956)",
+   "url": "https://archive.org/details/Frigidai1956",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/stove-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "dog": {
+   "title": "Amateur Film New Jersey C",
+   "url": "https://archive.org/details/NewJerseyC",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/dog-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "door": {
+   "title": "Straight Talk",
+   "url": "https://archive.org/details/gov.ntis.ava19144vnb1",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/door-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "umbrella": {
+   "title": "Amateur film: Summers collection, San Francisco, 1941",
+   "url": "https://archive.org/details/Summersc1941",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/umbrella-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "light-bulb": {
+   "title": "Light Of Your Life",
+   "url": "https://archive.org/details/LightOfYourL_2",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/light-bulb-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "lantern": {
+   "title": "Anthracite: Pre-Shift Examinations of Underground Mines",
+   "url": "https://archive.org/details/gov.msha.dvd614",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/lantern-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "cloud": {
+   "title": "Top Of The Cloud - Time Lapse",
+   "url": "https://archive.org/details/CEP391",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/cloud-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "hand": {
+   "title": "Door to Heaven (1941)",
+   "url": "https://archive.org/details/DoortoHe1941",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/hand-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  "film": {
+   "title": "Corrugated Sky (SCION 02 Reiniger), BOXBACK track 11",
+   "url": "moto/scion/corrugated-sky/",
+   "rights": "producer's own work"
+  },
+  "orchestra": {
+   "title": "The Jelly Orchestra (bonus/jellyorchestra.html) and drift rigs",
+   "url": "hartswf0/contaminant-jelly",
+   "rights": "producer's own work"
+  },
+  "song": {
+   "title": "Et tu, Brute - Corrugated Sky (Treblo)",
+   "url": "moto/Et tu, Brute (BOXBACK)/",
+   "rights": "producer's own work, unaltered"
+  }
+ }
+}

@@ -65,7 +65,7 @@ These are **structural**: computed from the trajectories, not tracked from the p
 * All boxes, points, trails and cards are drawn in code.
 * Two title/end plates are motion-blurred crops of the producer's own BOXBACK art (`source-ledger.json`).
 * Bells and key clicks are synthesised (`score.py`) in the song's measured key (A♭ major / F minor) and mixed at −10 dB under the unaltered song.
-* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**; the r2 repairs are applied. Critic round 2: the **proof passes** and the **film is "reference stronger"** (conditions 3–6 met; the largest gap is the 122–140 s stall); the r3 repairs are applied. Critic round 3: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 7 met); the Making section is repaired in r4, and the check is pending.
+* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**; the r2 repairs are applied. Critic round 2: the **proof passes** and the **film is "reference stronger"** (conditions 3–6 met; the largest gap is the 122–140 s stall); the r3 repairs are applied. Critic round 3: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 7 met); the Making section is repaired in r4. Critic round 4: the **proof passes** and the **film is "reference stronger"** (conditions 1, 2, 5 and 6 met); the r5 repairs are applied, and the check is pending.
 
 ### r2 rows (after critic round 1)
 
@@ -92,5 +92,14 @@ These are **structural**: computed from the trajectories, not tracked from the p
 
 | technique | applies when | proof | observed failure (critic) | repair | rejected |
 |---|---|---|---|---|---|
-| Conveyor lane + top drop | building a stack while the rest of the field keeps moving | b160–238 | orbit crossed the stack, box 5 sat on box 10 (30%), boxes covered FIRST STEP, edge clipping | one upright lane (an ellipse 570×262) outside the stack footprint and inside the safe area; each box's lane phase puts it at the top on its departure beat; down into a free band, across, then straight down into its slot (bottom-up keeps the column empty); test H1: overlap 0.000, 0 label hits, edge ≥ 10 px | two 3:2 ellipses (crossed the stack); harmonic arcs |
+| Conveyor loop + top drop | building a stack while the rest of the field keeps moving | b160–238 | orbit crossed the stack, box 5 sat on box 10 (30%), boxes covered FIRST STEP, edge clipping | one elliptical conveyor loop of upright boxes AROUND the stack (570×262 on y 420): it passes below row 1 and above the roof, ≥ 11.5 px clear of the stack (test M3), and reads as an arc once most boxes have landed; each box's lane phase puts it at the top on its departure beat; down into a free band, across, then straight down into its slot (bottom-up keeps the column empty); test H1: overlap 0.000, 0 label hits, edge ≥ 10 px | two 3:2 ellipses (crossed the stack); harmonic arcs |
 | Face-filling numerals | tags must read on a phone | beam, footer | tags 3–4 px at 360 px | a full-height beam with a big "7"; a short 66 px footer | long text tags |
+
+### r5 rows (after critic round 4)
+
+| technique | applies when | proof | observed failure (critic) | repair | rejected |
+|---|---|---|---|---|---|
+| Subordinate release | a later passage must not outshine the climax | b324–355 | the release ring moved 20.1 against the peak's 11.0 | the same 3:2 at 0.75 : 0.5 laps on smaller ellipses, no trails, decaying to a stop and fading in place; every window after 140 s ≤ 6.5 vs a 7.9 peak (test M1) | dimming alone |
+| In-frame entries | boxes appear or disappear | b32–48, b348–368 | boxes clipped at the top edge on entry and exit | rise to the safe top and fade; fade in at the safe top; nothing crosses the frame edge (test M2, rendered pixels) | entry from off-frame |
+| Outline flashes | a landing must be marked without hiding the label | landings, rain, home | rings drawn over the box numbers | a rectangle outline outside the box face | central rings |
+| One layer at a time | boxes ↔ constellation | b304–306, b322–324, b369–372 | points drawn over the faces | boxes fade out first, then the points come up; reversed on the way back | crossfade |

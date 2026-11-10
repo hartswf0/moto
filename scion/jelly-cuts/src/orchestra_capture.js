@@ -7,7 +7,7 @@ const { chromium } = require('playwright'); const fs = require('fs');
   const p = await b.newPage({ viewport: { width: 1280, height: 720 }, deviceScaleFactor: 1 });
   const errs = []; p.on('pageerror', e => errs.push(e.message)); p.on('console', m => { if (m.type() === 'error') errs.push(m.text()); });
   await p.goto('http://localhost:8766/moto/scion/jelly-cuts/src/orchestra.html'); await p.waitForFunction(() => window.__ready, null, { timeout: 60000 });
-  const cast = await p.evaluate(([C, o]) => window.__init(C, o), [C, { formation: form === undefined ? 3 : +form, hue: hue === undefined ? .07 : +hue }]);
+  const cast = await p.evaluate(([C, o]) => { if (o.shots) window.__SHOTSEQ = o.shots; return window.__init(C, o); }, [C, { formation: form === undefined ? 3 : +form, hue: hue === undefined ? .07 : +hue, shots: process.env.SHOTS ? JSON.parse(process.env.SHOTS) : null }]);
   fs.writeFileSync(out + '/cast_members.json', JSON.stringify(cast));
   // warm-up so jellies rise into formation deterministically from t0-4s
   for (let t = Math.max(0, t0 - 4); t < t0; t += 1 / fps) await p.evaluate(t => { window.__step(t); return 0; }, t);
