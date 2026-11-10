@@ -116,7 +116,10 @@ def ring(b, b0=52.0, span=20.0, R=R_RING, sep=60.0, floor=36.0, squash=0.80, spi
 
 
 ELL_A, ELL_B, ELL_C = (600.0, 330.0), (500.0, 260.0), (640.0, 400.0)       # making orbit (encloses the house)
-REL_A, REL_B, REL_C = (560.0, 280.0), (460.0, 220.0), (640.0, 380.0)       # release rings: inside y <= 700
+REL_A, REL_B, REL_C = (440.0, 230.0), (350.0, 170.0), (640.0, 390.0)       # release rings: inside y <= 700
+
+
+SAFE_TOP = 112.0
 
 
 def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
@@ -124,7 +127,7 @@ def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
     u = min(1, max(0, (b - b0) / span))
     P = np.zeros((N, 2)); ang = np.zeros(N)
     for j in range(N):
-        i, k = j % 10, (3 if j < 10 else 2)
+        i, k = j % 10, (1.5 if j < 10 else 1.0)        # still 3:2, half the speed: the release is not a second climax
         th = -math.pi / 2 + i * 2 * math.pi / 10 + k * 2 * math.pi * u + spin
         rx, ry = REL_A if j < 10 else REL_B
         P[j] = (REL_C[0] + rx * math.cos(th), REL_C[1] + ry * math.sin(th)); ang[j] = th
@@ -299,8 +302,8 @@ def beam_plato(b, bp0):
     if b < 240: return bp0
     if b < 241.2: return lerp2(bp0, (bp0[0], HOVER[1]), ease((b - 240) / 1.2))  # directed: up the left side ...
     if b < 241.7: return lerp2((bp0[0], HOVER[1]), HOVER, ease((b - 241.2) / 0.5))  # ... over the house ...
-    if b < 242: return lerp2(HOVER, (640, 290), ein((b - 241.7) / 0.3))           # ... down onto the roof ...
-    if b < 243.5: return lerp2((640, 290), HOVER, eout((b - 242) / 1.5))         # ... refused: rebound
+    if b < 242: return lerp2(HOVER, (640, 272), ein((b - 241.7) / 0.3))   # stops short: it does not fit           # ... down onto the roof ...
+    if b < 243.5: return lerp2((640, 272), HOVER, eout((b - 242) / 1.5))         # ... refused: rebound
     if b < 256.5: return (HOVER[0], HOVER[1] + 5 * math.sin((b - 243.5) * math.pi))
     if b < 258: return lerp2(HOVER, SLOT_F[BEAM], ein((b - 256.5) / 1.5))        # drops into the cleared row
     return SLOT_F[BEAM]
@@ -318,15 +321,17 @@ def state(b):
             if b < rs:
                 P[j] = F_ARR[j]; face[j] = 0.0; gl[j] = 0.9
             elif b < rs + 1.2:
-                u = (b - rs) / 1.2
-                P[j] = (F_ARR[j][0], F_ARR[j][1] + (-90 - F_ARR[j][1]) * ein(u)); face[j] = ease(u / 0.3)
+                u = (b - rs) / 1.2              # materialise, rise to the safe top, fade out there (never leaves the frame)
+                P[j] = (F_ARR[j][0], F_ARR[j][1] + (SAFE_TOP - F_ARR[j][1]) * ein(u))
+                face[j] = ease(u / 0.25) * (1 - ease((u - 0.55) / 0.45)); gl[j] = 0.7 * face[j]
             elif b < gs:
-                P[j] = (F_ARR[j][0], -200)                                  # off screen, waiting above
+                P[j] = (F_ARR[j][0], SAFE_TOP); face[j] = 0.0; gl[j] = 0.0
             else:
-                u = min(1, (b - gs) / 1.4)
+                u = min(1, (b - gs) / 1.4)      # fade in at the safe top above the ring slot, drop into it
                 tgt = _R0[j]
-                P[j] = (tgt[0], -90 + (tgt[1] + 90) * (1 - (1 - u) ** 2)); rotd[j] = math.degrees(_A0[j]) + 90
-        gl[:] = np.where(face > 0, 0.7, gl)
+                y0 = min(SAFE_TOP, tgt[1])
+                P[j] = (tgt[0], y0 + (tgt[1] - y0) * (1 - (1 - u) ** 2)); rotd[j] = math.degrees(_A0[j]) + 90
+                face[j] = ease(u / 0.3); gl[j] = 0.7 * face[j]
     elif b < 80:
         P, ang = ring(b)
         rotd = np.degrees(ang) + 90
@@ -386,8 +391,10 @@ def state(b):
             P[j] = (F_ARR[j][0] + dx[ROW_OF[j]], F_ARR[j][1])
         gl[:] = 0.55 + 0.25 * math.exp(-5 * (b % 1)) + 0.4 * acc_env(b)
         if 304 <= b < 324:
-            f = 1 - ease((b - 304) / 2) if b < 316 else (0.0 if b < 322 else ease((b - 322) / 2))
-            face[:] = f; gl[:] = 0.9
+            if b < 316:
+                face[:] = 1 - ease((b - 304) / 1); gl[:] = 0.55 + 0.35 * ease((b - 305) / 1)
+            else:
+                face[:] = ease((b - 323) / 1); gl[:] = 0.9 - 0.4 * ease((b - 322) / 1)
     elif b < 348:
         # open the house the way the re-lock captures the bank: collapse to points, travel, regrow on the ring
         k = ease((b - 324.8) / 2.2)
@@ -398,18 +405,19 @@ def state(b):
         gl[:] = 0.85
     elif b < RAIN_END + 1e-9 or b < 400:
         # the field lifts away (b348-354.9) while turning, then the house rains back row by row
-        lift = 820 * ease((b - 348) / 6.9)
-        Pr, ang = ellipse_ring(348, spin=2 * math.pi * (b - 348) / 16)
+        Pr, ang = ellipse_ring(348, spin=2 * math.pi * (1 - math.exp(-(b - 348) / 4)) / 8)   # decays to a stop
         for j in range(N):
             r0 = RAIN[j]
             if b < r0:
-                P[j] = (Pr[j][0], Pr[j][1] - lift); rotd[j] = math.degrees(ang[j]) + 90
+                P[j] = Pr[j]; rotd[j] = math.degrees(ang[j]) + 90
+                face[j] = 1 - ease((b - 348) / 5); gl[j] = 0.6 * face[j]
             else:
                 u = min(1, (b - r0) / 1.25)
-                P[j] = (SLOT_F[j][0], -90 + (SLOT_F[j][1] + 90) * ein(u))
+                P[j] = (SLOT_F[j][0], SAFE_TOP + (SLOT_F[j][1] - SAFE_TOP) * ein(u))
+                face[j] = ease(u / 0.25)
                 gl[j] = 0.6 + 0.4 * math.exp(-5 * max(0, b - r0 - 1.25))
-        if b >= 369:
-            face[:] = 1 - ease((b - 369) / 3); gl[:] = 0.9                 # back to the constellation
+        if b >= 369:                    # boxes fade out first, then the constellation comes up
+            face[:] = 1 - ease((b - 369) / 2); gl[:] = 0.5 + 0.4 * ease((b - 370.5) / 1.5)
     return P, rotd, sc, gl, face
 
 
@@ -520,7 +528,6 @@ def trail_len(b):
     if 80 <= b < 112: return 10
     if 112 <= b < 160: return int(10 + 26 * min(1, (b - 112) / 16)) if b < 144 else int(36 - 26 * ease((b - 144) / 16))
     if 160 <= b < 238: return 8
-    if 328 <= b < 348: return 16
     if ACC_B0 <= b < ACC_B1: return int(6 + 30 * acc_env(b))
     return 0
 
@@ -594,6 +601,13 @@ def render_frame(f):
             if be["kind"] in ("lock", "unlock", "relock"):          # the star: rays from the centre to every box
                 for p in P:
                     gd.line([(CX, CY), tuple(p)], fill=(int(255 * k), int(255 * k), int(255 * k)), width=2)
+            if be["kind"] in ("land", "rain", "reseat", "beam_lands", "home", "collision"):
+                js = [be["id"]] if "id" in be else ([BEAM] if be["kind"] in ("beam_lands", "collision") else list(range(N)))
+                for j in js:                    # an outline OUTSIDE the box face: the label stays clear
+                    m = 9 + 10 * (1 - k)
+                    x, y = P[j]; w2, h2 = box_w(j, b) / 2 + m, box_h(j) / 2 + m
+                    gd.rectangle([x - w2, y - h2, x + w2, y + h2], outline=(int(255 * k), int(240 * k), int(200 * k)), width=3)
+                continue
             for (x, y) in be["where"]:
                 r = 16 * k + 4
                 gd.ellipse([x - r, y - r, x + r, y + r], outline=(int(255 * k), int(240 * k), int(200 * k)), width=3)

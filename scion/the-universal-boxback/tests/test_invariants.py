@@ -178,6 +178,39 @@ beam_label_px = a_["box"][film.BEAM].img.getbbox()   # sprite size; the numeral 
 fb7 = film.font(film.FONT_STENCIL, 56 * 1.12).getbbox("7"); ffoot = a_["f_cap"].getbbox("BOXBACK")
 check("H3 beam numeral and footer >= 12 px tall at 360 px", min(fb7[3] - fb7[1], ffoot[3] - ffoot[1]) * 360 / 1280 >= 12,
       beam_7_px=round((fb7[3] - fb7[1]) * 360 / 1280, 1), footer_px=round((ffoot[3] - ffoot[1]) * 360 / 1280, 1))
-json.dump({"film": "the-universal-boxback", "revision": "r4", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
+
+# ===== critic round 4 =====
+def frame_px(f): return np.asarray(film.render_frame(f), np.int16)
+# M1 after 140 s no 4 s window moves more than the 3:2 peak (132-136 s): mean |frame - previous frame|
+def motion(t0, t1, step=3):
+    v = []
+    for f in range(int(t0 * 24), int(t1 * 24) - 1, step):
+        v.append(float(np.abs(frame_px(f + 1) - frame_px(f)).mean()))
+    return float(np.mean(v))
+peak = motion(132, 136)
+wins = {f"{a}-{a + 4}": round(motion(a, min(a + 4, 171.0)), 3) for a in range(140, 172, 4)}
+check("M1 every 4 s window after 140 s moves less than the 132-136 s peak", max(wins.values()) < peak, peak_132_136=round(peak, 3), windows=wins)
+# M2 rendered pixels: nothing lit (max channel > 40) within 8 px of any edge after 7.5 s
+hits = []
+for f in range(int(7.5 * 24), int((film.DUR - 2.5) * 24), 4):
+    im = np.asarray(film.render_frame(f)).max(2) > 40
+    border = np.concatenate([im[:8].ravel(), im[-8:].ravel(), im[:, :8].ravel(), im[:, -8:].ravel()])
+    if border.any(): hits.append(round(f / 24, 2))
+check("M2 rendered pixels: no lit pixel within 8 px of an edge after 7.5 s (every 4th frame)", not hits, frames_checked=len(range(int(7.5 * 24), int((film.DUR - 2.5) * 24), 4)), hits=hits[:10])
+# M3 the conveyor is a loop AROUND the stack: lane boxes never closer than 8 px to any landed box (73-110 s)
+gap = 1e9
+for q in range(int(73 * 4), int(110 * 4) + 1):
+    b = fb(int(round(q / 4 * 24)))
+    if b < 164: continue
+    P, r, sc, gl, face = film.state(b)
+    landed = [j for k, j in enumerate(film.MAKE_ORDER) if b >= film.land_beat(k)]
+    lane = [j for k, j in enumerate(film.MAKE_ORDER) if b < film.land_beat(k) - 2] + ([film.BEAM] if b < 240 else [])
+    for i in lane:
+        for j in landed:
+            dx = abs(P[i][0] - P[j][0]) - (film.box_w(i, b) + film.box_w(j, b)) / 2
+            dy = abs(P[i][1] - P[j][1]) - (film.box_h(i) + film.box_h(j)) / 2
+            gap = min(gap, max(dx, dy))
+check("M3 conveyor loop stays >= 8 px clear of the stack", gap >= 8, min_gap_px=round(gap, 1))
+json.dump({"film": "the-universal-boxback", "revision": "r5", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
           open(os.path.join(HERE, "invariants.json"), "w"), indent=1, default=str)
 sys.exit(0 if all(r["pass"] for r in R) else 1)

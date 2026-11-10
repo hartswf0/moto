@@ -86,13 +86,13 @@ def camera(b):
     if b < 64:
         wx = woman_path(b)[0]; return {"x": lerp(-200, wx + 220, ease(seg(b, 40, 44))), "y": 0.0}
     if b < 96:
-        return {"x": lerp(1060, 900, seg(b, 64, 96)), "y": 0.0}
+        return {"x": lerp(1200, 900, ease(seg(b, 64, 96))), "y": 0.0}     # round 4: continuous with the follow at b64
     if b < 112:
-        return {"x": lerp(900, 640, seg(b, 96, 111)), "y": 0.0}
+        return {"x": lerp(900, 820, seg(b, 96, 112)), "y": 0.0}           # wide storm framing; she walks out left
     if b < 130:
         # midpoint between her and the house: both her and the light stay in frame from b112
         wx = woman_path(b)[0]; mid = 0.6 * wx + 0.4 * HOUSE_X
-        return {"x": lerp(640, mid, ease(seg(b, 111, 112))), "y": 0.0}
+        return {"x": mid, "y": 0.0}                                       # round 4: hard cut on the b112 frame
     if b < 140:   # drift while she is lost, settling so she is centred and the house stands beside her (round 2)
         # cam >= 1094 keeps the z 2.0 box stack (world 830-988) clear of her (solved from the projection)
         return {"x": lerp(1000, 1100, ease(seg(b, 130, 135))) + 6 * math.sin((b - 130) * 0.7) * (1 - seg(b, 135, 136)), "y": 0.0}
@@ -283,7 +283,7 @@ def exterior(b, t, hide_woman=False):
         items.append((wz, wfn))
 
     # occluders and props in front of her
-    if 64 <= b < 150:
+    if 40 <= b < 150:
         def laundry(L):
             d = ImageDraw.Draw(L)
             for k, (lx, lz) in enumerate(([(560, 3.3)] if b < 112 else [(530, 2.7)])):
@@ -559,6 +559,101 @@ def closeup(b, t):
     return bg
 
 
+CAPTIONS = True
+
+
+def baby_face_profile(c, r, th):
+    """Baby head polygon: back of skull as an arc, face as an explicit profile (brow, eye socket, nose, lips, chin).
+    th = facing direction (rad). Returns (polygon, face_points, eye_arc_points)."""
+    n = (math.cos(th), math.sin(th)); tdir = (math.sin(th), -math.cos(th))     # tdir: forehead -> chin
+    tdir = (-tdir[0], -tdir[1]) if tdir[1] < 0 else tdir
+    bumps = [(-0.80, 0), (-0.62, 4), (-0.42, 12), (-0.30, 2), (-0.18, -6), (-0.04, 8), (0.10, 24), (0.22, 4), (0.32, 12),
+             (0.40, -2), (0.48, 10), (0.58, 0), (0.70, 8), (0.82, 0)]
+    face = []
+    for i in range(len(bumps) - 1):
+        (u0, v0), (u1, v1) = bumps[i], bumps[i + 1]
+        for k in range(6):
+            q = k / 6; u = u0 + (u1 - u0) * q; v = v0 + (v1 - v0) * (0.5 - 0.5 * math.cos(math.pi * q))
+            base = r * math.sqrt(max(0.0, 1 - u * u)) * 0.92
+            face.append((c[0] + n[0] * (base + v) + tdir[0] * u * r, c[1] + n[1] * (base + v) + tdir[1] * u * r))
+    face.append((c[0] + n[0] * r * 0.92 * math.sqrt(1 - 0.82 ** 2) + tdir[0] * 0.82 * r, c[1] + n[1] * r * 0.92 * math.sqrt(1 - 0.82 ** 2) + tdir[1] * 0.82 * r))
+    a0 = math.atan2(face[-1][1] - c[1], face[-1][0] - c[0]); a1 = math.atan2(face[0][1] - c[1], face[0][0] - c[0])
+    # back of the head: go the long way round from chin to forehead
+    d = (a1 - a0) % (2 * math.pi)
+    if d < math.pi: d -= 2 * math.pi
+    back = [(c[0] + math.cos(a0 + d * k / 40) * r * 1.02, c[1] + math.sin(a0 + d * k / 40) * r * 1.02) for k in range(1, 40)]
+    eye_c = (c[0] + n[0] * r * 0.62 - tdir[0] * 0.20 * r, c[1] + n[1] * r * 0.62 - tdir[1] * 0.20 * r)
+    eye = [(eye_c[0] + tdir[0] * (k - 3) * 4 + n[0] * (-abs(k - 3) * 1.6 + 4), eye_c[1] + tdir[1] * (k - 3) * 4 + n[1] * (-abs(k - 3) * 1.6 + 4)) for k in range(7)]
+    return face + back, face, eye
+
+
+CLOSE = {"baby_c": (760, 440), "baby_r": 92, "baby_th": math.radians(205), "her_c": (300, 150), "her_r": 150}
+
+
+def close_plate(b, t, captions=True):
+    a = assets()
+    bg = exterior(b, t, hide_woman=True).filter(ImageFilter.GaussianBlur(16))            # far world goes soft
+    bg = Image.blend(bg, Image.new("RGBA", (W, H), (40, 30, 40, 255)), 0.25)
+    blit_center(bg, a["glow_big"].resize((520, 520)), 580, 250)                            # the house glow between their faces
+    d = ImageDraw.Draw(bg)
+    INKC = (28, 20, 24, 255); CLOTH = (78, 60, 66, 255); FOLD = (150, 118, 112, 255); RIM = (255, 214, 150, 255)
+    # her: head inclined toward the baby; profile with brow, nose, lips, chin facing down-right
+    hc, hr = CLOSE["her_c"], CLOSE["her_r"]
+    her_poly, her_face, _ = baby_face_profile(hc, hr, math.radians(28))
+    d.polygon(her_poly, fill=INKC)
+    d.polygon([(hc[0] - 120, hc[1] + 60), (hc[0] + 90, hc[1] + 140), (hc[0] + 60, 720), (-40, 720), (-40, hc[1] + 60)], fill=INKC)   # neck/shoulder
+    d.polygon([(hc[0] - 150, hc[1] - 40), (hc[0] + 40, hc[1] - 170), (hc[0] + 120, hc[1] - 110), (hc[0] - 60, hc[1] + 10)], fill=INKC)  # head-wrap
+    d.line(her_face, fill=RIM, width=4, joint="curve")
+    # swaddle: wrapped body sloping away to the lower right, a hood around the back of the head
+    c, r, th = CLOSE["baby_c"], CLOSE["baby_r"], CLOSE["baby_th"]
+    body = [(c[0] - 40, c[1] + 40), (c[0] + 60, c[1] - 70), (c[0] + 250, c[1] - 40), (c[0] + 420, c[1] + 60), (c[0] + 470, c[1] + 180),
+            (c[0] + 380, c[1] + 300), (c[0] + 60, c[1] + 300), (c[0] - 80, c[1] + 200)]
+    d.polygon(body, fill=CLOTH)
+    # the blanket wraps diagonally across the body (a swaddle, not rings): two long folds and the tucked edge
+    for (p0, p1, p2) in [((c[0] + 40, c[1] + 230), (c[0] + 200, c[1] + 70), (c[0] + 330, c[1] - 30)),
+                         ((c[0] + 150, c[1] + 290), (c[0] + 300, c[1] + 150), (c[0] + 440, c[1] + 90))]:
+        d.line([p0, p1, p2], fill=FOLD, width=6, joint="curve")
+    d.polygon([(c[0] + 10, c[1] + 120), (c[0] + 170, c[1] + 40), (c[0] + 120, c[1] + 160)], fill=(92, 72, 78, 255))   # tucked flap
+    d.line([(c[0] + 10, c[1] + 120), (c[0] + 170, c[1] + 40)], fill=FOLD, width=4)
+    hood = [(c[0] + math.cos(math.radians(a_)) * r * 1.28, c[1] + math.sin(math.radians(a_)) * r * 1.28) for a_ in range(-60, 120, 6)]
+    d.line(hood, fill=CLOTH, width=40, joint="curve"); d.line(hood, fill=FOLD, width=4, joint="curve")
+    # head with an explicit profile, rim-lit
+    poly, face, eye = baby_face_profile(c, r, th)
+    d.polygon(poly, fill=INKC)
+    d.line(face, fill=RIM, width=5, joint="curve")
+    d.line(eye, fill=RIM, width=3, joint="curve")                                         # the closed eye
+    # a tiny curled hand by the face, breaking the swaddle edge
+    n = (math.cos(th), math.sin(th))
+    hcx, hcy = c[0] + n[0] * r * 0.55 + 8, c[1] + r * 1.08
+    d.ellipse([hcx - 26, hcy - 20, hcx + 26, hcy + 20], fill=INKC)
+    for k in range(3):
+        d.arc([hcx - 22 + k * 12, hcy - 16, hcx - 6 + k * 12, hcy + 6], 180, 360, fill=RIM, width=2)
+    # her near arm cradles under it all (a large near plane)
+    d.line([(-60, 700), (300, 650), (700, 760)], fill=INKC, width=120, joint="curve")
+    d.line([(560, 740), (900, 700), (1200, 760)], fill=INKC, width=90, joint="curve")
+    if captions:
+        draw_message(bg, b, (W / 2 + 200, 80))
+    return bg
+
+
+def close_push(b, t):
+    """Round 4: the fog has parted; the camera pushes into a close near plane of the baby in her arms."""
+    k = ease(seg(b, 235.5, 236.6))
+    close = close_plate(b, t, captions=CAPTIONS)
+    z = 1.0 + 0.05 * seg(b, 236.6, 244)                                                 # slow push on the held close
+    if z > 1.001:
+        cw, ch = W / z, H / z
+        close = close.transform((W, H), Image.AFFINE, (cw / W, 0, (W - cw) / 2, 0, ch / H, (H - ch) / 2 + 10), resample=Image.BICUBIC)
+    if k >= 1:
+        return close
+    med = closeup(b, t)
+    G_ = baby_geometry(540, 790, 2.7); cx, cy = G_["head_c"]
+    zz = 1 + 2.2 * k; cw, ch = W / zz, H / zz
+    x0 = clamp(cx - cw / 2, 0, W - cw); y0 = clamp(cy - ch / 2, 0, H - ch)
+    med = med.transform((W, H), Image.AFFINE, (cw / W, 0, x0, 0, ch / H, y0), resample=Image.BICUBIC)
+    return Image.blend(med, close, k)
+
+
 def render_frame(f):
     t = f / FPS; b = B(t)
     assets()
@@ -571,8 +666,10 @@ def render_frame(f):
             pass
     elif 150 <= b < 191:
         im = interior(b, t)
-    elif 232 <= b < 244:
+    elif 232 <= b < 235.5:
         im = closeup(b, t)
+    elif 235.5 <= b < 244:
+        im = close_push(b, t)
     else:
         im = exterior(b, t)
         if b < 150 or b >= 191:

@@ -1,0 +1,30 @@
+{
+ "suite": "close-round4",
+ "results": [
+  {
+   "test": "(1) baby head >= 18% of frame height",
+   "pass": true,
+   "detail": {
+    "head_height_px": 188,
+    "fraction": 0.26
+   }
+  },
+  {
+   "test": "(5) >= 3 distinct contour changes on the face edge at 360 px (captions masked)",
+   "pass": true,
+   "detail": {
+    "curvature_sign_changes": 13,
+    "samples": 59
+   }
+  },
+  {
+   "test": "(4) her profile in frame and inclined toward the baby",
+   "pass": true,
+   "detail": {
+    "her_face_points_in_frame": 79,
+    "faces_baby": true
+   }
+  }
+ ],
+ "all_pass": true
+}

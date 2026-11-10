@@ -118,3 +118,21 @@ Verdict: **PROOF PASS** (a–d met: pan +0.38, hush −7.9 dB, the arm over the 
 | (extra) The house popped in at 74.00–74.33 s | the house-fog ramp was 0.7 beat with a steep ease | the ramp is b136.0–137.0 (0.54 s) | reach test (a) still requires visibility through b137–139 |
 
 The proof was re-cut from the film exactly as before (b110–150), because the pan and house tweaks change b136–140.
+
+## Critic round 4: hypothesis change
+
+Proof still met; one-of-her and separation met. **(e1) not met:** at 360 px the medium-shot bundle reads as "a loaf, a parcel or a covered dish"; no head; the captions carried it.
+
+Two fixes on the same beat had failed, so per doctrine §11 the hypothesis changed:
+
+| | rounds 2–3 hypothesis | round 4 hypothesis |
+|---|---|---|
+| Cause | the *shape vocabulary* (box, ellipse, stick-limb; then the swaddle taper) | **scale**: a swaddle a few dozen pixels tall at phone size cannot carry a face, whatever its shape |
+| Staging | a medium shot of her holding the bundle | Norstein's own means: the fog parts (b232.6–235), then the camera **pushes into a close near plane** (b235.5–236.6) and holds to b244 with a slow 5% push. Her near arm and the swaddle fill the bottom of the frame; the far world is blurred (radius 16) |
+| Face | a round head | `baby_face_profile`: back of the skull as an arc, the face as an explicit profile (brow, eye socket, nose, upper lip, mouth, lower lip, chin), **rim-lit** by the house glow placed between the two faces, closed-eye arc; her own profile (same function) inclines toward the baby |
+| Swaddle | an ellipse or teardrop with a knob | a blanket body with two long diagonal wrap folds and a tucked flap, a hood around the back of the head, no knob; a tiny curled hand with crease lines breaking the edge by the face |
+| Check | geometry only | `tests/test_close.py` (written to `close-tests.json`): head 26% of frame height; **13 curvature-sign changes** along the face edge at 360 px with captions masked (rays from the head centre along the face normal; smoothed edge radius; sign changes of the second difference ≥ 0.25 px); her profile in frame and facing the baby |
+
+Regressions fixed in the same round:
+* **34.75 s pop.** The camera jumped from the follow (x 1200) to 1060 at b64, and the laundry was created at b64. Now the camera is continuous (1200 → 900, eased) and the laundry line exists from b40, entering by parallax.
+* **60.83 s (b112) jump.** The laundry changed line and boxes were created while the camera was mid-tween. It is now a **clean cut on the b112 frame with a framing change**: a wide storm framing (camera 900 → 820, she walks out left) cuts to the field framing (camera = 0.6·her + 0.4·house).
