@@ -6,18 +6,18 @@
    "pass": true,
    "detail": {
     "violations": [],
-    "frames": 327
+    "frames": 326
    }
   },
   {
    "test": "proof: pinned contacts residual < 1 px",
    "pass": true,
    "detail": {
-    "n_pinned_samples": 1084,
+    "n_pinned_samples": 1027,
     "worst": [
      "girl",
      "hand_f",
-     0.7767
+     0.9577
     ]
    }
   },
@@ -40,8 +40,57 @@
    "test": "silhouettes do not merge (girl vs dog, b184-199)",
    "pass": true,
    "detail": {
-    "max_overlap_fraction": 0.0116,
-    "at_beat": 198.0
+    "max_overlap_fraction": 0.0107,
+    "at_beat": 196.0
+   }
+  },
+  {
+   "test": "let-go order: open -> arm back -> paw folds (>= 2 frames)",
+   "pass": true,
+   "detail": {
+    "frame_open": 2036,
+    "paw_offset_at_open_px": 0.0,
+    "frame_arm_back": 2042,
+    "frame_paw_folds": 2048
+   }
+  },
+  {
+   "test": "hand contour visibly opens at 360 px (changed region >= 6 px)",
+   "pass": true,
+   "detail": {
+    "changed_px_area": 147,
+    "changed_span_px": 21
+   }
+  },
+  {
+   "test": "return 116 s: dog is a separate single region, 4 legs + tail visible",
+   "pass": true,
+   "detail": {
+    "beat": 271.89,
+    "pixels_shared_within_2px_with_gate_or_flames": 0,
+    "single_region": true,
+    "leg_tail_ends": {
+     "hshin_n": [
+      1227,
+      624
+     ],
+     "hshin_f": [
+      1235,
+      619
+     ],
+     "fpaw_n": [
+      1059,
+      636
+     ],
+     "fpaw_f": [
+      1065,
+      637
+     ],
+     "tail": [
+      1258,
+      535
+     ]
+    }
    }
   }
  ],

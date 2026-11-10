@@ -7,9 +7,9 @@ AUDIO = os.path.join(REPO, "Et tu, Brute (BOXBACK)", "Et tu, Brute_ - The Univer
 
 def typing_beats():
     out = []
-    for text, b0, cps in (("BEAM 7 -> ROW 3", 238, 9), ("BEAM 7 CANNOT GO THERE", 244, 11),
-                          ("BOXES 10 11 12 -> ROW 5", 248, 12), ("ROWS 5 6 -> RE-PHASE", 249.3, 12), ("BEAM 7 -> ROW 3", 250.6, 12)):
-        out += [b0 + k / cps for k in range(len(text)) if text[k] != " "]
+    for text, b0 in (("BEAM 7 -> ROW 3", 238), ("BEAM 7 CANNOT GO THERE", 244), ("LIFT ROOF. OPEN DOOR.", 248),
+                     ("BEAM 7 -> ROW 3", 255.5), ("ROOF -> NEW PLAN", 258), ("BEAM 7 IN ROW 3", 258)):
+        out += [b0 + k / 14 for k in range(len(text)) if text[k] != " "]
     return out
 
 def work(f):

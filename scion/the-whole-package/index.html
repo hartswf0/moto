@@ -43,9 +43,9 @@
 
   <h2>Status</h2>
   <div class="grid">
-    <div class="card"><h3>Current revision</h3><div>r1: first full cut on the 110.445 BPM grid, 2:31, 1280×720 / 24 fps, 11 glass planes, 4 fog states.</div></div>
-    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Pending independent review</div><div>No critic has watched this film yet. Builder self-checks are not approval.</div></div>
-    <div class="card"><h3>Next blocking failure</h3><div>Independent review of the proof (b110–150) against the SCION 05 bar: near/far relationships persist; fog is not uniform; her silhouette is readable exactly when needed; sound spatialises the reveal.</div></div>
+    <div class="card"><h3>Current revision</h3><div>r2: one bounded repair pass after critic round 1 (seven items: the house reaches, one of her with a readable baby, panned and ducked sound, interior parallax, the light in frame at b112, phone-size captions, an action in the day shot).</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 1: reference stronger</div><div>Proof: reference stronger (narrowly). Film: reference stronger. Repairs applied; <b>re-review pending</b>.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Independent re-review of r2 against the round-1 repair conditions (see <a href="./METHOD.md">METHOD.md</a>). Known open item: the mix is only barely below mono correlation (0.977), because the song itself is centred.</div></div>
     <div class="card"><h3>Accepted checkpoint</h3><div>None yet. Every frame is reproducible from <code>src/</code>.</div></div>
   </div>
 
@@ -65,7 +65,8 @@
     <tr><td>Parallax ratio = depth ratio, all plane pairs, every moving frame</td><td>pass: 2,356 frames, max relative error 5e-11</td></tr>
     <tr><td>Fog optical depth non-decreasing with distance</td><td>pass: 515 frames</td></tr>
     <tr><td>Obscure state is depth-shaped</td><td>pass: α at the arm 0.76 vs at her 0.97</td></tr>
-    <tr><td>Suspend beat is silent</td><td>wind bed −49 dB at b135 (SFX stem)</td></tr>
+    <tr><td>Hand pans with its screen x (b136.2–137.2)</td><td>see <a href="./audio-tests.json">audio-tests.json</a> (final mix)</td></tr>
+    <tr><td>Hush dip b134.4–136.4</td><td>see audio-tests.json (≥ 6 dB required)</td></tr>
   </table></div>
 
   <h2>Artifacts</h2>

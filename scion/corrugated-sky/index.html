@@ -45,9 +45,9 @@
 
   <h2>Status</h2>
   <div class="grid">
-    <div class="card"><h3>Current revision</h3><div>r1: first full cut. 140.84 BPM grid (beat 0.426 s, offset 0.300 s); poses on twos (12 fps), shown at 24 fps; 2:26, 1280×720.</div></div>
-    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">pending independent review</div><div>No critic has seen this film yet. The builder's own contact-sheet checks are not a verdict.</div></div>
-    <div class="card"><h3>Next blocking failure</h3><div>Independent review of the proof (b176–208) against the Reiniger bar: hands and thumbs distinguishable, no detached limbs, no merged blobs, stable support, readable with colour removed.</div></div>
+    <div class="card"><h3>Current revision</h3><div>r2: one repair pass after critic round 1. Grid re-fitted to 141.05 BPM (beat 0.4254 s, offset 0.345 s, phase lock 0.23). Poses on twos (12 fps), shown at 24 fps; 2:26, 1280×720.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict bad">Round 1: proof reference stronger · film reference stronger</div><div>Repairs were applied for all 8 notes (let-go order, head turns, grasp, fire, the return dog, empty wall places, grid, night contrast). A re-review is pending; nothing has been accepted yet.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Independent re-review of the repaired proof and film. Known leftovers: the house details are small at phone size, and the proof is still a different gate set from the night scene.</div></div>
     <div class="card"><h3>Accepted checkpoint</h3><div>None accepted yet. The source is reproducible from <code>src/render.py</code>.</div></div>
   </div>
 
@@ -55,9 +55,12 @@
   <div class="scroll"><table>
     <tr><th>invariant</th><th>evidence</th><th>result</th></tr>
     <tr><td>Joint-angle limits never exceeded</td><td><a href="./invariants.json">invariants.json</a></td><td>pass: 0 violations (proof, every frame; film, every 6th frame)</td></tr>
-    <tr><td>Pinned holds (gate and paw on hand) &lt; 1 px</td><td>1,084 pinned samples in the proof</td><td>pass: worst 0.78 px</td></tr>
+    <tr><td>Pinned holds (gate and paw on hand) &lt; 1 px</td><td>1,084 pinned samples in the proof</td><td>pass: worst 0.96 px</td></tr>
     <tr><td>Pinned joints never detach</td><td>FK pin check</td><td>pass: 1e-13 px</td></tr>
-    <tr><td>Girl and dog do not merge (overlap &lt; 1.5%)</td><td>mask overlap b184–199</td><td>pass: max 1.2%, at the paw-to-hand contact (b198)</td></tr>
+    <tr><td>Let-go order: hand opens → arm back (+6 f) → paw folds (+6 f)</td><td>frame scan b197.5–202</td><td>pass</td></tr>
+    <tr><td>Hand visibly opens at 360 px</td><td>changed-region span</td><td>pass: 21 px</td></tr>
+    <tr><td>Return 116 s: dog is a separate region, 4 legs + tail visible</td><td>separate rasterisation</td><td>pass: 0 shared px</td></tr>
+    <tr><td>Girl and dog do not merge (overlap &lt; 1.5%)</td><td>mask overlap b184–199</td><td>pass: max 1.1%, at the paw on the palm</td></tr>
   </table></div>
 
   <h2>Artifacts</h2>

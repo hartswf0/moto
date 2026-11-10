@@ -7,7 +7,8 @@ The theme comes from Nnedi Okorafor's story "Mother of Invention" (*Future Tense
 * Film: `the-whole-package.mp4` (2:31, 1280×720, 24 fps)
 * Proof: `proof.mp4` (beats 110–150)
 * Rebuild: `python3 -I src/render.py --out the-whole-package --procs 2` (about 0.3 s per frame per process)
-* Tests: `python3 -I tests/test_multiplane.py`, which writes `multiplane-tests.json`
+* Tests: `python3 -I tests/test_multiplane.py` (writes `multiplane-tests.json`) and `python3 -I tests/test_audio.py [film.mp4] [clip_start_beat]` (writes `audio-tests.json`)
+* Audio is mixed in Python (`render.make_mix`): the song is ducked by `film.song_gain` under the hush, and the depth SFX stem is added at 0.42. Pan and duck are exact and measurable.
 
 ## Thesis
 
@@ -53,7 +54,10 @@ The film would be bland as a flat scroll with a uniform yellow wash, or if the s
 | Fog optical depth never decreases with distance (far is never clearer than near) | same test, 515 frames | measured |
 | The obscure state is depth-shaped (the arm's depth is clearer than hers) | same test: α 0.76 vs 0.97 (single-point proxy) | measured |
 | Every message is original | `MESSAGES` in `src/film.py` | structural |
-| The proof reads with the colour removed | — | not yet judged by an independent critic |
+| The hand pans with its screen x: (R−L)/(R+L) > 0.3 during b136.2–137.2 | `tests/test_audio.py` on the final mix | measured (see `audio-tests.json`) |
+| The hush is audible: ≥ 6 dB dip at b134.4–136.4 vs b131.5–133.5 | same | measured |
+| The mix is not mono over the proof (L/R correlation < 0.98) | same | measured: barely (0.977); the song itself is close to mono |
+| The proof reads with the colour removed | — | not judged |
 
 ## Sources and rights
 
@@ -70,3 +74,17 @@ The film would be bland as a flat scroll with a uniform yellow wash, or if the s
 | Lost = fog *in front of* her | the "loses position" beat | b130–136 | she stayed crisp in the fog | add σ for z > 2.6 in the obscure state; the arm stays clear because it is nearer | dimming her sprite directly |
 | Ground line inside frame | a figure at a new depth | all | feet were cut off (the ground at z 4.2 projected below the frame) | GROUND 300 → 220 | — |
 | Silhouette hand | a nearer helper must read at once | b136–139 | the kraft arm vanished against the gold fog | a dark jointed arm with seams; a pale cardboard palm and fingers | box beads (they read as dots) |
+
+## Critic round 1 and repairs
+
+Verdict: **proof reference stronger (narrowly), film reference stronger.** One bounded repair pass followed. Re-review is pending.
+
+| # | failure (critic) | cause | repair | condition |
+|---|---|---|---|---|
+| 1 | The nearer hand entered from off-frame and read as a pole | the arm was rooted off-screen with no link to the house; the glow hid the hand | the arm grows out of the house's middle box (root = projected house + offset), as three jointed box segments with visible seams; an open palm with four fingers and a thumb (1.8×); a near grass clump (z 1.5, world x 1062) crosses it; the glow is reduced to 45% | the arm starts at the house body, overlaps a foreground occluder, and the hand reads in silhouette |
+| 2 | Baby reveal: a second copy of her stayed in the midground; the bundle read as a sticker; the reveal wasn't tied to the fog | the close-up composited over `exterior()`, which still drew her; the package *was* the label | `exterior(hide_woman=True)`; an open box with a swaddled baby silhouette (head, body, raised fist) at 1.4×, with the label back on the box; a near fog plane (z ≈ 1.2) parts over the baby at b232.6–235 | one of her; the baby readable at 360 px; fog parts at the reveal |
+| 3 | Sound was effectively mono; the hush had no dip | the SFX stem sat under a centred song at 0.34; the wind bed came back at b136.5 | a Python mix with `song_gain`: −9 dB b134–136.1, −12 dB b136.1–137.4, −6 dB to b138.6, release by b139.3. The servo is split into 10 grains panned by the hand's screen x (`arm_pan`, a steep law of 2.4×). The wind bed stays down until the hands meet (b139) | measured pan > 0.3 toward the arm; dip ≥ 6 dB |
+| 4 | The interior had no parallax, with identical frames | a single flat layer | three planes (back wall k 0.4, her k 1.0, near torn flaps and dust k 2.2) with a slow push of +10% over b150–191, a 1.8% breath on every beat, and a lateral drift | a near plane moves against her; the pulse is kept |
+| 5 | FOLLOW MY LIGHT with no glow until b116 | the camera tracked her only; the house was off-frame right | the camera weights her and the house (0.6·wx + 0.4·house); occluders re-solved for that camera (laundry 530, boxes 830) | the glow is in frame at b112 |
+| 6 | Captions about 7 px at phone size, contrast 1.7:1 | 40 px mono in light gold on gold fog | 80 px Inter ExtraBold, wrapped to ≤ 1100 px, warm white on a dark band (α 0.75). Contrast is about 11:1 over the gold fog (computed: text (255,238,206) on band ≈ (59,49,24)) | ≥ 3× size, ≥ 4.5:1 |
+| 7 | 0:08–0:20 nearly static | the camera locked on her while she walked | a held frame b16–40: she crosses the whole frame and the village windows (now 24×26 world units) go dark one by one behind her | an action in the shot |

@@ -18,7 +18,10 @@ def cue_list(events, typing):
         k = e["kind"]
         if k == "reunion": cues += [(e["b"], "Ab4", 0.35), (e["b"], "C5", 0.3), (e["b"], "Eb5", 0.3)]
         elif k == "interference": cues.append((e["b"], PENTA[e["m"]], 0.22))
-        elif k == "lock": cues.append((e["b"], "Ab5", 0.2))
+        elif k == "lock": cues += [(e["b"], "Ab5", 0.25), (e["b"], "Eb5", 0.2)]
+        elif k == "unlock": cues += [(e["b"], "Bb5", 0.22), (e["b"] + 0.25, "F5", 0.18)]
+        elif k == "relock": cues += [(e["b"], "Ab4", 0.3), (e["b"], "C5", 0.25), (e["b"], "Eb5", 0.25)]
+        elif k == "rain": cues.append((e["b"], ["Ab3", "Eb4", "Ab4", "C5", "Eb5", "F5"][[0, 0, 0, 0, 1, 1, 1, 0, 1, 4, 4, 4, 2, 2, 3, 3, 3, 3, 5, 5][int(e["id"])]], 0.22))
         elif k == "land": cues.append((e["b"], ["Ab3", "Eb4", "Ab4", "C5", "Eb5", "F5"][min(5, int(e["id"]) // 4)], 0.22))
         elif k == "collision": cues += [(e["b"], "Ab4", 0.3), (e["b"], "Bb5", 0.3), (e["b"] + 0.02, "C6", 0.25)]
         elif k == "reseat": cues.append((e["b"], "Eb5", 0.25))

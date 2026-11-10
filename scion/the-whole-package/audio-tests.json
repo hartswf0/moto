@@ -1,23 +1,23 @@
 {
  "suite": "audio",
- "source": "proof.mp4",
+ "source": "proof_remux.mp4",
  "clip_start_beat": 110.0,
  "results": [
   {
    "test": "pan toward arm b136.2-137.2",
-   "pan": 0.102,
-   "pass": false
+   "pan": 0.391,
+   "pass": true
   },
   {
    "test": "hush dip b134.4-136.4 vs b131.5-133.5",
-   "db": -6.86,
+   "db": -6.71,
    "pass": true
   },
   {
    "test": "L/R correlation over proof",
-   "corr": 0.973,
+   "corr": 0.977,
    "pass": true
   }
  ],
- "all_pass": false
+ "all_pass": true
 }

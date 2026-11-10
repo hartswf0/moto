@@ -678,6 +678,8 @@ def proof_state(b):
                         mid = lerp2(ta, tb, u); tg[n] = ((mid[0] + (-10 if n.startswith("hand") else 8) * math.sin(math.pi * u), mid[1] - (12 if n.startswith("hand") else 3) * math.sin(math.pi * u)), u >= 1)
                 S["girl"] = dict(root=pel, targets=tg, profile={"hand_n": "grip", "hand_f": "grip"}, head=-10, hprof="back")
         if "girl" not in S:
+            if torso < 4:   # leaning back to look at her mother: the pelvis slides toward the post so both holds stay in reach
+                pel = (pel[0] + (4 - torso) * 1.15, pel[1])
             S["girl"] = dict(root=pel, targets=tg, profile=prof, head=head, hprof=hprof, torso=torso, wrist=S.pop("wrist", 0))
     # ---- dog (outside the gate, facing left toward her)
     dx = 960
@@ -843,7 +845,7 @@ def smoke(st, b, x0, y0, n=5):
 def sc_fire(b):
     st = Stage(b)
     collapse = clamp((b - 280) / 12)
-    if collapse > 0:
+    if collapse > 0 and b < 292:
         c = collapse ** 1.4
         def xf(p, c=c):
             # the shell sinks toward the floor and leans; the ridge goes first
@@ -889,6 +891,7 @@ def sc_fire(b):
         for k in range(6):
             x = 320 + k * 110
             st.poly("mid", [(x, HFLOOR + 12), (x + 20, HFLOOR - 40 - (k * 37) % 70), (x + 70, HFLOOR - 10 - (k * 23) % 40), (x + 90, HFLOOR + 12)])
+    st.xf = None
     # collapse: corrugated roof sheets fall on downbeats
     if collapse > 0:
         for k in range(8):
@@ -971,26 +974,26 @@ def sc_rain(b):
         x = (k * 173 + b * 37) % W; u = (b * 2 + k * 0.3) % 1
         st.ellipse("paint", x, FLOOR + 30, 30 * u, 4 * u, int(180 * (1 - u)))
     banner(st, "2:26 · NOBODY HOME", b, 318, 323.5, x=800, y=120)
-    banner(st, "I WILL KEEP THE LIGHT ON.", b, 324, 333, x=800, y=120)
+    banner(st, "I WILL KEEP THE LIGHT ON.", b, 323, 329.4, x=800, y=120)
     im = st.compose(backdrop(b, corrugate=1.0), far_tint=0.3)
     return im
 
 
 def sc_end(b):
     st = Stage(b)
-    flick = 1.0 if not (334 <= b < 334.5) else 0.3
+    flick = 1.0 if not (331 <= b < 331.5) else 0.3
     west_wall(st, b, holes_lit=(1, 1, 1, flick), x_shift=300)
     lawn(st, b)
     im = st.compose(backdrop(b, corrugate=1.0), far_tint=0.3)
     d = ImageDraw.Draw(im)
-    f = font("/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf", 58)
-    if b >= 336:
+    f = font("/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf", 84)
+    if b >= 332:
         for row, word in enumerate(("CORRUGATED", "SKY")):
-            tr = 18 if row == 0 else 60
+            tr = 16 if row == 0 else 70
             ws = [d.textlength(c, font=f) for c in word]; tot = sum(ws) + tr * (len(word) - 1)
-            x = 900 - tot / 2
+            x = 800 - tot / 2
             for c, w in zip(word, ws):
-                d.text((x, 160 + row * 72), c, font=f, fill=RED, anchor="lm"); x += w + tr
+                d.text((x, 150 + row * 100), c, font=f, fill=RED, anchor="lm"); x += w + tr
     return im
 
 
@@ -1002,7 +1005,7 @@ def _zoom(im, z, cx, cy):
 
 
 SCENES = [(-10, 16, "title"), (16, 64, "house"), (64, 112, "wall"), (112, 176, "night"), (176, 208, "proof"), (208, 264, "fire"),
-          (264, 280, "return"), (280, 296, "fire"), (296, 334, "rain"), (334, 400, "end")]
+          (264, 280, "return"), (280, 296, "fire"), (296, 330, "rain"), (330, 400, "end")]
 
 
 def render_frame(f):
@@ -1033,8 +1036,8 @@ def render_frame(f):
     elif name == "rain": im = sc_rain(b)
     else: im = sc_end(b)
     # cutout timing: the whole film is posed on twos (12 fps), as shadow theatre; the beat grid stays exact
-    if t > DUR - 2.2:
-        im = Image.blend(im, Image.new("RGB", (W, H), (0, 0, 0)), clamp((t - (DUR - 2.2)) / 2.0))
+    if t > DUR - 1.3:
+        im = Image.blend(im, Image.new("RGB", (W, H), (0, 0, 0)), clamp((t - (DUR - 1.3)) / 1.2))
     return im
 
 
@@ -1058,14 +1061,14 @@ def build_sfx():
     add(142, "whoosh", 0.4); add(146, "bounce", 0.5); add(148, "bounce", 0.4); add(150, "gate", 0.7); add(155, "gate_shut", 0.8)
     # proof
     for i in range(6): add(178 + i, "step_wood", 0.6)
-    add(188, "breath", 0.4); add(190, "chime", 0.9); add(196, "horn", 0.6); add(198.5, "release", 0.7)
+    add(188, "breath", 0.4); add(190, "chime", 0.9); add(196, "horn", 0.6); add(198.5, "release", 0.7); add(199.6, "bounce", 0.35)
     for i in range(6): add(200 + i, "step_wood", 0.5)
     add(215, "crash", 0.9); add(218, "whoomp", 0.8)
     for i in range(8): add(218 + i * 4, "crackle", 0.5)
     add(226, "spray", 0.5); add(244, "drip", 0.6)
     for i in range(4): add(266 + 3 * i + 2.5, "peel", 0.6)
     for k in range(8): add(280 + k * 1.5 + 0.4, "crash", 0.5)
-    add(296, "rain", 0.55); add(316, "whimper", 0.35); add(334, "flick", 0.5)
+    add(296, "rain", 0.55); add(316, "whimper", 0.35); add(331, "flick", 0.5); add(332, "bell", 0.4)
     return S
 
 

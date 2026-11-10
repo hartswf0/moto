@@ -88,11 +88,11 @@ def camera(b):
     if b < 96:
         return {"x": lerp(1060, 900, seg(b, 64, 96)), "y": 0.0}
     if b < 112:
-        return {"x": lerp(900, 725, seg(b, 96, 111)), "y": 0.0}
+        return {"x": lerp(900, 640, seg(b, 96, 111)), "y": 0.0}
     if b < 130:
         # midpoint between her and the house: both her and the light stay in frame from b112
-        wx = woman_path(b)[0]; mid = (wx + HOUSE_X) / 2
-        return {"x": lerp(725, mid, ease(seg(b, 111, 112))), "y": 0.0}
+        wx = woman_path(b)[0]; mid = 0.6 * wx + 0.4 * HOUSE_X
+        return {"x": lerp(640, mid, ease(seg(b, 111, 112))), "y": 0.0}
     if b < 140:
         return {"x": 1020 + 14 * math.sin((b - 130) * 0.7), "y": 0.0}     # drift while she is lost
     if b < 150:
@@ -340,7 +340,7 @@ def exterior(b, t, hide_woman=False):
             tip = chain[-1]
             if k > 0.7:
                 # an open cardboard hand: palm, four fingers, thumb (reads in pure silhouette)
-                hs = 1.25
+                hs = 1.8
                 ang = math.atan2(tip[1] - chain[-2][1], tip[0] - chain[-2][0]) if len(chain) > 1 else math.pi
                 def R(px, py):
                     return (tip[0] + (px * math.cos(ang) - py * math.sin(ang)) * hs, tip[1] + (px * math.sin(ang) + py * math.cos(ang)) * hs)
@@ -619,7 +619,7 @@ def arm_tip_x(b):
 
 
 def arm_pan(b):
-    return clamp(1.5 * (arm_tip_x(b) / W * 2 - 1), -1, 1)
+    return clamp(2.4 * (arm_tip_x(b) / W * 2 - 1), -1, 1)   # steep law: the servo sits where the hand is
 
 
 def song_gain(b):
@@ -627,7 +627,8 @@ def song_gain(b):
     def ramp(x, a, c): return clamp((x - a) / (c - a))
     if b < 133.8 or b >= 139.3: return 1.0
     if b < 134.2: return lerp(1.0, 0.355, ramp(b, 133.8, 134.2))
-    if b < 137.6: return 0.355
+    if b < 136.1: return 0.355
+    if b < 137.4: return 0.25                         # the hand emerges in near-silence (-12 dB, 0.7 s)
     if b < 138.6: return 0.5
     return lerp(0.5, 1.0, ramp(b, 138.6, 139.3))
 
@@ -638,7 +639,7 @@ def storm_curve(b):
     if b < 96: return 0.12 + 0.3 * seg(b, 64, 96), 14
     if b < 130: return 0.65 + 0.3 * seg(b, 96, 104), 6
     if b < 134: return 0.9, 3
-    if b < 136.5: return 0.05, 3                       # suspend: the world holds its breath
+    if b < 139: return 0.05, 3                         # suspend: the world holds its breath until the hands meet
     if b < 150: return 0.6 - 0.3 * seg(b, 139, 148), 5
     if b < 191: return 0.35, 40                       # heard through the sealed walls
     return 0.3 * (1 - seg(b, 191, 228)), 20
