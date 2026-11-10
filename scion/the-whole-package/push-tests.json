@@ -1,0 +1,47 @@
+{
+ "suite": "push-round5",
+ "source": "the-whole-package.mp4",
+ "results": [
+  {
+   "test": "(1) multiplane push: near scales >= 1.5x faster than far (rendered frames)",
+   "pass": true,
+   "detail": {
+    "seconds": 1.548,
+    "near_factor": 2.016,
+    "far_factor": 1.01,
+    "ratio": 1.997,
+    "expected_from_timeline": [
+     2.028,
+     1.091
+    ]
+   }
+  },
+  {
+   "test": "(1) no dissolve/cut inside the reveal (max consecutive-frame diff <= 30)",
+   "pass": true,
+   "detail": {
+    "frames": 591,
+    "max_diff": 9.38,
+    "mean_diff": 0.542
+   }
+  },
+  {
+   "test": "(2) one caption per frame; in the reveal the caption is in the bottom third",
+   "pass": false,
+   "detail": {
+    "frames_checked": 808,
+    "frames_with_2+_captions": 188,
+    "reveal_frames_with_caption_above_bottom_third": 390
+   }
+  },
+  {
+   "test": "(4) her face tilts down toward the baby (rim-light PCA, deg from vertical)",
+   "pass": true,
+   "detail": {
+    "rim_pixels": 703,
+    "tilt_deg": 37.8
+   }
+  }
+ ],
+ "all_pass": false
+}
