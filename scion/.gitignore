@@ -1,3 +1,11 @@
 # per-film draft renders and caches
 */out/
 */src/__pycache__/
+# media of films still under independent review: force-added (git add -f) once accepted,
+# so draft re-renders never enter history
+corrugated-sky/*.mp4
+corrugated-sky/*.jpg
+the-whole-package/*.mp4
+the-whole-package/*.jpg
+the-universal-boxback/*.mp4
+the-universal-boxback/*.jpg

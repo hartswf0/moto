@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Universal Boxback · Operator</title>
+<meta name="description" content="Harmonic-motion music video for ET TU, BRUTE? · BOXBACK track 14, SCION 06 (Whitney) x The House That Language Built.">
+<style>
+  :root { --bg:#0a0b0e; --ink:#ecebe6; --red:#f2382c; --muted:#9a9aa2; --card:#14161b; --line:#2a2d35; --kraft:#c89b62; }
+  @media (prefers-color-scheme: light) { :root:not([data-theme="dark"]) { --bg:#f3f1ec; --ink:#16171a; --muted:#5d5d66; --card:#fbfaf7; --line:#d6d3cb; } }
+  :root[data-theme="light"] { --bg:#f3f1ec; --ink:#16171a; --muted:#5d5d66; --card:#fbfaf7; --line:#d6d3cb; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.5 system-ui, -apple-system, "Inter", sans-serif; }
+  main { max-width:980px; margin:0 auto; padding:16px; }
+  .kicker { font:700 12px/1.3 ui-monospace, Menlo, monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--red); }
+  h1 { font-size:clamp(30px,7vw,54px); line-height:1; margin:8px 0 6px; letter-spacing:.18em; color:var(--red); font-weight:900; }
+  h2 { font-size:18px; letter-spacing:.08em; text-transform:uppercase; margin:28px 0 8px; border-bottom:1px solid var(--line); padding-bottom:6px; }
+  .sub { color:var(--muted); margin:0 0 14px; max-width:70ch; }
+  video { width:100%; display:block; background:#000; border:1px solid var(--line); }
+  .play { display:inline-block; margin:12px 8px 0 0; padding:10px 16px; background:var(--red); color:#fff; font:700 15px system-ui; text-decoration:none; border:0; border-radius:3px; cursor:pointer; }
+  .play.alt { background:var(--kraft); color:#111; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .card { background:var(--card); border:1px solid var(--line); padding:12px 14px; }
+  .card h3 { margin:0 0 6px; font:700 11px/1.2 ui-monospace, monospace; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+  .verdict { font-size:20px; font-weight:800; }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  th, td { text-align:left; vertical-align:top; padding:6px 8px; border-bottom:1px solid var(--line); }
+  th { font:700 11px ui-monospace, monospace; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+  code { font-size:12px; word-break:break-word; }
+  .scroll { overflow-x:auto; }
+  img { max-width:100%; display:block; border:1px solid var(--line); }
+  a { color:var(--red); }
+  ul { padding-left:20px; } li { margin:4px 0; }
+  footer { color:var(--muted); font-size:13px; margin:32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="kicker">SCION 06 · Whitney, harmonic motion · ET TU, BRUTE? · BOXBACK · track 14</div>
+  <h1>THE UNIVERSAL BOXBACK</h1>
+  <p class="sub">Twenty corrugated boxes form one oscillator bank. The house is shown finished first and then made backward, from its end form down to its first step (Aristotle). At the climax the architect's direction fails against the builder's report, and the revised direction re-phases the whole house (Plato).</p>
+  <video id="v" src="./the-universal-boxback.mp4" controls playsinline preload="metadata" poster="./poster.jpg"></video>
+  <button class="play" onclick="document.getElementById('v').play()">▶ Play the film</button>
+  <a class="play alt" href="./proof.mp4">▶ 3:2 proof clip (16 s)</a>
+
+  <h2>Status</h2>
+  <div class="grid">
+    <div class="card"><h3>Current revision</h3><div>r1: first full cut. 173.5 s, 1280×720, 24 fps, 130.03 BPM grid. Bank phases searched (contact 2.59 → 0.97 pairs per sample).</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Pending independent review</div><div>No critic has watched this film yet. The builder's own contact-sheet checks are not a verdict.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>Independent review of the proof (b48–76) and the whole cut. Suspected weak spots: the even-paced proof (constant angular speed, no easing), crowded convergence at b356–368, and the dense middle (b80–160), where brief box passes still occur.</div></div>
+    <div class="card"><h3>Accepted checkpoint</h3><div>None accepted yet. Every frame is reproducible from <code>src/render.py</code>.</div></div>
+  </div>
+
+  <h2>Score</h2>
+  <div class="scroll"><table>
+    <tr><th>beats</th><th>passage</th></tr>
+    <tr><td>0–16</td><td>Title: red letter-spaced caps over a motion-blurred plate (slate style)</td></tr>
+    <tr><td>16–32</td><td>The end form: the finished house, shown first</td></tr>
+    <tr><td>32–48</td><td>Backward: boxes leave in reverse making order and gather as 10 A/B pairs</td></tr>
+    <tr><td>48–76</td><td><b>Proof</b>: A laps 3, B laps 2 over b52–72. The rings separate, A passes B nine times (one pass every 2 beats), then they approach and reunite</td></tr>
+    <tr><td>76–80</td><td>The song stops and the field freezes</td></tr>
+    <tr><td>80–160</td><td>Oscillator bank: a rational lock (closes every 16 beats), then detuned drift (the figure does not close), then a re-lock and reunion at b160</td></tr>
+    <tr><td>160–238</td><td>Making starts at the first step: one box lands every 4 beats, foundation first</td></tr>
+    <tr><td>238–264</td><td>Architect: BEAM 7 → ROW 3. Builder: CANNOT GO THERE. The revised direction propagates upward, and the beam lands on b264</td></tr>
+    <tr><td>264–304</td><td>The house breathes in a 3:2 micro-orbit</td></tr>
+    <tr><td>304–324</td><td>Breakdown: the faces fade, and the house reads from its corner points alone</td></tr>
+    <tr><td>324–368</td><td>Release into the widest procession, then return to the end form exactly on b368</td></tr>
+  </table></div>
+
+  <h2>Measured invariants</h2>
+  <p class="sub">These are computed from the same closed-form trajectories the renderer draws (structurally verified), not tracked from the video pixels.</p>
+  <div class="scroll"><table><tr><th>test</th><th>result</th><th>value</th></tr><tr><td>proof phase ratio A:B = 3:2</td><td>PASS</td><td><code>{"measured": 1.5, "laps_A": 3.0, "laps_B": 2.0}</code></td></tr><tr><td>reunion at b52</td><td>PASS</td><td><code>{"max_angle_err_rad": 0.0}</code></td></tr><tr><td>reunion at b72</td><td>PASS</td><td><code>{"max_angle_err_rad": 2.220446049250313e-15}</code></td></tr><tr><td>nine interference passes on even beats</td><td>PASS</td><td><code>{"max_angle_err_rad": 2.220446049250313e-15}</code></td></tr><tr><td>proof: non-pair separation >= 60 px</td><td>PASS</td><td><code>{"min_px": 66.56}</code></td></tr><tr><td>rational lock closes (16-beat period)</td><td>PASS</td><td><code>{"max_err_px": 1.3642420526593924e-12}</code></td></tr><tr><td>detuned drift does not close</td><td>PASS</td><td><code>{"max_err_px": 331.5}</code></td></tr><tr><td>beam refused by row 3 until the re-phase</td><td>PASS</td><td><code>{"frames_in_row": 0}</code></td></tr><tr><td>after the re-phase the house is plan F</td><td>PASS</td><td><code>{"max_err_px": 2.997}</code></td></tr><tr><td>final house == opening end form (eps 0.5 px)</td><td>PASS</td><td><code>{"max_err_px": 0.0}</code></td></tr><tr><td>making starts at the first step (lower rows land first)</td><td>PASS</td><td><code>{}</code></td></tr></table></div>
+
+  <h2>Phase visualiser</h2>
+  <img src="./phase-visualiser.png" alt="Unwrapped phase of A and B in the proof; locked versus detuned Lissajous traces">
+
+  <h2>Artifacts</h2>
+  <ul>
+    <li><a href="./tests/invariants.json">invariants.json</a> · <a href="./tests/test_invariants.py">test_invariants.py</a></li>
+    <li><a href="./src/bank_phases.json">bank_phases.json</a>: the constrained phase search (seed 2026, 4000 iterations)</li>
+    <li><a href="./source-ledger.json">Source ledger</a> · <a href="./sfx-cues.json">SFX cue sheet</a> (tuned bells in A♭ pentatonic on the event list)</li>
+    <li><a href="./METHOD.md">Production record</a> · <a href="./src/">Source</a> (<code>film.py</code> parametric score, <code>score.py</code>, <code>render.py</code>)</li>
+    <li><a href="../../VOLHOLLA/song-boxback-14.html">Song page</a></li>
+  </ul>
+  <footer>The SCION 06 lineage refers to John Whitney's harmonic computer motion. This is not a claim that he wrote or endorsed it. Vision texts: the producer's "The House That Language Built" cards (Aristotle 01, Plato 02). Picture: drawn in code, plus two motion-blurred plates from the producer's own BOXBACK art. Song: Treblo, unaltered.</footer>
+</main>
+</body>
+</html>
