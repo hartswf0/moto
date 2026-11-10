@@ -4,11 +4,13 @@
    "id": "house",
    "source": {
     "kind": "film",
-    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy",
+    "mp4": "/home/user/moto/scion/corrugated-sky/corrugated-sky.mp4"
    },
    "gw": 128,
-   "src_t0": 6.0,
-   "dur": 18.799999999999997
+   "src_t0": 5.8,
+   "dur": 18.999999999999996,
+   "full_t0": 7.4
   },
   {
    "id": "family",
@@ -18,7 +20,14 @@
    },
    "gw": 96,
    "src_t0": 0.0,
-   "dur": 16.2
+   "dur": 16.7,
+   "full_t0": 23.5,
+   "crop": [
+    0.06,
+    0.05,
+    0.94,
+    0.95
+   ]
   },
   {
    "id": "girl_dog",
@@ -28,59 +37,89 @@
    },
    "gw": 96,
    "src_t0": 0.0,
-   "dur": 34.53333333333333
+   "dur": 43.733333333333334,
+   "full_t0": 43.5,
+   "crop": [
+    0.22,
+    0.06,
+    0.92,
+    0.98
+   ]
   },
   {
    "id": "gate",
    "source": {
     "kind": "film",
-    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy",
+    "mp4": "/home/user/moto/scion/corrugated-sky/corrugated-sky.mp4"
    },
    "gw": 128,
    "src_t0": 71.0,
-   "dur": 21.2
+   "dur": 21.2,
+   "full_t0": 73.2
+  },
+  {
+   "id": "lamp",
+   "source": {
+    "kind": "shot",
+    "frames": "/home/user/secondhand-motion/shots/lantern-sam/frames"
+   },
+   "gw": 96,
+   "src_t0": 0.0,
+   "dur": 9.600000000000005,
+   "full_t0": 90.8
   },
   {
    "id": "fire",
    "source": {
     "kind": "film",
-    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy",
+    "mp4": "/home/user/moto/scion/corrugated-sky/corrugated-sky.mp4"
    },
    "gw": 128,
-   "src_t0": 99.5,
-   "dur": 21.100000000000005
+   "src_t0": 98.6,
+   "dur": 21.400000000000002,
+   "full_t0": 100.6
   },
   {
    "id": "survivor",
    "source": {
     "kind": "shot",
-    "frames": "/home/user/hartswf0/bolas/paeleo/handmade/53-civic-footage/sources/seated/frames",
-    "masks": "/home/user/hartswf0/bolas/paeleo/handmade/53-civic-footage/sources/seated/masks.json",
-    "cut": true
+    "frames": "/home/user/hartswf0/bolas/paeleo/handmade/53-civic-footage/sources/seated/frames"
    },
-   "gw": 72,
+   "gw": 96,
    "src_t0": 0.0,
-   "dur": 11.899999999999988
+   "dur": 11.800000000000008,
+   "full_t0": 117.8
   },
   {
    "id": "rain",
    "source": {
     "kind": "film",
-    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy"
+    "npy": "/home/user/moto/scion/jelly-cuts/work/corrugated-sky-film.npy",
+    "mp4": "/home/user/moto/scion/corrugated-sky/corrugated-sky.mp4"
    },
    "gw": 128,
-   "src_t0": 128.1,
-   "dur": 10.799999999999994
+   "src_t0": 127.6,
+   "dur": 10.999999999999982,
+   "full_t0": 128.8
   },
   {
-   "id": "hearth",
+   "id": "boy_dog",
    "source": {
     "kind": "still",
-    "image": "/home/user/hartswf0/bolas/paeleo/handmade/49-open-content-atelier/sources/media/SAAM-1972.84.86_1.jpg"
+    "image": "/home/user/hartswf0/bolas/paeleo/handmade/49-open-content-atelier/sources/media/SAAM-1981.172.31_1.jpg"
    },
    "gw": 96,
    "src_t0": 0.0,
-   "dur": 8.44999999999997
+   "dur": 9.929999999999989,
+   "full_t0": 136.0,
+   "crop": [
+    0.12,
+    0.08,
+    0.88,
+    0.92
+   ]
   }
  ]
 }

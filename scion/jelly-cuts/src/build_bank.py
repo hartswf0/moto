@@ -14,6 +14,9 @@ for f in spec["films"]:
     for i in range(n):
         tau = f["src_t0"] + i / 12
         lum, mask = src.at(tau)
+        if f.get("crop"):
+            cr = f["crop"]; hh, ww = lum.shape; y0, y1, x0, x1 = int(cr[1] * hh), int(cr[3] * hh), int(cr[0] * ww), int(cr[2] * ww)
+            lum = lum[y0:y1, x0:x1]; mask = mask[y0:y1, x0:x1] if mask is not None else None
         gh = max(6, int(round(gw * lum.shape[0] / lum.shape[1])))
         L = np.asarray(Image.fromarray((lum * 255).astype(np.uint8)).resize((gw, gh), Image.LANCZOS), np.float32) / 255
         sub = None

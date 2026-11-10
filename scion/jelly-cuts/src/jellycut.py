@@ -24,7 +24,7 @@ BAYER8 = np.array([[0, 32, 8, 40, 2, 34, 10, 42], [48, 16, 56, 24, 50, 18, 58, 2
 FONT_D = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
 FONT_M = "/usr/share/fonts/truetype/jetbrains-mono/JetBrainsMono-Bold.ttf"
 RED = (242, 56, 44); WATER = (14, 18, 17); INK = (243, 230, 200)
-CFG = None; SRC = {}; META = {}; KEYS = {}; KICKS = []
+CFG = None; SRC = {}; META = {}; KEYS = {}; KICKS = []; HALOS = {}
 
 
 def ease(u):
@@ -67,8 +67,7 @@ class Still:
     def __init__(self, path, size=(240, 180)):
         im = Image.open(path).convert("L"); im.thumbnail((size[0] * 2, size[1] * 2)); self.im = im
     def at(self, tau):
-        w, h = self.im.size; z = 1.0 + 0.05 * math.sin(tau * 0.25); cw, ch = w / z, h / z
-        x0 = (w - cw) * (0.5 + 0.4 * math.sin(tau * 0.17)); y0 = (h - ch) * (0.5 + 0.4 * math.cos(tau * 0.13))
+        w, h = self.im.size; cw, ch = w, h; x0 = y0 = 0
         c = self.im.crop((int(x0), int(y0), int(x0 + cw), int(y0 + ch))).resize((200, int(200 * h / w)), Image.BILINEAR)
         return np.asarray(c, np.float32) / 255, None
 
@@ -208,10 +207,36 @@ def label_boxes(t, d=None):
     d = d or ImageDraw.Draw(Image.new("RGB", (1, 1)))
     placed = []; plates = [p for p in title_plates(t, d)]
     fboxes = {}
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if st and st[0] > 0.3:
             c, wpx, (cx, cy), _, _ = st; hh = wpx * ev.get("aspect", 0.75); fboxes[i] = (cx - wpx / 2, cy - hh / 2, cx + wpx / 2, cy + hh / 2)
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if not st: continue
@@ -284,6 +309,19 @@ def render(fidx):
             for k, a in ((1.0, 0.35), (0.72, 0.65), (0.45, 1.0)):
                 v = int(200 * e * a); od.ellipse([x - R * k, y - R * k, x + R * k, y + R * k], fill=(v, int(v * 0.8), int(v * 0.55)))
             base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(6)))
+    # every jelly's own onsets: a soft halo at its bell (so the orchestra's pulses read on the rendered frame)
+    if CFG.get("halos"):
+        ov = None
+        for key, ts in HALOS.items():
+            i = np.searchsorted(ts, t + 1e-6) - 1
+            if i < 0: continue
+            e = math.exp(-(t - ts[i]) / 0.12)
+            if e < 0.05: continue
+            x, y, r = jelly(key, t, window=0.0)
+            if not (0 < x < W and 0 < y < H): continue
+            if ov is None: ov = Image.new("RGB", (W, H), (0, 0, 0)); od = ImageDraw.Draw(ov)
+            R = r * 1.5; v = int(CFG["halos"] * e); od.ellipse([x - R, y - R, x + R, y + R], fill=(int(v * .9), int(v * .85), int(v * .75)))
+        if ov is not None: base = ImageChops.add(base, ov.filter(ImageFilter.GaussianBlur(8)))
     for i, ev in enumerate(CFG["films"]):
         st = film_state(ev, t)
         if not st: continue
@@ -333,6 +371,13 @@ def init(cfgp):
         pass
     cast = json.load(open(os.path.join(os.path.dirname(cfgp), "cast.json")))
     KICKS = np.array(sorted(e[0] for e in cast["roles"]["kick"]))
+    global HALOS
+    if CFG.get("halos") and META:
+        N = {"snare": 2, "hat": 2, "bass": 1, "choir": 1, "bed": 1}
+        for role, n in N.items():
+            evs = sorted(e[0] for e in cast["roles"][role])
+            for k in range(n):
+                HALOS[f"{role}{k}"] = np.array([t for q, t in enumerate(sorted(e[0] for e in cast["roles"][role])) if q % n == k])
 
 
 def main():

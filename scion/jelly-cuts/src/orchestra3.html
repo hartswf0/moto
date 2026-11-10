@@ -67,7 +67,9 @@ function frame(now) { const dt = Math.min(.05, (now - last) / 1000 || .016); las
 const PV = new THREE.Vector3();
 window.__init = async (C, opt) => { loadCast(C, opt || {}); if (opt && opt.spec) { const SPEC = await (await fetch(opt.spec)).json(), BANK = await (await fetch(opt.bank + 'bank.json')).json(), bins = {};
     for (const [id, m] of Object.entries(BANK)) bins[id] = new Uint8Array(await (await fetch(opt.bank + m.file)).arrayBuffer());
-    FILMSYS = makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins); window.__SPEC = SPEC; }
+    const FULL = {}, FJ = await (await fetch(opt.full + 'full.json')).json();
+    for (const [id, m] of Object.entries(FJ)) { const imgs = []; for (let i = 0; i < m.n; i++) { const im = new Image(); im.src = opt.full + id + '/f' + String(i).padStart(4, '0') + '.jpg'; imgs.push(im); } await Promise.all(imgs.map(im => im.decode())); FULL[id] = {w: m.w, h: m.h, imgs}; }
+    FILMSYS = makeFilmSys(THREE, scene, cam, SONG, SPEC, BANK, bins, FULL); window.__SPEC = SPEC; }
   return SONG.J.map(j => ({role: j.role, species: j.species, name: j.name, k: j.k})); };
 window.__masks = (holder, film) => FILMSYS ? FILMSYS.masks(R, holder, film) : null;
 window.__step = (t) => { AUD.currentTime = t; frame(t * 1000);

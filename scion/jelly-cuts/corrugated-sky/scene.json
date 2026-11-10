@@ -5,67 +5,75 @@
    "bank": "house",
    "by": "call0",
    "t": [
-    6.0,
+    5.8,
     24.599999999999998
    ],
    "condense": [
-    7.6,
-    9.6
+    7.4,
+    9.4
    ],
    "bloom": [
-    10.2,
+    10.0,
     21.6
    ],
    "release": 22.4,
-   "width": 5.0,
+   "width": 5.6,
    "label": "the house wakes",
-   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger"
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 7.4
   },
   {
    "id": "family",
    "bank": "family",
    "by": "call0",
    "t": [
-    26.5,
-    42.5
+    23.5,
+    40.0
    ],
    "condense": [
-    28.1,
-    30.1
+    25.5,
+    27.5
    ],
    "bloom": [
-    30.7,
-    39.5
+    28.0,
+    37.0
    ],
-   "release": 40.3,
-   "width": 3.2,
+   "release": 37.8,
+   "width": 3.4,
    "label": "a family, 1841",
-   "credit": "Samuel Medford, Father, Mother, and Boy \u00b7 SAAM \u00b7 CC0"
+   "credit": "Samuel Medford \u00b7 Father, Mother, and Boy \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 23.5
   },
   {
    "id": "girl_dog",
    "bank": "girl_dog",
    "by": "call0",
    "t": [
-    52.0,
-    86.33333333333333
+    43.5,
+    87.03333333333333
    ],
    "condense": [
-    53.6,
-    55.6
+    51.5,
+    55.5
    ],
    "bloom": [
-    56.2,
+    56.0,
     70.6
    ],
-   "release": 71.4,
+   "release": 84.83333333333333,
    "width": 3.6,
    "label": "a girl and her dog",
-   "credit": "Percy Moran, Young Girl and Dog, 1890 \u00b7 SAAM \u00b7 CC0",
-   "memory": true,
-   "release_to": "gate",
+   "credit": "Percy Moran \u00b7 Young Girl and Dog, 1890 \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 43.5,
+   "keep": {
+    "t0": 70.8,
+    "width": 1.9,
+    "dx": 4.0,
+    "dy": 0.8
+   },
    "letgo": 84.83333333333333,
-   "letgo_end": 86.03333333333333,
+   "letgo_end": 86.63333333333333,
+   "release_to": "gate",
    "target": [
     0.71,
     0.76
@@ -90,98 +98,132 @@
    "release": 89.8,
    "width": 5.0,
    "label": "the gate",
-   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger"
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 73.2,
+   "extra_half": 2.3
+  },
+  {
+   "id": "lamp",
+   "bank": "lamp",
+   "by": "call0",
+   "t": [
+    90.8,
+    100.2
+   ],
+   "condense": [
+    92.0,
+    93.2
+   ],
+   "bloom": [
+    93.6,
+    97.4
+   ],
+   "release": 98.0,
+   "width": 4.2,
+   "label": "a lamp, checked",
+   "credit": "Anthracite: Pre-Shift Examinations \u00b7 MSHA \u00b7 US government work",
+   "full_t0": 90.8
   },
   {
    "id": "fire",
    "bank": "fire",
    "by": "call0",
    "t": [
-    99.5,
-    120.4
+    98.6,
+    119.8
    ],
    "condense": [
-    101.1,
-    103.1
+    100.6,
+    102.6
    ],
    "bloom": [
-    103.7,
-    117.4
+    103.2,
+    116.8
    ],
-   "release": 118.2,
-   "width": 5.0,
+   "release": 117.6,
+   "width": 5.6,
    "label": "the fire",
-   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger"
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 100.6
   },
   {
    "id": "survivor",
    "bank": "survivor",
    "by": "call0",
    "t": [
-    118.4,
-    130.1
+    117.8,
+    129.4
    ],
    "condense": [
-    119.8,
-    121.1
+    119.2,
+    120.4
    ],
    "bloom": [
-    121.5,
-    127.4
+    120.8,
+    126.6
    ],
-   "release": 127.9,
-   "width": 8.4,
+   "release": 127.2,
+   "width": 5.4,
    "label": "someone who stayed outside",
-   "credit": "Survival Stresses, 1961 \u00b7 US government work"
+   "credit": "Survival Stresses, 1961 \u00b7 US government work",
+   "full_t0": 117.8
   },
   {
    "id": "rain",
    "bank": "rain",
    "by": "call0",
    "t": [
-    128.1,
-    138.7
+    127.6,
+    138.39999999999998
    ],
    "condense": [
-    129.2,
-    130.5
+    128.8,
+    130.0
    ],
    "bloom": [
-    130.9,
-    135.9
+    130.4,
+    135.6
    ],
-   "release": 136.5,
-   "width": 5.0,
+   "release": 136.2,
+   "width": 5.6,
    "label": "the rain",
-   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger"
+   "credit": "CORRUGATED SKY \u00b7 SCION 02 Reiniger",
+   "full_t0": 128.8
   },
   {
-   "id": "hearth",
-   "bank": "hearth",
+   "id": "boy_dog",
+   "bank": "boy_dog",
    "by": "call0",
    "t": [
-    136.4,
-    144.64999999999998
+    136.0,
+    145.73
    ],
    "condense": [
-    137.4,
-    138.2
+    137.0,
+    138.0
    ],
    "bloom": [
     138.4,
-    142.3
+    144.4
    ],
-   "release": 142.45,
+   "release": 145.0,
    "width": 3.4,
-   "label": "a dog kept by a hearth",
-   "credit": "J. Alden Weir, Dogs on the Hearth no. 1, 1887 \u00b7 SAAM \u00b7 CC0"
+   "label": "a child and a dog, kept",
+   "credit": "Unidentified \u00b7 Boy with Dog \u00b7 SAAM \u00b7 CC0",
+   "full_t0": 136.0
   }
  ],
+ "hero": {
+  "k": "call0",
+  "scale": 1.7,
+  "bell": "#e8342a",
+  "rim": "#ffb27a"
+ },
  "scale": [
   {
    "k": "call0",
-   "t0": 84.93333333333332,
-   "t1": 86.43333333333332,
+   "t0": 86.63333333333333,
+   "t1": 87.83333333333333,
    "to": 0.72
   }
  ]

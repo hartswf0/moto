@@ -1,0 +1,48 @@
+{
+ "video": "proof.mp4",
+ "t0": 64.0,
+ "frames": 696,
+ "sentinel": {
+  "kicks": 94,
+  "min_swing": 0.082,
+  "median_swing": 0.205
+ },
+ "orchestra_r": {
+  "snare0": {
+   "r": 0.465,
+   "frames_in_view": 696
+  },
+  "snare1": {
+   "r": 0.415,
+   "frames_in_view": 696
+  },
+  "hat0": {
+   "r": 0.295,
+   "frames_in_view": 696
+  },
+  "hat1": {
+   "r": 0.267,
+   "frames_in_view": 696
+  },
+  "bass0": {
+   "r": 0.238,
+   "frames_in_view": 696
+  },
+  "choir0": {
+   "r": 0.183,
+   "frames_in_view": 696
+  },
+  "bed0": {
+   "r": 0.325,
+   "frames_in_view": 696
+  }
+ },
+ "jellies_r_gt_0.3": 3,
+ "longest_still_s": 0,
+ "bloom_height": {
+  "gate": {
+   "t": 82.4,
+   "picture_height_frac": 0.549
+  }
+ }
+}

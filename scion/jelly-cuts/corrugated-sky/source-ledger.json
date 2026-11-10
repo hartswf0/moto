@@ -44,9 +44,16 @@
    "basis": "Smithsonian Open Access CC0 (record access: CC0)"
   },
   {
-   "id": "src:hearth",
-   "title": "Dogs on the Hearth no. 1, J. Alden Weir, 1887 (SAAM 1972.84.86)",
-   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1972.84.86_1.jpg",
+   "id": "src:lamp",
+   "title": "Anthracite: Pre-Shift Examinations of Underground Mines (MSHA)",
+   "url": "https://archive.org/details/gov.msha.dvd614",
+   "rights": "public_domain",
+   "basis": "probable US government work: archive.org gov.msha collection (Mine Safety and Health Administration); producer not verified from here"
+  },
+  {
+   "id": "src:boy_dog",
+   "title": "Boy with Dog, unidentified artist (SAAM 1981.172.31)",
+   "url": "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/saam/SAAM-1981.172.31_1.jpg",
    "rights": "CC0",
    "basis": "Smithsonian Open Access CC0 (record access: CC0)"
   }
@@ -65,26 +72,37 @@
     "src:film",
     "src:family",
     "src:girl_dog",
-    "src:film",
-    "src:film",
+    "src:lamp",
     "src:survivor",
-    "src:film",
-    "src:hearth"
+    "src:boy_dog"
    ],
    "out": "bank",
-   "params": "build_bank.py: 8 levels, Bayer pass, SAM cut for the survivor"
+   "params": "build_bank.py: 8 levels, Bayer pass (flecks in transit)"
+  },
+  {
+   "op": "full-res-bloom-frames",
+   "in": [
+    "src:film",
+    "src:family",
+    "src:girl_dog",
+    "src:lamp",
+    "src:survivor",
+    "src:boy_dog"
+   ],
+   "out": "full",
+   "params": "build_full.py: same crops; shown at the bloom (dot law suspended, the user's call)"
   },
   {
    "op": "render-orchestra+films-in-scene",
    "in": [
     "cast",
     "bank",
+    "full",
     "src:orchestra",
     "direct",
     "scene"
    ],
-   "out": "layer:scene",
-   "params": "orchestra3.html + filmsys.js; films parented to the medusa; per-bloom camera framing solve"
+   "out": "layer:scene"
   },
   {
    "op": "composite",
@@ -92,7 +110,7 @@
     "layer:scene"
    ],
    "out": "corrugated-sky-jelly.mp4",
-   "params": "labels, titles, kick halo (jellycut.py)"
+   "params": "labels, titles, kick halo, onset halos"
   }
  ],
  "dropped": {
