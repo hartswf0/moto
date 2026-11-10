@@ -123,7 +123,7 @@ def fog_state(b):
     if b < 150:
         k = ease(seg(b, 139, 143))   # local reveal of the far world
         k2 = ease(seg(b, 137, 139))     # the fog in front of her thins: faint-to-crisp on HERE
-        kh = ease(seg(b, 136.3, 137.0))  # round 2: the house body clears as its arm comes out of it
+        kh = ease(seg(b, 136.0, 137.0))  # round 3: >= 0.5 s emergence; round 2: the house body clears as its arm comes out of it
         return "reveal", lambda z: lerp(0.02 + 0.9 * (1 - kh) * clamp((z - 4.6) / 1.0) * clamp((7.5 - z) / 1.5) + 0.9 * clamp((z - 7.5) / 1.0)
                                         + 0.55 * (1 - k2) * clamp((z - 2.6) / 1.0) * clamp((5.0 - z) / 0.6), 0.02 + 0.06 * clamp((z - 7) / 6), k)
     if b < 191:
@@ -474,18 +474,58 @@ def title(im, lines, b, b0, size=150, track=0.38, y0=None, alpha=1.0):
 
 
 def baby_geometry(x, y, s):
-    """Shapes of the baby in the box (screen px) and her head circle, for drawing and for the separation test."""
-    Z = 1.7; px, py = x + 62 * s, y - 92 * s
-    g = {"px": px, "py": py, "Z": Z,
-         "box": [px - 60 * Z, py - 10 * Z, px + 60 * Z, py + 50 * Z],
-         "body": [px - 50 * Z, py - 40 * Z, px + 40 * Z, py + 4 * Z],
-         "head": [px + 22 * Z, py - 62 * Z, px + 62 * Z, py - 22 * Z],
-         "arm": [(px + 2 * Z, py - 34 * Z), (px + 6 * Z, py - 72 * Z)],
-         "fist": [px - 4 * Z, py - 88 * Z, px + 16 * Z, py - 68 * Z]}
+    """Round 3: a swaddled infant cradled in her arms. Cocoon body (teardrop) tilted down-away from her, head
+    at the end nearest her with the face in profile turned up toward her; one small curled fist at the swaddle edge."""
+    hx, hy = x + 30 * s, y - 104 * s                          # baby head centre (screen px)
+    hr = 25                                                   # head radius
+    ang = math.radians(14)                                    # bundle axis: head -> feet, sloping down to the right
+    L = 140                                                   # cocoon length: head:body = 50 : 140 = 1 : 2.8
+    def ax(u, v):                                             # u along the axis from the head centre, v perpendicular
+        return (hx + u * math.cos(ang) - v * math.sin(ang), hy + u * math.sin(ang) + v * math.cos(ang))
+    cocoon = []
+    for k in range(41):                                       # teardrop: widest near the head, tapering to the feet
+        th = math.pi * k / 40
+        u = hr * 0.6 + L * (1 - math.cos(th)) / 2
+        w = 40 * math.sin(th) * (1.0 - 0.45 * (1 - math.cos(th)) / 2) + 6
+        cocoon.append(ax(u, -w))
+    for k in range(40, -1, -1):
+        th = math.pi * k / 40
+        u = hr * 0.6 + L * (1 - math.cos(th)) / 2
+        w = 40 * math.sin(th) * (1.0 - 0.45 * (1 - math.cos(th)) / 2) + 6
+        cocoon.append(ax(u, w))
+    g = {"head_c": (hx, hy), "head_r": hr, "ang": ang, "L": L, "cocoon": cocoon,
+         "folds": [[ax(30 + 46 * k, -40 + 6 * k), ax(52 + 46 * k, -4), ax(86 + 46 * k, 34 - 6 * k)] for k in range(2)],
+         "hood": [ax(4 + 30 * math.cos(t_), 30 * math.sin(t_)) for t_ in [math.pi * (0.35 + 1.3 * q / 12) for q in range(13)]],
+         "fist": (ax(46, -40), 8),
+         "head": [hx - hr, hy - hr, hx + hr, hy + hr]}
+    xs = [p[0] for p in cocoon]; ys = [p[1] for p in cocoon]
+    g["body"] = [min(xs), min(ys), max(xs), max(ys)]
     hc = (x + (8 + 2 * 0.5) * s, y - 134 * s)
-    g["her_head"] = (hc[0], hc[1], 9 * s)                 # centre, radius
+    g["her_head"] = (hc[0], hc[1], 9 * s)
     g["her_face_tip"] = (x + (8 + 2 * 0.5 + 13) * s, y - 133 * s)
+    g["box"] = g["body"]; g["fist_box"] = [g["fist"][0][0] - 9, g["fist"][0][1] - 9, g["fist"][0][0] + 9, g["fist"][0][1] + 9]
     return g
+
+
+def draw_baby(d, G_, ink=(30, 22, 26, 255), rim=(246, 226, 214, 255), fold=(150, 120, 120, 255)):
+    hx, hy = G_["head_c"]; hr = G_["head_r"]
+    # pale rim separates the bundle from her dark arms (Reiniger-style negative space)
+    d.polygon(G_["cocoon"], fill=rim)
+    d.ellipse([hx - hr - 5, hy - hr - 5, hx + hr + 5, hy + hr + 5], fill=rim)
+    shrink = [(hx + (px - hx) * 0.985, hy + (py - hy) * 0.985) for px, py in G_["cocoon"]]
+    d.polygon([(px, py) for px, py in G_["cocoon"]], fill=ink)
+    # head in profile facing up-left toward her: skull + nose + chin bumps
+    d.ellipse(G_["head"], fill=ink)
+    a = G_["ang"] + math.pi                                   # facing direction: back toward her (left/up)
+    nose = (hx + math.cos(a - 0.5) * (hr + 4), hy + math.sin(a - 0.5) * (hr + 4))
+    d.ellipse([nose[0] - 6, nose[1] - 6, nose[0] + 6, nose[1] + 6], fill=ink)
+    # hood rim and swaddle folds as negative-space lines
+    d.line(G_["hood"], fill=fold, width=4, joint="curve")
+    for f in G_["folds"]:
+        d.line(f, fill=fold, width=4, joint="curve")
+    (fx, fy), fr = G_["fist"]                                 # a small curled fist breaking the top edge of the swaddle
+    d.ellipse([fx - fr, fy - fr - 4, fx + fr, fy + fr - 4], fill=ink)
+    d.arc([fx - fr + 2, fy - fr - 2, fx + fr - 2, fy + fr - 6], 200, 340, fill=fold, width=2)
 
 
 def closeup(b, t):
@@ -494,20 +534,15 @@ def closeup(b, t):
     bg = exterior(b, t, hide_woman=True).filter(ImageFilter.GaussianBlur(7))
     s = 2.7
     x, y = 540, 790
-    C.woman(bg, x, y, s, pose="hold", face=1, baby=False, color=(30, 22, 26), head_turn=0.5)
+    C.woman(bg, x, y, s, pose="stand", face=1, baby=False, color=(30, 22, 26), head_turn=0.5)
     # the package: an open box, and in it a swaddled baby (head, bundle, one raised fist) - pure silhouette
     d = ImageDraw.Draw(bg)
-    G_ = baby_geometry(x, y, s); px, py, Z = G_["px"], G_["py"], G_["Z"]
-    SILB = (30, 22, 26, 255)
-    d.rectangle(G_["box"], fill=(176, 134, 84, 255), outline=SILB, width=5)
-    d.polygon([(px + 60 * Z, py - 10 * Z), (px + 92 * Z, py - 40 * Z), (px + 40 * Z, py - 40 * Z), (px + 14 * Z, py - 10 * Z)], fill=(150, 110, 66, 255), outline=SILB)
-    d.ellipse(G_["body"], fill=SILB)                                   # swaddled body
-    d.ellipse(G_["head"], fill=SILB)                                   # head
-    d.line(G_["arm"], fill=SILB, width=int(9 * Z))                     # raised arm
-    d.ellipse(G_["fist"], fill=SILB)                                   # fist
-    lab = a["package"].img
-    li = lab.resize((int(lab.width * 1.1), int(lab.height * 1.1)))
-    _ac(bg, li, px - li.width / 2, py + 22)                                # the label stays ON the box
+    G_ = baby_geometry(x, y, s)
+    draw_baby(d, G_)
+    # her near forearm cradles under the bundle (drawn after, so the bundle lies IN her arm)
+    bx0, by0, bx1, by1 = G_["body"]
+    d.line([(x + 10 * s, y - 112 * s), (x + 22 * s, y - 86 * s), (bx1 - 30, by1 - 4)], fill=(30, 22, 26, 255), width=22, joint="curve")
+    px, py = G_["head_c"]
     # a near fog plane (z 1.2) parts over the baby at b233-235
     k = ease(seg(b, 232.6, 235))
     if k < 1:
@@ -519,7 +554,7 @@ def closeup(b, t):
         f.putalpha(Image.fromarray((np.asarray(f.split()[3], np.float32) * np.asarray(m, np.float32) / 255).astype(np.uint8)))
         bg.alpha_composite(f)
     # morning light on them
-    blit_center(bg, a["glow_mid"], px + 150, py - 230)
+    blit_center(bg, a["glow_mid"], px + 220, py - 200)
     draw_message(bg, b, (W / 2 + 200, 80))
     return bg
 
@@ -692,7 +727,7 @@ def draw_reach(d, b):
 
 def servo_cues():
     """The arm's servo, 10 grains one beat after the arm starts, each panned by the elbow's screen x (round 2)."""
-    return [(137.0 + k * 0.25, "whirgrain", 3.0, arm_pan(137.0 + k * 0.25), 1.0) for k in range(10)]
+    return [(137.0 + k * 0.25, "whirgrain", 3.0, arm_pan(min(137.0 + k * 0.25, 139.0)), 1.0) for k in range(12)]   # to b139.75
 
 
 def arm_tip_x(b):
@@ -708,12 +743,12 @@ def arm_pan(b):
 def song_gain(b):
     """Ducking under the hush: -9 dB through suspend and the hand's first approach (b134-137.6), -6 dB to b138.6, back on HERE (b139.3)."""
     def ramp(x, a, c): return clamp((x - a) / (c - a))
-    if b < 133.8 or b >= 139.3: return 1.0
+    if b < 133.8 or b >= 139.9: return 1.0
     if b < 134.2: return lerp(1.0, 0.355, ramp(b, 133.8, 134.2))
     if b < 136.1: return 0.355
     if b < 138.0: return 0.25                         # the hand emerges in near-silence (-12 dB, b136.1-138)
-    if b < 138.8: return 0.5
-    return lerp(0.5, 1.0, ramp(b, 138.8, 139.3))
+    if b < 139.5: return 0.5                          # round 3: hold the pan at the house through the contact
+    return lerp(0.5, 1.0, ramp(b, 139.5, 139.9))
 
 
 def storm_curve(b):

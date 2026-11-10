@@ -63,7 +63,7 @@
    }
   },
   {
-   "test": "return 116 s: dog is a separate single region, 4 legs + tail visible",
+   "test": "return set (geometry): dog is a separate single region, 4 legs + tail visible",
    "pass": true,
    "detail": {
     "beat": 271.89,

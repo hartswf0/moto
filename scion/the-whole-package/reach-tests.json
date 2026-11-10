@@ -43,8 +43,18 @@
    "test": "(e) baby separated from her head by >= 4 px at 360 px",
    "pass": true,
    "detail": {
-    "gap_px_full": 48.5,
-    "gap_px_at_360": 13.6
+    "gap_px_full": 40.0,
+    "gap_px_at_360": 11.3
+   }
+  },
+  {
+   "test": "(e) swaddle: head:body length ratio between 1:2 and 1:3, one small fist, no box",
+   "pass": true,
+   "detail": {
+    "head_diameter": 50,
+    "body_length": 140,
+    "ratio": 2.8,
+    "fist_radius": 8
    }
   }
  ],

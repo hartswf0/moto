@@ -106,3 +106,15 @@ The failure persisted on the same beat after two fixes (b139, the nearer hand), 
 | Baby | the head sat by her face; a fist near her chin; a mini box in her hands | `baby_geometry`: the box forward and lower (×1.7); the fist raised on the far side; no hand-held box; the glow moved off the baby |
 
 New assertions are in `tests/test_reach.py` (written to `reach-tests.json`): (a) the arm root lies on the house silhouette and in frame, and the house's fog opacity is < 0.35 through b137–139 (computed with the compositor's own rule, `film.fog_opacity_at`); (b) the depth order, drawn after fog, and the chain crossing the stalk; (c) the finger count on an arc at 360 px; (e) the baby's separation from her head at 360 px. `tests/test_audio.py` now measures pan over **b137–139**.
+
+## Critic round 3 and repairs
+
+Verdict: **PROOF PASS** (a–d met: pan +0.38, hush −7.9 dB, the arm over the stalk over the house, 4 fingers). **Film: inconclusive** on one failure, the baby at about 2:08.
+
+| failure | cause | repair | check |
+|---|---|---|---|
+| The baby read as "a beetle or a mouse toy in a box" | the infant was built from box + ellipse + ball-tipped stick: shapes that say *object*, not *infant* | `baby_geometry` / `draw_baby`: a swaddled cocoon (teardrop tapering to the feet) with a pale rim so it separates from her dark arms; diagonal swaddle wraps and a hood rim in negative space; the head at the end nearest her, face in profile turned toward her; one small curled fist breaking the top edge; **no box**; her forearm cradles under it | `tests/test_reach.py` (e): head:body 50:140 = 1:2.8, fist r 8 px, gap to her head 11.3 px at 360 |
+| (extra) Pan dropped to +0.16 at the b139 contact | the song returned on b138.8–139.3; the servo ended at b139.25 | servo grains run to b139.75, panned by the elbow (held at its b139 position); the song returns over b139.5–139.9 | `tests/test_audio.py` |
+| (extra) The house popped in at 74.00–74.33 s | the house-fog ramp was 0.7 beat with a steep ease | the ramp is b136.0–137.0 (0.54 s) | reach test (a) still requires visibility through b137–139 |
+
+The proof was re-cut from the film exactly as before (b110–150), because the pan and house tweaks change b136–140.

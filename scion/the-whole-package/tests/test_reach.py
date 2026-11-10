@@ -58,8 +58,11 @@ G = film.baby_geometry(540, 790, 2.7)
 hx, hy, hr = G["her_head"]; fx, fy = G["her_face_tip"]
 def dist_rect(px, py, R):
     x0, y0, x1, y1 = R; dx = max(x0 - px, 0, px - x1); dy = max(y0 - py, 0, py - y1); return math.hypot(dx, dy)
-shapes = {k: G[k] for k in ("box", "body", "head", "fist")}
+shapes = {k: G[k] for k in ("body", "head", "fist_box")}
 gap = min(min(dist_rect(hx, hy, R) - hr, dist_rect(fx, fy, R)) for R in shapes.values())
 rec("(e) baby separated from her head by >= 4 px at 360 px", gap * 360 / W >= 4, {"gap_px_full": round(gap, 1), "gap_px_at_360": round(gap * 360 / W, 1)})
+ratio = G["L"] / (2 * G["head_r"])
+rec("(e) swaddle: head:body length ratio between 1:2 and 1:3, one small fist, no box", 2.0 <= ratio <= 3.0 and G["fist"][1] <= 10,
+    {"head_diameter": 2 * G["head_r"], "body_length": G["L"], "ratio": round(ratio, 2), "fist_radius": G["fist"][1]})
 json.dump({"suite": "reach-round2", "results": res, "all_pass": ok_all}, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "reach-tests.json"), "w"), indent=1)
 sys.exit(0 if ok_all else 1)
