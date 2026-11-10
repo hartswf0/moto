@@ -43,9 +43,9 @@
 
   <h2>Status</h2>
   <div class="grid">
-    <div class="card"><h3>Current revision</h3><div>r2: one bounded repair pass after critic round 1 (seven items: the house reaches, one of her with a readable baby, panned and ducked sound, interior parallax, the light in frame at b112, phone-size captions, an action in the day shot).</div></div>
-    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 1: reference stronger</div><div>Proof: reference stronger (narrowly). Film: reference stronger. Repairs applied; <b>re-review pending</b>.</div></div>
-    <div class="card"><h3>Next blocking failure</h3><div>Independent re-review of r2 against the round-1 repair conditions (see <a href="./METHOD.md">METHOD.md</a>). Known open item: the mix is only barely below mono correlation (0.977), because the song itself is centred.</div></div>
+    <div class="card"><h3>Current revision</h3><div>r3: round-2 repair, with the staging model changed for the b139 reach (house, arm and her in one frame; the arm is the nearest crisp plane; fog pocket around her; servo track panned at the house) plus the baby separation. Everything else is unchanged from r2.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict">Round 2: proof reference stronger · film inconclusive</div><div>Round 1: reference stronger / reference stronger. Round-2 repairs applied to the b139 reach and the baby only; <b>re-review pending</b>.</div></div>
+    <div class="card"><h3>Next blocking failure</h3><div>An independent re-review of r3 against the round-2 conditions (a)–(d) and the baby (see <a href="./reach-tests.json">reach-tests.json</a>, <a href="./audio-tests.json">audio-tests.json</a>).</div></div>
     <div class="card"><h3>Accepted checkpoint</h3><div>None yet. Every frame is reproducible from <code>src/</code>.</div></div>
   </div>
 
@@ -65,14 +65,14 @@
     <tr><td>Parallax ratio = depth ratio, all plane pairs, every moving frame</td><td>pass: 2,356 frames, max relative error 5e-11</td></tr>
     <tr><td>Fog optical depth non-decreasing with distance</td><td>pass: 515 frames</td></tr>
     <tr><td>Obscure state is depth-shaped</td><td>pass: α at the arm 0.76 vs at her 0.97</td></tr>
-    <tr><td>Hand pans with its screen x (b136.2–137.2)</td><td>see <a href="./audio-tests.json">audio-tests.json</a> (final mix)</td></tr>
+    <tr><td>Servo pans at the house, averaged over b137–139 (≥ +0.3)</td><td>see <a href="./audio-tests.json">audio-tests.json</a> (final mix)</td></tr>
     <tr><td>Hush dip b134.4–136.4</td><td>see audio-tests.json (≥ 6 dB required)</td></tr>
   </table></div>
 
   <h2>Artifacts</h2>
   <ul>
     <li><a href="./METHOD.md">Production record</a>: thesis, primitives, proof table, method library</li>
-    <li><a href="./multiplane-tests.json">Multiplane test report</a></li>
+    <li><a href="./multiplane-tests.json">Multiplane test report</a> · <a href="./reach-tests.json">reach / baby assertions</a> · <a href="./audio-tests.json">audio report</a></li>
     <li><a href="./source-ledger.json">Source ledger</a> · <a href="./sfx-cues.json">depth SFX cue sheet</a> (beat, z, pan, gain)</li>
     <li><a href="./src/">Source</a>: <code>mp.py</code> (planes, fog, focus), <code>film.py</code> (timeline and fog states), <code>cast.py</code>, <code>sfx3d.py</code></li>
     <li><a href="../../VOLHOLLA/song-boxback-15.html">Song page</a> · <a href="../wittgensteins-backpack/index.html">Wittgenstein's Backpack</a></li>

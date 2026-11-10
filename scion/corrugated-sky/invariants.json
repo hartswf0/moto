@@ -40,7 +40,7 @@
    "test": "silhouettes do not merge (girl vs dog, b184-199)",
    "pass": true,
    "detail": {
-    "max_overlap_fraction": 0.0107,
+    "max_overlap_fraction": 0.0087,
     "at_beat": 196.0
    }
   },
@@ -58,7 +58,7 @@
    "test": "hand contour visibly opens at 360 px (changed region >= 6 px)",
    "pass": true,
    "detail": {
-    "changed_px_area": 147,
+    "changed_px_area": 136,
     "changed_span_px": 21
    }
   },
@@ -71,26 +71,59 @@
     "single_region": true,
     "leg_tail_ends": {
      "hshin_n": [
-      1227,
-      624
+      1229,
+      631
      ],
      "hshin_f": [
-      1235,
-      619
+      1274,
+      613
      ],
      "fpaw_n": [
-      1059,
-      636
+      1051,
+      632
      ],
      "fpaw_f": [
-      1065,
+      1115,
       637
      ],
      "tail": [
-      1258,
+      1273,
       535
      ]
     }
+   }
+  },
+  {
+   "test": "thumb joined: hand + thumb one connected component (every grasp frame)",
+   "pass": true,
+   "detail": {
+    "max_components": 1
+   }
+  },
+  {
+   "test": "dog in threshold: separate shape, >=3 px gap, 4 legs + tail (return, rain 132 s, night 60-62.5 s)",
+   "pass": true,
+   "detail": {
+    "frames": 63,
+    "failures": [],
+    "sample": [
+     {
+      "t": 121.791,
+      "touching_px_within_3px": 0,
+      "one_shape": true,
+      "leg_runs_at_floor-26": 4,
+      "tail_visible": true,
+      "ok": true
+     },
+     {
+      "t": 132.0,
+      "touching_px_within_3px": 0,
+      "one_shape": true,
+      "leg_runs_at_floor-26": 4,
+      "tail_visible": true,
+      "ok": true
+     }
+    ]
    }
   }
  ],

@@ -1,6 +1,6 @@
 """Round-2 assertions for the nearer-hand shot (b137-139) and the baby close-up.  python3 -I tests/test_reach.py
 (a) the arm root lies inside the house-box silhouette and inside the frame; the house is not a ghost:
-    fog opacity in front of the house (slab z 6 -> 4.2) < 0.35 for every frame b137-139
+    fog opacity in front of the house (all slabs nearer than the house, at its screen centre) < 0.35 for every frame b137-139
 (b) depth order: ARM_Z < STALK_Z < her z, the arm is drawn after fog/focus (no blur), and its chain crosses the stalk's screen x
 (c) finger count: the hand drawn alone, downsampled to 360 px wide, sampled on an arc through the fingers -> >= 3 separate runs
 (e) baby: >= 4 px gap at 360 px between her head (circle + face) and every baby shape
@@ -26,9 +26,9 @@ for f in frames:
     ix, iy = int(rx - x0), int(ry - y0)
     on = 0 <= ix < house_alpha.shape[1] and 0 <= iy < house_alpha.shape[0] and house_alpha[iy, ix] > 128
     inside.append(on and 0 <= rx < W and 0 <= ry < H)
-    _, sigma = film.fog_state(b)
-    zs = np.linspace(4.2, 6.0, 30); tau = sum(sigma((zs[i] + zs[i + 1]) / 2) * (zs[i + 1] - zs[i]) for i in range(29))
-    fogmax = max(fogmax, 1 - math.exp(-tau * 6.0))
+    # fog opacity over the house's middle (screen), accumulated through every slab nearer than the house (compositor rule, noise at max)
+    hc = ((x0 + x1) / 2, (y0 + y1) / 2)
+    fogmax = max(fogmax, film.fog_opacity_at(b, hc[0], hc[1], 6.0))
 rec("(a) arm root on the house silhouette, in frame, b137-139", all(inside), {"frames": len(frames), "inside": sum(inside)})
 rec("(a) house visible: fog opacity in front of it < 0.35, b137-139", fogmax < 0.35, {"max_opacity": round(fogmax, 3)})
 

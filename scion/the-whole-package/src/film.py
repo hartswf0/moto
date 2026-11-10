@@ -334,8 +334,12 @@ def exterior(b, t, hide_woman=False):
         tau = sigma(zm) * (z - z_near) + sigma(z) * 0.0
         al = 1 - math.exp(-tau * 6.0)
         if al > 0.01:
-            canvas.alpha_composite(fog.slab(i, cam["x"] * F / zm + drift, 40 * math.sin(t * 0.3 + i), min(0.96, al * 1.15),
-                                            fog_col, contrast=1.6, floor=0.35))
+            L = fog.slab(i, cam["x"] * F / zm + drift, 40 * math.sin(t * 0.3 + i), min(0.96, al * 1.15), fog_col, contrast=1.6, floor=0.35)
+            pm = pocket_strength(b)
+            if pm > 0 and zm < 4.6:          # round 2: from b136.3 the fog in front of her shrinks to a pocket around her
+                m = pocket_mask(b, cam, pm)
+                L.putalpha(Image.fromarray((np.asarray(L.split()[3], np.float32) * m).astype(np.uint8)))
+            canvas.alpha_composite(L)
     # pollen motes (a few depth bands, parallax-correct)
     d = ImageDraw.Draw(canvas)
     rnd = random.Random(5)
@@ -564,13 +568,11 @@ def cues():
         Q.append((16 + k, "step", 4.6, -0.2, 0.35))
     for k in range(8): Q.append((113.5 + k * 2, "step", 4.2, 0.0, 0.5))
     Q += [(116, "rustle", 1.5, -0.5, 0.8), (121, "flap", 2.7, 0.0, 0.9), (123, "flap", 2.7, 0.2, 0.7), (127.5, "knock", 2.0, 0.4, 0.6),
-          (139, "chime", 3.4, 0.25, 1.0), (144, "door", 6.0, 0.0, 0.9), (149.2, "door", 6.0, 0.0, 1.0)]
+          (139, "chime", 3.4, 0.75, 1.0), (144, "door", 6.0, 0.0, 0.9), (149.2, "door", 6.0, 0.0, 1.0)]
     for i, bt in enumerate((154, 156, 158, 160, 162, 164)):
         Q.append((bt, "tape", 2.0, -0.6 + i * 0.25, 0.8))
     # the arm's servo, chopped into 0.3-beat grains, each panned by where the hand is on screen at that beat
-    for k in range(10):
-        bb = 137.0 + k * 0.25
-        Q.append((bb, "whirgrain", 3.0, arm_pan(bb), 4.0))
+    # (the arm's servo is its own track: see servo_cues(), mixed at a fixed level in render.make_mix)
     Q.append((152, "slide", 2.5, -0.5, 0.7))
     for k in range(16): Q.append((175 + k, "heart", 2.5, 0.0, 0.6 if k % 2 == 0 else 0.4))
     Q += [(200, "flapopen", 6.0, 0.2, 0.6), (208, "door", 6.0, 0.0, 0.6), (216, "chime", 6.0, 0.0, 0.9), (191, "bell", 30.0, -0.3, 0.7)]
@@ -582,6 +584,48 @@ def cues():
 ARM_Z, STALK_Z, STALK_WX = 1.3, 1.5, 1112.0      # the arm is the nearest plane in the shot; the stalk sits under it
 ARM_DRAWN_AFTER_FOG = True
 HAND = dict(palm=(30, 22), finger_len=36, finger_w=10, spread=(-33, -11, 11, 33), thumb=78)
+
+
+def pocket_strength(b):
+    return ease(seg(b, 136.3, 137.0)) if 136.3 <= b < 150 else 0.0
+
+
+def pocket_center(b, cam):
+    wx, wz = woman_path(b)[0], woman_path(b)[1]
+    p = proj(wx, GROUND, wz, cam); return (p[0], p[1] - 130)
+
+
+def pocket_factor(b, cam, x, y, pm):
+    """Multiplier (0..1) on near-fog opacity at screen (x, y): 1 inside the pocket around her, 1 - pm far from it."""
+    cx, cy = pocket_center(b, cam)
+    d = math.hypot((x - cx) / 170.0, (y - cy) / 230.0)
+    inside = clamp(1.4 - d)                       # soft edge between d = 0.4 and 1.4
+    return inside + (1 - inside) * (1 - pm)
+
+
+_PM_CACHE = {}
+def pocket_mask(b, cam, pm):
+    cx, cy = pocket_center(b, cam)
+    yy, xx = np.mgrid[0:H:4, 0:W:4].astype(np.float32)
+    d = np.hypot((xx - cx) / 170.0, (yy - cy) / 230.0)
+    inside = np.clip(1.4 - d, 0, 1)
+    m = inside + (1 - inside) * (1 - pm)
+    return np.asarray(Image.fromarray((m * 255).astype(np.uint8)).resize((W, H), Image.BILINEAR), np.float32) / 255.0
+
+
+def fog_opacity_at(b, x, y, z_obj, plane_zs=(30, 18, 14, 6.0, 4.2, 2.7, 2.0, 1.5)):
+    """Accumulated fog opacity over screen point (x, y) for an object at z_obj - the compositor's own rule
+    (slab opacity = 1 - exp(-6 * sigma(mid) * dz), capped at 0.96 * 1.15 scaling, pocket mask for slabs nearer than 4.6)."""
+    _, sigma = fog_state(b); cam = camera(b)
+    zs = sorted([z for z in plane_zs if z <= z_obj], reverse=True) + [0.9]
+    trans = 1.0
+    for i in range(len(zs) - 1):
+        z, zn = zs[i], zs[i + 1]; zm = (z + zn) / 2
+        al = min(0.96, (1 - math.exp(-sigma(zm) * (z - zn) * 6.0)) * 1.15)
+        pm = pocket_strength(b)
+        if pm > 0 and zm < 4.6: al *= pocket_factor(b, cam, x, y, pm)
+        trans *= (1 - al)
+    return 1 - trans
 
 
 def her_hand_screen(b):
@@ -646,6 +690,11 @@ def draw_reach(d, b):
         draw_hand(d, ch[-1], ang, PALM, DK)
 
 
+def servo_cues():
+    """The arm's servo, 10 grains one beat after the arm starts, each panned by the elbow's screen x (round 2)."""
+    return [(137.0 + k * 0.25, "whirgrain", 3.0, arm_pan(137.0 + k * 0.25), 1.0) for k in range(10)]
+
+
 def arm_tip_x(b):
     """Screen x of the arm's servo: the elbow joint while the forearm extends (the motor lives in the joint, in the house)."""
     g = reach_geometry(b); ch = g["chain"]
@@ -662,9 +711,9 @@ def song_gain(b):
     if b < 133.8 or b >= 139.3: return 1.0
     if b < 134.2: return lerp(1.0, 0.355, ramp(b, 133.8, 134.2))
     if b < 136.1: return 0.355
-    if b < 137.4: return 0.25                         # the hand emerges in near-silence (-12 dB, 0.7 s)
-    if b < 138.6: return 0.5
-    return lerp(0.5, 1.0, ramp(b, 138.6, 139.3))
+    if b < 138.0: return 0.25                         # the hand emerges in near-silence (-12 dB, b136.1-138)
+    if b < 138.8: return 0.5
+    return lerp(0.5, 1.0, ramp(b, 138.8, 139.3))
 
 
 def storm_curve(b):

@@ -1,6 +1,6 @@
 {
  "film": "the-universal-boxback",
- "revision": "r2",
+ "revision": "r3",
  "grid": {
   "period": 0.4614285829991442,
   "offset": 0.045678572874893,
@@ -124,36 +124,36 @@
    },
    "at_122_5": {
     "1": [
-     459,
-     547,
-     728,
+     460,
+     550,
+     730,
      820
     ],
     "2": [
-     463,
-     553,
+     460,
+     550,
      730,
-     817
+     820
     ],
     "3": [
-     459,
-     638,
-     818
+     460,
+     640,
+     820
     ],
     "5": [
-     552,
-     643,
-     731
+     550,
+     640,
+     730
     ],
     "4": [
-     502,
-     594,
-     686,
-     778
+     505,
+     595,
+     685,
+     775
     ],
     "6": [
-     597,
-     684
+     595,
+     685
     ]
    }
   },
@@ -164,12 +164,9 @@
   {
    "test": "C2c Plato section: max box overlap <= 10 %",
    "pass": true,
-   "max_overlap": 0.0251,
-   "pair": [
-    2,
-    6
-   ],
-   "frame": 2940
+   "max_overlap": 0.0,
+   "pair": null,
+   "frame": null
   },
   {
    "test": "C3 marker A passes 12 o'clock 3x, marker B 2x (b52-72)",
@@ -193,7 +190,7 @@
    "test": "C4 the stop shows on the b77 frame (pixel change >> hold)",
    "pass": true,
    "frame": 854,
-   "mean_abs_diff_stop": 8.109,
+   "mean_abs_diff_stop": 9.399,
    "mean_abs_diff_hold": 0.0
   },
   {
@@ -241,6 +238,93 @@
   {
    "test": "B5 making starts at the first step (lower rows land first)",
    "pass": true
+  },
+  {
+   "test": "D1 122-140 s: >=8 boxes move >=15 px on >=50 % of beats",
+   "pass": true,
+   "fraction_of_beats": 0.789,
+   "boxes_moving_per_beat": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    10,
+    20,
+    10,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    20,
+    10,
+    0,
+    0
+   ]
+  },
+  {
+   "test": "D2 accumulation phase relation odd:even rows = 3:2",
+   "pass": true,
+   "zero_crossings_row1": 27,
+   "zero_crossings_row2": 18
+  },
+  {
+   "test": "D3 accumulation coverage exceeds every earlier section",
+   "pass": true,
+   "accumulation": 0.1554,
+   "best_earlier": "plato",
+   "best_earlier_value": 0.1078
+  },
+  {
+   "test": "D4 house slots return exactly by 140 s",
+   "pass": true,
+   "max_err_px": 0.0
+  },
+  {
+   "test": "E1 all text within x = 40..1240",
+   "pass": true,
+   "texts_checked": 1454,
+   "unique": 49,
+   "violations": []
+  },
+  {
+   "test": "E2 ARCH/BLDR tags and A\u00d73/B\u00d72 legend >= 12 px tall at 360 px",
+   "pass": true,
+   "height_at_360_px": 12.9
+  },
+  {
+   "test": "F1 151.5-160 s: all content y <= 700",
+   "pass": true,
+   "max_y_px": 696.9
+  },
+  {
+   "test": "G1 149.75-150.25 s: max box overlap <= 10 %",
+   "pass": true,
+   "max_overlap": 0.0,
+   "pair": null,
+   "frame": null
   }
  ],
  "all_pass": true

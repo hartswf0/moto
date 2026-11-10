@@ -45,8 +45,8 @@
 
   <h2>Status</h2>
   <div class="grid">
-    <div class="card"><h3>Current revision</h3><div>r2: one repair pass after critic round 1. Grid re-fitted to 141.05 BPM (beat 0.4254 s, offset 0.345 s, phase lock 0.23). Poses on twos (12 fps), shown at 24 fps; 2:26, 1280×720.</div></div>
-    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict bad">Round 1: proof reference stronger · film reference stronger</div><div>Repairs were applied for all 8 notes (let-go order, head turns, grasp, fire, the return dog, empty wall places, grid, night contrast). A re-review is pending; nothing has been accepted yet.</div></div>
+    <div class="card"><h3>Current revision</h3><div>r3: repair passes after critic rounds 1 and 2. Grid re-fitted to 141.05 BPM (beat 0.4254 s, offset 0.345 s, phase lock 0.23). Poses on twos (12 fps), shown at 24 fps; 2:26, 1280×720.</div></div>
+    <div class="card"><h3>Decisive critic verdict</h3><div class="verdict bad">Round 1: reference stronger / reference stronger · Round 2: reference stronger / reference stronger</div><div>Round 2 confirmed that the let-go order, head turns, night no-duplication and red title were fixed. Round-2 repairs applied: the thumb joins the palm (1 component), the dog is a four-leg rig that stays separate in threshold, the interior flames, smoke banks, and the collapse now comes before the return. A re-review is pending.</div></div>
     <div class="card"><h3>Next blocking failure</h3><div>Independent re-review of the repaired proof and film. Known leftovers: the house details are small at phone size, and the proof is still a different gate set from the night scene.</div></div>
     <div class="card"><h3>Accepted checkpoint</h3><div>None accepted yet. The source is reproducible from <code>src/render.py</code>.</div></div>
   </div>
@@ -60,6 +60,8 @@
     <tr><td>Let-go order: hand opens → arm back (+6 f) → paw folds (+6 f)</td><td>frame scan b197.5–202</td><td>pass</td></tr>
     <tr><td>Hand visibly opens at 360 px</td><td>changed-region span</td><td>pass: 21 px</td></tr>
     <tr><td>Return 116 s: dog is a separate region, 4 legs + tail visible</td><td>separate rasterisation</td><td>pass: 0 shared px</td></tr>
+    <tr><td>Hand + thumb are one connected component (grasp frames)</td><td>flood-fill per frame</td><td>pass</td></tr>
+    <tr><td>Dog at luma 70: own shape, ≥3 px gap, 4 legs + tail</td><td>return, rain 132 s, night 60–62.5 s (63 frames)</td><td>pass</td></tr>
     <tr><td>Girl and dog do not merge (overlap &lt; 1.5%)</td><td>mask overlap b184–199</td><td>pass: max 1.1%, at the paw on the palm</td></tr>
   </table></div>
 

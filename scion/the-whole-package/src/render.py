@@ -5,6 +5,9 @@ import film, sfx3d
 from engine import ROOT, REPO, W, H, LEDGER
 AUDIO = os.path.join(REPO, "Et tu, Brute (BOXBACK)", "Et tu, Brute_ - The Whole Package - Treblo.ogg")
 
+SERVO_GAIN = 0.55
+
+
 def make_mix(sfx_wav, out_wav, sfx_gain=0.42):
     """Song (ducked by film.song_gain under the hush) + depth SFX stem, in Python so pan/duck are exact and measurable."""
     import numpy as np, wave
@@ -14,7 +17,14 @@ def make_mix(sfx_wav, out_wav, sfx_gain=0.42):
     n = len(song); sfx = np.pad(sfx, ((0, max(0, n - len(sfx))), (0, 0)))[:n]
     tt = np.arange(0, n / 44100 + 0.01, 0.005)
     g = np.interp(np.arange(n) / 44100, tt, [film.song_gain(film.B(x)) for x in tt])
-    y = song * g[:, None] + sfx * sfx_gain
+    # the servo track (not peak-normalised with the stem): fixed level against the song
+    import sfx3d
+    servo = np.zeros((n, 2))
+    for i, (bb, kind, z, pan, gg) in enumerate(film.servo_cues()):
+        snd = sfx3d.lowpass(sfx3d.make(kind, i), 9000 / (1 + 0.35 * z)) * gg
+        st = int(film.T(bb) * 44100); e = min(n, st + len(snd)); th = (pan + 1) * np.pi / 4
+        servo[st:e, 0] += snd[:e - st] * np.cos(th); servo[st:e, 1] += snd[:e - st] * np.sin(th)
+    y = song * g[:, None] + sfx * sfx_gain + servo * SERVO_GAIN
     y = np.clip(y, -1, 1)
     with wave.open(out_wav, "wb") as o:
         o.setnchannels(2); o.setsampwidth(2); o.setframerate(44100); o.writeframes((y * 32767).astype(np.int16).tobytes())

@@ -88,3 +88,21 @@ Verdict: **proof reference stronger (narrowly), film reference stronger.** One b
 | 5 | FOLLOW MY LIGHT with no glow until b116 | the camera tracked her only; the house was off-frame right | the camera weights her and the house (0.6·wx + 0.4·house); occluders re-solved for that camera (laundry 530, boxes 830) | the glow is in frame at b112 |
 | 6 | Captions about 7 px at phone size, contrast 1.7:1 | 40 px mono in light gold on gold fog | 80 px Inter ExtraBold, wrapped to ≤ 1100 px, warm white on a dark band (α 0.75). Contrast is about 11:1 over the gold fog (computed: text (255,238,206) on band ≈ (59,49,24)) | ≥ 3× size, ≥ 4.5:1 |
 | 7 | 0:08–0:20 nearly static | the camera locked on her while she walked | a held frame b16–40: she crosses the whole frame and the village windows (now 24×26 world units) go dark one by one behind her | an action in the shot |
+
+## Critic round 2 and repairs
+
+Verdict: **proof reference stronger, film inconclusive.** Met and untouched: the hush, the interior parallax, the glow at b112, captions, the 0:08–0:20 walk, one of her with the fog parting at dawn.
+
+The failure persisted on the same beat after two fixes (b139, the nearer hand), so per doctrine §6 the *model* changed, not the parameters.
+
+| | round 1 model (failed) | round 2 model |
+|---|---|---|
+| Hypothesis | "the hand reads as the house's if it comes from the house's direction" | "it reads as the house's only if root, arm and hand are all in one frame, the house body is visible, and the arm is the nearest plane" |
+| Staging | the camera tracked her; the house was off-frame or ghosted; the arm came in from the frame edge | while she is lost the camera settles at x 1100, solved so the z 2.0 box stack (world 830–988) clears her (cam ≥ 1094). She is at screen x ≈ 354 and the house body is at 480–900 beside her |
+| Depth | the arm was drawn at z 3.0 inside the plane loop, so a stalk drew over it and the focus blurred it | the arm is the nearest plane (ARM_Z 1.3 < stalk 1.5 < her 4.2), drawn after fog and focus, crisp. A stalk at world x 1112 sits under the forearm |
+| Fog | the fog in front of her was a full-frame slab, so it also hid the house behind her | from b136.3 the near fog shrinks to a **pocket around her** (`pocket_mask`); the house body clears over b136.3–137.0; she still goes faint-to-crisp on HERE (k2, b137–139) |
+| Hand | a blurred mitt | `draw_hand`: palm, four separated fingers (spread ±11°, ±33°), thumb, crisp outline |
+| Sound | servo grains panned by the hand tip, which travels toward the centre, and peak-normalised with the stem (the servo *was* the peak, so gain did nothing) | the servo is its own track (`film.servo_cues`, `render.SERVO_GAIN` 0.55), starting one beat later (b137–139.25) and panned by the **elbow** joint, which stays at the house. The HERE chime is panned to the house. The duck holds −12 dB to b138 and −6 dB to b138.8 |
+| Baby | the head sat by her face; a fist near her chin; a mini box in her hands | `baby_geometry`: the box forward and lower (×1.7); the fist raised on the far side; no hand-held box; the glow moved off the baby |
+
+New assertions are in `tests/test_reach.py` (written to `reach-tests.json`): (a) the arm root lies on the house silhouette and in frame, and the house's fog opacity is < 0.35 through b137–139 (computed with the compositor's own rule, `film.fog_opacity_at`); (b) the depth order, drawn after fog, and the chain crossing the stalk; (c) the finger count on an arc at 360 px; (e) the baby's separation from her head at 360 px. `tests/test_audio.py` now measures pan over **b137–139**.

@@ -11,9 +11,9 @@
   },
   {
    "test": "(a) house visible: fog opacity in front of it < 0.35, b137-139",
-   "pass": false,
+   "pass": true,
    "detail": {
-    "max_opacity": 0.846
+    "max_opacity": 0.225
    }
   },
   {
@@ -48,5 +48,5 @@
    }
   }
  ],
- "all_pass": false
+ "all_pass": true
 }

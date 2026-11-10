@@ -74,6 +74,23 @@ P0_ARR = np.array([SLOT_P0[i] for i in range(N)], float)
 F_ROWS = [[0, 1, 2, 3], [4, 5, 6, 8], [9, 13, BEAM], [14, 15, 16, 17], [10, 11, 12], [18, 19]]   # rain order
 
 
+ROW_OF = {j: r for r, y in ROWY.items() for j in range(N) if abs(SLOT_F[j][1] - y) < 1}
+ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 292.0, 302.0, 150.0
+
+
+def acc_env(b):
+    """accumulating amplitude: rises as a power curve to the peak, then closes in 10 beats."""
+    if b <= ACC_B0 or b >= ACC_B1: return 0.0
+    if b < ACC_PEAK: return ((b - ACC_B0) / (ACC_PEAK - ACC_B0)) ** 1.5
+    return 0.5 * (1 + math.cos(math.pi * (b - ACC_PEAK) / (ACC_B1 - ACC_PEAK)))
+
+
+def row_offsets(b):
+    A = ACC_AMAX * acc_env(b)
+    ph = 2 * math.pi * (b - ACC_B0) / 8
+    return {r: A * math.sin((3 if r % 2 else 2) * ph) * (1 if r % 2 else -1) for r in ROWY}
+
+
 def box_w(j, b=None):
     return beam_width(b) if j == BEAM else BW
 
@@ -98,7 +115,8 @@ def ring(b, b0=52.0, span=20.0, R=R_RING, sep=60.0, floor=36.0, squash=0.80, spi
     return P, ang
 
 
-ELL_A, ELL_B, ELL_C = (600.0, 330.0), (500.0, 260.0), (640.0, 400.0)
+ELL_A, ELL_B, ELL_C = (600.0, 330.0), (500.0, 260.0), (640.0, 400.0)       # making orbit (encloses the house)
+REL_A, REL_B, REL_C = (600.0, 280.0), (500.0, 220.0), (640.0, 380.0)       # release rings: inside y <= 700
 
 
 def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
@@ -108,8 +126,8 @@ def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
     for j in range(N):
         i, k = j % 10, (3 if j < 10 else 2)
         th = -math.pi / 2 + i * 2 * math.pi / 10 + k * 2 * math.pi * u + spin
-        rx, ry = ELL_A if j < 10 else ELL_B
-        P[j] = (ELL_C[0] + rx * math.cos(th), ELL_C[1] + ry * math.sin(th)); ang[j] = th
+        rx, ry = REL_A if j < 10 else REL_B
+        P[j] = (REL_C[0] + rx * math.cos(th), REL_C[1] + ry * math.sin(th)); ang[j] = th
     return P, ang
 
 
@@ -344,19 +362,22 @@ def state(b):
                 P[j] = (P[j][0], P[j][1] - 3 * math.sin(math.pi * u)); gl[j] = 0.6 + 0.9 * math.sin(math.pi * u)
     elif b < 324:
         P[:] = F_ARR
-        amp = 3.0 if b < 304 else 0.0
-        ph = 2 * math.pi * (b - 264) / 8
+        # ACCUMULATION (b266-302): every row slides as a rigid card; odd rows at 3, even rows at 2 cycles per
+        # 8 beats; the envelope grows to its peak at b292 and closes to zero on b302. Rows re-align every 8 beats.
+        dx = row_offsets(b)
         for j in range(N):
-            P[j] = F_ARR[j] + (amp * math.sin(3 * ph + j), amp * math.sin(2 * ph + j))
-        gl[:] = 0.55 + 0.25 * math.exp(-5 * (b % 1))
+            P[j] = (F_ARR[j][0] + dx[ROW_OF[j]], F_ARR[j][1])
+        gl[:] = 0.55 + 0.25 * math.exp(-5 * (b % 1)) + 0.4 * acc_env(b)
         if 304 <= b < 324:
             f = 1 - ease((b - 304) / 2) if b < 316 else (0.0 if b < 322 else ease((b - 322) / 2))
             face[:] = f; gl[:] = 0.9
     elif b < 348:
-        k = ease((b - 324) / 4)
+        # open the house the way the re-lock captures the bank: collapse to points, travel, regrow on the ring
+        k = ease((b - 324.8) / 2.2)
         Pr, ang = ellipse_ring(b)
         P = F_ARR * (1 - k) + Pr * k
         rotd = (np.degrees(ang) + 90) * k
+        sc[:] = 1 - 0.95 * ease((b - 324) / 0.8) if b < 327 else 0.05 + 0.95 * ease((b - 327) / 1.0)
         gl[:] = 0.85
     elif b < RAIN_END + 1e-9 or b < 400:
         # the field lifts away (b348-354.9) while turning, then the house rains back row by row
@@ -432,19 +453,39 @@ def assets():
     return A
 
 
+TEXT_LOG = None          # tests set this to a list; every drawn text appends (text, x0, y0, x1, y1)
+SAFE = (40, 1240)
+
+
 def spaced(d, xy, text, f, fill, track=0.35, anchor_center=True):
-    widths = [d.textbbox((0, 0), ch, font=f)[2] for ch in text]
-    tw = sum(widths) + track * f.size * (len(text) - 1)
+    while True:
+        widths = [d.textbbox((0, 0), ch, font=f)[2] for ch in text]
+        tw = sum(widths) + track * f.size * (len(text) - 1)
+        if tw <= (SAFE[1] - SAFE[0]) or f.size <= 12: break
+        f = font(f.path, f.size * (SAFE[1] - SAFE[0]) / tw * 0.98)          # shrink to fit the safe width
     x = xy[0] - tw / 2 if anchor_center else xy[0]
+    x = min(max(x, SAFE[0]), SAFE[1] - tw)
+    x0 = x
     for ch, w in zip(text, widths):
         d.text((x, xy[1]), ch, font=f, fill=fill); x += w + track * f.size
+    if TEXT_LOG is not None:
+        bb = d.textbbox((0, 0), text, font=f)
+        TEXT_LOG.append((text, x0, xy[1] + bb[1], x0 + tw, xy[1] + bb[3]))
     return tw
+
+
+def label(d, xy, text, f, fill):
+    d.text(xy, text, font=f, fill=fill)
+    if TEXT_LOG is not None:
+        bb = d.textbbox(xy, text, font=f); TEXT_LOG.append((text,) + tuple(bb))
 
 
 def typed(d, xy, text, b, b0, cps=10, f=None, fill=(255, 255, 255, 255), cursor=True):
     n = int(max(0, (b - b0)) * cps)
     s = text[:n]
     d.text(xy, s, font=f, fill=fill)
+    if TEXT_LOG is not None and s:
+        bb = d.textbbox(xy, s, font=f); TEXT_LOG.append((s,) + tuple(bb))
     if cursor and n < len(text) + 8 and int(b * 2) % 2 == 0:
         x = xy[0] + d.textbbox((0, 0), s, font=f)[2] + 6
         d.rectangle([x, xy[1] + 6, x + 0.5 * f.size, xy[1] + f.size], fill=fill)
@@ -463,6 +504,7 @@ def trail_len(b):
     if 112 <= b < 160: return int(10 + 26 * min(1, (b - 112) / 16)) if b < 144 else int(36 - 26 * ease((b - 144) / 16))
     if 160 <= b < 238: return 8
     if 328 <= b < 348: return 16
+    if ACC_B0 <= b < ACC_B1: return int(6 + 30 * acc_env(b))
     return 0
 
 
@@ -504,6 +546,16 @@ def render_frame(f):
         else:
             blit(layer, a["box"][j], tuple(P[j]), rotd[j], sc[j], None, face[j])
     im.alpha_composite(layer)
+    if ACC_B0 <= b < ACC_B1 and acc_env(b) > 0.02:
+        e = acc_env(b)
+        for k in range(8, 0, -1):                     # echoes of the rows at past phases (Whitney accumulation)
+            Pk = state(b - k * 0.125)[0]
+            al = e * (1 - k / 9)
+            for j in range(N):
+                col = WARM if ROW_OF[j] % 2 else COOL
+                cs = corners(Pk[j], 0, box_w(j, b), box_h(j))
+                gd.polygon(cs, fill=tuple(int(v * al * 0.28) for v in col))
+                gd.line(cs + [cs[0]], fill=tuple(int(v * al * 0.8) for v in col), width=2)
     for j in range(N):
         w, h = box_w(j, b) * sc[j], box_h(j) * sc[j]
         col = np.array(RED, float) if j == MARK_A else (np.array(YEL, float) if j == MARK_B else (WARM if j < 10 else COOL))
@@ -551,11 +603,13 @@ def captions(d, b, a):
     c("UNLOCK · DRIFT", 112, 143.5)
     c("RE-LOCK", 144, 159.5)
     c("FIRST STEP", 160, 190)
+    c("3 : 2 ACCUMULATION", 268, 300)
     c("THE ARRANGEMENT IS THE THING", 306, 323.5, y=640)
     if 52 <= b < 77:   # marker legend on the proof
         sm = a["f_small"]
-        d.rectangle([24, 640, 52, 668], fill=RED + (255,)); d.text((62, 638), "A x3", font=sm, fill=(255, 255, 255, 255))
-        d.rectangle([180, 640, 208, 668], fill=YEL + (255,)); d.text((218, 638), "B x2", font=sm, fill=(255, 255, 255, 255))
+        lg = a["f_card"]
+        d.rectangle([40, 632, 92, 684], fill=RED + (255,)); label(d, (104, 622), "A×3", lg, (255, 255, 255, 255))
+        d.rectangle([300, 632, 352, 684], fill=YEL + (255,)); label(d, (364, 622), "B×2", lg, (255, 255, 255, 255))
     # the architect and the builder (Plato): white / red on solid black, 60 px
     cf, tg = a["f_card"], a["f_tag"]
     arch = None
@@ -563,16 +617,16 @@ def captions(d, b, a):
                      (258, "ROOF -> NEW PLAN"), (264, None)):
         if b >= b0: arch = (b0, text)
     if arch and arch[1] and 238 <= b < 264:
-        d.rectangle([16, 12, 960, 92], fill=(0, 0, 0, 235))
-        d.text((28, 28), "ARCH", font=tg, fill=(120, 255, 170, 255))
-        typed(d, (150, 18), arch[1], b, arch[0], cps=14, f=cf, fill=(255, 255, 255, 255), cursor=False)
+        d.rectangle([40, 12, 1240, 92], fill=(0, 0, 0, 235))
+        label(d, (52, 18), "ARCH", cf, (120, 255, 170, 255))
+        typed(d, (230, 18), arch[1], b, arch[0], cps=14, f=cf, fill=(255, 255, 255, 255), cursor=False)
     bld = None
     for b0, text, col in ((244, "BEAM 7 CANNOT GO THERE", RED), (252, None, None), (258, "BEAM 7 IN ROW 3", (120, 255, 170))):
         if b >= b0: bld = (b0, text, col)
     if bld and bld[1] and b < 264:
-        d.rectangle([160, 100, 1264, 180], fill=(0, 0, 0, 235))
-        d.text((172, 116), "BLDR", font=tg, fill=bld[2] + (255,))
-        typed(d, (294, 106), bld[1], b, bld[0], cps=14, f=cf, fill=bld[2] + (255,), cursor=False)
+        d.rectangle([40, 100, 1240, 180], fill=(0, 0, 0, 235))
+        label(d, (52, 106), "BLDR", cf, bld[2] + (255,))
+        typed(d, (230, 106), bld[1], b, bld[0], cps=14, f=cf, fill=bld[2] + (255,), cursor=False)
 
 
 TITLE_CUTS = [(2, 0), (4, 410), (6, 130), (8, 520), (10, 260), (12, 60), (14, 380)]

@@ -206,7 +206,7 @@ def dog(who="dog", scale=1.0):
     tail = [(0, -2.5), (22, -4), (38, -1), (22, 2.5), (0, 3)]
     bones.append(Bone("tail", None, 38, 200, (-70, 70), [tail], offset=(-8, -6), z=1))
     for side, z0 in (("f", 0), ("n", 6)):
-        bones.append(Bone("hthigh_" + side, None, 28, 100, (-100, 50), [taper(28, 13, 7)], offset=((-16, -2) if side == "f" else (0, 0)), z=z0))
+        bones.append(Bone("hthigh_" + side, None, 28, 100, (-100, 50), [taper(28, 13, 7)], offset=((-9, -1) if side == "f" else (0, 0)), z=z0))
         bones.append(Bone("hshin_" + side, "hthigh_" + side, 30, 20, (-10, 120), [taper(30, 6, 4.5)], z=z0))
         bones.append(Bone("fleg_" + side, "spine", 28, 85, (-160, 60), [taper(28, 9, 6)], at=(0.7 if side == "f" else 0.92), z=z0))
         bones.append(Bone("fpaw_" + side, "fleg_" + side, 26, 0, (-130, 30), [taper(26, 6, 5)], z=z0))

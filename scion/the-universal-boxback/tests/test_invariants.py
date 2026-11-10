@@ -2,7 +2,7 @@
 All values come from the closed-form trajectories the renderer draws, except T4 (rendered pixels)."""
 import sys, os, math, json
 import numpy as np
-HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "..", "src"))
+HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "..", "src")); sys.path.insert(0, HERE)
 import film, geom
 R = []
 def check(name, ok, **d): R.append({"test": name, "pass": bool(ok), **d}); print(("PASS " if ok else "FAIL ") + name, d)
@@ -89,6 +89,50 @@ check("B4 beam refused by row 3 until the house is re-planned", not bad)
 lands = {j: film.land_beat(k) for k, j in enumerate(film.MAKE_ORDER)}
 check("B5 making starts at the first step (lower rows land first)", all(lands[j] < lands[k] for j in film.MAKE_ORDER for k in film.MAKE_ORDER if film.SLOT_P0[j][1] > film.SLOT_P0[k][1]))
 
-json.dump({"film": "the-universal-boxback", "revision": "r2", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
+
+# ===== critic round 2 =====
+# D1 the stall becomes the densest passage: >=8 boxes move >=15 px between consecutive beats on >=50 % of beats (122-140 s)
+bs_ = [b for b in range(int(math.ceil(film.B(122))), int(math.floor(film.B(140))) + 1)]
+moving = []
+for b0, b1 in zip(bs_, bs_[1:]):
+    d = np.hypot(*(film.state(b1)[0] - film.state(b0)[0]).T)
+    moving.append(int((d >= 15).sum()))
+frac = float(np.mean([m >= 8 for m in moving]))
+check("D1 122-140 s: >=8 boxes move >=15 px on >=50 % of beats", frac >= 0.5, fraction_of_beats=round(frac, 3), boxes_moving_per_beat=moving)
+# D2 the motion is a visible phase relation: odd rows 3, even rows 2 cycles per 8 beats; rows re-align every 8 beats
+ro = [film.row_offsets(b) for b in np.arange(film.ACC_B0, film.ACC_B1, 0.01)]
+zc = lambda r: int(np.sum(np.diff(np.sign([o[r] for o in ro])) != 0))
+check("D2 accumulation phase relation odd:even rows = 3:2", abs(zc(1) / zc(2) - 1.5) < 0.1, zero_crossings_row1=zc(1), zero_crossings_row2=zc(2))
+# D3 pixel coverage of the accumulation exceeds every earlier section (rendered pixels)
+import coverage as COV
+cov = {n: COV.coverage(a, b)[0] for n, a, b in COV.SECTIONS if b <= 304}
+earlier = {k: v for k, v in cov.items() if k != "accumulation"}
+check("D3 accumulation coverage exceeds every earlier section", cov["accumulation"] > max(earlier.values()),
+      accumulation=round(cov["accumulation"], 4), best_earlier=max(earlier, key=earlier.get), best_earlier_value=round(max(earlier.values()), 4))
+# D4 the house is back in its slots exactly by 140 s
+e140 = float(np.abs(film.state(film.B(140.0) + 0.5 * film.FB)[0] - film.F_ARR).max())
+check("D4 house slots return exactly by 140 s", e140 < 1e-6, max_err_px=e140)
+# E1 every caption / card / tag stays within x = 40..1240 (rendered text boxes)
+film.TEXT_LOG = []
+for f in range(0, int(film.DUR * 24), 3):
+    film.render_frame(f)
+bad = [t for t in film.TEXT_LOG if t[1] < 39.5 or t[3] > 1240.5]
+check("E1 all text within x = 40..1240", not bad, texts_checked=len(film.TEXT_LOG), unique=len({t[0] for t in film.TEXT_LOG}), violations=bad[:5])
+film.TEXT_LOG = None
+# E2 tags and legend: cap height >= 12 px at 360 px width
+a_ = film.assets(); bb = a_["f_card"].getbbox("ARCH")
+check("E2 ARCH/BLDR tags and A×3/B×2 legend >= 12 px tall at 360 px", (bb[3] - bb[1]) * 360 / 1280 >= 12, height_at_360_px=round((bb[3] - bb[1]) * 360 / 1280, 1))
+# F1 the release ring stays inside the frame (y <= 700), 151.5-160 s
+ymax = 0.0
+for f in range(int(151.5 * 24), int(160 * 24) + 1):
+    b = fb(f); P, r, sc, gl, face = film.state(b)
+    for j in range(20):
+        for (x, y) in film.corners(P[j], r[j], film.box_w(j, b) * sc[j], film.box_h(j) * sc[j]):
+            ymax = max(ymax, y + 6)       # + glow radius
+check("F1 151.5-160 s: all content y <= 700", ymax <= 700, max_y_px=round(ymax, 1))
+# G1 no overlap > 10 % at 149.75-150.25 s (the house opening)
+wo = max_overlap_window(149.75, 150.25)
+check("G1 149.75-150.25 s: max box overlap <= 10 %", wo[0] <= 0.10, max_overlap=round(wo[0], 4), pair=wo[1], frame=wo[2])
+json.dump({"film": "the-universal-boxback", "revision": "r3", "grid": film.G, "results": R, "all_pass": all(r["pass"] for r in R)},
           open(os.path.join(HERE, "invariants.json"), "w"), indent=1, default=str)
 sys.exit(0 if all(r["pass"] for r in R) else 1)

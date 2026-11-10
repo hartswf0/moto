@@ -151,8 +151,16 @@ class Stage:
         return out
 
 
+SKIP_DOG = False   # test hook: render a frame without the dog
+DOG_DRAWN = []     # test hook: the dog's world polygons and joints as drawn in the last frame
+
+
 def draw_rig(st, rig, root, pose, layer="mid", face=1, lean=0.0, profile=None, val=255, tag=""):
     Wd = rig.fk(root, pose, lean=lean, face=face, tag=tag)
+    if rig is DOG:
+        DOG_DRAWN.append((rig.polys(Wd, profile, face=face), Wd))
+        if SKIP_DOG:
+            return Wd
     st.polys(layer, rig.polys(Wd, profile, face=face), val)
     return Wd
 
@@ -303,7 +311,7 @@ def fore_leaves(st, b, side=0, sway=1.0):
                 st.poly("fore", [(c[0] - 2, c[1]), (c[0] + sgn * side2 * ln * 0.3 + sgn * ln * 0.6, c[1] - ln * 0.5 + side2 * ln * 0.4), (c[0] + 2, c[1] + 3)])
 
 
-def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0, fence_right=True):
+def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0, fence_right=True, fence_left=True):
     """Garden gate: left post (climbing post with pegs), right post, two thin bars, a light gap everywhere else."""
     st.rect("mid", x - 6, top - 26, x + 6, ground)
     st.ellipse("mid", x, top - 34, 10, 10)
@@ -320,10 +328,10 @@ def gate(st, x=640, top=530, ground=FLOOR, open_amt=0.0, fence_right=True):
         xx = x + 6 + w * k / 4
         st.rect("mid", xx - 1.5, top + 4, xx + 1.5, ground - 50)
     # fence to both sides
-    for fx in list(range(370, int(x) - 30, 34)) + (list(range(int(rx) + 40, W + 30, 34)) if fence_right else []):
+    for fx in (list(range(370, int(x) - 30, 34)) if fence_left else []) + (list(range(int(rx) + 40, W + 30, 34)) if fence_right else []):
         st.rect("mid", fx - 3, ground - 70, fx + 3, ground)
         st.poly("mid", [(fx - 3, ground - 70), (fx, ground - 80), (fx + 3, ground - 70)])
-    st.rect("mid", 370, ground - 56, x - 6, ground - 52)
+    if fence_left: st.rect("mid", 370, ground - 56, x - 6, ground - 52)
     if fence_right: st.rect("mid", rx + 5, ground - 56, W, ground - 52)
     return pegs
 
@@ -494,7 +502,7 @@ def family_actor_pose(i, b):
         return None
     u = clamp((b - b_out) / 2)
     x0 = root0[0] + 200 * 0  # wall at x_shift 0 in the garden set
-    homes = [610, 700, 790, 870]
+    homes = [530, 605, 675, 740]
     if b < b_out + 2:
         # step out of the hole: pose eases from the wall pose to standing, sliding right
         pose = {k: lerp(pose0.get(k, 0), stand().get(k, 0), ease(u)) for k in set(pose0) | set(stand())}
@@ -516,7 +524,7 @@ def sc_night(b):
     holes = tuple(1 - clamp((b - (120 + 4 * i)) / 1.5) for i in range(4))   # each place goes empty as its figure steps out
     west_wall(st, b, holes_lit=holes, ball=b < 140)
     gate_open = clamp((b - 150) / 0.6) * (1 - clamp((b - 155) / 0.4))
-    gate(st, x=GATE_NIGHT, open_amt=gate_open)
+    gate(st, x=GATE_NIGHT, open_amt=gate_open, fence_left=False)   # no yard fence behind the dog
     lawn(st, b)
     # family
     for i in range(4):
@@ -526,9 +534,9 @@ def sc_night(b):
         if i == 3 and b >= 158:  # the girl goes to the gate
             k = clamp((b - 158) / 14)
             if k < 1:
-                x = lerp(870, 1010, k); pose = walk(b * math.pi); face = 1
+                x = lerp(740, 1050, k); pose = walk(b * math.pi); face = 1
             else:
-                x = 1010; pose = stand(); face = 1
+                x = 1050; pose = stand(); face = 1
         if i == 1 and b >= 160:  # mother goes back toward the house
             k = clamp((b - 160) / 10)
             x = lerp(700, 610, k); pose = walk(b * math.pi) if k < 1 else stand(); face = -1 if k < 1 else 1
@@ -542,22 +550,27 @@ def sc_night(b):
     if 140 <= b < 156:
         if b < 146:
             u = (b - 142) / 4
-            p = (lerp(790, 900, clamp(u)), FLOOR - 120 - 220 * 4 * clamp(u) * (1 - clamp(u))) if b >= 142 else (800, FLOOR - 190)
+            p = (lerp(675, 1250, clamp(u)), FLOOR - 150 - 300 * 4 * clamp(u) * (1 - clamp(u)) + 138 * clamp(u)) if b >= 142 else (685, FLOOR - 190)
         elif b < 150:
             u = (b - 146) / 4
-            p = (lerp(900, 1070, u), FLOOR - 12 - 50 * abs(math.sin(u * math.pi * 2)))
+            p = (lerp(1250, 1280, u), FLOOR - 12 - 30 * abs(math.sin(u * math.pi * 2)))
         else:
             u = (b - 150) / 6
-            p = (lerp(1070, 1300, u), FLOOR - 12)
+            p = (lerp(1280, 1330, u), FLOOR - 12)
         st.ellipse("mid", p[0], p[1], 12, 12)
     # dog plays, then goes through the gate after the ball
     if b >= 124:
         if b < 146:
-            x = 975 + 45 * math.sin((b - 124) * 0.5)
-            face = 1 if math.cos((b - 124) * 0.5) > 0 else -1
-            p = dog_walk(b * math.pi * 1.5, wag=30 * math.sin(b * 6))
+            # plays in the gap between the children (x<815) and the gate (x>1060), never through them
+            if b < 138:
+                x = 885 + 6 * math.sin((b - 124) * 0.8); face = 1
+                p = dog_walk(b * math.pi * 1.5, wag=30 * math.sin(b * 6))
+            else:
+                x = 885; face = 1; p = dog_stand(wag=45 + 12 * math.sin(b * 6)); p["neck"] = -40; p["head"] = -25   # head up to the ball, tail high: compact
+        elif b < 150:
+            x = 885; face = 1; p = dog_stand(wag=45 + 15 * math.sin(b * 8)); p["neck"] = -30; p["head"] = -15
         elif b < 156:
-            k = (b - 146) / 10; x = lerp(980, 1250, k); face = 1; p = dog_walk(b * math.pi * 2, wag=20)
+            k = (b - 150) / 6; x = lerp(885, 1260, k); face = 1; p = dog_walk(b * math.pi * 2, wag=20)
         else:
             k = clamp((b - 156) / 6); x = lerp(1250, 1210, k); face = -1
             p = dog_walk(b * math.pi * 1.5) if k < 1 else dog_stand(wag=20 * math.sin(b * 3))
@@ -574,8 +587,9 @@ def sc_night(b):
 # ---------------------------------------------------------------- PROOF: the gate
 PROOF_M = (668.0, 455.0)
 RETURN_GATE = 860
-RETURN_DOG = (1180, FLOOR - 70)
-GATE_NIGHT = 1060  # where hand and paw meet, above the gate top (light gap)
+RETURN_DOG = (1195, FLOOR - 70)
+RAIN_DOG = (1110, FLOOR - 70)
+GATE_NIGHT = 1120  # where hand and paw meet, above the gate top (light gap)
 
 
 def girl_climb(b):
@@ -813,20 +827,20 @@ def flame(st, x, y, h, b, seed, layer="mid"):
     if h <= 1: return
     pose_i = int((OFF + b * PER) * 12)            # one new replacement per 12-fps pose
     rnd = random.Random(seed * 1000 + pose_i)
-    n = 3 + seed % 3
-    w = h * 0.36
+    n = 3 + seed % 2
+    w = h * 0.5
     for k in range(n):
         bx = x - w + 2 * w * (k + 0.5) / n + rnd.uniform(-4, 4)
         hh = h * rnd.uniform(0.55, 1.0) * (1.0 if k in (n // 2,) else 0.85)
         bw = 2 * w / n * rnd.uniform(0.8, 1.15)
-        sway = rnd.uniform(-0.35, 0.35) * hh
+        sway = rnd.choice((-1, 1)) * rnd.uniform(0.25, 0.5) * hh
         ph = rnd.uniform(0, 6.28)
         left, right = [], []
         for t_i in range(13):
             t = t_i / 12
             cx = bx + sway * math.sin(t * math.pi * 1.4 + ph) * t
             cy = y - hh * t
-            half = bw / 2 * (1 - t) ** 0.85
+            half = bw / 2 * (1 - t) ** 0.7 * (1 + 0.35 * math.sin(t * math.pi))
             left.append((cx - half, cy)); right.append((cx + half, cy))
         st.poly(layer, left + [(bx + sway * math.sin(math.pi * 1.4 + ph), y - hh)] + right[::-1])
 
@@ -837,9 +851,8 @@ def smoke(st, b, x0, y0, n=5):
         age = (b * 0.35 + k / n) % 1
         cx = x0 + k * 70 + 60 * age; cy = y0 - 260 * age
         r = 14 + 26 * age
-        for q in range(5):
-            a = q * 72 + k * 40 + age * 90
-            st.ellipse("far", cx + r * 0.9 * math.cos(math.radians(a)), cy + r * 0.6 * math.sin(math.radians(a)), r * 0.62, r * 0.55)
+        for q in range(4):
+            st.ellipse("far", cx + q * r * 0.9, cy - q * r * 0.35 + (q % 2) * r * 0.2, r * (1.0 - 0.12 * q) * 1.3, r * (0.75 - 0.08 * q))
 
 
 def sc_fire(b):
@@ -962,14 +975,14 @@ def sc_rain(b):
     lawn(st, b)
     # the dog lies at the foot of the wall under the girl's place, head on paws; the tail moves once
     p = dog_stand(wag=-50 + (20 * math.sin((b - 316) * math.pi) if 316 <= b < 318 else 0))
-    p.update(dict(hthigh_n=-80, hshin_n=118, hthigh_f=-76, hshin_f=118, fleg_n=-70, fpaw_n=-20, fleg_f=-66, fpaw_f=-24, neck=40, head=-30))
-    r = legs_to_floor(DOG, (1000, FLOOR - 40), p, FLOOR, -1)
+    p.update(dict(neck=55, head=-10))   # waiting at the wall: head low toward the girl's place, tail down
+    r = legs_to_floor(DOG, RAIN_DOG, p, FLOOR, -1)
     draw_rig(st, DOG, r, p, face=-1, tag="-rain")
     # rain: thin black lines; ripples on the contact plane
     rnd = random.Random(int(b * 6))
     for k in range(140):
         x = rnd.uniform(0, W + 200); y = rnd.uniform(-40, FLOOR)
-        st.line("mid", [(x, y), (x - 10, y + 34)], 1.3)
+        st.line("far", [(x, y), (x - 10, y + 34)], 1.6)   # rain on the far plane: a grey sheet, never welded to the dog
     for k in range(8):
         x = (k * 173 + b * 37) % W; u = (b * 2 + k * 0.3) % 1
         st.ellipse("paint", x, FLOOR + 30, 30 * u, 4 * u, int(180 * (1 - u)))
@@ -1005,10 +1018,11 @@ def _zoom(im, z, cx, cy):
 
 
 SCENES = [(-10, 16, "title"), (16, 64, "house"), (64, 112, "wall"), (112, 176, "night"), (176, 208, "proof"), (208, 264, "fire"),
-          (264, 280, "return"), (280, 296, "fire"), (296, 330, "rain"), (330, 400, "end")]
+          (264, 280, "fire"), (280, 296, "return"), (296, 330, "rain"), (330, 400, "end")]
 
 
 def render_frame(f):
+    DOG_DRAWN.clear()
     f = frame_time_on_twos(f)  # shadow theatre timing: poses on twos (12 fps), shown at 24 fps
     t = f / FPS
     b = B(t)
@@ -1028,11 +1042,12 @@ def render_frame(f):
             x0 = clamp(660 - cw / 2, 0, W - cw); y0 = clamp(500 - ch / 2, 0, H - ch)
             im = im.transform((W, H), Image.AFFINE, (cw / W, 0, x0, 0, ch / H, y0), resample=Image.BICUBIC)
     elif name == "fire":
+        if 264 <= b < 280: b = b + 16          # the collapse block plays first
         im = sc_fire(b)
         z = 1.25 * (1 - ease(clamp((b - 276) / 6))) + 1.0 * ease(clamp((b - 276) / 6)) if b < 264 or b >= 280 else 1.0
         if b < 212: z = lerp(1.0, 1.25, ease(clamp((b - 208) / 4)))
         im = _zoom(im, z, 640, 400)
-    elif name == "return": im = sc_return(b)
+    elif name == "return": im = sc_return(b - 16)   # the return block plays after the collapse
     elif name == "rain": im = sc_rain(b)
     else: im = sc_end(b)
     # cutout timing: the whole film is posed on twos (12 fps), as shadow theatre; the beat grid stays exact
@@ -1066,8 +1081,8 @@ def build_sfx():
     add(215, "crash", 0.9); add(218, "whoomp", 0.8)
     for i in range(8): add(218 + i * 4, "crackle", 0.5)
     add(226, "spray", 0.5); add(244, "drip", 0.6)
-    for i in range(4): add(266 + 3 * i + 2.5, "peel", 0.6)
-    for k in range(8): add(280 + k * 1.5 + 0.4, "crash", 0.5)
+    for i in range(4): add(282 + 3 * i + 2.5, "peel", 0.6)
+    for k in range(8): add(264 + k * 1.5 + 0.4, "crash", 0.5)
     add(296, "rain", 0.55); add(316, "whimper", 0.35); add(331, "flick", 0.5); add(332, "bell", 0.4)
     return S
 

@@ -7,6 +7,7 @@
 import sys, os, json, math
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "src"))
 import film, rigs
+from PIL import ImageFilter
 from PIL import Image, ImageDraw
 
 res = []
@@ -115,8 +116,64 @@ seed = tuple(int(v) for v in Wd["spine"][0]); ff = dm_img.copy(); ImageDraw.floo
 one_region = int((np.array(ff) == 255).sum()) == 0
 ends = {n: Wd[n][2] for n in ("hshin_n", "hshin_f", "fpaw_n", "fpaw_f", "tail")}
 visible = all(0 <= e[0] < film.W and 0 <= e[1] < film.H and not om[int(e[1]), int(e[0])] for e in ends.values())
-check("return 116 s: dog is a separate single region, 4 legs + tail visible", shared == 0 and one_region and visible,
+check("return set (geometry): dog is a separate single region, 4 legs + tail visible", shared == 0 and one_region and visible,
       {"beat": round(b, 2), "pixels_shared_within_2px_with_gate_or_flames": shared, "single_region": one_region, "leg_tail_ends": {k: [round(v[0]), round(v[1])] for k, v in ends.items()}})
+
+# ---- 7 (round 2) the thumb joins the palm: hand + thumb are ONE connected component in every grasp frame (proof 8-11.3 s)
+proof_t0 = film.T(172)
+worst_cc = 1
+for f in range(int((proof_t0 + 8.0) * film.FPS), int((proof_t0 + 11.3) * film.FPS)):
+    b = film.B(film.frame_time_on_twos(f) / film.FPS)
+    S = film.proof_state(b); r, p, face = film.solve_girl(S["girl"], log=False)
+    W_ = film.GIRL.fk(r, p, check=False)
+    prof = (S["girl"].get("profile") or {}).get("hand_n")
+    bone = film.GIRL.by["hand_n"]; shp = bone.profiles.get(prof, bone.shape)
+    o, a, _ = W_["hand_n"]
+    m = Image.new("L", (film.W * 2, film.H * 2), 0); d = ImageDraw.Draw(m)
+    for poly in shp:
+        d.polygon([((o[0] + q[0]) * 2 * 1.55 / 1.55, (o[1] + q[1]) * 2) for q in (rigs._rot((x * film.GIRL.scale, y * film.GIRL.scale), a) for x, y in poly)], fill=255)
+    arr = np.array(m); ys, xs = np.nonzero(arr)
+    ImageDraw.floodfill(m, (int(xs[0]), int(ys[0])), 128)
+    comps = 1 + (1 if (np.array(m) == 255).any() else 0)
+    worst_cc = max(worst_cc, comps)
+check("thumb joined: hand + thumb one connected component (every grasp frame)", worst_cc == 1, {"max_components": worst_cc})
+
+# ---- 8 (round 2) the dog in threshold (luma < 70): its own shape, >= 3 px from everything else (paw-ground contact allowed), 4 leg runs + tail
+def dog_threshold_check(t):
+    f = int(round(t * film.FPS))
+    film.SKIP_DOG = False
+    full = np.array(film.render_frame(f).convert("L")) < 70
+    drawn = list(film.DOG_DRAWN)
+    film.SKIP_DOG = True
+    other = np.array(film.render_frame(f).convert("L")) < 70
+    film.SKIP_DOG = False
+    if not drawn:
+        return {"t": t, "dog": False}
+    polys, Wd = drawn[0]
+    dm_img = Image.new("L", (film.W, film.H), 0); dd = ImageDraw.Draw(dm_img)
+    for poly in polys: dd.polygon(poly, fill=255)
+    dm = np.array(dm_img) > 127
+    halo = np.array(dm_img.filter(ImageFilter.MaxFilter(7))) > 127   # 3 px ring
+    allow = np.zeros_like(dm)
+    for n in ("hshin_n", "hshin_f", "fpaw_n", "fpaw_f"):
+        ex, ey = Wd[n][2]
+        allow[max(0, min(int(ey) - 8, film.FLOOR - 24)):int(ey) + 12, max(0, int(ex) - 16):int(ex) + 16] = True   # paw on the ground (incl. grass tips)
+    touching = int((halo & other & ~allow).sum())
+    ys, xs = np.nonzero(dm); seed = (int(xs[len(xs) // 2]), int(ys[len(ys) // 2]))
+    ff = dm_img.point(lambda v: 255 if v > 127 else 0); ImageDraw.floodfill(ff, seed, 128)
+    one = int((np.array(ff) == 255).sum()) <= 4   # ignore anti-alias crumbs of <= 4 px
+    x0, x1 = xs.min(), xs.max()
+    row = full[film.FLOOR - 26, max(0, x0 - 2):min(film.W, x1 + 3)].astype(int)
+    runs = int(((row[1:] - row[:-1]) == 1).sum() + row[0])
+    te = Wd["tail"][2]
+    tail = 0 <= te[0] < film.W and dm[min(film.H - 1, int(te[1])), min(film.W - 1, int(te[0]))] or bool(dm[max(0, int(te[1]) - 2):int(te[1]) + 3, max(0, int(te[0]) - 2):int(te[0]) + 3].any())
+    return {"t": round(t, 3), "touching_px_within_3px": touching, "one_shape": bool(one), "leg_runs_at_floor-26": runs, "tail_visible": bool(tail),
+            "ok": touching == 0 and one and runs == 4 and bool(tail)}
+times = [film.T(285.5), 132.0] + [60.0 + k / film.FPS for k in range(int(2.5 * film.FPS) + 1)]
+rows8 = [dog_threshold_check(t) for t in times]
+bad8 = [r for r in rows8 if not r.get("ok")]
+check("dog in threshold: separate shape, >=3 px gap, 4 legs + tail (return, rain 132 s, night 60-62.5 s)", not bad8,
+      {"frames": len(rows8), "failures": bad8[:4], "sample": rows8[:2]})
 
 out = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "invariants.json")
 json.dump({"suite": "corrugated-sky invariants", "results": res, "all_pass": all(r["pass"] for r in res)}, open(out, "w"), indent=1)
