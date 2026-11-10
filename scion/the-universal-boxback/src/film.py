@@ -75,19 +75,20 @@ F_ROWS = [[0, 1, 2, 3], [4, 5, 6, 8], [9, 13, BEAM], [14, 15, 16, 17], [10, 11, 
 
 
 ROW_OF = {j: r for r, y in ROWY.items() for j in range(N) if abs(SLOT_F[j][1] - y) < 1}
-ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 292.0, 302.0, 150.0
+ACC_B0, ACC_PEAK, ACC_B1, ACC_AMAX = 266.0, 294.0, 302.0, 230.0
+ACC_CYC = 4.0          # r6: rows cycle 3 and 2 times per 4 beats (was per 8): the peak must be the most kinetic passage
 
 
 def acc_env(b):
     """accumulating amplitude: rises as a power curve to the peak, then closes in 10 beats."""
     if b <= ACC_B0 or b >= ACC_B1: return 0.0
-    if b < ACC_PEAK: return ((b - ACC_B0) / (ACC_PEAK - ACC_B0)) ** 1.5
+    if b < ACC_PEAK: return ((b - ACC_B0) / (ACC_PEAK - ACC_B0)) ** 1.2
     return 0.5 * (1 + math.cos(math.pi * (b - ACC_PEAK) / (ACC_B1 - ACC_PEAK)))
 
 
 def row_offsets(b):
     A = ACC_AMAX * acc_env(b)
-    ph = 2 * math.pi * (b - ACC_B0) / 8
+    ph = 2 * math.pi * (b - ACC_B0) / ACC_CYC
     return {r: A * math.sin((3 if r % 2 else 2) * ph) * (1 if r % 2 else -1) for r in ROWY}
 
 
@@ -122,9 +123,18 @@ REL_A, REL_B, REL_C = (440.0, 230.0), (350.0, 170.0), (640.0, 390.0)       # rel
 SAFE_TOP = 112.0
 
 
-def ellipse_ring(b, b0=328.0, span=20.0, spin=0.0):
-    """3:2 on two ellipses that enclose the house; `spin` adds a common slow turn after the reunion."""
-    u = min(1, max(0, (b - b0) / span))
+REL_TAU = 9.0           # beats: the release ring's speed decays as exp(-(b-328)/tau), continuously into the fade
+
+
+def rel_u(b, b0=325.0, span=23.0):
+    """decaying progress: ~1 at b348 like before, still creeping after it, never a sudden stop."""
+    if b <= b0: return 0.0
+    return (1 - math.exp(-(b - b0) / REL_TAU)) / (1 - math.exp(-span / REL_TAU))
+
+
+def ellipse_ring(b, b0=325.0, span=23.0, spin=0.0):
+    """3:2 on two ellipses (release); progress decays exponentially."""
+    u = rel_u(b, b0, span)
     P = np.zeros((N, 2)); ang = np.zeros(N)
     for j in range(N):
         i, k = j % 10, (0.75 if j < 10 else 0.5)       # still 3:2, a quarter of the proof speed: no second climax
@@ -405,12 +415,12 @@ def state(b):
         gl[:] = 0.85
     elif b < RAIN_END + 1e-9 or b < 400:
         # the field lifts away (b348-354.9) while turning, then the house rains back row by row
-        Pr, ang = ellipse_ring(348, spin=2 * math.pi * (1 - math.exp(-(b - 348) / 4)) / 8)   # decays to a stop
+        Pr, ang = ellipse_ring(b)                         # the same decay continues: no stop
         for j in range(N):
             r0 = RAIN[j]
             if b < r0:
                 P[j] = Pr[j]; rotd[j] = math.degrees(ang[j]) + 90
-                face[j] = 1 - ease((b - 348) / 5); gl[j] = 0.6 * face[j]
+                face[j] = math.exp(-(b - 348) / 2.5); gl[j] = 0.6 * face[j]
             else:
                 u = min(1, (b - r0) / 1.25)
                 P[j] = (SLOT_F[j][0], SAFE_TOP + (SLOT_F[j][1] - SAFE_TOP) * ein(u))
@@ -680,6 +690,12 @@ def title_frame(b, t):
     k = ease(min(1, b / 2)) * (1 - ease((b - 14.5) / 1.5))
     im = Image.blend(Image.new("RGBA", (W, H), (0, 0, 0, 255)), im, k)
     d = ImageDraw.Draw(im)
+    if b >= 1:      # the end form's constellation is already there, under the title (the bookend starts here)
+        kk = ease((b - 1) / 3)
+        for j in range(N):
+            for (x, y) in corners(F_ARR[j], 0, box_w(j, 0), box_h(j)):
+                r = 3.0
+                d.ellipse([x - r, y - r, x + r, y + r], fill=(int(255 * kk), int(214 * kk), int(150 * kk), 255))
     if b >= 4: spaced(d, (640, 170), "THE", a["f_title"], RED + (255,), track=0.6)
     if b >= 6: spaced(d, (640, 290), "UNIVERSAL", a["f_title"], RED + (255,), track=0.32)
     if b >= 8: spaced(d, (640, 410), "BOXBACK", a["f_title"], RED + (255,), track=0.5)
