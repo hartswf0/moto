@@ -65,4 +65,16 @@ These are **structural**: computed from the trajectories, not tracked from the p
 * All boxes, points, trails and cards are drawn in code.
 * Two title/end plates are motion-blurred crops of the producer's own BOXBACK art (`source-ledger.json`).
 * Bells and key clicks are synthesised (`score.py`) in the song's measured key (A♭ major / F minor) and mixed at −10 dB under the unaltered song.
-* No critic has reviewed this film. See `index.html`.
+* Critic round 1: the **proof passes** (3:2 measured as 1077.5° vs 719.9°), and the **film is "reference stronger"**. The r2 repairs are applied (`index.html`), and re-review is pending.
+
+### r2 rows (after critic round 1)
+
+| technique | applies when | proof | observed failure (critic) | repair | rejected |
+|---|---|---|---|---|---|
+| Rain by rows | rebuilding a house from a moving field | b354.9–368 | release pile-up: simultaneous flights overlapped, and the beam crossed boxes | the field lifts away; boxes drop vertically, a row at a time, foundation first (a box's column is empty because the rows above it don't exist yet); overlap 0.000 | simultaneous harmonic arcs |
+| Half-frame snap | beat events at 24 fps | b368, b54, b68, title | landings and flashes 0.6–1.3 frames late | picture beat = B(t) + ½ frame, so events land on the nearest frame | rounding each event separately |
+| Whole-house re-plan | the Plato test must change the house, not ripple it | b238–264 | rows 1–2 ended where they began | P0 has no door and a flat roof; the refusal forces lift roof → open door → beam → new roof, so every row changes (test C2) | moving three boxes |
+| Marker boxes | a ratio must be countable on a phone | b52–72 | 3:2 not countable | box 0 red and box 10 yellow, a 12-o'clock tick, an A×3 / B×2 legend | numbers only |
+| Stop as an event | the song stops | b77 | the freeze was identical to the hold | dim, glow off, STOP on the b77 frame (pixel test C4) | — |
+| LIFO un-making / lowest-first gather | dissolving and re-forming without collisions | b32–48 | clumps | top rows rise first, straight up; the ring fills from the lowest slot (both 0.000) | blended flights |
+| Point capture | moving from free Lissajous paths into a locked ring | b144–148 | clumps at the re-lock; phase search alone barely helped (173 → 154 bad frames) | the boxes collapse to points, blend onto the locked ring, then regrow on the RE-LOCK star b148 | more phase search |
