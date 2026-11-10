@@ -1,0 +1,52 @@
+{
+ "suite": "reach-round2",
+ "results": [
+  {
+   "test": "(a) arm root on the house silhouette, in frame, b137-139",
+   "pass": true,
+   "detail": {
+    "frames": 27,
+    "inside": 27
+   }
+  },
+  {
+   "test": "(a) house visible: fog opacity in front of it < 0.35, b137-139",
+   "pass": false,
+   "detail": {
+    "max_opacity": 0.846
+   }
+  },
+  {
+   "test": "(b) arm nearer than stalk and her; drawn after fog; crosses the stalk",
+   "pass": true,
+   "detail": {
+    "ARM_Z": 1.3,
+    "STALK_Z": 1.5,
+    "her_z": 4.2,
+    "stalk_screen_x": 688,
+    "chain_x": [
+     820,
+     840,
+     496
+    ]
+   }
+  },
+  {
+   "test": "(c) >= 3 separate finger shapes at 360 px",
+   "pass": true,
+   "detail": {
+    "runs_on_arc": 4,
+    "arc_radius_px_at_360": 16.5
+   }
+  },
+  {
+   "test": "(e) baby separated from her head by >= 4 px at 360 px",
+   "pass": true,
+   "detail": {
+    "gap_px_full": 48.5,
+    "gap_px_at_360": 13.6
+   }
+  }
+ ],
+ "all_pass": false
+}

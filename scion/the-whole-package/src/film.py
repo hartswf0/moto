@@ -123,9 +123,9 @@ def fog_state(b):
     if b < 150:
         k = ease(seg(b, 139, 143))   # local reveal of the far world
         k2 = ease(seg(b, 137, 139))     # the fog in front of her thins: faint-to-crisp on HERE
-        kh = ease(seg(b, 136.6, 137.3))  # round 2: the house body clears as its arm comes out of it
+        kh = ease(seg(b, 136.3, 137.0))  # round 2: the house body clears as its arm comes out of it
         return "reveal", lambda z: lerp(0.02 + 0.9 * (1 - kh) * clamp((z - 4.6) / 1.0) * clamp((7.5 - z) / 1.5) + 0.9 * clamp((z - 7.5) / 1.0)
-                                        + 0.55 * (1 - k2) * clamp((z - 2.6) / 1.0), 0.02 + 0.06 * clamp((z - 7) / 6), k)
+                                        + 0.55 * (1 - k2) * clamp((z - 2.6) / 1.0) * clamp((5.0 - z) / 0.6), 0.02 + 0.06 * clamp((z - 7) / 6), k)
     if b < 191:
         return "suspend", lambda z: 0.09
     zc = lerp(1.0, 70, ease(seg(b, 191, 228)))         # dawn: clears near-to-far
