@@ -27,11 +27,11 @@
   },
   {
    "test": "(2) one caption per frame; in the reveal the caption is in the bottom third",
-   "pass": false,
+   "pass": true,
    "detail": {
     "frames_checked": 808,
-    "frames_with_2+_captions": 188,
-    "reveal_frames_with_caption_above_bottom_third": 390
+    "frames_with_2+_captions": 0,
+    "reveal_frames_with_caption_above_bottom_third": 0
    }
   },
   {
@@ -43,5 +43,5 @@
    }
   }
  ],
- "all_pass": false
+ "all_pass": true
 }

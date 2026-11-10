@@ -43,9 +43,23 @@ class Shot:
         return self.frames[k if k < n else 2 * n - 2 - k]
 
 
-def load_shot(dirp, size=(192, 144)):
-    fs = sorted(x for x in os.listdir(dirp) if x.endswith(".jpg"))
-    return Shot([np.asarray(Image.open(os.path.join(dirp, f)).convert("L").resize(size, Image.BILINEAR), np.float32) / 255 for f in fs])
+def load_shot(dirp, size=(192, 144), masks=None, outside=0.42):
+    """frames in [0,1]; with SAM masks the subject keeps full ink and the rest of the documentary frame is kept but dimmer
+    (the footage's edge is never removed - SCION 53)."""
+    fs = sorted(x for x in os.listdir(dirp) if x.endswith(".jpg")); M = json.load(open(masks)) if masks else None
+    out = []
+    for i, f in enumerate(fs):
+        im = Image.open(os.path.join(dirp, f)).convert("L"); w0, h0 = im.size
+        a = np.asarray(im.resize(size, Image.BILINEAR), np.float32) / 255
+        if M and str(i) in M:
+            m = Image.new("L", (w0, h0), 0); dm = ImageDraw.Draw(m)
+            for poly in M[str(i)]:
+                if len(poly) > 2: dm.polygon([tuple(pt) for pt in poly], fill=255)
+            mk = np.asarray(m.resize(size, Image.BILINEAR).filter(ImageFilter.GaussianBlur(1.5)), np.float32) / 255
+            lo, hi = np.percentile(a, 4), np.percentile(a, 96); a = np.clip((a - lo) / max(.05, hi - lo), 0, 1)
+            a = a * (outside + (1 - outside) * mk)
+        out.append(a)
+    return Shot(out)
 
 
 class FilmClock:
@@ -158,12 +172,12 @@ def render(fidx):
         if c > 0.55 and ev.get("label"):
             labels.append((cx, cy + wpx * 0.75 * (ev.get("aspect", 0.75)) / 2 + 14, ev["label"], ev.get("credit", "")))
     d = ImageDraw.Draw(base)
-    fm, fs = font(FONT_M, 20), font(FONT_M, 15)
+    fm, fs = font(FONT_M, 24), font(FONT_M, 18)
     for x, y, lab, cr in labels:
         for k, (s, f, col) in enumerate(((lab, fm, (240, 163, 90)), (cr, fs, (190, 200, 196)))):
             if not s: continue
-            tw = d.textlength(s, font=f); xx = min(W - tw - 16, max(16, x - tw / 2)); yy = min(H - 60, y + k * 24)
-            d.rectangle([xx - 6, yy - 3, xx + tw + 6, yy + (24 if k == 0 else 19)], fill=(6, 10, 10))
+            tw = d.textlength(s, font=f); xx = min(W - tw - 16, max(16, x - tw / 2)); yy = min(H - 64, y + k * 29)
+            d.rectangle([xx - 6, yy - 3, xx + tw + 6, yy + (29 if k == 0 else 23)], fill=(6, 10, 10))
             d.text((xx, yy), s, font=f, fill=col)
     for card in CFG.get("cards", []):
         a0, a1 = card["t"]
@@ -190,7 +204,7 @@ def init(cfgp):
     global CFG, FILMS, META
     CFG = json.load(open(cfgp))
     for k, v in CFG["sources"].items():
-        FILMS[k] = FilmClock(v["npy"]) if v["kind"] == "film" else load_shot(v["frames"])
+        FILMS[k] = FilmClock(v["npy"]) if v["kind"] == "film" else load_shot(v["frames"], masks=v.get("masks"))
     for mp in sorted(x for x in os.listdir(CFG["orch_dir"]) if x.startswith("meta_")):
         for m in json.load(open(os.path.join(CFG["orch_dir"], mp))):
             META[m["f"]] = m["jel"]

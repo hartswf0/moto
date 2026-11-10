@@ -25,11 +25,13 @@
   },
   "dog": {
    "kind": "shot",
-   "frames": "/home/user/secondhand-motion/shots/dog-sam/frames"
+   "frames": "/home/user/hartswf0/bolas/paeleo/handmade/kit/archive-dog/frames",
+   "masks": "/home/user/hartswf0/bolas/paeleo/handmade/kit/archive-dog/masks.json"
   },
   "door": {
    "kind": "shot",
-   "frames": "/home/user/secondhand-motion/shots/door-sam/frames"
+   "frames": "/home/user/hartswf0/bolas/paeleo/handmade/kit/archive-door/frames",
+   "masks": "/home/user/hartswf0/bolas/paeleo/handmade/kit/archive-door/masks.json"
   },
   "umbrella": {
    "kind": "shot",
@@ -180,7 +182,7 @@
    "size": 260,
    "bloom_size": 520,
    "label": "THE AFTERLIGHT MEDUSA gathers a dog",
-   "credit": "Amateur Film New Jersey C \u00b7 public domain"
+   "credit": "Amateur Film New Jersey C \u00b7 home movie \u00b7 3:45.6 \u00b7 archive.org \u00b7 public domain"
   },
   {
    "src": "film",
@@ -318,7 +320,7 @@
    "size": 240,
    "bloom_size": 520,
    "label": "THE SEWER CREATURE gathers a door",
-   "credit": "Straight Talk \u00b7 public domain"
+   "credit": "Straight Talk (1992) \u00b7 0:05.0 \u00b7 archive.org \u00b7 public domain"
   },
   {
    "src": "umbrella",
@@ -388,6 +390,30 @@
    "pitch": 4.0,
    "bloom_pitch_add": 0.4,
    "fog": 0.25
+  },
+  {
+   "src": "dog",
+   "by": 2,
+   "t": [
+    134,
+    145.6
+   ],
+   "condense": [
+    134.5,
+    137.5
+   ],
+   "bloom": [
+    0,
+    0
+   ],
+   "size": 250,
+   "bloom_size": 250,
+   "label": "THE AFTERLIGHT MEDUSA keeps the dog",
+   "credit": "Amateur Film New Jersey C \u00b7 3:45.6 \u00b7 archive.org \u00b7 public domain",
+   "offset": [
+    170,
+    40
+   ]
   }
  ],
  "cards": [
@@ -481,16 +507,18 @@
    "via": "hartswf0/secondhand-motion shots/stove-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
   },
   "dog": {
-   "title": "Amateur Film New Jersey C",
+   "title": "Amateur Film New Jersey C (Home Movies collection)",
    "url": "https://archive.org/details/NewJerseyC",
+   "timecode": "225.559-235.402 s",
    "rights": "public_domain",
-   "via": "hartswf0/secondhand-motion shots/dog-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+   "via": "bolas paeleo/handmade/kit/archive-dog (source.json rights_statement public_domain; SAM masks)"
   },
   "door": {
-   "title": "Straight Talk",
+   "title": "Straight Talk (1992)",
    "url": "https://archive.org/details/gov.ntis.ava19144vnb1",
+   "timecode": "5.0-7.5 s",
    "rights": "public_domain",
-   "via": "hartswf0/secondhand-motion shots/door-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+   "via": "bolas paeleo/handmade/kit/archive-door (source.json rights_statement public_domain; SAM masks)"
   },
   "umbrella": {
    "title": "Amateur film: Summers collection, San Francisco, 1941",

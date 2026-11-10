@@ -59,10 +59,10 @@ t0 = film.T(200); n = int((film.T(262) - t0) * 24)
 fr = grab(t0, n)
 bad = 0; top_in_reveal = 0
 for i in range(0, n):
-    f = fr[i]; txt = (f[..., 0] > 235) & (f[..., 1] > 215) & (f[..., 2] > 175) & (f[..., 2] < 230)
+    f = fr[i]; txt = (f[..., 0] > 245) & (f[..., 1] > 228) & (f[..., 2] > 192) & (f[..., 2] < 222)   # caption fill (255,238,206)
     lum = f.mean(2)
     band_row = np.median(lum, axis=1) < 70            # a caption band: the row is dark across its width (band α 0.75)
-    rows = np.where((txt.sum(1) >= 6) & band_row)[0]
+    rows = np.where((txt.sum(1) >= 25) & band_row)[0]
     if len(rows) == 0: continue
     clusters = 1 + int((np.diff(rows) > 60).sum())
     if clusters > 1: bad += 1

@@ -1,83 +1,518 @@
 {
- "alarm-clock": {
-  "title": "This Is Coffee (1961)",
-  "url": "https://archive.org/details/ThisisCo1961",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/alarm-clock-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "coffee-cup": {
-  "title": "Biologist Caye Johnson Explains How NASA Searched for Life from the Moon",
-  "url": "https://images.nasa.gov/details/ARC-20190708-AAV3208-LunarBioLab-JohnsonNarration-NASAWeb-24fps",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/coffee-cup-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "frying-pan": {
-  "title": "Don't Be Afraid (1953)",
-  "url": "https://archive.org/details/DontBeAf1953",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/frying-pan-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "stove": {
-  "title": "[Frigidaire Imperial Line] (1956)",
-  "url": "https://archive.org/details/Frigidai1956",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/stove-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "dog": {
-  "title": "Amateur Film New Jersey C",
-  "url": "https://archive.org/details/NewJerseyC",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/dog-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "door": {
-  "title": "Straight Talk",
-  "url": "https://archive.org/details/gov.ntis.ava19144vnb1",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/door-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "umbrella": {
-  "title": "Amateur film: Summers collection, San Francisco, 1941",
-  "url": "https://archive.org/details/Summersc1941",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/umbrella-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "light-bulb": {
-  "title": "Light Of Your Life",
-  "url": "https://archive.org/details/LightOfYourL_2",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/light-bulb-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "lantern": {
-  "title": "Anthracite: Pre-Shift Examinations of Underground Mines",
-  "url": "https://archive.org/details/gov.msha.dvd614",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/lantern-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "cloud": {
-  "title": "Top Of The Cloud - Time Lapse",
-  "url": "https://archive.org/details/CEP391",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/cloud-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "hand": {
-  "title": "Door to Heaven (1941)",
-  "url": "https://archive.org/details/DoortoHe1941",
-  "rights": "public_domain",
-  "via": "hartswf0/secondhand-motion shots/hand-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
- },
- "film": {
-  "title": "Corrugated Sky (SCION 02 Reiniger), BOXBACK track 11",
-  "url": "moto/scion/corrugated-sky/",
-  "rights": "producer's own work"
- },
- "orchestra": {
-  "title": "The Jelly Orchestra (bonus/jellyorchestra.html) and drift rigs",
-  "url": "hartswf0/contaminant-jelly",
-  "rights": "producer's own work"
- },
- "song": {
-  "title": "Et tu, Brute - Corrugated Sky (Treblo)",
-  "url": "moto/Et tu, Brute (BOXBACK)/",
-  "rights": "producer's own work, unaltered"
- }
+ "nodes": [
+  {
+   "id": "src:alarm-clock",
+   "title": "This Is Coffee (1961)",
+   "url": "https://archive.org/details/ThisisCo1961",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/alarm-clock-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:coffee-cup",
+   "title": "Biologist Caye Johnson Explains How NASA Searched for Life from the Moon",
+   "url": "https://images.nasa.gov/details/ARC-20190708-AAV3208-LunarBioLab-JohnsonNarration-NASAWeb-24fps",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/coffee-cup-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:frying-pan",
+   "title": "Don't Be Afraid (1953)",
+   "url": "https://archive.org/details/DontBeAf1953",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/frying-pan-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:stove",
+   "title": "[Frigidaire Imperial Line] (1956)",
+   "url": "https://archive.org/details/Frigidai1956",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/stove-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:dog",
+   "title": "Amateur Film New Jersey C (Home Movies collection)",
+   "url": "https://archive.org/details/NewJerseyC",
+   "timecode": "225.559-235.402 s",
+   "rights": "public_domain",
+   "via": "bolas paeleo/handmade/kit/archive-dog (source.json rights_statement public_domain; SAM masks)"
+  },
+  {
+   "id": "src:door",
+   "title": "Straight Talk (1992)",
+   "url": "https://archive.org/details/gov.ntis.ava19144vnb1",
+   "timecode": "5.0-7.5 s",
+   "rights": "public_domain",
+   "via": "bolas paeleo/handmade/kit/archive-door (source.json rights_statement public_domain; SAM masks)"
+  },
+  {
+   "id": "src:umbrella",
+   "title": "Amateur film: Summers collection, San Francisco, 1941",
+   "url": "https://archive.org/details/Summersc1941",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/umbrella-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:light-bulb",
+   "title": "Light Of Your Life",
+   "url": "https://archive.org/details/LightOfYourL_2",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/light-bulb-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:lantern",
+   "title": "Anthracite: Pre-Shift Examinations of Underground Mines",
+   "url": "https://archive.org/details/gov.msha.dvd614",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/lantern-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:cloud",
+   "title": "Top Of The Cloud - Time Lapse",
+   "url": "https://archive.org/details/CEP391",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/cloud-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:hand",
+   "title": "Door to Heaven (1941)",
+   "url": "https://archive.org/details/DoortoHe1941",
+   "rights": "public_domain",
+   "via": "hartswf0/secondhand-motion shots/hand-sam (rights from contaminant-jelly paeleo/handmade/kit/found-frames.json)"
+  },
+  {
+   "id": "src:film",
+   "title": "Corrugated Sky (SCION 02 Reiniger), BOXBACK track 11",
+   "url": "moto/scion/corrugated-sky/",
+   "rights": "producer's own work"
+  },
+  {
+   "id": "src:orchestra",
+   "title": "The Jelly Orchestra (bonus/jellyorchestra.html) and drift rigs",
+   "url": "hartswf0/contaminant-jelly",
+   "rights": "producer's own work"
+  },
+  {
+   "id": "src:song",
+   "title": "Et tu, Brute - Corrugated Sky (Treblo)",
+   "url": "moto/Et tu, Brute (BOXBACK)/",
+   "rights": "producer's own work, unaltered"
+  },
+  {
+   "id": "cast",
+   "what": "cast.json - onset analysis by sound role",
+   "op_of": [
+    "src:song"
+   ]
+  }
+ ],
+ "operations": [
+  {
+   "op": "analyse",
+   "in": [
+    "src:song"
+   ],
+   "out": "cast",
+   "params": "librosa band onsets + HPSS (cast_song.py)"
+  },
+  {
+   "op": "render-orchestra",
+   "in": [
+    "cast",
+    "src:orchestra"
+   ],
+   "out": "layer:orchestra",
+   "params": "orchestra.html deterministic clock, shots [0,1,0,4], formation 3, hue 0.07"
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:alarm-clock"
+   ],
+   "out": "layer:film0:alarm-clock",
+   "params": {
+    "t": [
+     14,
+     30
+    ],
+    "condense": [
+     15,
+     18
+    ],
+    "bloom": [
+     19,
+     23
+    ],
+    "gatherer_index": 6,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:film"
+   ],
+   "out": "layer:film1:film",
+   "params": {
+    "t": [
+     20,
+     52
+    ],
+    "condense": [
+     21,
+     25
+    ],
+    "bloom": [
+     28,
+     44
+    ],
+    "gatherer_index": 1,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:coffee-cup"
+   ],
+   "out": "layer:film2:coffee-cup",
+   "params": {
+    "t": [
+     30,
+     50
+    ],
+    "condense": [
+     31,
+     34
+    ],
+    "bloom": [
+     0,
+     0
+    ],
+    "gatherer_index": 7,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:frying-pan"
+   ],
+   "out": "layer:film3:frying-pan",
+   "params": {
+    "t": [
+     34,
+     52
+    ],
+    "condense": [
+     35,
+     38
+    ],
+    "bloom": [
+     0,
+     0
+    ],
+    "gatherer_index": 8,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:stove"
+   ],
+   "out": "layer:film4:stove",
+   "params": {
+    "t": [
+     44,
+     64
+    ],
+    "condense": [
+     45,
+     48
+    ],
+    "bloom": [
+     49,
+     53
+    ],
+    "gatherer_index": 3,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:dog"
+   ],
+   "out": "layer:film5:dog",
+   "params": {
+    "t": [
+     66,
+     77
+    ],
+    "condense": [
+     67,
+     70
+    ],
+    "bloom": [
+     70.5,
+     73.5
+    ],
+    "gatherer_index": 2,
+    "mask": true
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:film"
+   ],
+   "out": "layer:film6:film",
+   "params": {
+    "t": [
+     72.5,
+     92.5
+    ],
+    "condense": [
+     73.5,
+     75.5
+    ],
+    "bloom": [
+     76,
+     89
+    ],
+    "gatherer_index": 1,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:hand"
+   ],
+   "out": "layer:film7:hand",
+   "params": {
+    "t": [
+     88,
+     100
+    ],
+    "condense": [
+     89,
+     92
+    ],
+    "bloom": [
+     92.5,
+     95.5
+    ],
+    "gatherer_index": 2,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:lantern"
+   ],
+   "out": "layer:film8:lantern",
+   "params": {
+    "t": [
+     94,
+     112
+    ],
+    "condense": [
+     95,
+     98
+    ],
+    "bloom": [
+     100,
+     104
+    ],
+    "gatherer_index": 3,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:film"
+   ],
+   "out": "layer:film9:film",
+   "params": {
+    "t": [
+     100,
+     128
+    ],
+    "condense": [
+     101,
+     104
+    ],
+    "bloom": [
+     106,
+     124
+    ],
+    "gatherer_index": 1,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:light-bulb"
+   ],
+   "out": "layer:film10:light-bulb",
+   "params": {
+    "t": [
+     112,
+     126
+    ],
+    "condense": [
+     113,
+     116
+    ],
+    "bloom": [
+     0,
+     0
+    ],
+    "gatherer_index": 3,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:door"
+   ],
+   "out": "layer:film11:door",
+   "params": {
+    "t": [
+     116,
+     130
+    ],
+    "condense": [
+     117,
+     120
+    ],
+    "bloom": [
+     121,
+     124
+    ],
+    "gatherer_index": 0,
+    "mask": true
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:umbrella"
+   ],
+   "out": "layer:film12:umbrella",
+   "params": {
+    "t": [
+     124,
+     140
+    ],
+    "condense": [
+     125,
+     128
+    ],
+    "bloom": [
+     129,
+     133
+    ],
+    "gatherer_index": 4,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:cloud"
+   ],
+   "out": "layer:film13:cloud",
+   "params": {
+    "t": [
+     126,
+     142
+    ],
+    "condense": [
+     127,
+     130
+    ],
+    "bloom": [
+     0,
+     0
+    ],
+    "gatherer_index": 5,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:film"
+   ],
+   "out": "layer:film14:film",
+   "params": {
+    "t": [
+     128,
+     145.7
+    ],
+    "condense": [
+     129,
+     132
+    ],
+    "bloom": [
+     133,
+     141
+    ],
+    "gatherer_index": 1,
+    "mask": false
+   }
+  },
+  {
+   "op": "halftone-fleck",
+   "in": [
+    "src:dog"
+   ],
+   "out": "layer:film15:dog",
+   "params": {
+    "t": [
+     134,
+     145.6
+    ],
+    "condense": [
+     134.5,
+     137.5
+    ],
+    "bloom": [
+     0,
+     0
+    ],
+    "gatherer_index": 2,
+    "mask": true
+   }
+  },
+  {
+   "op": "composite",
+   "in": [
+    "layer:orchestra",
+    "layer:film0:alarm-clock",
+    "layer:film1:film",
+    "layer:film2:coffee-cup",
+    "layer:film3:frying-pan",
+    "layer:film4:stove",
+    "layer:film5:dog",
+    "layer:film6:film",
+    "layer:film7:hand",
+    "layer:film8:lantern",
+    "layer:film9:film",
+    "layer:film10:light-bulb",
+    "layer:film11:door",
+    "layer:film12:umbrella",
+    "layer:film13:cloud",
+    "layer:film14:film",
+    "layer:film15:dog"
+   ],
+   "out": "corrugated-sky-jelly.mp4"
+  }
+ ]
 }
