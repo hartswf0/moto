@@ -36,6 +36,9 @@
             z-index: 10;
         }
 
+        #io-modal { display: none; position: fixed; z-index: 400; top: 50%; left: 50%; transform: translate(-50%, -50%); width: min(92vw, 420px); padding: 14px; background: #050505; border: 1px solid #333; }
+        #io-modal textarea { width: 100%; height: 120px; margin-bottom: 8px; background: #000; color: #0ff; border: 1px solid #333; }
+
         /* --- ICONS (CSS Shapes) --- */
         .icon {
             display: inline-block;
@@ -3756,7 +3759,7 @@
                 // Hide if radius too small (booting)
                 if (r.r < 10) return;
 
-                const t = this.audio.tracks[idx];
+                const t = this.audio.tracks[idx] || { cfg: this.audio.configs[idx], mode: 'MP3', volume: { gain: { value: 0.8 } } }; // pre-boot placeholder so rings draw before audio init
                 const trackData = this.seq.grid[idx];
                 const color = t.cfg.color;
 
@@ -3931,7 +3934,7 @@
         const seq = new Sequencer(audio);
         window.uiInstance = new Interface('main-canvas', audio, seq);
         const ui = window.uiInstance;
-        if (EMBED_MODE) document.body.classList.add('embed-mode');
+        if (EMBED_MODE) { document.body.classList.add('embed-mode'); ui.render(); } // embed: draw rings before first gesture
 
         const recBtnContainer = document.getElementById('rec-btn-container');
         const recTrigger = document.getElementById('rec-trigger');
@@ -4037,7 +4040,7 @@
                         if (!skipTutorial && !EMBED_MODE) startTutorial();
                     }, 800);
                 }
-                ui.render();
+                if (!EMBED_MODE) ui.render(); // embed already started the render loop at load
                 updateActiveStatus();
                 if (EMBED_MODE && window.parent !== window) {
                     setTimeout(() => {
