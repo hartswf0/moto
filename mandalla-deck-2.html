@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MANDALLA • Deck 2</title>
+<meta name="theme-color" content="#0b0c0f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0c0f'/%3E%3Ccircle cx='20' cy='32' r='12' fill='none' stroke='%2335d6ff' stroke-width='4'/%3E%3Ccircle cx='44' cy='32' r='12' fill='none' stroke='%23ffb056' stroke-width='4'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0b0c0f; --panel:#12151b; --line:#28303c; --ink:#eef2f6; --dim:#9aa6b4;
+  --a:#35d6ff; --b:#ffb056; --go:#3fe08a; --rec:#ff4d5e;
+  --hi:#ffee33; --mid:#33eeff; --low:#ff55ee;
+  --c:#8fa0b3;   /* accent of a fader: inherited from .deck / .tempo */
+  --rh:44px;     /* control row height (shrinks only in short landscape) */
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;background:var(--bg);color:var(--ink);overflow:hidden;overscroll-behavior:none;
+  font:14px/1.2 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent}
+button,select{font:inherit;color:inherit}
+#app{position:fixed;inset:0;display:flex;flex-direction:column;gap:6px;
+  padding:calc(env(safe-area-inset-top,0px) + 6px) calc(env(safe-area-inset-right,0px) + 8px) calc(env(safe-area-inset-bottom,0px) + 6px) calc(env(safe-area-inset-left,0px) + 8px)}
+
+/* ---------- shared controls ---------- */
+.btn{min-height:var(--rh);min-width:44px;padding:0 12px;border-radius:10px;border:1px solid var(--line);background:#171b23;
+  font-weight:700;font-size:13px;letter-spacing:.04em;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+.btn:active{transform:translateY(1px);filter:brightness(1.3)}
+.btn:focus-visible,.fader:focus-visible,select:focus-visible{outline:2px solid #fff;outline-offset:1px}
+.lbl{font-size:11.5px;font-weight:700;letter-spacing:.1em;color:var(--dim);white-space:nowrap}
+.val{font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;min-width:42px;text-align:right;white-space:nowrap}
+.fader{--v:.5;--kw:44px;position:relative;flex:1 1 0;min-width:90px;height:var(--rh);border-radius:10px;
+  background:#0a0c10;border:1px solid var(--line);touch-action:none;cursor:pointer;overflow:hidden}
+.fader .fill{position:absolute;left:0;top:0;bottom:0;width:calc(var(--v) * (100% - var(--kw)) + var(--kw) / 2);
+  background:color-mix(in srgb,var(--c) 26%,transparent);pointer-events:none}
+.fader .knob{position:absolute;top:2px;bottom:2px;width:var(--kw);left:calc(var(--v) * (100% - var(--kw)));border-radius:8px;
+  background:linear-gradient(180deg,#f4f7fa,#aeb9c6);box-shadow:0 2px 8px rgba(0,0,0,.6);pointer-events:none}
+.fader .knob::after{content:"";position:absolute;left:50%;top:22%;bottom:22%;width:3px;margin-left:-1.5px;border-radius:2px;background:var(--c);filter:brightness(.7)}
+.fader .vu{position:absolute;left:0;bottom:0;height:5px;width:0;background:var(--c);pointer-events:none;opacity:.95}
+
+/* ---------- header (desktop) ---------- */
+#top{display:flex;align-items:center;gap:14px;min-height:30px;flex:0 0 auto}
+#top b{font-size:14px;letter-spacing:.18em;white-space:nowrap}
+#legend{font-size:12.5px;color:#c4ccd6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1 1 0;min-width:0}
+#legend i{font-style:normal;color:var(--dim)}
+#msg{display:none;font-size:13.5px;font-weight:700;color:#fff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;flex:1 1 0;min-width:0}
+#msg a{color:var(--go)}
+#top.msg #legend{display:none} #top.msg #msg{display:block}
+
+/* ---------- deck focus tabs (phone) ---------- */
+#tabs{display:none;gap:6px;flex:0 0 auto}
+.tab{flex:1 1 0;min-width:0;min-height:46px;border-radius:10px;border:2px solid var(--line);background:#12151b;position:relative;
+  display:flex;align-items:center;gap:8px;padding:0 10px;cursor:pointer;overflow:hidden;touch-action:pan-y}
+.tab .tl{font-size:20px;font-weight:800}
+.tab .tn{font-size:13px;font-weight:700;letter-spacing:.04em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--dim)}
+.tab .vu{position:absolute;left:0;bottom:0;height:5px;width:0}
+.tab[data-d="A"] .tl{color:var(--a)} .tab[data-d="B"] .tl{color:var(--b)}
+.tab[data-d="A"] .vu{background:var(--a)} .tab[data-d="B"] .vu{background:var(--b)}
+.tab.on{background:#1b212b}.tab.on .tn{color:var(--ink)}
+.tab.on[data-d="A"]{border-color:var(--a)} .tab.on[data-d="B"]{border-color:var(--b)}
+
+/* ---------- decks ---------- */
+#decks{flex:1 1 0;min-height:0;display:grid;grid-template-columns:1fr 1fr;gap:10px;position:relative}
+.deck{min-width:0;min-height:0;display:flex;flex-direction:column;gap:6px;--c:var(--a)}
+.deck[data-d="B"]{--c:var(--b)}
+.crate{display:flex;align-items:center;gap:6px;flex:0 0 auto}
+.badge{flex:0 0 auto;width:34px;height:var(--rh);border-radius:10px;display:grid;place-items:center;font-size:20px;font-weight:800;
+  color:#06090c;background:var(--c)}
+.crate select{flex:0 1 150px;min-width:96px;height:var(--rh);border-radius:10px;border:1px solid var(--line);background:#171b23;
+  padding:0 8px;font-size:13px;font-weight:700}
+.song{flex:1 1 0;min-width:0;height:var(--rh);border-radius:10px;border:1px solid var(--line);background:#0a0c10;padding:0 10px;
+  display:flex;flex-direction:column;justify-content:center;gap:2px;overflow:hidden;touch-action:pan-y}
+.song .lbl{font-size:10.5px;letter-spacing:.06em}
+.song .st{font-size:13px;font-weight:700;overflow:hidden;white-space:nowrap}
+.song .sti{display:inline-block}
+.song .st.mq .sti{animation:mq var(--mqt,6s) ease-in-out infinite alternate}   /* a title too long for its box scrolls so it can be read in full */
+@keyframes mq{0%,18%{transform:translateX(0)}82%,100%{transform:translateX(calc(-1 * var(--ov,0px)))}}
+.stage{flex:1 1 0;min-height:0;container-type:size;display:grid;place-items:center}
+.sq{width:min(100cqw,100cqh);height:min(100cqw,100cqh);position:relative;overflow:hidden;border-radius:12px;background:#050505;
+  box-shadow:0 0 0 2px color-mix(in srgb,var(--c) 55%,#000)}
+.sq iframe{position:absolute;left:0;top:0;border:0;background:#050505;transform-origin:0 0}
+.strip{display:flex;flex-wrap:wrap;gap:6px;flex:0 0 auto}
+.loads{flex:0 1 auto;display:flex;align-items:center;gap:6px;min-width:0}
+.loads .btn{padding:0 6px;flex:0 0 auto}
+.loads .lbl{letter-spacing:.05em;white-space:normal;width:min-content;line-height:1.15}
+.loads .ring{min-width:48px;border-color:var(--rc);color:var(--rc)}
+.loads .pat{flex:0 0 auto;width:112px}
+.lvl{flex:1 1 230px;display:flex;align-items:center;gap:6px;min-width:0}
+.lv2{display:flex;flex-direction:column;gap:3px;flex:0 0 auto}
+.lv2 .val{text-align:left;font-size:14px;min-width:0}
+.level,#bpmFader{--kw:32px}
+.mute{min-width:60px;padding:0 6px}
+.mute.on{background:var(--rec);border-color:var(--rec);color:#fff}
+.nochrome .crate select,.nochrome .snav,.nochrome .loads{display:none}
+
+/* ---------- mixer ---------- */
+#mixer{flex:0 0 auto;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.xf{flex:3 1 420px;display:flex;align-items:stretch;gap:6px;min-width:0}
+.cut{min-width:60px;min-height:calc(var(--rh) * 1.45);font-size:11.5px;line-height:1.15;padding:0 6px}
+.cut b{display:block;font-size:20px;line-height:1}
+.cut small{display:block;font-size:12.5px;font-weight:800;font-variant-numeric:tabular-nums;color:var(--ink);margin-top:2px}
+.cut.on small{color:#06090c}
+#cutA{border-color:var(--a);color:var(--a)} #cutB{border-color:var(--b);color:var(--b)}
+#cutA.on{background:var(--a);color:#06090c} #cutB.on{background:var(--b);color:#06090c}
+#xfader{--kw:64px;height:calc(var(--rh) * 1.45);border-radius:12px;background:linear-gradient(90deg,color-mix(in srgb,var(--a) 34%,#0a0c10),#0a0c10 50%,color-mix(in srgb,var(--b) 34%,#0a0c10))}
+#xfader .fill{display:none}
+#xfader .knob::after{background:#222;width:4px;margin-left:-2px}
+#xfader .knob{display:grid;place-items:end center;padding-bottom:5px;font-size:10.5px;font-weight:800;letter-spacing:.06em;color:#1a2028}
+#xfader .knob::after{top:14%;bottom:38%}
+#xfader .read{position:absolute;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:2px;font-size:16px;font-weight:800;pointer-events:none;font-variant-numeric:tabular-nums}
+#xfader .read small{font-size:10.5px;font-weight:700;letter-spacing:.1em;color:var(--dim)}
+#xfader .ra{left:12px;color:var(--a)} #xfader .rb{right:12px;color:var(--b);text-align:right}
+#xfader .tick{position:absolute;left:50%;top:6px;bottom:6px;width:2px;margin-left:-1px;background:#3a4452;pointer-events:none}
+.tempo{flex:2 1 360px;display:flex;align-items:center;gap:6px;min-width:0;--c:#b6f}
+.tempo .lv2{min-width:66px}
+.tempo .fader{min-width:56px}
+#tap{min-width:60px;border-color:#b6f;color:#d9b8ff}
+#tap.hit{background:#b6f;color:#111}
+.transport{flex:0 1 240px;display:flex;align-items:center;gap:6px;min-width:0}
+#start{flex:1 1 0;min-height:calc(var(--rh) * 1.18);font-size:16px;background:var(--go);border-color:var(--go);color:#04140b}
+#start.idle{animation:pulse 1.4s ease-in-out infinite}
+#start.run{background:#171b23;border-color:var(--go);color:var(--go)}
+@keyframes pulse{50%{box-shadow:0 0 0 6px rgba(63,224,138,.28)}}
+#rec{min-height:calc(var(--rh) * 1.18);min-width:104px;border-color:var(--rec);color:#ff8f9a}
+#rec.on{background:var(--rec);color:#fff}
+#master{flex:0 0 10px;align-self:stretch;min-height:var(--rh);border-radius:5px;background:#0a0c10;border:1px solid var(--line);position:relative;overflow:hidden}
+#master i{position:absolute;left:0;right:0;bottom:0;height:0;background:linear-gradient(0deg,var(--go),#e9e36a 75%,var(--rec))}
+#hint{flex:1 1 100%;min-height:18px;font-size:12.5px;color:#c4ccd6;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:center}
+#hint a{color:var(--go);font-weight:700}
+
+/* ---------- layout modes (body[data-mode] is set from matchMedia before first paint) ----------
+   desk  : both decks side by side
+   phone : portrait / narrow - one deck in focus, tabs + swipe to the other
+   land  : short landscape (a phone on its side) - focused deck's rings at left, every control in a column at right */
+body[data-mode="desk"]:not(.embed) #hint{display:none}          /* desktop shows messages in the header instead: no reflow */
+body:not([data-mode="desk"]) #top{display:none}
+body:not([data-mode="desk"]) #tabs{display:flex}
+body:not([data-mode="desk"]) #decks{display:block}
+body:not([data-mode="desk"]) .deck{position:absolute;inset:0}
+body:not([data-mode="desk"]) #decks[data-focus="A"] .deck[data-d="B"],
+body:not([data-mode="desk"]) #decks[data-focus="B"] .deck[data-d="A"]{visibility:hidden;pointer-events:none}
+body:not([data-mode="desk"]) .badge{display:none}
+body:not([data-mode="desk"]) .crate select{flex:0 1 128px}
+body:not([data-mode="desk"]) #mixer{gap:6px}
+body:not([data-mode="desk"]) :is(.xf,.tempo,.transport,.loads,.lvl){flex:1 1 100%}
+body:not([data-mode="desk"]) .loads .ring{flex:0 1 48px;min-width:40px}
+body:not([data-mode="desk"]) .loads .pat{flex:1 1 96px;width:auto;min-width:0;overflow:hidden;text-overflow:ellipsis}
+body:not([data-mode="desk"]) #tap{min-width:52px}
+@media (max-width:700px){ body:not([data-mode="desk"]) .crate select{flex:0 1 100px;min-width:84px} }
+@media (max-width:350px){ .loads .pat{font-size:11.5px;letter-spacing:0} }
+@media (max-height:700px){ body[data-mode="phone"]{--rh:40px} body[data-mode="phone"] :is(#app,#mixer,.deck,.strip){gap:4px} }
+@media (min-height:760px){ body[data-mode="phone"] #hint{min-height:34px;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-height:1.3} }
+
+body[data-mode="land"]{--rh:clamp(34px, calc((100vh - 66px) / 7.3), 44px)}
+body[data-mode="land"] #app{display:grid;--sq:min(calc(100vh - 12px), 46vw);grid-template-columns:var(--sq) minmax(0,1fr);
+  grid-template-rows:var(--rh) calc(var(--rh) * 3 + 8px) minmax(0,1fr);gap:4px 8px}
+body[data-mode="land"] #tabs{grid-column:2;grid-row:1;position:relative;z-index:2}
+body[data-mode="land"] .tab{min-height:0}
+body[data-mode="land"] #decks{grid-column:1 / -1;grid-row:1 / -1;pointer-events:none}
+body[data-mode="land"] .deck{display:grid;grid-template-columns:var(--sq) minmax(0,1fr);grid-template-rows:var(--rh) var(--rh) calc(var(--rh) * 2 + 4px) minmax(0,1fr);gap:4px 8px}
+body[data-mode="land"] .deck > *{pointer-events:auto}
+body[data-mode="land"] .stage{grid-column:1;grid-row:1 / -1}
+body[data-mode="land"] .crate{grid-column:2;grid-row:2}
+body[data-mode="land"] .strip{grid-column:2;grid-row:3;gap:4px}
+body[data-mode="land"] #mixer{grid-column:2;grid-row:3;gap:4px;align-content:start;position:relative;z-index:2}
+body[data-mode="land"] :is(.cut,#xfader){height:calc(var(--rh) * 1.2);min-height:0}
+body[data-mode="land"] .cut b{font-size:16px;display:inline;margin-right:4px} body[data-mode="land"] .cut small{margin-top:0}
+body[data-mode="land"] :is(#start,#rec){min-height:var(--rh)}
+body[data-mode="land"] #hint{min-height:16px}
+body.embed #top, body.embed .transport{display:none}
+</style>
+</head>
+<body>
+<div id="app">
+  <header id="top">
+    <b>MANDALLA DECK 2</b>
+    <span id="legend">Tap cells = beats <i>·</i> ◆ tap = play / pause, turn = change song <i>·</i> ■ = note length <i>·</i> ● = ring volume <i>·</i> drag arm = scratch + tempo bend <i>·</i> ◀ ▶ + HIGH / MID / LOW = crate song to a ring</span>
+    <span id="msg" role="status"></span>
+  </header>
+
+  <nav id="tabs" aria-label="Deck focus">
+    <button class="tab on" data-d="A" type="button" aria-label="Show deck A"><span class="tl">A</span><span class="tn">—</span><i class="vu"></i></button>
+    <button class="tab" data-d="B" type="button" aria-label="Show deck B"><span class="tl">B</span><span class="tn">—</span><i class="vu"></i></button>
+  </nav>
+
+  <main id="decks" data-focus="A"></main>
+
+  <footer id="mixer">
+    <div class="xf">
+      <button id="cutA" class="btn cut" type="button" aria-label="Cut to deck A"><b>A</b>CUT<small id="xfA">71%</small></button>
+      <div id="xfader" class="fader" role="slider" tabindex="0" aria-label="Crossfader">
+        <span class="read ra"><small>◀ DECK A</small></span><span class="read rb"><small>DECK B ▶</small></span><span class="tick"></span><div class="knob">X-FADE</div>
+      </div>
+      <button id="cutB" class="btn cut" type="button" aria-label="Cut to deck B"><b>B</b>CUT<small id="xfB">71%</small></button>
+    </div>
+    <div class="tempo">
+      <span class="lv2"><span class="lbl">TEMPO</span><span class="val" id="bpmVal">120 BPM</span></span>
+      <button id="bpmDown" class="btn" type="button" aria-label="Tempo down">−</button>
+      <div id="bpmFader" class="fader" role="slider" tabindex="0" aria-label="Tempo"><div class="fill"></div><div class="knob"></div></div>
+      <button id="bpmUp" class="btn" type="button" aria-label="Tempo up">+</button>
+      <button id="tap" class="btn" type="button">TAP</button>
+    </div>
+    <div class="transport">
+      <button id="start" class="btn idle" type="button">▶ START</button>
+      <button id="rec" class="btn" type="button">● REC</button>
+      <div id="master" title="Mix level"><i></i></div>
+    </div>
+    <div id="hint">Press START — or just touch a ring</div>
+  </footer>
+</div>
+
+<template id="deckTpl">
+  <section class="deck">
+    <div class="crate">
+      <span class="badge"></span>
+      <select class="album" aria-label="Album crate"></select>
+      <button class="btn snav sprev" type="button" aria-label="Previous song">◀</button>
+      <div class="song"><span class="lbl sl">CRATE SONG</span><span class="st"><span class="sti">—</span></span></div>
+      <button class="btn snav snext" type="button" aria-label="Next song">▶</button>
+    </div>
+    <div class="stage"><div class="sq"><iframe allow="autoplay; microphone" title="deck"></iframe></div></div>
+    <div class="strip">
+      <div class="loads">
+        <span class="lbl">SONG&nbsp;→ RING</span>
+        <button class="btn ring" data-r="0" style="--rc:var(--hi)" type="button">HIGH</button>
+        <button class="btn ring" data-r="1" style="--rc:var(--mid)" type="button">MID</button>
+        <button class="btn ring" data-r="2" style="--rc:var(--low)" type="button">LOW</button>
+        <button class="btn pat" type="button">BEAT: —</button>
+      </div>
+      <div class="lvl">
+        <span class="lv2"><span class="lbl lv">LEVEL</span><span class="val lvv">80%</span></span>
+        <div class="fader level" role="slider" tabindex="0"><div class="fill"></div><div class="vu"></div><div class="knob"></div></div>
+        <button class="btn mute" type="button">MUTE</button>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+(function(){
+'use strict';
+const $ = (s, r=document) => r.querySelector(s);
+const clamp = (v, a=0, b=1) => Math.min(b, Math.max(a, Number.isFinite(+v) ? +v : a));
+const QS = new URLSearchParams(location.search);
+const EMBED = ['1','true','yes'].includes((QS.get('embed')||'').toLowerCase());
+if (EMBED) document.body.classList.add('embed');
+const BPM_MIN = 60, BPM_MAX = 180;
+const MIN_LOGICAL = 680;   // mandalla needs >= ~660px for its outer ring, handles and the ring's [MODE] tag to fit; smaller squares are scaled
+
+/* ---------- layout mode ---------- */
+const mqLand = matchMedia('(orientation:landscape) and (max-height:520px)'), mqNarrow = matchMedia('(max-aspect-ratio:1/1), (max-width:700px)');
+function setMode(){ document.body.dataset.mode = mqLand.matches ? 'land' : mqNarrow.matches ? 'phone' : 'desk'; }
+setMode(); mqLand.addEventListener('change', setMode); mqNarrow.addEventListener('change', setMode);
+
+/* ---------- deck URL contract: ?a= & ?b= (full URL, relative .html, or a bare album key) ---------- */
+function deckUrl(raw, fallbackKey){
+  let v = String(raw || '').trim();
+  if (!v) v = fallbackKey;
+  if (!/^https?:\/\//i.test(v) && !/\.html?($|[?#])/i.test(v) && !v.includes('/'))
+    return 'mandalla.html?embed=1&album=' + encodeURIComponent(v.toLowerCase());
+  return v;
+}
+
+/* ---------- starter beats (only applied to a deck that still has its untouched default) ---------- */
+const steps = (...on) => { const g = new Array(16).fill(false); on.forEach(i => g[i] = true); return g; };
+const BEATS = [
+  { name:'PULSE',   grid:[steps(), steps(), steps(0,8)] },
+  { name:'FOUR',    grid:[steps(2,6,10,14), steps(4,12), steps(0,4,8,12)] },
+  { name:'BREAK',   grid:[steps(0,2,3,6,8,10,11,14), steps(4,7,12), steps(0,3,6,10,13)] },
+  { name:'ROLL',    grid:[steps(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15), steps(2,6,10,14,15), steps(0,8,11)] },
+  { name:'EMPTY',   grid:[steps(), steps(), steps()] }
+];
+const gridKey = g => g.map(r => r.map(x => x ? 1 : 0).join('')).join('|');
+const BEAT_KEYS = BEATS.map(b => gridKey(b.grid));
+
+/* ---------- state ---------- */
+const P = { crossfade:.5, levelA:.8, levelB:.8, bpm:120 };
+const S = { running:false, everStarted:false, monitor:true, focus:'A', rec:null, recT0:0, chunks:[], kickUntil:0 };
+let ac=null, mix=null, master=null, monitorGain=null, dest=null, masterAn=null;
+const decks = {};
+
+function mkDeck(id, url){
+  const el = $('#deckTpl').content.firstElementChild.cloneNode(true);
+  el.dataset.d = id;
+  $('#decks').appendChild(el);
+  const D = { id, el, url, frame:$('iframe', el), sq:$('.sq', el), muted:false, stream:null, node:null,
+              inGain:null, xfGain:null, an:null, kind:'unknown', seeded:false, wasPlaying:null, vu:0,
+              echo:[], touching:false, homeBpm:null, bent:false, tune:null };
+  $('.badge', el).textContent = id;
+  $('.lv', el).textContent = 'LEVEL ' + id;
+  $('.level', el).setAttribute('aria-label', 'Deck ' + id + ' level');
+  $('.mute', el).setAttribute('aria-label', 'Mute deck ' + id);
+  D.frame.title = 'Deck ' + id;
+  D.frame.addEventListener('load', () => onFrameLoad(D));
+  D.frame.src = url;
+  new ResizeObserver(() => fit(D)).observe(D.sq);
+  decks[id] = D;
+  return D;
+}
+function fit(D){
+  const s = D.sq.clientWidth; if (!s) return;
+  const L = Math.max(s, MIN_LOGICAL);
+  D.frame.style.width = D.frame.style.height = L + 'px';
+  D.frame.style.transform = L === s ? 'none' : 'scale(' + (s / L) + ')';
+}
+function win(D){ try{ const w = D.frame.contentWindow; void w.document; return w; }catch(_){ return null; } }   // null when cross-origin
+function post(D, msg){ try{ D.frame.contentWindow.postMessage(msg, '*'); }catch(_){} }
+function inner(D){ const w = win(D); const ui = w && w.uiInstance; return ui && ui.audio && ui.seq ? { audio:ui.audio, seq:ui.seq, doc:w.document } : null; }
+
+function onFrameLoad(D){
+  D.stream = null; D.seeded = false; D.echo = []; D.touching = false; D.bent = false; D.tune = null;
+  try{ D.node && D.node.disconnect(); }catch(_){} D.node = null;
+  const w = win(D);
+  D.kind = !w ? 'remote' : (w.scionDeck ? 'scion' : (typeof w.__mandallaGetAudioStream === 'function' ? 'mandalla' : 'plain'));
+  const mand = D.kind === 'mandalla' && !!w.document.getElementById('crate-next');
+  D.el.classList.toggle('nochrome', !mand);
+  $('.sl', D.el).textContent = mand ? 'CRATE SONG' : 'DECK SOURCE';
+  if (w){
+    // any first touch inside a deck starts the whole mixer (the deck itself is silent on its own in embed mode)
+    try{
+      w.addEventListener('pointerdown', () => { if (!D.touching){ D.touching = true; D.homeBpm = P.bpm; D.bent = false; } if (!S.running) start(); }, true);
+      ['pointerup','touchend','click'].forEach(t => w.addEventListener(t, kick, true));
+      ['pointerup','pointercancel','touchend','touchcancel','mouseup'].forEach(t => w.addEventListener(t, () => releaseDeck(D), true));
+    }catch(_){}
+  }
+  if (mand){
+    // host owns album / song / tempo chrome: hide the child's tiny strip so the rings get the whole square
+    // the deck's boot awaits a radio-directory request; cap it so first sound does not wait on a slow network (it falls back to its built-in list)
+    try{
+      const f = w.fetch.bind(w);
+      w.fetch = (u, o) => /radio-browser/.test(String(u && u.url || u))
+        ? Promise.race([f(u, o), new Promise((_, rej) => setTimeout(() => rej(new Error('radio directory timeout')), 1500))]) : f(u, o);
+    }catch(_){}
+    // crate file names in mandalla.html are partly NFD (macOS) while the repo paths are NFC -> 404; normalise on the way out
+    try{ const enc = w.encodeURI; w.encodeURI = s => enc(String(s).normalize('NFC')); }catch(_){}
+    const st = w.document.createElement('style');
+    st.textContent = '#top-strip,#status-bar{display:none!important}';
+    w.document.head.appendChild(st);
+    const src = w.document.getElementById('crate-album-select'), sel = $('.album', D.el);
+    sel.innerHTML = '';
+    if (src) Array.from(src.options).forEach(o => sel.add(new Option(o.textContent, o.value)));
+    if (src) sel.value = src.value;
+  }
+  setMonitorOf(D, false);
+  setBpmOf(D, P.bpm);
+  if (S.running) startDeck(D);
+  syncDeckUi(D);
+}
+
+/* ---------- host audio graph ---------- */
+function ensureAudio(){
+  if (ac) return ac;
+  ac = new (window.AudioContext || window.webkitAudioContext)();
+  mix = ac.createGain();
+  master = ac.createDynamicsCompressor();          // gentle limiter: two decks at centre sum to +3 dB
+  master.threshold.value = -8; master.knee.value = 8; master.ratio.value = 10; master.attack.value = .004; master.release.value = .18;
+  masterAn = ac.createAnalyser(); masterAn.fftSize = 1024;
+  monitorGain = ac.createGain(); monitorGain.gain.value = S.monitor ? 1 : 0;
+  dest = ac.createMediaStreamDestination();
+  mix.connect(master); master.connect(masterAn); master.connect(dest); master.connect(monitorGain); monitorGain.connect(ac.destination);
+  for (const D of Object.values(decks)){
+    D.inGain = ac.createGain(); D.xfGain = ac.createGain(); D.an = ac.createAnalyser(); D.an.fftSize = 1024;
+    D.inGain.connect(D.an); D.inGain.connect(D.xfGain); D.xfGain.connect(mix);
+  }
+  applyGains(true);
+  return ac;
+}
+const levelGain = v => (v / .8) * (v / .8);          // 80% = unity
+function xfGains(){ const t = P.crossfade; return { A:Math.cos(t * Math.PI / 2), B:Math.sin(t * Math.PI / 2) }; }
+function applyGains(now){
+  if (!ac) return;
+  const x = xfGains(), t = ac.currentTime;
+  for (const D of Object.values(decks)){
+    const lv = D.muted ? 0 : levelGain(P['level' + D.id]);
+    if (now){ D.inGain.gain.value = lv; D.xfGain.gain.value = x[D.id]; }
+    else { D.inGain.gain.setTargetAtTime(lv, t, .015); D.xfGain.gain.setTargetAtTime(x[D.id], t, .015); }
+  }
+}
+
+/* ---------- child bridge: scionDeck -> __mandalla* -> postMessage ---------- */
+function getStreamOf(D){
+  const w = win(D); if (!w) return null;
+  try{
+    if (w.scionDeck && w.scionDeck.getStream) return w.scionDeck.getStream();
+    if (w.__mandallaGetAudioStream) return w.__mandallaGetAudioStream();
+  }catch(_){}
+  return null;
+}
+function connectStream(D, stream){
+  if (!stream || stream === D.stream) return !!stream;
+  ensureAudio();
+  try{ D.node && D.node.disconnect(); }catch(_){}
+  try{ D.node = ac.createMediaStreamSource(stream); D.node.connect(D.inGain); D.stream = stream; }
+  catch(e){ console.warn('[deck2] stream connect failed', D.id, e); return false; }
+  setMonitorOf(D, false);
+  return true;
+}
+function attach(D){
+  if (connectStream(D, getStreamOf(D))) return true;
+  post(D, { type:'request-audio-stream', id:'deck' + D.id });
+  return false;
+}
+function setMonitorOf(D, on){
+  const w = win(D);
+  try{
+    if (w && w.scionDeck && w.scionDeck.setMonitor) return w.scionDeck.setMonitor(!!on);
+    if (w && w.__mandallaSetMonitor) return w.__mandallaSetMonitor(!!on);
+  }catch(_){}
+  post(D, { type:'set-monitor', on:!!on });
+}
+function setBpmOf(D, bpm){
+  const w = win(D);
+  try{
+    if (w && w.scionDeck && w.scionDeck.setBpm) return w.scionDeck.setBpm(bpm);
+    if (w && w.__mandallaSetBpm){
+      if (w.__mandallaGetBpm && w.__mandallaGetBpm() === bpm) return;
+      expectEcho(D, bpm);                              // the deck will report this change back; it is ours, not the player's
+      return w.__mandallaSetBpm(bpm);
+    }
+  }catch(_){}
+  expectEcho(D, bpm);
+  post(D, { type:'set-bpm', bpm });
+}
+/* A deck announces every tempo change with a 'bpm-change' message, including the ones this host just made.
+   Those echoes arrive a few ms late; treating a stale one as player input made host and decks chase each other for ever.
+   So every value the host sends is remembered and its echo is swallowed; only an unannounced value counts as the player. */
+function expectEcho(D, bpm){ D.echo.push({ v:bpm, t:performance.now() }); if (D.echo.length > 64) D.echo.shift(); }
+function isEcho(D, bpm){
+  const now = performance.now();
+  D.echo = D.echo.filter(e => now - e.t < 1500);
+  const i = D.echo.findIndex(e => e.v === bpm);
+  if (i < 0) return false;
+  D.echo.splice(0, i + 1);                            // messages keep their order: anything queued before it is stale too
+  return true;
+}
+let reconT = 0;
+function reconcileSoon(){                              // once things are quiet, every deck that can be read must sit on the host tempo
+  clearTimeout(reconT);
+  reconT = setTimeout(() => {
+    for (const D of Object.values(decks)){
+      const w = win(D);
+      try{ if (w && w.__mandallaGetBpm && w.__mandallaSetBpm && w.__mandallaGetBpm() !== P.bpm) setBpmOf(D, P.bpm); }catch(_){}
+    }
+  }, 180);
+}
+/* The only tempo control left inside an embedded deck is its sweep arm (radius = tempo while scratching).
+   That is a bend: the host and the other deck follow it live, and the set tempo comes back when the arm is let go. */
+function deckBpm(D, bpm){
+  if (isEcho(D, bpm)){ reconcileSoon(); return; }
+  if (bpm === P.bpm) return;
+  if (D.touching || D.bent){
+    D.bent = true;
+    setBpm(bpm, { from:D });
+    hint('Arm bend: ' + P.bpm + ' BPM — springs back to ' + D.homeBpm + ' when you let go', 2500);
+  } else setBpm(bpm, { from:D });
+  reconcileSoon();
+}
+function releaseDeck(D){
+  if (!D.touching) return;
+  D.touching = false;
+  setTimeout(() => {                                  // let the deck's last bpm-change messages land first
+    if (D.touching || !D.bent) return;
+    D.bent = false;
+    if (D.homeBpm != null && D.homeBpm !== P.bpm){ setBpm(D.homeBpm); hint('Tempo back to ' + P.bpm + ' BPM', 1800); }
+  }, 60);
+}
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+async function startDeck(D){
+  const w = win(D);
+  let pr = null;
+  try{
+    if (w && w.scionDeck && w.scionDeck.start) pr = w.scionDeck.start();
+    else if (w && w.__mandallaResumeAudio) pr = w.__mandallaResumeAudio();
+    else post(D, { type:'resume-audio' });
+  }catch(e){ console.warn('[deck2] deck start failed', D.id, e); post(D, { type:'resume-audio' }); }
+  if (pr && pr.then){
+    // a deck boot can stall (no user activation yet, slow network): never let that block wiring; finish again when it lands
+    const done = Promise.resolve(pr).catch(e => console.warn('[deck2] deck start failed', D.id, e));
+    let landed = false; done.then(() => { landed = true; });
+    await Promise.race([done, sleep(1200)]);
+    if (!landed) done.then(() => { if (S.running) afterStart(D); });
+  }
+  afterStart(D);
+}
+function afterStart(D){
+  const m = inner(D);
+  if (m){
+    if (!D.seeded){                                  // first start: give an untouched deck an audible groove
+      D.seeded = true;
+      if (gridKey(m.seq.grid) === BEAT_KEYS[0]) setBeat(D, D.id === 'B' ? 2 : 1);
+    }
+    m.audio.tracks.forEach((t, i) => {               // deck suspend pauses its files; bring back the ones that were running
+      const a = t.mp3Audio;
+      if (t.mode === 'MP3' && a && a.paused && (!D.wasPlaying || D.wasPlaying[i])) a.play().catch(()=>{});
+    });
+    D.wasPlaying = null;
+  }
+  setBpmOf(D, P.bpm);
+  if (!attach(D)) [150, 500, 1200, 2500].forEach(ms => setTimeout(() => { if (!D.stream) attach(D); }, ms));
+}
+async function stopDeck(D){
+  const w = win(D), m = inner(D);
+  if (m) D.wasPlaying = m.audio.tracks.map(t => !!(t.mp3Audio && !t.mp3Audio.paused));
+  try{
+    if (w && w.scionDeck && w.scionDeck.stop) return void await w.scionDeck.stop();
+    if (w && w.__mandallaSuspendAudio) return void await w.__mandallaSuspendAudio();
+  }catch(_){}
+  post(D, { type:'suspend-audio' });
+}
+
+/* ---------- transport ---------- */
+async function start(){
+  if (S.running) return;
+  S.running = true; S.everStarted = true; S.kickUntil = performance.now() + 3000;
+  ensureAudio();
+  ac.resume().catch(()=>{});                          // not awaited: before a user activation this promise can stay pending (see kick)
+  paintTransport();
+  await Promise.all(Object.values(decks).map(startDeck));
+  hint();
+}
+async function stop(){
+  if (!S.running) return;
+  S.running = false;
+  if (S.rec) toggleRec();
+  paintTransport();
+  await Promise.all(Object.values(decks).map(stopDeck));
+  hint(EMBED ? 'Stopped' : 'Stopped — press PLAY to pick up where you left off');
+}
+function paintTransport(){
+  const b = $('#start');
+  b.classList.toggle('idle', !S.running && !S.everStarted);
+  b.classList.toggle('run', S.running);
+  b.textContent = S.running ? '■ STOP' : (S.everStarted ? '▶ PLAY' : '▶ START');
+}
+
+/* ---------- params ---------- */
+const norm = { bpm: v => (v - BPM_MIN) / (BPM_MAX - BPM_MIN) };
+function getParam(id){ return id === 'bpm' ? norm.bpm(P.bpm) : P[id]; }
+function setParam(id, v01, opts){
+  v01 = clamp(v01);
+  if (id === 'bpm') return setBpm(BPM_MIN + v01 * (BPM_MAX - BPM_MIN), opts);
+  if (!(id in P)) return;
+  P[id] = v01; applyGains(); paint(); notify(id, opts);
+}
+function setBpm(bpm, opts){
+  bpm = Math.round(clamp(bpm, BPM_MIN, BPM_MAX));
+  const changed = bpm !== P.bpm;
+  P.bpm = bpm;
+  for (const D of Object.values(decks)) if (!opts || opts.from !== D) setBpmOf(D, bpm);
+  reconcileSoon();
+  paint(); if (changed) notify('bpm', opts);
+  return bpm;
+}
+function notify(id, opts){
+  if (opts && opts.silent) return;
+  if (window.parent !== window) try{ window.parent.postMessage({ type:'scion-param', id, value:getParam(id) }, '*'); }catch(_){}
+}
+function setMute(D, on){ D.muted = !!on; applyGains(); paint(); }
+
+/* ---------- mandalla deck chrome (album, song, rings, beat) ---------- */
+function setBeat(D, i){
+  const m = inner(D); if (!m) return;
+  const b = BEATS[((i % BEATS.length) + BEATS.length) % BEATS.length];
+  b.grid.forEach((row, r) => row.forEach((on, s) => m.seq.setStep(r, s, on)));
+  syncDeckUi(D);
+}
+function beatIndex(D){ const m = inner(D); return m ? BEAT_KEYS.indexOf(gridKey(m.seq.grid)) : -1; }
+function clickIn(D, id){ const m = inner(D); const b = m && m.doc.getElementById(id); if (b) b.click(); return !!b; }
+function albumLabel(D){
+  const sel = $('.album', D.el);
+  if (!D.el.classList.contains('nochrome') && sel.selectedOptions[0]) return sel.selectedOptions[0].textContent;
+  try{ return (new URL(D.url, location.href).pathname.split('/').pop() || 'deck').replace(/\.html?$/, '').toUpperCase(); }catch(_){ return 'DECK'; }
+}
+function syncUrl(){
+  try{
+    const u = new URL(location.href);
+    for (const D of Object.values(decks)){
+      const w = win(D); let v = D.url;
+      if (w && /^https?:/.test(w.location.protocol)){ const l = w.location; if (l.pathname.replace(/[^/]*$/, '') === location.pathname.replace(/[^/]*$/, '')) v = (l.pathname.split('/').pop() || '') + l.search; }
+      u.searchParams.set(D.id.toLowerCase(), v);
+    }
+    history.replaceState({}, '', u.toString());
+  }catch(_){}
+}
+function syncDeckUi(D){
+  const m = inner(D);
+  if (m){
+    const t = m.doc.getElementById('crate-track');
+    const txt = t ? t.textContent.trim() : '—';
+    setSong(D, txt);
+    const src = m.doc.getElementById('crate-album-select'), sel = $('.album', D.el);
+    if (src && sel.value !== src.value){ sel.value = src.value; syncUrl(); }
+    const bi = beatIndex(D), pat = $('.pat', D.el), lab = 'BEAT: ' + (bi < 0 ? 'CUSTOM' : BEATS[bi].name);
+    if (pat.textContent !== lab) pat.textContent = lab;
+  } else {
+    setSong(D, albumLabel(D));
+  }
+  const tn = $('.tab[data-d="' + D.id + '"] .tn'), al = albumLabel(D);
+  if (tn.textContent !== al) tn.textContent = al;
+}
+
+function setSong(D, txt){
+  const st = $('.st', D.el), sti = $('.sti', D.el);
+  if (sti.textContent !== txt) sti.textContent = txt;
+  const ov = sti.offsetWidth - st.clientWidth;        // too long for its box: scroll it back and forth instead of cutting it off
+  if (ov > 2){ st.style.setProperty('--ov', ov + 'px'); st.style.setProperty('--mqt', Math.max(3, ov / 22).toFixed(1) + 's'); st.classList.add('mq'); }
+  else st.classList.remove('mq');
+}
+
+/* ---------- turn a ring's ◆ to change its song ----------
+   mandalla.html tunes RADIO / DRONE / SAMPLER rings this way but does nothing for MP3 rings (every ring of an album crate).
+   The host fills that in: while a ◆ is being dragged, each 1/8 turn steps the ring to the next / previous crate song. */
+const TUNE_STEP = Math.PI / 4;
+function crateOf(D){ try{ return win(D).eval('LOCAL_MP3_CRATE'); }catch(_){ return null; } }
+function watchTune(D){
+  const m = inner(D); if (!m){ D.tune = null; return; }
+  let ui = null; try{ ui = win(D).uiInstance; }catch(_){}
+  const dt = ui && ui.dragTarget, trk = dt && dt.type === 'tune' ? m.audio.tracks[dt.trackIdx] : null;
+  if (trk && trk.mode === 'MP3' && ui.rings && ui.rings[dt.trackIdx]){
+    const a = ui.rings[dt.trackIdx].angle, T = D.tune;
+    if (!T || T.idx !== dt.trackIdx){ D.tune = { idx:dt.trackIdx, a0:a, base:trk.mp3Idx | 0, cur:trk.mp3Idx | 0, timer:0 }; return; }
+    const crate = crateOf(D), n = crate && crate.length; if (!n) return;
+    const want = (((T.base + Math.round((a - T.a0) / TUNE_STEP)) % n) + n) % n;
+    if (want !== T.cur){
+      T.cur = want;
+      hint('Deck ' + D.id + ' · ' + ['HIGH','MID','LOW'][T.idx] + ' ring → “' + esc(crate[want].name) + '”', 2500);
+      clearTimeout(T.timer); T.timer = setTimeout(() => commitTune(D, T), 200);   // load once the hand settles, not on every step
+    }
+  } else if (D.tune){ const T = D.tune; D.tune = null; clearTimeout(T.timer); commitTune(D, T); }
+}
+function commitTune(D, T){
+  const m = inner(D); if (!m) return;
+  const trk = m.audio.tracks[T.idx];
+  if (trk && trk.mode === 'MP3' && trk.mp3Idx !== T.cur) try{ m.audio.tuneMP3(T.idx, T.cur); }catch(e){ console.warn('[deck2] ring song change failed', e); }
+}
+const esc = t => String(t).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+
+/* ---------- buttons: fire on pointerup (never lost to browser tap/click suppression), click kept for keyboard ---------- */
+function press(el, fn){
+  let down = null, last = 0;
+  el.addEventListener('pointerdown', e => { down = { x:e.clientX, y:e.clientY }; });
+  el.addEventListener('pointerup', e => {
+    if (!down) return;
+    const moved = Math.hypot(e.clientX - down.x, e.clientY - down.y); down = null;
+    if (moved > 14) return;
+    last = performance.now(); fn(e);
+  });
+  el.addEventListener('pointercancel', () => { down = null; });
+  el.addEventListener('click', e => { if (performance.now() - last > 700) fn(e); });
+}
+/* audio that was asked for before the browser granted a user activation gets a second chance on the next real gesture */
+function kick(){
+  if (!S.running || !ac) return;
+  if (ac.state !== 'running') ac.resume().catch(()=>{});
+  for (const D of Object.values(decks)){
+    const w = win(D), m = inner(D);
+    try{
+      if (w && w.__mandallaGetAudioState && w.__mandallaGetAudioState().audioCtx === 'suspended') w.__mandallaResumeAudio();
+    }catch(_){}
+    if (m && performance.now() < S.kickUntil) m.audio.tracks.forEach(t => { const a = t.mp3Audio; if (t.mode === 'MP3' && a && a.paused) a.play().catch(()=>{}); });
+    if (!D.stream) attach(D);
+  }
+}
+['pointerup','touchend','click','keydown'].forEach(t => window.addEventListener(t, kick, true));
+
+/* ---------- custom horizontal fader (pointer events, no native range) ---------- */
+function fader(el, get, set, stepKey){
+  let drag = false;
+  const knob = $('.knob', el);
+  const at = x => { const r = el.getBoundingClientRect(), kw = knob.offsetWidth; return clamp((x - r.left - kw / 2) / Math.max(1, r.width - kw)); };
+  el.addEventListener('pointerdown', e => { drag = true; try{ el.setPointerCapture(e.pointerId); }catch(_){} set(at(e.clientX)); e.preventDefault(); });
+  el.addEventListener('pointermove', e => { if (drag){ set(at(e.clientX)); e.preventDefault(); } });
+  const end = e => { if (!drag) return; drag = false; try{ el.releasePointerCapture(e.pointerId); }catch(_){} };
+  el.addEventListener('pointerup', end); el.addEventListener('pointercancel', end);
+  el.addEventListener('keydown', e => {
+    const d = (e.key === 'ArrowRight' || e.key === 'ArrowUp') ? 1 : (e.key === 'ArrowLeft' || e.key === 'ArrowDown') ? -1 : 0;
+    if (d){ set(clamp(get() + d * (stepKey || .02))); e.preventDefault(); }
+  });
+  el._paint = () => { const v = get(); el.style.setProperty('--v', v.toFixed(4)); el.setAttribute('aria-valuenow', v.toFixed(2)); };
+}
+
+/* ---------- paint ---------- */
+function paint(){
+  $('#xfader')._paint(); $('#bpmFader')._paint();
+  const x = xfGains();
+  $('#xfA').textContent = Math.round(x.A * 100) + '%'; $('#xfB').textContent = Math.round(x.B * 100) + '%';
+  $('#cutA').classList.toggle('on', P.crossfade <= .001); $('#cutB').classList.toggle('on', P.crossfade >= .999);
+  $('#bpmVal').textContent = P.bpm + ' BPM';
+  for (const D of Object.values(decks)){
+    $('.level', D.el)._paint();
+    $('.lvv', D.el).textContent = Math.round(P['level' + D.id] * 100) + '%';
+    const mb = $('.mute', D.el); mb.classList.toggle('on', D.muted); mb.textContent = D.muted ? 'MUTED' : 'MUTE';
+  }
+}
+const TIPS = [
+  'Tap the ring cells to add or remove beats',
+  'Tap a ◆ to play / pause that ring · turn it round the ring to change its song',
+  '◀ ▶ pick a crate song · HIGH / MID / LOW put it on that ring',
+  '■ on the left = note length · ● at the bottom = ring volume',
+  'Drag the sweep arm to scratch — further out bends the tempo up, it springs back',
+  'Slide the CROSSFADER to blend deck A into deck B'
+];
+/* messages: the hint line under the mixer (phone, landscape, embedded) and, on desktop, the header in place of the legend */
+let tipI = 0, hintHold = 0, msgT = 0;
+function hint(html, ms){
+  const h = $('#hint');
+  if (html){
+    ms = ms || 4000;
+    h.innerHTML = html; $('#msg').innerHTML = html; $('#top').classList.add('msg');
+    hintHold = performance.now() + ms;
+    clearTimeout(msgT); msgT = setTimeout(() => { $('#top').classList.remove('msg'); hint(); }, ms + 20);
+    return;
+  }
+  if (performance.now() < hintHold) return;
+  h.textContent = S.running ? TIPS[tipI++ % TIPS.length]
+    : EMBED ? (S.everStarted ? 'Stopped — the host mixer starts it again' : 'Touch a ring to start')
+    : (S.everStarted ? 'Stopped — press PLAY' : 'Press START — or just touch a ring');
+}
+setInterval(() => hint(), 4200);
+setInterval(() => { for (const D of Object.values(decks)) syncDeckUi(D); if (S.rec) paintRec(); }, 300);
+
+const buf = new Float32Array(1024);
+function rms(an){ an.getFloatTimeDomainData(buf); let s = 0; for (let i = 0; i < buf.length; i++) s += buf[i] * buf[i]; return Math.sqrt(s / buf.length); }
+const meterPct = r => Math.round(clamp(Math.pow(r * 3.2, .6)) * 100);
+function meters(){
+  requestAnimationFrame(meters);
+  for (const D of Object.values(decks)) watchTune(D);
+  if (!ac) return;
+  for (const D of Object.values(decks)){
+    D.vu = Math.max(rms(D.an), D.vu * .86);
+    const w = meterPct(D.vu) + '%';
+    $('.level .vu', D.el).style.width = w;
+    $('.tab[data-d="' + D.id + '"] .vu').style.width = w;
+  }
+  S.mvu = Math.max(rms(masterAn), (S.mvu || 0) * .86);
+  $('#master i').style.height = meterPct(S.mvu) + '%';
+}
+requestAnimationFrame(meters);
+
+/* ---------- record the mix ---------- */
+function paintRec(){
+  const b = $('#rec');
+  b.classList.toggle('on', !!S.rec);
+  if (S.rec){ const s = Math.floor((performance.now() - S.recT0) / 1000); b.textContent = '■ ' + Math.floor(s / 60) + ':' + String(s % 60).padStart(2, '0'); }
+  else b.textContent = '● REC';
+}
+function toggleRec(){
+  if (S.rec){ try{ S.rec.stop(); }catch(_){} return; }
+  if (typeof MediaRecorder === 'undefined'){ hint('Recording is not supported in this browser', 5000); return; }
+  ensureAudio();
+  if (!S.running) start();
+  const type = ['audio/webm;codecs=opus','audio/webm','audio/mp4','audio/ogg'].find(t => MediaRecorder.isTypeSupported && MediaRecorder.isTypeSupported(t));
+  let r;
+  try{ r = new MediaRecorder(dest.stream, type ? { mimeType:type } : undefined); }
+  catch(e){ hint('Recording is not supported in this browser', 5000); return; }
+  S.chunks = [];
+  r.ondataavailable = e => { if (e.data && e.data.size) S.chunks.push(e.data); };
+  r.onstop = () => {
+    const mime = r.mimeType || 'audio/webm', blob = new Blob(S.chunks, { type:mime });
+    const ext = /mp4/.test(mime) ? 'm4a' : /ogg/.test(mime) ? 'ogg' : 'webm';
+    const name = 'mandalla-mix-' + new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19) + '.' + ext;
+    if (S.takeUrl) URL.revokeObjectURL(S.takeUrl);
+    S.takeUrl = URL.createObjectURL(blob); S.lastTake = { size:blob.size, type:mime, name };
+    S.rec = null; paintRec();
+    hint('Take saved (' + Math.max(1, Math.round(blob.size / 1024)) + ' KB) — <a href="' + S.takeUrl + '" download="' + name + '">download again</a>', 20000);
+    const a = document.createElement('a'); a.href = S.takeUrl; a.download = name; a.style.display = 'none';
+    document.body.appendChild(a); a.click(); a.remove();
+  };
+  r.start(250); S.rec = r; S.recT0 = performance.now(); paintRec();
+  hint('Recording the mix — press ■ to stop and save', 6000);
+}
+
+/* ---------- build ---------- */
+mkDeck('A', deckUrl(QS.get('a'), 'ghost'));
+mkDeck('B', deckUrl(QS.get('b'), 'maquina'));
+
+fader($('#xfader'), () => P.crossfade, v => setParam('crossfade', Math.abs(v - .5) < .025 ? .5 : v));
+fader($('#bpmFader'), () => norm.bpm(P.bpm), v => setParam('bpm', v), 1 / 120);
+for (const D of Object.values(decks)){
+  fader($('.level', D.el), () => P['level' + D.id], v => setParam('level' + D.id, v));
+  press($('.mute', D.el), () => setMute(D, !D.muted));
+  press($('.sprev', D.el), () => { clickIn(D, 'crate-prev'); syncDeckUi(D); });
+  press($('.snext', D.el), () => { clickIn(D, 'crate-next'); syncDeckUi(D); });
+  D.el.querySelectorAll('.ring').forEach(b => press(b, () => {
+    const r = +b.dataset.r;
+    if (!S.running) start();
+    clickIn(D, ['load-high','load-mid','load-low'][r]);
+    hint('Deck ' + D.id + ' · ' + ['HIGH','MID','LOW'][r] + ' ring → “' + esc($('.st', D.el).textContent) + '”', 3500);
+  }));
+  press($('.pat', D.el), () => { const i = beatIndex(D); setBeat(D, i < 0 ? 1 : i + 1); if (!S.running) start(); });
+  $('.album', D.el).addEventListener('change', e => {
+    const m = inner(D), src = m && m.doc.getElementById('crate-album-select');
+    if (src){ src.value = e.target.value; src.dispatchEvent(new Event('change')); }
+    syncDeckUi(D); syncUrl();
+  });
+}
+press($('#cutA'), () => setParam('crossfade', 0));
+press($('#cutB'), () => setParam('crossfade', 1));
+press($('#bpmDown'), () => setBpm(P.bpm - 1));
+press($('#bpmUp'), () => setBpm(P.bpm + 1));
+press($('#start'), () => S.running ? stop() : start());
+press($('#rec'), toggleRec);
+
+/* tap tempo */
+let taps = [];
+$('#tap').addEventListener('pointerdown', e => {
+  const now = performance.now(), b = e.currentTarget;
+  if (taps.length && now - taps[taps.length - 1] > 2000) taps = [];
+  taps.push(now); if (taps.length > 5) taps.shift();
+  b.classList.add('hit'); setTimeout(() => b.classList.remove('hit'), 90);
+  if (taps.length < 2){ hint('Keep tapping in time…', 2200); return; }
+  const avg = (taps[taps.length - 1] - taps[0]) / (taps.length - 1);
+  const bpm = setBpm(60000 / avg);
+  hint('Tapped tempo: ' + bpm + ' BPM', 2500);
+});
+
+/* deck focus (phone): tabs + sideways swipe on the tab bar or song title */
+function focus(id){
+  S.focus = id; $('#decks').dataset.focus = id;
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.dataset.d === id));
+}
+document.querySelectorAll('.tab').forEach(t => press(t, () => focus(t.dataset.d)));
+function swipeable(el){
+  let x0 = null;
+  el.addEventListener('pointerdown', e => { x0 = e.clientX; });
+  el.addEventListener('pointerup', e => { if (x0 === null) return; const dx = e.clientX - x0; x0 = null; if (Math.abs(dx) > 40) focus(dx < 0 ? 'B' : 'A'); });
+  el.addEventListener('pointercancel', () => { x0 = null; });
+}
+swipeable($('#tabs')); document.querySelectorAll('.song').forEach(swipeable);
+
+document.addEventListener('keydown', e => {
+  if (e.code === 'Space' && !/^(BUTTON|SELECT|INPUT)$/.test(e.target.tagName) && !e.target.classList.contains('fader')){ e.preventDefault(); S.running ? stop() : start(); }
+});
+
+/* ---------- messages from child decks and from an outer host ---------- */
+window.addEventListener('message', e => {
+  const msg = e.data; if (!msg || typeof msg !== 'object') return;
+  const D = Object.values(decks).find(d => d.frame.contentWindow === e.source);
+  if (D){
+    if (msg.type === 'audio-stream' && msg.stream) connectStream(D, msg.stream);
+    else if (msg.type === 'mandalla-debug'){
+      if (msg.stage === 'bpm-change' && msg.detail && Number.isFinite(+msg.detail.bpm)) deckBpm(D, +msg.detail.bpm);
+      if (msg.stage === 'booted' || msg.stage === 'resume-audio' || msg.stage === 'resume-direct'){
+        if (!S.running) start(); else setTimeout(() => attach(D), 30);
+      }
+    }
+    return;
+  }
+  if (e.source !== window.parent || window.parent === window) return;
+  switch (msg.type){
+    case 'request-audio-stream':
+      try{ e.source.postMessage({ type:'audio-stream', id:msg.id, stream:api.getStream() }, '*'); }
+      catch(err){                                     // a MediaStream cannot be cloned across windows: say so instead of staying silent
+        try{ e.source.postMessage({ type:'audio-stream', id:msg.id, stream:null, error:'stream-not-transferable', bridge:'window.scionDeck.getStream()' }, '*'); }catch(_){}
+      }
+      break;
+    case 'set-monitor': api.setMonitor(msg.on); break;
+    case 'resume-audio': start(); break;
+    case 'suspend-audio': stop(); break;
+    case 'set-bpm': setBpm(msg.bpm, { silent:true }); break;
+    case 'scion-hello': e.source.postMessage({ type:'scion-manifest', manifest:api.manifest() }, '*'); break;
+    case 'scion-set': setParam(msg.id, msg.value, { silent:true }); break;
+  }
+});
+
+/* ---------- SCION DECK PROTOCOL v1 bridge (this host can itself be nested) ---------- */
+const api = window.scionDeck = {
+  version:1,
+  manifest: () => ({ name:'MANDALLA DECK 2', kind:'host', params:[
+    { id:'crossfade', label:'Crossfade A↔B', group:'mix',   value:P.crossfade },
+    { id:'levelA',    label:'Deck A level',  group:'mix',   value:P.levelA },
+    { id:'levelB',    label:'Deck B level',  group:'mix',   value:P.levelB },
+    { id:'bpm',       label:'Tempo',         group:'tempo', value:norm.bpm(P.bpm) }
+  ]}),
+  getStream: () => { ensureAudio(); return dest.stream; },
+  set: (id, v) => setParam(id, v, { silent:true }),
+  get: id => getParam(id),
+  start: () => start(),
+  stop: () => stop(),
+  setMonitor: on => { S.monitor = !!on; if (ac) monitorGain.gain.setTargetAtTime(S.monitor ? 1 : 0, ac.currentTime, .02); },
+  setBpm: bpm => setBpm(bpm, { silent:true })
+};
+if (EMBED) S.monitor = false;
+
+paint(); paintTransport(); syncUrl(); hint();
+})();
+</script>
+</body>
+</html>
