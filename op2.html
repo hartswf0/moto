@@ -599,6 +599,54 @@
         const DEFAULT_ALBUM_PAIR = { a: 'moto', b: 'loom' };
 
         const OP2_ALBUM_LIBRARY = {
+            zonemonolith: {
+              key: "zonemonolith",
+              label: "ZONE SYSTEM MONOLITH",
+              short: "MONOLITH",
+              logic: "Monolith Signal Relay",
+              basePath: "ZONE SYSTEM MONOLITH/",
+              files: [
+                "Zone System Monolith - Slow Down Slow Down - Treblo.ogg",
+                "Zone System Monolith - Orbital Dembow - Treblo.ogg",
+                "Zone System Monolith - የድንጋይ ደረጃ - Treblo.ogg",
+                "Zone System Monolith - ሠዋሠው (Sewasew) - Treblo.ogg",
+                "Zone System Monolith - መግቢያ - Treblo.ogg",
+                "Zone System Monolith - When I'm in Awe - Treblo.ogg",
+                "Zone System Monolith - Dr. No's Ethiopium - Treblo.ogg",
+                "Zone System Monolith - Addis Psych-Funk Lab - Treblo.ogg",
+                "Zone System Monolith - Qena Lib - Treblo.ogg",
+                "Zone System Monolith - Cyan Jerikan Over Cosmic Addis - Treblo.ogg",
+                "Zone System Monolith - Bahilna Weg - Treblo.ogg",
+                "Zone System Monolith - Tizita Loop - Treblo.ogg",
+                "Zone System Monolith - Overpass Dawn & Gabi Static - Treblo.ogg",
+                "Zone System Monolith - Willpower - Treblo.ogg",
+                "Zone System Monolith - Tezeta - Treblo.ogg",
+                "Zone System Monolith - Tarmac Mirage - Treblo (3).ogg",
+                "Zone System Monolith - Tarmac Mirage - Treblo.ogg",
+                "Zone System Monolith - ሌላ መስመር - Treblo.ogg",
+                "Zone System Monolith - Spider Thread Cliff - Treblo.ogg",
+                "Zone System Monolith - የሸክላ ዲስክ ምት - Treblo.ogg",
+                "Zone System Monolith - Water Share _ Wax and Gold - Treblo.ogg",
+                "Zone System Monolith - የውኃ ችቦ - Treblo.ogg",
+                "Zone System Monolith - Carry the Water Through the Canyon - Treblo.ogg",
+                "Zone System Monolith - Survival Literacy - Treblo (1).ogg",
+                "Zone System Monolith - ABC's - Treblo.ogg",
+                "Zone System Monolith - Alemiye - Treblo.ogg",
+                "Zone System Monolith - Survival Literacy - Treblo.ogg",
+                "Zone System Monolith - The Game - Treblo.ogg",
+                "Zone System Monolith - Addis Clay Crawl - Treblo.ogg",
+                "Zone System Monolith - Esat Ena Wuha - Treblo.ogg",
+                "Zone System Monolith - የኢትዮጵያ ቴሌቪዥን - Treblo.ogg",
+                "Zone System Monolith - Maleda - Treblo.ogg",
+                "Zone System Monolith - ሰማያዊ ጀሪካን በጠፈራዊ አዲስ ሰማይ ስር - Treblo.ogg",
+                "Zone System Monolith - የውኃ ቅንብር - Treblo.ogg",
+                "Zone System Monolith - Well Iron, Hoofstone & Frost - Treblo.ogg",
+                "Zone System Monolith - Descent Into the Water Tank - Treblo.ogg",
+                "Zone System Monolith - Changes - Treblo.ogg",
+                "Zone System Monolith - 32 Hertz Meditation - Treblo.ogg",
+                "Zone System Monolith - Off Site, Suidobashi, Tokyo - Treblo.ogg"
+              ]
+            },
             moto: {
                 key: 'moto',
                 label: 'MOTO',
@@ -3092,6 +3140,7 @@
                 .replace(/\.(?:mp3|ogg)$/i, '')
                 .replace(/^\d+_/, '')
                 .replace(/^coolradio\s*-\s*/i, '')
+                .replace(/^zone system monolith\s*-\s*/i, '')
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
                 .replace(/^river bank waiting\s*-\s*/i, '')
                 .replace(/^solar reveries\s*-\s*/i, '')
@@ -3150,7 +3199,7 @@
                 .replace(/Upstream_ Main Street to the Rise/i, 'Upstream: Main Street to the Rise')
                 .replace(/Nine Chambers _ One Blueprint/i, 'Nine Chambers / One Blueprint')
                 .replace(/^southern noise catharsis\s*-\s*/i, '')
-                .replace(/^\d{1,2}[_\s-]+/, '')
+                .replace(/^(?!32\s+Hertz\s+Meditation)\d{1,2}[_\s-]+/, '')
                 .replace(/^silence in the 757\s*-\s*/i, '')
                 .replace(/^gole yakh memory\s*-\s*/i, '')
                 .replace(/^clinical heat\s*-\s*/i, '')
@@ -3235,6 +3284,7 @@
             if (v === 'daefivestar' || v === 'dae-five-star' || v === 'dae-five-star-cut' || v === 'dae-still-open-five-star-cut' || v === 'dae 5 star' || v === 'dae 5★') return 'daefivestar';
             if (v === 'daehoned' || v === 'dae-honed' || v === 'dae-honed-for-film' || v === 'dae film' || v === 'dae soundtrack') return 'daehoned';
             if (v === 'rentedroom' || v === 'rented-room' || v === 'rented room' || v === 'desert motel') return 'rentedroom';
+            if (['zonemonolith', 'zone-system-monolith', 'zone system monolith', 'zsm'].includes(v)) return 'zonemonolith';
             if (v === 'brutesenate' || v === 'brute-senate' || v === 'shadow coup' || v === 'dagger in the senate') return 'brutesenate';
             if (v === 'boxback' || v === 'box-back' || v === 'universal boxback' || v === 'et tu brute boxback') return 'boxback';
             if (v === 'etubrute' || v === 'et-tu-brute' || v === 'et tu brute' || v === 'et tu brute beats' || v === 'brute beats') return 'etubrute';

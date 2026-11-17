@@ -38,6 +38,102 @@
   let mediaManifestPromise = null;
 
   const ALBUMS = {
+    zonemonolith: {
+      key: "zonemonolith",
+      pageSlug: "zone-system-monolith",
+      basePath: "../ZONE SYSTEM MONOLITH/",
+      label: "ZONE SYSTEM MONOLITH",
+      subtitle: "39 tracks / stone, water, and blue signal",
+      accentA: "#29bfff",
+      accentB: "#ffd34d",
+      coverImage: "../ZONE SYSTEM MONOLITH/ZSM-SQUARE.png",
+      defaultTrackArt: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+      trackArtByIndex: {
+        0: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        1: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        2: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        3: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        4: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        5: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        6: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        7: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        8: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        9: "../ZONE SYSTEM MONOLITH/ZSM-PRIME.png",
+        10: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        11: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        12: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        13: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        14: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        15: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        16: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        17: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        18: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        19: "../ZONE SYSTEM MONOLITH/ZSM-01.png",
+        20: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        21: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        22: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        23: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        24: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        25: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        26: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        27: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        28: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        29: "../ZONE SYSTEM MONOLITH/ZSM-02.png",
+        30: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        31: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        32: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        33: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        34: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        35: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        36: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        37: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png",
+        38: "../ZONE SYSTEM MONOLITH/ZONE-SYSTEM-MONOLITH.png"
+      },
+      hallKey: "zonemonolith",
+      op2Key: "zonemonolith",
+      op2Pair: "yegelle",
+      files: [
+        "Zone System Monolith - Slow Down Slow Down - Treblo.ogg",
+        "Zone System Monolith - Orbital Dembow - Treblo.ogg",
+        "Zone System Monolith - የድንጋይ ደረጃ - Treblo.ogg",
+        "Zone System Monolith - ሠዋሠው (Sewasew) - Treblo.ogg",
+        "Zone System Monolith - መግቢያ - Treblo.ogg",
+        "Zone System Monolith - When I'm in Awe - Treblo.ogg",
+        "Zone System Monolith - Dr. No's Ethiopium - Treblo.ogg",
+        "Zone System Monolith - Addis Psych-Funk Lab - Treblo.ogg",
+        "Zone System Monolith - Qena Lib - Treblo.ogg",
+        "Zone System Monolith - Cyan Jerikan Over Cosmic Addis - Treblo.ogg",
+        "Zone System Monolith - Bahilna Weg - Treblo.ogg",
+        "Zone System Monolith - Tizita Loop - Treblo.ogg",
+        "Zone System Monolith - Overpass Dawn & Gabi Static - Treblo.ogg",
+        "Zone System Monolith - Willpower - Treblo.ogg",
+        "Zone System Monolith - Tezeta - Treblo.ogg",
+        "Zone System Monolith - Tarmac Mirage - Treblo (3).ogg",
+        "Zone System Monolith - Tarmac Mirage - Treblo.ogg",
+        "Zone System Monolith - ሌላ መስመር - Treblo.ogg",
+        "Zone System Monolith - Spider Thread Cliff - Treblo.ogg",
+        "Zone System Monolith - የሸክላ ዲስክ ምት - Treblo.ogg",
+        "Zone System Monolith - Water Share _ Wax and Gold - Treblo.ogg",
+        "Zone System Monolith - የውኃ ችቦ - Treblo.ogg",
+        "Zone System Monolith - Carry the Water Through the Canyon - Treblo.ogg",
+        "Zone System Monolith - Survival Literacy - Treblo (1).ogg",
+        "Zone System Monolith - ABC's - Treblo.ogg",
+        "Zone System Monolith - Alemiye - Treblo.ogg",
+        "Zone System Monolith - Survival Literacy - Treblo.ogg",
+        "Zone System Monolith - The Game - Treblo.ogg",
+        "Zone System Monolith - Addis Clay Crawl - Treblo.ogg",
+        "Zone System Monolith - Esat Ena Wuha - Treblo.ogg",
+        "Zone System Monolith - የኢትዮጵያ ቴሌቪዥን - Treblo.ogg",
+        "Zone System Monolith - Maleda - Treblo.ogg",
+        "Zone System Monolith - ሰማያዊ ጀሪካን በጠፈራዊ አዲስ ሰማይ ስር - Treblo.ogg",
+        "Zone System Monolith - የውኃ ቅንብር - Treblo.ogg",
+        "Zone System Monolith - Well Iron, Hoofstone & Frost - Treblo.ogg",
+        "Zone System Monolith - Descent Into the Water Tank - Treblo.ogg",
+        "Zone System Monolith - Changes - Treblo.ogg",
+        "Zone System Monolith - 32 Hertz Meditation - Treblo.ogg",
+        "Zone System Monolith - Off Site, Suidobashi, Tokyo - Treblo.ogg"
+      ]
+    },
     volholla: {
       key: "volholla",
       pageSlug: "volholla",
@@ -4217,6 +4313,7 @@
       .replace(/\.(?:mp3|ogg)$/i, "")
       .replace(/^\d+_/, "")
       .replace(/^coolradio\s*-\s*/i, "")
+      .replace(/^zone system monolith\s*-\s*/i, "")
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/^river bank waiting\s*-\s*/i, "")
       .replace(/^solar reveries\s*-\s*/i, "")
@@ -4282,7 +4379,7 @@
       .replace(/Upstream_ Main Street to the Rise/i, "Upstream: Main Street to the Rise")
       .replace(/Nine Chambers _ One Blueprint/i, "Nine Chambers / One Blueprint")
       .replace(/^southern noise catharsis\s*-\s*/i, "")
-        .replace(/^\d{1,2}[_\s-]+/, "")
+        .replace(/^(?!32\s+Hertz\s+Meditation)\d{1,2}[_\s-]+/, "")
       .replace(/^empty are the fields\s*-\s*/i, "")
       .replace(/^weed-choked field\s*-\s*/i, "")
       .replace(/^the weed-choked field\s*-\s*/i, "")
@@ -4480,6 +4577,7 @@
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") {
       return "rentedroom";
     }
+    if (["zonemonolith", "zone-system-monolith", "zone system monolith", "zsm"].includes(raw)) return "zonemonolith";
     if (raw === "brutesenate" || raw === "brute-senate" || raw === "shadow coup" || raw === "dagger in the senate") {
       return "brutesenate";
     }

@@ -17,6 +17,7 @@ Static audio playground + shield jukebox for GitHub Pages.
 
 ### Album keys
 
+- `zonemonolith` — Zone System Monolith (blue/yellow selections first)
 - `volholla`
 - `elephant`
 - `loom`
@@ -98,7 +99,7 @@ Enable Pages in the repository settings and publish from:
 - Branch: `main`
 - Folder: `/ (root)`
 
-The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, `mareamemory`, `polliwog`, `lastweekaugust`, `stagnant`, `yegelle`, `firstwintera`, `firstwinterb`, `brutesenate`, `boxback`, `etubrute`, `boxesback`, `southernnoise`, `coatvectors`, `kudzucontact`, and `neonbutterfly` currently use `.ogg`.
+The repo includes local audio files used directly by the pages. Most albums are `.mp3`; `river`, `crossroads`, `solar`, `jukebox`, `cyber`, `goleyakh`, `noservice`, `concreto`, `cypher`, `usblegacy`, `ferrous`, `congregation`, `maquina`, `blackwater`, `heishui`, `doppler`, `aeolian`, `chapelring`, `republicdrink`, `sanctuaryshake`, `globalstadium`, `cavalrymarsh`, `midnightsteppe`, `brooklynomen`, `paperglasses`, `inthemiddle`, `mareamemory`, `polliwog`, `lastweekaugust`, `stagnant`, `yegelle`, `firstwintera`, `firstwinterb`, `brutesenate`, `boxback`, `etubrute`, `boxesback`, `southernnoise`, `coatvectors`, `kudzucontact`, `neonbutterfly`, and `zonemonolith` currently use `.ogg`.
 
 ## Media Derivatives
 
