@@ -8,6 +8,8 @@ export function titleFromFilename(file) {
     .replace(/\.(?:mp3|ogg|wav|m4a|aac)$/i, "")
     .replace(/^\d+_/, "")
     .replace(/^coolradio\s*-\s*/i, "")
+    .replace(/^deep sea voyage\s*-\s*/i, "")
+    .replace(/^(Yellow Submarine|Exodus Song|Star(?:á|a\u0301)lfur)_\s*/i, "$1: ")
     .replace(/^zone system monolith\s*-\s*/i, "")
     .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
     .replace(/^river bank waiting\s*-\s*/i, "")

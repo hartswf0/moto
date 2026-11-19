@@ -38,6 +38,84 @@
   let mediaManifestPromise = null;
 
   const ALBUMS = {
+    deepsea: {
+      key: "deepsea",
+      pageSlug: "deep-sea-voyage",
+      basePath: "../deep sea voyage/",
+      label: "DEEP SEA VOYAGE",
+      subtitle: "23 tracks / brass, whale song, and submersible light",
+      accentA: "#24c6c8",
+      accentB: "#f4a340",
+      coverImage: "../deep sea voyage/deeo-sea.png",
+      defaultTrackArt: "../deep sea voyage/deep-sea-02.png",
+      trackArtByIndex: {
+        0: "../deep sea voyage/deep-sea-04.png",
+        1: "../deep sea voyage/deep-sea-04.png",
+        2: "../deep sea voyage/deep-sea-04.png",
+        3: "../deep sea voyage/deep-sea-04.png",
+        4: "../deep sea voyage/deep-sea-04.png",
+        5: "../deep sea voyage/deep-sea-02.png",
+        6: "../deep sea voyage/deep-sea-02.png",
+        7: "../deep sea voyage/deep-sea-02.png",
+        8: "../deep sea voyage/deep-sea-02.png",
+        9: "../deep sea voyage/deep-sea-02.png",
+        10: "../deep sea voyage/deep-sea-02.png",
+        11: "../deep sea voyage/deep-sea-02.png",
+        12: "../deep sea voyage/deep-sea-02.png",
+        13: "../deep sea voyage/deep-sea-03.png",
+        14: "../deep sea voyage/deep-sea-03.png",
+        15: "../deep sea voyage/deep-sea-03.png",
+        16: "../deep sea voyage/deep-sea-03.png",
+        17: "../deep sea voyage/deep-sea-03.png",
+        18: "../deep sea voyage/deeo-sea.png",
+        19: "../deep sea voyage/deeo-sea.png",
+        20: "../deep sea voyage/deeo-sea.png",
+        21: "../deep sea voyage/deeo-sea.png",
+        22: "../deep sea voyage/deeo-sea.png"
+      },
+      hallKey: "deepsea",
+      op2Key: "deepsea",
+      op2Pair: "abyssalcrown",
+      files: [
+        "Deep Sea Voyage - Yellow Submarine_ Abbey Road Brass-Foley Singalong - Treblo.ogg",
+        "Deep Sea Voyage - Nobody Living Can Ever Stop Me - Treblo.ogg",
+        "Deep Sea Voyage - The Prophet - Treblo.ogg",
+        "Deep Sea Voyage - 水上のモーター走行 - Treblo.ogg",
+        "Deep Sea Voyage - Whale's Belly Escape - Treblo.ogg",
+        "Deep Sea Voyage - Warning Unheeded - Treblo.ogg",
+        "Deep Sea Voyage - Exodus Song_ Viennese Epic to Satire - Treblo.ogg",
+        "Deep Sea Voyage - The Verne Bench - Treblo.ogg",
+        "Deep Sea Voyage - Gaslit Feerie Pit-Piano and Star-Film Salon - Treblo.ogg",
+        "Deep Sea Voyage - Whale Belly Breach - Treblo.ogg",
+        "Deep Sea Voyage - Submersible Propulsion - Treblo.ogg",
+        "Deep Sea Voyage - クジラの体内からの脱出（水上の走行シーン） - Treblo.ogg",
+        "Deep Sea Voyage - The Fool on You Thinkinghorn Leviathan - Treblo.ogg",
+        "Deep Sea Voyage - Starálfur_ Palindromic Strings in Submersible Light - Treblo.ogg",
+        "Deep Sea Voyage - Up on Melancholy Hill - Treblo.ogg",
+        "Deep Sea Voyage - Descent to the Abyss - Treblo.ogg",
+        "Deep Sea Voyage - Ondes In The Abbey - Treblo.ogg",
+        "Deep Sea Voyage - Swordfish IV - Treblo.ogg",
+        "Deep Sea Voyage - Cyborg Gospel - Treblo.ogg",
+        "Deep Sea Voyage - Lake Merritt Clave - Treblo.ogg",
+        "Deep Sea Voyage - The Selkie's Cradle - Treblo.ogg",
+        "Deep Sea Voyage - Harpsichord in the Abyss - Treblo.ogg",
+        "Deep Sea Voyage - The Hull Breaks Surface - Treblo.ogg"
+      ],
+      notes: [
+        [
+          "Sequence",
+          "The five red-marked selections lead the voyage, followed by the other color-marked tracks and the remaining recordings."
+        ],
+        [
+          "Art",
+          "Four submarine studies move from the surface through submerged cities, a sunken parlor, and a deep-sea broadcast."
+        ],
+        [
+          "OP2 Pair",
+          "Launch with The Abyssal Crown as the companion album."
+        ]
+      ]
+    },
     zonemonolith: {
       key: "zonemonolith",
       pageSlug: "zone-system-monolith",
@@ -4750,6 +4828,8 @@
       .replace(/\.(?:mp3|ogg)$/i, "")
       .replace(/^\d+_/, "")
       .replace(/^coolradio\s*-\s*/i, "")
+      .replace(/^deep sea voyage\s*-\s*/i, "")
+      .replace(/^(Yellow Submarine|Exodus Song|Star(?:á|a\u0301)lfur)_\s*/i, "$1: ")
       .replace(/^zone system monolith\s*-\s*/i, "")
       .replace(/^geometric ghosts of mitte\s*-\s*/i, "")
       .replace(/^river bank waiting\s*-\s*/i, "")
@@ -5008,6 +5088,7 @@
     if (raw === "daefivestar" || raw === "dae-five-star" || raw === "dae-five-star-cut" || raw === "dae-still-open-five-star-cut" || raw === "dae 5 star" || raw === "dae 5★") return "daefivestar";
     if (raw === "daehoned" || raw === "dae-honed" || raw === "dae-honed-for-film" || raw === "dae film" || raw === "dae soundtrack") return "daehoned";
     if (raw === "rentedroom" || raw === "rented-room" || raw === "rented room" || raw === "desert motel") return "rentedroom";
+    if (["deepsea", "deep-sea-voyage", "deep_sea_voyage", "deep sea voyage", "dsv"].includes(raw)) return "deepsea";
     if (["zonemonolith", "zone-system-monolith", "zone system monolith", "zsm"].includes(raw)) return "zonemonolith";
     if (raw === "brutesenate" || raw === "brute-senate" || raw === "shadow coup" || raw === "dagger in the senate") return "brutesenate";
     if (raw === "boxback" || raw === "box-back" || raw === "universal boxback" || raw === "et tu brute boxback") return "boxback";

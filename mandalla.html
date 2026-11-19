@@ -1093,6 +1093,39 @@
         const EMBED_MODE = ['1', 'true', 'yes'].includes((URL_STATE.get('embed') || '').toLowerCase());
 
         const ALBUM_CRATE_DEFS = {
+            deepsea: {
+              key: "deepsea",
+              label: "DEEP SEA VOYAGE",
+              shortLabel: "DEEP SEA",
+              libraryParam: "deepsea",
+              op2Pair: "abyssalcrown",
+              basePath: "deep sea voyage/",
+              files: [
+                "Deep Sea Voyage - Yellow Submarine_ Abbey Road Brass-Foley Singalong - Treblo.ogg",
+                "Deep Sea Voyage - Nobody Living Can Ever Stop Me - Treblo.ogg",
+                "Deep Sea Voyage - The Prophet - Treblo.ogg",
+                "Deep Sea Voyage - 水上のモーター走行 - Treblo.ogg",
+                "Deep Sea Voyage - Whale's Belly Escape - Treblo.ogg",
+                "Deep Sea Voyage - Warning Unheeded - Treblo.ogg",
+                "Deep Sea Voyage - Exodus Song_ Viennese Epic to Satire - Treblo.ogg",
+                "Deep Sea Voyage - The Verne Bench - Treblo.ogg",
+                "Deep Sea Voyage - Gaslit Feerie Pit-Piano and Star-Film Salon - Treblo.ogg",
+                "Deep Sea Voyage - Whale Belly Breach - Treblo.ogg",
+                "Deep Sea Voyage - Submersible Propulsion - Treblo.ogg",
+                "Deep Sea Voyage - クジラの体内からの脱出（水上の走行シーン） - Treblo.ogg",
+                "Deep Sea Voyage - The Fool on You Thinkinghorn Leviathan - Treblo.ogg",
+                "Deep Sea Voyage - Starálfur_ Palindromic Strings in Submersible Light - Treblo.ogg",
+                "Deep Sea Voyage - Up on Melancholy Hill - Treblo.ogg",
+                "Deep Sea Voyage - Descent to the Abyss - Treblo.ogg",
+                "Deep Sea Voyage - Ondes In The Abbey - Treblo.ogg",
+                "Deep Sea Voyage - Swordfish IV - Treblo.ogg",
+                "Deep Sea Voyage - Cyborg Gospel - Treblo.ogg",
+                "Deep Sea Voyage - Lake Merritt Clave - Treblo.ogg",
+                "Deep Sea Voyage - The Selkie's Cradle - Treblo.ogg",
+                "Deep Sea Voyage - Harpsichord in the Abyss - Treblo.ogg",
+                "Deep Sea Voyage - The Hull Breaks Surface - Treblo.ogg"
+              ]
+            },
             zonemonolith: {
               key: "zonemonolith",
               label: "ZONE SYSTEM MONOLITH",
@@ -2990,6 +3023,8 @@
                 .replace(/\.(?:mp3|ogg)$/i, '')
                 .replace(/^\d+_/, '')
                 .replace(/^coolradio\s*-\s*/i, '')
+                .replace(/^deep sea voyage\s*-\s*/i, '')
+                .replace(/^(Yellow Submarine|Exodus Song|Star(?:á|a\u0301)lfur)_\s*/i, '$1: ')
                 .replace(/^zone system monolith\s*-\s*/i, '')
                 .replace(/^geometric ghosts of mitte\s*-\s*/i, '')
                 .replace(/^river bank waiting\s*-\s*/i, '')
@@ -3054,6 +3089,7 @@
         }
 
         function normalizeAlbumKey(raw) {
+            if (['deepsea', 'deep-sea-voyage', 'deep_sea_voyage', 'deep sea voyage', 'dsv'].includes(String(raw || '').trim().toLowerCase())) return 'deepsea';
             if (['zonemonolith', 'zone-system-monolith', 'zone system monolith', 'zsm'].includes(String(raw || '').trim().toLowerCase())) return 'zonemonolith';
             const v = String(raw || '').toLowerCase();
             if (v === 'stochastic-elephant' || v === 'stochastic_elephant') return 'elephant';

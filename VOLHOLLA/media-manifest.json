@@ -1,8 +1,374 @@
 {
-  "generatedAt": "2026-11-17T04:01:23.242Z",
+  "generatedAt": "2026-11-19T06:26:29.482Z",
   "imagesManifest": "MEDIA_DERIVATIVES/images/manifest.json",
   "audioManifest": "MEDIA_DERIVATIVES/audio/manifest.json",
   "albums": {
+    "deepsea": {
+      "key": "deepsea",
+      "label": "DEEP SEA VOYAGE",
+      "subtitle": "23 tracks / brass, whale song, and submersible light",
+      "pageSlug": "deep-sea-voyage",
+      "hallKey": "deepsea",
+      "op2Key": "deepsea",
+      "op2Pair": "abyssalcrown",
+      "accentA": "#24c6c8",
+      "accentB": "#f4a340",
+      "cover": {
+        "source": "deep sea voyage/deeo-sea.png",
+        "derivatives": {}
+      },
+      "defaultTrackArt": {
+        "source": "deep sea voyage/deep-sea-02.png",
+        "derivatives": {}
+      },
+      "tracks": [
+        {
+          "index": 1,
+          "title": "Yellow Submarine: Abbey Road Brass-Foley Singalong",
+          "file": "Deep Sea Voyage - Yellow Submarine_ Abbey Road Brass-Foley Singalong - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Yellow Submarine_ Abbey Road Brass-Foley Singalong - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-01.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Yellow Submarine_ Abbey Road Brass-Foley Singalong - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-04.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 2,
+          "title": "Nobody Living Can Ever Stop Me",
+          "file": "Deep Sea Voyage - Nobody Living Can Ever Stop Me - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Nobody Living Can Ever Stop Me - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-02.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Nobody Living Can Ever Stop Me - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-04.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 3,
+          "title": "The Prophet",
+          "file": "Deep Sea Voyage - The Prophet - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - The Prophet - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-03.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - The Prophet - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-04.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 4,
+          "title": "水上のモーター走行",
+          "file": "Deep Sea Voyage - 水上のモーター走行 - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - 水上のモーター走行 - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-04.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - 水上のモーター走行 - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-04.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 5,
+          "title": "Whale's Belly Escape",
+          "file": "Deep Sea Voyage - Whale's Belly Escape - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Whale's Belly Escape - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-05.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Whale's Belly Escape - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-04.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 6,
+          "title": "Warning Unheeded",
+          "file": "Deep Sea Voyage - Warning Unheeded - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Warning Unheeded - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-06.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Warning Unheeded - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 7,
+          "title": "Exodus Song: Viennese Epic to Satire",
+          "file": "Deep Sea Voyage - Exodus Song_ Viennese Epic to Satire - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Exodus Song_ Viennese Epic to Satire - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-07.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Exodus Song_ Viennese Epic to Satire - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 8,
+          "title": "The Verne Bench",
+          "file": "Deep Sea Voyage - The Verne Bench - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - The Verne Bench - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-08.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - The Verne Bench - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 9,
+          "title": "Gaslit Feerie Pit-Piano and Star-Film Salon",
+          "file": "Deep Sea Voyage - Gaslit Feerie Pit-Piano and Star-Film Salon - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Gaslit Feerie Pit-Piano and Star-Film Salon - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-09.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Gaslit Feerie Pit-Piano and Star-Film Salon - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 10,
+          "title": "Whale Belly Breach",
+          "file": "Deep Sea Voyage - Whale Belly Breach - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Whale Belly Breach - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-10.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Whale Belly Breach - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 11,
+          "title": "Submersible Propulsion",
+          "file": "Deep Sea Voyage - Submersible Propulsion - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Submersible Propulsion - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-11.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Submersible Propulsion - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 12,
+          "title": "クジラの体内からの脱出（水上の走行シーン）",
+          "file": "Deep Sea Voyage - クジラの体内からの脱出（水上の走行シーン） - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - クジラの体内からの脱出（水上の走行シーン） - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-12.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - クジラの体内からの脱出（水上の走行シーン） - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 13,
+          "title": "The Fool on You Thinkinghorn Leviathan",
+          "file": "Deep Sea Voyage - The Fool on You Thinkinghorn Leviathan - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - The Fool on You Thinkinghorn Leviathan - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-13.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - The Fool on You Thinkinghorn Leviathan - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-02.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 14,
+          "title": "Starálfur: Palindromic Strings in Submersible Light",
+          "file": "Deep Sea Voyage - Starálfur_ Palindromic Strings in Submersible Light - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Starálfur_ Palindromic Strings in Submersible Light - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-14.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Starálfur_ Palindromic Strings in Submersible Light - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-03.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 15,
+          "title": "Up on Melancholy Hill",
+          "file": "Deep Sea Voyage - Up on Melancholy Hill - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Up on Melancholy Hill - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-15.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Up on Melancholy Hill - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-03.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 16,
+          "title": "Descent to the Abyss",
+          "file": "Deep Sea Voyage - Descent to the Abyss - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Descent to the Abyss - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-16.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Descent to the Abyss - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-03.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 17,
+          "title": "Ondes In The Abbey",
+          "file": "Deep Sea Voyage - Ondes In The Abbey - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Ondes In The Abbey - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-17.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Ondes In The Abbey - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-03.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 18,
+          "title": "Swordfish IV",
+          "file": "Deep Sea Voyage - Swordfish IV - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Swordfish IV - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-18.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Swordfish IV - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deep-sea-03.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 19,
+          "title": "Cyborg Gospel",
+          "file": "Deep Sea Voyage - Cyborg Gospel - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Cyborg Gospel - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-19.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Cyborg Gospel - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deeo-sea.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 20,
+          "title": "Lake Merritt Clave",
+          "file": "Deep Sea Voyage - Lake Merritt Clave - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Lake Merritt Clave - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-20.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Lake Merritt Clave - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deeo-sea.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 21,
+          "title": "The Selkie's Cradle",
+          "file": "Deep Sea Voyage - The Selkie's Cradle - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - The Selkie's Cradle - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-21.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - The Selkie's Cradle - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deeo-sea.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 22,
+          "title": "Harpsichord in the Abyss",
+          "file": "Deep Sea Voyage - Harpsichord in the Abyss - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - Harpsichord in the Abyss - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-22.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - Harpsichord in the Abyss - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deeo-sea.png",
+            "derivatives": {}
+          }
+        },
+        {
+          "index": 23,
+          "title": "The Hull Breaks Surface",
+          "file": "Deep Sea Voyage - The Hull Breaks Surface - Treblo.ogg",
+          "source": "deep sea voyage/Deep Sea Voyage - The Hull Breaks Surface - Treblo.ogg",
+          "songPage": "VOLHOLLA/song-deepsea-23.html",
+          "audio": {
+            "source": "deep sea voyage/Deep Sea Voyage - The Hull Breaks Surface - Treblo.ogg",
+            "derivatives": {}
+          },
+          "art": {
+            "source": "deep sea voyage/deeo-sea.png",
+            "derivatives": {}
+          }
+        }
+      ]
+    },
     "zonemonolith": {
       "key": "zonemonolith",
       "label": "ZONE SYSTEM MONOLITH",
